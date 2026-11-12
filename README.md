@@ -3,10 +3,12 @@
 RegioPress is an historical and regional press corpus with language identification. 
 
 ## Production
-1. Document Layout Analysis: We used the LADaS framework, dataset and models (Layout Annotation Dataset with SegmOnto) and finetuned it with 200 pages randomly selected in the Presse Régionale portal of Gallica and manually annotated. We created another modele (Article-recognizer) for article segmentation.
-2. OCR with Kraken.
-3. LADaS2TEI was used to transform ALTO XML outputs of Kraken into TEI files.
-4. LID
+1. Document Layout Analysis models: We used the LADaS framework, dataset and models (Layout Annotation Dataset with SegmOnto) and finetuned it with 200 pages randomly selected in the Presse Régionale portal of Gallica and manually annotated. We created another modele (Article-recognizer) for article segmentation.
+2. ATR Pipeline: the process_image script enable the DLA models segmentation ladas and article) and merge it with the textlines contained in the BNF ALTO files.<br/>
+   To use it: ```python pipeline/process_image.py   --data 1_data_exemple   --ladas-model ./2_DLA/ladas-ft-article.safetensors   --article-model ./2_DLA/article-detector.safetensors   --continue-on-error```
+
+4. LADaS2TEI was used to transform ALTO XML outputs of Kraken into TEI files.
+5. LID
 
 ## Corpus description
 
