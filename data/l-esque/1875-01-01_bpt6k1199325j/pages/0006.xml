@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.loc.gov/standards/alto/ns-v4#"
+    xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-3.xsd">
+    <Description>
+        <MeasurementUnit>pixel</MeasurementUnit>
+        <sourceImageInformation>
+            <fileName>data/l-esque/1875-01-01_bpt6k1199325j/pages/0006.jpg</fileName>
+        </sourceImageInformation>
+        <Processing ID="OCR__494a8494-ee4e-4ce2-8885-3e446501c913">
+            <processingCategory>contentGeneration</processingCategory>
+            <processingStepDescription>Baseline and region segmentation</processingStepDescription>
+            <processingStepSettings>model: seg_presse.safetensors; text_direction: horizontal-lr</processingStepSettings>
+            <processingSoftware>
+                <softwareName>kraken</softwareName>
+                <softwareVersion>7.1.1</softwareVersion>
+            </processingSoftware>
+        </Processing>
+        <Processing ID="OCR__a562ef29-9a0b-4024-bd53-abe68968d6c9">
+            <processingCategory>contentGeneration</processingCategory>
+            <processingStepDescription>Text line recognition</processingStepDescription>
+            <processingStepSettings>text_direction: horizontal-tb; models: ppocr-medium.safetensors; pad: 16; linetype: baselines; bidi_reordering: None</processingStepSettings>
+            <processingSoftware>
+                <softwareName>kraken</softwareName>
+                <softwareVersion>7.1.1</softwareVersion>
+            </processingSoftware>
+        </Processing>
+    </Description>
+    <Tags>
+        <OtherTag DESCRIPTION="" ID="TYPE_1" TYPE="type" LABEL="DigitizationArtefactZone"/>
+        <OtherTag DESCRIPTION="" ID="TYPE_2" TYPE="type" LABEL="default"/>
+        <OtherTag DESCRIPTION="" ID="TYPE_3" TYPE="type" LABEL="text"/>
+    </Tags>
+    <Layout>
+        <Page WIDTH="1024" HEIGHT="1420" PHYSICAL_IMG_NR="0" ID="page_0">
+            <PrintSpace HPOS="0" VPOS="0" WIDTH="1024" HEIGHT="1420">
+                <TextBlock ID="_b4ecabbd-3def-43bf-80a8-02fc9899e1c7" HPOS="626" VPOS="1392" WIDTH="396" HEIGHT="27" TAGREFS="TYPE_1">
+<Shape>
+                        <Polygon POINTS="626 1392 626 1419 1022 1419 1022 1392"/>
+                    </Shape>
+                    <TextLine ID="_f24771cf-0943-4fae-b7c4-5f7863240700" HPOS="651" VPOS="1388" WIDTH="323" HEIGHT="31" BASELINE="652 1412 974 1411" TAGREFS="TYPE_2">
+                        <Shape>
+                            <Polygon POINTS="652 1412 652 1419 659 1419 667 1419 675 1419 683 1419 691 1419 698 1419 706 1419 714 1419 722 1419 730 1419 738 1419 746 1419 754 1419 762 1419 769 1419 777 1419 785 1419 793 1419 801 1419 809 1419 817 1419 825 1419 833 1419 840 1419 848 1419 856 1419 864 1419 872 1419 880 1419 888 1419 896 1419 904 1419 911 1419 919 1419 927 1419 935 1419 943 1419 951 1419 959 1419 967 1419 973 1419 974 1411 970 1388 965 1393 651 1393 652 1412"/>
+                        </Shape>
+                        <String ID="segment_0" CONTENT="/̀" HPOS="773" VPOS="1393" WIDTH="69" HEIGHT="26" WC="0.6092">
+                            <Shape>
+                                <Polygon POINTS="773 1393 773 1419 842 1419 842 1393"/>
+                            </Shape>
+                            <Glyph ID="char_0" CONTENT="/" HPOS="773" VPOS="1393" WIDTH="0" HEIGHT="26" GC="0.7054">
+                                <Shape>
+                                    <Polygon POINTS="773 1393 773 1419 773 1419 773 1393"/>
+                                </Shape>
+                            </Glyph>
+                            <Glyph ID="char_1" CONTENT="̀" HPOS="842" VPOS="1393" WIDTH="0" HEIGHT="26" GC="0.5129">
+                                <Shape>
+                                    <Polygon POINTS="842 1393 842 1419 842 1419 842 1393"/>
+                                </Shape>
+                            </Glyph>
+                        </String>
+                    </TextLine>
+</TextBlock>
+                <TextBlock ID="_55eb384d-8c60-47cd-9066-1cadb44c7c8f" HPOS="652" VPOS="1404" WIDTH="371" HEIGHT="8" TAGREFS="TYPE_3">
+<Shape>
+                        <Polygon POINTS="652 1404 967 1404 1023 1412 652 1412 652 1404"/>
+                    </Shape></TextBlock>
+            </PrintSpace>
+        </Page>
+    </Layout>
+</alto>

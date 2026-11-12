@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.loc.gov/standards/alto/ns-v4#"
+    xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-3.xsd">
+    <Description>
+        <MeasurementUnit>pixel</MeasurementUnit>
+        <sourceImageInformation>
+            <fileName>data/oc/1949-01-01_bd6t539039157/pages/0001.jpg</fileName>
+        </sourceImageInformation>
+        <Processing ID="OCR__494a8494-ee4e-4ce2-8885-3e446501c913">
+            <processingCategory>contentGeneration</processingCategory>
+            <processingStepDescription>Baseline and region segmentation</processingStepDescription>
+            <processingStepSettings>model: seg_presse.safetensors; text_direction: horizontal-lr</processingStepSettings>
+            <processingSoftware>
+                <softwareName>kraken</softwareName>
+                <softwareVersion>7.1.1</softwareVersion>
+            </processingSoftware>
+        </Processing>
+        <Processing ID="OCR__a562ef29-9a0b-4024-bd53-abe68968d6c9">
+            <processingCategory>contentGeneration</processingCategory>
+            <processingStepDescription>Text line recognition</processingStepDescription>
+            <processingStepSettings>text_direction: horizontal-tb; models: ppocr-medium.safetensors; pad: 16; linetype: baselines; bidi_reordering: None</processingStepSettings>
+            <processingSoftware>
+                <softwareName>kraken</softwareName>
+                <softwareVersion>7.1.1</softwareVersion>
+            </processingSoftware>
+        </Processing>
+    </Description>
+    <Tags>
+        <OtherTag DESCRIPTION="" ID="TYPE_1" TYPE="type" LABEL="DigitizationArtefactZone"/>
+        <OtherTag DESCRIPTION="" ID="TYPE_2" TYPE="type" LABEL="text"/>
+    </Tags>
+    <Layout>
+        <Page WIDTH="968" HEIGHT="1566" PHYSICAL_IMG_NR="0" ID="page_0">
+            <PrintSpace HPOS="0" VPOS="0" WIDTH="968" HEIGHT="1566">
+                <TextBlock ID="_49c9c042-dc08-4ed7-879f-bb1d4c42a9d6" HPOS="594" VPOS="1538" WIDTH="374" HEIGHT="27" TAGREFS="TYPE_1">
+<Shape>
+                        <Polygon POINTS="594 1538 594 1565 968 1565 968 1538"/>
+                    </Shape></TextBlock>
+                <TextBlock ID="_1862d201-c545-4d65-a73d-81d15074bc12" HPOS="41" VPOS="121" WIDTH="3" HEIGHT="212" TAGREFS="TYPE_2">
+<Shape>
+                        <Polygon POINTS="43 121 44 333 41 333 41 121 43 121"/>
+                    </Shape></TextBlock>
+                <TextBlock ID="_30e1ad48-623c-45ec-a2e7-d6161567bda7" HPOS="41" VPOS="361" WIDTH="3" HEIGHT="17" TAGREFS="TYPE_2">
+<Shape>
+                        <Polygon POINTS="43 361 44 378 41 378 41 361 43 361"/>
+                    </Shape></TextBlock>
+                <TextBlock ID="_8d7c28d7-8664-4928-a032-5dfdc788fa3e" HPOS="41" VPOS="1287" WIDTH="3" HEIGHT="27" TAGREFS="TYPE_2">
+<Shape>
+                        <Polygon POINTS="43 1287 44 1314 41 1314 41 1287 43 1287"/>
+                    </Shape></TextBlock>
+                <TextBlock ID="_976605c8-7f11-4f42-8c82-8b84b7b38889" HPOS="59" VPOS="104" WIDTH="831" HEIGHT="1290" TAGREFS="TYPE_2">
+<Shape>
+                        <Polygon POINTS="461 104 845 104 849 135 890 142 880 204 862 215 880 229 880 256 862 309 876 343 855 469 876 487 859 535 869 556 862 611 873 615 859 684 873 702 862 761 880 772 862 810 876 831 866 890 876 910 845 946 866 963 852 994 876 1009 876 1025 852 1040 873 1057 855 1085 855 1109 873 1117 855 1162 869 1176 855 1220 873 1234 845 1374 869 1394 66 1391 59 441 62 264 76 235 66 208 80 187 69 142 121 111 461 104"/>
+                    </Shape></TextBlock>
+            </PrintSpace>
+        </Page>
+    </Layout>
+</alto>

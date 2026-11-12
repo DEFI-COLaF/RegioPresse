@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.loc.gov/standards/alto/ns-v4#"
+    xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-3.xsd">
+    <Description>
+        <MeasurementUnit>pixel</MeasurementUnit>
+        <sourceImageInformation>
+            <fileName>data/oc/1945-10-01_bd6t539039120/pages/0070.jpg</fileName>
+        </sourceImageInformation>
+        <Processing ID="OCR__494a8494-ee4e-4ce2-8885-3e446501c913">
+            <processingCategory>contentGeneration</processingCategory>
+            <processingStepDescription>Baseline and region segmentation</processingStepDescription>
+            <processingStepSettings>model: seg_presse.safetensors; text_direction: horizontal-lr</processingStepSettings>
+            <processingSoftware>
+                <softwareName>kraken</softwareName>
+                <softwareVersion>7.1.1</softwareVersion>
+            </processingSoftware>
+        </Processing>
+        <Processing ID="OCR__a562ef29-9a0b-4024-bd53-abe68968d6c9">
+            <processingCategory>contentGeneration</processingCategory>
+            <processingStepDescription>Text line recognition</processingStepDescription>
+            <processingStepSettings>text_direction: horizontal-tb; models: ppocr-medium.safetensors; pad: 16; linetype: baselines; bidi_reordering: None</processingStepSettings>
+            <processingSoftware>
+                <softwareName>kraken</softwareName>
+                <softwareVersion>7.1.1</softwareVersion>
+            </processingSoftware>
+        </Processing>
+    </Description>
+    <Tags>
+        <OtherTag DESCRIPTION="" ID="TYPE_1" TYPE="type" LABEL="DigitizationArtefactZone"/>
+        <OtherTag DESCRIPTION="" ID="TYPE_2" TYPE="type" LABEL="text"/>
+    </Tags>
+    <Layout>
+        <Page WIDTH="953" HEIGHT="1566" PHYSICAL_IMG_NR="0" ID="page_0">
+            <PrintSpace HPOS="0" VPOS="0" WIDTH="953" HEIGHT="1566">
+                <TextBlock ID="_789c3746-a645-43e7-9b7f-f0c4a754fd47" HPOS="580" VPOS="1538" WIDTH="372" HEIGHT="27" TAGREFS="TYPE_1">
+<Shape>
+                        <Polygon POINTS="580 1538 580 1565 952 1565 952 1538"/>
+                    </Shape></TextBlock>
+                <TextBlock ID="_0f0f383c-4083-4583-9148-6cbcf3b59160" HPOS="132" VPOS="1479" WIDTH="37" HEIGHT="6" TAGREFS="TYPE_2">
+<Shape>
+                        <Polygon POINTS="150 1479 162 1479 169 1485 132 1485 150 1479"/>
+                    </Shape></TextBlock>
+                <TextBlock ID="_a14df7a8-45c8-4cdc-b3a1-d5551f464b24" HPOS="223" VPOS="1479" WIDTH="134" HEIGHT="6" TAGREFS="TYPE_2">
+<Shape>
+                        <Polygon POINTS="223 1479 357 1479 357 1481 233 1485 223 1479"/>
+                    </Shape></TextBlock>
+            </PrintSpace>
+        </Page>
+    </Layout>
+</alto>
