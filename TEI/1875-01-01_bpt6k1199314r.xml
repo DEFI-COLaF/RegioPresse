@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Esque</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k1199314r</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Esque : journal des pêcheurs de Marseille</title>
+          <publisher>Impr. Étienne Camoin (Marseille)</publisher>
+          <date when="1875-01-01">1875</date>
+          <idno type="ARK">bpt6k1199314r</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k1199314r</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-12" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="article">
+        <div>
+          <div>
+            <pb facs="0001.xml"/>
+            <fw type="runningTitle"><lb/>2* ANNÉE.— N°4</fw>
+            <fw type="runningTitle"><lb/>2 PIES LA PITADO.</fw>
+            <fw type="runningTitle"><lb/>SAMEDI 4 SEPTEMBRE 4875</fw>
+            <ab><milestone unit="column" n="1"/><lb/>RÉDACTEUR EN CHEF<lb/>PATACLET</ab>
+            <ab><milestone unit="column" n="3"/><lb/>SECRÉTAIRB DE LA RÉDACTION<lb/>FIOUPÉLAN</ab>
+            <p rend="heading"><lb/>JOURNAL DE LA PÊCHE &amp; DES BAINS DE MER</p>
+            <p rend="heading"><milestone unit="column" n="2"/><lb/>BUREAUX et ADMINISTRATION : rue Chevalier-Rose. 29<lb/>d'autres traces; il pêche sans doute du côté<lb/>qui regarde le large, caché par une énorme<lb/>Vosse rocheuse.<lb/>M. Jourdain allait bientôt faire de la prose,<lb/>sans le savoir.</p>
+            <p rend="heading"><lb/>La CHAISE Du RoI</p>
+            <p><lb/>Notre homme prit un cannillon et eut bien-<lb/>tôt fait, pêchant hors de la vue du roi, de<lb/>s’emparer d'une magnifique orade. Saisissant<lb/>alors le poisson par les ouies, il plongea, fit<lb/>sous l'eau le tour du rocher et alla accroche<lb/>l'animal à la ligne royale.</p>
+            <p rend="labelled"><lb/>— Adh !... Choix !... crient les deux retar-</p>
+            <p rend="styled"><lb/>Jost́. (dans la rue et apostrophant une fené-<lb/>tre, dont les volets sont absolument clos).—<lb/>Aôh !... Piarre!</p>
+            <p><lb/>Mais Choix a bien autre chose à faire que<lb/>de les entendre. Il vient de sentir une pitée ;<lb/>pour un empire il ne se dérangerait pas.<lb/>D'ailleurs il tient le poste et, de mémoire<lb/><lb/>d'homme,on n'a vu pêcheur s'en dessaisir en<lb/>faveur de n'importe qui, Saint Tron lui-<lb/>même viendrait et solliciterait une pareille<lb/>faveur que Saint Tron s'en irait comme il<lb/>serait venu.<lb/>PiERRE (mettant le nes à la fenêtre).<lb/>Aoh!.. Hè! ly sian?</p>
+            <p rend="labelled"><lb/>— Que votre majesté veuille bien tirer sa<lb/>ligne, dit un courtisan qu’on avait mis dans</p>
+            <p rend="labelled"><lb/>JosÉ.— Sé voues de lumé !... La Bonne Mère<lb/>a sonné trois fois l'Angelus.</p>
+            <p><lb/>PIARRE. — Que trois fois?... Je descends,<lb/>le temps de boire un chicolon et zou! je<lb/>José. — Les sards nous attendent, car on<lb/>Sa majesté daigna tirer et même se mon-<lb/>tra satisfaite. La chose s'étant répétée plu-<lb/>sieurs fois, Louis XIV y prit goût, il voulut<lb/>revenir encore pêcher au même endroit,<lb/>Bt quel poste, la Chaise du Roi !!... Figu¬<lb/>rez-vous, o pêcheurs, mes amis ! une énor-<lb/>me boule de roche glissante et pelée, jetée<lb/>en avant de la pointe extrême du cap d'En-<lb/>Doume, en face du Château-d'If, avec un ad-<lb/>mirable fond de quatre ou cinq mètres, des<lb/>algues courtes et verdoyantes, des pierres<lb/><lb/>moussues et enchevêtrées, une vraie bour-<lb/>gade de plaisance, où tous les promeneurs<lb/><lb/>du fin fond de l'onde amère ne peuvent<lb/>faire autrement que de s'arrêter. Et. pour<lb/>s'asseoir, pour guetter à l'aise tous ces pas-<lb/>sants inoffensifs mais succulents, un fauteuil,<lb/>un véritable fauteuil, sans doute ébauché<lb/>par la nature, et auquel la main de l'homme<lb/>a évidemment donné la dernière façon.</p>
+            <p rend="labelled"><lb/>dit qu'ils sont très pressés cette année. Tu<lb/>me retrouveras à la Chaise du Roi.<lb/></p>
+            <p><lb/>Seulement, cette fois, on avait enrégi-<lb/>menté un certain nombre de plongeurs, par-<lb/>mi lesquels, un nègre. De plus, pour expli-<lb/>quer au roi, de visu, le nom et l'espèce des<lb/><lb/>poissons qu’il prendrait, les magistrats<lb/>avaient fait transporter sur le lieu de pêche<lb/>des échantillons conservés avec soin de tou-<lb/>tes les familles de poissons du golfe marseil¬<lb/>lais. Voulant faire du zèle et plus pressé que<lb/>les autres, le nègre se trompa. il prit un sard<lb/>empaillé et alla l'accrocher à l'hameçon<lb/>Et José, descendant de la Croix d’Endoume,<lb/>s’engage dans le chemin du vallon des<lb/>Auffes, sa banaste au dos, son paquet de<lb/>cannes, cannettes et canillons sous le bras,<lb/>dans une position qui rappelle celle d'un<lb/>soldat à l'enterrement. Il escalade l'escalier<lb/>qui conduit au chemin de la Corniche, suit<lb/>un instant celui-ci, tourne à droite... Le<lb/><lb/>voilà à l'entrée de Malmousque, devant un</p>
+            <p><lb/>JosÉ. — Aôh! Clapier!<lb/>Ca pite! fit le roi, qui affectait déjà des<lb/>airs de pescadou</p>
+            <p rend="labelled"><lb/>CLAPIER (mettant à son tour le nez à la fe-<lb/>nêtre). — Aôh !... Eh ! c’est José !</p>
+            <p><lb/>Et il tira la relique scientifique On juge<lb/>de l'effet produit parmi les assistants. Mais<lb/>les rois font tout avec gravité; Louis s'amu-<lb/>sait tellement qu'il ne s'aperçut même pas<lb/>de ce qui venait de se passer.</p>
+            <p rend="labelled"><lb/>JosÉ. — Oui, le soleil se voit déjà derrière<lb/>les Goudes. Où est l'écelle ?</p>
+            <p><lb/>La Chaise du Roi ! tous les roucaous du<lb/>golfe la connaissent, et ils en ont montré le<lb/>chemin à leurs bons amis les fournaches, les<lb/>sards, les blades. les orades, lés muges et les<lb/>autres. Des gobis avec une tête comme un<lb/>peiroou ! Des moustelles phénoménales !<lb/>CLAPIER. — L'échelle !... Il y a une heure<lb/>au moins que Chois l'a prise.</p>
+            <p rend="labelled"><lb/>JosÉ. — Couquin de sort !... Et il est allé à<lb/>la Chaise du Roi?</p>
+            <p><lb/>CLAPIER. — Té vé!... Et pourquoi qu’il au¬<lb/>rait pris l'échelle sinon pour aller à la Chaise</p>
+            <p><lb/>Des mourènes même !... Jugez du désapoin¬<lb/>tement de Piaré et de José.<lb/>Car, pour arriverà ce paradis des pêcheurs,<lb/>il faut franchir le canal qui le sépare de la<lb/>terrre, et cette opération ne peut se pratiquer<lb/>qu'en les reliant l'une à l'autre à l'aide de l'é¬<lb/>chelle que Choix, peut-être non sans malice,<lb/>a déposé tout à fait à portée de la vue, mais<lb/>tout à fait aussi hors de portée de la main.<lb/>JOSÉ (désespéré). — Et ce couestooulong de<lb/>Piaré qui a toujours le temps d'arriver!...<lb/>Couquin de sort!... Enfin ! Il la lui faut peut-<lb/>rêtre pas toute, à Choix, cette Chaise du Roi,<lb/>et il l'aura pas mangée, cette écelle.... En<lb/>l'appelant...</p>
+            <p><lb/>CLAPIRR (évidemment incrédule). — HO !...<lb/>va-t-en voir s'ils viennent.</p>
+            <p rend="labelled"><lb/>— Tant m'en fouti !... disent-ils enfin,<lb/>nous irons à la Resquillette.</p>
+            <p><lb/>L'ami Piaré arrive enfin. Clapier a fermé<lb/>sa fenêtre, ouvert sa porte et le comptoir<lb/>d'étain se dessine au fond d'une petite salle.<lb/>Les deux pêcheurs semblent se consulter du<lb/>Un autre poste que je vous recommande.<lb/>On assure que la Chaise dn Roi tire son<lb/>nom d’une pêche miraculeuse qu’y fit le<lb/>roi Louis XIV, lors de son passage à Mar-<lb/>seille. Pendant trois jours, on avait brouméjé<lb/>autour du poste fameux ; des montagnes de<lb/>vieilles croùtes de pain et de sardines pour¬<lb/>ries y avaient passé. De Carri, de Riou, du<lb/><lb/>Frioul, toute la gent poissonnière était ac-<lb/>courue à ces agapes inaccoutumées. Le fau¬<lb/>teuil naturel fut terminé et même, dit-on,<lb/><lb/><lb/>rembourré; le roi-soleil n’avait plus qu'a</p>
+            <p rend="labelled"><lb/>— Un verre de ron? dit l'un.</p>
+            <p rend="labelled"><lb/>~ Va pour un verre de ron! répond</p>
+            <p><lb/>Bt, une fois lestés, ils se mettent en route,<lb/>longeant la calanque de Malmousque, esca¬<lb/>ladant les talus de la batterie, puis les re-<lb/>descendant en face de son angle nord-<lb/>ouest. Ils sont devant la Chaise du Roi.</p>
+            <p><lb/>Ou plutôt ils sont devant un canal large<lb/>de deux ou trois mètres, où passent et repas-<lb/>sent sans cesse les vagues écumantes, for-<lb/>mant un pas infranchissable entre la fa-<lb/>meuse Chaise du Roi et la terre ferme.<lb/>L'échelle est devant eux, de l'autre côté du<lb/><lb/>canal, gisant sur le rocher. De Choix pas<lb/>ll vint, il vit, mais ne vainquit pas. On<lb/>peut être roi, en effet, et ne pas savoir pê-<lb/>cher à la ligne. Louis XIV sentait toujours,<lb/>il ne prenait jamais rien. Malgré sa gravité<lb/>il commençait à la trouver mauvaise, lors-<lb/>qu'un loustic de l'époque, grand nageur et<lb/><lb/>pécheur, imagina de lé faire pêcher, comme</p>
+            <figure type="decoration"/>
+            <p rend="heading"><lb/>RÉPONSE DE MOLINARI</p>
+            <p rend="heading"><lb/>à l'interprête anonyme du Russo</p>
+            <p><lb/>La critiquo en si fen. ſoou que ague seis bornos.<lb/>as parla de meis ueis. voudrié mai uno corno,<lb/>Pourriou la déraba emé un tire bouchoun<lb/>Coumo tés arriba lou coou de toun fleiroun;<lb/>Ti poussés quouquaren desu toun omoplató.<lb/>Mount'aviès pescàquo: dessu lei peiros platos!<lb/>Fai li ben attencien, en si deshabillan<lb/>S'aganto des taceoux, gros coumo leis doues mans<lb/>Toun espino dorsalo es encaro aplatido<lb/><lb/>As pancaro pouscu gari teis imouridos,<lb/><lb/>lou mi trufariou pas d'un qué perdé la visto;<lb/>Creiriou de la resoun avé pordu la pisto.<lb/>Quand ai parla d'un Russou, ero per plaisanta;<lb/>Lou Russou, per lou fait. a jamai exista<lb/>N'aven un que souven lou vien à la Jitado:<lb/>Mai aqueou es pas Russou, sento la ginouflado.<lb/>L'es arriba souven din sa grosso passien<lb/>Dé s'embisca leis dès, e meme lou prussien.<lb/>Mai leissen un moment aqueou grand persounagi<lb/>Parlen un poou de tu, grand marchand de froumagi.<lb/>Leis quatre vers qu'as fa, soun senso signaturo;<lb/>Coumpreni pas perqué as cacha ta figuro.<fw type="digitisation-artefact"><lb/>ibliothèque nationa</fw></p>
+            <pb facs="0002.xml"/>
+            <lg>
+              <l><lb/>Sabes pas ce que fas, as perdu toun boun sen</l>
+              <l><lb/>Viés, mi siou pas facha: mi metti pa en couléro</l>
+              <l><lb/>Avan la fin de l'an auras cent osipéros.</l>
+              <l><lb/>gerdessus lou marca, une dissentarie;</l>
+              <l><lb/>Foudra queti netejoun ooumen dou cent camié.</l>
+              <l><lb/>Mi parlés d'instrumen, lou tiou es la canulo,</l>
+              <l><lb/>Aquelo qu'a servi de cristéri eis mulos,</l>
+              <l><lb/>Pourras emé plesi bouffa tranquilamen</l>
+              <l><lb/>Se l'an pas proun vougnu. li mittren quoucaren,</l>
+              <l><lb/>Mi diés de din tei vers qu'ai fa un poupre siblaire</l>
+              <l><lb/>Seriés pas lou gibons, aqueou famous cantairé ;</l>
+              <l><lb/>Sé as pencaro prés ta premiero lisoun</l>
+              <l><lb/>Pourrai t'accompagna au soun de mon viouloun</l>
+              <l><lb/>O gros fada que siés. sabés pas que jamai</l>
+              <l><lb/>La musiquo es intrado din la testo deis ais.</l>
+              <l><lb/>Parles de la baboue. counousses la capello</l>
+              <l><lb/>Quan leis autres n'en fan, tu seques la sarcello</l>
+              <l><lb/>Aussi lou souar arribo, as pas pouscu t'esca</l>
+              <l><lb/>Mai trouvés su leis blocs de que ben broumeja</l>
+              <l><lb/>Vai se siés escrivan, ai la rimo facilo</l>
+              <l><lb/>Si pourren mesura, ti fagues pas de bilo;</l>
+              <l><lb/>Se per aquest hiver, as gés d'habillamen</l>
+              <l><lb/>Ti n'en prépari un, per dissato que ven</l>
+              <l><lb/>As vougu ti mela d'nne causo idealo</l>
+              <l><lb/>Va t'en prendré d'oousins dessouto Portugalo.</l>
+              <l><lb/>Que t'a douna lou Russou per fairé aquel éscrit</l>
+              <l><lb/>Quaouqueis Saoupos, bessai per leis faire fregi</l>
+              <l><lb/>Fai-li-ben attencien, car soun facho de chiquo</l>
+              <l><lb/>L'intré din soun broumée unpoou de noix vomiquo</l>
+              <l><lb/>Pourrié ben t'arriba que ti faguessoun maou,</l>
+              <l><lb/>Foourié que ti pourtessoun subran à l'Espitaou</l>
+              <l><lb/>Sabés que lou taba conten en de nicotine</l>
+              <l><lb/>Faï doune toun testement per parti per la... Chino.</l>
+              <l><lb/>Sé t'ai parla ensin. es per saché toun noum</l>
+              <l><lb/>Car se te signes pas, ti leissis dins un cantoun.</l>
+            </lg>
+            <p><lb/>Le Polype me tenait toujours enlacé entre<lb/>ses pattes, moi je serrais toujours avec les<lb/>dents la corde de salut, que mon ami, après<lb/>bien du travail, avait réussi à assujettir à un</p>
+            <p><lb/>La situation n'était plus tenable pour moi<lb/><lb/>et cependant la bête tenait toujours, ne me<lb/>laissant de libre que mes yeux avec lesquels<lb/>je pouvais maintenant l'admirer dans toute<lb/>sa grosseur et surtout dans toute sa laideur,<lb/>mais l'envie m'en avait complètement passée.</p>
+            <p><lb/>Enfin Fournachou était à l’eau, venant à<lb/>mon secours, il était temps. Il essaya vaine.<lb/>ment de détourner la calotte au poupré, car<lb/>l’animal qui se méfiait lui lança dès sa pre-<lb/><lb/>mière tentative tout soun négré dins leis bri-<lb/><lb/>guos. Heureusement il avait fermé les vitres<lb/><lb/>et il en fut quitte pour la peur. Profitant tou-<lb/>tefois de l'occasion pour enfoncer jusqu'au<lb/>manche, dans la tête du polype, le couteau</p>
+            <p><lb/>Immédiatement l'étreinte devint moins<lb/>forte et l'animal se raidissant tout à coup me<lb/>permit de me dégager de l'accolade qu'il me<lb/>donnait depuis une heure et qui allait m'être<lb/>mortelle; cinq minutes après il flottait sur</p>
+            <p><lb/>Il nous fut alors facile de le tirer en terre,<lb/>et quand l'étonnement dans lequel nous<lb/>étions de voir une pareille chose nous per-<lb/>mit de parler, Fournachou se mit à me crier</p>
+            <p><lb/>11 vovait déja nos 352 amis et connaissan-<lb/>ces à table, autour de notre sans pareil.<lb/>Mais je lui fis comprendre que le repas que<lb/>mous ferions, quelque bon qu'il fût serait<lb/><lb/>bien vite oublié, et ne nous rapporterait rien,<lb/>tandis qu'en donnant au cabinet d'Histoire<lb/>naturelle notre merveilleuse capture nous<lb/>courrions le risque d'une bonne gratification<lb/>et avions la certitude d'avoir une immortelle<lb/>renommée. Fournachou fut de mon avis.</p>
+            <p rend="heading"><lb/>LA PREDU ROI DE POLYPES</p>
+            <p><lb/>C'est ainsi, que dans cent ans encore, quand<lb/>nos arrières petits-fils irontadmirer le géant<lb/>au Musée des Antiques où il sera alors, ils<lb/>rediront nos noms avec vénération et se rap<lb/>pelleront que c'est nous qui en délivrant lou<lb/>traou de mangeo lenci du monstrueux galuf¬<lb/>fre qui était son mauvais génie et la terreur<lb/>de tous les amateurs, lui avons substitué le<lb/>nom de Bouffo-Trancho que l'on ne prononce<lb/>Alors s’engagea une lutte terrible et après<lb/>mille efforts de ma part, que les étreintes du<lb/>monstre rendaient inutiles, j'allais être en¬<lb/><lb/>glouti pour toujours, lorsque par bonheur<lb/>Fournachou qui avait vu le coup m'envoie<lb/>une amarre que j'ai la veine de saisir avec<lb/>les dents, et essaye de me sailler en terre,<lb/>mais Audiffren lui-même, avec tous ses ca-<lb/>nons, n’en serait pas venu à bout.</p>
+            <figure type="decoration"/>
+            <p rend="heading"><lb/>LA BOURRIDO DEI DIEOUX</p>
+            <lg>
+              <l><lb/>Lou meteroun à coum'un marci gavoũé</l>
+              <l><lb/>Themis quero temoi daquelo manegeado</l>
+              <l><lb/>Vezen qu'avien pas mau escarpigna la fuado.</l>
+              <l><lb/>Ser fini lou proncez et li coupa la quoué</l>
+              <l><lb/>« Ti pouedes espera lou meme tratamen,</l>
+            </lg>
+            <lg>
+              <l><lb/>Su d'un bel arenas lei Syrenos au ven</l>
+              <l><lb/>De Mourredoun fasien signau d'uno camiso,</l>
+              <l><lb/>Cantavoun per rauba dei passans la valiso;</l>
+              <l><lb/>Per empacha lou bru d'aquelo fanfounie</l>
+              <l><lb/>Lei drLi crideroun em un gros bran.u'empencho;</l>
+              <l><lb/>Mercuro, toun poudet cissi, va troou avan.</l>
+              <l><lb/>Mouestro l'ordre doou Dieou de</l>
+              <l><lb/>De Neptuno soufet couneissen lou decret,</l>
+            </lg>
+            <lg>
+              <l><lb/>Sujettos de lqmavjugan dou flageoulet</l>
+              <l><lb/>Se lei Dicoux soun vengus su terro fa gavagi.</l>
+              <l><lb/>Pichonnos n'an aprés lou vieoure et lei facouns</l>
+              <l><lb/>sa ren qu'empaume mai que lei bouenci man</l>
+              <l><lb/>Quantei gens si sount pres en auzen de cansouns?</l>
+              <l><lb/>Nepluno qu'entendie que fasien troou lei fleros,</l>
+            </lg>
+            <lg>
+              <l><lb/>m lei Dicoux an parla, soutas oou found de</l>
+            </lg>
+            <lg>
+              <l><lb/>Din lou temp qu'ero à l'escouton</l>
+              <l><lb/>Mereuro</l>
+              <l><lb/>esquichet lou piez à la muraillo</l>
+              <l><lb/>run Paoun</l>
+              <l><lb/>Li fet cent huys oou cueou sur la quoué </l>
+              <l><lb/>Per un coou d'lu mangedt un bperActeon</l>
+            </lg>
+            <lg>
+              <l><lb/>A la fin doou repas si moustret Esculapo</l>
+              <l><lb/>l'a segut que ra yet. voou mai que lemetiquo,</l>
+            </lg>
+            <lg>
+              <l><lb/>per lei paure mesquins quas toujour tourmenta</l>
+              <l><lb/>En visto Lei Dieoux soun ben las deis abus</l>
+              <l><lb/>LeiDe ben bucore etd</l>
+              <l><lb/>Su d'un hyroou couca redoun coum'un grapau</l>
+              <l><lb/>Lou picheiret avie gava tout immourtau.</l>
+              <l><lb/>De veire que falie mai mounta oou pus-haut.</l>
+              <l><lb/>pados</l>
+              <l><lb/>Lei nicoulas embrassas vengueroun pe¬</l>
+              <l><lb/>Agouloupa lei Dieoux dintre sei lansoulad</l>
+              <l><lb/>Alors leis immourtaux (per leis auzi parla)</l>
+              <l><lb/>Jureroun que jamai seroun tan regala.</l>
+            </lg>
+            <lg>
+              <l><lb/>E panos dBANTTI</l>
+              <l><lb/>nto Margarido</l>
+            </lg>
+            <figure type="decoration"/>
+            <p rend="heading"><lb/>CARNAGE DE MAQUEREAUX PAR UN THON</p>
+            <p><lb/>Dimanche, 28 août, les pêcheurs cloués aux<lb/>rochers d'Endoume ou des fes ont assisté à<lb/>un spectacle émouvant. Pendant plusieurs heu¬<lb/>res, les cannettes ont été oubliées<lb/>Un banc de maquereaux, éveillé de bonne<lb/>heure, se radassait dans les eaux de Pomègue<lb/>c’était un magnifique ruban bleu, vert. argenté<lb/>qui semblait vouloir envelopper les lles. Pas<lb/>un bateau pour les poursuivre. Ils semblaient<lb/>sentir le bonheur de l'existence. Un thon, un<lb/>seul thon survint, probablement à jeun;<lb/>cherchait aventure. L'ogre se précipite ; ils<lb/>étaient dix mille, cent mille, cinq cent mille;<lb/>il y avait autant de maquereaux que de goutte<lb/>d'eau dans la rade. L'affamé ne compte pas ; il<lb/>fend les escadrons, et en engloutit quelques-<lb/>uns. Les promeneurs, d'un seul coup de queue<lb/>se détournent, et en colonnes trop serrés s’en<lb/>vont sur le Canoubier. Ils sont suivis impitoya-<lb/>blement. Ils changent de tactique ; au leu de<lb/>confier leur salut aux caux, ils sautent tous à<lb/>la fois: le thon placé au milieu d'eux les reçoit<lb/>par paquets dans la gueule. Encore un bon<lb/>coup de queue, ces pauvres maquereaux retour-<lb/>nent aux îles, mais le friand de chair fraîche<lb/>les poursuit de plus belle, engouffrant des<lb/>lignes entières de ces pauvres oouruouséperdus,<lb/>Nouveau saut; mais la gueule disposée, le thon<lb/>les reçoit comme dans un panier. La débacle<lb/>est générale, la bande se divise; une partie s'en<lb/>va oou Pounent : l'autre. probablement les moins<lb/>habiles, file droit vers le restaurant Roubion.<lb/>mais encore poursuivie par l'impitoyable Gar-<lb/>gantua. Là il en a tant, mais tant, croqué, que<lb/>le banc en est resté vide. Ces faits monstrueux se<lb/>sont passés depuis cinq heures du matin jus-<lb/><lb/>qu’à midi. Quel déjeuner, mes amis, et dire<lb/>que cela ne lui a rien coûté.... que la diges-</p>
+            <figure type="decoration"/>
+            <p rend="heading"><lb/>40 MILLES SOUS CANOUBIER</p>
+            <p><lb/>Un tramway conduisait de là à une se¬<lb/>conde salle ou étaient rangés avec art des<lb/>rames, des avirons, des voiles, des cordages,<lb/>des chaloupes toutes gréées et toutes les épa-<lb/>nes des naufrages depuis la plus haute anti-<lb/>quité : le beaupré du Vengeur, le foc du</p>
+            <figure type="decoration"/>
+            <pb facs="0003.xml"/>
+            <figure type="decoration"/>
+            <figure type="decoration"/>
+            <p rend="labelled"><lb/>Forfait, un cacatoès du Pharaon, l'éperon<lb/>de la Jeanne-d'Arc. Ajoutez à tout cela les<lb/>richesses accumulées de trois mille ans : tré-<lb/>sors à jamais engloutis et qu’aucun puissant<lb/><lb/>de la terre ne pourra compter ni posséder.<lb/>Des lingots d'or, de l'or et de l'argent mon-<lb/>nayé, des pierres précieuses et d'une valeur<lb/>incommensurable, des diamants, des perles<lb/>fines, des couverts en ruolz et en argent, des<lb/>fusils Lefaucheux, des Erard, des Pleyel, des</p>
+            <lg>
+              <l><lb/>Lou pharmacien l'y dit: Eh bien! ma belle enfant</l>
+              <l><lb/>Quoi de neuf à Marseille ? et que dit-on du temps,</l>
+              <l><lb/>Qu'il fait depuis deux jours. —Alors ello, gaietto:</l>
+              <l><lb/>Disié que sentie moou. puis qu'avié la contiquo.—</l>
+              <l><lb/>Et de sa bouon' coudou tout l'oustaon parfumavo.</l>
+            </lg>
+            <p><lb/>Mes aïeux se promenaient souvent côte à<lb/>côte dans ce magnifique musée sous-marin ;<lb/>leur bonheur sans mélange dura longtemps,<lb/>longtemps. Hélas ! le bonheur n’est pas éter-</p>
+            <p><lb/>Un esturgeon, race maudite, venu des côtes<lb/>de l'Ionie, à la suite d'un navire portant nn<lb/>chargement de bandages en gomme plastique<lb/>pour un pharmacien de Marseille, rencontra<lb/>dans les parages du Chateau-d'If Bacchis qui<lb/>ayant trompé la vigilance de son époux fo¬<lb/>lâtrait dans le voisinage. Séduit par ses char-<lb/>mes, il jura de la posséder ou de mourir.</p>
+            <p><lb/>Ce fut le cheveu dans l'existence de Simos.<lb/>Toujours l'oreille au guet, il surveillait jour<lb/>Un jour, c'est-à-dire un soir qu'il ne dor-<lb/>mait que de l'œil gauche; il crut apercevoir,<lb/>de l'œil droit à quelque distance de la couche<lb/>de Bacchis un objet d'une grosseur surnatu-<lb/>relle. Allumant son deuxième quinquet, il<lb/><lb/>reconnut, horror! Bacchis gambadant entre<lb/></p>
+            <p><lb/>Jour de Dieul cria-t-il : les échos de Ca-<lb/>noubier répètèrent le mot à l'infini et trem-<lb/>blèrent. Saisissant alors un javelot de Crête<lb/>trouvé par Grelat après la bataille de Marignan<lb/>sur le bord de la mer à 200 mètres de Gontard<lb/>il perça de part en part son ennemi. Bacch is</p>
+            <p><lb/>Ce fut le commencement des malheurs de<lb/>la famille. Des nombreux enfants de Simos et<lb/>Bacchis, tous périrent de mort violente : mes<lb/><lb/>père et mère seuls furent épargnés et vous<lb/>voyez en moi le seul rejeton de cette noble<lb/>famille destinée à accomplir de grndes choses,<lb/>mais que l'inconduite a perdu à jamais.</p>
+            <p><lb/>J'ai voulu faire notre connaissance pour<lb/>raconter cette histoire parce que j'ai craint<lb/>que faute d'enfants qui me succèdent les mer¬<lb/>veilles du Canoubier fussent toujours igno¬</p>
+            <p><lb/>Adieu mon ami, quand je songe à nos mal-<lb/>heurs, mon cœeur se serre et je sens des lar-<lb/>mes qui perlent sous mes paupières. Un jour<lb/>viendra peut-être où moins triste et plus cal¬<lb/>.<lb/>me je causerais encore avec vous de la mer</p>
+            <p rend="heading"><lb/>L'Aïé sense Trissoun</p>
+            <lg>
+              <l><lb/>Un soir d'oou mes de Mai. fresque coumo l'herbetto.</l>
+              <l><lb/>Marchave vitamen su leis trottoirs d'oou Cours.</l>
+              <l><lb/>Que leis homès toujour lachoun dins un cantoun,</l>
+              <l><lb/>Mais que souvent, hélas! nos treis paoure femelles</l>
+              <l><lb/>Dins lou foun d'un jaroun lachount sense candelles.—</l>
+              <l><lb/>Countento et senso poou, car lou bouyon pressavo.</l>
+            </lg>
+          </div>
+          <div type="article">
+            <ab><lb/><lb/>.<lb/><lb/><lb/><lb/></ab>
+            <ab rend="continued"><lb/>manières différentes: à la thonaire et à la</ab>
+            <p><lb/>La première se fait ainsi : dès que l'appro-<lb/>che des thons est signalée, de nombreux<lb/>bateaux parcourent la mer, dessinant une<lb/>courbe, jetent leurs filets, cinglent vers la<lb/>côte, rétrécissant de plus en plus l'enceinte<lb/>formée et chassant devant enx le poisson.<lb/>Près d'aborder au rivage, et lorsqu’il n’y a<lb/>plus que fort pen d'eau, les pêcheurs ten-<lb/>dent un grand filet fermé à un bout, captu-<lb/>rent les thons et les jettent sur la plage, où<lb/>on les tue. On peut prendre ainsi d'un seul<lb/>coup deux à trois mille quintaux de thons.<lb/>Cette pêche se pratique sur les côtes de la</p>
+            <p><lb/>Celle à la madrague est plus compliquée,<lb/>les pêches. A l'aide de filets tenus verticale-<lb/>ment, en haut par des flotes en liége, en bas<lb/><lb/>par des cailloux, on construit dans la mer<lb/>des espèces de chambres disposées de manière<lb/><lb/>à ce que les thons qui côtoient le rivage s'y<lb/>engagent presque nécessairement ; une gran¬<lb/>de ligne de filets, parallèle à la côte, les<lb/>méne dans la première enceinte, de celle-ci<lb/>dans la seconde et ainsi de suite, les pêcheurs<lb/>poussant derrière eux un filet tendu vertiea-<lb/>lement, qui les contraint à avancer. On les<lb/>rassemble ainsi dans le dernier comparti-<lb/><lb/>ment, nommé chambre de mort. Le fond de<lb/><lb/>celle-ci est tendu d'un filet que l'on soulève<lb/>la capture une fois faite, et les thons sont<lb/>harponnés au fur et à mesure qu'ils se mon-<lb/>trent à la surface; vainement, au milieu<lb/>d'un immense tumulte, les malheureux pois-<lb/>sons essayent-ils d'échapper à la mort : on<lb/>en prend ainsi jusqu'à 7 et 800. Cette pêche,<lb/>usitée à Gênes, en Sicile et à Marseille, y est<lb/>considérée comme une fète, et l'on vient y<lb/>assister de fort loin. M. de Quatrefages en a<lb/>été témoin sur les côtes de la Sicile. et il l'a<lb/>raconté avec son talent habituel. Laissons-</p>
+            <p><lb/>C'est un très-proche parent du maquereau;<lb/>il s'en distingue entre autres caractères par<lb/>celui-ci : la première nageoire dorsale s'é¬<lb/>tend jusqu'à la seconde, tandis que dans le<lb/>maquereau il y a un intervalle entre les<lb/>deux. En outre, le corps du thon est en forme<lb/>de fuseau. Il est d'ailleurs beaucoup plus<lb/>gros que le maquereau; il atteint 2 mètres<lb/>et plus de longueur. Pennant en a décrit un<lb/>de 7 pieds 12 pouces et qui pesait 460 livres,<lb/>Aristote et Pline prétendent qu’on en a pêché<lb/>du poids de 15 talents, ce qui, d'après Pauc-<lb/>ton, équivaudrait à 675 livres (387 k. 20). Il<lb/>a le dos de ce bleu foncé que prend l'acier<lb/><lb/>poli ; son ventre est argenté. C'est un poisson<lb/>très-carnassier, friand surtout de sardines,<lb/>d'exocets, de maquereaux, et qui n'épargne<lb/>pas sa propre espèce. Les requins et les espa-<lb/><lb/>dons ne l'épargnent pas non plus, et l'hom-<lb/>me pas davantage. On sait combien la chair<lb/>du thon est estimée. La pêche de ce poisson<lb/>constitue depuis l'antiquité une des princi-<lb/>pales richesses des peuples riverains de la<lb/>Méditerranée. Au moment d'entreprendre<lb/><lb/>cette pêche importante, les Grecs, pour se<lb/>rendre les dieux favorables, offraient un<lb/>thon en sacrifice à Neptune, le priant de les<lb/>préserver de la concurrence, pour eux désas-<lb/>treuse, de l'espadon ; et quand l'expédition<lb/>avait été heureuse, ils renou velaient le sacri-</p>
+            <p><lb/>On a dit de tout temps que les thons qui<lb/>abondent dans la Méditerranée y entrent au<lb/>printemps par le détroit de Gibraltar. Ce<lb/>seuil franchi, ils se diviseraient en deux<lb/>troupes : l'une suit les rivages de l'Afrique<lb/>et remonte jusqu'au Bosphore, l'autre côtoie<lb/>l'Espagne, la France et l'Italie septentrionale,<lb/>passe entre l'ile d'Elbe et la Corse, et s'arrête<lb/>dans les parages de la Sardaigne où les pois-<lb/>sons dont elle se compose déposent leur</p>
+            <p><lb/>Mais on ne croit plus guère à ces migra-<lb/>tions; on pense aujourd'hui que les thons<lb/>restent toujours dans les mêmes parages,<lb/>changeant seulement d’altitude avec les sai¬<lb/>sons. On dit cependant que les bancs de thons<lb/>qui se montrent au printemps sur les riva<lb/>ges de la Provence, se dirigent tous vers<lb/>POrient, tandis qu'à la fin de Pêté ils suivent<lb/></p>
+            <p><lb/>On les pêche à la ligne et au filet, et dans<lb/>ce dernier cas on peut s'y prendre de deux</p>
+            <p rend="labelled"><lb/>GYMNASE.— Le 8 septembre, ouverture de<lb/>l'année théatrale. A en juger par le tableau de<lb/>la troupe, qui fait honneur au bon goût de M.<lb/>ryss. Nou ped cspee de bones soi-</p>
+            <p rend="labelled"><lb/>VARIÉTES. — Ouverture le 25 septembre<lb/>avec le Manoir de Pictordu, l'opérette qui a eu<lb/>tant de succés à Paris.— La salle parfaitement<lb/>réparée et restaurée d'après de nouveaux plans<lb/>sera des plus coquettes et des mieux aérées.<lb/>qualités indispensables pour une salle de spec-</p>
+            <p rend="labelled"><lb/>ALCAZAR. — Ce soir rentrée de M. Rouffe.<lb/>le célèbre pierrot, avec Don Juan, pantomime<lb/>inédite. M. Duhem. Mme Lafont. la famille<lb/>Onofri rivalisent tous les soirs de zèle et de</p>
+            <p rend="labelled"><lb/>CASINO. — Fermeture provisoire pour répa-</p>
+            <p><lb/>CIRQUE MILANAIS.— Tous les soirs exer-<lb/>cices équestres. Nouveaux débuts. Attractions<lb/>MUSÉE PONTI. — Exposition des vues de</p>
+            <p rend="labelled"><lb/>THÉATRE DES FETES NATIONALES. —<lb/>Tous les soirs à 8 heures grandes représenta-<lb/>tions données par toute la troupe, composé,<lb/><lb/>de 40 artistes des deux sexes. Le spectacie se<lb/>termine par les Mystères de l'Océan, grande apo-</p>
+            <p rend="labelled"><lb/>THÉATRE LASSAIGNE. — M. Lassaigne<lb/>vient de nouveau nous exhiber la Malle des In¬<lb/>des la grande curiosité du jour. La femme au<lb/>canon et les Clowns désopilants attirent tous les</p>
+            <p><lb/>M. Lassaigne donne des représentetions de<lb/>jour et de nuit où prennent part tous les artis-<lb/>tes composant la troupe, et où lui-même exhibe</p>
+            <p rend="labelled"><lb/>JOLI BATEAU mesurant O.2 cenumétres as<lb/>voiles et ses agrés qui manouvrent<lb/>peut mieux et est construit sur le même modèle qu<lb/>le Loch, connu dans le port de Nantes par la supériorite<lb/>de sa marche.— Pour le voir et pour traiter. s'adresser<lb/>au bureau du Journal. rue Chevalier-Roze. 29.</p>
+            <p rend="heading"><lb/>MadRAGUE De La VILLE</p>
+            <p><lb/>Cet établissement occupe la situation la plus heu-<lb/>reuse qu'il ait été possible de choisin</p>
+            <p><lb/>Ce qu'il y a de plus agreable. cest voubter rem<lb/>limpidité de ses eaux que ne vient roubler rem</p>
+            <p rend="labelled"><lb/>BATEAU DE COURSE e<lb/>tȩau de course dans d'excellentes conditions. Pour<lb/>plus de renseignements, s'adresser au bureau du</p>
+            <p><lb/>Le confortable de ses cabines en fait également<lb/>un établissement de premier ordre</p>
+            <p><lb/>la Canebier<lb/>bus partent pourles Bains, du bas de la Cane6rc.</p>
+            <p rend="labelled"><lb/>ner un cabanon situé entre le<lb/>bord de mer, dans les 150 à 200 fr. — S'adresser 53</p>
+            <p rend="heading"><lb/>Prix : 90 Centimes</p>
+            <ab><lb/>ALLER, RETOUR et BUIV</ab>
+            <ab><lb/>MAL DE<lb/>ÉLIXIR veGETal SuISSE<lb/>Du Docteur-Chimiste J. CHAUTEN, de Genève<lb/><lb/>égalment emploré avec suceds contre les<lb/> e preipaus<lb/>Demande de dépot : GRAILLAT-CHAUTEN, à Genève</ab>
+            <p rend="labelled"><lb/>A VENDRE un joii gourse<lb/>dide et la solidité de sa construction. avec tou<lb/>agrès, apparaux. etc. Affaire très avantageuse. Excel¬<lb/>ontes conditions. S'adresser au bureau du journan<lb/></p>
+            <figure type="decoration"/>
+            <ab><lb/><lb/><lb/>QUI VEUT RIRE va voir le Salon des glaces.</ab>
+            <ab rend="continued"><lb/>à chaque séance, ses fameux trucs de prestidi-</ab>
+            <p rend="labelled"><lb/>M. LBCOEUR qui a monté, à côté du Cirque.<lb/>une baraque a engagé la Princesse Zénuma.</p>
+            <p rend="labelled"><lb/>GRAND SALON ORIENTAL. — On peut<lb/>visiter tous les jours le magnifique musée qui<lb/>contient ce qu'il y a de plus curieux en fait</p>
+            <p rend="labelled"><lb/>THEATRE DES FAMILLES. — ladin ou la<lb/>Lampe Merveilleuse, les Inondations du Midi, etc..<lb/>sont le Great attraction de la Salle Lauret qui<lb/>tous les soirs fait florès devant une salle com-</p>
+            <p><lb/>En vente dans les principaux kios-<lb/>ques et chez les marchands d’engins<lb/>de pêche : Lou Massacré dé la Mar<lb/>ou la destrucien det peis poésie pro-<lb/>vençale de M. Molinari. Prix 25 cent.</p>
+            <p><lb/>Nous recommandons vivement à<lb/>nos lecteurs cette charmante satire<lb/>contre les ravageurs de la mer, et nous<lb/>désirons vivement que les plaintes de<lb/>l'auteur soient entendues et ses con-</p>
+            <p rend="labelled"><lb/>ARTICLES DE PÊCHE axp<lb/><lb/>de la Pèche : on trouvera chez M. PANISSE. Marius,<lb/>un grand assortiment d'articles premier choix et nou¬<lb/>veautés concernant la pèche. savoir : lignes de fond<lb/>et lignes de traine, poissons artificiels pour la mer e<lb/>les rivières. en étain ou en caoutchouc, maquereaux<lb/>pour thons, sardines pour bonites, petits mulets pour<lb/>loups. chevrites, hélices pour la traine. — Grand as-<lb/>sortiment de mouches artificielles pour les rivières-<lb/>Tous les jours : Mouredus. Bsques et Baboués. — On<lb/>trouvera également chez M. PANISSE un professeur<lb/>qui se fera un plaisir d'indiquer aux personnes qui le<lb/>désireront la manière de faire la péche à la Baboué.</p>
+            <figure type="decoration"/>
+          </div>
+          <div>
+            <pb facs="0004.xml"/>
+          </div>
+          <div type="article">
+            <ab><lb/>Services pour les Bains — Promenades en mer — Parties de pêche, etc.</ab>
+            <p><lb/>le PERSENERANT. QUATRE-AMIs no i et2</p>
+            <p><lb/>Semaine : DE LA CANEBIÈRE—<lb/>à partir de 3 heures après-midi, toutes<lb/>les demi-heures, jusqu'à 6 heures 1/2<lb/>du soir.—DES BAINS : de 3 heures 1/<lb/>toutes les demi-heures, jusqu'à 7 h. 1/2</p>
+            <p><lb/>Dimanches et Fêtes: DE LA<lb/>à partir de 2 h. 1/2. toutes les demi¬<lb/>PRIX: Aller et retour avec bain<lb/>Aller ou retour seul, 40 c. 70 c<lb/></p>
+            <p><lb/>10 à 11h. du sor. Prix: 50 ce»<lb/><lb/>de 10 à i1 h. du soir. Prix: 50 cent.</p>
+            <p rend="heading"><lb/>OMNIBUS MARITIMES</p>
+            <ab><lb/>LE NOUVEAU PrOGRÈs<lb/>Bains du Petit Pavillon<lb/>houres. I<lb/>oures. Prix: 25 ceni,</ab>
+            <ab><lb/>BAINS CATALANS ISNARDON<lb/>DESIRE &amp; MARSEILLAIS<lb/>A partir de 3 h. et toutes les 1/2 heures<lb/>Le dimanche, à partir de<lb/>quansoir Promenade au CHATEA<lb/>́part dn QUAI DES AUGUSTS</ab>
+            <p><lb/>Tous les soirs Promenade en mer,<lb/>Départ à 10 heures. Prix : 50 cent.</p>
+            <p><lb/>Le vapeur Nouveau Progrès partira<lb/>Dimanche. à 10 heures du matin pour<lb/>Je CHATBAU-DIF; séjour, une heure,<lb/>tour à midi. Prix, aller et retour:<lb/>75 cent.; station: bas de la Canebiére.</p>
+            <ab><lb/>BAINS ISNARDN<lb/>Service de 5 h. du matin à 7 h. 1/2 soir<lb/>Prix: LE MATIN, 60 cent, Aller<lb/>Retour et Bain. — L'APRES-MIDI.<lb/>Station : QUAI DES AUGUSTINS</ab>
+            <figure type="decoration"/>
+            <p rend="labelled"><lb/> AMATEURS DE LA PÊCHE<lb/>Dimanche, prochain, le vapeur a Amis<lb/>r<lb/>Prix : 2 fr. par personne.</p>
+            <ab><lb/>DES BAINS DES CATALANS<lb/>DEPART DE LA CANEBIERE</ab>
+            <p><lb/>Tous les jours le bateau à vapeur<lb/>ST<lb/>Couronne an, Saussaie et la</p>
+            <p><lb/>2 fr. 25. l Couronne. 2 fr. 80</p>
+            <p rend="labelled"><lb/>LA MEIEURE BIERE <lb/>Le propriétaire de ce charmant établissement vient<lb/>de recévoir un envoi de bières premier choix dont les<lb/>amateurs de cet excellent breuvage peuvent veni<lb/>constater la supériorité.— Quant aux autres consom-<lb/>mations, elles sont toutes de premier choix et moins.</p>
+            <ab><lb/>CAFE des ETATS-UNIS. quai du Port</ab>
+            <p rend="labelled"><lb/>CANOT DE PLAISANCE magniique canot<lb/>de plaisance, ayant six mètres de long environ, cons-<lb/>truit en 1872, 2 mats, agrès complets, entièrement<lb/>neuf. Occasion exceptionnelle. — Pour plus amples<lb/> u cs. osemprimerie du ura</p>
+            <figure type="decoration"/>
+            <figure type="decoration"/>
+            <figure type="decoration"/>
+            <figure type="decoration"/>
+            <p rend="labelled"><lb/>CHALOUPE A VAPEUR ATTO<lb/>Charmante chaloupe à vapeur de plaisance, construe<lb/>tion en fer, offrant tous les avantages désirables.<lb/>solidité, commodité, agrément. Hour plus amples<lb/>renseignements, s'adresser à l'Imprimerie.</p>
+            <p rend="labelled"><lb/>BOUILLABAISSE ISNARDON <lb/>bien surnommé LES DELICES DU BORD DE MER.<lb/>wine BOUILLABAISSE peuvent aller en toute con-<lb/>flance dégueler<lb/>Quand p <lb/>fois la bouillapaisse Isnardon, on éprouve le besoin<lb/>de retourner dans cet établissement. Le plus surpre<lb/>PRIX LES PLUS MODERE.<lb/>eut se faire traiter aux<lb/></p>
+            <p rend="labelled"><lb/>Succoss 17 B. — Gros.— Dóta<lb/>CASSELY u Prt.17 B.— Gros.— <lb/>Exportation.— Fabrique d'hameçons et ustensiles<lb/>mande par son ancienneté, la supériorité de tous ses<lb/>e et marchandises provenant toutes des meil-<lb/>produit<lb/>leures fabriques et par la cuite spéciale do ses fils de<lb/>laiton tant appréciés par les amateurs et les prati-</p>
+            <p rend="labelled"><lb/>BATEAU PONTE poneé, mesurant i8 pans de<lb/>longuenr, tenant parfaitement la mer, en très bon<lb/>état. Le propriétaire de ce bateau devant quitter<lb/>Marseille. l'acheteur trouvera les meilleures condi-<lb/>tions qu'il soit possible de faire. Pour traiter. s'a-<lb/></p>
+            <p rend="labelled"><lb/>CABANON A VIAGER AEAETE<lb/>non au bord de mer compris depuis le cap Pinède<lb/>jusqua Suib-Henri. Pour tous ronseignements. s'a-<lb/></p>
+            <p rend="labelled"><lb/>JOLI BATEAU PLAT <lb/>bureau du joisdal rue Chevalier-e</p>
+            <p rend="styled"><lb/>Marseille Imp. Cent. E. CAMOIN r. Chevalier-Roze</p>
+            <ab><lb/>M. Paul MASSAINT<lb/>AVIS AUX PECHEURS <lb/>la Joliette 9. (Avenue de la place d'Afrique), tien<lb/>la disposition des amateurs un grand assortiment<lb/>d'articles de petite péche, tels que cannes, cannillons<lb/>longues. palangrotés. — On trouvera également chez<lb/>TIAVERSE DE LA JOLIETTE. 9.</ab>
+            <p rend="structured"><lb/>CAFÉ RESAURANT <lb/>Radoub (Près la Madrague de la ville) Bouiltabaisse.<lb/>Service à la Carte. Dinors de commande.— Raviolis<lb/>et Tagliarinis.—Liqueurs assorties.— Bière et Limo-<lb/></p>
+            <p rend="heading"><lb/>ARTICLES dE PÊCIIE</p>
+            <ab><lb/> Baboués, Mouredus, Piades. ANTOINE<lb/>REIMBAUD. rue du Bon-Pasteur, 31.</ab>
+            <p rend="labelled"><lb/>GASPARD NIOLLON<lb/>teurs de péches et aux revendeurs. pour la supériorité<lb/>ses produits et la modicité de ses prix. Fil de<lb/>laiton d'Allemagne, qualité extra-supérieure, pour<lb/>la péche avec la Baboué et autres genres de péche.<lb/>Seule maison à Marseille, vendant le véritable hamé<lb/>çon Richard. Hemming et Sons, tant estimés et</p>
+            <p><lb/>SUR LE PORT. 1 ET RUE DE NUTT..<fw type="digitisation-artefact"><lb/>gallica.n.f/Bibliotèue</fw></p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
