@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Ariéjo dins Paris</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t57245678</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Ariéjo dins Paris : organe de la Société amicale des Ariégeois de Paris</title>
+          <publisher>[s.n.] (Paris)</publisher>
+          <date when="1900-12-01">1900</date>
+          <idno type="ARK">bd6t57245678</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t57245678</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-13" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Le 2e Samedi de chaque mois. — DÉCEMBRE 1900.</fw>
+        <ab><milestone unit="column" n="2"/><lb/>PAR AN</ab>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>42o ANNÉE. No 1</p>
+        <ab>
+          <stamp><lb/>12<lb/>o</stamp>
+        </ab>
+        <ab><milestone unit="column" n="3"/><lb/>Organe de la Société Amicale des<lb/>Ariégeois de Paris<lb/></ab>
+        <ab><lb/>France, Algérie et Tunisie. 2 fr<lb/>paran<lb/>Le numéro : 15 centimes<lb/>Jacques, Parts.<lb/><lb/> de M. CLACSTRE. 12S rue Si-a<lb/>resd</ab>
+        <p rend="heading"><lb/>ABONNNEMENTS :</p>
+        <ab><lb/>ADMINISTRATION &amp; RÉDACTION<lb/>S'adresser à M. CLAUSTRE<lb/>123, rue Saint-Jacques, PARIS</ab>
+        <p><lb/>12, 18, 21/4 francs et au-dessus<lb/>suivant l'importance.<lb/></p>
+      </div>
+      <div type="article">
+        <ab><lb/>Nostro Soucietat, douncos, be d'estre maire ;<lb/>A dounat un ejant al Pais qu'es soun paire ;<lb/>Un efantet caittu que culdra menatja,<lb/>Presento-te pertout, à la bilo, al bilatge ;<lb/>Dits que d'un ariejoues as le cor, le couratge;<lb/>Que ta maire tout soul t'emboio de Paris<lb/>Perque digos pertout chin aimo le Païs,<lb/>Chin se sap soubeni, chin sap gardo dins l'amo<lb/>Aprendas soun passui, soun hestouero, sas</ab>
+        <ab type="head"><lb/>L'ARIEJO DE PARIS</ab>
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>Mes estounant, ta pla, pusque parlo deja.<lb/>Et que parlo de tout : de Paris, de l'Ariejo,<lb/>Des parens, des amics, del bel tems, de la plejo,<lb/>Cresi que parlara de sa maire, sustout ;</p>
+        <p rend="styled"><lb/>L'aimo tant que bouldra qu'on ac sapio pertout.<lb/>Le noum qu'a recebut le joun de soun batemo<lb/>Le porto sus soun frount; le beirets; es le memo<lb/>Que le noum de sa maire ; abets recounegut<lb/>« L'Ariejo dins Paris ». Chin goust aben agut ?<lb/>Es un noum pla causit ? Pouden dire d'abanso<lb/>Que le noum del Païs deura l'y pourta chanso.</p>
+        <p rend="styled"><lb/>Nou cresi pos que sio, coumo d'autris, fastious,<lb/>Et quan on l'aura bist brabe, tout amistous,<lb/>Ariejoueses d'aci, d'ala; de la mountagno,<lb/>Ou besis de Toulouso, ou besis de l'Espagno,<lb/>Toutis, ne soun segur, le nous demandaran;<lb/>Prestis à se fourra, le se disputaran.</p>
+        <p rend="styled"><lb/>Bè, dounc, brabe petit, et sios pla sage; escouto ;<lb/>Bè toutjoun tout siauet, gaito pla sus ta routo;<lb/>coumo les auselets que s'embolon del nits,<lb/>Que le plase de biure a rendudis ardits<lb/>Et que dins lour depart acoumpagno lour maire,<lb/>Pren las memos licous per te eni dins l'aire.</p>
+        <p rend="styled"><lb/>B'iras, d'abord, à Pouix, à Pamios, St-Girouns;<lb/>Apeich besitaras toutis lours embirouns.</p>
+        <p rend="styled"><lb/>Aquel amour entact dount entrete la flamo.<lb/>Beiras nostre Païs de la plano as picous,<lb/>Le besitaras pla dins toutis sous cantous,<lb/>Et le troubaras ple de tresors, de richessos;<lb/>Tout t'interessara, sas beutats, sas rudessos.</p>
+        <p rend="styled"><lb/>Beiras sous habitants ; oun que sion establits.<lb/>Toutis se moustraran tous fraires. tous amits.</p>
+        <lg>
+          <l><lb/>(fablos;</l>
+          <l><lb/>Soun present ambe sous repetits et sas ablos,</l>
+          <l><lb/>Et quan sauras pla tout et, sustout, le patoues,</l>
+          <l><lb/>Te pouiras dire hurous et fier d'estre Ariejoues</l>
+          <l><lb/>Et crida fermoment, debant aquelos causos,</l>
+          <l><lb/>A qui te blagario: Et « Toco-y se gausos!»</l>
+        </lg>
+        <ab><lb/>JANOU D'AURUS.</ab>
+        <p rend="styled"><lb/>Nostro Soucietat, « l'Ariejo de Paris»,<lb/>Nourrido de parfums bengudis del païs,<lb/>Despeich que, souloment, ero petito filho,<lb/>Nous a toutjoun proumes de teni de familho.<lb/>Espieglo, mes boun cor, poutido coumo un sou,<lb/>Aberido, sustout, aiman tout so qu'es nou,<lb/>Et sense fred as els, ni dijous le coursatge,<lb/>Et pourtan la clartat del soudeith al bisatge,<lb/>Marchan ambe le rire, ambe la gaietat,<lb/>Et sus tout soun cami recoultan l'amistat,<lb/>A grandit, a grandit, enfin s'es feito belo<lb/>Coumo uno flou del cel, aquelo doumaiselo.<lb/>Be d'abe sous bint ans, entendets pla, bint ans !<lb/>L'atge de celebra le printems dins sous cants;<lb/>L'atge oun l'esprit segueich pertout la fantasio,<lb/>Oun tout es bel, noubel et ple de pouesio ;<lb/>Oun le cor, tout perdut, se met a palsema<lb/>Et sufreich de la fiebre et del besoung d'aima.<lb/>vieillards auxquels une année de plus donne une<lb/>force nouvelle. C'est le proche parent de ce senti-<lb/>ment qui réunissait, il y a une vingtaine d'années,<lb/>quelques Ariégeois de Paris, pour leur faire jeter<lb/><lb/>les bases de la Société amicale, de ce sentiment<lb/>qui, à quelque temps de là groupait dans un élan<lb/>enthousiaste et fraternel presque tous ceux des<lb/>Ariégeois de Paris que l'appel des initiateurs avait<lb/>pu atteindre, sentiment tel que ni les divisions ni<lb/>les épreuves ne pouvaient rien contre l'effet pro¬<lb/>duit par ce premier élan et que cet effet subsistait,<lb/>indépendant des événements et des personnalités<lb/>lié seulement au sentiment qui l’avait fait naitre?<lb/>le culte de l'Ariège.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>En dehors de toute considération personnelle,<lb/>comme de toute considération politique ou reli-<lb/>gieuse, le culte de l'Ariège est la raison d'être de<lb/>la Société ; il en est la cause comme il en est le<lb/>vut et l'œuvre nouvelle découle de ce mé̂me prin<lb/>cipe.</p>
+        <p><lb/>Tous les Ariégeois aiment l'Ariège. Il serait en-<lb/>fantin de se jalouser là-dessus. Ne semble-t-il pas<lb/>cependant que ce sentiment s'exaspère chez ceux<lb/>que les circonstances ont éloignés de leurs mon-<lb/>tagnes ? qu'il devient plus vif par le contact avec<lb/>les originaires du méme pays, par les souvenirs<lb/><lb/>qu'évoquent, dans des réunions amicales, l’accent,<lb/>la langue, la couleur? qu'il résulte de ces impres-<lb/>sions renouvelées une communauté, pour ainsi<lb/>dire involontaire, de vues et d'aspirations qui<lb/>font l'unité, la force et la direction morales d'une<lb/>Société comme la nôtre?</p>
+        <p><lb/>Sous l'apparence discrète, impersonnelle, de la<lb/>Société amicale des Ariégeois de Paris, se dé-<lb/>veloppe une vie sentimentale dont quelques<lb/>esprits ne peuvent pas soupçonner l'intensité.<lb/>Des Ariégeois, depuis longtemps éloignés de leur<lb/>pays, sont venus aux réunions. Pour quelques-<lb/>uns, les difficultés de l'existence avaient supprimé<lb/>les liens qui les unissaient à l'Ariège. Les souve¬<lb/>nirs allaient s’affaiblissant. Un peu encore, ils<lb/>nous devenaient étrangers. Ils sont venus une<lb/>première fois. Ce qui les a frappés tout d'abord,<lb/>cest l'atmosphère toute nouvelle de cette salle de<lb/>réunions. Ce n'est plus Paris... Ils ne se recon-<lb/>naissent pas pourtant. Ils sont génés, mal à leur<lb/>aise, la différence est trop grande avec la tempé-<lb/>rature extérieure, avec leur monde habituel.</p>
+        <p><lb/>Ils s'en retournent, mais le soleil les a touchés.<lb/>Ils pensent; des mots hier inconnus leurs vien-<lb/>nent aux lèvres, des airs chantent dans leur mé¬<lb/>moire. Ils reviennent aux réunions deux fois,<lb/>trois fois. Cet accent leur est familier, ces contes<lb/>patois, ils les ont balbutiés enfants, ces chants<lb/>sont les leurs. Ils savent où ils se trouvent main-</p>
+      </div>
+      <div type="article">
+        <head><lb/>L'ARIEJO DINS PARIS</head>
+        <figure type="decoration"/>
+        <p><lb/>Le soir ou fut décidée en Assemblée générale la<lb/>création du journal qui parait aujourd'hui sous<lb/>le titre de cet article, un des membres de l'Assem-<lb/>blée posa cette question;</p>
+        <p rend="labelled"><lb/>Et si vous n'avez pas de copie ?...</p>
+        <p rend="labelled"><lb/>— Vous nous en donnerez, lui fût-il répondu.</p>
+        <p rend="labelled"><lb/>Et l'Assemblée éclata en applaudissements.</p>
+        <p><lb/>Je crois bien que ce membre, si inquiet de la<lb/>pénurie éventuelle d'articles, porte aujourd'hui<lb/>ce nom: Janou d'Aurus. Avec la plus poétique<lb/>impudeur il vous a raconté comme quoi la Société<lb/>amicale des Ariégeois de Paris, belle fille qui va<lb/>sur ses vingt ans, vient d'avoir un nouveau-né<lb/>capable déjà de dire maman, de crier haut et<lb/>ferme : Toco y se gausos, et mème au besoin d'en-<lb/>tonner Aquelos mountagnos.</p>
+        <p><lb/>C'est très compromettant, et ces poètes n'en<lb/>font jamais d’autres. Il ne manquait plus à l'in-<lb/>discret Janon que de dire aussi le nom du père,<lb/>des pères plutôt, car je connais à l'heure actuelle<lb/>quelques bonnes douzaines de personnes qui<lb/>accepteront très glorieusement ce titre.</p>
+        <p><lb/>Pour éviter toute querelle entre ces divers can¬<lb/>didats à la paternité de l'Ariejo dins Paris, nous<lb/>allons dire tout de suite quel est l'auteur, le créa-<lb/>eur du petit journal qui parait aujourd'hui pour<lb/>la première fois.</p>
+        <p><lb/>Le père est très vieux, mais c'est un de ces<lb/>tenant. Cette salle, ce soir, c'est l'Ariège, l'Ariège<lb/>à Paris, l'ariejo dins Paris.</p>
+        <pb facs="0002.xml"/>
+        <fw type="runningTitle"><lb/>L'ARIEJO DINS PARIS</fw>
+        <p><lb/>Ils s'intéressent désormais à tout ce qui est<lb/>Ariégeois. Ce coin d'Ariège entrevu leur donne le<lb/>désir de s'échapper, d'aller là-bas revoir les bonnes<lb/>vieilles gens que les années n'atteignent presque<lb/>plus. Ils rentrent à Paris avec le désir de donner<lb/>leurs impressions, de dire les beautés de la mon-<lb/>tagne, la fertilité de la plaine qu'abrite celle-ci,<lb/>avec la curiosité, encore accrue, de tout ce qui est</p>
+        <p><lb/>Ce qui est vrai pour eux l'est encore plus pour<lb/>ceux qui n’ont jamais perdu le lien, pour ceux<lb/><lb/>qui, venus à Paris, h'ont point pour cela déserté<lb/>l'Ariège. C'est vrai pour leurs enfants et même<lb/>parfois pour leurs amis.</p>
+        <p><lb/>Voilà le résultat de tout ce qui a été fait à la<lb/>Société amicale des Ariégeois de Paris, le culte<lb/>de l'Ariège devenu plus fervent. Les réunions ne<lb/>suffisent plus aujourd’hui. Elles sont trop espa-<lb/>cées. Il faut aux sociétaires autre chose. Ils récla-<lb/>ment la feuille familière venant satisfaire leur<lb/>curiosité, venant renouveler leur plaisir, venant<lb/>évoquer touté la sensibilité enthousiaste de leur</p>
+        <p><lb/>La voici, cette feuille. Que sera-telle, que</p>
+        <p><lb/>Voyez là-haut cette jeune femme que l'un de<lb/>nos plus jeunes sociétaires, M. Raoul Brunet, a<lb/>accoudée dans une pose de réve et presque de<lb/>mélancolie. C'est l'Ariège, transplantée à Paris,<lb/>mais non déracinée. Le déraciné est celui qui<lb/>oublie le sol natal, seul capable de lui redonner<lb/>des forces dans la dure lutte que soutiennent à<lb/>Paris et ailleurs ceux qui viennent casa la bido,<lb/>selon l'expression forte et pittoresque employée<lb/>par M. Délcassé à l'un de nos derniers banquets.<lb/><lb/>L'Ariège n'est pas une déracinée. Plus elle est<lb/>hors de l'Ariège, et plus elle est l'Ariège.</p>
+        <p><lb/>Cette jeune femme a dépouillé son costume pri¬<lb/>mitif. Adien les coiffes de Massat ou de Bethmale,<lb/>adieu les tabliers bariolés et les rubans multico-<lb/>lores. De fins souliers chaussent ses pieds mignons<lb/>et ses bras nus ne connaissent plus le hâle du<lb/><lb/>soleil, ni les morsures apres de la bise. Elle est<lb/>faite à cette vie nouvelle de travail et d'agitation,<lb/>où il semble que le sentiment ne puisse pas trou-</p>
+        <p><lb/>Mais qu'est-ce donc aujourd'hui qui lui étreint<lb/>soudain le cœur, et si doucement? — Un air<lb/>entendu dans la rue, un mot sonore, peut-être la<lb/>pointe de ses sabots ou quelque détail de son cos-<lb/>tume de naguère mal cachés, mal enfermés, lui<lb/>tombant sous la main, sous les yeux .. Elle s’é-<lb/>meut, elle pense, elle voit...</p>
+        <p><lb/>Là-bas, bien au-delà des plaines, se dégageant<lb/>de la brume, les montagnes étagent leurs gradins<lb/>majestueux, verts, sombres et dénudés, neigeux<lb/>à la cime. Plus haute que tout, dans une apothéose<lb/>triomphale, se dessine la silhouette des Tours de<lb/>Foix, image symbolique de l'Ariège pour tout<lb/>Ariégeois exilé. Il semble à la jeune femme,<lb/>attirée de tout son être vers ce lointain, qu'un<lb/>murmure imperceptible s'élève de toute cette<lb/><lb/>vision. Il se rapproche, il grandit, il éclate en une<lb/><lb/>harmonie irrésistible de force et de réve. C'est le<lb/>chant d'Aquelos mountagnos, évocation joyeuse,<lb/>tendre, mélancolique aussi, mais suprêmement<lb/>invincible, de tout ce qui est Ariégeois.</p>
+        <p><lb/>La jeune femme, L'Ariejo dins Paris, voit alors<lb/>ce qui est le plus près d'elle, la vie de cette Société<lb/>amicale des Ariégeois, intime et familière ; elle<lb/><lb/>pense à tous les Ariégeois qui ont servi ou illustré<lb/>leur pays, à ceux dont l'avenir s'ouvre plein de<lb/>brillants espoirs, aux vieilles légendes et aux<lb/>vieilles chansons, à ce patois, langue expressive,<lb/>poétique et gouailleuse, pleine de gaieté, à la vie<lb/>littéraire, scientifique, agricole, commerciale et<lb/>industrielle du département, à sa pauvreté et à<lb/>ses richesses, à ce renouveau d'activité qui semble<lb/>vouloir s’emparer de lui, remuant des plans<lb/>oubliés, fouillant des carrières à demi comblées<lb/>et en cherchant de nouvelles, demandant, exi-<lb/>geant l'exécution dé voies ferrées depuis long-<lb/>temps concédées, voulant détourner les rivières<lb/>de leur cours, utiliser les forces naturelles...<lb/></p>
+        <p><lb/>C'est de tout cela que sera fait le journal, de<lb/>tout ce qui est l'Ariège, dans l'Ariège ou hors de<lb/>I'Ariège. Son ambition n'est pas — elle serait<lb/>ridicule — de remplir un si vaste programme.<lb/>Mais tous les points de ce programme lui appar-<lb/>tiennent. Il s’occupera des uns ou des autres,<lb/>suivant les circonstances, mais il ne s’occupera<lb/>que d'eux et de rien autre. Quel que soit le sujet<lb/>particulier traité, ille sera au point de vue arié-<lb/>geois et toujours —c'est là une règle stricte — en<lb/>dehors de toute considération ou de toute discus-<lb/>sion politique ou religieuse.<lb/></p>
+        <p rend="labelled"><lb/>L'Ariejo dins Paris répond à ce besoin qu'ont<lb/>tous les Ariégeois éloignés de l'Ariège d'évoquer<lb/>tout ce qui leur rappelle leur pays. En 1896, la<lb/>petite troupe de la Société amicale des Ariégeois<lb/><lb/><lb/>de Paris avait joué, sous le mème titre, une<lb/>revue qui plaçait dans le cadre méme de la Société,<lb/>au milieu des sociétaires chantonnés ou carica-<lb/>turés, des danses, des costumes et des chants<lb/>ariégeois. Cette jeune femme de notre titre d'au¬<lb/>jourd'hui, cette Ariégeoise parisienne, c'était<lb/>Esclarmonde, la grande Esclarmonde de Foix.<lb/>Elle aussi avait retrouvé, dans un coin oublié, le<lb/>costume d'autrefois, la liadoure massadoise, et<lb/>Favait revétu pour guider, remettre dans le bon<lb/>chemin, rassurer et divertir les paysans ariégeois<lb/>eperdus et clamant à tous les échos : M'en boli</p>
+        <p><lb/>Le rôle d'Esclarmonde, la Société a le devoir dé<lb/>le remplir envers les Ariégeois qui viennent à<lb/>Paris ou qui s'y trouvent déjà. Le journal l'aidera<lb/>dans cette tàche. Répandu autant que possible<lb/>dans l'Ariège, il fera connaltre la Société et il<lb/>nettra en relations l'Ariège et les Ariégeois de¬</p>
+        <p><lb/>Pour remplir les divers buts que nous nous<lb/>traçons, nous avons besoin de la collaboration de<lb/>toutes les bonnes volontés,que cette collaboration<lb/>se manileste soit par des articles, soit par des<lb/><lb/>abonnements ou des ânnonces, soit par de la pro-<lb/>pagande en faveur de notre œuvre. Des concours,<lb/>précieux nous sont acquis déjà et nous en sommes<lb/>profondément reconnaissants. L'Ariejo dins Paris<lb/>dit d'avance merci aux amis qui demain s'ajou¬<lb/>teront à ceux de la veille.</p>
+        <p><lb/>Nous ne finirons pas cette présentation, cette<lb/>réclame, si l'on veut, sans adresser un salut<lb/>amical, d'abord à L'Echo de l'Ariège, organe de la<lb/>Société amicale des Ariégeois de Bordeaux, dont<lb/><lb/>le but est semblable au nôtre, puis aux journaux<lb/>et aux publications diverses de l'Ariège. A ces<lb/>derniers, nous demanderons pardon d'avance des<lb/>larcins que nous commettrons. L'Ariejo dins Paris<lb/>leur fera souvent des emprunts. Elle pillera sur¬<lb/>tout le Bulletin de la Société Ariégeoise des Sciences,<lb/>Lettres et Arts, source inépuisable de richesses<lb/>recueillies par des fanatiques de l'Ariège.</p>
+        <p><lb/>Quant à L'Avenir, il a été et il sera encore, je<lb/>l'espère, l'organe de notre Société. Ses colonnes<lb/>nous ont toujours été largement ouvertes. La<lb/>Maison Gadrat fait mieux aujourd'hui, puisqu'elle<lb/>imprime L'Ariejo dins Paris. Nous l'en remercions.<lb/>Grâce à elle, notre journal, ariégeois, le sera bien<lb/>plus, puisqu’il sera imprimé dans l'Ariège.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Dans le présent numéro se trouve encarté<lb/>un Bulletin d'abonnement. Nous prions tous<lb/>les sociétaires de l'utiliser pour des amis ou<lb/>pour des Ariègeois qui ne nous connaissent<lb/>pas encore. Nous les prions aussi et nous<lb/>prions toutes les personnes qui recevront le<lb/>journal de le faire circuler et de nous donner</p>
+        <figure type="decoration"/>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>A las amigos e as amics<lb/>de la Soucietat</p>
+        <p><lb/>Dejous aqueste sinne que pla couneguets<lb/>troubarets cado cop sio en francès, sio en<lb/>patoues, noubelos de la Soucietat : coun-<lb/>boucatius per las nostos perbielos mesadieros,<lb/>per las reunious generalos, per le soupa<lb/>amasso del Printens ; so que faram pertout<lb/>aqui e so qu'aurem fet, que disen en frances:<lb/>programme et compte-rendu ; listos de sou-<lb/>cietaris, etc... ; e, per acaba, so que bous<lb/>agradara sustout, repoutegadises del tresou-<lb/>rier, se nou l'pagats.</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>CONVOCATION</p>
+        <p><lb/>Bous caldra bremba toutis que la reuniou<lb/>mesadiero se tendra disade que be, 15<lb/>decembre, 3e disade d’aqueste mes, al<lb/>Cafe del Centre (dintron pel Passage du<lb/>Ponceau, 119 boulevard de Sébastopol), apres<lb/>soupa, a oueit ouros e miejo.</p>
+        <p><lb/>Madamo e les efans, nou bous demourats<lb/>a caso s'abets embejo de rire, canta e dansa.</p>
+        <p><lb/>La cansou des segadous (Massat).</p>
+        <p rend="labelled"><lb/>Furnished Apartment, Comédie en</p>
+      </div>
+      <div type="article">
+        <head><lb/>BUREAU ET COmITE</head>
+        <p><lb/>A la suite des élections faites les 17 et 24<lb/>novembre en Assemblée générale et en Comité,<lb/>le Bureau et le Comité sont constitués ainsi<lb/>qu'il suit, pour une période de trois ans :</p>
+        <ab><lb/>MM. le docteur FIQUET.*<lb/>M. LAFrONT Ulysse, O, G.<lb/>Secrétaires-Adjoints MM. DEDIEU Raymond.<lb/>Arrondissement de Saint-Girons</ab>
+        <figure type="table"/>
+        <figure type="table"/>
+        <p rend="styled"><lb/>Membres honoraires du Comité:</p>
+        <p><lb/>MM. FAURE-HÉROUARD, IZAURE, TAILLEFER.<lb/>les noms de tous ceux à qui l'envoi de ce<lb/>premier numéro serait agréable.</p>
+        <p><lb/>Le service du journal est fait à tous les<lb/>ser ses félicitations au lieutenant nommé chevalier de<lb/>la Légion d'honneur, à l'occasion du 14 juillet dernier,<lb/>La Société fêterà cette distinction, mais ce soir elle<lb/>acclame les deux sociétaires dévoués qui de loin sont<lb/>toujours avec les Ariégeois de Paris. (Longs applau¬</p>
+        <pb facs="0003.xml"/>
+      </div>
+      <div type="article">
+        <head><lb/>depuis l'impression de l'Annuaire (17 focrier 1900)</head>
+        <figure type="decoration"/>
+        <p><lb/>ite allusion à notre prochaine<lb/>ète. Nos banquets annuels sont l'occasion où tous nous<lb/>cherchons à nous réunir, à penser ensemble à notre<lb/>pays. Il faut venir à ces banquets. Il faut que chacun<lb/>de nous fasse de la propagande auprès de ceux quia<lb/>montreraient trop tièdes. Il faut les amener, non seu-<lb/>lement au banquet, mais à la Société, cette école de<lb/>solidarité entre sociétaires, comme entre Ariégeois.</p>
+        <p><lb/>M. de Hansy parle alors de P'incendie qui, dans la¬<lb/>nuit du 1e au 2 octobre, détruisit le hameau du Carol,<lb/>presque tout entier, réduisant à la misère les habitants.<lb/>Le Comité va demander tont à l'heure à l'Assemblée<lb/>l'approbation de la mesure par laquelte il a décidé<lb/>d'ouvrir une souscription, a la téte de laquelle il<lb/><lb/>inscrit la Société pour une somme de cent franes. Il<lb/>engage les sociétaires à apporter leur souscription au</p>
+        <p><lb/>Le Président termine en mentionnant l'œuvre entre-<lb/>prise par un Comité qui s'est formé à Saint-Girons,<lb/>dans le but d'élever un monument à Bordes-Pagès.</p>
+        <p><lb/>Compte-rendu financier. – M. Laffont, trésorier,<lb/>présente le compte-rendu financier, pour la période<lb/>qui s'est écoulée entre le 1" avril et le 31 octobre 1900.<lb/>Les comptes, examinés et approuvés par le Comité se</p>
+        <figure type="table"/>
+        <p><lb/>Les comptes du trésorier sont approuvés et des féli-<lb/>citations lui sont votées à l'unanimité pour sa bonne<lb/>en retard pour le paiement de leurs cotisations.es</p>
+        <p><lb/>Lecture des procès-cerbaux. — M. Claustre, secré-<lb/>taire, donne lecture des proces-verbaux de l'Assemblée<lb/>générale du 21 avril et des séances du Comité qui ont</p>
+        <p><lb/>oed<lb/>fair (Adopté)blée de v</p>
+        <p><lb/>Rapport de M. Claustre, secrétaire, sur la période<lb/>triennale qui cient de s'éconter depuis que le bureau et<lb/>le Comité sont en fonctions. + Ce rapport sera publié<lb/>dans le journal. De la statistique établie par le secré¬<lb/>taire, il résulte que la Société est dans une période de<lb/>prospérité toujours croissante: L'augmentation moyenne<lb/>de la somme percue en cotisations sur la période trien<lb/>nale précédente est de 206 fr.; le rapport de 1897<lb/>constatait seulement une augmentation moyenne de</p>
+        <p><lb/>Le nombre de sociétaires a augmenté de 46, de 1897.<lb/>à 1900. De 1891 à 1897, l'augmentation avait été de 37.</p>
+        <p><lb/>Le rapporteur, après avoir énuméré les diverses<lb/>réformes accomplies pendant les trois années qui vien¬<lb/>nent de s'écouler, termine en donnant le montant des<lb/>secours ou subventions accordés par la Société depuis<lb/><lb/>sonsoriginc. Il est supérieur à 7000 francs à l'heure</p>
+        <p><lb/>Sur la proposition du Président, des félicitations<lb/>spéciales sont votées à M. Claustre pour son rapport,<lb/>et on bat en son honneur un ban commandé par le</p>
+        <p rend="labelled"><lb/>Admission des nouceaux sociétaires.— L'Assemblée<lb/>prononce l'admission des nouveaux sociétaires dont les</p>
+        <p><lb/>Elle enregistre par ses applaudissements l'admission<lb/>de M. Delcassé, ministre des Affaires étrangères, comme.</p>
+        <p rend="labelled"><lb/>Démission. — L'Assemblée accepte la démission de<lb/>trois membres, dont deux quittent Paris, et déclare<lb/>le paiement de leurs cotisations. (Stat. rt. ).pu</p>
+        <p><lb/>Création d'un journal. — Lordre du jour appelle la<lb/>discussion sur le projet présenté par M. Claustre au<lb/>Comité, et adopté par celui-ci, relatif à la création<lb/>d'une fouille mensuelle destinée à étre l'organe de la</p>
+        <p><lb/>Le projet est adopté á̀ l'unanimité, à titre d'essai, et<lb/>le Comité est chargé de réglor tous les détails de la</p>
+        <p><lb/>Projet de budget du 1e nocembre 1900 au 31 octo¬<lb/>bre 1901. — M. Laffont, trésoriér, présenté à l'Assem¬<lb/>Blée un projet de budget qu'il a établi en tenant compte<lb/>de l'existence du journal et des dépenses probables<lb/>nécessitées par son fonctionnement du 1“ novembre<lb/></p>
+        <p><lb/><lb/><lb/><lb/>Incendie du Carol.– L'Assemblée approuve les me¬</p>
+        <p rend="labelled"><lb/>sures prises par le Comité au sujet de l'incendie du<lb/>Carol. Elle s'associe à la douleur causée chez nos com-</p>
+        <p rend="structured"><milestone unit="column" n="1"/><lb/>Hembre perpétuet : M. DELCASSÉ,*, député de<lb/>PAriège, Ministre des Alflaires étrangères. (So-</p>
+        <p rend="structured"><lb/>MM. BARTHEr Etienne, employé à la Préservatrice,</p>
+        <p><lb/>Pour faire partie de la Sccièté, il faut être originaire<lb/>de l'Ariège, ou se rattacher à l'Ariège par des inté-<lb/>rêts reconnus suffisants par le Comité (stat. art. 3).</p>
+        <p><lb/>La cotisation annuelle est de six francs. Elle est<lb/>exigible intégralement et d'avance pour la première<lb/>année, et par trois francs pour les autres années, paya-</p>
+        <p><lb/>Tout sociétaire peut s'exonérer de la cotisation en<lb/>versant une somme de cent francs, et est nommé de<lb/>droit membre porpétuel de la Société amicale (stat.</p>
+        <p><lb/>Les personnes qui désirent faire partie de la Socièté<lb/>sont priées de s'adresser à M. Laffont (Ulysse),<lb/>trésorier, rue de Grenelle, 84, ou de se ren-<lb/><lb/>dre aux réunions qui ont lieu le 3' samedi de chaque<lb/>mois, à 8 h. 1/2 s., au Cafè du Centre (entrée par le<lb/>Passage du Ponceau, boulevard de Sébastopol, 119).</p>
+      </div>
+      <div type="article">
+        <p><lb/>Une sonseription a été ouverte par la Société au<lb/>bénéfice des victimes de l'incendie du Carol (canton de<lb/>M. Laffont, trasorier, rue de Grenotle, 81, Paris.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>M. de Hansy ouvre la séance par l'allocution de<lb/>rigueur. Il souhaite d'abord la bienvenue aux Ariégeois<lb/>qui sont devenus des nôtres, depuis la dernière Assem¬<lb/>blée générale, puis il passe en revue les divers événe<lb/>ments survenus depuis qui peuvent intéresser la</p>
+        <p><lb/>L'un des mombres les plus anciens, M. Hippolyte<lb/>Saurat, ancien vice-président et ancien trésorier de la<lb/>Société, est décédé au mois de mai, à la suite d'une<lb/>assez courte maladie. La Société a envoyé une cou¬<lb/>ronne, suivant l'usage constant en de semblables eir;<lb/>constances. M. Garié, vice-président, entouré d'un<lb/>certain nombre de sociétaires, a assisté aux obsèques<lb/>et, sur la tombe, a prononcé quelques paroles, pour<lb/>dire les services rendus par le défunt et lui faire les<lb/></p>
+        <p><lb/>Un autre sociétaire, et des plus dévoués, le lieute¬;<lb/>nant Piquemal, assiste ce soir à la séance, avec<lb/>Mme Piquemal. Il a quitté, pour retrouver ses compa-<lb/>triotes, sa garnison lointaine, Epinal. M. de Hansy est.<lb/>neuroun de cene enconocance qui lui permet d'adres-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>Au debut des élections, M. de Hansy, présidem</ab>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>Nominations. — M. Delauney, secrétaire-géné-<lb/>ral de l’Algérie, est nommé Préfet de l'Ariège, en rem<lb/>placement de M. Fourcy, nomme Préfet des Cótes du-</p>
+        <p><lb/>Nous n'enf́reindrons pas la règle que nous nous<lb/>sommes imposée, relativement à la politique, en disant<lb/>que M. Fourey, devenu rapidement ariégeois et fuxéen</p>
+        <p rend="labelled"><lb/>Incendie du Carol. — Une proposition de loi<lb/>tendant à l'ouverture d'un crédit de 15.000 francs pour<lb/>venir en aide aux incendiés du Carol a été déposée sur<lb/>le bureau de la Chambre des députés, dans la séance</p>
+        <p><lb/>ur le même obie uane</p>
+        <p><lb/>loyé à la Trésorerie géné-</p>
+        <p><lb/>M. Montalògre, lieutenant au 15* d'Infanterie, et</p>
+        <p><lb/>Mlle Gadrat et M. Gadrat Jean sont les enf́ants de<lb/>M. Gadrat ainé, le chef de l'hospitalière maison où<lb/>s'imprime ce journal. L'Ariejo dins Paris leur adresse</p>
+        <p><lb/>Mlle Roques est la fille du De Roques, bien connu à<lb/>Foix et dans la région. Que le jeune couple accepte</p>
+        <p rend="labelled"><lb/>Chambres de discipline. Avocats.— Les avo¬<lb/>cats près le Tribunal de 1° instance de Foix ont compose</p>
+        <p rend="structured"><lb/>Bato M.MML Vi ae tre M.</p>
+        <p rend="labelled"><lb/>Acoués. — Les avoués de Foix ont composé ainsi</p>
+        <p rend="labelled"><lb/>ur: M. Doumenjou; secretairetres M. S<lb/>teur: M. Doumenjou; secrétaire-trésorier: M. S</p>
+        <p rend="labelled"><lb/>Effondrement d'une maison. — Une partie<lb/>de la maison Buscail, sise à Foix, à coté du semblant de<lb/>place Freycinet, s'est effondrée. Il n'y a pas eu d'acci-<lb/>dent, heureusement. Cet effondrement était prévu, le<lb/>vieux mur placé contre la maison menaçait ruine<lb/>depuis longtemps et sa laideur faisait la honte d'une<lb/></p>
+        <p><lb/>La municipalité de Foix va profter de cet accident<lb/>publies y remédient d'une maniére effieace. pouvoirs</p>
+        <p><lb/>M. Claustre annonce à cette occasion qu'il a fait<lb/>connaitre la situation des habitants du Carol<lb/>M. Deleassé, ministre des Affaires étrangères, et que,<lb/>sur la demande de celui-ci, il lui a fait parvenir une<lb/>note destinée à être remise au ministre dans les attri-<lb/>butions duquel entrent les secours à allouer aux vic¬</p>
+        <p rend="styled"><lb/>Fête de printemps. — Sur la propositi Elle consiste.<lb/>la Féte de printemps est fixée au 4 mai. Ele consiste,</p>
+        <p><lb/>Cette fête aura ce double attrait qu'elle sera l'occa-<lb/>sion de fêter la décoration du lieutenant Piquemal et<lb/>qu'elle coincidera avec le 20 anniversaire de la Société</p>
+        <p rend="labelled"><lb/>Elections. — L's et u Com<lb/>membres du burea« et du Cm</p>
+        <p><lb/>avait fait part à l'Assemblée du déstr exprimé par<lb/>M. Dhers d'abandonner la vice-présidence de <lb/>Société à laquelle ses occupations actuelles l'empé<lb/><lb/>chaient de donner tout le temps qu'il croyait devoir<lb/>lui consacrer. A la suite de cette communication, le<lb/>docteur Fiquet exprimait le méme désir, en donnant<lb/>cette raison, fortement appuyée par M. Garié, qu’il<lb/>importait de ne pas laisser les vice-présidents s'éter-</p>
+        <p><lb/>Mais aucune de ces raisons n'était trouvée bonne par<lb/>l'Assemblée qui, malgrè les instances très vives de</p>
+        <p><lb/>La séance, après épuisement de cet ordre du jour très<lb/>chargé, a été levée à minuit, et, pendant plusieurs<lb/>instants, une causerie animée retenait les sociétaires<lb/>dans la salle des séances. Ils so quittaient tous<lb/>souhaitant bonne chance au nouveau-né, que le Comité<lb/>baptisait dans la séance suivante : L'Ariejo dins Paris.</p>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>L'ARIEJO DINS PARIS</fw>
+        <ab><milestone unit="column" n="2"/><lb/>Le Gérant: GADRAT ainé.<lb/>Foix. — Impr. GADnAT afné, rue La Bistour.<lb/><lb/></ab>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="1"/><lb/>On annonce le retour du capitaine Dumas, frère du<lb/>donner aux passants u<lb/>que présentait le mur en question.</ab>
+        <p><lb/>notaire de Saint-Lizier. Le capitaine Dumas rentre du<lb/>Transvaal où il était allé offrir ses services aux Boers.</p>
+        <p><lb/>Collège. — 12 élèves du collège ont été reçus aux<lb/>divers examens du baccalauréat, dont 4 avec mention.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>COUYOUNADOS</head>
+        <p><lb/>Un dio de setémbre darré, Felipot de<lb/>Miqueu e Bourtoulou de Capestounat eron<lb/><lb/>pesca proche Nabios. Que se gouarabo<lb/>l'aigo Bourtoulou sense re dise. Tout d'un<lb/><lb/>cop se biro debes Felipot, demoro atal gorjo<lb/><lb/>badanto, se rebiro debes l'aigo, poueich</p>
+        <p><lb/>E aro, sa dits, mal foc del cel ! las</p>
+      </div>
+      <div type="article">
+        <ab><lb/>XXX</ab>
+        <ab type="head"><lb/>As lectous de l'Almanac Patoues de 1901</ab>
+        <ab><lb/>A LA LIBRAIRIE GADRAT AINÉ<lb/>Rue La Bistour à Poix (Ariège).<lb/>ALMANAC PATOUES<lb/>nlustrat DE L’ARIEJO niustrat<lb/>PER L'ANNADO 1901</ab>
+        <p><lb/>Countenen ficiros, coursos de la luno, tout<lb/>ço que cal per fe riro et acountenta las gens de<lb/>notre tant aimable pays, coumo proberbis.<lb/>cansous, countes, istorios, farsos, eic</p>
+        <p><lb/>Soun urous de beni, per la ounziemo an-<lb/>nodo, bous presenta mas amistats e bous dire<lb/>tout le plase qu'e de bous retrouba.</p>
+        <p><lb/>Me cal, d'abord, remercia toutis les que, à<lb/>gran manat, m'an embouiat countes e istorios.<lb/>N'y abio de pla poulits qu'e utilisats ou qu’uti¬<lb/>lisare l'an que be, mes n'y abio d'autris que<lb/>me poden pos serbi perso que soun ou sense<lb/>interest ou que tuston à la politico, toutos cau¬<lb/>sos que deben pos figura dins l'Almanac pa¬<lb/>toues Illustrat de l'Ariejo. Fasets y pla atten-<lb/>tiu e sire toutjoun urous de receure countes</p>
+        <p><lb/>Aco dit, bous fare remerca que e countinuat<lb/>e que countinuare à marcha dins le boun cam<lb/><lb/>que bons abio endiquat l'an passat ;<lb/></p>
+        <p><lb/>Troubarets dins l'almanac un floc d’imatjes que;<lb/>bous amusaran, n'en soun segur, e que toutis<lb/>an estadis feitis per Ariégeoises. Per les que<lb/>poden pos bouiatja e que soun oublitjats de se<lb/><lb/>demoura touto l'annado al travail, les ajudare ò<lb/>lous y fe counegue las causos poulidos de nos-<lb/>tre tant bel pais : aquesto annado bous dóuni<lb/>bistos del pount de Kerkabanac dins le Sant-<lb/>Girounes e des couberts de Miropeix. L'an</p>
+        <p><lb/>Bous e tabes reserbat uno suspreso que, ac<lb/>pensi, bous sira agradio : troubarets, dins<lb/>l'Almanac, le prets que bous caldra paga al cami<lb/>de fer quand bouldrets fe un bouiatje ; aco ser-</p>
+        <p><lb/>ande la musiquo, istorios amusantos, e so</p>
+        <ab><lb/>D'USSAT-LES-BAINS (Ariège)<lb/>Grand Hôtel Modèle<lb/>Attenant au Pare - nestaure à neuf<lb/>AROPRIETA</ab>
+      </div>
+      <div type="article">
+        <p><lb/>Hôtel de premier ordre, magnifiquement<lb/>oximitm de l'Etablissement Thermal et</p>
+      </div>
+      <div type="article"/>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>BIBLIOGRAPHIE</head>
+        <p><lb/>ivrage qui nous seront envoyés pour la Biblotheque<lb/>ouvrages qui nous seront envoyés pour la Bibliothéque</p>
+      </div>
+      <div type="article">
+        <ab><lb/>HUILES ET SAVONS<lb/>GARCiN F<lb/>à EYGUIÈRES (Bouches-du-Rhó̀ne)<lb/>Spécialité pour Clientèle bourgeoi¬<lb/>hure d'olive do Provenco.......................... á fr. 1,80 — 2,00 et 2,20<lb/>Savons blancs..... a fr. 0,60 — 0,55 — 0,00 et 0,05 130 et 1,40<lb/>bocal d'olives ou un flacon d'oau do flours d'oranger est offort gratoitement à tont<lb/>La Maison acopte des agents dans toutes les localités où elle n'est pas déja représentée.<lb/>oulouse-Matabiou à Ax-les-Thermes.<lb/>Tous<lb/>Matabiau à St-Girons. — Bram à Pamiers<lb/>ires de l'année 1901 (aco's en frances). — Foires et<lb/>parchés de l'Ariège. de la Hlauto-Garonne, de l'Aude<lb/>Les marchans que recoumandan à nostris lectous<lb/>quin deben fe per s' fe s<lb/>quin deben fe per s’ ſe susse</ab>
+        <p><lb/>Jan de la Meilhengo, devenu maire de la<lb/>commune de Sercolo gràce à sa connais-<lb/>sance approfondie de la langue française,<lb/>s'était mis en tète de faire construire une<lb/>maison d'école. Il s’en va trouver le Prétet</p>
+        <p rend="labelled"><lb/>Mais, Monsieur le Maire, répond le<lb/>Préfet, pour faire une maison d'école, vous</p>
+        <p rend="labelled"><lb/>—Des fonts, Mossicu le Préfet, nous en<lb/>avons une darrière llle précipitère qui fait<lb/>un pichol comme le bras (1)...</p>
+        <p><lb/>n de la ae<lb/>persuadat que troubarets encaro aqueste an que<lb/>tout aco per tres sous es tout de memo per res.</p>
+        <p><lb/>Me demoro pos mes qu'à bous souhaita la<lb/>bouno annado, aquesto e forso d'autros e a<lb/>bous pla recoumanda de demanda pertont, per<lb/>noun pas bous troumpa, l'Almanac pa-<lb/>Roues ILLUSTRAT per l'an 1901<lb/></p>
+        <figure type="decoration"/>
+        <p><lb/>Endicatius dibe<lb/>sos pel catendrié. — Calendrié ambe les noums de<lb/><lb/>sants per cado jeun, las coursos de la luno, eto</p>
+        <p><lb/>Cansous de diberses cantous de<lb/>Ariejo eautros pouesios : La Lauscto e l'Esquiro</p>
+        <p rend="structured"><lb/><lb/><lb/>Bras tres counsultas. — Bernach<lb/>Ascloupé (counde en patoues de Bounac).<lb/>Felipou de Jépo (6 imatjes). — La miu... abio s<lb/>e Diablo troumpat. — Uno feiro as<lb/>Le Pount de Kerkabanae (imatze)<lb/>Le Ritou pressat (istorio bertadiere<lb/>Tres Secrets de Pepi biell. – Medecino Poupulario<lb/>per las gens e per le bestia).— Renegs.<lb/>du Midi. Tarif du prix des places</p>
+        <figure type="decoration"/>
+        <ab><lb/>TRAT per l'annado 1901 countè nonante<lb/>seize pajos de texte e un floc d'imatjes.<lb/>L'ALNANAC PATOUES dE L'ARIEJO<lb/>Tres sous, Quinze Centimos !<lb/>(Aco per res ou pauc s'en cal)<lb/>Per la posto Ó fr. 20 cent.</ab>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>OFFRES ET DEMANDES D'EMPLOI</ab>
+        <p><lb/> dondre d'emploi qui nous seron adre<lb/>pu les demandes d'emploi qui nous seront adressé</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>FOIRES DE L’ARIÈGE</head>
+        <head><lb/>Du 10 décembre 1900 au 15 janvier 1901.</head>
+        <p rend="structured"><lb/>Décembre. — 10, Mirepoix, St-Girons ; 11, Lézat,<lb/>Pamiers; 12, Fossat, Mas-d'Azil ; 13, Campagne, La-<lb/>roque-d'Olmes, Massat; 14, Saverdun ; 15, Castelnau¬<lb/>Durban ; 16, Fossat; 18, Castillon, Varilhes ; 19, Les<lb/>Bordes-sur-Arize ; 20, La Bastide-de-Sérou ; 21, Ax-<lb/>les-Thermes : 22, Saint-Ybars ; 24. Montaut, Saint-<lb/>Cirons ; 25. Pamiers; 27, Massat, Mazères; 28, Mas-</p>
+        <p rend="labelled"><lb/>firt ; 4. Daumazan, La-<lb/>velanet, Tarascon ; 6, La Bastide-de-Besplas ; 7, Foix,<lb/>Rimont ; 8, Pamiers, Sabarat ; 9, Mas-d'Azil ; 10,<lb/>Massat; 11, Saverdun; 12, Seix, Le Fossat; 13, Carla-<lb/>Bayle ; 14, Ercé. Mirepoix. St-Girons ; 15, Castillon,</p>
+      </div>
+      <div type="article">
+        <head><lb/>L'AVENIR DU PROLÊTARIAT</head>
+        <p><lb/>Société civile de capitalisation, d'assistance mutuelle<lb/>et de retraites pour la vieillesse. Retraite proportionnelle<lb/>et progressive à partir de 60 ans d'àge et 15 ans de<lb/>sociétariat. Cotisations 1 fr. 50 par mois. Autorise</p>
+        <p rend="labelled"><lb/>L'Avenir du Prolétariat est propriétaire de<lb/>trois immenbles à Paris et d'un domaine de 220 hectares<lb/>à la Haute Barde, commune de Neuillé-Pont-Pierre<lb/>(Indre-et-Loire) sur lequel vont être construits des éta-<lb/>blissements hospitaliers. Siège social : 8 rue Pernelle er<lb/>6 rue Nicolas-Flamel, Paris.</p>
+        <p><lb/>Fondateur : M. Ferdinand BOrRE, membre de la<lb/>Societé amicale des Ariégeois de Paris.</p>
+        <figure type="decoration"/>
+        <ab><lb/>MAISONS RECOMMANDÉES<lb/>Tenues par des Sociétaires.<lb/>GRAND HOTEL MODÈLE attenant au Parc<lb/>Fauré-Hérouart, nouveau propriétaire.<lb/>Entrepreneur de charpentes, bois et fer et serrureries<lb/>40, rue Révol, Parc Saint Maur.<lb/>FOURNITURES SPÉCIALES DE CHAIX<lb/>Tonnellerie, cercles et osiers<lb/>L. Delpech, 1 et 3, rue Corbineau, Paris.<lb/>G. DENAT, Maison Fournier et Denat<lb/>Fabricant de Brosseries en tous genres<lb/>29, rue du Chateau-d'Eau, Paris.<lb/>bommes, dames et enfants, depuis 15, 20 et 22 fr.<lb/>HAUTES NOUVEAUTÉS PRANÇAISES ET ANGLAISES<lb/>MAISON J. GRÉGOIRE, MTailleur.<lb/>2, r. Tiquetonne, Paris. — Esc. 5% à MM. les Sociétaires.<lb/>HILLAT, 17, bd Barbès, attenant à la Men DUFAYEL.<lb/>Café, Vins, Liqueurs, Plat du Jouc-<lb/>Vins vieux, Champagne, Liqueurs de marque.</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>MAISON GRATIEN MICHAUD<lb/>7, rue Sainte-Croix de la Bretonnerie, Paris.<lb/>Entreprises générales de Mlenuiserie.</ab>
+        <figure type="decoration"/>
+        <ab><lb/>P. FAURE</ab>
+        <p><lb/>Un prix-courant est adressé men-<lb/>suellement aux sociétaires et abonnés</p>
+      </div>
+    </body>
+  </text>
+</TEI>

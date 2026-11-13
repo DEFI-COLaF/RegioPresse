@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Esque</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k1199309f</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Esque : journal des pêcheurs de Marseille</title>
+          <publisher>Impr. Étienne Camoin (Marseille)</publisher>
+          <date when="1875-01-01">1875</date>
+          <idno type="ARK">bpt6k1199309f</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k1199309f</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-13" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="digitisation-artefact"><lb/><lb/>Bibliothèque nation.</fw>
+        <pb facs="0002.xml"/>
+        <ab><lb/>rce gallica.bnf.fr/ Bibliothèque nationale de France</ab>
+        <pb facs="0003.xml"/>
+        <ab><lb/>Hzna</ab>
+        <pb facs="0004.xml"/>
+        <ab><lb/>Dourte gallica. bnianenoateque maaenane d venve</ab>
+        <pb facs="0005.xml"/>
+        <fw type="runningTitle"><lb/>2° ANNÉE.— No 2.<lb/>3 PIES LA PITADO.</fw>
+        <fw type="runningTitle"><lb/>SAMEDI 31 JUILLET 1875</fw>
+        <ab>
+          <stamp><lb/>DE<lb/>Tonc<lb/>N 68</stamp>
+        </ab>
+        <figure/>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>JOURNAL DE LA PÊCHE &amp; DES BAINS DE MER</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>AVIS IMPORTART</head>
+        <p><lb/>Le Journal insérera gratuitement les Annonces<lb/><lb/>concernant la Location, la Vente ou l'Achat de<lb/>Cabanons au Bord de Mer, Bateaux de Peche, de<lb/>Plaisance. Canots, etc.<lb/>commencement du paradis, s'est surpasser<lb/>Quel feu d'artifice !I. II aurait rendu vert<lb/><lb/>celui de l'ex-quinze août. Mais ce qui sur-<lb/>passerait tout, on raconte que quatre mar-<lb/>chands de mourredus ont livré, chacun, cent<lb/>têtes pour trois francs. C'est à ne pas y croire.<lb/>On dit que la Bourse, le Palais... La rédaction<lb/>est troublée par cet enthousiasme. Quels<lb/>efforts il va falloir faire, oh, vieux Dien du<lb/>« Quos Ego », un poou d'ajudo fa de ben.</p>
+        <p><lb/>Et vous abandonnez l'Esque, vous vous<lb/>exilez, illustre Pataclet, vous dont la verve.<lb/>le geste, la présence auraient ammé les pois-<lb/>sons les plus moroses, vous qui auriez fait<lb/>sourire une moureno, vous qui auriez fait<lb/>de votre compagnon Pite-Mouffe, un cétacé.<lb/>Vous l'abandonnez ce grand nom que chaque<lb/>goutte d'eau répétait à l'envie, et que les<lb/><lb/>mers du Japon se plaisaient déjà à bégayer.<lb/></p>
+        <p><lb/>Il sera à l'un de nous, ce grand nom. Celui<lb/>qui en supportera le poids, lui indigne. Il<lb/>mourra de nos étreintes s'il ne l'elève pas<lb/>jusqu'aux cimes des mâts les plus élevés.<lb/>Lorsqu'il se sentira faiblir, quand le Dieu lui<lb/>échappera, il ira faire une station d'eaux à<lb/>Planier. Là, il essaiera de donner à ses na¬<lb/>geoires la souplesse Delphinale des vôtres.<lb/>Dans les abris de ce lieu saint, il cherchera<lb/>le divin secret de la féconde varièté de votre<lb/>esprit. Et puis le Dieu des mers ne veillera-<lb/>t-il pas sur notre souriant bebé. Vous, pau¬<lb/>vre exilé, Pataclet infortuné, nouvel Ovide,<lb/><lb/>vous regretterez l'eau salée, Paioli, le bouil-<lb/>labaisse et les amis.</p>
+        <p><lb/>Nobles compagnons de l'hameçon, vieux<lb/>braves qui avez usé vos culottes sur les ro¬<lb/>quos de l'Ile des Pendus, au Fortin et aux<lb/>mille autre lieux semés de cailloux pointus,<lb/>vous qui êtes toujours dans le draio du<lb/>devoir, qui savez compatir à toutes les infor¬<lb/>tunes, pleurez, pleurons jusqu'au retour de<lb/>Pataclet; Esqu'harcelons-le, faisons-lui des<lb/>pétitions sur du papier fabriqué avec des<lb/><lb/>algues quil aime tant, afin que, au moins de<lb/>temps eu temps, il nous ravive par sa prosa<lb/>diaprée.</p>
+        <p><lb/>Ainsin-soiti!</p>
+        <ab><lb/>Pour la rédaction,<lb/>Le Secrétaire.</ab>
+        <ab><lb/>FICOUPELAN.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Soupirs et Sanglots,<lb/>Pleurs et Larmes.<lb/>et pour son public. Où irait -il chercher ses 751 ; et Maramousque, la fla de la terre, le</ab>
+        <p rend="dateline"><lb/>MON CRER ANI,</p>
+        <p><lb/>F'aurais du répondre depuis longtemps à lu<lb/>lettre que f'ai recu de Pite Mouffe, mais je<lb/>comptais aller vous voir pour causer de<lb/>l'Esque, de sa grandeur et de sa décadence. Le<lb/>prospectus que vous m'adresses aujourd'hui<lb/>par la poste ne prouve que, semper redivi-<lb/>vens, notre chère fille va reprendre le fil de<lb/>son existence. Hélas! Patuclet n'est plus que<lb/>l'ombre de lui-même. Il péche au Rhône! et<lb/>c'est tout dire. Et quand jerdis: il péche !...<lb/>Il regarde, le malheureux, l'exilé de la mer,<lb/>le proscrit de Caucavaou !... un stupide bou-<lb/>chon de iège, indicateur qui n'indique jamais<lb/>rien, s'en aller au fil de l'eau jaunâtre du<lb/>feuve, jusqu'au moment où, métancolique, il<lb/>le ramène en amont, pour le regarder encore<lb/>descendant le courant rapide et muet. Pata-<lb/>clet, esque avec des mouches ! Patactet, hier,<lb/>a pris une ablette !!.. (Ne le dites pas à vos<lb/>lecteurs, o mon ami!)</p>
+        <p rend="styled"><lb/>Donc, Pataclet n'est plus. En un jour d'er-<lb/>reur, il se serait noyé dans PHuveaune qu'il<lb/>ne serait pas plus mort pour votre feuille<lb/>inspirations? L'anguite de Sorques à la tar-<lb/>tare lui tient lieu maintenant de bouilla-<lb/>baisse, l'écrevisse de Vaucluse a remplacé<lb/>pour lui lou chambri et lou fléoupélan! I<lb/>ne forait plus rien que de travers. Du su-<lb/>blime atoli lui-même il ne connuit plus que<lb/>des contrefaçons expurgées et éduleorées aved<lb/>le plus grand soin. Où trouverait-it, dans<lb/>une ville où le safran ne se vend que ches<lb/>le pharmacien, les condiments et les épices<lb/>indispensables aux tartines qu'il devrait vous<lb/>servir ! Plaignes-la, pleures Pataclet, et<lb/><lb/>envoyes-lui sur la terre d'exil celle dont il<lb/>voudrait pouvoir se dire encore le père le<lb/>plus affectueux et le plus ferme soutien.<lb/>Comme elle sera recue la chère Esque! En<lb/>la déployant... Mais je m'arrête, trop de dou-<lb/>leur accompagne d'aussi cruels et si doux<lb/>souvenirs... Aousso-lou ! Et vogue la galère !</p>
+        <ab><lb/>Votre désespèré,</ab>
+        <ab><lb/>PATACIET.</ab>
+        <p rend="styled"><lb/>26 juillet 1875.</p>
+        <p><lb/>Vous le voyez, excellent compagnon, nous<lb/>n'avons rien trouvé de plus expressif que<lb/>votre lettre. Le silence est le cri des grandes<lb/>Souleurs. Nous la connaissons, nous habi-<lb/>tants de l'eau, la valeur du silence, nous<lb/>dont la vie est un grand silence. Combien<lb/>d'hommes devraient nous imiter (et leurs<lb/>adorables compagnes !!!). Ah, grand Poisson.<lb/>si vous aviez assisté au spectacle qu’a donné<lb/>darseille, civitas piscatorum, le jour béni de<lb/>notre résurrection, vous vous seriez remis à<lb/>écrire de toutes vos nageoires. En Rive-Neuve,<lb/>on s’embrassait; on dansait à la Grande-<lb/><lb/>Jetée; chaque bloc en a tressailli. Endoume<lb/>a brulé 103 charrettées de sarments ; à l'Es-<lb/>taque, on a fait des folies, 28 tonneaux de<lb/>guitran ont exprimé cette joie ardente. Tou-<lb/>tes les Brusques du Carénage sont disparues,<lb/>en feu de joie. Le lendemain, après uné<lb/>courte delibération, la Prud'homie de Riou<lb/>a donnéun banquetà 1.65 par tête, ils étaient</p>
+        <ab><milestone unit="column" n="3"/><lb/>Camo<fw type="digitisation-artefact"><lb/>e gallica.bnf.fr/Bbliothèque nationa</fw></ab>
+        <pb facs="0006.xml"/>
+        <p><lb/>Les colonnes de notre journal s'ouvrent à<lb/>toutes les poésies provençales sur ln pêche.<lb/>n'y a aucun comité de critique ; la place seule</p>
+        <p><lb/>Toutes les Ecoles orthographiques peuvent<lb/>s'y rencontrer sans crainte de conflit. Les s, les<lb/>raoou, les e. les é, etc., etc., etc., etc., les accen-<lb/>Quations les plus étranges, les formes usitées et<lb/>inusitées sont acceptées par la rédaction, qui<lb/>n'y entend absolument rien, et qui, par conse-<lb/>quent, est tout-à-fait indifférente. En proven-<lb/>çal, une seule Ecole nous fait peur; nous les<lb/>aimons toutes, pourvu que ce qu'elles produi-<lb/>sent, signifle quelque chose au point de vue de<lb/>la pensée et de l'art trainant ou non trafnant.<lb/>Chantez le ganqui, le jambin, les eissaugues, le<lb/>calme plat ou la tempete ; dites-le en provençal<lb/>du bouen grun. Voila toute notre ambition.</p>
+        <lg>
+          <l><lb/>Aprè tan de tourmens, dé cruelos tempestos.</l>
+          <l><lb/>L'Esque a répareiçu. per naoutri. quunte festo.</l>
+          <l><lb/>Paouré pichoun jornaon, tèrés fach' interdiré.</l>
+          <l><lb/>Pariavés qué doou pei, si crébavian doou riré.</l>
+          <l><lb/>Mai sense permicien, érès contre la lei.</l>
+          <l><lb/>Ooujord'hui qué l'aven, fara plési oou pel.</l>
+          <l><lb/>L'ooura dé temps en tems quoouquei belle jornade;</l>
+          <l><lb/>Tou lou pei, en un mot. vendra à la pitado,</l>
+          <l><lb/>E touti lei dissat' en parten per la pesque,</l>
+          <l><lb/>Lei braveis amatours vendran nous croumpa l'Esque.</l>
+          <l><lb/>Pouran émé plési. lou diminch' oou matin.</l>
+          <l><lb/>Liéji nouestré jornaou, tou ce qué l'a dêdin:</l>
+          <l><lb/>Vou racountaren tou. lei pesque qué si la.</l>
+          <l><lb/>En parten de Sooussé jusque a la Cicoutat.</l>
+          <l><lb/>Pariaren de Planié, sens' coublida lou Fricou.</l>
+          <l><lb/>Lon dissat' en venen, vou parlaren dé Ricou.</l>
+          <l><lb/>Doou quartié dei Roucaou. dei Sar e det Girèlo.</l>
+          <l><lb/>Mounté si pren tan ben quoouquei brave Sarcele;</l>
+          <l><lb/>Car en fasen bonilii l'a d'assésounamen,</l>
+          <l><lb/>E chascun, poou ou proun, venen un paou counten.</l>
+          <l><lb/>Veiré nouestrè jornaon, si parlara dé tou.</l>
+          <l><lb/>Foura pas qu'coubliden loi patron poscadou,</l>
+          <l><lb/>Aquéleï qué si dien lel gardien dé la mar.</l>
+          <l><lb/>Qué deis oustaon dei pei n'an fa dé boutévar.</l>
+          <l><lb/>An talamen rascla nouestre tan belle rade</l>
+          <l><lb/>Qué dé nouestré beou fon n'an fa dé palissade.</l>
+          <l><lb/>Are pienoun plu ren. es la dévastacien.</l>
+          <l><lb/>Lou quartié de San-Jan es en désoulacien</l>
+          <l><lb/>Dé veiró leis abus qué si fa din la mar.</l>
+          <l><lb/>Toujou coucasiouna per lois omé dé l'ar.</l>
+          <l><lb/>M'adreissi ei patron, ei père, eis enfan.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LA BOURRIDO DEI DIEOUX</head>
+        <p rend="styled"><lb/>Per Moussu GruMarN, de Marsiho</p>
+        <ab type="head"><lb/>NOUTIÇO SUS GERMAIN</ab>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>De ven l meustra sa glori:</l>
+        </lg>
+        <p><milestone unit="column" n="1"/><lb/>Germain (Jcan-Batisto). na à Marsillo, en 1701. si<lb/>pimet fouesso jouine à la rimo prouvençalo, et reus-<lb/>sisset de maniero à pousque coumpta cou noumbre<lb/>deis Troubadours, tint per la forço de soun genio que<lb/>per lou chouas de seis expressiens. La Bourrido dei<lb/>Dícoux, lou soulet de seis ouvragi que dounen eici,<lb/>passo à bouen dre per lou mies escri.</p>
+        <p><lb/>Germain, mouar en 1781, avies entrepres, de soun<lb/>viven, un ditiounari prouvençaou frances qu'ague pas<lb/>lou temps d'acaba. Lou long sejour qu'avie fa en<lb/><lb/>Barbarie, en qualita de secretari doou consou d'Al-<lb/><lb/>gier et ensuito d'home d'afaire de la coumpagnie<lb/><lb/>rouyalo d'Afriquo, lou metet à portado d'escrioure en<lb/>frances, et de publia quoouqueis observatiens, fonesso<lb/>estimados dins sou temps, sur le coumerce d'Algier.<lb/>de Salouniquo et deis aoutrois escalos dou Levan.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Nous extrayons du rapport présenté à l'Aca-<lb/>cadémie des Sciences pratiques de Mourepianes<lb/>le paasnge suivant qui intéressera, nous n'en</p>
+        <p rend="styled"><lb/>Le dosimêtre aiolique ou Plombo tube</p>
+        <p rend="labelled"><lb/>Description de l'appareil. – L'appareil (se com¬<lb/>pose d'un tube en verre de 1 mêtre 50 de long.<lb/>gradué de dixièmes en dixièmes: à l’une des<lb/>extrémités, s'adapte une virole en cuivre rendo<lb/>inoxydable par un procédé fictif que nous don¬<lb/>nerons plus tard ; a ce tube, enfin s'ajoute un<lb/>manchon de caoutehouc soigneusement vulca-</p>
+        <p><lb/>Manière de s'en servir. — Après une copieuse<lb/>ration d'un aloli, chargé à 20 gousses par<lb/>exemple, vous désirez savoir à quel degré de<lb/>senteur vous êtes arrivé? Rien de plus simple.<lb/>Saisissez le tube et adaptez-le à votre orifice....<lb/>buccal (ne pas confondre), puis captant une<lb/>mouche vous l’introduisez par le côté opposé<lb/>du tube; la mouche se met à marcher vers<lb/>vous. Soufflez alors vigoureusement dans l’in-<lb/>térieur, et le point de graduation où la mouche<lb/>tombera raide vous indiquera l'intensité de</p>
+        <p rend="labelled"><lb/>B.— A défant de mouches. prendre le nez de<lb/>sa belle-mère pour objectif.— Un éeran de com-<lb/>paraison numeroté avec les différentes couleurs<lb/>vertes est joint à l'appareil. Lorsque le nez de<lb/>la belle-mere est suffisamment vert le compa-<lb/>rer avec une branche de votre éeran et le nu-<lb/>méro vous indique immédiatement le degré.</p>
+        <figure type="decoration"/>
+        <p><lb/>L'appareil est en vente aux bureaux de l'Es-<lb/><lb/></p>
+        <figure type="table"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <lg>
+          <l><lb/>Lei beoux Panthéons de l'histori</l>
+          <l><lb/>Din lou grand sepoun doou Desten</l>
+          <l><lb/>Lei Dicoux mangeroun la Bourrido.</l>
+        </lg>
+        <figure type="decoration"/>
+        <p><lb/>Ce poèmo. quo je présente au public, ayant éte<lb/>défiguré dans les diversen copies qu'on en a faites.<lb/>jai cru devoir le faire paraitre dans son premier état.<lb/>On le lira peut-être avec quelque plaisir si on en con-<lb/>adère la fiction. les traits singuliers, et les saillies<lb/><lb/>plaisantes dont il est semé. La fable en est simple.<lb/>mais varié dans les détails. la morala riante. et les<lb/>dieux peints d'après la Mythologie.</p>
+        <p><lb/>Le langage que l'y ai emploxé. ma paru convenir<lb/>au sajet et nu lion de l'action. Cest colul de nos an¬<lb/>ciens Troubadours, les premiers inventeurs de la<lb/>Rime. et les premiers Poètes de notre nation. On y<lb/>trouvera peut-être des termes peu usités aujour-<lb/>ahui. parce que tout s'altère, et que les langues<lb/>sulvent pour l'ordinaire les révolutions des morurs;<lb/>mnais ce sont des termes dont se servalent nos an-<lb/>ciens Marseillais, et jose même avancer qu'ils sont<lb/>plus energiques et plus expressifs que ceux qu'on<lb/>seur a subatitués. Voilà tout ce que fai à dire d'une<lb/><lb/>pièce qui a obtenu les suffrages de quelques person¬<lb/>nes de gout, et que se voudrals blon rendre digne de</p>
+        <lg>
+          <l><lb/>Lei Dieons assondelas dei plesis de la vido.</l>
+          <l><lb/>Si digueroun, un jour: que fon cissi couadis ?</l>
+        </lg>
+        <lg>
+          <l><lb/>aeis joros soun à noustro man.</l>
+        </lg>
+        <lg>
+          <l><lb/>Rasaré vouestrel buou, n'en faré dé chalan.</l>
+          <l><lb/>E lei paouré mesquin qu'an dé pichoun bateou</l>
+          <l><lb/>Pouran gagna sa vid' e séra pa troou lèou.</l>
+          <l><lb/>Es dé bravei marin qu'an ben servi la France.</l>
+          <l><lb/>Qu'a la fin dé sei jou li vengué bénérance.</l>
+          <l><lb/>E per aquéou mouyen, en fasen bouéne pesque,</l>
+          <l><lb/>Lou disar en venen, mettran dous plés per ŕque.</l>
+        </lg>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>Leis marias avaient installe los cannettes</ab>
+        <ab type="head"><lb/>OOU SALABRÉ</ab>
+        <p><lb/>Mestré Thoumas un viei raquin de mari<lb/>tubant dans un antique galifon, passait lund,<lb/>dernier sous l'Attaque, portant de chaque<lb/>snain deux superbes pouprés.</p>
+        <p><lb/>Deux rocamboles retournant de la Madra-<lb/>gue l'avisent, Qué Fino dit l'une, regardo leis<lb/>salos besti que porto lou balès.......<lb/></p>
+        <p><lb/>Saleis bestis.... balès fait Thoumas. regarda<lb/>vous, la douei semanos que vons sia pas lava</p>
+        <figure type="decoration"/>
+        <p><lb/>Des petits maoufatans se baignaient la se-<lb/>maine dernière à la pointe du cap Pinède,</p>
+        <p><lb/>Arrive un Monsieur muni d’un attirail<lb/>complet de cannettes, de palangrotes, sans<lb/><lb/>énumérer les variètés de vers destinées à re-<lb/>galer les roucaous et autres. Plus un superbe</p>
+        <p><lb/>Le Monsieur d'un ton paternel:</p>
+        <p><lb/>Mes enfants, vous qui connaissez les para-<lb/>ges, le poisson doit abonder ici </p>
+        <p><lb/>Qué dit Marius, fait un des maoufatans.</p>
+        <p><lb/>Viès pas réplique Tchois qu’aqueou Moussu<lb/>Véné-y-ici Moussu fait un troisième, meis</p>
+        <p rend="labelled"><lb/>couleguos y sont faux coumo d'anguielos, je<lb/>vous ferai voir comme y se pesse le poisson<lb/>et les coquilles, — faut vous désabiller</p>
+        <p><lb/>Au bout de dix minutes le Monsieur s'in¬<lb/>froduisit dans l'eau jusqu'à l'abdomen ac-<lb/>compagné de cette racaille de mer. Il s'ins-<lb/>talle la cannette à la main et pendant que la<lb/>passion de la pêche complètement, les Maou-<lb/>fatans gagnent prudemment le rivage em-<lb/>portant le goûter, et criant de loin (oou sa-</p>
+        <p><lb/>du pauvre amateur sous les esques.</p>
+        <figure type="decoration"/>
+        <p><lb/>Sur les sablettes de la Madrague, deux</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <lg>
+          <l><lb/>Ouusen que de partout si parlo de bourrido.</l>
+          <l><lb/>Pouden leou countenta l'envegeo que nous pren :</l>
+          <l><lb/>Lei Prouvençaoux la fan tan ben,</l>
+          <l><lb/>Qu'cou diré de cadun foou qué siègué valento.</l>
+          <l><lb/>Dien qu'en piquan d'ailhet émé l'holi pasta.</l>
+          <l><lb/>Que fa (eb voulez) l'halen fouarto;</l>
+          <l><lb/>May que poou revicouda l'apétit quand es mouarte</l>
+          <l><lb/>Apolton cutacan, vaqui que leis entraigno;</l>
+          <l><lb/>De Maraillo, diguet, sabi lou tarradou.</l>
+          <l><lb/>Qu'es d'un umi d'un Troubadou:</l>
+          <l><lb/>Qu'a de Prats, de Contets, bello visto une Plano.</l>
+          <l><lb/>Qu'un fournigule de P'ins ti sorvé de cabano.</l>
+          <l><lb/>La Faligoulo en fous, lou Roumanicou soouvagi:</l>
+          <l><lb/>Et pui se regretas lou Nectar. l'Ambroisio,</l>
+          <l><lb/>Aquel ami dara une grosso eigodiero</l>
+        </lg>
+        <list>
+          <item>Que la Roso et lou Jooussemin.</item>
+        </list>
+        <ab><lb/>La muit an prochata nmmeres.<fw type="digitisation-artefact"><lb/>ource gallica.b.fr/Bibliothèque nation</fw></ab>
+        <figure type="decoration"/>
+        <pb facs="0007.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/><lb/>Ce genre renferme à lui seul une quin¬<lb/><lb/>étrangers se promènent ; le célèbre Berino<lb/>agoutte sa bête et se dispose à partir pour la</ab>
+        <p><lb/>C'est étonnant dit l'un des visiteurs, il y a<lb/>ici bien peu d’eau et des rochers nus. Le<lb/></p>
+        <p><lb/>S'adressant à Berino : — D'où cela vient-il<lb/>mon Brave ? — Si coumpren riposte Berino<lb/>y a pas beaucoup d'eau pourquoi le poisson<lb/></p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Entre journalistes on se doit certaines petites poli-<lb/>tesses; ainsi lorsqu'une feuille parait, il est d'usaz<lb/>que tous ses confréres l'annoncent et lui souhaitent<lb/>l'Esque, tous les journaux marseillais et nous les en</p>
+        <p><lb/>Quand nous disons tous, nous ne sommes pas abso¬<lb/>lument dans le vrai; nous devrions dire « presque<lb/>tous s; car le grand Mogol du quai du Canal a cru</p>
+        <p><lb/>monté sur ses grands chevaux. quand on ini a de-<lb/>mandé indirectement de vouloir bien aunoncer<lb/></p>
+        <p><lb/>L'Esque ?.. Quoi ça que d'estr Cest-fl écrié.<lb/><lb/>concurrent?... Pourquoi qu'ils n'en voillent pas un<lb/>n'ambassadeur? Est-ce qu'iis se connaissent pas les</p>
+        <p><lb/>silenen aur la rosurection do l'Eisque qui ne lu avait<lb/>pas envoillé un ambassadeur. Nous avous bien eu un<lb/>moment la pensée, pour nous remettre dans la man¬<lb/><lb/>che du grand Mogol, de lui envoyer six habitants de<lb/>Montredon comme parlementaires, mais, s'il les avait</p>
+        <p><lb/>guant cette occasion de montrer sa générosité, un<lb/>exploit qui lui rendra pque-être l'estime de tous les</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>au prix de sacrifices inhumains la précieuse<lb/>collaboration de deux Météorologistes, M.<lb/>Bouffetranchson de la Brume, professeur de<lb/>natation pour les deux sexes, des Observa¬<lb/>toires de Mac-Ferlane et de Watterproof, et<lb/>M. le Docteur-es-poésie internationale, tech-<lb/>nico-climatérique de l'association de l'Air¬<lb/>dutemps de Cabriès (Carolina, United-States)<lb/>don Rodrigo de la Broma y Buenmoco.<lb/>Grâces à ces deux savants, nos lecteurs sau-<lb/>ront l'état atmosphérique des semaines pas.<lb/>sées, celui du jour présent jusqu'à l'heure<lb/>de la mise en pages. Ces intelligentes dispo-<lb/>sitions (auxquelles nous le disons à regret,<lb/>les grands journaux n'ont jamais songé).<lb/>permettront à nos amis de se munir de para-<lb/>pluies, ou d'ombrelles, de quitter à propos<lb/>leurs vêtements d'étè, sans craindre les<lb/>variations de la température. Si des ob-<lb/>servations contradictoires faites sur tous<lb/>les points du globe, nous arrivaient (que<lb/>sait-on !), l'administration n’hésitera jamais.<lb/>Elle fera exécuter des tirages supplémen-<lb/>taires sur papier brouillard ce qui sera déjà<lb/>d'un prix inestimable pour les pêcheurs, ca-<lb/>notiers, officiers et matelots, réduits à leurs<lb/>simples observations et aux moyens primor¬</p>
+        <p><lb/>Les comptes-rendus de toute séance scien-<lb/>tifique, culinaire, bockophile, piscatoire,<lb/>natatoire et autres, seront publiés tous les<lb/>quinze jours par ces deux éminents person-</p>
+        <p><lb/>moins d'un dépôt de fonds (120 brasses de<lb/>billta de Banque trús serrés) dans la caisse</p>
+        <p><lb/>Depuis huit jours le papier a éprouvé une<lb/>hausse considérable en vue du tirage de ce<lb/>joyeux journal. Les pêcheurs qui ne savent pas<lb/>uire sont au désespoir. On leur a fait espérer<lb/>qu’en employant les lunettes inventées par<lb/>Senedit, ils parviendraient à se recréer chaque<lb/>set aine pour deux sous C'est samedi 31 juil-</p>
+        <p><lb/>sition des nmois de la ligne, un nouvel appat<lb/>qui sera delivré gratis, c'est l'Esque à moteur.<lb/>ne pas confondre avec la maison de l'Esque aux<lb/>bars. L'autre mome est plus habile; il a inventé<lb/>l'Esque à mite. Il durera longtemps celui-là. M.<lb/>le prote les menace d'un coup d'Eaque à bouée</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p><lb/>Jules Verne a écrit 20 mille fieues sous le<lb/>Pacifique, j'écrirai moi, 40 milles sous Canou-<lb/><lb/>bier ; á cette seule diffèrence que le savant<lb/>professeur a vu tout ce qu'il rapporte, que<lb/>personne n'a pu vérifier ce qu’il a dit des<lb/>spectacles sous-marins et que, au contraire,<lb/>pour contrôler mon récit, tout le monde<lb/><lb/><lb/>pourra, quand il le voudra, se faire trans-<lb/>porter à mes frais au Canonbier, s'attacher<lb/>un poids de 3 ou 400 kil. jaux pieds et des-</p>
+        <p><lb/>Je n'ai pas vn tout ce que je vous raconte-<lb/>rai mais je l'ai appris d'un gobi de mes amis,<lb/>digne de foi en tous points et que vous pour¬</p>
+        <p><lb/>Je dois vous prévenir d'abord, pour ne pas<lb/>être accusé d'invraissemblance que mon gobi<lb/>n'est pas un gobi comme ces milliers de<lb/>poissons qui prennent leurs ébats de Planier<lb/>á Carry et de Carry á̀ Montredon; point du</p>
+        <p><lb/>Il a vu le jour il y a environ 6 ans près<lb/>des caramans de la petite réserve, au pied<lb/>même de l'escalier qui conduit à la ci-devant<lb/>demeure impériale. C'est là qu'il passa les<lb/>premières années de son enfance entre un<lb/>capelan et un merlan. Que de choses il a ap-<lb/>prises dans cette gracieuse caranque que<lb/>domine le restaurant Bonnefoy !! Aussi com-<lb/>me mon aieul Titn, lon sautaire, il aime à<lb/>raconter les premiers temps de sa jeunesse.<lb/>alors que simple jarreton il parcourait en<lb/>tous sens l'espace liquide, témoin des amours<lb/>Ce qu'il eet au physique, mon ami Sidi-</p>
+        <p><lb/>Maboul, le grevin aquatique, vous le dépein¬<lb/>dra, il l'a croqué dans ses poses les plus<lb/>gracieuses et les plus vraies. Au moral, mon<lb/>gobi est le plus charmant petit être que vous<lb/>puissiez imaginer. Intelligence, grâce, esprit,<lb/>bonnes manières, tout est réuni en lui. Il a<lb/>eu du reste pour professeurs les factionnai¬<lb/>res de garde sur le rempart du fort Saint-<lb/>Nicolas, Bichut le cantinier, les charpentiers<lb/>des caramans et Meste Nicou, le batelier<lb/>oresque centenaire, qui depuis si longtemps<lb/><lb/>traverse du fort Saint-Nicolas au fort Saint-<lb/>Jean, toujours avec la même ardeur, en<lb/>chantant la même chanson, le même brûle-<lb/>gueule serré entre les deux mêmes dents, et<lb/>dans le même bateau avec les deux mêmes</p>
+        <p><lb/>et cansait sur toute espèce de sujets; les<lb/>vélocipèdes en porcelaine, le vermifuge<lb/>suisse, les tramways perfectionnés, les faux-<lb/>cols en fer battu, etc., etc., il a même in-<lb/>venté un nouveau système de locomotion<lb/>sous-marine que nous devons expérimenter</p>
+        <p><lb/>je le vois tous les soirs. Nous nous arrétons<lb/>souvent tous deux près de ce rocher qui<lb/>domine le Chemin de la Corniche entre<lb/><lb/>Isnardon et le vallon des Auffes. La il me<lb/>raconte les merveilles des environs du Canou-<lb/>bier me peignant en artiste les moindres<lb/>détails des profondeurs de la mer en cet en-</p>
+        <p><lb/>Le temps passe vite en causant, et souvent<lb/>le Frioul a depuis longtemps ravi le soleil à<lb/>l'employé du Semaphore de la Bonne Mère<lb/>que nous parlons encore et qu'il raconte</p>
+        <p><lb/>Toutes ces conversations, sténographiées<lb/>par moi, seront communiquées aux lecteurs</p>
+        <figure type="decoration"/>
+        <p><milestone unit="column" n="3"/><lb/>pêcheurs. Vrai casse-cou, il donne dans les<lb/>lets, tête baissée, colonne en avant, les tra-<lb/>verse, les met en pièces pour engloutir les<lb/>poissons retenus. Les pêcheurs comme Ma-<lb/>vius à Minturnes, pleurent sur les ruines;<lb/>mais ils ne font rien contre le ravageur.<lb/>Tous les six mois, les Prud'homies delibè¬<lb/>rent, les administrations offrent des primes<lb/>inacceptables. Car ceux qui vivent de la mer,<lb/>ont besoin de leur pain quotidien. Puis on<lb/>délibère encore sans jamais réunir les efforts<lb/>de cinq cents homme pour aller à l'ennemi<lb/>faire une myriatombe qui délivrerait le<lb/>golfe de ce diabolique faiseur de tours de<lb/>force. Cinq ou six senches mettraient de l'or<lb/>dans les mailles de vos filets, pêcheurs en-<lb/>durcis. Comme vous le disait ce savant et si<lb/><lb/>honorable ecclésiastique à qui vous fesiez<lb/>vos doléances, et à qui vous demandiez des<lb/>exorcismes « Ajuda-vous et lou bouen Dieo»</p>
+        <p><lb/>Malgré notre imperturbable conviction sur<lb/>cet estrassaire, notre haute impartialité nous<lb/>permet d'admettre un vrai chef-d'œuvre<lb/><lb/>d'esprit, d’humour, de coloris. Il est bon de<lb/>remarquer que Toussenel fait à la bête la<lb/>part bien belle. Après la lecture, on se dira<lb/>c'est vrai, la bête est charmante, mais nous<lb/><lb/>soutenons qu'elle ressemble à un étourdi,<lb/>ruine houstaon, qui chante merveilleuse-</p>
+        <p><lb/>zaine d'espèces qui sillonnent toutes les<lb/>mers, et dont quelques espèces pénètrent<lb/>même dans les eaux des fleuves, dans celles<lb/>de Calcutta-sur-Gange comme de Paris-sur-<lb/><lb/>Seine. Il y a de grands et de petits dauphins ;<lb/>il y en a de bons et de méchants, comme<lb/>dans toutes les grosses familles. Les princi-<lb/>paux caractères du genre sont d’avoir les<lb/>deux mâchoires garnies de dents vigoureuses,<lb/>dont le nombre est variable, la fente de<lb/>l'évent linéaire en forme de croissant, la na-<lb/>geoire dorsale triangulaire, la caudale four-<lb/>chue, ou pour mieux dire, divisée en deux<lb/>lobes. Le genre se fractionne de lui-même en<lb/><lb/>deux sous-genres, le premier, dit des mu-<lb/>seaux pointus ou des dauphins à bec ; le se-<lb/>cond, des museaux camards ou des mar-<lb/>souins. Tous les dauphins sont piscivores;<lb/>mais plusieurs pourraient manger l'homme.<lb/>Heureusement que les espèces qui se mon-<lb/>rent le plus habituellement dans nos mers,<lb/>et qui sont au nombre de six ou sept, ont</p>
+        <pb facs="0008.xml"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>LE NOUVEAU PROGRÈS<lb/>épari à 10 Seures. Plx : 50 con</ab>
+        <p><lb/>unSÉVERANT. QUATAE-AMIS n</p>
+        <p><lb/>Semaine : DE LA CANEBIÈRE—<lb/>à partir de 3 beures après-midi, toutes<lb/>du soir.—DES BAINS: de 3 heures 14<lb/>toutes les demi-houres. jusqu'a 7 h. 1j2</p>
+        <p><lb/>Dimanches et Fêtes: DE LA<lb/>midi, toutes les demi-heures, jusqu'à<lb/>7 h. du soir. — DU ROUCAS-BLANC:<lb/>.<lb/>à partir de 2 h. 1/2. toutes les demi¬<lb/>PRIX: Aller et retour avec bain<lb/>Aller ou retour seul. 40 c.o</p>
+        <p><lb/>de 10 à 11 h. du sor. Prix: 50</p>
+        <ab type="head"><lb/>OMNIBUS MARITIMES</ab>
+        <ab><lb/>Services pour les Bains — Promenades en mer - Parties de pêche, ete.<lb/>BAINS DES CATALANS &amp; ISNARDON<lb/>DÉSIRE &amp; MARSEILLAIS<lb/>A parurd Pix . 25 cont. 1 heures</ab>
+        <ab type="head"><lb/>Bains du Petit Pavilion</ab>
+        <p><lb/>A partr de 3 heures Départs, toutes<lb/>ter noures. Prix: 25 cent.</p>
+        <p><lb/>Le vapeur Nouveau Progrès partira<lb/>Dimanche, à 10 heures du matin pour<lb/>le CHIATEAUDIF; séjour, une heure,<lb/>tour à midi. Prix, aller et retour;<lb/><lb/><lb/>OUSTINS, en en le Cafe des Etats-</p>
+        <ab type="head"><lb/>AUX AMATEURS DE LA PÉCHE</ab>
+        <p><lb/>Dimanche !" Août le vapeur le Mar¬<lb/>sellais partira à 2 heures du matin<lb/>puix 2 fr. par pursotne. vill d</p>
+        <ab><lb/>DES BAINS DES CATALANS<lb/>DEPAPix 25 centimesrns</ab>
+        <p><lb/>TTous les jours le batrau à vapeur<lb/>Progrés parura du QUAI DES AU-<lb/>Coure Sausae et la</p>
+        <p><lb/>5.l Courunne. </p>
+      </div>
+      <div type="article">
+        <ab><lb/>qu’ils se gardent bien de rattraper vite de le ciel : Allons y... Et l'homme, voyant cela,<lb/>l'humeur généralement folâtre, et que leur<lb/>mission semble être d'égayer la scène des<lb/></ab>
+        <p><lb/>Les dauphins de bonnes espèces témoi-<lb/>guent généralement d'une certaine propen-<lb/>sion vers l'homme. Un de leur passe-temps<lb/>favoris dont ils aiment à donner le spectacle<lb/>aux navigateurs est la chasse au poisson vo-<lb/>lant, un exercice dans lequel ils déploient<lb/><lb/>une puissance de moyens natatoires et une<lb/>précision de coup d'œil réellement prodi-<lb/>gieuses. Les poissons volants sont des bêtes<lb/><lb/>grosses comme des maqueraux, et qui vo-<lb/>lent à la façon des sauterelles et dont les<lb/>ailes semblent montées par un ressort de<lb/>montre. Or, on voit de ces dauphins qui,<lb/>après avoir calculé que la portée de l'essor<lb/>d'un poisson volant le ferait passer par-<lb/>dessus le pont du navire, prennent leuis<lb/>mesures en consèquence, plongent sous le<lb/>bâtiment et reparaissent de l'autre côté,juste<lb/>à la place et à la seconde précises pour rece-<lb/><lb/>voir dans la bouche le trigle à bout de voies.<lb/><lb/>(Trigle est le nom latin du poisson volant;<lb/>j'ignore si on dit le ou la).</p>
+        <p><lb/>D'autres fois, ces souffleurs, heureux de<lb/>vivre, feront semblant de vouloir lutter de<lb/>vitesse avec le navire, lui rendant gênéreu¬<lb/>sement une avance de deux à trois nœuds,<lb/>peur d’humilier leurs rivaux, et jouant à<lb/>saute-mouton tout le long du chemin pour<lb/>prolonger la lutte. Et s'il arrive alors qu'un<lb/>commandant trop susceptible, et qui ne sait<lb/>pas supporter philosophiquement une dé-<lb/>faite, essaye de prouver aux vainqueurs, par<lb/>un argument péremptoire, que les balles du<lb/>Susil de l'homme franchissent l'espace plus<lb/>vite encore que les nageoires du dauphin,<lb/>les jeux cessent soudain, et la troupe effrayée<lb/>s'enfuit, la mort dans l'âme, maugrèant la<lb/>perfidie de cette espèce humaine insociable,<lb/>qui ne peut seulement pas rire une heure</p>
+        <p><lb/>Quand la syzygie de l'équinoxe gonfle le<lb/>sein des ondes et remplit les terres d'attente,<lb/>et que le monde ébranlé menace ruine, le<lb/>dauphin seul, immuable en sa jovialité,<lb/>prend ses airs les plus gais pour la fête qui<lb/>s'apprête... Semblable à la Gymnasienne in-<lb/>trépide qui se plaint que l'escarpolette la<lb/>vlus vertigineuse ne va jamais assez haut.<lb/>l'ardent souffleur maudit aussi l'odieuse loi<lb/>de Newton qui l'enchaine à la cime des va-<lb/>gues, s'enivre de l'accélération de mouve-<lb/>ment des élèments convulsés, se monte au<lb/>Diapason de la tourmente, bondit par-dessus,<lb/><lb/>les abimes, et, dans son délire titanesque,<lb/>dit à la montagne écumeuse qui pousse vers</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article"/>
+      <div type="article">
+        <p rend="labelled"><lb/>ARTICLES DE PECHE Avisaux capitaines<lb/>de la Peche : on trouvera chez M. PANISSE, Marius.<lb/>un grand assortiment d'articles premier choix et nou-<lb/>veautès concernant la pùche. savoir : lignes de fond<lb/>lignes de traine, poissons artificiels pour la mer et<lb/><lb/>les rivières, en étain ou en caoutchoue, maquereaux<lb/><lb/>pour thons, sardines pour bonites, petits mulets pouc<lb/>loups, chovrites, hélices pour la traina. — Grand as-<lb/>sortiment de mouches artificielles pour les rivières-<lb/>Tous les jours : Mouredus, Bsques et Baboués. — On<lb/>trouvera egalement chez M. PANISSE un professeur<lb/>qui se fera un plaisir d'indiquer aux personnes qui<lb/>desireront la manière de faire la peche à la Baboné.</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>LA MEILLEURE BÊRE<lb/>Quai du Port, à P'arrivêe des omnibus maritimes,<lb/>Le propriétaire de ce charmant établissement vient<lb/><lb/>de recevoir un envoi de bières premier choix dont les<lb/>amateurs de cet excellent breuvage peurent venir,<lb/>constater la supériorité.— Quant aux autres consom-<lb/>mations, elles sont toutes du premier choix et moins</p>
+        <ab><lb/>CAFE des ETATS-UNIS. quai du Port</ab>
+        <p rend="labelled"><lb/>CANOT DE PLAISANCE E n<lb/>de plaisance, ayant six mềtres de long environ, cons-<lb/>n 1872, 2 mats, agrès complets, entiérement<lb/>neuf. Occasion exceptionnelle. — Pour plus amples<lb/> ru ceras, e rieris du oura</p>
+        <p rend="labelled"><milestone unit="column" n="2"/><lb/>ד<lb/>DU RORD DE MER<lb/>est en mème temps celui où leL amateurs de la di-<lb/>vine BOUILLABAISSB peuvent aller en toute con-<lb/>Quand on a eu le bonheur de goûter une promiere<lb/>fois la bouillapaisse Isnardon, on éprouve lo besoin<lb/>de retourner dans cet établissement. Le plus surpre-<lb/>n peut se falre traiter aux</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>Mus CASSELY du Port. 1 B. — Gros.— étai<lb/>Exportation.— Fabrique d'hameçons et ustensiles<lb/>de pêche en tous genres. — Cette maison se recom-<lb/><lb/>mande par son ancienneté, la supériorité de tous ses<lb/>produits et marchandises provenant toutes des meil-<lb/>leures fabriques et par la cuite spéciale de ses fils de<lb/>laiton tant appréciés par les amateurs et les prati¬<lb/>ciens.— Prix modérús, assortiments complots.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>BATEAU PONTE ponee. mesurant is pans de<lb/>onguenr, tenant parfaitement la mer, en très bon<lb/>êtat. Le propriétaire de ce bateau devant quitter<lb/>Marseille. l'acheteur trouvera les meilleures condi¬<lb/>tions qu'il soit possible de faire. Pour traiter,<lb/>dreser au bureau du journal. 29. r. Chovalier-Rose.</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>VENDRE un joli petit cutter<lb/>voiles et ses agrès qui mancuvrent<lb/>nieux et est construit sur le même modele<lb/>le Loch. connudans le port de Nantes par la supériorité<lb/>de sa marche.— Pour le voir et pour traiter. s'adresser<lb/>au Dureau du Journal. rue Chévalier-Roze. 29<lb/>finit par se rasséréner à la placidité de la<lb/>bête. et apprend d'elle à braver les menaces</p>
+        <p rend="styled"><lb/>(La suite au prochain numéro).</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><milestone unit="column" n="3"/><lb/><lb/>et la solidité de sa construction, avec tou<lb/>grès, apparaux, etc. Affairo trés avantagonse. Excer<lb/>rentes conditons. S'adresser au bureau du journat.</p>
+        <figure/>
+        <p rend="styled"><lb/>Marseille Imp. Cent. B. CAMOIN r. Chevalier-Roze</p>
+      </div>
+      <div type="article">
+        <p rend="structured"><lb/>RESTAURANT MATHIEU ÂGUE<lb/></p>
+      </div>
+      <div type="article">
+        <p rend="structured"><lb/>AVIS AUX PECHEURS E.<lb/>liette 9. (Avenue de la place d'Afrique), tient<lb/>la disposition des amateurs un grand assortiment<lb/>d'articles de petite péche, tels que cannes, canuillons,<lb/>longues, palangrotes. — On trouvera également chez<lb/>lui, tous les jours. des Esques. Mouredus, etc,<lb/>TRAVERSE DE LA JOLIETTE. 2.</p>
+        <p rend="labelled"><lb/>BATEAU DE COURSE TaEb -<lb/>pourse dans d'excellentes conditions, Pour<lb/>plus de renseignements. s'aifresser au burcau du<lb/>journal. 29, rue Chevalier-Rose.</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="structured"><lb/>CAFÉ RESAURANT<lb/>Radoub (Près la Medrague de la ville) Bomtillabaisse.-<lb/>Kimonade</p>
+        <figure type="decoration"/>
+        <note>
+          <p rend="labelled"><lb/>Esques, Baboues<lb/>ARTICLES DE PÉCHE <lb/>Antoine Reimbaud. 31. Rue du Bon Pasteur. un.<fw type="digitisation-artefact"><lb/>urce gallica.bnf.fr/Bibliothèque nationa</fw></p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

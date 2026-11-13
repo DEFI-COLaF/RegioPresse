@@ -1,0 +1,835 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Oc</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t53903907p</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Oc : gazeta d'accion occitana, de novelas literarias e artisticas / dir. Ismaël Girard</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1943-01-01">1943</date>
+          <idno type="ARK">bd6t53903907p</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t53903907p</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-13" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <figure/>
+        <p rend="heading"><lb/>OUASERNS DE LASLETRASOCCITANAS</p>
+        <figure/>
+        <ab><lb/>AN XIX - ESTIU de 1943 - N°, - VIII SERIA</ab>
+        <pb facs="0002.xml"/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>REVISTA DE LAS LETRASOCCITANAS<lb/>PUBLICACION TRIMESTRIALA DE LA<lb/>« SOCIETAT D'ESTUDIS OCCITANS</p>
+      </div>
+      <div type="article">
+        <head><lb/>ENSENHADOR</head>
+        <p rend="structured"><lb/>La Celestina, de F. de Rojas (. Lesaffre trad.). — Poemas<lb/>de Ed. Brazès, J. Esteve, A. Pic, G. Em.-Delbousquet, M.<lb/>Barral, L. Cordes, A. J. Boussac, J. Mouzat, P.-J. Roudin; —<lb/>Montsegur (S. J. e R. Nelli) ; — Antologia (A. Serra-Baldo,<lb/>G. Gomila. — Cronicas de M. Rouquette, R. Nelli, L. Ali-<lb/>bert, A. G. — La Vida Occitana.</p>
+        <p rend="heading"><lb/>SOCIETAT D’ESTUDIS OCCITANS</p>
+        <p><lb/>La S.E.O. es estada fondada en 1930 per fin de trabalhar<lb/>amb activitat e metode a la defensa e illustración de la lenga<lb/>d’oc. Desvolopar los estudis de tota mena dins lo sens de la<lb/>cultura; prendre lo pretzfait de totis trebalhs reconeguts<lb/>necessaris o jutjats utils a l'enantiment d’aquels estudis : aquò<lb/>son sos trabalhs permanents, al servici de ta enssença<lb/>ecitana.</p>
+        <p rend="labelled"><lb/>Presidéncia (cargat de las relacions exterioras e de la direc-<lb/>ción de Terra d’oc) : A.-J. Boussac, domaine du Chapitre, à<lb/>Saint-Juéry (Tarn). Tél. 26.</p>
+        <p><lb/>Secretariat general (cargat de la relacions pretocant los estu-<lb/>dis e los trabalhs) : Loïs Alibert, à Montréal-de-l’Aude (Aude).</p>
+        <p rend="labelled"><lb/>Administración generala: Ismaël Girard, 128, avenue Cram-<lb/>pel, Toulouse (H.-G.). Tél. 498.75.</p>
+        <p><lb/>Delegación provençala: P.-J. Roudin, 40, rue Saint-Jacques,<lb/>Marseille (B.-du-Rh.).</p>
+        <p><lb/>Delegación lengadociana: Carles Camproux, 4, rue Marcel-<lb/>de-Serres, Montpellier (Hérault).</p>
+        <p><lb/>Delegación gascona: Ismaël Girard, à Gensac, per Mont-<lb/>pezat (Gers), e a Tolosa, 128, avenue Crampel, Toulouse<lb/>(H.-G.).</p>
+        <p><lb/>Delegación catalana: Alfons Mias, «Aire i Sol », à Palalda<lb/>(P.-O.)</p>
+        <p><lb/>Delegación Nord-Occitana: Joan Mouzat, Les Tilleuls, 97,<lb/>rue Coste, à Caluire (Rhône).</p>
+        <p><lb/>Delegación parisenca: Joan Lesaffre, 2, rue Georges-de-<lb/>Porto-Riche, Paris (XIVe).</p>
+        <p><lb/>Ofici de Premsa: Max Rouquette, à Aniane (Hérault).</p>
+        <p><lb/>Ofici de la Radio : León Cordes, à Siran (Hérault).</p>
+        <p><lb/>Ofici del Libre occitan e dirección d'OC: Ismaël Girard, 128,<lb/>avenue Crampel, Toulouse (H.-G.).</p>
+        <p rend="labelled"><lb/>Tresaurariá generala (cotizacións S.E.O. e reglaments pre-<lb/>tocant l’Oficí del Libre) : A. Teste, rue du Printemps, Tou-<lb/>louse (H.-G.). C.C. Postal, n° 84.62, Toulouse (Teste J.-A.).</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>Tolosa-Montpelhier-Marselha.</p>
+        <ab><lb/>ADREÇAS</ab>
+        <pb facs="0003.xml"/>
+        <ab><lb/>LA CELESTINA</ab>
+        <ab><lb/>o succès qu'a aculhit à Paris, dins aquestes darriers meses,<lb/>l'adaptación qu'en balhèt Pau Achard, a ramenat l'atención<lb/>sur la peça de Fernando de RoJAs « LA TRAGICOMEDIA DE<lb/>CALISTO Y MELIBEA » parescuda en 1499 e leu conoguda jos<lb/>lo titol de « La Celestina » d’après lo nom de la vielha que<lb/>figura lo personatge principau de l'obra. Aici, revirat dau text<lb/>de Rojas, lo retrach que balha d’aquesta Celestina Parmeno, vai-<lb/>let de Calist, dins una escena de l'acte primier que prend plaça<lb/>quora Sempronio, un autre vailet de Calist, s'entorna amb la<lb/>vielha qu’es anat pregar de trapar un biais per rendre Melibeu<lb/>mons crudela au cor de son mestre.</ab>
+        <list>
+          <item>CELESTINA. — Tusta.</item>
+          <item>SEMPRONIO. — Tac, tac, tac!</item>
+          <item>SEMPRONIO (dins l'ostau). – Parmeno?</item>
+          <item>PARMENO. — Sénher?</item>
+          <item>CALIST. — Auses, maudich sord?</item>
+          <item>PARMENO. — De que i’a, sénher?</item>
+          <item>CALIST. — Pican a la porta. Corrís !</item>
+          <item>PARMENO. — Quau es aqui?</item>
+          <item>SEMPRONIO. — Dubris. Es ieu e aquesta vielha dona.</item>
+        </list>
+        <p rend="styled"><lb/>(Celestina e Sempronio esperan a la porta de Calist pendent<lb/>tota l'escena que seguis).</p>
+        <p rend="labelled"><lb/>PARMENO. — Sénher, avetz aquí Sempronio amb una vielha<lb/>puta que pudis a vin.</p>
+        <p rend="labelled"><lb/>CALIST. — Cala-te, maudich, qu'es ma tanta. Corrís, dubris!<lb/>(A despart). Ai sempre vist que l’ome, quora vou fugir un pe-<lb/>rilh, cai dins un autre mai gran. Per escondre mon afaira a Par-<lb/>meno, que podiá frenar per amor, per fidelitat o per temor, case<lb/>dins l'ira d’aquesta femna qu'a ara dins ma vida aitant de<lb/>poder coma Dieu.</p>
+        <p><lb/>PARMENO. — Perdequé sénher, vos faire de marrit sang? Cre-<lb/>setz que lo nom qu'ai balhat a aquela vielha sona a sas aurelhas<lb/>coma una injúria? Que non! De l'ausir se'n fa glória coma vos<lb/>d'entendre dire: « Calist es un polit cavalier! ». Tot lo monde<lb/>li dis coma aquó, es conoguda jos aquel títol. Solide quo s'era<lb/>au mitan de cent femnas e se quauqu'un disiá: « Vielha puta!»,<lb/>ela, sulcop, virariá la cara, sens vergonha, e respondriá tota ri-<lb/>soliera. Dins las festas, dins las noças, dins los rebòbis, dins los<lb/>enterraments, dins totes los acamps, la podetz rescontrar. Se<lb/>passa ras dels chins, abalhan son nom; quora se capita pres<lb/>dels aucels, cantan pas quicom mai ; se los motons la devistan,<lb/>la belan; se lo bestiam la rescontra, li dis en bramant: « Vielha<lb/>puta! », las granhotas dels paluns prononcián pas d’autre mot;<lb/>quora se sarra dels fabres, sos martels la sonan; e tambén los<lb/>fustiers, los armiers, los sarralhiers, los pairolhiers, totes los<lb/>mestiers largan son nom a l'er. Los matalassaires la cardan, los<lb/>telaires l'ordisson. Los pageses, dins los vergiers, dins las vinhas,<lb/>dins los blats, fan amb ela son trabalh de cada jorn; los jogai-<lb/>res que son perdents cantan sas lausenjas. Tot ço que pot faire<lb/>bruch, pertot ont s'atroba la vielha, crida son nom. N'en voletz<lb/>encara mai? Se una peira tusta una autra peira, sulcop dis.<lb/>« Vielha puta! »</p>
+        <pb facs="0004.xml"/>
+        <p rend="labelled"><lb/>CALIST. — Coma sabes tot aquò? Coma la conoisses?</p>
+        <p rend="labelled"><lb/>PARMENO. — Vos o vau dire. Ma maire, — vos parle pas de<lb/>uoi, — ma maire, una paura femna, demorava dins lo vesinatge<lb/>de la Celestina e, sus sa preguiera, me botet a son servici. Mas<lb/>la vielha se sovén pas pus de ieu amor que la serviguere pas<lb/>trop de temps e qu'ai pro canviat dempuei.</p>
+        <p rend="labelled"><lb/>CALIST. — E consí la serviás?</p>
+        <p rend="labelled"><lb/>PARMENO. — Sénher, anave a la plaça, li portave son recapte,<lb/>l'acompanhave. Complissiá a son costat totes los trabalhs per<lb/>mas pichotas forças. Dins lo pauc de temps que l'ai servida, ar<lb/>recaptat dins ma joina memòria de causas qu'a pas desoblidadas<lb/>en s'amadurant. Nostra brava vielha a son ostau au cap de la<lb/>ciutat, prep de las curatariás, long de la ribiera, dins una bas-<lb/>tida tota soleta, a mietat aroinada, pauç moblada, encara mens<lb/>abastada. Aquí fasiá mièja-dotzena de mestiers: era bugadiera,<lb/>perfumaira, metressa dins l'art d'alestir los fards e de fabricar<lb/>de verginitats, macarela, e masca un pauquet. Lo primier mes-<lb/>tier era una coberta per los autres; darrier aquesta professión,<lb/>força servicialas dintravan dins son ostau per i faire mestier<lb/>d'elas-meteissas e per confeccionar de camisas, de gorgeiretas e<lb/>mantun autre obratge. Totas i venián amb son recapte: de cam-<lb/>bajón, un pauc de blat, de farina, de vin e d'autras causas<lb/>qu'avian panadas a sos mestres; aqui se recaptavan non sabe<lb/>quant de raubatoris.</p>
+        <pb facs="0005.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>Celestina era l'amiga dels estudiants, dels despensiers e dels<lb/>novicis de las abadiás; i vendiá lo sang blos de las pauras<lb/>filhas que l'aventuravan d'un cor leugier, seguras de la res-<lb/>titución que la grimaude li prometiá. Mai qu'aquò: de mercé a<lb/>aquelas servicialas, comunicava amb las filhas mai clastradas e<lb/>aconseguiá a l'execusión de sos projectes. D'aquestas joinetas,<lb/>ne veguere mantuna dintrar à l'amagat, encò de la vielha au<lb/>temps de las preguieras, a prepaus d’estaciòns, de processiòns<lb/>de nuoch, de messas de mieja-nuoch o d'auba e de milanta pre-<lb/>textes de devoción; darrier elas venián d’omes descauçats, re-<lb/>pentoses, umils, destacats, qu’anavan dins lo meteis ostau per<lb/>i plorar sos pecats! Quant trafic tot aquò fasiá! Balhava de re-<lb/>medis as pichonets ; preniá d'estame dins un ostau e lo portava<lb/>dins un autre, e coma aquò dintrava dins totes. E maire per<lb/>aicí, e maire per ailai; aicí la vielha, ailai la matrona, plan<lb/>coneguda de totes! Maugrat tot aquel rambal, mancava pas<lb/>messa nimai vespras; quitava pas de caire ges de covent de<lb/>monges o de monjetas: aquí, justament, menava ensems sos<lb/>aleluias e sas entrigas. E dins son ostau fasiá de perfums, fal-<lb/>sificava estoras, bijón, perosinas, ambre, civeta, musc, essencias<lb/>de rosas. Sa cambra era cafida de milanta models d'alambics, de<lb/>fiolas, de pichots barrals de terra, de veire, de ferre, d’estanh.<lb/>La masca alestissiá de sublimats, totas menas de fards e de po-<lb/>madas, de candeletas, de lanetas, de cremas, de cosmetics, d'ai-<lb/>gas e de potingas per la cara, de raca, d'alapeda, de rusc de<lb/>broteirola, de serpatier, de fel, de rasimela; destilava, sucrava...<lb/>Amaisava la pel amb de jus de limón, de bec-de-passerón, de<lb/>mesola de cabrit e de bernat-pescaire e de força causas dau<lb/>meteis biais. Compausava d'aigas perfumadas amb las rosas, la<lb/>flor de l'irangier, lo jansemin, la treule, la maireselva e las<lb/>moissetas muscadelas, trissadas amb de vin. Per blondir los peus,<lb/>conoissiá lo secret d'une bugada ont mesclava gavels, euse, segle,<lb/>marrubis amb de salnitre, d’alun, de fenolheta. Ai pas de dire qu’a-<lb/>viá graisses, burres, seus: de vaca, d'ors, de chival, de camel, de<lb/>serp, de conilh, de balena, de bernat-pescaire, de cornaire, de<lb/>dam, de cat-fer, de tais, d’esquirol, d’eriç, de loira; fasiá<lb/>d'essencias per los banhs ; a las fustas de son teulat eran penja-<lb/>das d'erbas e de raiças qu’es pas de creire: camomilha, roma-<lb/>nin, mauvise, capilaria, merinot, flor-de-mai, flor de mostarda,<lb/>badassa, laurier blanc, flor sauvatja, fuolha negra, totas las<lb/>plantas dau compestre. D'òlis per la cara, n'en fabricava non<lb/>sabe quant: d'alibofier, de jansemin, de limón, de granas, de<lb/>violetas, de bijón, de lentise, de pinhons, de jinjourlier, de ra-<lb/>mantelon, de lupin, de peses, d'erba dels auceus; servava dins<lb/>una floleta un pauquet de baume per aquela badafa qu'aviá en<lb/>travers dau nas. Las verginitats matrassadas, quora i botava una<lb/>bofiga, quora i fasiá un punt de cordura. Sus una tauleta, sarrava<lb/>dins un pichot armari quauquas agulhas de pelissier mai que<lb/>finas, quauques flus de seda encirats, lo racinun de diversas<lb/>plantas vertuosas, e amb tot aquó fasiá de meravilhas. Quora<lb/>venguet dins nostra ciutat l'embassador francés, tres cops la<lb/>vielha i vendet coma verge una serviciala de l'endrech:</ab>
+        <pb facs="0006.xml"/>
+        <p rend="labelled"><lb/>CALIST. — Auriá pogut o faire per cent autras!</p>
+        <p rend="labelled"><lb/>PARMENO. — Oi, Dieu sant !... Reculhissiá per caritat força<lb/>orfanelas e força desvariadas que se confisavan amb ela. Dins una<lb/>autra cambra aviá de que curar los amors maluroses e ajudar<lb/>los uroses. Aviá de trosses de cor de cervi, de lenga de vipera,<lb/>de closc de calha, de cervela d'ase, de frenda de caval e de<lb/>mainatge, de fava moresca, d'agulhas amantadas, de corda de<lb/>pendut, de flor de leuna, d'espinas d'eric, de pe de tais, de<lb/>granas de feuse, la peira d'un nis d'agla e milanta autres ob-<lb/>jects. Venián dors ela una molonada d'omes e de femnas ; a<lb/>l'un demandava lo pan que mossegava, a l'autra, un tros de<lb/>sa rauba, a un autre un floc de sos peus ; pintrava de letras<lb/>dins las paumas, quora de safràn, quora de vermilhón ; de-fes,<lb/>vos balhava un cor de cera traucat d'agulhas rotas o d'autras<lb/>causas de bard o de plomb pro espaventablas. Marcava de figuras<lb/>sus lo sol e, se clinant, disiá de paraulas misteriosas? Quau<lb/>pot dire tot lo bolegadis que mena aquesta vielha? e tot aquó<lb/>era pas que mesorgas e trufariás.</p>
+        <p rend="labelled"><lb/>CALIST. - N'i'a pron coma aquó, Parmeno! I tornarem quora<lb/>lo moment sera vengut. Te sente grat de ton raconte e te fau<lb/>mon grandmercé. Avem pas pus de temps a perdre: la necessi-<lb/>at aima pas que l'om tardá. La vielha ven aici sus ma preguiera.<lb/>Jna pro esperat ; cau pas que se languisca!</p>
+        <ab><milestone unit="column" n="1"/><lb/>Fernando de ROJAS.<lb/>(Revirat de l'espanhoi<lb/>per Joan LESAFFRE).</ab>
+        <pb facs="0007.xml"/>
+        <p rend="heading"><lb/>POEMAS</p>
+        <p rend="heading"><lb/>CONVERSA AMB L’ANDREU</p>
+        <lg>
+          <l><lb/>A Falgaroles la cirera</l>
+          <l><lb/>ja veroleja, amic Andreu,</l>
+          <l><lb/>i el cucut canta a tot arreu:</l>
+          <l><lb/>la collita és propera.</l>
+        </lg>
+        <lg>
+          <l><lb/>Apunta coves i cistells;</l>
+          <l><lb/>lloga la colla de fadrines</l>
+          <l><lb/>qui treu, amb les seves mans fines,</l>
+          <l><lb/>faldades de joiells.</l>
+        </lg>
+        <lg>
+          <l><lb/>Confia, Andreu, amb l'avinença</l>
+          <l><lb/>qu’observen els déus del verger;</l>
+          <l><lb/>i el bon temps, que no és mentider,</l>
+          <l><lb/>esperança dispensa.</l>
+        </lg>
+        <lg>
+          <l><lb/>La tramuntana entra suau.</l>
+          <l><lb/>El maig és una seda rara.</l>
+          <l><lb/>Amb la collita que's prèpara,</l>
+          <l><lb/>enguany farem sarau.</l>
+        </lg>
+        <lg>
+          <l><lb/>Menarà el ball la xiulatada</l>
+          <l><lb/>del gripau, el mestre-joglar</l>
+          <l><lb/>qui, la nit, prova de reglar</l>
+          <l><lb/>el pas de l'estelada.</l>
+        </lg>
+        <lg>
+          <l><lb/>Pensa a vestir el burro amb l'arnès</l>
+          <l><lb/>més ric. Que tindin les esquelles</l>
+          <l><lb/>per celebrar les meravelles</l>
+          <l><lb/>penjant dels cirerers!</l>
+        </lg>
+        <lg>
+          <l><lb/>Si per cas demanes ajuda,</l>
+          <l><lb/>aniré fer un crit al pardal</l>
+          <l><lb/>qui espicassa al cap del cimal</l>
+          <l><lb/>la fruita més carnuda.</l>
+        </lg>
+        <pb facs="0008.xml"/>
+        <lg>
+          <l><lb/>Manca no més dintre el casot</l>
+          <l><lb/>l'ampolla de vi i l'espertina.</l>
+          <l><lb/>Olora entorn la tarongina</l>
+          <l><lb/>i trasteja el llebrot.</l>
+        </lg>
+        <lg>
+          <l><lb/>A Falgaroles la cirera</l>
+          <l><lb/>ja veroleja, amic Andreu,</l>
+          <l><lb/>i el cucut canta a tot arreu:</l>
+          <l><lb/>la collita és propera!</l>
+        </lg>
+        <p rend="dateline"><lb/>Edmond BRAZES.</p>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>OFRENA A L’AMADA</p>
+        <lg>
+          <l><lb/>Ni tinc palaus ni tinc terres</l>
+          <l><lb/>ni vestits d’or i sati,</l>
+          <l><lb/>ni vaixells que la mar solquin</l>
+          <l><lb/>amb veles de carmesi,</l>
+          <l><lb/>ni argenteria ni joies</l>
+          <l><lb/>de maragda o de robi.</l>
+        </lg>
+        <lg>
+          <l><lb/>Més tinc per tú mil paraules</l>
+          <l><lb/>plenes de gloria i de mel</l>
+          <l><lb/>i tinc plors i bojos ruires</l>
+          <l><lb/>i tinc també tot un cel</l>
+          <l><lb/>d'inquietuts i suaus delicies</l>
+          <l><lb/>barreja d'amor i fel</l>
+        </lg>
+        <p rend="labelled"><milestone unit="column" n="2"/><lb/>J. ESTEVE.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Hen lo men cap, a jamès, braga.<lb/>Dem-se la man per cabaugar;<lb/>prop la hontà coelhem l'arraga<lb/>au cor celat deu cassorà.</ab>
+        <ab type="head"><lb/>EN LEIE LO TASSE</ab>
+        <lg>
+          <l><lb/>Qoand Herminia busoqueia</l>
+          <l><lb/>damb los pastors, deishem-la hè.</l>
+          <l><lb/>Mes tu, Clorinda, emper cosseia</l>
+          <l><lb/>gaha lo passedor de her.</l>
+        </lg>
+        <pb facs="0009.xml"/>
+        <p rend="styled"><milestone unit="column" n="2"/><lb/>Andreu PIC.</p>
+      </div>
+      <div type="article">
+        <head><lb/>VESPERADA</head>
+        <lg>
+          <l><lb/>Los persecs son madurs dins las descas de vimas,</l>
+          <l><lb/>lo jardin au sorelh sentis com una flor.</l>
+          <l><lb/>Dens lo ser qu'es vengut s'amaisa la calor,</l>
+          <l><lb/>hen sortir lo tropeth de vacas e de bimas.</l>
+          <l><lb/>E l'aujami s'en va, seguit deu canh labrit.</l>
+          <l><lb/>La pastora tanben que goaita sas anheras</l>
+          <l><lb/>espandidas au miei d'aqueras piaderas</l>
+          <l><lb/>e qu’espia los sauts d’un canhot esberit.</l>
+          <l><lb/>— Çai dam jo, per diguens, minjar, amiga cara</l>
+          <l><lb/>un persec aigatit amassat au casau.</l>
+          <l><lb/>Que se vam solombrar siaudament a l’ostau;</l>
+          <l><lb/>vespralharem un chic an devisant adara.</l>
+        </lg>
+        <ab><lb/>Germana EMMANUEL-DELBOUSQUET.</ab>
+        <lg>
+          <l><lb/>Qoand l'adirer dite missa baisha,</l>
+          <l><lb/>mustre-m, seguida de sordats,</l>
+          <l><lb/>la banera qui s'esplumasha</l>
+          <l><lb/>e las iegas com licornats;</l>
+        </lg>
+        <lg>
+          <l><lb/>sedas lescas ont l'aura joga;</l>
+          <l><lb/>tendes en un loc ombratiu</l>
+          <l><lb/>damb acera la clara coga.</l>
+          <l><lb/>sus la Mar Grana, d’un naviu;</l>
+        </lg>
+        <lg>
+          <l><lb/>e las ciutats rics asetiadas;</l>
+          <l><lb/>las espadas trencant su-u viu;</l>
+          <l><lb/>los torneis sarcits de mainadas</l>
+          <l><lb/>qui s’abrasan d'amor prendiu....</l>
+        </lg>
+        <lg>
+          <l><lb/>Rimbaut de Gasconha (1), d'Armida</l>
+          <l><lb/>non sabo prene qu’un casau...</l>
+          <l><lb/>Decaps a Tu ço qui-m gabida</l>
+          <l><lb/>qu'es la tanhença d'Ideau.</l>
+        </lg>
+        <lg>
+          <l><lb/>(1) Veder au cant VII de l'obra det asse aquel curios epi-</l>
+          <l><lb/>sodi.</l>
+        </lg>
+        <pb facs="0010.xml"/>
+        <p rend="heading"><lb/>LOS ESPERS E LOS JORNS</p>
+        <lg>
+          <l><lb/>Dau monde lo misteri,</l>
+          <l><lb/>vosautres lo sabetz</l>
+          <l><lb/>e dins lo cel, o morts,</l>
+          <l><lb/>lo secret de l'estela;</l>
+        </lg>
+        <lg>
+          <l><lb/>e l’amna de la terra</l>
+          <l><lb/>onte setz revenguts;</l>
+          <l><lb/>e las flors, per que naisson,</l>
+          <l><lb/>l'ome, per que morís.</l>
+        </lg>
+        <lg>
+          <l><lb/>Las oras fugidissas,</l>
+          <l><lb/>messorgas que s'esquilhan,</l>
+          <l><lb/>son pas res per vosautres</l>
+          <l><lb/>sadols d’eternitat,</l>
+          <l><lb/>desmanats d'esperança....</l>
+        </lg>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Entre los pins de Magalona,</l>
+          <l><lb/>la mar divina es sempre aqui,</l>
+          <l><lb/>eternitat dau caud matin,</l>
+          <l><lb/>ont esquilha una blanca vela.</l>
+        </lg>
+        <lg>
+          <l><lb/>Jos lo pati dels arbres vielhs,</l>
+          <l><lb/>la gleisa santa es en preguiera.</l>
+          <l><lb/>Los segles nisan dins sas peiras</l>
+          <l><lb/>que s'i arrapa l'espargol.</l>
+        </lg>
+        <lg>
+          <l><lb/>Dintre la lutz, l'aura endormida</l>
+          <l><lb/>sembla arestar lo jorn calat;</l>
+          <l><lb/>l'historia greva dau passat</l>
+          <l><lb/>tremoleja per l'ombra doça.</l>
+        </lg>
+        <lg>
+          <l><lb/>Los sarcofages de granit</l>
+          <l><lb/>aparan, sobre los bards fresques,</l>
+          <l><lb/>lo som eternal dels avesques</l>
+          <l><lb/>dins la patz viva dau Senhor.</l>
+        </lg>
+        <lg>
+          <l><lb/>E quora lo vespre blaveja</l>
+          <l><lb/>lo silenci desert, s’ausis</l>
+          <l><lb/>landar lo temps, sul miralh lis</l>
+          <l><lb/>de l’estang clar que parpaleja.</l>
+        </lg>
+        <pb facs="0011.xml"/>
+        <lg>
+          <l><lb/>Lo langui de l'autón, tot caud encara,</l>
+          <l><lb/>dormis, dins lo cel clar ont passan los aucels;</l>
+          <l><lb/>e greu d’olors, lo vespre doç espera</l>
+          <l><lb/>l'oblit tebés dau jorn que moris, blavinel...</l>
+        </lg>
+        <ab><lb/>Marcel BARRAL.</ab>
+        <p rend="heading"><lb/>CANÇON DE L’ESPERA</p>
+        <lg>
+          <l><lb/>Sul mestier de la solituda</l>
+          <l><lb/>e del fial de mon languiment</l>
+          <l><lb/>ai tescut amorosament</l>
+          <l><lb/>la cançon lenta de l'espera</l>
+          <l><lb/>qu’es aimablota a sa maniera</l>
+          <l><lb/>mas un pauc tristota a moments.</l>
+        </lg>
+        <lg>
+          <l><lb/>Sul tornet pacient de las oras</l>
+          <l><lb/>ai fialat de mos pensaments</l>
+          <l><lb/>la cançon doça de l'espera</l>
+          <l><lb/>que fa passar força misera</l>
+          <l><lb/>e son ritme nos es plasent.</l>
+        </lg>
+        <lg>
+          <l><lb/>Que la cançón te siague brava;</l>
+          <l><lb/>vire, vire lo dabanel!</l>
+        </lg>
+        <lg>
+          <l><lb/>Gaujosa d'un tin-tin d'esquilha</l>
+          <l><lb/>dont lo terme s'escarravilha</l>
+          <l><lb/>dins lo silenci dels monels,</l>
+          <l><lb/>encara umida, e mai banhada,</l>
+          <l><lb/>de clar de luna, d'albairada</l>
+          <l><lb/>e de bel-bel,</l>
+          <l><lb/>la dirai per tu, familiera,</l>
+          <l><lb/>la cançón tendra de l'espera</l>
+          <l><lb/>laugiera e doça coma un vel</l>
+          <l><lb/>que l'ai tescuda e l'ai fialada</l>
+          <l><lb/>de ta presença desirada</l>
+          <l><lb/>e de qual quas fialas de cel.</l>
+        </lg>
+        <ab><lb/>León CORDES.</ab>
+        <pb facs="0012.xml"/>
+        <ab><lb/>D'un verd prigond quand l'estiu cacha<lb/>del solelh tota la calor,<lb/>nostre Tarn cànvia de color<lb/><lb/>a la mendra plueja que raja.<lb/>Ven roge, alara, per degrat,<lb/>se mesclant de loza rosenca,<lb/>de tal biais que l'aiga tarnenca<lb/>te rogis tot al seu agrat.</ab>
+        <p rend="heading"><lb/>COLORS</p>
+        <lg>
+          <l><lb/>Aqui lo tableu milenari</l>
+          <l><lb/>que se pintra subro la map.</l>
+          <l><lb/>Lo roge – la natura o sap –</l>
+          <l><lb/>e lo verd per complementari.</l>
+        </lg>
+        <ab><lb/>Andriu-J. BOUSSAC.</ab>
+        <p rend="heading"><lb/>CHASSAS DEL TROBAIRE</p>
+        <lg>
+          <l><lb/>Coma chabris lagiers,</l>
+          <l><lb/>landan pel cial d’estiu,</l>
+          <l><lb/>del monde passagier</l>
+          <l><lb/>l'as horas e los jorns.</l>
+          <l><lb/>E fugisson novels,</l>
+          <l><lb/>sens pausa, sens repaus,</l>
+          <l><lb/>coma al suquet dels ròchs</l>
+          <l><lb/>vai l’isart dels puegs nauts.</l>
+        </lg>
+        <lg>
+          <l><lb/>Lo Temps lo viel pastor,</l>
+          <l><lb/>los ponha ente sonhant,</l>
+          <l><lb/>e los mena totjorn</l>
+          <l><lb/>per pàisser dins los prats</l>
+          <l><lb/>ont raia lo solel,</l>
+          <l><lb/>los pasturals d’azur;</l>
+          <l><lb/>e sadolts de la lutz,</l>
+          <l><lb/>passan al gorg escar.</l>
+        </lg>
+        <lg>
+          <l><lb/>O tu bon trobador,</l>
+          <l><lb/>los leissaràs fugir?</l>
+          <l><lb/>tu qu’amb l'arc chassador,</l>
+          <l><lb/>'quel arc manal, d'auborc.</l>
+          <l><lb/>podes plantar subran</l>
+          <l><lb/>aquel flambe bestial</l>
+        </lg>
+        <pb facs="0013.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>Que tas armas, dardier,<lb/>son los mots saboros,<lb/>aguts mais que l'acier;<lb/>chassaire poderós,<lb/>l'hora, lo jorn, lo temps,<lb/>los tenes jos ton fer;<lb/>ferisses en ple cor<lb/>lo chambiant Univers!<lb/>Oc, poeta dardier,<lb/>darda rede amais drech!<lb/>planta los dins la lutz<lb/>davans qu'ajen la nuech;<lb/>deu tramudar lor charn.<lb/>quel dard harmoniós<lb/>que tremòla sus l’arc,<lb/>òc, ta flescha de mots.<lb/>sus lo cami que vai<lb/>devers l'oblit del cial.</ab>
+        <lg>
+          <l><lb/>Com arpa dins lo vent,</l>
+          <l><lb/>ton arma a restontit,</l>
+          <l><lb/>e s’es plantat subràn</l>
+          <l><lb/>lo pur moment chausit,</l>
+          <l><lb/>bestial miravelhós,</l>
+          <l><lb/>ferit tanleu nascut,</l>
+          <l><lb/>tu l'as fach inmortal</l>
+          <l><lb/>per ton poema agut.</l>
+        </lg>
+        <lg>
+          <l><lb/>Per lo vere sotil</l>
+          <l><lb/>chambiat en cristal dur;</l>
+          <l><lb/>coma per un fialat</l>
+          <l><lb/>de vermelh e d’azur</l>
+          <l><lb/>entraupat de ton vers,</l>
+          <l><lb/>qu’es barbelat de mots,</l>
+          <l><lb/>e nafrat de ton fer,</l>
+          <l><lb/>s’es mudat en chançón.</l>
+        </lg>
+        <ab><lb/>Joan MOUZAT.</ab>
+        <lg>
+          <l><lb/>Amb la despolha d’aur,</l>
+          <l><lb/>torna-t-en a l'ostal,</l>
+          <l><lb/>e lo pai te dira:</l>
+          <l><lb/>« Fil, as fach bón trabalh! »</l>
+          <l><lb/>Viva lo chassador</l>
+          <l><lb/>qu’as arrestat lo jorn,</l>
+          <l><lb/>e l'a tornat menar</l>
+          <l><lb/>dins lo coderc pairal!</l>
+        </lg>
+        <pb facs="0014.xml"/>
+      </div>
+      <div type="article">
+        <head><lb/>CANÇON</head>
+        <lg>
+          <l><lb/>Un rire, un cant:</l>
+          <l><lb/>la fola escandilhada!</l>
+          <l><lb/>Un rire, un cant:</l>
+          <l><lb/>lo nis dins la folhada.</l>
+          <l><lb/>Un rire, un cant:</l>
+          <l><lb/>lo vol de ma pensada...</l>
+        </lg>
+        <lg>
+          <l><lb/>Mon cor pot pas seguir</l>
+          <l><lb/>lo vol de ma pensada;</l>
+          <l><lb/>mon bais pot pas seguir</l>
+          <l><lb/>lo rire de l'aimada!</l>
+        </lg>
+        <lg>
+          <l><lb/>Un rire, un cant:</l>
+          <l><lb/>la doloa escandilhada!</l>
+          <l><lb/>Un rire, un cant:</l>
+          <l><lb/>la nueit dins la folhada.</l>
+          <l><lb/>26-IX-38.</l>
+        </lg>
+      </div>
+      <div type="article">
+        <head><lb/>IMNE</head>
+        <lg>
+          <l><lb/>Tot l'espandi estelat,</l>
+          <l><lb/>e lo solelh reial e la mar</l>
+          <l><lb/>e l’ufanosa e dolça bruelha</l>
+          <l><lb/>qu'ondra e viestis la terra de frescor</l>
+          <l><lb/>e d'esplendor corosa;</l>
+          <l><lb/>Tot l'aucelum cantaire mirgalhat</l>
+          <l><lb/>qu'embelina d'amor lo somni de las fuelhas;</l>
+          <l><lb/>Tota la lutz, totas las flors,</l>
+          <l><lb/>tot l'alenar e lo rire del monde.</l>
+          <l><lb/>A respect de ton cors e de ton rire,</l>
+          <l><lb/>a respect de tos uelhs que rauban l’anma,</l>
+          <l><lb/>Que so?...</l>
+        </lg>
+        <ab><lb/>Rei sans reialme,</ab>
+        <lg>
+          <l><lb/>e nud de pensada e d'amor,</l>
+          <l><lb/>me moririá</l>
+          <l><lb/>sense la gràcia umila de ta vida!</l>
+        </lg>
+        <ab><milestone unit="column" n="1"/><lb/>10-VII-42.</ab>
+        <ab><milestone unit="column" n="2"/><lb/>P.-J. ROUDIN.</ab>
+        <pb facs="0015.xml"/>
+        <ab><lb/>MONTSEGUR</ab>
+        <p><lb/>A cima de son pueg de calquier blanc: lo castel de Montsegur,<lb/>fortalesa pels vencidors, temple pels vinculs, com o ditz Joë Bous-<lb/>quet. Se creiriá que las fadas, un jorn de tempestum, an edi-<lb/>ficat, sus los berles del cel, aquelis Barris de lum e de rebellión.<lb/>Sempre encabrat contra las ersas eternas, sempre aglopat de ne-<lb/>blas, se daissa, a bels cops, emportar per la cavalcada del vent<lb/>e amagar en plen cel ; jos lo solelh, a bels cops, torna aparéisser,<lb/>subit, per manlevar al païsatge que vira a l'entorn d'el, las co-<lb/>lors de l'Illusori. Alavetz perd son volum, son espaci: Es pas<lb/>mai dins l'aire qu'un doç foc daurat.</p>
+        <p><lb/>A despart, práquò, s’arc-bota dins la mort per pas morir.<lb/>S'afonsa dins lo roc, dins la nueit. Mes mai se confond a la<lb/>peira, als arbres rosses, a la transparència de las blancors de<lb/>l'estiu, e mai sembla atraire sus sa testa sabe pas qu'un auratge<lb/>vengut de pertot.</p>
+        <p><lb/>Se raconta dins los romances del Sant-Grazal qu'après que<lb/>l'umanitat aguet daissat se corrompre l'Idea d'Amor, lo temple<lb/>de Montsalvatge, a la pregària de Perçaval, foguet transportat,<lb/>per miracle, dins las Indas, amb los cavaliers, los satges, amb<lb/>las Verges que servissian lo grazal, amb la Reina d’Amor. A Mont-<lb/>ségur, tanbén que foguet, se non pas lo castel del grazal, al<lb/>mens l'un d'aquelis castels lunars, magics, enganaires, ont, a<lb/>cercar lo salut sus la via perilhosa d'amor, se trapa pas qu un<lb/>rei nafrat que non pot ni garir ni morir, a Montsegur, tanbén, lo<lb/>misteri s'es desrasigat. Es que ne sará mai vesin o mai luenh de<lb/>nosautris? Sentissetz qu'a tot moment, pot caser del fons dels<lb/>cspacis sus la tor abitanta del cel, trucar aquela encencha deso-<lb/>lada... Dins aquelis murs afodrejats, om se cerca, absent, al cor<lb/>de l'èsser que comença pas en loc. Tot es absènçia a Montsegur,<lb/>mas cada presència i es clamada.</p>
+        <p><lb/>De tot caire ressentisson encara de clamors que se podon pas<lb/>ausir. Lo silenci i sembla tescut de milanta planhums. Las flamas<lb/>s'arreston pas de lusir, dempuei set cents ans, dins l'aire apalit.<lb/>Es dins aquel prat qu'Esclarmonda, lutz del monde, foguet cre-<lb/>mada viva en 1244. La flamma inamossable a pres l'emprencha<lb/>de son bel cos: Ardeja en semblança de femna, e pas res, ara,<lb/>porià pas l'atudar. E l'om crei respirar aicí, cap als Pireneus,<lb/>dins l'odor amarganta de las ausinas, dins lo perfum d'estelas<lb/>que ven del Sant Bertomieu, lo vent precursor de l'Esperit sense<lb/>terminas, que bufa pas que suls cremadors.</p>
+        <ab><lb/>S. J. (revirat per Renat NELLI).</ab>
+        <pb facs="0016.xml"/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/><lb/><lb/><lb/><lb/>A</p>
+      </div>
+      <div type="article">
+        <head><lb/>A Mme Marguerite Bugnard.</head>
+        <lg>
+          <l><lb/>El vent, en els brins evasiu,</l>
+          <l><lb/>rima l'arribada de l'alba</l>
+          <l><lb/>novella, fesa per la palma</l>
+          <l><lb/>que es breça en un refús esquiu;</l>
+        </lg>
+        <lg>
+          <l><lb/>La font trena-desfete escriu</l>
+          <l><lb/>La joia d'endur-se'n el malva</l>
+          <l><lb/>horitzó i l'esbadat reialme</l>
+          <l><lb/>de la llum, mentre Déu somriu</l>
+        </lg>
+        <lg>
+          <l><lb/>i acuden pressoso els àngels</l>
+          <l><lb/>a perfer les crestes del mar</l>
+          <l><lb/>matineres, i les flors conciten,</l>
+        </lg>
+        <lg>
+          <l><lb/>ara que, sense dies ni anys, els</l>
+          <l><lb/>destins encadenats dormiten</l>
+          <l><lb/>oblidats a mitges, enoar.</l>
+        </lg>
+        <p rend="heading"><lb/>A. SERRA-BALDO, catalan</p>
+        <p rend="heading"><lb/>GUMERSIND GOMILA, catalan</p>
+      </div>
+      <div type="article">
+        <head><lb/>PROGRAMA IDIL-LIC</head>
+        <lg>
+          <l><lb/>Si vols que anem avui fins al Recó,</l>
+          <l><lb/>prendrem el caminet de les moreres</l>
+          <l><lb/>a l'hora d'or que el sol seu a l'escó</l>
+          <l><lb/>de les muntanyes rialleres.</l>
+        </lg>
+        <lg>
+          <l><lb/>Veurás quin blau heràldic té aquell grau</l>
+          <l><lb/>on les alzines hi mullen les branques,</l>
+          <l><lb/>i penjarem la nostra amor, si ho cal,</l>
+          <l><lb/>al bec de les gavines blanques.</l>
+        </lg>
+        <lg>
+          <l><lb/>Després contemplarem l'espai desert,</l>
+          <l><lb/>estirats al damunt de l'herba tendra,</l>
+          <l><lb/>i oblidarem si el grau es blau o verd...</l>
+          <l><lb/>Tot ho veurem color de cendra.</l>
+        </lg>
+        <pb facs="0017.xml"/>
+        <lg>
+          <l><lb/>Corot etern, la llum crepuscular</l>
+          <l><lb/>pintarà aquell bosquet de melangia,</l>
+          <l><lb/>i partirem, els dos, sense parlar,</l>
+          <l><lb/>quan l'alta lluna absorbi el dia.</l>
+        </lg>
+        <lg>
+          <l><lb/>Sols direm un good night i un « bona nit »,</l>
+          <l><lb/>passant davant les angleses porugues</l>
+          <l><lb/>que fan camping sota el penyal humit,</l>
+          <l><lb/>ben arronçades com erugues.</l>
+        </lg>
+        <lg>
+          <l><lb/>Sols pensarem als intims ideals</l>
+          <l><lb/>i a les dolces mentides ben jurades,</l>
+          <l><lb/>mentre el vilatge encendrà els seus fanals.</l>
+          <l><lb/>i el far de les clares mirades.</l>
+        </lg>
+        <lg>
+          <l><lb/>I aixi, pel caminet encar calent,</l>
+          <l><lb/>la teva galta vora de ma galta,</l>
+          <l><lb/>caminarem enllaçats un a l'altre</l>
+          <l><lb/>com dues veles sense vent.</l>
+        </lg>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>MIQUEU CAMELAT, gascon</p>
+        <p rend="heading"><lb/>D'UA ORA A 'NH' AUTA ORA</p>
+        <lg>
+          <l><lb/>D'ua ora a 'nh'auta ora,</l>
+          <l><lb/>d'un dia a 'nh' aut dia,</l>
+          <l><lb/>deguens o dehora,</l>
+          <l><lb/>borin d’allegria,</l>
+        </lg>
+        <lg>
+          <l><lb/>mudat de tristessa,</l>
+          <l><lb/>que m'en vau, de gana,</l>
+          <l><lb/>dens la bruma espessa</l>
+          <l><lb/>deu temps qui m'engana.</l>
+        </lg>
+        <lg>
+          <l><lb/>Se lo mau qui abeia,</l>
+          <l><lb/>de io no s'aparta,</l>
+          <l><lb/>lo ben, nosta enveia,</l>
+          <l><lb/>per las fins que 'm harta.</l>
+        </lg>
+        <lg>
+          <l><lb/>Lo tuc ont puiavi</l>
+          <l><lb/>goand e goand e costa;</l>
+          <l><lb/>de força e 'm viravi</l>
+          <l><lb/>sonque a mieia costa.</l>
+        </lg>
+        <lg>
+          <l><lb/>Ne gai ne holia</l>
+          <l><lb/>n'an durat que pausas,</l>
+          <l><lb/>je capbat la via</l>
+          <l><lb/>ve s’eslurrèn causas!</l>
+        </lg>
+        <lg>
+          <l><lb/>O leda o beroia,</l>
+          <l><lb/>vita corta qu'eras,</l>
+          <l><lb/>com t'esperei, ioia,</l>
+          <l><lb/>tahuc, que m’aperas.</l>
+        </lg>
+        <ab><milestone unit="column" n="2"/><lb/>15</ab>
+        <pb facs="0018.xml"/>
+      </div>
+      <div type="article">
+        <p><lb/>Despioi que Mistral afortiguet que la lenga d'oc « s'en anet<lb/>vieure enco di pastre e di marin », es de moda dins lo monde,<lb/><lb/>camens tant clar, dels prosators, de prener per escrieure, l'es-<lb/>tile de la conversa del pagés. Es coma en Francia, quora volon<lb/>parlar del retorn a la terra.</p>
+        <p><lb/>Aquel biais de pensar es de la mena de pensada que fai las<lb/>peças en dos lengas quand un personatge es pas del miejorn. Cal-<lb/>drià donc, se d'asard fasien venir sul teatre un cosaqua, un<lb/>chinés o un canaqua, los faire charrar cadun dins sa lenga.</p>
+        <p><lb/>Prenon pas solament l’estile de la terra, mas tanben per eros,<lb/>e solament eles, los omes de la terra. Aquel rasonament, seguit<lb/>er un Racine, nos auriè privat de Phèdre (Thésée charrava pas<lb/>ב<lb/>que lo gregau), de Bajazet (que parlava lo turc) e d’Athalia (que<lb/>parlava coma un banquier).</p>
+        <p><lb/>La sequencia logica de tal biais de pensar es que lo poeta o<lb/>l'escrivan d'oc deu caussar d'esclops, se vestir de velos e quittar<lb/>de caire, d'afons, aquel estrange abilhatge a capel larg, a caus-<lb/>sas de fustier e a caravata « La Vallière », qu'es coma cadun<lb/>lo sap lo vesti acostumiat del felibre.</p>
+        <p><lb/>La vertat es pamens estada dicha, fai un bel floc de temps,<lb/>per un ome pron conescut, lo senher Buffon, lo jorn que quittet<lb/>caire de sas manchetas de seda aquel mot breu, senat e pessuc:<lb/>« Le style, c'est l'homme ».</p>
+        <p><lb/>Se la lenga d'oc pot esperar un jorn prener una plaça d'onor-<lb/>es per la mirgalhadura de sos escrivans d'elei, totes d'elei per<lb/><lb/>la singularitat personala de l'estile. S'embarrar dins lo biais de<lb/>parlar del pagés es tant sot coma s'embarrar dins l'estile troba-<lb/>dorenc del segle dotzenc.</p>
+        <p><lb/>Una lenga deu e pot tot expremir; tant lo somni d'un pastre<lb/>que la conversa d'un rei. Una lenga se pot enriquir solament<lb/>que per ço que, per son biais unenc, cade escrivan ie porgis<lb/>de sa sava. La lenga d’oc s'est pausada « enco di pastre e di<lb/>marin ». D'accordi. Mas es pas una rason per ie demorar eter-<lb/>nament. Cal pas desoblidar qu'es estada la lenga de tot un po-<lb/>ple, e que l’amor lo mai requist a cantat dins sa votz Alara que<lb/>cadun ie cante ço que voldrà.</p>
+        <p><lb/>Es la força e la vida, lo sanc caud d'una pensada, e sa singu-<lb/>laritat que fan l'estile: e non pas lo vesti rustic o autre.</p>
+        <ab><lb/>Max ROUQUETTE.</ab>
+        <ab><milestone unit="column" n="1"/><lb/>Aen SUS L’ESTILE</ab>
+        <pb facs="0019.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>LIBRES</ab>
+      </div>
+      <div type="article">
+        <head><lb/>A. SERRA-BALDO, Dotze sonets (Tolosa, enco de J. Castellvi,<lb/>1942).</head>
+        <p><lb/>Aquelis dotze pichots poemas, d'una escritura prima e sinuosa<lb/>agolopan, ara, una evocacción un pauc preciosa ara, un sentit<lb/>pus primitiu de la vida, ara enfins, una construcción gairebén<lb/>ontellectuala del monde interior. Clauses del meteis biais que<lb/>las telas cubistas d’antàn, son, a n’elis-sols, de mondes plan<lb/>tancats, amb temps en temps, una viva escapadura vers lo des-<lb/>trigament, com un planhum o un accent mai viscut, al mieg de<lb/>na melodia.</p>
+        <p><lb/>S'auriá pas dire ço que l'om deu mai gostar d'aquelas menu-<lb/>das e sobras descripcións de la natura, sempre força umanizada,<lb/>e que sembla d'un ort pintrat sus un ventalh:<lb/>o d'aquela serenitat davans l' « evasion »:<lb/>o tanben del patetic reprimat pel cant que tal o tal sonet ne re-<lb/>manh un chic empruntat, per exemple, lo sonet 5:<lb/>eit se troba, me pareis, la conclusión de l'obra:</p>
+        <lg>
+          <l><lb/>La font trena-desfeta escriu</l>
+          <l><lb/>La joia d'endur-se'n el malva</l>
+          <l><lb/>horitzó i l'esbadat reialme</l>
+          <l><lb/>de la llum mentre Diu somriu.</l>
+        </lg>
+        <lg>
+          <l><lb/>Visc ara-entre els altissims murs</l>
+          <l><lb/>que el meu ensomni ensostra i tanca</l>
+          <l><lb/>una lleu hora que s'estanca</l>
+          <l><lb/>coma una aigua mansa de purs</l>
+          <l><lb/>cristalls que no somou cap vent...</l>
+        </lg>
+        <lg>
+          <l><lb/>Lluiten l'alba i la nit</l>
+          <l><lb/>braç a braç ara que l'estrella</l>
+          <l><lb/>última llum pura en l'empit</l>
+          <l><lb/>del cel....</l>
+        </lg>
+        <lg>
+          <l><lb/>Dolor o joia assetjant</l>
+          <l><lb/>calen al cor per retrobar el seu cant.</l>
+        </lg>
+        <p><lb/>Per tant que sia breva, la poesia del sénher Serra-Baldó es<lb/>plena de segrets. L'om diriá que cada sonet es, tot ensèm, una<lb/>meditación passionada sus la vida e una meditación tota serena<lb/>sus l'art. La musica es, aquí, un joc de l'idea encara mai que<lb/>l'espandida d'un sentiment... Crese, a legir aquel reculh, qu'es<lb/>tant dins nostras tradicions, que los Trobadors van enfins tornar...</p>
+        <ab type="head"><lb/>GUMERSIND GOMILA, La sorra calenta (Edicions S. E. O.</ab>
+        <p><lb/>Tolosa, 1943).</p>
+        <p><lb/>Plan diferenta d'aquela de Serra-Baldó es la poesia de Go-<lb/>mila: consistis, per esséncia, en un retorn a l'anecdotic, al</p>
+        <ab><lb/>POESIA<lb/>« subjecte ». E, segur, lo perilh era grand per lo poeta, de caser<lb/>dins lo genre narratiu, mai anti-poetic que siá, tant mai qu'aque-<lb/>lis poemas se dispauson de tal biais que constituissen una mena<lb/>de « romàn d'estiu ». Mas lo poeta, aquo's vertat, a refugit lo<lb/>rebanc ont podiá butar, per una evidenta sinceritat d'emoción e<lb/>tanben, per un art que li es particular de transmudar l'anecdo-<lb/>tic en una faula umana e universala.</ab>
+        <pb facs="0020.xml"/>
+        <p><lb/>Per exemple: la jova que, dins « rellotge de sora » s'entracha<lb/>del somni de l'ome qu'es costat d'ela, e que lo velha — sablier<lb/>vivènt — e que lo desperta, se s'adorm, es aquí tota la femna e,<lb/>mai tota nostra vida efemera. La poesia i renais, donc, del dis-<lb/>cors, de l' « història », cargada d'un mite prefona que ne carva<lb/>la beltat.</p>
+        <p><lb/>Las descripcións son pertot, d'altra part, avivadas d'un grand<lb/>poder d'evocación o de suggestion:</p>
+        <p><lb/>e plan nombroses las notacions del trach agut:</p>
+        <lg>
+          <l><lb/>caminet de les Arcades</l>
+          <l><lb/>caminet embalsamat</l>
+          <l><lb/>cada soca te una historia</l>
+          <l><lb/>cada historia el seu pecat...</l>
+        </lg>
+        <list>
+          <item>— tant agravidas, qualquas paginas pus luenh, dins aquel idenr.</item>
+        </list>
+        <lg>
+          <l><lb/>Desprès s'en torna a la masia</l>
+          <l><lb/>tota contenta, els penerets curuls</l>
+          <l><lb/>i el mosso, qu'an la veú, li menjaria</l>
+          <l><lb/>les dues mores dels seus ulls.</l>
+        </lg>
+        <p><lb/>e trapam un pauc pertot d'imatges d'inspiración modernista dins<lb/>de poemas, que l'un al mens es influenciat per Lorca (el gitano<lb/>enamorat) e l'altre, « els ulls negres », del tot personal, manca<lb/>pas d'agradança, encara qu'un pauc artificial.</p>
+        <p><lb/>Direm enfins lo plaser qu'avem avut a retrobar dins la « Sorra<lb/>calenta », lo poema subrebel qu'aviá ja parescut, crese, dins<lb/>« OC », « davant la tomba d'Antonio Machado » ; aquó's una de<lb/>las mai polidas causas publicadas dempei tres o quatre ans, en<lb/>lenga nostra:</p>
+        <lg>
+          <l><lb/>Que diu el rossinyol, que passa</l>
+          <l><lb/>i pren alè damunt la creu?</l>
+          <l><lb/>Diu que la vida ès bella, bella</l>
+          <l><lb/>com un perfil de llibertat...</l>
+        </lg>
+        <p><lb/>En brieu, Gumersind Gomila, se se despartissiá d'un cert aca-<lb/>demisme, leujer en vertat mes que se marca encara un pauc<lb/>trop, çai e lai, dins qualques poemas (som d'aquelis, per exem-</p>
+        <ab><milestone unit="column" n="1"/><lb/>Desprès, omplint ton puny de fina sorra<lb/>las vas vessant gra a gra damunt mon pit<lb/>per a dir-me que l'hora sempre corre<lb/>per a dir-me que et tregui de l’oblit.</ab>
+        <ab><lb/>Quan l'alta lluna absorbi el dia...<lb/>caminarem enllaçats un a l'altre<lb/>com dues veles sense vent...<lb/></ab>
+        <pb facs="0021.xml"/>
+        <ab><lb/>ple, qu'aimam pas brica « Salut a l'avia ») e se daissava pus so-<lb/>vent s'enjitar, d'ela meteissa, dins son anma, la tradición verta-<lb/>diera, al loc de la cercar per força, sariá, a ço que crese, al<lb/>premier reng dels poetas catalans e provençals. Mas som segur<lb/>que Gumersind Gomila es trop bel poeta per se daissar embalsa-<lb/>mar, com un mort, per las flors dels Jocs-florals!</ab>
+        <ab><lb/>Renat NELLI.</ab>
+        <p rend="labelled"><lb/>ISMAEL GIRARD, Anthologie des poètes gascons (Société archéo-<lb/>logique, historique, littéraire et scientifique du Gers, Auch,<lb/>1942). Introduction, choix, notes et commentaires d’Ismaël Gi-<lb/>rard.</p>
+        <p><lb/>Sabe pas cap de libre nostre que m'aje bailat tant de plaser a<lb/>legir coma aquel. A virar los fuolhs me semblava d’intrar dins<lb/>l'ostau d'un ome de gost, amorosament estacat a sa terra, e que<lb/>dins cade membre de sa casa a reculit tableus, images, mobles<lb/>d’art ; onte lo papier de la paret s'armoniza amb la color del cel<lb/>que ven per la finestra; ont tot es fach per la delicia de vieure,<lb/>d'anar, de demorar, per lo plaser de l'uol coma de l'ausidor, per<lb/>la libertat e l’aise de la pensada. Quante amor deu portar Girard<lb/>a sa terra gascona per aver ligat amb tant de pretz la garba que<lb/>nos presenta; e la presentación es tanben ela d'un gost requist.</p>
+        <p rend="labelled"><lb/>1942. An de misèria e de dou. Maugrat lo cel tant greu e tant<lb/>fosc, lo papier tant rar, e la pena qu'avem a sortir libres e<lb/>revistas, lo reculh de Girard ten una elegància, simpla coma se<lb/>deu per un trabalh de sciéncia, mes bela, qu'om cercara vana-<lb/><lb/>ment dins tant de libres de la prosperitat.<lb/></p>
+        <p><lb/>Viram los fuolhs: una dedicàcia dins l’estil lapidari ont se<lb/>sentis tressusar un patriotisme gascón de pura estrassa, una<lb/>flamba estranja per quau conois l'ome pausat e de silenci qu'es<lb/>Girard, lo rebat segur d'una anma que s’es bailada tota a la<lb/>glòria e a l'onor de sa patria.</p>
+        <p><lb/>Viram encara: aquí las citacions d'elei: lo cor d'aqueles que<lb/>dins lo temps e dins l'eternetat an agut tanben aquela flamba<lb/>d'amor! e porla entre las perlas lo dolç Miqueu de Montaigne:<lb/>« Il y a bien, au-dessus de nous, vers les montaignes, un gas-<lb/>con pur, que ie trouve singulirement beau et désirerais le sça-<lb/>voir; car c’est un langage bref, signifiant et pressé, et, à la vé¬<lb/>rité, un langage masle ». Dison que se n’es mancat de gaire que<lb/>« les Essais » siegon estats « los Ensags ». Quau sap de que<lb/>serió venguda l'astrada de la lenga d’oc se Montaigne aviá cau-<lb/>sit l'occitàn. De tot biais sian pas aicí per los racacors. Recu-<lb/>lissm pus leu de la leiçon s'un de nautres, a quicon a dire de<lb/>bon coma que siá, que lo faga en lenga nostra. Coma disiá l'au-<lb/>tre: « Dieu reconnaitra les siens ». Dieu, la posteritat, la glòria...</p>
+        <p><lb/>Viram encara : una « Introducción » que s'améritarié, sautant<lb/>lo libre, d’estre reculida amb los Comentaris que seguisson per<lb/>de dire d'estre publicada au mens un cop per an dins las revistas<lb/>'oc. Vole parlar de las revistas qu'an de la respelida una idea<lb/>d’ensems, e las podem comptar, non sus los dets mas sus las<lb/>mans. Apondrai que ia pas una pagina que son embas siá pas<lb/>caft d'italicas: aquo's notas, totas intrasentas, vivas e qu'an de<lb/>fruch. Quanta vida dins la pensada d'aquel ome, greu e pensatiu,<lb/>e que sembla freg au prumier cop!... E quanta connoissença de<lb/>tot ço que toca a nostra lenga. Crese pas que iage una lei,, un<lb/><lb/>libre, un article, una nota dirai tanben, qu'aja escapat a son<lb/>uol. Per ne tornar a l'introducción dirai qu'es pas solament,<lb/>coma tant de cops l'es, un molón reculit d'aici, d'alai, mes una<lb/>obra viva de pensada ont lo sentiment nacional se marida amb<lb/>lo rasonament clar e la sentida del social per compausar una<lb/>obra d'una intelligéncia que fai gaug coma lo foc quand giscla<lb/>d'un molón de lenha apinhalada dins la chiminieira.</p>
+        <pb facs="0022.xml"/>
+        <p><lb/>Viram encara: e vaquí los poetas de Gasconha. Girard lo sap,<lb/>e rescond pas un jutjament vengut d’una testa frecha, los poetas<lb/>que son dins lo reculh son pas totes e se'n manca de grands<lb/>poetas. S'agis pas d'aquò. S'eran grands poetas, seriá pas mestier<lb/>de los acampar. Un Mistral sur la mar eterna, floteja sol, e a<lb/><lb/>pas de besonh que li manden de corda. Solament las letras d'oc<lb/>son pas coma tant d’autras. Lucham per viure. Devem reculir<lb/>cade degot del nostre sang, cada dinier de nostra pecunha. Avem<lb/>pas un soldat a perdre per la batalha que menam. La cultura<lb/>d'oc que volem crear deu se virar cap a tot lo passat, passat po-<lb/>pular que nos tarnarà bailar l’estudi del Folklore occitàn, mes tan<lb/>ben passat literari, e l'obra de Girard respond an aquel besonh.<lb/>Perdeque, trop sovent,, passat literari es estat comprès : estudi<lb/>dels trobadors. Dise pas de non mas aquò’s pas tot. E puei, en<lb/>tre los escribans d’oc despuei Mistral, quant n'ia qu'an dels tro-<lb/>badors, de sa pensada, de sa poesia, una idea de valor? Aqui<lb/>tanben farem obra: a vos Nelli! Obra necessaria e, tant coma<lb/>se podra, sarrada en lo volum d'un sol libre.</p>
+        <p><lb/>Girard a fach una obra exemplaria. A reculit per son rodol, la<lb/>Gasconha, los noms sacrats que s'ameriton d'estre sauvats, non<lb/>talament per l'auçada de son engenh poetic que per ço qu'an<lb/>viscut en Gasconha, e per ço « qu'an tengut nostra lenga viva ».<lb/>Un Peire de Garrós revirant amb un naturau qu'estabosis los Sau-<lb/>mes de David, porgissent autau a sa lenga l'exemple e l'onor<lb/>de tot poder cantar, un Du Pré qu'en 1620 refresca l'aiga tepesa<lb/>de la poesia d'amor, un Guillaume Ader, angel del vocabulari<lb/>vertadier, un Dastros qu'a viscut e pensat, sembla, en verses<lb/>d'oc, un Tallez qu'aviá l'engenh naturau de la cançon popularia<lb/>Cf. sa Cançon dou lin), un Sarran (son « Isabeu » es un cap<lb/>d’obra que recorda lo lied de Gœthe: Le Roi des Aulnes), un Del-<lb/>bousquet que devem plorar sa mort tant jove, un Pic, enfin, amb<lb/>Massartic, jitela de la prima d'ara, espers, aquels dos, qu'an<lb/>pas tot bailat de son obra, tot aqueles son coma las pilas d'un<lb/>pont que de l'ufanosa poesiá trobadorenca nos mena cap á la res-<lb/>pelida de demàn. Un esperit, una lenga, un rebat, s'esperlongan<lb/>au travers de sas obras. Tot ome d’oc, qu'aurà davans tot lo<lb/>lagui de sa cultura se virarà cap an'aqueles poetas. (Pode pas<lb/>somniar, sens vergonha, ni sens tristessa a las bibliotecas de<lb/>tant de felibres, onte, jovent, cresiá d'anar trobar l'aiga per<lb/>ma set...)</p>
+        <p><lb/>Ara cal que l'exemple de Girard siá seguit. Avem mai a<lb/>faire que de denombrar las nieiras encò de Mistral e los potons<lb/>encò d'Aubanel, que de rememoriar los auvaris felibrencs entre<lb/>1883 e la prima de 1885. Sabem pla que força causas son estadas</p>
+        <ab><milestone unit="column" n="1"/><lb/>ב</ab>
+        <pb facs="0023.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>fachas adeja. Solament volem « orquestrar » tot aquo. Volem<lb/>faire obra comuna, obra metodica. Estudi del catarisme e de la<lb/>pensada miejornala, estudi dels trobadors ; acamp de tot ço que<lb/>canta entre aqueles e Mistral; recorda, in extremis, de TOT lo<lb/>Folklore occitàn; finestra largament duberta a tota cultura es-<lb/>tranja e primier la francesa ; e d'aquel temps obra direita e sens<lb/>bruch prep lo govern, e lùont de las Prefecturas (onte tota obra es<lb/>de semenat sus lo roc) vaqui l'obra que se prepausa la S. E. O.<lb/>Obra qu'a deja trespassat lo papier e que perseguirem amb<lb/>l'ajuda de totes, se podem, dels melhors solament, se n'ia que<lb/>volon pas comprener que lo Felibritge es adeja del passat, amb<lb/>sas dichas enfuocadas, sas barbas romanticas, sas campanhas<lb/>electoralas, e sas eleicions, febras de non res, sos senators pen-<lb/><lb/>satius coma de vudels lins la prada, e son Capolier lengut, bar-<lb/>but e mau fotut, Pàpa de Carnaval e President de Cort Coculà-<lb/>ria ; aquel Felibritge quapres aver vint e cinq ans plorat per la<lb/>penga d'oc a l'escola, la reçap un jorn sens saupre d'onte aquò<lb/>li ven e que, mau preparat per aculir aquel present, se ne troba<lb/>empedit coma un rat amb tres nogas ; e qu'al luoc de s’organizar<lb/>per digirir aquel plat de rei, lo nifla de luónt, vira a son entorn,<lb/>e fai articles sus articles per saupre coma l'arrapar; del temps<lb/>que lo monde vira, que lo relotge del temps a perdut tota lei, e<lb/>que la guerra es aquí qu'o vai tot netejar.</ab>
+        <ab><lb/>MUQUETTE.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>FILOLOGIA</head>
+        <head type="structured"><lb/>ABBE JOSEPH SALVAT, Grammaire Occitane (Toulouse, E.<lb/>Privat, 1943, XXI et 177 p.).</head>
+        <p><lb/>Aquel obratge fa grand onor a l'ostal Privat, totjorn fidel a las<lb/>tradicions lengadocianas e totjorn prest a portar sa peira al mo-<lb/>vement regionalista. Cal benastrugar tanbén l'abat Salvat d’aver<lb/>sabut evoluir dins lo sens de la corrección de mai en mai granda<lb/>de la lenga. Lo vam de renaissença vengut de la S. E. O e de la<lb/>sieu « Gramatica Occitana » a pas daissait indiferent lo director<lb/>del Collegi d'Occitania.</p>
+        <p><lb/>Li cercarem pas brega acausa de sa grafia qu'es sempre la de<lb/>sos mestres Estieu e Perbosc. L'avem jutjada al darrier Congrès<lb/>de Tolosa: es impirica, sens basis scientificas, sovent en con-<lb/>tradicción amb las vertadieras tradicions occitanas e es pas estada<lb/>jamai expausada sistematicament. Cal ajustar, a la sieu descarga,<lb/>que l’abat Salvat la siec sens grand estrambord (veser: Introduc-<lb/>tion XIX).</p>
+        <p><lb/>Farem una sola observación : dins certis detalhs fa prova d'in-<lb/>consequéncia. Escriu pèd sul marrit patrón francés sens se rendre<lb/>compte que, segón sa grafia, caldriá legir pèt. D'autre biais<lb/>lo restabliment d'aquel d etimologic obligariá a adoptar merced,<lb/>fed, ved, crud en despieit dels derivats: pesegada, fisar, veser,<lb/>crusa. Atal meteis, lo verb crúisser es escrit cruche sens téner<lb/>compte qu'aquò se legis crutche.</p>
+        <pb facs="0024.xml"/>
+        <p><lb/>Per ço que toca la lenga pròpriament dita, l'autor a fait un<lb/>grand pas endavant, mas demora en el d'incertituds e de tranta-<lb/>lhaments. L'abséncia d’un fil conductor, d'una norma fixa, a uelhs<lb/>vesents, li fan sofraita. Purista determinat, de cops que i a, es-<lb/>cruirà: participi, plenitud, pluzors, regular, ric, riqueza, singu-<lb/>lar; d’autres cops emplegarà de gallicismes coma: adverbe, autant,<lb/>colège, consona, eclipse, efèt, juscas, mème, paradigme, propre,<lb/>paja, quantième, particulier, singulària, sovèt a la plaça de las<lb/>formas condreitas : adverbi, aitant, collegi, consonanta, eclipsi,<lb/>efieit, dincas, meteis, paradigma, pròpri, pagina, data, particular,<lb/>singulara, desir o vot. Sovent met sul meteis pe una forma cor-<lb/>recta e un gallicisme : meteis e mème, dincas e juscas, aitant e<lb/>autant. Enfins li arriba d'ensajar de justificar un gallicisme del<lb/>tot condamnable (véser § 233 a mème, § 269 a corrijar, diferar).<lb/>Dins l'exposición de la morfologia barreja sens cap de criteri las<lb/>kormas classicas encara viventas amb las formas d'evolución pa-<lb/>tésejaira que convén de defugir: serviguent alloc de servissent,<lb/>ajent alloc de avent, pelses alloc de pels.</p>
+        <p><lb/>Anam examinar en detalh los punts que jutjam defectuoses en<lb/>fasent lo vot que l'abat Salvat ne faga son profieit dins une edi-<lb/>cion venenta.</p>
+        <p rend="labelled"><lb/>Titol. – Gramatica Occitana. – Luenh d'ésser « occitana » es<lb/>simplament lengadociana o pus exactament pretoca los sols par-<lb/>lars de Tolosa e Carcassona. Aquó valiá d'èsser dit per fin d'en-<lb/>ganar pas degun.</p>
+        <p rend="labelled"><lb/>Introducción. — P. XI: XIe siècle. Cal corregir de tota evi-<lb/>déncia: IXe siècle.</p>
+        <p rend="labelled"><lb/>§ 9. - Mot es un gallicisme. La dreita forma a un o semiso-<lb/>nant (mout) encara conservat dins qualques parlars.</p>
+        <p rend="labelled"><lb/>§ 10. — Cal dire diftong e triftong. En realitat los diftongs<lb/>qu'an l'accent sus la segonda sillaba son pas de diftongs; son<lb/>compausats d'un i semiconsonanta e d'una vocala: ia, ie, io<lb/>equivalon a ya, ye, yo. Es inutil de donar als escolans d'ideas<lb/>falsas.</p>
+        <p rend="labelled"><lb/>§ 17. — Ch, lh, nh, son pas de consonantas doblas, mas de<lb/>consonantas notadas amb l'ajuda de doas letras. Las vertadieras<lb/>consonantas doblas son nn, Il, tt dins annada, palle, rette.</p>
+        <p rend="labelled"><lb/>§ 18. — Particulièr. Los adjectius d’aquela mena son en — ar,<lb/>— ara. L'autor escriù endacom mai : regular, singular. Caldria<lb/>adoptar una norma fixa.</p>
+        <p rend="labelled"><lb/>§ 19. – Adverbe alloc d’adverbi. Consi participi alloc de par-<lb/>ticipe se jutjam adverbe valable.</p>
+        <p rend="labelled"><lb/>§ 21. — L'amudiment de r final es mal expausat. Qualques par-<lb/>lars (Agenés, Montpelhierenc e Cevenol), amudisson gaireben tots<lb/>los r: du (r), cla (r), ma (r), co (r). La majoritat dels autres con-<lb/>servan r dins los monosillabs e qualques polisillabs : dur, clar,<lb/>mar, cor, segur, amor. Los parlars septentrionals conservan r pro<lb/>sovent dins los mots en — ar e — or: calor, colar, singlar.</p>
+        <p><lb/>§ 29. — Elida. A prepaus dels verbs sabents en — ir, l’autor<lb/>ensaja (§ 269) de nos persuadir que las formas en — ar (diferar,<lb/>discutar, imprimar, etc.), son indigenas ; d'autres cops, melhor ins-<lb/>pirat, dona las formas en — ir (§ 268). Deuriá saber qu'aquelo<lb/>verbs son on — ar jos l'influéncia del francés.<milestone unit="page" n="22"/></p>
+        <pb facs="0025.xml"/>
+        <p rend="labelled"><lb/>§ 37. — L’autor ditz que sols los mots en — ol podon aver l’ac-<lb/>cent sus l’avant-darriera sillaba. Que fa de : pèrsec, pàrrec, ròssec,<lb/>crèdit, David, vòmit, etc...</p>
+        <p rend="labelled"><lb/>§ 40. – Contra l'pont. Dins aquela posición, l'article es encli-<lb/>tic, es a dire que se pieja sul mot que lo precedis. Lo signe de<lb/>l'elisión deu èsser entre contra e l. Nostres aujols pus logics es-<lb/>crivián contralpont.</p>
+        <p rend="labelled"><lb/>§ 46. — L'omissión de l'article davant los noms propris de<lb/>cors d'aiga, de montanhas e de païses es pas facultativa. Es una<lb/>regla de la lenga d'oc generalament violada jos l'influéncia del<lb/>francés. Davant los noms de ceremonias religiosas e de trabalhs<lb/>agricolas ne deu èsser atal meteis.</p>
+        <p rend="labelled"><lb/>§ 49. — L’article indefinit plural seguit de que a un sens<lb/>emfatic: unis crits que, de tels cris que. Es un emplec frequent.</p>
+        <p rend="labelled"><lb/>§ 57. - Las particulas en e na podon pas èsser assimiladas a<lb/>d'articles puei que son la reducción de domne, domna e qu'equi-<lb/>valon a senhor, senhora.</p>
+        <p rend="labelled"><lb/>§ 63. - La meteissa forma. L'autor qu'a admés aqui la forma<lb/>nostra adopta alhors (§233) mème qu’es un gallicisme. Meteis,<lb/>meteus, metis son demorats dins nostres parlars fins als darriers<lb/>segles e subsistisson encara en foissenc, gascon e catalan. Mème<lb/>apareis amb lo francés cap al segle XVIIn. Las formas medesme,<lb/>mezesme, meesme, mesme, meime, conegudas dins l'anciana Pro-<lb/>vença, an pas pogut donar mème amb un e obert, car medesme<lb/>aviá un e tampat.</p>
+        <p rend="labelled"><lb/>§ 70. – « Lo dialecte provençal, coma l'italiàn, cambia pas lo<lb/>substantiu al plural ». Aqui una afirmación faita per estabosir.<lb/>En italiàn los singulars cavallo, donna, dente, muro fan al plural<lb/>cavalli, donne, denti, mura.</p>
+        <p rend="labelled"><lb/>§ 72. — L'autor atribuis los plurals redoblats als monosillabs e<lb/>los admet dins la lenga literària. Aquels plurals son comuns dins<lb/>los polisillabs e nos pareisson pas dignes de la lenga escrita:<lb/>malauses, molises, ostalses.</p>
+        <p rend="labelled"><lb/>§ 77. - I a pas de collectius en - un e – uta. Los mots<lb/>derivats del latin — amen, — umen son en — am, — um dins<lb/>nostra prononciación e lors derivats son en m: rostum, rostumat;<lb/>revolum, revolumar. Los neutres latins plurals en — a donan de<lb/>collectius e fruta es del nombre: rama, fuelha, fondamenta. L’au-<lb/>tor debremba las formas en — am: folham, graissam, pelam.</p>
+        <p rend="labelled"><lb/>§ 79. — Las formas en — aire, — ador, — eire, — edor son<lb/>pas de doblets, mas de formas morfologicas eissidas de doas for-<lb/>mas latinas diferentas. Los doblets provenon d'una meteissa forma<lb/>latina en seguida d'una evolución divergenta: mespla, mespola;<lb/>padena, patna; pertega, perga.</p>
+        <p><lb/>§ 99-102. — L'autor emplega tota una pagina per expausar<lb/>l'existéncia d'adjectius d'una sola forma al femenin e al masculin.<lb/>Auriá pogut èsser pus precís, pus exacte e pus complet.</p>
+        <p rend="labelled"><lb/>§ 124. — L’autor a negligit d'indicar que l’adjectiu emplegat<lb/>amb una intención distinctiva entre dos o plusors noms pren la<lb/>segonda plaça: messa granda, font granda, la Mazuca vielha, la<lb/>Mazuca jove, l'ostal nou.</p>
+        <p rend="labelled"><lb/>§ 149. - A prepaus dels adjectius numerals ordinals, l’autor<lb/>manca de bona fe: oblida de senhalar a sos lectors las formas<lb/>de la lenga classica en — en, — ena que subsistisson encara en<lb/>catalan. Es pas exacte de donar — en (c), — ena coma aperte-<lb/>nent a la lenga dels trobadors. Plan al contrari, es una creación<lb/>artificiala dels primadiers provençals. A pas jamai agut una va-<lb/>lor ordinala: quant a las formas en —ième son de purs galli-<lb/>cismes manlevats cap al segle XVe. Las formas en —esme,<lb/>— eime son estadas totjorn raras e an pas pogut donar fonetica-<lb/>ment lo diftong iè. Ço melhor es donc de restablir las formas clas-<lb/>sicas en — en, — ena.</p>
+        <pb facs="0026.xml"/>
+        <p rend="labelled"><lb/>§ 163. — L'autor crenh pas dire que lo pronom neutre óc a<lb/>patit mantas alteracions e es devengut o, zo, ac, va, etc... La<lb/>vertat es que la forma de la lenga classica dins totas las regions<lb/>occitanas, part Gasconha, era o que subsistis encara dins de nom-<lb/>broses parlars. A generalizar una forma, cal adoptar o.</p>
+        <p><lb/>§ 251-242. — Monsen l'abat Salvat a volgut plegar la conjuga-<lb/>són a qualques ideas personalas de sos mestres sens téner grand<lb/>compte de la lenga classica e dels usatges actuals.</p>
+        <p><lb/>La desinéncia — iá de la 1ra pers. de l'imparfait de l'in-<lb/>dicatiu de la 2a et 3a conj. e del present del condicional es en<lb/>usatge dins set ou ueit parlars lengadocians sur 14 e es aquela de<lb/>la lenga anciana. L'autor adopta — iai, nos sembla preferible de<lb/>gardar – id.</p>
+        <p><lb/>La rra pers. del subjonctiu present es en — e (:ra conj.) e en<lb/>— a (2a et za conj.) dins la lenga classica e dins dotze parlars ac-<lb/>tuals. I a a penas dos parlars (Agenés e Carcin) que la fan en i<lb/>e es aquela que l'abat Salvat fa figurar dins sos paradigmas. Nos<lb/>sembla pus logic de conservar l’usatge classic encara subsistent amb<lb/>- e per la fra conj, e — a per la 2a e la 3a.</p>
+        <p><lb/>Demest los verbs irregulars de la 3a conj., relevam las formas<lb/>seguentas del present del subjonctiu: astrenhi, cabi o capi, con-<lb/>cebi, conegui, crenhi o crenhigui, junhi o junhigui, moli, paissi,<lb/>paregui, planhi o planhigui, vegui, e trobam de mens las formas<lb/>pus correntas e classicas: astrenga, càpia, concépia, conesca,<lb/>crenga, junga, moiga, pasca paresca, planga, veja.</p>
+        <p rend="styled"><lb/>Car far una remarca analoga pel preterit: clausegueri, crenhi-<lb/>gueri, junhigueri, mozigueri, paissegueri, planheri o planhigueri, e<lb/>cercam de badas: claugueri crengueri, jungueri, moseri, pasqueri,<lb/>plangueri.</p>
+        <p rend="styled"><lb/>Al futur, trobam: caurai, conceurai, coneirai o conestrai (gall.),<lb/>crendrai (gall.) o crenhirai, junhirai, molrai, paissirai, parestrai<lb/>(gall.), planhirai, mentre que las formas correntas e melhoras:<lb/>cabrai, concebrai, coneisserai, crenherai, junherai, moldrai, paisse-<lb/>rai, pareisserai, planherai fan del tot safraita.</p>
+        <p><lb/>Lo participi present dona loc a las meteissas observacions.<lb/>L’autor admet las formas classicas: absolvent, adusent, astre-<lb/>nhent. cabent, clauzent, cozent, concebent, concluzent, coneissent,<lb/>corrent, cozent, crezent, creisent, crenhent, debent, escribent,<lb/>jazent, molent, mozent, movent, nozent, paissent, plazent, que<lb/>conven d'emplegar a la plaça d’aquelas formadas sul radical del<lb/>preterit. Ça que la, per una inconsequéncia pauc explicabla,<lb/>dona: beguent, dizent e diguent, fazent e faguent, junhent e<lb/>junhiguent, pareisent e pareguent, planhent e planhiguent, plou-<lb/>guent, prenent e prenguent, rizent e riguent, torsent e torse-<lb/>guent, vesent e veguent, vivent e visquent.</p>
+        <pb facs="0027.xml"/>
+        <p><lb/>Arrestam aqui nostras observacions ja trop abondosas. Son ins-<lb/>piradas pel sol desir d’acabar de desempetegar la nostra lenga<lb/>de las ronhas que la desondran,</p>
+        <p><lb/>Fasem lo vot que l'abat Salvat se daisse pas embelinar defini-<lb/>tivament per l'exemple de sos mestres. Que seriá la lenga ca-<lb/>tanna a demorada a ecola de Jacint Verdaguer?</p>
+        <ab><milestone unit="column" n="1"/><lb/>Loïs ALIBERT.</ab>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>CAHIERS DU SUD. — Le génie d’Oc et l’homme méditerra-<lb/>néen. Lo compte-rendut d'aquel important fascicul serà publicat<lb/>dins nostre numero venent jos la signatura de P. J. Roudin.</p>
+        <p rend="labelled"><lb/>FOLKLORE (6a annada, No 1 Prima 1943). — Un article<lb/>força curiós de Renat Nelli subre l'ors e la femna salvatja, de<lb/>« documents e de materials » directament communicats pels<lb/>delegats de la « Société Audoise d'Etudes Folkloriques » : pre-<lb/>gàrias en lenga d'oc, tradicions legendàrias, etc... A senhalar<lb/>mai que mai un article força sabent de L. Alibert sus « Les<lb/>noms formés à l'aide de diverses bases préceltiques signifiant<lb/>« Pierre » (Notes de Toponymie audoise). La bibliografla, deguda<lb/>a R. Nelli, clau un breu compte rendut de tots los libres o ar-<lb/>ticles interessant lo folklore pareguts aquestis darrieris meses.</p>
+        <p rend="labelled"><lb/>PYRENEES (No 11, mars-avril 1943. Folklore de France). —<lb/>Un compendi en una centena de paginas de tot lo folklore fran-<lb/>cés. Om trobarà dins aquel numero del tot redegit per d’espe-<lb/>cialistas: Varagnac, director adjunt del Museu de las arts e tra-<lb/>dicions popularas, Hugueta Godin, Roger Desvignes, director<lb/>del Museu de la paraula, R. Nelli, secretari de la revista Folk-<lb/>lore, d'articles de vulgarización, d'articles de primiera man de<lb/>contes, de textes populars. Demest aquestis, lo bel conte lenga-<lb/>dociàn del rei dels peisses reculhit per Nelli, la goluda acampat<lb/>fa temps per Bladé e la nueit dels quatre temps reculhit per<lb/>Perbosc. En un mot : un dels melhors obratges de Folklore fran-<lb/>cés paregut despuei la guerra.</p>
+        <ab><lb/>A. G.</ab>
+        <ab><lb/>EODICS</ab>
+      </div>
+      <div type="article">
+        <head><lb/>NUMEROS EXTRAORDENARIS</head>
+        <ab><lb/>OC a publicat un numero extraordenari catalan (J. S. Pons).<lb/>Los numeros extraordenaris venents seran consacrats al lenga-<lb/>docian (Loïs Alibert), al gascon (Miqueu Camelat), al proven-<lb/>çal (Pau Eyssavel), al lemosin (P. L. Grenier), etc...</ab>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="2"/><lb/>5</ab>
+        <pb facs="0028.xml"/>
+        <ab><lb/>LA<lb/> OCCITANA</ab>
+        <ab><lb/>ACTES DE LA S. E. O.</ab>
+        <p rend="labelled"><lb/>— Las questions d'Ensenhament an fet lo subjecte, tot aqueste<lb/>trimestre, de l'activitat de la Delegacion parisenca e de la<lb/>Seccion d’Ensenhament.</p>
+        <p rend="labelled"><lb/>— Creacion d’una Seccion cinemalografica.</p>
+        <p rend="labelled"><lb/>— Lo 5 de junh, En Teste e En Girard an recebut, al nom<lb/>de la S. E. O., a Tolosa, en un sopar intim, en companhia de<lb/>Lluch de Mons, En Carles-Brun,</p>
+        <p rend="labelled"><lb/>— Lo 6 de junh, En Carles Campros a prononciat, a Dinha,<lb/>(Basses-Alpes), lo discors de Premis als escolans del despar-<lb/>tament (Concors de Lenga d’Oc: 400 escolans, 50 escolas, jos<lb/>lo patronatge de l'Inspector d'Academia e del Prefet, lo tolosenc<lb/><lb/>Delpeyron).</p>
+        <p rend="labelled"><lb/>— Lo 8 de junh, En Carles Camprós, a Montpelhier, a repre-<lb/>sentat la S. E. O. a la Session del Comitat Regionalista de la<lb/>Xo Region economica, presidida per En Carles-Brun.</p>
+        <p rend="labelled"><lb/>— Lo Sr Professor Gavel e En Girard an representat la<lb/>S. E. O. al Congres de la « Federation des Sociétés Académiques<lb/>et Savantes de Languedoc-Pyrénées-Gascogne », los 21, 22, 23<lb/>de mai.</p>
+        <p rend="labelled"><lb/>— En Pic e En Girard, de la Delegacion gascona, an repre-<lb/>sentat la S. E. O. a l'amassada del 13 de junh, de l’Escola Gas-<lb/>ton-Febus, a Pau.</p>
+        <ab><lb/>INFORMACIOAS</ab>
+        <p rend="labelled"><lb/>— Lo 29 de mai, al Licèu Thiers de Marselha, las societats<lb/>provençalistas an celebrat lo centenari de Paul Arena (1843-1896)<lb/>jos la presidencia d'En E. Ripert e merces a l'acción d'En J. Re-<lb/>boul e L. Roux. Una lausa de remembrança fosquet pausada.</p>
+        <p rend="labelled"><lb/>— Lo 6 de junh, a Montpelhier, se celebret dins l’intimitat,<lb/>lo centenari de la naissença de Xavier de Ricard (1843). Dabans<lb/>lo monument del federalista lengadocian, En Carles-Brun pro-<lb/>noncet quaucas paraulas.</p>
+        <p rend="labelled"><lb/>— A la Facultat de las Letras de Montpelhier, quinze can-<lb/>Sidats se son presentats pel Certificat de lenga d’oc: candidat<lb/>per l'ancian provençal ; 7 candidats (6 admissibles e 5 recebuts)<lb/>per lengadocian modern ; 7 candidats (5 recebuts) pel catalan.</p>
+        <p rend="labelled"><lb/>— L'Academia Francesa a donat un pretz de 5.000 francs a<lb/>En Josep d'Arbaud per l'ensemble de la soa obra provençala.</p>
+        <p rend="labelled"><lb/>— L'Academia dels Jocs-Florals a donat lo grand pretz F. Ar-<lb/>tigues a En Silvàn Toulze, per la soa obra La Canta del Faidit.</p>
+        <p rend="heading"><lb/>MEMENTO BIBLIOGRAFIC</p>
+        <ab><lb/>LIBRES</ab>
+        <p><lb/>Dins los faciscles venent seran presentats:</p>
+        <ab><lb/>26</ab>
+        <p rend="structured"><lb/>F. GARCIA LORCA, Poeme du Cante Jondo (trad. Darmangeat) ;<lb/>— P. LANCEL, Les Rhéto-romanches ; — J. PALMADE, Anthologie<lb/>ariégeoise ; — R. CAILLET, Spectacles à Carpentras ; Costume<lb/>comtadin ; — E. MARTIN, Soulomi d’un jour d’estieu ; — P. MEs-<lb/>PLÉ, A travers l'art toulousain; — M. CAMELAT, Lou Piu-Piu de<lb/>la mie flahute ; — J. MAUREILLE, Anthologie des poètes quercy¬<lb/>nois ; — R. CAHISA, Joffre, Foch, Galliéni ; — R. TRICOIRE,<lb/>Fumarel ; — H. GILBERT, Lo Soparon ; — H. GUITER, Etudes de<lb/>linguistique des dialectes minorquins et Remarques grammaticales<lb/>sur l’Ave Maria de R. Llull; — P. DEVOLUY, Mistral et la ré-<lb/>demption d'une languer</p>
+        <pb facs="0029.xml"/>
+        <ab><lb/>PERIODICS</ab>
+        <p><lb/>Lecturas recomandadas:</p>
+        <p rend="structured"><lb/>COMŒDIA (22-V-43), Un félibre, per André Lhote; —<lb/>L’ECLAIR (22-VI-43), Le Félibrige muet, par Jules Véran ; <lb/>FOLKLORE (No 30) ; — PYRÉNÉES (No 11); — ALPES ET<lb/>PROVENCE (13-VI-43), Pau Areno, per J. Reboul.</p>
+        <p><lb/>A legir dins:<lb/>L’ACTION FRANÇAISE, Loïsa Paulin, per Orion (6-IV-43);<lb/>— L’ALAUZA D’AUVERNHA, Langue d’oc, per H. Gilbert<lb/>No 89) ; — ALPES ET PROVÉNCE, Pau Areno, poueto prou-<lb/>vençau, per J. Reboul (13-VI-43) ; — L’AVENIR AGATHOIS,<lb/>Emile Barthe et la Fille de la Mer, per R. Gaches (26-VI-43) ;<lb/>BOUTS DERA MOUNTANHO, Lo dol de Magalona, per R. Li-<lb/>zop ; Oda au vin de Belet, per J. Giordan (Març-Abril) ; —<lb/>BULLETIN DE LA SOCIÉTE ARCHEOLOGIQUE DU GERS,<lb/>Bibliographie occitane, per Magy, Bourgeat e Brégail (1er se-<lb/>mestre 43) ; — L’ECLAIR, Le Félibrige muet, per J. Véran (22-<lb/>VI-43) ; — CAHIERS DU SUD, presentacion de Sonmis de la<lb/>nuoch, per R. Nelli (avril) ; — CALENDAU, La Besti, per C.<lb/>Galtier, « Quand on écrit trop vite... », per P. Azema (N° 95):<lb/>— LA DEPECHE, « OC » (18-V-43) ; « Terra d’OC » (8-VI-43),<lb/>per J. Lamolle ; — ECHO DES ÉTUDIANTS, « OC », per<lb/>C. d’Eigaliers (29-V-43) ; — L'ELITE, Monluc et son temps,<lb/>pel general Berenguier (N° 20) ; — FE, Saviè de Ricard, per R.<lb/>Auzias (mai) ; Poemes de C. Galtier (junh) ; — FOLKLORE,<lb/>Notes de Toponymie audoise, per L. Alibert (N° 30) ; — LO<lb/>GAI SABER, Dix-huit mois de radiodiffusion régionaliste, per<lb/>J. Salvat (No 205) ; — L’HOMME DE BRONZE, Lou Panteon<lb/>de la Prouvenço poupulari, per G. Bessière de Sibel (No 3309) ;<lb/>— INDÉPENDANT DU LOT-ET-GARONNE, Contre le dépar¬<lb/>tementalisme, per P. L. Berthaud (18-IV-43) ; — JOURNAL DES<lb/>DEBATS, Une grammaire occitane, per P. L. Grenier (2-V-43);<lb/>JOURNAL DES BASSES-ALPES, Le Félibrige, per J. Gavot<lb/>(18-IV e 30-V-43) ; — LE LEGIONNAIRE, Les grands trou¬<lb/>badours corréziens, per R. Gaches (juin 1943) ; — LE MOT<lb/>D'ORDRE, De la langue d’oc à la langue d’oïl, per CI. Borain<lb/>(30-VI-43) ; — L’OPINION, La Langue gasconne à Bordeaux,<lb/>per P.-L. Berthaud (29-V-43) ; — PYRENEES, Suite ibérique,<lb/>per P. Darmangeat (N° 10) ; Folklore français, per R. Nelli, A.<lb/>Varagnac (N° 11) ; — QUERCY, La langue d’oc à l'école, per<lb/>J. Bonnafous e C. Pradel (N° 11) ; — RECLAMS DE BIARN<lb/>E GASCONHA, Poemas de Andreu Pic e C. Laffargue; Lou<lb/>mestiè d'escriba, per M. Camelat ; — LE SALUT PUBLIC, Nou-<lb/>veaux témoignages pour les dialectes, per L. de Jarine (1-IV-43)<lb/>— LA TRAMONTANE, La Nuvia, per J. S. Pons ; Les « goigs<lb/>de Nostra Senyora del Mon », per J. S. Pons (avril-junh).</p>
+        <fw type="quiremarks"><lb/>27</fw>
+        <pb facs="0030.xml"/>
+        <p rend="heading"><lb/>RATGES<lb/>RECOMANDATS</p>
+        <ab><lb/>COLLECCION "MESSATGES "<lb/>POESIES<lb/>DE J.-S. PONS<lb/>SOMNIS DE La NUOCH<lb/>Lbesias lengadocianas de Max ROQUETA<lb/>Un quasern : 16 fr.</ab>
+        <p><lb/>Un quasern : 24 francs</p>
+        <ab><lb/>ENTRE L'ESPER<lb/>E L'ABSENCIA<lb/>poemas de<lb/>RENAT NELLI</ab>
+        <p><lb/>— Un quasern : 12 francs –</p>
+        <ab><lb/>SENS POESIA<lb/>DE CARLES CAMPROS</ab>
+        <p rend="heading"><lb/>FORA SERIA</p>
+        <p><lb/>LA SORR ACALENTA<lb/>Un vol. S.E.O. fora seria: 25 Frs</p>
+        <p><lb/>poemes catalans de G. GOMILA</p>
+        <ab><lb/>BIBLIOTECA OCCITANA</ab>
+        <p rend="styled"><lb/>Poemas provençaus compausats sot io ceu d'Alemenha<lb/>Un volume : 25 francs</p>
+        <pb facs="0031.xml"/>
+        <ab><lb/> DE LA S. E. O.</ab>
+        <p><lb/>Conselh d'onor : MM. J. Amade, professor a l'Universitat<lb/>de Montpelhier ; E. Bourciez, professor onorari a l'Universi-<lb/>tat de Bordeus; Miquel de Camelat, majoral del Felibritge,<lb/>J. Cantaloba, compositor; J. Carles-Brun, delegat general de<lb/><lb/>la F.R.F. ; Paul Crouzet, inspector onorari de l’Ensenhament<lb/>segondari ; C. Gandilhon-Gens-d’Armas, ome de letras ; H.<lb/>Gavel, professor a l'Universitat de Tolosa; G. Guillaumie,<lb/>professor a l'Universitat de Bordeus; Renat Lavaud, profes-<lb/>sor onorari de l'Universitat; J. Loubet, majoral del Felibritge;<lb/>G. Millardet, professor a la Sorbona; J. Nouaillac, professor<lb/>onorari de l'Universitat; J.-S. Pons, professor a l'Universitat<lb/>de Tolosa; E. Ripert, professor a l'Universitat d’Ais-de-Pro-<lb/>vença.</p>
+        <p><lb/>Conselh d'Estudis e de Trabalh: MM. L. Alibert, diplomar<lb/>superior d'Estudis Meridionals ; P. Azema, majoral del Feli-<lb/>britge; R. Bartha, ome de letras ; A. de Bastard, diplomat<lb/>d’Estudis Meridionals ; P.-L. Berthaud, jornalista ; J. Bouzet,<lb/>professor agregat al Liceu Rollin; J. Bourciez, professor a<lb/>N'Universitat de Montpelhier ; A.-J. Boussac, majoral del Fe-<lb/>libritge ; C. Camproux, professor agregat al Liceu de Mont-<lb/><lb/>pelhier; M. Carrieras, ome de letras; A. Conio, majoral<lb/>del Felibritge ; L. Cordas, ome de letras; Paul Eyssavel, ome<lb/>de letras ; P.-L. Grenier, bibliotecari a la Biblioteca Nacionala;<lb/>I. Girard, doctor en medicina; H. Guiter, cargat de cors a la<lb/>Facultat de las Letras de Montpelhier; J. Lesaffre, doctor en<lb/>dreit; A. Mias, ome de letras; J. Mouzat, professor agregat de<lb/>l'Universitat ; R. Nelli, professor al Liceu de Carcassona;<lb/>A. Pic, professor a l'Escola Tecnica de Baïona; J. Reboul,<lb/>ome de letras ; P.-J. Roudin, ome de letras ; M. Roqueta, doc-<lb/>tor en medicina; A. Testa; B. Vidal, majoral del Felibritge;<lb/>E. Vieu, ome de letras.</p>
+        <p rend="structured"><lb/>Conselh d’administración: Président d’onor : M. H. Gavel ;<lb/>President : A.-J. Boussac ; Secretari general : L. Alibert ; Ad-<lb/>ministrator general: I. Girard; Secretaris delegats provincials:<lb/>P.-J. Roudin (Provença), C. Camproux (Lengadoc), I. Gi-<lb/>rard (Gasconha), A. Mias (Catalonha), J. Mouzat (Auvernha,<lb/>Lemosin, Delfinat), J. Lesaffre (Paris); Secretari cargat de<lb/><lb/>l'Ofici de la Premsa (O.P.O.) : M. Roqueta ; Secretari cargat<lb/>de l’Ofici de Radio (O.R.O.) : L. Cordas ; Secretari cargat de<lb/>l'Ofici del libre (O.L.O.) : I. Girard; Tresaurier general:<lb/>A. Testa.</p>
+        <figure type="decoration"/>
+        <p><lb/>LA SOCIETAT D'ESTUDIS OCCITANS trabalha a la sintesi intel-<lb/>lectuala dels païses d’Oc.<lb/>Que siá provençal o gascón, lemosin o catalàn, auvernhat,<lb/>delfinés o lengadocian, tot occitan que vol servir a lo dever<lb/>d'ajudar, per la sieu adesión, la Societat d'Estudis Occitans a<lb/>reeguir aquel pretzfait.</p>
+        <pb facs="0032.xml"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>LIBRES PER PAREISSER:<lb/>— Bibliografia Occitana 1919-1942 per P. L. Berthaud.<lb/>— Dafnis e Cloé, traducción provençala de Pau Eyssavel.<lb/>— La Celestina, de Rojas (J. Lesaffre, trad.).</ab>
+        <ab type="head"><lb/>UBLICACIONS DE LAS.E.O.</ab>
+        <ab type="head"><lb/>LIBRES PAREGUTS:</ab>
+        <p rend="labelled"><lb/>— Sants Evangelis, traducción lengadociana de l’abat J.<lb/>Cubaynes (agotat.)</p>
+        <p rend="labelled"><lb/>— Gramatica Occitana, basi de la doctrina lenguistica de la<lb/>S.E.O.</p>
+        <p rend="labelled"><lb/>— La Legenda d’Esclarmonda, obratge liric provençal de<lb/>Valeri Bernard (agotat.)</p>
+        <p rend="labelled"><lb/>— Los somnis dau matin, poemas lengadocians de Max<lb/>Roqueta.</p>
+        <p rend="labelled"><lb/>— Poésies catalanes, poemas de J.-S. Pons.</p>
+        <p rend="labelled"><lb/>— Entre l’esper e l’absencia, poemas lengadocians de Renat<lb/>Nelli.</p>
+        <p rend="labelled"><lb/>— Somnis de la nuoch, poemas lengadocians de Max Roqueta.</p>
+        <p rend="labelled"><lb/>— Poemas sens poesia, poemas provençals de Carles cam<lb/>pros</p>
+        <ab type="head"><lb/>— La Sorra Calenta, poemas catalans, per G. Gomila.</ab>
+        <p rend="labelled"><lb/>— La Fabrica, roman lengadocian de A.-J. Boussac.</p>
+        <p><lb/>— Xavier de Ricard, per Carles-Brun.</p>
+        <p rend="labelled"><lb/>Poesias del Marqués de Santillana (P. Darmangeat<lb/>e M. Roqueta).</p>
+        <p rend="labelled"><lb/>— Lo Dieu metge, poemas lemosins de Joan Mozat.</p>
+        <p rend="labelled"><lb/>— Lo libre de Rut, traducción gascona del canonge Laf-<lb/>farga.</p>
+        <p rend="labelled"><lb/>—Grammaire et lectures occitanes, per L. Alibert, M. Car-<lb/>rieres e C. Campros.</p>
+        <p rend="labelled"><lb/>— Ofrenda au temps qui hoei, poemas gascons de D. Dario.</p>
+        <p><lb/>Del fait que las tarifas postalas son força carestiosas, lo<lb/>port sera facturat per tots los obratges trametuts.</p>
+      </div>
+      <div type="article"/>
+      <div type="article">
+        <head><lb/>ENTRESENHAS ADMINISTRATIVAS S.E.O.</head>
+        <p><lb/>Los membres actius e los membres aderents pagan una esco-<lb/>tizón annuala de 30 francs. Los membres donators pagan una<lb/>escotizón annuala de 100 francs. Lo titol de membre protector<lb/>es decernit per tota contribución excepcionala minima de<lb/>500 francs.</p>
+        <p><lb/>Las escotizóns versadas los membres de la S.E.O. recebon<lb/>una carta administrativa valedoira per l'annada correnta.</p>
+        <p><lb/>La S.E.O. s'acampa cada an en Assemblada generala estatu-<lb/>tária, al començament de novembre, dins una vila occitana<lb/>designada en quand la darriera assemblada generala. Tots los<lb/><lb/>membre de la S.E.O. participan als trabalhs de l’Assemblada<lb/>generala.</p>
+        <p><lb/>Tots los membres de la S.E.O. recebon los periodics de<lb/>la Societat: Terra d'Oc, tots los meses, OC, tots los tres<lb/>meses. Benefician d'una reducción de 33 % subre tots los<lb/>libres publicats per la S.E.O. mas sus aquelis sols obratges<lb/>tant solament. Ne consultar la lista aqui subre. Aquela remesa<lb/>joga pas dins lo cas dels obratges en simple depaus a l'Ofici<lb/>del libre occitan.</p>
+        <note>
+          <p><lb/>Imp. du Sud-Ouest T.W, 10825-8-9-43 Lo Gérent: RIVATEL.</p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,607 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Prouvençau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t53903791x</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Prouvençau : journau literàri</title>
+          <publisher>[s.n.] (Ais-de-Prouvenço)</publisher>
+          <date when="1877-07-08">1877</date>
+          <idno type="ARK">bd6t53903791x</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t53903791x</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-13" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Dimenche 8 de Juliet 1877</fw>
+        <fw type="runningTitle"><lb/>— 5 FR. PER AN. —</fw>
+        <dateline><lb/>Premiero Annado. — No 14</dateline>
+        <ab><milestone unit="column" n="2"/><lb/>Tout ço que regardo la redacion sara<lb/>manda au burèu dóu journau,<lb/>Cous Mirabèu, 53, à-z-Ais.</ab>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="1"/><lb/>Un numerò: 3 sou<lb/>(En Prouvènço)</ab>
+        <p rend="heading"><lb/>Journau literàri.</p>
+        <ab><milestone unit="column" n="3"/><lb/>P</ab>
+        <figure type="table"/>
+        <lg>
+          <l><lb/>Se rendra pas leis article noun inseri.</l>
+          <l><lb/>Se fara un comte rendu deis obro prouven-</l>
+          <l><lb/>çalo espedido en dous eisemplàri.</l>
+        </lg>
+        <p rend="labelled"><lb/>Lou Pouvençau parèis chasco quinge-<lb/>nado, souto la direicien de la soucieta<lb/>dei Fellbre de Lar.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>MariuS GIRARD.<lb/>coulon li bugado dóu Felibrige; acò 's de causo que se<lb/>fan en famiho.</ab>
+        <p><lb/>Adiéu; mi respèt à vosto vièio maire em 'à vosto<lb/>jouino mouié.</p>
+        <p><lb/>Vous embrasse couralemen.</p>
+        <p><lb/>M. Girard a bèn fa, dins l'interès de la Causo feli-<lb/>brenco, de segui l'eisèmple douna pèr si counfraire, e<lb/>ie reproucharen pas d'avé espera un pau tard pèr se de-<lb/>cida. Soulamen, voulèn pas leissa passa senso responso<lb/>li resoun que douno pèr justifica la demando qu'avié<lb/>adreissado au Counsistòri.</p>
+        <p><lb/>.Lou mot joio es emplega dins l'Armana pèr dire<lb/>premié pres. Dins l'Armana de 1863, pajo 26, atrou-<lb/>van:</p>
+        <p><lb/>« A gagná la joio dou bouquet de viouleto: Mada-<lb/>« misello Roso-Anais Gras ; a gagna lou segound pres<lb/>« (la couleicionn richamen religado dis obro di feli-</p>
+        <p rend="labelled"><lb/>« bre), Emile Ranquet.. .... .</p>
+        <p><lb/>«A gagna la joio dóu brout d'óulivié: Francés<lb/>« Vidal ; a gagna lou sogound pres: Marius Gi-<lb/>« rard........</p>
+        <p rend="labelled"><lb/>« A gagna la joio de la flour de mióugranié: Louis</p>
+        <p><lb/>« Roumiéux; a gagna un brout d'oulivié d'argènt, en<lb/>« joio soubrenco, Vitour Thouron....... »</p>
+        <p><lb/>Meme Armana, pajo 109, article 6 de l'ancian Esta-<lb/>tut felibren, legissèn :</p>
+        <p rend="labelled"><lb/>« Li Jo Plourau - toujour mestreja pèr un Coun-<lb/>«sistòri de 7 cabiscou — decernisson de joio, de pres<lb/>«e de mencioun d'ounour.......»</p>
+        <p><lb/>Uno joio e un pres fan dous dos causo diferènto.</p>
+        <p><lb/>Es pas qu'en cercant noun s'atronvèsse de felibre<lb/>qu'an emplega lou mot joio em'uno significacioun plus<lb/>largo ; mai l'Armans, qu'es la lèi, en esperant lou Di-<lb/>ciounàri de Mistral. ie douno tort.</p>
+        <p><lb/>Pièi, quand lou mot joio poudrié, dins un discours,<lb/>estre emplega indiferentamen pèr un pres, quint que<lb/>siegue, sa significacioun dins l'oucasioun que nous<lb/>óucupo es marcado noun se pou mai claramen pèr<lb/>l'artiele 48 de l'Estatut:</p>
+        <p rend="labelled"><lb/>« Lou titre de Mèstre en Gai-Sabé sara douna en<lb/>« tonto persouno qu'aura gagna tres premié pres.»</p>
+        <p><lb/>Enfin, quand sarié prouva que lou mot joio pòu tou-<lb/>jour estre aplica en tout pres, même en de mencioun<lb/>d'ounour, acò prouvarié qu'uno causo, es que la noto<lb/>de la Cancelarié èro mau facho, — e es pas nautre que<lb/>diren lou countràri.</p>
+        <p><lb/>Aro respoundren-ti à l'article que nous oupauso la<lb/>Cigalo d'or dou 1e de Juliet? De-verai, lou cresèn<lb/>pas necite. Dins si tres colono atrouvan ni uno<lb/>ideio nouvello, ni uno resoun qu'amerite la discus-<lb/>sioun.</p>
+        <p><lb/>Nous dis que lou Counsistòri es soubeiran. Pas tant<lb/>qu'acò. L'assemblado soubeirano èro l'assemblado de<lb/>Santo Estello de 1876. Lou Counsistori es coume uno<lb/>assemblado legislativo que vèn après uno assemblado<lb/>naciounalo. A pas lou dre de chanja l'Estatut se-noun<lb/>en seguissent li formo prescricho pèr l'Estatut éu-me-<lb/>me, la demando escricho de 7 felibre, la voutacioun à<lb/>Tescrutin secrèt e di tres-part-des di voues.</p>
+        <p><lb/>Nous dis que l'estatut reglamento que l'aveni, que<lb/>falié recoumpensa li felibre qu'avien lucha dins li pre-<lb/>mié councours, etc. Avèn deja respondu en tout acò.<lb/>e de rèsto. Lou Counsistòri èro libre de cres pèr lis<lb/>ancian councours un autre titre qu'aquéu de Mèstre en<lb/>Gai-Sabé, e alor i'aurié mes li coundicioun qu'aurié<lb/>vougudo. Mai poudié douna lou titre felibren de<lb/>Mèstre en Gai-Sabé qu'i coundicioun prescricho pèr<lb/>l'Estatut felibren. La majo part dis ancian felibre a agu<lb/>a recoumpenso en recebènt la cigalo di majourau, e,<lb/>noun a de resoun de se plagne. Se l'on seguissié l'idèio<lb/>de noste counfraire, vesèn pas perqué tout felibre noun<lb/>sarié au cop capoulié, concelié, sendi, cabiscou, etc.,<lb/>etc.: ansin i'aurié plus de jalous.</p>
+        <p><lb/>Pèr n'acaba, La Cigalo d'or recounèis justo nosto<lb/>reitificacioun i comte dou Cancelié. Soulamen, ie trovo<lb/>ges d’impourtanço. Queli 300 franc siegon degu per lou<lb/>Counsistòri o pèr uno Mantenènço, dis, de que ie fai?<lb/>Es bèn verai que li caisso soun diferènto, que li founs<lb/>soun vouta pèr dos assemblado diferènto ; mai de qu'a-<lb/>nan nous óucupa de bachiquello ansin ! Pèr La Cigalo<lb/>d'or, Mantenènço, Counsistòri, Cancelarié. Secreta-<lb/>riat, tout acò 'es la memo causo. Tant es verai que<lb/>dempièi lou bon Lafontaine, la Cigalo a pas chanja de<lb/>naturo... Canto pas mau, mai lis afaire...... acó 's<lb/>pas soun afaire.</p>
+        <p><lb/>Avèn pas escoundu nosto óupinioun quand avèn<lb/>cresegu lou Counsistòri en fauto, mai ie voulèn pas<lb/>mercandeja li lausenjo pèr ço qu'a fa de miéus : voulèn<lb/>parla de la listo di soci e d'uno decisioun qu'a raport<lb/>is insigne felibren.</p>
+        <p><lb/>La decisioun declaro que degun, quinto que siegue<lb/>sa pousicioun dins lou Felibrigre, a lou dre d'emplega<lb/>li sagèu e autris ensigne felibren pèr sis entrepresso<lb/>particuliero. Aurian vougu n'en douna lou tèste, mai<lb/>l'avèn pas entre li man.</p>
+        <p><lb/>Ero necite de prene aquelo decisioun, car noun fau<lb/>que l'un o l'autre fagon crèire au publi que parlon au,<lb/>noum dóu Felibrige quand parlon en soun noum par-<lb/>ticulié e que posquon ansin coumproumetre la dignita.<lb/>e l'ounour dóu Felibrige.</p>
+        <p><lb/>Quant à la listo di sòci, esperavian pèr la douna<lb/>que nòsti nouvèu counfraire sieguèsson avisa de sa<lb/>nouminacioun e aguèsson lou tèms de manda soun<lb/>acetacioun. Mai parèis que la Concelarié se prèisso<lb/>pas, car un soci nous escriéu qu'a encaro reçaupu ni<lb/>letro d'avis ni diplome, e coume forço poudrien ignoura<lb/>in oternum sa nouminacioun, nous decidan à publica<lb/>la listo e mandaren un eisemplari deu Prouvençau<lb/>en chascun d'eli.</p>
+      </div>
+      <div type="article">
+        <head><lb/>AIS</head>
+        <p><lb/>La questioun di Mèstre en Gai-Sabé vèn de prene<lb/>fin. Legissè, en efèt, dins la Cigalo d'or don 1^te de<lb/>Juliet la letro que veici :</p>
+        <p><lb/>A Moussu P. Mistral, Capoulié dóu Pelibrige.</p>
+        <ab><lb/>Sant-Roumié, 25 de Jun 1877.</ab>
+        <p><lb/>Moun car e ounoura Capoulié,</p>
+        <p><lb/>En durbènt, aquéu matin, lou darrié numerò dóu<lb/>Prouvençau — dimenche 24 de Jun — legisse, à l'ar-<lb/>ticle Sesiho counsistouriale dóu 20 de Mai: «Di<lb/>« Mèstre en Gai-Sabé nouma contro li règlo prescri-<lb/>« cho pèr l'Estatat, rèsto dounc plus que M. Marius<lb/>«Girard qu'ague pancaro la connèisse sis inten-<lb/>« cioun. »</p>
+        <p><lb/>. Pèr fin de me metre à l'aise, declare tout d'abord<lb/>que renòuncie sènso peno à l'ounour qu'avié bèn<lb/>vougu me faire lou Counsistòri felibren, dins sa sesiho<lb/>tengudo en Avignoun lou 20 de Mai darrié.</p>
+        <p><lb/>Auriéu, segur, marrido gràci à voulé garda, iéu<lb/>soulet, un titre que de mai digne e de mai meritous an<lb/>refusa.</p>
+        <p><lb/>Eiçò di e counvengu, crese pamens qu'es necite de<lb/>restabli li causo coume se dèu ; ie vai eici de l'ounour<lb/>de tóuti ; car pense pas que ni mi coumpan ni iéu<lb/>aguen agu intencioun de veni soulicita unq causo que<lb/>nous èro pas degudo.— Li que me counèisson me des-<lb/>mentiran pas. — De-que disié, se m’ensouvèn, la<lb/>Noto de la Cancelarié, enserido dins la Cigalo d'or e<lb/>Lou Prouvençau? L'anan veire:</p>
+        <p><lb/>« I terme de l'article 48 de l'Estatut dou Felibrige,<lb/>e aquéli qu'auran gagna tres joio i Jo fourau re¬<lb/>« cebran lou titre de Mèstre en Gai-Sabé.</p>
+        <p rend="labelled"><lb/>« Li Felibre que se troubarien dins aquelo coun¬<lb/>« dícioun soun prega de faire valé si dre avans lou<lb/>« 21 de Mai auprès de Moussu lou Capoulié dou Feli-<lb/>« brige, pòr que la questiaun posque estre presentado<lb/>« au Counsistòri, dins la sesiho de Santo Estello.»</p>
+        <p><lb/>Or, tres Joio significo tres pres; i'a pas eici de pre-<lb/>mié ni de segound pres.</p>
+        <p><lb/>Es lou Counsistòri soulet qu'es juge de la volour e<lb/>de la sincerita di pres outengu: vaqui la verita.</p>
+        <p><lb/>E ço que provo que res de nautri s'es engana, es que<lb/>l'encartamen que nous an deliéura en Avignoun, signa<lb/><lb/>de vous e dóu Cancelié, porto : «Lou Counsistòri feli-<lb/>« bren a decerni lou titre de Mèstre en Gai-Sabé à...<lb/>« pèr avé gagna tres joio i Jo flourau.»</p>
+        <p><lb/>Ai lou respèt di decisioun dóu Counsistòri, e crese<lb/>pas, iéu, dins la circoustènci, que ague agi de-bado e<lb/>sèns saupre ço que fasiéu.</p>
+        <p><lb/>De tout eiçò resulto que s'es fa forço brut pèr rèn, e<lb/>siéu, iéu, bèn de l'avis dou brave Roumiéux : Es pas<lb/>necite que lou publi mete lou nas ne cunte se</p>
+        <pb facs="0002.xml"/>
+        <fw type="runningTitle"><lb/>Lon Prouvençaut</fw>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>ב<lb/>Paul Meyer, proufessour de literaturo prouvençalo au<lb/>Coulège de Franço, à Paris.<lb/>Lou dóutour Herman Siljestrom, prouvençalisto. à<lb/>Upsala.</ab>
+        <ab type="head"><lb/>Listo di Soci dou Felibrige.</ab>
+        <ab type="head"><lb/>Franço.</ab>
+        <ab type="head"><lb/>MESSIES:</ab>
+        <lg>
+          <l><lb/>Auguste Barbier, de l'Acadèmi franceso.</l>
+        </lg>
+        <lg>
+          <l><lb/>Michel Breal, proufessour pèr li lengo indo-éurou-</l>
+          <l><lb/>penco au Coulège de Franço, à Paris.</l>
+        </lg>
+        <lg>
+          <l><lb/>Emmanuel Des Essarts, proufessour de literaturo à la</l>
+          <l><lb/>faculta di letro de Clarmount en Auvergno.</l>
+        </lg>
+        <lg>
+          <l><lb/>Charles Gounod, membre de l'Istitut de Franço(autour</l>
+          <l><lb/>de l'opera de Mireille).</l>
+        </lg>
+        <lg>
+          <l><lb/>Victor de Laprade, de l'Acadèmi franceso.</l>
+        </lg>
+        <lg>
+          <l><lb/>Gaston Paris, proufessour au Coulège de Franço.</l>
+        </lg>
+        <list>
+          <item>Saint-René Taillandier, membre de l'Acadèmi fran- ceso, à Paris.</item>
+        </list>
+        <ab type="head"><lb/>нan.</ab>
+        <lg>
+          <l><lb/>Ascoli, prouvençalisto, à Milan.</l>
+        </lg>
+        <lg>
+          <l><lb/>Augusto Conti, archi-conse de l'Acadèmi de Flourènço.</l>
+          <l><lb/>Lou coumandaire Nigra, embassadour d'Itàli à Sant-</l>
+          <l><lb/>Petersbourg.</l>
+          <l><lb/>M. Ubaldino Peruzzi, sendi e deputa de Flourènçe.</l>
+          <l><lb/>Giovanni Papanti, roumanisto, de Ligourno.</l>
+        </lg>
+        <ab type="head"><lb/>Espagno.</ab>
+        <lg>
+          <l><lb/>D. Ruiz Aguilera, pouèto castihan.</l>
+        </lg>
+        <lg>
+          <l><lb/>D. Nunez de Arce, pouêto castihan.</l>
+        </lg>
+        <lg>
+          <l><lb/>D. José Zorrilla, pouèto castihan.</l>
+        </lg>
+        <ab type="head"><lb/>Brasit.</ab>
+        <p rend="labelled"><lb/>Sa Majesta Don Pedro II, emperaire dou Brasil<lb/>(se saup que D. Pedro es un amatour de la lite-<lb/>raturo prouvençalo ; s'atrouvant à Marsiho, i'a<lb/>quàuquis an, faguè veni Mistral, l'invitè à sa<lb/>taulo e ie diguè que lis estello dou Brasil avien<lb/>mai que d'un cop entendu lou cant de Magali).</p>
+        <ab type="head"><lb/>Alomagno.</ab>
+        <p rend="styled"><lb/>Lou dóutour E. Boehmer, proufessour de lengo rou-<lb/>mano.</p>
+        <lg>
+          <l><lb/>Lou dóutour Windelin Fœester, proufessour à l'univer-</l>
+          <l><lb/>sita de Bonn.</l>
+        </lg>
+        <lg>
+          <l><lb/>Lou dóutour Charle Sachs, proufessour à l'universita</l>
+          <l><lb/>de Brandebourg.</l>
+        </lg>
+        <ab type="head"><lb/>Anglo torro.</ab>
+        <lg>
+          <l><lb/>Duncan Craig, prouvençalisto, à Dublin (Irlando).</l>
+        </lg>
+        <ab type="head"><lb/>Estat-uni.</ab>
+        <lg>
+          <l><lb/>Miss Harriett W. Preston, à Concord (Massachussets).</l>
+          <l><lb/>(Autour d'article remarcable sus li principau fe-</l>
+          <l><lb/>libre, qu'an pareigu dins l'Aclantie Montly).</l>
+        </lg>
+        <ab type="head"><lb/>Suedo.</ab>
+        <lg>
+          <l><lb/>Theodor Hagberg, proufessour de literaturo estrangiero</l>
+          <l><lb/>à l'universita d'Upsala.</l>
+        </lg>
+        <lg>
+          <l><lb/>Edonard Lidforss, proufessour à l'universita de Lund.</l>
+        </lg>
+        <ab type="head"><lb/>Roumanio.</ab>
+        <p rend="styled"><lb/>Lou doutour Obedehiare, coulabouratour de la Revisto<lb/>di Lengo Roumano.</p>
+        <ab type="head"><lb/>Rusi</ab>
+        <lg>
+          <l><lb/>Carl G. Estlander, proufessour à l'universita d'Hel-</l>
+          <l><lb/>singfors, en Finlando (autour d'uno Istòri de la</l>
+          <l><lb/>Literaturo prouvençalo).</l>
+        </lg>
+        <p><lb/>De-segur, noun se poudié mies chausi, e cresèn<lb/>qu'aquéli nouminacioun saran aprouvado de tóuti.</p>
+        <ab><lb/>Ce C. DE VILONOVO.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Quand l'espeiavon, autre tèms,<lb/>Lou lapin èro pas countènt.<lb/>Aro... lou plumon!.. vouéli pas rire.<lb/>Lou plumon!.. Pouédi vous va dire,<lb/>Pecaire ! lou plumon tout viéu!<lb/>— Nàni, gastarié soun pelàgi.<lb/>Mai an descubert un óubràgi,</ab>
+        <ab type="head"><lb/>FUIETOUN</ab>
+        <ab type="head"><lb/>Aro lei plumon lei Lapin.</ab>
+        <ab type="head"><lb/>Invencien nouvello.</ab>
+        <lg>
+          <l><lb/>Eron lei remplaçant dei lèbre</l>
+          <l><lb/>Lei lapin. Devengu celèbre</l>
+          <l><lb/>Desempièi l'arco de Nouvè,</l>
+          <l><lb/>Servien pèr faire de civet</l>
+          <l><lb/>Sènso lèbre, o de sartanado</l>
+          <l><lb/>De redoulèntei lapinado,</l>
+          <l><lb/>Franc regòli dei bastidoun,</l>
+          <l><lb/>Fasènt veni lei gènt redoun.</l>
+        </lg>
+        <lg>
+          <l><lb/>Au pichoun bestiàri rouigaire,</l>
+          <l><lb/>Qu'aman avé pèr taulejaire,</l>
+          <l><lb/>Sabès ço que vèn d'arriba?</l>
+          <l><lb/>Anas, s'un-cop v'ai acaba,</l>
+          <l><lb/>Bessai voudrés pas vous va crèire.</l>
+          <l><lb/>Mai alor poudrés v'ana vèire.</l>
+        </lg>
+        <list>
+          <item>—Tant vaudrié 'n bouen coup de fusiéu </item>
+        </list>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>La Roundo de las Gracios.</head>
+        <head><lb/>Per ma Migueto.</head>
+        <lg>
+          <l><lb/>Le vèspre es siau, coumoul de boun-ur; aici l'ouro</l>
+          <l><lb/>Ount, rubis estounable arrancat al cel caud.</l>
+          <l><lb/>Le soulelh coule (1) lugrejo, (2) escampant sa pourpouro,</l>
+          <l><lb/>Darrè les plataniès tibant (3) lhour capelh, naut.</l>
+        </lg>
+        <lg>
+          <l><lb/>Demest (4) les pivoulets e la verdo baragno,</l>
+          <l><lb/>Mentre que l'roussignol canturlejo, amourous,</l>
+          <l><lb/>Van drollos e galants, plenis de douço cagno,</l>
+          <l><lb/>Freulats beziadoment (5) per de teugnos (6) clarous.</l>
+        </lg>
+        <lg>
+          <l><lb/>Magie raive! On diriò qu'uno albo s'es levado</l>
+          <l><lb/>Dins l'aigo, tant es roso intre les grandis jounes ;</l>
+          <l><lb/>Percassant, ves la nueit, la claro vesperado,</l>
+          <l><lb/>L'oumbro laugieroment posso (7) les belis trounes:</l>
+        </lg>
+        <lg>
+          <l><lb/>Aquelis que soun blancs sembloun d'antiquis malbres</l>
+          <l><lb/>De divos amagant lhour cos de liri nud</l>
+          <l><lb/>Dins le luscre (8) tardiè que s'espandis pes albres</l>
+          <l><lb/>E subre le travès e l' canvalh (9) rascagnut. (10)</l>
+        </lg>
+        <lg>
+          <l><lb/>De grills pifrejoun vieu os pradets, — d'engragnotos (14)</l>
+          <l><lb/>S'alscoun. (12) baralhant, (13) sèns relais, à l'encop.</l>
+          <l><lb/>E ça 'n la, s'enroupant d'escurino, las chotos</l>
+          <l><lb/>Daissoun toumba 'n souspir coumo 'n pés qu'an de trop.</l>
+        </lg>
+        <lg>
+          <l><lb/>Costo (14) 's bladets fourits s'ausissoun de mainados,</l>
+          <l><lb/>La bouco de la nueit beu lhour bascalal (45) d'or;</l>
+          <l><lb/>Erbatges del ribal, moufos de las anados (16)</l>
+          <l><lb/>Enlairoun (17) de sentous qu'embriaigoun le cor.</l>
+        </lg>
+        <lg>
+          <l><lb/>En la, dins la ciéutat s'olucoun de lanternos.</l>
+          <l><lb/>"Trevi, long del canal, d'erbo junquo as genouls ;</l>
+          <l><lb/>Le cel a de lugras e les camps de lucernos,</l>
+          <l><lb/>Que fa bou camina joubs les nautis tremouls! (18)</l>
+        </lg>
+        <lg>
+          <l><lb/>Qu'es dous de s'empregna de fresco pouesio</l>
+          <l><lb/>E de reviscoula l'esperit mièj agut !.(19)</l>
+          <l><lb/>O naturo estivalo, ès couflo d'ambrousio :</l>
+          <l><lb/>Toun lait que vau poupant en troubaire emaugut!</l>
+        </lg>
+        <lg>
+          <l><lb/>Landri dins les pèrfums qu'amourousissoun l'aire,</l>
+          <l><lb/>Les uels coumouls de raive e l'ime (20) plé d'azur,</l>
+          <l><lb/>B vesi s’esperta, (21) dreit al miei d'un esclaire (22)</l>
+          <l><lb/>Que la luno al trelus liso (23) à travès l'escur,</l>
+        </lg>
+        <lg>
+          <l><lb/>Las Gracios se balhant la ma. fasent la roundo</l>
+          <l><lb/>Que mirèron Moschus, Teoncrit' e Chainiè,</l>
+          <l><lb/>Le cap enramelat, virant dins la lux bloundo</l>
+          <l><lb/>B trepant sul pelenc, (24) dejoubs un plataniè</l>
+        </lg>
+        <lg>
+          <l><lb/>Las tres sors Aglaiè, Ufrousino e Talio</l>
+          <l><lb/>Que soun l'enlusiment, la flou, l'allegretat,</l>
+          <l><lb/>Maridoun, en virant, la sublimo armounio</l>
+          <l><lb/>E la splendou divino e l'antico bèutat.</l>
+        </lg>
+        <lg>
+          <l><lb/>Lhour cos semblo ibourin joubs les rais que la luno</l>
+          <l><lb/>I pauso ambe l'oumbreto esquisto d'un ramèl:</l>
+        </lg>
+        <lg>
+          <l><lb/>L'amenistracien dei taba,</l>
+          <l><lb/>Subre-tout, vèn faire tuba,</l>
+          <l><lb/>Pecaire, e fuma, sènso pipo.</l>
+          <l><lb/>Lou paure païsan que s'estripo.</l>
+          <l><lb/>Fau que refague soun coutoun!</l>
+          <l><lb/>Es que toundon pas lei moutoun,</l>
+          <l><lb/>Moutoun de champ, moutoun de vilo</l>
+          <l><lb/>E li fan pas 'scupi la bilo</l>
+          <l><lb/>Pèr sa lano o l'impousicien</l>
+          <l><lb/>Iéu va disi, sènso passien:</l>
+          <l><lb/>Perqué dounc lou pelous rouigaire</l>
+          <l><lb/>Que jusqu'aro a rendu tant gaire</l>
+          <l><lb/>Darié pas soun dèime de pèu</l>
+          <l><lb/>Pèr nous adouba de capèu?</l>
+          <l><lb/>Li baian l'assousto e lou viéure,</l>
+          <l><lb/>L'estiéu, un pau d'aigo pèr béure.</l>
+          <l><lb/>Dèu ajuda, coumo que sie,</l>
+          <l><lb/>Sei paire e maire nourricié.</l>
+          <l><lb/>léu crési bèn, qu'au bout dóu comte,</l>
+          <l><lb/>La bello invencien que vous conte</l>
+          <l><lb/>Merito que d'aplaudimen.</l>
+          <l><lb/>Car lei lapin, ni mai ni mens,</l>
+          <l><lb/>Fau bèn, coumo sie que s'arranjon.</l>
+          <l><lb/>En sauço o rousti, que se manjon!</l>
+          <l><lb/>En estènt pluma quàuquei fes,</l>
+          <l><lb/>Viéuran pu long-tèms qu'autrei-fes.</l>
+          <l><lb/>Dintre soun afecien avido,</l>
+          <l><lb/>L'ome li aloungara la vido.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <lg>
+          <l><lb/>Un espèci de tiro-pèu,</l>
+          <l><lb/>Que leis espelugo, peréu,</l>
+          <l><lb/>E, sènso fa mau, lei derrabo.</l>
+          <l><lb/>Pièi, quand la besougno s'acabo,</l>
+          <l><lb/>Sèmblon de pichoun chin toundu</l>
+          <l><lb/>Lei lapin: mai soun pas perdu.</l>
+          <l><lb/>Lou pèu, pau à pau, li regreio:</l>
+          <l><lb/>Lei replumon jusqu'eis aureio.</l>
+          <l><lb/>Quatre fes pèr an.soun pluma,</l>
+          <l><lb/>Senso anequeli l'estouma.</l>
+          <l><lb/>Antan, d'uno pèu se tiravo</l>
+          <l><lb/>Dous o tres sòu. La bello cavo!</l>
+          <l><lb/>Chaque lapin rènde, tout franc,</l>
+          <l><lb/>Vuei, pèr lou mens, dès franc pèr an!</l>
+          <l><lb/>Car lou kilo de pèu se vènde</l>
+          <l><lb/>Vint franc, e, bouen an, mal an, rènde</l>
+          <l><lb/>Chaque lapin mie kilo — comte clar!</l>
+        </lg>
+        <lg>
+          <l><lb/>La boueno salut! tambèn, car</l>
+          <l><lb/>La poupulacien dei bastido</l>
+          <l><lb/>Es de mai en mai apaurido.</l>
+          <l><lb/>Lou filossera bèu soun vin;</l>
+          <l><lb/>O jalon, un marrit matin,</l>
+          <l><lb/>Leis amendoun, e pièi lei touero</l>
+          <l><lb/>Rouigon lei fru mé sei machouero:</l>
+          <l><lb/>Lou mau dei trufo e dei magnan</l>
+          <l><lb/>Raubo lou meiour'dóu gasan.</l>
+          <l><lb/>E n'es pas proun de la naturo</l>
+          <l><lb/>Que coumbouris la pourriduro,</l>
+        </lg>
+        <pb facs="0003.xml"/>
+        <fw type="runningTitle"><lb/>Lon Prouvençau.</fw>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>«Plouras, dono e troubaire !»</head>
+        <p><lb/>coume dis l'amirablo cansoun dou Rei En Peire: la<lb/>gènto, la douço, la bono Madamo Ansèume Mathiéu es<lb/>morto! Avié trento-tres an. Pauro Zia! Bro estado<lb/>tout lou pantai e tout l'amour dóu Pelibre di Poutoun,<lb/>e i'avié ispira si cansoun li plus poulido, si vers li mai<lb/>esmóugu. Zia, conme Ansèume, èro de Castèu-nòu.<lb/>Lou Felibre l'amè d'enfanço : en trevant li mémi draio<lb/>au castèu di Papo, à la tourre de Lers, en rapugant li<lb/>mémi vigno à la Nerto, i Coumbo-masco, s'èron res-<lb/>countra e plaisegu.</p>
+        <p><lb/>Bravo'e risènto coume un enfant, agradivo coume<lb/>l'aubo, èro bèn digno d'èstre la coumpagno, l'amigo.<lb/>la fado dóu pouèto lou mai gracious, tèndre, achatourli<lb/>de la reneissenço prouvençalo. Tambèn Mathiéu, à soun<lb/>aflat enaurant e courau, escriguè iou libre de La Fa-<lb/>randoulo, un tresor de calignage e d'esperit, un cap-<lb/>d'obro de gràci e de delicadesso, e, souto li noum de<lb/>Leleto, Gatouno, Margai, Zino, Flour-de Rose, cantè<lb/>e recantè sa souleto adourado, Zia.</p>
+        <p><lb/>Mai Diéu, lou mèstre de tout, noun voulènt que<lb/>fugon coumplido lei felecita d'aquest mounde, pèr que<lb/>n'en belen un meiour, laisso la mort desroumpre à soun<lb/>grat li plus bèllis amour e li bonur li mai escrèt.</p>
+        <lg>
+          <l><lb/>Viroun mai vitoment e lèu, ne fan pus qu'uno .</l>
+          <l><lb/>Qu'es ma migo parivo à-n'un soulelh nouvèl.</l>
+        </lg>
+        <lg>
+          <l><lb/>O la glorio sereno, ó la casto divesso</l>
+          <l><lb/>Que se ten, davant ieu, dins soun enlusiment!</l>
+          <l><lb/>Me sentissi rajent de blouso embrisiguesso</l>
+          <l><lb/>E, fresinant d'amour, tampi (25) 's uels douçoment.</l>
+        </lg>
+        <ab><lb/>AgustO FOURES.</ab>
+        <list>
+          <item>(1) Couchant. - (2) Briho. - (3) Aussant. — (4) au mitan.— (5) Delicadamen.</item>
+        </list>
+        <p rend="labelled"><lb/>(6) Fino. — (7) Agouloupo. — (8) Calabrun. — (9) Garagai.<lb/>-(10) Aspre</p>
+        <p rend="structured"><lb/>(11) Granoulo. - (12) Se bagno. — (13) Babihant. -<lb/>(14) A cousta. — (15) Cacolas.</p>
+        <p rend="labelled"><lb/>(16) Lèio. — (17) Bisalon. — (18) Aubero. — (19) Mita<lb/>estavani. — (20) L'idèio.</p>
+        <p rend="labelled"><lb/>(2) Saboura. — (2) Cara — (2) Glsso. — (21) Tepo.</p>
+        <lg>
+          <l><lb/>Pièi, veiren de nouvèu mestié</l>
+          <l><lb/>Fa flòri dins touei lei quartié.</l>
+          <l><lb/>Lei lapin auran sei plumaire,</l>
+          <l><lb/>Coume leis ome an sei rasaire.</l>
+          <l><lb/>Ausèn crida, sero e matin:</l>
+          <l><lb/>—Pèu de lèbre, pèu de lapin!</l>
+          <l><lb/>Vuei, lei cridaire, pèr carriero,</l>
+          <l><lb/>Chanjant de gamo e de maniero,</l>
+          <l><lb/>S'esgousiharan à brama,</l>
+          <l><lb/>Peréu: — Qu vòu faire pluma</l>
+          <l><lb/>De lapin!.. E jamai de lèbre,</l>
+          <l><lb/>Faudrié troup courre... Aurien la febre.</l>
+          <l><lb/>Aussi, lei lapin soun countènt</l>
+          <l><lb/>De l'invencien d'aqueste tèms,</l>
+          <l><lb/>Fasènt courre la barrioto!</l>
+          <l><lb/>Lei lapin, que soun patrioto,</l>
+          <l><lb/>Dins dei gareno, tant que n'ia</l>
+          <l><lb/>Santaran seis aleluia.</l>
+        </lg>
+        <lg>
+          <l><lb/>Mai, pamens, quancarèn m'embouiot</l>
+          <l><lb/>Dirai, sènso cerca garrouio</l>
+          <l><lb/>Ei plumaire : uno fes pluma,</l>
+          <l><lb/>SLei lapin poudran s'enrauma!</l>
+          <l><lb/>Me respoundran, emé malici:</l>
+          <l><lb/>Li dounaren de regalissi.</l>
+          <l><lb/>Se fau que lei plumen l'ivèr</l>
+          <l><lb/>Li espragnaren lei courrènt d'èr.</l>
+          <l><lb/>Sabès que sian lapinofilo,</l>
+          <l><lb/>Coumpatissènt ei raço utilo.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Pauro femo! tu qu'amaves tant li flour e li canta-<lb/>disso, sies morto au tèms di cansoun e di flour. Dissate<lb/>passa. quand, lis iue bagna de lagremo, t'acoumpa-<lb/>gnavian au cementèri, li bousquet èron clafi de roso,<lb/>e sus touti li branco dis aubre sourne bresihavon lis</p>
+        <p><lb/>Douço Zia, sies morto! mai sèmpre vivènto, bello.<lb/>amado, restaras dins lou pouèmo de toun Felibre e de<lb/>toun ami. E toun souveni plantiéu e tèndre trevara<lb/>souvènt l'amo de nautri tóuti, qu'an pretouca, ta joui-<lb/>nesso, ta bounta, toun mau-sort!</p>
+        <ab><lb/>Teodor AUEANEL.</ab>
+        <p rend="styled"><lb/>(Tira de la Cigalo d'or.)</p>
+      </div>
+      <div type="article">
+        <head><lb/>Bibliougrafio.</head>
+        <figure type="decoration"/>
+        <p><lb/>Les Evéques d'Apt, leurs blasons et leurs<lb/>familles, par M. Jutes Terris. — Souto aquéu titre.<lb/>M. Terris vèn de publica un libre interessant que<lb/>trouvara sa plaço dins tóuti li biblioutèco prouvençalo.<lb/>L'autour a vougu escriéure ni l'istòri de la vilo d'At,<lb/><lb/>ni meme l'istòri de sis evesque. Soun obro es un travai<lb/>de genealougio mai que touto autro causo.</p>
+        <p><lb/>Après uno introuducioun ounte trato la questioun<lb/>de la nouminacioun dis evesque dins l'age mejan e<lb/>aquelo di titre de prince en Prouvènço, M. Terris<lb/>douno la listo dis evesque d'At dempièi sant Auspice,<lb/>an 97 de J.-C. enjusqu'à Mgr Eon de Cely, en 1778.<lb/>En dessonto dóu noum de chascun s'atrovon sis arma-<lb/>rié, d'entre-signe sus sa famino e ço que l'on saup de<lb/>principau sus sa vido</p>
+        <p><lb/>L'impressioun d'aquéu libre es mognifico e lis arma-<lb/>rié fan ounour à soun gravaire, M. Vabre.</p>
+        <p><lb/>M. Jùli Terris, qu'es d'uno famiho de savènt e d'ar-<lb/>tisto, vèn de faire aqui un bèu travai. Pensan pas que<lb/>s'arrèste en camin e coumtan bèn que nous doune quau-<lb/><lb/>que jour uno istòri coumplèto de la vilo d'At : a proun<lb/>estudia lis encartamen d'aquéu pais pèr la faire mies<lb/>que degun, e se saup que sara impoussible d'escriéure<lb/>uno bono istòri generalo de Prouvènço tant qu'aure<lb/>pas vint o trento mounougrafio counscienciouso di<lb/>principali vilo e di principali famiho de noste pais.</p>
+        <lg>
+          <l><lb/>Coume lei lapin rendran bèn,</l>
+          <l><lb/>Nautre faren tout pèr soun bèn!</l>
+          <l><lb/>Un escrupule dins ièu nèisse.</l>
+          <l><lb/>Es que pourran se recounèisse</l>
+          <l><lb/>Lei lapin qu'auran desavia?</l>
+          <l><lb/>Semblaran tóutei estravia,</l>
+          <l><lb/>E lei doulèntei creaturo</l>
+          <l><lb/>Deis afecien de la naturo</l>
+          <l><lb/>Sentiran plus leis estrambord.</l>
+          <l><lb/>Coume se lagnaran abord!</l>
+          <l><lb/>Ome, fremo, enfant, paire, maire,</l>
+          <l><lb/>Fraire, souerre, nebout, pecaire</l>
+          <l><lb/>Calignaire e caligneiris,</l>
+          <l><lb/>Plumassa coumo de perdris</l>
+          <l><lb/>Lèsto à couire emé de lentiho,</l>
+          <l><lb/>Sanbran plus destria sei famiho,</l>
+          <l><lb/>O, dins aquélei tristei jour,</l>
+          <l><lb/>Veiran treboula seis amour!</l>
+          <l><lb/>Que mescladis! que treboulèri!</l>
+          <l><lb/>Lei lapin segur vendran lèri.</l>
+          <l><lb/>— Qu'acò vous lève pas lou souem.</l>
+          <l><lb/>En quaucarèn malur es bouen.</l>
+          <l><lb/>Dins tout li a lou pèr e lou contro.</l>
+          <l><lb/>Veirés coumo acò se rescontro.</l>
+          <l><lb/>Co que móu vouesto umanita</l>
+          <l><lb/>Troubara soun utilita.</l>
+          <l><lb/>Lei lapin, véuse de peluro,</l>
+          <l><lb/>Faran pas tròup boueno figuro.</l>
+        </lg>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Necroulougio.</head>
+        <p><lb/>La musico prouvençalo a pièi troup de malur, vaquito<lb/>un parèu d'an, emé la mouert de Girard lou Faren,<lb/>dóu Candri de Mala-mouert, de Pourcin de-z-Ais, e<lb/>àutreis adré toucaire que fasié gau d'ausi ; viro mai de<lb/>la siéuno, e tourna-mai uno nouvello grand pèrdo:<lb/>Marius Bressoun, l'abile fasèire de galoubet-tambou-<lb/>rin. ̀-z-Ais. es mouert dissato. 30 de Jun, dins sei</p>
+        <p><lb/>Bro un artisto, pèr la fabricacien de l'estrumen<lb/>prouvençau, coumo se n'es gaire vist, e que sara foueço<lb/>dificile de remplaça ; noun se pòu dire soun gàubl à<lb/>tourneja aquélei fleitet, e coumo èro soncitous de la<lb/>perfecien de soun obro. Bèn qu'en d'autreis endré<lb/>s'óucupon d'acò faire, de touto la Prouvènço e de<lb/>Paris li demandavon de galoubet. Quant de marchand<lb/>de musico avien renouncia eis estrumen que lei Pari-<lb/>sen li fournissien, - sibleto qu'avien pamai noueste</p>
+        <p><lb/>Etudes historiques sur la ville de Flo-<lb/>rensac, par M. Frédérie Donnadieu. — Lou felibre<lb/>Dounadiéu vèn de faire poulidamen estampa (encò de<lb/>Jouaust, à Paris) unei quaranto pajo istoarico, escri-<lb/>cho, li a deja quauqueis an, pèr soun paire, l'ancian<lb/> maire de Beziés. A mesuro qu'avanças dins la leituro<lb/>d'aquéu troues interessant de l'istòri loucalo, vous li<lb/>sentès que mai estaca, e noun poudès leissa lou li-<lb/>brihoun, un còup dubert, que quouro arribas au bout.<lb/>Pamens, s'agis que d'un recantoun de l'encountrado<lb/>miejournalo, mai vous passo souto leis uei de recit ver-<lb/>tadié, e avés aqui touto fisanço.</p>
+        <p><lb/>Tambèn, se pou qu'aplaudi à l'óumàgi pious dou fiéu<lb/>pèr la memòri dou paire. en dounant sis Estûdi istour;<lb/>sus Flourensac, e sarié de souveta que chasque endré<lb/>de la «pichoto patrio, » cade vilàgi e vilajoun aguèsson<lb/>Sèn lèu ansin sa mounougrafio : l'istòri generalo n'en<lb/>sarié que mai en lus, s'à l'eisèmple dei Dounadiéu des-<lb/>touscavon, souto la póusso deis archiéu o dins lei ma-<lb/>nuscri dei biblioutèco, tant d'acien ignourado, tant<lb/>d'atour óublida. A nouesteis escrivan de lei fa re-</p>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Dins aquelo revoulucien.</l>
+          <l><lb/>Coume, au counsèu de revisien,</l>
+          <l><lb/>Lei couscrit tria pèr lou servici,</l>
+          <l><lb/>Lei lapin estènt nus, lou vici,</l>
+          <l><lb/>La mautoto se faran plu.</l>
+          <l><lb/>Aro, li vesèn que de blu,</l>
+          <l><lb/>Quand voulèn se paga l'estreno,</l>
+          <l><lb/>De quauque lapin de gareno.</l>
+          <l><lb/>Souto lou matalas dei pèu,</l>
+          <l><lb/>Poudèn pas maneja s'es bèu,</l>
+          <l><lb/>E souvènt lou mandan au diable!</l>
+          <l><lb/>Mai vuei, en li chaspant lou rable,</l>
+          <l><lb/>Veiren lèu s'es maigre o s'es gras,</l>
+          <l><lb/>E saren plus dins l'embarras.</l>
+          <l><lb/>Recourtaren tout l'avantàgi</l>
+          <l><lb/>Que resurtara dou plumàgi;</l>
+          <l><lb/>E chacun poudra dire, enfin,</l>
+          <l><lb/>Fan bèn de pluma lei lapin !</l>
+          <l><lb/>Bèsti de pèu, contro coustumo,</l>
+          <l><lb/>Devendran de bèsti de plumo!</l>
+        </lg>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>(Legi à l'Acadèmi dei sciènci, agriculturo, ort e bèllei-</l>
+          <l><lb/>letro d'Ais, dins la sesiho publico dou 5 de Juliet.)</l>
+        </lg>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>Lou Prouvençau.</fw>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Pichòti Biougrafio.</head>
+        <head><lb/>GIRAUD AYMERIC</head>
+        <p><lb/>Naseu ̀ Manosco dins li premiéris annado dou siècle<lb/>quatorgen, Giraud Aymeric venguè, de bono ouro,<lb/>s'establi à Marsiho coume avoucat e coume capelan.</p>
+        <p><lb/>D'aquéu tèms, lis avoucat se partissien en tres clas-<lb/>so: i'avié d'abord li simple bachelié, pièi li licencia,<lb/>enfin, li dóutour ; lis un l'èron dins lou dre civil, lis<lb/>autre dins lou dre canoun, e quàuquis-un dins l'un e<lb/>l'autre dre, in utroque jure. Un ancian estatut dou<lb/>pople de Marsiho pourtavo que li capelan noun pou-<lb/>drien pleideja que pèr éli-meme o pèr sei glèiso ; mai<lb/>parèis qu'aquesto lèi fuguè pau à pau messo de caire<lb/>e que forço capelan finiguèron pèr pleideja libramen<lb/>dins tóuti lis afaire.</p>
+        <p><lb/>Adounc Girand Aymeric èro capelan, e, de mai, un<lb/>dis avoucat li plus flame de l'epoco. Ome d'estùdi e de<lb/>sabé, se counsacrè au service de sa patrio adóntivo, e<lb/>si counciéutadin l'ounourèron di cargo municipalo e lou<lb/>carguèron dis afaire de la coumuno mai de trento an<lb/>à-de-rèng. En 1339, fuguè nouma un di tres mantenèire<lb/>di privilege de Marsiho; en 1357 e 4364, fuguè chausi<lb/>pèr lio-tènènt di juge dou palois; en 1361, lou pren-<lb/>guèron coume arbitre dins uno countestacioun que'<lb/>s'èro móugudo entre l'espitau dóu Sant-Esperit e la<lb/>femo de Guihèn Vivaud ; en 1365, lou carguèron d'ei-<lb/>samina uno demando dóu prevot de la catedralo; en<lb/>1361, 1364 e 1365, lou mandèren encò dou papo pèr<lb/>d'afaire qu'interessavon majamen la ciéuta.</p>
+        <p><lb/>Erian au tèms que la rèino Jano restavo à Naple,<lb/>leissant i senescau de Prouvènço lou gouvèr de noste<lb/>pais ablasiga pèr la guerro e pèr l'anarchio ; li Marsi-<lb/>hés se rouinavon pèr resta fidèu à la rèino; mai, à la<lb/><lb/>fin-finalo, estent las di sacrifice que falié faire de-longo,<lb/>Nou counsèu generau de Marsiho, counsiderant que. sènso<lb/>èstre tengudo en rèn e soulamen pèr gràci especialo, la<lb/>vilo avié despendu de soumo counsiderablo, e qu'èro<lb/>l'ouro que la rèino se defendeguèsse emé soun argènt,<lb/>prenguè, lou 6 d'Abriéu 1368, uno deliberacioun pèr<lb/>manda vers la rèino dons deputa que sarien carga de<lb/>ie faire li doulouirènço e li prontestacioun de la ciéuta,<lb/>e, sesiho tenènt, designè, pèr redegi aquéli douloni-<lb/>rènço e proutestacioun, noste' capelan-avoucat Giraud<lb/>Aymerie emé tres autris avoucat de l'endré, Guihèn de<lb/>Mountouliéu, Jaque de Quinciaco e Antone <lb/>timbre claret que ço qu'avèn soun acent sourne, -<lb/>pèr s'aprouvesi encò dou tournejaire cacalian!</p>
+        <p><lb/>De mai, Marius Bressoun avié un biais tout siéu<lb/>pèr la preporacien dei pèu de tambourin: tambèn,<lb/>mandavo à Marsiho e proun luen aquel article de sa<lb/>boutigo, article que, pèr alesti ansin, d'ûnei dison<lb/>meme qu'avié un « secrèt » l'artisto afeciouna. E pièi<lb/>mai, ço qu'èro pas un secrèt, es l'aciéunamen que<lb/>dounavo en tout l'estrumen, e coumo èron escrincela,<lb/>sus lou boues de nouguié artistamen travaia, lei fes-<lb/>toun e lei branco de lausié e d'óulivié fasent l'ourns-<lb/>men dóu tambourin.</p>
+        <p><lb/>Es que lou paure mouert avié tant de goust pèr soun<lb/>art, tant de paciènci e tant de counsciènci. éu lou des-<lb/>cendènt dei Sambue e dei Michèu, aquélei fomous<lb/>galoubetaire qu'an acoumença uno reputacien mai que<lb/>secalàri ! Mai vuei la traito mouert vèn treboula tròup<lb/>lèu. ai las! aquéu poulit pres-fa..... — Lou fasèire<lb/>Bressoun éro l'einat d'un fraire musician peréu, e.<lb/>se noun countunié l'obro renoumado de soun oustan,<lb/>la leissara, pensan bèn, en de bonénei man, tant<lb/>pèr la memòri de l'artisto engaubia que lei tam¬<lb/>bourinaire an perdu que pèr amour de la vièio e bello<lb/>musiqueto dóu Pais.</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>AT. - Avèn deja parla di festo que la vilo d'At dèu<lb/>celebra à l'acoumençanço de Setèmbre, pèr lou cou-<lb/>rounamen de Santo Ano.</p>
+        <p><lb/>Lou coumita d'ourganisacioun a agu la bono ideio<lb/>de darbi à-n-aquelo óucasioun un councours de poué-<lb/>sio prouvençalo. N'en veici lou prougramo:</p>
+        <p><lb/>Dous tèmo soun proupausa i councourrènt:<lb/></p>
+        <p rend="labelled"><lb/>1^o Uno pèço de vers sus la vilo d'At o sus un sujèt<lb/>tira de soun istòri.</p>
+        <p><lb/>Joio, uno flour: segound pres, uno medsio vermeialo,<lb/>ouferto pèr la Soucieta di Lengo Roumano; tresen pres,<lb/>dos medaio de brounze, ouferto pèr la memo soncieta.</p>
+        <p rend="labelled"><lb/>2o Uno pèço de vers sus Santo Ano.</p>
+        <p rend="labelled"><lb/>Per aquéu tèmo, li dono souleto podon councourre.</p>
+        <p><lb/>Joio, uno flour ; segound pres, dos medaio argentalo,<lb/>óuferto, l'ano, pèr l'ateneu de Fourcauquié, l'autro.<lb/>pèr lou coumita d'At.</p>
+        <p><lb/>Per l'un coume pèr l'autre di dous tèmo, touti li<lb/>dialèite de la lengo d'O souh amés. Li pèço dèvon estre<lb/>escricho emé l'ourtougràfi felibrenco.</p>
+        <p><lb/>Saran mandado avans lou 15 d'Avoust à M. Enri<lb/>Legier de Mesteyme, avoucat en At.</p>
+        <p><lb/>Li pres saran decerni dins uno sesiho soulenno que<lb/>se tendra lou dimenche 9 de Setèmbre.</p>
+        <p><lb/>Sus la demando dóu coumita, lou sendi de Prouvènço<lb/>vèn de prene aquesto decisioun:</p>
+        <p><lb/>Article 1^e. — Lou councours de pouěsio prouven-<lb/>çalo qu'aura lio en At, au mes de Setèmbre 1877, e<lb/>que lou coumita di festo de Santo Ano n'a fa fa con-<lb/>nèisse li coundicioun dins un prougramo despausa au<lb/>secretariat de la Mantenènço de Prouvènço, es declara</p>
+        <p><lb/>Article 2^4. — La jurado se coumpausara de MM. de<lb/>Berlue-Perussis, Tavan e de Tourtouloun, felibre ma-<lb/>jourau; de MM. Frizet, Girard, Legier de Mesteyme e<lb/>Verdot, felibre mantenèire.</p>
+        <p><lb/>Article 3^. — La jursdo s'acampara en Arle lou<lb/>dimenche 26 d'Avoust 1877.</p>
+        <p rend="labelled"><lb/>Article 4. — Lou secretàri de la Mantonènço de<lb/>Prouvènço es carga de l'eisecucioun d'aquesto deci-<lb/>sioun, que sara legido pèr lou presidènt de la jurado<lb/>avans de durbi li Jo Flourau.</p>
+        <p><lb/>Fa àz-Ais, lou 25 de Jun 1877.</p>
+        <ab><lb/>Lou send de Provcinço,</ab>
+        <p rend="styled"><lb/>Lou Secretari de la Mantenenço,</p>
+        <p rend="dateline"><lb/>C CRESTIAN DE VILONOVO.</p>
+        <p><lb/>Lou councours d'At sara dounc lou premié que re-<lb/>cebra lou titre de Jo Flourau de Mantenènço e si joio<lb/>coumtaran pèr li dre au titre de Mèstre en Gai Sabé.</p>
+        <p rend="labelled"><lb/>MARSIHO.— Lon Tron de l'er, que parèis à Mar¬<lb/>siho dempièi lou mes de Janvié, emplegavo jusqu'aro<lb/>à pau près l'ourtougràfi felibrenco. S'atrouvavo bèn<lb/>dins si colono quauqui mescladisso de francés e quau-<lb/>qui formo que rememouriavon trop l'anciano escolo<lb/>marsiheso. Mai falié acusa pu-lèu dins sa redacioun<lb/>uno couneissènço insufisènto de la lengo que la pre-<lb/>tencioun de courregi l'obro de Mistral. Aro tout acò 's<lb/>chanja. Lou Tron de l'er a chanja de redacioun e<lb/>d'ourtougràfi, e dins soun darrié numerò lis aou, lis<lb/>cou, lis oou s'espoumpissien à bèl eime. Lou Tron de<lb/>P'er es doune plus un journau prouvençau, mai un<lb/>journau «patoues. » soulamen, sènso de Gelu, nimai</p>
+        <p rend="labelled"><lb/>— Li journau de la loucalita anouncion qu'es ques-<lb/>tioun d'auboura uno estatuo au chivalié Roze, aquel<lb/>ntrepide conse de 1720 que se curbiguè de glòri, à<lb/>cousta de l'evesque Belzunce, pèr lou devouamen e<lb/>l'erouisme que moustrè à n-aquelo epoco terriblo de</p>
+        <p><lb/>Lou Prouvençau pou qu'aplaudi di dos man àn-a-<lb/>quéu bon proujèt; car es l'ami de noste pople, e, amor<lb/>d'acò, es l'ami peréu d'aquéli que travaion au reabili-<lb/>men e à l'enantimen di glòri poupulàri.</p>
+        <p><lb/>Apounden qu'avèn vist emé plesi que, pèr uno bono<lb/>fes, la disgraciouso poulitico es estado messo de caire<lb/>dins uno obro que l'arregardo pas. La coumpousicioun<lb/>dou Coumita carga de reçaupre li souscricioun lou dis<lb/>claramen, e de-segur degun poudra se n'en plagne.<lb/>Remarcan, sus aquelo listo, au mitan di persouno li<lb/>mai counsiderado de la vilo de Marsiho, lou premié<lb/>prudome di patroun pescadou.</p>
+        <p rend="labelled"><lb/>BEZIÉS. — Vèn de parèisse la segoundo livresoun<lb/>dou Diciounari dis idiomo rouman, de M. Gabriel<lb/>Azais, aquéu libre saberu que Lou Prouvençau a deja<lb/>presenta à si leitour.</p>
+        <p><lb/>Aquelo nouvello partido de l'obro de noste venera<lb/>counfraire vai dóu mitan de la letro B enjusqu'au mi-</p>
+        <p rend="labelled"><lb/>NICO.—Sus lou prougramo d'un councours dubert<lb/>pèr la Soucieta di letro, scienci e art dis Aup-Mari-<lb/>time. relevan uno medaio de vermei, decernido au<lb/>meiour estudi floulougi sus lis idiomo parla dins<lb/>V'anciano coumtat de Nico, o ben au travai lou mai<lb/>coumplet sus lou passa e lou present de la lengo</p>
+        <p><lb/>Li pres saran douna en sesiho soulènno de la sou-<lb/>cieta, au mes de Mars 1878.</p>
+        <p><lb/>Li councourrènt, que déurran óusserva li coundi-<lb/>cioun aconstumado pèr l'epigràfie la biheto cachetado<lb/>an de tèms enjusqu'au 15 de Janvié que vén.</p>
+        <p><lb/>Li manuscrit saran manda à M. lou secretàri de la</p>
+        <p><lb/>Aquelo memo annado, lou papo dounè la prevauta<lb/>de Glandevès à Giraud A ymeric, que countunié pamens<lb/>d'abita Marsiho : tres an plus tard, en 1374, noste pre-<lb/>vot fuguè nouma grand-vicàri de Mounsen Guihèn de<lb/>la Voute, evesque d'aquesto vilo. Adounc Giraud Ay-<lb/>meric se capitè en meme tèms, avoucat. prevot de<lb/>Glandevès e grand-vicàri de l'evesque de Marsiho.</p>
+        <p><lb/>Tout lou tèms de sa vido, Aymerie avié rendu de<lb/>service i Marsihés, e vouguè n'i'en rèndre encaró après<lb/>sa mort. Lou 21 d'Outobre 1372, faguè soun testamen<lb/>e leissè tout soun patrimòni à l'espitau de l'Anounciado.<lb/>que n'en èro lou foundatour : dounè soun bèn i paure.<lb/>Es encaro ço que li grand ciéutadin an de miéus à</p>
+        <ab><lb/>UN FELIBRE MAJOCRAU.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>eoro pastres pbbkalo pèr ANFOS GIBERT, uebest de Pinteer,<lb/>Emé l'ajudo de Manius BOURRELLY, Felibre Majourau,<lb/>SE VENDRA, AU PROUFIE D'UNO BOUENO OBRO:<lb/>A Rousset, encò de M. Michel, capitàni d'artiharié</ab>
+        <ab type="head"><lb/>Souto Prèsso:</ab>
+        <ab type="head"><lb/>JAN DE LA VALADO</ab>
+        <ab type="head"><lb/>Recuei de Pouesio mesclado de Proso</ab>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>VITOUR BOURRELLY</ab>
+        <p rend="styled"><lb/>Vici-Sendi de la Mantenènço de Prouvènço.</p>
+        <p rend="styled"><lb/>Voulume in-8º, de 304 pajo.<lb/>Per lei Souscritour (avans que pareisse lou libre):<lb/>2 fr. 50 c.. e 3 fr. pèr la posto.</p>
+        <lg>
+          <l><lb/>A-2-Ais, encò de Mno Remondet-Aubin, editour;</l>
+          <l><lb/>En Avignoun, à la librarié J. Roumanille ;</l>
+          <l><lb/>A Marsiho, encò de Marius Bourrelly, balouard de</l>
+        </lg>
+        <figure type="decoration"/>
+        <p rend="dateline"><lb/>Lou gerènt : Martin Bouscarle.</p>
+        <note>
+          <p rend="styled"><lb/>Empremarié véuso Remondet-Aubin, cous Mirabèu, 53, à 2-Ais.</p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>
