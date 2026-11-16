@@ -1,0 +1,544 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Sounnâ</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k895126f</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Sounnâ : jhornal des pésans saintonjhais en véritab'lle écritouère dau patois de la Saintonjhe : paraît le dimanche</title>
+          <publisher>[s.n.] (Saint-Jean-d'Angély)</publisher>
+          <date when="1903-05-31">1903</date>
+          <idno type="ARK">bpt6k895126f</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k895126f</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="poit-1241">
+          <idno type="langue">poit1241</idno>
+          <idno type="script">latn</idno>
+          <name>Poitevin-Saintongeais</name>
+        </language>
+        <language ident="stan-1290">
+          <idno type="langue">stan1290</idno>
+          <idno type="script">latn</idno>
+          <name>Français</name>
+        </language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:lang="poit-1241">
+        <pb facs="0001.xml"/>
+        <figure>
+          <p><lb/>Cale, cale, mon sounnâ,<lb/>y bouèrons dau vin nouviâ.</p>
+          <p><lb/>Les veugnes poussant, les bois calant,<lb/>Les veugnes poussant, les bois calant.</p>
+          <head><lb/>LES JHENS DE LA SAINTONJHE</head>
+        </figure>
+        <fw type="numbering">Dimanche 31 Mai 1903.</fw>
+        <fw type="numbering">1ro Année. — No 2.</fw>
+        <p rend="heading"><lb/>Parait Le Dimanche<lb/>2 SOUS Le Limérot</p>
+        <quote><lb/>Rédaction, Administration et Annonces. 23. rue Gambetta, SAINT-JEAN-D'ANGELY (Charente-Inférieure)</quote>
+        <figure/>
+        <ab><lb/>— Aregârdez dont facteur, ma veille coumme a se dépêche bein vite à regârder thiette lette; coumme si a quenneussez ce qu'o la d'écrit dessus ?<lb/>— Vouéyions veille penance, laisse dont thiette lette tranquille pusse tu sai pas lire ?<lb/>  ieu sot s't'avait rein dit p'rrsounne zou arait su.<lb/>vieu, a regardait ce qu’a veint de<lb/>faire m'en vas éte benaize, asteure<lb/>dans thiés thiulottes.</ab>
+        <pb facs="0002.xml"/>
+        <fw type="runningTitle"><lb/>Le Sounnâ</fw>
+      </div>
+      <div type="article" xml:lang="poit-1241">
+        <p><lb/>Vous pensez que thiau vieu, était<lb/>pas bein a soun aise ; l'ève passait<lb/>prr' ses jhambières ; o riganait tout<lb/>le long de ses jhambes, et o chèyait<lb/>dans ses bots.</p>
+        <p><lb/>La veille, vouèyant que soun<lb/>affaire avait pas réussit, s’en allit<lb/>trouver le farmâcien ; a se mettit en<lb/>colère, et a li dissit qui l'était in<lb/>voleur que son lavement, était pas<lb/>bon et velait reun du tout.</p>
+        <p><lb/>Le farmâcien dissit ; coumment<lb/>thieu ! avaut bein fait ce que jhe<lb/>vous avais dit de faire ?</p>
+        <p><lb/>Vouet mocieu, qu'o dissit la veille,<lb/>coumme vous me zou aviez dit ;<lb/>jh'ai fait trois pas et jhe vous répond<lb/>qu'o l'était trois belles éjhambées ;<lb/>jh'ai dont envouèyé thiau lavement,<lb/>met y la pas été jhusqu'arrive, y la<lb/>tout chet dans le fond des thiulottes<lb/>de mon vieu.</p>
+        <p><lb/>Le farmâcien regârdit la veille,<lb/>et comprr'nit reun dans tout ce qu'a<lb/>li disait; c’est qu'o l'avait de qué</p>
+        <p><lb/>Figurez, vous que thielle paure<lb/>veille dépeux thièques an-nées, avait<lb/>l'entendouère difficile et o fait qu'a<lb/>l'avait pas bein saisit ; le farmâcien<lb/>li avait dit : vous dounnerez le lave-<lb/>ment en trois fois, et a l'avait com-<lb/>pris qu'o fellait le dounné a trois pas.</p>
+        <p><lb/>Ham ! o lé bein embètant de pas<lb/>entende quiair vouet?</p>
+        <ab><lb/>RACINE DEPOPION.</ab>
+      </div>
+      <div type="article" xml:lang="poit-1241">
+        <head><lb/>in mauvais lavement</head>
+        <p><lb/>O y a le vieu Mijhottâ, dépeu<lb/>thièque temps, qu'est pas bein por-<lb/>tant ; quand y là manjhé, o z'y reste<lb/>su le péssà ; si beun qu'o faurait in<lb/>poussoure, prr' zou faire couler.</p>
+        <p><lb/>Mes bons émits, o lé in paur vieu<lb/>à cause de soun ouvrajhe qui marche<lb/>tout le temps ; malade, au pas ma-<lb/>lade, y regárde pas thieu ; met de<lb/>thiau cot, o veint de l'arrêter prr'<lb/>tout de bon, et drr'nièrement y veint</p>
+        <p><lb/>Vouèlà in paure vieu, qu’avait<lb/>jhamais été malade de sa vie ; vous<lb/>Sarlez, qui s’enneut su thiau lit,<lb/>o lé reun de zou dire ? Y l'huche,<lb/>y taurne, y virre, y se roule su sa<lb/>vrrr' : coumme o fait ine poule<lb/>quand à se saque, dans son nid prr'<lb/>ponde soun œu.</p>
+        <p><lb/>Et savaut que sa paure veille<lb/>s'embète ; vouèyiant qu'o l'allait pas<lb/>meu a se rendit, l'aute jhour chez<lb/>le farmâcien et, a li esp'lliquit, que<lb/>son vieu souffrait en tel endreit.</p>
+        <p><lb/>Le farmâcien li dissit, que son vieu<lb/>avait de l'anamite, et de l'échauffure<lb/>dans l'intérieur dau vente.</p>
+        <p><lb/>Et o fait dont, qui y apprétit des<lb/>aspèces d'armèdes, prr' le garir et<lb/>dissit a la veille : vouèlà ma bounne<lb/>famme, o faut que voute vieu prenne<lb/>des fortifiants, et qui sègue un ré-<lb/>jhime ; asteure prr' soun échauffure,<lb/>vouèlà ine fiole vous mettrez ce qu'o<lb/>la d'dans, dans in lite d'ève, amprès<lb/>vous mettrez l'ève dans ine seringue<lb/>et vous li dounnerez le lavement en</p>
+        <p><lb/>La veille prr'nit dont les armèdes<lb/>et, s’en n’allit, quand a l'arrivit à la<lb/>maison le vieu s’était levé et, était au<lb/>long dau feu entrein de se chauffer ;<lb/>diet beun ? qu’atot dit le farmâcien<lb/>qui demandit aussitout.</p>
+        <p><lb/>Ah ! mon paure vieu qu’o dissit<lb/>la veille, y l'a dit qu’o fellait que tu<lb/>prr'nisses des fortifications, et que<lb/>tu seguisses in réjhiment ; asteure<lb/>jh'ai in lavement a te dounner.</p>
+        <p><lb/>A mettit dont ce qu'o y avait dans<lb/>la fiole, dans in lite d'ève, zou vidit<lb/>Sans la seringue, et dissit au vieu<lb/>allons déthiulottes-t-en ? m’en vas<lb/>te dounner le lavement.</p>
+        <p><lb/>Le vieu se déthiulottit, et taurnit<lb/>le dàre à sa famme; la veille s'ap-<lb/>peurchit dont dau viau et contit trois<lb/>pus a partir de li ; et à se trouvit<lb/>bein au moins a cinq mètes de soun<lb/>houmme ; a l'ajhustit l'affaire, visit<lb/>beun et, poussit l'installation, o fasit<lb/>aussitout fiac ! psss !! et o partit,<lb/>met o l'arrivit point jhusqu'arrive,<lb/>et o l'attrapit pas le point de mire et<lb/>tout le lavement chèyit dans le fond<lb/>des thiulottes dau vieu.</p>
+        <p><lb/>Ah ! veille estâtue ! qu'o dissit le</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article" xml:lang="poit-1241">
+        <head><lb/>La magnère de faire l'amour<lb/>a ine feuiye</head>
+        <p><lb/>Jhe creit, que si jh'ai bounne<lb/>mémouère, et si jhe me trompe l'af-<lb/>faire que jhe vas vous esp'lliquer ;<lb/>c'est passé devant mé le ser dau<lb/>mardi gras.</p>
+        <p><lb/>Lodois et mé nous décidirons, a la<lb/>neut chette d’aller veiller, dans n'in<lb/>villajhe a n'in coub'lle de petit kilo-<lb/>mètes de chez nous.</p>
+        <p><lb/>Après soupé prr'nirons châquin<lb/>in bâton ; et in grous cigare dans la<lb/>goule, qui bréchait fi d'ajhasse, on<lb/>n’arait dit ine acomolive.</p>
+        <p><lb/>A bougre o nous buffait in vent<lb/>prr' les oreilles, qu'était aussi freit !<lb/>quand z'y pense a m’en sabbant</p>
+        <p><lb/>Aariver chez maite Beurluron;<lb/>y nous attendions point a ine serrée<lb/>pareille, a l'étiant au moins ine thin-<lb/>zaine de fammes, et de feuiyes pas<lb/>mariées, tout autour d'ine tab'lle,<lb/>et trois au quate gas qu’empéchiant<lb/>que le feu qu’rrvisse. Lodois se<lb/>foutit dans n'in coin et mé dret en<lb/>face la cramallière.</p>
+        <p><lb/>O y avait yère de temps que<lb/>jh'étions en repous, qu’o venit ine<lb/>troupe de mardi gras. Oh ! qu’o<lb/>Sissit, Jhacques Morviâ jhe lé quen-<lb/><lb/>neux trr'tout ; mé bounne jhen en<lb/>quenneussai pas in, et Lodois pas</p>
+        <p><lb/>Quand y furant parti ; voueyions<lb/>qu'o dissit maîtresse Beurlurounne<lb/>a Lodois qu'atot de nouviâ la bas<lb/>dans voute pays ? trr'jhout pareille<lb/>qui li répounnit: — Mariau pas<lb/>Muserolle beintout avec sa pouéde-</p>
+        <p><lb/>Tout le monde se foutit rire et<lb/>mé bounne jhen qui quenneussai<lb/>reun, me mettit a rire métout au<lb/>branle de la musique.</p>
+        <p><lb/>Oh ! si paraît qu'o lé raté, qu'o<lb/>dissit Lodois et, o m’a été dit q’uo<lb/>lé moncieu Morvià qui y a copé<lb/>l'harbe sous le pied.</p>
+        <p><lb/>Ah ! maheur yau paure chétit<lb/>cheun de Morviâ, n’en badit ine<lb/>goule coumme in crapiâ qu’arait<lb/>chet a bas, de la auteur dau quio¬<lb/>cher de chez nous ; y velit beun se<lb/>défende met y l'allit pas loin; pensez<lb/>dont ! jh’étions peut ête beun ine<lb/>vingtaine, a prés li, et y se serait<lb/>quasit fâché.</p>
+        <p><lb/>Quand y vouèyirant thieu allons<lb/>qu'o dissit, la Beurlurounne chantez<lb/>dont thièqu'in de vous.</p>
+        <p><lb/>Y me mettit dont a chanter deux<lb/>au troué chansons ; asteure qui dis-<lb/>sirant o lé au tour de Morviâ; met<lb/>y velit pas débader, et y dissit qui<lb/>savait reun.</p>
+        <p><lb/>Ah! dam d'amprès ce qui ma été<lb/>dit, o lé peut ête à chanter coumme<lb/>a faire l'amour. Vous peuvez creire<lb/>mes paures émits quand y va vouère<lb/>sa bounne émie, y demande trr'jhout<lb/>a son père, ce qu'o faura qui li dise,<lb/>quand y sera a couté d’elle. Mon<lb/>feuye qu'o dit le père Morvia parle li<lb/>souvent de ce jh'avons, a vouèra que<lb/>té riche et a t'aimera meu.</p>
+        <p><lb/>Et thiau paure chétit cheun acoute<lb/>son père ; ma bounne mademoiselle<lb/>qui li dit : ma mére a vingt quate<lb/>poules, quatorze eugnàs, quate grous<lb/>beus, trois belles vaches qui sont<lb/>d'ine biâtées ; sans comparaison a<lb/>sont presque aussi jholies que vous ;<lb/>jh’avons encore ine jhement, met<lb/>vous la quenneussez beun ? pusque<lb/>jhe vins vous vouère anneut avec</p>
+        <p><lb/>Créyiau pas qu'o peut faire piaisit<lb/>a ine jhène drolesse thieu ?</p>
+        <p rend="labelled"><lb/>— Vouèyions jhènes gas vous y<lb/>prr’nez vous de min-me vous tout?<lb/>Et vous autes les jhènes feuiyes<lb/>en seriau contente? Jhe creit non</p>
+        <ab><lb/>BRINDOUX MIA.<milestone unit="column" n="2"/><lb/>le pouèsson a morde, quand tout d'in<lb/>cot, le yèjhe s'enfoncit dans l'ève.<lb/></ab>
+        <figure/>
+        <pb facs="0003.xml"/>
+        <fw type="runningTitle"><lb/>Le Sounna</fw>
+      </div>
+      <div type="article" xml:lang="poit-1241">
+        <head><lb/>Chéti drole</head>
+        <p><lb/>O y a thiau méchant drole à<lb/>Birollà ; jhamais n'en n'est vu in si<lb/>méchant, y l'est chéti coumme la<lb/>galle ; y vau pas ine cheunèye, le<lb/>moins qu’o n'en n'èye de min-me<lb/>o lé que le meilleur.</p>
+        <p><lb/>Mardi d'rrnier sa mère l'envouèyit<lb/>chez le frontès se faire coper les<lb/>cheveux; et bein là o fellit qui<lb/>fasisse, encore des bêtises pusque<lb/>yau l'ardau-yâbe peu pas resté danse</p>
+        <p><lb/>Le frontès était a min-me a li<lb/>coper les cheveux, et yau sacré ar-<lb/>senit fasait que remué, et les cisâs<lb/>copiant point bein otout ? le frontès<lb/>dissit dont au drole : attend me m’en<lb/>vas trr'cher d'autes cisas ; et y s'en<lb/>n'allit ; le drole restit tout seul dans</p>
+        <p><lb/>Vous creyez, qui l'allait resté sans<lb/>boujher ah ! o y a point de danjher,<lb/>qu'étot qui fasit y prr'nit ine brousse<lb/>à tête que le dessus était outé ; les<lb/>crins paraissiant et, y piquit des<lb/>épingu'lles prr' les creux dans le</p>
+        <p><lb/>In petit moumment amprès le<lb/>frontès arrivit, et finissit de li coper<lb/>les cheveux, y prr'nit la brousse<lb/>prr' li passer su la tête oh ! non quo<lb/>dissit le drole me passait point thielle<lb/>brousse su la tête et y li passit point<lb/>pusqu’o faut li souffrit tout ce qui<lb/>veut et le drole s’en allit dont.</p>
+        <p><lb/>Presque aussitout o l'arrivit dau<lb/>monde prr' se faire râser et se faire<lb/>coper les cheveux ; le vieu Cofiná si<lb/>trouvait li otout, et jhustement y se<lb/>fasait copé les cheveux.</p>
+        <p><lb/>Quand le frontès éyit finit de li<lb/>coper, le vieu li dissit : passez me<lb/>dont thiette brousse, su la tête o<lb/>me fera chère la crasse.</p>
+        <p><lb/>Le frontès prr'nit la brousse et,<lb/>li passit d'in bon randon y vous<lb/>répond ? (c'est qui n'avant pas l'ha-<lb/>bitude d’aller châ petit) ; ah ! mal-<lb/>heur thieés épingu'lles li passirant<lb/>su son paure calá et, jhustement y<lb/>n’avait point jholiment de cheveux<lb/>o li fassit des rèzes sur la tête, on<lb/>n'arait dit qu'o l'avait été harssé; cré<lb/>bon sang ! le vieu se radeurssit ;<lb/>et si vite que le fonteuil chèvit et se<lb/>cassit ; y l'attripit le frontes, ah !<lb/>dame ! o lé vrai qui se mettit a le<lb/>bourriner vouet ?</p>
+        <p><lb/>Le monde qu’o y avait furant<lb/>forcé de les séparer ; y regardirant<lb/>la brousse et vouèyirant les épin-<lb/>gu'lles ; oh ! qu’o dissit le frontès,<lb/>o lé le drole a Birolla qu'à fait thiau<lb/>tour, o lé bein li pasqu'y la pas velut<lb/>que jhe li passe su la tête, et y la<lb/>fait thien tandis que jh'allais trr'cher<lb/>des cisâs. Ah ! vouet qu’o dissit<lb/>le vieu Cofina o lé thiau méchant<lb/>drole qu’a fait thieu et bein attendez<lb/>in petit qui le trouve? et y sortit</p>
+        <p><lb/>Jhustement le drole se promenait;<lb/>a coute dont là qu’o dissit le vieu<lb/>jh'ai ine coummission a te faire<lb/>faire, te dounnerai in sou ; le drole<lb/>venit dont ; ah ! vous parlez que le<lb/>vieu l'attrapit prr' les oreilles; y li<lb/>tirit si fort qui manquit li dessoude;<lb/>o t'apprenra a mette des épingu'lles<lb/>dans des brousses qu'o dissit le vieu.</p>
+        <p><lb/>Le drole s’en allit, en belant chez<lb/>li tout en ruminant qui se venjherait</p>
+        <p><lb/>Thièque temps amprès, le vieu<lb/>était a min-me a faire ine citarne,<lb/>prr' mette de l'ève ; y l'était déjhà<lb/>rendu pas mal bas, que le drole<lb/>passit, y s’appeurchit tout donce-<lb/>ment, tirit l'échalle a li, et se mettit<lb/>a garoché le vieu, a cot de piarre,<lb/>et se sauvit en riant de thiau cot.<lb/></p>
+        <p><lb/>Coumme thiau paure vieu restait<lb/>loin de toutes les autes demeurances,<lb/>o pâssit prr’sounne et, o se mettit<lb/>a mouiller trois jhours derrant ; si<lb/>beun qu'o montit in mète d’ève dans<lb/>la citarne, et le vieu restit tout thiau<lb/>temps dans thiau bâzissoure y l'avait<lb/>pas chaud et sèque y l'avait faim</p>
+        <p><lb/>Enfin o passit dau monde qui le<lb/>tirirant de thiau creu et le paure<lb/>vieu manquit en mourrit ; asteure<lb/>y lé su son lit et peut pas marcher.</p>
+        <p><lb/>Et vous crèyez ! que des droles<lb/>de min-mes sont pas terrib'lles si</p>
+        <ab><lb/>FEUILLE DELAPACE.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article" xml:lang="poit-1241">
+        <ab><milestone unit="column" n="1"/><lb/>Ma grande distracssion a mé o<lb/>l'est de prende ma ligne et d'aller su<lb/>les bords de thiette larjhe, et lonjhe<lb/>Boutounne ; et là jhe passe mon<lb/>dimanche agréab’llement.</ab>
+        <ab type="head"><lb/>En treu pofage de Pouessounanjhe</ab>
+        <figure type="decoration"/>
+        <p><lb/>Mes bons émits, jhe vous dérai<lb/>que le dimanche au ser ; quand jh'ai<lb/>éfeurmojhé ; mes bœux, mes gorets<lb/>et, que jh'ai jhancé ma cour, et<lb/>qu'amprés, jh'ai vétis mes thiulottes<lb/>propres ; et ma biouse de fil ; et que<lb/>jh'ai pris mes bots vrr'nit. Vous<lb/>creirez peut-ête, qui m’en vas a la<lb/>messe, non ! y vas même pas au<lb/>café, coumme o yan n’a toupiaint.</p>
+        <p><lb/>Si ihe prend reun, jhe court<lb/>trr'jhout pas les risques d'y manjher,<lb/>au de pardre mon argent ; au moins<lb/>que je fasse le châgne-dreit.</p>
+        <p><lb/>Jhe vous dérai dont qu'a thiette<lb/>saison ; la péche la pus facile à faire,<lb/>o lé la péche au brochet ; pasqu'a<lb/>thiés temps d'orajhe y malinant.</p>
+        <p><lb/>O fait dont, que dimanche drr'nier<lb/>y m’en fut a la fousse a goujhau<lb/>avec tous mes apparaux ; o y avait<lb/>déjhà in moument, que jh'espérais</p>
+        <p><lb/>Y me relevit bein vite, et jh'em-<lb/>pougnit ma ligne ; et jhe vouèyit in<lb/>p’tit brochetton pas bin grous (o n’en<lb/>Sellait a pus près, si coumme li prr<lb/>faire la live).<lb/></p>
+        <p><lb/>Met coumme y velit, le sortit de<lb/>l'ève o s’en n'élencit ine n'aute su li,<lb/>qui le mordit a la couette; y tirit<lb/>bein vite et les eyit tous deux, a ma<lb/>grande astupéfaction.</p>
+        <p><lb/>Tellement, thielle aventure m'avait<lb/>surprise y ne repéchit pus et, y me<lb/>rendit bein vite prr' zou raconter a</p>
+        <p><lb/>Met, velà que su le pont de la<lb/>Boutounne, y trouvit le vieu Bérrinâ,<lb/>qui regârdait courrit l'ève; jhe li<lb/>racontit dont, moun affaire apos-<lb/>trofiante, et jhe li dissit que m’en<lb/>doute, thiés aspèces de pouèssou-<lb/>nanjhes, deviant se manjher entre</p>
+        <p><lb/>Heum !!! qui me dissit, tu savais<lb/>dont pas mon paure faye, qu’o y<lb/>avait reun de pus voraces, que thiés<lb/>brochets ; et si jhe te disais : qu'in<lb/>cot jh’ai vu in brochet, d’ine demie<lb/>live, au trois quart de live qu’en n'a<lb/>manjhé in ; a bein sur, qui pesait<lb/>beun ine live et demie, deux lives ;<lb/>vouet! jhe zou est vu, de mes œils vu.</p>
+        <p><lb/>Ma fouet, d'amprès ce qui venais<lb/>de vouère, y n'ausit pas le démentit.</p>
+        <p><lb/>Mais créyaux quand min-me ;<lb/>qu'o fot dont bein creire, que thiés<lb/>sacrés pouèssounanjhes, sont dont<lb/>bein voraces.</p>
+        <ab><lb/>JIACQUES FARINOUX.</ab>
+        <figure type="decoration"/>
+        <p><lb/>Prr' l'instant le jhornaux fera<lb/>soun apparition tous les thinze<lb/>jhours ; su les prochains limérots o<lb/>y ara des chansons en patois et<lb/>jhe coumincerons beintout la pu-<lb/>bll'cation d'un nouviâ feuilleton en<lb/>patois saintongeais; a y ara de<lb/>qué rire vous en fout mon billet.</p>
+        <p><lb/>O lé thiau l’arsenit de Racine<lb/>Depopion qui va le faire, y l'est<lb/>entrein de le ruminer.</p>
+        <ab><lb/>JHEAN DÉSAJHION.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article" xml:lang="poit-1241">
+        <head><lb/>La Mérine à Nastasie</head>
+        <p><lb/>O lé jeudi d'rrnier, le jour de l'In-<lb/>sencion, que les pésans de Rouffiat et<lb/>de Saintes avant jhouer la Mérine à<lb/>Nastasie, à Saint-Jhean-d'Angélique,<lb/>sous le Marché aux harbes, aux pois,<lb/>aux pirons, aux eugnons, o l’était es-<lb/><lb/>tallé en théyâtre.</p>
+        <p><lb/>O y avait ine tralée de monde lá<lb/>d' dans! o l'était piein jusqu'a la</p>
+        <p><lb/>Et mé y seu arrivé en retard, avec<lb/>mes émits, Jhacques Farinoux, Félis-<lb/>que Thiuroure ; toutes les piaces étiant</p>
+        <pb facs="0004.xml"/>
+        <p><lb/>Y nous sont dont cruch' tollés su<lb/>ine pianche prr' meu vouère; et jhus-<lb/>tement nous étions bein assis su ine<lb/>pianche à f'rrmaghe et jhe sai pas<lb/>comment o se faisait quand y nous<lb/>nous ,sont en n'aller jh’ avais mon<lb/>fond de thiulotte qu' était piein de<lb/>f' rrmajhe, tout le dare en n'était b'rr-</p>
+        <p><lb/>Enfin jhe sont point fachés de noute<lb/>serrée pasque nous sont point fait de<lb/>mauvais sang ; jh' avons vu : Le Beur-<lb/>chut. Birolut, Cadet Bitouná, Nanette<lb/>Burelles, Nastasie, ine jholie drolesse<lb/>ma foi, Utroppe et les autres qu'avant<lb/>raballé leux bots; y l'avant t' rrtout</p>
+        <p><lb/>Met quand min-me jhe citerons<lb/>principalement Cadet Bitouna et Na-</p>
+        <p><lb/>Le monde peuvant aller zou vouère<lb/>la voure qu'o se j'houera o n'en veut</p>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>FABL'LE DE LA FONTAINE</ab>
+        <ab type="head"><lb/>Ine guerneuille qui vent ze faire aussi groussé</ab>
+        <lg>
+          <l><lb/>Ine guerneuille aparçut in bo</l>
+          <l><lb/>Elle, qu'était pas pus grousse en tout coumme</l>
+          <l><lb/>Enviouse, s'enf'lle, a prenre ine belle forme</l>
+          <l><lb/>Prr' égaler l'animau en grousseur ;</l>
+          <l><lb/>Disant : Regâdez bein ma sœur</l>
+          <l><lb/>Etot assez? disez-zou ; jhe det yète asteure?</l>
+          <l><lb/>Non. Regárdez o vinra petit à petit</l>
+          <l><lb/> hr</l>
+          <l><lb/>-</l>
+          <l><lb/>A s'étendit qu’a n’en peutit.</l>
+        </lg>
+        <lg>
+          <l><lb/>es en toutes aaisous,</l>
+          <l><lb/>borjhois velant de belles maisons,</l>
+          <l><lb/>Tout frr'luquet des domestiques.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article" xml:lang="poit-1241">
+        <head><lb/>Arcettes et Consèyes</head>
+        <p><lb/>O lé anneut, que jhe c'mince a vous<lb/>dounner thièques arcettes et consèyes;<lb/>et crèyez n’en ma veille aspérience<lb/>pasqu’o la 53 ans, que yai vu le jhour<lb/>le prr'mer cot; dieh beun vas dont</p>
+        <p rend="labelled"><lb/>Consèyes. — Ramassez le mé d'éthius<lb/>que vous peurrez ; si o vous rend pas<lb/>benaise, o m’étounnera beun, en tous<lb/>cas o vous fera pas de mau.</p>
+        <p rend="labelled"><lb/>Arcette. — Dans vous jhardrins.<lb/>vous avez beun des fumerolles m’en<lb/>doute? dieh beun si vous v’lez les faire<lb/>qu'rrver; o faut que vous v'rrsiez dans<lb/><lb/>leux nids, au beun dans leux creux,<lb/>trois au quate quiérées d'eau de sabon<lb/>bouillante, au beun dau purin d'vache</p>
+        <p rend="labelled"><lb/>Arcette. — Si vous avez otout des<lb/>punaises ; o lé in bétiaire qu'est point<lb/>endurant ; seguez moun arcette et vous<lb/>n'en serez débarrasser : Faire fonde<lb/>in gramme de suif blimé corp au zif<lb/>dans in lite d’ève bouillante ; injhecter<lb/>thiette médecine avec ine petite pisse<lb/>cannette, dans les endreits la voure</p>
+        <p><lb/>Prr' les chasser des bois de lits;<lb/>prenre de l'essence de Thérèse ben-<lb/>tine, zou éparer avec ine pieume d’oie<lb/>au de perot (o fait reun) o les fait</p>
+        <p rend="labelled"><lb/>Arcette.— Prr'outer au vin le gout<lb/>de chauvenit ; prenre prr' ine demie<lb/>barrique, 250 grammes de de mâr de<lb/>café nègre et, 15 grammes de poude<lb/>d'eris de Fiorence. Passer thiau mé-<lb/>lange prr' la bonde, et zou brasser a<lb/>mouille chemise de tous les coutés.<lb/>avec in bâton, amprès zou laisser re-<lb/>pouser; on peut bouère le vin cin au</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article" xml:lang="poit-1241">
+        <head><lb/>PETItE CORRESPONDANCE</head>
+        <p rend="labelled"><lb/>Brindoux Miá. — As-tu la chanson,<lb/>« Sous les Bambous » si tu l'as ? envouè me<lb/>la dont prr' vouère coumme o va la toun<lb/>et y la sounnerons au prochain limérot. Jhe<lb/>te serre les deigts bein cimo faut.</p>
+        <p rend="labelled"><lb/>Goulesèche. — Toun histouère passera<lb/>beintout au prochain limérot. Tout le monde<lb/>se portant t-y bein la bas? les gorets, le;<lb/>beus et les poules a peulaille sont-elles garit?<lb/>si a l'allant pas meux, y l'a qu'a faire bouillir<lb/>d'au poive n’en falre ine tizanne, et leux faire<lb/>bouère thieu ? o la reun de meilleur?<lb/></p>
+        <p rend="labelled"><lb/>Branche de Chågne. — Brr'doarrons<lb/>toun artic'lle au prochain limérot. Vous vous<lb/>foutez de thieu, vous ? pasque vous aviez pas<lb/>de trempine, a manjher l'aute jhour a thiau<lb/><lb/>baquet ? vous aviez d'aute chouse de meil-</p>
+        <p><lb/>Met fasez dont attention? sacré arsenits<lb/>dau yâbe! y n’aute cot a vouère quiair;<lb/>quand vous arez finit de vous penser ? et a<lb/>pas foute en densant, des cots de poings sa<lb/><lb/>les ceils au jhens que vous invitez.</p>
+        <p rend="styled"><lb/>Bise beun thiées drolesses en prr' mé.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article" xml:lang="poit-1241">
+        <p><lb/>Prr'le moument y avons pas<lb/>d’abonnement met thiellés là qui<lb/>veurrant des « Sounnà » n’en trou-<lb/>verrant chez té au bureau de</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article" xml:lang="stan-1290">
+        <head><lb/>Les Proverbes de Suin</head>
+        <p><lb/>Le premier jour de juin qui est la Saint<lb/>Pamphile, mais aussi la Saint Clair,<lb/>a paraft-il, une action sérieuse sur nos</p>
+        <lg>
+          <l><lb/>Au jour de Saint-Clair</l>
+          <l><lb/>Les navets et les poireaux</l>
+          <l><lb/>Pour légumes seront beaux.</l>
+        </lg>
+        <p><lb/>Et le deuxième jour, Sainte-Emilie,<lb/>influence nos vergers, car :</p>
+        <lg>
+          <l><lb/>ente-Emilie</l>
+          <l><lb/>Donne des fruits à la folle.</l>
+        </lg>
+        <p><lb/>En tous cas, puisse t-il faire bean le<lb/>3, car si nous en croyons le proverbe:</p>
+        <lg>
+          <l><lb/>Le teap qu'il fait le trois.</l>
+        </lg>
+        <p><lb/>Et pourtant, si nous croyone dure<lb/>fot content. En effet:</p>
+        <lg>
+          <l><lb/>ur joyeux.</l>
+        </lg>
+        <p><lb/>Il est vrai qu'on prétend que :</p>
+        <lg>
+          <l><lb/>Jamais pluie de printemps</l>
+          <l><lb/>N'a passé pour nn mauvais temps.</l>
+        </lg>
+        <p><lb/>J'ai lieu de penser qu'après les inon-<lb/>dations des dernières semaines, ce dicton<lb/>est plus menteur qu'un autre.</p>
+        <lg>
+          <l><lb/>Le jour de Saint-Boniface</l>
+          <l><lb/>Est bon quelque temps qu'il fasse.</l>
+        </lg>
+        <p><lb/>Pourquoi cela ? Je vous avoue que je<lb/>lignore, de même que je ne vois pas</p>
+        <lg>
+          <l><lb/>Cest au jour de Saint-Claude</l>
+          <l><lb/>Qu'il faut bénir sa gaude.</l>
+        </lg>
+        <p><lb/>Aussi aimerais-je mieux ce conseil<lb/>très clair et qu'on comprendra:</p>
+        <lg>
+          <l><lb/>Avant qu'il soit la Saint-Lié</l>
+          <l><lb/>Fant que ta vigne soit lée.</l>
+        </lg>
+        <p><lb/>Pour le 8. les dictons sont myriade!<lb/>C'est le doux et trop souvent humide<lb/><lb/>Saint-Médard. et s’il ne tarit pas lui-<lb/>même on ne tarit pas sur son compte !</p>
+        <p><lb/>Il y a aussi le proverbe si connu:</p>
+        <lg>
+          <l><lb/>S'il pleut le jour Saint-Médard</l>
+          <l><lb/>Il pleuvra quarante jours plus tard.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article"  xml:lang="poit-1241">
+        <head xml:lang="stan-1290"><lb/>VILLE DE SAINTES</head>
+        <head xml:lang="stan-1290"><lb/>Grande Représentation en Patois Saintongeais</head>
+        <head xml:lang="stan-1290"><lb/>donnée par la troupe dau Sounnà</head>
+        <head><lb/>LES DISPUTERIES</head>
+        <head><lb/>de Jhoset PETUCHON et Jhean BOUTINA</head>
+        <head><lb/>Coumédie en vrai patois de la Saintonjhe</head>
+        <head><lb/>Prr Racine Depopion</head>
+        <p rend="styled"><lb/>Thielle coumédie se passe dans les environs de<lb/>y</p>
+        <p rend="styled"><lb/><lb/>Nationnale. au ras de St-Thean-d'Anjhélique.</p>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>P'rrsounnajhes qu'o ya dans thielle<lb/>pièce et les pésans qui jhouant</ab>
+        <p rend="labelled"><lb/>Jhoset Petuchon : Y n'houmme qu'a<lb/><lb/>point de chance dans ses aflaires ; o va tout<lb/>le temps de travers, o lé ce qui fait qui l'est<lb/>souvent de mauvais pouél. - Racine Depopion.</p>
+        <p rend="labelled"><lb/>Jhean Boutina : Y n'avare so n-a t-in<lb/>tout ce qui fait o réussit sans qui boujhe;<lb/>in gas point d'arranghement ; o lé in chica-<lb/>neur. — Jhacques Parinoux,</p>
+        <p rend="labelled"><lb/>La Petuchoune : ine paure famme qui<lb/>s’eccupe de tout ; sa goule arrête pas ine<lb/>mitoite; losse vr tut le temp, a petuche</p>
+        <p rend="labelled"><lb/>Le père Bitauda : In paure vieu qu'ap¬<lb/>peurche de ses 90 ans ; y coummince a sentit<lb/>le chauvenit ; y va pas vite bounnejhen ; y va<lb/>pus que de branle. — Felisque Thiuroure.</p>
+        <p rend="labelled"><lb/>In Jhujhe de paix: Y n'houmme be<lb/>patient. — Peuille de Lapace.</p>
+        <list>
+          <item>In greffier: In fazeur de Boudines.</item>
+        </list>
+        <list>
+          <item>In facteur : Y n’houmme qui refuse point in cot à bouère: Lexandre Bobiat.</item>
+        </list>
+        <list>
+          <item>In voleur : Antoine Jhirof'Ule.</item>
+        </list>
+        <list>
+          <item>In Jhenderme : In Jhoueur de Pibole.</item>
+        </list>
+        <list>
+          <item>En garçon de salle : Piarre Lajhavelle.</item>
+        </list>
+      </div>
+      <div type="article" xml:lang="stan-1290">
+        <head><lb/>ESP'LLIQUE DES 4 TABIAUX</head>
+        <ab><lb/>chez Jhoset Petuchon</ab>
+        <ab><lb/>La lette dau Jhujhe de Paix<lb/>Devant le Jujhe de Paix<lb/>A l'aubarihe de la Saintonihe</ab>
+        <p rend="styled"><lb/>brillant orchestre de dix musiciens.</p>
+        <p><lb/>Jh'engajhons le pub'llique à aller<lb/>vouère thielle arprésentation o la de<lb/>qué rire tout dau long a pas tenit</p>
+        <pb facs="0005.xml"/>
+        <fw type="runningTitle"><lb/>Le Sounna</fw>
+        <figure>
+          <head><lb/>CHASSE INTERDITE</head>
+          <p><lb/>LE CADE.— POus surs bien que la<lb/>chasse est interdite à cette époque?</p>
+          <p><lb/>LE RRACONNIEN — Que voutes-pous?.<lb/>on m'a demandé trente perdreaux, dix<lb/>lièrres et trois faisans pour le banquet<lb/><lb/>que l'on offre au ministre.</p>
+        </figure>
+        <figure>
+          <p><lb/>La soctété contre l'abus du tabac de-<lb/><lb/><lb/>d'honneur au jeune Fumaillon, Oné-<lb/>sime qui n'a pasattendu l'âge d'homme<lb/>pour prendre l'engagement de ne plus<lb/>umer.<lb/></p>
+        </figure>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>UN APOTRE PRÉCOCE</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure>
+          <head><lb/>LA RENTRÉE D'YVETTE GUIBERT</head>
+          <p><lb/>plusieurs journaux annoncent la<lb/>rentréede Mme Yrette Guilbert. Notre<lb/>chanteuse nationate qui autrefois chan-<lb/>tait aver des gants noirs et avec son<lb/>nes, dansera désormais en utuisant les<lb/>mêmes quatttés.</p>
+        </figure>
+        <figure>
+          <head><lb/>TRISTE!.. TRISTE!I..</head>
+          <p><lb/>quelle époque oicons-nous, set.<lb/><lb/>jneur!. et quets tristes spectactes nous<lb/>sont offerts!.. Les journaux n'annon-<lb/>cent ls pas maintenant que le gouver-<lb/>nement oa exiger pour maintenir le<lb/>concordat que la mute du pape vienne<lb/>courir le Grand-Prtæ.. Cest indigne..</p>
+        </figure>
+        <figure type="decoration"/>
+      </div>
+      <div type="article" xml:lang="stan-1290">
+        <figure type="decoration"/>
+        <figure>
+          <head><lb/> CHATIMENT</head>
+          <p><lb/>LA BONNE. — Monsieur. j'ai laissé<lb/>tomber votre pendute de suxe, elle est<lb/>brisée en milte morceaux!..</p>
+          <p><lb/>MatheureuseIII..<lb/>M. CHETINOT.<lb/>Puisse-t- elte marquer bientôt pour vous<lb/>rheure du châtiment!</p>
+        </figure>
+        <figure type="decoration"/>
+        <figure>
+          <p><lb/>CRITIQUES D'ART</p>
+          <p><lb/>PREMIEK CRITIQUE. — Tas vu au Sa¬<lb/>lon le portrait exposé par Rapinet.</p>
+          <p><lb/>SECOND CRITIQUE. —Oui. C'est le por-<lb/>trait de sa femme. Il aréussi à fatre<lb/>une fameuse croùte arec sa mie.<lb/></p>
+        </figure>
+        <figure type="decoration"/>
+        <figure>
+          <head><lb/>LES DERNIERS BOERS</head>
+          <p><lb/>-I pavait qu'edouard VII se fait<lb/>fort de voir le catme définitivement<lb/>rétabli dans le cœur de tous les Boers!</p>
+          <p><lb/>-Ils ont toujours eu la prétention<lb/>ridicule de mourir de vietllesse dans<lb/>sa famiue</p>
+        </figure>
+        <figure>
+          <p><lb/>Phou que f'al rapporte de Chine?</p>
+          <p><lb/>L" MATHUIN. —J'aime mieux votre<lb/><lb/>uniforme de tieutenant de vaisseau.11.<lb/>viaud mieux pour vous.</p>
+        </figure>
+        <figure type="decoration"/>
+        <figure>
+          <head><lb/>CONSEILS DE REVISION</head>
+          <p><lb/>LE MINISTE(dictant).— « Les conseils<lb/>« de recision auront soin de verser<lb/>« dans les musiques régimentaires,<lb/>« tous les hommes pourcus de cors.»</p>
+        </figure>
+        <figure type="decoration"/>
+        <figure>
+          <head><lb/>CEUX QUI PARTENT</head>
+          <p><lb/>Lx VisrruUn. — Je m'en vats au bord<lb/>de la mer</p>
+          <p><lb/>L'aM. — Vous possédes un chalet je<lb/>crois</p>
+          <p><lb/>ater de necesste<lb/>chatet de nécessiteux.</p>
+        </figure>
+        <pb facs="0006.xml"/>
+      </div>
+      <div type="article" xml:lang="stan-1290">
+        <p><lb/>Une vieille femme de 61 ans. balayeuse<lb/>au service de la ville, à Béthume, a été<lb/>frappée d'un coup de baionnette par un<lb/>soldat du 73º de ligne, de faction à la<lb/>caserne Montmorency. La pauvre femme<lb/>allait réveiller un ouvrier mineur, comme<lb/>elle en avait l'habitude, l'orsqu'un jeune<lb/><lb/>soldat qui montait la garde pour la pre-<lb/>mière fois, lui plongea sa balonnette dans</p>
+        <p><lb/>A Grenoble, un jeune homme de 17 ans.<lb/>Jules Fournier, apprenti charcutier, ayant<lb/>eu la fâcheuse inspiration d'allumer sa<lb/>cigarette à un filélectrique, avait grimpé,<lb/>à une colonne métallique, mais à peine,<lb/>eût il touché le fil qu'il tomba foudroyé.</p>
+        <p><lb/>Une jenne fille de 19 ans. Mile Isabelle<lb/>Amond, dont les parents habitent la<lb/>commune de Couzon, au Mont-Dore,<lb/>près Lyon, se sentant indisposée subite-<lb/>ment, monta dans sa chambre, et croyant<lb/>avaler une potion, absorba du sublimé<lb/>corrosif. Malgré tous les soins, elle expira<lb/>une heure après dans d'horribles souf-</p>
+        <figure type="decoration"/>
+        <p><lb/>que a visité le salon des Artistes fran-<lb/>çais : il était accompagné de Mme Loubet,<lb/>de M. Abel Combarieu et du général<lb/>Dubois. Le Président a été reçu par<lb/>MM.William Bouguereau et Carolus Du-</p>
+        <figure type="decoration"/>
+        <p><lb/>Une rentière a été égorgée, à Dijon.<lb/>rue Pelletier de-Chambure ; on a retrouvé<lb/>son corps dans la cuísine. La bonne de la<lb/>victime, fortement soupçonnée a été mise<lb/></p>
+        <figure type="decoration"/>
+        <p><lb/>fana. Une sentinelle a éte blessee.</p>
+        <p><lb/>La fédération nationale des ouvriers et<lb/>ouvrières des poudreries et salpêtres de<lb/>France vient, par une circulaire, d'aviser<lb/>chacune des sections adhérentes que le<lb/>congrès annuel sera tenu à la Bourse<lb/>centrale du travail de Paris, les 28. 29 et</p>
+        <p><lb/>Le nommé Jules Tachard, âgée de 30<lb/>ans, demeurant à la Garenne-Colombe,<lb/>au cours d'une violente discussion.</p>
+        <p><lb/>lant à la carrière de Lurbe, a été trouvé<lb/>assassiné sur le bord de la route. Le par-<lb/>quet d'Oloron accompagné d'un médecin<lb/>lasst ns'est pras sporé arrlté leux. L'as-</p>
+        <figure type="decoration"/>
+        <p><lb/>Un ouvrier électricien, nommé Louis<lb/>Plantard, âgé de vingt-sept ans, travail-<lb/>lait, vendredi matin, à l'usine du Métro-</p>
+        <p><lb/>Par mégarde, il porta les mains sur un<lb/>appareil dit « transformateur ». dans le-<lb/>Le malheureux tomba foudroméie volts.</p>
+        <p><lb/>On vient de découvrir sur la frontière,<lb/>au col de Pal, près du village de Saint-<lb/>Etienne-Tinée, le cadavre bien conservé<lb/>d'un ouvrier italien du nom de Dominico<lb/>Bonnaudo. Ce malheureux fut surpris,<lb/>le 14 avril, par une tourmente de neige</p>
+        <figure type="decoration"/>
+        <p><lb/>Dans plusieurs réunions tenues au<lb/>Cap et notamment à Grahamstone, des</p>
+        <ab><milestone unit="column" n="1"/><lb/><lb/>—<lb/><lb/>[</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article" xml:lang="stan-1290">
+        <head><lb/>ACCIDENT DE MANCEUVRES</head>
+        <figure type="decoration"/>
+        <p><lb/>Pendant que le cuirassé Suffren pro-<lb/>cédait à des expériences de machines, les<lb/>batteries de l'artillerie coloniale faisaient<lb/>du tir avec les grosses pièces des forts du<lb/><lb/>Goulet. A un moment donné un obus<lb/>tomba à une centaine de mètres à peine<lb/>du cuirassé, causant à bord une vive<lb/>émotion. L'amiral Melchior, major géné-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article" xml:lang="stan-1290">
+        <p><lb/>il y a quelques temps, le ministre de la<lb/>guerre vient de décider qu'une compa-<lb/>gnie de l'un des régiments d'infanterie<lb/>appelés à participer, le 14 juillet prochain<lb/>à la revue de Longchamps, portera le<lb/>nouvel uniforme qu'on se propose d'im-</p>
+        <p><lb/>Les troupiers porteront un pantalon et<lb/>une vareuse en molleton gris bleuté et<lb/>un chapeau dit boër de même nuance, en<lb/>feutre mon et à larges bords relevés d'un<lb/>côté par une cocarde. Tous les bontons<lb/>de cet uniforme seront bronzés, de façon,</p>
+        <p><lb/>On sait que la commission spéciale<lb/>présidée par le général Gillain préconise<lb/>l'adoption de cette tenue comme corres-<lb/>pondant mieux que les uniformes ac-<lb/>tuels aux exigences de l'hygiène et aux</p>
+        <p><lb/>L'accueil que lui fera le public parisien<lb/>dira si elle satisfait également à nos<lb/>goûts traditionnels en matière d'esthé-<lb/>tique militaire. L'armée ayant un besoin<lb/>croissant d'engagés volontaires, cette der¬<lb/>pière conditi lne e presue aussi indis-<lb/>résolutions de non-confiance dans le<lb/>gouvernement du Cap ont été votées à</p>
+        <p><lb/>un mouvement ascensionnel. En une se-<lb/>maine, la terrible épidémie vient de faire<lb/>rément, ceini des années précédentes.</p>
+        <figure type="decoration"/>
+        <p><lb/>Baifols, petite localité du département.<lb/>Tandis que le secrétaire de la mairie tra-<lb/>vaillait dans son bureau, une partie du<lb/>plafond s'effondra sur l'employé, qui</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article" xml:lang="stan-1290">
+        <p><lb/>che, 3. rue Méchin, a lfle Saint-Denie, à</p>
+        <p><lb/>Sur la ronte qui relie les deux pouts<lb/>qu'on répare actuellement, existe un ter-<lb/>rain vague. Il est la propriété de M. Ju-<lb/>les Mazurier, fabricant de bicyclettes.<lb/>dont les ateliers sont voisins, et qui, en<lb/>outre de cette industrie, exploite un res-</p>
+        <p><lb/>Sur ce terrain sont établies deux ma-<lb/>chines à vapeur destinées à fournir l'air<lb/>comprimé nécessaire aux ouvriers tra-<lb/>vaillant daus les caissons métalliques<lb/>servant à l'édification des piles des nou-</p>
+        <p><lb/>A côté a été creusé un puits profond de</p>
+        <p><lb/>Le puits — et c'est là la canse de l'ac-<lb/>cident — a été creusé juste sur l'empla-<lb/>cement occupé par une dérivation de la<lb/>Seine, qui a été comblée avec toute sorte<lb/>de détritus, notamment avec les déchets<lb/>de produits chimiques provenant des</p>
+        <p><lb/>geait continuellement des gaz déleteres<lb/>répandant parfois dans le voisinage des</p>
+        <p><lb/>Dimanche, les machines étaient en<lb/>mouvement quand tout à coup le méca-<lb/>nicien Louis Berge, agé de trente-cinq<lb/>ans, demeurant 25, rue de Chemin-de-<lb/>Fer, à Saint-Denis s’aperçut qu'une des<lb/>pompes ne fonctionnait pas ; il dressa<lb/>dans le puits une échelle dite de perro-<lb/>quet mais, au moment où il se penchait<lb/>vers l'orifice et mettait les pieds sur les<lb/>premiers échelons, on le vit tout à coup<lb/>étendre les bras et disparaître ; le mal-<lb/>heureux était déjà au fond du puits<lb/>quand on accourut pour lui porter se-</p>
+        <p><lb/>Un ouvrier. Emile Dewite. Agé de qua-<lb/>rante ans, demeurant à Villeneuve-la-<lb/>Garenne, voulut descendre aussitôt, mais<lb/>il en fut empêché par le comptable de la<lb/>maison, M. Crochel, qui, redoutant les<lb/>sultes funestes des émanations sortant<lb/>du puits, lui dit d’attendre les cordes<lb/>que l'on était allé chercher et à l'aide</p>
+        <p><lb/>Malheureusement. Dewite ne voulut<lb/>pas se rendre à ces prudents conseils, il<lb/>descendit quand même dans le puits et<lb/>presque aussitôt tombait au fond, à côté</p>
+        <p><lb/>Sur ces entrefaites arrivait sur les lieux<lb/>de l'accident, M. Jules Mazurier, Âgé de<lb/>quarante cinq ans. propriétaire du ter-<lb/>rain et directeur des établissements dont,</p>
+        <p><lb/>Il descendait à son tour dans le puits<lb/>fatal, espérant pouvoir arriver à temps<lb/>pour prodiguer des soins aux victimes,</p>
+        <p><lb/>Quelques secondes après, asphyxié à<lb/>son tour, il tomba au fond dans l'eau où<lb/>inanimés baignaient déjà Berge er</p>
+        <p><lb/>Une épouvantable panique se produi-<lb/>sit alors parmi les assistants. Enfin le<lb/>courageux comptable, M. Crochel, attaché<lb/>par une corde à la ceinture, tenta à son<lb/>tour la terrible descente, il était ramené<lb/>au jour uue minute après, râlant et aur<lb/></p>
+        <p><lb/>Les pompiers de Saint-Denis. M. Coste.<lb/>commissaire de police, et de nombreux<lb/>agents arrivèrent bientôt sur le théâtre</p>
+        <p><lb/>Le lieutenant de pompiers Sengla vou-<lb/>lut à son tour tenter l'expérience fatale;<lb/>attaché également par une corde, il fut<lb/>descendu dans l’excavation : mais, de<lb/><lb/>même que M. Crochel, il était remonté<lb/>quelques secondes après respirant à peine.</p>
+        <p><lb/>Finalement, on dut avoir recours à un<lb/>scaphandrier, M. Paul Parent, qui, re-<lb/>couvert de son appareil, remonta en trois<lb/><lb/>fols les cadavres de Jules Mazurier, Emile</p>
+        <p><lb/>générales ; les trois victimes étaient pères<lb/>de plusieurs enfants ; on devine le déses-</p>
+        <p><lb/>Pendant qu'on remontait les cadavres,<lb/>M. le docteur Goret. de l'ile Saint-Denis,<lb/>prodiguait des soins à M. Crochel et au<lb/>lieutenant Sangla, qui très difficilement<lb/>ont pu être ranimés et sont dans un état</p>
+        <p><lb/>été transportés au domicile des victeme</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article" xml:lang="stan-1290">
+        <p><lb/>Le Sénat et la Chambre des dépu-<lb/>tés ont procédé, mardi, par voie de<lb/>tirage au sort, au renouvellement</p>
+        <p><lb/>Nos sénateurs sont répartis : MM.<lb/>Calvet et Garnier, dans le 4e bureau ;<lb/>M. Combes, dans le 60; M. Rouvier,</p>
+        <pb facs="0007.xml"/>
+        <p rend="labelled"><lb/>M. Charruyer a déposé sur le<lb/>buieau de la Chambre une pétition<lb/>d'agents d'assurances domicilés à</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>M. Valteau, capitaine au long<lb/>cours, a subi avec succès et sans<lb/>concurrent l'examen pour l'obten¬<lb/>tion du troisième emploi d’aspirant-<lb/>pilote à la nouvelle station de La</p>
+        <figure type="decoration"/>
+        <p><lb/>Nous apprenons les flançailles de<lb/>Mlle Hélène de Védrines, fille de<lb/>M. Etienne de Védrines, ancien offi-<lb/>cier de Cavalerie, à Nérac, avec<lb/>M. André Meschinet de Richemont,<lb/><lb/>fils du sympathique archiviste de</p>
+        <figure type="decoration"/>
+        <p><lb/>M. le lieutenant Fromenty, de<lb/>l'infanterie coloniale, précédem-<lb/>ment désigné pour servir dans<lb/>l'Inde, est désigné pour servir en</p>
+        <figure type="decoration"/>
+        <p><lb/>Un crédit de 31,550 francs pro-<lb/>venant : 21,000 francs du gouverne-<lb/>ment de la République, et 10,350<lb/><lb/>francs des allocations départemen-<lb/>tales, a été mis à la disposition du<lb/>préfet de la Charente-Inférieure pour<lb/>être distribué, en 1903, en primes<lb/>aux juments poulinières du dépar-</p>
+        <p><lb/>Le concours aura lieu à St-Jean-<lb/>d'Angély, le jeudi 13 août, à une<lb/>heure, au Champ de foire.</p>
+        <p><lb/>Les primes sont ainsi réparties :<lb/>Saint-Jean-d’Angély. — Fonds de<lb/>l'Etat : 1 prime de 300 fr. ; 3 primes<lb/>de 200 fr. ; 7 primes de 100 fr.<lb/>Fonds du département, primes de<lb/>conservation : 2 primes de 200 fr.<lb/>Primes ordinaires : 3 primes de</p>
+        <figure type="decoration"/>
+        <p><lb/>M. Chassin, juge de paix à Saint-<lb/>Jean-d’Angély, et M. Martineau, juge<lb/>de paix à Loulay, ont prêté serment<lb/>devant le tribunal civil à l'audience</p>
+        <p><lb/>Ce matin, mercredi, sont arrivés<lb/>à St-Jean-d’Angély les artilleurs de<lb/>forteresse, dont nous avions annoncé<lb/>le passage ces jours derniers, les<lb/>militaires sont logés chez l’habitant,<lb/>dans le faubourg d'Aunis et ses</p>
+        <p><lb/>Aulnay, samedi 27 juin, 7h. 1/2.</p>
+        <p rend="labelled"><lb/>Tonnay-Boutonne, lundi 29 juin,</p>
+        <list>
+          <item>Matha, lundi 6 juillet, 7 h. 1/2.</item>
+        </list>
+        <list>
+          <item>Saint-Savinien, mardi 7 juillet,</item>
+        </list>
+        <p rend="structured"><lb/>St-Milaire, jeudi 9 juillet, 7 h. 1/2.<lb/>Loulay, samedi 11 juillet, 7 h. 1/2.</p>
+        <p rend="labelled"><lb/>St-Jean-d'Angély (garçons), jeudi</p>
+        <p rend="labelled"><lb/>St-Jean-d'Angély (filles), vendredi</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>AVIS. — Les jeunes gens qui dési-<lb/>rent se présenter aux sections normales<lb/>préparatoires au prefessorat commercial<lb/><lb/>et au professorat industriel dans les éco-<lb/>les pratiques de commerce et d'industrie<lb/><lb/>sont invités à se faire inscrire à la<lb/>Préfecture (2^e division) jusqu'au 1^e juin</p>
+        <p><lb/>Le programme est déposé à la Préfec-<lb/>ture où les candidats pourront en prendre<lb/>connaissanceetserenseigner sur les pièces<lb/>à produire et les conditions à remplir<lb/>pour être admis a prendre part à ce</p>
+        <p><lb/>Dans moins de huit jours, la<lb/>police de Saintes a ordonné l'inter-<lb/>nement à Lafond, de sept personnes<lb/>atteintes d’aliénation mentale.</p>
+        <p><lb/>M. Ganthier, marchand de chevaux à<lb/>Rochefort, dressait un cheval attelé à une<lb/>voiture, route de Martrou, au moment où<lb/>passait une troupe de soldats. L'animal.<lb/>effrayé, s'emballa et, les guides s'étant<lb/>rompues, il alla jusqu'a la gare des mar-</p>
+        <p><lb/>Au cours de ce trajet, M. Gauthier et<lb/>ses deux garçons furent projetés à terre.<lb/>M. Gauthier ne s’est fait aucun mal ; le<lb/>garçon Auguste a reçu de légères égrati-<lb/>gnures, et l'autre garçon, Camille Bou¬<lb/>geois, 23 ans, originaire de Saintes, a été<lb/>grièvement contusionné et, après avoir<lb/>reçu les premiers soins de M. le docteur<lb/>Marianelti. il a été transporté à l'hôpita/</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>Heureux changement — Nogent-<lb/>le-Playe (Eure et-Loir), le 3 août 1902.<lb/>Atteint de constipation opiniâtre. j'avais<lb/>des étourdissements, des maux de reins.<lb/>et j'étais arrivé à un tel état de falblesse<lb/>que je ne pouvals travailler. C'est alors<lb/>que j'ai pris des bonnes Pilules Suisses.<lb/>J'en suis ravi. Je n'ai plus de malaises ;<lb/>Je suis solide, alerte, et je fais la mois-<lb/>son comme un jeune homme. SAUrrOs</p>
+        <ab type="head"><lb/>Chemins de fer de l'Etat</ab>
+        <p rend="styled"><lb/>Billets d'aller et retour individuels et<lb/>de famille pour les stations thermales</p>
+        <p><lb/>Pendant toute l'année, toutes les gares<lb/>du réseau de l'Etat délivrent des billets<lb/>d'aller et retour (individuels ou de famille)<lb/>de 1%o, 2e et 3^e classe, à destination des<lb/>gares du réseau du Midi desservant les<lb/>stations thermales ou balnéaires des<lb/>Pyrénées (Amélie-les-Bains, Arcachon,<lb/>Biarriez. Cauterets, Luchon, Salies-de-</p>
+        <p><lb/>Billets A. R. individuels : Réduction<lb/>de 250|0 en 1re classe et de 200|0 en 2° et<lb/>3° classe sur les prix du tarif général,<lb/>d'après l'itinéraire effectivement suivi.</p>
+        <p rend="labelled"><lb/>Billets. A. R. de famitle : Réduction<lb/>sur les prix du tarif général variant de<lb/>200|0 à 400|0 suivant le nombre des<lb/>membres de la famille ; le trajet d'aller et<lb/><lb/>retour ne doit d'aillleurs pas être infé-</p>
+        <p><lb/>Les enfants de 3 à 7 ans paient demi-</p>
+        <p><lb/>Validité des deux sortes de billets,<lb/>33 jours, non compris les jours de départ<lb/>et d’arrivée. Faculté de prolongation de<lb/>deux fois 30 joura, moyennant supplé-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article" xml:lang="stan-1290">
+        <head><lb/>Chemins de Fer de l'Etat</head>
+        <p rend="styled"><lb/>Mise en marche exceptionnelle des trains<lb/>rapides n 98 et 99 entre Paris-Mont-<lb/>parnasse et Niort à l'occasion des</p>
+        <p><lb/>La Direction des Chemins de fer de<lb/>"Etat a l'honneur d’informer le public,<lb/>qu'à l'occasion des fêtes de la Pentecôte<lb/>le train rapide no 98. partant de Niort à<lb/>midi 44, sera mis exceptionnellement en<lb/><lb/>circulation entre Niort et Paris-Mont-</p>
+        <p><lb/>Le train rapide n^o 99 partant de Paris-<lb/>Montparnasse à 10 h. 15 matin sera éga-<lb/>lement mis en circulation, exception-<lb/>Nilt, ent, medr pa.Motparnasse et</p>
+      </div>
+      <div type="article" xml:lang="stan-1290">
+        <head><lb/>Chemin de fer de l'Etat</head>
+        <p rend="styled"><lb/>Billets d'aller et retour délivrès à Voc-<lb/>casion des /etes de l'Ascension et de la</p>
+        <p><lb/>A l'occasion des fêtes de l'Ascension et<lb/>de la Pentecôte, la durée de validité des<lb/>billets ordinaires d'aller et retour déli-<lb/>vrés au départ des gares, stations et<lb/>haltes du réseau de l'Etat, sera, par ap-<lb/>plication des tarifs G. V. u° 2, 9 et 102,<lb/>prolongée comme il est indiqué cí-après:<lb/></p>
+        <p rend="labelled"><lb/>4. — Billets à destination du réseau</p>
+        <p><lb/>Ascension: Billets délivrés le 18 mai.</p>
+        <p><lb/>Pentecóte: Billets délivrés le 28 mai,</p>
+        <p rend="labelled"><lb/>B. — Billets à destination des réseaux<lb/>d'Orléans, de l'Ouest et du Midi:</p>
+        <p><lb/>Ascension: Billets délivrés le 19 mai,</p>
+        <p><lb/>Pentecote: Billets delivrés le 29 mai,</p>
+        <p rend="labelled"><lb/>C. — Billets à destination de la ligne<lb/>de Ligré-Rivtère à Richelieu, des lignes<lb/>des chemins de fer départementaux<lb/>(réseaux d’Indre-et-Loire et des Cha-<lb/>rentes), de la ligne de Mamers à Saint-<lb/>Calais, des lignes de l'Anjon, des tram-<lb/>ways de la Vendée et des tramways<lb/>de la Charente-Inférieure, de la ligue<lb/>du Blayais et de celle du Médoc.</p>
+        <p><lb/>Ascensjon: Bl 27 délivrés le 18 mai,</p>
+        <p><lb/>Penteste ' livrés le 28 mai</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article" xml:lang="stan-1290">
+        <head><lb/>REVUE DU DROIT AGRICOLE</head>
+        <p rend="styled"><lb/>Lois, Décrets. Arretes ministériels<lb/>Circulaires. les Arres et sugements</p>
+        <ab type="head"><lb/>Par Albéric CAHUEt</ab>
+        <p rend="styled"><lb/>ednctour en e</p>
+        <p rend="styled"><lb/>Sous le patronage et avec la collaboration de:</p>
+        <p><lb/>MM. BOUVIER, professeur à la Faculté de<lb/>Lyon.: DIDIRR. L profes, à la Faculté de<lb/>Bordeaux.; FAGR, René, bâtonnier de<lb/>Fordre des avocats à la Cour de Limoges;<lb/>LEVILLAIN, C., professeur à la Faculté de<lb/>Bordeaux : TaIBAULT. Fabien, docteur en<lb/>droit, chef du contentieux des donanes</p>
+        <ab type="head"><lb/>La Revue parait tous les mois</ab>
+        <p><lb/>Abonnement annuel : France et Algé-<lb/>rie, 8 francs : Etranger. 10 francs. Le</p>
+        <p rend="styled"><lb/>Les abonnements partent du 15 janvier de<lb/>chaque année et se paient d'avance.</p>
+        <ab><lb/>9, rue du Départ, Paris (XIv*)</ab>
+        <p><lb/>On s'abonne à la librairie A. RoσÉ, 2,<lb/>rue de l'Hôtel de Ville, St-Jean-d'Angély.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article" xml:lang="stan-1290">
+        <p><lb/>sur le prix de vos Toilettes. si vous voulez<lb/>faire usage du journal de Modes</p>
+        <p><lb/>Modestie et Tranquillité reflètent de</p>
+        <p><lb/>6 francs par an ou 25 cent. le numéro<lb/>avec un Supplément de Modes, une<lb/>Planche de Patrons ou un Panorama</p>
+        <p><lb/>Numéro spécimen gratuit, 30, rue de</p>
+        <pb facs="0008.xml"/>
+        <fw type="runningTitle"><lb/>Le Sounna</fw>
+        <ab><lb/>Travaux administratifs en tous genres. — Impressions en plusieurs couleurs<lb/>Labeurs, Brochures, Affiches, Prix-Courants<lb/>CARTES DE VISITE, D'ADRESSE, DE BAL &amp; DE NAISSANCE<lb/>Enveloppes Commerciales en tous genres, Têtes de Lettres, Menus<lb/>Factures, Traites, Livrets de Laiteries, Programmes, Lettres de Mariage, de Naissance et de Décès<lb/>La Maison se recommande par la belle exécution des travaux et la modicité de ses prix<lb/>Messieurs les Secrétaires de Mairies et Officiers ministériels trouveront toujours à notre imprimerie tous<lb/>les imprimés qui pourraient leur être nécessaires.<lb/>On trouve à notre imprimerie tous les modèles de Déclarations d'enlèvement de Boissons</ab>
+        <p rend="heading"><lb/>Imprimerie de «I'Echo Saintongeais)</p>
+        <p rend="heading"><lb/>Ancienne Maison DALMONT. — A. ROGÉ, successeur</p>
+        <p rend="heading"><lb/>Rue Gambetta et rue du Colllège, Saint-Jean-Jean-d'Angély</p>
+        <p rend="heading"><lb/>AFFICHES DE TOUS FORMATS</p>
+        <figure type="decoration"/>
+        <ab><lb/>LIBRAIRIE A. ROgÉ<lb/>Rue de l'Hotel de Ville et rue de lHorloge, Saint-Jean-d'Angély<lb/>CLASSIQUES EN TOUS GENRES<lb/>Fournitures de Bureaux - Reliure<lb/>PAPETERIE FINE ET ORDINAIRE<lb/>VOLUMES DES MEILLEURS AUTEURS<lb/>Calendriers et Agendas pour 1903. — Choix d'Albums riches pour Photographies<lb/>COLLECTION TRÈS VARIÉE DE CARTES POSTALES<lb/>Les Cartes postales illustrées sont sans cesse renouvelées par les Nouveautés parues<lb/>Choix des plus variés d’Articles pour Première Communion<lb/>PAROISSIENS, CHAPELETS. MISSELS, MÉDAILLES, etc., etc,<lb/>Journaux de Modes, Journaux politiques, Journaux scientifiques, etc.<lb/>Jolies Gravures, Chromos, Taille-Douce</ab>
+        <figure type="decoration"/>
+        <note type="handwritten"><lb/>couronnes et Articles funéraires</note>
+      </div>
+    </body>
+  </text>
+</TEI>
