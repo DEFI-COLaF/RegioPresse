@@ -1,0 +1,528 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Ar Vro</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k1199657j</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ar Vro : kelaouengelc'h miziek krouet evi[d] beza eun ëre etre ar Vretoned</title>
+          <publisher>[s.n.?] (Montroulez)</publisher>
+          <date when="1909-06-01">1909</date>
+          <idno type="ARK">bpt6k1199657j</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k1199657j</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="bre">breton</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Supplément au Journal" Ar Bobl.</fw>
+        <dateline><lb/>Miz Even 1909.</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>BLOAV</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>Rummen 4.</p>
+        <figure/>
+        <ab><lb/>Kelaouengelch<lb/>MizIEK<lb/>Krouet da veza cun ëre<lb/>ETRE AR VRETONED<lb/></ab>
+        <figure/>
+        <p><lb/>«Kaz an den</p>
+        <figure type="table"/>
+        <ab><lb/>a vag anezan</ab>
+        <figure type="decoration"/>
+        <ab><lb/>Rener: F. Jaffrennou “Taldir"<lb/>KERAEZ</ab>
+        <figure type="decoration"/>
+        <ab><lb/>Eur Rummen: 2 wennek.Eur bloaz: 6 real Gant AR BOBL : 20 real</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Krennad</head>
+        <ab><lb/>Sonnen d'er Maru, BLEIMOR —<lb/>Meuleudi Breiz ha Breizis,<lb/>Gab MILIN. — Yann Seitek,<lb/>PINTIK.</ab>
+        <figure/>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="162"/>
+        <ab><lb/><lb/>Penaus e kannan-me, ar un ton ken beunek ?<lb/>Girieu a ziskalon nen de ket brezonek :<lb/><lb/>Peh goaleurieu enta em es bet, ha peh droug?<lb/>— Peh droug?... Allas, allas ! me halon en hum roug!</ab>
+        <p rend="heading"><lb/>SONNEN D'ER MARU</p>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Ne hran ket meit huannadein arleh err maru... Er maru!</l>
+          <l><lb/>Pe oen bihan, m’he surmante el eun dra garru,</l>
+          <l><lb/>Ne chonjen ket sur e helle den he geruel ;</l>
+          <l><lb/>Ha bremen hoant em es, nann em es de veruel !</l>
+        </lg>
+        <lg>
+          <l><lb/>Pegours e troei endro me hig de vout ludu ;</l>
+          <l><lb/>Pegours e tichennein e dondet er be du ?</l>
+          <l><lb/>Pegours, pegours e vein krignet get er prenued</l>
+          <l><lb/>En ur hoh toul, e korn er vered, ankoeheit!</l>
+        </lg>
+        <lg>
+          <l><lb/>O! bout mahet edan hueh troeted doar ponner,</l>
+          <l><lb/>Bout brein erfin, bout brein ken e ampouizonner,</l>
+          <l><lb/>Bout maru-mik !... Hunvre mat ha dous, hunvre karet,</l>
+          <l><lb/>Joé e lakes em halon peur hag em spered !</l>
+        </lg>
+        <lg>
+          <l><lb/>Neze e tichueho me horv breuet d’er boen.</l>
+          <l><lb/>Mont e hrer de repoz er gule goude koen ;</l>
+          <l><lb/>Arlerh koen er vuhe, er be e tichuechein,</l>
+          <l><lb/>Hag, el lanjer, doar ha geaut em bo ar me hein.</l>
+        </lg>
+        <lg>
+          <l><lb/>Epad ma vein else kousket iein-skorn ino</l>
+          <l><lb/>Drest d’em fen maru er hantvleieu e dremeno ;</l>
+          <l><lb/>Rod en amzer e droei atau en ur hudal :</l>
+          <l><lb/>Mes me ne huelein mui en hoari, me vo dal !</l>
+        </lg>
+        <lg>
+          <l><lb/>Galuet e vein marse guehave get ma zud.</l>
+          <l><lb/>Mes ne reskondein tra dehe rak, me vo mud;</l>
+          <l><lb/>Get trouz festeu er bed ’hello krenein en doar,</l>
+          <l><lb/>En trouzieu-se n’ou cheleuein mui, me vo boar.</l>
+        </lg>
+        <lg>
+          <l><lb/>Me vo dal, me vo mud, me vo boar, me vo brein !</l>
+          <l><lb/>Ahed-kaer e mem be, un hun ponner e hrein,</l>
+          <l><lb/>Hun hemb hunvre, e kreiz un nozeh hemb trenoz,</l>
+          <l><lb/>Er peah !... er peah !... er peah !...</l>
+        </lg>
+        <ab><lb/>— Mes perak ha penaus</ab>
+        <lg>
+          <l><lb/>Gannet on er glahar, mab d’er hetan pehed,</l>
+          <l><lb/>Douget em es me hroez a houde, hed ha hed,</l>
+          <l><lb/>Hed ha hed heliet me hent rust hemb hun glem,</l>
+          <l><lb/>Hag er glahar atau em fike get e flem.</l>
+        </lg>
+        <lg>
+          <l><lb/>la, skoeit en des er goaleur dal ar me halon,</l>
+          <l><lb/>Skoeit adrez hag ahed, hemb truhe el ul lon !</l>
+          <l><lb/>Edan e dauleu puill me fen em es pleget,</l>
+          <l><lb/>Lan a zareu, get en ankin hanter-vouget.</l>
+        </lg>
+        <lg>
+          <l><lb/>Sioah ! Deh e houilen, hiniu e houilan hoah,</l>
+          <l><lb/>Houilein e hran hineah, me houilo forh arhoah ;</l>
+          <l><lb/>Noz na de ne hellan hum arrest a houilein,</l>
+          <l><lb/>Dareu e zo me hoen ha me hun ha me lein!</l>
+        </lg>
+        <pb facs="0003.xml"/>
+        <milestone unit="page" n="163"/>
+        <lg>
+          <l><lb/>Malloh d’em de ketan! malloh ar e sklerder!</l>
+          <l><lb/>O breiniadur me mam, o prenued mem breder,</l>
+          <l><lb/>Deit, hireh em es d’oh, hastet ! El ul linsel</l>
+          <l><lb/>Gronneit-me ol, ag er hlopen betag er sel !</l>
+        </lg>
+        <lg>
+          <l><lb/>Petra e hran, truhek, er bed-men a zareu?</l>
+          <l><lb/>El Job en den santel, e on ar deil er hreu,</l>
+          <l><lb/>N'em es nitra, nen don nitra. Mal e d’em er</l>
+          <l><lb/>Sonnein ; mal e d’en Anken koh dont d’em hemer!</l>
+        </lg>
+        <lg>
+          <l><lb/>Men diuhar e hochell avel re unan meu,</l>
+          <l><lb/>Lan on a chonjeu sot... — Liameu, liameu,</l>
+          <l><lb/>Ne veet ket, enta, torret ?... O me inean,</l>
+          <l><lb/>Saill er mez a me horv, ha neij aben d’en nean.</l>
+        </lg>
+        <lg>
+          <l><lb/>Rak n’e ket ar me horv hembkin e hirvoudan :</l>
+          <l><lb/>Eit kastiein pehed er hetan tad Adan,</l>
+          <l><lb/>Glaharet e ineanneu peur e vugale</l>
+          <l><lb/>E neb leh ma kerhant er boen zo etal he.</l>
+        </lg>
+        <lg>
+          <l><lb/>Er mez a zeur er mor n’hell ket biuein er pesk :</l>
+          <l><lb/>Mor me haranteieu zo bet kaset de hesk ;</l>
+          <l><lb/>Oeit int kuit, ol er re e greden em harent,</l>
+          <l><lb/>Men dilausket ou des me unan er pear-hent.</l>
+        </lg>
+        <lg>
+          <l><lb/>Goulieu dianvez, goulieu diabarh !</l>
+          <l><lb/>Penaus e talhehes d’er vuhe, peurkeh barh ?</l>
+          <l><lb/>Er maru hembkin e hell rein d’id eun tam repoz:</l>
+          <l><lb/>Penaus d’er maru karet ne pas kornal eur poz ?...</l>
+        </lg>
+        <lg>
+          <l><lb/>En emgann pamdeiek den ne ra d’ein en dorn :</l>
+          <l><lb/>A suhun mem buhe p' arriuo er sadorn.</l>
+          <l><lb/>A p' em galuo er maru, sentus avel ur hi,</l>
+          <l><lb/>Ar he lerh e ridein, ha me boko dehi...</l>
+        </lg>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>— « Arsau, eme er Bed, get triste ha gonzeu.</l>
+          <l><lb/>De bep poen plijadur ha hoarh e zo louzeu ;</l>
+          <l><lb/>Guellad e hreint eue d’ha triste, mar kares :</l>
+          <l><lb/>Iv genomb guin er joe er hueren karget rez. »</l>
+        </lg>
+        <lg>
+          <l><lb/>Hoarhein ! Pen de me skoe flastret edan er beh,</l>
+          <l><lb/>A pen don maheignet, korv ha spered, a beh !</l>
+          <l><lb/>Hoarhein ?... Else e hra meur a unan d’em hoed,</l>
+          <l><lb/>Mes me, me, ha gellout e hrehen ?... — Bed amoed !</l>
+        </lg>
+        <lg>
+          <l><lb/>Kalon mab den e zo ur varrik dizannet :</l>
+          <l><lb/>Kaer en des plijadur ar blijadur donet</l>
+          <l><lb/>Hag er Bed er beein en e joeieu follan,</l>
+          <l><lb/>Ar er geh voul fank-men biruikin ne vo lan.</l>
+        </lg>
+        <lg>
+          <l><lb/>Neaon enta, Bed, el lehid lous ha blijadur,</l>
+          <l><lb/>Eidon-me, glan e vein doh e gousiadur</l>
+          <l><lb/>Ha ne glaskein konfort, em zrebilleu ehus</l>
+          <l><lb/>Nameit doh treid men Doue, men Doue madelehus...</l>
+        </lg>
+        <lg>
+          <l><lb/>— Mes hoantat e hran 'tau, hirvoudus, en Dilam,</l>
+          <l><lb/>Ma hei me eskern peur, kammet de uigent lam,</l>
+          <l><lb/>De gousket er harnel betag dé er Barnour</l>
+          <l><lb/>— En de-se e sauo me horf lan a inour.</l>
+        </lg>
+        <pb facs="0004.xml"/>
+        <milestone unit="page" n="164"/>
+        <lg>
+          <l><lb/>Ha ma hello m' inean, skanoh eit en avel</l>
+          <l><lb/>E tu 'ral er vuhe darneijal divaruel,</l>
+          <l><lb/>De vout en ur guitat en doar-men iein ha streh,</l>
+          <l><lb/>Eurus de viriukin....</l>
+        </lg>
+        <ab><milestone unit="column" n="2"/><lb/>Doue, etre hou tivreh !</ab>
+        <ab><milestone unit="column" n="3"/><lb/>BLEIMOR.</ab>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/>Reims.</p>
+        <p rend="heading"><lb/>Meuleudi Breiz ha Breiziz</p>
+        <p rend="heading"><lb/>(Kendaleh)</p>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>En deiz ma oe d’ezo bruzunet o eskern,</l>
+          <l><lb/>Daoust ma oan tud garo, o zregont bern war vern</l>
+          <l><lb/>E oan stlapet eno.— Etouez eur bodad gwez</l>
+          <l><lb/>D’an holl dremenidi gant lorc’h ni c’hell diskuez</l>
+          <l><lb/>A-dost da Josselin e kever Ploërmel</l>
+          <l><lb/>Hanoiou hon c’henvroiz. Neb a oar lenn, a wel.</l>
+        </lg>
+        <lg>
+          <l><lb/>O zregont int merket war eur mean marmor kaër</l>
+          <l><lb/>Hag evel en emgan ar marc’hek Beaumaner</l>
+          <l><lb/>A zo er penn kenta. Kanomp o meuleudi</l>
+          <l><lb/>Ha re kement Breizad o deuz, en hon Bro-ni,</l>
+          <l><lb/>E Bro C'hall, e pep leac'h, hirio, e peb amzer</l>
+          <l><lb/>Diskouezet skler d’an holl eo hon taliou pounner.</l>
+        </lg>
+        <lg>
+          <l><lb/>Ouzomp piou a harzfe? — Ha n’oant ket euz a Vreiz</l>
+          <l><lb/>Klisson ha Duguesclin ? O daou evel daou vleiz</l>
+          <l><lb/>Skigne spont hag enkrez en eur vanden denved</l>
+          <l><lb/>O lekent da dec'het en o raok p’o gwelet,</l>
+          <l><lb/>O klevet o hano, ar c’heriou a grene</l>
+          <l><lb/>Evel gedon lijer ar Saozon a rede.</l>
+        </lg>
+        <lg>
+          <l><lb/>Ne veze en ebad nep a stoke outo,</l>
+          <l><lb/>Ha lavaret c'helle : Deomp, tec'homp affo !</l>
+          <l><lb/>Gant drem o c’hlezeier evel gant morzoliou</l>
+          <l><lb/>E traillent ar pennou, o faoutent hed a hed</l>
+          <l><lb/>Evel gant eur falz lemm e vez kaol dibennet.</l>
+        </lg>
+        <lg>
+          <l><lb/>Sellit ha c’houi a wel a-hont daou daro gouez</l>
+          <l><lb/>O terri krenn o nask, o lilammet er mez</l>
+          <l><lb/>Kounaret o vresa, o ranna dirazo</l>
+          <l><lb/>Gant o c’herniel spontus kement a zo en dro.</l>
+          <l><lb/>Eveldo hi ho daou pa dizont ar Saozon</l>
+          <l><lb/>A sko a gleiz a zeou, a nerz o c’horf ha sonn,</l>
+        </lg>
+        <lg>
+          <l><lb/>A ruill an dud war vern; tro war dro na weler</l>
+          <l><lb/>Nemed tan ruz ha gwad ; a bep tu ne glever</l>
+          <l><lb/>Nemed trouz an taoliou, kri-forz, huanadou</l>
+          <l><lb/>A voug krenn er gouzoak. Ganto falc’h an ankou,</l>
+          <l><lb/>Kemend 'zo e flastront a sklapont a c’hrac'hel</l>
+          <l><lb/>Evel skourrou torret gant eur barrad avel.</l>
+        </lg>
+        <pb facs="0005.xml"/>
+        <milestone unit="page" n="165"/>
+        <lg>
+          <l><lb/>Setu war peb tachen penaoz Breiziz gwechall</l>
+          <l><lb/>A bile 'vel ar glao enebourien Bro-C’hall,</l>
+          <l><lb/>O falc’he a dro hir evel strêva gouzer</l>
+          <l><lb/>A c’hardenner a-hed da vreina gant ar c’houer,</l>
+          <l><lb/>Piou azafe a-benn da zonet d’o zamall</l>
+          <l><lb/>Estr eget-ho e Breiz euz bet kant ha kant all.</l>
+        </lg>
+        <lg>
+          <l><lb/>En o raok, var o lerc’h, paotred stard ha kaled</l>
+          <l><lb/>A c’hoad iac’h ha nerzuz, a staon du ket dantet,</l>
+          <l><lb/>Killeien heb o far hag a oa lemm o bek</l>
+          <l><lb/>Chas hag a groge iud pa c’hellent tapout pek,</l>
+          <l><lb/>Meot euz ar re wella a gafed en dachen</l>
+          <l><lb/>Da gemeret o lans da deurka peb taol-penn.</l>
+        </lg>
+        <lg>
+          <l><lb/>Prest a ve o c’herniel pa ziskrogont o dent</l>
+          <l><lb/>Neuze ve mall skrabat ha skei mibin en hent.</l>
+          <l><lb/>Anez e welet prim, kik kroc’hen ha pastell,</l>
+          <l><lb/>Ar gwad o tistrinka hag an dud o vervel!</l>
+          <l><lb/>Gant Breiziz eo gwelloc’h kant gweach beza lazet</l>
+          <l><lb/>Eget ruzia war zouar, o veza bet trec’het.</l>
+        </lg>
+        <lg>
+          <l><lb/>Biskoaz n’euz bet gwelet eur Breizad o kila</l>
+          <l><lb/>Gwelet int-bet maro o chom sonn en o za,</l>
+          <l><lb/>O lakat da grena c’hoaz o enebourien</l>
+          <l><lb/>Dirag an holl heb aoun, Breiziz savit ho penn.</l>
+        </lg>
+        <lg>
+          <l><lb/>Gwelet euz bet eur gear (tra dibaot c’hoarvezet</l>
+          <l><lb/>Gant hon breur Duguesklin epad e vuez trec’het)</l>
+          <l><lb/>E tigerri he dor d’ezan pa oa maro !</l>
+          <l><lb/>En e raok, evel d’an Breizad stard ha garo,</l>
+          <l><lb/>Arzur a Richemond, koulz marc’hek ha hini</l>
+          <l><lb/>A zo red da henvel hag ive da veuli.</l>
+        </lg>
+        <lg>
+          <l><lb/>Livirit d’eomp, Saozon, n’hen anavezit ket?</l>
+          <l><lb/>Oc’h heul ar verc’h Janned n'hoc’h euz hen ket gwelet?</l>
+          <l><lb/>O tiwall anezhi, henvel oc’h eun eal mad</l>
+          <l><lb/>Oc'h hi skoazia bepred, o terc'hel, o pilat,</l>
+          <l><lb/>O tistrei divarnhi dremmou ho klezeier</l>
+          <l><lb/>A dorre, p’o zize, evel bruzuna gwer.</l>
+        </lg>
+        <lg>
+          <l><lb/>E peb leac'h e veze bepred er penn kenta,</l>
+          <l><lb/>Evel eun orz o skei, ha peb taol o toulla</l>
+          <l><lb/>Renkou stank ar Saozon a goueze en e raok</l>
+          <l><lb/>Evel delliou melen dre an avel a stok.</l>
+          <l><lb/>Ma vije bet eno p’oa kemeret Janned,</l>
+          <l><lb/>Saozon, c’houi ho pije anezhi diskroget.</l>
+        </lg>
+        <lg>
+          <l><lb/>E pep kear e Bro C'hall hag en holl galonou</l>
+          <l><lb/>Estr eget en he bro sever d’ei skeudennou.</l>
+          <l><lb/>Pell goude Dugesklin, Corret ar grenader</l>
+          <l><lb/>Ganet en Keraez, marvet en hon amzer</l>
+          <l><lb/>A oa Breizad ivez, den a skiant kalonek,</l>
+          <l><lb/>Ken gwest en emgannou, hag eur iez brezonnek</l>
+        </lg>
+        <lg>
+          <l><lb/>Koulz oa da doulla don bete grisiou eur iez</l>
+          <l><lb/>Evel m’oa da bignat war gern uhel eur menez !</l>
+          <l><lb/>Dreist ar vein, ar reier, e save e vaniel</l>
+          <l><lb/>A-benn d’an holl stourmou a enep an avel</l>
+          <l><lb/>E chache war e lerc’h, tud, kezek, kanolliou,</l>
+          <l><lb/>Eleac'h ia an éred da ober o neiziou.</l>
+        </lg>
+        <pb facs="0006.xml"/>
+        <milestone unit="page" n="166"/>
+        <lg>
+          <l><lb/>Evel eun taol kurun goude prim hen klevet</l>
+          <l><lb/>En tu all d’ar menez en eur strinka luc’hed</l>
+          <l><lb/>O krozal, o strakal, o tisken d’an daou-lamm</l>
+          <l><lb/>O flastra en e raok, o terri e mil dam</l>
+          <l><lb/>Kemend a stourm outan evel eur roc’h a bez</l>
+          <l><lb/>Diskolpet a disharp goude koll e c’hompez,</l>
+        </lg>
+        <lg>
+          <l><lb/>A loc’h an, em zibrad, a horjel war hec’hern</l>
+          <l><lb/>En em laosk da goueza gant strons ha gant tregern</l>
+          <l><lb/>A stok, a lamm, a ruill, a red dre an dorgen</l>
+          <l><lb/>A ia vel ar gurun da goueza en doullen</l>
+          <l><lb/>O lezel war e lerc’h tan ruz, gwad ha lu du</l>
+          <l><lb/>Evelse eo Auvergn, pa zisken war e du.</l>
+        </lg>
+        <lg>
+          <l><lb/>E pigos hag e pil war an enebourien</l>
+          <l><lb/>A gouez en dro d’ezan vel grizil en dachen</l>
+          <l><lb/>An hini c’hell tec’het a skrab en eur iudal,</l>
+          <l><lb/>E gleze hirr a diz hag a flem kevatal</l>
+          <l><lb/>An tan foultr ne fraill ket buannoc’h er wabren</l>
+          <l><lb/>Eget na doull a benn eskern, kik ha kroc’hen.</l>
+        </lg>
+        <lg>
+          <l><lb/>Dirazan e kizer stard ha c’houek a galon.</l>
+          <l><lb/>O tistrei d’an emgan eo bet gwelet heb aoun</l>
+          <l><lb/>O sevel, o samma, o tougen war e gein</l>
+          <l><lb/>E vignon diskaret dre ar gwad hag ar vein</l>
+          <l><lb/>O tiredek gantan heb beza bet tizet</l>
+          <l><lb/>Gant eun den gallouduz oe d’ezan kinniget</l>
+        </lg>
+        <lg>
+          <l><lb/>Eun devez eur garg vraz, madou ; pe tra ober ?</l>
+          <l><lb/>Auvergn ne c’houlennaz nemed eur boutou ler.</l>
+          <l><lb/>Kement tra en devoa a oa d’e vignoned</l>
+          <l><lb/>D’e gerent, d’an estren, dreist-holl d’ar zoudarded</l>
+          <l><lb/>Kalz e kave gwelloc’h kaout diouer e-unan</l>
+          <l><lb/>Eget gwelet eun dorn o vont goullo dioutan.</l>
+        </lg>
+        <lg>
+          <l><lb/>Pa n’helle roi netra da neb a c'houlenne</l>
+          <l><lb/>Nag ober vad ebed e galon a ranne.</l>
+          <l><lb/>Eun dervez a oe bet eur mignon glac’haret</l>
+          <l><lb/>O rankout dilezel e vab muia karet</l>
+          <l><lb/>Da vont d’ar vuntrerez 'vel e vugale all,</l>
+          <l><lb/>He oa bet lazet holl en eur skoazia Bro-C’hall.</l>
+        </lg>
+        <lg>
+          <l><lb/>Auvergn a lavaraz : Mignon, sec'h da zaëlou</l>
+          <l><lb/>N'oun ket re goz, me gred, evit dougen armou</l>
+          <l><lb/>Me ielo en e leac'h. Hag evelse reaz</l>
+          <l><lb/>D'an oad a seiz blavez ouspenn hanter kant vloaz.</l>
+          <l><lb/>Raok kuitaat e vro, vel eur zoudard dister</l>
+          <l><lb/>E oe great euz Bro-C’hall ar C’henta Grenader.</l>
+        </lg>
+        <lg>
+          <l><lb/>Eur c’hleze a enor oe d’ezan digaset</l>
+          <l><lb/>Ganthi ez eaz raktal, neuze a lavaréd,</l>
+          <l><lb/>Brema eo red d’in mont vit ar veach diveza</l>
+          <l><lb/>Da c'hout ha me c’hello he lakat da drouc’ha.</l>
+          <l><lb/>Da c’hout ha ne devoa da ziskar enebourien</l>
+          <l><lb/>Brema evel gwechall ho zeurel oc’h torgen,</l>
+        </lg>
+        <lg>
+          <l><lb/>En eur zerc’hel a gil, a zrem, a gleiz, a ziou</l>
+          <l><lb/>Ha mervel mar gellan. Perag leun a zaëlou</l>
+          <l><lb/>Ho kwelan, soudarded, petra zo c’hoarvezet</l>
+        </lg>
+        <pb facs="0007.xml"/>
+        <milestone unit="page" n="167"/>
+      </div>
+      <div type="article">
+        <lg>
+          <l><lb/>M'emoc'h evel spesou mantret ha glac'haret?</l>
+          <l><lb/>Petra cho a veler bemdez o c’hourinad</l>
+          <l><lb/>O rei lam d’an ankou, a c’hell kaout kalonad ?</l>
+        </lg>
+        <lg>
+          <l><lb/>Ia, kalonad hon euz, hon breur mad, hon mignon</l>
+          <l><lb/>Auvergn ar grenader, treuzet poull e galon</l>
+          <l><lb/>A zo maro, siouaz. N'her gwellimp birviken.</l>
+          <l><lb/>Brema me vel er vad ez eo braz hoc’h anken.</l>
+          <l><lb/>Ne d’eo ket heb abek, koulskoude eo kouezet</l>
+          <l><lb/>P'eo marvet vid e vro, laouen braz eo marvet.</l>
+        </lg>
+        <lg>
+          <l><lb/>Auvergn a oa ouspen eun den skouer an dud vad</l>
+          <l><lb/>Enor ar soudarded hag a galon Breizad</l>
+          <l><lb/>Tud a Geraez, Breiziz, kanit holl meuleudi</l>
+          <l><lb/>Kanomp e veuleudi, dreist han ne deuz hini.</l>
+          <l><lb/>Kristen e oa ganet ha marvet eo kristen</l>
+          <l><lb/>Kanomp e veuleudi, kanomp holl da viken.</l>
+          <l><lb/>Karet a rea e feiz, dreist-holl ive e iez</l>
+          <l><lb/>Da dalvezout d’an holl Breiziz c’hell hen diskouez.</l>
+        </lg>
+        <lg>
+          <l><lb/>E Breiz hag e peb bro eo dibaot an dachen</l>
+          <l><lb/>Ne welaz n’oun ped Saoz astennet o liven,</l>
+          <l><lb/>O poulladi o gwad distrinket euz o c’hreiz</l>
+          <l><lb/>Gant an taoliou pounner a roaz d’e tud Breiz.</l>
+        </lg>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/>(Da heuin)</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>(KENDALC'H)<lb/>— Gwir eo, eme ar zorserez, dansal a ra an dud pa son.<lb/>Hag eun taol sut, hag eun dousier vrao a zo ledet iwar an daol.</ab>
+        <ab type="head"><lb/>Gant Yan Ar Pach (Pintik)</ab>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>— Gortoz ma kountin d'it. Ar Gorrigan a zo bet e-unan ouz ya<lb/>c’haout. Ha displeget he deuz kement-ze d’in.</p>
+        <p><lb/>Me a zo o vont da c’hoezi embann hag e weli.<lb/></p>
+        <p><lb/>Yan a ra eun abaden.</p>
+        <list>
+          <item>— Gouzout a ran. Hag ouspen.</item>
+        </list>
+        <p rend="labelled"><lb/>— C'houistel, eme ar vrac'h, ra vezo eun dousier fleurennet koant<lb/>war va zaol.</p>
+        <list>
+          <item>— Chouistel, ra vezo kik ouz ar ber, gwin koz ha mad war va zaol.</item>
+        </list>
+        <p><lb/>Eur boum, ha kik, ha gwin a zo.</p>
+        <p><lb/>Da c'houde, e teuaz c'hoas bara, holen, pebr, saladen, eol ha gwi-<lb/>negr, sukr, kafe, patatez fritet, avalou poaz, kouignou hag eun bern<lb/>traou all.</p>
+        <p rend="labelled"><lb/>— Ho! ho! eme Yan, n’am beuz ket ezoum da glevet va flaneden<lb/>brema. Roit va c’houistel d’in. Pinvidik awalc'h e vezin ganthan pa<lb/>vouezan brema penaoz da ober.</p>
+        <ab><milestone unit="column" n="2"/><lb/>GAB MILIN.</ab>
+        <pb facs="0008.xml"/>
+        <milestone unit="page" n="168"/>
+        <ab><milestone unit="column" n="1"/><lb/>Moullerez ar Bobl, Stred ar Gar, Keraez.<lb/><lb/>imen<lb/></ab>
+        <ab><lb/>— Eun abaden var raog, paotr.<lb/>Kaout a renkan traou ; med labourat a rin evit kaout anezo.<lb/>— Hag heb ober kazek nep trô.</ab>
+        <p rend="labelled"><lb/>— Beza gouezet araog. D'in-me eo.</p>
+        <p rend="labelled"><lb/>— Roit anezhan d’in, pe me a lazo ac’hanoc'h memez tra evel<lb/>our leue.</p>
+        <p rend="labelled"><lb/>— Choum sioul, fillor, ha kea gant da hent.</p>
+        <p rend="labelled"><lb/>— Va c’houistel d’in ! eme Yan o skrougnal e zent.</p>
+        <p rend="labelled"><lb/>Hag ar zorserez a c’houez er c’houistel, ha Yan a renk bale dillou<lb/>kuit.</p>
+        <p><lb/>Setu nec’het va den, e c’hellit kredi.</p>
+        <p rend="labelled"><lb/>— Allo, emezhan, breman e c’hallan mont da zutal brulu pe da<lb/>zioual ar yer war ar menez Arre ! D’ober petra ivez e voan-me eat da<lb/>gaout ar zorserez daonet-se ? Gwelloc’h oun brema ? Gant ar seurt<lb/>lornez-se n’euz atao nemet da goll !</p>
+        <p><lb/>Mad e komze Yan, n’eo ket ’ta ? Mes keuz divezat ne dal ket.</p>
+        <p rend="labelled"><lb/>— Ma ! emezhan, laeromp adarre. Ne vern petra c’hoarvezo ! Pa rei<lb/>glao e c’hlebo, ha keit ha ma vezo tom pe glouar ne vezo ket a skourn<lb/>war an douar ! Arabad koll kaloun, petra? Beo e vezin ken a varvin !<lb/>Traou a renkan da gaout ; mad, mad sûr, me a laero, pe n’eo ket me<lb/>90 Yan Zeitek dizeiteget ken!</p>
+        <p><lb/>Gwelloc'h e viche bet d’ezhan lavarout :</p>
+        <p><lb/>Mes n’eo ket evelhen yoa ar stal, hag o veza gouenn laer ennhan,<lb/>Yan a laero.</p>
+        <p><lb/>Arabad d’ehoc’h kredi evelato ez afen dre gounta d’ehoc'h e laeroun-<lb/>siou holl. Re hir e ven, kraza a rafe va c’hourlanc'hen nemet eur<lb/>banne sistr mad ha iac’huz ho pe da rei d’in.... ha neuze, me ne voan<lb/>ket gant Yan, ha rak-se ne vouezan ket holl ar pez a reaz.</p>
+        <p><lb/>Kenta a gavaz Yan war e hent a’voe eur laer all.</p>
+        <p rend="labelled"><lb/>— Ar yalc’h pe ar vuez ! eme egile.</p>
+        <p rend="labelled"><lb/>— Ar yalc’h pe ar vuez ! eme Yan ive.</p>
+        <p rend="labelled"><lb/>— Mar deuz eur laer ac’hanout, me n’oun ket fall ivez d’ober ar vi-<lb/>cher-se. Ne ran seurt all aboue va femzek vloaz.</p>
+        <p rend="labelled"><lb/>— Abred e krogchez ganthi neuze.</p>
+        <p rend="labelled"><lb/>— Ha te ?</p>
+        <p rend="labelled"><lb/>— Me ne ran an dra-ze nemet pevar miz 'zo.</p>
+        <p rend="labelled"><lb/>— Deomp kevred neuze.</p>
+        <p rend="labelled"><lb/>— Memez tra.</p>
+        <p rend="labelled"><lb/>— Evel just, an holl draou a vezo boutin etrezomp, ha pa vezo<lb/>eun dra bennag da c’hoari e vezimp rampo atao.</p>
+        <p rend="labelled"><lb/>— Pa c’hellimp, c’houitimp ket.</p>
+        <p rend="labelled"><lb/>— Great ar marc’had.</p>
+        <p><lb/>Mont a reont eur pennadik ac'hano.</p>
+        <p rend="labelled"><lb/>— Allo ! eme Yan, setu an taol kenta dustu. Ne welez ket eur pes-<lb/>keter kôz o tont warzu ennomp? Greomp e stal d’ezhan.</p>
+        <p><lb/>Pema en o c'hichen :</p>
+        <list>
+          <item>— Ar yalc'h pe ar vuez ! emezint.</item>
+        </list>
+        <p rend="labelled"><lb/>— Gedit eun tammik.</p>
+        <p rend="styled"><lb/>(Da heui)</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="2"/><lb/>Ar Bleiner : Loeiz Gourlet.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

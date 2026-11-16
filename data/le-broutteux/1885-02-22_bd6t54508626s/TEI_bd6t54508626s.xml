@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508626s</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1885-02-22">1885</date>
+          <idno type="ARK">bd6t54508626s</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508626s</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Numéro 135. (4m ANNÉE).</fw>
+        <fw type="runningTitle"><lb/>Un Numéro: 10 centimes</fw>
+        <dateline><lb/>DIMANCHE 22 FÉVRIER 1885.</dateline>
+        <figure type="decoration"/>
+        <figure>
+          <head><lb/>Etranger, port en sus.</head>
+        </figure>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>«Byades balses<lb/>qu'un homme d'espri<lb/>achéterait.<lb/>voISERU</p>
+        <fw type="runningTitle"><lb/>ABONNEMENTS:<lb/>payables d'avance<lb/>3mois. fr.1-50<lb/>3-00<lb/>6</fw>
+        <p rend="heading"><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING</p>
+        <p rend="styled"><lb/>Administration : FRERE-GLORIEUX, Imprimeur, rue de LAlle, 18. — Rédaction : Jules WATTEEUW, rue Desurmont, 31</p>
+      </div>
+      <div type="article">
+        <ab><lb/>qu'in ariivera la, m aa inne paire de hors pusque quater-vingt tonneux d'huile.</ab>
+        <ab type="head"><lb/>L'BALEINE D'OSTENDE</ab>
+        <p rend="styled"><lb/>On prétend qu'une baleine peut<lb/>parcourir un espace de onse mètres<lb/>dans une seconde, et qu’il suffirait<lb/>de vingt-trois jours, douse heures,<lb/>pour qu'un de ces cétaces put faire le<lb/><lb/><lb/>tour du globe.</p>
+        <p><lb/>D'pus huit jours, in n'attindot foque<lb/>parler d’inne baleine qu'ill' étot v'nue<lb/>s’réteinte tout du long du sabre à Ostende.<lb/>Tin, saclé vingt non de quisse! que j'dis<lb/>in mi-même, avant-z’hier, si j'iro faire in<lb/>tour qu'a la ? j'poros, au mons, rinconter<lb/>cha à mes lijeux. Et cha fait qu'essin, ené,<lb/>mes gins, j'm’ai in d’alle inveuc inne paire<lb/>de copagnons, pa l'premi train.</p>
+        <p><lb/>In route, in fait l'rinsconte de gins qui<lb/>nous d’mantent du qu’in va. — Bé, qu’in<lb/>répond, in va vir l’baleine. — N’allez po,<lb/>ch’est inne peste, vous allez attraper<lb/>l’choléra. — Bah, bah, in dit nous autes,<lb/>in verra ben. N'impêche, qu'in arrivant à<lb/>Tgare d’l'estation d'Tourcoing, y n’d’avot<lb/>d'ja in qui dijot : qui sintôt l'baleine!<lb/>Ch'étot l'odeur des panis d'pichons v’nus<lb/>pou l'carême.</p>
+        <p><lb/>Mais qu'in n'd'in vot des drôles, tchan<lb/>qu'in voyage, essin. Y n’d’avot qui z’étot-<lb/>tent tellemint inflougnïs qui d’mandot-<lb/>tent au guichet, à l’plache de leu cachet:<lb/>une baleine pour Ostende, aller et retour,<lb/>si vous plaît Mossicur.<lb/></p>
+        <p><lb/>V'la qu’in ermonte vin l'train, à Mous-<lb/>eron, in n'attind foque des gins parler de<lb/>l'baleine. Y n'd'a in qui dit : que tchan<lb/>que s'djeule ill' est overte in peut muchi<lb/>d'vin inveuc in carieut à deux gu’veux, in<lb/>aute y dit, qu'ill' mesure 19 mètes de lon-<lb/>gueur, sans s’tcheu, in aute y dit 25 mètes,<lb/>in aute 30 mètes, si cha continue tchan<lb/>chint mètes. Mais l'erfrain qu’in attind<lb/>toudis, ch'est : mais qu’ill' pue! allez,<lb/>ch’est inne vraie pesse, vous allez vir, ill'<lb/>est toute verte !</p>
+        <p><lb/>Pou faire passer c'goût la, in arrivant à<lb/>Courtrai, in va boire in glasse bire au<lb/>café Vandeputte, in face d'la gare, du que<lb/>l'bire ill' est si boinne et l'homme si hon-<lb/>nête, que ch’est plaiji.</p>
+        <p><lb/>In ermonte vin l'train, pour arrêter tous<lb/>les dix minutes et a dije heures in fait<lb/>s'rintrée à Ostende.</p>
+        <p><lb/>Wette ichi, m'n’homme, qui pourmène<lb/>inveuc inne grande affiche sus sin vinte<lb/>et sus sin deu du qui est récrit : baleine<lb/>visible pour 1 franc. Et par chi, chès gins<lb/>qui s’bouss’tent pou muchi les premis vin<lb/>inne voture du qui est martchi : service<lb/>pour l’exposition de la baleine. Nous<lb/>autes in s’in va pa l’voture St Crépin, sus<lb/>ses pids, tout du long du quai, du qu’in<lb/>vot vudi des bateux des panis d’pichons<lb/>comme si in l’donnerot pou rin. Infin in<lb/>finit par arriver à inne plache, sus l’sabre,<lb/>intourée d’toiles à voiles, in paie 1 franc<lb/>et in muche d’vin. Seigneur de Di! jour<lb/>de la vie! tcheu monstre, mes amisses!<lb/>Ch'n'est po in pichon, ch'est inne majon,<lb/><lb/>à forche que ch’est grand ! s’tcheu mesure<lb/>4 mètes de largeur, sin vinte, 2 m. 70 de<lb/>hauteur et sin corps 21 mètes de londjeur.<lb/>In vot tous les gins pourmener à l’intour<lb/>inveuc leu bouque overt et leu nez serré<lb/>pas qu’y pue inne mioche, savez? Y a la<lb/>d'z'inglaises qui tinn'tent des p'tités bou-<lb/>telles d’odeur par desous l’z'arines du nez,<lb/>pindant qu'in attind des drôles d'éflex-<lb/>tions. Y n’d'a in qui dit que cheulle ba-<lb/>leine ill' vint d’la mer du Nord, l'aute d'la<lb/>Baltique, qui a pus d’deux mos qu’ill' est<lb/>quervée, qu'ch'est l'eau d'la mer qui l'a<lb/>conservé, in aute y dit, qu'in va tirer de-<lb/>Pindant c’temps la, y n’d’a in, qu’in dit<lb/>qu’ch’est in Monci du gardin géologique<lb/>d’Anvers, qui découpe des quartis d'viande<lb/>la dehors, propermint. C'Monci, y dit que<lb/>cheulle baleine est d'l'espèce dite Jubarte<lb/>des Basques (boops), que ch’est moins<lb/>riche in baleines à corsets et in lard que<lb/>les baleines propermint dites, mais qu'-<lb/>ch'est fort estimé et d'in fameux rap-<lb/>port tout d’même.</p>
+        <p><lb/>J’pinsse ben.</p>
+        <p><lb/>J'l'ermercie d’ces bens renseignemints<lb/>et in vude dehors pou respirer inne mioche<lb/>les boinnes airs. La in vot des gins vinte<lb/>l’potographie de l'baleine. Y n’d’a gramint<lb/>qui n'd’aquatent pour aller l’moutrer à leu<lb/>femme. Nous autes, in va boire inne<lb/>petite grinque pou ravoir nou z’haleine et<lb/>alleumer inne boinne crasse pipe pour<lb/>aller vir arriver les bateux d’pêche sus<lb/>l'estacade. In v'la in, deux, tros, qu'in<lb/>vot la val au long, les v’la qui arrif’tent,<lb/>y grandittent, in les vot rintrer au port,<lb/>tcheus types que chès figures de marins!<lb/>tcheus hommes durs à l'fatigue! mais<lb/>aussi tcheu méti qui font la... toudis<lb/>exposés à tous les temps et à tous les dan-<lb/>gers.</p>
+        <p><lb/>Mais, Seigneur de Di, j'sins inne saquo<lb/>qui m’cargouille vin min corps, et j'busie<lb/>qu’j'ai faim, l’z’autes aussi. In s’in va vin<lb/>in hôtel du qu’in s’aperçot tchan qu’in<lb/>apporte l'note, qu’in est tout près d'la<lb/>mer: Ch'est jolimint salé!</p>
+        <p><lb/>In tcheur ben vite au qu’min d'fer, in<lb/>grippe d’vin et rinconte des garlousettes,<lb/>jusqu’a Thourout du qui a in d'nos copa-<lb/>gnons d’voyage, qui tire de s’poche, d'in<lb/>air de mystère, in p’tit patchet. Vous<lb/>g’savez po quoqu’ch’étot? in bifstek de<lb/>baleine vin in morceu d’papi! Ch’est cha,<lb/>qui puot si fort, qu’in dit tertus.</p>
+        <p><lb/>Bref, in arriffe à Tourco, et in s'indort</p>
+      </div>
+    </body>
+  </text>
+</TEI>

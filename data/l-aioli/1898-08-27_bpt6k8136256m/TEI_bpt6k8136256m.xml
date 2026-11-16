@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136256m</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1898-08-27">1898</date>
+          <idno type="ARK">bpt6k8136256m</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136256m</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>VUECHENCO ANNADO, No 276</fw>
+        <fw type="runningTitle"><lb/>DISSATE, 27 D'AVOUST 1898.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr l'oli<lb/>E faren Paiòli.</ab>
+        <ab><milestone unit="column" n="2"/><lb/>(Prouverbi de merssa)</ab>
+        <figure type="table"/>
+        <ab><lb/>F. MISTRAL.</ab>
+        <p rend="heading"><lb/>QUE VAI CREMANT TRES FES PE7,17,27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <ab><lb/>BUREU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BANONCELLI<lb/>u palais dóu Roure<lb/>EN AVIGNOUN</ab>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN</p>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <ab><lb/>Baile dou journau<lb/>FOLCÒ DE BARONELLL</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>(1) Le poête assisécoutant la Garonne, par Falgulère. aujourd'hui de saluer ensemble Tourense,</ab>
+        <ab type="head"><lb/>DISCOURS</ab>
+        <ab type="head"><lb/>PRONONCÉ PAR M. PAUL MARIÉTON</ab>
+        <ab type="head"><lb/>Chancelier du Félibrige</ab>
+        <ab type="head"><lb/>VOUR L'INAUGURATION DU MONUMENT DE<lb/>Pierre GOUDELIN</ab>
+        <ab><lb/>le 9 aout 1898, à Toulouse.</ab>
+        <figure type="decoration"/>
+        <p><lb/>MONSIEUR LE MINISTRE, (1)<lb/>MESSIEURS.</p>
+        <p><lb/>Quand, il y a peu d'instants, M. le Maire de<lb/>Toulouse et M. le président des Cadets de<lb/>Gascogne (2) m'ont prié de parler ici, je me suis<lb/>senti fort perplexe.</p>
+        <p><lb/>Goudelin est une des plus hautes et des plus<lb/>pures gloires du Midi. Il est populaire à Tou¬<lb/>louse ; il est vénéré depuis deux siècles comme<lb/>un immortel; c’est un intangible soleil au<lb/>firmament de nos précurseurs. Comment im¬<lb/>roviser sur une si grande ombre?<lb/></p>
+        <p><lb/>J'ai consulté mon cœur, et l'émotion qu'y<lb/>éveille la pensée de toute la place que tient le<lb/>poète de Toulouse dans un idéal auquel j'ai<lb/>consacré ma vie, me rend soudain moins in-<lb/>Signe peut être de le saluer au nom des Féli¬<lb/><lb/>bres,— c'est-à-dire des représentants de l'àme<lb/>populaire et traditionnelle de la Terre d'Oc.</p>
+        <p><lb/>Mais n'attendez pas, Messieurs, que je vous<lb/>expose la vie ou mème un simple éloge de<lb/>Goudelin. — Sa vie ? Elle ne serait pas longue à<lb/>retracer. Comme les cigales, il a peu de bio¬<lb/>graphie.... Ce poète ne fut qu'un poète, esti-<lb/>mant que c'était assez. Aussi toutes les clas-<lb/>ses se réunirent-elles dans l'admiration du<lb/>Ramelet moundi.<lb/></p>
+        <p><lb/>Ce Goudelin, qui était l'ami de l'infortuné<lb/>Montmorency, le décapité de Richelieu, le<lb/>dernier comte de Toulouse, l'ami d'Adrien de<lb/>Montluc et de ce comte de Montauron à qui<lb/>Corneille a dédié Cinna ; ce Goudelin, à qui<lb/>les Capitouls firent, sur ses vieux jours, la<lb/>pension qu’il leur avait demandée, ingénu<lb/>comme Lafontaine, fier comme Lamartine,<lb/>assuré qu’il était du rayon de gloire ajouté<lb/>par son œuvre à l'auréole de Toulouse; ce<lb/>Goudelin, qui eut la haute estime de tous les<lb/>lettrés de son siècle, fut également idolâtré du<lb/>peuple jusqu'à se transformer dans l'imagi-<lb/>nation de la foule en un bohême sans vergo¬<lb/>gne, mais peuple et génial....</p>
+        <p rend="labelled"><lb/>(1) M. Léon Bourgeois, ministre de l'Instruction publi-<lb/>que et des Beaux-Arts.</p>
+        <p rend="labelled"><lb/>(2) M. Georges Leygues, vice-président de la Chambre<lb/>des Députés, ancien ministre.</p>
+        <p><lb/>C'est souvent la rançon du génie, que cette<lb/>défiguration! La gloire d'un poète est faite<lb/>autant de sa légende que de la connaissance<lb/>mème de son œuvre. Un jour vient où tout<lb/>est remis à sa place. Le temps est le grand<lb/><lb/>maltre. Cette œuvre, toujours lue, toujours<lb/>rééditée après 30 éditions, et dans toute l'Eu-<lb/>rope, aura fait Goudelin classique.</p>
+        <p><lb/>De ses odes, sonnets, chants royaux, masca-<lb/>rades, qui comptent plus d'un chef-d'œuvre,<lb/>je ne dirai rien ici. Le jour de l'installation<lb/>définitive de votre Goudelin de marbre, cour<lb/>d'amour de poètes se tiendra au pied de l'ad-<lb/>mirable monument, œuvre exquise d’un mal<lb/>tre illustre (1), et de plus autorisés diront à<lb/>loisir ses mérites.</p>
+        <p><lb/>Contemporain de Malherbe et vraiment son<lb/>frère en génie, Goudelin est son rival pour la<lb/>correction et la sobriété du style, avec je ne<lb/>sais quelle franchise en plus. S'il fut poète<lb/>populaire, de sentiment comme de renommée,<lb/><lb/>il le dut à sa langue, dans un temps où il ne<lb/>pouvait naltre de vrais poètes français de<lb/>race d'Oc. La langue poetique — pour les<lb/>poètes d'inspiration — est toujours la langue<lb/>de l'enfance, la première entendue. Avez-vous<lb/>remarqué qu'avant ce siècle les pays méri-<lb/>dionaux, fertiles en prosateurs illustres, de<lb/>Montaigne à Montesquieu, n'ont pas donné de<lb/>grands poètes français, pas un seul !... L'anti-<lb/>que culture bilingue a repris ses droits sur<lb/>cette terre de Toulouse qui jamais n'a connu<lb/><lb/>plus merveilleuse floraison de rythmeurs dans<lb/>ses deux idiomes. N'est-ce pas, mon cher mal-<lb/>tre Silvestre ? Et vous, félibres de l'Escolo<lb/>Moundino ? Et vous,poètes de l'Effort?</p>
+        <p><lb/>Pour nous, félibres, l'œuvre de Goudelin<lb/>est un exmpe.<lb/>Vers la fin du XIII' siècle, quand, après la</p>
+        <p><lb/>désastreuse croisade «albigeoise» qui arrêta<lb/>dans sa croissance la civilisation du Midi pour<lb/>en déplacer l'épanouissement, la domination<lb/>capétienne fat bien établie sur la Provence<lb/>après Toulouse, la langue des troubadours,<lb/>abandonnée de la faveur officielle, commença<lb/>de déchoir. Peu à peu, ce provençal, consacré<lb/>jadis par les princes comme l'expression du<lb/>gai savoir, fut remplacé par le français dans<lb/>les cours méridionales. Entrainé dans le cou¬<lb/>rant de la littérature triomphante, que même<lb/>la restauration toulousaine du XIVe siècle ne<lb/>parvint pas à détourner, il perdit, relégué dans<lb/>le peuple, jusqu'à son orthographe naturelle,<lb/>avant de tomber au rang des patois.</p>
+        <p><lb/>Cependant, il n'avait cessé d'avoir des inter-<lb/>prètes.Goudelin, le premier depuis les trouba¬<lb/>dours, fit œuvre d'art dans la langue vaincue.<lb/>Il releva sa dignité par un goût suprême d'ar-<lb/>tiste. Il la consacra littéraire par des chefs-<lb/>d'œuvre. Il fit un vulgaire illustre de ce qui<lb/>pouvait n'être plus considéré que comme un<lb/>patois, — lui rendant la considération parmi<lb/>les lettrés comme dans le peuple. Voilà pour-<lb/>quoi le Félibrige salue son plus grand précur-<lb/>seur dans le poète du Ramelet moundi, témoin<lb/>de gloire et mainteneur sublime d’un idiome<lb/>persécuté dont l'usage aura été, pour tant de<lb/>générations oppressées par un centralisme<lb/>excessif, une sorte d'affirmation de la liberté.</p>
+        <p><lb/>Et puisque j'ai l'honneur de parler aujour-<lb/>d’hui devant un ministre, devant deux minis-<lb/>tres de la République, dont l'esprit libéral et<lb/>ami des lettres est bien connu, je veux dire<lb/>brièvement ce que c'est que ces fameuses li-<lb/>bertés dont se réclament ~ et que réclament<lb/>— les félibres.</p>
+        <p><lb/>Le statut du Félibrige, rédigé lors de sa<lb/>constitution défloitive en 1876, en expliquait<lb/>ainsi le but: «Le Félibrige est établi pour<lb/>rapprocher dans une ardeur commune les<lb/>hommes dont les œuvres sauvent la langue<lb/>des pays d'oc, et les savants et les artistes qui<lb/>étudient et travaillent dans l'intérêt ou au re-<lb/>gard de ces contrées. » Longtemps, il n'avait<lb/>été qu'un allègre bataillon de volontaires pour<lb/>la restauration d'une littérature et d'un parler<lb/>déchus. Mais peu à peu, cette langue deve-<lb/>nant «la naturelle incarnation de la patrie,<lb/>de l'indépendance et des droits sentiments »,<lb/>il enseigna que le premier devoir d’un Méri-<lb/>dional patriote, en dehors des partis, était de<lb/>maintenir la dignité de race et l'honneur de<lb/>son peuple.</p>
+        <p><lb/>Le libre développement des forces vives de<lb/>la race et du sol, de leur personnalité sécu-<lb/>laire, voilà ce que réclament les félibres. Ce<lb/>qu'ils veulent tous, c'est qu’un Provençal, un<lb/>Languedocien, un Gascon, ait le droit de con¬<lb/>naitre et d'aimer son pays natal, avec la liberté<lb/>de ne pas renier ses ancêtres en faveur d'un<lb/>patriotisme si abstrait qu’il le dénationalise.<lb/>Ils protestent contre un enseignement unifor-<lb/>mitaire qui réduit l'histoire de la France à<lb/>celle de l'Ile-de-France, à celle des agrandis-<lb/>sements de la monarchie. Et au-dessous de sa<lb/>métropole nationale, ils lui souhaitent autant<lb/>de centres régionaux que d'anciens chefs-lieux<lb/>historiques.</p>
+        <p><lb/>Eh! bien, Messieurs, ce vœu se réalise.<lb/>Grâce à ce que les amis du Régionalisme dé-<lb/>nomment aujourd'hui « l'Esprit félibréen»,<lb/>après les félibres on a vu surgir les Cadets<lb/>de Gascogne. Sur leur passage vos nobles pro-<lb/>vinces revivent. Et nous sommes heureux<fw type="digitisation-artefact"><lb/>gallica.bn.f<lb/>Bibliothe</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

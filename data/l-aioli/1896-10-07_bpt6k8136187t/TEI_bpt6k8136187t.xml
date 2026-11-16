@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136187t</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1896-10-07">1896</date>
+          <idno type="ARK">bpt6k8136187t</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136187t</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>SIEISENCO ANNADO, No 208</fw>
+        <ab><milestone unit="column" n="3"/><lb/>" DIMECRE, 7 D'OUTOM </ab>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES (7,17,27)</p>
+        <figure/>
+        <figure type="table"/>
+        <ab><lb/>Tres mes.......... a fr<lb/>Estrangié.......... 12 fr.<lb/>Lou numero.... 10 centime</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab><lb/>PRES DE L'ABOUNAMEN</ab>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>FOLCÒ DE BARONCELLI</ab>
+        <ab><lb/>FOLCO PDE BARONCKLL</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>2</ab>
+        <ab type="head"><lb/>Li rouge dóu miejour</ab>
+        <p><lb/>Ah ! coume coumprene l'afiscacioun de l'au-<lb/>tour dins si nòu-v-an, emé de soun grand, e<lb/>dóu courdounié emai de soun aprendis, que<lb/>venien passa li vihado en sa boutigo pèr ausi<lb/>lis istóri meravihouso dóu vièi Pascau de la<lb/>Patino! Se capitavo souvènt, dis, que lou tiro-<lb/>pèd dóu Materoun se n'arrestavo d'esperéu, e<lb/>que tóuti, mut e vivènt pèr ansin dire que pèr<lb/>l'auriho, demouravon, enjusquo i proumiéris<lb/>ouro dóu matin, enlabrena pèr li remèmbre<lb/>dóu vièi sóudard de la Revoulucioun e de<lb/>l'Empèri. léu tambèn, m'an pivela li raconte<lb/><lb/>que nous n'a counserva e nous debano vuei<lb/>lou Capoulié dóu Felibrige, bèn talamen que,<lb/>lou libre dubert, noun ai pouscu lou plega que<lb/>noun aguèsse agu la fin de l'istòri.</p>
+        <p><lb/>Es touto la campagno espetaclouso dóu ba-<lb/>taioun marsihés de 1792 que se ié desplego,<lb/>dins lou fube di Federa ébri de liberta, traves-<lb/>sant vilo e campagno, proumte coume l'uiau e<lb/>brounzissènt coume lou tron. D'ùni, espanta,<lb/>fugisson davans éli coume davans lou four-<lb/>midable vanc d'un flume que desboundo:<lb/>« Escoundès-vous! estremas-vous! sian tóuti<lb/>perdu ! Li bregand de Marsiho arribon! Sounas<lb/>vòstis enfant! Barras vòsti porto e vòsti fe-<lb/>nestro! Sian tóuti perdu! es lou bataioun<lb/>di bregand, dis assassin, di galerin!»</p>
+        <p><lb/>D'autre lis aculisson, s'afreirant dins la cou-<lb/>munioun revouluciounàri, coume à Vieno,<lb/>ounte, quand vai parti lou bataioun marsihés,<lb/>l'abat Pessonneaux adus lis enfant de soun<lb/>escolo sus lou relarg de la grand glèiso e, gei-<lb/>noun en terro davans l'autar de la Federacioun,<lb/>ié fai canta en Cor lou coublet que vèn d'a-<lb/>poundre à la Marsiheso :</p>
+        <quote><lb/>Nous entrerons dans la carrière<lb/>Quand nos ainés n'y seront plus.</quote>
+        <p><lb/>« Ah! mis ami de Diéu! s'avias vist acò,<lb/>quete regounfle de joio e d'estrambord! Tóuti<lb/>Sis iue lagremejon, chascun pren un d’aquélis<lb/>enfant dins si bras e lou poutounejo; li gènt<lb/>grand s'embrasson, e tóuti cridon : « Vivo li<lb/>ederal Vivo la Nacioun! A bas lou tiran!»</p>
+        <p><lb/>E pièi s’engorgo dins Paris, coume un gau-<lb/>dre aboudenfli pèr la raisso, la troupo miejour-<lb/>nalo, e clafis li carriero dóu mesclun de si<lb/>rèng quicha e prefound, bàrri de car se roun-<lb/>sant à l'assaut de la reiauta, dins lou bram<lb/>d'infèr de si tambour e di milo voues ourlant<lb/>li cant revouluciounàri: «Vaqui que la troumbo<lb/>desbouco sus la plaço de la Bastiho coumou-<lb/>lado de mounde. En fasènt un remoulin es-<lb/>fraious emé la foulo que lou seguis, lou ba-<lb/>taioun s'entrauco, tuerto, desfounso la poupu¬<lb/>lasso quichado coume graniho dins l'òrri; li<lb/>rouino de la Bastiho soun clafido de gènt que<lb/>cridon, brassejon, picon di man; sus li muraio<lb/>en demoulicioun, sus li mouloun de gipas e<lb/>de massacan, sus li fusto e li saumié, sus li<lb/>barri creba, li tourrihoun descourouna, i fe-<lb/>nèstro esbadarnado, duberto i quatre vènt de<lb/>la liberta, tóuti li tèsto se tocon coume lis age<lb/></p>
+        <p><lb/>Pascau de la Patino, alor lou pichot Pascalet<lb/>dins si sege an, a fugi soun vilage de Malamort<lb/>ounte soun paire, un paure pacan, vivié dins<lb/>la misèri e l'esclavitudo, secuta pèr lou mar-<lb/>qués d’Ambrun e lou meichant Surto, un ale-<lb/><lb/>mand qu'es gardo-casso dóu marqués. S'en-<lb/>vèn en Avignoun, e i' arribo quand lou pople<lb/>vèn de se revóuta contro l'autorita dóu Papo e<lb/>dóu Vice-Legat, e festejo sa reünioun à la<lb/>Franço. Rescontro dins la vilo un brave ome<lb/>de bregadié de la gardo naciounalo, Vauclar, e<lb/>s'engajo em' éu dins lou bataioun marsihés, li<lb/>Rouge dóu Miejour, entre que desbarcon en<lb/>Avignoun. Li retrouvan tóuti dous à Paris, encò<lb/>dóu menusié Planchot, un ancian coulègo de<lb/>Vauclar, aro establi dins la grand vilo, e Plan-<lb/>chot ié douno la retirado em' à Lazuli, la femo<lb/>de Vauclar, qu'es vengudo rejougne son ome,<lb/>i' adusènt soun droulihoun Claret em' Adelino,<lb/>la fiho dóu marqués d'Ambrun, qu'a sauvado<lb/>dis arpo de la Jacarasso, uno tripiero avignou-<lb/>nenco que menavo Adelino à Paris pèr l'escou-<lb/>tela. Coumprenès que l'oustau de Planchot es<lb/>lèu clafi, talamen que li lié defauton, e qu’Ade-<lb/>lino dèu s'ana jaire dins uno guihoutino esten-<lb/>dudo pèr sòu e garnido de coupèu de bos, uno<lb/>di quatorge guihoutino que li Jacoubin an<lb/>coumandado au menusié. Ignourènt en dequé<lb/>pòu servi aquéu moble estrange e incouneigu,<lb/>Adelino i' escriéu soun noum sus uno di<lb/>barro, pèr garda remèmbre di crudèus auvàri</p>
+        <p><lb/>Mai li Rouge dóu Miejour soun impaciènt de<lb/>douna l’assaut, mentre que li Parisen, lou<lb/>Maire Pétion, lou coumandant de la gardo na-<lb/>ciounalo Santerre, trantaion entre lou pople e<lb/>lou rèi, negouciant emé li dous partit, pèr se<lb/>jougne en fin de comte à-n-aquéu que sara<lb/>vincèire ; li seicioun de la gardo naciounalo<lb/>parisenco emé Santerre « an resta touto la ma-<lb/>tinado aqui, liuen dóu castèu, mai pamens à<lb/>pourtado, l'armo au pèd, esperant la fin dóu<lb/>coumbat pèr se decida de nous baia la man o<lb/>de nous toumba dessus lou casaquin, segound<lb/>que sarian triounflant o que sarian vincu. Aro,<lb/>vesènt lou trone abouli, lou castèu arrouina,<lb/>lou rèi presounié dóu pople, nous vènon à<lb/>l'endavans, nous fan bèu-bèu, an tóuti si capèu<lb/>au bout di baiouneto e nous aclamon, emé la<lb/>toulo cridon : Vivent les Marseillais!</p>
+        <p><lb/>Car es li Rouge, e li Rouge dóu Miejour, qu'an<lb/>triounfla dins la fourmidablo bataio d'avoust,<lb/>que Pascalet f'es i proumié rèng, entre li mai<lb/>valènt et li proumié qu'intron dins li Téularié<lb/>counquistado. Lou pichot federa a vist lou<lb/><lb/>comte Roubert, lou fiéu dóu marqués d'Am-<lb/>brun, faire d'uno fenèstro dóu castèu lou cop<lb/>de fió contro li Marsihés, ajuda pèr lou mi-<lb/>chant Surto que ié cargavo soun fusiéu. Mai<lb/>Surto es un traite; brulo subran d’uno pis-<lb/>touletado la cervello à soun jouine mèstre,<lb/>e s’enfugis. Lou retrouvaren emé la Jaca-<lb/>rasso, au mitan di « chourmo de sacamand,<lb/>d’espeiandra, de gardo-naciounau, de femo<lb/><lb/>embriagado, enlissado, que pihon lis ous-<lb/>tau, li glèiso, li palais, trason li moble de-<lb/>foro. Quant n’en rescountran pas, dis Pasca-<lb/><lb/>let, en anant dóu castèu à la caserno, que<lb/>tirasson i presoun, liga coume de voulur,<lb/>mita mort de pòu, de gènt de la noublesso,<lb/>de capelan, de gros bourgés, souspèt d'ès-<lb/>tre anti-patrioto, o qu'estènt pas au cour-<lb/>rènt di causo se dison encaro respetous de<lb/>soun rèi e de sa rèino! Li Rouge dóu Miejour,<lb/>que nous an fa passa pèr li bregand di galèro<lb/>de Touloun, nous sarian countenta de ié faire<lb/>crida Vivo la Nacioun ! pièi, passo que t'ai vist.<lb/>Mai, éli, fau bèn qu’emé lou sang dis aristò<lb/>escafon sa vergougno de nous agué leissa<lb/>quàsi tóuti soulet sauva la Patrio e li Dre de<lb/>r'Ome. » Surto e la Jacarasso soun liga 'mé<lb/>la marqueso d'Ambrun pér faire peri lou mar-<lb/>qués, lou comte, Adelino e Pascalet, e rauba<lb/>li bèn de la famiho d’Ambrun. Ansin la ven-<lb/>janço privado atrovo souvènt sousto e ajudo<lb/>dins li grand treboulun di nacioun. Adelino<lb/>e Pascalet an pouscu se sauva ; elo tourno en<lb/>Prouvènço e ié devèn mourgo ; éu, maucoura<lb/>pèr lis assassinat e li raubadisso que seguis-<lb/>son la vitòri dóu bataioun marsihés, vòu se<lb/>nega en Sèino, quand entènd rampela lou tam-<lb/>pour que sono li voulountàri pèr apara la Pa-<lb/>trio en dangié : s'enrolo dins l'armado, e fai<lb/>tóuti li gràndi guerro de la Revoulucioun e de</p>
+        <p><lb/>Revengu à Paris entre dos campagno, Pas-<lb/>cau mountavo la gàrdi sus la plaço de la Re-<lb/>voucioun. A-de-rèng. li carreto pleno de<lb/>coundana à mort s'arrestavon davans la gui-<lb/>houtino. Enfin uno arribo, cargado soulamen<lb/>de dos femo e d'un ome, e Pascau estabousi<lb/>ié recounèis la marqueso Adelaido, la Jaca-<lb/>rasso e Surto. «Alor iéu vole ié parla, ié re-<lb/>proucha tóuti si crime, mai noun pode sourte<lb/>uno paraulo ; n'ai que la forço de ié moustra<lb/>Sóu det amoundaut lou coutelas lusènt. Tóuti<lb/>tres au cop, Surto. Adelaido e la Jacarasso,<lb/>ausson lis iue, e tóuti tres li baisson subran<lb/>emé terrour ; la marqueso jito un crid e toumbo<lb/>sus si geinoun, iéu meme requiéule espaventa!<lb/>Noun es la visto dóu coutèu que nous a pala-<lb/>fica! Avèn legi amount sus la travèsso un<lb/>noum que crido venjanço: Adelino !...</p>
+        <p rend="labelled"><lb/>« Tres cop lou coutèu a davala. Tres cop<lb/>sourne an clanti. Tres tèsto dins la banasto<lb/>parpelejon e mastegon lou rassun.</p>
+        <p><lb/>Ero la guihoutino dóu menusié Planchot.<lb/>lou lié improuvisa d'Adelino, mounte la chato<lb/>avié escri soun noum, que servié de toumbèu<lb/>i tres miserable qu'avien coumplouta sa mort.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

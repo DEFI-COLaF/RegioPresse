@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Descaladaire</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81326115</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Descaladaire : journaou satiri-coumique deis carrieros, deis proumenados et deis cabanouns : mescla de marrits vers français et prouvençaous, dedia eis ouvriers / redigea per un sapur de la Gardo natiounalo de Mimet ...</title>
+          <publisher>Impr. nationale associations d'ouvriers (Marseille)</publisher>
+          <date when="1848-01-01">1848</date>
+          <idno type="ARK">bpt6k81326115</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81326115</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <note type="handwritten"><lb/>(par Pierre Bellot</note>
+        <note type="handwritten"><lb/>1</note>
+        <ab><milestone unit="column" n="2"/><lb/>(Ce Journal paraitra ad libitum.)</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Journaou Satiri-Coumique deis Proumenados deis Theares et deis Cabanouns,</head>
+        <head><lb/>mESCLA DE MARRITS VERS FRANÇAIS eT PROUVENÇAOUS</head>
+        <p rend="styled"><lb/>Redigea per an Sapar de la Gardo Natiousalo de Mimet, ermembre de l'lcademio de Vitrols et decoura dune superte balafro a la frimousso.</p>
+        <p rend="styled"><lb/>Ciberta!</p>
+        <lg>
+          <l><lb/>O tu fillo doou ciel, arc-en-ciel d'esperanea</l>
+          <l><lb/>Tant douco liberta, sies rendudo a la Franço¬</l>
+          <l><lb/>Cuerbe de teis coulours touteis leis aoupiniens.</l>
+          <l><lb/>Et de teis bras puissants embrasso leis natiens.</l>
+        </lg>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="1"/><lb/>DEDIA EIS OUVRIERS</ab>
+        <ab><lb/>Fraterma</ab>
+        <ab><lb/>Egalita!</ab>
+        <ab><lb/>Jamai leis assassios, dessus d'aquesto terro,<lb/>Eme l'homme de ben pourrant frateraisar;<lb/>L'infer eme lou ciel poou pas simpathisar;<lb/>Der tertu serans toujours en guerro."</ab>
+        <ab><lb/>bonte la troubares, pas meme aou cementeri.<lb/>Aqui, lou riche, l'orguillous,<lb/>De soun toumbeou majestuous,<lb/>Semblo mespresa la miseri<lb/>Que douarme a seis peds senso crous.</ab>
+        <figure type="decoration"/>
+        <p rend="styled"><lb/><lb/>Tout ce qui concerne la rédaction de ce Journal doit être adressé rue Canebière, 12, (franco)</p>
+      </div>
+      <div type="article">
+        <head><lb/>D E YOYAGEUR ALLEMAND.</head>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>DIALOGUO HISTORIQUO.</ab>
+        <lg>
+          <l><lb/>Che fiens pour fous offrir de la maison Glinquant,</l>
+          <l><lb/>De ziperbes goutils, nil autre fapricant,</l>
+          <l><lb/>Plis que lui n'est chaloux t'avoir fotre bratique.</l>
+        </lg>
+        <ab type="head"><lb/>LE MARCHAND</ab>
+        <lg>
+          <l><lb/>Je bous crois, mais sandis bous le sabez fort vien</l>
+          <l><lb/>En temps de Republique on n'a vesoin de rien.</l>
+        </lg>
+        <ab type="head"><lb/>LE VOYAGEUR.</ab>
+        <lg>
+          <l><lb/>rous patinez che crois.</l>
+        </lg>
+        <ab type="head"><lb/>LE MARCHAND.</ab>
+        <lg>
+          <l><lb/>Non, clest très béridique,</l>
+          <l><lb/>Asthure le marchand peut fermer sa voutique,</l>
+          <l><lb/>Pour aller promener, la canne sous lé vras,</l>
+          <l><lb/>Tout le monde se plaint, personne ne trabaille,</l>
+          <l><lb/>n.es oubriers, cadedis, non pido m soa m mame.</l>
+        </lg>
+        <ab type="head"><lb/>LE VOYAGEUR.</ab>
+        <lg>
+          <l><lb/>Mais aux oufriers, bourtant il faut de matelas.</l>
+        </lg>
+        <ab type="head"><lb/>lE MARCHAND.</ab>
+        <lg>
+          <l><lb/>Eh! non capedebieou, la Republique, hélas!</l>
+        </lg>
+        <ab><lb/>es a mis sur la paille.</ab>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>La Counstitutien<lb/>à 5 CENT.</ab>
+        <lg>
+          <l><lb/>Un vieilh paysan d'Araou, d’aqueleis boueno voyo,</l>
+          <l><lb/>Qu'aimount mies un lebraou que la couet d'uno enchoyo,</l>
+          <l><lb/>Senanavo en cantant sur soun pichot grisoun.</l>
+          <l><lb/>Tout en camin fasent rescontre un foutissoun</l>
+          <l><lb/>Que coumo un sourd cridavo aou mitant deis Alleyos:</l>
+          <l><lb/>« Voici le grand travail de l'augusto assembleyos;</l>
+          <l><lb/>« Y se vend pas qu'un sou. » Nouestre vieilh fourestier</l>
+          <l><lb/>Saplanto eme soun ai per crompar lou papier,</l>
+          <l><lb/>Va veire soun bourgeois, puis sentouarno aou villagi.</l>
+          <l><lb/>Sabie qu'a soun retour</l>
+          <l><lb/>Bedo, medecin et rectour</l>
+          <l><lb/>L'esperariens à soun passagi</l>
+          <l><lb/>Per saoupre de Paris la nouvello doou jour.</l>
+          <l><lb/>Si troumpe pas; a peine aou grand pous arribavo</l>
+          <l><lb/>Que dejà lou nebout doou vieilh paire Cayoou,</l>
+          <l><lb/>Quiat sur un bancaou, d'uno leguo cridavo:</l>
+          <l><lb/>Eh ben ! mestre Dufour, que nous adues de noou?</l>
+          <l><lb/>Repliquo Jean Dufour;</l>
+          <l><lb/>» O, la Constitutien si vende dins la villo,</l>
+        </lg>
+        <p rend="styled"><lb/>« Pas grand cavo,»</p>
+        <list>
+          <item>« L'a qu'a Paris avens noou cent mangeaire</item>
+        </list>
+        <list>
+          <item>» Que nous couestoun cadun vingt cinq francs per jour,</item>
+        </list>
+        <list>
+          <item>» Ant trabailla sept mes. Si sabies per que faire,</item>
+        </list>
+        <list>
+          <item>» Degun va si creirie, pamens cadun va soou,</item>
+        </list>
+        <list>
+          <item>» Per nous faire un travail que voou pas mai d'un soou.</item>
+        </list>
+        <list>
+          <item>"eq commes, crer va, n'a per crachar la billo»</item>
+        </list>
+        <ab><lb/>EL MeAND GASCON ANTI-RET OBN,</ab>
+        <ab><lb/>-</ab>
+        <ab><lb/>-</ab>
+        <figure type="decoration"/>
+        <ab><lb/>for 10024</ab>
+        <note type="handwritten"><lb/>BIBLIOTHEQUE MUNICIPALE</note>
+        <pb facs="0002.xml"/>
+      </div>
+      <div type="article">
+        <fw type="runningTitle"><lb/>St-Zacharle.</fw>
+        <fw type="runningTitle"><lb/>A MM. Boo </fw>
+        <lg>
+          <l><lb/>Vous remercieou toueis doux deis vers que m'avez fach,</l>
+          <l><lb/>Pierre n’est ben countent, et Bellot satisfach.</l>
+          <l><lb/>Voudrieou pousque, Messies, vous dire ma petado,</l>
+          <l><lb/>Mai ma muso aoujourd’hui creigne troou la mountado,</l>
+          <l><lb/>Leis camins soun marrits, mi la foudrie portar,</l>
+          <l><lb/>Souto aqueou fai troou lourd mi pourrieou esquintar,</l>
+          <l><lb/>Mi blamaria segur si per elle, pecaire,</l>
+          <l><lb/>Mi roumpieou cooucaren, ou marchavi de caire.</l>
+          <l><lb/>Leissen lou vieilh drapeou, m'inspiravo plus ren,</l>
+          <l><lb/>Voulieou la rimo en in, mi la dounavo en en.</l>
+          <l><lb/>Coumo vaoutreis s’avieou la fino répartido,</l>
+          <l><lb/>Ma responso doou sut pus leou serie partido.</l>
+          <l><lb/>Mai mi foou renounçar de rimegear de vers,</l>
+          <l><lb/>Car aro moun esprit va toujours de travers.</l>
+          <l><lb/>Sur pegaso aoutreifes, a peou nus, senso brido¬</l>
+          <l><lb/>Mountavi coumo un tron, senso courre bourrido;</l>
+          <l><lb/>Aoujourd'hui qu'ai vougut sus eou m’escambarlar,</l>
+          <l><lb/>Quatre fes doou valoun ma fach degringoular;</l>
+          <l><lb/>Erian prochi la fouen m’ounte lou grand Racino</l>
+          <l><lb/>S'amouravo souvent per faire de vermino.</l>
+          <l><lb/>Mi parei qu’aquello aiguo a perdu soun renoun</l>
+          <l><lb/>Despuis que de B..... bagné lou gargassoun;</l>
+          <l><lb/>Aqueou secound Brunet, que lou soir à la bruno</l>
+          <l><lb/>Eis alleyos coumo eou proumeno dins la luno,</l>
+          <l><lb/>Pas countent de n'en boiro aou bassin coumo un muou,</l>
+          <l><lb/>Si li trempavo alin, s'en lavavo lou c......</l>
+          <l><lb/>Prenie de lavaments, petavo dins sa sourço;</l>
+          <l><lb/>L'hypocrèno despuis a pres uno aoutro courso.</l>
+          <l><lb/>Cresie qu’en s’engourgan de l'aiguo d’Apouloun</l>
+          <l><lb/>Aourie d'inspiratien..... es toujours pus c.......</l>
+        </lg>
+        <ab><milestone unit="column" n="1"/><lb/>Esperi lou dijoou coumo un juif lou Messio,<lb/>Per anar v'estranglar de caresso à Marsilho,<lb/>Et faire chez Briffaud vo ben chez Martino,<lb/>Pagar à l'ami Bosq sa blaguo oou domino.<lb/>Ah ! mi voou galegear, es segur de Beoucaire,<lb/>Noun, s’en foute, es d'Oouruou... Mai va soou ben pecaire?<lb/><lb/>Que li toundi sa lano et qu'es toujours mooutoun;<lb/>Vous leissi per soupar, vaou brandar lou mentoun<lb/>Eme moun cher nebou, que fa leis ooumelettos<lb/>Mies qu’un vieilh cousinier ; ieou faou que de boulettos<lb/>Mai per chiquar, crei-ti, qu’ai tant bouen appetit,<lb/>Qu'aro t'avalarieou un gros vedeou restit.<lb/>Adessias (boueno nuech), vous faou millo embrassados,<lb/>A dijoou, à dijoou, meis dignes camarados.<lb/>Aro per terminar, ti dirai cher Garcin,<lb/>De ti faire coupar ben ras toun agassin ;<lb/>Engouargueti toujours d’aqueou jus que la souquo<lb/>Nous pisso toueis leis ans per nous lavar la bouquo.<lb/>A dijoou si voules mi veire debarquar,<lb/>Venes aou Cours Sant-Louis, vo ben fes vous brusquar.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="2"/><lb/>craqud</ab>
+        <ab><lb/>Pas luench de Milianah, dins leis terros d’Afriquo,<lb/>On sapeur bategea Martin-Rouigno-Portien,<lb/>Que buviet coumo un musicien,<lb/>Senso counouisse la musiquo,<lb/>Avant la fin doou jour, sur ses pas trobo un lien,<lb/>Que, per lou devourar, deja durbie la gulo;<lb/>Eou, quero couragoux, a tres pas si reculo<lb/>Et li crido subran : Alto là notre ancien?<lb/>Lou lien que coumprend pas lou jargoun de la Franço <lb/>Saplanto tout redoun.... apres sus eou si lanço ;<lb/>Mais lou vieil de la vieilho, en bravant lou trepas,<lb/>Dins la gulo doou lien precipito soun bras<lb/>Que va sorti d’un traou que sente pas la mento;<lb/>Daqui li prend la couet, et lou rusa sapin<lb/>D'uno man vigouroué, doou temps que si tourmente,<lb/>Lou deviro à l'enves coumo sero un lapin.<lb/>En disent : Non d'un cien, ze t'avions mis à l'ordre,<lb/>La maçoire à l'envers, tu ne peu plus me mordre.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>OU L'OOSSEOU DE MOUN PAOURE OUNCLE.</head>
+        <ab><lb/>L'aiGLe</ab>
+        <ab><lb/>1</ab>
+        <ab><lb/>Dien quen co d’un nebout doou plus grand emperour;<lb/>Quand fouguet nouma rei de nouestre republiquo,<lb/>Leis deputats doou nord, tout coumo doou miejour,<lb/>Per lou coumplimentar et li faire la cour,<lb/>Ferount plooure a seis peds de flour de rethoriquo;<lb/>Sou, qu'escoutavo tout et que ren si cresie,<lb/><lb/>/Car deis flatours counouissie la tactiquo.)<lb/>D'uno oourilho l'intravo et de l'aoutre sortie ;<lb/>Quand certain deputat, de tigeo prouvençalo,<lb/>Natif de Sant-Masseou,<lb/>En intrant, tout surpres de ve ire dins la salo,<lb/>Suspendudo aou plafound, uno aiglo colossalo,<lb/>Crido tout espanta : bouen Dieou, que bel oousseou?<lb/>Lou president replique à soun ami Girouncle:<lb/>Es l'oosseou de moun paoure ouncle</ab>
+        <ab><lb/>deKSEOU.</ab>
+        <ab><lb/>Vouestre ouncle en senanant, temoin vouestre em,<lb/>Nous leisso en 18, nous leisses pas ensin;<lb/>Et mesfisa vous ben d’uno rusado cliquo,<lb/>Vous escamoutarien eme la Republiquo.<lb/>Car sabes mies que yeou, que lou bouen parisien<lb/>Doou soir aou lendeman changeo de counvictien.<lb/>Lou pople de Paris fa ben la pirouetto,<lb/>Bn ne e gens.</ab>
+        <figure type="decoration"/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81361301</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1895-03-07">1895</date>
+          <idno type="ARK">bpt6k81361301</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81361301</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>CINQUENCO ANNADO, N M.</fw>
+        <ab><milestone unit="column" n="3"/><lb/>DIJOU, 7 DE MARS 1805.</ab>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr P'oli<lb/>E faren l'aiòli.</ab>
+        <figure type="table"/>
+        <ab><lb/>F. MIsTRAL.</ab>
+        <ab><lb/>(Prouverei di ménounie)</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17,27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FoLCO DE BARONCKLLT,<lb/>au palais déu Roure,<lb/>EN AVIGNOUN</ab>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN</p>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <ab><lb/>Baile dou journau:<lb/>FOLCO DE BARONCELLI</ab>
+      </div>
+      <div type="article">
+        <head><lb/>LI MOBLE D'ARLE</head>
+        <p><lb/>BERAQUI souto Louis XV, e souto l'enfluènci<lb/> de l'estile galant qu'avié la vogo d'aquéu<lb/>tèms, se coungreiè en terro d'Arle uno ma-<lb/>niero d'art touto particuliero pèr moubla lis<lb/>oustau. Li moble d'aquelo epoco, e qu’an fa<lb/>tradicioun pendènt belèu cènt-cinquanto an,<lb/>soun d'uno eleganço requisto, e regalon lis<lb/>iue, quand li vesès dins un oustau. Vuei ma-<lb/>lurousamen aquéli moble prouvençau, qu'èron<lb/>escrincela pèr li menusié dóu pais e que fasien<lb/>la glòri de nòsti bràvi maire, tèndon à despa-<lb/>rèisse, coume touto autro causo, davans la<lb/>pacoutiho fabricado à bon comte. Lis abitant,<lb/>li paisan, que n’avien sis oustau garni, li vèn.<lb/>don i repetié pèr achata de ravaudiho — que<lb/>creson à la modo, e li repetié li revèndon is<lb/>amatour e gènt de goust — que lis emporton<lb/>un pau pertout.</p>
+        <p><lb/>De que se coumpausavo l'amoublamen arla-<lb/>ten ? Quand disèn arlaten, ié coumprenèn tam-<lb/>bèn Tarascoun e Bèu-Caire, e tóuti li vilo e vi-<lb/>lage ounte li femo porton l'atrencaduro d'Arle.</p>
+        <p><lb/>l'a d'abord lou pestrin (en francés crédence o<lb/>buffet). A dous tiradou sus lou daut e'n des-<lb/>souto dos porto que rejougnon lou linge e àu-<lb/>tri garnimen de taulo. Aquéli porto avien de<lb/>ferramento decoupado, emé de grand goun-<lb/>foun lusènt. Tout lou davans èro flouri d'es-<lb/>crinceladuro au cisèu e, au bas, sus lou mitan,<lb/>èro entaiado uno soupiero, simbèu dóu repas<lb/>de famiho.</p>
+        <p><lb/>Sus lou pestrin, en reculado, l'avié souvènt<lb/>un autre moble, espèci de releisset garni de<lb/>pichot tiradou, que n'èro lou courounamen.</p>
+        <p><lb/>la pièi la mastro (en francés la huche), en<lb/>formo de sarcoutage antique, pourtado sus<lb/>quatre pèd. Se ié pastavo lou pan d'oustau.<lb/>l'èron representa en naïvo esculturo lis estru-<lb/>men de la meissoun: lou voulame, lou rastèu,<lb/>em' uno garbo de blad.</p>
+        <p><lb/>la l'estagnié o escudelié (lou dressoir en fran-<lb/>cés), qu'èro un cadre garni de tres o quatre<lb/>estagiero, ounte se revessavo la veissello d'es.<lb/>tam e peréu li sieto escricho, li bèlli sieto de<lb/>Moustié — que li novi achatavon en fiero de<lb/>Bèu-Caire.</p>
+        <p><lb/>Pa lou veiriau, un moble que s'acroucavo à<lb/>la muraio o se metié sus lou pestrin, e mounte<lb/>espausavon li vèire e touto la cristalarié.</p>
+        <p><lb/>Sus lou pestrin enfin, encaro generalamen,<lb/>se pènjo la paniero, qu'emé sis espigoun, si<lb/>festoun, si cloucheiroun, retrais uno capeleto,<lb/>coume dirias lou toumbèu dóu papo Jan XXII.<lb/>Au pourtissoun de la paniero, que souvènt es<lb/>reboum bi, lou menuste lé ciselavo quauquis</p>
+      </div>
+      <div type="article">
+        <p><lb/>De chasque las de la chaminèio i'a la saliero<lb/>e la fariniero, dous moble en miniaturo, que<lb/>dins l'un i'a la sau, dins l'autre la farino pèr<lb/>faire fregi lou pèis. Sus la saliero escultavon<lb/>un bouquet de saladello, e sus la fariniero un<lb/>parèu de peissoun.</p>
+        <p><lb/>Oubliden pas un cofre moustre, que tenié<lb/>tout un caire de la grando cousino dis oustau<lb/>meinagié e qu'apelavon lou moulin, o de-fes<lb/>la baluteliero, e que servié pèr tamisa.</p>
+        <p><lb/>Pèr fini, à la chambro avès lou gardo-raubo,<lb/>qu'acò 's lou moble majourau, emé si gràndi<lb/>porto à ferramento en zistoun-zèst, endente-<lb/>lado à jour, e si dous aut gounfoun, redoun e<lb/>loungaru, tau que dos coulouno de brounze.<lb/>Sus lou daut, esculta, se vèi un vas de flour,<lb/>o bèn un nis de tourtourello, o bèn un crema-<lb/>dou de flamo, o tout autre simbole de l'amour<lb/><lb/>counjugau ; e pièi, entre li porto, un tambou-<lb/>rin, un flahutet, emé de fru de la Prouvènço.</p>
+        <p><lb/>Tout acò èro en bos de nóuguié bèn cira,<lb/>que dintre l'on se miraiavo. Ero lou lùssi dis<lb/>oustau, enjusquo vers li pàuri gènt ; e 'mé lou<lb/>coustume di chato, particularisavo lou gàubi<lb/>gracious de la raço arlatenco. Mai aquéu vènt<lb/>de platitudo, que vuei destaco li nacioun de<lb/>tout ço qu’es tradiciounau, fai que bèn lèu<lb/>veiren parti acò coume tant d'àutri causo. E<lb/>memamen lou gardo-raubo fai deja plaço à<lb/>l'armàri à glaço.</p>
+        <p><lb/>L'espourtacioun de nòsti moble, qu'en Arle<lb/>fai l'oujèt d'un trafi particulié, me rapello uno<lb/>engano que fau que iéu vous conte.</p>
+        <p><lb/>Un jour erian en Arle em'un ami de Paris,<lb/>que voulié se croumpa un dedins-d'oustau ar¬<lb/>laten, la paniero, lou pestrin, la mastro, l'es-<lb/>tagnié, lou veiriau e lou rèsto. Après avé rouda,<lb/>marcandeja vers li marchand, un d’aquésti<lb/>nous faguè: « Aro, messiés, s'erias curious de<lb/>vèire dins un mas un assourtimen de moble<lb/>coume n'ai gaire vist de miés, iéu poudriéu<lb/>vous ié mena: es eila vers Trenco-Taio. Sou-<lb/>lamen es de gènt que ié soun forço estaca, e<lb/>crese pas que se decidèsson, pèr d'argènt, à<lb/>se n'en desfaire. » — « Anen li vèire », ié di-<lb/>guerian.</p>
+        <p><lb/>E, acoumpagna dóu marchand, nous vaqui<lb/>caminant dins la draio dóu mas. La femo èro<lb/>sus la porto e, tre nous vèire, cridè à-n-aquéu<lb/>que nous menavo :</p>
+        <p rend="labelled"><lb/>— Anen, nous n'adusès mai, d'aquéli brou-<lb/>cantejaire ? Lous sabès bèn, que voulèn pas</p>
+        <p rend="labelled"><lb/>— Eh! diguè lou marchand, vous escafagnés<lb/>pas coume acò! Vous li manjaran pas, vòsti<lb/>moble, pèr li vèire!</p>
+        <p rend="labelled"><lb/>don inres que per li vêire, aquéli moussu<lb/>odon mar</p>
+        <p><lb/>E'm’acò intrerian e, veritablamen, nous<lb/>trouverian en fàci d'un amoublamen perfèt,<lb/>chasque moble à sa plaço, que se vesié que<lb/>r'èro desempièi d'an e d'an. Moun cambarado<lb/>barbelavo<lb/></p>
+        <p rend="labelled"><lb/>— Bravo femo, ié fai, autramen, quant n'en<lb/>voudrias, au cas ounte quauque jour sigues-<lb/>sias decidado à vèndre?</p>
+        <p rend="labelled"><lb/>– Vèndre noste dedins-d'oustau ! que moun<lb/>paire, que ma maire, que nòsti grand nous an<lb/>leissa ! Tenès, vesès aquéu pestrin ? Eh! bèn,<lb/>es un avugle, o, un menusié avugle, que l'a<lb/>cisela coume acò... Belèu n'avès ausi parla, de<lb/>l'avugle de Saujan? Eh! bèn, es éu, aquéu de<lb/>Saujan, que, rèn que de-tastoun. a fa aquéu<lb/>bèu travai.</p>
+        <p rend="labelled"><lb/>— Mai anen, argent pago tout, asardè lou<lb/>marchand de moble.</p>
+        <p rend="labelled"><lb/>— Me n'en baiarien sèt cènt franc que me<lb/>farien pas dire sebo.</p>
+        <p rend="labelled"><lb/>— Aqui sias pas dins la resoun: à sièis cènt,<lb/>sarien brula.</p>
+        <p rend="labelled"><lb/>— Sèt cènt! crido la femo, emai encaro, vès,<lb/>sabe pas se moun ome me fara pas desdire.</p>
+        <p rend="labelled"><lb/>Va pèr sèt cènt ! diguè moun ami enfiouca<lb/>que dounè d'arro à la masiero e, pache fa,<lb/>nous envenguerian.</p>
+        <p><lb/>D'aqui, sus la Plaço dis Ome, veici qu'erian<lb/>intra pèr béure quaucarèn au Cafe di Meinagié,<lb/>e moun coulègo, urous de sa trouvaio e de sa<lb/>croumpo, n'en parlavo tout fièr en d'Arlaten<lb/>qu' aqui i'avié. Mai aquésti, pas-pulèu lou Pa-<lb/>risen aguè bada, partiguèron ensèn dóu rire :</p>
+        <p rend="labelled"><lb/>— Vòsti moble, nous diguèron, sorton dóu<lb/>magasin dóu marchand que vous a coundu.<lb/>Es un biais qu'a trouva pèr faire valé sa brou-<lb/>canto. Quand aurés pres aquéli, n'i'en carre-<lb/>jara mai un autre assourtimen.</p>
+        <p><lb/>Aro, f'aura-ti un retour vers aquéu gènt es-<lb/>tile d'Arle, quand lou pople, educa pèr l'a-<lb/>cioun felibrenco, coumprendra miés li causo<lb/>que ié fasien ounour? Es de souveta, car pièi,<lb/>à forço de leissa tout perdre, la vido devendra<lb/>tant laido que tóuti n'auran lou maucor.</p>
+        <p><lb/>En atendènt, un ome de bon, un grand fa-<lb/>bricant de moble, M. A. Blanqui, de Marsiho<lb/>(8, carriero Cherchell), a coumprés en artisto<lb/>lou partit, meme endustriau, que se poudié<lb/>tira dóu vièi art arlaten. E veici que s'es mes à<lb/>fabrica, de man de mèstre, tout un gènre de<lb/>moble qu'apello « prouvençau » dins lou plus<lb/>pur estile d'Arle. E deja li catau inteligènt de<lb/>l'encountrado ié fan de coumando bello; e se<lb/>quaucun vòu n'en juja, a que d'ana 'n Camargo,<lb/>au castèu de Mount-Caume, vers M. Louis<lb/>Prat, e aqui pourra vèire, dins la salo à manja,<lb/>de pestrin, d'estagnié, de veiriau, de paniero, que<lb/>n'il'a pèr ié bada davam</p>
+        <ab><lb/>50Bques e aseie</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

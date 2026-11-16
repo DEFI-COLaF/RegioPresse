@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k9609606m</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1945-04-01">1945</date>
+          <idno type="ARK">bpt6k9609606m</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k9609606m</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="article">
+        <div>
+          <pb facs="0008.xml"/>
+          <milestone unit="page" n="48"/>
+          <head><lb/>Nouveaux Adhérents</head>
+          <p rend="labelled"><lb/>M. LAMBERT, Professeur à la Sorbonne, 3, Rue Michelet,<lb/>2258.<lb/>Paris (VI°), présenté par Mrs Mesplé et J. R. de Prousse.<lb/>2259.<lb/>M. JEAN CRASSETEAU, agent de change, 37, Rue dés Mar¬<lb/>chands, présenté par Mrs Maurice Boyé et Mesplé.<lb/>2260.<lb/>M. DE LANGAUTIER. 4, Place Jeanne d’Arc, présenté par<lb/>Mme Germaine Gauzy et M. J. R. de Brousse.<lb/>Mme DEBRAY, 4, Place Jeanne d’Arc, présentée par Mme<lb/>2261.<lb/>Germaine Gauzy et M. J. R. de Brousse.<lb/>2262<lb/>Mme MAURICE CAHUZAC, 35, Rue de Metz, présentée, par<lb/>Mrs Pierre de Gorsse et Robert Mesuret.<lb/>M. le Pharmacien COMMANDANT BORDES, Chef de Service à<lb/>2263.<lb/>l’Hôpital Militaire Larrey, présenté par le Dr. Chartes<lb/>Bernardin et M. Paul Mesplé.<lb/>2264.<lb/>Mlle MONIQUE DESPOUY, 103, Quai Branly, Paris (XVe), pré-<lb/>sentée par le Dr Charles Bernardin et M. Paul Mesplé.<lb/>MIle ALICE CONNILLIÈRE, 25, Rue Montcabrier, présentée<lb/>2265.<lb/>par Mme Stiéber et M. Mesplé.<lb/>Mlle N. Noy, 13, Rue des Fleurs, présentée par Mme Stie-<lb/>2266.<lb/>ber et M. Mesplé.</p>
+          <figure type="decoration"/>
+          <p rend="heading"><lb/>Notre Musée</p>
+          <figure type="decoration"/>
+          <p rend="heading"><lb/>DOCUMENTS ET OBJETS DIVERS</p>
+          <p rend="labelled"><lb/>— Henry PARAYRE. — « La blanchisseuse », type de Toulou-<lb/>saine aux environs de 1900, terre cuite patinée. H. 0,32. — Don<lb/>de l'auteur.</p>
+          <p rend="labelled"><lb/>— SERRES (Alexandre). Toulouse, 12 janvier 1846-20 avril<lb/>1905. — Buste de femme, terre cuite, signée des initiales A. S. en<lb/>monogramme. H. 0,30. — Don de M. Latapie.<lb/>Imp. du Sud-Ouest, 6, r. Ste-Ursule</p>
+          <note>
+            <p rend="styled"><lb/>Le Gérant: P. MESPLE<fw type="digitisation-artefact"><lb/>a.bnf.fr / Association des Toulousains de To</fw></p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

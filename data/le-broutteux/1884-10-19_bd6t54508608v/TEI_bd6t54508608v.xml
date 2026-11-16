@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508608v</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1884-10-19">1884</date>
+          <idno type="ARK">bd6t54508608v</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508608v</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Un Numéro: 10 centimes</fw>
+        <fw type="runningTitle"><lb/>Numéro 117. (3me ANNÉE).</fw>
+        <fw type="runningTitle"><lb/><lb/>ABONNE<lb/>payables d'avance<lb/>3mois. fr.1-50<lb/><lb/>6</fw>
+        <dateline><lb/>DIMANCHE 19 OCTOBRE 1884</dateline>
+        <ab><milestone unit="column" n="2"/><lb/>Administration : FRERE-GLORIEUX, Imprimeur, rue de Lille, 18. — Rédaction: Jules WATTEEUW, rue Desurmont, 31</ab>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>«Dy ades héfises<lb/>qu'un homme d'espril<lb/>achéterait.<lb/>VOISENON<lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING</p>
+        <ab><lb/>Etranger, port en sus.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>AuX LEcTEURS du BROuTTEux</head>
+        <p><lb/>Notre ami, M. Jules Watteeuw, vient<lb/>d’être frappé dans ses plus chères affec-<lb/>tions ; il a perdu, le 11 courant, son fils<lb/>unique, âgé de 6 ans et 3 mois.</p>
+        <p><lb/>La prévoyance du spirituel rédacteur du<lb/>Broutteux, nous a permis de respecter sa<lb/>grande douleur.</p>
+        <p><lb/>La rédaction étant faite depuis la se-<lb/>maine dernière, nous avons donc pu,<lb/>malgré ce qu'en pensait le public, faire<lb/>paraître le n^o du 19 octobre.</p>
+        <p><lb/>Nous n’aurons ainsi à réclamer l'indul-<lb/>gence, si toutefois il y a lieu, que pour le<lb/>n° qui suivra.<lb/>Nous espérons bien que nos lecteurs se</p>
+        <p><lb/>joindront à nous pour témoigner à ce<lb/>père infortuné la part que nous prenons<lb/>à son malheur.</p>
+        <ab><lb/>FRÈRE-GLORIEUX.</ab>
+        <p><lb/>Pour avoir des doupes et eusses aller<lb/>boire, comben d’soulards qui donn’tent<lb/>inne pourée à leu femme! Comben d'filles<lb/>et d’garchons qui s’sont perdus pour avoir<lb/>des doupes ! Tchan qu'in dira qui n'd'a<lb/>qui s'font coper l'tête jus d'leus épaules<lb/>pour avoir commis in crime, toudis vin<lb/>l'but d’avoir des doupes! Comben qui<lb/><lb/>n'd'a qui z’ont été in Californie cachi<lb/>d'l’or et qui n’sont jomais pu erpéri vin<lb/>leus indrots. Iafin, pou dire la vérité,com-<lb/>ben qui n’d’a qui sont v’nus seuts, qui<lb/>z'ont perdu la boule pour chès malhureux<lb/>doupes.</p>
+        <p><lb/>In a bel à dire mais ch'est essin.</p>
+        <p><lb/>Et depus que l’monde existe, cha toudis<lb/>été essin, in connot d’z’histoires qui ont<lb/>arrivées vin les temps les pus longs, tou-<lb/>dis a propeu des doupes.<lb/></p>
+        <p><lb/>Ch’est tchurieux, tout d’même, tchan<lb/>qu'in étudie de l'manire que les doupes<lb/>ont fait leu z’apparition et qu’mint qu’in<lb/>a parvenu, inne mioche à l'fos, à faire,<lb/>vin toutes les puissances, des monnaies<lb/>comme in a au momint d’euch'teur.</p>
+        <p><lb/>Ainsi, y paraîtrot que du temps d’Jacob,<lb/>qui a lommint qui n’a pu ma à ses dints<lb/>et que j’n’ai po connu, ni vous autes non<lb/>pus; in payot d’ja inveuc du métal. Mais<lb/>veyi inne fos, comme ch’étot rigoleu, in<lb/>copot in morceu in proportion, pou payi,<lb/>chaque fos. J’vous d’mande inne fos,<lb/>comme ch'étot régalant d’voyagi pour<lb/>aller aquater inne saquo, qui faulot avoir<lb/>in marten et inne oti pou couper sot<lb/>l’tchuffe ou ben l'fer, pou payi, pasque<lb/>j’suppose qu’adan, chès saquos la étottent<lb/>aussi durs qu’euch’teur, in n’povot po<lb/>coper cha comme des saucisses, ené?<lb/>Par après l'esprit leu z'a v'nu inveuc l'âge<lb/>et y ont copé d’avanche des morceux<lb/>d’métal qu’in mettot sus des balances<lb/>pour avoir l'poisse égal. Et pus, in a</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LES DOUPES</head>
+        <p rend="styled"><lb/>Le point de départ du crédit<lb/>est la monnaic.<lb/></p>
+        <ab><lb/>PROUDHON.</ab>
+        <p rend="styled"><lb/>Les doupes ! v'la in mot qui fait ouvert<lb/>l'orelle a gramint d'gins.... ch'est in mot<lb/>magique ; comben d'fos qu'in attind des<lb/>personnes dire, in faijant d'z’is comme<lb/>des lanternes : ah ! si j'aro des doupes !<lb/>tcheu plaiji d'avoir des doupes! sans dou-<lb/>pes in n’est po considéré. Ch'n'est po les<lb/>doupes qui font l'bonheur mais cha assiste<lb/>gramint.</p>
+        <p><lb/>Et tchan qu'in y busie ben, ch'est inne<lb/>saquo qui a eu, in tous temps, et qui ara<lb/>toudis l'pouvoir de bouleverser l'cher-<lb/>velle des gins.<lb/>qu’minchi à faire des marques d’sus les<lb/>piches; chaque indrot avot sin signe, et<lb/>par après, les ros ont fait erprodure leu<lb/>binette d’sus les doupes. Et ch'est les<lb/>juifs, les premis, que ont fait in argint,<lb/>inveuc l'fidjure diichomme d’in côté et<lb/>d'l'aute cha erprésintot inne espèce de<lb/>coupe qu’in appelot gomor, vus veyi ben,<lb/>cha? in n'd'a ertrouvé vin terre, fin ben<lb/>conservées, pure vérité?</p>
+        <p><lb/>Par après, les Grecs, ont qu'minchi à<lb/>saire des doupes in or, et s'lon les con-<lb/>trées in mettot inne saquo qui erprésin-<lb/>tôt, sot : inne crappe de rogin, in gu’veu.<lb/>inne rose, in tchin, inne tortue, etc.<lb/>Adan, les Romains ont fait des piches,<lb/>sous Servius Tullius, qui avottent l’poisse<lb/>de deux chints soixante-quatorze gram-<lb/>mes, les pus p'tites. Pour aller faire<lb/>d’z’achats, y faulot printe inne brouette<lb/>pou mette ses doupes d’sus, à forche qui<lb/>besottent lourds. Ch'étot plaiji.</p>
+        <p><lb/>Sous les premis ros d'France in a frappo<lb/>les monnaies vin leu palais même, pasqu'y<lb/>paraîtrot qu’in quemincho à faire du<lb/>fourbi. Dtéfos, sti qui étot atttrapé, à l'é-<lb/>poque, à faire de l'fausse monnaie, in li<lb/>copot les deux mains, chin qui dot ête<lb/>gênant pour amoutchi sin nez, à vou<lb/>motte?</p>
+        <p><lb/>Ch'est sous Charles le Chauve, ro<lb/>d'France, qu'in a établi les premirés<lb/>majons du qu’in fabriquot des doupes.<lb/>Ch’étot à Quentouvic, Rouen, Roims,<lb/>Sens, Paris, Orléans, Châlons, Nesle et<lb/><lb/>Narbonne, in appelot chès fabriques,<lb/>Hôtels de la Monnaie. Euch’teur, y n’d’a<lb/>pu foque qu'tros : Paris, qui porte sus ses<lb/>piches l’lettre A. Strasbourg, BB et Bor-<lb/>deaux, K. V'la l’conte, vus coperdez?</p>
+        <p><lb/>Au queminchemint d'tout in coulot les<lb/>piches vin des moules et cha été in lommé<lb/>Nicolas Briot, sous l'règne d'Henri Il qui</p>
+      </div>
+    </body>
+  </text>
+</TEI>

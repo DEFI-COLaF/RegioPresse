@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8134287j</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1883-01-28">1883</date>
+          <idno type="ARK">bpt6k8134287j</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8134287j</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Demenche 28 de janvié 1883</fw>
+        <fw type="runningTitle"><lb/>Dous son lou numero</fw>
+        <dateline><lb/>IV^o Annado — N^o XLIV p 245</dateline>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>JOURNAU POUPULARI DE LITERATURO, D'ISTEEEADE SCIENCI<lb/><lb/><lb/>PAREISSENT TOUTEI LEI DIME<lb/></p>
+        <p rend="styled"><lb/>Depausitàri majourau pèr Marsiho: M. Vincent, carriero Corneille, 3.</p>
+        <p rend="styled"><lb/>Bouco-dòu-Rose e despartamen<lb/>Tont co que toco leu journan deu<lb/>que fan raro emreu. .<lb/>7 fr.<lb/>èsire manda atranqui à l'Emprimarie<lb/>Pranço, Corso, Algerio. .<lb/><lb/>Prouvençalo. 15, carrièro dou Grand-<lb/>Pouero Franço..<lb/>10.<lb/>Relògi, à-z-Ais.</p>
+        <p><milestone unit="column" n="2"/><lb/>Les annonees reel mes et lauts di-<lb/>vers sont reçus exclusivement à l'A¬<lb/>gence Ewig rue d'Ambois. -Rich-lien,<lb/>9. Paris fermière de la publicite.</p>
+      </div>
+      <div type="article">
+        <head><lb/>AssabÉ</head>
+        <p rend="labelled"><lb/>Lon Bruse es manda coumo assai, à<lb/>touto persouno que s'interesso à la lengo<lb/>prouvençato e au mouvamen felibren<lb/>Let dous premié numerò manda de segui-<lb/>do soun à gratis. Se lou tresen noun<lb/>es remanda emé lou mot UNE sus<lb/>la bundo, faren presenta. pèr la posto, uno<lb/>hiheto d'abounamen de 7 fr. 500 de 8 fr.<lb/>50 segound lou domicile dou nouvèl<lb/>abouna, à mens que nous siegue manda,<lb/>avans aquèu tresen numerò, l'argènt<lb/>pèr la posto. Per aco faire li a que de<lb/>remetre 70 8 franc à soun burèu. Se car-<lb/>garen dei frès.</p>
+      </div>
+      <div type="article">
+        <head><lb/>TAULETO</head>
+        <p rend="labelled"><lb/>rASSO-TEMS. — La couspiracien dóu vitriol—<lb/>J.-B.G.</p>
+        <p rend="structured"><lb/>rOUESIO. — Reinié de Lar. - Marius Bourrelly.<lb/>A Filalbo. - Emile S.</p>
+        <p rend="structured"><lb/>CRounico. — Councours de la Mantenènço de<lb/>Prouvènço. — L'obro de l'abat Fazy. — Lou<lb/>mariàgi d'Astruc. – La Ballade. – Councours<lb/>de Marsiho. — Lei Couneèrt de l'archevescat e</p>
+        <p><lb/>l'obro dei vièi papié. — Lou Cacho-fio.</p>
+        <p><lb/>I.STRO PARISENCO. — Bonnet.</p>
+        <p><lb/>TARGO LITERARI. - Lou councours dóu Brusc.</p>
+      </div>
+      <div type="article">
+        <head><lb/>PASSO-TEMS</head>
+        <head><lb/>LA COUSPIRACIEN DOU VITRIOL</head>
+        <p><lb/>Au moumen ounte lei journau atrobon de<lb/>couspiracien de tout biais, e n'en fan vèire de<lb/>toutei lei coulour, se n’es coungrèia uno, dins<lb/>Ais, que mòu lei lagno dei femelan, e fa frounci<lb/>lei teleto de desplesi. Es la couspiracien dóu vi-<lb/>triol, autant necrouso pèr lei vies i, qu'aquelo de<lb/>na dinamito pèr lei bastisso. Li a de gusaio, qu’en<lb/>passant, fan giscla d’acide sus l’esquino o la<lb/>souto-esquino dei damo, e li bouto un o quauqueis<lb/>uscle qu'embrutisson e trancon la sedo e lou ve-<lb/>lous coumo à l'empouerto pèço. Se dis que la<lb/>mauvalênço, l'envejo e la couquinarie de mau faire<lb/>ispiron aquelei brambalian.S'asseguro, pereu,que<lb/>lei taihuso degaion e desavien ensin lei viesti dou<lb/>femèu, per que s'en fague d'autre. L'uno e l'autre<lb/>óupinien pou ès re vertadiero. Coumo que n’en<lb/>sie, s'es adouba uno coumplainto aqui dessus, e<lb/>vous la dounan pèr ço que vòu.</p>
+        <ab type="head"><lb/>COUMPLAINTO</ab>
+        <ab type="head"><lb/>Er: La Dame blanche vous regarde.<fw type="digitisation-artefact"><lb/> alicn./Bibliotèue e Mase</fw></ab>
+        <lg>
+          <l><lb/>Vautrei que fasès lei faroto</l>
+          <l><lb/>Dins vouestrei beus atrincamen,</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

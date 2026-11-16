@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Pays cévenol</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t53903515v</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Pays cévenol : hebdomadaire littéraire, artistique, félibréen, mutualiste, commercial, industriel et d'annonces</title>
+          <publisher>[s.n.] (Alais)</publisher>
+          <date when="1905-05-21">1905</date>
+          <idno type="ARK">bd6t53903515v</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t53903515v</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>ETUDE<lb/>M U. ROURISSOL,<lb/>Demandez<lb/>otai<lb/>à la Grand'Combe (Gard)<lb/><lb/><lb/><lb/><lb/><lb/>Alais. — Imprimerle J. Brabo, Square de Sauvages.<lb/>Vu pour la légallsation de la signature ci-contre:<lb/>Alais, 10<lb/>Lo Maire.</ab>
+        <ab><milestone unit="column" n="2"/><lb/>Etude de Mo BOUDON, Notaire à Alais<lb/>Rue d'Avéjan, 8s4 (en face la Sous-Préfecture)</ab>
+        <ab><lb/>VOLONTAIRE auX ENCHÉRES PUBLIQUES<lb/>(EN UN SEUL LOT)<lb/>En l'Etude et par le Ministère de Me BOUDON, Notaire à Alais<lb/>Le Lundi 5 Juin 1905, à 2 heures du soir<lb/>D'un IMMEUBLE</ab>
+        <ab><lb/>PAPETERIE<lb/>NOUVELLE</ab>
+        <p rend="heading"><lb/>1</p>
+        <p rend="heading"><lb/>CARTE<lb/>SOUVENIR D'ALAIS</p>
+        <ab><lb/>19 vues microsco-<lb/>piques pour<lb/>Centimes</ab>
+        <figure/>
+        <ab><lb/>HYGIENE ET BIEN-ÊTRE POPULAIRE<lb/>Moelle de velours - Douceur exquise — Parfum enivrant<lb/>Savon de Toilette des<lb/>PRINGESSES IMPÉRIALES JAPONAISES<lb/>ee<lb/>cepe<lb/>35 cent.<lb/>Un Savon-Réclame.<lb/>. .<lb/>.<lb/>Une Boîte de trois Savons-Réclame. 1 fr.»<lb/>Dépôt pour le Gros et le Détail<lb/>Tapelerie Nouvelle, place de l’Abbaye, Alais</ab>
+        <p><lb/>renant deux corps de moison élevés chacun de deux étages et séparés par un<lb/>in-terrasse, avec vastes locaux au rez-de-chaussée servant actuellement d'Impri-<lb/>situé à Alais, entre la rue de la Meunière et la rue Dumas, en façade sur<lb/>a Meunière ou Square de Sauvages et sur la Basse-Place Saint-Jean,<lb/>ecupant une surface totale de six cent cinquante-cinq mètres carrés.</p>
+        <p><lb/>L'immeuble mis en vente est susceptible d'un REVENNU<lb/>ANNUEL, y compris le corps de bátiment en façade sur la<lb/>Basse-Place Saint-Jean, et actuellement non habité. de.</p>
+        <p rend="heading"><lb/>Mise à Prix : 35.000 Francs</p>
+        <p><lb/>S'adresser pour visiter l'immeuble à vendre, pour connattre les conditions<lb/>de la vente ou pour traiter, à M^e BOUDON, notaire à Alais, dépositaire du<lb/>cahier des charges.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Communions</ab>
+        <ab type="head"><lb/>ires</ab>
+        <ab><lb/>MISSELS avec initiales en métal doré, depuis 1 fr. 60. — IMAGES imprimées<lb/>gratuitement en souvenirs, depuis O fr. 10<lb/>CHAPELETS en argent, depuis 3 fr.; en acier inoxydable, depuis O fr. 50</ab>
+        <ab><lb/>Le plus frais assortiment<milestone unit="page" n="105"/></ab>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>PURGE</ab>
+        <ab type="head"><lb/>D'HYPOTIEQUES LEGALES</ab>
+        <p><lb/>n. 1. BLADIER, pot<lb/>pt quatre-</p>
+        <p rend="labelled"><lb/>AVESOUE<lb/>BASSIER Monsieur Louis<lb/><lb/>aiso<lb/></p>
+        <p rend="labelled"><lb/><lb/>tribun<lb/>le grot</p>
+        <p><lb/><lb/>pres lodi<lb/></p>
+        <p rend="labelled"><lb/><lb/>COUTAREE<lb/>Louis BAS-<lb/>SIER, et<lb/><lb/>int-<lb/><lb/>fete</p>
+        <p><lb/>non teque loglo</p>
+        <ab><lb/>3.100 fr.</ab>
+        <p rend="heading"><lb/>A LOUER</p>
+        <p rend="dateline"><lb/>Le Directeur-Gérant: J. BRABO</p>
+        <ab><lb/>dree gemdenem./EIRDMedrateca beeitana</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

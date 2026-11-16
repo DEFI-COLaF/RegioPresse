@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k96067528</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1948-05-01">1948</date>
+          <idno type="ARK">bpt6k96067528</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k96067528</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="article">
+        <div>
+          <pb facs="0008.xml"/>
+          <milestone unit="page" n="64"/>
+          <ab rend="continued"><lb/>cations autorisées que M. Astre leur a donné au fur et à mesure de<lb/>la visite, mais aussi par tout ce qui a été réalisé en peu de temps<lb/>sous sa direction.</ab>
+          <p><lb/>Une galerie de Paléontologie a été crée. Des cartes au-dessus<lb/>des objets, des notices claires et nettes permettent tout de suite de<lb/>saisir les traits caractéristiques de chacun des premiers âges du<lb/>monde.</p>
+          <p><lb/>M. Astre a en projet des agrandissements qui permettraient de<lb/>mieux présenter les magnifiques oiseaux de la galerie Besaucèle.</p>
+          <p><lb/>Il a déjà obtenu des documents très précieux sur le pétrole de<lb/>Saint-Marcet et l’arsenic des mines de Salsigne (Aude). Il y a là<lb/>tout ce qu’il faut pour créer une galerie de Géologie régionale. La<lb/>place seule manque encore pour exposer tout cela, car notre Musée<lb/>est très riche. Pour la Préhistoire et la faune paléolitique notam¬<lb/>ment, il possède des pièces à peu près uniques.</p>
+          <p><lb/>M. Astre a montré aux visiteurs le fameux herbier de Picot de<lb/>Lapeyrouse et des collections d’insectes de la région. La conserva¬<lb/>tion des pièces exposées nécessite chaque année des travaux très<lb/>nombreux. ne serait-ce que pour renouveler les produits insec-<lb/>ticides.</p>
+          <p><lb/>Le Musée s'enrichit régulièrement. M. Bourret, Directeur du Ser-<lb/>vice Zoologique d’Hanoï, vient d’envoyer une centaine d’oiseaux,<lb/>de mammifères et d’insectes. Les animaliers vont monter ces pièces<lb/>qui viendront compléter les collections.</p>
+          <p><lb/>Fondé en 1865 le Musée est riche, mais manque de place. L’effort<lb/>de M. Astre consiste à grouper les sections selon l’ordre scienti¬<lb/>fique, à présenter les pièces d’une façon moderne et vivante.</p>
+          <p><lb/>En peu de temps il a beaucoup fait, et les visiteurs l’ont vive¬<lb/>ment félicité, ainsi que ses collaborateurs dévoués, des réalisations<lb/>déjà obtenues. Ils souhaitent qu’il trouve tous les concours dési¬<lb/>rables pour poursuivre son œuvre. Notre Muséee d’Histoire Natu¬<lb/>relle est un centre de vulgarisation scientifique de premier ordre,<lb/>il faut non seulement le conserver, mais lui permettre de se mo¬<lb/>derniser et de se développer.</p>
+          <note>
+            <p rend="styled"><lb/>Le gérant: Paul Mesplé</p>
+            <p rend="labelled"><lb/>Imp. du Sud.-Ouest. 6. rue Sainte-Urale — Toulouse.<fw type="digitisation-artefact"><lb/>iat</fw></p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

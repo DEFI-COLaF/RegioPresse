@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t511520509</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1818-10-10">1818</date>
+          <idno type="ARK">bd6t511520509</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t511520509</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <figure/>
+        <dateline><lb/>N.° (81.)</dateline>
+        <fw type="runningTitle"><lb/>7.e ANNÉE.</fw>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>JOURNAL DE LA CÔTE-D'OR,</p>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>DU SAMEDI 10 OCTOBRE 1818.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>L'instruction de Son Excellence le Ministre de la<lb/>guerre, du 12 août suivant;</ab>
+        <ab type="head"><lb/>INTÉRIEUR.</ab>
+        <p rend="dateline"><lb/>Dijon, 9 octobre.</p>
+        <p rend="styled"><lb/>PRÉFECTURE DE LA CÔTE-D'OR.</p>
+        <ab type="head"><lb/>LE PRÉFET DE LA CÔTE-D'OR,</ab>
+        <p><lb/>Vu la loi du 10 mars 1818, sur le recrutement de<lb/>l'armée;</p>
+        <p><lb/>La circulaire du même Ministre, en date du 18<lb/>septembre dernier, contenant fixation du jour où les<lb/>conseils de révision formés conformément à l’article<lb/>13 de la loi, et aux articles, 47, 48 et 49 de l'ins¬<lb/><lb/>cruction du Ministre, devront se réunir pour com¬<lb/>mencer leurs opérations;</p>
+        <p><lb/>ARRÊTE ce qui suit:</p>
+        <p rend="labelled"><lb/>ITINÉRAIRE DU CONSEIL DE RÉVISION.</p>
+        <p rend="labelled"><lb/>Art. 1.er Le conseil de révision du département<lb/>de la Côte-d'Or se réunira pour l'examen des jeunes<lb/>gens des classes de 1816 et 1817 dans les chefs-lieux<lb/>d'arrondissemens et de cantons ci-après désignés et<lb/>aux époques déterminées ainsi qu'il suit:</p>
+        <ab type="head"><lb/>A CHATILLON,</ab>
+        <p rend="labelled"><lb/>Le 9 novembre 1818, pour l'examen des jeunes<lb/>gens des cantons de Châtillon et Aignay;</p>
+        <p><lb/>Le 10 dudit pour l'examen de ceux des cantons de<lb/>Baigneux et Laignes;</p>
+        <p><lb/>Le 11 dudit, pour l'examen de ceux des cantons<lb/>de Montigny et Recey;</p>
+        <ab type="head"><lb/>A SEMUR,</ab>
+        <p><lb/>Le 13 dudit, pour l'examen des jeunes gens des<lb/>cantons de Semur et Flavigny;</p>
+        <p><lb/>Le 14 dudit, pour l'examen de ceux des cantons<lb/>de Montbard et Vitteaux;</p>
+        <ab type="head"><lb/>A SAULIEU,</ab>
+        <p><lb/>Le 16 dudit, pour l'examen des jeunes gens des<lb/>cantons de Saulieu et Précy;</p>
+        <ab type="head"><lb/>A ARNAY,</ab>
+        <p><lb/>Le 18 dudit, pour l'examen des jeunes gens des<lb/>cantons d’Arnay, Liernais et Pouilly;</p>
+        <ab type="head"><lb/>A BEAUNE,</ab>
+        <p><lb/>Le 19 dudit, pour l'examen des jeunes gens des<lb/>cantons de Beaune (Nord) et Beaune (Sud);</p>
+        <p><lb/>Le 20 dudit, pour l'examen de ceux des cantons<lb/>de Bligny, Nolay et Nuits;<lb/>de Saint-Jean-de-Lône et Seurre;</p>
+      </div>
+      <div type="article">
+        <p><lb/>Le 23 dudit, pour l'examen des jeunes gens des<lb/>cantons de Dijon (Ouest) et Dijon (Est);</p>
+        <p><lb/>Le 24 dudit, pour l’examen de ceux des cantons<lb/>de Dijon (Nord) et Auxonne;</p>
+        <p><lb/>Le 25 dudit, pour l’examen de ceux des cantons<lb/>de Genlis, Mirebeau et Pontailler;</p>
+        <p><lb/>Le 26 dudit, pour l'examen de ceux des cantons<lb/>de Fontaine-Française, Is-sur-Tille et Grancey;</p>
+        <p><lb/>Le 27 dudit, pour l'examen de ceux des cantons<lb/>de Selongey, Gevrey, Saint-Seine et Sombernom.</p>
+        <p rend="labelled"><lb/>Art. 2. Les jeunes gens qui auront reçu l'ordre<lb/>de paroître devant le conseil, et qui auront à récla-<lb/>mer l'exemption pour d'autres motifs que pour défaut<lb/>de taille ou infirmités, devront se présenter aux<lb/>Maires de leurs communes respectives, pour obtenir<lb/>les divers certificats qu’ils devront produire au con¬<lb/>seil de révision; les modèles de ces certificats se<lb/>trouvent à la suite de l’instruction du Ministre de la<lb/>guerre, du 12 août dernier, insérée dans le Bulle-<lb/>tin des lois, n.° 233: les Maires sont invités à bien<lb/>examiner ces modèles, et à s'y conformer avec la<lb/>plus grande exactitude.</p>
+        <p rend="labelled"><lb/>3. Ceux des jeunes gens qui demanderont à être<lb/>dispensés du service militaire, soit comme ayant<lb/>déjà contracté un engagement volontaire, ou comme<lb/>marins portés sur les registres matricules de l'inscrip-<lb/>tion maritime, ou comme officiers de santé commis-<lb/>sionnés et employés, ou comme autorisés à continuer<lb/>leurs études ecclésiastiques, soit enfin comme élèves<lb/>des écoles de l'université, ou élèves de langues,<lb/>des écoles polytechnique et de services publics, des<lb/>écoles spéciales militaires et de marine, ou ayant<lb/>obtenu un des grands prix décernés par l’Institut<lb/>royal, ou le prix d'honneur décerné par le conseil<lb/>de l'université, devront produire au Conseil, sui¬<lb/><lb/>vant les cas où ils se trouveront, les pièces com¬<lb/>prises dans le bordereau n.° 2, joint à l'instruction<lb/>précitée.</p>
+        <p rend="labelled"><lb/>4. Les substitutions ou échanges de numéros de<lb/>tirage ne seront autorisées par le Conseil de révision<lb/>Le 21 dudit, pour l'examen de ceux des cantons qu'après s'être assuré du consentement des parties;</p>
+        <ab><lb/>A Dונסא,</ab>
+        <ab type="head"><lb/>EXEMPTIONS.</ab>
+        <ab type="head"><lb/>DISPENSES.</ab>
+        <ab type="head"><lb/>SUBSTITUTIONS.</ab>
+        <p rend="styled"><milestone unit="column" n="3"/><lb/>Domine, salvum fac regem nostrum Ludovicum.</p>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="322"/>
+        <ab><milestone unit="column" n="1"/><lb/>elles ne pourront avoir lieu qu'entre les jeunes gens opérations qui auront lieu dans l'arrondissement de<lb/>de la même classe et du même canton ; elles n'im¬<lb/>poseront aux substitués aucune responsabilité; les<lb/>jeunes gens de taille différente seront admis à échanger<lb/>lours numéros de tirage.</ab>
+        <p><lb/>Les substitutions ne seront admises que jusqu'au<lb/>30 octobre 1818.</p>
+        <ab type="head"><lb/>REMPLACEMENS.</ab>
+        <p rend="labelled"><lb/>5. Conformément aux dispositions des articles 116,<lb/>117 et 118 de l'Instruction du Ministre de la guerre,<lb/>du 12 août dernier, les remplaçans seront admis à<lb/>la taille de 1 mètre 570 millimètres (4 pieds 10<lb/>pouces) : nul ne sera admis comme remplaçant, s’il<lb/>n'a été régulièrement congédié ou libéré du service<lb/>de l'armée active, ou s'il n'a satissait à la loi du<lb/>recrutement; les remplaçans justifieront de leur âge<lb/>par leur acte de naissance, et produiront en outre un<lb/>certificat du Maire de la commune, visé par le juge<lb/>de paix du canton, et constatant,</p>
+        <p rend="labelled"><lb/>1.° Qu'il jouit de ses droits civils;</p>
+        <p rend="labelled"><lb/>2.° Qu'il est de bonnes vie et mœurs ;</p>
+        <p rend="labelled"><lb/>3.o Qu’il n'a été appelé ni pour le service de terre,<lb/>ni pour celui de mer (ou bien) qu’il est libéré de<lb/>l'un et de l'antre service.</p>
+        <p><lb/>Les remplaçans devront ne pas être âgés de plus<lb/>de 30 ans révolus; ceux qui auroient déjà servi,<lb/>pourront être admis jusqu'à 35 ans révolus. Ils de-<lb/>vront justifier du congé absolu qui a dû leur être<lb/>délivré; ou si ces hommes ont fait partie des corps<lb/>licenciés en 1815, et ne sont pas porteurs de congés<lb/>absolus, ils produiront pour tenir lieu de ce congé,<lb/>un certificat du Maire de leur commune, visé par<lb/>le Sous-Préfet, portant qu’il n'ont point repris du<lb/>service depuis le mois d’août 1815, soit comme<lb/>ayant été rappelés, soit à tout autre titre.</p>
+        <p><lb/>Fait à Dijon ce 6́ octobre 1818.</p>
+        <ab type="head"><lb/>Signé LACHADENÈDE.</ab>
+        <p rend="labelled"><lb/>— En exécution de l'ordonnance du Roi, du 23<lb/>septembre dernier, qui autorise les Préfets à désigner<lb/>les membres civils des Conseils de révision chargés<lb/>de l'examen en dernier ressort, des opérations du<lb/>recrutement et des tirages, et conformément aux<lb/>instructions de Son Excellence le Ministre de la<lb/>guerre, du 28 du mème mois, M. le Préfet de<lb/>la Côte-d'Or, par son arrêté du 7 octobre courant,<lb/>a nommé M. le Conseiller de préfecture Amanton,<lb/>membre du Conseil de révision pour assister aux<lb/>séances de ce Conseil, à l'exception de celles où il<lb/>sera question de la révision des opérations du tirage<lb/>qui auront eu lieu sous la présidence de M. Amanton,<lb/>dans une partie des cantons de l'arrondissement de<lb/>Dijon; il sera remplacé à ces séances par M. Piette,<lb/>Conseiller de Préfecture.</p>
+        <p><lb/>Sont aussi nommés membres du Conseil de révi-<lb/>sion, MM. les membres du Conseil général du dé¬<lb/>partement ci-après, savoir:</p>
+        <p rend="labelled"><lb/>M. Simon de Calvi, propriétaire à Châtillon,<lb/>pour les opérations qui auront lieu dans l'arrondis-<lb/>sement de Châtillon;</p>
+        <p><lb/>M. Laligant, propriétaire à Saulieu, pour les Naissances. Du 2 au 9 octobre, 11 garçons, 8 filles.</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>— Le 5 de ce mois, le Roi, accompagné de M.<lb/>le duc de Luxembourg, capitaine des gardes, est<lb/>monté à trois heures en voiture pour aller à Saint-<lb/>Cloud.</p>
+        <p><lb/>Ce voyage annonce que la santé de S. M. est<lb/>rétablie, et cette nouvelle est l'une des plus satis-<lb/>faisantes que nous puissions donner à nos lecteurs.</p>
+        <p rend="labelled"><lb/>—MM. de Nard frères, de la Guadeloupe, élèves<lb/>à l’école royale de Saint-Cyr, ont formé une de-<lb/>mande tendante à être autorisés à faire précéder leur<lb/>nom de celui de Clugny de Nuits, nom de leur<lb/>grand-père.</p>
+        <p rend="labelled"><lb/>— M. Vandeuvre, procureur-général à la Cour<lb/>royale de Dijon, est de retour de son voyage de<lb/>Paris, depuis mardi au soir.</p>
+        <p rend="labelled"><lb/>— M. le lieutenant-général baron de Berckheim,<lb/>inspecteur général de cavalerie, et M. le maréchal¬<lb/>de-camp comto de Seran, ont quitté Dijon, il y a<lb/>quelques jours, après les opérations de l'inspection<lb/>du régiment des dragons du Doubs terminées. Tout<lb/>annonce que M. de Berckheim a été très satisfait de<lb/>ce régiment sous le rapport de la discipline, de la<lb/>bonne conduite, de la tenue et de l'instruction.</p>
+        <p rend="labelled"><lb/>— Il n'existoit à Fontaine-Française pour perpétuer<lb/>le souvenir de la célèbre journée du 5 juin 1595,<lb/>dans laquelle HENRI IV, à la tête d'une poignée de<lb/>braves dignes de lui, défit à-la-fois, et Mayenne, et<lb/>la ligue; il ne restoit, disons-nous, que cette ins-<lb/>cription: Hìc Henricus Magnus debellavit hostes,<lb/>que les Elus généraux des Etats de Bourgogne avoient<lb/>fait graver sur le pont.</p>
+        <p><lb/>Madame de Saint-Julien, née La-Tour-dn-Pin,<lb/>qui possède une belle habitation à Fontaine-Fran¬<lb/>çaise, a conçu l'heureuse idée de consacrer à la mé¬<lb/>moire du bon Roi, un monument plus durable, dont<lb/>toutes les parties ont été exécutées, en marbre, à<lb/>Paris; nous en ferons connoître plus tard, l'ordon¬<lb/>nance; tout ce que nous pouvons assurer aujour-<lb/>d'hui, c’est que la figure de ce Roi, dont la mémoire<lb/>ne périra jamais, en sera la partie principale.</p>
+        <p><lb/>On ignoroit encore l’époque où les travaux devoient<lb/>commencer; mais nous apprenons à l'instant, que la<lb/>première pierre sera posée le dimanche 18 de ce<lb/>mois, par S. A. R. MONSIEUR, frère du Roi, re-<lb/>présenté par M. le comte de Damas, pair de France,<lb/>gouverneur de la 18.e division militaire, et que ma-<lb/>dame de Saint-Julien se propose de donner à cette<lb/>cérémonie toute la solennité digne de son objet.<lb/>Semur;</p>
+        <p><lb/>M. Rocaut, Maire de Beaune, pour les opéra-<lb/>tions qui auront lieu dans l’arrondissement de Beaune;</p>
+        <p><lb/>Et M. Saunac, négociant à Dijon, pour celles<lb/>qui auront lieu dans l'arrondissement de Dijon.</p>
+        <p><lb/>Nous ferons connoître, dans un autre Numéro,<lb/>ceux de MM. les membres des Conseils d'arrondisse-<lb/>mens qui feront partie du Conseil de révision.</p>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>ÉTAT CIVIL DE DIJON.</p>
+        <pb facs="0003.xml"/>
+        <milestone unit="page" n="323"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>Mariages. Du 1 et au 9. J.-E. Devaux, relieur, et vents, les douleurs de l'estomac et les maux de cœur;<lb/>Décès. Du 5. A. Bresson, veuve Demontmahoux,<lb/>fabricant de pain d’épices, 78 ans. — B. Gelicot,<lb/>man., 84 ans. Du 7. J. Gouget, femme Aubertot,<lb/>marchand, 36 ans. Du 9. J. Thoridenet, tonne-<lb/>lier, 67 ans. — C. Bouchard, femme Verrière,<lb/>fabricant de bas, 22 ans. Huit au-dessous de 20 ans.</ab>
+        <p rend="labelled"><lb/>G. Sebaux. — P. Jarrot, vigneron, et C. Grillot.</p>
+        <p rend="labelled"><lb/>— J. Heuretefeu, manouv., et A. Legendarme.—</p>
+        <p rend="labelled"><lb/>B. Orieme, manouv., et J. Roussin.</p>
+        <figure type="table"/>
+        <p rend="styled"><lb/>Vin rouge l’hect.37f.36c.</p>
+        <p><lb/>Vin blanc nouv. 36 91</p>
+        <p rend="heading"><lb/>FOURRAGES.</p>
+      </div>
+      <div type="article">
+        <head><lb/>ANNONCES ET AVIS DIVERS.</head>
+        <head><lb/>ÉCOLE D'ENSEIGNEMENT MUTUEL.</head>
+        <p rend="labelled"><lb/> MM. les Souscripteurs pour l'établissement de<lb/>l'Ecole d'enseignement mutuel à Dijon, préviennent<lb/>les pères et mères qui veulent faire participer leurs<lb/>enfans aux bienfaits de l'instruction élémentaire,<lb/>d'après la nouvelle méthode, que cette École sera<lb/>ouverte du 20 au 25 de ce mois.</p>
+        <p><lb/>Ils les invitent en conséquence à faire inscrire<lb/>leurs enfans sur un registre ouvert à cet effet, chez<lb/>M. GABIOT fils, instituteur, rue St.-Pierre, n.° 33,<lb/>depuis neuf heures du matin jusqu'à midi, et depuis<lb/>deux heures jusqu'à quatre heures du soir.</p>
+        <p rend="labelled"><lb/>A VENDRE, en gros ou en détail, avec<lb/>de grandes facilités pour le paiement, le 18 oc-<lb/>tobre présent mois, heure de dix du matin,<lb/>PETIT DOMAINE PATRIMONIAL, situé à Norges-<lb/>le-Haut, consistant en une maison d’habitation,<lb/>jardin, verger, et en dix-sept hectares soixante-dix<lb/>ares (cinquante-trois journaux) de terres labourables<lb/>et vignes, en plusieurs pièces, situées dans de bons<lb/>climats. S'adresser à M. PRUDENT, à DIJON, rue<lb/>Roulotte, qui est chargé, par le propriétaire, de trai¬<lb/>ter de gré à gré, si on le désire.</p>
+        <p><lb/>A AMODIER, pour entrer en jouissance le<lb/>12 octobre 1819, FORGE D'Is-sUR-TILLE, près<lb/>Marcilly.</p>
+        <p><lb/>L'amodiation aura lieu à Dijon, en l'étude de M.^e<lb/>BORNE, notaire, par-devant M.e MAZEAU, notaire<lb/>audit Dijon, le 16 octobre 1818, heure de onze du<lb/>matin.</p>
+        <p rend="labelled"><lb/>AUX DAMES. CONSERVE ROMAINE du<lb/><lb/>docteur Rastogi.</p>
+        <p><lb/>Elle guérit les coliques, les battemens et les pal-</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>MERCURIALES DE DIJON.<lb/>Du 3 octobre.</p>
+        <p rend="heading"><lb/>GRAINS.</p>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>PRIX MOYEN.</p>
+        <p rend="styled"><milestone unit="column" n="4"/><lb/>VINS.</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="5"/><lb/>pitations du cœeur; les resserremens de la gorge, les de la garde nationale du chef-lieu de canton, en yertu des</ab>
+        <ab type="head"><lb/>ORDONNANCE DU ROI.</ab>
+        <p rend="labelled"><lb/>LOUIS, par la grâce de Dieu, ROI DE FRANCE ET DE<lb/>NAVARRE:</p>
+        <p><lb/>A tous ceux qui ces présentes verront, salut.</p>
+        <p><lb/>Sur le compte qui nous a été rendu de l'organisation ao¬<lb/>tuelle de la garde nationale, nous avons reconnu que les<lb/>circonstances qui avoient nécessité une composition spé-<lb/>ciale de cette force publique ayant cessé d'exister, nous<lb/>devions la faire rentrer sous le régime que les lois en vi¬<lb/>gueur prescrivent, et que facilite l'exécution de la loi sur<lb/>le recrutement de l'armée.</p>
+        <p><lb/>Nous étant fait représenter, dans cet objet, la suite de<lb/>la législation relative à la garde nationale, nous nous som-<lb/>mes convaincus que les lois des 12 septembre et 12 décem¬<lb/>bre 1790, 3 août et 14 octobre 1791, modifiées par l'acto<lb/>législatif du 24 septembre 1805, avoient servi de bases aux<lb/>divers règlemens qui ont été publiés ; que ces lois subsis-<lb/>tent dans celles de leurs dispositions qui ne sont point con-<lb/>traires à la Charte et aux institutions qu'elle a formées ;<lb/>qu'elles conservent spécialement leur force en ce qui dé¬<lb/>termine le rang, le service et la discipline des gardes na-<lb/>tionales; soit que sédentaires et communales, elles restent<lb/>sous l'autorité civile ; soit que, dans les cas de service ex¬<lb/>traordinàire, elles passent sous l’autorité militaire.</p>
+        <p><lb/>En conséquence, nous avons résolu de ramener la garde<lb/>nationale à son institution municipale, sans toutefois qu'il<lb/>puisse résulter des dispositions de la présente Ordonnance<lb/><lb/><lb/>un relâchement quelconque dans le service habituel qui<lb/>se fait par-tout où cette force publique est organisée.</p>
+        <p><lb/>Persuadé que la garde nationale et les officiers conservés<lb/>resteront animés du même zèle qu'ont montré, sous une<lb/>autre organisation, les chefs et les soldats de tous ses corps,<lb/>nous nous plaisons à leur témoigner à tous notre vive sa-<lb/>tisfaction.</p>
+        <p><lb/>La garde nationale qui, sous les ordres de notre bien-<lb/>aimé Frère MONSIEUR, a rendu à la France de si éclatans<lb/>services, trouvera dans notre appui et dans sa bienveillance<lb/>les mêmes motifs d’émulation.</p>
+        <p><lb/>A ces causes,</p>
+        <p><lb/>Nous avons ordonné et ordonnons ce qui suit :</p>
+        <p rend="labelled"><lb/>Art. 1er. Les Maires, Sous-Préfets et Préfets, repren¬<lb/>dront, sous l’autorité de notre Ministre de l'intérieur, l'en¬<lb/>tier exercice des attributions qui leur sont confiées par les<lb/>lois sur l'organisation, la direction et l'inspection de la garde<lb/>nationale.</p>
+        <p rend="labelled"><lb/>2. Sont et demeurent supprimés tous emplois d'officiers<lb/>supérieurs à celui de commandant de gardes nationales de<lb/>commune ou de canton, lesquels rentreront sous les or¬<lb/>dres immédiats des autorités civiles, conformément aux<lb/>lois.</p>
+        <p><lb/>Les rapports du Commandant en chef de la garde natio-<lb/>nale parisienne, avec le Préfet du département de la Seine,<lb/>le Préfet de police et notre Ministre de l'intérieur, conti¬<lb/>nueront d’avoir leu en cette qualité de Commandant, con¬<lb/>formément à notre Ordonnance du 11 décembre 1816, et aux<lb/>dispositions de la présente.</p>
+        <p rend="labelled"><lb/>3. Dans les villes qui comprennent un ou plusieurs can¬<lb/>tons, la garde nationale ne pourra être réunie à d'antres<lb/>gardes communales. Dans les cantons composés de plusieurs<lb/>communes, les gardes nationales des diverses communes<lb/>seront formées en garde cantonale, sous le Commandanz<lb/>les vomissemens et les nausées avec ses rapports aci-<lb/>des; les vertiges, le clou hystérique, la migraine et<lb/>le mal de tête. En un mot, l'hystérie, les vapeurs<lb/>ou les spasmes avec tous leurs symptômes.</p>
+        <p><lb/>Les propriétés de cette conserve sont garanties sous<lb/>peine de rendre l'argent. Le pot de cinquante doses se<lb/>send, franc au dépôt d’eau pour les dents, chez<lb/><lb/>NOELLAT, libraire, à Dijon.</p>
+        <p><lb/>Chaque pot est enveloppé de l'imprimé qui in-<lb/>dique la manière de s’en servir.</p>
+        <figure type="decoration"/>
+        <pb facs="0004.xml"/>
+        <milestone unit="page" n="324"/>
+        <ab><milestone unit="column" n="1"/><lb/>Le Ministre secrétaire-d'Etat de l'intérieur,<lb/>Signé, LAINÉ.<lb/>ordres du Sous-Préfet; mais les cadres communaux et leurs<lb/>chefs resteront, pour le service habituel, sous les ordres<lb/>des Maires.<lb/></ab>
+        <p><lb/>4. Hors des villes, les gardes nationales des divers can¬<lb/>zons ne pourront être réunies que par détachement, et<lb/>en vertu d'une réquisition faite par le Préfet, dans les cas<lb/>prévus, et avec les formalités prescrites par les lois precitées<lb/>sur l'emploi de la force publique.<lb/></p>
+        <p rend="labelled"><lb/>5. La garde nationale à cheval restera formée par arron-<lb/>dissement, en compagnies ou en escadrons, sous le Com-<lb/>mandant de la garde nationale du chef-lieu d’arrondisse-<lb/>ment ; néanmoins les gardes nationaux à cheval de chaque<lb/>commune et leur chef devront exécuter, comme ceux de la<lb/>garde à pièd, les ordres qui leur seroient donnés par le Maire<lb/>de la commune où ils résident, pour le maintien de la tran¬<lb/>quillité et de la police locale.</p>
+        <p rend="labelled"><lb/>6. Le prince colonel-général des gardes nationales, nommé<lb/>par notre Ordonnance du 13 mai 1814, continue de jouir des<lb/>honneurs et prérogatives attachés au titre des colonels-géné-<lb/>raux d’armes.</p>
+        <p rend="labelled"><lb/>7. Les Ordonnances des 16 juillet 1814, 18, 21 novembre<lb/>et 27 décembre 1815, sont rapportées, ainsi que toutes<lb/>dispositions de décrets et d'ordonnances contraires aux pré-<lb/>sentes.</p>
+        <p rend="labelled"><lb/>8. Notre Ministre secrétaire-d'état de l'intérieur est chargé<lb/>de l'exécution de la présente Ordonnance, qui sera insérée<lb/>au bulletin des lois.</p>
+        <p><lb/>Donné à Paris, en notre château des Tuileries, le 30<lb/>septembre de l'an de grâce 1818, et de notre règne le 24^e.</p>
+        <ab><lb/>Signé LOUIS.</ab>
+        <p><lb/>Par le Roi:</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Que c’est nous qui le boirons.</ab>
+        <ab type="head"><lb/>NOUVELLES DIVERSES.</ab>
+        <p rend="labelled"><lb/>Aix- la -Chapelle, 29 septembre. - Avant¬<lb/>hier les trois Souverains alliés ont fait leur entrée<lb/>soleunelle dans l'antique cité de Charlemagne.</p>
+        <p><lb/>Dimanche le Roi de Prusse, notre Souverain, ar¬<lb/>riva le premier, et fut reçu avec toutes les démons-<lb/>trations de la joie la plus vive par les habitans et<lb/>les troupes rassemblées pour sa réception. Le len-<lb/>demain S. M. accompagnée de plusieurs généraux,<lb/>se rendit à la rencontre de l'Empereur d’Autriche,<lb/>et LL. MM. entrèrent ensemble dans la même voi-<lb/>ture. Ces Princes furent accueillis par les témoi¬<lb/>gnages d'amour et de respect de la population en-<lb/>tière de la ville et des militaires qui formoient la<lb/>ligne devant laquelle elles ont passé pour se rendre<lb/>à leurs palais. Vers dix heures du soir, l'Empereur<lb/>de Russie arriva accompagné de notre Roi. Malgré<lb/>l'heure avancée de la nuit, tous les habitans étoient<lb/>allés au-devant de son illustre allié, dont la présence<lb/>a excité les plus vifs transports d’allégresse et de satis-<lb/>laction. Des décharges multipliées d'artillerie, et<lb/>une brillante illumination ont signalé l'arrivée des<lb/>Souverains dans nos murs.</p>
+        <p rend="labelled"><lb/>—D'après les nouvelles d’Aix-la-Chapelle, dont<lb/>nous croyons pouvoir garantir l'authenticité, les<lb/>dispositions des Souverains envers la France et leurs<lb/>sentimens pour le Roi, permettent d’augurer que le<lb/>résultat de cette auguste réunion sera aussi prompt<lb/>et aussi favorable que tous les Français peuvent le<lb/>désirer. Les résolutions qui vont y être prises, et<lb/>qui seront un hommage rendu aux vertus et à la sa-<lb/>gesse du Prince qui nous gouverne, assureront, il<lb/>n'est plus permis d’en douter, le repos et le bonheur<lb/>de la France, et mettront le sceau à la réconciliation<lb/>sincère et durable de tous les peuples. (Moniteur.)</p>
+        <p rend="labelled"><lb/>— On vient de jouer à Paris, au Théâtres des<lb/>Variécés, un Divertissement, en un acte mêlé de<lb/>vaudevilles, intitulé: Les Vendanges de Cham-<lb/>pagne. On cite de cette pièce, qui a obtenu du suc-<lb/>cès, la fin d'un couplet qui a excité un concert de<lb/>bravos, la voici:</p>
+        <lg>
+          <l><lb/>Mes bons amis, cette année,</l>
+          <l><lb/>Tout le vin que nous ferons,</l>
+        </lg>
+        <ab><lb/>Espérons (bis)</ab>
+        <p rend="labelled"><lb/>—On a vu le capitaine Travot présenter à S. M.,<lb/>le 26 septembre, une pétition tendante à obtenir la<lb/>liberté du lieutenant-général Travot son père. Le<lb/>Roi l'a accueilli avec tant de bonté, que ce malheu¬<lb/>reux jeune homme n’a pu retenir ses larmes.</p>
+        <p rend="labelled"><lb/>— On écrit de Cluny (Saône et Loire), le 2 octo¬<lb/>bre : « Le cœur de Turenne avoit été donné à l'ab-<lb/>baye de Cluny par le Cardinal de Bouillon; il étoit<lb/>enveloppé dans une feuille de plomb, et cette pre-<lb/>mière enveloppe étoit placée dans une boîte de ver¬<lb/>meil. A l'époque de la révolution, l'abbaye fut visi-<lb/>tée par des amateurs de vermeil. Ils prirent la boîte<lb/>et laissèrent le plomb. Le cœur de Turenne fut alors<lb/>déposé à la municipalité de Cluny, où il est resté<lb/>jusqu'à ce jour. Mais depuis peu l'antorité supérieure,<lb/>instruite de ces circonstances, a fait faire une en-<lb/>quête; le Préfet s'est rendu sur les lieux; on a cons-<lb/>taté l'identité de ce dépôt précieux, qui selon toute<lb/>apparence, va incessamment être transfé é aux Inva-<lb/>lides, et sortir de l'obscurité qui convient mal aux<lb/>restes d’un héros. »</p>
+        <p rend="labelled"><lb/>—On lit dans les Gazettes de Philadelphie, en<lb/>date du 1.er septembre, écrit-on de Londres le<lb/>29, les détails suivans, sur les formalités auxquelles<lb/>doivent se soumettre les vaisseaux américains qui<lb/>touchent à Sainte-Hélène, en revenant de l’Inde.<lb/>Ils sont tenus d’abord de passer au nord de l'île,<lb/>où ils sont aussi-tôt abordés par un des vaisseaux de<lb/>guerre de la Croisière. Lorsqu'ils ont déclaré le<lb/>motif de leur relâche, ils se rendent à la pointe du<lb/>pain de sucre, où ils reçoivent réponse sur leur<lb/>demande d'entrer dans la baie. Si elle leur est accor-<lb/>dée, ils sont hélés par le vaisseau amiral, qui envoie<lb/>deux officiers à leur bord. Aucune communication<lb/>avec le rivage ne leur est permise.</p>
+        <figure type="decoration"/>
+        <note>
+          <p rend="styled"><lb/>A DIJON, CHEZ FRANTIN, IMPRIMEUR DU ROI ET DE LA PRÉFECTURE. 1818.</p>
+        </note>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>Idem, jouiss. du 22 mars 1818. 83f. 10 c.<lb/>Id. jouiss. du 22 sept. 1818.81 f. 81 f. 15 c. 100.81 f.</ab>
+        <ab type="head"><lb/>Du 5 octobre.</ab>
+        <p rend="structured"><lb/>75f. 75 c. 60c. 75 c. 65 c. 60 c. 55 c. 50 c. 60c.<lb/>55 c. 50c. 40 c. 50 c.</p>
+        <p><lb/>Cinq pour cent consolidés, jouissance du 22 sept. 1818.</p>
+        <p rend="structured"><lb/>Reconnoissances de liquidation au porteur, jouissance<lb/>du 22 mars 1817.87 f. 10c.</p>
+        <p rend="structured"><lb/>Idem, jouiss. du 22 septemb. 1817, 85 f. 10c.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Progrès de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k18666228</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Progrès de la Côte-d'Or : journal politique... ["puis" journal républicain quotidien]</title>
+          <publisher>[s.n.] (Dijon)</publisher>
+          <date when="1890-05-31">1890</date>
+          <idno type="ARK">bpt6k18666228</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k18666228</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0004.xml"/>
+          <fw type="runningTitle"><lb/>Le Progrès de la Côte-d'Or</fw>
+          <ab><milestone unit="column" n="3"/><lb/>VENDRE AUX ENCHÉRES<lb/><lb/><lb/>MAISON LANIER<lb/>T<lb/>te, RUE DE LA LIEBATE, DIJON<lb/>BOULANGERIE<lb/>M. GEORGB GILL<lb/>DENTISTE, ELDBE LONDLES, SUCCENSKUTAL DENTAIRE<lb/>vende<lb/>J. MAZILLIER<lb/>67, Rue Chabst-Charny, 63<lb/>Prot gra, de de PEviebé, Pactograpse eitacté an Parvori et ATapiroction<lb/>CARTES IALTERABLES A 12 FB. LA DOUZAINE</ab>
+          <ab><milestone unit="column" n="4"/><lb/>ne Pas sE TrOME</ab>
+          <ab><milestone unit="column" n="1"/><lb/>Aagle rue des Ferges, 61 bis<lb/>E pas sE TROMPER<lb/>PRIX UNIQUE</ab>
+          <p rend="heading"><milestone unit="column" n="2"/><lb/>KAACo-A</p>
+          <p rend="styled"><lb/>Mlle François GIANELLA ayant fait des achats considérables dans les premières manufactures de France<lb/>RCHE<lb/>Bottines d'hommes, cuir de Bordeaux, visse, double somelle<lb/>3 fr. 05 Tres hautes boties alette<lb/>caty sors el secres<lb/>5 fr. 95 Hautes bottes en bonne chevre. Á 14 boutoos, pour dames.<lb/>ns d'hommes, extra forts, en vachetto et ferres<lb/>amagasin les articies desigó</p>
+        </div>
+        <div type="article">
+          <ab><lb/>de M' de Cairs et Copiss<lb/>A Dipa, rue de Bourg. n° 27<lb/>A VENORE A L'AMIABLE</ab>
+          <p><lb/>r A LExrimerios DEs vEu</p>
+          <ab type="head"><lb/>MAISON</ab>
+          <ab type="head"><lb/>FONDS</ab>
+          <ab><lb/>taire á D pa. place St jeas, 17<lb/>ADJUDICATION<lb/>CAVÉ DE LA COTE-D'OR</ab>
+          <p rend="labelled"><lb/>7 </p>
+          <p rend="labelled"><lb/>e, A <lb/>adresser po</p>
+          <ab><lb/>  M .</ab>
+          <p rend="labelled"><lb/>Becnae de M viert</p>
+          <p rend="structured"><lb/>eux encheres et à cextincté</p>
+          <p rend="labelled"><lb/>Dion, rue Jeanain, P'el 1.</p>
+          <p rend="heading"><lb/>MAISON</p>
+          <p rend="heading"><lb/>A VENORE A L'AMABLE</p>
+        </div>
+      </div>
+      <div type="article">
+        <ab><lb/>OBJETS D'ART ANCIENS</ab>
+        <ab><lb/>DOMAINE</ab>
+        <p><lb/><lb/>om rene<lb/></p>
+        <p rend="labelled"><lb/>  LEUT.</p>
+        <p rend="heading"><lb/>MOBILIER</p>
+        <p><lb/>Compioirs de plusieurs dimnen</p>
+        <figure type="table"/>
+        <p rend="heading"><lb/>TRIBUNAL DE COMMERCE</p>
+        <ab><lb/>Sallo pour Noces et Sociétesa<lb/>TUILERIE DES LAUMES</ab>
+        <ab><lb/>MNISON DE CAMPAGIE MAISON NEUVE MaisOn P. CLEMENCET<lb/></ab>
+        <ab><lb/>CHAPELLERIE ÉLÉGANTE<lb/>DIJON, 81, ruo do la Liberté, DIJON<lb/>CHAPEAUX DE FEUTRE — CHAPEAUX DE SOIE<lb/>PRIX UNIQUE : 9 90<lb/>Fabrication absolument frasçaise. - Vente au comptant</ab>
+        <ab><lb/>AU BON MARCHÉ<lb/>HÉLUIN-JANN<lb/>Rue Rameau MDMIY Rue Longepierre<lb/>Maison spéciale d’Ameublement<lb/>ATELIEES D'ÉCÉNISTERIE ET SCLPILRE RLES JEAN-JACQUES-ROUSSEAU ET VANNERIE<lb/>RIDEAUX, TAPISSERIE, LITERIE, TAPIS<lb/>INSTALLATIONS, REPAMATKONS<lb/>ENVOI FRANCO D'ALBUMS ET DEVIS SUR DEMANDE</ab>
+        <p rend="styled"><lb/>P, rue Devesge, Dijon<lb/><lb/>penONE, CLLUT<lb/>des VIns de BOrdeAuX</p>
+        <p><lb/>a du Médoc en fats et </p>
+        <p rend="styled"><lb/>Grandes caux-de-vie viellles de la Charente</p>
+        <ab><lb/>brasSerie du parc<lb/> p la ps <lb/>eer, pour les rensoignemonts, à rétabllasemec</ab>
+        <ab><lb/>Les plus beaux chapeaux de paille<lb/>CHAPELLERIE DE LA PLACE DARCN, 15<lb/>PANAMASMANILE.REGALIAS<lb/> <lb/><lb/>AU eHON 3 fr. 60 PRII NOUE<lb/>CHOIX INMENSE. — ENTREE LIDRE<lb/>déflant tonte concurrence</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>17, RUE DU PALAIS, 17, DIJON</ab>
+        <ab><lb/>BANQUE G. MÉNARD<lb/>17, ruo du Palais, Dijon<lb/> ind<lb/>et autres, cotées ou non<lb/><lb/>TRANSVERTS — CONVERSIONS — FEUILLES DE COUPONS<lb/>Paiement des Coupons<lb/>renSbIGnEMEnts SpeciAUx SuR VaLeurS<lb/>Ordres à Termo<lb/>La Maison se charge des négociatio<lb/> regus et atsaa 4 fots pir</ab>
+        <ab><lb/>CABINET DENTAIRE MAISON L. ULMÄNN<lb/>D CHAPUIS. Medeein-Den</ab>
+        <ab><lb/>LE NOlLIN BERNARD</ab>
+        <p><lb/>Bernare, à</p>
+        <p><lb/>Pen coa ańcr opratour cz l caps<lb/> Procdee angials et amé</p>
+        <p rend="heading"><lb/>Commone de Noires-s.-Gevrey</p>
+        <ab><lb/>PuLVÉRISATEURS<lb/>Vermerel, modeles ECLAIR, n° 1 et n. 2, Japy,<lb/>Valletton, Le Fondreyan<lb/>Ernest DROUHIN<lb/>DUON, 00, RUE DE LA LIBERTE, DUON<lb/>lson Pettijean, de Paris</ab>
+        <p rend="labelled"><lb/>REMETTRE</p>
+        <ab><lb/>VoITURES D'ENPANTS, JOCETS, ARTICIES DE VÉNAGE<lb/>a La MÉNaGERE<lb/>Geerges MAUGEy<lb/>DIJON, 20 et 22, rue Bossuet, DIJON<lb/>45 RAYONS DE VENTE<lb/>Lampes et Suspensions<lb/>ARTICLES POUR PREMIERE COMMUNION<lb/>VOITURES POUR ENFANTS<lb/>Meubles et Jeux de jardins<lb/>OuBRELLES ET CHAPEAUX DE PAILLE<lb/>Prix fixe marqué en chiffres connus</ab>
+        <ab><lb/>La maison Paul GUILLEMOTIRESTAURANT BILLIOTET<lb/>Ruo des Bons-Enfants, 3<lb/>[Près les placee d'Armes et Saini. Ellense)<lb/>DEJEUNERS et DINERS<lb/>CABINETS PARTICULIERS<lb/>Pension bourgeeise à prix avantageux</ab>
+        <ab><lb/>IMMEUBLES<lb/>Beaux terrains à bâtir<lb/>Piusieurs bonnes maisons de bon rapport<lb/>Jardins et Clos<lb/><lb/></ab>
+        <ab><lb/><lb/>QUINQUINAS<lb/>QUA E de a.... a bola e<lb/><lb/>so si A Manga garndi Sorigine, h mn A E 1bipE EE.29<lb/>. C.. 6.</ab>
+        <ab><lb/>Fabrique de Chapeaux de Paille<lb/>GRO N. BÉNIERMML<lb/>ge, 39 a rue Cieloies, 1. près CAcallaie, Dijse<lb/>CHAPEAUX POUR HOMYES, JEUNES GENS ET ENPANTS<lb/><lb/>Vadiettie en gemni eheir</ab>
+        <ab><lb/>Fabrique de Bascules, Balances<lb/>PONTS A BASCULES<lb/>ZiMMERMANN<lb/>PULVÉRISATEURS<lb/>ON DEMANDE UN APPRENTI<lb/>a la belle fermiêre<lb/>76 et 78, rue du Bourg, 76 et 78.<lb/>NOuVEAUTÉS, ToILES ET LINGE DE TABLE<lb/>véem vetments pecente e communos, depes fr. 0<lb/>tements sur mesure, draperie pare laice, dopcie 40 fr.<lb/>Grand arricage de toiles pour draps et pour chemires<lb/>ducs 206,0 au-dessons du e<lb/>D'excellents coupeurs sont attachés à la mu<lb/>demande un employe au courant du co</ab>
+        <figure/>
+        <ab><lb/>PHOTOGRAPHIE</ab>
+        <ab><lb/>Tarif spt. id joir MM. los hetographes)<lb/>Photo praphio la nuit à la lumière électriquo</ab>
+        <ab><lb/>oue aèue naioare d</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

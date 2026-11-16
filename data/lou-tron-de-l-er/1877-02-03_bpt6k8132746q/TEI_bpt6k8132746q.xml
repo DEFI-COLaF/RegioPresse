@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Tron de l'èr</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8132746q</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Tron de l'èr : journau poupulari</title>
+          <publisher>[s.n.] (Marsiho)</publisher>
+          <date when="1877-02-03">1877</date>
+          <idno type="ARK">bpt6k8132746q</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8132746q</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>MARSIHO 3 DE FEBRIE 1877</fw>
+        <fw type="runningTitle"><lb/>WPROUMIERO ANNADO No 5</fw>
+        <fw type="runningTitle"><lb/>Lou numerò dous sòu</fw>
+        <head><lb/>LOU<lb/>DISSATO<lb/>POUPULARI PARÈISSÈNT LOU<lb/>JOURNAU</head>
+        <ab><milestone unit="column" n="2"/><lb/>Depousitàri M. BLANCARD Carriero dei Recoleto, 6<lb/></ab>
+        <ab><milestone unit="column" n="3"/><lb/>Abounamen sèt franc per an<lb/>VOUKRO DE PRANÇO LOU PORT DE MAI<lb/>Refusaren lei letro que seran pa timbrado</ab>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>Per leis anounco e lei reciamo</p>
+        <p rend="heading"><lb/>Burèu: Carriero Sant Farriéu, 27</p>
+        <p rend="heading"><lb/>S'ENTENDRE EMÉ LOU CERANT</p>
+        <p rend="styled"><lb/>Rendren pa lei manescrit, mai seran toujour lei denvenqut</p>
+      </div>
+      <div type="article">
+        <head><lb/>LA COUSCRICIEN</head>
+        <p rend="labelled"><lb/>Jouven, vaquit lou tiràgi au sort que ven vous<lb/>dire que sias devengut d'ome. Zou ! couscrit, revihas<lb/>vous! Que lou tambour bate la rampelado ! Fès sour¬<lb/>uì dou fourréu la bandiero ei tres coulour, e partès en<lb/>cantant.</p>
+        <p><lb/>Tè! vaquit la bando de Mazargo qu'arribo. Sount<lb/>quatre ome em'un tambour, Regardas lei coumo<lb/>alargon soun bèu drapèu de lustrino pintado.</p>
+        <p><lb/>Anas doun touti pèr carriero en cantant aquelo<lb/>que dis:</p>
+        <ab><lb/>Quan lei couscrit partiran</ab>
+        <ab type="head"><lb/>Lei fheto plouraran</ab>
+        <p><lb/>Mai noun! faguès pa ploura de tant poulits uei.<lb/>Cantas pu lèu:</p>
+        <quote><lb/>Portaren pa lei braio roujó</quote>
+        <ab type="head"><lb/>Oulivié d'amant....</ab>
+        <p><lb/>Chut!... qu'ai dit... li pensàvi plu. Vuei, un pau<lb/>mai un pau men, toùti pagon l'impos dou sang. Diéu<lb/>touti, pèrqué aquéu que lou pago pa pèr la patrio,<lb/>ou pago touto sa vido à la naturo.</p>
+        <p><lb/>Mai que vèni vous canta.</p>
+        <p><lb/>La naturo, qu l'a mouelo qu l'a duro, coumo dis counsèu.<lb/>l'ami Léle.</p>
+        <p><lb/>Pèr aro proufiten de nouesto jouinesso. Quan sias<lb/>jouine, leissès pa passa uno oucasien de faire fèsto,<lb/>mume quan si déurrié ploura. En efèt, se li refle-<lb/>chissen ben, es penible lou tems dòu servici; mai<lb/>quan aurien ben ploura, de que nous aurié servi ?...</p>
+        <p><lb/>De si coupa lou nas, lou fa pa veni pu long!<lb/>Riguen doun e proufiten dòu bèu tems. Tenès, vuei,<lb/>fau que si fague un flame dina, un dina mouestre.<lb/>En esperant vaquit l'ouro dou tiràgi. Avancen de la<lb/>Coumuno, e teisen si pèr un moumen.</p>
+        <p><lb/>Zou! à tu. Chiquet! Boulego ben lei biheto e<lb/>ausso! — Quan as tira?... Sèt?... Fouliè ben que<lb/>n’aguesse v’un que lou tiresse.</p>
+        <p><lb/>Es lei Mazarguen que dien mau adouba. Entre<lb/>toùti an à peno tira 56.</p>
+        <p><lb/>Tè, Pagéu que souarte: O Pagéu, quand as tira?</p>
+        <p rend="labelled"><lb/>— Siéu lou flambéu, ai tira lou numerò 1 !...</p>
+        <p><lb/>Toco, tambour!</p>
+        <p><lb/>Iéu, dit Cayou, ai tira doui fes. Aviéu adu 16 vo<lb/>91. Ero selon coumo lou viràvi perqué lou i avié ges<lb/>de titou souto lou numerò. De maniero qu'erian dous<lb/>qu'avian nouananto un. Alor aven desfraira. Aquesto<lb/>fes lou sort m'a ben douna 16.</p>
+        <p><lb/>Fasiéu la mino, mai lou Mèro m'a counsouela: M'a<lb/>Qì que cregniéu ren, que 16 vo 91 serian sordat toui<lb/>dous. Brave, Moussu lou Mèro!</p>
+        <p><lb/>L'afaire es arranjado. Mai que fen aquit? Anen au<lb/>cabanoun. Auren lou tems de resta de plantun s'un<lb/>còu sian au corp de gardo.</p>
+        <p><lb/>Pèr aro fau encaro un pau si desgourdi. Tè! vaquit<lb/>lei Mazarguen que retournon. Sount mai quatre ome<lb/>em'un t</p>
+        <p><lb/>Zou! que lou dina si refrejo e lei boutiho s'escau-<lb/>fisson. Despleguen lou drapèu, e bate lou tambour!</p>
+        <p><lb/>Vivo la Franço e lou bouen vin!</p>
+        <ab><lb/>TONI-TRON.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LOu COUNSEU MUNICIPAU</head>
+        <head><lb/>de la coumuno de Gratomanjo</head>
+        <p><lb/>Lou counsèu municipan de Gratomanjo un jour es-<lb/>tènt assembla, Moussu lou Mèro digué:</p>
+        <p><lb/>« Messiés, sabès touti que lou paure Moussu Fu-<lb/>« moterro — en paradis siegue,— en mourènt a leissa,<lb/>« à nouesto Coumuno, cent escu ; ce que nous ven pa<lb/>« mau, pèrqué la Caisso dindavo plu. Atout, se sias<lb/>« de moun avis, faren faire quaucarren d'aquest ar-<lb/>« gent; afin que lon pais vigue que sian pa toujour<lb/>« eicit coumo d'Uganau, e que saben tira parti dei<lb/>« revengut de la Coumuno.</p>
+        <p rend="labelled"><lb/>— Moussu lou Mèro a resoun, — digueron à la fes<lb/>Toni Subleto e Nouvè Gratofigo, fau que faguen faire<lb/>quaucarren.</p>
+        <p rend="labelled"><lb/>- Voui, faguen faire quancarren, repeté tout lou</p>
+        <p rend="labelled"><lb/>- léu vôti per uno bugadiero, digué tout en si<lb/>dreissant Jacque Machoueto. Ma frumo emé la cou-<lb/>maire Marlusso mi renon toujour qu'an pa proun de<lb/>plaço à l'oustau pèr faire bugado, ensin m'emmer-<lb/>daran plu.</p>
+        <p rend="labelled"><lb/>— Faguen pu lèu metre un tirografo letri digué<lb/>Mèste Toupino, Gratomanjo es un pais fouesso renou-<lb/>ma per lou coumèrço dei sangsuè, e lou tirografo<lb/>fara qu’aqueleis animau si vendran encaro mies.</p>
+        <p rend="labelled"><lb/>— Lou tirografo es un outis qu'acampo lou tou-<lb/>nerro de tout caire, prenès ben gardo... léu lou vòti<lb/>pa, respoundé Chichoua Iabusco.</p>
+        <p rend="labelled"><lb/>— Viedai! S'aco's ensin, l'a de tirogafo! digué<lb/>Pierroun Froumàgi. Iéu prefèri que faguen veni un<lb/>barbejaire. Sabès toùti que lou dimenche, tau vou ana<lb/>à la messo e si metre un pau à l'ounour dei gent,<lb/>qu'es oublija pèr si faire pela lou mourre, d'ana<lb/>vèire lou rasaire de Bargemoun, à doues ouro d'eicit.</p>
+        <p><lb/>Es uno vargougno d'avé ges de barbejaire à Gra-<lb/>tominjo.</p>
+        <p rend="labelled"><lb/>— Pierroun Froumàgi parlo ben a prepau, digué à<lb/>soun tour lou counsihé Regalòti, mai selon iéu, vou¬<lb/>drié encaro miés croumpa uno doujeno de chivau-frus<lb/>pèr lei proucessien de la Fèsto de Diéu, e dou pa-<lb/>roun de Gratomanjo. Aco es un amusamen agradiéu,<lb/>toujour recerca de la jouinesso e qu'atiro fouesso<lb/>estrangié. Crèsi que farian pa mau de faire aquelo<lb/>emplèto, dins l'interes de toùti.</p>
+        <p><lb/>Qu saup quintei proupousicien fougueron encaro<lb/>facho. Mai à la fin Moussu lou Mèro cascaié la sou¬<lb/>naio, e lou silènci s’estènt restabli:</p>
+        <p rend="labelled"><lb/>— Messiés. digué, avès touti resoun... mai soula-<lb/>men pouden pa tout faire à la fes; lou saquet es pa<lb/>proun gounfle pèr aco. Pènsi que voudrié mies faire<lb/>uno poulido fouen. Sabès toùti qu'eicit à Gratomanjo<lb/>aven ren qu'un marrit pous senso pouaire, e qu'es pa<lb/>coumode pèr agué d'aigo.</p>
+        <p rend="labelled"><lb/>— Moussu lou Mèro a resoun, fagué Mèste Bar-<lb/>dèlo, iéu vôti pèr la fouen. Es uno grélo quan fau ana<lb/>abeura lei bèsti. Tenès l'autre jour, v'enmaginares<lb/>que mi delembrèri per estaca l'ase dòu tems que ti-<lb/>ràvi l'aigo, e si capité que passavo aquit la saumo de<lb/>tanto Tripeto que portavo la barrico — en respetant<lb/>Sa coumpanié — Aquel enraja d ase si garço à courre,<lb/><lb/>en reguignant, en petant — escusas, moussu lou Mè-<lb/>ro — jéu de pòu que l'ase sautesse sus la saumeto,<lb/>lèissi ana la couardo dòu pous, mi li cascaihi dernié<lb/><lb/>pèr lou reteni, m'acipi à n-un roucas e m'estèndi cou-<lb/>mo un pouar. O mouestre de Judiéu! Quan m’en<lb/>souvèni, voudriéu qu'un loup lou manjesse.<lb/></p>
+        <p rend="labelled"><lb/>— Bardèlo, digué Toni Subleto, un autro fès sou-<lb/>vèn ti dou prouverbi : Jan estaco toun ase.</p>
+        <p><lb/>Pèr n'en reveni, lou Counséu fougué d'acord de<lb/>vouta la fouen ; mai un la voulié sus la placeto, l'au-<lb/>tre davans la Coumuno. Un li voulié doui canoun,<lb/>l'autre n’en voulié quatre, e patin, e coufin. Qu’es<lb/>tout eiçò, fagué puei Moussu lou Mèro. Pèr s’en¬<lb/>tendre l'a qu'un mouihen, fau fa faire un plan pèr<lb/>un ome de l'art, e coumo sera dit de faire faren.</p>
+        <p><lb/>E vague d'aquéu biai. Lou counséu seanço tenènto,<lb/>cargo lou counsihé Labusco d'ana à la vilo vesino<lb/><lb/>faire dreissa lou plan de la fouen pèr un ome de l'art.<lb/>— Aquestou, fa ni v’uno ni doues, encavalo soun<lb/>muou, arribo à la vilo, e va dré vers Mèste Ventresco<lb/>lou bouchié, que fa lou cantoun à man drècho dins la<lb/>arriero de l'Escourtegadou.</p>
+        <p rend="labelled"><lb/>— Bouenjour, Moussu, — li fagué Labusco en ti-<lb/>rant soun capéu.</p>
+        <p rend="labelled"><lb/>— Lou Counseu municipau de Gratomanjo vòu<lb/>basti uno fouen e mi mando eicit pèr faire dreissa<lb/>lou plan pèr un ome de lard. Se voulès vous carga<lb/>de mi faire aquelo besougno, la pourtariéu en mi re-<lb/>Nournant.</p>
+        <p rend="labelled"><lb/>— Tout de suito, moun brave, fagué Mèste Ven-<lb/>tresco, li vau travaia. Esperas mi un brigoun, sera léu<lb/>lest...</p>
+        <p><lb/>Au bout d'uno vouto lou bouchié arribo em'uno<lb/>poulido caisso ben clavelado.</p>
+        <p rend="labelled"><lb/>— Tenès, moun brave, aquit lou plan, pènsi qu'a-<lb/>gradara à touti lei counsihié.</p>
+        <p rend="labelled"><lb/>— Eiço va ben. Quan couesto?</p>
+        <p rend="labelled"><lb/>— Vinto cinq franc.</p>
+        <p><lb/>Labusco largo lei 25 franc, encambo soun muou, e<lb/>arribo emé la caisso, coumo un levènti, à Grato-<lb/>manjo.</p>
+        <p><lb/>Lou Counsèu s'acampo subran pèr eisamina lou<lb/>plan. La Caisso es despousado sus la taulo. Touti lei<lb/>counsihié duerbon d'uei coumo de fenèstro. Lou Mè-<lb/>ro fa sauta lou cubert, e luego dòu plan que trovon?.<lb/>Uno grosso tèsto de menoun em'un parèu de banasso<lb/>pu longo que lou mes de Mai.</p>
+        <p><lb/>Estabourni, giela d'un tau espectacle, toùti si graton</p>
+        <ab><lb/>oue gala../Bibiotèques eaelle</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Campana de Magalouna</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k73500631</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Campana de Magalouna : journal populàri que parei lou 1è e lou 15 de toutes lous meses</title>
+          <publisher>[s.n.] (Mount-Peliè)</publisher>
+          <date when="1895-12-25">1895</date>
+          <idno type="ARK">bpt6k73500631</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k73500631</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="article">
+        <div>
+          <pb facs="0001.xml"/>
+          <ab><lb/><lb/><lb/>No 86 de la Campana de Magalouna<lb/><lb/>Dimècres 25 de Decembre 1895<lb/><lb/><lb/>Numero Especial<lb/>DE LA<lb/>ampana de agalouna<lb/><lb/>Burèu: 15, carrièira dau Chival-Verd, à Mount-Peliè<lb/><lb/>Las Estrenas das paures Morts (conte de Nadau), Jan<lb/>de l'OOLIVA. — Per lous Souldats Mount-Peliei-<lb/>rencs, la Campana de Magalouna. — Bèl e pus bèl,<lb/>CARLEs de Sant-Guilhèn. — L'Ome prevesent, lou<lb/><lb/>CASCARELET. — Lou Mariage à Mount-Peliè, Jules<lb/><lb/>TROUBAT. — Lous Mount-Pelieirencs à l'oustau de<lb/>Frederic Mistral. — Nostre-Segne en Coucoumis,<lb/><lb/>MAREMONTA.<lb/><lb/>ILUSTRACIOUN:<lb/>. — 'Lou Mariage à<lb/><lb/>Mount-Peliè, FOKTUNE<lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/>vripies tor</ab>
+          <figure>
+            <figure type="decoration"/>
+          </figure>
+          <p rend="heading"><lb/> Ensegnadou K-</p>
+          <p rend="heading"><lb/>EE</p>
+          <ab><lb/>sta<lb/>Dous Sous</ab>
+          <ab><lb/>Source gallica.bn.fr/ Montpellier Mediterranée eopore medde que cenere me ol</ab>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

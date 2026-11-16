@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8135994d</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1891-05-27">1891</date>
+          <idno type="ARK">bpt6k8135994d</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8135994d</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>DIMÉCRE, 27 DE MAMI891.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>PROUMIERO ANNADO, No 15.</ab>
+        <ab><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage univereau,<lb/>Voutaren per l'òli<lb/>E faren l'aioti.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.<lb/>(Prouveri de méiscounie</ab>
+        <ab><lb/>MISTRAL</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PÈR MES</p>
+        <figure/>
+        <figure type="decoration"/>
+        <figure type="table">
+          <head><lb/>Baile déu journau:</head>
+        </figure>
+        <figure type="decoration"/>
+        <ab><lb/>BURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>M. FolcÒ DE BARONCELLI,<lb/>au palais dou Roure,<lb/>EN AVIGNOUN</ab>
+        <ab><lb/>Folcò DE BARONCELLI.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>La mort de RoumaniLle</head>
+        <p><lb/>La Prouvènço es en dòn. Lou Capoulié dóu<lb/>Felibrige, lou paire de nosto reneissènco, lou<lb/>bon e galoi Roumaniho, qu'eici meme, l'a à<lb/>peno quinge jour, nous encantavo emé soun<lb/>Mount-Ventour, vèn de rèndre soun amo à<lb/>Diéu.</p>
+        <p><lb/>Es mort lou jour di Santi Mario, dimenche<lb/>24 de Mai, en sant e en pouèto, bèu, gai,<lb/>seren coume avié viscu, envirouna de sa<lb/>mouié, de sis enfant, de sa famiho emai de sis<lb/>ami, souto l'iue de soun Crist e de sa Madono,<lb/>à coustat dóu retra de Mistral, trop liuen,<lb/>pecaire, eilalin en Itâli, pèr pousqué arriba à<lb/>tèms, au mitan d'uno moulounado de pichots<lb/>óujèt que, dins soun pious silènci, counte-<lb/>nien touto sa bello vido : soun cierge de<lb/>proumiero coumunioun, penja contro la mu¬<lb/>raio, à la testiero de soun lié, la pervenco<lb/>d'or, estremado souto un globe de vèire, qu'i<lb/>jo flourau d'At gagnè dono Roumaniho, quand<lb/>èro encaro Roso-Anais Gras, la maqueto en<lb/>gip di pavot, di poumo e di margarideto que,<lb/>l'a dous an, faguè escrincela sus la toumbo de<lb/>soun paire e de sa maire, à Sant-Roumié.<lb/>« Que ! me souvène que me disié tout esmougu<lb/>en me la fasènt vèire,(vers l'escultour, de pa-<lb/>vot e de margarideto, n'èi-ti pas bèn, acò, ço<lb/>que counvèn à moun paire e à ma maire, lou<lb/>jardinié e la jardiniero?</p>
+        <p><lb/>Que noun avèn pouscu escriéure tout co<lb/>qu'a di de subre-bèu avans de s'endourmi!<lb/>Dins touto sa vido, éu lou dous pouèto di mar-<lb/>garideto, n'avié jamai parla 'mé tant de pouesio.<lb/>Quand f'an adu lou viatique e li sants ôli, a<lb/>manda cerca, pecaire, dous pichot capelet<lb/>em'uno medaio qu'avié counserva de sa maire:<lb/>ja vougu coumunia pèr lou darrié cop em'a-<lb/>quéli souveni davans lis iue. Tout lou tèms<lb/>a agu sus li bouco lou noum de Diéu, de sis<lb/>ami e aquéu de noste Mèstre, de Mistral,<lb/>subre-tout ; « Ais, plusiour cop a di à Ma-<lb/>damo Roumaniho, diras à Mistral, à moun<lb/>meiour ami, qu'ai pensa à-n-éu pendènt touto<lb/>moun angòni. » La niue, coume sa man sou-<lb/>vènt semblavo cerca quaucarèn, e coume sa<lb/>mouié ié demandavo: « Rouma, de qu'èi que<lb/>cerques? » — « Cerque, respoundeguè, cerque<lb/>de man d'ami à sarra »</p>
+        <p><lb/>Jusqu'à soun darrié moumen s'es óucupa<lb/>de noste diôli, e de soun lié de mort a vougu<lb/><lb/>encaro dita'n conte pèr éu : L'ase, lou miou e<lb/>la cabro que se plagaon de pas estré au councours<lb/>regiounau d'Avignoun. La Prouvènço es estado<lb/>sa darriero pensado : l'avien legi un article sus<lb/>la reneissènco flamenco: «Vès, diguè dous o<lb/>tres cop, coume li vièii lengo cercon de s'a-<lb/>para! Acò 's coume lou prouvençau »; e apoun-<lb/>deguè : « Es que nous-autre sian pas de vincu!<lb/>nous sian douna pèr-ço-qu'avèn bèn vougu<lb/>nous douna. » S'es ramenta tóuti li vers que<lb/>parlon de la Mort e lis a recita à-n-aquéli<lb/>qu’èron aqui: «La Mort, pièi faguè, quand<lb/>aguè coumunia, mai n'èi pas tant terriblo<lb/>coume nous la fan li saume de la Glèiso:<lb/>quand ma lengo dessecado, dison, s'arrapara<lb/>à moun gousié... N'èi pas tant marrit qu'acò<lb/>de mouri. » — «Oh ! diguè mai à sa femo, que<lb/>ié dounavo li pichot siuen qu'à-n-un mourènt<lb/>ama se dounon, coume soun vertadiero pèr<lb/>touti li femo li letanio de la Vierge! Janua<lb/>coli, porto déu paradis, Salus infirmorum, sa-<lb/>lut dis infierme !»</p>
+        <p><lb/>S'es amoussa douçamen dins un rai de<lb/>soulèu matinié, e siéu bèn segur qu’èro à sa<lb/>testiero, pèr reçaupre soun amo e la pourta<lb/>dins Santo Estello, Mounsegne sant Michèu,<lb/>prince de Paradis, coumpagnoun de la Mort,<lb/>coume dis la preguiero qu’éu, noste bon<lb/>Capoulié, avié apresso de sa maire e qu'amavo<lb/>tant de repeti. Ai agu lou bonur e l'ounour,<lb/>iéu, soun felibrihoun, soun pichot escoulan,<lb/>de l'assista à soun darrié souspir e n'óublida-<lb/><lb/>rai jamai aquelo caro semo, en rèn desfigu-<lb/>rado, que semblavo deja briha de la glòri<lb/>d'amount. Coume se lou Miejour, dins uno<lb/>yrando armounio, avié vougu se jougne tout<lb/><lb/>entié à nòsti plour, just au moumen que Rou-<lb/>maniho, lou pouèto dóu pople, l'amaire dóu<lb/>Miejour, espiravo, dins la carriero, souto li<lb/>fenèstro de sa chambro, belèu tres cènt mu-<lb/>sico, vengudo pèr councourre en Avignoun,<lb/>passavon, e lis èr que jougavon avien quau-<lb/>carèn de triste e semblavon de plang. Aro,<lb/>au mitan di margarideto e di roso roujo, pa-<lb/>Sinèu mai bèu coume un sant, dor eila sus<lb/>soun lincòu blanc. Eu que, quand voulié,<lb/>nous fasié tant rire, au-jour-d'uei, moun Diéu,<lb/>coume nous fai ploura ! Lou van pourta à<lb/>Sant-Roumié, dins lou toumbeu ounte dormon<lb/>soun paire e sa maire, en faci d'aquéii jardin<lb/>qu'a tant ama.</p>
+        <p><lb/>Ero na en 1818. Ero esta, en Avignoun, lou<lb/>proufessour de Mistral. E se pòu dire qu'es éu<lb/>restigadou dou Felibrige.</p>
+        <p><lb/>Paure Roumaniho ! Quant de cop nous a<lb/>pas counta, quand nous passejavian em'éu,<lb/>li jouine, long di barri o sus lou Cours, coume<lb/>uno fes, dins la glèiso di Carme, en Avignoun,<lb/>dóu tèms de vèspro, avié aganta Mistral,<lb/>qu'avié belèu quatorge e quinge an, tradusènt<lb/>un saume en prouvençau.</p>
+        <p><lb/>L'Aiôli, au-jour-d'uei, vai douna, emé dous<lb/>conte dóu Roumaniho que fasié rire, l'un en<lb/>vers, l'autre en proso, em'un d'aquéli nouvè<lb/>tant ama e tant poupulàri dins li vihado calen-<lb/>dalo, dos pouesio dóu Roumaniho que fasié<lb/>Oloura : Mounte vole mouri e Jejè. Jejè, acò 's si<lb/>proumié vers prouvençau. l'a pas vue jour, pe-<lb/>caire, sus lou pont me countavo coume espeli-<lb/>guè aquelo pèço e lou Felibrige, car lou Feli-<lb/>brige èi na em'elo. Ero d'aquéu tèms proufes-<lb/>sour au coulège de Tarascoun e fasié, quàuqui<lb/><lb/>fes, de vers francés qu'un journau publicavo.<lb/>Un dimenche que se capitavo á Sant-Roumié, sa<lb/>maire ié venguè: « Que, Jóusè, m'an di que<lb/>fasiés parla li papié? » — « Coume, maire,<lb/>parla li papié ?» — «E o, m'an di que fasiés<lb/>parla li papié. Que ié metes sus li papié ?»<lb/>— « Mai ié mete rèn de-founs. » — « Oh ! si,<lb/>moun bèu Jousè, digo-me lou, ço que ié metes,<lb/>digo-me lou! » E sa maire, parèis, avié tant<lb/>dous parla que pousquè pas lé resista e ié<lb/>diguè li vers francés qu'avié fa. Quand aguè<lb/>fini, elo lou regardè, em’acò, em’uno tris-<lb/>tesso dins la voues, ié venguè : — « Tai<lb/>pas coumprés. » — « Acò, countavo Rou-<lb/>maniho, me crebè lou cor, e me diguère :<lb/>Faras de vers que ta maire coumprendra ! Lou<lb/>dimenche d'après ié disiéu Jejè, e plourè, e<lb/>veguère qu'avié coumprés. » Roumanihó, de-<lb/>sempièi, n'a plus jamai fa de vers francés.<lb/>Vaqui d'ounte èi sourti lou Felibrige: de<lb/>l'amour pious d'un fiéu pèr sa maire.</p>
+        <p><lb/>Aro, eici, que nous fugue permés de nous<lb/>jougne, dins sa grando doulour, à la mouié de<lb/>noste bon Capoulié, à soun fiéu Jaque, à si<lb/>chato, à soun bèu-fraire Fèlis Gras; que nous<lb/>fugue permés de nous jougne à la doulour<lb/>dous cop grando de noste Mèstre En Frederi<lb/>Mistral que, liuen d’Avignoun, liuen de nous-<lb/>autre, plouro eilabas en estrange pals. « La<lb/>mort de Roumaniho, escriéu à Dono Rouma-<lb/>niho, ennevoulis tout noste viage e pode dire<lb/>que vène de perdre em'éu uno grando part de<lb/>iéu-meme. Aquelo unita de visto, de pantai e<lb/>d'ilusioun qu'avian gardado pendènt quaranto<lb/>an èro uno forço inmènso pèr l'espandimen<lb/>de l'idèio coumuno. Sènte eme la despari-<lb/>cioun dou paure Rouma uno demenucioun<lb/>irreparablo.</p>
+        <p><lb/>« Esperen pèr áquéu felibrige ama, que fu-<lb/>guè sa vido e sa glòri, esperen que Diéu l'as<lb/>soustara de sa santo man.... »</p>
+        <ab><lb/>FOLCÒ DE BÁRONCELLI.<fw type="digitisation-artefact"><lb/>ce allca./Biblotèues</fw></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8134242z</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1882-06-11">1882</date>
+          <idno type="ARK">bpt6k8134242z</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8134242z</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Dous sou lou numero</fw>
+        <fw type="runningTitle"><lb/>Dmenche, 11 de Jun 1882</fw>
+        <dateline><lb/>IVo Annado — N^o XI p. 81</dateline>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>JOURNAU POUPULARI DE LITERATURO, D'ISTORI E DE SCIENCI</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>PAREISSENT TOUTEI LEI DIMENCHE</p>
+        <p rend="styled"><lb/>Depausitàri majourau pèr Marsiho « M. Vincent, carriero Corneille, 3.</p>
+        <ab><lb/>Abounamen :<lb/>que reven À DES fr.</ab>
+        <p><lb/>Tout ço que toco lou journau dèu<lb/>èstre manda afranqui à l'Emprimarié<lb/>Prouvençalo, 15, carrièro dou Grand-<lb/>Relògi, à-z-Ais.</p>
+        <p><milestone unit="column" n="3"/><lb/>Les annonces, réclames et faits di-<lb/>vers sont reçus exclusivement à<lb/>l'Agence Ewig rue d'Amboise-Riche-<lb/>lieu. 9,Paris termière de la publicité.</p>
+        <figure type="table"/>
+        <p><lb/>SE franc pèr an pèr touto la Franço.<lb/>Fouero Franço, lou port en subre, ço</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>ASSABÉ</head>
+        <p rend="labelled"><lb/>— En mandant 12 franc, o en apoundènt 5 franc,<lb/>se l'abounamen dóu Brusc es deja paga, serecebe<lb/>pèr un an Lou Brusce Le Midi Littéraire. Aquéu<lb/>journau, mai que mai agradiéu, prèn cade jour<lb/>uno plaço mies marcado dins lei revisto mie-<lb/>jeurnalo.</p>
+        <figure type="decoration"/>
+        <ab><lb/>THEATRE DE JEAN DE CABANES<lb/>GRANDE BIBLIOTHÉQUE PROVENÇALE<lb/>Directeur: ALBERT SAVINE</ab>
+        <p rend="heading"><lb/>Tome ll (Section Littéraire)</p>
+        <list>
+          <item>PAssO-TÈMS — Un beu lura, - F. Marin.</item>
+        </list>
+        <p rend="labelled"><lb/>POUESiO — Felip de Girard. - E. Jonveau. (pèço<lb/>qu'agagna lou près especiau de pouesio fran¬<lb/>ceso e prouvençalo au councours literari<lb/>d'Avignoun.</p>
+        <p rend="labelled"><lb/>CROUNIco — Discours d'En Bonaparte Wyse à</p>
+        <p><lb/>Fourcalquié.</p>
+        <p><lb/>Letro parisenco - F. de Saleune.</p>
+        <p><lb/>Lei felibre de la mar.</p>
+        <p><lb/>Reclamacien subre lei councours.</p>
+        <p><lb/>Couoferènci en prouvènçau à Paris.</p>
+      </div>
+      <div type="article">
+        <head><lb/>PASSO-TEMS</head>
+        <head><lb/>UN BEN LURA</head>
+        <p><lb/>L'aura ben lèu dous an d'acò; ero lou 29 de<lb/>jun, per la fiero de Sant-Peire, que se ten au vi-<lb/>lage de la Ferriero, dins lis Aup-Maritimo. Sa-<lb/>bès touti qu'i fiero se li rende de gènt de touto<lb/>merço e de tout li pais, subretout de boumian.<lb/>Adounc aquelo fes n'avié un que se fasié passa<lb/>pèr medecin ; èu garissié li mau de touto espeço,<lb/>e subretout li mau de dent: avias que de bada la<lb/>gouro, e lou tour ero lest; lou clavèu avie peta'n<lb/>r'er</p>
+        <p><lb/>Ben ! n'en revenguen à nosto afaire, car va<lb/>senso dire qu'alentour de la veturo d'aquéu me-<lb/>decin (car chacun lou noumavo pèr aquéu noum),<lb/>s'èro rendu touto la populaço coume un flume en<lb/>desbord. E que de toti que se fasien aranca li<lb/>dent !Sarie dificile à li coumta. Din la tiero i<lb/>avie un Marsihes que vous noumarai pas de soun<lb/>propre noum: la jouvenço lou li avien tant es-<lb/>troupia que n'avien fa Motet. Ero pas di pu lura.<lb/>L'asard vouguè que passéssi peraquil au mou¬<lb/>ment que Motet metié soun ped sus la mountiero<lb/>de la veturo pèr ana bada e se fa deraba li dent:<lb/>acò ero coumun.</p>
+        <p><lb/>Alor li diou:</p>
+        <p rend="labelled"><lb/>— «E mounte vas ansin, coulègo?»</p>
+        <p rend="labelled"><lb/>— Me vau fa deraba li dent, me respoundè<lb/>'m'un èr que marcavo pas la soufrenço.</p>
+        <p rend="labelled"><lb/>— O diantre! li diguère encaro, ti fan mâu,<lb/>dounco?</p>
+        <p><lb/>E de me respoundre:</p>
+        <p rend="labelled"><lb/>— Aro soufrissi pas; mai à l'aveni pourien<lb/>me faire mau !</p>
+        <p><lb/>A pèr lou cou, me diguère à iéu meme, li gent</p>
+        <p rend="heading"><lb/>DE LA</p>
+        <p rend="heading"><lb/>TAULETO<fw type="digitisation-artefact"><lb/>allica.bnf.fr/ Bibliothèques de</fw><lb/>de Marsiho an pas tout vis, o dóu mens volon<lb/>prouficha dis oucasioun. Alor me remembran<lb/>uno espressioun dou satiri Peise, li diguèri:</p>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="2"/>
+        <fw type="runningTitle"><lb/>LOU BRUSC</fw>
+        <p><lb/>Ah ! Descende, moun ome, d'amound'aut. Que<lb/>lou Bouen Diéu te mande un pau de sens que n'as<lb/>besoun! »</p>
+        <ab><milestone unit="column" n="1"/><lb/>Pér ma muso pourta,<lb/>Te segre pas à pas di jour de toun enfanço<lb/>Au jour ounte la mort, fenissènt ta soufranço.<lb/>Te raubavo à la terro, o grand deserita !<lb/>Amariéu de te vèire, au jardin de toun paire,<lb/>Alor qu'enfantounet t'amusaves à faire<lb/>E pausa sus lou riéu<lb/>De rodo que viravo un fléu d'aigo clareto,<lb/>E qu'à l'oumbro di tousco, asseta sus l'erbeto,<lb/>Countemplaves toun obro, urous e pensatiéu.<lb/>Amariéu de te vèire, — entre ti det de fado, —<lb/>Prendre dous breu de lin, li bagna 'no passado,<lb/>L'ounour que i' es degu,</ab>
+        <p rend="heading"><lb/>QU'A GAGNA LOU PRES ESPECIAU DE POUESIO FRANCESO E PROUVENÇALO<lb/>AU COUNCOURS LITERARI D'AVIGNOUN</p>
+        <p rend="heading"><lb/>FELIP DE GIRARD</p>
+        <lg>
+          <l><lb/>Lou jour nais de raubeto</l>
+          <l><lb/>l'engèni vèn de Diéu.</l>
+          <l><lb/>D'un pouëto majour s'aviéu lou saupre-faire,</l>
+          <l><lb/>Ilustre de Girard! immourtal enventaire !</l>
+          <l><lb/>En vers linde e courous</l>
+          <l><lb/>Encuei te cantariéu, — troubaire sèns liéurèio,—</l>
+          <l><lb/>Tu lou grand pelerin di campas de l'Idèio;</l>
+          <l><lb/>De la scienço e dis art, tu, lou bel amourous !</l>
+          <l><lb/>Voudriéu, en aquest jour, dins la lengo di rèire,</l>
+          <l><lb/>Eisalta toun engèni, e, cent an en arrèire</l>
+        </lg>
+        <quote><lb/>Li torse eisadamen,</quote>
+        <lg>
+          <l><lb/>E councebre lou plan d'uno causo inmourtalo !</l>
+          <l><lb/>E merita dos fes, la joio naciounalo,</l>
+          <l><lb/>Qu'as jamai reçaupudo, o grand Lourmarinen!</l>
+          <l><lb/>Voudiéu te segre enfin, en Autricho, en Russio;</l>
+          <l><lb/>A Vieno, à Dombrowa; te segre à Varsouvio,</l>
+          <l><lb/>En terro de Guzw,</l>
+          <l><lb/>Ounte i rai fegoundant de ta scienço sutilo,</l>
+          <l><lb/>Espeliguè subran uno galanto vilo</l>
+          <l><lb/>Que lou Czar, encanta, batejè Girardow.</l>
+          <l><lb/>Voudriéu metre en plen lum ti beu titre de glòri,</l>
+          <l><lb/>E pousqué rendre enfin à ta grando memòri,</l>
+        </lg>
+        <p><lb/>Aro, se li Parisian rien encaro dóu nadaire,<lb/>podon bèn rire dou brave Motet, e un pau me<lb/>gramacia de l'avé preserva sèi dent, car s’en<lb/>siarve encaro din soun grand appelis.</p>
+        <ab><lb/>FIRMIN MARIN.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>PEÇO</p>
+        <p rend="heading"><lb/>PHILIPPE DE GIRARD</p>
+        <lg>
+          <l><lb/>Le jour nait de l'aurore</l>
+          <l><lb/>le génie vient de Dieu.</l>
+          <l><lb/>D'un poète inspiré si j'avais le génie,</l>
+          <l><lb/>Je voudrais dans mes vers débordants d'harmonie</l>
+          <l><lb/>Dans mes vers chaleureux,</l>
+          <l><lb/>Dire par quels travaux ta gloire s'est fondée,</l>
+          <l><lb/>O grand explorateur des sphères de l'Idée !</l>
+          <l><lb/>Des sciences, de l'art, toi, l'amant généreux !</l>
+          <l><lb/>Je voudrais retracer ton illustre carrière,</l>
+          <l><lb/>Philippe de Girard ! et, cent ans en arrière</l>
+        </lg>
+        <lg>
+          <l><lb/>Te suivre pas à pas des jours de ton enfance</l>
+          <l><lb/>Jusqu’au jour ou la mort terminant ta souffrance,</l>
+          <l><lb/>Te ravit à la terre, o grand déshérité !</l>
+        </lg>
+        <p rend="heading"><lb/>Tout à coup reporté,</p>
+        <lg>
+          <l><lb/>J'aimerais à te voir, au jardin de ton père,</l>
+          <l><lb/>Alors que tout encor te paraissait prospère,</l>
+        </lg>
+        <quote><lb/>Et qu’enfant tu plaçais</quote>
+        <lg>
+          <l><lb/>Sur le cours argenté d'un ruisselet, des roues,</l>
+          <l><lb/>Que mouvait l'eau limpide, et que, la flamme aux</l>
+          <l><lb/>Tu contemplais, joyeux, tes précoces essais.</l>
+          <l><lb/>J'aimerais à te voir lorsque ta main habile</l>
+          <l><lb/>Cherchant l'art de filer un précieux textile, —</l>
+        </lg>
+        <lg>
+          <l><lb/>L'Art de filer le lin, —</l>
+          <l><lb/>Tu concevais le plan de ton œeuvre sublime,</l>
+          <l><lb/>Et méritais deux fois, o géante victime!</l>
+          <l><lb/>Le prix que sans pitié te ravit le destin.</l>
+          <l><lb/>Je voudrais, reprenant le courant de la vie,</l>
+          <l><lb/>Te suivre à Dombrowa, te suivre à Varsovie,</l>
+          <l><lb/>Aux plaines de Guzow,</l>
+          <l><lb/>Où ta vaste science et ta foi fécondante</l>
+          <l><lb/>Firent jaillir soudain une cité charmante</l>
+          <l><lb/>Que le Czar, enchanté, baptisa Girardow.</l>
+          <l><lb/>Je voudrais exalter tes beaux titres de gloire,</l>
+          <l><lb/>Et pouvoir rendre enfin à ta grande mémoire</l>
+        </lg>
+        <ab><lb/>Un honneur trois fois du,</ab>
+        <ab><milestone unit="column" n="3"/><lb/>oues</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

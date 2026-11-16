@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81361123</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1894-09-07">1894</date>
+          <idno type="ARK">bpt6k81361123</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81361123</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>QUATRENCO ANNADO, No 1.</fw>
+        <fw type="runningTitle"><lb/>DIVENDRE, 7 DE SETEMBRE 1804</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr loli<lb/>E faren P'aiòli.<lb/>F. MISTRAL.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.<lb/>(Prouveroi di meinounte)</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7. 17,27)</p>
+        <figure/>
+        <ab><lb/>PRES DE L'ABOUNAMEN</ab>
+        <figure type="decoration"/>
+        <ab><lb/>SUREU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/><lb/>FOLCO DE BARONCELLI,<lb/>au palais déu Roure,<lb/>EN AVIGNOUN<lb/></ab>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>Baile dóu journau:<lb/>FOLCO DE BARONCELLI:</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab><lb/>13 d Avoa 101.</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>Galant meissaire,<lb/>— Lou jour dóu grand Sant Marc, espèro -me, la bello,<lb/>A l'ouro ounte lou ceu atubo sis estello.<lb/>Vaqui lou nis de debassaire<lb/>Rauba sus uno pibo au blound soulèu neissènt.<lb/>Bello ! parlas ! siéu voste esclave !...<lb/>– Quand flouriran li roso !...<lb/>Toun brau lou mai feroun dins soun carri de bos !...<lb/>Moun Diéu ! gardian ! quete aire estrange !<lb/>E m'a di lou bon Diéu :<lb/>M'a di que pèr prega, aviés toujour bello ouro,<lb/>Que toun iue ris quand moun iue plouro,<lb/>E que toun cor se chalo i tristesso dóu miéu.<lb/>— Lou vèspre de Sant Jan espèro-me, revoio,<lb/>Quand veiras à la niue brula li flò de joio.<lb/>— Maire, digas? léu m'es vejaire<lb/>Que lou gardian revendra plus.</ab>
+        <ab type="head"><lb/>Ea Méuso dou Gabian</ab>
+        <ab type="head"><lb/>Legèndo Camarguenco</ab>
+        <ab type="head"><lb/>A L'ESTATUAIRE CHARPENTIER</ab>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Alin, à Séuvo-Riau, la véuso dóu gabian,</l>
+          <l><lb/>Soulo au bord de la mar, parlo em' un beu gardian:</l>
+        </lg>
+        <p rend="labelled"><lb/>— Quouro nous maridan, véuso?</p>
+        <lg>
+          <l><lb/>Belèu t'espousarai !... Mai te fau peravans,</l>
+        </lg>
+        <lg>
+          <l><lb/>M'adurre un nis de debassaire</l>
+          <l><lb/>Rauba sus uno pibo au blound souleu levant.</l>
+        </lg>
+        <lg>
+          <l><lb/>Lou vèspre de Sant Marc, la véuso dóu gabian</l>
+          <l><lb/>Soulo davans la mar esperè lou gardian.</l>
+        </lg>
+        <lg>
+          <l><lb/>— Bon-sèr, bello ! bon-sèr!vesès? siéu pa 'n meissaire,</l>
+          <l><lb/>Mai de vòsti desir lou cavalié servènt.</l>
+        </lg>
+        <list>
+          <item>–T'ame gardian !...</item>
+        </list>
+        <lg>
+          <l><lb/>Moun Diéu ! mai siés bèn blave !</l>
+          <l><lb/>— Blave ? Es verai ! Pode plus faire avans !</l>
+          <l><lb/>In long serpas vióulet de la lusènto raubo,</l>
+        </lg>
+        <lg>
+          <l><lb/>Aquest matin à l'aubo,</l>
+          <l><lb/>Abas de-long lou Rose, au blound soulèu levant,</l>
+          <l><lb/>Coume encambave la piboulo,</l>
+        </lg>
+        <p><lb/>M'a 'ntourtouia durbènt la goulo</p>
+        <ab type="head"><lb/>E bèn tant m'a mourdu,</ab>
+        <lg>
+          <l><lb/>Migo, que tout moun sang, ai-las ! léu l'ai perdu.</l>
+          <l><lb/>Quouro flançaren, que?</l>
+        </lg>
+        <lg>
+          <l><lb/>Gardian moun bèl ami, laisso toun ficheiroun,</l>
+          <l><lb/>Vole un di becarut, tout blanc, dis alo roso,</l>
+          <l><lb/>— A miejour, pèr Sant Gui, espèro-me, ma migo,</l>
+          <l><lb/>Au souleias ardènt qu'amaduro li figo.</l>
+        </lg>
+        <ab><lb/>Que trèvon Aubaroun.</ab>
+        <lg>
+          <l><lb/>A miejour, pèr Sant Gui, la véuso dóu gabian</l>
+          <l><lb/>Soulo davans lou mas espèro lou gardian.</l>
+        </lg>
+        <lg>
+          <l><lb/>— Digo, me l'as adu ? Es-ti tèms que iéu chanje,</l>
+          <l><lb/>Gardian, moun anèu d'or contro toun ficheiroun?</l>
+          <l><lb/>— Vaqui lou becarut qu’a dos grands alo d’ange,</l>
+          <l><lb/>Arribe d'Aubaroun!</l>
+        </lg>
+        <lg>
+          <l><lb/>Quouro nous maridan? — A la fin de l'annado!</l>
+        </lg>
+        <lg>
+          <l><lb/>— Quouro s'enanaren soulet, dins li grand bos ?....</l>
+          <l><lb/>ardian quand m'aduras, d'alin, de ta manado,</l>
+        </lg>
+        <list>
+          <item>— Ai resoun d'èstre triste (e de-segur lou siéu).</item>
+        </list>
+        <list>
+          <item>— Gardian, aquesto niue ai vist ploura moun ange,</item>
+        </list>
+        <lg>
+          <l><lb/>Lou vèspre de Sant Jan la véuso dóu gabian,</l>
+          <l><lb/>Essetado au lindau, espèro lou gardian.</l>
+        </lg>
+        <lg>
+          <l><lb/>— Maire, an pas canta li cigalo!</l>
+          <l><lb/>Perqué lou gardian revèn pa?</l>
+          <l><lb/>— Vendra belèu après soupa !</l>
+          <l><lb/>Ma fiho à taulo ! Ai la fringalo!</l>
+        </lg>
+        <lg>
+          <l><lb/>Lou sèr, après soupa, la véuso dóu gabian</l>
+          <l><lb/>Soulo, davans lou mas, espèro lou gardian.</l>
+        </lg>
+        <list>
+          <item>— Au lié ma fiho ! Anen se jaire!</item>
+        </list>
+        <list>
+          <item>Vendra deman à l'angelus.</item>
+        </list>
+        <p><lb/>Ela véuso mounte.<lb/></p>
+        <p rend="styled"><lb/>Resté gaire couchado!</p>
+        <lg>
+          <l><lb/>Palo, descendegue dins la claro niuchado.</l>
+        </lg>
+        <lg>
+          <l><lb/>Au cop de miejo-niue, la véuso dóu gabian,</l>
+          <l><lb/>Plourant sus lou lindau, atendié lou gardian.</l>
+        </lg>
+        <lg>
+          <l><lb/>– Bon-sèr, bello!bon-sèr! loubon Dieu me coundugue!</l>
+          <l><lb/>Lou brau de la Camargo es fort coume l'infèr !</l>
+          <l><lb/>Terrible, m'a 'nbana ! Cercas quau vous l'adugue!</l>
+          <l><lb/>Alin jais presounié, feroun e lis iue fèr.</l>
+          <l><lb/>— Oh! Gardian, toun sen porto uno traucado roujo!</l>
+          <l><lb/>— Aqui i'avié moun cor ! Aro rèn ié bat mai,</l>
+          <l><lb/>Lou brau me l'a creba dins soun iro feroujo</l>
+          <l><lb/>E nous maridaren, ai-las ! jamai, jamai !</l>
+          <l><lb/>Séuvo- Riau, 19 d' avoust 1887. Marius GIRARD.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LOu RIGO-RAGO AGENES<lb/>t</head>
+        <head><lb/>de Carie RATIER</head>
+        <p><lb/>l'a de tèms adeja qu'auriéu vougu charra no passado<lb/>dóu libre de Carie Ratier. Se vous n'en parle iuel es<lb/>mens pèr semoundre à soun autour li coumplimen qu'à<lb/>bel éime s'amerito per soun verai biais pouêti, que pèr<lb/>lou gramacia d'à-founs de la bono obro qu'a facho au<lb/>poun de visto ourtougrafi.</p>
+        <p><lb/>Adounc, escusas-me de vous dire en brèu que lou<lb/>libre de M. Ratier caup de vers galant e de poulldi proso:<lb/>que, dins li tres partido dóu Rigo-Rago, l'a autant d'es-<lb/>trambord á enaura la patrio miejournalo dins ll Mailadis,<lb/>que de gaubi a canta ll graci de la femo dins l Jouinos é<lb/>d'esté dins Tintéinos à faire espeli lou cacalas sus ll la-<lb/>bro li mai fougnouso.</p>
+        <p><lb/>Me sarié 'n chale de vous debana tout lou bèn que<lb/>pènse de soun talènt d'artisto, se noun aviéu la ferne-<lb/>tego de lausa subre-tout en Carle Ratier lou valènt re<lb/>viéudaire, dins la terro d'Agen, de la lengo nadalo.</p>
+        <p><lb/>O, soun obro, en foro de si merite d'ispiracioun verta-<lb/>diero, es mai-que-mai meritouso tamben pèr lou bon ei-<lb/>sèmple que baio i nèsci que countúnion d'escriéure en-<lb/>patoues. Veguen, dequé volon aquéli testard? Amor<lb/>qu'emplegon la lengo poupulari, es que volon la manteni,<lb/>es que fan de vot pèr que noun desparèigue? Or, lou me-<lb/>jan que noun more, aquelo lengo qu'escrivon de prefe-<lb/>rènci au francés, es-ti de la leissa s'abastardi enca mai,<lb/>de counsacra dins li libre e li journau si courrupcioun<lb/>journadiero, o bèn es-ti de l'auboura dins la counsidera-<lb/>cioun di letru e dins l'afecioun dóu pople en la fretant di<lb/>cagaduro de mousco que l'enmascon, en netejant di<lb/>mot barbare soun armounlo, en l'espurgant di formo que<lb/>la desnaturon e la degaion?</p>
+        <p><lb/>Pausa la questioun es la resoudre, coume dison li fran-<lb/>chimand.</p>
+        <p><lb/>Eh ! bèn, lou Felibrige s'es carga de faire prene à la<lb/>lengo aquéu ban dejouvenço, de l'aproupri, de la rèndre<lb/>tourna-mai faroto e risouleto coume au tèms di trouba-<lb/>dour. Perqué l'a-ti de gènt que fougnon à-n-aquelo mes-<lb/>sioun generouso de pieta à la fes e de fierta naciounalo?<lb/>Perqué, en terro d'O, l'a-ti 'ncaro de journau patoues e<lb/>d'ome — meme esperitau e escrivan d'elèl — proun avu-<lb/>gle pèr noun vèire qu'uno lengo sènso gramatico ni sin-<lb/>tàssi es coume uno soucieta sènso lèi ni gouver? Es-<lb/>ti pas clar que lou destin de l'uno coume de l'autro es<lb/>de mouri de malo mort dins l'anarchlo?</p>
+        <p><lb/>Vaqui co qu'a coumprés Carle Ratier. Soun libre es<lb/>escri d'uno ourtougràfi puro ; sabèn de mai que, dins<lb/>soun pais, a entre-pres un apoustoulat que jamal se mau-<lb/>coro e que ges d'esfors ié coston entre que s'agis de re-<lb/>metre en ounour la b illo lengo dé si aujòu gascoun.</p>
+        <p><lb/>Lou bon poueto dóu Rigo-Rago es un alouga patrioto,<lb/>aflama pèr tout ço que pertoco la descentralisacioun pou-<lb/>litico e literari ; d'aquest journau qu'es lou recate de<lb/>lidèio e lou fougau de la Causo, nous es grand ounour<lb/>e grand gau de ié crida: Gramaci e longo-mai!</p>
+        <p><lb/>Paris, 4́ de setèmbre 1884.</p>
+        <ab><lb/>Adrian Frissant.</ab>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>"En batèu sus lou Rose ".</p>
+        <ab><lb/>A Madamo BOUT DE CMAnLEMONT.<fw type="digitisation-artefact"><lb/>purce gallica.bnf.fr / Bibliothèqu</fw></ab>
+        <lg>
+          <l><lb/>Lou dous bressamen d'un batèu</l>
+          <l><lb/>Brèsso de l'esprit la pensado.</l>
+          <l><lb/>Qu'acd's risènt, esfraious, bèu,</l>
+          <l><lb/>Quand sias acouta per Poundado !</l>
+        </lg>
+        <lg>
+          <l><lb/>Lou Rose es un poulit tablèu</l>
+          <l><lb/>Que nous sourris coume uno amado;</l>
+          <l><lb/>Es un salut, un cant d'amour,</l>
+          <l><lb/>Un brandimen de la ramado.</l>
+        </lg>
+        <lg>
+          <l><lb/>Por foundre toun gèu, Sant-Goutard!</l>
+          <l><lb/>Pos desjouca ti recessado,</l>
+          <l><lb/>Nous acouta dins ti limpado,</l>
+        </lg>
+        <lg>
+          <l><lb/>O nous rebala dins la mar,</l>
+          <l><lb/>Rose ! e faire uno chichouméio,</l>
+          <l><lb/>Quicon toumbaru pas: rIdeio !</l>
+        </lg>
+        <lg>
+          <l><lb/>e de c</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

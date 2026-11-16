@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508542j</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1883-07-15">1883</date>
+          <idno type="ARK">bd6t54508542j</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508542j</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <dateline><lb/>Numéro 51. (2me ANNÉE).</dateline>
+        <ab><milestone unit="column" n="2"/><lb/>Un Numéro: 10 centimes</ab>
+        <ab><milestone unit="column" n="3"/><lb/>DIMANCHE 15 JUILLET 1883.</ab>
+        <figure/>
+        <ab><milestone unit="column" n="1"/><lb/>«Il y a des bétises<lb/>qu'un homme d'esprit<lb/>acheterait"</ab>
+        <p rend="styled"><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING<lb/>Adminis ration: FRÈRE-GLORIEUX, Imprimeur, rue de Lille, 20. — Rédaction : Jules WATTEEUW, Grand' Place, 20</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>n aret , homme, y a chin-qui ont d' z'observations à faire, que vin</ab>
+        <ab type="head"><lb/>LES QU'MINS D' FER</ab>
+        <figure/>
+        <p><lb/>Du qui est l'temps, qu' pou s'in d'aller<lb/>à Paris, vin l' diligince, in faijot sin tes-<lb/>tamint?</p>
+        <p><lb/>Du qui est l' temps des compagnies<lb/>Lafitte et Caillard, de l'société rue N.-D.<lb/>des Victoires, qui faijottent à eusses tout<lb/>seu, l' transport des voyageurs pou la<lb/>France et la Belgique?</p>
+        <p><lb/>Adan, Napoléon 1er y dijot : « on peut<lb/>mesurer les progrès de la prospérité<lb/>publique, aux comptes des diligences. Eh<lb/>bé mon Di Seigneur! si y verrot l’romint<lb/>d'euch'teur! tcheu différince inveuc les<lb/>qu’mins d' fer. In 1839, inne diligince<lb/>faijot tout sin pus mi, pour faire deux lieues<lb/>à l'heure, et euch'teur, inne locomotive<lb/>Crampton, inveuc 7 à 8 votures à sin<lb/>d' rire, ill' fait 80 à 1oo kilomètes!! si n’a<lb/>po d'quo perde la boule, tchan qu'in busi<lb/>à inne parelle vitesse!</p>
+        <p><lb/>L'homme, euch'teur, y n'a pu rin a invii;<lb/>y va aussi vite et même pus vite qu’inne<lb/>harondelle; vin les airs, sur mer, sur terre,<lb/>et y n’est nin acor contint! tchan que<lb/>l' train est inne mioche en ertard, y ber-<lb/>tonne! l' voyage qui fait euch’teur in<lb/>quatre heures, vin l' temps passé, nou<lb/>grands pères mettoltent quatte jours... et<lb/>y n’est nin acor contint!</p>
+        <p><lb/>Vin l' temps passé, in grippot vin inne<lb/>diligince qu’ill' pejot 4,500 kilog. pour<lb/>aller à Paris, y avot : 3 voyageurs vin<lb/>l' coupé, 8 à l'intérieur, 4 vin l' rotonde,<lb/>3 sus l’bantchette. In arrivot à destination,<lb/>ployi in deux, inveuc des clotchettes à sin<lb/>par derire, matte, estchinté et in trouvot<lb/>quante ans, y aro couru invo, in dijant tut<lb/>partut qu’ vous éti v' nu seut, n’est nin<lb/>vrai cha ?</p>
+        <p><lb/>Et quoqu’ché qui dirottent, nou grands<lb/>pères, si y ervenerottent sus c'monde,<lb/>qu’in leu fero vir l’quemin d'fer qui perche<lb/>toutoute l' mont Cenis sur inne londjeur<lb/>de 12 kilomètres à travers inne montane<lb/>de 3493 m de hauteur par deseur l' niveu<lb/>d' la mer. Chin qui fait, qu’in peut aller<lb/>d' Paris à Turin in 22 heures! Et l’quemin<lb/>de fer du Sœmmering, qui passe sus les<lb/>montagnes des Alpes pour aller d'Vienne<lb/>a Trieste, du qui a 15 souterrains sus<lb/><lb/>3.275 mètes et 16 ponts qui ont jusqu'a<lb/>45 mètes d' hauteur !</p>
+        <p><lb/>Et les qu’mins d'fer Améritchains, qui a<lb/>des buvettes, d'z’étuffes, in hiver, pou<lb/>s' récauffer, des marchands d’ journals,<lb/>d’ liffes et des... basses-tchampes.</p>
+        <p><lb/>Y est vrai qu'à côté d' tout cha, y a<lb/>aussi l' z'accidints d' quemin d'fer qui<lb/>sont épouvantabes et fréquents malhu-<lb/>reusemint! veyi sti de l' semaine passée,<lb/><lb/>à Orchies! Comben d' malhureux! com-<lb/>ben d' victimes!</p>
+        <p><lb/>Mais, in sait ben qu'à les pus bellés<lb/>médailles y a in endrot et in ing' vers,<lb/>ené? Vins les qu’mins d'fer, les serviches<lb/>que cha a rindu et qu'cha rind tous les<lb/>jours, ch'n'est po à dire. D'abord, in peut<lb/>faire in carcul d' chin qu’ch'étot l' dépar-<lb/>temint du Nord in 1842, époque d' l'inau-<lb/>guration; y a des p' tits villages qui sont<lb/>prospérés et dev'nus villes importantes à<lb/>cause du passage du qu’min d' fer.</p>
+        <p><lb/>Et l'commerce, et l'Industrie, et l' z’er-<lb/>lations, l'z’échanges de produts, les cor-<lb/>respondances, l' facilité des transports,<lb/>xout c'progrès, est ce que ch' n'est po<lb/>in benfait?</p>
+        <p><lb/>In sait ben, qui n'a qui treufftent à dire,<lb/>qu'ch'étot amusant d'voyager... euch'teur<lb/>allez vous in vir tcheull heure qui est.</p>
+        <p><lb/>D'pus lommint, in cachot à faire aller<lb/>les votures à l'vapeur et même au derni<lb/>siècle, in avot d'ja éprouvé, mais l'premire<lb/>locomotive ill' date foque de 1759.</p>
+        <p><lb/>Ch'est in docteur anglais, lommé Robis-<lb/>son qui a eu, l' premi, l'idée d'imployi<lb/>S vapeur pou faire aller les reux, et dije<lb/>ans pus tard, in 1769, in ingénieur Fran-<lb/>çais, Cugnot, faijot marcher in car à<lb/>vapeur au moyé d'deux chylinques, (in<lb/>peut même acor vir s' n' invintion au jour<lb/>d'aujourd'hu, au conservatoire des arts<lb/>et métis à Paris.)</p>
+        <p><lb/>In avot d'ja fait in grand pas, ch'est la<lb/>vérité, mais y follot arriver à diriger les<lb/>votures; ch'étot cha, l' pus difficile, vue<lb/>coperdez? Après gramint et gramint d’es-<lb/>sais, y ont fini pa tout laichi la in plan, et<lb/>ch' n’est foque in 1804, qu’in lommé<lb/>Olivier Evans, in améritchain, y a parvenu<lb/>à diriger vin les rues d'Philadelphie,<lb/>l' premire voture à vapeur.</p>
+        <p><lb/>In 1829, in français, Séguin aîné, faijot<lb/>l’application de l' caudire tubulaire,<lb/>l' système étot trouvé pour traîgner des<lb/>lourdes marchandises et gramint d' voya-<lb/>geurs. Par aprea, in a obtenu l' vitesse ;<lb/>inne locomotive de voyageurs, inveuc 14<lb/>15 votures, ill' fait 40 à 50 kilomètes à<lb/>l'heure et n' da, d'grande vitesse, qui ſont<lb/>inveuc 7 votures, 80 à 100 kilomètes!</p>
+        <p><lb/>Cha fait, que sti d'Tourco, qui a sin<lb/>mon onque ou ben s' ma tante à Paris, y<lb/>peut fin ben s’in d’aller du matin, arriver<lb/>vin l' capitale pou dîner inveuc sin mon<lb/>onque ou ben s’ma Tante, ben trantchille-<lb/>ment, in rancontant sin p'tit conte et êtes<lb/>rintré à Tourco pa l'derni train!<lb/></p>
+        <p><lb/>A vou motte?</p>
+      </div>
+    </body>
+  </text>
+</TEI>

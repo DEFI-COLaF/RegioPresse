@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508536t</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1883-06-10">1883</date>
+          <idno type="ARK">bd6t54508536t</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508536t</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Numéro 46. (2me ANNÉE).</fw>
+        <ab><milestone unit="column" n="2"/><lb/>Un Numéro: 10 centimes</ab>
+        <ab><milestone unit="column" n="3"/><lb/>DIMANCHE 10 JUIN 1883.</ab>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>Ny a des betises<lb/>payables d'avance<lb/>qu'un homme d'esprit<lb/>3mois frJ-50<lb/>acheterait.<lb/>6<lb/>Etranger, port en sus.<lb/>vOISENOR</p>
+        <p rend="heading"><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING</p>
+        <p rend="styled"><lb/>En vente à l'imprimerie FRÈRE-GLORIEUX rae de Lille, 20, et chez M. Jules WATTEEUW, Rédacteur, Grand Place,</p>
+      </div>
+      <div type="article">
+        <ab><lb/>1er prix unique, lecture à vue d'œil,<lb/>1er prix l'exécution des Parisiens<lb/>Vive les Crick-Sicks! Vive L. Rosoor!<lb/>Libedon, libedon, libedon ton ti ton taine,<lb/>Libedon, libedon, tibedon ton ti ton ton<lb/>Libedon, libedon, libedon ton ti ton taine<lb/>Libedon, libedon, libedon ton ti ton ton<lb/>Et lon la la<lb/>Lille, 4 juin</ab>
+        <ab type="head"><lb/>VICTOIRE!</ab>
+        <ab type="head"><lb/>Lille 4 juin 1883.</ab>
+        <ab type="head"><lb/>Prix d'honneur!</ab>
+        <ab type="head"><lb/>Et lon la la</ab>
+        <ab type="head"><lb/>Et lon la la... rra</ab>
+        <p><lb/>Saclès copagnons!... braffes copa-<lb/>gnons !... royals copagnons !</p>
+        <p><lb/>A vou motte qui n'a po d'quo faire<lb/>l’tchuberlire à l’ingvèrs, à l’indrot, faire<lb/>l'pori et jeuer des djambes in l'honneur<lb/>d’eusses tertus? Vive les Cricks-Sicks <lb/>Vive L. Rosoor ! Vive nous autes!</p>
+        <ab type="head"><lb/>Et lon la la... rra</ab>
+        <p><lb/>Ah ! si l'père Rosoor poro ête là pou<lb/>vir ses garchons! si les vis Cricks-Sicks<lb/>d'la vieille garde, qui sont invo erperi,<lb/>Petit mon onque, Muchausa et l'z’autes<lb/>2<lb/>porottent vir leu belle bannire rintrer<lb/>couverte d'lauris, comme vin l'temps<lb/>jadis!</p>
+        <p><lb/>Y n'a nin d'avanche, des momints essin,<lb/>in a sin tcheur qui éboule, y n'a po inne<lb/>goutte de sin sang qui n’fait po coupi vin<lb/>sin corps.</p>
+        <p><lb/>Saclès copagnons !... braffes copa-<lb/>gnons !... royals compagnons !</p>
+        <p><lb/>Lundi au matin, les Cricks-Sicks s’in<lb/>d’allottent a l'estation du qu’min d'fer,<lb/>comme des soldats qui s’in vont à la ba-<lb/>talle : les chets in avant, l'bannire au mi-<lb/>Aan, l'domestique par derire qui portot les<lb/>musiques et in paire de coulons pou don-<lb/>mer des nouvelles.<lb/>d’mander si volottent boire in canon, y<lb/>s’sont mis à courir à la gare d'l'estation du<lb/>qu’min d'fer, pour attraper l'train d'six<lb/><lb/>heures... et l'express acore... tcheu<lb/>restel</p>
+        <p><lb/>Aussi in a acore inne fos lâchi les cou-<lb/>lons pou Tourco, et l'agence à vaques du<lb/>Broutteux ill' a lanchi l'deuxime dé-<lb/>pêche:</p>
+        <ab><lb/>Lille, 4 juin.</ab>
+        <p><lb/>Paris net rétindu ! Tourco premi prix.<lb/>Les gins d'la jury y brayottent comme<lb/>d'zafants.</p>
+        <ab><lb/>Broutteux.</ab>
+        <p><lb/>Sti qui n'a jomais été vin inne occasion<lb/>parelle, y n’saro po dire chin qu’in ersint<lb/>vin sin tcheur à in momint si extraordé-<lb/>naire... in a l’tronnerie, des sueurs de<lb/>frod et d’caud, in soufelle, in fronche<lb/>s’bouque et sin nez, in rit, in brait, in s’er-<lb/>tourne tout in intir... in n'est pus les mê-<lb/>mes gins, quo.</p>
+        <p><lb/>Saclés copagnons !... braffes copa-<lb/>gnons !... royals copagnons !... Vive les<lb/>Cricks-Sicks!</p>
+        <p><lb/>Mais comme in avot tertus promis au<lb/>président d’rester calmes, jusqu’au con-<lb/>cours d’honneur du soir, in s’a t'nu in res-<lb/>pect et à dije heures 1/4 juste, in faijot<lb/>s’n’intrée sus l’estrade d'l'hyppogrom rim-<lb/>pli d’monde qu’à les p'tites fernêtes.</p>
+        <p><lb/>Attintion! v’la l'bannire de combat<lb/>qu’ill' déhute et qui'va saluer l'jury pré-<lb/>sidé par Ambroise Thomas (in'ojeu de<lb/><lb/>l'premire nitée) v'la l'z'afants d'Tourco<lb/>qui'vinn'tent s'ringi à l'intour de leu chef,<lb/>anne, deuss, troisse.... les v'la partis....<lb/>tcheu belle exécution! mais aussi tcheu<lb/><lb/>z’acclamations! jamais l’hypogrom n’a<lb/>attindu in brut pareil, clatchi des mains,<lb/>butchi des pids, crï: Vive les Cricks-Sicks</p>
+        <p><lb/>In les veyant passer, tus les gins sou¬<lb/>haitottent boinne chance et profitiat à les<lb/>Cricks-Sicks.</p>
+        <p><lb/>Arrivé à Lille, l'société s'rindot au grand<lb/>Théâte pou l'concours d’lecture à vue, et<lb/><lb/>là, vus povez dire que l'jury a été esto-<lb/>matchi d'attinte les copagnons tchanter<lb/>leu morceu... comme si charo été l'clair<lb/>de la lune, prope l'même, et d'téfos ch'é-<lb/>tot inne lecture qui n’étot pos facile, pus-<lb/>qué l'jury a félicité L. Rosoor et que l'so¬<lb/>ciété d'Paris qui l'a tchanté après, ill' s’a<lb/>impétré et s'a infoncé qu'à par déseur les<lb/>reins!</p>
+        <p><lb/>Adan in a invoyi des coulons, et<lb/>l’Broutteux qui fait partie des Cricks-<lb/><lb/>Sicks a couru au télégraphe et y a lanchi<lb/>à Tourco cheull' dépêche :</p>
+        <p rend="labelled"><lb/>Paris broyi à vue, premier prix à l'hu-<lb/>manité du jury.</p>
+        <ab><lb/>Broutteux.</ab>
+        <p><lb/>Hé bé ! quoqu'vous in dites ? ch'n'est<lb/>po l'momint d'crii acor inne fos:</p>
+        <p><lb/>Vive les Cricks-Sicks!</p>
+        <p><lb/>Par après, l'Société s'a rindu au local<lb/>de l'z'orphéons lillos, et d'à, au Château<lb/>(faubourg St-Maurice) du qui z’ont fait in<lb/>erpas corpieux, comme in dit, et pus inne<lb/>boinne repétition et y sont invos à 4 heu<lb/>res au Conservatoire du qui devottent<lb/>batte pou l'prix d’exécution.</p>
+        <p><lb/>Vus ari vu les gins jotchi inveuc leu<lb/>bouque ouverte pour accouter l'z’afants<lb/>d'Tourco ! in aro attindu l'ombre du vint,<lb/>du souffle, d'l'haleine, d'inne bête d'o-<lb/>rache!</p>
+        <p><lb/>Mais aussi, tcheu z'acclamations tchan<lb/>qu’in a proclamé l'prix unique pou les<lb/>Cricks-Sicks ! et po d’deuxime prix pou<lb/>Paris ! qui's'a acore inne fos brouchi l'vin-<lb/>te. Pauffes parisiens! in a eu beau leu de Tourco»</p>
+      </div>
+    </body>
+  </text>
+</TEI>

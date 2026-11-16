@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81361338</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1895-04-07">1895</date>
+          <idno type="ARK">bpt6k81361338</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81361338</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>CINQUENCO ANNADO, No 154.</fw>
+        <fw type="runningTitle"><lb/>DIMENCHE, 7 D'ABRIÉU 1895.</fw>
+        <ab><milestone unit="column" n="3"/><lb/>(Prouverbi di meixcounie)</ab>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren per lali<lb/>E faren Pait.</ab>
+        <p rend="heading"><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17,27)</p>
+        <figure/>
+        <ab><lb/>PRES OE L'ASOUNAM<lb/>Un an............. 10 fr.<lb/>Slèis mes.........<lb/>Tres mes..........<lb/>Estrangié........<lb/>Nou numero....... 10 centime</ab>
+        <figure type="decoration"/>
+        <ab><lb/>SUREU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI,<lb/>au palais déu Roure,<lb/>EN AVIGNOUN</ab>
+        <figure type="decoration"/>
+        <ab><lb/>Baile deou journau:<lb/>FoLCò DE BARONChEE</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>DE LA</head>
+        <head><lb/>LEIIGO PROUVENICALO</head>
+        <figure/>
+        <p><lb/>ENE de reçaupre uno letro escricho<lb/>en prouvençau, d'un de mi coum-<lb/>patrioto e ami. — un Mourieren que<lb/>demoro à Paris despièi vint an — que me fai<lb/>tant plesi, en me desacatant — sènso que soun<lb/>autour l'ague fa 'sprès, — em' autant de sim-<lb/>plesso que d'evidènci, la resoun d'èstre dóu<lb/><lb/>Felibrige, que me n'en vèn l'aigo à la bouco e<lb/>la petego i det. Fau que vous n'en parle. Moun<lb/>ami s'apello Saturnin — n'es pas besoun de<lb/>vous dire qu’à Mouriero, — qu’es à sièis<lb/>kiloumètre d'Avignoun — l'an jamai di que<lb/>Nenin. — Dounc, moun coumpatrioto Nenin,<lb/>qu'es aro à l'entour de la cinquanteno, avié<lb/>'no trenteno d’an quand quitè lou pais natau,<lb/>aquéu nis que n’avié jamai leissa d’uno se-<lb/>mano, pèr s’emparti, tout-d'uno, au Grand<lb/><lb/>Vilage d'ounte n'a jamai plus branda. N'es pas<lb/>revengu soulamen un cop dins soun endré.<lb/>N'a que quatre an de mai que iéu, sian un pau<lb/>parènt; enfant, avèn jouga 'nsèn i jo d'enfant ;<lb/>jouvenome, avèn fa, ensèn, li pouchicho e nous<lb/>sian marida la memo semano. Es à dire que<lb/>lou counèisse coume se l'aviéu fa. Vous vau<lb/>dire ço qu’es tout dins un cop : es un tipe<lb/>franc, generous, un cor de chato e amant lou<lb/>rire enjusquo à l'achata cènt milo franc la<lb/><lb/>briso. Quand partiguè — o pulèu quand s’es-<lb/>capè, — car lou capounas s'èro bèn garda de<lb/>me parla de soun cop,sachènt que i'auriéu fa la<lb/>coumèdi, m'arribè, vertadieramen, un malur.<lb/>Pamens, fauguè se resigna, la vido es la vido<lb/>e iéu, tambèn, me fauguè debana moun cou-<lb/>toun d’un autre coustat, talamen bèn, que<lb/>despièi qu'éu brando plus, iéu me siéu jama¬<lb/>plus arresta de barrula. Nous escrivian, par-<lb/>dinche! e souvènt; pièi, un bon jour, sènso<lb/>lou preveni, za! gisclère e l'anère atrouva à<lb/>soun burèu, — es contro-pesaire au grand<lb/>marcat de Paris, service de la prefeturo, —e<lb/>f'ai fa bèn quàuqui fes lou tour. Dire ço que<lb/>disian? faudrié clafi cènt numerò de l'Aiòli<lb/>emai i'arribarian pas. D'abord, parlavian de-<lb/>longo tóuti dous au cop, à mens de quand<lb/>erian à soun oustau, qu’aqui chaplavian à<lb/>tres, la bono Maria, sa femo, vouguènt agué<lb/>sa part de la regalado. E dins quinto lengo<lb/>cresès que parlavian, ansin tant vite, tant<lb/>countènt, tant urous? Dins quinto lengo pou-<lb/>dian-ti vuja, lis un dins lis autre, ço que<lb/><lb/>chasque cor alargavo, ço que chasco bouco<lb/>bandissié ? En prouvencau. Lou diable vous<lb/>patoues qu’apellon l'argot. Acò, moun ami,<lb/>tèn à la raço de chasque pople, à l'istòri de<lb/>chasque païs e à si tradicioun, cadeno touto<lb/>Sacho d'éli — que lou tèms alongo, mai que<lb/><lb/>pòu pas roumpre. Aro, ameten un moumen<lb/>que, coume dises, dins cinquanto an se parle<lb/>plus que francés. — He ! bèn, se n'èro ansin,<lb/>lou caratère, l'óuriginalita de chasco prou-<lb/>vinço sarien embastardi, e soun engèni,<lb/>cresta. Sarien — pèr te faire uno coumpare-<lb/>soun — ço que soun aro nòsti vigno que sian<lb/>esta óubliga d'enta 'mé de merço americano.<lb/>Nous dounon de vin, acò 's verai ; mai, te lou<lb/>demande, acò 's-ti lou vin de f'a trento an ? Es<lb/>de vin sènso qualita, dóu mens sènso lou<lb/>goust, lou perfum, l'especialita, tant recercado<lb/>que diferenciavo tant agradivamen talo re-<lb/>gioun, talo lono, tau quartié. Es de vin espés<lb/><lb/>e plat d'un goust estrange e unidamen parié.<lb/>Crousamen, acò durara pas e veici pèr que.<lb/><lb/>As bèn vist quàuqui fes, dins de rountau<lb/>assóuvagi, de trihas vigourous estèndre, en-<lb/>sertouia si vise sus li bouissoun, li roumese,<lb/><lb/>li clot de genèsto e sus touto la bouscassiho,<lb/>enfin, que lis envirounavo? He! bèn, aquéli<lb/>souco fèro èron de souco sano, resistant,<lb/>riboun-ribagno, au filoussera e en tóuti li ma-<lb/>landro que tuavon lou vignarés. Eaquéli souco<lb/>sano demouravon aqui, mau-grat tout, pèr<lb/>jita, garda si sagatun franc de tout bastardige<lb/>e sauva sa raço, car sara à-n-aquéli souco<lb/>desfaturado e óublidado que li gènt dóu pais<lb/>vendran, un moumen o l'autre, coupa de maiòu<lb/>pèr replanta de nouvèu plantié, quand vou¬<lb/><lb/>dran reculi si vin delicious d'àutri-fes. He!<lb/>Dèn, aquéli trihas, aquéli souco sano, soun li<lb/>felibre, que sauvaran, en sauvant la lengo de<lb/>chasco prouvinço, la particularita tipico que<lb/>fai la valour, l'agradanço e la renoumado de<lb/>chascuno. E anèsses pas crèire que lou Feli-<lb/>brige vague, pèr acò, entrambla la lengo fran-<lb/>ceso, noun! Lou Felibrige vòu tout simplamen<lb/><lb/>sa plaço au soulèu e espandi, emé touto l'ar-<lb/><lb/>dour d'uno counvicioun patrioutico, soun<lb/>ensignamen à coustat de l'ensignamen uni-<lb/>versitàri. Car li parla loucau rèndon forco plus<lb/>facile e mai segur lis estùdi istouri, artisti e<lb/>etnougrafi, qu'entre-tènon li pople dins la draio<lb/><lb/>de si raço en permetènt à chascun de n'en<lb/>proudurre la forço que i'es propro. Lou prou¬<lb/>grès, coume creses, n'es pas fa de pèço de vint<lb/>franc : es fa d'art e d'educacioun, soul prin-<lb/>cipe civilisaire que lou poscon enfanta. Or, lou<lb/>Felibrige es autamen artisti e prefoundamen</p>
+        <p><lb/>M'as di que lou parla prouvençau n'ero bon<lb/>que pèr rireo galeja. Aco 's autant injuste<lb/>fa pèr dire dins uno autro lengo de causo<lb/>visto, sentido en Prouvènço e viscudo en prou-<lb/>vençau? Pamens, sabian parla francés, boutas!<lb/>meme que moun Nenin s'èro afeciouna d'aquelo<lb/>lengo. Pas fort pèr la parla quand partiguè,<lb/>n'estènt jamai gaire ana à l'escolo, tre qu’ar-<lb/>ribè amoundaut seguiguè li cours d'adulte que<lb/>se fan à la vihado, e dins ges de tèms agantè<lb/>'n pres (uno óubligacioun de la vilo de Paris).<lb/>Eicò, macastin! i'avié talamen douna d'alen,<lb/>que me galejavo, de passa moun tèms à-n-<lb/>aprene, à-n-estudia, à-n-escriéure lou prou-</p>
+        <p rend="labelled"><lb/>-Lou parla 'ntre nous-autre, me disié, pèr<lb/>rire, pèr couiouneja, vague-ié! acò, lou coum¬<lb/>prene, mai ié despensa sa peno e soun argènt,<lb/>acò noun. D'abord, en dequé lou prouvençau<lb/>pòu-ti servi ? En rèn de rèn, parai? liogo<lb/>qu'emé lou francés fas toun camin ounte que<lb/>fugue. Pèr counsequènt, lou Felibrige n’es<lb/>qu'un entravadis à l'espandimen de la lengo<lb/>franceso, que tóuti li francés devrien saupre<lb/>au bout dóu det, e basto nòsti parènt l'aguès-<lb/>son parlado, qu’ansin l'aurian apresso en<lb/>venènt au mounde e la desgoubiharian, des-<lb/>pièi long-tèms, coume de Ciceroun. Mai, acò<lb/>vendra, bouto ! acò vendra. Dins cinquanto an<lb/><lb/>d'eici, emé tóuti lis escolo que soun facho de<lb/><lb/>pertout, la lengo franceso sara parlado dins<lb/>touto la Franço ; ansin chascun saupra faire<lb/>sis afaire e saren au prougrès.</p>
+        <p rend="labelled"><lb/>— Outre ! ié respoundiéu, parles coume un<lb/>moussu, meme en parlant prouvençau, e pa-<lb/>mens siés autant viedauco sus la questioun<lb/>que t'enfioco qu'un marrit mèstre d'escolo...<lb/>Fai un pau vèire se n'as pas uno pratico dins<lb/>la bouco pèr me sibla tout acò... He! bèn!<lb/>noun ome, countuniave, me tai bèn peno,<lb/>mai te vau escrapouchina.<lb/></p>
+        <p><lb/>Pèr coumença, te diral que touti li felibre<lb/>sabon parla francés e que lou podon escriéure<lb/>miés que la majo part d’aquéli que li soun<lb/>pas ; e n'es talamen ansin, que tóuti nostis<lb/>escrivan traduson, éli-meme, sis obro en<lb/>rancés. Sian dounc pas lis enemi dóu francés,<lb/>sian tout bounamen superiour is enemi dóu<lb/>Felibrige — de la forço d'uno lengo. Me dises<lb/>que dins cinquanto an se parlara, en Franço,<lb/>plus que lou francés. Eicò 's à discuti. Lou<lb/>francés sara, l'a gros à paria, mai couneigu,<lb/>descendu mai founs dins lou pople — e nous<lb/>fai bèn plesi, — mai li lengage prouvinciau<lb/>auran toujour, Diéu-merci, si devot. Regardo<lb/>se dins la Bourgougno, se dins la Nourmandio,<lb/>ounte se parlo francés despièi cinq cènts an,<lb/>la parladuro loucalo n'a pas soun publi emar<lb/><lb/>si filoulogue. Regardos à Paris, en plen Paris,</p>
+        <ab><lb/>oueal/Bib̀ue de</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

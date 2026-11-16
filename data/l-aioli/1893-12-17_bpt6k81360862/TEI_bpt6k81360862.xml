@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81360862</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1893-12-17">1893</date>
+          <idno type="ARK">bpt6k81360862</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81360862</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>TRESENCO ANNADO,.</fw>
+        <fw type="runningTitle"><lb/>DIMENCHE, 17 DE DESEMBRE 1803</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage unicereau,<lb/>Voutaren per lôli<lb/>E faren Paiôli.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Vidonn. Vidar.<lb/>Segounit la vido<lb/>ton journan.<lb/>omarotae de meiaes</ab>
+        <ab><lb/>MISTRAL</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES PES PER MES (7. 17. 27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <ab><lb/>BUREU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOC DE BAnONCELLI,<lb/>au palais dou Roure,<lb/>EN AVIGNOUN</ab>
+        <figure type="table"/>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN</p>
+        <ab><lb/>Baile don journau:<lb/>FOLCO DE BARONCELLI</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>jouvènco.</ab>
+        <ab type="head"><lb/>COUQUIho d'un RouMIÉU</ab>
+        <ab type="head"><lb/>PER LOUIS ROUMIEUX </ab>
+        <p><lb/>Ains aqueste journau, l'aurié qu'un biais de<lb/>parla di Couquiho d'un roumiéu, que nous<lb/>arribon entre-duberto, amor que n’en vesèn<lb/>soulamen la mita. Sarié de cita de fiéu en<lb/>courduro la pajo amistadouso de noste mèstre<lb/><lb/>en critico, Mistral, lou grand prefacié, qu'a-<lb/>nouncio l'obro dou felibre de la Tourre-Magno,<lb/>en countant eiço:</p>
+        <p rend="labelled"><lb/>« Aquest an, pèr Santo-Estello, aviéu contro<lb/>iéu, à taulo, Roumiéax, lou gai levènti de touto<lb/>fèsto felibrenco.</p>
+        <p rend="labelled"><lb/>« Em'aco, tout en charrant e countant de ta-<lb/>lounado, me diguè : — Sabes pas? vau publi-<lb/>ca, ben lèu, la rejouncho de mis obro,o, de tóuti<lb/>mis obro, ilustrado pèr Marsal.</p>
+        <p rend="labelled"><lb/>- Oh !d'aquéa crespina! E coume l'entitu-<lb/>laras</p>
+        <p rend="labelled"><lb/>- La Couquiho d'un Roumiéu.</p>
+        <p rend="labelled"><lb/>— Perqué pas, ié faguère, lis Arcèlli de<lb/>Roumieux, o li Clauvisso, o li Teniho, o bouna-<lb/>men li Cacalauso 2...</p>
+        <p rend="labelled"><lb/>— Te vau dire, me venguè. Sabes que, pèr<lb/>mi pecat, iéu que, dins moun bon tèms, l'ai<lb/>proun passado alegourado, siéu redu à resse-<lb/>yre d'esprovo d'empremarié, en fin de n'en<lb/>leva, coume dison, li couquiho. O, iéu que dins<lb/>Bèu-Caire, mai de vint an de tèms, ai tengu<lb/>Court d'Amour; iéu que, pèr nosto Fiero, ère,<lb/>tóuti lis an, l'Abat de la Jouvènço; iéu que,<lb/>fèsto e dimenche, aviéu de-longo taulo messo<lb/>pèr lis ami, pèr li Felibre, pèr lis artisto de<lb/>tout biais ; iéu que, te n’ensouvèn? —<lb/>quand desbarcavon sus lou Rose lis embas-<lb/>sado catalano, à mi frès iluminave, de la garo<lb/>à l'oustau, lis avengudo de Bèu Caire, eh !<lb/>bèn, — e dise pas tout, — vuei, per gagna la<lb/>vidasso, me fau tria li niero, valènt-à-dire li<lb/>couquiho, di tipougrafe d'un journau... Mai,<lb/>basto, Frederi, aco fai pas couquin, e après<lb/>tèms que trempo, coume se dis, tèms que<lb/>destrempo.</p>
+        <p rend="labelled"><lb/>— Que vos, moun bèu Roumieux? coume<lb/>que vire, en aquest mounde, ve, fau toujour,<lb/>coume la nòvio, ploura soun rire de l'an<lb/>pas»</p>
+        <p><lb/>Pamens, se me fise à soun libre, Roumiéux<lb/>es encaro proun riserèu e, mau-grat quàuquis<lb/>elegio que vous tiron li lagremo, la leituro de<lb/>sis obro nous lou mostro sèmpre jouine, gale-<lb/>jaire, de-longo cantant peno, joio, amour, se-<lb/>gound lou tèms ; e cadun saup que dins noste<lb/>miejour i'a mai de soulèu que de nivo.</p>
+        <p><lb/>En vesènt, à la coumençanço, qu’aquéu<lb/>mèstre de l'improuvisacioun, aquéu Louviset<lb/>qu'a pas decessa dempièi un mié-siècle de<lb/>larga la boundo à si rimo beluguejanto, anavo<lb/>empremi tout lou prefa de sa vido, m'ère di :<lb/>Quant faudra pas de voulume! — Mai, éu,<lb/>Sorço arregardant, n'en vòu publica que dous,<lb/>bèn tria, coume counvèn a-n-un felibre d'elèi.</p>
+        <p><lb/>Aqui restaran pèr li letru, e tambèn pèr lis<lb/>autre: Lou Maset de Mèste Roumiéux, L'Anglés<lb/>de Nimes, Li noço de guingoi, Ma vesino Fineto,<lb/>galejado requisto; La Felibrejado d'Areno, A<lb/>SAmi que m'a vist ploura, Loa Trevan, pouèmo<lb/>esmougu. Pièi, dins lou voulume que vèn, La<lb/><lb/>Jarjaiado, Li dos Lèbre, e tout co que lou ram-<lb/>pelaire rampelara. Lou creioun dóu fidèu<lb/>Marsal marco majouralamen li bons endré,<lb/>coume avié fa pèr l'abat Favre; e vous res-<lb/>ponde que n'i'a. Ansin, coume dirié Rou-<lb/>niéux, l'ilustraire es ilustra.<lb/></p>
+        <p><lb/>E que nous vèngon pas dire que, souto un<lb/>vièsti lusènt de milo pimpaieto, la pouesio de<lb/>Louviset a un pau la bèuta dóu diable. Es<lb/>verai que, de fes, cambarelejo e meno la mas-<lb/>carado; mai proun d'autri fes, fai pensa:<lb/></p>
+        <lg>
+          <l><lb/>Per tant aut qu'escalen sus lou cresten di serre,</l>
+          <l><lb/>Per tant bas que leissen la mar à nosti pêd,</l>
+          <l><lb/>Dirias que lou cèu meme, éu, s'aubouro, au respèt,</l>
+          <l><lb/>E misteriousamen nous dis: Vène me querre!</l>
+        </lg>
+        <p><lb/>Pièi, Roumieux, astra pèr soun noum, se-<lb/>guis soun camin sènso mai cava. Rèn l'a-<lb/>planto, ni la pèiro, ni lou bouissoun; — de<lb/>cop que r'a, la flour.</p>
+        <p><lb/>Coume l'escriéu lou cancelié Mariéton, «res<lb/>mai qu'éu a la coumprenènço dóu soulèu, sie-<lb/>gue de malancounié, siegue de joio. La malan¬<lb/>counié 's pas de durado, dins li fusado de gaieta<lb/>franco que tiro aquéu bon coumpagnoun pèr<lb/>soun agradamen emai lou nostre. Acò's l'espe-<lb/>rit prouvençau qu'espincho de si bon coustat<lb/>li causo de la vido.»</p>
+        <p><lb/>Ah! que lou pople sarié benura e óublidarié<lb/>miéus si lagno, se, liogo de se gava di cansoun<lb/>enfetanto dóu patoues de Mount-Martre, repre¬<lb/>nié goust i refrin vertadieramen poupulàri<lb/>que refrescon la pensado dins un bon rire san<lb/>e poueti, coume aquéu de Roumiéux. E l'au-<lb/>tour éu-meme a de que adouci sis Ai! e sis<lb/>Oui! en se remembrant li coublet de sa bello</p>
+        <p><lb/>Mai, que dise? Es-ti pas toujour lou plus<lb/>jouine di felibre? N'i'a qu'en venènt dins l'age<lb/>tènon de-longo si mino e coumpassejon tóuti<lb/>si mot, bèn talamen que sèmblon agué creba<lb/>si boufet. Eu, es pulèu lou countràri ! es uno<lb/>cigalo que counèis ges d'ivèr.<lb/></p>
+        <p rend="labelled"><lb/>« En tóuti li roumavage, ouradou, rougadou<lb/>e signadou dou Felibrige, » canto encaro,<lb/>prègo encaro, degruno encaro soun rousàri.</p>
+        <p><lb/>Acò fai pas que siegue un sant. Ansin lou<lb/>dis lou mèstre prefacié que ié fau sèmpre<lb/>reveni:</p>
+        <p rend="labelled"><lb/>«Tambèn nous arribè, quand roucasioun<lb/>se presentavo, d'entre-culi quanco rapugo sus<lb/>l'aubre dóu Camin Roumiéu.. Mai aco, lou<lb/>mestié l'a, perqué se dis, — au jo qu’apellon<lb/>« la Cato-Orbo »:</p>
+        <p rend="labelled"><lb/>— D'ounte vènes, Roumiéu ? — Roumiéu,<lb/>vène de Roumo.</p>
+        <p rend="labelled"><lb/>— Faire que? - Cerca de poumo.</p>
+        <p rend="labelled"><lb/>Quant li vèndes?— Cinq pata.</p>
+        <p rend="labelled"><lb/>— Piho, piho quau pourra. -</p>
+        <p rend="labelled"><lb/>« Mai, aro, coume sant Ro, lou bon roumiéu<lb/>de Mount-Pelié, fau descatalana noste capèu de<lb/>soço, lou garni de couquiho e faire penitènci.<lb/>Soulamen, sant Rouquet, dóu tèms qu'èro<lb/>dins lou desert, avié capita 'n chin que i'adu-<lb/>sié 'n panoun tóuti li jour de Diéu e que ié<lb/>lipavo si plago....</p>
+        <p rend="labelled"><lb/>— Anen, vai, iéu diguère à moun paure<lb/>Roumiéux, en ié pourgènt la coupo santo,<lb/><lb/>dises bèn tout acò, mai ti Couquiho de Rou-<lb/>miéu, tóuti lusènto di coulour de la marino<lb/>souleiouso e tóuti saupicado dóu satabrun dis<lb/>erso, qu'as acampado à cha uno subre lou<lb/>sablas amar de toun oundejanto vido, digo, li<lb/>chanjariés pèr li bihet de banco, souvènti-fes<lb/>crassous, d'aquéli que jamai an reçaupu sus<lb/>la tèsto li salivado de la mar?</p>
+        <p rend="labelled"><lb/>— Ah ! pesqui pas!</p>
+        <p rend="labelled"><lb/>— Eh! bèn, alor, galo-bon-tèms, de que te<lb/>plagnes?»</p>
+        <p><lb/>Sus aquéu mot, Mistral ié claus li labro emé<lb/>la coupo felibrenco.</p>
+        <p><lb/>E nautri, finalamen atrouvan que Roumiéux,<lb/>davans tant de bèn que ié rèsto encaro, a<lb/>dóu man d'aquéu dóu prouvèrbi : Fai mai<lb/>encié que pieta.</p>
+        <ab><lb/>A. MOUZIN.</ab>
+        <p rend="labelled"><lb/>La cocomo D'on nouXÍr, recuei de polesio prouven-<lb/>çalo, publica me la tra tucioun franceso, prefaci de Mistral.<lb/>noutiço biougrafico per P. Chassary e llustracioun d'E. Marsal,<lb/>fourmaran 2 beu voulume in-&amp;r. Lou proumié. e lé lou retra<lb/>de P'antour, ven de paréisse. Lou segound sara manda, partént<lb/>dou mes que vèn, à cha 20 liéuresoun (que se n'en fara 2 pèr<lb/>se mano). S'estampo à Mount-P'elié, empremarie Firmia</p>
+        <p rend="heading"><lb/>LOU GASTAGE DIS ENFANT</p>
+        <p><lb/>Uno causo me maucoro, quand la vese se proudurre:<lb/>es lou gastage dis enfant. l'a proun de maire que fauton<lb/>en aco; l'a proun de paire que laisson faire si femo, se<lb/>l'ajudon pas. L'avés, de-segur, vist autant de fes que léu,<lb/>e, de segur, souvetas autant que léu de vèire muda uno<lb/>talo edueaeien</p>
+        <ab><lb/>5o /Bièu de e</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

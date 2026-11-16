@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Nouvielle Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54517383r</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Nouvielle Vaclette : journal patoisant humoristique, non politique / avec la collaboration du Caveau lillois</title>
+          <publisher>[s. n.] (Lille)</publisher>
+          <date when="1931-03-07">1931</date>
+          <idno type="ARK">bd6t54517383r</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54517383r</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>8' ANNÉE. — No 314</fw>
+        <fw type="runningTitle"><lb/>L'abonnement se paie d’Avance</fw>
+        <fw type="runningTitle"><lb/>O.28 LE NUMÉRO</fw>
+        <dateline><lb/>Samedi 7 Mars 1931.</dateline>
+        <ab><milestone unit="column" n="2"/><lb/>REDACTION<lb/>ABONNEMENT<lb/>69, Rue Saint-Sauveur</ab>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>AVEC LA COLLABORATiON</p>
+        <ab><milestone unit="column" n="3"/><lb/>Gérant : MAREELS Isidors</ab>
+        <ab><lb/>Chéques Postaux 37.182</ab>
+        <p rend="styled"><lb/>Siège : 1, Rue de la Monnaie</p>
+        <p rend="dateline"><lb/>France un an, 18.50</p>
+      </div>
+      <div type="article">
+        <head><lb/>Amateurs de Canchons Patoises</head>
+        <head><lb/>Vous trouv'rez dins ch' liméro :</head>
+        <head><lb/>MIN RÉPERTOIRE<lb/>Chanson de Ch. DELACROIX<lb/>Air: Les Tablettes</head>
+        <ab><lb/>Faut point toudis dir' chin qu'on pinse<lb/>Chanson de F. DUPONT, dit Double-Mète<lb/>Air : Les Milions d'Arlequin<lb/>Loin des Yeux, loin du Cœur<lb/>(Poésie de mœurs)<lb/>Pasquille de I. MARÉELS<lb/>UN GARCHON MODERNE<lb/>Air: p'Iil Price et Marianne Tambour<ab><lb/>Chanson de D. MENEZ</ab></ab>
+      </div>
+      <div type="article">
+        <head><lb/>aVis Aux DÉPOSITaIrEs</head>
+        <p><lb/>Ladministration du journal serait<lb/>vobligée aux dépositaires qui n'ont pas<lb/>encore réglé leur compte de vouloir<lb/>bien le faire aussitôt que possible au<lb/>moyen de la formule timbrée de man¬<lb/>dat de chèque postal qui leur a été<lb/>envoyée.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Tout homme d'vrot savoir, qu'au cours de s'n'<lb/>[existeince,<lb/>l' n'y-a qu' chés seuls moyens permettant d' vivré<lb/>(heureux:<lb/>Supporter les déboir's. prinde l' ma' in patieince:<lb/>continter d' sin sort, même étant miséreux.<lb/>Corriger ses défauts, canger sin caractère,<lb/>Si tout' fos il étot trop vif, trop importé,<lb/>Que l' colère est toudis cun' mauvais' conseillère,<lb/>(l's yeux</ab>
+        <ab type="head"><lb/>Pinséas d'un rinceu' d' bouteilles</ab>
+        <p><lb/>Conserver s' bonn' heumeur, ainsi que l' franqu<lb/>lgaieté<lb/>cr, est un grand péché, à mn' avis, an' dee<lb/>ae est un grand péché, à m'n' avis, qu' d'ête<lb/>Eloingner d'ses idées. l' démon de l'jalousie.<lb/>(invieux,<lb/>Et qu' si s' femme l' tromp'rot, qui vautmieux fermen</p>
+        <ab><lb/>I. MAREELS</ab>
+        <p rend="labelled"><lb/>Dimanche 8 Mars. — A 4 heures, au<lb/>Sièche, 200, Rue Léon-Gambetta. Matinée Récréa-<lb/>tive Patoisante offerte aux familles et amis des<lb/>Mimbres Actifs et aux Mimbres Honoraires.</p>
+        <p rend="heading"><lb/>CAVEAU LILLOIS</p>
+        <p><lb/>Sujet imposé : On n' peutpoint oblier cha</p>
+      </div>
+      <div type="article">
+        <head><lb/>CALISS' TORIETTES</head>
+        <p rend="labelled"><lb/>L' Canarien du Père Antoine. – l'y d'jà bien<lb/>longtemps vivot l' Père Antoine qui habitot<lb/>Saint-Maurice; i' vindot du lait, du bos cassé<lb/>tous les jours, et du lait battu l' vindredi.</p>
+        <p><lb/>Ch’ètot un bon et braf' homme, point d'méchan-<lb/>ceté pour un sou, point buveu’, mais grand<lb/>amateur d’ojeaux. Dins l' plache précédant s’<lb/>cuisine i' avot eun' grand' volière et pusieurs<lb/>caches cont'nant des s'rins, des pinchons ; quand<lb/>i' avot un peu d' temps i' l' passot à soigner et<lb/>surveiller l'élevache d' ches gais compagaons.</p>
+        <p><lb/>I' faijot l' vinte d' canariens quand i' avot<lb/>réussi dins les pontes et qu' les jeunes v'nott'nt<lb/>bien et étott'nt vigoureux, mais, i' fallot éte eun"<lb/>connaissance ou habiter l' quartier pour avoir<lb/><lb/>un canarien du Père Antoine, et incore malgré<lb/>tout cha on n' l'obtenot point facil'mint.</p>
+        <p><lb/>L' père Antoine étot bien portant, mais<lb/>malheureus’mint i' avot eun' mauvaise vue, et<lb/>pus d’un garchonnal profitot de s' n’infirmité, ou<lb/><lb/>plutôt de s’ vue basse, pour li donner, in plache<lb/>des deux sous, pour l' lait qu'l's v'nott'nt li aca-<lb/>ter un j’ton, eun' médalle ou un morciau d' cuif'<lb/>raplati ; mais à part cha, jamais qu’on li avot<lb/><lb/>fait eun' mauvaise farce ; et comme toudis l'occa-<lb/><lb/>sion a fait l' larron.<lb/></p>
+        <p><lb/>Bébert un d' nos camarates (i' étot d' not'<lb/>bande, la bande du Camp) avot attrapé un biau<lb/>mouchon, un mâle, i' l' faijot vir à D'siré, quand<lb/>tout d'un cop ch' ti chi li dijot: Min père i'a<lb/>acaté de l' couleur d’un jaune r'ssemblant gram-<lb/>mint à l' nuance des canariens du Père Antoine,<lb/>et ell' sèqu' vite ; i' s'in a servi pour peind' l'éta-<lb/>gère d' l' cuisine ; i' dot inco e in rester un p'tit<lb/>peu ; j' vas aller l' quer.</p>
+        <p><lb/>Ch'est cha, dijot Bébert et comm'j' su's tout<lb/>seu' à m' mason ; m' mère est partie avec m' sœur<lb/>chez eun' tante à Hellemmes, on va peind' tran-<lb/>quill'mint l' mouchon et on l' portera après-midi<lb/>chez l' père Antoine ; on va rigoler.</p>
+        <p><lb/>Ouais mais, dijot D'siré ù l' mett' quand i' s'ra<lb/>cangé in canarien ?</p>
+        <p><lb/>I' faudrot eun' petite cache comme les mar-<lb/>chands d'ojeaux s' servent pour transporter<lb/>l'ojeau vindu.</p>
+        <p><lb/>J'ai l'affaire que j' m'écrios, et viv'mint j'allos<lb/>jusqu'à m' mason pour prind', au grenier l'<lb/>cache nécessaire.<lb/></p>
+        <p><lb/>Cha ch'est bien Totor, m' dijot D'siré qui étot<lb/>d'jà in possession de l' couleur.</p>
+        <p><lb/>"On mettot l’ojeau dins l' cache et on partot,<lb/>chez Bébert ; on s’installot, Bébert pernot dins<lb/>un tiroir d' commode, un peu d’ouate et l'imbi-<lb/>bot du liquid' jaune, D'siré sortot l' mouchon et<lb/>l'opération comminchot.</p>
+        <p><lb/>Cheull' pauf' biète, au début de s' transfor-<lb/>mation in biau“ Saxon”, n’aimot point gra-<lb/>mint les caresses que Bébert li faijot su ses<lb/>pleumes avsc sin tampon imprégné d' couleur,<lb/>et, malgré qu’on étot garchonnals on compernot<lb/>que l' peintnre d'vot incommoder not' mouchon,<lb/>aussi, i' fut décidé d'aller immédiat'mint chez l'<lb/>Père Antoine; d'ailleurs i' étot vite séque et<lb/>alors, on s' mettot aussitôt in route.<lb/></p>
+        <p><lb/>Comme Bébert étot l' pus connu du père<lb/>Antoine ch'est li qui d’vot s’arringer pour que l'<lb/>farce soche réussie, comme on va l' vir l'affaire<lb/>s’est bien passée. Après avoir buqué on tournot<lb/><lb/>' poignée de l' porte et on rintrot.<lb/></p>
+        <p><lb/>Bonjour père Antoine qu'on dijot tous insanne<lb/>Bonjour mes p'tits garchons répondot ch' ti chi,<lb/>qu'est ch' vous voulez, du lait, du bos cassé ?</p>
+        <p><lb/>Non dijot Bébert, je vous rapporte un biau<lb/>mâle d' Saxon, un bon canteu, min père i' n’a eu<lb/>deux à un chochon de s' boutique: ch' ti chi i'<lb/>m' l'à donné et i' m'a dit que j' pouvos vous l'<lb/>rapporter pour avoir eun' biell' femelle in plache<lb/>ch'est parce qu'i' n’a deux parels sans cha i'<lb/>n'arot jamais voulu faire un cang mint comme<lb/>-<lb/>ch' ti la.</p>
+        <p><lb/>Bon, donne, répondot Antoine, je n' vos point<lb/>bien clair j'ai confiance à ti, mets le dins l'cache<lb/>vide qui est au-d'ssus de l' porte de l' cuisine, et<lb/>vas dépind' l' cache verte pindue à côté, mets le<lb/>su' l' table, j' vas t' queusir eun' biell' femelle.</p>
+        <p><lb/>Aussitôt l' cache dépindue, l' père Antoine,<lb/>queusichot l'ojeau d'maindé et le r'mettot à<lb/>Bébert. On dijot au revoir et on partot.</p>
+        <p><lb/>Mais i' n’étot incore qu’onze heures du matin;<lb/>on décidot d' finir cheull' farce avant d’aller<lb/>dinner.</p>
+        <p><lb/>On allot trouver, dins l' quartier, eun' vieill'<lb/>fill' un peu maniaque; on savot qu' plusieurs fos<lb/>déjà elle avot été vir l'Père Antoine pour avoir<lb/>un canarien, mais toudis sans succès ; on avot<lb/>donc l'amateur rêvé et surtout peu connaisseur.</p>
+        <p><lb/>On buquot à l' porte, l' vieill' fill' très pru-<lb/>dinte r'vettiot par l'ferniête et in nous veyant<lb/>elle nous d’maindot:</p>
+        <p><lb/>Qu'est-ch' que volez ? J' n'ai point d' commis-<lb/>sions à faire?</p>
+        <p rend="labelled"><lb/>— Non, répondot Bébert, j' n’ai que deux<lb/>mots à vous dire : vous volez toudis avoir un<lb/>canarien du Père Antoine, vous povez aller !'<lb/>vir i' vous in vindra un.<lb/></p>
+        <p><lb/>D'maindez-li ch' ti qui est tout seu' dins eun<lb/>cache plachée au-dessus de l' porte de l' cuisine,<lb/>ch’est un bon canteu'; mais n' li dites point qu'<lb/>ch'est mi qui vous a prév'nue.</p>
+        <p><lb/>Non, non, répondot aussitôt cheull' vieill'<lb/>mam'zelle du doux prénom de Nathalie, et què-<lb/>qu' minutes après elle s’in allot ch'est l'Père<lb/>Antoine.</p>
+        <p><lb/>L' Père Antoine, probableumint contint de s'n'<lb/>écanche avec Bébert, contrair'mint à s' n’habi-<lb/>tude acceptot, l' demande de Me" Nathalie; i'<lb/>montot sur eun' cayère, décrochot l' cache, et<lb/><lb/>faijot admirer" l'Saxon", à s' cliente; émer</p>
+      </div>
+    </body>
+  </text>
+</TEI>

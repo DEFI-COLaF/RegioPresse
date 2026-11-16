@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Les Amis de l'Épeule</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k9587851g</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Les Amis de l'Épeule : bulletin mensuel</title>
+          <publisher>Comité directeur des "Amis de l'Épeule" (Roubaix)</publisher>
+          <date when="1922-10-01">1922</date>
+          <idno type="ARK">bpt6k9587851g</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k9587851g</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <note type="handwritten"><lb/>66824<lb/><lb/><lb/>oc 1822<lb/><lb/></note>
+        <ab><milestone unit="column" n="2"/><lb/>BULLETIN MENSUEL<lb/><lb/><lb/><lb/><lb/> SECRETARIAT =<lb/> REDACTION =<lb/>Gérant : A. DUBUS<lb/>210, Rue de l'Épeule, 210 - ROUBAIX</ab>
+        <note type="handwritten"><lb/>DE<lb/>Numéro 1<lb/></note>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/><lb/>de</p>
+        <p rend="styled"><lb/>Comité Directeur des "Amis de l'Épeule"</p>
+      </div>
+      <div type="article">
+        <head><lb/>Ce qu’est l'Épenle</head>
+        <p><lb/>Le commerce général de notre bonne<lb/>ville de Roubaix à pris depuis quelque<lb/>40 ans, une extension tout à fait remar-<lb/>quable ; allant de pair avec l'industrie,<lb/>il l'a coudoyé dans son ascension rapide,<lb/>et tous deux puissamment aidés par la<lb/>ressource qu'offraient les moyens de<lb/>transport, firent d’un village une cité flo-<lb/>rissante, où la fumée noire des usines<lb/>sillonne l'espace, témoignant d’un inces-<lb/>sant labeur.</p>
+        <p><lb/>Sous le rapport commercial, le quar¬<lb/>tier de l'Epeule peut s'attribuer une pla-<lb/>ce honorable ; la rue qui porte son nom<lb/>principalement se distingue par la diver-<lb/>sité des commerces et par l'activité qui<lb/>y règne pendant la journée.</p>
+        <p><lb/>L'Epeule est située dans le canton<lb/>Ouest de Roubaix et est comprise dans<lb/>le circuit suivant : du pont de la Rue de<lb/>Mouveaux à la rue de la Limite par la<lb/>voie ferrée, la rue de la Limite, le boule-<lb/>vard Montesquieu, une partie de la rue<lb/>de Lille, toute la rue des Arts, le haut<lb/>de la rue de l'Epeule et une portion de<lb/>la rue du Grand Chemin jusqu'au pont<lb/>de la rue de Mouveaux. Sa population<lb/>est d'environ 10.000 âmes, sa superficie<lb/>est couverte de près de 2.900 habitations<lb/>dont 20 % abritent au moins deux mé-<lb/>nages. L'élément étranger s'y rencontre<lb/>dans les proportions de 23 %.</p>
+        <p><lb/>On y trouve beaucoup d'usines et d'é-<lb/>tablissements importants parmi les-<lb/>quels : les Etablissements Georges Sel-<lb/>liez et Cie, rue Heilmann ; les Fils d'Al-<lb/>ired Motte, même rue ; Roussel Père et<lb/>Fils, teinture et apprêts, rue de l'Epeu-<lb/>le ; Eugène Lecomte, apprêteur ; Martel,<lb/>constructeur ; Tiers, huiles ; H. Brevière,<lb/>entrepreneur ; Roussel Père et Fils, tis-<lb/>sage, rue des Arts ; Skene et Devallet.<lb/>constructeurs;Roussel-Desrousseaux,tein-<lb/>ture-apprêts, rue Watt ; Desmettre-Sault,<lb/>vêtements, rue Brézin ; Brasserie Coopé-<lb/>rative de l'Epeule, rue Descartes, C. Hen-<lb/>ri et Cie, fondeurs, Société Anonyme du<lb/>finissage anglais, rue de Wasquehal ;<lb/>Facon, retorderie, rue Salomon-de-<lb/>Caus ; La Peinture Moderne, rue Inker-<lb/>mann ; Gaillard Père et Fils, construc-<lb/>teurs, rue du Vivier ; Guédin, articles<lb/>industriels; rue de l'Industrie ; Versavel<lb/>Frères, mécaniciens-constructeurs, mê-<lb/>me rue.</p>
+        <p><lb/>Il n'est pas exagéré de dire que notre<lb/>quartier est l'un des plus commerçants<lb/>de la ville ; il n'est guère d'articles cou-<lb/>rants qu'on ne puisse se procurer, et,<lb/>oien qu'étant massés, concentrés dans la<lb/>rue de l'Epeule, par conséquent exposés<lb/>à la concurrence, les commerçants trou¬<lb/>vent dans la grouillante population du<lb/>quartier une clientèle fidèle qui n’a pas<lb/>besoin d'aller au loin chercher tout ce<lb/>qui se trouve à profusion à portée de sa<lb/>main.</p>
+        <p><lb/>Il va sans dire que cette agglomération<lb/>de commerçants les oblige, en raison de<lb/>la concurrence, à vendre leurs produits<lb/>et articles à des prix raisonnables, ra-<lb/>menant teur benéfice a un taux normal<lb/>et honnête ; et c'est la lutte loyale qui<lb/>fait leur prospérité en leur donnant une<lb/>clientèle attitrée qui, je le répète fait ses<lb/>achats et provisions chez ceux qui réa-<lb/>lisent l'ardu problème de vendre de bon-<lb/>nes marchandises à des prix avantageux.</p>
+        <p><lb/>Il me reste à formuler l'espoir que la<lb/>situation commerciale de notre quartier<lb/>prenne une extension plus grande encore<lb/>et que la probité la plus complète régisse<lb/>les rapports des commerçants entr'eux<lb/>et avec leurs clients ; car quoiqu'en pen-<lb/>sent ou qu’en disent certaines personnes<lb/>à la conscience plus ou moins élastique,<lb/>la seule satisfaction réside en l'applica-<lb/>tion de procédés loyaux.</p>
+        <ab><lb/>R. C.</ab>
+        <note type="handwritten"><lb/>66824<lb/></note>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>FETES</head>
+        <head><lb/>Du PASSÉ au PRÉSENT</head>
+        <p><lb/>Si nous jetons un coup d'œil sur les<lb/>mœurs, les usages de notre population<lb/>nous la voyons encore sous l'empire des<lb/><lb/>habitudes si naïvement décrites par les<lb/>anciens auteurs qui ont traité de la<lb/>Flandre ; ainsi s’exprime Marissal, en<lb/>1845, dans son ouvrage: « Recherches<lb/>pour servir à lhistoire de la Ville de<lb/>Roubair de 1400 à nos jours » et il conti-<lb/>nue : « C’est encore pour la fortune, le<lb/>combat de coqs autrefois si fameux ;<lb/>Qour la bourgeoisie, le tir de l'arc et de<lb/><lb/>l'arbalète ; pour l'ouvrier, la paisible<lb/>lutte du chant du pinson ; pour tous,<lb/>cette extrême régularité qui peut servir<lb/>d'horloge et fait que Midi marque exac-<lb/>Zement l'heure du diner ; même goût<lb/>pour les repas, les fêtes, les réunions ».</p>
+        <p><lb/>De 1400 à 1845, Marissal constatait que<lb/>les umes et coutumes locales restaient<lb/>nes mêmes et il reproduit ces lignes em-<lb/>pruntées aux vieux auteurs : « Car ils<lb/>sont naturellement adônez à plaisirs, fes-<lb/>tins et esbattemens, voire telle sorte<lb/>qu'ils ne refuseront pas telle fois de<lb/>faire chemin pour se trouver à quelques<lb/>solennités côme sont les processions en<lb/>esté qu'iis appelleent kermès, aumpo<lb/>de parents et d'amis et choses sembla<lb/>Dies ; ils s'habillent fort gentiment et<lb/>commodément de vestemens bien façon-<lb/>nés. En toutes festes et choses publiques<lb/>se montrent grands et magnanimes ».</p>
+        <p><lb/>Comme Marissal en 1845, nous dirons<lb/>aujourd'hui : Tout cela est encore vrai.</p>
+        <p><lb/>Plus tard, en 1862, Théodore Leuri-<lb/>dan, dans son histoire de Roubaix nous,<lb/>dit aussi : « Le Roubaisien aime le faste<lb/>dans ses constructions, dans ses meu-<lb/>ples, dans ses vêtements ; ces goûts da-<lb/>tent du développement de l'industrie et<lb/>ont suivi les progrès. Il a surtout la ré-<lb/>putation d'aimer beaucoup les plaisirs<lb/>de la table, les fêtes, les réunions, le ca¬<lb/>baret. Mais le Roubaisien a des qualités<lb/>et des vertus « Honnêteté et Courage »<lb/>d'où la devise « probitas et industria ».<lb/>Il est ingénieux, entreprenant, actif et<lb/>laborieux, patient et persévérant ».</p>
+        <p><lb/>Les jeux anciens étaient l'arc, l'arba-<lb/>lète, l'arquebuse, les cartes, la bóule, la<lb/>paume. Ce dernier jeu, dont on n'a mê-<lb/>me pas conservé le souvenir, était en<lb/>grand honneur au XVII* siècle.</p>
+        <p><lb/>Tout au commerce et à l'industrie, la<lb/>Ville de Roubaix est entièrement étran-<lb/>gère aux sciences, aux arts, aux lettres.</p>
+        <p><lb/>Cependant dans l’ouvrage de Maris-<lb/>sal, nous constatons qu'il fait déjà une<lb/>exception pour la musique. Au temps<lb/>jadis Roubaix montrait des dispositions<lb/>musicales, ne nous étonnons pas si cet<lb/>art musical fui développé chez nous dans<lb/>des proportions égales à celle de notre<lb/>industrie et si les goûts roubaisiens<fw type="digitisation-artefact"><lb/>urce gallican.f/<lb/>sibliothèque national<lb/></fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

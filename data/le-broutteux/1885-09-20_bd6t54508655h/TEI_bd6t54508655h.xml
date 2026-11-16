@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508655h</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1885-09-20">1885</date>
+          <idno type="ARK">bd6t54508655h</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508655h</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0003.xml"/>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>VIEUX DICTONS TOURQUENNOIS</p>
+        <p><lb/>Tchan que l'four est caud, tus les gins<lb/>veutent tchure.</p>
+        <p><lb/>Ch'est au pid du mur qu'in vot l'machon.<lb/>Les conseyeux n'sont po les payeux.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>TABLEAU VIVANT</head>
+        <p><lb/>In peut dire que les mamères y n'da nune<lb/>comme eusses pou tirer des p'tits compli-<lb/>mints tchan qui sont insonne avec leus petits<lb/>afants:</p>
+        <p><lb/>Accoutez, in v'la chi deux qui s'rincontent<lb/>vin in gardin public:</p>
+        <p rend="labelled"><lb/>— C'est à vous, Madame, ce beau petit<lb/>bebe?</p>
+        <p rend="labelled"><lb/>— Oui, Madame.</p>
+        <p rend="labelled"><lb/>— Quel âge a-t-il?</p>
+        <p rend="labelled"><lb/>— Trois mois et quelques jours.</p>
+        <p rend="labelled"><lb/>— Ah ! vraiment... Mais, ce petit nounou!<lb/>Et c’est qu’il a des cheveux, le petit chéri!</p>
+        <p rend="labelled"><lb/>— Il a même des petits poux, Madame,<lb/>ill'dit l'maman in s'erderchant.</p>
+        <p rend="labelled"><lb/>— Ebé, c'petit Jésus, ill' répond l'aute<lb/>femme </p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>CHIRACHE</head>
+        <p><lb/>Ch'est in bon braffe cordonni, in l'appelle<lb/>Chirache. pasqu’y s'dit l'invinteur d’in chirache<lb/><lb/>breveté du gouvernemint. Mais ch’est in bla-<lb/>gueur, savez? y babelle! y babelle toudis, im-<lb/>possible de li clore l'bec, et avec cha qui prind<lb/>d'z'airs de grand personnache et qui invo des<lb/>cœups d'pids à la France et qui fait des tchurs<lb/>et des v’lours au liméreu un.</p>
+        <p><lb/>Y faut vous dire, qu'inter temps, y racco-<lb/>mode d’z horloges; y est inne mioche horloger,<lb/>quo, et l'propriétaire li a donné l'corvée d’aller<lb/>ermonter l'horloche de sin salon, in temps et<lb/>in heure.</p>
+        <p><lb/>Samedi, sin propriétaire y l'fait appeler, et y<lb/>i dit:</p>
+        <p rend="labelled"><lb/>— Chirache, vous êtes un négligent.</p>
+        <p rend="labelled"><lb/>— Comment, un négligent, mossieur, pour<lb/>quel motivre?</p>
+        <p rend="labelled"><lb/>— Parce que l'horloge ne marche pas.</p>
+        <p rend="labelled"><lb/>— Majs, mossieur, est-ce que j'en suis<lb/>l'homicibe, moi? si l’horloge ne marche pas?</p>
+        <p rend="labelled"><lb/>—Oui, vous en êtes la cause; car si vous<lb/>remontiez les poids exactement, l’horloge ne,<lb/>s'arrêterait pas.</p>
+        <p rend="labelled"><lb/>— Oh! qui dit Chirache in s'erderchant<lb/>comme in cardon à l'pleuffe, est-ce que je suis<lb/>sublime, moi, pour faire aller votre horloche?<lb/>A c'meut d'sublime, l'monsi yadûs in d’aller in,<lb/>fiant vin l'plache à côté, et Chirache y a er-<lb/>péri à s'majon in dijant à les vijins qui avot<lb/>mis sin propriétaire au pid du mur, qui avot<lb/><lb/>siben répondu que c'l'homme n'avot pu su quo<lb/></p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>(A suivre).</ab>
+      </div>
+      <div type="article">
+        <head><lb/>L’CAUDRON</head>
+        <p><lb/>Tistequelire, y étot ovri vin inne ceinsse de<lb/>l'z'invirons d'Courtrai, et y il a pris l'fantaisie<lb/>d’venir ovrer in France. Vous direz, beut-ête,<lb/>que ch'n'est po à li tout seu que c'l'idée-lä,<lb/>ill' a passé, mais infin... toudis, qu'Tistequelire<lb/>y a v'nu ête varlet vin inne ceinse de Mou-<lb/>yeaux.</p>
+        <p><lb/>Là, in ovrant, y avot sin pain tchu et s'birre<lb/>brassée, comme in dit, mais y avot inne saquo<lb/>qui l'génot.</p>
+        <p><lb/>Tistequelire d'vant s'in d'aller d'Courtrai, y<lb/>avot fait inne méchante action. Inne ſos...<lb/>j'min vas vous l'dire, tout bas, à vou n'orelle...<lb/>mais y n'vous ſaut po l'répêter à personne,<lb/>savez?... Inne fos... y avot vindu in caudron,<lb/>qui appartenot au ceinsi, pou li avoir des doupes<lb/>pou li boire! Si ben, qu'min Tistequelire<lb/>n’avot pu s’conschience trintchille; y avot<lb/>toudis c'caudron sus l'potraine et cha b'sot,<lb/>savez?</p>
+        <p><lb/>Y a finit par aller à l'confesse et là y a avoué<lb/>qui avot volé in caudron. In li a dit qu'pou s'pé-<lb/>nitence y d'vot faire l’quemin d'la crox tout<lb/>l'tour de l'égliche.</p>
+        <p><lb/>A dire la vérité, Tistequelire y trouvot<lb/>qu'ch'étot inne grande pénitence, mais aussi<lb/>l’prête li avot ben dit que voler, n’importe quo,<lb/>ch’est aussi inne grande faute.</p>
+        <p><lb/>N'importe, Tistequelire, qui n’veyot foque<lb/>li, faire l'quemin d’la crox,y s’dijot in li-même<lb/>que y faulot avoir été ben coupabe pour avoir<lb/>inne si grande pénitence.</p>
+        <p><lb/>Tout d’inne in cœup, y vot in belle madame<lb/>qu’ill' vint s’mette in face d’inne station et<lb/>qu'ill' queminche à faire aussi l'quemin d'la<lb/>çrox.</p>
+        <p><lb/>Min Tistequelire qui est d'sin naturel assez<lb/>tchurieux,y a si ben fait sin compte, y s’a si ben<lb/>attargi par devant l'z'estations, que l'belle ma-<lb/>dame ill' a f nit pa l'rattraper et à v'nu à côté<lb/>d</p>
+        <p><lb/>Adan... min Tistequelire... y rapproche<lb/>s'selle tout duchemint... et y dit tout bas à<lb/>l'orelle de l'belle madame:</p>
+        <p rend="labelled"><lb/>— Te l'as volé, aussi, unçaudron, toi, ma-<lb/>dame?</p>
+        <figure type="decoration"/>
+        <p><lb/>Mais. inne belle qui a fait, cha été jeudi: y<lb/>avot livré des nouvellés bottines à inne petite<lb/>mam'zelle qu'ill' s'étot in d'allé comme inne<lb/>trotte-menue de l’majon Chirache in ochéniant<lb/>s'petite tournure pa les rues. Ah! mais... au<lb/>a'but d’in quart d’heure, ill' sint in saquo<lb/>d’sous s'bottine qui berloque..., ill' vint toute<lb/>rouche, et ertourne à l’majon Chirache tout in<lb/>traignant ses pids sus l'pavé.</p>
+        <p><lb/>V'là qu'ill' arriffe à l'majon Chirache... In<lb/>rintrant, faut po d'mander, enè? ill' élèffe sin<lb/>pid pou moutrer au cordonni sin beu ovrache.</p>
+        <p rend="labelled"><lb/>— Regardez, si il y a du bon sens... voilà<lb/>les bottines que je viens de mettre.</p>
+        <p><lb/>Chirache y erwette in momint in grattant<lb/>s'tête et y finit pa dire à l'mam'zelle d’in air de<lb/>chuque:</p>
+        <p rend="labelled"><lb/>— Je vois ce que c'est... mademoiselle aura<lb/>marché... sans nul doute!</p>
+      </div>
+      <div type="article">
+        <head><lb/>L'VAQUE MALHONNÊtE</head>
+        <p><lb/>Vin l'temps passé, y n'avot qu'les gins qui<lb/>avottent l’drot d’voyagi in voture : les bêtes<lb/>qui voulottent s'mette in route l'faijottent à<lb/>pid, comme de jusse. Mais ch'est qu’an jour<lb/>d'aujord’hu les bêtes y vont in voture aussi<lb/>ben qu’les gins, les grosses comme les p'tites,<lb/>in met tout vin les wagons d’quemin d'fer et in<lb/>vous fait inne espèce d’arche d'Noé, les gins in<lb/>avant, les bétails par derire, et l’convo s’in va<lb/>aussi rate que l'vapeur veut l’tirer et sans s'ot-<lb/>chuper d'chin qui traine.</p>
+        <p><lb/>Inne saquo qu'j'n'comprinds po, ch'est<lb/>qu'l'administration du qu'min d'fer, qu’ill'à<lb/>Sait in règlemint pou les gins, ill' a oublii d’in<lb/>faire in poules bêtes. Pusqu'y a d'z'artigles qui<lb/>définitent à les voyageurs d’faire cha chi ou<lb/>pen cha la, comme d'feumer, ou ben déchinte<lb/>d'vant que l'train n’soche arrêté, eccetera,<lb/>eccetera, pouquo qu’in n'a po fait deux tros<lb/>artigles su inne aune pache du cahi pou les t'nir<lb/>à l'orde comme les gins?<lb/></p>
+        <p><lb/>Y n'ariverot nin l'z’inconvénients comme sti<lb/>qui a arrivé lundi sus l’convo d’Audenaerde à<lb/>Gand. Par bonheur qui s’trouvot justemint là<lb/>deux méd'chins, Mossieu Alliopathe et Mossieu<lb/>Homaliapathe, qui z'ont wetti par l'portire chin<lb/>qui v'not d’arriver. Hureus'mint, autant d’tués<lb/>que d'blessés, y n'avot personne de mort, mais<lb/>les deux méd chins y sont mis à rire ! à rire/<lb/>surtout l’docteur Homaliopathe qui n’rit foque<lb/>tous les 32 du mos, y riot à vinte déboulonné<lb/>d'vir tcheu nouvelle. V'la malheur qui étot<lb/>arrivé, t'nez:</p>
+        <p><lb/>L'chef d’estation y s'pourmenot inveuc ses<lb/>mains par derire sin deu, in wettant les votu-<lb/>res. Arrivé au près d'in wagon, du qui avot<lb/>des vaques, y s'avanche pou wetti pus près, par<lb/>un p'tit crin de lporte du wagon qui étot inne<lb/>mioche overte, mais y n'avot nin acor erlevé<lb/>s’tête qui li arriffe inne grosse fusée toute verte<lb/>sus s'belle rouche casquette !!!</p>
+        <p><lb/>Ch'étot inne de chés vaques qui li avot invoi<lb/>cha franco pa l’crin de l'porte.</p>
+        <p><lb/>L'pauffe bête l'a beut-ête fait par distraction<lb/>mais inter nous, ch' n’est po régalant. Ch'est<lb/>pou cha, qu'pour impêchi des parels malheurs,<lb/>l’administration du qu'min d’fer frot bien<lb/><lb/>d’mette in règlemint pou les bêtes comme pou<lb/>les gins... éné ? A vou motte ?</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>INNE BOINNE MÉTCHENNE</head>
+        <p rend="labelled"><lb/>— Lalie! Lalie! ill' crie madame Du¬<lb/>petitrond, qu’ill' vient d’ercevoir des<lb/>gins à s’majon.</p>
+        <p><lb/>Et v'là Lalie qu'ill' ratcheur.</p>
+        <p rend="labelled"><lb/>— Apportez quatre verres et une<lb/>bouteille de vin blanc, pour ces mes-<lb/>sieurs.</p>
+        <p rend="labelled"><lb/>- Mais, madame, y sont pus qu'à<lb/>quate.</p>
+        <p rend="labelled"><lb/>— Apportez quatre verres, ma fille,<lb/>et dépêchez-vous.</p>
+        <p><lb/>Vià Lalie qu'ill' ervint in momint</p>
+        <pb facs="0004.xml"/>
+      </div>
+      <div type="article">
+        <head><lb/>CACHACROUTTE</head>
+        <figure/>
+        <p><lb/>Cachacroutte y a tché d'vin au tirache au<lb/>r'sort et j'vous asseure qui n’s'in va po d’bon<lb/><lb/>tcheur! Ah! ch’n’est po l’corache qui li manque,<lb/>ven du contraire, mais Cachacroutte y n’a po<lb/>pus d’gût d'ête mirlitaire que d’aller s’jeter vin<lb/>l'canal. Dtéfos, sin mon père y li a d'jà fait<lb/>d'z'ermontrances d'tous les sortes, mais y n'a<lb/>nin d'avanche.</p>
+        <p rend="labelled"><lb/>— Ch'est vrai, da, y dit Cachacroutte, in<lb/>brayant, je n’trai po siteut mirlitaire que<lb/>j'étrais soldat et vous savezben qui n’m'in faut<lb/>po pou rin de c'l'état là. Aller faire la djerre,<lb/>passer des nuts toute l'journée sus les rem-<lb/>parts. Ebé, bé, bé, bé, du que j’sus, mon Di,<lb/>Seigneur ! quo qu’j'ai fait pou mi ête soldat!</p>
+        <p><lb/>Et v’là qu'Cachacroutte qui hurle comme in<lb/>veau et s'ma mère qu’ill' braie inveuc.</p>
+        <p><lb/>Faut tout dire, aussi, Cachacroutte ch’est in<lb/>simplot, savez, y n’a po tout à fait sin poisse,<lb/>mais ch’est in bon garchon, y a in bon fond.</p>
+        <p rend="labelled"><lb/>— Mais, quo, te vas t'in d'aller? garchon,<lb/>qu'ill' dit s'ma mère in ressuyant ses is inveuc<lb/>l’tcheun de s’n’écourcheu, fais toudis ben tin<lb/>d'voir, saite, min fieu. N'te fais po punir, pas-<lb/>qu'in t'mettros in prijon inveuc les rattes et<lb/>les soris.</p>
+        <p rend="labelled"><lb/>— Inveuc les rattes et les soris? y dit Ca-<lb/>chacroutte, ébé, bé bé, bé.</p>
+        <p rend="labelled"><lb/>— Quais, ouais, y dit l'mon père, ch'est pou<lb/>cha qui faut tâchi d'printe l'deseur et de n’pus<lb/><lb/><lb/>s'faire de l'misère. Allons, y dit in tapant sus<lb/>s'potraine, te n'as pus d'sang vin les veines?<lb/><lb/>Est-ce qui faut vir braire in grand garchon<lb/>comme ti, pasqui étrot soldat? Allons, accoute,<lb/>si t'ervins caporal, j't'aquate inne belle monte<lb/>in argint; ainsi fais tin d'voir.</p>
+        <p rend="labelled"><lb/>— Ebé, accoutez, min père, j'ervernerai<lb/>capitaine, t'nez; vous verrez si c'n'est nin vrai.</p>
+        <p rend="labelled"><lb/>— Ouais, ill' dit m'ma mère in brayant, te<lb/>vas erpéri capitaine? Allons, allons, garchon,<lb/>y n'te ſaut po t'mette cha vin la boule.</p>
+        <p rend="labelled"><lb/>— Si fait, si fait, y dit Cachacroutte, j'paie-<lb/>rai d'timps à aute la goutte à les chèvres et<lb/>vous verrez... Y n'a foque inne saquo que<lb/>mervos.<lb/>après, inveuc in plateau, quate verres<lb/>de vin blanc et inne masse de verres<lb/>vides:</p>
+        <p rend="labelled"><lb/>— Pourquoi ces verres vides? ill' dit<lb/>l'madame.</p>
+        <p rend="labelled"><lb/>— Bé, tin, ill' répond Lalie, ch'est<lb/>pou les monsis qui n’veutent po boire!</p>
+        <ab><milestone unit="column" n="1"/><lb/>Imprimerie J. WATTELOW.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>ROUBAIX. — Y a inne paire de s'maines in a<lb/>ermis inne médalle de sauftache à in braffe cabaréti<lb/>du Pile, surlommé Pirre. Tous l'z'autorités du<lb/>quarti y étottent, d'pus les quatorze fesses qu’à<lb/>l’grosse tchaisse, tambours, drapeux, etc. Ch’est<lb/>l'quemandant qui li a ermis l'décoration in pronon-<lb/>çant in discours essin:</p>
+        <p rend="labelled"><lb/>" Nous autes, décorateurs du départemint du<lb/>Nord, avons décroté et décrotons à Pirre inne mé-<lb/>dalle de 22 classe.<lb/></p>
+        <p rend="labelled"><lb/>" Pour avoir arrété, in saisissant pa l'crinière,<lb/>l'jomme poulain de l'ceince Lepers, vil'e de 28 ans,<lb/><lb/>qui s'avot sauvé de s'n'étchurie pasqu'y n'avot pus<lb/>d'avoine.</p>
+        <p><lb/>" 2° Pour avoir arriver l'preume au fu de l'majon<lb/>de l'femme Théresse et avoir sauvé inne sellée d'eau<lb/>d' crainte qu'ill' neuche brulée.</p>
+        <p rend="labelled"><lb/>" 3° Pour avoir donné la main au digne comman-<lb/>dant des pompis au terirble incendie de l'rue Charles<lb/><lb/>Quint, du qui a eu tros bottes de palle de brûlées et<lb/><lb/>l'poil d'in tchin roussi. "</p>
+        <p><lb/>Pour copie conforme : L'cabaréti des 14 fesses,<lb/>l'lion du désert, Alphonse du p'tit bandit et l'chas-<lb/>seur qui a vindu sin pistoulet in 1848.</p>
+        <p rend="labelled"><lb/>— Quo, garchon?</p>
+        <p rend="labelled"><lb/>— Bé, ch'est qu'j'e n'sus po verser au 24^e</p>
+        <p rend="labelled"><lb/>- Pouquo.</p>
+        <p rend="labelled"><lb/>— Bé, pasque min cousin y est dans l'25e,<lb/>cha fait qu'essin j'tros tout près d'li, y dit<lb/>Cachacroutte.</p>
+        <ab><lb/>(A suivre).</ab>
+        <figure/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>RÉPONSE A L'ADVINETTE</head>
+        <p><lb/>Les soldats les pus braffes ch'est les sapeurs,<lb/>pasqu'y n'se laich tent po faire la barbe.</p>
+        <figure type="decoration"/>
+        <p><lb/>V'là les noms de l'z'advineux:</p>
+        <p><lb/>In jeune coulonneux de l'rue de l'2' Upsulines. —<lb/>L'petit Jules qui a bertonné d'vir sin nom sus<lb/>l'Brouette l'semaine passée. — Alfred qui a été<lb/>tcheur in su d’pâté au chertuti avec Jujules. sti chi<lb/>y a couru invo et Alfred y a jotchi comme in grand<lb/>colas! Jules y rit acor. — In pétcheux qui s'a passé<lb/>d'déjeune, pour courir au Hutin vir in aigle qu'in<lb/>d'ses amis avot attrapé. — Phinart qui souffelle du<lb/>blanc et qu'in sait l'attraper in temps.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Ducasses et Fêtes</head>
+        <p rend="labelled"><lb/>Dimanche 20 Septembre. - Tourcoing (ducasse au<lb/>Flocon).— Clôture de la foire de Lille. — Cysoing,<lb/>Escobecques, Fournes, Herrin, Houplines, La Neu-<lb/>ville, Tourmignies, Wattignies, Hem, Wambre-<lb/><lb/>chies, Petit Baisieux.</p>
+      </div>
+      <div type="article">
+        <head><lb/>CALEMBOURG</head>
+        <p><lb/>L'tcheu qu'ch'est l'plaine l'pus haute du<lb/>monde ?</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>A Monsieur JULES WATTEEUW,<lb/>le bROUTTEUX</head>
+        <p rend="styled"><lb/>AIR DE: P'tit Price et Marianne Tambour.</p>
+        <lg>
+          <l><lb/>Pou n'po faire auteurmint que l'z' autes,</l>
+          <l><lb/>Aujord'hu, j' vas parler patos,</l>
+          <l><lb/>Y s'porrot que j'fass' gramint d'fautes</l>
+          <l><lb/>Et que j'disse un fi pou un tos.</l>
+          <l><lb/>Mais, mi, l'fort de min caractère,</l>
+          <l><lb/>Ch'est de n'po connoîtt' l'imbition.</l>
+          <l><lb/>Il y fait ben si l'ministère</l>
+          <l><lb/>'accorte po l'décoration!</l>
+        </lg>
+        <ab type="head"><lb/>REFRAIN:</ab>
+        <lg>
+          <l><lb/>Pouss' toudis l'Brouette,</l>
+          <l><lb/>D'un air amiteux,</l>
+          <l><lb/>Car ch'est ti l'pus chouette,</l>
+          <l><lb/>L'pus crân' des broutteux !</l>
+        </lg>
+        <lg>
+          <l><lb/>Dins min quarti, in dit qu't'es prope,</l>
+          <l><lb/>D'pus huit jours qu’in n'’t' avot nin vu.</l>
+          <l><lb/>L'fait est qu’mi, qui n'sus po myope,</l>
+          <l><lb/>Je n't'avos betot po r'connu.</l>
+          <l><lb/>Te laich' pousser t'mouche et t'moustache </l>
+          <l><lb/>T'as fait raccourchir tin long nez,</l>
+          <l><lb/>Te moute infin tin vrai visache</l>
+          <l><lb/>A tous tes joyeux abonnés.</l>
+        </lg>
+        <ab type="head"><lb/>REFRAIN.</ab>
+        <lg>
+          <l><lb/>In aim' l'Ecole à Pidagache,</l>
+          <l><lb/>Et l'Sabre d'bos, si tant connu,</l>
+          <l><lb/>Mais pou dir' cha vin l'vi langache</l>
+          <l><lb/>Aussi ben qu'ti, j' pins' qui n'd'a nu.</l>
+          <l><lb/>Aveuc cha te sais nous fair' rire</l>
+          <l><lb/>Aux éclats comme des éléphants,</l>
+          <l><lb/>Et pus tout in chacun peut t'lire,</l>
+          <l><lb/>Aussi ben l'mon pèr' que l'z'afants.</l>
+        </lg>
+        <p><lb/>REFRAIN.</p>
+        <lg>
+          <l><lb/>Te n'parle jomais politique,</l>
+          <l><lb/>Te n'dis po d'ma sus tin prochain.</l>
+          <l><lb/>défieros l'pus méchant critique</l>
+          <l><lb/>D'prouver qu't'as pus d'fiel qu’in pouchin</l>
+          <l><lb/>A tous les pus grantés gazettes</l>
+          <l><lb/>Qu'in nous vind tros et mêm' quat' sous.</l>
+          <l><lb/>In préſer' mi tes garlousettes,</l>
+          <l><lb/>Qui n'sont po d'z'attrappes à baloux.</l>
+        </lg>
+        <ab type="head"><lb/>REFRAIN.</ab>
+        <lg>
+          <l><lb/>Cheuss' qui veul'tent t'fair concurrence,</l>
+          <l><lb/>Sait'tent ben peu les gros benêts,</l>
+          <l><lb/>Qui faurot d’l'esprit plein inne bansse</l>
+          <l><lb/>Pou fair' la mitan d'chin qu'te fais!</l>
+          <l><lb/>Nas tin p'tit qu'min, n'te fais po d'bile,</l>
+          <l><lb/>Pou tes amis warde t'djaité,</l>
+          <l><lb/>T'in mettras sus l'dos pus d'in mille</l>
+          <l><lb/>Avant que te n'soche éreinté!</l>
+        </lg>
+        <ab><lb/>REFRAIN:</ab>
+        <lg>
+          <l><lb/>Pouss' toudis t'Brouette,</l>
+          <l><lb/>D'in air amiteax,</l>
+          <l><lb/>Car ch'est ti l'pus chouette,</l>
+          <l><lb/>L'pus crân' des broutteux!</l>
+        </lg>
+        <ab><lb/>L. BROUTIN.</ab>
+        <note>
+          <p rend="styled"><milestone unit="column" n="3"/><lb/>Le Gérant C DUGAUQUIER.</p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

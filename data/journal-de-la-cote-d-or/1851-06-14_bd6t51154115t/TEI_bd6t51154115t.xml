@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t51154115t</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1851-06-14">1851</date>
+          <idno type="ARK">bd6t51154115t</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t51154115t</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>Journal de la Côte-d'Or.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>PAPIER FAYARD E BLAYNs<lb/>de goulte, lumbagos, maux de reins et irritations de poitrine, brûlures, engelures,<lb/>cors et œils-de-perdrix.— N. B. On ne doit avoir confiance qu'aux rouleaux portant<lb/>les signatures FAYARD et BLAYN. Prix: 1 et 2 fr. — Dépôt aux pharmacies de MM.:<lb/>à Dijon, Dadant, Rolland; à Auxonne, Marion, Voituret; à Semur, Chinet.</ab>
+        <ab><lb/>HYGIÈNE DE LA CHEVELURE.<lb/>LIPAROLÉ-TONIQUE<lb/>Seul Cosmétique garanti infaillible,<lb/>Pour órréter la chute des choveux et les faire pousser en très - peu de temps,<lb/>Chez CHARDIN, à Paris, 12, rue du Bac.<lb/>SEULS DEPOSITAIRES: ̀ Dijon, M. Bernard, coiffeur-parfumeur, place Saint-Etienne;</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>A M.CAZENAVE, entrepreneur du factage, en gare, à Bercy;<lb/>tambutouloi, no 21, ancien 23; rue Coquillière, no 35, rue<lb/>ambicau, no 14.<lb/>Pour les marchandises à petite vitesse:</ab>
+        <ab type="head"><lb/>CHEMIN DE FER DE PARIS A LYON.</ab>
+        <ab type="head"><lb/>2 bis, rue du Chapeau Rouge.</ab>
+        <ab type="head"><lb/>ANT. ROHAUT,</ab>
+        <p rend="styled"><lb/>Entrepreneur du Factage et du Camionage.</p>
+        <p><lb/><lb/>sur Paris et Lyon, tous les articles de messageries et finances, paquets, plis cachetés.<lb/>pièces de procédure, groupes, encaissement de valeurs, billets, traites, etc., etc. ; i<lb/>suſſit qu'ils soient remis unc demi-heure avant les heures fixées par l'administration</p>
+        <p><lb/>L'entreprise se charge également des mémes articles pour les stations intermé-<lb/>diaires, entr'autres Montbard, Tonnerre, Joigny, Sens, Melun, Nuits, Beaune, Cha-</p>
+        <p><lb/>purs: ils correspondent avec 'arrivée et le deprt des trains montants et descete</p>
+        <p><lb/>ines, grosse épieere, su raf-<lb/>versa) des marchandises de toute nature : vins, farines, grosse épiceie, u(et vice.<lb/>finé, rouennerie, fers, mobiliers emballés ou en vrague, elc., etc.</p>
+        <p rend="styled"><lb/>Les articles dits de messageries à grande vitesse, pour Dijon, devront etrs remis:</p>
+        <p rend="styled"><lb/>Ou dans Les bureaux ci-après:</p>
+        <p rend="structured"><lb/>lévement. Les ordres doivent étre adressés franc de po<lb/>gare de Bercy, ou rue Rambuteau, 14.</p>
+      </div>
+      <div type="article">
+        <ab><lb/> qui lu <lb/>par lettre affrancnie,</ab>
+        <ab type="head"><lb/>JOURNAL DES FAITS</ab>
+        <ab type="head"><lb/>TOUS LES JOURNAUX DANS UN.</ab>
+        <p rend="styled"><lb/>Renille politique et quotidienne punliée depuis le 16 avril 1850. — Format du Siècte, de la</p>
+        <p><lb/>Le JOURNAL DES PAITS est le<lb/>lopinion publique ement u de</p>
+        <ab><lb/>le eiie, non la pa<lb/>La vérité, non la pa,</ab>
+        <p><lb/> uo<lb/>'ane<lb/><lb/></p>
+        <p rend="labelled"><lb/>BS FAITS est lé seul qui, ontre une belte Prime en livres. donne à ses abonnés<lb/>le Recuell complet des z.ois et Actes offcieis publiés pendant la durée de icur<lb/>s abonnés nouveaux recevront, en outro, tout cè qui aura paru du fcuilleton en cours de<lb/>EXTRAIT DU PREAMBULE DE L'ACT</p>
+        <p><lb/><lb/>reule action dans un<lb/><lb/><lb/><lb/>Or, un journal doit toujoura réussir quand il répond à un besoin réet et<lb/>Le fonds social se compose de 300 actions de 500 francs chacunc, di¬</p>
+        <p rend="styled"><lb/>ait de TéOITION sEXI-QcOTIDIXXXE du JOURNAL. DES PAITS pendant toute la durée de<lb/>la xociété. Si la<lb/><lb/>jon, tout le fonds sociat n'étant pas nécessaire pour assure<lb/>, tout le fonds social n'étant pas nécessaire pour assurer<lb/>touission, tout le</p>
+        <p><lb/>Départ du Pont-d'Ouche à A heures du<lb/>les renscigaemenis, à M. V.-B. MGVB. Gondateur-Directeur. rue J.J.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>AUX STATUES DE SAINT JACQUES,<lb/>MAGASINS DE<lb/>NOUVEAUTÉS.</ab>
+        <p><lb/>Nous croyons être utiles à nos lecteurs en leur recom-<lb/>mandant la maison de nouveautés des STATUES de SAINT-<lb/>JACQUES. Placée dans un quartier de Paris qui n'a besoin<lb/>d’aucun luxe, elle peut naturellement faire profiter ses ache<lb/>teurs de toute l'économie obtenue sur ses frais aussi: ne trou-<lb/>veront-ils nulle part dans la capitale un choix plus grand<lb/>d'étoffes d’utilité ou de luxe, vendues aux plus bas cours et<lb/>en qualités excellentes. — Tous les assortiments de cette francs.<lb/>maison sont faits en fabrique par des hommes spéciaux, et<lb/>présentent une notable différence sur les prix habituel<lb/>— Les marchandises y sont toutes marquées en chiffres<lb/>connus. — La plus grande liberté est assurée aux ache-<lb/>teurs pour l'échange des étoſfes et le remboursement de<lb/>leur prix en argent lorsqu’on n’en est pas satisfait.— Es-<lb/>compte de deux pour cent, lorsque l'achat s'élève à 100</p>
+        <figure type="decoration"/>
+        <note>
+          <p rend="styled"><milestone unit="column" n="2"/><lb/>DIJON, INIPRIOIRRIE DE DOUILLIEN, RUE DES CODRANS. AI.</p>
+        </note>
+      </div>
+      <div type="article">
+        <head><lb/>Office de M. DEVILLEBICHOT, commissarie matin, et de Dijon à 4 heures du soir.</head>
+        <p><lb/>6 chevaux de première force, dix tombe-<lb/>reaux, deux camions et harnais, appartenant<lb/>à madame veuve Odibert, à vendre aux en-<lb/>chères, pour cause de cessation de travaux,<lb/>le samedi 21 juin, heure de midi, sur la place<lb/>du marché au blé de Dijon, par le ministère<lb/>de M. Devillebichot, commissaire-priseur.</p>
+        <p><lb/>Ces chevaux, voitures et harnais sont en<lb/>très-bon état et seront adjugés à quelque prix</p>
+        <p><lb/>Il sera accordé trois mois de terme en plaies, asihmes et catarrhes,</p>
+        <p><lb/>Les acquéreurs qui préféreront payer<lb/>comptant, ne payeront que le prix d'adjudi¬</p>
+        <p><lb/>Les bureaux sont à Dijon, chez M. Deh.</p>
+        <p><lb/>Au Pont-de-Pany, chez M. Nannos, 15</p>
+        <p rend="labelled"><lb/>Au Pont-d'Ouche, chez M. Robert, scher.</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/> LIEMOSTATIQU<lb/>ícENEnE LE Soc</ab>
+        <p><lb/>guérit les hémorrhagies, pertes, diarrbens,</p>
+        <p><lb/>Flacon: 3 et 6 fr. Exiger le cachet Lechel<lb/>Rue Lamartine, 35, à Paris. Dépòt, à Dics<lb/>chez M. Dadant - Feuchot, pharmacien.</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>t M. LOMBARD, commissaire-pri- LE ROB orisé en France, en Bets<lb/>que, et en Russie, guérit radicalement et<lb/>pen de temps les dartres, scrofules, ds<lb/>leurs, pertes, rhomatismes, écoulements<lb/>cents ou rebelles, ainsi que les maladies <lb/>philitiques nouvelles ou secondaires. Pru<lb/>pectus gratis. Prix : 7 fr. 50 c., chez les ptit<lb/>cipaux pharmaciens. Consuitations gratuits<lb/>par correspondance. — S'adresser au du<lb/>teur G. Saint-Gervais, 12, rue Richer, à P.</p>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>seuy à Vijon, rue des Rorges, 44.</p>
+        <p><lb/>Appartenant à M. Conturier, maitre de<lb/>posie à Valsuzon, à vendre aux enchères<lb/>pour cause de cessation de service, le samedi<lb/>21 juin 1851, heure de midi, sur la place du<lb/>marché au blé de Dijon, par le ministère de<lb/>M. Lombard, commissaire-priseur.<lb/></p>
+        <p><lb/>3 mois de terme, 5 centimes par franc.</p>
+        <p rend="labelled"><lb/>M. Deschamps, marchand de chevaux, a<lb/>l'honneur de prévenir le public qu'll arrivera<lb/><lb/>à Dijon le 17 courant, avec viogt chevaux<lb/>propres à la selle et à la voiture, et 10 ju¬<lb/>ments percheronnes convenables pour l'ate¬<lb/>lage: il séjournera jusqu'au 20, à l'hôtel de</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>gue et permet de choisir, pour se<lb/>ger, le repas et l'heure qui conviennent<lb/>mieux pour ne pas géner les occupatios.<lb/>Ces avantages sont constatés à Paris par u<lb/>succès de près de 20 ans. (Brochure gratuie<lb/>Boites de 5 f. et 2 f. 50 c. — A Paris, pharma<lb/><lb/>cie DEHAUT, faubourg Saint-Denis, 148.</p>
+        <figure/>
+        <p><lb/>Et à Dijon, chez M. Boisseau, pharm-</p>
+      </div>
+      <div type="article">
+        <p><lb/>Cette maison, parfaitement indépendante<lb/>conviendrait à une famille bourgeoise. Elle<lb/>peut aussi étre sous-louée en garui, tout en<lb/>conservant un logement au rez-de-chaussée</p>
+        <p><lb/>S'adresser rue Dubois, près Saint-Michel.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Plude de M^e MOREL, aroué à Dijos, ru</head>
+        <p><lb/>Suirant jugement rendu par <lb/>Anne Lemoine, majeure, célibataire, de</p>
+        <p><lb/>meurant à Lamarche-sur-Saône, a été<lb/>clarée interdite, pour cause d'aliénation me<lb/>lale, de l'admisiration de sa personne et d<lb/></p>
+        <p><lb/>Pour extrait certifié sincère et véritn<lb/>du jugement sus énoncé, par moi, avoué rer<lb/>bunal de première instance de Dijon, etc<lb/>du sieur Claude Lemoine, propriétaire, de<lb/>meurant audit Lamarche, ayant pourse<lb/>P'interdiction d'Anne Lemoine, sa filte.</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>VARICES. — BAS LEPEADRIEL, en ca-<lb/>outchour, sans couture, lacés ou non; sou¬<lb/><lb/>lagement prompt et souvent guérison. A Pa-<lb/>ris, chez Leperdriel, rue des Martyrs, 28,<lb/>au fond de la cour; à son dépòt, faubourg</p>
+      </div>
+      <div type="article">
+        <head><lb/>Dra</head>
+        <figure type="decoration"/>
+        <p><lb/>Un corps de bibliolbèque en érable d'Amé-<lb/>rique avec filets d'amaranthe, de la fabrique</p>
+        <p><lb/>Deux autres biblioihèques plus petites,<lb/></p>
+        <p><lb/>S'adresser au concierge, rue Jehannin, 45.</p>
+      </div>
+      <div type="article">
+        <head><lb/>PAR AUTORITE DE JUSTICE.</head>
+        <p><lb/>On fait savoir que le samedi 1a juin e<lb/>rant, heure de onze du matin, sur la paa<lb/>publique du marché au blé de Dijon, il <lb/>par le ministère de M. Lombard, commissiin<lb/>priseur, procédé à la vente aux enchlre<lb/>au comptant des meubles et effets moben<lb/>saisis sur le sieur Geoffre, à requéte do sit<lb/>Dutartre, par mon procès-verbal du 15 mil</p>
+        <p><lb/>Ils consistent en meubles en noyer etu<lb/>res, armes de toutes espèces, etc., elc.</p>
+      </div>
+      <div type="article">
+        <head><lb/>EN VENTE CHEZ Mee Ve DECAILLY,</head>
+        <head><lb/>Libraire, place d'Armes, à Dijon.</head>
+        <p rend="labelled"><lb/>L'ITINERAIRE DU CHEMIN DE FER<lb/>de Paris à Lyon, avec la carte de parcours.<lb/>les heures de dépari et d'arrivée à chaque<lb/>stalion; le prix des places, et les correspon-<lb/>dances avec les balcaux à vapeur, message-</p>
+      </div>
+      <div type="article">
+        <head><lb/>DU VALLON DE L'OUCHE.</head>
+        <p><lb/>A partir du 14 juin courant, service direct<lb/>en poste de Dijon au Pont-d'Ouche, avec cor-<lb/>respondance pour Bligny-sur-Ouche.</p>
+        <ab><lb/>Le Rédacteur-gérant, J. B.-Is. VINCENT.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

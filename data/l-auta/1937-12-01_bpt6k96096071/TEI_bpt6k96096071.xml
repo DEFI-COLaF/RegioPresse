@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k96096071</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1937-12-01">1937</date>
+          <idno type="ARK">bpt6k96096071</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k96096071</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Nouvelle Série – N. 96</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Décembre 1937<lb/>Paraissant tous les mois, sauf en Juillet, Septembre et Octobre</ab>
+        <p rend="heading"><lb/>QUE BUFO UN COP CADO MÉS</p>
+        <p><lb/>6. RUE<lb/>LES TOULOUSAINS DE TOULOUSE<lb/>SOCIETE<lb/><lb/>IEA</p>
+      </div>
+      <div type="article">
+        <head><lb/>SOMMAIRE</head>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>Samedi 18 Décembre, à 14 heures, visite de l'église Saint-<lb/>Nicolas, sous la direction de M. l’abbé Corraze, de la Société Ar-<lb/>chéologique du Midi de la France.</p>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="138"/>
+        <p rend="heading"><lb/>Toulouse à Rome</p>
+        <p rend="styled"><lb/>Des armateurs de la Narbonnaise, à l'Empereur Auguste et à Cujas.</p>
+        <p><lb/>Retrouver à Rome le souvenir de Toulouse au hasard de pro-<lb/>menades archéologiques est une surprise agréable puis un plaisir<lb/>renouvelé dont nous souhaiterions faire bénéficier, quelque peu,<lb/>nos lecteurs.</p>
+        <p><lb/>Que ceux-ci veuillent tout d’abord nous suivre à Ostie, le grand<lb/>port et le grand emporium de Rome.<lb/>La place des Corporations de l’Annone, au centre d’Ostie, a<lb/>vraiment été le cœur de l’Empire Romain, en tant qu’immense<lb/>et complexe organisme économique. Ce fut son vaste forum. Ima-<lb/>ginez dans une vaste enceinte rectangulaire, à portiques, encadrant<lb/>le Temple de l’Annone, de part et d’autre d’un théâtre, 61 sta-<lb/>tiones (ou stands) « assignées par les soins de la colonie d’Ostie<lb/>aux diverses associations prefessionnelles qui s’y étaient installées<lb/>à la demande et avec la permission des autorités romaines » (1).<lb/>Ces stationes étaient des chapelles où artisans et armateurs (ces<lb/>derniers en majorité) « exaltant leur besogne à la hauteur d’un<lb/>rite, célébraient le culte de leur commune divinité » (2) : l’Annone<lb/>Auguste, c’est-à-dire l’Alimentation de l’Urbs, déesse comme la<lb/>Ville dont elle assurait la subsistance.</p>
+        <p><lb/>Des mosaïques ornent encere chacune des stationes ruinées.<lb/>Les corporations d’armateurs ont représenté sur le sol de leurs<lb/>stands, des bateaux, des phares ; des inscriptions en belles capi-<lb/>tales révèlent leur origine en éternisant leur souvenir. Celles<lb/>d’Afrique, appartenant à des ports souvent presque inconnus,<lb/>sont les plus nombreuses. Cependant, sur le sol d’une statio, au<lb/>côté nord de la place, un navire aux voiles déployées fait route<lb/>vers un phare. Navire et phare en opus vermiculatum ne se dis-<lb/>tinguent en rien de ceux d’Alexandrie, de Carthage ou d’Hippo-<lb/>Diarrytus (Bizerte), seulement, au-dessus d’eux, on lit non sans<lb/>quelque émotion ces deux mots : NAV. NARBONENSIS (les Arma-</p>
+        <note>
+          <p rend="structured"><lb/>(1) CARCOPINO. Ostie, Laurens 1929. p. 13<lb/>(2) Ibid., p. 18.</p>
+        </note>
+        <pb facs="0012.xml"/>
+        <milestone unit="page" n="148"/>
+        <p><lb/>De 1698 à 1740 André Campra écrivit également plusieurs<lb/>« Divertissements » qui furent joués à la Cour : Vénus, Les Fêtes<lb/>de Corinthe, Les Muses rassemblées par l'Amour, Les Noces de<lb/>Vénus, etc.</p>
+        <p><lb/>Ces divertissements aux titres folâtres lui valurent, chose cu-<lb/>rieuse, d’être nommé en 1722 Maître de la Chapelle du Roi avec<lb/>pension de 500 livres. Le prince Conti le revendiqua également<lb/>comme directeur de sa musique.</p>
+        <p><lb/>Mêlant le sacré au profane. Campra écrivit trois livres de<lb/>Cantates et cinq livres de Motets. Il mourut comblé d’honneurs, à<lb/>Versailles, le 29 juillet 1744, âgé de 84 ans.</p>
+        <p><lb/>Lorsque la Cour et la Ville applaudissaient aux airs des Fêtes<lb/>Vénitiennes : « Mon cœur est assuré du vôtre », ou à l'air célèbre<lb/>alors de La Furstemberg se doutaient-elles que sans l’obstination<lb/>de « Monsieur de Toulouse », cette musique qui les faisait se<lb/>pâmer d’aise n’aurait jamais vu le jour. Campra, lui-même, au¬<lb/>rait payé d’ingratitude Mgr Colbert. Il n’a pas, que nous sachions,<lb/>dédié aucune de ses œuvres religieuses à son ancien protecteur (1).</p>
+        <ab><lb/>P. JACOTIN DE ROSIÈRES.</ab>
+        <p rend="labelled"><lb/>(1) Le récit des aventures toulousaines de Campra est extrait des Archives<lb/>de la Marine, documents classés à l’époque du Dictionnaire de Jal, sous la date:<lb/>16 avril 1690. On sait que ce dictionnaire contient des renseignements d’autant<lb/>plus précieux que les pièces originales, déposées dans les fonds publics de<lb/>Paris, ont disparu pour la plupart dans les incendies de la Commune.</p>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>Nouveaux adhérents</p>
+        <ab><lb/>1716. — M. Georges BERCOUGNAN, tailleur, 2, rue de la Poste,<lb/>présenté par M. J.-R. de Brousse et Hérisson.</ab>
+        <pb facs="0013.xml"/>
+        <milestone unit="page" n="149"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>La Vie de la Société</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Visites et Promenades</head>
+        <head><lb/>L'EXPOSITION D'AUTOGRAPHES DU MUSÉE SAINT-RAYMOND</head>
+        <p><lb/>Ouverte durant quinze jours à peine, cela a été une bonne<lb/>fortune pour notre Société de pouvoir visiter dans la matinée du<lb/>21 novembre cette r'emarquable réunion d’autographes, assemblée<lb/>par les soins de M. E.-H. Guitard qui voulut bien nous en faire les<lb/>honneurs.</p>
+        <p><lb/>M. Guitard nous exposa en quelques mots la genèse de cette<lb/>exposition, née de la trouvaille de quelques autographes que le dis¬<lb/>tingué conservateur songea à exposer en les groupant avec d’au-<lb/>tres. Puis des concours s’offrirent pour compléter l’ensemble et<lb/>c’est ainsi que grâce à la collaboration de collectionneurs, comme<lb/>MM. Castex et Paul Dupuy, Mme et M. Jean Julien, MM. Pierre<lb/>Besset, Fabius, Comte Bégouen et enfin Mm.<lb/>plusieurs centaines de pièces. touchant à toutes les branches de la<lb/>curiosité, a pu être réuni.</p>
+        <p><lb/>Un mot sur la collection Hugens dont l’origine est assez im-<lb/>prévue. Au début de ce siècle, la ville de Cadix eut l’idée, pour<lb/>assurer ses dépenses d’assistance, de demander aux personnalités<lb/>du monde 'entier quelques lignes autographes. Après exposition, la<lb/>collection ainsi réunie fut vendue et acquise par nos compatriotes,<lb/>M. et Mme Hugens, alors résidant en Espagne. Cette collection qui<lb/>a fait l’objet de plusieurs expositions, est aujourd’hui dans notre<lb/>ville.</p>
+        <p><lb/>La Bibliothèque municipale, les Archives Départementales, et<lb/>enfin le musée des Toulousains de Toulouse ont également contri¬<lb/>bué à l’exposition du Musée Saint-Rayomnd.</p>
+        <p><lb/>M. Guitard nous parla ensuite de l’intérêt que suscita l’auto-<lb/>graphe à travers les siècles. On en trouve des traces dans une<lb/>antiquité déjà élevée, mais c’est depuis le XvIe siècle que le goût<lb/>de l’autographe s’est développé pour atteindre au XIxe siècle à une<lb/>véritable passion. C’est alors que Villemessant créa la publication</p>
+        <pb facs="0014.xml"/>
+        <milestone unit="page" n="150"/>
+        <ab><lb/><lb/>Année 1937<lb/>l’Autographe et que les collectionneurs d’autographes étendirent<lb/>leur curiosité insatiable dans les domaines les plus inattendus. Les<lb/>chansonniers s’en mêlèrent et la graphologie fut haussée au rang<lb/>d’une science.</ab>
+        <p><lb/>Accompagné d’anecdotes savoureuses, l’exposé de M. Guitard<lb/>fut vivement goûté et applaudi, puis nos adhérents se répandirent<lb/>dans les salles de l’exposition où pendant une heure, ils prirent<lb/>le plus vif intérêt à ces lettres, manuscrits et paraphes tracés par<lb/>les mains les plus illustres et dont l’émouvant ensemble fait hon-<lb/>neur à l’érudit et distingué conservateur du Musée Saint-Raymond.</p>
+        <p rend="heading"><lb/>Cotisations 1938</p>
+        <p><lb/>Nous prions nos adhérents qui ont coutume de s’acquitter de<lb/>leur cotisation dès le début de l’année de bien vouloir considérer<lb/>qu’elle est portée à 15 FRANCS minimum pour la cotisation ordi-<lb/>naire et que le versement demandé aux membres donateurs est de<lb/>300 FRANCS.</p>
+        <p><lb/>Dans sa séance du 4 décembre le Comité a en effet décidé de<lb/>demander cet effort à l'assemblée générale qui sera convoquée en<lb/>janvier.</p>
+        <p><lb/>Par ailleurs, on est prié de noter la nouvelle adresse de notre<lb/>dévoué trésorier, M. Stieber, II, rue des Fleurs.</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>Table des Matières</p>
+        <figure type="table"/>
+      </div>
+    </body>
+  </text>
+</TEI>

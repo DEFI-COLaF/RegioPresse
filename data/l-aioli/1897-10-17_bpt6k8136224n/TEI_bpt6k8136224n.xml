@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136224n</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1897-10-17">1897</date>
+          <idno type="ARK">bpt6k8136224n</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136224n</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <dateline><lb/>DIMENCHE, 17 D'ÓUTUBRE 1891.</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>SETENCO ANNADO, No 245</ab>
+        <ab><lb/>PRES DE L'ABOUNAMEN</ab>
+        <ab><milestone unit="column" n="3"/><lb/>(Prouverbi di meissounie)</ab>
+        <lg>
+          <l><lb/>Nautri, li bon Prouvençau,</l>
+          <l><lb/>Au sufrage universau,</l>
+          <l><lb/>Voutaren pèr l'oli</l>
+          <l><lb/>E faren l'aii.</l>
+        </lg>
+        <ab><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.</ab>
+        <p rend="heading"><lb/>F. MISTRAL.</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PÈR MES (7,17,27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>POLCO DE BANONCELLI<lb/>au palais dóu Roure,<lb/>EN AVIGNOUN</ab>
+        <figure type="table"/>
+        <ab><lb/>Baile dóu journau<lb/>FOLCÒ DE BARONCELLI<lb/>tout — se passo pas de jour que noun lou<lb/>« calembour » centenàri, tradiciounau, eredi-<lb/>tàri, espeligue sus li Miejournau: aqui lou<lb/>marsihés « Marius », es renja à coustat de<lb/>l'anglés «John Bull » e de l'alemand gounfle de<lb/>bierro. A talo ensigno qu’un estrangié dis an-<lb/>tipode, en legissènt li fueio de Paris, s’anarie<lb/>jamai imagina que soun nòsti fraire pouliti<lb/>aquéli rascas que nous insulton: «Lou franchi¬<lb/>mand, dirié, eisercis de-longo soun esperit<lb/>pounchu sus lis estrangié que ié soun en òdi ;<lb/>i'a dounc tres raço d'estrangié que detèsto lou<lb/>mai: l'Anglés, l'Alemand e lou Miejournau. »</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>.... « Ah !'il faut qu'ils aient de rudes qualités<lb/>naturelles ou acquises, les méridionaux de Pro-<lb/>vence, pour qu'on arrive à les endurer ! Leur as-<lb/>surance indéconcertable d'être les premiers d'en-<lb/>tre les mortels, leur sempiternelle vantardise,<lb/>l'indégonflable vessie de leur bavardage, et, sur-<lb/>tout, l'exacerbante chaudronnerie de leur accent,<lb/>les rendent à peu près abominables à tout le<lb/>reste du genre humain (1)... »</p>
+        <p><lb/>Vaqui lou refrin coustumié que canton<lb/>nòsti « fraire ». E lou sabèn de cor, e nous<lb/>esmòu plus gaire.</p>
+        <p><lb/>Ço qu'es de remarca, dins la darriero cam-<lb/>pagno contro lou Felibrige, es la martido fe<lb/>de sis enemi e l'ipoucrisio ignourènto que ié<lb/>fai desnatura tout ço que fai e vòu lon Miejour.</p>
+        <p><lb/>An prouclama la « fin dóu Felibrige. » An<lb/>cerca de ridiculisa un nouvèu majourau en<lb/>ié prestant un lengage de nèsci qu’es pas e<lb/>que sara jamai lou siéu. An imagina la bourdo<lb/>groussiero d’un felen dóu Rèi Reinié » que se<lb/>prepausarié de restabli lou reiaume de Prou-<lb/>vènço. E, se l’on voulié cerca l'óurigino d'a-<lb/>quelo boufounado à la « Tartarin », proubable<lb/>que lèu sarié troubado; urousamen, uno mes-<lb/>sioun mai noblo es la nostro, e degaiaren<lb/>jamai noste tèms à-n-aquéu jo de barjacaire.</p>
+        <p><lb/>Sarié de souveta, pamens, que forço de nòs-<lb/>tis aversàri aguèsson un pau mai treva l'escolo<lb/>primàri. N’en capitan un que counfound la<lb/>lengo d'O e la lengo d'Oui d'uno façoun proun<lb/>divertissènto:</p>
+        <p rend="labelled"><lb/>« Connaissez-vous, escriéu, la Cause, ou plu-<lb/>tôt la cOSE ? C'est la cOSE provençale, c'est la<lb/>revendication de la LANGUE D'OC ET D'OUL. (sic)<lb/>contre la Picardie, la Normandie, la Bretagne<lb/>e l'Ile de France. C'est le fameux SÉPARATISME:<lb/>il y a des gens qui ont découvert, on ne sait où,<lb/>un descendant du roi Rene; de là à reconsti¬<lb/>uer le royaume d'Arles, il n'y a qu'un tout petit<lb/>pas. Telle est la coSE (2).»<lb/></p>
+        <p><lb/>Lou meme, pièi, fasènt lou poulit mestié<lb/>d'agènt endicadou, aviso lou majourau en</p>
+        <p rend="labelled"><lb/>(1) Léon Bloy, Le Pal.</p>
+        <p rend="labelled"><lb/>Du de, 1r septembre 1897.<lb/>questioun que soun felibrige poudrié ié faire<lb/>perdre sa plaço:</p>
+        <p rend="labelled"><lb/>« D'abord cela pourrait lui faire perdre sa<lb/>place de bibliothécaire; et Mistral a beau étre<lb/>l'auteur de MIREIL.LE, il n'est pas encore en passe<lb/>ou en place pour offrir des compensations à ses<lb/>fidèles (3)...» Acò vous lèvo-ti pas lou cor ?...</p>
+        <p><lb/>Mai, pèr la bono bouco, fau legi lou Figaro<lb/>dóu 9 de setèmbre, ounte un moussu Pierre<lb/>Durand nous rènd respounsable di cop de<lb/>pistoulet tira pèr l'anarchisto Ramoun Sem-<lb/>pau, à Barcilouno:</p>
+        <p><lb/>« On croyait, dis, surtout après l'attentat con-<lb/>tre Canovas, que cet individu était un anar-<lb/>chiste. Pas du tout, c'est un félibre.»</p>
+        <p><lb/>E, pu liuen, apound: « Si les félibres nous<lb/>menacent en France d'une restauration monar-<lb/>chique, en Espagne d'une révolution à main ar-<lb/>mée, c'est vraiment beaucoup. Il est heureux que<lb/>le danger ait été signalé à temps...»</p>
+        <p><lb/>Vaqui dous grand chivau de bataio de nòstis<lb/>enemi : Separatisme e mounarchisme.</p>
+        <p><lb/>Mounarchisto, l'a segur de felibre que lou<lb/>soun; tóuti lis oupinioun estènt respetado<lb/>dins lou Felibrige. Mai n’i'a forço peréu que<lb/>lou soun pas. Forço pènson que la mounar-<lb/>chlo a fa la centralisacioun, a coungreia l'es-<lb/>perit jacoubin, la Counvencioun e Napouleon,<lb/>es dire : l’escrachamen de tóuti li revendica-<lb/>cioun di terraire, de tóuti li forço veramen na-<lb/>ciounalo que vuei li dirias quasimen morto.<lb/>Pèr éli, la mounarchlo represènto lou triounfle<lb/>dóu Nord barbare sus lou Miejour civilisa;<lb/>lou debaussamen de l'Oucitanlo en favour de<lb/>l'egemounio parisenco. Amor d’acò, éli soun<lb/>pas e saran jamai mounarchisto.</p>
+        <p><lb/>Pèr quant au separatisme, sabèn pas la si-<lb/>gnificacioun d’aquéu mot, e (parle emé toui li<lb/>felibre), respoundren i journau quand nous<lb/>auran bèn esplica ço que ié fau entèndre. Nòs-<lb/>tis àvi s’establiguèron en terro galeso belèu<lb/>vint siècle avans que la Germanio boumiguèsse<lb/>si barbare sus lou Nord galés. Li felen d'ei-<lb/>césti sarien dounc mau-vengu de nous trata<lb/>d’estrangié dins noste alòdi.</p>
+        <p><lb/>Li Franchimand, lou sabèn de rèsto, an as-<lb/>saja de nous coucha foro e de nous estermina:<lb/>se f'an pas reûssi, fau, à la fin pièi, que se<lb/>n'en counsolon e que prengon li causo coume<lb/>soun. Nautri, leiau, lis avèn aceta despièi<lb/>long tèms; avèn mescla noste sang emé lou<lb/>siéu sus li prat-bataié; avèn poussa la braveta<lb/>jnsquo à prene soun noum pèr rampèu, e óu¬<lb/>blidant li rapino e li masèu di Franc-German,<lb/>bourrèu de nòstis àvi, avèn escari dins noum<lb/>de Franço l’espressioun mouderno de nosto<lb/>Gaulo. Nous demanda mai sarié trop.</p>
+        <p rend="dateline"><lb/>(3) La Semaine, 12 septembre 1897,</p>
+      </div>
+      <div type="article">
+        <head><lb/>LIS ARLANDIÉ DE LUTÈÇO</head>
+        <p rend="labelled"><lb/>(24 ARTICLE)</p>
+        <p rend="dateline"><lb/>A-n-Albert Arnavielle.</p>
+        <p><lb/>Quand noste grand partit naciounau d'O,<lb/>de-founs ourganisa, poussedira quàuqui bèlli<lb/>dardèno de bataio, uno di mai fegóundi prou-<lb/>pagando, à moun umble avejaire, sara d’es-<lb/>campiha sus touto la terro nostro uno revisto<lb/>di journau franchimand que parlon dóu Mie-<lb/>jour... Acò, si, que sara 'no bono educacioum<lb/>naciounalo pèr nòstis enfant! Aqui, si! que se<lb/>pousaran coume se dèu, e pèr ço que se déura,<lb/>li sentimen que nous es mestié de nourri pèr<lb/>nòsti «fraire » de l'Uba.</p>
+        <p><lb/>Nòsti fraire! Es bèn de dire « nòsti fraire!»<lb/>Pas proun qu’is age fer nous agon matrassa<lb/>tóuti coutrio emé lis Alemand, emé tóuti li<lb/>chourmo abestiassido que lou fanatisme lou<lb/>mai crudèu ague jamai descabestrado. Pas<lb/>proun qu’agon abóusouna nòsti ciéuta, es-<lb/>carni nosto lengo, abesti nósti conse, cou-<lb/>roumpu nòsti mestierau emé si cafè cantant e<lb/>nòsti mandadou emé si Panama, toustèms,<lb/>vous dise, e vuei mai que jamai, nous agounis-<lb/>son, nous jalouson, nous detèston.<lb/></p>
+        <p><lb/>Li bràvi gènt dóu pople d'O – pople de bràvi<lb/>gènt — es pièi amirable qu’acò ié vèngue pas<lb/>en òdi ! Subisson l’escorno, sourrison, baison<lb/>patin e dison gramaci... Quau a jamai ausi pèr<lb/>carriero un tiro-l’aufo empega cridant à-z auto<lb/>voues, dins soun abouminable argot parisen :<lb/>« Sale Midi! sales gens !... » léu m'es arriba,<lb/>l'a pas forço; e, siéu demoura nè 'n vesènt la<lb/>flaugnardarié de mi counciéutadan : n'i'aguè<lb/>pas un que rebequèsse quicon au panto; d'ùni<lb/>pamens fasien la mougno, e, lis usso froun-<lb/>sido, passavon, emé lou gàubi di vincu, dis<lb/>etèrni vincu que sian e que voulèn bèn èstre!</p>
+        <p><lb/>Es toujour parié. Li founciounàri regagnous<lb/>que l'Uba nous autrejo, quau a pas vist coume<lb/>traton lou paure mounde, ajouca qu’éli soun<lb/>tóuti sus soun franchimand óuficiau ? Tóuti<lb/>l'an vist, tóutì l'acèton; li francihot capoun n'en<lb/>fan regale ; e sèmblo qu'uno auro de bassesso<lb/>ague gibla lis amo d'O e que la counquisto<lb/>abourrido nous ague pèr toustèms cresta.</p>
+        <p><lb/>Dins lou desbounde d'injùri ferouno e d'es-<lb/>càfi groussieras que lou remerdié de l'Es-<lb/>tampo nous a boumi subre, aquésti semano<lb/>passado, iéu vole pas repesca li sempitèrni (e<lb/>freiràli !) galejado que cadun saup de cor, sus<lb/>li Felibre, le Midi bouge, etc. Tout acò, ié sian<lb/>acoustuma; es noste pan quoutidian; dins li<lb/>journau d’image parisen — qu’au poun de<lb/>yisto artisti soun toumba vuei en dessomne ue<fw type="digitisation-artefact"><lb/>source gallica.bnf.fr/ Bibliothèques de Mars</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Gau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8138397h</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Gau : revisto mesadiero pèr li revendicacioun de la lengo prouvençalo à l'escolo, dins la cadiero e à la tribuno poupulàri : parèis lou 15 de chasque mes / secretàri dóu Gau D. Savié de Fourviero</title>
+          <publisher>[s.n.] (Tarascoun-sus-Rose)</publisher>
+          <date when="1899-04-15">1899</date>
+          <idno type="ARK">bpt6k8138397h</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8138397h</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>TRESENCO ANNADO</fw>
+        <dateline><lb/>15 ABRIÉU 1899</dateline>
+        <figure/>
+        <ab><milestone unit="column" n="1"/><lb/>CANTAIRE DI REVENDICACIOUN PROUVENÇALO<lb/>à l'Escolo, dins la Cadiero e à la Tribuno poupulàri</ab>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="3"/><lb/>lI BAILE DOU GлU:<lb/>MESTK EISSEIO — REINIE MOUNTAUT<lb/>D. SAVIE DE FOUEVIERO</ab>
+        <p rend="heading"><lb/>AMENISTRACIOUN:</p>
+        <ab><lb/>D. SAVIE DE FOCEVIERO<lb/>Sant-Micheu de Terigon'et</ab>
+        <ab><milestone unit="column" n="2"/><lb/>PARÈIS LOU 15 DE CHASQUE MES<lb/>ABOUNAMEN: 3 FRANC PER AN</ab>
+        <ab><lb/>'TA mai que d’un segur que se soun<lb/>estouna de vèire Mistrau intra dins la<lb/><lb/>Ligue de la Patrie française. Perqué?<lb/>Pèr-ço-que n'an jamai coumprés, aquéli, ni lou<lb/>Mèstre ni soun obro majo.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>TAULETO</head>
+        <p rend="structured"><lb/>F. Mistrau e la ligo de la Patrio franceso, UN BON PROUVENÇAU. —<lb/>Astronomie provençale, A. BOURRELIX. — Veici Pasco, cantico<lb/>emé musico, D. S. DE F. — Parlen prouvençau, P. DE CLASTRO.<lb/>— La bello educacioun, LOU RABAIAIRE. — Crounico. — Lettre<lb/>à l'auteur des versions provençales, Us CONVERTI. — Pichoto<lb/>istòri dé la lengo d'O, AMADIÉU. — A travès libre, C. MESSELIN.<lb/>Pichoto courrespoundènci. — Fuietoun: Lei Pasco de Sivanio,<lb/>DÓU PONT D'ARAN.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>ASSABÉ</head>
+        <p><lb/>Lou galant librihounet Grammaire et Guide de<lb/>la conversation provençale vèn d’èstre aumenta de<lb/>près: se vènd 1 fr. 25.</p>
+        <p><lb/>Pamens n'i'a encaro quàuquis eisemplàri à o 75, i<lb/>biblioutèco di garo. Qu n’en vòu que se despache.</p>
+      </div>
+      <div type="article">
+        <head><lb/>FREDERI MISTRAU</head>
+        <head><lb/>e la Ligo de la Patrio franceso</head>
+        <figure/>
+        <ab type="head"><lb/>Sian de la grando Franço, e ni court, ni coustié!<lb/>clamo la voues superbo de l'autour de Mirèio. O,<lb/>davans tóuti, à coustat dóu Mèstre, sian d’aquelo<lb/>Franço que s’aubouro fièro e glouriouso, mau-grat<lb/>la ràbi sournarudo de l’Anglés, mau-grat li prepa-<lb/>racioun sourdo e menaçanto de l'Alemand. Sian<lb/>d’aquelo Franço qu’es à l’ouro d’aro escarnido,<lb/>chaupinado pèr li jusiòu, li traite, li desraema</ab>
+        <ab><lb/>urce gallica.bnf.fr/ Bibliothèque nationale de Fran.<lb/>vengu de Genèvo, tóuti de gènt qu’an ges de patrio,<lb/>o que, se n’an uno, la vèndon abouminablamen.</ab>
+        <pb facs="0002.xml"/>
+        <fw type="runningTitle"><lb/>LOU GAU</fw>
+        <p><lb/>N'en sian pèr l'apara, pèr apara si dre, soun<lb/>noum, soun armado, sa glòri. N’en sian contro<lb/>aquéli bourroulaire que l’Anglés e lou grand Rabin<lb/>rançounon sus l’estiganço de maucoura li bon pen¬<lb/>saire de la proumiero ouro, embournia li nèsci e<lb/>engana touto la Franço e la mena peri. O, n’en<lb/>sian pèr ajuda li Patrioto à -n-alarga que mai soun<lb/>obro e sis idèio de veritable patrioutisme.</p>
+        <p><lb/>Nous-àutri, li fiéu de la terro, coumprenèn mai<lb/>que degun aquel amour de la Patrio. Soufrèn dis<lb/>dis injuri basso que ié largon, rougissèn em’elo<lb/>dis escra pudènt que i’escupisson à la fàci, e noste<lb/>cor boumbis davans lis araca, lis estafié que fan<lb/>marcat d’elo emé nòsti milioun.</p>
+        <p><lb/>Sian emé ço que la Franço a de mai chanu coume<lb/>pensaire, coume pouliti e coume sóudard. Sian emé<lb/>tóuti li felibre dóu veritable Felibrige. Quau dis<lb/>Felibrige, dis pas separatisme, mai amour de la<lb/>Prouvènço e de sa lengo e de sis us. D'ama nosto<lb/>Prouvènço, de parla sa lengo, de garda piousamen<lb/>sis us, acò nous fai pas separa de la Franço. Quau<lb/>es lou mòti, lou centralisaire proun darut qu'au¬<lb/>sara dire lou contro?</p>
+        <p><lb/>Mai, tenès, vau miés que leissen la paraulo à<lb/>noste grand Mistrau. Veici ço qu’un jour disié:</p>
+        <p><lb/>l'a 'no tarabastado d'esperit assoulu, rege, duras e fre, que,<lb/>dins soun fanatisme pèr lou sistèmo unen, voudrien faire avala<lb/>aquesto mourraiado: « Tout ço que fai partido d'un estat pouliti,<lb/>valènt-à-dire d'uno memo patrio, dèu necessarimen parla la memo<lb/>lengo, e tóuti lis assai pèr manteni d'autri parla, fau li counsidera<lb/>coume anti-patriouti, dangeirous per l’unita e grandamen vitupe-<lb/>rable. » E 'm'acò, partènt d'aqui, toumbon sus lou Felibrige, e<lb/>zòu! bourrin-bourrant, nous traton d'esclapaire e de separatisto.</p>
+        <p><lb/>Es pamens proun eisa d'abouca lou sistèmo que pretèn à founda<lb/>l'amour de la patrio sus la desparicioun di parla prouvinciau.</p>
+        <p><lb/>Prenen la Franço talo qu'es. Coume s'es facho?</p>
+        <p><lb/>S'es fácho, vous lou vau dire, pèr la coumunauta dis interès,<lb/>pèr lis atiramen dóu vesinage, pèr li raport facile establi de naturo<lb/>entre lis abitant dóu vièi terraire gau, pièi pèr l'engèni acam-<lb/>padou di grands ome qu'an regna sus la Franço.</p>
+        <p><lb/>Mai dins aquelo unioun, geougraficamen e istouricamen astrado,<lb/>qu'es la questioun de lengo? Rèn!</p>
+        <p><lb/>E talamen rèn, que, quand li Prouvençau libramen s'afreirèron<lb/>à la nacioun franceso, meteguèron sa lengo, sa lengo prouvençalo,<lb/>au noumbre di franqueso qu'entendien se reserva; e, cinquanto<lb/>an après, l'emperaire Carle-Quint aguènt envahi la Franço e<lb/>marcha sus Touloun, sus Marsiho e sus Arle, li Prouvençau<lb/>moustrèron pèr soun devouamen e l'esplendour de sa defènso que<lb/>soun patrioustime noun èro demeni pèr soun lengage especiau.</p>
+        <p><lb/>Aro cisaminen lou contro. La coumunauta de lengo, jouncho<lb/>(ço qu'es bèn mai) à la coumunauta de raço a ti empacha lis Estat-<lb/>Uni de se dessepara de la maire Anglo-terro? A-ti empacha lou<lb/>Perou, lou Chili, lou Meissique, de renouncia l'Espagno? A-ti<lb/>empacha lou Brasil de s'afranqui dou Pourtugau? E, d'autro part,<lb/>l'usage de la lengo francéso engardo-ti Brussello de teni fieramen<lb/>à soun independènci? L'usage naciounau de la lengo franceso<lb/>engardo-ti Genèvo de teni aspramen à la patrio Souisso? E enfin<lb/>la coustumo de la lengo alemando fai-ti que dins l'Alsaço noun¬<lb/>se regrète pas amaramen la lèi de Franço?</p>
+        <p><lb/>L'esperiènci de l'istòri provo dounc aut e clar que lou patrion¬<lb/>tisme, tau que lou vou la poulitico, noun se pòu coungreia pèr<lb/>l'unifourmita de lengo.</p>
+        <p><lb/>L'amour de la Patrio es founda sus li tradicioun, es founda sus<lb/>li remembranço, es founda sus li simpatio, es founda sus lis avan-<lb/>tage, es founda mai que tout subre la liberta; e quau me leissara<lb/>libre dins ma pensado, libre dins moun parla, libre dins moun<lb/>camin, libre de m'espandi coufourmamen à ma naturo, aquéu es<lb/>moun ami e siéu soun coumpatrioto. Mai quau me geinara dins<lb/>ma maniero d'èstre, mai quau se trufara de moun plourun o de<lb/>moun rire, mai quau me fourçara de chanja moun lengage, aquéu¬<lb/>d'aqui, au diable! E passo, que t'ai vist.»</p>
+        <p><lb/>Aro coumprenès, sènso que n'en digue mai.<lb/>perqué Mistrau es de la Ligue de la Patrie Fran¬<lb/>çaise, e perqué sian em' éu tóuti coutrìo. Noste<lb/>prouvençau n’es-ti pas uno lengo de Franço?<lb/>N'es-ti pas, nosto Prouvènço, de la vièio terro di<lb/>Gaulo?</p>
+        <ab><lb/>UN BON PROUVENÇAU.</ab>
+        <figure/>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>ASTRONOMIE PROVENÇALE</p>
+        <p><lb/>Je dois à notre éminent poète F. Mistral, connaissance<lb/>d'un mythe charmant où se cache un fait astronomique,<lb/>la conjonction des deux planètes, Vénus et Jupiter, que je<lb/>prends la liberté de vous transcrire.</p>
+        <p rend="styled"><lb/>« La bello Magalouno se courron après emé Peire de<lb/>« Pronvenço e touti li set an se maridon. Counoidon à si<lb/>» noço Jan de Milan, lis Ensigne, la Pouciniero e lou<lb/>» Panard.</p>
+        <quote><lb/>" La Pouciniero matiniero, partigué, se dis, proumiero c<lb/>" prengue lou camin ant. Lis Ensigne qu'es tres fiho escar¬<lb/>» rabihado, coupèron plus bas e finigueron per l'avé. Jan<lb/>» de Milan qu'èro resta endourmi, quand se levè, prenguè<lb/>» l'acóurchi, courreguè après lis Ensigne e pèr lis arresta<lb/>» ié mande soun bastonn de rambaiado, lou bastoun de Jan<lb/>» de Milan. Lou Panard qu'es goi, fai pas forço camin e<lb/>» manque la noço. »</quote>
+        <p><lb/>On reconnait à première vue, Vénus dans « la Bello<lb/>Magalouno » et Jupiter dans « Pèire de Prouvenço».</p>
+        <p rend="labelled"><lb/>« Jan de Milan » n’est autre que le brillant Sirius, qui<lb/>était encore couché au moment où la conjonction très-<lb/>serrée allait avoir lieu. Puis ce sont lis Ensigne, Mintaka,<lb/>Alnilam, Alnitak. — La Poucinierd répond exactement aux<lb/>Pléiades.</p>
+        <p rend="labelled"><lb/>«Lou bastoun de Jan de Milan, peut ètre formé par les<lb/>étoiles Mirzam, β Grand Chien, z,ο, , 0, et : Orion.</p>
+        <p><lb/>Il reste à trouver « lou Panard qu'es goi, fai pas forco<lb/>camin. » Cela nous indique une étoile qui se lève tard et<fw type="digitisation-artefact"><lb/>Source gallica.n.fr/Bibliothèque nationale de France</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

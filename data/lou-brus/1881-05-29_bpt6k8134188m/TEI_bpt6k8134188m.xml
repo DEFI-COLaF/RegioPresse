@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8134188m</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1881-05-29">1881</date>
+          <idno type="ARK">bpt6k8134188m</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8134188m</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Dimenche, 29 de Mai 1881.</fw>
+        <fw type="runningTitle"><lb/>Dous Sou lou Numerò</fw>
+        <dateline><lb/>III Annado — N' IX p. 65</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>PAREISSENT TOUTEI LEI DIMENCH<lb/>Depausitàri majourau pèr Marsiho: carriero Canebièro, 4. F<lb/>ado pertout.</ab>
+        <note type="handwritten"><lb/>S^te Estelle de Marseille, en 1881.<lb/>Lu-</note>
+        <p rend="heading"><lb/>JOURNAU POUPULARI DE LITERATURO, D'ISTORI E DE SCIENCI</p>
+        <p><milestone unit="column" n="2"/><lb/>Tout co que toco lou journau deu<lb/>èstre manda afranqui à l'Empremarié<lb/>Prouvençalo, 15, carrièro dón Grand-<lb/>Relògi, à-z-</p>
+        <lg>
+          <l><lb/>Abounamen:</l>
+          <l><lb/>SET tranc pèr an pèr tonto la Franço.</l>
+          <l><lb/>Fouero Franço, lou port en subre, co</l>
+          <l><lb/>que revèn à DES fr.</l>
+        </lg>
+        <p><milestone unit="column" n="3"/><lb/>Les aunonces, réclames et faits di-<lb/>Société Anonyme de publicité. 52 rue<lb/>d’Aboukir, termière de la publicité</p>
+      </div>
+      <div type="article">
+        <head><lb/>CAULETO</head>
+        <ab><lb/>POUESIO. — Moun Album: léu - L. Astruc.<lb/>CROUNICO. — Santo-Estello à Marsiho : Comte-<lb/>rendu, Discours, Brinde, etc.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>POUES1O</head>
+        <head><lb/>MOUN ALBUN</head>
+        <lg>
+          <l><lb/>Vint-e-quatre an, leitour. e quàuqui mes.</l>
+          <l><lb/>S'eici me mete es que pèr simpatio.</l>
+          <l><lb/>E noun, ami, perquè moun Album es</l>
+          <l><lb/>Pien de musico e plen de pouesio.</l>
+          <l><lb/>Biadamisello, amas li blound? Amés</l>
+          <l><lb/>Li brun : mi péu, mu barbeto a mi ciho</l>
+          <l><lb/>Soun negre emai mi pensamen de-fes.</l>
+          <l><lb/>Amas li blound ? leu ame li cacio.</l>
+        </lg>
+        <lg>
+          <l><lb/>Mai se sias sauro acò me sufis pas</l>
+          <l><lb/>Se sias pas roso. — Ame forço li fibre.</l>
+          <l><lb/>Rime de vers, — ai d'iue mut e de nas</l>
+        </lg>
+        <lg>
+          <l><lb/>Mai que ma part, mai sabe de Felibre....—</l>
+          <l><lb/>Sieu grand... de talo. e mince. e (pas de brut) :</l>
+          <l><lb/>De fat's pas vrai. de noum siéu bèu —</l>
+        </lg>
+        <ab><lb/>ASTRU.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>Cedan tout lou large dou journau au<lb/>comte rendu de Santo Estello que coun-<lb/>tuniaren au numerò venènt.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Eron presènt au banquet de Santo-Estello:<lb/>Lou Capoulié dou felibrige, En Frederi Mistral,<lb/>e de mai li felibre : Astruc Louis — Allert Ai¬<lb/>card, avoucat — Arnaud, de St Roumié, mège —<lb/>Borghero Louis — Bistagne Carle — Bourrelly<lb/>Marius — de Berluc-Perussis — de Beauregard<lb/>– Bernard Marius — Buisson Tistet, d’Aups —<lb/>Alfred Chailan – Cauvet, avoucat – d'Ille-Gan-<lb/>telme, d'Ais — Delmas, proufessour au licèu de<lb/>Marsiho — Ferrat, d'Ais — Jamin Fernand<lb/>— de Fonvert, d'Ais — Gorlier Louis, de Tou-<lb/>joun – L. Gozlan – Guitton-Talamel, d'Ais —<lb/>Paulin Guisol, avoncat — Ito Guillibert, avoucat.<lb/>d'Ais — Henri Guillibert, encian juge — Huo:,<lb/>architèite – Issaurel de Sant Macèu — Lieutaud<lb/>Vitou — Fernand Lagarrigue, conse dou Portu¬<lb/>gal, à Niço — Pèire Mazièro — Jan Monné —<lb/>Majoullier — Aguste Marin — O. Monier de<lb/>Touloun — A Maurel — Roumanille — Antony</ab>
+        <ab type="head"><lb/>SANTO-ESTELLO A MARSIHO</ab>
+        <p><lb/>Dimenche passa lou Felibrige a douna, à Mar-<lb/>siho pèr lou premié còp, au bord de mar, encò<lb/>de Roubioun, sa festo annau de Santo-Estello,<lb/>le se pou dire que pèr un debutes esta un ver-<lb/>tadié triounfle, e se pou autamen afourti que ja-<lb/>mai, despièi que lou Felibrige es Felibrige,<lb/>Santo-Estello fuguè mai soulènno e mai noum-<lb/></p>
+        <p><lb/>Setanto counvida avien respoundu au rampèu<lb/>dóu Capoulié, e à la memo taulo se soun coui-<lb/>deja, e à la memo coupo an trempa si labro, e<lb/>au meme grand soulèu se soun caufa setanto<lb/>patrioto de la patrio universalo : l'Art.</p>
+      </div>
+      <div type="article">
+        <fw type="digitisation-artefact"><lb/><lb/>gallica.bnf.fr / Bibliothèques de Marse</fw>
+        <pb facs="0002.xml"/>
+        <fw type="runningTitle"><lb/>LOU BRUSO</fw>
+        <ab><milestone unit="column" n="1"/><lb/>66<lb/>Regnier — Remondet-Aubin, d’Ais — Regim-<lb/>baud, juge — Sabatier, d’Ais — Anfos Tavan —<lb/>Tavernier, counseiè à la Cour d'Ais — lou comte<lb/>de Toulouso-Lautrec, de Lavaur (Tarn) — Fran-<lb/>cés Vidal, d’Ais — Aguste Verdot.</ab>
+        <p><lb/>Eron vengu s’apoundre à-n-aquéu roudelet :<lb/>MM. Coffinières, de Mount-pelié, delega de la<lb/>soucieta Prouvençalo de Paris — Moreau, re-<lb/>presentant dóu « Journal de Marseille » — Ou¬<lb/>gèni Rostang, dóu meme journau — Cauviere,<lb/>representant de la « Gazette du Midi » — Louis<lb/>Brès, dou « Semaforo » Portanguen, dóu « Pi-<lb/>chot Marsihés — e Tomi-i, japounés, estudiant en<lb/>doutourat à-z-Ais.</p>
+        <p><lb/>Li membre ajudaire de « l'Escolo de la Mar »<lb/>aguènt temougna lou desir de faire la benven-<lb/>gudo i Felibre, fuguèron counvida e respoun-<lb/>deguèron au rampèu : MM. Audran — Brion —<lb/>Cauvin — Daniel — d'Esperandieu — Finaud<lb/>– Giroud — Hugemy – Infernet – Mayan —<lb/>Martin — Louis Olive — Marius Olive — Rave —<lb/>Redon — Sumien — Seneque — Salin — Vassal<lb/>e Vimar.</p>
+        <p><lb/>Paure crounicaire, mounte te sies embarca !<lb/>Setanto taulejaire, valènt-à-dire, setanto font<lb/>qu’an destanca si resclauso. Pèr reculi tout acò<lb/>fau èstre la mar e, pecaire, siéu bèn nanet !</p>
+        <p><lb/>Vaqui perqué citarai que lou principau, o que<lb/>ço que lou « Brusc » a pouscu se proucura, en<lb/>remandant lou legèire à-n-un librihoun que se<lb/>vai empremi pèr lei suen de l'Escolo de la mar<lb/>e de soun valènt cabiscòu En A. Chailan, e que<lb/>relatara lou mai coumpletamen poussible, tout<lb/>ço que s'es dit dins aquelo fèsto memourablo (1).</p>
+        <p><lb/>Veici Mistral l'amo de la Prouvènço, que vai<lb/>parla. Jamai, dires, lou Capouliè fuguè mies em-<lb/>paraula. Ausès-lou:<lb/>entour en vilo de Marsiho pèr vous escudela<lb/>ma façoun de pensa.</p>
+      </div>
+      <div type="article">
+        <p><lb/>Quinto que siegue l'oupinioun, l'entre-signe<lb/>majour e douminant d'aqueste siècle, es lou<lb/>triounfle de la demoucracio... En largant aquéu<lb/>gros mot, entènde pas, Messiés, faire de pou-<lb/>litico : parle tant soulamen au poun de visto<lb/>literari.</p>
+        <p><lb/>Dounc, la demoucracio aguènt pres lou gou¬<lb/>vèr, li vièiis enfluènci de la Court, di saloun,<lb/>de la bello soucieta, dis acadèmi bèn parlanto,<lb/>an despareigu pau à pau, e l’alenado poude¬<lb/>rouso dóu soubeiran nouvèu gounflo de mai en<lb/>mai tòuti li velo de la barco. Lou pople afe-<lb/>rouni, descabestra, desbadarna arribo à la<lb/>mountado espeloufi coume un lioun arribo<lb/>emé sa fam, arribo emé sa-forço, e tau qu’un<lb/>gaudre desbounda que tirasso après éu e la<lb/>limo e la gravo, lou poupulas envahissènt estralo<lb/>à la lumiero sa parladuro talo e qualo.</p>
+        <p rend="labelled"><lb/>Acò, Messiés, vous desacato lou grand cous-<lb/>tat dóu Felibrige. Lou Felibrige, aquelo flou-<lb/>resoun de tout ço que l'a de bèu, de tout ço<lb/>que l'a de gai, de tout ço que i'a de noble<lb/>dins li poupulacioun, n'es pas l'obro d'asard de<lb/>quànquis ome. Espeli dins lou pople, en plèn<lb/>soulèu, en plèn terraire, es l’enfant naturaue<lb/>prouvidenciau de l'epoco ounte sian.</p>
+        <p><lb/>Lou pople, vous ai di, arribo tau e quau,<lb/>agarrussi, bouchard, bramaire e tuerto-bàrri...<lb/>Zóu ! mandas-lou is escolo ; zóu ! desembouias-<lb/>lou ; fardas-lou, escuras-lou ! aurès bèl à freta,<lb/>Messiés lis ensignaire : l’empacharès jamal d’ès-<lb/>tre de la Ciéutat o de Peirolo o dóu Martegue,<lb/>car un pin fai un pin, lou mourtié sènt l'aiet,<lb/>e naturo passo tout.</p>
+        <p><lb/>Aquéli de Paris, qu’an l'uei dubert coume<lb/>de pèis, en vesènt mounta l’oundado, parbiéu !<lb/>an quita vèsto, quita braio e camiso, e se soun<lb/>jita à l'aigo pèr nada dins la foulo e pèr avé sa<lb/>vogo. Es ço qu’apelon vuei, Messiés, lou<lb/>« realisme » e lou « naturalisme, » uno trasfour-<lb/>macioun estraio-braso que se fai dins lis art e<lb/>dins la literaturo.</p>
+        <p><lb/>Tant que metran en sceno la vido parisenco,<lb/>encaro vague-ié ! Soun plaça mies que res pèr<lb/>bourja dins li founs de la grand capitalo e ié<lb/>pesca li perlo de la civilisacioun. Mai quand<lb/>voudran retraire li causo dóu Miejour, la vido<lb/>interiouro de sa nacioun campèstro, li semenço,<lb/>li meissoun, li magnan, lis oulivado, lou gàn-<lb/>gui, la fóucado, lou cacho-fiò, l’aiòli, auran bèu<lb/>s’estudia, bèu s'apaisani, faran quàsi toujour de<lb/>tablèu de counvencioun em'uno Prouvènço pèr<lb/>rire.</p>
+        <p><lb/>Vès, l'a que dins sa lengo qu'un ome quint<lb/>que siegue, se despeitrino à l'aise e se mos-<lb/>tro tau qu’es. Voules d'eisèmple ? Digas-me se<lb/>jamai res pintè li rabeiròu brutau d’aquest<lb/>port de Marsiho emé la verita e l’audàci de<lb/>Gelu, se degun castiguè li nèrvi e li quèco emé<lb/>lou fouit de Benedit, se degun engaugnè li ra-<lb/>chalan de Nimes en galejant coume Bigot, se<lb/>degun empougnè li tipe de Prouvènço emè<lb/>l'óusservacioun galoio de la Sinso, se degun</p>
+      </div>
+      <div type="article">
+        <head><lb/>DISCOURS DE SANTO ESTELLO</head>
+        <head><lb/>Messiés e gai counfraire,</head>
+        <p><lb/>L’ouro es vengudo de recerca l’encauso, d’en-<lb/>lumina lou founs d’aquelo reneissènço que se<lb/>noumo Felibrige, e de n’en faire vèire clara¬<lb/>men la resoun e la pourtado e la picado. E<lb/>vole aprouficha la brihanto coumpagno que lou<lb/>drapèu de Santo Estelto acampo vuei á soun</p>
+        <p rend="styled"><lb/>(1) Sus l'estiganco d'aqu'èu pres-fa que se sian douna,<lb/>pregan toutei lei Felibre qu'an assista au banquet de vou-<lb/>gue bèn nous manda lou teiste de sei brinde per que pous-<lb/>quen leis inseri. Pouedon lei manda siègue encò de L As-<lb/>truc, secretari de l'Escolo de la Mar, 14 carriéro N. D. deis<lb/>Angi (villa Paradis) Marsiho, siègue à-z-Ais au burèu dóu<lb/>journau. Que cadun nous ajude pèr que lou librihoun<lb/>siègue lou mai coumpli poussible.<fw type="digitisation-artefact"><lb/>burce gallica.bnf.fr/ Bibliothèques de Marseill</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

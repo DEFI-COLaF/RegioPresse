@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t51154365d</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1843-01-25">1843</date>
+          <idno type="ARK">bd6t51154365d</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t51154365d</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/>FEUILLE POLITIQUE, LITTÉRAIRE, COMMERCIALE EDUSTIELLE.</ab>
+        <p rend="heading"><milestone unit="column" n="4"/><lb/>Paraissant les Mercredis, Vendredis et Dimanch</p>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/> FRANCS PAR AN, 9 francs pour 6 mois, 5 franpour 5 mois</p>
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>On s'abonne à Dijon, au Bureau, rue Verrerie, 2 bis, où l'on reçoit toutes les communications qui peuvent intéresser le chef-lieu ou les communes<lb/>du département. — Les lettres doivent être affranchies et signées pour la garantie du rédacteur responsable.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>uis de la Magdeleine-Ragny, décédée en son château<lb/>de Vaudremont le 5 octobre 1841, avait disposé d’une<lb/>partie notable de sa succession par un testament olo¬<lb/>graphe à la date du 30 septembre 1838, dans lequel</p>
+        <p><lb/>due, et voulant donner à ma petite nièce et fileute Berthie<lb/>de Guitaut, épouse de M. le comte Maxime de Malartic, une<lb/>marque de ma tendresse, je lui donne et lui lègue l'usu-<lb/>fruit de la susdite terre, afin qu'elle puisse en jouir avec</p>
+        <p rend="labelled"><lb/>le Malartic, sa fille et mon arrière-petite-nièce, la nue<lb/>propriété de ladite terre de Vaudremont, circonstances et<lb/>dépendances, POUR EN JOUIR DU JOUR DU DÉCÈS DE SA</p>
+        <p rend="styled"><lb/>serait sucessivement aux enfans qui suiraient; et dans<lb/>le cas où il n'y aurait plus d'enfans, c'est-à-dire QUE LA<lb/>SUSDITE DAME DE MALARTIC (ComtesSe MaXime) MOURRAIT<lb/></p>
+        <p rend="labelled"><lb/>petit-neveu et filleul Charles de Mandal, POUR EN JOUIR A</p>
+        <p rend="labelled"><lb/>charge le premier desdits légataires qui recueillera le<lb/>legS EN PLEINE PROPRIÉTÉ DANS L’ORDRE QUE JE VIENS D'É¬<lb/>TAELIR, de conserver et de rendre la susdite terre de<lb/>Vaudremont à l'aîné de ses enfans, qui sera lui-même<lb/>tenu de la rendre à l'ainé des siens telle qu'il l'aura re-<lb/></p>
+        <p><lb/>M. le cote de Grancey et Mme de Semalle, appe-<lb/>de la succession de la testatrice, ont consenti à la dé¬<lb/><lb/>livrance de l'usufruit légué à Mme. de Malartic; mais<lb/>ils ont eontesté la validité du surplus de la disposr.</p>
+        <p><lb/>propriété de<lb/>la terre de Vaudremont et du mobilier désigné au tes-<lb/>tament ne pouvait point être exigé; que, les frères<lb/>ou sœurs de Mlle. Clotilde de Malartic lui étant subs-<lb/>titués si elle mourait avant sa mère, et ensuite M.<lb/>Ernest de Mandat, si Mme. de Malartic, usufruitière,<lb/>survivait à la légataire et à tous ses autres enfans et<lb/>descendans, cette substitution des parens collatéraux<lb/>de la légataire n'était point autorisée par la loi du 17<lb/>mai 1826; qu’elle était par conséquent prohibée par<lb/>l'art. 896 du Code civil, et que la ruine de cette subs-<lb/>titution entraînait la ruine de la disposition entière.</p>
+        <p><lb/>ministrateur de la personne et des biens de sa fille<lb/>s’est alors pourvu en délivrance du legs devant le tri¬<lb/>bunal de Chaumont, et s’est fondé, pour l'obtenir, sur<lb/>ce que les parens collatéraux de la légataire n’avaient<lb/>point été appelés à lui succéder, mais à la remplacer<lb/>si elle mourait avant la testatrice; qu'il en était de<lb/>M. Charles de Mandat; qu'ainsi il n’y avait point sub-<lb/>stitution prohibée, et que le legs de la nue propriété de<lb/>la terre de Vaudremont et de tout le mobilier qui y<lb/>avait été accessoirement réuni par la testatrice appar-</p>
+        <p><lb/>royale de Dijon par M^e Morcrette père, pour les ap¬<lb/>pelans, et par M^e Philippe Dupin, avocat du barreau<lb/>de Paris, pour M. le comte de Malartic, au nom et en<lb/><lb/>qualité d’administrateur légal de la personne et des<lb/>biens de Mlle. Clotilde de Malartic, sa fille mineure,</p>
+        <p><lb/>ta qu pite di tart sur les plaidoidileurs aves daits-<lb/>ficultés de la discussion, car elle n'en présentait pas</p>
+        <p><lb/>juAuit e premniat is aas h esité à conferme<lb/>moiselle de Malartic, légataire de la nue propriété de</p>
+        <p><lb/>; e ne e ur </p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>de rendre; que tous au contraire sont appelés éven-<lb/>tuellement à succéder directement et sans l'interposi¬<lb/>tion de personne, à l’instant même du décès de la<lb/><lb/>testatrice; ce qui ne constitue que la substitution vul¬</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>dites, la Direction semble disposée à reprendre quel-<lb/>ques opéras déjà connus sur notre scêne, mais pres<lb/>que oubliés depuis trois ans, et qui, par cette raison,<lb/><lb/>ne sont pas sans attrait. Témoin Zampa, que nous<lb/>avons revu dimanche, monté avec un luxe de costumes<lb/>qui atteste l’intelligence et la bonne volonté de M.<lb/>Vadé, et joué par tous les acteurs d'une manière très-<lb/>satisfaisante, sinon sans reproche. Un peu d’étude en¬<lb/>core, et cet ouvrage pourra prendre place aux pre-<lb/>miers rangs du répertoire actuel. M. Grenier s’y est<lb/>montré, comme dans son premier début, musicien<lb/>plein de méthode et de goût : on peut considérer son</p>
+        <p><lb/>On nous annonce pour jeudi, comme pendant au<lb/>charmant opéra de Zampa, la reprise du Cheval de<lb/>Bronze, pour lequel nous savons que la Direction<lb/>fait d’assez grands frais de mise en scène. Cela don-<lb/>nera nécessairement une nouvelle vie au théâtre, qui a<lb/>traversé des jours d’embarras et de contrariétés dont<lb/>nous souhaitons vivement que le terme soit venu. Tout,</p>
+        <p><lb/>sa prospérité. C’est le choix des vaudevilles nouveaux,<lb/>confié, dit-on, à l’associé de M. Vadé, dont le tact et<lb/>le goût sont constamment en défaut. Le public murmure<lb/>avec raison, et nous conseillons à M. Vadé de ne s'en<lb/>rapporter désormais qu’à son propre jugement, d’au¬<lb/>tant plus qu’il est seul responsable et qu'on ne saurait<lb/>s'en prendre qu'à lui s'il permettait que nous fussions</p>
+        <p><lb/>Marchand de peaux de lapins. Elle a bien fait et nous<lb/>l'en remercions. Il ne faut plus aussi de Magasin de<lb/>gra ne de lin. C'est ignoble et injurieux pour le bon<lb/>tout grands patrioles qu’ils sont, de faire entendre à<lb/>l’Angleterre que serait aussi dans son intérêt, et que<lb/>le meilleur moyen d’enterrer la question du droit de<lb/></p>
+        <p rend="labelled"><lb/>le droit de visite sera inséré dans le projet d'Adresse<lb/>en réponse au discours de la Couronne. La rédaction<lb/>de ce paragraphe n’est pas encore définitivement ar¬<lb/>rêtée. M. Dumon doit donner à la commission, di-<lb/>manche 22, lecture de son projet d’Adresse, qui ne<lb/>pourra être communiqué en conséquence que lundi</p>
+        <p rend="labelled"><lb/>mencé le 20, à la Chambre des pairs, au sujet de<lb/>l'Adresse et particulièrement sur les traités relatifs au</p>
+        <p><lb/>fission,</p>
+        <p><lb/>traités de 1831 et de 1833, M. Ségur-Lamoignon et M. Ca-<lb/>mille Périer. Mais tous les deux sont également tombés<lb/>d'accord sur un point essentiel : c'est que ces traités nous<lb/>lient. Le principe général de notre Charte est qu'au Ro<lb/>seul appartient le droit de conclure les traités de paix et<lb/>d'alliance. Sans doute ce droit n’est pas sans limite. On<lb/>sait que les traités qui entrainent une disposition financière,<lb/>un changement dans les tarifs, une augmentation ou une<lb/>réduction d'impôts, ont besoin, pour être exécutés, d'ur<lb/>vote des Chambres. Mais, dans les cas douteux, à qui<lb/>donc appartient-il, sinon aux Chambres, de réclamer leur<lb/>droit, et, lorsqu’elles se taisent, n’en faut-il pas conclure<lb/>que le Roi a légitimement usé de sa prérogative ? Vous avez<lb/>connu les traités de 1831 et de 1833, vous n’avez pas ré-<lb/>clamé! Ils ont été exécutés sous vos yeux pendant plus de<lb/>dix ans, vous n'avez pas réclamé! Les ministres qui les on<lb/>signés en ont accepté et en acceptent encore pleinement la<lb/>responsabilité; pas un de vous n'a songé ou ne songe à<lb/>demander leur mise en accusation! Et l'on viendra dire<lb/>au bout de dix ans, que ces traités sont inconstitutionnels!<lb/>Qui peut dire qu’après dix ans, après vingt ans, l'o¬<lb/>pinion, selon ses caprices, ne découvrirait pas, dans<lb/>les traités qu'on aurait cru les mieux établis, une illé-<lb/>galité prétendue? Et qui donc serait assez téméraire<lb/>pour traiter avec une nation qui se réserverait de dé<lb/>chirer comme illégal un traité qu’elle aurait exécuté pen¬<lb/>dant dix ans comme légal et parfaitement constitutionnel?</p>
+        <p><lb/>versaires raisonnables et honnêtes du droit de visite, celui<lb/>d'obtenir tôt ou tard, mais amicalement, le rappel des<lb/>traités de 1831 et de 1833, faut-il enjoindre impérieuse-<lb/>ment au ministère de négocier? Et s’il ne négocie pas, quo<lb/>fera-t-on ? Et s’il négocie et que ses avances soient re-<lb/>les relations sont interrompues, si des deux côtés les esprits<lb/>s’exaltent et s’obstinent, que fera-t-on? Est-on déeidé<lb/>tenir ferme et à pousser les choses jusqu'à l'extrémité?</p>
+        <p rend="labelled"><lb/>putés, une réunion de la société abolitioniste. Elle se com¬<lb/>posait, assure-t-on, de sept députés, parmi lesquels<lb/>MM. de Tracy, Isambert et Delespaul, de deux pairs de<lb/>France, de deux agens abolitionistes français, et de DOUZE</p>
+        <p><lb/>tiLe fait est qu'il n'y a dans cett furieuve dé noncia<lb/>putés qui font partie de la Société abolioniste ont tenu<lb/>l’autre jour une séance au Palais-Bourbon. Ils ont lu<lb/>des documens relatifs à l’émancipation des esclaves<lb/>par conséquent ils ont lu des documens anglais; et ce<lb/>sont ces documens anglais dont on fait aujourd’hui<lb/>un rassemblement d'Anglais! Voilà où en est la polé¬<lb/>mique sérieuse sur le droit de visite. Si ce n'est pas là<lb/>de la démence, il faut renoncer à qualifier tous les</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Le Courrier de la Côte-d'Or a publié dans son numé¬<lb/>ro du 21, sur le dernier concert de la société philhar-<lb/>monique, un article plein d'esprit, de convenance, de<lb/>délicatesse et de tact à l’égard du beau sexe dijonnais.<lb/>Nous avons reçu à ce sujet, d’un lion et de deux<lb/>tionnes, ravis des complimens parfumés de notre con¬<lb/><lb/>frère, des observations auxquelles nous regrettons de<lb/>nu porv. Mr doinl ner place que daou ntten procain<lb/></p>
+      </div>
+      <div type="article">
+        <p><lb/>La caisse a reçu, le dimanche 22 janvier, de 224</p>
+        <p><lb/>Les remboursemens demandés se sont élevés à la</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Le passage suivant du Constitutionnel nous pa-<lb/>rait bon à citer; il est impossible d’avouer plus naïve-<lb/>ment qu’on ne se soucie guère du droit de visite, et<lb/>qu’un changement de ministère est le but unique que<lb/>se proposent une partie de ceux qui semblent le plus<lb/>echauffés contre les traités de 1831 et de 1833. Les in¬<lb/>sinuations du journal patriote s’adressent non-seule-</p>
+        <p rend="labelled"><lb/>Il est incontestable que la présence de M. Guizot les excite<lb/>davantage chaque jour. L'affaire du droit de visite pourra<lb/>s’envenimer de telle sorte qu’elle devienne insoluble,<lb/>Croyez-vous que s’il y avait au ministère des hommes<lb/>qui n’eussent pas signé le traité de 1841, qui fussent en<lb/>communauté d'opinion avec la Chambre, qui n'inspirassent<lb/>pas de défiance sur la question du droit de visite; croyez-<lb/>vous que le pays fût aussi animé, la Chambre aussi em-<lb/>pressée de manifester sa volonté par un mandat légis-<lb/>latif? Non, certes, et on rencontrerait moins de difficultés</p>
+        <p><lb/>C'est qu’en effet le Constitutionnel et les amis<lb/>du Constitutionnel se moquent bien du droit de vi¬<lb/>site, au fond de leur ame, et du bruit qu’on en fait.<lb/>Ils n’y voient qu’un prétexte pour porter un bon coup<lb/>à M. Guizot; ils voudraient profiter de l’erreur géné-<lb/>rale pour renverser le ministère, et ils n'oublient pas,</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>projet d'Adresse suivant, en réponse au discours de la</p>
+        <p rend="labelled"><lb/>révèle. La France entière a partagé le deuil de votre au-<lb/>guste maison; votre douleur est la sienne; son affection est<lb/>ronre bien; puissiez-vous y trouver quelque consbranon</p>
+        <pb facs="0002.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>7<lb/>'il en est ici-bas pour le cœeur d'un père. En reprenant, à<lb/>recevons avec reconnaissance et respect les remercimens<lb/>qu’elle daigne nous adresser. Le Roi peut compter sur<lb/>nous; Dieu veillera sur lui ; il lui donnera la force et le</ab>
+        <p rend="labelled"><lb/>rité de notre patrie. La monarchie s’est affermie sous le<lb/>coup qui l'a frappée; le principe tutélaire de l'hérédité<lb/>règle et domine toutes les chances de l'avenir ; la confiance<lb/>est dans les cœurs. L’élevation du revenu public suit les<lb/>progrès de la richesse nationale. Grace à la vigilance de<lb/>l'administration, l’ascendant qu’obtient désormais l'auto-<lb/>rité des lois dispense d'invoquer souvent leur sévérité. C'est<lb/>votre ouvrage, Sire; il nous a été donné d'y concourir,</p>
+        <p rend="labelled"><lb/>entretient avec les puissances étrangères. De concert avec<lb/>les alliés, elle veille au repos de l'Orient. Les chrétiens de<lb/>Sy rie avaient droit à sa sollicitude; ils n'ont jamais réclamé<lb/>en vain la protection de la France. Nous sommes heureux<lb/>d'apprendre ce qui a été fait pour leur juste et sainte<lb/>cause ; ils conserveront le souvenir de ce nouveau bienfait.</p>
+        <p rend="labelled"><lb/>l'Espagne vient d'être le théâtre. Etranger à la lutte des<lb/>partis dans ce royaumes, le gouvernement français a tou-<lb/>jours respecté l'indépendance du peuple espagnol ; en ou¬<lb/>vrant au malheur un secourable asile, il a rempli les de<lb/>voirs de l'humanité. Conserver à la Reine Isabelle II nue<lb/>amitié fidèle, concilier le soin de notre dignité, de nos in-<lb/>térêts légitimes avec les égards dus à une nation amie, telle<lb/>est la politique de Votre Majesté: elle est digne de sa sa-</p>
+        <p rend="labelled"><lb/>ture, de notre industrie, de notre commerce ; vous leur<lb/>cherchez partout de nouveaux débouchés. C’est pour assu¬<lb/>rer au pavillon français un point d'appui, un port de re-<lb/>fuge dans ces parages trop peu fréquentès encore par notre<lb/>marine, que vous avez fait prendre possession des iles<lb/>Marquises. Cet établissement offre des avantages; le temps</p>
+        <p rend="labelled"><lb/>mèmes vues, ont le succès qu'elle en espère; s'il en résulte<lb/>des traités, des conventions commerciales, nous examine¬<lb/>rins attentivement l'influence que ces conventions pour¬<lb/>raient exercer sur l'emploi et la direction du travail natio-<lb/>nal. Dans les mesures qui modifieraient la législation sous<lb/>laquelle notre industrie a jusqu’ici prospéré, nous recom-<lb/>mandons à la prudence de votre gouvernement le respect</p>
+        <p rend="labelled"><lb/>gérie, à la valeur de nos soldats. Quand la domination de<lb/>la France sera complétement établie dans ce pays, la civi-<lb/>lisation s'y développera; l'ordre et la justice affermiront</p>
+        <p rend="labelled"><lb/>finances et les divers projets de loi qui lui seront commu¬<lb/>niqués. Elle voit avec regret qu’il n’a pas été possible de<lb/>rétablir l'équilibre entre les recettes et les dépenses; cet<lb/>etat de choses doit être l'objet de préoccupations sérieuses.</p>
+        <p rend="labelled"><lb/>prospère dans notre patrie. Il ne reste plus qu’à garantir,<lb/>par la sagesse et la persévérance, les biens dont nous jouis-<lb/>sons. Nous poursuivrons cette œuvre avec vous; nous vous<lb/>aiderons à l'achever: c'est un bonheur que l'avenir vous<lb/></p>
+        <p rend="labelled"><lb/>la nécessité d’ouvrir des négociations nouvelles sur les<lb/>moyens de réprimer la traite. Il va sans dire, Messieurs<lb/>que toute question de constitutionnalité quant aux traités<lb/>faits ou à faire est réservée. J'espère qu'elle sera soulevée<lb/></p>
+        <p rend="labelled"><lb/>soit par elle-mème, soit à cause de la sévérité avec laquelle</p>
+        <p><lb/>exéu</p>
+        <p><lb/>mander la brusque suspension, l’abolition immédiate de<lb/>ces traités exécutés pourtant pendant dix années sans ré-<lb/>il me semble que la modération de mon langage et les ex-<lb/>plications que j'ai données ne permettent pas de supposer<lb/>que je veuille provoquer l'emploi d'un tel moyen, d'un<lb/>moyen aussi violent. Le silence général et prolongé sur<lb/>l'inconstitutionnalité que je signale est un fait grave dont<lb/>je voudrais au moins qu'on reconnût l'inconstitutionnalité<lb/>de l'exécutipn avec la même bonne foi que je reconnais</p>
+        <p><lb/>vœu de voir s’ouvrir de nouvelles négociations pour la</p>
+        <p rend="labelled"><lb/>donc dans une situation incertainé et dangereuse pour<lb/>l'honneur et les intérêts du pays si la discussion ne faisait<lb/>Qas un pas au-delà du point où elle s’est arrêtée dans la</p>
+        <p><lb/>tention sur l'une des graves questions que fait naître l'exa-<lb/><lb/>men des traités concernant la répression des noirs, la ques-</p>
+        <p><lb/>siveeut du dain de lalou n rance, sont excu-</p>
+        <ab><milestone unit="column" n="2"/><lb/>rattache uniquement aux traités en vigueur sur le droit de tante, sinon pour l'honneur national, au moins pour l'ac-<lb/>tête des puissances secondaires, pour faire contrepoids àpays, maintenant assuré à sa race. Il a en cela suivi le con¬</ab>
+        <p><lb/>brasse sans exception tous les objets sur lesquels la cou-<lb/>ronne croit qu’il peut être utile de transiger avec les au-<lb/>tres nations. J'admets qu'on a eu le droit de stipuler mê-<lb/>me les clauses que l'opinion réprouve le plus dans celui<lb/>de 1833, toujours, bien entendu, sous cette responsabilité<lb/>des ministres qui ne s'applique pas seulement aux actes<lb/>qui excéderaient les bornes de la prérogative, mais à ceux<lb/>qui, accomplis par son exercice légal, porteraient atteinte<lb/>-</p>
+        <p><lb/>sible de ne pas établir une distinction entre telles de leurs<lb/>dispositions, à qui force d'exécution est acquise à l'instant<lb/>où ils ont reçu la sanction royale, de celles à l’égard des-<lb/>quelles l'obéissance ne peut être commandée que par le</p>
+        <p><lb/>sans contestation jusqu'à ce jour, leur a donné une force<lb/>mais je voudrais voir constaté et bien établi ce principe<lb/>que la couronne ne peut pas rendre exécutoire dans un<lb/>traité des dispositions qui, pour prendre place dans nos</p>
+        <p rend="labelled"><lb/>fications de ces traités n'auraient aucun résultat avanta-<lb/>ne le croit généralement. Je ne dirai rien de l'injustice qu'il<lb/>y aurait à exiger d’un gouvernement allié des modifica¬<lb/>tions que depuis douze ans on n’a pas cru devoir lui de-<lb/>mander; ces modifications d'ailleurs, le ministère anglais<lb/>le voulût-il, je suis convaincu qu’il ne pourrait pas nous<lb/>les accorder ; car enfin il ne faut pas l'oublier, l'action des<lb/>chambres en Angleterre est aussi puissante sur le gouver-</p>
+        <p><lb/>notre seul intérêt. Je le dis hautement, même du point de<lb/>vue de cet intérêt, même dans le sentiment de notre égoïs-<lb/>jourd'hui des modifications aux traités de 1831 et de 1833.<lb/>En effet, quand nous avons conclu ces traités, toutes les<lb/>droit de visite. Or, quelle est la politique constante de la<lb/>France, la bonne, la sage politique? C'est de rester à la</p>
+        <p rend="labelled"><lb/>pas de briser les traités, ni de se soustraire à leur exécu-<lb/>suade qu'elles doivent reussir.u i des négociations, per-</p>
+        <p rend="labelled"><lb/>hier sur la question du droit de visite; les hommes et les<lb/>choses ont été appréciés à leur juste valeur. M. le comte<lb/>de Ségur vous a démontré sans réplique que le traité ré¬<lb/>cemment conclu entre l’Angleterre et les Etats-Unis avait<lb/>radicalement changé la situation ; car l'engagement de tou¬<lb/>tes les puissances était nécessaire pour arriver à l'abolition<lb/>de la traite, et, cet engagement n’existant pas, il est ur-<lb/>gent de pourvoir par d'autres moyens à la suppression de</p>
+        <p><lb/>disparaître jusqu’aux derniers vestiges des malencontreux<lb/>traités qui ont si profondément blessé les sentimens natio-</p>
+        <p><lb/>vité, n’est qu’un épisode de l'histoire douloureuse de notre<lb/>politique. On s’en saisit, on s’en empare pour renverser le<lb/>le défendrai. Messieurs, je regarde plus haut; c'est vers la</p>
+        <p><lb/>remplaçans qui ont été leurs prédécesseurs, pour qu'un<lb/>der à leurs successeurs? Dans mon opinion, la France ne</p>
+        <p><lb/>ressembler à une attaque contre le ministère. Encore une</p>
+        <p><lb/>pathies qui, dans d’autres temps, nous étaient favorables.</p>
+        <p><lb/>consolidé sa puissance sur des possessions que long-temps<lb/>nous lui avons disputées, qu’elle aurait pu craindre de per¬</p>
+        <p><lb/>étendant sa puissance en Orient depuis le Bosphore, où,<lb/>malgré le désintéressement qu’elle affecte, elle gouverne<lb/>toujours, si elle n’y règne pas encore, jusqu’au Danube, où<lb/>rien ne peut se faire sans son influence ouverte ou cachée.</p>
+        <p><lb/>croissement de sa prépondérance, ses démêlés dans l'Inde</p>
+        <p><lb/>ont montrée à rejeter le droit de visite que voulait leur<lb/>imposer l'Angleterre qui, dans ces derniers temps, n'aient<lb/>à se glorifier de leurs succès et de leur accroissement de</p>
+        <p><lb/>européen par le traité appelé la convention des détroits?<lb/>Nous a-t-elle replacés dans des conditions qui nous per-<lb/>mettent d'envisager l'avenir avec sécurité ? Pour ne parler<lb/>que d’un ſait récent, qui, dans ces derniers temps, a vive-<lb/>ment agité les esprits, n'est-ce pas une honte pour la Fran-<lb/>ce que cette reculade officielle à l'occasion de l'union doua¬</p>
+        <p><lb/>le sais, et très-complexe; mais n'est -il pas déplorable d'a-<lb/>voir donné au monde le spectacle d'une grande nation qui<lb/>échoue dans toutes les tentatives qu’elle fait pour se créer</p>
+        <p><lb/>finir ou l'expliquer? comment la souffrir, comment la subir<lb/>dans notre honneur, lorsque nous n'y sommes pas même<lb/>représentés ; dans nos intérèts, lorsqu'en présence des san¬<lb/>guinaires événemens de Barcelone, nous avons été sans au¬<lb/>torité pour combattre les tendances des hommes cruels</p>
+        <p><lb/>mon pays pour ne pas savoir que, le jour où le mal sera<lb/>aussi manifeste à tous les yeux qu'il me paraît maintenant,<lb/>une réaction salutaire s'opérera dans les esprits et saura</p>
+        <p><lb/>miner les hommes, ni conclure; je me contente de livrer<lb/>l'aperçu de ces faits à vos méditations. C'est à vous, mes-</p>
+        <p rend="labelled"><lb/>litique générale, la Syrie, Constantinople, l'Espagne, les<lb/>négociations commerciales, le droit de visite, il y a là de<lb/>quoi remplir bien du temps et épuiser bien des forces. S<lb/>la chambre l'approuve, je m'occuperai en ce moment des<lb/>premières questions, et je réserverai celle du droit de vi-<lb/>site pour le moment où on l'abordera de plus près à l'oc-</p>
+        <p><lb/>nérale avec un peu plus de précision, en entrant plus avant</p>
+        <p><lb/>raison de se renfermer dans l'a Iministration intérieure du<lb/>un antre conseil. Il s'est appliqué à reprendre avec la Porte<lb/>tous ses bons et filèles rapports, à rétablir l'unité du<lb/>monde musulmân. C'est aussi la politique que nous lui<lb/>avons constamment recommandée: il la pratique aujour¬</p>
+        <p><lb/>grandes querelles de ces dernières années. Quand le cabinet<lb/>est arrivé aux affaires, la situation de la France en Syrie<lb/>était, j'en conviens, affaiblie; nous nous sommes appli-</p>
+        <p><lb/>sans prétention aifichée, la France a repris la position et<lb/>l'influence qui lui appartiennent; elle est rentrée dans<lb/>l'état de choses régulier, protégeant, d’accord avec toutes<lb/>les puissances, et plus particulièrement avec quelques<lb/>unes d'entre elles, dont les intérêts se confondent ici avec<lb/>les siens, protégeant, l'indépendance et la sûreté de l'em¬<lb/>pire ottoman et l'amélioration des populations chrétiennes<lb/>dans le sein même de l'empire ottoman. Ce résultat a été<lb/>obtenu, non pas d’une manière déſinitive, complète, il n’y<lb/>a pas de résultals semblables en politique. Mais la bonne<lb/>position est prise; nous sommes dans la bonne voie et</p>
+        <p><lb/>le gouvernement actuel de l'Espagne manqueraient d'in¬<lb/>timité; quand même nous aurions à nous plaindre de sa<lb/>conduite envers nous et de ses erreurs sur certains points<lb/>la justice qui lui est due. Je ne crois à aucun dessein, à<lb/>aucun acte, à aucune tentative en Espagne pareille à celle</p>
+        <p><lb/>bien que nos intérêts nationaux, comme notre honneur,<lb/>sont liés en Espagne au trône de la reine Isabelle Il et au</p>
+        <p><lb/>de l'Occident en Europe, de questions proprement dites<lb/>viens de le faire pour l’Egypte, la Syrie, Constantinople et<lb/>l'Espagne. Nous sommes partout ailleurs dans cette situa-<lb/>tion, qui est, je crois, la situation vraie, régulière, utile<lb/>une bonne intelligence et des relations franches avec tout</p>
+        <p><lb/>l'Europe, acceptés avec tel ou tel regret, telle ou telle<lb/>nuance de goût ou d’humeur. Peu nous importe! En<lb/>politique, on ne prétend pas à tout ce qui platt, on se con¬<lb/>tente de ce qui suffit. La sagesse éclairée de l'Europe suffit</p>
+        <pb facs="0003.xml"/>
+      </div>
+      <div type="article">
+        <p><lb/>Un ordouandu reoies trdate duu9i décem-<lb/>l'exercice 1841, un crédit extraordinaire de quarante<lb/>un mille quatre cent quatre-vingt-quinze francs qua¬<lb/>rante-deux centimes, applicable aux dépenses des<lb/>travaux urgens et imprévus exécutés au palais de la<lb/>chambre des pairs et à la prison du Luxembourg,<lb/>l'occasion du procès des auteurs de l’attentat du 13</p>
+        <p><lb/>ouvre au même ministre, sur l’année 1843, un crédit<lb/>extraordinaire de trois cent quatre-vingt mille francs<lb/>pour l’exploitation des chemins de fer de Lille et de</p>
+        <p><lb/>travaux publics et la compagnie du chemin de fer de<lb/>Paris à Rouen, pour la réalisation du prêt de quatorze</p>
+        <p rend="labelled"><lb/>cuter à Paris un ouvrage important dont personne ne<lb/>parle, parce qu’il ne s’agit pas d’un objet d’art, mais<lb/>simplement d'une chose d'utilité publique. On a établi<lb/>au pied de la terrasse des Tuileries, un magnifique<lb/>trottoir de 4 mètres de longueur environ, couvert d’as¬<lb/>phalte: il règne depuis le pavillon de Flore jusqu’à la<lb/>place Louis XV. La ville de Paris est enfin dotée d’un<lb/>promenoir d'hiver. Maintenant, si un trottoir pareil<lb/>élait formé le long de la galerie du Louvre; si l’admi¬<lb/>nistration, à l’aide de remblais peu dispendieux, fai-<lb/>sait élever le quai de l'Ecole à la hauteur du quai du<lb/>Louvre, et que le trottoir fût continué le long des<lb/><lb/>maisons de ces quais ainsi nivelés, les promeneurs<lb/>pourraient traverser tout Paris en droite ligne, à pieo<lb/>sec, pour ainsi dire, échauffés par le soleil, abrités des<lb/>vents du nord et du danger des voitures. Aucune</p>
+        <p rend="labelled"><lb/>du fleuve est très-forte. Les eaux occupent toutes les prai-<lb/>ries du Cours-la-Reine et l'extrémité de cette promenade.<lb/>Elles ont même envahi, notamment dans la partie qui tou¬<lb/>che à l'avenue de Grammont, une portion de la levée du<lb/>chemin de fer. Cependant les rails qui viennent d'être po¬<lb/>sés ne sont pas couverts, mais peu s'en faut. Cette inonda-<lb/>tion pourrait bien apporter quelque retard dans les tra¬<lb/>vaux, surtout à cause de l'action des eaux sur des terres</p>
+        <p rend="labelled"><lb/>par une inondation comme on n’en avait pas vu<lb/>depuis 1783. Dans piusieurs quartiers l’eau est mon¬<lb/>tée jusqu’au premier étage. On a sauvé les habitans<lb/>à l'aide de bateaux. Des secours ont été promptement<lb/>organisés et toute la population a rivalisé de zèle et<lb/>d’efforts en concourant au sauvetage. Le faubourg de<lb/>Barris a le plus souffert. Les dégâts sont considéra-<lb/>bles. Le maire et le curé ont fait des distributions de<lb/>pain, M. l’évèque de Perrigueux a logé dans son pa¬<lb/>lais les inondés sans asile. Un rapport spécial sera<lb/>adressé au ministre pour le sieur Raimond Pinque,</p>
+        <p rend="labelled"><lb/>sance continue, et la baisse tòtale des eaux, constatée ce ma-<lb/>tin aux Ponts-de-Cé, n'était pas moindre de 60 centi-</p>
+        <p><lb/>plus de 2 mètres dans la journée d'hier, et chacun rentre<lb/>lans son logis abandonné ; la circulation s'y est rétablie,<lb/>ainsi que dans le quartier St.-Seurin. Sur ces deux points,<lb/>des tranches ont été ouvertes pour faciliter l'écoulement des<lb/>eaux encore retenues dans beaucoup de propriétés parti¬<lb/></p>
+        <p rend="labelled"><lb/>ville; les marchés vont rehausser les approvisionnemens</p>
+        <p rend="labelled"><lb/>do- Une feuille judiciaire de Lyon dit que Marie Bou-<lb/>écrit, lors des débats de l'affaire Marcellange devant<lb/>la cour d’assises du Rhône, à M. le procureur-général<lb/>de Lyon, pour lui annoncer qu’elle était dans le dé¬<lb/>partement des Vosges, auprès de sa famille, et que si<lb/>son témoignage était nécessaire, elle viendrait attes-<lb/>ter l'innocence de Jacques Besson. Cette lettre, n’ayant<lb/>pas été affranchie, aurait été envoyée à l'administra-<lb/>adressée immédiatement au parquet de Lyon. Elle<lb/><lb/>ne serait arrivée qu’après la condamnation. Ces de¬<lb/>tails, quoique donnés par des personnes ordinairement<lb/>bien informées, n’ont cependant obtenu aucune croyan¬</p>
+        <p rend="labelled"><lb/>– Il paratt ce tain, dit la Presse, que le gouvrbe-<lb/>d'accord sur une convention postale et sur un traité</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>dire qu'ils sont tels aujourd'hui, que doit faire la france?<lb/>Adopter une politique tranquille, prendre sa place d'astre<lb/>A cette condition, à cette condition seule, la France recueil¬<lb/>lera les fruits de l'ordre social et de l'ordre politique qu'elle</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>Indesi, psd ul,ai se-<lb/>sation pénible dans la Cité. Sur soixante-dix personnes de<lb/>l'équipage, une seule s'est sauvée. Les tempêtes récentes<lb/>ont occasionné de grands sinistres : 78 vaisseaux se sont<lb/>perdus. Les Compagnies d'assurances ont fait d'énormes</p>
+        <p rend="labelled"><lb/>la forme ordinaire par laquelle la reine vicoria dé<lb/>clare que sa volonté et son bon plaisir sont que le Par¬<lb/>lement s’assemble jeudi, deuxième jour de février,<lb/>pour l'expédition de diverses affaires urgentes et im-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>M. Duin ne iserait pas prê avant jeudi 26 janvie, a ire</p>
+        <p><lb/>durera pas moins de dix ou douze séances. On annonce<lb/>déjà que la plupart des grands orateurs doivent prendre la<lb/>parole pendant les débats. M. Thiers, dans une réunion de<lb/>la gauche, a annoncé qu'il appuicrait un amendement pré-<lb/>senté par cette fraction de la chambre, lequel demanderait<lb/>l'ouverture des négociations pour le retrait des conventions<lb/>de 1831 et 1833. M. Thiers doit aller au-devant de l’ar¬<lb/>gument ad hominem que ses adversaires pourraient se<lb/>croire en droit de lui adresser, en avouant ingénument<lb/>qu'il s'est trompé avec toute la diplomatie à l'époque où il<lb/>appuyait le principe du droit de visite. La conduite de la<lb/>marine anglaise ne lui avait pas dessillé les yeux sur les<lb/>inconvéniens du droit concédé par la France à des marines</p>
+        <p rend="labelled"><lb/>puis quelque temps des démarches actives auprès de M. de<lb/>Lamartine, pour décider le député de Mâcon à faire cause<lb/>commune avec eux. Mais on ajoute qu'il a refusé en disant<lb/><lb/>qu’il tenait à discipliner une nouvelle opposition constitu¬<lb/>tionnelle indépendante des diverses nuances opposantes<lb/>qui existent en ce moment dans la chambre des députés.</p>
+        <p rend="labelled"><lb/>préparé un projet de loi pour la demande d'un nouveau<lb/>supplément de crédit pour terminer les monumens de</p>
+        <p rend="labelled"><lb/>Le prot présiré a la cnambre des Députés aus<lb/>prêt, et il sera présenté à la chambre des Députés aussit</p>
+        <p rend="labelled"><lb/>les premiers jours de ce mois, retenaient tant de navir es<lb/>dans notre port que l'encombrement y était devenu insup-<lb/>portable. Hier enfin, le retour du beau temps a permis la<lb/>sortie, mais 200 navires avaient pris leurs expéditions, il a<lb/>fallu délivrer des numéros pour les faire appareiller à tour<lb/>de rôle. Dans la journée d'hier, 74 sont partis; en suppo¬<lb/>sant que l'état du vent et de la mer permette aux autres de<lb/>sortir sans interruption, il faudra encore deux jours au moins</p>
+        <p rend="labelled"><lb/>a reçu des nouvelles graves de Barcelone par la voie lélé-<lb/>graplique. Les Barcelonais n'ayant pas pu compléter la<lb/>contribution à laquelle ils avaient été impesés, le général<lb/>Seonne aurait adopté quelques mesures de rigueur, et l'on</p>
+        <p><lb/>le renversement du cabinet conservateur. Sir Robert Peel<lb/>au nom du ministère et lord Jonh Russel, comme chef de<lb/>l'opposition, ont envoyé chacun de leur côté une circulaire<lb/>aux députés de leur parti, pour les engager à être exacts<lb/>au parlement dès l'ouverture de la session, attendu que des<lb/>questions très-importantes seraient soulevées. On prétend<lb/>que l’intention du gouvernement est de présenter un amen¬<lb/>dement à l'adresse, en réponse au discours du trône. On<lb/>sait que d'ordinaire le projet d'adresse est présenté par un<lb/>député ministériel dans la chambre du parlement, et qu'il<lb/>est adopté sans opposition, et presque sans discussion. Mais<lb/>cette année on veut suivre l'exemple des chambres françai<lb/>ses, et se servir de cette occasion pour attaquer la politi¬<lb/>que générale du ministère. On reprochera vivement à lord<lb/>Aberdéen la lettre qu'il a écrite à l'amirauté pour recom-<lb/>mander la plus grende circonspection dans l'exécution des</p>
+        <p><lb/>On craint que Sir Robert Peel ne soit forcé de suivre une<lb/>politique menaçante envers la France, si les chambres fran¬<lb/>çaises demandent la révision ou l'annulation des traités de<lb/>1831 et 1833 pour ne pas augmenter les difficultés de la</p>
+        <p rend="labelled"><lb/>par le ministère est adopté, nous pourrons bien nous en<lb/>ressentir d’une manière fâcheuse. En effet, le sucre des<lb/>colonies ne suffira plus à la consommation de la France, e<lb/>par conséquent elle ouvrira forcément ses ports aux sucres<lb/>du Brésil. Il faudra par conséquent que nous fassions des<lb/>conditions plus avautageuses au Brésil. Les colonies, en<lb/>tout cas, auraient tort de s’applaudir de cette mesure, car<lb/>le sucre étranger entrerait forcément en concourrence avec<lb/>le sucre colonial. Toutefois nous espérons dans l'intérêt</p>
+        <p rend="labelled"><lb/>sonne de M. Drummond, secrétaire intime de Sir Robert<lb/>croit ue l'assassin l'a pis pour ir Robert Peele.</p>
+      </div>
+      <div type="article">
+        <p><lb/>sure dès à présent les jeunes gens de la classe de 1842.</p>
+        <p><lb/>66, ou chez M. CHABEUF, notaire, rue du Palais, et,<lb/>dans les divers cantons, chez MM. les délégués char-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>SOn GENTA-OLIVIER et C^e, de Troyes, assure</p>
+        <p><lb/>n^o 34, à M. Frèrejean, mandataire, ou chez M. Gue¬<lb/>née, notaire, rue Piron; et, dans les divers cantons,<lb/><lb/>chez MM. les délégués, chargés de recevoir les sous-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>ROXDEr, notaire à Dijon, rue Chaboe</p>
+        <p><lb/>riElle se cormaosu dunugranre due ine, evià ,laie-<lb/>née et d’un cabinet à la suite, d'un beau grenier ré¬<lb/>gnant sur le tout ; d’un hangar, d’un beau colombier<lb/>peuplé de pigeons, d’une vaste grange et d’un ger¬<lb/>bier, de quatre écuries, de toits à porcs et de geliniè-<lb/>res, d’un bon puits, d’une cave et d’un grenier dessus,<lb/>d'une vaste cour, d’un clos attenant aux bâtimens,<lb/>contenant environ un hectare, entouré de bons murs<lb/>de 2 mètres 50 centimètres de hauteur, couverts en<lb/>laves; d’un jardin potager, également bien clos : le</p>
+        <p><lb/>cette maison,<lb/>bus autres<lb/></p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>A VENDRE SÉPARÉMENT ET AUX ENCHERES,</head>
+        <p><lb/>rue Vannerie, 64, le dimanche 29 au lieu du 30, qui<lb/>a été indiqué par erreur dans les insertions précéden¬</p>
+      </div>
+      <div type="article">
+        <p><lb/>Le dimanche 5 févri,r 1843, heure de mi, u do-</p>
+        <p><lb/>un cios vis-à-vis la maison et de l’autre côté de la rue,<lb/>appelé le Jardin-Carré; un grand verger, près le pres¬<lb/>bytère, clos de murs et de haies vives, de la conte-<lb/>nance de 42 ares 85 centiares; un clos appelé le<lb/>Champ-de-la-Fontaine, entouré de haies vives, con¬<lb/>tenant 42 ares 85 centiares; le clos Saint-Jean, dans<lb/>lequel se trouvent plusieurs noyers, entouré de haies<lb/>vives, et contenant 85 ares 70 centiares; une pièce de<lb/>terre appelée Noyer-Pendu, près la route, de lalcon¬<lb/>tenance de 51 ares 42 centiares; au même lieu, 85 ares<lb/>70 centiares, aussi en terre; au même lieu, une autre<lb/>pièce de terre contenant 17 ares 14 centiares; aux<lb/>Longines, 1 hectare 2 ares 85 centiares en terre et VI.</p>
+        <p><lb/><lb/>8 sera accordé de grandes facilités pour les paic-</p>
+      </div>
+      <div type="article">
+        <head><lb/>CHABOT-CHARS</head>
+        <head><lb/>JARDIN POTAGER ET FRUITIER,</head>
+        <p rend="styled"><lb/>Clos de murs de trois côtés, de la contenance de 80 ares</p>
+        <p rend="labelled"><lb/>e<lb/>tous rensignemens, audit notire Jotir tp<lb/></p>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>Journal de la Côte-d'Or.</fw>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>Etude de M. PETITJEAN. notaire à Dijon.</ab>
+        <p><lb/>Une MAISON, située à Viévigne, sur la route de<lb/>Fontaine-Française à Dijon, bien située pour tenir<lb/>auberge ou maison de commerce, composée de trois<lb/>chambres au rez-de-chaussée, chambres au premier,<lb/>chambre au second étage, grenier, cave, grange,</p>
+        <p rend="labelled"><lb/>abite; et, pour tous rensei nemens, au notai</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <ab type="head"><lb/>TRAIN d'AGRICULTURE</ab>
+        <ab type="head"><lb/>Le dimanche 29 janvier 1843, heure de midi, au</ab>
+        <p><lb/>Trembloy, canton de Sombernon, en la maison fer¬<lb/>miére dudit lieu, par-devant M. MAIRET, notaire à<lb/>Sombernon. Les objets à vendre consistent:</p>
+        <p rend="labelled"><lb/>10o 2 grandes voitures, tombereaux, charrues, her¬<lb/></p>
+        <p><lb/>11^o Des harnais de toute espèce et beaucoup d'au-</p>
+        <p><lb/>⟦l sera accordé de grandes facilités pour les paie-</p>
+      </div>
+      <div type="article">
+        <head><lb/>Etude de M. BRULBT, notaire A Arc-sur-</head>
+        <p><lb/>Soit pour conserver, soit pour démolir, aux enchè-<lb/>res ou à l’amiable, le dimanche 15 février 1843, heure<lb/>de deux de l'après-midi, à Arc-sur-Tille, au domicile<lb/>du sieur Jerrey, cafetier, et par le ministère de M.</p>
+        <p><lb/>La maison d’habitation, d’une cuisine, une chambre<lb/>à four, évier, quatre autres chambres, grenier sur le<lb/>tout, bâtie en pierres et bois ; et celui d’exploitation<lb/><lb/>d’une grange, gerbier et quatre vastes écuries: le tout<lb/>avec cour, jardin et clos, d’une contenance superfi-</p>
+        <p><lb/>S’adresser, pour renseignemens, soit au sieur Gar-<lb/>nier, qui en est propriétaire, soit au notaire, avec<lb/>lesquels on pourra traiter de gré à gré avant l'adju¬</p>
+        <p><lb/>Il sera accordé quatre ans de terme pour le paie-</p>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>R DE LA PREYECTURE, N° 22</p>
+        <p><lb/>Situé sur le territoire de Belleneuve, canton de Mi-<lb/>rebeau, à vendre, en fonds et superficie, le samedi 28<lb/>janvier 1843, heure de midi, à Dijon, en l’étude et par<lb/>le ministère de M. ROUGET, notaire, rue de la Préfec-<lb/></p>
+        <p><lb/>Ce bois, appelé Tertre-Savelotte et Tribard, con-<lb/>tient 30 hectares 13 ares; il joint d’un côté les bois<lb/>situés sur le territoire de Binges, d’un autre côté les<lb/>bois de M: de Sivry; aboutit d’un bout sur les terres<lb/><lb/>d’Arc-sur-Tille, et d'un autre bout sur des prés.</p>
+        <p><lb/>Il y aura des facilités pour le paiement du prix.</p>
+        <p><lb/>S’adresser, pour visiter ce bois, au sieur Coquet<lb/>garde, à Belleneuve, et, pour tous renseignemens, soit<lb/>à M. Noirot, rue Proudhon, soit à M. ROUGET, no¬</p>
+        <p rend="heading"><lb/>Situé sur le territoire de Corcelles-lès-Citeaux, canton</p>
+        <p rend="styled"><lb/>Le samedi 4 février 1843, heure de midi, à Dijon, en<lb/>l'étude et par le ministère de M. ROUGET, notaire,</p>
+        <p><lb/>Ce domaine se compose: 1° pu<lb/>3 ares 64 centiares de terres labow</p>
+        <p rend="structured"><lb/>de près, ci...................... 6 60 18</p>
+        <p><lb/>L'entrée en jouissance aura lieu le 3es autres tet<lb/><lb/>les prés et les terres en sombre, et pour les autres ter¬</p>
+        <p><lb/>S’adresser, pour tous renseignemens, soit à M. Ro¬<lb/>caut, rue de l'Ecole-de-Droit, n^o 37, soit audit bouteille jusqu'à 4 fr. et au-dessus</p>
+        <note>
+          <p rend="styled"><milestone unit="column" n="3"/><lb/>DIJON. – IMPRIMERIE DE SIMONNOT-CARION, PLACE DES DUCS-DE-BOURGOGNE.</p>
+        </note>
+      </div>
+      <div type="article">
+        <p><lb/>Plusieurs SOMMEs pluu taux de p. 100, et nême<lb/>placer sur hypothèques, au taux de 5 p. 100, ta</p>
+      </div>
+      <div type="article">
+        <head><lb/>Office de M. BÉLIARD, commissaire-priseur,</head>
+        <p><lb/>Continuation de la vente de LIVRES, en la salle de<lb/>vente, rue des Godrans, no 88, à 6 heures du soir.</p>
+        <p><lb/>La vacation de mercredi 25 janvier sera principale-<lb/>ment destinée à la vente des classiques grecs et latins<lb/><lb/>et aussi anglais, allemands, espagnols et italiens, tous<lb/>avec traduction interlinéaire et aussi en regard.</p>
+        <p><lb/>Deux collections de concours généraux de Paris.<lb/>Cette vacation intéresse particulièrement MM. les pro-</p>
+      </div>
+      <div type="article">
+        <head><lb/>Priseur, à</head>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>Marchandises et Mobilier,</ab>
+        <p rend="styled"><lb/>Lundi 30 janvier 1843, et jours suivans, a 11 heures<lb/>après le décès de dame veuve Bernet, et en son domi-<lb/>cile, rue Piro, 24, au 2éae, par le ministere de</p>
+        <p><lb/>Les marchandises se composent de plusieurs lampes<lb/>et chandeliers d’église, croix d’autel et de procession,<lb/>encensoirs, bénitiers argentés, et autres; flambeaux<lb/>argentés, chèvres de foudre, robinets de toute gros-<lb/>seur, une paire de grandes balances en cuivre, avec<lb/>colonne, boules d’escalier, fers à gauffres, et plusieurs<lb/>modèles en cuivre; zinc en plaques, sonnailles, une<lb/>grande quantité de vieux cuivre; et une belle pompe</p>
+        <p><lb/>bires<lb/>trées, deux lits garnis, armoire en noyer, commodes,<lb/>secrétaires, chaises, tables, pétrissoire, poêle en<lb/>fonte, ustensiles de ménage et de cuisine; pendule en<lb/>cuivre doré, rideaux de croisées et autres, linge de<lb/>lit et de table; ferraille et vieilles boiseries.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Ofnce de M. DEVILLEBICHOT. Commissaire-</head>
+        <p><lb/>VINS de dessert et LIOUEURS, à vendre aux en-<lb/>chéres, au café des Mille-Colonnes, place d’Armes,<lb/>Dijon, jeudi prochain 26 janvier, heure de onze du<lb/>matin, par le ministère de M. DEVILLEBICHOT, commis-</p>
+        <p><lb/>Consistant en vins de Madère, Malaga, Alicante,<lb/>Frontignan et Bourgogne mousseux en bouteilles;<lb/>rhum, anisette, absinthe, eau de noyaux, etc., en<lb/>litres; quelques quinquets, philtres et autres objets.<lb/></p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>A céder de suite une AMIDONNERIE, située à Di-<lb/>jon, faubourg St.-Nicolas. Cette fabrique est la seule<lb/>qui existe dans le département de la Côte-d’Or. S’a-<lb/>dresser à la fabrique tous les jours, de 11 à 4 heures.</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="4"/><lb/>Aremettre de suite, un des bons FONDSDE CAFÉ</ab>
+        <p><lb/>de Dijon, connu depuis douze ans par sa clientelle,<lb/>avec un long bail, au prix de 480 fr. par an, avec de<lb/>grandes faclités pour les paiemens. S'adresser à M.</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>M. DOUARD-SURRELLE, agent d'affaires, patenté<lb/>de première classe, domicilié à Dijon, rue Vannerie,<lb/>38, assure, comme par le passé, les jeunes gens con-<lb/>tre les chances du tirage au sort. Le prix de l'assu¬<lb/>rance ne se paie qu'après l'entière libération de l'as-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Brevet d'inventton. décerné, en 1830, a</head>
+        <p><lb/>ENTREPRISE pour la mise en couleur des par-<lb/>quets et carrelages, au prix de 65 c. le mètre; l’inven-<lb/>teur se charge également par abonnement de l’entre-</p>
+        <p><lb/>L'incontestable supériorité de ce procédé sur ceux<lb/>connus jusqu’à ce jour, et la modicité des prix, ont<lb/>obtenu le plus grand succès et dispensent de tout</p>
+        <p><lb/>S'adresser à M. Père et Mère, rue Saint-Nicolas,</p>
+        <p><lb/>faire cet ouvrager</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>IFFRED, propriétaire et négociant<lb/>rue du Petit-Potet, prévient les amateurs de bon vin<lb/>qu'il a le dépôt des vins de Champagne des marquis<lb/>de Massiac et de Loisson de Pierry, depuis 2 fr. la</p>
+        <p><lb/>Il continue, comme par le passé, à tenir tous les<milestone unit="column" n="5"/><lb/>tous evins etranger<lb/></p>
+      </div>
+      <div type="article">
+        <p><lb/>tard pr<lb/>tard, par<lb/>l’injection de Thézet, pharmacien, à Avignon.</p>
+        <p><lb/>Dépôt à Dijon, chez DARANTIÈHE, pharmacien.</p>
+        <p rend="labelled"><lb/>On a perdu, dimanche soir, entre 5 et 7 heures une</p>
+        <p><lb/>Bonne récompense si on la rapporte rue Porte-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Étude de M. LAVOISOT, avoué à DIjon.</head>
+        <p><lb/>Par acte recu MAIRET, notaire à Sombernon, le 23<lb/>juillet 1842, enregistré, le sieur Christophe Chaussier,<lb/>propriétaire, domicilié ci-devant à Charmois, actuel-<lb/>lement à Fromenteau, commune de Saint-Martin-du¬<lb/>Mont, et Jeanne Mortureux, sa femme, ont vendu au<lb/>sieur Pierre Guyot, propriétaire, domicilié à Somber¬<lb/>non, les immeubles ci-après, moyennant la somme de<lb/></p>
+        <p><lb/>Deux chapts en nature de maison d'habitation, écu¬<lb/>rie, toit-à-porc, jardin derrière, joignant d’un pignon<lb/>Pierre Chaignet, et d’autre pignon Jean Fournier</p>
+        <p><lb/>Une grge oenigo vroa,</p>
+        <p><lb/> Montureux-Belin, d'autre ea BaptMignar</p>
+        <p><lb/>Art. 2. En l'Aignelot, 27 ares 62 centiares, d'un<lb/>long Bernard Delorme, d’autre long Denis Massenot.</p>
+        <p><lb/>Art. 3. Au-dessus du Bois-des-Sens, 7 ares 61 cen-<lb/>tiares, d’un long la veuve Chambrette, d’autre long</p>
+        <p rend="labelled"><lb/>Art. 4. Au bas de Trepey, 17tureu<lb/>long la veuve Jacques Montureu</p>
+        <p rend="labelled"><lb/>Art. 5. En la Croisotte, 5 ares 71 centiares, d’un<lb/>long la veuve Montureux, d’autre long une mureer</p>
+        <p><lb/>Art. 6. En Chaupin, 68 ares 57 centiares, d'un long<lb/>M. Guichard, et d’autre long Mme. Rameau.</p>
+        <p><lb/>Par exploit du 18 novembre 1842, le sieur Laurent<lb/>Raymond, propriétaire, domicilié à la rente du Poisot,<lb/>commune de Pasques, a surenchéri d’un dixième le<lb/>prix porté au susdit contrat de vente, ce qui porte ce</p>
+        <p><lb/>Cette surenchère a été admise par jugement du tri-<lb/>bunal de première instance de Dijon, en date du 8 dé-<lb/>cembre 1842, lequel a ordonné que les immeubles ci¬<lb/>dessus seraient vendus aux enchères publiques.</p>
+        <p><lb/>En exécution de ce jugement, l'adjudication de<lb/>immeubles aura lieu à l'audience des criées dudit t<lb/><lb/>bunal, le jeudi 16 février 1842, heure de midi.</p>
+        <p><lb/>S'adresser, pour les conditions, 1° au greffe dudit<lb/>tribunal; 2^e en l'étude de M. LAvOIsOT, avoué du<lb/>poursuivant, rue de l'Ecole-de-Droit, no 21 ; 3° en celle<lb/>de M. BOISSEAUX, avoué du sieur Guiot, acquéreur,<lb/>rue Chabot-Charni; 4e en celle de M. FRANCON, avoué</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>MARCHÉ DE DIJON.— DU 21 JANVIER 1843.</head>
+        <figure type="table"/>
+        <figure type="table"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p><lb/>Vaissances. — Du 20 au 23 janvier, 5 garçons et 7<lb/></p>
+        <p rend="labelled"><lb/>Décès. – Du 19, Jeanne Ragot, manouvrier, céli¬<lb/>bataire, 55 ans. Du 20, Antoine Jarrot, vigneron, 40<lb/>ans. Du 21, Clande Fradin, soldat au 74e de ligne, 21<lb/>ans. Du 22, Catherine Sardain, veuve Thevenin, 59<lb/><lb/>ans. Du 23, Anne Carré, ouvrière, célibataire,<lb/>ans. – Marguerite Costet, ancienne domestique, cé-</p>
+        <ab>
+          <stamp><lb/>O, </stamp>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

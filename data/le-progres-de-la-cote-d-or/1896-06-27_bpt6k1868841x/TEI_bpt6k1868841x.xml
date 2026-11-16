@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Progrès de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k1868841x</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Progrès de la Côte-d'Or : journal politique... ["puis" journal républicain quotidien]</title>
+          <publisher>[s.n.] (Dijon)</publisher>
+          <date when="1896-06-27">1896</date>
+          <idno type="ARK">bpt6k1868841x</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k1868841x</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0004.xml"/>
+          <ab><milestone unit="column" n="1"/><lb/>Artictes d'Eeuries et Couvertures csontchoue<lb/>EUT<lb/>AVENDRE AUX ENCHÉRES<lb/> <lb/>Train de Culture<lb/><lb/><lb/>AED<lb/>A VENDRE<lb/><lb/>A VENDRE<lb/>A REHETIRE DE SUITE<lb/><lb/>rérieures de toutes marques</ab>
+          <ab><milestone unit="column" n="4"/><lb/>SONNERIES ÉLECTRIQUES<lb/>TELÉPHONES ET PORTE-VOIX<lb/>Lumière électrique<lb/>VICIOR GIBASSIER<lb/>ELECTRICIEN<lb/>11. Rue du Tivoli — DIJON - Rue du Tivol, 11<lb/>Ex Ouerier de la maison DAGUIER</ab>
+        </div>
+        <div type="article">
+          <head><lb/>MOBILIER</head>
+          <p><lb/>A vendre aut encheres</p>
+          <ab type="head"><lb/>DESiOnATion sommaIRE:</ab>
+          <p><lb/>An compissi. 500 poor frais.</p>
+          <p><lb/> MDas</p>
+          <ab><lb/>Pour cause de reconstruction<lb/>LeS GRANdS BAZARS<lb/>DE LA RUE PIRON<lb/>Seront transférés provisoirement<lb/>EN<lb/>FACE</ab>
+          <p rend="heading"><lb/>MAISON</p>
+          <p rend="heading"><lb/>et Terres labsarables</p>
+          <p rend="heading"><lb/> BATAUT.</p>
+          <p rend="heading"><lb/>A VENDRE</p>
+          <p rend="heading"><lb/>A VENDRE</p>
+          <p rend="heading"><lb/>A VENDRE</p>
+          <ab><milestone unit="column" n="2"/><lb/>Les bICYCLETTeS<lb/>PEUGEOT<lb/>doivent à leur fabrication irréprochable leur<lb/>vogue toujours croissante.<lb/>Les fils de PEUGEOT Frères<lb/>Usines à Valentigney, Terre-Blanche<lb/>Succursale de Dijon<lb/>SIMONOT &amp; ALIZON, Directeurs, 70-72, rue du Bourg<lb/>Atolier de Réparations<lb/>On demande des Apprentis de la ville au magasin de quincaillorio</ab>
+          <figure/>
+          <p><lb/>Les propriétaires des Grands Bazars de la rue Piron préviennent leur<lb/>mbreuse clientéle que de grands magasins ont éte amenages EN FACE de<lb/>Rcurs anciens magasins. pour la vente.</p>
+          <p><lb/>1 de toutes les marevandises en msgasle<lb/>men: de toutes les marctandises en nosgaslt</p>
+          <figure type="table"/>
+          <p><lb/>Liberie - Egelies - Praternite</p>
+          <p><lb/>BREDIS EGARÉE</p>
+          <p rend="heading"><lb/>ENQUÊTE</p>
+          <p rend="heading"><lb/>MaGASiN DE LITERIE ET DE MEUBLES</p>
+          <ab><lb/>H. BOUCHER Ainé, fabricant<lb/>O<lb/>Ateiter de fabrication et de reparafion: 11, rme Damptino</ab>
+          <p><lb/> e ve u qu pa la qnt</p>
+          <p><lb/>sé em cllent qui peut faise</p>
+          <ab><lb/>PaIX OES DIVEHSES QUALATAS<lb/>qualite poor graad Mt<lb/><lb/></ab>
+        </div>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>Nouveau!! Nouveau!!</p>
+        <p rend="heading"><lb/>Au pix ritei de 6 fr. 25</p>
+        <ab><lb/>et aux Fllets<lb/>JAMES-GROS<lb/>A DIJON</ab>
+        <p><lb/>laises, mouches trasdaties, cullleres amét¬<lb/></p>
+        <ab><lb/>E. ARBINET</ab>
+        <ab><lb/>28-30, Piaoo Daroy, et 37, ruo Audra<lb/>סונON<lb/>Récoito de la maicon Auguste André<lb/>bes (Algérie). 35 et 40 fr. Thec<lb/>Aramons, purs, 1" cheix, 30 fr.<lb/>viss Miases, 1m, 50 et 53 fr. —<lb/>Ecntilles sur d́ennie<lb/>Livraisone par quartauts, feuil¬<lb/>NATURElS<lb/>lettes, pl̀crs, etc.<lb/>MEDAILLE D'OR Erpesids iss. PARIS 1895</ab>
+        <figure/>
+        <p rend="heading"><lb/>Marque recommandée</p>
+        <ab><lb/>caSSiS RoyER-hutIN<lb/>APÉRITIF ROYER-hUTIN<lb/>ABSINTHE ROYER-HUTIN<lb/>PruNELLE ROYER-HUtin<lb/>guignolet ROyer-Hutin</ab>
+      </div>
+      <div type="article">
+        <head><lb/>A LOUER</head>
+      </div>
+      <div type="article">
+        <ab><lb/>Bandages -- Orthopédie -- Instruments de Chirurgie<lb/>DIJON 2, piace des Dacs de-Bere DIJON<lb/>E. VERNIER<lb/>me de ,<lb/>FOUBRISSEUR DES HOPITAUX CIVILS ET MILITAIRE<lb/>AEDAILLE D'oR<lb/>Les Appěcatiers peer Daues tott fites par Mu. Vertier.</ab>
+        <ab type="head"><lb/>Mile MICHEL</ab>
+        <figure/>
+        <p><lb/>A<lb/></p>
+        <p rend="styled"><lb/>Tour les e cont garane la mei</p>
+        <ab><milestone unit="column" n="3"/><lb/>FABRIQUE DE HARNAIS me NUTEN<lb/>Grand choix de Harnais neufs et d'ocasion<lb/>ARTICLES D'ECURIE, SELLES<lb/>Réparations. Garnitures de Voltures<lb/>PRIX MODERES<lb/>On demande un APPRENTI</ab>
+        <ab><lb/>TOITURES-TERRASSES<lb/>en CINENT VOLCANIQUE (tJm G. S. Reer)<lb/>concessionnaire pour le départ de la cote dor<lb/>VERREAUX FILS<lb/>DIJON, 12, rue Charrue, DIJON<lb/>a murs, chapis de po et rodtes de caves. te<lb/>s murs, chapis de pos et vouios de cat¬<lb/>murs.</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>Par arrété de M. le Maire, il est interdit de marcher nu-pieds.<lb/>AVIS Pour éviter les rigueurs de ladministration, aller vons chausser<lb/>A LA GRANDE<lb/>CORDONNERIE PIRON<lb/>Plus de 30,000 paires de Chaussures en 750 genres à choisir. — Assortiment sans pareil.<lb/>5<lb/>PANTOUFLES de treue, depei 1.05<lb/>SPECIALITE DE CHAISSURES POUR CYCLISTES<lb/>CHAUSSURES DE TRAVAIL ET DE FANTAISIE</ab>
+        <ab type="head"><lb/>25, rue Piron, 25, CHEU L'ANTOENE</ab>
+        <figure type="table"/>
+        <p><lb/>ps, X.0s, a.0s. n.00, 10.50, 1s.60 a 1c</p>
+        <p rend="labelled"><lb/>., , </p>
+        <ab><lb/>Affaire exceptionnelle: Solde toutes 10 coomes, 4 6.53 et 10<lb/>couverts de toutes formoa consues, à 0.915 et 1113<lb/>CHEU L'ANTOÈNE, 25, rue PIron</ab>
+        <p rend="styled"><lb/>On demande un jeune homme pour apprendre le commerce.</p>
+        <ab><lb/>Au progres du cycL<lb/>J. RENAULT, 10-12, rue Saint-Pierre, DIJON<lb/>LE PLus GrAND cHOIX De La RÉGION<lb/>PLAQUES-ADRESSES GRAVEES, 1.50; PAR POSTE, FRANCO, 1.55<lb/>Blcyclettes : Arab cyele C, Coven-<lb/>Bicyclettes : Societe la Française,<lb/>Quadrant, Whitworth, Starley frères. try machinist C, Rudge, Cleveland.<lb/>DIAMANT<lb/>Voir les Pedaliers<lb/>de la Société<lb/>les grosses Billes<lb/>DIAMANT<lb/>les Pignons détschables<lb/>LA FRANÇAISE<lb/>DIAMANT<lb/>— les Rayons renforces aux deux bouts DIAMAANT<lb/>DIAMANT<lb/>— le Pont très rigide<lb/>Bicyclette ALUMINIUM<lb/>7 kil. pour Course; 9 kil. pour Route et cacalier de 80 lil.; 10 kil. pour Route et cacaller de 100 ill.<lb/>BAUX POUR HABILLEMENT<lb/>Baee</ab>
+        <list>
+          <item>— les Moyeux bain d'huile</item>
+        </list>
+        <ab><lb/>L'on trouvera la coiture à mns, a doux, é erois et a quntre roste</ab>
+        <ab><lb/>Construction de Voitures et Harnais en tous Geares<lb/>SRANDE SERISE DE VOITURES MEUVES ET D'OCCAStON</ab>
+        <p rend="heading"><lb/>AGOT</p>
+        <p><lb/>s es vetares depois 2 fr.AS fe par par. et depois tof.<lb/>es sost faites a bret etal. Peix moderés.</p>
+        <p rend="heading"><lb/>MAISON D'ACCOUCHEMENT</p>
+        <p><lb/>cheuse de 1. classe,</p>
+        <p><lb/> <lb/>ealem tn la jous, de mis a</p>
+        <p rend="heading"><lb/>INSTRUMENTS DE PESAGE</p>
+        <ab><lb/>EDNOn WACHOLTZ<lb/>incien premier ousvier de la Maieea DEEAYAUT<lb/>PABRICITION ET RÉPARATIONS DE TOES ISIRORENTS<lb/>Pouts à barcules, Balances, Basenles, Pois<lb/>Réparations soignées. - Entretlen à l'année<lb/>RATELIER ET MAGASIN:<lb/>Rue Jules Morcier, n° 8 (ancienne rue des Euoux)<lb/>ON DEMANDE un APPRENTI<fw type="digitisation-artefact"><lb/>o/B̀ F</fw></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

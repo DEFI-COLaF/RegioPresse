@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Vihado</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81336725</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Vihado : journau marsihes</title>
+          <publisher>Lei Troubaire de Marsiho (Marsiho)</publisher>
+          <date when="1899-01-01">1899</date>
+          <idno type="ARK">bpt6k81336725</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81336725</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>SEGOUNDO ANADO. — N. 20</fw>
+        <fw type="runningTitle"><lb/>Dous Sóu lou Numero</fw>
+        <dateline><lb/>1 de Janvié 1899.</dateline>
+        <ab><milestone unit="column" n="2"/><lb/>Buréu e Boueito</ab>
+        <p rend="heading"><lb/>JOUrnaU marSir</p>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>Pareissènt lou 1e e lou 15 de cade mes</p>
+        <lg>
+          <l><lb/>48, Carriero Santo, 48</l>
+          <l><lb/>Anounço</l>
+        </lg>
+        <figure type="table"/>
+        <ab><lb/>AMENISTRACIEN-REDACIEN :<lb/>Lei Troubaire de Marsiho</ab>
+        <p rend="styled"><milestone unit="column" n="3"/><lb/>Carriero Fort-Nouesto-Damo, 1a</p>
+        <lg>
+          <l><lb/>Alouna. Liejeire, Abounado,</l>
+          <l><lb/>La Redacien de "La Vihado"</l>
+          <l><lb/>Vous souvèto in bouono annado!</l>
+        </lg>
+        <ab><lb/>Longomai!</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Nouesteis Estreno</head>
+        <p><lb/>Au pour de l'an, lois estreno fan toujour<lb/>plest. Es për aco que "LA VIHADO"<lb/>oufrisse aquestei d'uquit que coueston<lb/></p>
+        <p rend="labelled"><lb/>Ei rimejante paure: uno curretado de<lb/>rimo richo.</p>
+        <p rend="labelled"><lb/>– Ei founcionnari a panachou: un<lb/>toumbarèu de croio d'Alau.</p>
+        <p rend="labelled"><lb/>— Au Counsèu municipau: De pounchié<lb/>pèr sousteni soun buget.</p>
+        <p rend="labelled"><lb/>— Ei judièu : uno banasto d'auriho de<lb/>pouare.</p>
+        <p rend="labelled"><lb/>-A la Coumedio prouvençalo: un<lb/>signau de vido...</p>
+        <p rend="labelled"><lb/>Au Paire Savié: uno estudi su lou<lb/>dialeite marsihès.</p>
+        <p rend="labelled"><lb/> A l'escolo de la mar: un boueiabaisso<lb/>de sardino dòu Rose.</p>
+        <p rend="labelled"><lb/>– Ei felibre-troubaire : un cargamen<lb/>d'estrambord... pèr founda'no soucieta.</p>
+        <p rend="labelled"><lb/>— Ei vihaire de mouart: uno poumpo...<lb/>funèbro.</p>
+        <p rend="labelled"><lb/>-A la Chino: un chin que la garde<lb/>d'aqueli que... Japoun.</p>
+        <p rend="labelled"><lb/>— Ei devinaire de tèmp: de gargamèlo<lb/>de pouare pèr portovisto.</p>
+        <p rend="labelled"><lb/>– Eis amatour de decourncien: toûti lei<lb/>reiban de l'arc-de-seles</p>
+        <p rend="labelled"><lb/>-Eis estraiobruso de la politico: uno<lb/>rous!o de cou de coufin, etc. etc...</p>
+        <p rend="labelled"><lb/>— A l'Academio de Marsiho: Un grand<lb/>ome.</p>
+        <p rend="labelled"><lb/>-Ei pintnire de gâbi: Uno medaio au<lb/>Saloun.</p>
+        <p rend="labelled"><lb/>Ei Councert classique: Un orgue de<lb/>Barbarié.</p>
+        <p rend="labelled"><lb/>Ei bugadiero, li souvetan de «s'abou-<lb/>nan à la «Vihado».</p>
+        <ab><lb/>LA RÈDO.. ACIEN</ab>
+        <p rend="heading"><lb/>PER ORTO</p>
+      </div>
+      <div type="article">
+        <head><lb/>XIX</head>
+        <head><lb/>Lou Ciero-Boto</head>
+        <lg>
+          <l><lb/>Soun pa pus aut.. Van à l'escolo</l>
+          <l><lb/>Souto lei platano dou Cous.</l>
+          <l><lb/>Espihandra, brut, morvelous.</l>
+          <l><lb/>Ped descau, caisseto en bricolo.</l>
+        </lg>
+        <lg>
+          <l><lb/>Per ren si garçon puei la piolo:</l>
+          <l><lb/>Proumenaire, garo eis espous !..</l>
+          <l><lb/>Aimi mies lei vèire à ginous:</l>
+          <l><lb/>Voulentié clinon sei guibolo</l>
+        </lg>
+        <lg>
+          <l><lb/>Per gagna 'n sou !.. Paurei pichoun,</l>
+          <l><lb/>Lou bout dei det li fa manjoun;</l>
+          <l><lb/>An un pié !... Jugon à la rego.</l>
+        </lg>
+        <lg>
+          <l><lb/>Plou de dardeno pielo e crous</l>
+          <l><lb/>Leis un rien coumo de gibous.</l>
+          <l><lb/>Gagnon. Leis autre fan lei brego.</l>
+        </lg>
+        <ab><lb/>Louei NORE.<lb/>vounvounant e orgueious; ero retira dins<lb/>soun pesaroun giela, e meditavo tranquila-<lb/>men, esperant l'an de Diéu qu'anavo con-<lb/>mença, e si révirant sonventei fes pèr dire<lb/>adiéu à-n-aquéu que s'envouelavo emé leis<lb/>oumbro de la nué.</ab>
+        <p><lb/>Paure malurous, s'avié rèn à douna, avié<lb/>nimai rèn à reçubre. Perdu dins la grando<lb/>vilo, counouissie degun proun ami pèr li<lb/>presenta sei souvèt, ni degun que li n'en<lb/>fagnesse.</p>
+        <p><lb/>L'an que dispareissié dins soun grand<lb/>lançòu, lou regretavo encaro, perqué tout lon<lb/>témp de sa durado s'èro passa sènso malan-<lb/>dra. l'an uonavo durhi gei namarto vonlie<lb/>tambèn lou saluda, pèr que l'aduguesse la pas:<lb/>em'un pau de bouonur dins sa misèri.</p>
+        <p><lb/>Lou filosofo, asseta davan d'un fugueiroun<lb/>bas, si caufavo ei darnierei belugo d'un fué<lb/>de busqueto.</p>
+        <p><lb/>A la muraio éro pendu un pichonn mirau à<lb/>mita rout; e, de témp en témp, lou paure ome<lb/>si li regardavo, pérqu'avié mes soun vièsti<lb/>proupret del dimenche, coumo s'esperavo uno<lb/>vesito...</p>
+        <p><lb/>Leis ouro si desgrunàvon de pau à pau; la<lb/>sourniero engonloupavo la vilo, e lon filosofo<lb/>meditavo encaro, quand miéjo-nué souoné au<lb/>relòji deis Acoulo.</p>
+        <p><lb/>Alor noueste ome si levé, regardé soun<lb/>mirau d'un er sourrisent, e tirant graciéusa-<lb/>men soun capèn, si digué coumo acò :<lb/> Bouon jour, bouon an, fraire! A tu mei<lb/>souvèt lei mihou e lei mai verai!</p>
+        <p><lb/>« Se tout lou mounde m'òublido ; se degun<lb/>a garda souveni pèr lou malurons que resto<lb/>souto lei téule, es ti pa juste que mi parli à<lb/>iéu meme; e que reviéudi moun âmo, en mi</p>
+        <p><lb/>fent de souvet pèr l'an nouvéu...</p>
+        <p rend="labelled"><lb/>« Longomai !... paure Ravest !...»</p>
+        <p><lb/>Aro cresessias pa que lou filosofo pensesse<lb/>qu'à-n-eu.</p>
+        <p><lb/>Durbé puei soun estro, e pronmenant-sa<lb/>visto su lei tèulisso que s'estendien davan<lb/>d'èu, vigué milo e milo galatas mounte l'avié<lb/>bessai encaro mai de misèri que dins lou<lb/>sièu. E dins un envans de carita, Mèste<lb/>Ravest s'escreidé:</p>
+        <p rend="labelled"><lb/>« Bravei paire de familio que vous repausas<lb/>dei lassùji dòu travai; fremo que sias leis<lb/>Un ome dóu pople qu'aimavo sa paureta; « ànji counsoulaire d'aquelei famiho; paureis</p>
+      </div>
+      <div type="article">
+        <ab><lb/>si coutentant de pau, au mitan dou mounde « enfant que soufrissés dou fre, e bessai tam-</ab>
+        <ab type="head"><lb/>Lei Sonvêt de Mèste Ravest</ab>
+        <p><lb/>Erian à la véio d'aquéu jour que si pouarge,<lb/>a bel eime, d'estreno, de presènt; e, subretout,<lb/>de souvet mai vo mens vertadié.</p>
+        <p><lb/>Dòu témp qu'uno annado si prefoundavo<lb/>dins lou garagai dóu passa, cadun si prepa-<lb/>ravo à festeja la nouvello engouloupado dei<lb/>mistèri de l'aveni.<fw type="digitisation-artefact"><lb/>purce gallica.bnf.fr/Bibliothèques de </fw></p>
+        <pb facs="0002.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>« bèn de la fam, pecaire; o vautrei reçubès dins uno famiho, si fa pa Nouvè, mai l'an d'a-<lb/>« lei souvèt d'un de vouestei parié; voudran prè fau recoumença pèr aquelei que vènon!»<lb/>« seguramen mies que toueis aquelei que van<lb/>« si faire, de l'aubo au soulèu tremount...</ab>
+        <p rend="labelled"><lb/>« A vautrei mei pensado e moun amour<lb/>« frairenau!... »</p>
+        <p><lb/>E lou filosofo refermé puei soun fenestroun,<lb/>urous mai que mai de sa bouono acien :</p>
+        <p><lb/>douna, en durbènt soun couar à sei malurous</p>
+        <ab><lb/>Peire MAZIERO.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>NoUVE PASSA!..</head>
+        <p rend="labelled"><lb/>— Vaquito mai un Nouvè de passa, mi disié<lb/>l'autre jour Mèste Rafeu lou pilot. Autant ero<lb/>pròchi coumo aro es luen.</p>
+        <p><lb/>Es egau, maugra chasque annado si n’en<lb/>mete un de mai su l'esquino, fa toujour plesi<lb/>de vèire arriba aquelei festo.</p>
+        <p><lb/>Quanquei jour avan, per carriero, vias<lb/>tout lou mounde aflò; lei gènt courron bour-<lb/>rido toutei carga, embarrassa de paquet vo<lb/>de boutiho semblon que van pa l'arriba à</p>
+        <p><lb/>Lei bontigoun vous fan gau de lei vêire<lb/>emé sei courouno de lausié e seis auta de ca-<lb/>lèno; lei marchand de pachichoio soun assesi;<lb/>lei counfisur soun pres d'assaut.</p>
+        <p><lb/>Au marca dei Capouchin es un sagatùji de<lb/>poulardo, de dindo, de capoun; se travessas<lb/>la fiero dei Santoun es un bourrùji à vous en-<lb/>sourdi, e vous serié maleisa de pousqué<lb/>croumpa un ravi vo un tambourinaire.</p>
+        <p><lb/>Entandòumen lou jour de Nouvé arribo e,<lb/>coumo ti va disiéu tout esca, fa plesi en toutei<lb/>— segur meti de cousta aqueli que, pechaire,<lb/>l'es mouart quaucun dei siéu, coumo nautrei<lb/>l'autre an ; — pèr lei joueine, es uno òucasien<lb/>de groumandùji e d'espassamen ; pèr lei viei,<lb/>maugra lou bouon souveni dei bei jour passa<lb/>emé sei rèire que soun parti dins l'autre<lb/>mounde, l'agrado de vèire regala la jouei-<lb/>nesso, éto, ensin elei tant n'en proufiton uno</p>
+        <p><lb/>Aquito lou brave pilot mi prengué lou bras<lb/>e countunigué:</p>
+        <p rend="labelled"><lb/>— Lou paure Tisto, qu’as pa counouissu,<lb/>nous disié delongo : «Vè, quand n'en parte un</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Avié rèn reçu, pecaire; e venié de tout siéu vist subran coumo tout treboula, quau-</ab>
+        <ab type="head"><lb/>MIEJO-NUÉ</ab>
+        <ab type="head"><lb/>Cèno dei Pastre e de l'Angi tirado de la<lb/>Pastouralo en preparacien<lb/>Adoun en estènt que lou malur nous avié en-<lb/>suca l'an passa avian pa fa fèsto, mai aques-<lb/>tou avèn segui lei counseu de l'ouncle Tisto.<lb/>Si sian foueço regala; avèn bèn manja, encaro<lb/>mies begu. Maugra 'cò, escouto, quand es<lb/>vengu lou moumen de canta lei nouvè, mi<lb/>carrèn m'a coupa la vouas, mi siéu sentu<lb/>mounta lei tres susour dins uno tremouelento<lb/>frenisien ; puei, lou pese gounfle, doues gros-<lb/>sei lagremo mi soun vengudo eis uei...</ab>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Bei pastouréu de touto l'encountrado,</l>
+          <l><lb/>Dins vouestei jas estrema lei troupèu ;</l>
+          <l><lb/>Despachas-vous pèr veire l'acouchado,</l>
+          <l><lb/>Mei bouons ami, zou! batès lou rampeu!</l>
+          <l><lb/>A Betelèn, la divino Mario</l>
+          <l><lb/>Ven d'enfanta lou fieu dôu tout puissant,</l>
+          <l><lb/>Que dèu sauva, soulaja la pauriho,</l>
+          <l><lb/>E nous douna soun amour e soun sange</l>
+        </lg>
+        <lg>
+          <l><lb/>Mai, que nous dias, bèu siret</l>
+          <l><lb/>Crèsi que voulès rire;</l>
+          <l><lb/>Jamai s'es ausi dire</l>
+          <l><lb/>De quita lon travai,</l>
+          <l><lb/>Acò s'es vist, jamai!</l>
+          <l><lb/>Nous parlas de Mario</l>
+          <l><lb/>Dou fléu dou Tout-puissant,</l>
+          <l><lb/>Nous cafissès l'auriho,</l>
+          <l><lb/>Nous trufas en passant.</l>
+        </lg>
+        <p><lb/>Lou souveni venié de mi pica au couar!!</p>
+        <ab><lb/>L'OUNCLE PASCAU.</ab>
+        <lg>
+          <l><lb/>Vous trufas en passant.</l>
+        </lg>
+        <lg>
+          <l><lb/>Aco n'es pa de creire</l>
+          <l><lb/>Que vous agon manda</l>
+          <l><lb/>Mume l'apan pa veire</l>
+        </lg>
+        <lg>
+          <l><lb/>Despuei longtèmp, lei santeis escrituro.</l>
+          <l><lb/>Nous proumetien un grand liberatour</l>
+          <l><lb/>Que lou bouon Diéu, mèstre de la naturo,</l>
+          <l><lb/>Devié manda. pèr nous precha l'amour...</l>
+          <l><lb/>A Betelèn dins un pichot estable.</l>
+          <l><lb/>Ven d'espeli, pecaire, nus e crus!</l>
+          <l><lb/>Es lou Messio, es l'enfant adourable</l>
+          <l><lb/>Que déu pourta lou sant noum de Jesu!</l>
+        </lg>
+        <lg>
+          <l><lb/>Noun semble veritable</l>
+          <l><lb/>Qu'un Diéu tant amirable</l>
+          <l><lb/>Naisse dins uno estable,</l>
+          <l><lb/>Coucha subre lou fèn !</l>
+          <l><lb/>Li coumprèni plu rèn...</l>
+          <l><lb/>Pamens nouestei grand reire</l>
+          <l><lb/>Nous an di proun souvent</l>
+          <l><lb/>Qu'èrian pa luen de veire</l>
+          <l><lb/>Aquest avenamen!</l>
+        </lg>
+        <lg>
+          <l><lb/>V'aven ausi tambèn..</l>
+          <l><lb/>Per vèire l'acouchado</l>
+          <l><lb/>Fau, se n’en sias counsênt</l>
+          <l><lb/>Batre la rampelado</l>
+        </lg>
+        <p><lb/>D'aquit parten!</p>
+        <lg>
+          <l><lb/>Fasen la rampelado</l>
+          <l><lb/>E puei, parten!</l>
+        </lg>
+        <lg>
+          <l><lb/>Courrès à Betelèn e veirès lou Messio.</l>
+          <l><lb/>Qu'a vougu simplamen naisse emé la pauriher</l>
+          <l><lb/>Dins un marrid estable entre lou buou e l'ar.</l>
+          <l><lb/>Uno grupi pèr brès, es acò soun palai...</l>
+          <l><lb/>Anas lèu v-anounça dins touto l'encountrado</l>
+          <l><lb/>E puei, vendrès en foulo emé lei cambarado.</l>
+          <l><lb/>Quand sarrès arriba davan noueste Signour!</l>
+          <l><lb/>Tout en clinant lou frount cantarès sa Grandour!</l>
+          <l><lb/>Car. Diéu vous la manda per roumpre lei cadeno</l>
+          <l><lb/>Que vous tènon quicha dins l'engouisso e la peno;</l>
+          <l><lb/>Poudès canta vitori en toumbant à sei pèd.</l>
+          <l><lb/>Merito voueste amour, es digne de respèt.</l>
+          <l><lb/>Dóu mounde, va veirès, sera lou grand Sauvaire,</l>
+          <l><lb/>E dounara soun sang pèr vous tira d'afaire.</l>
+          <l><lb/>Partès, mei bouons ami, n'en serès satisfa,</l>
+          <l><lb/>E benirès, segur, lou viâji qu’aurès fa!</l>
+        </lg>
+        <ab><lb/>A. ALLAVENE.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>JOUR DE L'AN</head>
+        <lg>
+          <l><lb/>Ma vesino, coumo meis uei,</l>
+          <l><lb/>Ah! l'aimi, qu'es rèn de va dire;</l>
+          <l><lb/>Elo si crei qu'es de pèr rire!</l>
+          <l><lb/>Maugra' cò mi fa foueço acuei.</l>
+        </lg>
+        <lg>
+          <l><lb/>Dounarièu moun sang e ma vido</l>
+          <l><lb/>Pèr elo! E voudrièu bèn, carèn —</l>
+          <l><lb/>Sièu un gros mourre beisarèu, —</l>
+          <l><lb/>Uno caresso! Es tant poulido!!..</l>
+        </lg>
+        <lg>
+          <l><lb/>M'agradarié li dire tu;</l>
+          <l><lb/>Ai pon que mi trate de fouele !.</l>
+          <l><lb/>Es un anji pissa dóu ciele,</l>
+          <l><lb/>Un tresor qu'a lei sèt vertu!</l>
+        </lg>
+        <lg>
+          <l><lb/>Li fague gau, la laisso frejo,</l>
+          <l><lb/>Vuei pourra pa mi dire noun.</l>
+          <l><lb/>Quand saurièu li perdre moun noum,</l>
+          <l><lb/>Fau que la pàssi moun envejo.</l>
+        </lg>
+        <lg>
+          <l><lb/>— Bouonjour, Vesino, a de matin</l>
+          <l><lb/>Sièu vengu, bord qu'èrias levado,</l>
+          <l><lb/>Per vous souvéta bouono annado?..</l>
+          <l><lb/>— leu de mume, Moussu Titin...</l>
+        </lg>
+        <p rend="labelled"><lb/>— Duves saupre, gènto vesino,<lb/>Tant qu'aquéu jour a pa passa<lb/>Qu'es permes de vous embrassa ?...</p>
+        <p rend="labelled"><lb/>— Au pèd mi mestrias 'quelo espino?....</p>
+        <p rend="labelled"><lb/>— Mi va refusarès deman...</p>
+        <lg>
+          <l><lb/>Mai, vuei, l’a tròu loungtèmp, Rouseto,</l>
+          <l><lb/>Que languissièu d'uno babeto...</l>
+          <l><lb/>Esperavi lou jour de l'an !...</l>
+        </lg>
+        <ab><lb/>Pascau ROUSTAN.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LEI PICHOUNEI GANDOUASO</head>
+        <head><lb/>LA COUMISSIEN</head>
+        <p><lb/>Tiboufi si crei un finochou de proumiero<lb/>meno ; mi fa susa emé seis èr d'estraio-<lb/>braso. S'agrado qu'à vouié encougourda<lb/>lou paure mounde, mai n'empacho pa mens<lb/>que vènon de li rendre la mounedo de sa<lb/>pèço. Aier dis à ma pichouno Babet (uno<lb/>drouleto qu'a pa enca vuech an, ravihado,<lb/>reviscoulado, poulido coumo un sòu : tout<lb/>lou pourtret de sa maire; vous la presenti)<lb/>li dis, diéu : «Tè, seriès bèn gènto se mi<lb/>vouliès faire uno coumissien, vaquit l'ar-<lb/>gènt, vai mi croumpa pèr dous sou de<lb/>grano de sòucissot. » E richoune avo lou<lb/>leventi en pensent au bouon tour que ju-<lb/>gavo à l'enfantouno.</p>
+        <p><lb/>Leu la mesquineto lampo à la boutigo<lb/>dou cantoun e l'adué pèr dous sou de.....<lb/>pebre en gran.</p>
+        <p><lb/>Lon darnagas aganté lou paquet senso<lb/>n'en boufa v-uno. Vias que ma nistouno<lb/>es pa tròu fadado : fau vous dire que pèr<lb/>acò tiro de soun paire.</p>
+        <ab><lb/>JANET LOU PANTAIHAIRE.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Lei Paquet</head>
+        <lg>
+          <l><lb/>Nautrei sian lei flambeu</l>
+          <l><lb/>Pèr si rempli la panso</l>
+          <l><lb/>Emé de vin nouvèu</l>
+          <l><lb/>Eiman faire boumbanço!</l>
+          <l><lb/>Pèr manja lei paque</l>
+          <l><lb/>Aven pa lou chonquet</l>
+          <l><lb/>L'anan toujour ben gai</l>
+          <l><lb/>E zou ! dins lou gavai!</l>
+          <l><lb/>Pèr lei faire esquihs</l>
+          <l><lb/>Avèn de bouonei tèncho,</l>
+          <l><lb/>Su taulo toujour n'a</l>
+          <l><lb/>E bagnan souvent l'encho.</l>
+        </lg>
+        <lg>
+          <l><lb/>Soun fume let paquet.</l>
+          <l><lb/>Vous n'en lipas lei det ;</l>
+          <l><lb/>Ençaro un bouon chiquet</l>
+          <l><lb/>Arrousan lei paquet!</l>
+        </lg>
+        <figure type="decoration"/>
+        <fw type="digitisation-artefact"><lb/>/B̀</fw>
+        <pb facs="0003.xml"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>ARmANA PoPuLaRi</head>
+        <figure type="decoration"/>
+        <p><lb/>Lou pichoun a quatre an, e de gaute,<lb/>coumo un troumpetaire. Es proun dire se<lb/><lb/>si pouarto bèn. Lou rire esclato su sa bou-<lb/>co, en fué d'artifici de cansoun e de galeja-<lb/>do à faire creba de rire.</p>
+        <p><lb/>Sel grand soun lei troubaire Pèire Mazie-<lb/>ro, Loueis Nore, Pascau Roustan, Loucis<lb/>Margayan, Loueis Borghero, Loueis Hu-<lb/>gues, Alfred Chailan, Amable Richier ,<lb/>Bonnefoux, e tant d'autre coumo Mèste<lb/><lb/>Cave, Loueis lou Mut, Misé Norino, Janet<lb/>lou Pantaihaire, Pistachié, Piarre lou Tes-</p>
+        <p><lb/>Aquit tout es à la bouono èro; sènso<lb/>croio ni fadarié. Es pèr acò que lei liejeire<lb/>de la « Vihado » mancaran pa de croumpa<lb/>« L'Armana populari dei Bastido e Caba-<lb/>noun, » pèr lou boun an 1899, que si vènde<lb/>dins toiti lei Kiosco: «quatre sou». pa</p>
+        <p><lb/>Vaquito uno pèço de Mèste Cave que<lb/>dounara' no idèio de l'esprit galoi d'aqueste<lb/>publicacien ralamen Marsiheso:</p>
+        <lg>
+          <l><lb/>Per li douna bouon ge</l>
+          <l><lb/>Li meten foucço pelva</l>
+          <l><lb/>Quand passan la souarado,</l>
+        </lg>
+        <lg>
+          <l><lb/>Quand soun pebra bèn fouart,</l>
+        </lg>
+        <ab><lb/>Marius CURNIER (deis Acabaire).</ab>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>— Dins vouesto lojo? mai, sias counciarji?<lb/>— Ma frumo, iéu siéu simple limounadié...<lb/>n'en manja eme la bièro; alor vaquito un<lb/>petard que toumbo su la mouestro d'un de<lb/>mei chaland que regardavo l'ouro. Aquestou<lb/>si dreisso en sacrejant é mi di : « Es arres-<lb/>tado; l'a quaucarrèn de roumpu?» — Dounas<lb/>mi 'cò, li respouondi, vòu vèire ce qu'es...</ab>
+        <p rend="labelled"><lb/>— Vai fa antrei còu. Regardi la mouestro e;<lb/>li diéu: « Eiço es rèn, vòu vous l'arranja. »<lb/>Ma mouiè, enfetado dóu bru dei petard, m'a-<lb/>dué moun pistoun e mi fa : « Te, embèto la<lb/>em'acò fin qu'à ce que s'en vague...</p>
+        <p rend="labelled"><lb/>— Ma', alor, sias musicien?</p>
+        <p rend="labelled"><lb/>— Dins lou tèmp, ai tengu un balé... Me<lb/>bouti à boufa de touto mei forco; pan! un<lb/>autre petard que toumbo su la faquino d'un<lb/>autre chaland; aquestou èro furiéu. Regardi<lb/>lou trau e li dién : « Vous esfraiès pa, fau pa<lb/>mai de des menueito pèr v'arranja, anas vei-<lb/>re, vòn vous taire la reparacien.»</p>
+        <p rend="labelled"><lb/>— Mai sias taiur, tambèn?</p>
+        <p rend="labelled"><lb/>— Travaihi dins ma lojo...</p>
+        <p rend="labelled"><lb/>— Simplamen, dias? Sias moudeste... En-<lb/>tandòumen recounouissès d'avé di de marridei<lb/>resoun à-n-aquelo dameiselo?</p>
+        <p rend="labelled"><lb/>— Mi souvèni plu de rèn, tant èri en cou-<lb/>lèro. Mai trovi mau, de la part de Madamei¬<lb/>selo, d'avé tira de petard en sachen que mi<lb/>fasié tort, ésten que touti lei còu que va dansa</p>
+        <p rend="labelled"><lb/>- M'avien fa aprendre aquén mestié, mai</p>
+        <p><lb/>Lou tribunau coundano lou cafetié à vint<lb/>franc d'amendo e la petardiero ei fres.</p>
+        <p><lb/>Quand sortèron, entendèri noueste ome que<lb/>fasié à sei coulègo : « Sabès pa perqué m'a<lb/>coundana mèste Cougourdo? — èro lou noum<lb/>dón juji - Es que quand éri courdounié, un<lb/>jour li refuseri lou crèdi !...</p>
+      </div>
+      <div type="article">
+        <head><lb/>Au Palai de Justici</head>
+        <p><lb/>L'autre jour, à la quatriemo chambro, si ju¬<lb/>javo uno drolo d'afaire. S'agissié d'uno joueino<lb/>fiho qu'èro estado insurta pèr un cafetié.</p>
+        <p><lb/>L'ome, quand vengué soun tour de parla,</p>
+        <p rend="labelled"><lb/>— Figuras-vous, Moussu lou jùji, que lou<lb/>jour de Sant-Jan, desempuei lou matin, ma¬<lb/>dameiselo qu'es aquit, fasié que faire parti de<lb/>petard de sa fenestro, que fasien parti mei</p>
+        <p rend="labelled"><lb/>— E que soun vouestei pratico» li fa lou</p>
+        <p rend="labelled"><lb/>Mei pratico, soun aquelei que vénon si<lb/>rafresca quand li fa plesi.</p>
+        <p rend="labelled"><lb/>— Alor, sias limounadié?</p>
+        <p rend="labelled"><lb/>— Vouei, Moussu lou jùji, vaquit que dóu<lb/>tèmp que retiravi mei gofre...</p>
+        <p rend="labelled"><lb/> de gone, per aquelei que vouelon</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/> creiden: « VIV MVALEN</ab>
+        <ab type="head"><lb/>L'Aucèu de Mazargo</ab>
+        <ab type="head"><lb/>Er: «C'est un Olseau qui vient de France.»</ab>
+        <lg>
+          <l><lb/>La pa longtèmp, dimar passa.</l>
+          <l><lb/>onlego.</l>
+          <l><lb/>E faguerian pa mau de lègo;</l>
+          <l><lb/>En arribant à Sant-Macèu,</l>
+          <l><lb/>S'arrestan pèr béure la gouto,</l>
+          <l><lb/>Puei. reprenguerian mal la routo,</l>
+          <l><lb/>Pèr faire la casso eis auceu.</l>
+        </lg>
+        <lg>
+          <l><lb/>Avian lou fusiéu à douei cargo;</l>
+          <l><lb/>Viguerian passa 'n bel aucèt</l>
+          <l><lb/>E Janet mi di: « Oh! qu'es beu! (bis)</l>
+          <l><lb/>Aquest aucéu vén de Mazargo.»</l>
+        </lg>
+        <lg>
+          <l><lb/>e casso a coumo lou pesca.</l>
+          <l><lb/>Souventei fes, vouei. l'on s'amuso;</l>
+          <l><lb/>Mai, de cóu, n'a de que bisca</l>
+          <l><lb/>Es lei jour mounte si fa muso!</l>
+          <l><lb/>E pa'n quinsoun dintre la biasso;</l>
+          <l><lb/>Dias de courre marca vo plaço</l>
+          <l><lb/>Per lèu croumpa dous pardigau ?....</l>
+        </lg>
+        <lg>
+          <l><lb/>cargo,</l>
+          <l><lb/>Prenguerian cadun un aucèu</l>
+          <l><lb/>Aquest aucèu vèn de Mazargo!</l>
+        </lg>
+        <lg>
+          <l><lb/>Foudrié pa que, pèr un aucèu,</l>
+          <l><lb/>Si batessian coumo de besti,</l>
+          <l><lb/>en farian rire un bèu parèu!.</l>
+          <l><lb/>V'en diéu pa mai... Aquit m'arrè</l>
+          <l><lb/>Rassuras-vous, bouon Mazarguets</l>
+          <l><lb/>Duvèn canta touteis ensen:</l>
+        </lg>
+        <lg>
+          <l><lb/>Leissen lou fusiéu á douei cargo</l>
+          <l><lb/>E parlen plus d'aquel aucèu</l>
+          <l><lb/>Que siegue laid vo siegue bèu (bis)</l>
+        </lg>
+      </div>
+      <div type="article">
+        <head><lb/>CHAMATAN</head>
+        <p rend="labelled"><lb/>BAL DEIS ESTUDIANT. — Es lou<lb/>14 dóu mes que leis Estudiant en medecino<lb/>e en farmacio dounaran soun bal au Grand<lb/>Tiatre. Parei qu'aquest an la fèsto sera<lb/>espetaclouso e merevihouso. Lei gènt si<lb/>derrabon deja lei carto. Se l'amenistracien<lb/>deis espitau a encaissa dóu darnié bal<lb/>5.167 fr. 65 fau crèire que n'en toucara lou<lb/>double d'aquéu que s'alestisse. Li va sou¬</p>
+        <p rend="labelled"><lb/>« Uno partido de Pesco Miraculouso! ». —<lb/>Lei Soucietàri de LA LUCRECO soun ana<lb/>l'a quauquei dimenche en Riéu manda lei<lb/>musclau dei cano vo dei palangroto. Cadun<lb/>a cerca soun esplai: Qu su d'uno pouncho,<lb/>qu dins lei vairo, pèr assaja de clava quau-<lb/>que gros péi : Cadun tenié à l'ounour de<lb/>gagna lei joio. e pèr acò lei prouvisien man-<lb/>cavon pa: Mourredu, piado, esco duro,<lb/>baboué. Zou! vague lei musclau à la mar.<lb/>Que massacre de pei! Es esta quaucarrèn<lb/>d'espetaclous. Aurado, sar, peis coua; de rou-<lb/>cau de touto coulour; serré-blanc, negre,<lb/>lazagno, bavarelo, girèlo, cagarèlo, bogo-ra-<lb/>velo, moustèlo, pataclé, rascass»; de scorpe-<lb/>no qu'avien de testo coumo d'enfant, de<lb/>pajéu gros coumo d'aurado; de severéu dei<lb/>grana... Ah! n'avié pèr carga uno tartano!<lb/>Tambèn aguessias vist lei gauto dei pescai-<lb/>re coumon eron roujo! Dóu gros fué qu'avièn</p>
+        <p><lb/>En desbarquant fasien vèire sei coufin que<lb/>vessavon. Jamai avien fa'no pesco ensin, pa-<lb/>rei, acò venié de la brefounié qu'avié tant<lb/>dura. Lei pèi avien talamen fam qu'aurien<lb/>manja de semello de soulié!.. Se v'avian pa<lb/>vist v'aurian pa cresu, cadun avié sei 4.<lb/>kilo de pèi. Aquelei qu’an agu lou mai de<lb/>chanço, es esta Mèste Fasse (7 kilo), lou gros<lb/>Richard, MM. Soleil, Gay, Lissandro emé<lb/>foueço autre que lou noum nous revèn pa.</p>
+        <p><lb/>Tambèn de trancho safranado parei si n'es<lb/>fa de bellei ventrado! Tant mies. Osco ! pèr<lb/>lei pescaire de «La Lucreço».</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>GRAND-TIATRB. — Es dimecre que s'es<lb/>douna la proumiero de « Pierre d'Aragon».<lb/>Dòumàji que noueste journau siegue tròu<lb/>pichoun qu'acò nous empacho de n'en foueço<lb/>parla. La pèço es bèn escricho ; lei danso dóu<lb/>bouon viei tèmp bèn menado, leis èr de trou-<lb/>baire e lei decor soun superbe. Souvetan uno<lb/>grando ruissido à-n-aquelo bello obro qu'aura</p>
+        <p rend="labelled"><lb/>TIATRE VALETO. — L'«Assouciacien ar¬<lb/>tistico» emé lou bouon goust que li fa sa<lb/>grosso renoumado, nous a douna despuei<lb/>l'acoumençanço de la sesoun quanquei coun¬<lb/>cert requist mounte, va sènso dire, metren en<lb/>tèsto aquéu de l'inauguracien dei grandeis<lb/>orgue. inauguracien que ralamen es estado<lb/>uno bello souarado de gala e lou councert<lb/>qu'es vengu aprè a permes ei Marsihés d'a-<lb/>plaudi coumo l'èro degu lei «Chanteurs de<lb/>Saint-Gervais», un cur espetaclous en tout<lb/>pouin, la provo n'es qu'avien recampa uno<lb/>fogo de mounde que lou Tiatre n'en vessavo!</p>
+        <p rend="labelled"><lb/>VARIETA. — Pèr aquestei fèsto «La Ban¬<lb/>do à Fifi» avié recampa un pople de mounde<lb/>que lou tiatre n'ero toujour plèn coumo un<lb/></p>
+        <p rend="labelled"><lb/>PALAI DE CRISTAU. — La revisto «For-<lb/>cès pan marcho delongo cranamen emé s</p>
+        <p rend="labelled"><lb/>TIATRE CHAVE. — Se voulès vous rega-<lb/>la, rire e passa uno crano vihado, avès que<lb/>d'ana vèire la "Pastouralo" de Merle que si<lb/>juego au Tiatre Chave. Pouden vous afourti</p>
+        <note>
+          <p rend="labelled"><milestone unit="column" n="3"/><lb/>Santo, 48, Marsiho.<seg type="MarginTextZone-PStyled"><lb/>RSTAN</seg><fw type="digitisation-artefact"><lb/>ource gallica.bnf.fr / Bibliothèques</fw></p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

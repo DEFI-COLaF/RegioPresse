@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k96062833</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1970-12-01">1970</date>
+          <idno type="ARK">bpt6k96062833</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k96062833</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Nouvelle Série – No 375</fw>
+        <ab><lb/>Le Numéro: 1,00F</ab>
+        <ab><lb/>DÉCEMBRE 1970<lb/>Paraissant tous les mois, sauf en Juillet, Septembre et Octobre</ab>
+        <p rend="heading"><lb/>QUE BUFO UN COP CADO MÉS</p>
+        <ab><lb/>LES TOULOUSAINS DE TOULOUSE ARUE<lb/>ORGANE<lb/>SOCIETE<lb/><lb/>ET AMIS DU VIEUX TOULOUSE<lb/>MAΥ</ab>
+        <p rend="heading"><lb/>SOMMAIRE</p>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>SAMEDI 19 DÉCEMBRE, à 15 heures, visite de l’Hôtel d’Assézat,<lb/>sous la direction de M. Pierre de Gorsse, Membre Correspondant<lb/>de l’Institut, Président du Conseil d’Administration de l’Hôtel<lb/>d’Assézat.</p>
+        <p rend="labelled"><lb/>DIMANCHE 24 JANVIER 1971, à 15 heures, visite de l'église et du<lb/>couvent des Jacobins, sous la direction de M. Maurice Prin.</p>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="202"/>
+      </div>
+      <div type="article">
+        <head><lb/>Deux Toulousains</head>
+        <head><lb/>dans les Commissions Supérieures</head>
+        <head><lb/>des Monuments Historiques et des Sites</head>
+        <p rend="styled"><lb/>Deux bonnes nouvelles à enregistrer :</p>
+        <p rend="styled"><lb/>M. Marcel Durliat, l'éminent Professeur d'Histoire de l'Art du<lb/>Moyen Age à notre Faculté des Lettres, vient d'être nommé membre<lb/>de la Commission Supérieure des Monuments Historiques,</p>
+        <p rend="styled"><lb/>et notre Président, M. Pierre de Gorsse, Correspondant de l'Institut,<lb/>vient d'être nommé membre de la Commission Supérieure des Sites.</p>
+        <p rend="styled"><lb/>C’est-à-dire qu’il y aura un Toulousain des plus qualifiés dans<lb/>chacune de ces Commissions, siégeant à Paris et décidant souveraine-<lb/>ment de questions qui nous sont chères.</p>
+        <p><lb/>Voilà qui ne s'était encore jamais vu !</p>
+        <p rend="styled"><lb/>Il convient de féliciter les deux nouveaux membres de cet hommage<lb/>rendu à leur mérite dont Toulouse et notre Midi vont bénéficier.</p>
+        <ab><lb/>Les Toulousains de Toulouse.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Visites et Promenades</head>
+        <head><lb/>A L’ÉGLISE DES MINIMES</head>
+        <p rend="styled"><lb/>La visite de l'église des Minimes a eu lieu le 29 novembre et ce<lb/>monument secondaire a surpris par sa richesse historique et<lb/>artistique, que MM. Camboulives et Mesplé mirent en valeur avec<lb/>leur érudition habituelle. M. Pierre de Gorsse les en remercia en<lb/>termes particulièrement chaleureux et, d’autre part, rappela aux<lb/>personnes présentes que le Musée du Vieux-Toulouse, dont M. Cales-<lb/>troupat poursuit l'heureuse rénovation, était ouvert gratuitement<lb/>le dimanche après-midi.</p>
+        <p rend="styled"><lb/>Ci-dessous, les notes de MM. Camboulives et Mesplé.<lb/>ne se mettait pas en peine de leur répondre; tandis qu’entre gens<lb/>« bien nés », on s’écoutait d’une oreille favorable et profitable.<lb/>Ce n’était là que blessures d’amour-propre. Il en était de plus<lb/>matérielles et de plus douloureuses, notamment celles qu’amenait<lb/>le logement des troupes. Lieu de passage, la ville de Baziège les<lb/>voyait souvent arriver. On peut dire que pendant trente ans, elle<lb/>en fut empoisonnée et tyrannisée, le logement s’accompagnant de<lb/>chapardages, de déprédations et de violences de la part de ceux qui<lb/>étaient les plus forts. Au cours des années 1775, 1776, apparut un<lb/>fléau d’un nouveau genre, l’épizootie qui dura quelque dix-huit mois,<lb/>détruisit le bétail à cornes et entraîna la création d’une garde pour<lb/>essayer de limiter l’expansion de l’épidémie. Or, ladite garde étant<lb/>apparue insuffisante, on fit appel à la troupe, ce qui était ajouter<lb/>une calamité à une autre. Cette situation n’était pas d’ailleurs<lb/>particulière à Baziège; tout le Lauragais la connut, puis, au-delè<lb/>de Toulouse, la Lomagne, le Lectourois, le Condomois. On pense<lb/>ala « Cansoun dis avi » (la Chanson des aïeux) de Mistral :</p>
+        <pb facs="0012.xml"/>
+        <milestone unit="page" n="212"/>
+        <list>
+          <item>An tengu,</item>
+        </list>
+        <p rend="styled"><lb/>Tant coume an pouscu !</p>
+        <p><lb/>(Ils ont vécu, ils ont tenu, autant qu’ils ont pu!)</p>
+        <p><lb/>Maintenant que M. Terrenq nous a fait connaître le Baziège de<lb/>l’ancien régime, on souhaite que dans un prochain livre, il nous le<lb/>montre jusqu’à nos jours.</p>
+        <ab><lb/>P.M.</ab>
+        <ab><milestone unit="column" n="1"/><lb/>An viscu,</ab>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>Nouveaux Adhérents</p>
+        <ab><lb/>3422 <lb/>Mme Lagardelle et M. Calestroupat.<lb/>3423 M. Sagnier, 4, rue Victor-Hugo, Portet-sur-Garonne, présenté<lb/>par MM. Corbière et Berdoues.<lb/>3424 <lb/>par MM. Calestroupat et Mesplé.<lb/>3425 Me Jane Feuille, 61, rue Victor-Hugo, Carcassonne, présentée<lb/><lb/>par M"e Simone Henry et M. René Trazit.<lb/>3426 Marquis de Cambolas, 99, rue Lafayette, Paris (X*), présenté<lb/>par MM. Robert Gillis et Pierre de Gorsse.</ab>
+        <pb facs="0013.xml"/>
+        <ab><lb/>– 213 –</ab>
+        <ab><lb/>3429 Mme Renée Pèlegrin, 4, rue du Colonel-Roche, présentée par<lb/>Mme Dottin et M. Prin.<lb/>3431 Mme Argote, à Odars, 31-Montgiscard, présentée par<lb/>MM. Calestroupat et Mesplé.</ab>
+        <p rend="labelled"><lb/>3427 Mme Simone Cazenave, 4, rue des Iris, présentée par Mme Dottin<lb/>et M. Prin.</p>
+        <p rend="labelled"><lb/>3428 Mme Ginette Brunet, Résidence de l'Ile, chemin de la Loge,<lb/>Dottin et M. Prin.<lb/>présentée par Mm.</p>
+        <p rend="structured"><lb/>3430 M. et Mme Séverac, 21, rue Michel-de-Montaigne, présentés<lb/>par <lb/>Bazex et M. Prin.</p>
+        <p rend="labelled"><lb/>3432 M. André Douvillé, Chef des Relations extérieures du<lb/>Ministère des Travaux Publics et du Bâtiment, 21, rue<lb/>Henri-Monnier, Paris (9°), présenté par MM. Gillis et<lb/>Astre.</p>
+        <p rend="labelled"><lb/>3433 Mme André Douvillé, Secrétaire générale du Syndicat des<lb/>Journalistes de la Presse périodique, 21, rue Henri-Monnier,<lb/>Paris (9°), présentée par MM. Gillis et Astre.</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>RECTIFICATION</p>
+        <p><lb/>Sous le no 3414 lire M. Lacaze-Murat dont le nom avait été acci¬<lb/>dentellement déformé, ce dont nous nous excusons auprès de<lb/>intéressé.</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>lable des matières de l'année 1970</p>
+        <ab><lb/>Adhérents (Nouveaux). . .. .......... 24. 46, 71, 96, 111, 136, 212</ab>
+        <figure type="table"/>
+        <p><lb/>Douvillé.......</p>
+        <figure type="table"/>
+        <p><lb/>Promenades ».</p>
+        <pb facs="0014.xml"/>
+        <milestone unit="page" n="214"/>
+        <ab><lb/>Flâneur (Le). – Ça et là : Un vœu des Toulousains de<lb/>Toulouse contre l’affichage abusif - Autre abus publi-<lb/>citaire - Pâtisserie et conservation - Le Syndicat<lb/>d’Initiative fait découvrir Toulouse - La retraite de<lb/>60<lb/>M. Woilrand. . . . . . . . . .<lb/><lb/>Feu le Pont des Demoiselles aux troits ponts -<lb/><lb/>Grignotage du vieux Toulouse - Place des Puits-Clos,<lb/>deux arcades réapparaissent - Guillaume Brun fut<lb/>102<lb/>réellement capitoul. . . . .........................<lb/>Surélévation intempestive - Le Café des Américains<lb/><lb/>118<lb/>reste ouvert à sa clientèle. . . . . . . . . . . . . . . . . . .<lb/>. . ....<lb/>La fin des « Américains » et de la « Maison modèle » -<lb/>[<lb/>La « Croix de pierre » invisible - M. Robert Mesuret<lb/>146<lb/>lauréat de l'Institut..............................<lb/>Rocades et autoroutes - Parking deshumanisé- Parking<lb/><lb/>humanisé - La nouvelle jeunesse de la rescapée.... 192<lb/>Fouet (Georges). – Voir la rubrique « Visites et Promenades ».<lb/>2<lb/>Gorsse (Pierre de). – Rapport moral de l’année 1970.......<lb/>— Un précurseur toulousain de Nostradamus..........<lb/>50<lb/>En notre Musée : Un uniforme de capitaine de la<lb/><lb/>Garde d’Honneur de Toulouse en 1808............ 60<lb/>– Pol Neveux et Toulouse........................... 116<lb/>— Lucien Babonneau.....................<lb/>138<lb/><lb/><lb/>. Louis Méroc. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 139<lb/>— Un puits toulousain inconnu . .. . . . . . . . . . . . .. . . . .. . 177<lb/>Voir la rubrique « Visites et Promenades ».<lb/>65<lb/>Magre (Maurice).. Toulouse, poème.....................<lb/>Mesplé (Paul). – Suite à la visite de l’église Saint-Exupère.. 20<lb/>— « Le Midi en 1815 » ou l’histoire toulousaine en roman<lb/>feuilleton. . . . . ..... .. .......... ........ ........... 26<lb/>– Images de vertus toulousaines...................... 63<lb/>— Le portail de la salle capitulaire de la cathédrale<lb/>74<lb/>Saint-Etienne est-il un mythe ?..................<lb/>– Pour une réédition de Paul Froment................ 94<lb/>140<lb/>— Jean Thuile.....................</ab>
+        <figure type="table"/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81342686</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1882-12-17">1882</date>
+          <idno type="ARK">bpt6k81342686</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81342686</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Dimenche 17 de Desemore 1882</fw>
+        <fw type="runningTitle"><lb/>Dous sou lon numero</fw>
+        <dateline><lb/>IVo Annado — No XXXVIII p 297</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>PAREISSENT TOUTEI LEI 1</ab>
+        <p rend="heading"><lb/>JOURNAU POUPULARI DE LITERATURO, D'LSE DE SCIENCI</p>
+        <p rend="styled"><lb/>Depausitàri majourau pèr Marsiho M. Vincent, carriero Corneille, 3.</p>
+        <ab><lb/>Bouco-dòu-Rose e despartamen<lb/>7 .<lb/>que fan raro em'éu.<lb/>Franço, Corso, Algerio. .<lb/>8<lb/><lb/><lb/>Souero Franço. . .<lb/></ab>
+        <p><milestone unit="column" n="3"/><lb/>Les annonces, reclames et taits di-<lb/>vers sont reçus euclusivement à PA-<lb/>gence Ewig rue d’Amboise-Richelien,<lb/>9 Paris fermière de la publicite.</p>
+        <p><milestone unit="column" n="2"/><lb/>Tout co que toco lou jouruan den<lb/>èstre manda atranqui à l'Emprimari¬<lb/>Pronvençalo. 15, carrièro dóu Granda<lb/>Relògi, à-z-Ais.</p>
+      </div>
+      <div type="article">
+        <head><lb/>ASSABE</head>
+        <p rend="labelled"><lb/>Lou Bruse es manda, coumo assai, à<lb/>touto persouno que s'interesso à la lengo<lb/>prouvençalo e au mouvamen felibren<lb/>Lei tres premié numerò manda de segui-<lb/>do soun à gratis. Se lou quatren noun<lb/>es remanda emé lou mot EEFUNE sus<lb/>la bando, faren presenta. pèr la posto uno<lb/>biheto d'abounamen de 7 fr. 50 o de 8 fr.<lb/>50 segound lou domicile dou nouvèl<lb/>abouna, à mens que nous siegue manda.<lb/>avans aqueu quatren numero, l'argènt<lb/>pèr la posto. Per aco faire li a que de<lb/>remetre 70 8 franc à soun burèu. Se car-<lb/>garen dei frès.</p>
+        <p rend="heading"><lb/>COUNCOURS</p>
+        <p rend="heading"><lb/>MANTENÈNÇO DE PROUVENÇO</p>
+        <p><lb/>Fasèn assaupre que dins soun acamp<lb/>penent, la Mantenènço de Prouvènço</p>
+        <p rend="heading"><lb/>DE LA<lb/>dounara sa flour d'or e d'argènt à la<lb/>meiouro pèço de pouesio, sus d'un sujet<lb/>tira de l'istori de Prouvenço.</p>
+      </div>
+      <div type="article">
+        <p><lb/>Touti li felibre podon councourri,<lb/>franc di Mèstre en Gai-Subé.</p>
+        <p><lb/>Li pèço an d'estre mandado, dins la<lb/>formo acoustumado, au Secretariat de<lb/>le Mantenènço, carriero de l'Evescat,<lb/>30. " Marsiho, arans lou 1^er de janvié<lb/>de 1883.</p>
+      </div>
+      <div type="article">
+        <head><lb/>TAULETO</head>
+        <p rend="structured"><lb/>PAssO-TEMS. — Un mot de Louis Felipo - O<lb/>Monier.</p>
+        <p rend="structured"><lb/>Crounico. — La felibrejado de Marsiho (segui-<lb/>do) — Lou felibrige en Itàli. — A prepaus<lb/>d'Amhra.</p>
+        <p rend="structured"><lb/>TARGO LITERARI. — Lou councours dou Brusc.<lb/>FORIKTOUN. — L'anèu dou rèi. F. d'E.</p>
+        <figure type="decoration"/>
+        <ab><lb/>Source gallica.bn.fr/Bibliothèques de Marseille</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

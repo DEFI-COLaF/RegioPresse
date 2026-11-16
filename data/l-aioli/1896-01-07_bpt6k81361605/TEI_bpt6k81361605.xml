@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81361605</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1896-01-07">1896</date>
+          <idno type="ARK">bpt6k81361605</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81361605</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>SIEISENCO ANNADO, No 181.</fw>
+        <ab><milestone unit="column" n="3"/><lb/>DIMARS, 7 DE JANVIÉ 1806.</ab>
+        <ab><milestone unit="column" n="1"/><lb/>Au sufrige universau,<lb/>Vouaren pèr l'òli<lb/>E faren P'aidti.<lb/></ab>
+        <p rend="heading"><lb/>Nautri li bon Prouvençau,</p>
+        <ab><lb/>(Prouvèrbi di meissounie.</ab>
+        <ab><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.</ab>
+        <p rend="heading"><lb/>F. MISTRAL.</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17,27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab><lb/>VEURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI<lb/>au palais dou Roure,<lb/>EN AVIGNOUN</ab>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN</p>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <ab><lb/>Baile dóu journau:<lb/>FOICÒ DE BARONCELLI</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Primo à nostis abouna</head>
+        <p><lb/>La legèire de l'Aioli an vist, dins l'article qu'a<lb/>counsacra eici noste coulabouradou Jordi Greiau<lb/>à la proufeclo dou Castèu d'Avignoun, lis duti<lb/>destinado vers liqualo s'aubouro lou vin de Roco-<lb/>Fino à Castèu-Nou-de-Papo. L'Aiòli es urous de<lb/>pousqué oufri vuei coume estreno à sis abouna<lb/>aquéu vin « reiau, papau, emperiau e pountificau,<lb/>aqueu vin que fai li felibre», coume cantavo<lb/>Bonaparte- Wyse, em'uno reducioun de 25 sus<lb/>li pres courrent, rejougnegu dins lou cartabèu<lb/>castèu-nouven que se trovo embarra dins lou<lb/>mandadis d'aquest Aloli.</p>
+        <p><lb/>La Redacioun de l'Aioli se cargara de faire<lb/>passa li demando au Casteu de Roco-Fino.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>IVERS AMI de nosto lengo e, mai que<lb/>touti, Albert Tournier, biblioutecàri<lb/>au Menistèri de l'Estrucioun Publico,<lb/>an pensa que La rèino Jano, la<lb/>tragèdi de Mistral, poudrié e devrié se jouga,<lb/>l'estiéu que vèn, au Cièri restaura d'Aurenjo.</ab>
+        <ab type="head"><lb/>RèinO JANO Au CIÈRI</ab>
+        <p><lb/>Mai quau gouverno acò-d'aqui ? es uno<lb/>coumessioun noumado pèr lou Menistre de<lb/>l'Estrucioun Publico e di Bèus-Art, coumes-<lb/>sioun que sèis à Paris e que se despartis en<lb/>souto-coumessioun.</p>
+        <p><lb/>La sonto coumessioun, cargado de tria li pè¬<lb/>co que devran se representa 'n Aurenjo,emé lis<lb/>artisto dóu Tiatre Francés o dóu Grand Opera,<lb/>a fa chausido de l'Iphigénie de Racine emé dóu<lb/>segound ate de Samson et Dalila. Mai, graci<lb/>au valènt Tournier, se i'es pausa carradamen<lb/>la questioun de la Rèino Jano e, pèr assabenta<lb/>lou publi prouvençau de ço que s'es passa<lb/>aqui-subre, anan cita lou comte-rendu que<lb/>n'a fa Francisque Sarcey, dins lou journau La<lb/>Dépéche dou 22 desèmbre. Es éu-meme, Sar-<lb/>cey, qu'aquéu jour presidavo la souto cou-<lb/>messioun.</p>
+        <ab type="head"><lb/>Les représentations d'Orange.</ab>
+        <p><lb/>On a beaucoup parié, dans les journaux parisiens, de<lb/>ces représentations, qui doivent se donner lété pro-<lb/>chain, et le Gaulois, revenant sur ce sujet, publie cette<lb/>Information, qu'il serait question de jouer sur ce théatre<lb/>grandiose La Reine Jeanne, de Mistral, et il en donne<lb/>même la distribution éventuelle, Mile Lerou, Paul<lb/>Mounet, etc.<lb/>rité sur ce petit fait, qui intéresse plus spécialement les<lb/>ens du Midi.</p>
+        <p><lb/>Eici Sarcey esplico coume vai qu'en Aurenjo<lb/>se pòu jouga que d'obro apartenènt au reper-<lb/>tòri de la Coumèdi Franceso vo dóu Grand<lb/>Opera. Pièi aguènt di la counclusioun de la<lb/>sesiho óuficialo, acabo coume eiçò lou recit<lb/>que n'a fa:</p>
+        <p><lb/>Tout était réglé, et nous allions lever la séance, quand<lb/>un de mes collègues, M. Tournier, se leva pour faire une<lb/>Il nous parlait avec beaucoup de chaleur, et non sans</p>
+        <p><lb/>éloquence, d'une grande et belle manifestation d'art à<lb/>faire: il y avait an chef-d'œcuvre, La reine Jeanne, de<lb/>Mistral, qui ne pouvait étre dignement représenté que<lb/>sur le théâtre d'Orange, dans la patrie des féllbres.</p>
+        <p><lb/>Le président lui dit:</p>
+        <p rend="labelled"><lb/>— Mais nous ne sommes pas ici pour cela ; M. le Mi¬<lb/>nistre nous a invités à choisir les pièces que ses théa-<lb/>tres, les théâtres d'Etat, pourraient jouer à Orange. La<lb/>reine Jeanne n'est au programme ni de la Comédie-Fran-<lb/>caise ni de l'Opéra. Nous n'avons donc pas à nous en<lb/>occuper.</p>
+        <p><lb/>M. Tournier repartit là dessus, vantant et Mistral, et la<lb/>langue dans laquelle il avait écrit, et les Félibres, et le<lb/>Midi, que sais-je?</p>
+        <p rend="labelled"><lb/>Mais, lui répondait le président, personne n'empé-<lb/>che M. le Maire d'Orange et les Fellbres et vous d'orga¬<lb/>niser une représentation de La reine Jeanne. C'est votre<lb/>affaire. Tous ceux qui comprennent le provençal y vien-<lb/>dront, s'ils le jugent à propos. Mais nous, ce n'est pas<lb/>notre affaire. Nous n'avons à nous occuper que des<lb/>pièces demandées à la Comédie-Française et à l'Opéra.<lb/></p>
+        <p><lb/>M. Tournier insista; il voulut qu'on délibérât sur sa<lb/>motion, que l'on votât la mise au progtamme de La raine</p>
+        <p><lb/>Un débat assez confus allait s'engager, car les tétes<lb/>commençaient à s'échauffer; le Midi est contagieux. Mais<lb/>le président leva la séance.</p>
+        <p rend="labelled"><lb/>- Je soumettral la question à la commission pléntère,<lb/>dit M. Tournier.</p>
+        <p><lb/>Et voilà la vérité sur l'incident.</p>
+        <p><lb/>Vous aurez, peut-être, La reine Jeanne sur le théâtre<lb/>N'Orange, mais je doute que ce soient les théâtres d'Etat<lb/>qui se chargent de la représenter.</p>
+        <p><lb/>Aro, en de tàli coundicioun. la representa-<lb/>cioun de la Rèino Jano en Aurenjo es-ti pous-<lb/>siblo aquesto fes? Albert Tournier, que s'es<lb/>groupa de pèd e d'ounglo à l'entre-presso,<lb/>douto pas de la reussido. Melle Lerou, de la<lb/>Coumèdi Franceso, qu’es fiho dóu Miejour,<lb/>s'es cargado em' amour dóu grand role de<lb/>Jano, que saup deja d'à founs. Pau Mounet,<lb/>dóu meme tiatre e Duparc, de l'Oudeon, que<lb/>soun peréu miejournen, jougaran voulountié<lb/>li dous principau role d'ome, e l'on s'óucupo<lb/>ativamen de la coumpousicioun definitivo de<lb/>la troupo.</p>
+        <p><lb/>Se la municipalita de la vilo d'Aurenjo vòu<lb/>se metre à la rodo e se, Tournier l'espèro, la<lb/>Cigalo de Paris degno agrada la Reino Jano<lb/>1896es councproubabiequesan ciaallero de</p>
+        <p><lb/>le ne fest pas; ele est exacte sans rêtre. Voici la vé¬<lb/>Dins lou mounde artistl es souvènt questioun, naturala-<lb/> men, d'aquéu culte, l'Art, e ll valènt que l'amon se<lb/>plagnon de lou vèire à cha pau deperi,e n'en cercon l'en-<lb/>causo ; recouneissèn qu'an resoun.</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LOU VIN DI MUSO</head>
+        <lg>
+          <l><lb/>Felibre, quand ta muso es lasso e l'abandouno,</l>
+          <l><lb/>Oufrisse-ié subran un goubelet ben plen</l>
+          <l><lb/>De vin de Roco-Fino e lèu de si poutouno</l>
+          <l><lb/>Sentras mai la tebour l'embriaga lou sen !</l>
+        </lg>
+      </div>
+      <div type="article">
+        <head><lb/>L'ART</head>
+        <figure type="decoration"/>
+        <p><lb/>Senso óublida que P'Art es esta tous tèms aristoucrati,<lb/>valént-à-dire coumprés, persegui e ajoun que pèr uno mi-<lb/>nourita d'ome d'elei, tout en sachènt que la foulo es ja-<lb/>mai estado artisto, ço que fai pensa ço que douno aquelo<lb/>justo inquietudo i devot de l'Art, es la manifestacioun<lb/>invariablo d'aquéu fenoumène que, vue cop sus dès, fai<lb/>sourti lis artisto d'aquelo foulo ; ço que provo, mau-grat<lb/>tout, que se mescio a l'incounsciénci artistico dóu po-<lb/>ple un elemen pouderous, aquéu dou naturau.</p>
+        <p><lb/>Es dounc necite de fatura lou pople e d'entre-teni à<lb/>soun nivéu aquelo sabo invesiblo, insesissablo, que porto<lb/>dins éu senso lou raupre e que fai espandi à soun ouro ll<lb/>valents artisto.</p>
+        <p><lb/>Mai, per aco faire, lou fan counèisse, l'estudia e des.<lb/>souta lou mau que l'engèndro la flacarié que l'aganto,<lb/><lb/>car, l'a pas de doute, au-jour-d'uei a lou fla sus aquéu</p>
+        <p><lb/>Sènso trop cava, veici, à noste vejaire, co que n'es<lb/>P'encauso. Es li besoun de la vido, que soun touti li jour<lb/>que mal noumbrous e mai coustous.</p>
+        <p><lb/>Es aquelo espèci de prougrès à rebous que nous vèn de<lb/>l'Americo, e que counsisto à faire cas que de ço qu'es<lb/>lutile e coumode.</p>
+        <p><lb/>Es la modo, qu'es uno rèino assouludo, avuglo e bes-<lb/>tiasso, e, subre-tout, l'egoulsme individuau, qu'a passi<lb/>lou courage e tua l'esperit de sacrifice.</p>
+        <p><lb/>Emé lou trin de vido que se meno aro, fau gagna forço<lb/>e vite. Pièi, cadun voulènt agué mai que soun vesin e<lb/>l'espanta, cadun, — despacho-te que te despacharas, —<lb/>viro, tourno enjusquo à tant que lé fugue arriba.</p>
+        <p><lb/>Es aquelo fèbre, aquelo envelo de tout que fai naisse<lb/>la pacoutiho. Tout se fai à cop de poung, à la machino,<lb/><lb/>mai, costo gaire e, subre-tout, pareis. Vaqui l'ideau !</p>
+        <p><lb/>l'a, tambèn, lou plesi courpourau emé si tentacioun<lb/>enmascanto, qu'embrouncon lou mounde à chasque pas<lb/>e lou tout ensèn, se satisfai la vanita, se refresco lou ga-<lb/>vai, se gounflo la panro e chalo lou cor, abestis, destim¬<lb/>bourlo, liogo d'auboura vers l'amour dóu béu. Eh!<lb/>coume voulès vous amourousi de l'Art, se vivès em¬<lb/>pura pèr la passioun de l'esbroufe, de la mangiho e</p>
+        <p><lb/>Es dounc un devé sacra, pèr tóut aquéll qu'an encaro<lb/>dins la carnavello uno belugo d'afecioun pèr lou grand,<lb/>d'abra li fanau sus li bord dóu gourg ounte se vai en¬<lb/>suia nosto generacioun. Lis ome, noum de diéune ! an<lb/>de plus belli destinado !</p>
+        <p><lb/>Fau coumença per souna lou toco-sun e faire crento<lb/>mes d'avoust venènt, lis acènt prouvençau de<lb/>la tragèdi mistralenco clanti e ressouna davans<lb/>lou grand bàrri dou Cièri.<fw type="digitisation-artefact"><lb/>5ou/B d</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

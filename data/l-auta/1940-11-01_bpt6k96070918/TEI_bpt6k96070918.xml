@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k96070918</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1940-11-01">1940</date>
+          <idno type="ARK">bpt6k96070918</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k96070918</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>Nouvelle Série – N. 121<lb/>Novembre 1940<lb/>Paraissant tous les mois, sauf en Juillet, Septembre et Octobre</ab>
+        <p rend="heading"><lb/>QUE BUFO UN COP CADO MÉS<lb/>LES TOULOUSAINS DE TOULOUSE<lb/>ET AMIS DU VIEUX TOULOUSE<lb/></p>
+      </div>
+      <div type="article">
+        <head><lb/>SOMMAIRE</head>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>SAMEDI 30 NOVEMBRE à 14 h. 30, visite de l’an¬<lb/>cienne chapelle de Saint-Roch du Feretra, sous la direction de<lb/>M. J.-R. de Brousse, et de l’ancienne chapelle du Calvaire, sous la<lb/>direction de M. l’abbé Corraze.</p>
+        <p><lb/>Rendez-vous devant la chapelle Saint-Roch, rue du Feretra<lb/>(tramway no 26).</p>
+        <p><lb/>Dimanche 1er décembre, de 14 à 16 heures, réouverture du<lb/>Musée des Toulousains de Toulouse, 6, rue Saint-Jean.</p>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="132"/>
+        <ab><lb/>1836. — M. Roger DUFFOURC, Greffier au Tribunal Civil, 32, rue<lb/>du Colonel-Toussaint, présenté par MM. GoUT et R.<lb/>PÉRES.</ab>
+        <p rend="heading"><lb/>Nouveaux Adhérents</p>
+        <p rend="structured"><lb/>1830. — Mne Edith DUMÉRIL, 80, rue Alfred-Duméril, présentée par<lb/>Mle Chauvin et M. Duméril (membre donateur).</p>
+        <p rend="structured"><lb/>1831 — M. SANSAS, 4, place Lucas, présenté par MM. Mesplé et<lb/>J.-R. de Brousse.</p>
+        <p rend="structured"><lb/>1832. — M. D’EspOUY, à Monléon-Magnoac (Hautes-Pyrénes), pré-<lb/>senté par MM. J.-L. de Sevin et Mesplé.</p>
+        <p rend="structured"><lb/>1833. — M. Paul de NoYERS, architecte diplômé par le gouverne-<lb/>ment, lauréat de l’Institut, villa Les Accacias, à Lu-<lb/>chon (Haute-Garonne), présenté par MM. Stieber et<lb/>J.-R. de Brousse.</p>
+        <p rend="structured"><lb/>1834. – Mm<lb/>Juliette DisSEL, directrice du Théâtre d’Oc, à Castel-<lb/>naudary, présentée par M<lb/>Ducap et M. J.-R. de<lb/>Brousse.</p>
+        <p rend="structured"><lb/>1835. — M. GRANIER, président au Tribunal civil, 1, rue de Lan-<lb/>guedoc, présenté par MM. Rozès de Brousse et Cout.<lb/>s’intitule sa « mère », et lui conserve tout au long de sa vie une<lb/>affection pleine de tendresse et de vigilance maternelle. Au prin-<lb/>temps de 1794, ce valeureux jeune homme, pour reconnaître sans<lb/>doute toutes les attentions dont il a été l’objet dans la propriété<lb/>tarnaise de M. du Bosc, déclare que sa santé exige un séjour à Ba¬<lb/>gnères-de-Bigorre et craignant qu’un plus long séjour auprès d’une<lb/>famille très surveillée ne le rende suspect, il abandonne ses bien<lb/>faiteurs, tout en continuant à écrire à la bonne baronne de Ri¬<lb/>vières.</p>
+        <pb facs="0012.xml"/>
+        <milestone unit="page" n="142"/>
+        <figure type="decoration"/>
+        <p><lb/>En 1795, voilà Hyacinthre Azaïs à Toulouse. Il y vit avec son<lb/>père qui depuis quelques années s’est remarié après un veuvage. Il<lb/>habite un garni tenu par le citoyen Lacène, batteur d’or, rue des<lb/>Couteliers, et pour subvenir à ses besoins, il donne des leçons par-<lb/>ticulières de mathématiques et de musique. Il a des loisirs et ob¬<lb/>serve la vie autour de lui.</p>
+        <p><lb/>Le 25 avril 1796, il écrit à sa protectrice : « ... La ville de<lb/>Toulouse se laisse aller au temps qui la pousse. C’est aujourd’hui<lb/>l’administrateur récemment nommé Barrau, qui conduit les affai-<lb/>res ; ce Barrau que je pourrais voir tous les jours car il mange et<lb/>loge dans la maison, a été valet de sacristie chez les Cordeliers, de-<lb/>puis cordonnier jusqu’à l’âge de 36 ans, puis persécuteur terroriste,<lb/>aujourd’hui la principale personne du département. Au reste, tout<lb/>le monde assure qu’il a de singuliers talents naturels...</p>
+        <p rend="labelled"><lb/>« Les efforts des diverses factions n’intimident plus personne,<lb/>les mesures les plus vigoureuses ont à peine la consistance d’un<lb/>quart d'heure... L’emprunt forcé va son train, c’est-à-dire qu’il s'éta<lb/>blit et ne se paye guère. Un autre objet aigrit tous les esprits, c’est<lb/>la sévérité que l’on paraît aujourd’hui vouloir mettre dans le départ<lb/>des jeunes gens de la réquisition... (le caractère courageux et l’es-<lb/>prit patriotique d’Azaïs se retrouvent bien dans cette observa-<lb/>tien)...</p>
+        <p><lb/>« On s’est beaucoup entretenu hier d’une affiche horriblement<lb/>sanguinaire rédigée par quelque jacobin bien virulent, heureuse-<lb/>ment arrachée presqu’aussitôt que placée, et portée ici par quatre<lb/>propagandistes du Club du Panthéon. Une lettre de Paris, que l’on<lb/>dit même être du Ministre de l’Intérieur, a prévenu les autorités de<lb/>leur arrivée. Ils sont en fuite, ou du moins en retraite car ici les asi¬<lb/>les ne leur manquent point. On fait d’ailleurs mille réflexions fâ-<lb/>cheuses lorsqu’on sait que leur mission était aussi d’arborer le bon-<lb/>net rouge (en effet dimanche il fut implanté sur une pique au som-<lb/>met du Capitole), que la Municipalité y donne tout au moins son<lb/>consentement, qu’elle connaissait par conséquent les individus pro¬<lb/>vocateurs de ce signe et que c’était si peu dans l’intention du gou-<lb/>vernement qu’elle lui fit substituer hier un bonnet tricolore d’après<lb/>la lettre du Ministre de l’Intérieur. Ce changement a rendu les es-<lb/>prits plus tranquilles, la mobilité toulousaine ou plutôt française<lb/>fera le reste, mais il est vrai que pendant trois jours on ne jetait<lb/>qu’un coin d’œeil sur le sommet du Capitole et qu’on ne le dé-<lb/>tournait qu’avec frémissement...»</p>
+        <pb facs="0013.xml"/>
+        <fw type="numbering">— 1/3 —</fw>
+        <p><lb/>Quelques détails de mercuriales : « ... Tous les comestibles<lb/>baissent ici d’une manière sensible et à Bagnères la vie animale<lb/>est d’une modicité qui ne peut être expliquée que par la chute des<lb/>assignats. Le setier de blé y est à 12 livres, le millet à 6, la livre<lb/>de viande de 45 onces à 12 deniers, le beurre à 6. L’Espagne a<lb/>renoué avec les départements méridionaux un commerce dont l’in-<lb/>térieur de la France ne peut encore se ressentir à cause de la<lb/>difficulté des communications et c’est ce qui établit dans ces heu¬<lb/>reux pays une grande surabondance.»</p>
+        <p><lb/>A en croire Azaïs, la vie de Toulouse était alors fort joyeuse<lb/>et le relâchement des mœurs lui est un sujet de multiples remar-<lb/>ques. Ce dévergondage s’est introduit jusque dans « la bonne so¬<lb/>ciété » où son père lui a procuré de jeunes élèves. Il est plus cho-<lb/>quant encere chez des personnes qui, par leur caractère, devraient<lb/>être à l’abri de toute critique.</p>
+        <p><lb/>« Dom Capin, l’ex-prieur de la Chartreuse, est devenu directeur<lb/>de la Nouvelle-Comédie ; c’est lui qui distribue les rôles, attire des<lb/>acteurs et des actrices... », d’ailleurs il aura recours à lui. Ne s’est-<lb/>il pas avisé, au grand scandale de sa chère baronne, de se faire en¬<lb/>rôler dans l’orchestre en qualité de violon. Il satisfait ainsi son goût<lb/>pour la musique, mais aussi croit s’être mis définitivement à l’abri<lb/>d’un appel possible sous les drapeaux : les musiciens du spectacie<lb/>sont, paraît-il, dispensés du service militaire (voilà assurément<lb/>la véritable raison de cet emploi subalterne) et enfin, outre sa paie,<lb/>chaque fonctionnaire de l’orchestre a le droit d’emporter le soir une<lb/>chandelle, « ce qui n’est pas pour déplaire à mon père », avoue-t-il<lb/>ingénument.</p>
+        <p><lb/>Azaïs rencontre une vieille connaissance, l’abbé Dupuis, qu’il<lb/>a beaucoup vu alors qu’il était précepteur des enfants de Puybus-<lb/>que, mais c’est à présent « un abbé mondain, jambe tendue, une<lb/>badine à la main, le petit corps serré dans une lévite de nankin for.<lb/>propre, les cheveux relevés par un peigne et bouclés sur les côtés<lb/>avec une négligence charmante, se baissant toujours et sou¬<lb/>riant toujours... » Quant à l’abbé Maraval, de Carcassonne, « c’est<lb/>un grand roué qui met les filles à mal...»</p>
+        <pb facs="0014.xml"/>
+        <milestone unit="page" n="144"/>
+        <p><lb/>La vie familiale semble assez difficile chez Azaïs dont la jeune<lb/>belle-mère paraît incapable de tenir un ménage et gaspille sotte-<lb/>ment ce que gagnent les deux hommes. Fort heureusement la jolie<lb/>nièce du citcyen Lacène, Pouponne, offre des « compensations » à<lb/>l’apprenti philosophe. D’ailleurs celui-ci semble assez recherché du<lb/>sexe ; à Toulouse, outre Pouponne, il y a la fille d’un commerçan,<lb/>nommée Thérèse qu’il songe à épouser, et à Bagnères, c’est la<lb/>sœur de son ami Soubiès, la douce Fanny, qui est devenue « l’objet<lb/>de ses vœux ».</p>
+        <p><lb/>Mais Thérèse est séduite par un prêtre — de là vient peut-être<lb/>les critiques qu’Azaïs prodigue sur les mœurs du clergé — et<lb/>Pouponne est vraiment de si petite vertu que s’il succombait, il<lb/>« n’oserait plus revoir sa tendre mère », la baronne de Rivières,<lb/>fidèlement tenue au courant des hésitations sentimentales de son<lb/>fils d’adoption.</p>
+        <p><lb/>Hyacinthe très répandu dans le monde artistique fréquente les<lb/>concerts et narre une savoureuse anecdote sur les divertissements<lb/>toulousains sous le Directoire. Ecoutons-le :</p>
+        <p><lb/>« J’ai assisté hier à ce fameux concert qui n’a lieu qu’une<lb/>fois par semaine et où une dizaine de pauvres amateurs font tout<lb/>ce qu’ils peuvent pour faire du bruit. Comme on n’y va point pour<lb/>entendre la musique mais pour causer avec sa voisine, il serait in-<lb/>juste de dire que le but de cette société soit manqué. C’est là que<lb/>l’on trouve une cinquantaine de têtes à perruques, qui viennent se<lb/>montrer, une cinquantaine de longs imbéciles qui viennent les re¬<lb/>garder, et deux ou trois hommes de bon sens peut-être, qui vien¬<lb/>nent s’en moquer. A l’entrée de chaque Merveilleuse, vous verriez<lb/>toutes les femmes se lever pour voir toutes les pièces de son costume<lb/>ou de sa figure. Les hommes leur scurient sans les connaître<lb/>le plus souvent, sachant bien d’ailleurs qu’ils les connaîtront quand<lb/>ils voudront. On se rasseoit, les voisins se disent tout le mal qu'ils<lb/>en pensent, et la musique va son train. Les plus beaux Incroyables</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Nouvielle Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t545172286</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Nouvielle Vaclette : journal patoisant humoristique, non politique / avec la collaboration du Caveau lillois</title>
+          <publisher>[s. n.] (Lille)</publisher>
+          <date when="1928-01-21">1928</date>
+          <idno type="ARK">bd6t545172286</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t545172286</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>0.25 LE NUMERO</fw>
+        <fw type="runningTitle"><lb/>L'abonnement se paie d'Avance<lb/>5e ANNEB. — No 151</fw>
+        <dateline><lb/>Samedi 21 Janvier 1928.</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>journal patoisant-humoristiQue<lb/>NON POLITIQUE<lb/><lb/>AVEC La COlLABOration du<lb/>SIÈGE 49 RUE ST SAUVEUR<lb/>GéRANT: HERRENG<lb/></ab>
+        <ab><lb/>P.dUC. LIILE 28109. - C. Ch. Px 16162.</ab>
+        <p rend="styled"><lb/>Ce Journal n'a qu'un but, distraire ses nombreux lecteurs sans faire de politique ni de personnalité. — Sa devise est “ Bien faire et laicher dire ". — Il peut êtr.<lb/>lu partout et par tous. — On s'y abonne, pour (26 Nos 6.50) ; (39, 9.50) ; (52, 12 50) à l'ami Gaston Herreng, Gérant, 49, rue Saint-Sauveur, à Lille, ou à tous les Membret<lb/>du Caveau Lillois. Parait tous les samedis.</p>
+      </div>
+      <div type="article">
+        <figure/>
+        <p><lb/>Nous apprenons avec plaisir que notre Ami et<lb/>Collaborateur, Gustave Het, Membre Fondateur<lb/>du Caveau Lillois, vient d’obtenir une Médaille<lb/>d'Argent de la Société des Sciences de Lille,<lb/>pour ses poés es.</p>
+        <p><lb/>Cette récómpense est des plus méritée. Mon-<lb/>sieur Gustave llet est un poète de talent. Ses<lb/>poésies, empreintes de sentimentalité, sont d'une<lb/><lb/>note pure et vont droit au cœur. Doué d'une jolie<lb/>voix. Monsieur Het sait, à l’occasion, leur donner<lb/><lb/>P'essor qu'elles méritent.</p>
+        <p><lb/>Il ne dédaigne pas de taquiner de temps à autre<lb/>la muse patoise, ainsi que le prouve la présenta¬<lb/>tion qu’il a faite pour notre Almanach 1928, ainsi<lb/>que la chanson: Le Barbier antiseplique parue<lb/><lb/>dans le dernier recueil de chansons du Caveau<lb/>Lillois.</p>
+        <p><lb/>Il fut, en 1905, avec les Collaborateurs de La<lb/>Paclelle, fondateur de cette famille patoise qu’est<lb/>le Caveau Lillois, auquel il n'a cessé de prodi¬<lb/>guer ses conseils et à qui il a conservé son estime.</p>
+        <p><lb/>L' Nouvielle Vaclette et l' Caveau Lillois qui<lb/>s'honorent de le compter parmi leurs amis lui<lb/>adressent leurs plus vives félicitations.</p>
+      </div>
+      <div type="article">
+        <head><lb/>CAVEAU LILLOIS</head>
+        <p><lb/>L' vindredi 6 Janvier, l' Caveau Lillois a pro-<lb/>cédé au r'nouviell'mint annuel de s' Commission.<lb/>Ont été nommés pour un an: Président: E.<lb/>Lelong, Vice Président : F. Dupont, Secrétaire<lb/>Trésorier: D. Menez, Secrétaire Adjoint: G.<lb/>Herreng, Régisseur: G. François, Commis-<lb/>saires : T. Maréels, A. Warnier, II. Herreng.</p>
+        <p><lb/>Et à ch' t'heure, à l'ouvrache pour un an in<lb/>essayant d' bien faire in s'amusant, s'lon l' devise<lb/>que l'Caveau s'efforche d' mette in pratique.</p>
+      </div>
+      <div type="article">
+        <head><lb/>réponse a un bertonnard</head>
+        <p><lb/>Min vieux Mimile j'aime les hommes francs et<lb/>l' te félicite de t'avoir avoué publiquemint "ber-<lb/>tonnard". Mais pour cheull' fos, te fais cop<lb/>double ; te bertonnes à répétition.</p>
+        <p><lb/>Lon d' mi l'idée d'intervenir dins cheull' ques-<lb/>tion d' marraines qui t'as impêché d'aller à<lb/>Puteaux avec les chochons du Caveau.</p>
+        <p><lb/>Si t'avos été sérieux comme... comme mi, par<lb/>eximple, t' n'aros point, aujord'hui, d' s’excuses<lb/>à cacher pour te r'laver.</p>
+        <p><lb/>Bref, ch'est t' n’affaire, et n’in parlons pus.</p>
+        <p><lb/>Mais uch' que nous n' somm's pus d'accord,<lb/>ch'est quand te bertonnes sur l' T. S. F., les<lb/>postes à galènes et aut’s invintions du diable<lb/>comm' te dis.</p>
+        <p><lb/>Quand on n'aim' point un plat, cha n' veut<lb/>point dir' qu’on dot in dégouter l's autes. Si t<lb/>n'aim's point ch' l'invintion, t'as qu’à n'point in<lb/>profiter, et v’là tout.</p>
+        <p><lb/>Alors, s'lon ti, cha n' peut mett' que des<lb/>ménaches in broulle?</p>
+        <p><lb/>Et pour cha, te cites un eximple. Et ben, mi,<lb/>j' vas t'in citer deux qui t' prouv'ront qu' des<lb/>ménaches in bisbille sont r'mis d’accord grâce<lb/>aux postes à galènes.</p>
+        <p><lb/>Primo : Dins tin quartier du Vieux-Lille habite<lb/>un ménache dont nous appell'rons l'homme Fran¬<lb/>cos et l' femme Sophie, si te veux, pour n' point<lb/>les désigaer pus clair mint.</p>
+        <p><lb/>Ch' ménache arot été un modèle, sans l' passion<lb/>d' Sophie pou' l' camanettache «On a eun<lb/>lanque, ch'est pour s’in servir, énon,» qu'ell' dijot<lb/>quand on li faijot des r'proches. Aussi. ch'étot<lb/>souvint la guerre au ménache car, chaqu' soir,<lb/>après s'n ouvrache quand elle allot faire ses com¬<lb/>missions pour sin souper ou l' dinner du lind'.<lb/>main, ell' partot avec cheull' langue dont elle<lb/>aimot si bien de s' servir et ch' pauf' Franços avot<lb/>ses boyaux desséqués à forch' d'attinte après sin<lb/>souper, et il arrivot souvint que, d' discussions,<lb/>in paroles, ch' souper, tant attindu voltigeot pa’<lb/>l' cassis ou dins l' bac au carbon.</p>
+        <p><lb/>Franços s’est passionné, comme gramint, pou<lb/>l T. S. F. Il a un poste à galène qu'il a monté li<lb/>même et qui marche dins l' perfection.</p>
+        <p><lb/>A ch't'heure s' femme ell' peut partir tant<lb/>qu'ell' veut.<lb/>L' casque aux orelles, l'journal in face d' li</p>
+        <p><lb/>pour suife l' programme. i' n' s'aperchot mêm'<lb/>pus de s' n'absince et, au contraire, i' trouf tou-<lb/>dis qu'elle r'vient trop vite, tell'mint qu'il a peur<lb/>qu'ell' fasse du bruit pindant qu'il acoute.</p>
+        <p><lb/>l'a tros mos qu' cha dure; i's n'ont point eun'<lb/>seul' fos disputé.</p>
+        <p><lb/>Deuxiemmo: Dins min quartier d' Fives, i<lb/>aussi un ménache à donner in eximple. Li ch'est<lb/>Alfred, elle, app’lons le Marie, si te veux</p>
+        <p><lb/>I's sont dins l' commerce des légueumes. Elle,<lb/>eun' femm' d'ordre, bonne ménagère, Li, un<lb/>homme sérieux, mais.. (rien n’est jamais parfait,<lb/>i' a toudis un mais) il a l' passion du ja d' piquet.</p>
+        <p><lb/>Après s' journée faite, i va faire un chint dins<lb/>un tapis tout près de s' mason. Dins l' temps<lb/>pein' s'il étot siept heures que s' femme v'not l<lb/><lb/>querre ou inveyot vir après li pour souper.<lb/><lb/>Chaqu' fos i' répondot : «j'arrife» mais, intrainé<lb/>pa' s passion, i’ r'faijot un chint d' puque et<lb/>quand i' rintrot, ch étot des discussions à n'in pus<lb/>finir. Il a eu l'idée d' monter un poste à galène,<lb/>dont te dis tant d' ma. Eh ben à ch' t'heure, i<lb/>peut juer à cartes jusqu'à l'heur' qu'i veut, on¬<lb/>n' vient pus l' querre pou' souper.</p>
+        <p><lb/>S' femme est bien trop tranquille avé l's acou-<lb/>teurs. Incore un ménach' d'accord.</p>
+        <p><lb/>Et s'i' faut l' donner eun' trovièm' preufe d'<lb/>l'utilité de ch' l'inviation j' te dirais qu'elle a<lb/>montré ses bienfaits au point d' vue médical. Cha<lb/>t' surprind cha, hein? D'mande putot à Marcel,<lb/>l' frère d'un chef de musique de tin quartier, i'<lb/>dira que s' femme. étant continue ll'mint consti-<lb/>pée, il a eu l'idée d'monter sin poste au .. p'tit<lb/><lb/>indrot. Que s' femme, tous les soirs. va s'installer<lb/>avé l's aconteurs et, sot l'influence du... milieu,<lb/><lb/>elle est guérie de s' constipation</p>
+        <p><lb/>Ch'est p't'êl' génant pou' l’s aut's locataires,<lb/>mais avoue qu' ch'est incor là un des bienfaits<lb/>de ch' l'invintion.</p>
+        <p><lb/>A l' prochain' Mimile, et sans rancune.</p>
+        <ab><lb/>Racusette.</ab>
+        <ab><milestone unit="column" n="2"/><lb/>A L'OUVRIER<lb/>12, Rue Léon-Gambetta, LILLE<lb/>Vétements pour Dames, Messieurs et Enfants<lb/>Denil en 24 heures - 0 - Velours d'Amiens</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>VÉRIDIQUE</head>
+        <lg>
+          <l><lb/>J' connos dins Lill', pus d'un ménache,</l>
+          <l><lb/>Qu'après s'êt' traités d' tous les noms,</l>
+          <l><lb/>L'homme et l'femme s' donn'tent des " gnons'</l>
+          <l><lb/>Et l'lind'main, s'aim'tent davantache.</l>
+        </lg>
+        <ab><lb/>I. Maréels.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>T.S.F. pour Tous<lb/>34, Rue de la Clef, 34 - LILLB<lb/>Postes à Galène de tous prix<lb/>Postes à 3, 4, 5 et 6 Lampes<lb/>Pièces détachées<lb/></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

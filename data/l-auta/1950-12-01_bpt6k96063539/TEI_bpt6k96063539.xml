@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k96063539</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1950-12-01">1950</date>
+          <idno type="ARK">bpt6k96063539</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k96063539</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Paraissant tous les mois, sauf en Juillet, Septembre et Octobre</fw>
+        <head><lb/>Nouvelle Série – N. 208<lb/>DÉCEMBRE 1950<lb/>QUE BUFO UN COP CADO MÉS</head>
+        <ab><milestone unit="column" n="1"/><lb/>LES TOULOUSAINS DE TOULOUSE ZRUE<lb/>ORGANE.<lb/>SOCIETE<lb/>ET AMIS DU VIEUX TOULOUSE<lb/>MAΥ</ab>
+      </div>
+      <div type="article">
+        <head><lb/>SOMMAIRE</head>
+        <figure type="table"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>DIMANCHE 10 DECEMBRE, à 14 h. 30, M. Barlangue, Président<lb/>de la Chambre de Commerce, présentera aux Toulousains de<lb/>Toulouse les aménagements nouveaux du Palais Consulaire<lb/>(Chambre de Commerce) et de l’Ecole Supérieure de Commerce<lb/>(Hôtel Saint-Jean). Des explications historiques seront fournies<lb/>par M. Mesplé.</p>
+        <p><lb/>Entrée par le jardin à l'angle de la rue d'Alsace-Lorraine<lb/>et de la rue Croix-Baragnon.</p>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="130"/>
+        <p rend="heading"><lb/>Du nouveau sur Antoine Dumay</p>
+        <p rend="heading"><lb/>La thèse du Dr Serge Castan</p>
+        <p><lb/>Notre précédent numéro avait annoncé le classement de l’hôtel<lb/>Dumay comme monument historique. Aujourd’hui c’est une nou¬<lb/>velle bonne fortune qui advient à notre demeure, sous la forme de<lb/>la thèse de M. le Docteur Serge Castan : Un maître de la Faculté de<lb/>Médecine de Toulouse au XVIe siècle: le régent Antoine Dumay.</p>
+        <p><lb/>En général, les thèses sont d’intérêt très divers et il est fréquent<lb/>qu’elles se ressentent de la jeunesse de leurs auteurs. Celle-ci fait<lb/>nettement exception par la solidité du fonds, par la conscience avec<lb/>laquelle le sujet a été traité, élargi et enrichi, enfin par l’élégance<lb/>et la clarté de l’exposé. C’est l’œuvre d’un esprit singulièrement mûr<lb/>et d’un historien né. Les révélations de cet ordre ne sont pas si<lb/>nombreuses que nous ne nous empressions de les signaler quand<lb/>elles viennent à se produire, mais on comprendra que notre em¬<lb/>pressement soit singulièrement accru du fait qu’il s’agit d’une étude<lb/>retraçant la vie du personnage à qui l’on doit l’hôtel Dumay.</p>
+        <p><lb/>Nous signalons donc, comme un ouvrage à se procurer, ce petit<lb/>volume de 80 pages (1) où la vie de ce médecin et brasseur d’affai-<lb/>res est exposée avec le plus grand souci de vérité et où lorsque les<lb/>précisions manquent, il y est suppléé, fort ingénieusement, par des<lb/>suggestions basées sur les plus solides données historiques. Le mi¬<lb/>lieu remplace l’homme avec toute la prudence et le souci désirables.<lb/>Et c’est ainsi que sont évoquées tour à tour l’ascendance et la fa¬<lb/>mille de Dumay, sa jeunesse, ses études, son installation à Toulouse,<lb/>sa réussite comme médecin en renom et comme notable Toulousain,<lb/>son accession au poste de Docteur-Régent de la Faculté de Méde¬<lb/>cine, sa nomination comme conseiller et premier médecin de la<lb/>reine Marguerite de Valois. Puis vient l’histoire de son hôtel et<lb/>son étude archéologique, enfin le décès du personnage, ses testa¬<lb/>ments et sa descendance.</p>
+        <p><lb/>Chemin faisant, M. le Dr Castan apporte des faits nouveaux ou<lb/>rectifie certaines légendes. Il nous apprend ainsi, d’après les archi¬<lb/>ves de la Faculté de Médecine de Montpellier, qu’Antoine Dumay<lb/>conquit dans cette ville son baccalauréat en médecine le 10 jan-</p>
+        <note>
+          <p rend="labelled"><lb/>(1) Imprimerie Cléder, 28, rue de la Pomme.<fw type="digitisation-artefact"><lb/>ource gallica.bnf.fr/Association des Toulous</fw><lb/>111 pages et ensuite dans un grand in-16 de 29 pages, dans la Col-<lb/><lb/>lection du Théâtre contemporain illustré.</p>
+        </note>
+        <pb facs="0012.xml"/>
+        <milestone unit="page" n="140"/>
+        <p><lb/>L’année suivante, en 1849, l’imprimerie Danel de Lille, publiait<lb/>également un Fualdès, « drame en cinq actes et huit tableaux, ra-<lb/>conté par une victime » (?), dont nous ignorons si il connut les<lb/>feux de la rampe.</p>
+        <p><lb/>Et tandis que des romanciers comme Jules Beaujoint, Octave<lb/>Ferré, Edmond Lepelletier, Louis Réginal, consacraient à l’Affaire,<lb/>avec plus ou moins de fantaisie, et sous des titres divers, des ro¬<lb/>mans populaires; alors que des historiens et des philosophes l’étu¬<lb/>diaient avec plus d’exactitude, il fallut attendre 1950 pour voir<lb/>Clarisse Manzon et les assassins du Procureur Fualdès revenir au<lb/>théâtre.</p>
+        <p><lb/>« Ecoutez, peuple de France... Le mémorable accident, d’un crime<lb/>très conséquent... », ainsi débutait l’illustrissime Complainte qui,<lb/>en quarante-huit couplets, nous rapporte l’égorgement de la rue<lb/>des Hebdomadiers, cette Complainte qui connut pendant plus de<lb/>trois quarts de siècle une notoriété immense et que ma grand’mère<lb/>m’a dit maintes fois avoir entendu chanter sur la musique d'une<lb/>orgue de Barbarie nostalgique. M. Denis Marion est parti de là,<lb/>pour écrire sa pièce, tout comme Douking, le metteur en scène de<lb/>Jeanne avec nous, à la Comédie des Champs-Elysées, de Sodome<lb/>et Gomorrhe, au Théâtre Hébertot, de Lucienne et le boucher, l’an<lb/>dernier, au même Vieux Colombier, est parti des Images d’Epinal<lb/>qui illustrèrent la sombre affaire, pour assurer une mise en scène<lb/>parfaitement originale.</p>
+        <p><lb/>Dans le programme, après un bref rappel historique signé par<lb/>l’auteur du mélodrame, Douking s’explique ainsi : « Sans vouloir<lb/>prétendre créer un genre nouveau, nous espérons tous, l'auteur<lb/>Denis Marion, le musicien Georges Van Parys, les interprètes —<lb/>Lucien Nat et Simone Laure en première ligne — et moi-même,<lb/>avoir retrouvé la liberté d’expression, d’allure qu’avaient ces bala¬<lb/>dins (les chanteurs de la Complainte) qui mettaient autant de sin-<lb/>cérité à « mettre leurs tripes au soleil » qu’à faire une pirouette ou<lb/>à chanter la romance. C’est une parade qui présente une comédie.<lb/>C’est une comédie qui conduit au drame. C’est un drame qui touche<lb/>à la bouffonnerie.</p>
+        <p><lb/>M. Jean-Jacques Gautier, dans Le Figaro, semble n’avoir pris<lb/>aucun plaisir à cette représentation qu’il trouve ennuyeuse et d’une<lb/>longueur incommensurable. Par contre, M. Robert Kemp, dans<milestone unit="column" n="1"/><lb/>Le Monde, se souvenant d’avoir entendu lui aussi sa grand’mère lui<lb/>parler de la Complainte, nous dit y avoir trouvé du plaisir. La presse<lb/>est divisée, et le public, intrigué, louange ou critique. Pour ma part,<lb/>je conseille aux méridionaux de passage en la capitale d’aller au<lb/>Vieux Colombier. M. Denis Marion a respecté l’histoire, et c’est<lb/>tellement rare au théâtre ou au cinéma lorsqu’on aborde un sujet<lb/>historique ! La succcession d’Images d’Epinal, chaudes en couleur,<lb/>qui constituent les divers tableaux, les entrechats de Lucien Nat<lb/>(le chanteur de la Complainte), les airs de M. Van Parys, « qui a<lb/>assaisonné le vieux pont-neuf d’harmonies vinaigrées », le clair¬<lb/>obscur dans lequel se déroule le drame, tout cela ne peut qu’inté¬<lb/>tesser hautement. C’est étrange, c’est curieux, cela ne peut être<lb/>indifférent. Et si l’on ne rit pas, c’est que, ma foi, l’égorgement<lb/>de ce pauvre Monsieur Fualdès n’a rien de drôle et qu’un mélo-<lb/>drame n’est pas un vaudeville.</p>
+      </div>
+      <div type="article">
+        <pb facs="0013.xml"/>
+        <milestone unit="page" n="141"/>
+        <dateline><lb/>Pierre DE GORSSE.</dateline>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>02<lb/>ener</ab>
+        <ab type="head"><lb/>Visites et Promenades</ab>
+        <ab type="head"><lb/>Au Musée Dupuy</ab>
+        <ab type="head"><lb/>Les plans gravés de Toulouse et la donation de M. Louis Lacroix</ab>
+        <p><lb/>Les Toulousains de Toulouse qui ont eu la primeur de la pré¬<lb/>cieuse étude de M. Robert Mesuret sur les plans gravés de Toulouse<lb/>se devaient d’aller visiter l’exposition de ces plans eux-mêmes dont<lb/>ils avaient lu la description dans L’Auta. M. Robert Mesuret leur<lb/>en a fait les honneurs avec sa bonne grâce habituelle et son éru¬<lb/>dition élégante et précise, dans l’après-midi du 3 décembre. Ils ont<lb/>pu admirer cette réunion unique qui ne comprend pas moins de<lb/>43 numéros et qui comporte des pièces rarissimes entre autres le<lb/>fameux plan de 1663 dont le musée des Toulousains de Toulouse<lb/>possède une épreuve en couleur de la partie gauche et dont une<lb/>splendide épreuve en noir de la partie droite a été récemment<lb/>acquise par le Musée Mupuy. Ainsi les deux épreuves se complè¬<lb/>tent, mais elles sont à l’heure actuelle les deux seuls témoins d’un<lb/>tirage qui a du être vraisemblablement détruit en raison de son<lb/>infidélité.<lb/><lb/><lb/><lb/></p>
+      </div>
+      <div type="article">
+        <pb facs="0014.xml"/>
+        <milestone unit="page" n="142"/>
+        <p><milestone unit="column" n="1"/><lb/>A cette exposition s’ajoutait celle des dons faits aux divers musées<lb/>de Toulouse par M. Louis Lacroix, l’amateur d’art bien connu,<lb/>Mainteneur de l’Académie des Jeux Floraux et Président de l’Aca-<lb/>démie des Arts. Il y a là des tableaux offerts au Musée des Augus-<lb/>tins, œuvres de Baignères, de Tournès, de Marius Michel, de Sou¬<lb/>dan, de Legrand, d’Angèle Delassalle et un important ensemble<lb/>d’estampes et de dessins offert au Musée Dupuy : la splendide et<lb/>rare lithographie du Bon Samaritain par Bresdin, l’affiche de Mau-<lb/>rice Denis pour « La Dépêche », des dessins de Bida, Latour, Lucas,<lb/>Griffoul-Dorval, Joseph Engalière, Granié, Romain Cazes, Gabriel<lb/>Durand, Duston, Falguière, Marcel Lenoir, Cadène, Auglay, Harant,<lb/>Monin pour ne parler que des Toulousains anciens et modernes, en<lb/>dehors desquels il convient de ne pas oublier deux pièces fort di¬<lb/>verses, mais d’une qualité rare, un dessin de Raoux pour son Pyg¬<lb/>malion et un croquis de Boldini, le peintre des élégances parisien¬<lb/>nes, exécutés sur la nappe d’un restaurant.</p>
+        <p><lb/>Des photos de cinq vases néolithiques de Kan-Sou (Chine) rap-<lb/>pelaient que M. Lacroix est également un bienfaiteur du Musée<lb/>Labit.</p>
+        <p><lb/>Les Toulousains de Toulouse qui possèdent eux-mêmes dans leur<lb/>musée des dons de M. Lacroix, ne peuvent qu'applaudir à l'inlas-<lb/>sable générosité de ce donateur qui est également, comme chacun<lb/>sait, le plus modeste, le plus affable et le plus érudit des hommes.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Bibliographie</head>
+        <head><lb/>La Bourboule et l'Auvergne (Imprimerie Allier, 26, Cours Jean¬<lb/><lb/>Jaurès, Grenoble).<lb/></head>
+        <p><lb/>Le Docteur Georges Cany, qui n’oublie pas ses attaches toulou¬<lb/>saines, envoie « à ses bons amis de la rue du May », — c’est le<lb/>texte même de sa dédicace, — la quatrième édition du Guide Cany<lb/>qu’il a rédigé en collaboration avec le Docteur Jean Cany, Louis<lb/>Glangeaud, Doyen de la Faculté des Sciences de Besançon et Luc<lb/>Olivier, Chef de Travaux à la section biologique de Besse-en¬<lb/>Chandesse.</p>
+        <p><lb/>Cette quatrième édition se présente sous la forme d’un élégant<lb/>volume in-16, de 280 pages sur papier couché sous élégante cou¬<lb/>verture cartonnée. Tout y est examiné du pays d’adoption du<fw type="digitisation-artefact"><lb/>fr<lb/>Associatio<lb/></fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

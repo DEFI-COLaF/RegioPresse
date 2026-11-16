@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81360454</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1892-10-27">1892</date>
+          <idno type="ARK">bpt6k81360454</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81360454</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>DMOU 27 D'ÓUTOBRE 1892</fw>
+        <ab><milestone unit="column" n="1"/><lb/>SEGOUNDO ANNADO, No 66.</ab>
+        <ab><lb/>Nautri, li bon Prouvençau,</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Vidorn, Vidau,<lb/>Segound la vido<lb/>Lou journau.<lb/>Procverei di mémounies</ab>
+        <figure type="table"/>
+        <ab><lb/>Au sufrage universau,<lb/>Voutaren pèr l'oli<lb/>E faren Paioli.<lb/>F. MISTRAE</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT ERES FES PÈR MES (7, 17, 27)</p>
+        <figure/>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI,<lb/>au palais dou Roure,<lb/>EN AVIGNOUN</ab>
+        <figure type="decoration"/>
+        <ab><lb/>Baile dóu journau:<lb/>FOLCÒ DE BARONCELLI.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>CHARRARIÉ MARSIHESO</head>
+        <p rend="styled"><lb/>La Toussant. — Lei sant de la Glèiso. - Lei Mouert. - Sou-<lb/>veni d'Argié. - Noucsto-Damo d'Africo. - Lei Paire<lb/>Blanc. – Preguiero pèr lei paurei nega</p>
+        <p><lb/>Ounouro douei meno de sant, la Glèiso :<lb/>aquélei de seis enfant qu'an soufert lou mar-<lb/>tiri pèr elo e aquélei que, après d'uno vido<lb/>eisemplàri e segound seis ensignamen, an<lb/>embeima la terro dóu prefum de sei vertu. E,<lb/>en boueno maire, glourifico lou souveni de<lb/>cadun d'élei pèr uno festo à soun entencien.<lb/>Mai lei noum, pecaire, de tóuti lei sant soun<lb/>pas vengu enjusqu’à-n-elo.</p>
+        <p><lb/>Quouro, pèr l'ordre dei Cesar de Roumo,<lb/>lei proumié crestian, counfessour de la novo<lb/><lb/>religien, chapla pèr la picosso pagano, tóuti<lb/>ensaunousi pèr lei dènt e leis arpien dei bèsti<lb/>fèro, toumbavon pèr milié, tenchant de soun<lb/>sang la sablo dóu Coulisèu, que d'eros incou-<lb/>nouissu ! De meme, dins leis iàgi innoucènt<lb/>de la Fe, que de bràvei crestian, nimai cou¬<lb/>nouissu, an viscu, ignoura, dins la penitènci<lb/>e l'abrasamen dei cavo de la religien e si soun<lb/>amerita la courouno dei sant !</p>
+        <p><lb/>Mai, se lei counoueis pas tóuti pèr sei noum,<lb/>la Glèiso leis óublido pas, pèr acò, sei valènt<lb/>sourdat. E vaquito perqué, lou proumié de<lb/>nouvèmbre, celèbro en grand la fèsto de Touei<lb/>lei Sant, fèsto mounte, dins uno memo pen-<lb/>sado d'amour, lei festejo touti, counouissu vo<lb/>Après d'agué ounoura sei sant, la religien</p>
+        <p><lb/>crestiano sounjo tambèn ei pàurei mouert. E,<lb/>lou jou d'après Toussant, estremant sei dra-<lb/>parié à gàiei coulour tóutei resplendènto d'es-<lb/>tello d'or, si mascaro de negre e plouro aquélei<lb/>que soun pas plus, pregant pèr lei mesquin<lb/>pèr qu degun a jamai prega e que sa toumbo<lb/>a jamai vist si passi sus d'elo uno flour amigo,<lb/>uno courouno de souveni.</p>
+        <p><lb/>Aquelo festo, li dien: Lei Mouert.</p>
+        <p><lb/>L'a 'no bravo vòuto d'eiçò. Un an, pèr lei<lb/>Mouert, m'atrouvàvi en Argié. Debado dóu<lb/>tristùgi dóu jou, lou soulèu qu'a rèn à demes-<lb/>cla 'mé nautrei, semblavo faire d'aquéu jou<lb/>dei Mouert un jou de festo pèr lei viéu. Lou<lb/>cèu èro tout embluri. La vièio vilo maugra-<lb/>bino, pu blanco qu’uno nòvi, esbarlugavo<lb/>amount dins la Cassaba souto lou verdau<lb/>dei panmié e deis arangié. E, tout à soun en-<lb/>tour, lei couelo de la Bouzarea — de mounte,<lb/>en 1830, lei canoun francés venguèron faire<lb/>babòu sus d'Argié que, dins soun ourguèl, leis<lb/>fasien coumo uno courouno de verduro. L'er<lb/>faguèron tout lou soulòmi deis enterramen<lb/>pèr lei pàurei nega. Puei, entandóumens que la<lb/>serp en couire dóu lutrin respoundié emé sa<lb/>voues de grapaud à la voues de basso-taio dei<lb/>moueine, lou capoulié d'aquéstei, saussant<lb/>l'asperscun dins lou benechié d’argènt que li<lb/>pourgié un clerjoun, avié benesi la crudèlo<lb/>mar e l'avié espoussa dessus quauquei blin-<lb/>olin d’aigo-signado.<lb/></p>
+        <p><lb/>E tóuti, esmougu, lei lagremo à l'uei, lou<lb/>couer boulega, dins noueste sicap, pregavian<lb/>a mar d'èstre mens marrido, elo, la terriblo,<lb/>elo, la sènso-pieta, que, pu marrido que la<lb/>terro dóu cementèri, aclapo tant de viéu !</p>
+        <p><lb/>E desempuei, touti leis an, pèr lei Mouert,<lb/>sóungi que, de l'autre caire de la, en terro<lb/>maugrabino, amount dins la couelo, de<lb/>moueine que lei souenon lei Paire Blanc e que<lb/>soun vesti à la bédouvino, prègon pèr lei pau-<lb/>rei nega.</p>
+        <ab><lb/>Batisto ARTOU.</ab>
+        <p><lb/>Marsiho, 23 dtbre 09.<lb/>vilo pèr ana m'enebria de flanarié au grand<lb/>souleias.</p>
+        <figure type="decoration"/>
+        <p><lb/>Eri sourti pèr Bab-el-Oued, la Pouerto-dóu-<lb/>Valat, e leissant à drecho lou camin, bourda<lb/>pèr la mar, que va à Sant-Eugèni, l'Endoume<lb/>argerin, aviéu pres à man senèco la travèsso<lb/>de Fres-Valoun; aviéu travessa La Cantera,<lb/>aquéu faus-bourg espagnòu d'Argié; en pas-<lb/>sant, aviéu saluda l'Espitau dóu Dèi, encian<lb/>palais d’estiéu dei soubeiran dóu pais, vuei<lb/>espitau pèr nouéstei sourdat ; e aviéu enrega<lb/>lei draiòu, prefuma de caclo, que menon à<lb/>Nouesto-Damo d'Africo.</p>
+        <p><lb/>Coumo N.D. de la Gardi de Marsiho, N. D.<lb/>d'Africo es quihado sus d'uno couelo e sa<lb/>glèiso, bastido à la modo dei Tuerc, si ves d'en<lb/>pertout : de terro coumo de sus mar. Lou<lb/>servici n’es fa pèr de moueine qu’an soun<lb/><lb/>couvènt à sei caire e que li dien lei Paire<lb/>Blanc. Acò's pas de moueine vesti coumo<lb/>aquélei de Franço, soun abihàgi es aquéu dei<lb/>Bedouvin : calot rouge sus la tèsto, burnous<lb/><lb/>de lano blanco sus leis esquino. E sa Boueno-<lb/>Maire, qu'es negro coumo aquelo de Sant-<lb/>Vitou, vous dis: Nigra sum, sed formosa, siéu<lb/>negro, mai siéu bello.</p>
+        <p><lb/>Tant l'èr es trelusènt en Africo que lei cavo<lb/>lei pu luencho si vien coumo s'anavias lei<lb/>touca 'mé la man. De la Plaço dóu Gouvèr<lb/>d'Argié, si ves, eilalin au fin founs de la Ka-<lb/>vilio, lou Jurjura que soun cresten, de-longo<lb/>de l'an, es tapa de nèu. Nouesto-Damo-d'A-<lb/>frico, quand l'anas, sèmblo toujou que li sias,<lb/>e n’en fau alounga de sabato, uno davans<lb/>l'autro, pèr l'arriba! Es verai que lei draiòu<lb/>que fau escala e que fan la serp dins la couelo,<lb/>soun tant agradiéu que v'avisas pas dóu ca-<lb/><lb/><lb/>min. Toustèms vous li acoumpagnon la boueno<lb/>sentour dei cacio que seis aubrihoun servon<lb/>de baragno e la visto dei bèis aràngi e dei mi¬<lb/>gnòtei mandarino que n'en plegon leis aubre<lb/>dei bastido vesino. Sias enviróuta de verduro,<lb/>e à cade cantoun vouésteis uei meraviha des¬<lb/>cuerbon avau la mar bluro que seis erso, blanc<lb/>riban d'escumo, vènon mouri en repepiant sus<lb/>lei coudoulet dóu ribàgi.</p>
+        <p><lb/>Un espetacle bèn fa pèr boulega lou couer<lb/>m'esperavo adamount. Dins la glèiso, tendudo<lb/>de negre, lei Paire Blanc disien l'óufici dei<lb/>Mouert. Puei l'óufici acaba, coume s'anavon<lb/>à-n-un enterramen, moueine e assistant, tout<lb/>lou mounde èro sourti, e crous encrespado<lb/>de dòu e bandiero négro en tèsto, èron ana<lb/>à-n-un gros catafau auboura davans la mar<lb/>que blurejavo eilabas. E, aqui, davans lou bèu<lb/>soulèu d'or, souto la capo bluro dóu cèu, à</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Quand outobre pren fin,<lb/>Toussant es lou matin.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>li catalan nous passon</head>
+        <p><lb/>Dins L'Aiti, l'autre jour, se parlavo de l'urgênci que<lb/>r'avié de publica, per l'ensignamen dôu pople, un Cate-<lb/>clusme prourençau countenènt lou coumpendi de listòri<lb/><lb/>de Prouvenço, de l'istòri peréu de nosto literaturo, em'un<lb/>escapouloun de gramatico prouvençalo, un espausat de<lb/>l'ourtougrafi de nosto lengo d'O e autris epitome d'edu-<lb/>cacioun poupulàri.</p>
+        <p><lb/>Mai ço que l'a de singulié, entre Prouvènço e Cata-<lb/>lougno, es que, tóuti li fes qu'uno idèio espelis dins l'un<lb/>o l'autre pople pèr se leva de dessouto, es rare que l'ideio<lb/>noun sourgènte à la fes di dous coustat di Pirenèu.</p>
+        <p><lb/>Vaqui que nous arribo, tout-escas, de Barcilouno, un<lb/>poulit librihoun escri en catalan, que reverto mai-que-<lb/>mai à-n-aquéu qu'es questioun de faire pèr Prouvenço.<lb/><lb/></p>
+        <p><lb/>Aquéu libre catalan, entitula Reglas morals y de bona<lb/>criansa, es un simple tratat d'ounesteta pèr l'enfantuegno,<lb/>escri à la pourtado di pichot Catalan. Sara segui, aquéu<lb/>libret, d'un autre sus l'igièno, d'un sus la Gramatico,<lb/><lb/>d'un sus la Geougraflo, d'un sus l'istòri, d'un sus li Letro,<lb/>d'un sus lis Art e Mestié, d'un sus l'Agriculturo, e d'uno<lb/><lb/>tiero d'autre, «tots redactats y concebuts (nous anouncio<lb/>P'autour) en idioma y esprit catalá »</p>
+        <p><lb/>Aquéll libre d'ensignanço, de cent e quauqui pajo, emé<lb/>quauquis llustracioun, van parêisse à-de-rèng souto lou<lb/>titre generau de Biblioteca escolar catalanista.</p>
+        <p><lb/>L'autour e direitour es un sòci dóu Felibrige, lou fin<lb/>roumansié catalan En J. Pin y Soler, proufessour de<lb/>literaturo e de lengo espagnolo à l'Escolo Superiouro de<lb/>Coumerce de Marsiho. Sarié de souveta que, senso mal<lb/>tarda, quauque bon prouvençau, espert dins nosto lengo<lb/>e plen d'aquelo idélo, eici s'empleguèsse à- n-aco. lé sarié<lb/>nai d'ounour que de perdre soun têms, coume n'Ta tant</p>
+        <ab><lb/>o/̀</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

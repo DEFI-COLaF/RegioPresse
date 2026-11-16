@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81361034</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1894-06-07">1894</date>
+          <idno type="ARK">bpt6k81361034</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81361034</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>QUATRENCO ANNADO, No 124</fw>
+        <ab><milestone unit="column" n="3"/><lb/>DIJOU, 7 DE JUN 1894</ab>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PÈR MES (7, 17,27)</p>
+        <figure/>
+        <ab><lb/>PREs DE L'aBOUNAMEN</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab><lb/>BURÉU DE REDACIOUN<lb/>FOLCO DE BARONCELLI,</ab>
+        <figure type="table"/>
+        <ab><lb/>FOLCO DE BARONCELLA</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Car cantan que pèr vautre, o pastre e gènt di mas,</ab>
+        <ab type="head"><lb/>«Lou Nis¬</ab>
+        <lg>
+          <l><lb/>Ai lou dous segren d'uno languisoun</l>
+          <l><lb/>Oue me fai bela la vido eternalo.</l>
+          <l><lb/>Au mié dóu fangas sènte lou besoun</l>
+          <l><lb/>De purifica moun amo au lauroun</l>
+          <l><lb/>D'uno aigo celestialo.</l>
+        </lg>
+        <lg>
+          <l><lb/>Apereilamount plus aut que li niéu,</l>
+          <l><lb/>Ounte arribo pas l'ecò di desastre,</l>
+          <l><lb/>Plus liuen d'eiçavau, plus proche de Diéu,</l>
+          <l><lb/>Vole dins l'azur faire un nis pèr iéu</l>
+          <l><lb/>Que regirien lis astre.</l>
+        </lg>
+        <lg>
+          <l><lb/>Mai lou vole tant, tant e tant dreissa</l>
+          <l><lb/>Dins la pureta di plano estelado</l>
+          <l><lb/>Que l'eiglas feroun de la terro aussa</l>
+          <l><lb/>Noun posque jamai dins soun vòu pressa</l>
+          <l><lb/>Ié gandi sa voulado.</l>
+        </lg>
+        <lg>
+          <l><lb/>Car tout ço que vèn de la terro adus</l>
+          <l><lb/>Un pau de fangas mau-grat lis aurasso</l>
+          <l><lb/>E l'aiglo que duerb soun alo à la lus</l>
+          <l><lb/>Espousco en passant davans soun trelus</l>
+          <l><lb/>La fango que tirasso.</l>
+        </lg>
+        <lg>
+          <l><lb/>Pièi vole enciéucla moun nis talamen</l>
+          <l><lb/>Que dintre moun Diéu soul ié posque vèire,</l>
+          <l><lb/>Pèr-ço-que moun nis es miéu soulamen,</l>
+          <l><lb/>E que l'amista, s'es vraio un moumen,</l>
+          <l><lb/>Peto pièi coume vèire.</l>
+        </lg>
+        <lg>
+          <l><lb/>Soulet, tout soulet, vole viéure ansin,</l>
+          <l><lb/>E liuen de la terro, urous e tranquile,</l>
+          <l><lb/>Dins li jour escrèt d’un bonur sèns fin,</l>
+          <l><lb/>Treva lis arcange e li serafin,</l>
+        </lg>
+        <p><lb/>Pur e fièr coume un ile !<lb/>en ié leissant la liberta. E travaiè, e travale bên tant<lb/>qu'un jour l'engeniaire di mino, se l'interessant, lou<lb/>prenguè dins si travai pèr dessina.</p>
+        <p><lb/>Mai que bonur pèr éu quand, l'obro coumplido — un<lb/>pau avans jour fall — tournavo au fougau de la bono<lb/>maire, s'enfounsa dins si libre o escriéure lis empressioun<lb/>acampado long dóu camin, dins lou dòu di routo de Vau¬<lb/>Dono, vers li draiòu misterious de Sant-Savournin, sus<lb/>li coulet risent de Cadóulivo....</p>
+        <p><lb/>Soun iniciacioun i causo de Santo Estello comto d'ape-<lb/>raqui 1886. Bro naturau qu'un enfant dóu pople inteligent<lb/>fuguèsse atira vers aquelo reneissènço poupulàri que<lb/>dins soun gigant proulogue dis:</p>
+        <p><lb/>e naturau éro que lou fléu dóu carbounié di mino, après<lb/>agué fa la couneissenço dis ome dou Ventour que</p>
+        <ab><lb/>Soun pastre o valènt carbounié,</ab>
+        <p><lb/>s'escridèsse: Anchio siéu felibre!<lb/>E felibre de la bono segur siguè Lescure aguênt aprés</p>
+        <p><lb/>la lengo de la vido sènso proufessour, aguè lèu fa de<lb/>poussedi la lengo d'amour emé de mèstre coume Mistral<lb/>e Gras. E d'aquéu jour si relacioun se noumbrèron plus.</p>
+        <p><lb/>Lou felibre de Greasco, pèr soun talènt vertadié, pèr<lb/>soun cor francamen dubert, pèr soun ignourènci di lucho,<lb/>inchaiènt dis escolo poulitico, éro l'ami de tóuti; de tóuti<lb/>lis artisto, grand e pichot, ero ama.</p>
+        <p><lb/>Coume testimòni de sa valour, laisso, lou paure ami,<lb/>noun-sai quant de medaio, d'óujêt d'art e un diplomo de<lb/>Mèstre en Gai-Sabé, e laisso, l'artisto ploura, coume<lb/>provo d'uno vido facho d'obro, uno mountagno de ma¬<lb/>nuscri, tant francés que prouvençau, que, se Diéu vòu,<lb/>faren counéisse un jour.</p>
+        <p><lb/>Coume lou bèu Jansemin qu'en countemplant sa coupo<lb/>avié toujour set, au grand cor de Lescure, sémpre<lb/><lb/>asseda, glòri e amistanço sufisien plus e coumpletè sa<lb/>vido puro. dou pur amour en gagnant li joio»..</p>
+        <p><lb/>Pauro femeto, qu'as vist s'envoula 'mé soun amo soun<lb/>pantai de bonur, plouro ! Pauro, pauro anjounello, tu¬<lb/>que ligaves que mai ço qu'uno fatalita trop proumierenco<lb/>desseparo, man-grat toun liame de sang e de car, longo-<lb/>mai noun saches ta maluranço e cantes, per bressa lou<lb/>mau de ta meireto, li tendresso qu'en rimo diamantino<lb/><lb/>Nou Carbounié cantavo...</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>FELIS LESCURE</head>
+        <figure type="decoration"/>
+        <p><lb/>Cantara plus lou Carbounié qu'avié tant de gràci, que<lb/>tant dous èro, qu'uno chato noblo e bello, coume antan<lb/>Margarido de Louis XI poutounant lou pouêto Chartié,<lb/>lou guierdounè d'un soulenne poutoun.<lb/>Lou paure ami Vitour Lescure, subre-nouma — irounlo</p>
+        <p><lb/>dis escais-noum — Fêlis, belèu pèr-ço-que noun devié<lb/>avé lou tèms d'estre urous, es mort dins si 27 an, lou 22<lb/>passa, au Tubet, ouasis pouêtico clarejant entre li négri<lb/>mino de Vau-Dono e Greasco.</p>
+        <p><lb/>Ai di, autro part, coume es mort; eici dirai un mot de<lb/><lb/>coume visqué. Soun eisistènci fuguè touto de travai,<lb/>Fiéu d'un mestierau mort dins li mino, leu degue</p>
+        <p><lb/>s'apoundre à soun fraire pèr gagna lou pan d'uno bono<lb/>maire, leissant l'escolo de soun vilajoun ounte just apren-<lb/>guè lou mejan de legi plus tard l'estrucioun que se faguè<lb/>éu-meme. Quant à sis art d'agramen, paguè roussignòu<lb/>e calandro emé quanqui brigau de sa toualo, e li cigalo</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Hoi f ve nia que pourran dire en legisent lou ẗtre</ab>
+        <ab type="head"><lb/>LOU MES DE MAI</ab>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>d'aquest articulet: Qu'es eiço Lou mes de Mai? Es que,<lb/>desempièi que lou mounde es mounde, s'es pas trouba<lb/>de kiriello de pantaiaire que nous l'an depinta cadun al<lb/>soun blais?» — Eh! fóuchi ! si fe, la fielagno n'en sarié<lb/>longo d'aquélei en qu lou mes de Mai a fa bouqueto e<lb/>crese que, se tóntei aquélei qu'an senti houmbi soun<lb/>couer davans uno baragno en flour, avien agu lou gàubi<lb/>d'escriéure ço que soun amo ressentié de bouenur, de-<lb/>segur n'aurié fa cala de bels-un d'escrivêire ! E pourriéu<lb/>estrema ma plumo ; car vès, pèr bèn que vo digue, jamai<lb/>arribarai à fa giscla de ma cabesso ço que moun couer<lb/>countén d'armounio. Bouen Diéu ! que se n'l'es acampa!<lb/>Li a 'n prouverbi que dis: « Tout ço qu'es nouvèu es<lb/>beu. » Crese que pourrian li apoundre: « Co qu'es beu<lb/>es toujour nouvèu ». E vaqui perqué vau faire tres gros<lb/>saut en arrié peur vous charra dóu beu mes de Mai de</p>
+        <p><lb/>Lou veici, pimpara, alisca, picant à la pouerto dóu céu,<lb/>lou trento d'abrién, au bèu moumen que de tóntei lei<lb/>clouchié de la vilo s'envoulavo dins l'aire lou pious An¬<lb/>gelus ! Me sémblo qu'aquéu jour lei campano avien un<lb/>son mai clarineu e que dins soun ba-la-lin ba-la-lan li<lb/>ausissiéu la voues deis angi que canton la glòri de Diéu,<lb/>em' aquelo de sa Boueno Maire, en qu anavian, un mes<lb/>de tèms, abihado de blanc, óufri de courouno emé de<lb/>garlando de rouseto e d'aubespin dins la glèiso de Sant<lb/>Sauvaire e de Nouesto-Damo de Roumigié. Qu'èron bèu<lb/>aquélei paradis, subre lou mèstre-autar, ounte la Maire<lb/>de Diéu se moustravo à nautre, au mitan dei flour emé<lb/>dei cire aluma, que cadun se deleitavo de li adurre !<lb/>Aquéu couer de jouéinei fiheto que cantavon tóutel coumo<lb/>d'ourgueno lei béllei letanlo de la Santo Vièrgi Mario,<lb/>emé lou Magnificat de Rossini ! Lou perfum de l'encèns,<lb/>lou Sant-Sacramen que lou prêire prenié dintre sei doues<lb/>man pèr nous benesi, vujavon quaucaren de tant siau<lb/>dins moun amo que noun pourrai jamai l'espremi! Piêi,<lb/>quand lou préire s'avançavo de nautre, pèr veni nous<lb/>leva dei man la courouno vo la garlando que venian de-<lb/>pausa ei pèd de la Maire de Diéu, éro pas lou capelan<lb/>que vesiéu, mai un angi que davalavo dóu cèu e que<lb/>venié, au darrier escalié dóu mèstre-autar ounte erian<lb/>ageinouiado, prendre de nouéstei pichóunei manoto lei<lb/>floureto qu'avian raubado au printèms, long dei baragno,<lb/>dins lei draiòu d'un pau de pertout. Oh ! qu me lei<lb/>rendra, aquélei douceis emoncien ! Perqué, moun Diéu,<lb/>restan pas sèmpre enfant!</p>
+        <p><lb/>E lou dimenche de la Santo Crous, que toumbo peréu<lb/>dins la proumiero semano de Mal, éro pas un jour benesi<lb/><lb/>per tout lou mounde ? Desempièl l'enfantoun qu'à peno<lb/>coumenço à jargounia enjusquo au vièi que comto lei<lb/>jour que li réston à viéure, tóutel lei couer trefoulissien!<lb/>Lou soulèu se metié peréu de la partido pèr escampa sei<lb/>rai lei mai eibléugissènt subre aquelo bello proucessien<lb/>deis lero dóu Soubeiran, ounte nous anavon benesi aqui<lb/>davans un pichot pausadou, souto la vouto dóu cèu, la<lb/>plus meravihouso glèiso de l'univers ! La vese encaro,<lb/>aquelo proucessien emé sei penitènt blanc, blu e bour-<lb/>ras. Lou pâll, pourta pèr quatre marguihié, emé lou<lb/>prèire dessouto en bello capo daurado, pourtant lou Sant-<lb/>Sacramen ounte avien estaca un bouquetoun de giróu-<lb/>flado. Me sèmblo que vese ma pauro maire-grand, quand<lb/><lb/>me disié: « Vesès, mignoto, aquélei beus ulet? Eh ! bèn,<lb/>es lei proumié qu'an espandi d'aquest an dins lou jardin<lb/>« de Moussu tau, e leis a pourta à Moussu lou Curat,<lb/>« pèr n'en fa liéuréio au bouen Diéu, pèr que nous mande<lb/>« uno boueno recorto e nous entre-tèngue en pas em' éu.»<lb/>Sàbi pas perqu' éri tant-sié-pau jalouso dóu Moussu<lb/>qu'avié lei proumiéreis giróuflado? Perqué aurié pas<lb/>pouscu estre un paure? Perqué lou vas qu'avian sus la<lb/>fenèstro flourissié que foueço plus tard? «Ah! disiéu,<lb/>quouro sara lou jour que lei paure auran lei proumiés<lb/>uiet, pèr fin que fugue pas sémpre lei meme que n'en<lb/>flourigon vouesto santo presenci ! » E, pèr me rovenja dóu<lb/>paurûgi que nous empachavo d'agué 'no servo afin de li<lb/>vèire espandi de flour de boueno ouro, anave dins ll<lb/><lb/>prat cul de boutoun-d'or emé de margarideto, qu'anavi,<lb/>d'escoundoun, metre subre l'antar ounte li a lou grand</p>
+        <p><lb/>E lou Mes de Mario de l'escolo, vous n'en ensouvenés,<lb/>mei bravel coumpagno? La vesès pancaro, la poulido<lb/>Vièrgi ounte caduno adusié, cade jour, doues o tres flou-<lb/>reto pèr garni lou vas de pourcelano bluio? E quand,<lb/>luego de croumpa un sòu de muscardin, lou dounavian<lb/>à la souerre pèr n'en croumpa d'oli de que n'en garni<lb/>lou vihouloun que brulavo tout lou mes de Mai? Se P'avès<lb/>óublida, léu m'en rapêlli. Mai si, vous n'en souvenès, e<lb/>sous sémblo que li sias lou darrié jour dóu mes de Mario,<lb/><fw type="digitisation-artefact"><lb/>la/Biloèues</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

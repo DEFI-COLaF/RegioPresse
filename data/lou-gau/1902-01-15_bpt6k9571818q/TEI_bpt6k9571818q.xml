@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Gau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k9571818q</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Gau : revisto mesadiero pèr li revendicacioun de la lengo prouvençalo à l'escolo, dins la cadiero e à la tribuno poupulàri : parèis lou 15 de chasque mes / secretàri dóu Gau D. Savié de Fourviero</title>
+          <publisher>[s.n.] (Tarascoun-sus-Rose)</publisher>
+          <date when="1902-01-15">1902</date>
+          <idno type="ARK">bpt6k9571818q</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k9571818q</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>ANNADO SIEISENCO</fw>
+        <ab><milestone unit="column" n="3"/><lb/>Vaueln<lb/>N.o 15<lb/><lb/>15 de JANVIÉ 190</ab>
+        <fw type="numbering">No65</fw>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>CANTAIRE DI REVENDICACIOUN PROUVENÇALO</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>à l'Escolo, dins la Cadiero e à la Tribuno poupulàri</p>
+        <figure type="decoration"/>
+        <ab><lb/>AMENISTRACIOUN:<lb/>FAREIS LOU 15 DE CHASQUE MES<lb/>D. SAVIE DE FOCRVIERO<lb/>ABOUNAMEN: 3 FRANC PER AN<lb/>Santo-Ano de Bos-Liè</ab>
+        <ab><lb/>Marsao e Déufnat.</ab>
+        <ab><lb/>La BAILE DOU GAU:<lb/>MÈSTN FISSETO — REINIÉ MOCHTAUT<lb/>D. SAVIE DE FOCRVIERO</ab>
+        <ab><lb/>Bono annado, LI BAILE DóU GAU. — Au Gau, pouěsio d'A. BOUR-<lb/>GugNouN, — Messioun en Oupedo, E. BauNiu. — Lou Pichot<lb/>Tresor. — Alleluia, cantinello de D. SAVIE DE FOURVIERO. —<lb/>Requèsto adreissado à M. lou Menistre de l'Estrucioun publico.<lb/><lb/>— Chanten Nouvè, E. CHALAMÈU. — Un jubilèu au Melezen,<lb/>E. CLER. — Fuietoun: Evangèli segound Sant Lu, D. S. de F.</ab>
+        <p rend="heading"><lb/>TAULETO</p>
+        <figure/>
+        <p rend="heading"><lb/>Bono annado</p>
+        <p rend="styled"><lb/>Bono annado en tóuti! Bono, aquesto annado 1902,<lb/>la sara pèr li gènt de Prouvènco que van avé bèn<lb/>lèu entre man LOU PICHOT TRESOR, diciounàri prou¬<lb/>vençau-francés e francés-prouvençau. A tóuti ié<lb/>desiran de counèisse de miés en miés sa lengo e de<lb/>faire si freto em'aquéu Pichot Tresor qu’es veri¬<lb/>tablamen, coume dis Bounet l'Einat, lou Libre-<lb/>Messo dou terraire.</p>
+        <ab><lb/>LI BAILlE Dóu Gau!</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Au «GAU»</head>
+        <head><lb/> mandant moun abounamen.</head>
+        <lg>
+          <l><lb/>Moun flame « Gau »,</l>
+          <l><lb/>Coume emé gau</l>
+          <l><lb/>Te porge vaei quauco gruniho!</l>
+          <l><lb/>L'apares tant bèn di caniho</l>
+          <l><lb/>Francihoutant sis avaniho,</l>
+        </lg>
+        <ab><lb/>Noste fougau<lb/>Latin-gregau!</ab>
+        <ab><lb/>Vaqui moun gran,<lb/>Que vèngues grand...<lb/>A plen góusié, d'Aurenjo à Vènço,<lb/>Cleirounes tant bèn pèr Prouvènço,<lb/>Estrambourdant nosto jouvènço<lb/>Boutado à brand<lb/>De Nime à Grans<fw type="digitisation-artefact"><lb/>ce gallica.bnf.fr/ Bibliothèque nationale de France</fw></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Pays cévenol</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t539035450</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Pays cévenol : hebdomadaire littéraire, artistique, félibréen, mutualiste, commercial, industriel et d'annonces</title>
+          <publisher>[s.n.] (Alais)</publisher>
+          <date when="1906-01-14">1906</date>
+          <idno type="ARK">bd6t539035450</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t539035450</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/><lb/>Pis<lb/><lb/>ALAIS AFT.<lb/><lb/>e<lb/><lb/><lb/>Le Martinet à Alais<lb/><lb/><lb/>Mas-de-P.<lb/><lb/>Vu pour la légalisation de la signature ci-contre:<lb/><lb/>Alais, le<lb/>le maire,</ab>
+        <p rend="heading"><lb/>SERVICE D'HIVER 1905-1906</p>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>MARCHE DES TRAINS</p>
+        <figure type="table"/>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>Alais A Léxan et a Anduze</p>
+        <p rend="heading"><lb/>Alais a Puris</p>
+        <figure type="table"/>
+        <figure type="table"/>
+        <figure type="table"/>
+        <figure type="table">
+          <head><lb/>Anduze à Lézan et à Alais</head>
+        </figure>
+        <figure type="table">
+          <head><lb/>Paris à Alais</head>
+        </figure>
+        <figure type="table">
+          <head><lb/>Alais à Qulssae et au Vigan</head>
+          <head><lb/>Alais au Marti</head>
+        </figure>
+        <figure type="table">
+          <head><lb/>Le Vigan à Quissac et a Alaim</head>
+          <head><lb/>Alais à Nimes, Tarascon et Marseille</head>
+        </figure>
+        <figure type="table">
+          <head><lb/>Marsellle à Tarascon, Nimes et Alais</head>
+        </figure>
+        <figure type="table">
+          <head><lb/>Alais a Montpellier par Quisane</head>
+        </figure>
+        <figure type="table">
+          <head><lb/>Montpellier à Alais par Quissae</head>
+          <head><lb/>HYGIENE ET BIEN-ETRE POPULAIRE</head>
+        </figure>
+        <ab><lb/>Moelle de velours — Douceur exquise — Parfum enivrant<lb/>Savon de Toilette des<lb/>PRINCESSES ImPÉRIALES JAPONAISES<lb/>Un Savon-Réclame. . . 30 cent.<lb/>Une Boîte de 3 Savons-Réclame. O fr. 75<lb/>Dépôt pour le Gros et le Détail<lb/>Papeterie Nouvelle, place de l'Abbaye. . Alais<lb/>Le Directeur Gérant: J. BRABO.</ab>
+        <note>
+          <p><lb/>Alais. — Imprimerle J. Brabo, Square de Sauvages.</p>
+        </note>
+        <figure type="table">
+          <head><lb/>Alais à Bessèges</head>
+        </figure>
+        <figure type="table"/>
+        <figure type="table">
+          <head><lb/>ALAIS A L'ARDOISE</head>
+        </figure>
+      </div>
+      <div type="article">
+        <figure type="table">
+          <head><lb/>Alais a Nozlères et a Uzès</head>
+          <head><lb/>Uzès à Nozières et a Alais</head>
+        </figure>
+        <ab><lb/>Cartes Postales Illustrées<lb/>DE TOUS GENRES<lb/>AATISTIOUES COLECTIONS, VUES, SURPRISES, etc, ete<lb/>Papiers à Lettres de toute Fantaisie<lb/>Sachets parfumés— Images et Cartes de Fétes<lb/>Jour de l'An, 1" Avril, 1e Communion<lb/>Fournitures complètes de Bureaux —Timbres<lb/>Bibliothèque de Lecture Publique<lb/>Papeterie Nouvelle<lb/>Rue de la République et Place de l'Abbaye<lb/>ALAIS (GARD)</ab>
+        <p><lb/>Le plus bel assortiment de<fw type="digitisation-artefact"><lb/>Media</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

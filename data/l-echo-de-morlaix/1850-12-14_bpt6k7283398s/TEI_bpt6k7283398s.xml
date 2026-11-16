@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Écho de Morlaix</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7283398s</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Écho de Morlaix : feuille d'annonces : journal politique</title>
+          <publisher>V. Guilmer (Morlaix)</publisher>
+          <date when="1850-12-14">1850</date>
+          <idno type="ARK">bpt6k7283398s</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7283398s</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="bre">breton</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>SAMEDI 14 DÉCEMBRE 1850</fw>
+        <fw type="runningTitle"><lb/>DOUZIEME ANNÉE. — N° 50.</fw>
+        <note type="handwritten"><lb/>Prefectn</note>
+        <ab><milestone unit="column" n="1"/><lb/>o pa , Jao aaea, oaee, eraren, industrielle-,</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>FEUILLE D'ANNONCES.</p>
+        <p rend="styled"><lb/>agricoies, et les Avis divers.</p>
+        <p rend="styled"><lb/>L'Echo parait le samedi de chaque semaine. — Le prit de labonnement pour une année, est de 10 fr. pour Morlais, et de 11 fr. 3e e par la poste,<lb/>Les lettres, les paquets et Pargent<lb/>Imprimeur-Labraire, à Morlaia (Finistere<lb/>l'Office cotrespon ance de messieurs<lb/>deiteni eire adresss iranes<lb/>fureau da Jeurnai<lb/>Ch. Lastar et C, rue Notre-Dame des-Victeires, 46 (Place de la Rourse<lb/>a l'Agence des<lb/>atree par la rue Brongniart<lb/>Housreau, ou ron recoit les anneners pour r'Eche; dans les departomenis, chez les Labraires et ches les Direcieurs des postes. — Prix d'insertion : 23 centimes la ligné.<lb/></p>
+      </div>
+      <div type="article">
+        <ab><lb/>Roulineau père, supplèant sortant.<lb/>Le Lann, vicaire de Sibiril, recteur de Lampol-Plou-<lb/>Colin, vicaire du Tréhou, vicaire de Sibiril.<lb/>Le Traon, vicaire du Tréhou.</ab>
+        <ab type="head"><lb/>AVIS ET PAITS DIVERS.</ab>
+        <figure type="decoration"/>
+        <p><lb/>Les élections du Tribunal de Commeree de Morlaix<lb/>out eu lieu, ainsi que nous l'avons annoncé dans notre<lb/>dernier numéro, le jeudi 12 courant, à neuf heures</p>
+        <p><lb/>Ont étè élus juges:<lb/>MM. Le Hir, supplèant en exercice.</p>
+        <p><lb/>Par suite de l'élection de M. L.e Hir, l'assemblée élec-<lb/>torale a du proceder à l'élection de trois suppléants au</p>
+        <p><lb/>M. Le Gonides a été élu suppléant.</p>
+        <p><lb/>L'on a dù renvoyer à vendredi, onze heures du ma-<lb/>tin, attendu l'heure avancée, pour la continuation de<lb/></p>
+        <p><lb/>Ce jour ont été elus suppléants:</p>
+        <p><lb/>MM. Desloge.</p>
+        <p><lb/>Le Naour, suppleant sortant.</p>
+        <p rend="labelled"><lb/> Mutations dans le Clergé du Diocèse. - Ont été<lb/>nommés, MM.</p>
+        <p rend="labelled"><lb/>Caroff, recteur de Plougar, recteur de Pleybert-Christ.<lb/>Prigent, vicaire de St.-Pol, recteur de Plougar.</p>
+        <p rend="labelled"><lb/>Deschamps, vicaire de Plounévez-Lochrist, vicaire de</p>
+        <p rend="labelled"><lb/>Bernard, vicaire de Landivisiau, vicaire de St. Pol.</p>
+        <p rend="labelled"><lb/>Léost, vicaire de Plonévez-Porzay, vicaire de Plou-<lb/>névez-Lochrist.</p>
+        <p rend="labelled"><lb/>Daniétou, vicaire de Penmarch, vicaire de Plonévez-</p>
+        <p rend="labelled"><lb/>Le Dé, vicaire de Penmarch.</p>
+        <p rend="labelled"><lb/>— Un affreux accident vient d'arriver dans une fa-<lb/>brique des environs de Valenciennes. La tôle d'un des<lb/>appareils de la machine à vapeur s'est dèchirée et a<lb/>donné issue à la vapeur qui a alteint huit ouvriers.<lb/>Une pauvre jeune fille a été brûlèe et est morte sur le<lb/>coup, les autres ouvriers sont horriblement défigurés<lb/>et on a peu d'espoir de les sauver.</p>
+        <p rend="labelled"><lb/>— Un drame horrible vient de se dénouer devant<lb/>la cour d'assises du Var. Les deux frères Lions, cul-<lb/>tivateurs à Bargème, étaient accusés du meurtre de<lb/>leur père, et la mère des prévenus était accusée de<lb/>complicité de ce crime. Le jury ayant rendu un verdiet<lb/>de culpabilité, la femme Lions a été condamnée aux<lb/>pravaux forcés à perpétuité, et ses deux fils à la peine<lb/>des parricides.</p>
+        <p rend="labelled"><lb/>— On écrit de New-York:</p>
+        <p rend="labelled"><lb/>« Les exercices de la fameuse ménagerie de Van<lb/>Amburg, qui se trouve en ce moment à Toronto,<lb/>venaient de commencer, et le dompteur Hydralgo était<lb/>entré dans une cage où se trouvaient réunis une pan-<lb/>thère, un tigre du Bengale, une lionne d'Afrique,<lb/><lb/>un léopard tacheté, un jaguar et une hyène.</p>
+        <p rend="labelled"><lb/>» Tous ces animaux obéissaient avec une docilité<lb/>parfaite aux volontés du maitre, et l'admiration du<lb/>public était au comble: tout-à-coup le tigre devient<lb/>rétif; Hydralgo le frappe de sa badine pour le rappeler<lb/>éder, entre<lb/>en fureur, pousse un rugissement terrible et s'élance<lb/>sur le dompteur, qu'il terrasse sous ses griffes puis-<lb/>santes. A cette vue, les spectateurs passent de la sur-<lb/>prise á la terreur et ne songent qu'à prendre la fuite;<lb/>quant au malheureux que le tigre semble prêt à de-<lb/>chirer, nul ne pense à le secourir et c'en est fait de<lb/>lui. Heureusement Van Amburgh est là : plus prompt<lb/>que la pensèe, il se précipite dans la cage, saisit la<lb/>bète furieuse et la renverse à ses pieds, vaincue el<lb/>dèjá radoucie. Gràce à son intrépide compagnon, Hy-<lb/>dralgo en a été quitte pour la peur et pour quelques<lb/>égratignures sans importance ; mais jamais applaudis-<lb/>sements ne furent plus vaillamment mèritès que ceux<lb/>dont l'assistance asalué l'intrépiditè de Van Amburgh.</p>
+        <p rend="labelled"><lb/>— L'état civil des journaux de New-York mentionne<lb/>un mariage qui a été célébré dans des circonstances<lb/>peu ordinaires: c'est au large du cap lorn, à bord<lb/>du brick Colorado, que les flambeaux de l'hymènée<lb/>ont èté allumés le 26 fevrier dernier, par le capitaine<lb/>P.-J. Baker, aumônier improvisé, pour le compte de<lb/>deux jeunes gens de Roxbury (Massachussets), qui<lb/>n'avaient pu se rè́signer à attendre la fin du voyage<lb/>pour unir leurs destinées. Malgré une tempète affreuse,<lb/>qui régnait au moment ou la cèrémonie a été célebrée,<lb/>la gaietè et l'entrain etaient à l'ordre du jour à bord<lb/>du Colorado.</p>
+        <p><lb/>Puisse cette tempête, dit le Journal du Haere, qui<lb/>rapporte cette aneedote, n'avoir pas été le prèsage de<lb/>celles que les époux sont destinés à essuyer, peut être,<lb/>sur les flots agités de l'ocèan conjugal!</p>
+        <p rend="labelled"><lb/>— Un trésor a été trouvé le 27 novembre, par le<lb/>nommé Thièbaud, masson à Ribemont (Aisne), dans<lb/>la cour de M. Petaux, docteur en medecine. Ce trésor<lb/>était à environ 30 centimères du sol et se composait<lb/>de 4 à 500 pièces d'argent plus ou moins pur, de 12<lb/>sols et de 48 sols à l'effigie de Henri I1, Henri III,<lb/>Henri IV, et des années de 1550 à 1600; il y avait<lb/>aussi 27 pièces d'or ál'effigie de Jacques, roi d'Angle-<lb/>terre, de France et d'Espagne. Toutes ces pièces ont<lb/>été déposées chez M. le juge de paix de Ribémont.</p>
+        <p rend="labelled"><lb/>— Le gouvernement de Barcelone vient d'ordonner<lb/>la destruction ou l'obstruation de toutes les grottes et<lb/>cavernes qni se trouvent dans l'ètendue de sa juridic-<lb/>tion. Cette mesure sera on ne peut plus utile á la tran-<lb/>quillité publique et à la sûrete des habitans.</p>
+        <p><lb/>Ces cavités, souvent très profondes et presque tou-<lb/>jours cachées, sont une garantie pour les malfaiteurs,<lb/>d'ou ils bravent les lois qui les condamnent et la force<lb/>armée qui les poursuit. Elles servent à sèquestrer les<lb/>personnes pour en obtenir des rançous exorbitantes,<lb/>et à les y enterrer vivantes, si elles ne peuvent pas</p>
+        <ab><lb/>(Mémorial des Pyrénées.)</ab>
+        <p rend="labelled"><lb/>— Une conturière assez aisée de Konigsberg en<lb/>Prusse, avait étè volèe pendant qu'elle assistait au<lb/>spectacle, et sa chambre avait été dèvalisée. Un jour<lb/>une lettre lui fut adressée. On y signalait un recéleur<lb/>comme ayant le premier profité du vol commis chez<lb/>elle, puis on annonçait que ses effels étaient passés<lb/>en d'autres mains , et que si elle voulait les retrouver,<lb/>elle n'avait qu'à assister à une noce qui se préparait ;<lb/>que la mariée, même les filles d'honneur, scraient<lb/>habillèes des pieds à la tête avec ses robes et falbalas. La<lb/>lettre avait dit vrai. La couturière, accompagnée d'un<lb/>gendarme, assista à la benèdiction nuptiale, et reconnut<lb/>ses effets. Le gendarme, qui remarqua dans les deux<lb/>mariés d'anciennes connaissances, donna P'ordre au<lb/>cocher de conduire toute la noce à l'inquisitoriat, où<lb/>on logea sous bonne garde les nouveaux époux et leur</p>
+        <p rend="labelled"><lb/>— On écrit de Joigny: « l'n affreux événement vient<lb/>d'arriver sur la ligne de Paris à Tonnerre. On ne sait<lb/>qu'imparfaitement les détails de l'accident ; mais ce<lb/>que l'on a appris positivement n'est déjà que trop dé-</p>
+        <p rend="labelled"><lb/>«On exploite, pour le chemin de fer de Lyon, une<lb/>grande carrière de sable destinée à l'entretien de la<lb/>voie. Cette carrière est aux environs de Joigny. Avant-<lb/>hier, quelques ouvriers étaient occupés à trainer un<lb/>magon rempli de matériaux ; cinq d'entre eux ayant<lb/>glissé n'ont pu se relever á temps, et, ayant été surpris<lb/>par d'autres wagons chargès qui venaient avec rapi-<lb/>dité, ont été broyés. On annonce que, par suite de<lb/>cet affreux accident, deux de ces malheureux sont<lb/>morts sur le coup: les autres, transportés à lhospice,<lb/>sont dans un état qui laisse peu d'espoir.»</p>
+        <p rend="labelled"><lb/>— On lit dans le feuilleton hebdomadaire de M.</p>
+        <p><lb/>Mais, à propos de Jenny Lind, cette bonne fée des<lb/>arlistes prodigues, voici qu'on nous annouce tres po-<lb/>sitivement P'arrivée de Pillustre cantatrice à Paris,<lb/>aussitôt qu'elle aura terminé sa tournèe américaine.<lb/>Elle y serait amenée par M. Benedict, le célebre com-<lb/>positeur qui dirige habituellement ses concerts, et qui<lb/>doit apporter en mème temps une partition de sa façon.</p>
+        <p><lb/>D'un autre côté, la Musique s'exprime ainsi sur la<lb/><lb/>célebre chanteuse:</p>
+        <p><lb/>Jenny Lind ne donnera plus que peu de concerts à<lb/>New-York. Philadelphie, Baltimore et Charleston l'ap-<lb/>pellent à grands cris et souscrivent d'avance des som-<lb/>mes assez considérables pour s'assurer le plaisir de<lb/>l'entendre. L'èminente cantatrice compte s'embarquer<lb/>à Charleston et de là gagner la Hlavane ; puis elle se<lb/>rendra à la Nouvelle-Orleans. Elle se propose de ter-<lb/>miner promptement sa tournée aux Etats-Unis, afin<lb/>de se trouver à Londres en mai prochain, à l'époque<lb/>de la grande exposition.</p>
+        <p rend="labelled"><lb/>– Il est question d'une nouvelle découverte dont<lb/>P'inventeur a fait la première experience dans une com-<lb/>mune de la banlieue, où il s'était retiré: c'est un système<lb/>d'èclairage combiné avec le principe aèrostatique. L'in-<lb/>venteur est parvenu, on ne sait par quel moyen,<lb/><lb/>fixer dans une immense boule de verre un fluide res-<lb/>plendissant; et comme ce globe est assez lèger pours'êle-<lb/>ver dans les airs, à l'instar d'un ballon, on peut par ce<lb/>moyen lancer dans l'espace des flots de lumière des-<lb/>tinés à produire une immense clarté projetée à une<lb/>très grande distance.</p>
+        <p><lb/>Une expérience publique en doit être faite prochai-<lb/>nement à Paris.</p>
+        <p rend="styled"><lb/>(Journal des Faits.)</p>
+        <p rend="labelled"><lb/>— Le Courrier de la Gironde rapporte le fait étrange<lb/>qui suit, en le soumettant á l'attention des hommes</p>
+        <p><lb/>Dans une maison de la rue Pont-Long mourut la<lb/>semaine dernière, après une longue et douloureuse</p>
+        <ab><lb/><lb/><lb/>ne<lb/><lb/><lb/><fw type="digitisation-artefact"><lb/>burce gallica.bnf.fr/ Bibliothèque nationale de Fra</fw><lb/>maladie, un hommne de 13 ans environ. Le dérès fut<lb/>bien et dûment constate, et declaration en fut faite.<lb/>comme d'habitude à la mairie. Dans la soirèe du jour<lb/>où la mort avait en lieu, le corps du défunt fut en¬<lb/>veloppè dans un suaire et placè sur le Iit funebre.<lb/>d'où il devait êtte portè en terre le lendemain à dix<lb/>heures. Assuré̀ment la mort était bien réelle et le ca-</ab>
+        <pb facs="0002.xml"/>
+        <p><lb/>mandée pour passer la nuit auprès du corpa du trè¬<lb/>passé. Elle se rendit vers neuf heures dans la chambre<lb/>mortuaire où brûlaient deux cierges près du li, et<lb/>s'assit silencieusement sur un fauteuil ; elle sonzea<lb/>sans doute à la fragilitè de noire vie et aux améres<lb/>douleurs que laisse après elle une existence qui s'est<lb/>brisée, quand tout-à coup elle fut distraite de ses me¬<lb/>ditations par un bruit sondain, ressemblant au frôle-<lb/>ment d'un corps sur une étofle. La gardienne des<lb/>morts leva la tête: le trèpasté, par un brusque mon¬<lb/>vement, venait de retirer une jambe hors du la. Une<lb/>frayeur mortelle saisit la pauvre feime, qui voulut<lb/>fair; mais elle n'en eut pas la foree: puis le couraze<lb/>lui étant venu, elle s'approcha du lil, toucha le ca-<lb/>davre; il était froid et glacial. Attribuant le monve-<lb/>ment du corps inerte à une cause toute matérielle, la<lb/>gardienne rapprocha les deux jambes el se rassit. A<lb/>deux heures le mort donna encore signe de vie: il se<lb/>dressa tout-á-coup sur son séant, ouvril les yeux puis</p>
+        <p rend="labelled"><lb/>durant le reste de la nuit. Pas n'est besoin de dire<lb/>qu'au point du jour la gardienne des morts se hâta<lb/>de faire part aux parents du dêfant de l'étrange evé¬<lb/>nement dont elle avait été témoin. Aussitôt le méderin<lb/>qui avait donnè ses soins au malade fut rappelé. Mais<lb/> trouva le cadavre glacé, comme la veille; et ré̀¬<lb/>pandant déjà des erhalaisons putrides. Par quelle<lb/>cause s'étaient done produils les problèmes que nous<lb/>traitements mereuriels à forte dose que le défunt avait<lb/>du subir pendant sa longue maladie. Cette explication</p>
+        <p rend="labelled"><lb/>teaux à vapeur, il a étè eréè des commissions spéciales<lb/>chargèes de la surveillance des machines placèes à<lb/><lb/>bord des bateaux. Les ingènieurs des mines font par-<lb/>tie des commissions, qui sont au nombre de 12. Le<lb/>Finistère possède trois de ces commissions qui siègent</p>
+        <p rend="labelled"><lb/>la mort de la femme Robert, dite Cagarotte, exer-<lb/>çant dans cette ville la profession de chiffonnière.<lb/>Cette femme, qu'on voyait errer en haillons dans les<lb/>rues pour fouiller dans les immondices et pour ache-<lb/>ter des peaux de lapius, possédait quinze maisons à<lb/>Montpellier. Elle laise une fortune de plus de trois<lb/></p>
+        <p><lb/>de la femme, qui conservait dans une opulence réelle<lb/>les dehors de la misère, mais il n'est pas rare que les<lb/>chiffonniers s'enrichissent. Dès que l'un d'eux, au</p>
+        <p><lb/>lage, les restes de saes, les chiffons de toute espèce,<lb/>connus sous la dénomination de gros de P'aris, gros<lb/>de campagne, blanc sule ou blanc fin, les toiles de</p>
+        <p><lb/>aux fabricanis de noir animal ; les lambeaux de laine<lb/>et de drap sont employés par les fabricants de produis<lb/>chimiques ; les vieilles ferrures et verres cassés sont<lb/><lb/>refondus; les morceaux dassiettes pulvérisès entrent<lb/>dans la composition de certains ciments ; les peaux<lb/>de lapins, qu'on achète pour une somne très minime,<lb/>se revendent avantageusement pour la ganterie et la<lb/>chapellerie, et constituent un article d'exportation</p>
+        <p><lb/>kilos, le gros de campagne 18 fr., le bud de 20 à 26 fr.,</p>
+        <p rend="labelled"><lb/>papier consiste dans lobligation d'obtenir d'abord unc<lb/>épreuve négatine, à laide de laquelle on arrive ensuite<lb/>manteau, et se dirigeant vers son lit, il entendit choir<lb/>les objeis qu'il asait mal suspendus. Les yeux hagards,<lb/>les bras étendus au ciel, le pied levé pour la fuite,<lb/>le malheureux ocait a peine se retourner. Il pensait</p>
+        <p rend="labelled"><lb/>n'est pas senlement à Paris qu'on s'occupe de la di¬<lb/>rection des aèrostats. De toutes paris, les inenteurs,<lb/>surexeites par les tentatires qui se produisent, luttent<lb/>de persévérance et d'ardeur. Des essais, des erpé¬<lb/>riences se font de tous côtès. Pour les esprits qui ob¬<lb/>servent et qui reftechiment, il n'est pas douteur que<lb/>Paerostation ne touche á une époque solennelle. Le<lb/>génie humain s'agite dans le travail de cette immense</p>
+        <p rend="labelled"><lb/>si peu enthousiaste des chones inconnues, on s'occupe<lb/>de ce problême, et il y a parmi nous un homme qui<lb/>eroit en avoir trouvé la solution. Une expérience so-<lb/>lennelle sorganise. Ce n'est pas une épreuve en dimu-<lb/>aitif qu'on nous montrera: P'appareil se construit. L'aè<lb/>rostat portera deux personnes et marehera dans loutes<lb/>les direetions. Telle est la volonté de l'inventeur, et,<lb/>dans notre orgueil angevin, telle est aussi notre bien<lb/>sincère espèrance. Pourquoi cela ne serait il pas ? Un<lb/>bourgeois de Cologac a bien déconvert l'imprimerie!</p>
+        <p><lb/>naissance à l'un de ces inventeurs dont le nom fait<lb/>époque dans l'histoire de l'humanité, ou si nous de¬</p>
+        <p rend="labelled"><lb/>que de voir emmener par la garde des gourmets qui<lb/>entrent chez les restaurateurs, et se hourrent l'esto¬<lb/>mac plus que de raison, avant de se déclarer insol¬<lb/>vables. Hier, trois individus s'etaient attablès au Petit¬<lb/>Madrid, rue St-Monoré, et avaient consommé pour 30<lb/>ſr. de comestibles dûment arrosés ; l'un d'eux se prè¬<lb/>senta sans façon au comptoir, et annonça qu'il régle-<lb/>rait la dépense avec le maitre de la maison, son ami<lb/>alors absent; mais voilà par hasard le patron qui entre<lb/>et qui ne connail plus son ami prétendu. Celui-ci pria<lb/>alors le restaurateur de le faire accompagner chez lui<lb/>par un garçon qu'il palerait. Deux des convives s'es¬<lb/>quivent en route; mais le garçon serra de près le<lb/>troisième, qui le conduisit rue des Martyrs, au qua¬<lb/>trième étage, ouvrit la porte, et la jeta au nez du<lb/>garçon; mais le portier, entendant du bruit, avait<lb/>étè chercher la police, qui fit ouvrir la porte. Le pri¬<lb/>sonnier ne voulut pas, ou ne put pas payer le garçon,<lb/>et se récria sur ce qu'on lui demandait plus que sa<lb/><lb/>part. La police s'offrit à le conduire vers ses amis,<lb/>s'il pouvait indiquet où on les retrouverait. Le prison¬<lb/>nier la conduisit dans un cafè ou ses complices l'atten-<lb/>daient, et fous furent dirigés sur la Préfecture, car<lb/>personne ne paya. De nouveaux renseignemens cons-<lb/>tatèrent que ces gastronomes émèrites ne vivaient que</p>
+        <p><lb/>á l'épreuve positive. M. F. Rousigues vient de pro-<lb/>poser un procedé à laide duquel on ferait disparaitre<lb/>cet inconvénient, puisqu'il donnetait directement des<lb/>épreuves positives. Voici en quoi consiste celte nou-<lb/>velle manière d'opèter. On prend trois feuilles de<lb/>papier bien uni, legèrement glacè, exempi de souil-<lb/>iures et de taches metalliques; on les plonge succes-<lb/>sivement dans de lean distillèe, aprés quoi en les<lb/>faire adhèrer sur tous les poinis au moyen d'un linge<lb/>fin. Lorsque l'humidite a disparu, on laisse tomber<lb/>sur la surface du papier truis ou quatre gouttes d'une<lb/>dissnlution d'azotate d'argent neutre qu'on étend ra¬<lb/>pidement à laide d'un pinceau. Peu aprés, il ne reste<lb/>P'action de cette disnlution. On traite alors le papier<lb/>ainsi prépare comme les plaques métalliques du da-<lb/>guerréotype ordinaire, en les soumettant aux vapeurs<lb/>de l'iode et du bromure de chaux qui lui donnent une</p>
+        <p><lb/>fois l'lode pendant 15 secondes, ensulte le bromure<lb/>pendant 33 secondes, et enfin une seconde fois liode<lb/>pendant 10 srcondes. La glace est ensuite placée dans<lb/>le chassis et exponce à la lumière qui agit sur le papiet<lb/>presque avec la mème rapidite que sur une plaque<lb/>'argent. Le mercure fait apparaitre l'image. M.<lb/>Rouzigues assure que si Popèration a été bien faite,<lb/>on obtient, par son procède, une image positive<lb/>araphie sur métal, et du moins bien supérieure</p>
+        <p rend="labelled"><lb/>dans les mauvais temps. Arrivé sur la plate-forme. il<lb/>trouva le balaneement si sensible, qu'il lui fallut s'ap¬<lb/>tot sur un pied, tantêt sur Tautre; et, au moyen d'un<lb/>niveau d'eau, il fut reconnu que cette oscillation était<lb/>de 3 à 6 centimètres. Notre intrépide curieux, s'etant<lb/>assis dans le fauteuil du gardien, commença à épron-</p>
+        <p rend="labelled"><lb/>coup il éprouve une seusation extraordinaire : il semble<lb/>que quelque chose lui grimpe le long de la jambe : il<lb/>porte vivement la main à eet endroit et jette ensuite<lb/>mal prècisément antipathique) était entrée chez lui,<lb/>manière ou d'autre. La chose n'ètait guère facile, car<lb/>le malheureux M. N.... porte des hoites, et, à chaque<lb/>secouse pour se delarraser de l'animal immonde, la<lb/>souris retombait dans la botte et recherchait de plus<lb/>fort en plus fort les moyens de sortir de cette altrape</p>
+        <p rend="labelled"><lb/>indicibles, M. N.... a perdu toute faculté, tout sang-<lb/>froid, toute intelligence; il crierait au secours s'il le</p>
+        <p rend="labelled"><lb/>cuisine, où son air eflare jelte d'abord une siugulière<lb/>épouvante. On le tâte on l'interroge, et enfin, encou-<lb/>de ses bottes, de son pantalon... gràce au ciel, la<lb/>souris s'echappe enfin et rentre dans un autre trou.<lb/>I'n peu plus tard. revenu de sa frayeur. M. N.... s'a-<lb/>muse à raconter cet événement a ses amis. Tous le<lb/>croient sur parole et le plaignent sincè́rement, en se<lb/>tenant les côtes de fou-rire. Trois jours après cet as-<lb/>saut, l'impression lui en était tellement restée pré¬<lb/>sente au souvenir, que le moindre grattement, le plus<lb/>petit frèmissement dans le silence des nuits, lui<lb/>dressait les cheveux sur la tête. Un autre soir encore<lb/>il faillit mème s'èvanouir, lorsqu'après avoir eru at-<lb/>tacher la dernière partie de ses vétemens au porte-</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>combinaison ineroyablement avantagense : ce ne sont<lb/>pas des remises de 25 ou 30 pour eent, c'est un ca-<lb/>deau de cent pour cent fait aux acheteurs de leurs<lb/>charmants ouvrages d'étrennes et albums de salon. Ils<lb/>donnent cnaris des gravures de prix qui forment de<lb/>maguifiques eneadrements pour orner les salons, les<lb/>salles a manger, les chambres a coucher, etc. Nous ne<lb/>croyons pas qu'a ces conditions MM. Aubert et Comp.<lb/>puissent faire une bonne spéculation, mais assurément<lb/>de M Vernet, Destouces et uutres. s<lb/></p>
+        <p rend="labelled"><lb/>commandées dans les affections de poitrine et d'esto-<lb/>mae, nous devons placer au premier rang les prépa-<lb/>rations de Delangrenier dont M. L.a FEvne, a Morlaix,<lb/>est depuis longlemps dépositaire; leurs bons effets ont<lb/>été constatés par les plus grands médecins, au nombre<lb/>desquels nous eitons MM. Andral, Fouquier, Larrey,<lb/>ports falt à l'académie de médecine et a la faculte de<lb/>Paris ont aussi appreuvé ees préparations. Employées<lb/>comme pectoraux el antiphlogistiques, nous pouvons<lb/>assurer que les préparations de Nafé, soit en pâte, soit<lb/>en sirop, produiront toujours de bons effets dans les<lb/>inflammations des organes intérieurs, et partieulière-<lb/>ment dans les irritations de poitrine, les catarrhes,<lb/>la coqueluche et les inflammations des voles respira¬</p>
+      </div>
+    </body>
+  </text>
+</TEI>

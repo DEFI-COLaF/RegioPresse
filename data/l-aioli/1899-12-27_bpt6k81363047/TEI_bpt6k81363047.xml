@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81363047</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1899-12-27">1899</date>
+          <idno type="ARK">bpt6k81363047</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81363047</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>NOUVENCO ANNADO, No 324</fw>
+        <fw type="runningTitle"><lb/>DIMÈCRE, 27 DE DESEMBRE 1899.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Baile dóu journau<lb/>FoLCO DE BARONCELLI</ab>
+        <ab><lb/>Nautri, l bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr loli</ab>
+        <lg>
+          <l><lb/>Ridoun, Vidau,</l>
+          <l><lb/>Segound la vido</l>
+          <l><lb/>(Prouvere di meuneanis.)</l>
+        </lg>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17, 27)</p>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>PRES DE L'ABOUNAMEN</p>
+        <ab><lb/>SUREU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI<lb/>au palais dóu Roure</ab>
+        <figure type="table"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Beloun, lou 8 de desembre 1890.</ab>
+        <ab type="head"><lb/>Em’ acò BelLo FiniDo</ab>
+        <p><lb/>Tout pren fin e l'Aiòli vuei es à soun aca-<lb/>bado. Avèn tengu nòu an lou moulèire à la<lb/>man: nòu an, qu'es la durado d'un bon encar-<lb/>tamen de meinagié prouvençau. Mai pèr de<lb/>resoun especialo, qu'es inutile d'espandi, anan<lb/>revessa lou mourtié. E nous revèn en aquesto<lb/>ouro l'epistro malancònio que lou bon Crou-<lb/>sillat nous escriguè, i’a just nòu an, quand<lb/>entamenavion l'Aiòli. Es lou cop de la publica.</p>
+        <lg>
+          <l><lb/>Barbaramen estroupiado, estrassado!</l>
+          <l><lb/>— Allez un peu conseiller aux mamans</l>
+          <l><lb/>De plus parler francés à ses pétits.</l>
+          <l><lb/>Ils vous diront: Te, de quoi qu'il se mêle!</l>
+          <l><lb/>On parle pas, tous, le francés en France?</l>
+          <l><lb/>Pourou que s'entendions avec l'onfant,</l>
+          <l><lb/>Comme que soient les mots, que l'y fait, ça?</l>
+          <l><lb/>Lou badinàgi à part, que pres-fa rude</l>
+          <l><lb/>De remounta, coumo pretendès faire,</l>
+          <l><lb/>Lou couer de la Prouvenço! Es grèu soun mau:</l>
+          <l><lb/>A n'en mouri? Nani, panca ni'neal</l>
+          <l><lb/>Mai... à la longo pièi, tout se tremudo,</l>
+          <l><lb/>Us e coustumo, creire, pople e lengo...</l>
+          <l><lb/>Fau, en dospié de tout esfors uman,</l>
+          <l><lb/>Que ben o mau, que va vouguen o noun,</l>
+          <l><lb/>Arribe, enfin, quand es Pouro qu'arribe...</l>
+          <l><lb/>Mai, t'enfète belèu, perdouno, escuso</l>
+          <l><lb/>Mei pàurei vers sèns rimo... ni resoun.</l>
+          <l><lb/>Ero bèn tèms de l'escriéure dous mot</l>
+          <l><lb/>Pèr te douna, Mèstre, signe de vido,</l>
+          <l><lb/>E noun leissa, coumo dien, l'erbo crèisse</l>
+          <l><lb/>Sus lou draidu de P'amista, 'm' aco</l>
+          <l><lb/>Me n'as pourgi l'autre jour l'óucasien,</l>
+          <l><lb/>E, coumo viés, largamen n'en proufiche.</l>
+          <l><lb/>Saches qu'aquestei jour de fre, de pluejo,</l>
+          <l><lb/>Proun enujous, m'aduson ges de mau:</l>
+          <l><lb/>Siéu ben puni que priva dóu soulèu;</l>
+          <l><lb/>Tre que lusis, mei cambo toujour lèsto</l>
+          <l><lb/>Leu à-n-un bon cagnard m'empouerton, vounte.</l>
+          <l><lb/>Caud e sadou, me chale coumo un rèi,</l>
+          <l><lb/>Noun senso quauque libre dei plus beu.</l>
+          <l><lb/>Saches qu'abouna siéu au «Felibrige»,</l>
+          <l><lb/>Que me sufis per lei novo e lou rèsto;</l>
+          <l><lb/>Se voueste Aiòli es pamens de moun goust,</l>
+          <l><lb/>Coumo ca pènse, adouba de tei man,</l>
+          <l><lb/>Tant pourriéu ben me n'en vougne la maisso.</l>
+          <l><lb/>Vous corcarai entanto de lipaire:</l>
+          <l><lb/>Natrouvarai-ti foueço? siéu doutous.</l>
+          <l><lb/>Coumo que vague, Mèstre, ten-te siau</l>
+          <l><lb/>E gaiardet. — Ben de couer vous embrasse,</l>
+          <l><lb/>Tu 'me ta gènto femo, nouesto Reino,</l>
+          <l><lb/>Qu'ai jamai visto, e qu'ame tant e mai,</l>
+          <l><lb/>Iéu toun devot counfraire Toni-Blai.</l>
+        </lg>
+        <p><lb/>Mai, basto, l'abadié se perd pas pèr un<lb/>mouine. Coume disié lou brave majourau se-<lb/>lounen, defauton pas li journalet ni li revisto<lb/><lb/>de tout biais ni lis armana felibren pèr faire<lb/>lume dins lou pople. Rèn que dins la Prou-<lb/><lb/>vènço, Lou Felibrige de Jan Monné, Lou Gau<lb/>dóu Paire Savié, La Vihado de Maziero e La<lb/>Sartan de Rimo-Sausso, rèston dubert i jouine<lb/>que volon faire grando, e nous enanan bèn<lb/>tranquile subre lou mantèn dóu drapèu.</p>
+        <p><lb/>Adessias dounc e gramaci à nòstis abouna<lb/>fidèu; gramaci e adessias i amistous coula-<lb/><lb/>bouraire que nous an prouvesi e ojuda nou</p>
+        <ab><lb/>LA DIREICIOUN.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>A miStRAU</head>
+        <ab><lb/>Adounc bèn-lèu, Mèstre, vous prepausas,<lb/>Tu te metent à la testo dei fouert,<lb/>De publica tres cop dou mes l'Aiòli,<lb/>« Per remounta lou cor de la Prouvenço?»<lb/>D'un tau proujièt pouede que vous lausa;<lb/>Mai reussira-ti? n'la panca proun<lb/>De revisto e journau dóu Felibrige<lb/>D'amount, d'avau, de Paris à Palermo,<lb/>Per l'espandi, dóu mens lou teni dre?<lb/>Un de mai, me diras, es pas de trop.<lb/>Vouele ca crèire ansin, emai espère<lb/>Qu'emé ta bono ajudo fara flòri...<lb/>De pas tout vèire en bèu es que prudent:<lb/>An seis auvàri terro, mar e cèu:<lb/>Lou Felibrige, emai mounto e mai mounto,<lb/>Ai pou qu'un jour ague sa davalado.<lb/>La Causo es grando e bello, de-segur;<lb/>Es pèr acò que l'aman, que voulèn<lb/>Tentendre e te segui, mai pou encaro<lb/>Estre uno espetaclouso revirado.<lb/>Va veiren pas, mai Diéu saup ço que couo<lb/>Dins l'eterne secrèt de sei counsèu...<lb/>Vaqui tamben perqué tant de proufane<lb/>Se viron, mesfisent, contro toun obro,<lb/>Tescupissent de-longo, traitei serp,<lb/>Sa bavo verinouo. Mai que l'enchau?<lb/>Tu vas perseguissènt ta messien santo,<lb/>Lou front aut, fisançous en toun estello...<lb/>E lei pople à ta voues picon dei man,<lb/>Trasent de fous sus toi peiato... E tu<lb/>Sabes fouert ben, umble dins tant de glòri,<lb/>Que siés qu'un estrumen que Dieu va roumpre<lb/>Tre qu'auras proun servi lei sieu dessen<lb/>Impenetrable... Pèr n'en reveni<lb/>A PAidli, counfus fau que te digue,<lb/>Qu'encare mai goustous lou pourrés faire,<lb/>Trouvara dins Seloun pau d'amatour.<lb/>N'es pas en vogo eici lou prouvençau,<lb/>Emai li es en mesprés: nouéstei dameto<lb/>Fèro e proun gènt coussu, que noun lou sabon<lb/>Ni legi ni coumprene, l'an à ti.<lb/>Lèu sara 'n crime de parla patoues!<lb/>Quant de mai de Paris la lengo es bello,</ab>
+      </div>
+      <div type="article">
+        <head><lb/>I BOER</head>
+        <p rend="styled"><lb/>En óumage à Fuadelfo de Gerdo.</p>
+        <lg>
+          <l><lb/>Que Diéu, fraire Boer, i coumbat vous ajude!</l>
+          <l><lb/>leu, Gardian coume vous, e libre, vous salude.</l>
+          <l><lb/>Di palun dóu Vaal i sablas dóu desert,</l>
+          <l><lb/>Coume nautre dou Rose au Lengadò souvert,</l>
+          <l><lb/>T revant segound li tèms, butas vosti manado;</l>
+          <l><lb/>E lou Rose e lou Vau fan li mémis oundado.</l>
+          <l><lb/>Coume nous-autre sias coursejaire de brau;</l>
+          <l><lb/>Vosti cavalot rude e viéu coume lou Rau.</l>
+          <l><lb/>Fin pèr se croucheta, soun de la memo meno</l>
+          <l><lb/>Que nosti paramen (*)... Que l’Estello sereno</l>
+          <l><lb/>Di vièi Prince d'Aurenjo adraie vòsti pas,</l>
+          <l><lb/>E que voste sang rouge embugant li campas</l>
+          <l><lb/>Arrambe i pèd de Dieu lou nivo de venjanço !</l>
+          <l><lb/>Vautre, uni dins vosto iro e dins vosto esperanço,</l>
+          <l><lb/>Vous sias encavala, touti, pèr embandi</l>
+          <l><lb/>L'Anglés raubo païs e pudènt que s'es di</l>
+          <l><lb/>De vous escoutela. Sabès touti li draio,</l>
+          <l><lb/>Touti li camin bas e touto font que raio,</l>
+          <l><lb/>Sabès touti li cros e tóuti li lauroun,</l>
+          <l><lb/>Tóuti li trantaiero e li tamargueiroun,</l>
+          <l><lb/>E se, fugènt, fau que dins li mounto-davalo</l>
+          <l><lb/>Vous abrivés subran, soulide dis espalo,</l>
+          <l><lb/>Vosti cavalin, proumte, esquihon coume un lamp</l>
+          <l><lb/>Davans li chivau-frus croutesc e barrulant</l>
+          <l><lb/>De l'enemi... Nous-autre, ah! que l'Anglés nous vèngue</l>
+          <l><lb/>Dins si barco e, toucant, que nosti costo tèngue !</l>
+          <l><lb/>Coume vous, à chivau sarian leu, coume vous</l>
+          <l><lb/>Sabèn tóuti li draio emai touti li pous,</l>
+          <l><lb/>Sabèn touti li trau e touti li broutiero,</l>
+          <l><lb/>E touti li palun e touti li coustiero,</l>
+          <l><lb/>Tóuti li camin bas; e nosti cavalin</l>
+          <l><lb/>Nimai barrulon pas pèr un trau de lapin.....</l>
+          <l><lb/>Boer, que sias urous de pousqué fàci à faci</l>
+          <l><lb/>Vouncha quau ahissès ! Vous-autre dins l'espàci</l>
+          <l><lb/>Dis endevenidou, libre vous noumarés !</l>
+          <l><lb/>Mai nous-autri qu'avèn bèn aurre que l'Anglés</l>
+          <l><lb/>Un nemi que s’escound, soumés à sa caturo,</l>
+          <l><lb/>Fau que nous móusiguen emé nosti mounturo</l>
+          <l><lb/>A courseja de biou... Noste pople inchaiènt</l>
+          <l><lb/>Ah! se 'n jour reviha seguissié li valènt !</l>
+          <l><lb/>Mai sian quàsi plus res: touti an la mort dins l'amo,</l>
+          <l><lb/>Lou couteu dins lou cor e sènton pas la lamo.</l>
+          <l><lb/>L'enemi s'es di fraire e tóuti l'an creigu,</l>
+          <l><lb/>A 'mpouisouna li sorgo e tóuti i'an begu.</l>
+          <l><lb/>E vaqui pèr-dequé ieu. plus fièr que lis autre,</l>
+          <l><lb/>Liuen di ciéuta vendudo ai fa coume vous-autre.</l>
+          <l><lb/>Li Gardian prouvençau sus sis estriéu quiha</l>
+          <l><lb/>D'èstre libre jamai noun pourran se laia.</l>
+          <l><lb/>E vaqui pèr dequé iéu, Gardian, vous salude.</l>
+          <l><lb/>Que Diéu, Fraire Boer, i coumbat vous ajude !</l>
+          <l><lb/>P. de Baroncelii-Javoun.</l>
+        </lg>
+        <p rend="labelled"><lb/>is aro scientificame<lb/> chiran<lb/>don n<lb/> paiu dDutando empourte<lb/>dela meo ra̧ quaquell di Cardian. — P.<lb/>auso curiouso, que soun</p>
+        <ab><lb/>5oueali./Bibliotèque d e</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

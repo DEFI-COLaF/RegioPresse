@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Campana de Magalouna</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7350060s</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Campana de Magalouna : journal populàri que parei lou 1è e lou 15 de toutes lous meses</title>
+          <publisher>[s.n.] (Mount-Peliè)</publisher>
+          <date when="1895-08-01">1895</date>
+          <idno type="ARK">bpt6k7350060s</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7350060s</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Pas qu'u<lb/>Quau n'en vo</fw>
+        <fw type="runningTitle"><lb/>Quatrièma annada. — No 83.</fw>
+        <dateline><lb/>Dijou tè d'Agoust 1895.</dateline>
+        <figure>
+          <head><lb/>Lournal poupulàri das felibres de Mount-Pelie que parei lou 1' e lou 15 de toutes lous meses</head>
+        </figure>
+        <ab><milestone unit="column" n="2"/><lb/>Aministracioun e Redacioun<lb/>15, carrieira denival-Verd, à Mount-Pelie</ab>
+        <p rend="styled"><milestone unit="column" n="3"/><lb/>Per las anounças e las reclamas,<lb/>s'entendre embé l'Aministracioun.</p>
+        <ab><milestone unit="column" n="1"/><lb/>ABOUNAMEN:</ab>
+        <ab><lb/>Un An. .. Quaranta sóus.</ab>
+        <figure type="decoration"/>
+        <figure/>
+      </div>
+      <div type="article">
+        <head><lb/>Lou BOuC de CaPIMOuNt</head>
+        <figure type="decoration"/>
+        <p><lb/>Capimount es un serre que se trova avans<lb/>d'arrivà à La Malou, en venguent de per Bedar¬<lb/>riéus.</p>
+        <p><lb/>Sus aquel serre, i'a una capella ounte las<lb/>gents de toutes lous vilages das alentours van<lb/>faire sas devouciouns, perqu'an una granda<lb/>counflança à Nostra-Dama à quau es voudada<lb/>la capella.</p>
+        <p><lb/>Un ermita la garda touta l'annada e quand<lb/>quaucun monta tout susous per visità la capella.<lb/>sap ben reçaupre soun mounde.</p>
+        <p><lb/>Dins soun pichot oustau, vous oufris dequé<lb/>vous refrescà e vous fai pausà un moumen. Es<lb/>pioi, au visitaire à faire soun devé. Quand ié<lb/>Sèu avedre la messa à la capella, aquel ermital<lb/>davala à La Malou emb'una pichota esquilla à la<lb/>man e campaneja per carrièiras. Aco vòu dire<lb/>que i'aura la messa lou lendeman. Pioi deman¬<lb/>da l'aumorna, qu'aco's tout soun benefice.</p>
+        <p><lb/>Au mes d'agoust, per Nostra-Dama, i'a chaca<lb/>jour un pelerinage nouvel, tantost es Sant-<lb/>Gervais, tantost Erépia, pioi Oulargues, Vila-<lb/>Cella e enfin Bedarriéus.</p>
+        <p><lb/>Aqueles jours, es pas besonn de l'esquilla<lb/>per anounçà la messa.</p>
+        <p><lb/>Es un plasé de veire arrivà tout aquel pople:<lb/>lous uns à pèd, embé soun paniè jout lou bras ;<lb/>lous autres sus d'ases ou de miolas, embé sas<lb/>oanastas per pourtà lou recate ; d'autres. enfin.<lb/>embé de carriolas.</p>
+        <p><lb/>Toutaco monta per un michant cami, pioi<lb/>s'espandis sus lou platèu, ounte trova una bona<lb/>plaça, e s'asseta sus lous rocs, à l'oumbra d'un<lb/>éuse, perqué, à part las ferigoulas e lous 10a<lb/>e,r pa </p>
+        <p><lb/>Un jour que lou pelerinage de Vila-Cella èra<lb/>vengut à Capimount, un capouchin de passage<lb/>mountèt per dire la messa e lou curat qu'ac-<lb/>coumpagnava lous pelerins lou preguèt de faire<lb/><lb/>un sermoun à vèspras.<lb/></p>
+        <p><lb/>En mai das abitants de Vila-Cella, i'aviè foça<lb/>estrangès qu'éroun arrivats d'un pauc pertout.<lb/>La glèisa era plena couma un iòu, encara n'i'a-<lb/>viè qu'avièn pas pougut intrà e qu'èroun res-<lb/><lb/>tats defora.<lb/></p>
+        <p><lb/>Lou capouchin vegent aco, faguèt sourti tout<lb/>lou mounde de la glèisa, mountèt defora sus<lb/>una taula e faguet soun sermoun sus lou plan<lb/>qu'es davans la porta, per que toutes pouguès-<lb/>soun l'entendre.</p>
+        <p><lb/>Aquel jour, parlèt das miracles que fai sou-<lb/>vent Nostra-Dama de Capimount e demandet<lb/>an pople d'avedre per ela foça devoucioun.</p>
+        <p><lb/>Una paura fenna de Badajo s'èra plaçada un<lb/>panc darriès de tout lou mounde e, tout en<lb/>escoutant lou sermoun, plourava tant que pou-<lb/>dié. Degus saviè pas l'encausa de soun chagrin.</p>
+        <p><lb/>Quand lou sermoun seguèt acabat, chacun<lb/>anèt de soun coustat, sus lou platèu : lous uns<lb/>per faire la goustada, lous autres per s'apreparà<lb/>à parti.</p>
+        <p><lb/>Soula, aquela fenna restêt à ginouls. e plou-<lb/>rava toujour.</p>
+        <p><lb/>Lou capouchin, que tout lou tems l'aviè re-<lb/>marcada, s'aprouchet d'ela e ié demandèt per-<lb/>qué plourava tant. Cresiè belèu qu'èra soun<lb/>clonquéncia que l'aviè toucada.</p>
+        <p><lb/>Vegent que ié respoundiè pas, ié diguèt que<lb/>belèu aviè sus la counsciença quauque gros<lb/>pecat qu'ausava pas avouà.</p>
+        <p rend="labelled"><lb/>— Savès be, ié disiè, que nautres, ministres<lb/>de Diéu, avèn la mancha larja. Anen, un pauc<lb/>de courage! Counfessàs-vous, veirés que pioi<lb/>sarès soulajada e pioi plourarés pas pus.</p>
+        <p rend="labelled"><lb/>— Nàni, moussu, ai pas res que tourmente ma<lb/>counsciença.</p>
+        <p rend="labelled"><lb/>— Dequ'avès alor, per tant plourà?<fw type="digitisation-artefact"><lb/>urce gallica.bnf.fr / Montpellier Méditerranée Métropole - Médiathèque centrale Emile Zola</fw></p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>NENET DAU TRIADOU</head>
+        <figure type="decoration"/>
+        <p><lb/>Se fai de farças un panc pertout. Dins las<lb/>vilas s'en vei de grossas e tamben dins lous<lb/>vilages s'en vei quaucas-unas que crèmoun au<lb/>lum. Escoutàs aquesta:</p>
+        <p><lb/>l'a d'aco save pas quant d'annadas, au Tria-<lb/>don, un pichot vilage que s'atrova sus la routa<lb/>de Claret, i'aviè un paure beligàs que s'apelava<lb/>Nenet, e, pecaire, n'èra pas l'encausa se las<lb/>uitras counouissoun pas la musica.</p>
+        <p><lb/>Un jour, aviè semenat de favaròus dins soun<lb/>jardi, proche lous darniès oustaus dau vilage,<lb/><lb/>dins la nioch, un das rusats de l'endrech, que<lb/>i'avièn bailat l'escai-noum de La Galina ié vai<lb/>desentarrà lous favaròus e ié mes de lentilhas à<lb/>la plaça. Couma plouguet prou lèu après e que<lb/>Nenet anèt pas à soun jardi, estent que la terra</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>Eh! be, moun Paire, ause pas vous hou<lb/>dire.</p>
+        <p rend="labelled"><lb/>E perqué?</p>
+        <p rend="labelled"><lb/>— Perqué n'ause pas. On pot pas tout dire.</p>
+        <p rend="labelled"><lb/>— Mès, enfin, avès pas tuat ni paire ni maire.<lb/>Vese pas perqué me diriès pas vosta pena.</p>
+        <p rend="labelled"><lb/>— Eh! be, moun Paire, pioi-que ié tenès<lb/>tant, vous hou vau dire: Avian un bouc que<lb/>servissiè per touta la countrada. Aquel bouc, que<lb/>moun ome e iéu aimaven tant, èra noste gagna-<lb/>pan. Hou creirés pas, moun Pairc, èra tant brave<lb/>que ié mancava pas que la paraula. Eh! be.<lb/>nous es mort la senmana passada. Despioi, pou-<lb/>dèn pas nous counsoulà d'aquela perta. Ere<lb/><lb/>venguda, ioi, à Capimount pèr demandà à Nos-<lb/>tra-Dama de soulajà nosta pena. En vous vegent.<lb/>Noutara, emb'aquela barbassa grisa, ié ressem-<lb/><lb/>blàs talamen à noste paure bouc, qu'ai cresegut<lb/>lou reveire? Alor, plourave de joia.</p>
+        <p><lb/>Vous demande la testa que faguèt lou capou¬<lb/>chin...</p>
+        <ab><lb/>LOU CETÒRI.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

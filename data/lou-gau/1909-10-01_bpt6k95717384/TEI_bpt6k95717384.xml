@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Gau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k95717384</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Gau : revisto mesadiero pèr li revendicacioun de la lengo prouvençalo à l'escolo, dins la cadiero e à la tribuno poupulàri : parèis lou 15 de chasque mes / secretàri dóu Gau D. Savié de Fourviero</title>
+          <publisher>[s.n.] (Tarascoun-sus-Rose)</publisher>
+          <date when="1909-10-01">1909</date>
+          <idno type="ARK">bpt6k95717384</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k95717384</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>ANNADO TREGENCO</fw>
+        <ab><milestone unit="column" n="2"/><lb/><lb/><lb/>1909</ab>
+        <fw type="numbering">No 169</fw>
+        <ab><lb/>OUTOBRE de1909</ab>
+        <figure/>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>CANTAIRE DI REVENDICACIOUN PROUVENÇALO</p>
+        <p rend="heading"><lb/>à l'Escolo, dins la (adiero e à la Tribuno poupulàri</p>
+        <ab><lb/>AMENISTRACIOUN:<lb/>Parèis tóuti li Mes<lb/>LI BAILE DÓU GAU:<lb/>EITOR JACOUMET<lb/>D. SAVIE DE FOURVIERO<lb/>Vau-Cluso)<lb/>ABOUNAMEN : 3 FRANC PER AN<lb/>Vilo-Dieu<lb/>MÉSTE EISSETO — ANTÒNI BERTIE</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Ço qu'es de dire<lb/>e ço qu’es de fair</head>
+        <figure type="decoration"/>
+        <p><lb/>Toulousan de Toulouso an manda en<lb/>touti li majourau, pèr l’entre-messo d'En<lb/>Bacquié-Fonade, tres letro que l’uno es adreissa¬<lb/>do à Mistrau, l’autro à Planté e la darriero à De-<lb/>voluy; e prègon li majourau de signa un dis<lb/>eisemplàri d’aquéli tres letro.</p>
+        <p><lb/>Dins aquelo adreissado au Mèstre de Maiano,<lb/>dison eiço: « Saben lou respèt que se deu à voste age<lb/>e à vosto glori. Senso remena ço qu'es di e ço qu'es fa,<lb/>vous pregan de vèire ço qu'es de dire e ço qu'es de<lb/>laire.»</p>
+        <p><lb/>Mistrau, enteta de touti aquéli tressimàci, pour¬<lb/>rié belèu bèn avé 'nvejo de respondre à la modo<lb/>dou Cascarelet, dins l'Armana de 1882:</p>
+        <lg>
+          <l><lb/>Mai subran Jupiter vous tiro un plen ferrat</l>
+          <l><lb/>D'aigo-signado, e flòu! lou bandis, tout en pousso,</l>
+          <l><lb/>Sus la revoulucioun que reguigno e s'espousso.</l>
+          <l><lb/>E s'entènd dins li nivo uno voues que brusis</l>
+          <l><lb/>En disènt: « Mis enfant, ma man vous benesis:</l>
+          <l><lb/>En voulènt escala tóuti à la fes, béu drole,</l>
+          <l><lb/>Pourrias vous debaus.a... Mountas à tour de role...</l>
+          <l><lb/>l'a de plaço pèr touti au celeste sejour...</l>
+          <l><lb/>Anas, en atendent, anas faire miej ur.»</l>
+        </lg>
+        <p><lb/>Mai es pas l'ouro de cascareleja o galeja, emai<lb/>i’ague de que, doumaci la letro di Toulousan de<lb/>Toulouso, emé sis incounsequènci, n’en pourgis<lb/>l’oucasioun. D’etèt, Mistrau pourrié bèn iè respon¬<lb/>dre à nòsti bon counfraire: Coume, mi pàuris<lb/>ami ! parlas dou « respèt que se dèu à moun age<lb/>e à ma glòri, »... que « moun noum, pèr vous<lb/>àutri touti es sacra » em' acò me cridas: Au noum<lb/>de la Patrio, vous suplican de vous ressesi! Acò 's<lb/>éu e s'endevèn gaire emé lou res-<lb/>pèt que disès. Me pregas « de vèire ço qu’es de<lb/>dire e ço qu'es de faire, » em acò me lou marcas<lb/>sus lou papié, coume se fasias la leiçoun à-n-un<lb/>entant. Leissas ista touto aquelo fountòni à l’ou-<lb/>nour de « moun noum sacra e de moun age e de<lb/>ma glòri!» Pas tant d'alleluia ! parlen un pau<lb/>resoun.</p>
+        <p><lb/>Ansin pourriè dire Mistrau. Ih! bèn, coume éu,<lb/>dirai à mi traire li Toulousan de l'oulouso : Parlen<lb/>un pau resoun, mi bèus ami. Quau es qu’es ana<lb/>dire que falié « acampa lou Counsistòri sènso<lb/>« acampa lou Counsèu Generau? » Se pòu e se<lb/>dèu faire l’un e l'autre. Mai fau segui lordre : la<lb/>bono amenistracioun lou demando. Perqué dounc<lb/>vous óupila, touti tant que sias, à refusa q e<lb/>se counvoque, proumié, lou<lb/>Counsistòri ? Acò 's esta de-longo la<lb/>marcho reguliero dins l'Assouciacioun dou Feli¬<lb/>brige; e, pèr lou bèn de la pas, es la marcho que<lb/>se dèu segui; noun soulamen pèr lou bèn de la<lb/>pas, dise, mai pèr lou bon founciounamen de<lb/>l'Assouciacioun elo-memo. Dins l'Eistatut legau,<lb/>subre-tout à l’article 8, es tout vist que leu Coun¬<lb/>sistòri dèu passa proumiè, dabord qu’es éu que<lb/>« diregis l'acioun dôu Felibrige », d'abord qu'es éu<lb/><lb/>que « noumo li Majourau, li Sòci, li Mèstre en<lb/>Gai-Sabé, lou Capoulié e lis Assessour », d'abord<lb/>qu’es éu « qu’establis l'Estatut e li Reglamen in¬<lb/>« teriour e prounouncio sus li pache d’afihacioun»,<lb/>d’abord qu’es d’éu. pèr tout dire, en un mot, que<lb/>lou Counsèu Generau tèn soun eisistènci feli-<lb/>brenco. Acampa lou Counsèu Generau avans lou<lb/>Counsistòri, coume l'ai deja di, es metre l’araire<lb/>avans li biòu; es acò lou desordre, « lou noun¬<lb/>rèn e l'anarchio.»</p>
+        <p><lb/>Vese pas que l'acamp dòu Counsistòri empache<lb/>l’acamp dòu Counsèu Generau. V'ese pas que lou<lb/>travai dóu proumié fague entramble au travai dòu<lb/>segound, per «federa lis energio que de tout caire<lb/>de nosto terro s'enausson de-vers la recounquisto<fw type="digitisation-artefact"><lb/>urce gallica.bnf.fr / Bibliothèque nationale de France</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

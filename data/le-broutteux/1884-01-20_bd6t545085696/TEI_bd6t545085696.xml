@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t545085696</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1884-01-20">1884</date>
+          <idno type="ARK">bd6t545085696</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t545085696</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="3"/><lb/>DIMANCHE 20 JANVIER 1884.</ab>
+        <ab><milestone unit="column" n="2"/><lb/>Un Numéro: 10 centimes</ab>
+        <ab><milestone unit="column" n="1"/><lb/>Ramer 48. (3me ANNÉE).</ab>
+        <figure type="decoration"/>
+        <figure/>
+        <p rend="heading"><lb/>»Ily a des Bétises<lb/>payables d'avance<lb/>qu'un homme d'esprit<lb/>3mois IrJ-50<lb/>achéterait.<lb/><lb/>VOISENOR<lb/>Etranger, port en sus</p>
+        <p rend="heading"><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING</p>
+        <p rend="styled"><lb/>Adminisiration: FRERE-GLORIEUX, Imprimeur, rue de Lille, 18. — Rédaction: Jules WATTEEUW, Grand Place, 19</p>
+      </div>
+      <div type="article">
+        <head><lb/>LES MINEURS</head>
+        <p><lb/>In a tertus appris cheull' semaine l'mal-<lb/>leur arrivé vin les mines de Ferfay, à 520<lb/>ètres de parfonds, et y a eu 17 pauffes<lb/>vris d'tués et 7 de blessés!</p>
+        <p><lb/>Et acore, aujord'hu, ch'est qu'in cache<lb/>ès l'z'autes, pasque y in manque à<lb/>ppel</p>
+        <p><lb/>Je n'sais po si vous êtes comme mi,<lb/>mais chaque fos qu’in parle d'in accidint<lb/>les mines, je n'peux po faire autermint<lb/>ue d'busii à l'ovrache penible d'ches<lb/>braffes mineurs.</p>
+        <p><lb/>Allons, busii inne fos, vous autes...<lb/>cheu différince d'povoir ovrer vin inne,<lb/>Plache au grand air, d'aller et v'nir, d'vudi<lb/>ir l'solé, respirer, quo, ou ben dé-<lb/>nte vin la terre, ovrer, ploi in deux,<lb/>in treu ! sans vir clair, comme in avule<lb/>cha, sus l'glache d'inne nut comme in<lb/>Tourco, pusque l'mineur in déchin-<lb/>ant d'vin, y n’est po seur qui va ermonter<lb/>vant</p>
+        <p><lb/>n'd'a qui vont répontent à cha: ch'est<lb/>ne habitude, chès gins n’y busitent</p>
+        <p><lb/>Quais, ouais, tout cha ch'est bel à dire,<lb/>T'sait ben ; ch'n’est po du nouveu chin<lb/>u'vous dites la, mais in attindant, j'voro<lb/>ous vir aller ovrer la d'vin inne paire de<lb/>urs, vous qui êtes si ars, vous m’in diri<lb/>es nouvelles... et y n’est n’in seur gue<lb/>pus n'ari po l'tronnerie vin vou maronne,<lb/>mant ête in bas, vin l'fonds! Sans comp-<lb/>qu’vous wettri pus qu’inne fos in air<lb/>vir si l'corde n'va po casser, peur de<lb/>ltchuberlire vin l’carbon. Y n'd'a<lb/>amint qui sont ars inveuc leu lanque sus,<lb/><lb/>e, et inne ſos qui faut muchi d'vin...</p>
+        <p><lb/>pus persodne.</p>
+        <p><lb/>voro vir in homme et inne femme in s'part aussi savez?</p>
+        <p><lb/>L’carbonnage y otchupe 73,000 ovris et<lb/>il a été la cause que gramint d'fonderies<lb/>d'fer, d'mécanique, tout cha s'a installé in<lb/>Belgique.</p>
+        <p><lb/>Y a tros bassins principaux : l'bassin<lb/>d'Mons, l'pus grand et l’pus riche, l’bassin<lb/>d'Charleroi et l’bassin d’Liège.</p>
+        <p><lb/>Après cha, l’Allemagne in produt pas-<lb/>sablemint. mais après, l'z'autes pays in<lb/>produttent presque po, à part l’Amérique<lb/>Septentrionale qui a des riches bassins.</p>
+        <p><lb/>La France n’produt qu’les tros quarts<lb/>de chin qu’ill' consomme!</p>
+        <p><lb/>Cha, ch'n'est po d'nou faute in n'd'in<lb/>peut po... n'est nin vrai?</p>
+        <p><lb/>In trot jolimint laid si in n'aro po d'car-<lb/>bon! quo qu’in fero? Mon Di Seigneur!<lb/>jour de la vie!</p>
+        <p><lb/>Hureux, qu’in a des gins qui s'dévouent<lb/>pour aller in tcheur vin l'fonds d’la terre.<lb/>Ch’est pou cha, alfos, in bertonne sus<lb/>sin sort, in n’est n’in contint... D’téfos, y<lb/>n'd'a gramint qui n'l'ont po si belle que<lb/>nous autes, et qui risquent leu vie acor<lb/>par deseur l'marché.</p>
+        <p><lb/>Vin nou pays, par chi, y a l'ovri d'fila-<lb/>ture qui a certainemint du mérite, vu qui<lb/>a in traval dur, pénible, toudis rinserré<lb/>du matin timpe, au soir, tard, ch'est acor<lb/>in vrai soldat d’l'industrie. Mais vin les<lb/>mines au carbon, y m'semble que ch'est<lb/>acor pus rude et qu’in n'dot po savoir<lb/><lb/>apprécier leu misère vu qu'in n'y ajamais?<lb/>participer. Chin qui nous arriffe de nou¬<lb/>velles, d’timps in temps, ch'est tchan qu’in<lb/>vot sus les journals qui n'd’a acor qui<lb/>2'ont péri, comme l'semaine passée.</p>
+        <p><lb/>Hureux! vin des momints essin, tchi<lb/>qui a in bon tcheur et que l'bon Di li a<lb/>donné la richesse pou povoir apporter in<lb/>soulagemin à les gins affligis!</p>
+        <p><lb/>In sait ben, qu’l'argint n’peut jomais rim-<lb/>plachi in père, in mari... mais du pur<lb/>train d’batii, vin leu menache, si in l'z'im-<lb/>peugnero par inne peugni d'maronne et<lb/>les déchinde d'vin, mindemèche si y<lb/>Sattirottent acor in arrivant au ſonds.</p>
+        <p><lb/>Ebé, les mineurs y ont pus d’tcheur que<lb/>cha eusses, malgré tous les dangers, mal-<lb/>gré lpéril, in les vot braver la mort pou<lb/>sauver leus copagnons. Et soldats du tra-<lb/>vail y erqueminchent à ovrer sus l’champ<lb/>d'bataille l’lindemain d'inne défaite.</p>
+        <p><lb/>Aussi, grâce au mineur in vot mar-<lb/>cher les grands établissemints qu'in<lb/>appelle des filatures, des peignaches, des<lb/>Nissaches, etc. Ch'est li qui fournit l'ali-<lb/>mint à les fourneux.</p>
+        <p><lb/>Ch'est li qui fait transporter les mar-<lb/>chandises et les voyageurs vin l’monde in<lb/>intir, in faijant faire à l'eau de l'vapeur pou<lb/>chès bellès locomotiffes.</p>
+        <p><lb/>Ch’est acor li qui fournit de l'forche à<lb/>les navires qui vont d’un bout du monde<lb/>à l'aute, transporter les soldats d'France<lb/>victorieux au Tonkin et leu porter des<lb/>approvisionnemints.</p>
+        <p><lb/>Quoqu'vous in dites? à vou motte que<lb/>les mineurs ch'n'est po des ars copa-<lb/>guons?</p>
+        <p><lb/>Et l'gaz... wetti inne fos, comme in trot<lb/>à l'brenne si in aro po les mineurs, pasque<lb/>ch’est inveuc du carbon qu’in fait l’gaz.</p>
+        <p><lb/>Par deseur l'marché, tchan qui a ben<lb/>servi à faire de l'leumire in l'vind acor,<lb/>comme du coke; à l'z'erpasseuses, les<lb/>tailleurs, les marchands d'peun’terre frits,<lb/>les capelis, les marchands d'couque ba-<lb/>ques, d’marrons, et pus les fabricants<lb/>d'gauffes... tut la bertantaine.</p>
+        <p><lb/>Vivent les mineurs! vive l'carbon!<lb/>Toudis, d’après chin qu’j'ai pu apprinte<lb/>ch’est qu'l'Ingueulterre in fournit deux<lb/>fos autant que l'reste du monde, mais in<lb/>proportion, la Belgique ill' fournit jolimint</p>
+      </div>
+    </body>
+  </text>
+</TEI>

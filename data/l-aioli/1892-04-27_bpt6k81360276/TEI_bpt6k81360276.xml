@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81360276</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1892-04-27">1892</date>
+          <idno type="ARK">bpt6k81360276</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81360276</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>SEGOUNDO ANNADO, No 48.</fw>
+        <fw type="runningTitle"><lb/>DIMÈCRE, 27 D'ABRIEU 1892.</fw>
+        <fw type="runningTitle"><lb/>MISTRAL.</fw>
+        <lg>
+          <l><lb/>Nautri, li bon Prouvençau,</l>
+          <l><lb/>Au sufrage universau,</l>
+          <l><lb/>Voutaren pèr l'ôli</l>
+          <l><lb/>E faren l'aioli.</l>
+        </lg>
+        <ab><milestone unit="column" n="3"/><lb/>Prouverbi di moissounie</ab>
+        <ab><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17. 27)</p>
+        <figure/>
+        <ab><milestone unit="column" n="1"/><lb/>SUREU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>M. DE BARONCELLI,<lb/>au palais dou Roure,<lb/>EN AVIGNOUN</ab>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <ab><lb/>Baile dou journau:<lb/>M. DE BARONCELLE<lb/>Secretari de la redacioun:<lb/>GRABIE PERRIKR.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>La ferigoulo a bèu senti bon; estènt qu'es</ab>
+        <ab type="head"><lb/>L'AUBO</ab>
+        <ab type="head"><lb/>DEMÉ LIS AUBADO MAIENCO</ab>
+        <p><lb/>L'aubo, qu'en boutanico apellon populus<lb/>alba, es l'aubre rèi de la Prouvènço. Noun n'i'a<lb/>ges de tant grand ni de tant majestous en terro<lb/>dóu Miejour. Dins li cremen dóu Rose, sus li<lb/>levado e dins lis isclo, laubo vèn couloussalo<lb/>coume li trounc gigant di fourèst vierge d’A-</p>
+        <p><lb/>Emé si pège blanc, bèn enroula, mabrin,<lb/>dre coume de coulouno, emé si bèu brancage<lb/>qu'argentau l'enmantellon e que, boufe que<lb/>boufe, tènon tèsto au mistrau, l'aubo fai<lb/>sounja, me sèmblo, autant pèr l'estaturo coume<lb/>pèr soun noum, au mite dóu gigant Aubioun,<lb/>aquéu fiéu de la terro que luchè contro Ercule<lb/>sus lou ribeirés dóu Rose.</p>
+        <p><lb/>Fau vèire l'aubo en Bartalasso, à Valabrego,<lb/>à Tarascoun, dins li Segounau, en Arle, sus<lb/>li dougan de la Camargo:</p>
+        <lg>
+          <l><lb/>O magnifiqui souloumbrado!</l>
+          <l><lb/>De frais, d'aubo desmesurado</l>
+          <l><lb/>Miraiavon di bord si pège blanquinous;</l>
+          <l><lb/>De lambrusco antico, bestorto,</l>
+          <l><lb/>l' envertouiavon si redorto,</l>
+          <l><lb/>E dóu cimèu di branco forto</l>
+          <l><lb/>Leissavon pendoula si pampagnoun sinous (Mireio).</l>
+        </lg>
+        <p><lb/>Forço mai aboundouso autre-tèms qu'au-<lb/>jour-d'uei, l'aubo, dins nòsti pais, èro autre-<lb/>tèms, pèr eicelènci, lou grand bos de service.</p>
+        <p><lb/>Li radèu qu’Annibau faguè coustruire à Bèu-<lb/>Caire, à Roco-Mauro o autro part, pèr travessa<lb/>sou Rose emé sis elefant, fuguèron entaula 'mé<lb/>lis aubo esfraiouso que ribejavon noste flume.</p>
+        <p><lb/>Aquéli douge nau que Cesar faguè basti,<lb/>dóu tèms qu'assiejavo Marsiho, e que faguè<lb/>basti en Arle, nau e galèro que fuguèron ar-<lb/>mado en trento jour, fuguèron facho emé lis<lb/>aubo que se toumbè de-long dóu Rose.</p>
+        <p><lb/>Tóuti li moble poupulàri, que se fan vuei emé<lb/>de nóuguié, coume taulo, pestrin, paniero,<lb/>gardo-raubo, tout acò, jusqu'à Louis XV, dins<lb/>nòstis encountrado, noun se fasié que de bos<lb/>d'aubo — qu'en estènt travaia pren uno cou-<lb/>lour rousenco.</p>
+        <p><lb/>Enfin, quand se planto lou Mai, subre li dos<lb/>ribo dóu Rose, à Tarascoun coume à Bèu-<lb/>Caire e'n tóuti li pais vesin, li jouvènt, dins la<lb/>niue dóu bèu proumié de Mai, van, dins lis<lb/>aubaredo, derraba 'no jouino aubo, la miés<lb/>avengudo que trovon, e'm'aco la vènon planta<lb/>au pourtau de la vilo o bèn contro la porto<lb/>d'aquéu que volon ounoura.</p>
+        <p><lb/>Dins lou lengage de l’amour, tau que se pra-<lb/>tico en Prouvènço, touto flour, touto aubriho<lb/>a sa significacioun. E quand lou calignaire,<lb/>quàuqui-fes un jalous, la niue dóu proumié<lb/>de Mai, vèn estaca 'n bouquet o'n rampau de<lb/>verduro à la cadaulo d'uno chato, ié fai ansin<lb/>counèisse, de-fes crudelamen, lou founs de sa</p>
+        <p><lb/>La roso, pèr eisèmple, vou dire eiçò-d'eici:</p>
+        <lg>
+          <l><lb/>Bello roso de mai,</l>
+          <l><lb/>Qu'es pancaro espandido,</l>
+          <l><lb/>En quau la dounarai?</l>
+          <l><lb/>A tu la plus poulido.</l>
+        </lg>
+        <p><lb/>caucigado coumunamen souto li pèd, es uno<lb/>flour injuriouso;</p>
+        <ab type="head"><lb/>La ferigoulo<lb/>Se douno i groulo.</ab>
+        <p><lb/>Lou sambu, encaro mai, car se pènjo à la<lb/>porto d'aquéli qu'amon lou vin:</p>
+        <lg>
+          <l><lb/>Lou sambu:</l>
+          <l><lb/>Siés un embut.</l>
+        </lg>
+        <p><lb/>L'éuse es pèr averti que la jouinesso passo:</p>
+        <ab type="head"><lb/>Pur pau qu'espéres, sarai véuse</ab>
+        <p><lb/>Lou roumani marco l'amour (e belèu reme-<lb/>mòrio, quau saup? la Court d'Amour qu'avian<lb/>à Roumani):</p>
+        <p><lb/>Mai lou bon Mai, au dire de tóuti li fringaire,<lb/>lou bon mai es pièi l'aubo, car veici co que<lb/>significo:</p>
+        <ab type="head"><lb/>Tamarie mai au le qua taulo.</ab>
+        <p><lb/>E perqué? pèr-ço-que l'aubo, quand si ca-<lb/>toun flourisson, fournis à l'auceliho lou cou-<lb/>toun de si nis ; e's i branco de l'aubo qu’au<lb/>mes de mai pendoulo soun nis tant remarca-<lb/>ble aquel aucelounet qu'apellon debassaire o<lb/>pendoulino de Prouvènço.</p>
+        <p><lb/>Basto, s'avian pas l'óulivié, nous farié ges<lb/>de peno, pèr tout acò d'aqui, de prouclama<lb/><lb/>que l'aubo, la bello aubo maienco, acò 's noste<lb/>aubre naciounau.</p>
+        <figure type="decoration"/>
+        <p><lb/>Aro veici lis aubado qu'èro autre-tèms d'u¬<lb/>sage de canta, au mes de mai, souto li fenès-<lb/>tro di chato. Disèn pas que, dins de vilage,<lb/>noun se canton encaro, car l'amour, quand es<lb/>naive, aura eternamen la pouèslo pèr lengage.<lb/>Mai em'aquéu glavas de banalita groussiero<lb/>que vuei, coume jamai, envahis tout, embru-<lb/>tis tout, i'a grand dangié qu'éu-meme, l'amour,<lb/>vague perdènt si galantarié d'antan.</p>
+        <lg>
+          <l><lb/>léu vous presènte, bello, la ferigoulo ;</l>
+          <l><lb/>Sabès que sent bon en touto ouro,</l>
+          <l><lb/>Encaro mai quand es flourido</l>
+          <l><lb/>Vous amarai touto ma vido.</l>
+        </lg>
+        <lg>
+          <l><lb/>léu vous presênte, bello, lou boutoun-d'or,</l>
+          <l><lb/>Que sias pèr iéu coume un tresor,</l>
+          <l><lb/>Coume un tresor de gentilesso;</l>
+          <l><lb/>Vous prendriéu ben pèr ma mestresso.</l>
+        </lg>
+        <lg>
+          <l><lb/>léu vous presènte la pampo de roure,</l>
+          <l><lb/>Que trop long-tèms m'avès fa courre:</l>
+          <l><lb/>Ai tant courru, tant courrirai,</l>
+          <l><lb/>Bello, qu'á la fin vous aurai.</l>
+        </lg>
+        <lg>
+          <l><lb/>léu vous presènte, bello, lou balicot'</l>
+          <l><lb/>Que n'es un aubre bèn pichot:</l>
+          <l><lb/>Mai éu sarié bèn fièr, pecaire,</l>
+          <l><lb/>S'erlas la noro de moun paire.</l>
+        </lg>
+        <lg>
+          <l><lb/>léu vous presènte, o bello, la vióuleto;</l>
+          <l><lb/>Sias dins moun cor touto souleto,</l>
+          <l><lb/>Mai pèr iéu sarié doulourous,</l>
+          <l><lb/>Se dins voste cor n'i'avié dous.</l>
+        </lg>
+        <lg>
+          <l><lb/>léu vous presénte, o bello, lou mentastre,</l>
+          <l><lb/>Prenès-me iéu e noun un pastre :</l>
+          <l><lb/>Li pastre sènton trop l'enguènt,</l>
+          <l><lb/>Prenès-me léu que sente rèn.</l>
+        </lg>
+        <lg>
+          <l><lb/>léu vous presènte la pampo de vigno</l>
+          <l><lb/>Que, quand fai vènt, elo reguigno:</l>
+          <l><lb/>Fan trop ansin vòstis amour,</l>
+          <l><lb/>Bello, quand siéu auprès de vous.</l>
+        </lg>
+        <lg>
+          <l><lb/>léu vous presènte, o bello, la redorto;.</l>
+          <l><lb/>l'a cinq couquin à vosto porto:</l>
+          <l><lb/>E n'r'a d'eici, e n'ra d'eila..</l>
+          <l><lb/>Anas au diable caligna !</l>
+        </lg>
+        <lg>
+          <l><lb/>Vello, sarés plus moun amigo</l>
+          <l><lb/>Vese qu'avès trop de pounchoun...</l>
+          <l><lb/>Maridas-vous em'un cardoun.</l>
+        </lg>
+        <lg>
+          <l><lb/>léu vous presènte, bello, la berigoulo:</l>
+          <l><lb/>Avès un pau trop grosso goulo.</l>
+          <l><lb/>Rén que pér la bourra de pan,</l>
+          <l><lb/>Me manjarias tout moun gasan.</l>
+        </lg>
+        <lg>
+          <l><lb/>bahid</l>
+          <l><lb/>Coustarias mai à reveni</l>
+          <l><lb/>Qu'un marrit ai à 'ntre-teni.</l>
+        </lg>
+        <lg>
+          <l><lb/>Ansin fai voste calignaire</l>
+          <l><lb/>A vosto porto, eici, pecaire!</l>
+        </lg>
+        <p><lb/>Dóu rèsto aquel usage, d'espremi sa pas-<lb/>sioun pèr uno flour emblematico, n’es pas<lb/>particulié souletamen à la Prouvènço. Dins la<lb/>Corso, dins l'Itàli, dins la Roumanio e la<lb/>Grèço, dins tóuti li pais ounte lou soulèu<lb/>caufo l'imaginacioun dóu pople, se retrovo<lb/>aquéu biais de declara soun pan d'un sou dins<lb/><lb/>un coublet sus uno flour. Li Grè prouba-<lb/>blamen, proumié civilisaire dóu ribeirés prou¬<lb/>vençau, nous avien adu aquel us, car avien<lb/>éli peréu, de touto antiqueta, un brout de<lb/>pouesio ansin, que l'apelavon anthema, ço que<lb/>vòu dire « flouresoun ».</p>
+        <ab><lb/>GUI DE MOUNT-PAVOUN.</ab>
+        <p rend="labelled"><lb/>Balicot, basile (ocymum basilicum).</p>
+        <note>
+          <p rend="labelled"><lb/>Redorto, erbo-di-gus, clematito.<fw type="digitisation-artefact"><lb/>ou/Bee</fw></p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

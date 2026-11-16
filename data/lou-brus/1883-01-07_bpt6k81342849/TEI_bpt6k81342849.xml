@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81342849</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1883-01-07">1883</date>
+          <idno type="ARK">bpt6k81342849</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81342849</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>menche7 de janvié 1883</fw>
+        <fw type="runningTitle"><lb/>IVo Annado — No XLI p. 221</fw>
+        <fw type="runningTitle"><lb/>Dous sòu lou numeró</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Depausitàri majourau pèr Marsiho M. Vincent, carri ro Lorneille, 3.<lb/>Bouco-dou-Rose e despartamen<lb/>7 fr.<lb/>que fan raro em'éu . .<lb/>Franço Corso, Algerio, . .<lb/>80<lb/>10.<lb/>Fouero Franço. . . .</ab>
+        <p rend="heading"><lb/>JOURNAU POUPULARI DE LITERATURO, D'ISTORI E DE SCIENCI</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>PAREISSENT TOUTEI LEI DIMENC</p>
+        <ab><lb/>Tout co que toco lou journau deu<lb/>èstre manda atranqui à l'Emprimarie<lb/>Prouvençalo. 15, carrièro dóu Grand-<lb/>Relògi, à-z-Ais.</ab>
+        <p><milestone unit="column" n="3"/><lb/>Les annonces, reclames et tait- di-<lb/>vers sont reçus exclusivement à l'A-<lb/>gence Ewig rue d'amboise-Richelieu,<lb/>9. Paris fermière de la publicite.</p>
+      </div>
+      <div type="article">
+        <head><lb/>ASSABE</head>
+        <p rend="labelled"><lb/>Lon Bruse es manda, coumo assai, à<lb/>touto persouno que s'interesso à la lengo<lb/>prouvençato e au mouvamen felibren<lb/>Lei tres premié numero manda de segui-<lb/>do soun à gratis. Se lou quatren noun<lb/>es remanda emé lou mot as sus<lb/>la bundo, faren presenta. pèr la posto uno<lb/>biheto d'abounamen de 7 fr. 50 0 de 8 fr<lb/>50 segound lou domicite dou nouvel<lb/>abouna, à mens que nous siegue manda.<lb/>avans aquèu quatren numerò, l'argent<lb/>per la posto. Per aco faire li a que de<lb/>remetre 7 98 franc à soun burèu. Se car-<lb/>garen dei frès.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Sextius Ferrat.- M. Bourrelly.</ab>
+        <ab type="head"><lb/>TAULETO</ab>
+        <list>
+          <item>PASsO-TEMS. — Lei bla de nouvé̀ - P. Simoun. POUESIO. — A-n-Aubanel. - C. Dumas.</item>
+        </list>
+        <list>
+          <item>B:inde. - D. P. Garnier.</item>
+        </list>
+        <list>
+          <item>CROUNICO. — L'aument dóu Bruse.</item>
+        </list>
+        <lg>
+          <l><lb/>VARTTA. — Letio parisenco. — Programmé</l>
+          <l><lb/>artistique de Paris.— Ambra.</l>
+          <l><lb/>TARGO LITERARI. -- Lou councours dóu Bruse.</l>
+        </lg>
+        <list>
+          <item>POEIETOUN. — L'anéA don tét. F. d'E.</item>
+        </list>
+      </div>
+      <div type="article">
+        <head><lb/>PASSO-TEMS</head>
+        <head><lb/>LEI BLAD DE NOUVE</head>
+        <head><lb/>LEGENDO</head>
+        <p><lb/>Lei bouen prouvençau, va sobès, en l'usàgi à<lb/>l'oucasien dei fèsto de Nouvè, de faire crèisse de<lb/>blad dins de pichoun sieloun e de ei metre da-<lb/>vans la Crécho.</p>
+        <p><lb/>Acò si preparo per Santo Barbo, de maniero<lb/>que lou sero dón gros soupa, ei b'ad soun bèu,<lb/>soun aut, soun vert e fun plesi à vèire. La supers-<lb/>ticien di que se vènon bèn. tout prouspero dins<lb/>lou meinagi; mai se trachisson pa, garo à la<lb/>famiho, es un delugi de caiamita</p>
+        <p><lb/>Mi siéu leissa counta pèr uno vieiò marsiheso,<lb/>la legendo que veicito su la significacien d'aquest<lb/>usagi:</p>
+        <p><lb/>Degun es senso saupre que quouro Erode<lb/>aprenguè la naissènço de Jèsu, n'en sieguè foueço<lb/>trebotla, e trouvè rèn de mies pèr faire fugi sa<lb/>pou, que de manda seis sordat pèr tout caire e<lb/>cantoun de la Judéio emé l'ordre de tua tóuti leis<lb/>enfant au mamèu. Es ce que si noumo lou mas-<lb/>sacre aeis inouncent.</p>
+        <p><lb/>Adoun seis ome si metèron en devé de<lb/>rou ei e faguèron un mortalàgi; mai un angi de<lb/>Diéu avertissè la Santo Famiho que prengue<lb/>rescampeto vers l'Egito. Or,a-n-aquéu moumen,<fw type="digitisation-artefact"><lb/><lb/> aa/Bibèque e </fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

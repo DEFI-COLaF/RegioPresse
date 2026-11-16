@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Campana de Magalouna</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k73500542</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Campana de Magalouna : journal populàri que parei lou 1è e lou 15 de toutes lous meses</title>
+          <publisher>[s.n.] (Mount-Peliè)</publisher>
+          <date when="1895-04-15">1895</date>
+          <idno type="ARK">bpt6k73500542</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k73500542</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Pas qu'un sou!<lb/>Quau n’en vòu ?</fw>
+        <fw type="runningTitle"><lb/>Dilus, 15 d’Abriéu 1895.</fw>
+        <fw type="runningTitle"><lb/>Quatrièma annada. - No 77.</fw>
+        <figure>
+          <head><lb/>gournal poupulàri das felibres de Mount-Peliè que parei lou 1' e lou 15 de toutes lous meses</head>
+          <p><milestone unit="column" n="3"/><lb/>Per las anounças e las réclamas,<lb/>s'entendre embé l'Aministracioun.</p>
+        </figure>
+        <quote><milestone unit="column" n="2"/><lb/>Aministracioun e Redacioun<lb/>15, carrièira dau Chival-Verd, à Mount Pelie</quote>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>ABOUNAMEN:</p>
+        <p rend="dateline"><lb/>Un An . . . . Quaranta son</p>
+      </div>
+      <div type="article">
+        <figure/>
+        <ab type="head"><lb/>Las Sournetas de nostes Grands</ab>
+        <p><lb/>Nous arriva mai d'un cop de reçaupre. de l'un ou de<lb/>l'autre, de tros de sournetas foça counouscudas e que,<lb/>pamens, n'i'a pas gaire que las sachoun en eutiè. On las<lb/>a ausidas perquinaqui ; nous las mandon couma on s'en<lb/>souvèn e soun jamai coumplétas.</p>
+        <p><lb/>Couma savén qu'aqueles contes interéssoun nostes<lb/>letous, anan n'en coumençà la publicacioun. Lous pren¬<lb/><lb/>dreu dius lous libres escrichs per lous prumiéa felibres.<lb/>dins lArmana Prouvençau ou l'Armana de Lengado.<lb/>Nostes-letous pourrao antau aprecià lou biais galejaire<lb/>das Roumanille, das Anseums Mathiéu e de toutes lous<lb/>countaires renoumats dau Miejour.</p>
+        <figure/>
+      </div>
+      <div type="article">
+        <head><lb/>UN CHANTRE DE RESCONTRE</head>
+        <p rend="labelled"><lb/>(CONTE DE PASCAS)</p>
+        <p><lb/>Jaque Bassoun, qu'es grand-clere e mèstre de<lb/>Cor à la parròquia Sant-Roc, anèt. l'autre jour,<lb/>atrouvà soun amic emplegat au camin de ferre...<lb/>conma l'appelloun?... Simoun Castagna, una<lb/>Dona pasta de crestian, que lous dimenches.<lb/>quand es libre, l'ajuda au letrin, — emb'aco ié<lb/>dignèt:</p>
+        <p rend="labelled"><lb/>— Simoun, fau que me rèndes un service.</p>
+        <p rend="labelled"><lb/>— Dous se pode. Dequé i'a?</p>
+        <p rend="labelled"><lb/>— l'a que, deman, lon sant jour de Pascas.<lb/>manjan las dragèias: anan batejà lou pichot de<lb/>la nebouda, à Vila-nova, — un bèu droulàs,<lb/>di'a'n un plen brès! — Sièi pairi. Poudriès pas<lb/>faire moun obra à la grand messa, à mai à las<lb/>vespras?</p>
+        <p rend="labelled"><lb/>tole ben, moun ome, ié fai Simoun. Jus-<lb/>tamen se vai capità que deman sièi de campos.<lb/>Pos parti tranquile. Amai siègue un pau enrau-<lb/>massat, tamben piéutarai, e menarai lous piéu-<lb/>taires.</p>
+        <p><lb/>L'endeman doune, à Vila-nova, Jaque Bas-<lb/>soun faguèt un crestian, e Simoun Castagna, à<lb/>Sant-Roc? diguèt..... ah! n'en faguèt una bella!<lb/>Anàs veire aco.</p>
+        <p><lb/>A la grand-messa, lous Kyrie, lou Gloria, lon<lb/>Credo, tout anét juste couma un papiè de musi-<lb/>ca : lou raumàs de Simoun s'èra amadurat e sa<lb/>vouès, amai seguèsse un panquetou gamada, fa-<lb/>guet ben soun óufice. Mès à las vèspras !...</p>
+        <p><lb/>Vau vous dire aco poun per poun e de fiéu en<lb/>courdura. Vèspras dichas, un predicatou famous<lb/>en cadièira monntèt e faguèt un sermonn tant<lb/>ben aliscat e tant ben fignoulat que tout l'audi-<lb/>tòri, — la glèisa èra plena couma un iòu, —<lb/>n'en seguèt espantat e badèt tout lou tems que<lb/>parlet la bonca d'or. Soulet, Simoun Castagna<lb/><lb/>seguèt pas dins lou ravimen, car, pas pus-lèu<lb/><lb/>lou predicaton aguèt coumençat de debanà soun<lb/>escagna que noste mèstre de Cor de rescontre...<lb/>s'endourmiguète rounflet couma quatre, davans<lb/>soun letrin e tout-de-long. Faguèt qu'una cour-<lb/>durada.</p>
+        <p><lb/>Quand pioi l'ouratou aguèt dich: «Es la grà-<lb/>cia que vous souvète. Amen... » lou bruch que<lb/>faguèrou lous auditous en tonssignent, en es¬<lb/>coupiguent, en se moucant, en boulegant las<lb/>cadièiras per s'aginoulhà e reçaupre la bene-<lb/>dicioun dau Sant-Sacramen, revelhèt d’ausida<lb/>Simoun Castagna.</p>
+        <p><lb/>E.... quand me parlàs, pamens! encara en¬<lb/>dourmit à mitat, noste Simoun, se creseguent à<lb/>soun obra aconstumada dau cami de ferre, se<lb/>fica à bramà couma un brau : « Les voyazeurs<lb/>pour Villeneneuve-les-Maguelone, Vic, Mireval,<lb/>Frontignan et Cette, en voiture, s'il vous<lb/>platt !...»</p>
+        <p><lb/>Adoubat à la clapassleira d'après Loo CascanEtBr.<lb/>de l'Armana prouvençau.<fw type="digitisation-artefact"><lb/>urce gallica.nf.fr/Montpellier Méditerranée Métropole -Médiathèque centrale Emile Zola</fw></p>
+      </div>
+      <div type="article">
+        <head><lb/>Las carrièiras de Mount-Pelie</head>
+        <figure/>
+        <p><lb/>Reçaven la letra seguenta que publican embé<lb/>grand gan, car, de-fêt, ço que fan quauques<lb/>counseliès municipaus de Mount-Peliè s'en<lb/>manca que siègue un testimòni de respêt per.<lb/>l'istòria dau Clapàs.</p>
+        <p><lb/>Vejaicici la letra:</p>
+        <p><lb/>Moussu lou Campanié.</p>
+        <p><lb/>Pense que dins voste journalet clapassiè mancarés pas<lb/>de dire ce que s'ameritoun end'aqueles tarnagasses dau<lb/>counsel municipau que, segu, coumençoun à nous faire<lb/>susà das couides. S'ameritarièn be de passà à la messa<lb/>Carnau! Lous noums de las carrièiras dan Clapás lé<lb/>plasoun pas. An chanjat. i'a dejà prou de tems. lous<lb/><lb/>noums dau quartié Sant-Douminica, de la carrieira<lb/>Sant-Roc. Bona-nioch, la Capellá-Nova, la Foat de F'A-<lb/><lb/><lb/>mour. lou boulevard de la Blancariè (1), etc.. etc. Ara.<lb/>aqueles moussus voloun francimandejà e alor pas pus<lb/>de quartié Perpinsou, ni de carrièiras de la Perruca<lb/><lb/>(pas la de Roburfèr. Moussu lou Campanié !) pus de Rèc<lb/><lb/>de las Vacas. Es couma se prenièn l'istòria de Mount-<lb/>pelié e se n'estripavoun las pajas. Pioi nous tratoun de<lb/><lb/>repoutegaires, nautres lous vièls ! Mès, bigre de sort!<lb/>savèn be quan soun lous dau counsel municipau, que<lb/>lous tres quarts soun pas d'enfants dau Clapàs. Se n'ia<lb/>pas dequé faire tramblá la voulalha morta quand. á cous-<lb/>tat d'aquelas ideias, vesès: rue de Berry en mitant dau,<lb/>quartiè das marchands de vi !... (1)</p>
+        <p><lb/>Pioi-que soun en trin de desbatejà las carrièiras qu'an<lb/>de noums clapassiès farièn ben de dounà à la plaça de<lb/>la Canourga, qu'es davans la Coumuna, couma hou savès,<lb/><lb/>Nou noum de « Plaça das ases ».</p>
+        <p><lb/>Ai ben l'oanou de vous saludá.</p>
+        <ab><lb/>Papeta Micnio.</ab>
+        <p><lb/>(1) Qu'esara Louis Blanc. La Blancarie Louis Blanc, aco<lb/>semlovèn oncara. Hou an pas fach esprès.</p>
+        <p><lb/>(1) E dire que sin pas estats escoutats quand s'es prepansat<lb/>dins la Compans de donna 'a d'aquela carrieira lou noum<lb/>d'kmile Jamais!</p>
+        <ab><lb/>N. D. L. R.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

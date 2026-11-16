@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Nouvielle Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t545174492</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Nouvielle Vaclette : journal patoisant humoristique, non politique / avec la collaboration du Caveau lillois</title>
+          <publisher>[s. n.] (Lille)</publisher>
+          <date when="1932-06-11">1932</date>
+          <idno type="ARK">bd6t545174492</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t545174492</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>9' ANNÉE. — No 380</fw>
+        <fw type="runningTitle"><lb/>L'abonnement se paie d'Avance</fw>
+        <fw type="runningTitle"><lb/>0.25 LE NUMERO</fw>
+        <fw type="runningTitle"><lb/>Samedi 11 Juin 1932</fw>
+        <ab><milestone unit="column" n="2"/><lb/>REDACTION<lb/>ABONNEMENT<lb/>69, Rue Saint-Sauveur</ab>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>ANEC LA COLLABORATION</p>
+        <ab><lb/>R. du C. Lille 48.610</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Gérant : MAREELS Isidore</ab>
+        <p rend="styled"><lb/>Chéques Postaux 37.182</p>
+        <ab><lb/>Siège : 1, Rue de la Monnaie</ab>
+        <ab><lb/>vrancs mam, 18.8C</ab>
+        <ab><lb/>Quand qu' ch'est qu'ï r'viendra<lb/>L' bon temps d'avant-guerre ?<lb/>Chanson de G. PIETIN<lb/>Air : Au lemps des cerises<lb/>AU SERVICE DE L' VOIRIE<lb/>Chanson de C. FREGOLY<lb/>Air : Flotte, pelit Drapeau<lb/>UCH QUIL EST CH TEMPS<lb/>Monologue d’I. MARÉELS</ab>
+        <p rend="heading"><lb/>Amateurs de Canchons Patoises</p>
+        <p rend="heading"><lb/>Vous trouvrez dins ch liméro :</p>
+      </div>
+      <div type="article">
+        <head><lb/>L' Marchand d' peunn's tierre frites</head>
+        <lg>
+          <l><lb/>Voiture incadrée d' carreaux d' vites,</l>
+          <l><lb/>Avec un fu' d' coke l' mitan.</l>
+          <l><lb/>Eun' boit' au sé, deux tros marmites,</l>
+          <l><lb/>Tout cha bien propre et fin luijant.</l>
+        </lg>
+        <lg>
+          <l><lb/>Dins un pot d' fier des peunn's tierre frites</l>
+          <l><lb/>Nageant dins l' graiss' in bouillonnant.</l>
+          <l><lb/>Les grand's font mont avec les p'tites,</l>
+          <l><lb/>L' paquet sert de m’sure au marchand.</l>
+        </lg>
+        <lg>
+          <l><lb/>Que d' garchons, devant cheull' carrette,</l>
+          <l><lb/>Ont déclaré leu' amourette</l>
+          <l><lb/>An offrant des frit's... et leu' cœur.</l>
+          <l><lb/>Que d' fos l' petit paquet d' peunn's tierre</l>
+          <l><lb/>A servi d’intrée in matière,</l>
+          <l><lb/>'peunn' tierre frite elle rimplachot l'fleur,</l>
+        </lg>
+        <ab><lb/>C. FRÉGOLY</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>T'ai fraiqui l' devant de m' quemiche.</ab>
+        <ab type="head"><lb/>APRÈS RIACHE</ab>
+        <ab type="head"><lb/>PaSQUILLETTE</ab>
+        <lg>
+          <l><lb/>L'" Caveau”, un dimanche d' l'hiver,</l>
+          <l><lb/>Avot donné un biau concert</l>
+          <l><lb/>Comm' toudis, au Conservatoire,</l>
+          <l><lb/>Et in sortant d’ là, l' gross' Victoire,</l>
+          <l><lb/>Qu'elle habite in fac' de m' mason,</l>
+          <l><lb/>Pa' l' frod, étot pris' d’un frisson.</l>
+          <l><lb/>Et tout in t'nant pa' l' main, s' gamine,</l>
+          <l><lb/>Qu’ell' veyot, faijant triste mine,</l>
+          <l><lb/>Ell' li d'maindot : — Quoich' t'as l'infant?</l>
+          <l><lb/>Te marches, tout in grimaçant,</l>
+          <l><lb/>Elarguichant fin fort tes gampes ;</l>
+          <l><lb/>Est-ch' que t'as des crevass's, des crampes</l>
+          <l><lb/>A tes dogts d' pieds, dins tes mollets ?</l>
+          <l><lb/>On croirot qu’ te train’s des boulets.</l>
+          <l><lb/>— Non, ch'est point cha du tout manmère.</l>
+          <l><lb/>Qu'ell' répondot d'eun' voiss' amère,</l>
+          <l><lb/>Chin qu' p'ai, p' vas t' l'avouer franqu’mint :</l>
+          <l><lb/>Te sais, qu' j'ai rigolé foll'mint,</l>
+          <l><lb/>Pindant cheull' pièch': Les suit's d'eun' cuite ?</l>
+          <l><lb/>— Awi, qu’ je l' sais, dit l' mère ; insuite?</l>
+          <l><lb/>— Eh ben, à n’un certain moumint,</l>
+          <l><lb/>J'ai tell'mint ri, malheureus'mint,</l>
+          <l><lb/>Que... Que... puisqu'i faut que j' te l' diche,</l>
+        </lg>
+        <ab><lb/>I. MARÉELS</ab>
+      </div>
+      <div type="article">
+        <head><lb/><lb/>BAR</head>
+        <p rend="styled"><lb/>L' watmann Barnabé. — Eun’ femme or-<lb/>chestre. — Orelle et Narine. — L' bouchon<lb/>bienfaiteur. — Erreur n’est point comple. — L'<lb/>cop d' chifflel. — Service avant tout.</p>
+        <p><lb/>Est ch' que vous connaichez Barnabé ? Non.<lb/>Eh ben j' vas vous fair' fair' connaissance.</p>
+        <p><lb/>Barbané est watt'man au car électrique, i'<lb/>peut avoir dins les quarant' chinq à chinquante<lb/><lb/>ans ; ch’est un p'tit gros, point biau du tout, qui<lb/>mord su' s' chique chaque fos qui manœvre l'<lb/>frein de s' voiture.</p>
+        <p><lb/>Comm' service i' fait toudis les mêm's lines<lb/>quand i' fait point l' car G ch'est qu'il est su' l'<lb/>car N.</p>
+        <p><lb/>Barnabé est marié ; awi, marié à eun' jeun'<lb/>femme gramint pus biell' que li, malgré cha<lb/>ch'étot un ménache modèle d'heureusité, et li<lb/>in s'rot incor' du même si eun' maladie des pus<lb/>cocasses n’étot point v'nue rinte madaime<lb/>Barnabé l' pus malheureuss' des femmes.</p>
+        <p><lb/>In effet, un soir ell' s'indormot bien portante<lb/>et du lend'min matin ell' s'éveillot... Pétomane.<lb/>eun' maladie aussi craquante qu' bizarre, un ma"<lb/>qui dépoétisse l'amour tout in étant désagréable<lb/>aux orelles autant qu’aux narines.</p>
+        <p><lb/>Ab ! ch' n'étot point un ju' à rire qu'eun' tell'<lb/>maladie, Barnabé in souffrot d’intint' tout<lb/>temps l' mêm' musique à s’n' orelle, par nuit<lb/>surtout, s' femme ell' li rapp'lot toudis l' trom-<lb/>pette de sin marchand d' carbon.</p>
+        <p><lb/>Cha n' pouvot point durer comm' cha.</p>
+        <p><lb/>Après avoir consulté plusieurs médecins les<lb/>pus réputés du départemint in veyant que l'...<lb/>musique de s' femme ell' marchot toudis et que<lb/>rien n' l'arrêtot, i' allot trouver eun' bateuss' de<lb/><lb/>cartes bien connue et cheull' fos i' réussichot à<lb/>impêcher les... auditions pa' l' moyen d'un<lb/>bouchon, l' bateuss' de cartes li avot expliqué<lb/>qu' pour impêcher un instrumint d' musique<lb/>d’aller on y mettot un bouchon dins l'im-<lb/>bouchure, Barnabé faijot du méme et i' s’in<lb/>trouvot fin bien.</p>
+        <p><lb/>D'puis un mos qu' cha durot l' brav' watt'mann<lb/>étot r'dev'nu l' pus heureux des hommes, ses<lb/>nuits étott'nt pus calmes et grâce au bouchon i'<lb/>vivot moins agité.</p>
+        <p><lb/>Dernièr'mint comm' ch'étot sin jour de r'pos,<lb/>Barnabé proposot eun' pormenate à s' femme,<lb/>cheull'-chi, qu’elle demandot point mieux,<lb/>acceptot, et cheull' journée de l' fiête Nationale<lb/>passot pour euss' on n' peut point pus agré-<lb/>ablemint.</p>
+        <p><lb/>Vers minuit, Barnabé et s' femme s' cou-<lb/>chott’nt comme deux heureux, quand tout d’un<lb/><lb/>cop l' malheureusse ell' se rapp'lot qu'elle avot<lb/><lb/>point mis l'bouchon in s' couchant et qu’un...<lb/>accident étot à crainte, aussi, bien vite sansfaire<lb/>d' bruit et bien qu' sans leumière, elle avainchot</p>
+      </div>
+      <div type="article">
+        <head><lb/>Accidint d' Route</head>
+        <p><lb/>Tout l' monde n'a point l' bonheur d'avoir des<lb/>vacances et de s' payer des voyaches à l' cam-<lb/>panne ou aux bains d' mer ou incor' à l' mon-<lb/>tanne.</p>
+        <p><lb/>Mais ch'est un bonheur qui n' va point toudis<lb/>sans accros car chacun sait que l' bonheur<lb/>oarfait n’existe point.<lb/></p>
+        <p><lb/>Ch'est ainsi qu'un brave homme nommé<lb/>Chuplart, inspecteur de s’n' état, étot, grâce à<lb/>hun congé, parti in villégiature.</p>
+        <p><lb/>Tout s' passot normal'mint jusqu'à l' deschinte<lb/>du train ùch' qu’un char à bancs attindot les<lb/>voyageurs pour les conduire au villache d'<lb/>Preux-au Bois.</p>
+        <p><lb/>Bien intindu, unchar-à-bancs chan' vaut point<lb/>eun' limousine mais cha a sin charme aussi ;<lb/>ch'est bien “villache”, cheuss' qui font des<lb/>lpélérinaches" à Loos, à Hempenpont ou<lb/>Phalempin in char-à-bancs in ont sur'mint gardé<lb/>un agréable souv'nir.</p>
+        <p><lb/>Hélas, i' n'in est point d' même d' note ami<lb/>Chuplart.</p>
+        <p><lb/>Garni d' ses voyageurs et d' sin moteur<lb/>" deux-ch'faux-crottin” l' char-à-bancs filot à<lb/>eune allur' folle.</p>
+        <p><lb/>Tout d'un cop, chin qu' ch'est qu' l'amour du<lb/>métier, même in vacances, note chochon volant<lb/>sans doute inspecler les kilomètes parcourus, l'<lb/>voiture s'approche d'eun' born' kilométrique et<lb/><lb/>pan ! vient s' coller in plein d’ssus.</p>
+        <p><lb/>L'born' kilométrique n'a point bougé, mais<lb/>eun' roue arrière du char à-bancs faijot marche<lb/>arrière tout seu', chin qui provoquot eun' chute<lb/>générale suivie d' cris d'épouvinte, d' gampes in<lb/>l'air, d'exposition d' blanc, etc...</p>
+        <p><lb/>Par bonheur personn' n'avot grand ma'. L'<lb/>pus atteint étot not' comarate qui avot servi<lb/>d'amortisseur.</p>
+        <p><lb/>N' croyez point qu' nous volons rire du<lb/>malheur des gins, au contraire. Quand nous<lb/>avons appris, au journal, l'accidint arrivé, nous<lb/>avons tout d' suit' fait des vœux pou' l' réta-<lb/>s' main su' l' table d' nuit ûch' qu'ell' savot<lb/>trouver l’objet de s' tranquilité et après... ch'<lb/>petit traval fini, ell' s’indormot continte et<lb/>souriante.<lb/></p>
+        <p><lb/>Un p'tit moumint après un formidable cop d'<lb/>chifflet réveillot Barnabé, figurez-vous qu’au<lb/>lieu de s' mette l' bouchon in question ell' s'étot<lb/>mis l' chifflet de s’n' homme.</p>
+        <p><lb/>In intindant cha l' brav' watt'mann s' dres-<lb/>chot sur sin lit comme un cardon à l' pleufe, et<lb/>s' croyant à sin service i' criot tout ses pus fort:</p>
+        <p rend="labelled"><lb/>— Gardin Vauban ! Correspondance pour<lb/>l' car P.</p>
+        <p><lb/>Quoich' que vous in dites ?</p>
+        <ab><lb/>C. Frégoly.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

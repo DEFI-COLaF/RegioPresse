@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81362808</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1899-04-27">1899</date>
+          <idno type="ARK">bpt6k81362808</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81362808</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>DIJ'OU, 27 D'ABRIEU 1899.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>NOUVENCO ANNADO, No 300</ab>
+        <ab><lb/>PRes de L'aBOUNAMEN</ab>
+        <ab><lb/>Nautri,'li bon Prouvençau,<lb/>Au sufrage universau,</ab>
+        <ab><milestone unit="column" n="3"/><lb/>(Prouvèrb di mensounie)</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7,17,27)</p>
+        <figure/>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>VOLCO DE BARONCELLI</ab>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>FOLCO DE BANONCELLI</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Siéu soulet, e degun, pecaire,<lb/>Mi tendrié coumpagno... Ai besoun<lb/>De sounja qu'emé vouesto maire<lb/>E que sias partido, Mihoun.</ab>
+        <ab type="head"><lb/>LoU JouR DEI RAMPAU</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab><lb/>A Madameiello Camibo Polho</ab>
+        <lg>
+          <l><lb/>Miho, Miheto, Mihoun... Rèsto</l>
+          <l><lb/>Dins moun oustau que voueste noum,</l>
+          <l><lb/>D'aquelo vesprado de festo</l>
+          <l><lb/>Que venguerias pouri ma tèsto</l>
+          <l><lb/>D'un pantai risènt, o Mihoun!</l>
+        </lg>
+        <lg>
+          <l><lb/>Quand'mé de four sias arribado,</l>
+          <l><lb/>Lei messorgo an fugi l'oustau.</l>
+          <l><lb/>Aduguerias, coumo uno fado,</l>
+          <l><lb/>Lou bèu tems e la souleiado.</l>
+          <l><lb/>Just èro lou jour dei Rampau.</l>
+        </lg>
+        <lg>
+          <l><lb/>Tamben, aro que sias partido,</l>
+          <l><lb/>Siéu soulet, espèri degun.</l>
+          <l><lb/>Degun, sié-ti la mai poulido,</l>
+          <l><lb/>Toucara lei flour que, passido,</l>
+          <l><lb/>Gardaran un jouine prefum.</l>
+        </lg>
+        <lg>
+          <l><lb/>Coumo va que vouesto jouvenço</l>
+          <l><lb/>Vers moun passat mi meno mai ?</l>
+          <l><lb/>Moureneto de ma Prouvènço,</l>
+          <l><lb/>Dins Paris mounte ai viscu sènso,</l>
+          <l><lb/>Serias-ti la Bello-de-Mai?</l>
+        </lg>
+        <lg>
+          <l><lb/>Tout-aro risias à moun caire,</l>
+        </lg>
+      </div>
+      <div type="article">
+        <ab><lb/>E sa maire escaldava 7 forn</ab>
+        <ab type="head"><lb/>Lou poueto M.CHABRAND</ab>
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>e lou nouvelun prouvençau au tiatre</p>
+        <p><lb/>Un de nosti record d'agradamen es la vesprado calen-<lb/>dalo que passerian aquest ivèr à Castèu-Reinard pèr ié<lb/>véire jouga la pastouralo dóu dóutour Chabrand. Tau<lb/>qu'Almoric dins la vau de la Droumo e Perrié à Grave-<lb/>soun, lou moudèste autour de tant de bon serventés a<lb/>coustitul dins la vilo de Nerto — au pres de valerous es¬<lb/>fors — uno troupo de coumedian emé li pastre, li fatu-<lb/>raire e li mesteirau de l'endré. Acò, — vous n'en rendes<lb/>comte en n'en vesent li resulto,— acò 's un vertadié pres<lb/>fa d'educacioun naciounalo que li tartiflejaire d'amoun¬<lb/>daut an pancaro sounja de bouta dins si prougramo<lb/>« post-scolaires », (coume dison en soun patoues).. Basto!<lb/>faudra bèn que le vengon, en estent qu'au bout dóu fiéu<lb/>Pa la pato e que li patrioto de la bono — liquau coumen¬<lb/><lb/>con de se coumta — soun pas dins l'ideio de leissa</p>
+        <p><lb/> disese em' uno v nfongado que justinico ll<lb/>, per emuno vo afongado que justiico l<lb/>mai generóusi póusito.<lb/>quisto franchimando e de l'envasioun prougressivo di<lb/>mour de l'Uba. Au tèms de la coustitucioun prouven-<lb/>calo ll pèd-terrous, ll meinagié, tenien lou le dins la sou-<lb/>cieta, reputa prudome, sàvi, noble. La separacioun di<lb/>classo éro bén tant pau foundamentalo que l'on vesié<lb/>de princesso di Baus espousa de marchand marsi-<lb/>hés.... Acò se coumpren de rèsto : la Terro d'O noun<lb/>peurtavo inmemourialamen que d'ome libre, aguènt<lb/>counsciènci de sa liberta Dins lou Nord, tout au contro,<lb/>la raço franco avié gibla lis ome de la terro en servitudo,<lb/><lb/>e lou mestié de sèr lé venié sus l'escalo soucialo gaire<lb/>mai aut que lou mestié de biòu. Lís autri classo mespre-<lb/>savon adounc lis ome de la terro ; l'on mespreso toujour<lb/>li sèr e lis esclau. Autambèn, pèr se metre à l'autour dis<lb/>dèlo franchimando, es proun naturau que nòsti fran-<lb/>cihot moussurot e fresquèti, que nòsti «parisen» de<lb/>Cavaioun, dise iéu, fagon la bèbo davans lou noble e dur<lb/>viéure di pèd-terrous ; es proun naturau, counducho pèr<lb/>li gènt de l’Auro, — felen di tiran e di sèr, — que l'edu¬<lb/>cacioun publico afourtigue, ai! las, aquéu prejujat. Moun<lb/>Diéu ! per tout dire, a bèn talamen empouisouna 'no part<lb/>de noste mounde que l'on arribo à legi dins uno publi-<lb/>cacioun miejournalo e souto la plumo, crese bèn, d'un<lb/>felibre aquel eloge mounu nentau dóu paure Cassini:<lb/>« Ero un pouèto poupulàri ; acò vòu pas dire qu'aguèsse<lb/>rèn de bas... » Ah ! que noun pas, brave ome ! car lou<lb/>pouèto de Mirèio es estremamen poupulari, e lou famous<lb/>troubaire Bernat de Ventadour, poupulari éu peréu pèr<lb/>si cansoun dins li mas e li palais, coumpagnoun di<lb/>prince li mai pouderous, rivau d'amour, s'acò vous fai<lb/><lb/>pas rèn, dóu rei d'Anglo-Terro en persouno, prouvenié,<lb/>pecaire, d'un paure fournté Ilmousin de la plus pauro</p>
+        <lg>
+          <l><lb/>E' paire adusia l'essermen...»</l>
+        </lg>
+        <p><lb/>En fin de comte, se lou prejujat en questionn proudus<lb/>que trop de desclassa dins lou Miejour, fau bèn arre¬<lb/>marca que noun es pas dins l'èime de la raço, que se<lb/>gagno emé l'esperit e lis us franchimand, qu'es uno<lb/>countagioun franchimando. Adounc poudèn nous n'en<lb/>gari ; es pas uno malantié coustitucionnalo ; l'a que san-<lb/><lb/>pre gradua lis antidot; e lou tiatre es ben segur l'un di</p>
+        <p><lb/>Chabrand l'a forço bèn coumprés:</p>
+        <p><lb/>La jouino bastidano Margarido amo Pierroun, soulide<lb/>e bèu masié, prouvençau de la leimo taiolo; e li «camiso<lb/>empesado » de « Mouss' Enri » ié trèvon gaire dins l'es-<lb/>perit. Es mantengudo dins sonn pantai pèr tóuti lis ele-<lb/>men naciounau e terradouren dóu mas, valènt-à-dire<lb/>pèr sa maire Mioun e soun grand Nourat, emai pèr lou<lb/>viei gnarro Safourian. Em' acò dins tres poulits ate en<lb/>vers goustous e cantejant, n'es uno lucho entre li dous<lb/>partit que fara sus la sceno esclata lis escàfi e lou rire.<lb/>Lou dialogue noun languis, l'acioun se meno batènt, —<lb/>un pau trop bessai en quauquis endré, — mai toujour<lb/>raciounalo e vivo, perfés esmougudo, souvent coumico,<lb/>toujour vivènto. Finalamen, l'on descuerb que lou fa¬<lb/>mous Mouss' Enri, lou grand ome, lou francihot, lou<lb/>pretendu ami dóu prefêt d'Avignoun, lou pretendu futur<lb/>« percetour » es rén aurre qu'uno franco racaio. aguènt<lb/>manja li quauqui sou de ai gent e abondouna, em' u<lb/>enfant, sa paure cousino qu'avié rout iou penrou en soun<lb/>onnour.... Ah! quand la causo es ben saupudo, li cilo<lb/>de Janet se despegoulsson; lou tantalòri es foro-bandi;<lb/>Margai espouso soun Pierroun, e tout s'acabo en uno</p>
+        <p><lb/>Acò 's simple, parai? acò 's tambèn viscu, naturau e<lb/>poulit. Aco, lesperan á la sceno, e fau que Chabrat</p>
+        <p><lb/>Demourerian candi d'emoucioun en vesènt aquéli féu<lb/>dóu terraire realisa sus la sceno emé sa lengo veraio e si<lb/>géste naturau un pouèmo de vido intènso, un jo d'uno<lb/>justesso assouludot, alamen que li coumedian francihot de<lb/>mestié emé si gèste e sa lengo de counvencioun noun<lb/>poudien l'arriba à la caviho. Me sèmblo encaro d'ausi li<lb/>prejit de Blanc dins lou role de Mèste Arplan ; vese lou<lb/>nescige bon enfant de Gardiol, un oumenas estraourdi-<lb/>narimen coumi que fasié Bartoumiéu ; Gleize (lou Maire)<lb/>presidavo uno sesiho dóu counsèu municipau, qu'aurié<lb/>fa rire ll pêiro ; Sauvaire, ben tant digne, esmouvié dins<lb/>soun role de balle-pastre; tóuti enfin o quasimen meri-<lb/>ton de lausenjo, jusquo lis enf́ant que sus li sceno fran¬<lb/>cihoto podon pas se supourta e qu'eici soun plen de na-<lb/>turau, de gaieta e de gentun. Es qu'arriban, segound lis<lb/>entre-signe, à la primo d'un grand reviéure dramati vers<lb/>li draio de la sincerita e de la naturo; e l'uno di glòri<lb/>dóu Felibrige sara de lou coungreia après agué, 'mé si<lb/><lb/>capd'obro, renouvela la poueslo umano.</p>
+        <p><lb/>Obro d'un flame pouèto que saup bén l'artifice de la<lb/>sceno, la Pastouralo de Chabrand fasié mirando. Un po-<lb/>ple afeciouna clafissènt chasque vèspre lou tiatre temou-<lb/>gnavo per soun rire e si lagremo uno entiero joio, un<lb/>soulas esmougu.... Fallé ausi ll refleissioun que se baia¬<lb/>von vio pendent lis entre ate : es aqui que li mié-felibre<lb/>farien bèn d'ana pèr se gari de la doutanço !</p>
+        <p><lb/>Lou mole de la Pastouralo se presto pièi amirablamen<lb/>à l'espressioun de la vido terradourenco, e, se l'on pòu<lb/>pas dire qu'ague proudu jusquo aro un incountestable e<lb/>coumplet cap-d'obro, à tout lou mens lou gènre s'ilustro<lb/>mai-que mai d'obro de proumiero valour, e deman belèu<lb/>un creaire d'engèni poudra lé trouba la tradicioun e lou</p>
+        <p><lb/>Tant l'a qu', entre lis innoumbrabli pastouralo que<lb/>chasque ivèr se jogon dins la Prouvenço nostro, crese bèn<lb/>qu'aquelo de Chabrand fugue l'uno di mai requisto.<lb/>M'es de-bon de lou rapela eici en saludant Lou Crescrèu,<lb/>coumèdi en 3 ate e en vers, que l'egrègi pouêto vèn de<lb/><lb/>bandi au publi, bèn-astruga pèr uno letro prefàci de<lb/>Mistral. Li legèire de l'Aòli connèisson aquelo obro pu-<lb/>blicado eici-meme en fuietoun; elo foguè jougado, uno<lb/>fes soulamen, en 1897, à Gravesoun, pèr la troupo de</p>
+        <p><lb/>Lou Creserèu, acò 's lou palsan enrichi que s'imagino<lb/>mounta en pres en fasènt lou moussurot, e noun reussis<lb/>(coume es naturau) qu'à se douna 'n risèio au mounde;<lb/>es un persounage autant viei que l'Umanita e de-longo<lb/>reneissènt ; l'on poudra jamai proun lou liéura is escàfl<lb/><lb/>mourdènt dóu pople. Chabrand se n'aquito de man det</p>
+        <p><lb/>Es que Janct, noste ome, s'es ana 'ncoucourda d'un<lb/>galo-bon-tèms, coumés de magasin, «parisen» de Ca-<lb/>raioun, sorto de fresqueti nouma Enri que parlo pounchu<lb/>e se vestis «à la modo». Quéco de malo traco, éu a tala¬<lb/>men embabourina lou paure Creserèu emé si lavagno e<lb/>si vantarié qu'aqueste lé refuso plus rèn e vòu meme ié<lb/>baia 'n mariage sa chato Margarido, prouvençalo dóu<lb/>beu riban.. Ah! li bòni resoun que lé debano Janet à<lb/>sa chato ! Tai trouba, lé dis, un marit forço elegant:</p>
+        <ab type="head"><lb/>In cano, béu capéu, la camiso empesado.</ab>
+        <lg>
+          <l><lb/>Conquinoto !Saras Madamo e... pimparado</l>
+          <l><lb/>N'auras de raubo, vai, de dentello, de flour,</l>
+          <l><lb/>De riban, de bébei !....</l>
+        </lg>
+        <p><lb/>Acò 's ben lou resounamen ourdinári e lon lou cou-<lb/>nèis de trop ; es viei beléu coume lou mounde ; mai eici<lb/>pamens repauso sus l'idèio que lou mestié de pacan es<lb/>bas e faudrié pas crèire qu'aquéu prejujat fuguèsse forço<lb/>ancian dins lou Miejour. Dato, pardinche, de la coun¬</p>
+        <ab><lb/>ource galica.bn.f/Biboteques de se</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

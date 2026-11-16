@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Progrès de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k18609923</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Progrès de la Côte-d'Or : journal politique... ["puis" journal républicain quotidien]</title>
+          <publisher>[s.n.] (Dijon)</publisher>
+          <date when="1873-07-12">1873</date>
+          <idno type="ARK">bpt6k18609923</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k18609923</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Cinquième Année. — No 162 15 CENTIMES Bureau, rue Amiral-Roussin, 39.</fw>
+        <ab><milestone unit="column" n="3"/><lb/>Samedi 12 Juillet 1873</ab>
+        <figure type="table"/>
+        <ab><lb/>essons de 5 lignes 1 fr.<lb/>La liga</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>de la Côte-d’Or</p>
+        <p rend="heading"><lb/>PARAISSANT TOUS LES JOURS, EXCEPTE LE DIMANCHE</p>
+        <ab><lb/>ABONNEMENTS, ANNONCES</ab>
+        <ab><lb/>POUR TOUT CE QUI CONCERNE LA REDACTION</ab>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/>S'adresser an gérant, rue Amiral-Roussin. 30. A Dijon</p>
+      </div>
+      <div type="article">
+        <head><lb/>Une explication de l'affichage</head>
+        <p><lb/>Nous nous faisions avant-hier l'écho<lb/>du sentiment de surprise qu'avait causé<lb/>l'affichago tout à fait inattendu des<lb/>quelques paroles prononcées le 2 juil-<lb/>let dernier par M. de Broglie en ré-<lb/>ponse à M. Gambeta. Les journaux<lb/>e nous recevons nous montrent que<lb/>l'étonnement n'a pas été moindre à<lb/>Paris et dans les départements. Jus-<lb/>i aucun discours prononcé devant<lb/>l'assemblée n'avait été affiché qu'avec<lb/>l'assentiment de celle-ci. Or, M. de<lb/>Broglie, nous l'avons dit, n’avait pas</p>
+        <p><lb/>Aussi, dans la séance d'hier, M.<lb/>Edouard Millaud, député de Lyon,a<lb/>cru devoir poter une question au gou-<lb/><lb/>vernement au sujet de cet affichage<lb/>insolite sur papier blanc (couleur offi-<lb/>cielle) et ne portant aucun timbre.<lb/>L'orateur a rappelé les précédents et<lb/>les votes intervenus pour les discours<lb/>de MM. d'Audiffret-Pasquier et Du-<lb/>faure, et a demandé pourquoi l'on<lb/>n'avait pas agi de même pour M. de</p>
+        <p><lb/>Cest M. Beulé qui a répondu pour<lb/>M. Broglie. Le ministre de l'intéricur,<lb/>d'une façon assez embarrassée, a ex-<lb/>pliqué qu'il n’y avait ni loi ni règle¬<lb/>qui soumettent l'affichage d'un<lb/>discours d’un membre du gouverne-<lb/>ment à une auterisation de l'assemblée,<lb/>ue, dans l'espèce, on avait agi ainsi<lb/>perce qu'on savait la réponse du gou¬</p>
+        <p><lb/>M. Milland s'est empressé de pren¬<lb/>dre acte de la déclaration du ministre,<lb/>attendu, a-t-il ajouté, que les ministres<lb/>sont changeants. Soit. Peut-être M. de<lb/>Broglie sentant, par expérience et par<lb/>l'impossibilité de rencontrer l'union<lb/>dans la majorité, la nécessité de sortir<lb/>du provisoire et voulant enlever toute<lb/>illusion aux partisans de l'ajournement<lb/>perpétuel, a-t-il tenu, en vulgarisant<lb/>son discours, à prendre, pour ainsi dire,<lb/>la France entière à témoin de l'enga¬<lb/>gement formol, que le ministère a re-<lb/>nourelé le 2 juillet, d'examiner a<lb/>jour fixé par la proposition Leurent les<lb/>projets constitutionnels que certain<lb/>groupe voudrait enterrer, de façon à ce</p>
+        <p><lb/>Les divisions qui se sont manifestées<lb/>dans le sein du conseil des ministres,<lb/>au sujet de la loi municipale, et sur<lb/>lesquelles le journal le Nord donne de<lb/>curicux renseignements, ont proba-<lb/>blement déterminé M. de Broglie à<lb/>prendre l'initiative de cet affichage<lb/>inusité, dont on s'est étonné générale-<lb/>plication piusibleaitavoir d'auXXX.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Les d'Orléans à la revue</head>
+        <p><lb/>artro iacidect, qui sombie le corollaire</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/><lb/> qui s'ópa</p>
+        <p><lb/>ra pas de foux d'artifice propro<lb/></p>
+        <p><lb/>antes. deux qun laterrall de cin mt<lb/>cavalerio a surtont provoquó son admira-<lb/>ident de l'assemblée et an présient de</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/><lb/>aréchal Mas Mabon,<lb/>ii de sen t<lb/><lb/><lb/>raléo de la Ca<lb/>ndent, et les tambours battont<lb/></p>
+        <p><lb/>derrire lel se groopo son éa-major, etlo</p>
+        <p><lb/>  mar </p>
+        <p><lb/><lb/>bataillon de Saint-Cyr. ayant A sa têto</p>
+        <p><lb/>dube corps est acctams. <lb/></p>
+        <p><lb/><lb/>rots neurea et demie, no se termiae qua cinq<lb/><lb/>fondement: mais n'est ce pas trop dea quils<lb/>paient pu venir a respe</p>
+        <p><lb/>D'autre part, on lit dans le Siècle:</p>
+        <p><lb/>its sen moatrent particulle<lb/>97 ce fait une sorte d'exhibitlon polti-</p>
+        <p><lb/>Quel pent être le but de cette sorte<lb/>de présentation officielle des princes fai¬<lb/>te à l'armée? C'est ce que nóus ne<lb/>savons pas. Mais quant au résultat, il<lb/>nous importe peu. Notre armée ne<lb/>saurait désormais appartenir à aucun<lb/>parti, et d'ailleurs les princes d'Or-<lb/>léans sont si peu connus d'elle, qu’il<lb/>leur faudrait bien d'autres prégentations<lb/>de ce genre pour fixer son attention et</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Les troubles de Lisleux</head>
+        <p rend="labelled"><lb/>La Lbcrté, joaraal de Caes u<lb/>détails suivants sur les truubies<lb/></p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Correspondances spéciales</head>
+        <p><lb/>été acclamés. Leroi de Perse et son chev<lb/>les spectateurs martés aur les tertres de<lb/>aialent admirablome<lb/>curieux, quand on apprit que leshah:<lb/>kan et une indecripibio ían dad<lb/>age de Nasser-ed-Din est de contracter<lb/>en Europe un fort emprunt pour tacher d̀<lb/>romettro à flot cette pauvro Porze épul-</p>
+        <p><lb/>En rovenant de la revue, M. le duc<lb/>bre dofficiers inpér teurs de caralerie pour<lb/>pleimp., la tribune des députés était</p>
+        <p><lb/>En attendant les mervellles prsc<lb/>rochain, l'a<lb/>pas besoin de ces importations démagogi¬</p>
+        <p><lb/>Dne choco ra hiter la prorogation; cent<lb/>à l'appel de leura champs et de leurs forè<lb/>une question donnée, cs affroux républi¬<lb/>cains étant restés presque tous a leur</p>
+        <p><lb/>Da m'sssure d'aillears que M. de Bro-</p>
+        <p><lb/>ieceetptir an moet o noms e</p>
+        <p><lb/>dans rantorits. doa est pleine de conflance<lb/>vient de faire aficher, vans antorisatlen de<lb/><lb/>e</p>
+        <p><lb/><lb/><lb/>or proparer les eto</p>
+        <p><lb/><lb/><lb/>accepte l'impôt sur la presse ausai bien<lb/>droits ai écrasants déja d'enregistrement.<lb/>ur le budget de la guerre. Je ne l'en blá-</p>
+        <p><lb/>Notre excellent confrère de Toulouse,<lb/> mancipation, vient de<lb/>  Ḿ 1. <lb/>airo natare deceta aittion</p>
+        <p><lb/>aint Joseph et une foule de réraphins ont<lb/>onner la Vierge à l'Osier (1) dans le canton</p>
+        <p><lb/>uuche a re<lb/>poulase<lb/>estier detre decharge</p>
+        <p><lb/>L'ex-impératrice ne restera pas à Chisel-<lb/>de Napoléon Il fat malade; ausai ne s'ex¬<lb/>eiation à tous les voyages projetés. Il doit<lb/>tertains républicains flottants lu transition</p>
+        <p><lb/>t de<lb/><lb/>dant étrangere d la constitation des cham-</p>
+        <p><lb/>Derntére Aeure. – M. Docros repart<lb/>que le décret de dissolution du conseil n<lb/>en douter, En tous cas Lyon restra caim</p>
+        <ab><lb/>ource gallica.bn.fr/Bibliothèque nationale de Fr</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

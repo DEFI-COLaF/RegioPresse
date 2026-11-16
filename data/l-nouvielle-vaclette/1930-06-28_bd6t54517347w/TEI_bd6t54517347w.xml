@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Nouvielle Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54517347w</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Nouvielle Vaclette : journal patoisant humoristique, non politique / avec la collaboration du Caveau lillois</title>
+          <publisher>[s. n.] (Lille)</publisher>
+          <date when="1930-06-28">1930</date>
+          <idno type="ARK">bd6t54517347w</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54517347w</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>0.8 LE KUM</fw>
+        <fw type="runningTitle"><lb/>17 ANNÉE. — No 278</fw>
+        <fw type="runningTitle"><lb/>L'abonne nont se paus d'Avancs</fw>
+        <dateline><lb/>Samedi 28 Juin 1930.</dateline>
+        <ab><milestone unit="column" n="2"/><lb/>REDACTION<lb/>69, Rue Saint-Sauveur<lb/>Vous trouv rez dins ch' liméro :</ab>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/><lb/>VEC LA COLLABORATION DU</p>
+        <ab><lb/>R. du C. Lille 48.610<lb/>Chéques Postaux 37.182</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Gérant : MAREELS Isidore</ab>
+        <ab><lb/>ABONNEMENT</ab>
+        <ab><lb/>Siège : 1, Rue de la Monnaie</ab>
+        <ab><lb/>France un an, 18.50</ab>
+        <p rend="heading"><lb/>Amateurs de Canchons Patoises</p>
+        <ab><lb/>Chanson de F. DUPONT, dit Double-Mête<lb/>Air : Jeanne Jeannette et Jannellon<lb/>EUN POURMENATE TRAGIQUE<lb/>Pasquille de L'EPI SCIÉ<lb/>EUN' BONnE PINSÉE<lb/>Chanson de Félix LEULIEUX<lb/>Pent se chanter sur l'air : Les Violetles, de R. de Buxeuil</ab>
+        <p rend="heading"><lb/>QUAND J'ÉTOS P'TIT</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Concours des Pièches de Ménache<lb/>Lire in quatrième page<lb/>L' BULLETIN-RÉPONSES<lb/>de not' Concours</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>EUN’ COMPINSATION</head>
+        <p rend="labelled"><lb/>(PASQUILLETTE)</p>
+        <lg>
+          <l><lb/>Tout dernièr'mint Jeantrou d' la Mars</l>
+          <l><lb/>fort boxeu' r'nommé, in lijant l' gazete</l>
+          <l><lb/>veyot un artique r’latant s' mort.</l>
+          <l><lb/>I! N. de D. ! cha ch'est un peu fort,</l>
+          <l><lb/>s'écriot Jeantrou tout in colère,</l>
+          <l><lb/>qui m'a fait ch' truc la, j' li frai s'n affaire... »</l>
+          <l><lb/>Là-d'esus, l' cervelle in pleine ébullition,</l>
+          <l><lb/>courot tout d'eun' jusqu'à l' rédaction</l>
+          <l><lb/>Du journal, i' tapot su' les cayères,</l>
+          <l><lb/>Infin, i' faiiot tell'mint des manières</l>
+          <l><lb/>Que l' rédacteur in chef il accourot</l>
+          <l><lb/>Et d'maindot quoi ch' que ch'est qui s' passot-</l>
+          <l><lb/>Puis, approuvant qu' l'affair' n'étot point claire,</l>
+          <l><lb/>dijot : « Bah! n'in fait's point un mystère,</l>
+          <l><lb/>' vous r'mettrai d'main, à l' première édition,</l>
+          <l><lb/>Dins les maisae s.., cha f'ra compinsation. »</l>
+        </lg>
+        <ab><lb/>Benoit VANUXEM.</ab>
+        <p rend="heading"><lb/>Abonnez-vous à notre Journal,</p>
+        <note>
+          <p><lb/>1 an 52 Iiméros 12.50 en uimires eu mandai</p>
+        </note>
+        <p rend="heading"><lb/>Pour tt es qui conerss la MUSIQUE jm</p>
+        <ab><lb/>VERCRUYSSE a BMONDT<lb/>138-444-443, Ruo de Paris - LKLIx<lb/>Teléphone 86-53<lb/>Chansons nonvelles et pateiss:</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Un ménage qui n’a point d' chance</head>
+        <p><lb/>Un ménache qui n'a point d' chance, ch'est<lb/>bien ch'ti d’ monsieur et madaime Poker Julot ;<lb/>et pourtant ch’est des braves gins savez. I’s ont<lb/>eun' fortune assez rond'lette qu' l'homme à<lb/>ramassée in fabriquant des tuyaux d' courses,<lb/>des tuyaux d' pipes et des tuyaux d' queminée<lb/>in tôle noire argintée pour faire les porte-para-<lb/>pluies in zinc nick'lé.</p>
+        <p><lb/>Madaime fait sin ménache et elle adore les<lb/>biêtes ; pinsez, elle a quat' quiens, tros cats et<lb/>s'n homme, on peu donc dire qu’elle aime les<lb/>biêtes. Bref à cha i' n’ont point d' défauts ; par-<lb/>don, monsieur Poker in à un p'tit : il est avare,<lb/>mais alors, cha ch’est un avare! Quand i' va au<lb/>cabaret et qu'i' print un verre de riche à trinte<lb/>sous, i' bot la mitan un jour et l' lind’main i'<lb/>r'vient pour boire l' reste. Mais arrivons à leur<lb/>malheur.</p>
+        <p><lb/>D'puis 2 mos i's ont eu 4 cuisinières et l' der¬<lb/>nière elle faijot sauter l'anse du painnier à tros<lb/>mètes d'hauteur. Comme de juste, i’s l'ont mis<lb/>à l' porte et ayant mis eun' annonce dins l' Nou-<lb/>vielle Vaclelle d' suite il s’a présinté un ménache<lb/>monsieur et madaime Fortuné-Béatrice. Mon-<lb/>sieur Fortuné étot chargé des biêtes et d’intre-<lb/>t'nir l' petit gardin d' madame Poker et madame<lb/>Béatrice, eun' fine cuisinière, étot chargée d'<lb/>d' composer des plats fins à la hauteur et des<lb/>achats d' la boustifaille, à condition d' point<lb/>payer trop quer.</p>
+        <p><lb/>Pindant huit jours tout allot à souhait.<lb/>Madaime étot heureusse d’avoir Fortuné pour<lb/>intret'nir ses p'tites affaires; mais peu à peu<lb/>monsieur et madame Poker trouvottent que leus<lb/>domestiques mingeottent d' trop, et ils in étottent<lb/>arrivés à n' leur donner qu’à chacun eun' peun'<lb/>de tierre ou eun' carotte et un p'tit morciau d'<lb/>barbaque, de l' poitrine ou du mulot.</p>
+        <p><lb/>Mais Fortuné n'est point un zique à s' laicher<lb/>rouler et d'vant l'avarice de monsieur et<lb/>madaime Poker i' fait li-méme l' dictée à<lb/>Béatrice de ch' qu'elle dot marquer su' l' carnet<lb/>des dépinses et i' dit :</p>
+        <p><lb/>Mardi : Asperges, 6 francs ; et in d'sous il<lb/>marque :</p>
+        <p rend="labelled"><lb/>Fouzi : 16 francs.</p>
+        <p rend="labelled"><lb/>Jeudi: Gross' giff (lijez rosbeef), 14 francs; et<lb/>in d'ssous :</p>
+        <p><lb/>Fouzi : 18 francs.</p>
+        <p><lb/>Samedi : Canard, 34 francs ; et in d’ssous:</p>
+        <p><lb/>Fouzi : 38 francs; et i' fait l'addition à s' façon<lb/>in lijant : 6 et 6, 12 et 4, 16 et 8, 24 et 4, 28 et 8<lb/>36, 6 et je r'tiens 6 et 3, 9 et 6, 15. et i' présinte<lb/>l' note à madaime Poker qui allot avoir eun'<lb/>syncope et qui appelle Julot.</p>
+        <p rend="labelled"><lb/>— Mais r'vett' un peu chin qui est marqué.<lb/>chint cinquante six francs!</p>
+        <p><lb/>Et in r'vettiant à nouviau monsieur Poker lit:<lb/></p>
+        <p rend="labelled"><lb/>ui 16, Fouzi 18, Fousi 38...</p>
+        <p><lb/>« Mais Fortuné, quoi qu' ch'est qu' du Fouzi?<lb/>Fortuné sans rigoler li répond d' suite :</p>
+        <p><lb/>Monsieur, ch’est un plat fort rare et très<lb/>r'commandé pour donner gramint d' forche et<lb/>faire comme i' faut l’intretient du p'tit gardin d'<lb/>madaime qui est si continte d' mi, qu’hier quand<lb/>vous étiez parti à l' gueuse, elle m’a incore<lb/>imbrassé deux fos d' suite.</p>
+        <p><lb/>Aussitôt monsieur Poker rinte dins eun' vio-<lb/>lente colère et dit à s' femme:</p>
+        <p rend="labelled"><lb/>— Mais te n' vos point qu'i' rigole d' ti. Fouzi<lb/>l' pied dins l' c... et qui s’in alle tout d' suite.</p>
+        <p><lb/>Fortuné et Béatrice n’ont point d'mandé leur<lb/>reste et j' viens d'apprinte qu’i's ont trouré eun<lb/>bielle plache : Fortuné i' est lommé Directeut<lb/><lb/>des qu'vas d' bronze du manège Carpintier à<lb/>ducasse St-Sauveur ; ch'est li qui met les juments<lb/>à l'essai et madame Béatrice elle est nommée<lb/>Directrice des Cuisines propulaires de Vauban,<lb/>près Lille, qui vont s'ouvrir l'ainnée prochaine.</p>
+        <ab type="head"><lb/>Zandre,</ab>
+        <p rend="styled"><lb/>ancien chef des Infants d' Faidherbe, à Lille</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Un Brochet patriote</head>
+        <p><lb/>I'-in a tout d' mêm' qui sont péqueux dins<lb/>l'âme; ainsi un Lillos, nommé Paul Idort, quand<lb/>l' pèque est fermée in France, i' va péquer in<lb/>Belgique, et quand elle est fermée dins les deux<lb/>pays, i' pèque... su' les comptoirs.</p>
+        <p><lb/>Dernièr'mint i' étot à Ypres, et v'là qu' par<lb/>hasard tros lillos l' rincontent.</p>
+        <p><lb/>Bien intindu i's d'maindent à Paul Idort si<lb/>cha mord.</p>
+        <p rend="labelled"><lb/>— Ah! taijez-vous, qu'i' repond, j' sus déco-<lb/>ragé; v'là tros dimanches que j' viens ichi ponr<lb/>attraper un énorme brochet, l' seul qu’i' i' avot<lb/>dins l' rivière, i' m’surot 1 mète 20 de long et<lb/>l'avos attrapé, je l' tenos bien, tout d’un cop i,<lb/><lb/>me r'vette et s' lanc' du côté du mur et s' fracasse<lb/>l' crâne. S' tiète s’ouvre in deux et m'n amorce,<lb/>l' roch' que j'avos mis, elle étot délivrée;<lb/>veyos ch' brochet incore nager duchett'mint<lb/>jusqu’au pont et là ch’étot fini ; à ch't' heure i<lb/><lb/>r'pose au fond d' l'iau avec sin vinte in l'air.</p>
+        <p rend="labelled"><lb/>— Ch’est malheureux pour ti, Paul Idort, dit<lb/>un chochon, qu’est-ch' que te veux, au lieu qu'<lb/>ch’est tes chochons et ti qui soupent avec,<lb/>quand i' l'a vu ch’est l' brochet qui a eu soupé d'<lb/>ti; ch’est un brochet qui n' veut point quitter<lb/>sin pays, i' n’aim' point l's étringers.</p>
+        <p rend="labelled"><lb/>— Ch'est dommach' tout d' mêm', répliquot<lb/>Paul Idort, car j'aros eu min portrait avec min<lb/>brochet monstre su' les journaux et peut être su<lb/><lb/>l'"Nouvielle Vaclette” aussi.</p>
+        <lg>
+          <l><lb/>Ah ! vraimint ches péqueux</l>
+          <l><lb/>Ch'est eun' bainde d' minteux</l>
+        </lg>
+        <p rend="styled"><lb/>A l'exception de:</p>
+        <ab><lb/>J'minjamais.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

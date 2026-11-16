@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Pays cévenol</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t53903500d</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Pays cévenol : hebdomadaire littéraire, artistique, félibréen, mutualiste, commercial, industriel et d'annonces</title>
+          <publisher>[s.n.] (Alais)</publisher>
+          <date when="1905-02-26">1905</date>
+          <idno type="ARK">bd6t53903500d</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t53903500d</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="article">
+        <div>
+          <pb facs="0004.xml"/>
+          <ab><lb/>R<lb/><lb/>Illustrées de tous genres, Achats directs aux Editeurs<lb/>(Vrai Bromure des grandes marques)<lb/>Se méfier des grossières imitations appelées petit Bromure ou Cartes Allemandes<lb/>VUES D'ALAIS<lb/>Clichés de la Marque “ AU CHAT" (incontestablement supérieures)<lb/>50 centimes la Douzaine<lb/>COURONNES MORTUAIRES<lb/>(20 pour cent de remise sur les prix connus)<lb/>Bibliothèque du Roman-Réclame<lb/>(Tous les Auteurs en vogue pour 10 Centimes)<lb/>A LA<lb/>Alais. — Imprimerie J. Brabo, Square de Sauvages.<lb/>Le Directeur-Gérant: J. BRABO.</ab>
+          <p rend="styled"><lb/>(Demi-Gros et Détail)</p>
+          <ab><lb/>Qualité supérieure de MAUNOURY &amp; WOLFF<lb/>Centimes au détail, le sac de 1 kilogramme<lb/>(Ne pas confondre avec les sacs de 800 grammes)</ab>
+          <ab><lb/>VUES D'ALAIS COLORIÉES A LA MAIN<lb/>1 franc la Douzaine</ab>
+          <figure type="decoration"/>
+          <p><lb/>Papiers à faire les Fleurs - Papiers pour abat-jour- Bandes festonnées pour cuisines</p>
+          <figure type="decoration"/>
+          <ab><lb/>Papeterie Nouvelle<lb/>Place de l’Abbaye, ALAIS</ab>
+          <note>
+            <p rend="styled"><lb/>Vu pour la légalisation de la signature ci-contre:<lb/>Alais, 10</p>
+          </note>
+          <fw type="quiremarks"><lb/>Le Matrer</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

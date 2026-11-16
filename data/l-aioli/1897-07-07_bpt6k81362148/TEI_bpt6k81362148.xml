@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81362148</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1897-07-07">1897</date>
+          <idno type="ARK">bpt6k81362148</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81362148</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0001.xml"/>
+          <fw type="runningTitle"><lb/>SETENCO ANNADO, No 235</fw>
+          <fw type="runningTitle"><lb/>DIMÉCRE, 7 DE JULIET 1897.</fw>
+          <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr l'òli</ab>
+          <ab><milestone unit="column" n="3"/><lb/>Prouveri di méssounte,</ab>
+          <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17,27)</p>
+          <figure/>
+          <ab><lb/>BURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI<lb/>ou palais dou Roure,</ab>
+          <ab><lb/>PRES DE L'ABOUNAMEN</ab>
+          <figure type="decoration"/>
+          <figure type="decoration"/>
+          <figure type="table"/>
+          <figure type="decoration"/>
+          <p rend="heading"><lb/>FOLCO DE BARONCEE</p>
+          <figure type="decoration"/>
+          <p rend="heading"><lb/>Lou noum de MistRAL</p>
+          <ab><lb/>E soun ourigino</ab>
+          <p><lb/>Dins lou Tresor dóu Felibrige se legis que<lb/>lou noum de famiho Mistral es prouvengu<lb/>dóu Dóufinat, ounte aquéu mot ancianamen<lb/>significavo «baile» o representant dóu se-<lb/>gnour. Veici l'article dóu Tresor:</p>
+          <p><lb/>MISTRAU, MISTRAL. (1.), MISTRA (d.), (roman Mistral,<lb/>ministral, bas-latin ministralis, ministerialis), s. m. Mis-<lb/>tral, bailli, prévôt, ancien officier de justice préposé<lb/>pour recevoir les cens, en Dauphiné, v. baile ; nom de<lb/>famille dauphinois et provençal dont le féminin est<lb/>Mistralo et le diminutif Mistralet, Mistraleto.</p>
+          <p><lb/>Jean Mistral, qui vivait en Dauphiné en 1330, est le<lb/>premier auteur connu de cette famille qui a fourni plu-<lb/><lb/>sieurs conseillers au parlement de Grenoble. Les Mis-<lb/>tral, sieurs de Croses et de Dons en Dauphiné, devinrent<lb/>par alllance seigneurs de Montdragon et de Romanil<lb/>(près Saint-Remy.)</p>
+          <p><lb/>Lou Pendentin de Valènço, mounumen re-<lb/>marcable que s'atrovo toucant la catedralo<lb/>d’esto vilo, es un mausoulèu courintian que<lb/>fuguè auboura en 1535 pèr un canounge de<lb/>la famiho, apela Micoulau Mistral. Porto, à<lb/>sa clau de croto, lis armarié di Mistral, que<lb/>soun « tres fueio de tréule, d’azur, sus cabroun<lb/>d'or, e en champ de sinople ». Tout ou rien,<lb/>èro la deviso d’aquéli Mistral dóufinen.</p>
+          <p><lb/>Lou mage Peladan, counsulta sus lou sèns<lb/>dóu blasoun mistralen, veici ço que respoun-</p>
+          <p rend="labelled"><lb/>« Le trêfle, qui, lorsqu'il a quatre feuilles, devient ta-<lb/>Aismanique, exprime symbolquement l'idée de Verbe<lb/>autochthone, le développement sur place, de lente<lb/>croissance en un lieu toujours le méme. Le nombre 3<lb/>signifie la maison (père, mère, fils), au sens divinatoire.<lb/>Trois tréfles signifient donc trois harmonies familiales<lb/><lb/>succédentes ou neuf, qui est le nombre du sage à l'écart.<lb/>La devise tout ou rien rimerait aisément à ces fleurs se.<lb/>dentaires et qui ne se transplantent pas: devise, comme<lb/>emblème, de terrien endurci.»</p>
+          <p><lb/>A Sant-Roumié, i'a 'ncaro, sus la plaço dóu<lb/>Planet, l'oustau di Mistral noble de Mount-<lb/>Dragoun e Roumanin, couneigu dins lou pople<lb/>pèr Oustau de la Rèino Jano.</p>
+          <p><lb/>Mai rèn se perd. Quau vous a pas di que<lb/>Mistral, emé soun sèns propre d'óuficié de<lb/>justiço e d’óuficié municipau, es encaro usita<lb/>en Souisso dins lou cantoun di Grisoun, ounte<lb/>la lengo prouvençalo o, se voulès, roumanso,<lb/>estènd si darrié sagatun ! Dins la Tribune de<lb/>Genève d'aquest 18 de Mai, veici ço que se le¬</p>
+          <p rend="labelled"><lb/>GRISONS. — Landsgemeinde. — Le Bund donne<lb/>quelques détails rétrospectifs sur les landsgemeinden<lb/>qui viennent d'avoir lieu dans ce canton. Pour un terri-<lb/>toire aussi vaste, une landsgemeinde unique serait im-<lb/>possible, aussi chaque district a-t-il la sienne. Et au<lb/>point de vue de leur signification dans l'histoire de la<lb/>démocratie ces assemblées ne le cédent en rien aux<lb/>assemblées analogues des petits cantons. Aujourd'hui<lb/>encore, la landsgemeinde de Dissentis est plus impo-<lb/>sante que celle du canton d'Uri. La jeunesse de Dissen-<lb/>us se rend au domicile du landammann — le «Mistral»<lb/>— qui, revêtu d'un manteau écarlate monte à cheval et<lb/>l'accompagne, avec les honneurs militaires, jusque sur<lb/>ja place où se réunit la landsgemeinde. Devant le lan¬<lb/>dammann s'avancent des coureurs, des fifres et des tam-<lb/>bours costumés tous aux couleurs du district et un huis-<lb/>sier, en couleur aussi, portant l'épée de justice.</p>
+        </div>
+        <div type="article">
+          <p><lb/>Dans d'autres districts, à Stanz par exemple, le lan-<lb/>dammann et les juges sont revêtus de grands manteaux<lb/>noirs. Un des cortèges les plus pittoresques est celui du<lb/>Proettigau où les fifres et les tambours exécutent avec<lb/>une maestria toute spéciale la marche de la landsge¬<lb/>meinde: la Mistralia. A Misox on voit figurer au cortège<lb/>un fagot d'épines, comme emblème de la haute juridic-<lb/>tion en matière pénale.</p>
+          <p><lb/>Les landsgemeinden des Grisons sont essentiellement<lb/>Aujourd'hui des assemblées électorales. Elles nomment<lb/>le personnel des tribunaux de district et les députés du<lb/>Grand Conseil. Pour les projets de loi, en revanche, le<lb/>vote a lieu avec le système des urnes.</p>
+          <p><lb/>Le chef-lieu du canton n'a plus de landsgemeinde.<lb/>Cette assemblée a été supprimée dans la Haute-Enga-<lb/>dine, mais un mouvement se prodait en faveur de son<lb/></p>
+          <p><lb/>Lorsque les luttes entre partis étaient très vives, les<lb/>landsgemeinden étaient parfois extrémement orageuses.<lb/>Maintenant elles ont lieu au milieu du plus grand calme,<lb/>les différents districts procèdent paisiblement aux nomi-<lb/>nations qui leur incombent, et pour la jeunesse la réu-<lb/>nion de la landsgemeinde est une fête nationale, la plus<lb/>grande et la plus belle de toutes. La réunion a lieu le<lb/>matin, et l'après-midi est entièrement consacrée au plai-<lb/>sir ; tandis que les jeunes gens dansent, les parents for-<lb/>ment cercle autour des tables bien garnies. Dans le dis-<lb/>trict de Schanffigg, la fête dure du dimanche à midi jus.<lb/>qu’au mardi à midi: deux jours et deux nuits. Lo jour<lb/>on danse sur une place, la nuit dans une salle. Et dans<lb/>ces grandes occasions — elles ne se représentent que<lb/>tous les deux ans — l'habitant de la vallée, si économe<lb/>d'habitude, ne se refuse rien. Il aura bien des mois pour<lb/>réparer les brèches faites à sa bourse.</p>
+          <p><lb/>Vaqui dounc lou Mistral, dins si founcioun<lb/>de juge e de magistrat poupulàri, que, revesti<lb/>d’un mantèu rouge, au son di fifre e di tam-<lb/>bour, presido d'à chivau is assemblado e fèsto<lb/>dóu pals d'Engadino, à la cimo dis Aup, veri-<lb/>tàbli felibrejado que remounton segur jus-<lb/>qu’au tèms de Guihèn Tell. Mai la voulès plus<lb/>singuliero? D'abord qu’avèn larga lou noum<lb/>de Guihèn Tell, vous rapelas aquéu Gessler,<lb/>representant dóu Du d'Austrlo, que fourcè lou<lb/>paure ome de degoula 'mé l'aubaresto uno<lb/>poumo plaçado sus la tèsto de soun fiéu? Eh!<lb/>bèn, Gessler, dins lis escri e li cansoun de<lb/>l'Engadino que traton d’aquelo legèndo, es<lb/>nouma sèmpre lou Mistral.</p>
+          <lg>
+            <l><lb/>Umens libers della Vall!</l>
+            <l><lb/>Sundel buca vies Mistral.</l>
+          </lg>
+          <p rend="heading"><lb/>En quel grau, Mistral, havein nus.</p>
+          <p><lb/>Il cau de quels ded Uri, signur Mistral de Fries,<lb/>E silla buora seglia, signur Mistral de Moos.</p>
+          <lg>
+            <l><lb/>Mistral de Sax, Mistral de Sax</l>
+            <l><lb/>Va per entuorn, runant il sacs.</l>
+          </lg>
+          <p><lb/>Aquéli citacioun aboundon dins la Ratoro-<lb/>manische Chrestomathie dóu D' C. Decurtins,<lb/>recuei de doucumen ladin estremamen inte.</p>
+          <p><lb/>Counclusioun : en estènt que li famiho,<lb/>coume li riéu, toujour davalon di mountagno<lb/>e jamai noun ié mounton, es clar que lou<lb/>noum de Mistral, siegue coume noum cou-<lb/>mun, siegue coume noum de famiho, descènd,<lb/>Rau que lou Rose, de la cimo dis Aup, — e<lb/><lb/><lb/>aquel atavisme, perqué noun? esplicarié lou<lb/>sourgènt prefoundié, auturen e liunchen dóu<lb/>Pouèmo dóu Rose.</p>
+          <figure type="decoration"/>
+        </div>
+      </div>
+      <div type="article">
+        <head><lb/>LE PROCHAIN VOYAGE DES fÉLIBRES</head>
+        <head><lb/>A ORANGE</head>
+        <p><lb/>On commence à parier beaucoup de la manifestation<lb/>artistique d'Orange, qui doit coincider avec les fêtes fe-<lb/>libréennes du mols d'août et le voyage du Président de la<lb/>République dans le Midi.</p>
+        <p><lb/>Avant que le programme en solt définitivement ar-<lb/>rêté, nous avons étè en demander les grandes lignes au<lb/>chancelier du félibrige, M. Paul Mariéton, qui rentre<lb/>d'une tournée préparatoire en Provence.</p>
+        <p rend="labelled"><lb/>— Le départ général des félibres et des cigaliers est<lb/>fixé au samedi soir 31 juillet, nous a dit M. Mariéton. Le<lb/>président de la République a choisi lui-même cette date.<lb/>On arrivera vers neuf heures du matin à Valence, où<lb/>auront lieu, dans la journée, l'inauguration du monu-<lb/>ment d'Emile Augier, œuvre de Mme la duchesse d'Uzès,<lb/>et du buste de Désiré Bancel, un député doublé d'un<lb/>lettré, resté cher aux fondateurs de la République. Ce<lb/>Suste est de M. B. Amy.<lb/>-</p>
+        <p rend="labelled"><lb/>» Le soir, après un vaste banquet municipal et une<lb/>«kermesse rhodanienne» sur le Champ de Mars, où on<lb/>entendra un ensemble de trois milie musiciens, la Co-<lb/>médie-Française donnera une soirée de gala avec F'Aven-<lb/>turière, précédée d'un prologue de M. Richepin, suivie<lb/>d'une cantate de M. Vincent d'Indy.</p>
+        <p rend="labelled"><lb/>» Le lundi matin, 2 août, vers 8 heures, embarque-<lb/>ment général du Président de la République, de sa suite,<lb/>des félibres, cigaliers et de leurs invités, pour la des-<lb/>cente du Rhône, de Valence à Avignon.</p>
+        <p rend="labelled"><lb/>— Qui formera le cortège présidentiel ? demandons¬<lb/>nous au chancelier des félibres.</p>
+        <p rend="labelled"><lb/>- Nous avons été reçus ce matin, nous dit-il, avec la<lb/>délégation valentinoise, par MM. Barthou et Hanotaux.<lb/>L'un et l'autre nous ont promis leur présence. M. Ram-<lb/>baud, d'autre part, doit accompagner M. Félix Faure. Ce<lb/>matin, également, les présidents des deux Chambres<lb/>nous ont annoncé leur projet d'assister à cette descente</p>
+        <p rend="labelled"><lb/>Elle s'annonce mervelleuse. Une véritable flotille<lb/>descendra le feuve, de Valence à Avignon. Les bateaux<fw type="digitisation-artefact"><lb/>56n allian.f/Bibliotèques</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

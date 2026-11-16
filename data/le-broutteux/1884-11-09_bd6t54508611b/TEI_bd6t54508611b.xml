@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508611b</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1884-11-09">1884</date>
+          <idno type="ARK">bd6t54508611b</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508611b</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Numéro 120. (3me ANNÉE).</fw>
+        <fw type="runningTitle"><lb/>DIMANCHE 9 NOVEMBRE 1884.</fw>
+        <ab><milestone unit="column" n="2"/><lb/>Un Numéro: 10 centimes</ab>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="1"/><lb/><lb/>«Byades baflses<lb/>payables d'avance<lb/>qu'n homme d'espril<lb/>3mois. fr.1-50<lb/>achéterait"<lb/>6<lb/><lb/>VOISEN<lb/>Etranger, port en sus.</ab>
+        <p rend="heading"><lb/>ABONNEMENTS:</p>
+        <p rend="heading"><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING</p>
+        <p rend="styled"><lb/>Administration: FRÈRE-GLORIEUX, Imprímeur, rue de Lille, 18. — Réda tion: Jn lés WATTEEUW, rue Desurmont, 31<lb/>tchan qu’in vot l’facteur rural rintrer vin<lb/>inne majon qu’ch'est inne grosse affaire!<lb/>Aussi l’facteur rural est ben vu tout par<lb/>tout, y sait souvint les nouvelles, lit alfos<lb/>les lettes à les pauvers gins qui n’ont<lb/>jomais été à l'école. Si y est matte, in li<lb/>offrira volontis inne plache sur inne cariole<lb/>ou in car ou n’importe quo. Et ch'est in<lb/>dur méti, savez? Pa n’importe tcheu<lb/>temps, l’hiver, vin les méchants qu’mins,<lb/>tout cha, pa l'pleuffe et pa l'neige, y li<lb/>faut toudis aller comme l’Juif-Errant et<lb/>acor erqueminchi l'lindemain</p>
+      </div>
+      <div type="article">
+        <p><lb/>Ah ! n'est ben a li qu'in porot dire:</p>
+        <p rend="labelled"><lb/>Tu gagneras ton pain à la sueur de tes<lb/>pieds.</p>
+        <p><lb/>Ch'est ben la vérité, y n'd'in fait des<lb/>pas sur in jour, alfos vin l’bedoulle ou vin<lb/>l'poussire. Et, inter nous, vous savez?<lb/>po payi in proportion, y n'gagn'tent po<lb/>gramint.</p>
+        <p><lb/>In a ben parlé, l'aute jour, d'leu donner<lb/>des vélocipèdes, mais cha, ch'est comme<lb/>pou rire; vu qu’in a d'ja éprouvé vin l'dé-<lb/>partemint du Rhône, sans réussir. Allez<lb/>vous in, courir, vin les p'tits qu’mins<lb/>rimplis d’treus et d’bedoulles inveuc in<lb/>vélocipède... inne petite augmentation<lb/>d'traitemint leu fero pus d'plaiji qu'in<lb/>grand vélocipède, à les facteurs. D'autant<lb/>pus qu’ch’est tous gins tcheusis, pasque<lb/>vin les facteurs ruraux comme vin ceux<lb/>d’la ville y faut avoir des qualités : d’abord<lb/>inne mioche d’instruction, du corache pou<lb/>n’po avoir peur de voyager au long du<lb/>jour, et de l’bravoure, pasque gramint<lb/>d’secrets et alfos gramint d’étchus leu sont<lb/>confiés. Aussi, tchan que l’momint des<lb/>étrennes est arrivé ch'est des copagnons<lb/>qu'in n'dot po oblii, si in leu donne inne<lb/>petite récompinse y n'l'ont po volé, et j'dis<lb/>mi même d’bon tcheur, salut! facteur!</p>
+        <ab><lb/>JulEs WATTEEUW.<lb/>Au fur et a m’sure qui lit, s’fidjure tchange<lb/>de couleur... ses is s’troublent. Tout<lb/>d’inne in cœup l'lette tché à terre... et<lb/>c'l'homme reste la inveuc s’tête appoï in<lb/>ses mains, comme in perdu... hors du<lb/>monde ! Ah! chi, facteur, vous avez ap-<lb/>porté, sans l'savoir, l'désespoir vin l'tcheur<lb/>de c'l'homme.<lb/>les ma sœurs que l'petite s’habitue, la<lb/>val... y sont tertus contints. Mais wetti<lb/>m'n’homme qui attind l'facteur à l’porte<lb/>de s’majon... in vot qui piteine d'’impa-<lb/>tienche... y n’tint pus sus ses pids... Ah!<lb/>v'la l'facteur... y attrappe l'lette hors de<lb/>ses mains et s'in va l'lire qin sin bureur.</ab>
+        <p><lb/>Mais wetti sti chi qui rit comme in seut<lb/>in lijant l'lette que l'facteur vint d’appor-<lb/>ter! mais wetti tcheu plaiji! s'bouque ill'<lb/>s’overt qu'a l'z’orelles! y rit comme in<lb/><lb/>nochint. Ch’est inne farce qu’in copa-<lb/>gnon li rinconte, ben seûr? Et l'aute, ichi<lb/>qui graigne in lijant s’lette, in dirot in cat<lb/>qui bot du véniaique, ch'est d'z'affaires de<lb/>commerce qui n'vont po tout jusse, in<lb/>laichi pour compte, in manque de poisse,<lb/>inne saquo essin, l'facteur ervernerot à<lb/>des momints essin, beteu qu’in li donnerot<lb/>les deux pids au vinte, comme siy in<lb/>porot. Mais, l’pus comique ch'est m’n’hom-<lb/>me chi, y vint d’ovrir inne lette et y s’met<lb/>à chuffler in faijant in p'tit pas d'danse<lb/>vint s’plache! tcheu nouvelles qui arot<lb/>ben appris, sti la?... Bé, y vint d'apprinte<lb/>que... sin vi mon onque... sti qui... vus<lb/>connaichi ben? sti qui avot tant d’dou-<lb/>pes... y vint... d'erpéri d'l'aute côté in li<lb/>laichant inne boinne pluque, vus coper-<lb/>dez? Ah ! si l'facteur ervenerot chi, a des<lb/>momints essin, in li saute au cu pou l’im-<lb/>brachi.</p>
+        <p><lb/>Vus veyi ben, comme j'vous dijos d't'à<lb/>l'heure que l'facteur jeu in grand rôle,sans</p>
+      </div>
+      <div type="article">
+        <ab><lb/>a l'fijare ee pas mon frères et s'in douter. Ch'est au villache, à l'écars,</ab>
+        <ab type="head"><lb/>L'FACTEUR</ab>
+        <p rend="styled"><lb/>N'est ce pas lui, d'ailleurs, qui<lb/>malgré le vent ou la pluie, le<lb/>froid ou la chaleur, arpente<lb/>soir et matin les distances et<lb/>vient nous apporter la nouvelle<lb/>impatiemment attendue?</p>
+        <p><lb/>L'facteur!... V'la in homme qui jeue in<lb/>grand rôle, sus c’monde, sans s’in douter.<lb/>Est-ce que ch'n’est po li qui nous apporte<lb/>l'jo ou ben l'tristesse, l'espérance ou<lb/>z'innus? Y a alfos des nouvelles qui vous<lb/>font rester indifférints, ch'est vrai, mais<lb/>l’tchuriosité est toudis réveyi, tchan qu’in<lb/>attind l'facteur crii, à vou porte... la<lb/>postell</p>
+        <p><lb/>V'la in homme qui a d'ja ermué des<lb/>tcheurs : wetti inne fos, cheulle ma mère<lb/>qui overt cheulle lette que l'facteur vint<lb/>d'li donner... Ch’est l'écriture d’sin gar-<lb/>chon... d’sin soldat... y est long! ben<lb/>long !y a récrit!... Wetti, l’tcheur de l'ma<lb/>mère s'overt... in vot deux grossés larmes<lb/>d'bonheur couler l’long d’sin visage!...<lb/>2<lb/>Ah! facteur, vous avez apporté la des<lb/>boinnés nouvelles, cheull' ma mère braie<lb/>d’contintemint d’savoir sin garchon ben<lb/>portant, in boinne santé et qu’y va rin-<lb/>trer à sin pays... pou toudis. D’in aute côté<lb/>wetti cheulle mètchenne : in sonne... ill'<lb/>overt l'porte. Ch’est l’facteur qui li donne<lb/>inne lette pour elle... ch'est d’sin villa-<lb/>che... ill' l'overt et s’laiche tcher sur inne<lb/>selle in ressuyant ses is inveuc s’n'écour-<lb/>cheu! l'facteur a porté la des ben tristés<lb/>nouvelles. Beut ête in frère... inne ma<lb/>sœur malates, ben malates ou beut ête pir<lb/>acor! tchi qui sait? Par chi, l'facteur ermet<lb/>inne lette que l'maman lit à s’famille, cha<lb/>vint de l'fillette qui est in pinsion... in vot</p>
+      </div>
+    </body>
+  </text>
+</TEI>

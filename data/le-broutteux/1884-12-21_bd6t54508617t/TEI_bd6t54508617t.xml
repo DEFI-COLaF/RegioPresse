@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508617t</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1884-12-21">1884</date>
+          <idno type="ARK">bd6t54508617t</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508617t</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>iméro 126. (3me ANNÉE).</fw>
+        <fw type="runningTitle"><lb/>Un Numéro: a« centimes</fw>
+        <ab><milestone unit="column" n="2"/><lb/>OI<lb/></ab>
+        <figure type="decoration"/>
+        <figure/>
+        <fw type="runningTitle"><lb/>anger, port en sus</fw>
+        <fw type="runningTitle"><lb/>ASOANEHE<lb/><lb/>payables d'avance<lb/>3mois. tr.1-50</fw>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING</p>
+        <p rend="styled"><lb/>Administration : FRFRE-GLORIEUX, Imprimeur, rue de Lille, 18. — Rédaction :<lb/>les WATTEEUW, rue Desurmont, 31</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Sóorate, cet homme discret,<lb/>Allait diner au cabaret<lb/>Ebé, t'nez, si vus volez, in va faire chi</ab>
+        <ab type="head"><lb/>AU CABARET</ab>
+        <ab type="head"><lb/>Quand sa femme était en colère.</ab>
+        <p rend="styled"><lb/>PANARD.</p>
+        <p><lb/>In sait ben tertus quoqu'ché du cabaret,<lb/>ené ? vin tus les pays du monde y n'd'a<lb/>et y sont à po près tertus les mêmes : in<lb/>comptoir, des taffes, des selles, in couvé,<lb/>v’là tut. Aussi, ch’n’est po du cabaret<lb/>propermint dit, qu'in peut rinconter, mais<lb/>des gins qui z’y vont, d'nous autes tertus,<lb/>quo.</p>
+        <p><lb/>l'petit tableu du cabaret l'mi du monde:<lb/>A peine que l'cabareti y est l'vé d'sin<lb/>lit, sti qui s’treufte sus l'passache d'in<lb/>ateli, sin premi crient ch’est l’ovri qui<lb/>vint avaler s’petite goutte d’vant aller<lb/>s'rinsérer pou toute l'jour.</p>
+        <p><lb/>Adan, l'cabaretire ill' ramonne inne<lb/>mioche s’plache; alfos, ill' jette inne mio-<lb/>che de grès, ill' fait in couvé et ill' vot<lb/>déhuter vin sin cabaret, in andividu qui a<lb/>l'air d'ête là comme à s'majon, c'hest<lb/>toudis in des premis, du matin... aussi y<lb/>a in vil dicton qui dit qu’les coulons et les<lb/>blasés sont toudis timpe levés et ch'est la<lb/>vérité, y avalle sin verre in tronnant et y<lb/>s'in va.<lb/></p>
+        <p><lb/>Mais, mon Di, Seigneur ! quoqu’ché de<lb/>m’n’homme qui rinte chi : Donnez-moi<lb/>bien vite un verre, allez Madame? qui<lb/>dit... y avale s’grinque, y jette deux sus<lb/>d’seur l’comptoir. Y vude in courant et y<lb/>tcheur drot... vin in aute cabaret, dû qui<lb/>in fait autant. Tchan qui n'd’a fait inne<lb/>dijaine essin, y alleume s'pipe et v'là inne<lb/>demie journée d'passée.</p>
+        <p><lb/>V'la l'z'ovris qui vinn'tent déjeuner, l'in<lb/>y bot inne chope, l’aute inne jatte de<lb/>café, et tout in chaquin y s'in va ovrer.</p>
+        <p><lb/>Pus tard, ch’est l’petit rinti qui vint<lb/>boire s’petite goutte, y va à inne offrande<lb/><lb/>inne séchu... y avale sin p'tit tarin d’bont<lb/>tcheur, in vot qui fait boinne chire, alfos<lb/>y alleume s’pipe ; ch'est sin cabaret d’ha-<lb/>bitude, toudis à l'même taffe et vin<lb/>l'même tcheun, y rinconte des contes sus<lb/>la pleuffe, l'beau temps, les avétures,<lb/>l’temps passé, y wette l'horloge pasque sin<lb/>temps est tout carculé et l'heure li dit dû<lb/>qui li faut aller.</p>
+        <p><lb/>Adan, in vot arriver les ceux qui prenn'<lb/>tent leu verre d’appétit et les ceux qui<lb/>vinn’tent pou vir in tel ou ben in tel qui<lb/>ont b’son d'parler, y arriffe alfos qu'ch'est<lb/>pou d’mander tchi des deux qui va payi<lb/>inne tournée.</p>
+        <p><lb/>Y a aussi, à des momints essin, tchan<lb/>qui a gramint d'monde, l'homme d'affaire,<lb/>sti qui in prind in pa l'manche de s'capote,<lb/><lb/>pou l’condure vin in tcheun et parler<lb/>d’chinquante mille tulog, d’affaires im-<lb/>portantes, tout heut, pou qu’tus les gins<lb/>y l’attintent. Alfos, aussi, y d’mande du<lb/>papi et y va s'assir à inne taffe comme si<lb/>y aro inne correspondance extraordénaire.</p>
+        <p><lb/>Y a aussi in andividu qui va trond’ler à<lb/>l'intour du comptoir, qui va s'assir conte<lb/>inne taffe de jeueux à cartes et qui brou-<lb/>che l'in après l'aute... cha, j'vas vous dire<lb/>tchi qu’ch'est, mais y n’vous faut po l’dire<lb/>à personne, ch'est l'buveu à l'œil.</p>
+        <p><lb/>Mais, wetti, là, m'n'homme assis, ses<lb/>deux coudes appoïs sus l’taffe, ses deux<lb/>mains sus ses orelles, y lit l'gazette .. y<lb/>n'ira po dénier d'vant avoir lu tous les<lb/>journals, ch'est sin plaiji, s’passion, qu».<lb/>Chaquin prind s'n'amusement dû qui<lb/>l'treuffe, ch'est comme sti qui a l'habitude<lb/>de faire s'petite partie d'vant dénier, y<lb/>nemun mingi si n'fero po mi emut<lb/>d'pitchet, inne partie d’mariache, n’im-<lb/>porte quo, tus les gûts sont dins la nature,<lb/>comme in dit, des gûts et des couleurs in<lb/>n’in dispute po. Inne mioche au cœup l’ca-<lb/>baret s'vude; tout in chaquin va mingi la<lb/>soupe.</p>
+        <p><lb/>Vin nou pays, les cabarets n'sont po<lb/>fort fréquentés vin l'après-dénier, sinon<lb/>qu’pa l'z'allants et v'nants, les voyageurs,<lb/>et alfos inne paire de types qui sont in<lb/>ribotte, y n'd'a in qui tchante la gloire,<lb/>l'aute y dort boulli et souvint y n’d’a in<lb/>rosime qui braie... chaque fos qui est<lb/>Foste ch'est essin!</p>
+        <p><lb/>Mais au bord du soir, ch'est adan qu'in<lb/>vot arriver l'z’habitués, les gins qui vin-<lb/>n'tent s'délasser d'leu journée et feumer<lb/>leu pipe trintchill'mint. Ah ! ichi, y n'd'a<lb/>d'tous les sortes.</p>
+        <p><lb/>Y z'arrifftent inne paire à l'fos et vont<lb/>s'plachi à leu taffe d'habitude et in qu'min-<lb/>che à rinconter l'petit conte.</p>
+        <p><lb/>Y a les ceux qui font l'petite partie in-<lb/>veuc les comarates, in buvant leu chope<lb/>trintchillemint... à côté ch'est l'homme<lb/>politique, faut l'attinte parler sti là, y fait<lb/>aller ses bras comme des moleigneuts,<lb/>y parle du Tonkin, d’la Chine, de chint<lb/>mille hommes qui aurait follu envoyer, ça<lb/>serait vite fini avec moi... pût, qui dit.</p>
+        <p><lb/>Y a aussi l'prophète, qui sait tout, qui<lb/>fait mi que l'z’autes et l'bertonnard qui<lb/>rutelle à continuer, l’birre n’est po claire,<lb/>y vint des coulants d’air d’sous les portes,<lb/>l'étuffe ill' ne va po, y fait trop frod, y<lb/>fait trop caud et cha va toudis essin.</p>
+        <p><lb/>Vin les cabarets du qui a inne société,<lb/>vous in veyi tros quate à l’intour d’inne<lb/>taffe qui s'parl'tent à l'orelle de l'inne<lb/><lb/>l'aute..... in dirot des conspirateurs.</p>
+        <p rend="styled"><lb/>Perruque blonde,<lb/>Et collet noir,</p>
+        <p><lb/>Chut... y sont inne saquo vin les épi¬</p>
+      </div>
+    </body>
+  </text>
+</TEI>

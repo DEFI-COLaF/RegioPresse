@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8134292v</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1883-03-04">1883</date>
+          <idno type="ARK">bpt6k8134292v</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8134292v</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Damenche 4 de mars 1883</fw>
+        <fw type="runningTitle"><lb/>Dous sou lou numerò</fw>
+        <dateline><lb/>IVo Annado — No XIIX p. 385</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>PARBISSENT TOUTEI LEI DIMENC</ab>
+        <p rend="heading"><lb/>JOURNAU POUPULARI DE LITERATURO, D'ISTOL DE SCIENCI</p>
+        <figure type="decoration"/>
+        <note>
+          <p><lb/>Depausitàri majourau pèr Marsiho. M. Vincent, carriero Corneille, 3.</p>
+        </note>
+        <figure type="table"/>
+        <p rend="styled"><lb/>Tont ço que toco lou journau deu<lb/>esire manda afranjii à l'Emprimirie<lb/>Pronvençalo. 15, carrièro dóu Grand-<lb/>Relògi, à-z-Ais.</p>
+      </div>
+      <div type="article">
+        <head><lb/>assabé</head>
+        <p rend="labelled"><lb/>Lou Bruse es manda, coumo assai, à<lb/>touto persouno que s'interesso à la lengo<lb/>prouvençato e au mouvamen felibren<lb/>Lei dous premié numerò manda de segui-<lb/>do soun à gratis. Se lou tresen noun<lb/>es remanda emé lou mot REFUNE sus<lb/>la bando, faren presenta. pèr la posto, uno<lb/>biheto d'abounamen de 7 fr. 50 0 de 8 fr<lb/>50 segound lou domicile dou nouvèl<lb/>abouna, à mens que nous siegue manda.<lb/>avans aquèu tresen numerò, l'argènt<lb/>pèr la posto. Per acó faire li a que de<lb/>remetre 7 0 8 franc à soun bureu. Se car-<lb/>garen dei frès.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>PASSO-TEMS. — Lei courso de favouio. - J.-B.G,<lb/>POUESIO. — Mandadis d’uno viòuleto. - L.B.<lb/>Parisenco de controbando. – M. Champavié.</ab>
+        <ab type="head"><lb/>TAULETO</ab>
+        <list>
+          <item>Eis esbroufaire. - P. Simoun</item>
+        </list>
+        <list>
+          <item>La maire. - D. Garnier.</item>
+        </list>
+        <list>
+          <item>A prepaus de la noumanio. - M. Bourrelly,</item>
+        </list>
+        <list>
+          <item>Lou moulin d'oli. . F. V</item>
+        </list>
+        <list>
+          <item>La partenço. - J.-B. G.</item>
+        </list>
+        <list>
+          <item>A madamo Aillau. - Marin.</item>
+        </list>
+        <p rend="labelled"><lb/>CRoUNICo. — Councours de la Mantenènço de<lb/>Prouvenço. — L’obro d l'abat Fazy. — Lei<lb/>fèsto de Carita d'Ais. — En1J.-B. Gaut membre<lb/>d'ounour de l'Escolo de la mar.</p>
+        <p rend="labelled"><lb/>TARGO LITERARI. -- Lou councours dóu Brusc.</p>
+      </div>
+      <div type="article">
+        <head><lb/>PASSO-TEMS</head>
+        <head><lb/>LEI COURSO DE FAVOUIO</head>
+        <p><lb/>Fasien courre leis ome, lei mich-oma, leis en-<lb/>ant. Fasien courre ſei chivau, lei muon, leis ai.<lb/>Ni a perèu que fasien courre la barrioto ! Mai<lb/>aurian jamai a gu l'estè de fa courre de favouio.</p>
+        <p><lb/>Leis ancian avien l'asticacien de veire de ba-<lb/>tèsto de passeroun. Leis Anglés s'amus on ei ba-<lb/>èsto dei gau e bouton à seis oungloun un cro<lb/>l'acie per que chaple mies. Amon forço la car que<lb/>sauno.</p>
+        <p><lb/>L'ome, qu'es un bestiari enmalicia, s'es a e-<lb/>ciouna à enmalicia lei bravei pichouner besti dou<lb/>bouen Dièu.</p>
+        <p><lb/>Nautre, paureis inoucènt, boutavian lei favouio<lb/>subre lou recalieu. Roujejavon, en couiènt, e n’en<lb/>manjavian eme coungoust la farço naturalo que<lb/>semblavo un rouje d'nou dur dintre lou ventroun<lb/>l'aquéu bonen crustacé (coumo lei saberu fran-<lb/>chiman an bateja l’aragno de mar) o bèn n’en<lb/>adoubavian de pelau re quist, tant bèn ensafrana<lb/>qu'aurias di de pasto d'or,entrelardado dei troues<lb/>dóu couaru dei favouio. Ero un flame regòlil</p>
+        <p><lb/>Aro, se traison un flame regòli de f courre lei<lb/>favouio. Es uno idèio de tauteno, e pouédie es-<lb/>peli quedou coco d'aquelei pourridié se la four¬<fw type="digitisation-artefact"><lb/>11e<lb/>e gallica.bnf.fr / Bibliothèques de Mars</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

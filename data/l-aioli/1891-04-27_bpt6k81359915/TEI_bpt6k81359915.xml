@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81359915</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1891-04-27">1891</date>
+          <idno type="ARK">bpt6k81359915</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81359915</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>PROUMIERO ANNADO, N 12.</fw>
+        <ab><milestone unit="column" n="3"/><lb/>DILUN, 27 D'ABRIEU 1801.</ab>
+        <ab><milestone unit="column" n="1"/><lb/>M. Folco DE BARONCKLLI,<lb/>au palais dou Roure,<lb/>EN AVIGNOUN</ab>
+        <ab><lb/>Nautri, l bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr loli<lb/>E faren l'aiou.</ab>
+        <ab><lb/>Segound la vido<lb/>Lou journau.<lb/>Prouverti a</ab>
+        <p rend="heading"><lb/>Vidorn, Vidau,</p>
+        <ab><lb/>F. MISTRAL.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PÈR MES</p>
+        <figure/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="table">
+          <head><lb/>Baile dou journau:</head>
+        </figure>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN:</p>
+        <p rend="heading"><lb/>BURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:</p>
+        <p rend="dateline"><lb/>FolcO DE BARONCELLA.</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Escourregudo pèr l’Itali</head>
+        <dateline><lb/>Geno, dóu 17 d'abriéu de 1801.</dateline>
+        <p><lb/>Pavié 'n bèu tèms, ami Folcò, que m'ère<lb/>proumés lou viage d'Itàli. Mai pèr uno causo<lb/>o pèr l'autro, n'aviéu pancaro agu lesi. Aquesto<lb/>fes pamens nous veici embarca.</p>
+        <p><lb/>Parti de Gravesoun emé ma mouié lou 14 au<lb/>matin, sian vengu, d'uno estirado, passa la<lb/>niue à Mounegue. A la vihado, nous trouvan<lb/>emé lou gènt escultour Fabio Stecchi e soun<lb/>bèu-paire, qu'es lou coumandant de la gàrdi<lb/>de la Principauta. Ensèn anerian un pau au<lb/>casino de Monte-Carlo, e entre intra, au burèu<lb/>mounte dounon li carto, i'avié-ti pas un emplega<lb/>que legissié l'Aiòli? — Bono marco, me<lb/>diguère, es lou cop de risca quàuqui gros nas<lb/>à la rouleto. — Anas gagna, me faguè Pau<lb/>Glaize, l'afelibri Conse de Franço auprès dóu<lb/>Prince de Mounegue, que me venguè touca la<lb/>man, — anas gagna d'emblado voste viage<lb/>al.....</p>
+        <p><lb/>E l'anère, pecaire, de moun bèu louvidor,<lb/>que lou rastèu, en un vira d'iue, me rabaiè à<lb/>la moustacho. Pièi, après quàuqui tour dins<lb/>lou palais dóu Diable, à l'entour di taulado<lb/>cargado d’or e de bihet, ounte barbèlon silen-<lb/>cious li jougadou e jougarello, intrerian uno<lb/>passado à la salo d'espetacle, e pièi nous ane-<lb/>rian coucha.</p>
+        <p><lb/>L'endeman de matin, un regard d'amira-<lb/>cioun sus aquéli baus superbe, escalabrous e<lb/>negre, que fan calo à Mounegue contro lou<lb/>Vènt-Terrau: adamount la Tèsto de Can — e<lb/>la Turbio, uno Tourre-Magno bastido pèr Cesar<lb/>Aguste (Trophœa Augusti), un cop d'iue sus li<lb/>jardin qu'à grand frès entre-tènon autour de<lb/>Monte-Carlo... e filan sus Ventimiho. Es aqui<lb/>que la Dougano vesito li bagage, e aquelo<lb/>vesito es lou plus gros tracas dou viage.</p>
+        <p><lb/>De moulounado de vouiajour, tau que li<lb/>pàuris oumbro que van passa la barco à Ca-<lb/>roun, soun aqui que s'esquichon à l'entour di<lb/>taulié pèr durbi si valiso, porto-mantèu e malo.<lb/>Li fouranaire furnon, bourroulon tout acò.<lb/>Avès bèu à-n-afourti, à jura vosto paraulo que<lb/>pourtas rèn de defendu : vous meton vosto<lb/>fardo touto sèns dessus dessouto.</p>
+        <p><lb/>Vengu moun tour, aguère l'idèio d'eisibi à<lb/>l'emplega de la Dougano Italiano moun brevet<lb/>d'Ouficié de la Courouno d'Itàli,— que m'avié,<lb/>fa valé autre-tèms, en Avignoun, au Centenàri<lb/>de Petrarco, M. lou comte Nigra, embassadour<lb/>d'Itàli.</p>
+        <p><lb/>Lou douganié boutè si bericle, legiguè lou<lb/>diplomo, me regardè; me saludè en pourtant<lb/>co, soun rouman, en lanterno, de fes emé si<lb/>fenèstro poulidamen embessounado. De fes,<lb/>dins un jardin, un ase viro la pouso-raco. De<lb/>fes un cabrié, 'mé si cabro pendudo i ro que<lb/>nous douminon, regardo passa lou trin. Tout<lb/>acò grasiha, nega dins lou soulèu.</p>
+        <p><lb/>E toujour de mountago e de pertus à tra-<lb/>vessa ; e toujour d'óuliveto qu’escalon li<lb/>mountagno; emé de pichot port de mar:<lb/>Port-Maurise, Ouneio, Diano-Marina, desvasta<lb/>pèr lou darrié terro-tremo, e Albenga, e Sa-<lb/>vouno, — qu'es uno vilo de fabrico e de ca-<lb/>noun de chaminèio.</p>
+        <p><lb/>Un emplega dou trin nous demando d'aca-<lb/>toun se nous farié plesi de demoura soulet<lb/>dins noste coumpartimen. lé disèn d'o ; e cou-<lb/>me vesèn qu'aparo la man de caire, ié fasèn<lb/>esquiha 'no pèço... e 'm'acò plus res mounto<lb/>de tout dou long de la routo. Soulamen, en<lb/>reflechissènt, trouvan après, ma fisto, qu'avèn<lb/>agu proun tort de nous faire embarra tóuti<lb/>soulet dins noste cast : car es dins aquéli pa-<lb/>rage que, l'an passa, dins un vagoun, fuguè,<lb/>pecaire, assassina, un paure felibre de Cano<lb/>que revenié de vèire aquelo qu'anavo espousa.</p>
+        <p><lb/>Mai n'escaparen d'aquesto. Vès-aqui Coco-<lb/>leto, pichoto vilo au bord de la mar, qu'es,<lb/>dison, la patrio dóu grand Cristòu Couloumb;<lb/>pièi Sestri, ounte un vòu de drouloun, es-<lb/>troupa jusqu'i cueisso e gafant dans la mar,<lb/>cridon de ié jita de sòu. N'l'en trasèn quau-<lb/>quis-un de la fenèstro dóu vagoun, e li van<lb/>champeira souto lis espousc de l'erso en bar-<lb/>poutant coume d'anedoun.</p>
+        <p><lb/>A jour fali, emé l'arc-de-sedo (que ié fai un<lb/>arc de triounfle), intran enfin dins Gèno, mera-<lb/>vihousamen assetado e estajado dins lou<lb/>founs de soun Gou, subre de colo que l'em-<lb/>barron e la defendon de pertout. N'ai pas lesi,<lb/>coume pensas, de vous descriéure eici, e à la<lb/>despachado, Gèno la Superbo. Fau, pèr se<lb/>rèndre comte de la magnificènci d'aquelo an-<lb/>ciano republico e di gràndi famiho que n’en<lb/>brigavon lou gouvèr, fau lou vèire pèr lou<lb/>ב<lb/>crèire. De carriero bourdado de palais istouri,<lb/>de glourious palais en mabre blanc massis,<lb/>de palais que s’apellon lou Palazzo Ducale,<lb/>lou Palazzo Doria, lou Palazzo Adorno, lou<lb/>Palazzo Durazzo, lou Palazzo Balbi, lou Palais<lb/>Rouge, lou Palais Blanc, emé de porge e d'es-<lb/>calié que sèmblon fa pèr de gigant, emé de<lb/>galarié tóuti coumoulo de pinturo, que soun<lb/>duberto à tout venènt.... es uno incoumpara-<lb/>blo glòri. E pièi li glèiso, l'Annunziata, touto<lb/>resplendènto d'or, de mabre e de tablèu, e San<lb/>Lorenzo e San Ambrogio. Faudrié 'no mesado<lb/><lb/>la man au kèpi, e.... passo que t'ai vist.<lb/>Aguère pas la peno de descourda ni de<lb/>moustra lis agoubiho que pourtave. E'mé la<lb/>prèisso que f'avié, talo favour, vous assegure,<lb/>nous fuguè d’un bèu soulas.</p>
+        <p><lb/>E nous vaqui envagouna, fusant long de la<lb/>ribo de la mar ligouriano, toujour long de la<lb/>ribo enjusqu'à Gèno e 'njusqu'à Piso. Touto<lb/>aquelo coustiero estrecho e mountagnouso,<lb/>tout-de-long semenado de bourg e de viloto<lb/>qu'an li pèd dins la mar, es ço qu'apellon li<lb/>marin la Ribiero de Gèno, qu'en dos part se<lb/>diviso : la Ribiero dóu Pounent, qu'es au pou-<lb/>nent de Gèno, e la Ribiero dou Levant, qu'es<lb/>au levant d'aquelo vilo.</p>
+        <p><lb/>Vesèn passa Bourdiguiero e Sant-Remo que<lb/>fournisson à Roumo li paumo de la Semano<lb/><lb/>Santo. Quand se dreissè, parèis, lou famous<lb/>oubelisque de la plaço de Sant Pèire, e que li<lb/>cau e li courdage noun poudien plus tira, e<lb/>que, mau-grat la defènso, souto peno de mort,<lb/>de parla d'aquéu moumen, un cridè : Bagnas<lb/>li cordo! e que, bagnado li cordo, l'oubelisque<lb/>pousquè s'auboura e quiha dre, dison qu'aquéu<lb/>que cridè se devinavo de Sant-Remo e que,<lb/>pèr recoumpènso, reçaupè pèr li siéu à perpe-<lb/>tuita lou dre de fourni li rampau de la Semano<lb/>Santo à Roumo.</p>
+        <p><lb/>D'arangié, de limounié, tóuti carga de si fru<lb/>jaune, se veson dóu camin de ferre. De mato<lb/>d'aloues emé si gròssi fueio pounchudo e me-<lb/>naçanto, de figuiero barbaresco, de lachusclo<lb/>grandarasso, garnisson li ribas. Li vigno soun<lb/>adoubado e mountado en autin. Mai ço qu’es<lb/>bèu au-dessus de tout, es aquélis óulivié,<lb/>aquéli bos d'óulivié, abandouna à-n-éli meme,<lb/>ramu e capelu coume de grand sause plou¬<lb/>raire, que dounon au pais uno coulour classico<lb/>e pouetico incoumparablo. De quant aquélis<lb/>aubre abihon miés la terro que lis aubre<lb/>estrangié que tambèn ié trachisson, tau que<lb/>paumié, eucalyptus, caoutchou, etc., e que,<lb/>pèr óupulènt e ourgueious que siegon, se vèi<lb/>toujour que soun pas d’eici, pas mai que li<lb/>snoussu de Paris o de Loundre que vènon<lb/>iverna dins li villa d'aquéli costo.</p>
+        <p><lb/>De l'auro, se vèi blanqueja li cimo ennevas<lb/>sado dis Aup de Ligourio ; dóu Miejour, la<lb/>mar inmènso, emé, de liuen en liuen, un bas-<lb/>timen à velo que plan-planet camino.</p>
+        <p><lb/>Sus l'estrecho listo de terro qu'es entre mar<lb/>e mountje que noste trin seguis, de vilo e<lb/>de vilage, basti emé de brico o'mé de rou-<lb/>cassoun : la pèiro de taio manco. Lis oustau<lb/>soun pinta, deforo, emé de bòu, quouro jau¬<lb/>ne, quouro rouge. Li clouchié, peréu de bri¬<fw type="digitisation-artefact"><lb/>/B̀</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

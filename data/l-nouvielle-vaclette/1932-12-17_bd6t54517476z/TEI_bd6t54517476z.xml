@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Nouvielle Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54517476z</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Nouvielle Vaclette : journal patoisant humoristique, non politique / avec la collaboration du Caveau lillois</title>
+          <publisher>[s. n.] (Lille)</publisher>
+          <date when="1932-12-17">1932</date>
+          <idno type="ARK">bd6t54517476z</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54517476z</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>10 L. — No 407</fw>
+        <fw type="runningTitle"><lb/>ALE NUMERO</fw>
+        <fw type="runningTitle"><lb/>L'abonnement se paie d'Avance</fw>
+        <ab><milestone unit="column" n="1"/><lb/>8, Place des Reignaux</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Samedi 17 Décembre 1931.</ab>
+        <figure/>
+        <p rend="heading"><lb/>ONEC LA COLLABORATION DO</p>
+        <p rend="heading"><lb/>R. du C. Lille 48.610.</p>
+        <ab><lb/>Gérant MAREELS Isidore</ab>
+        <ab><lb/>Chéques Postaux 37.182</ab>
+        <p rend="dateline"><lb/>ABONNEMRNT</p>
+        <ab><milestone unit="column" n="2"/><lb/>Siège : 1, Rue de la Monnaie</ab>
+        <ab><lb/>France un an, 18,60</ab>
+        <p rend="heading"><lb/>Amateurs de Canchons Patoises</p>
+        <ab><lb/>A PROPOS DES CHINQ FIÊTES<lb/>Pasquille de I. MARÉELS<lb/>SOUVENIR D'ÉCOLE<lb/>Pasquille de C. FREGOLY<ab><lb/>Vous trouv rez dins ch' liméro:</ab></ab>
+      </div>
+      <div type="article">
+        <ab><lb/>— Awi, figur' te qu'eun' femme, eun' madaime</ab>
+        <ab type="head"><lb/>UN BRAS D'OR</ab>
+        <p><lb/>Tais-te va Mélanie, j' viens d'in lir' eun' bonne<lb/>dins l' journal.</p>
+        <p rend="labelled"><lb/>Ah!.</p>
+        <p rend="labelled"><lb/>quoi, elle réclam' chint mille francs d' domach'<lb/>et intérêts pour un p'tit cop d' canif...</p>
+        <p rend="labelled"><lb/>— Dins l' contrat, j' connos cha...</p>
+        <p rend="labelled"><lb/>— Mais non point dins l' contrat, dins sin bras;<lb/>awi on explique dins l' journal qu' cheull'<lb/>madaime elle est artiste...</p>
+        <p rend="labelled"><lb/>— Ah ! j' comprinds elle fait des tartes et<lb/>alors ch' cop d' canif, cha va l' l'impêcher...</p>
+        <p rend="labelled"><lb/>— Mais non ell' fait point d' tartes, ell' jue<lb/>dius les théât's et au ciné, ch' qu'on appell'<lb/>êt artistes.</p>
+        <p rend="labelled"><lb/>— Ahl..</p>
+        <p rend="labelled"><lb/>— Et alors, i' parait qu' ch'est quéqu'un qui<lb/>étot jaloux d' ses biaux bras qui li a fait cha...</p>
+        <p rend="labelled"><lb/>— Awi, pou' li défigurer sin bras...</p>
+        <p rend="labelled"><lb/>— Si te veux, eun séquoi comm' cha, mais<lb/>à t' mod' Mélanie chint mill' francs, pour eun'<lb/>égratinur' à ch' bras on peut dir' que ch’est un<lb/>bras d'or que ch' bras là...</p>
+        <p><lb/>Cha ch'est vrai Césarine, mais j' me d'maind'<lb/>à ch' compte là quoich' que cheull' madame arot<lb/>bien réclamé si ell' avot été assassinée toute<lb/>intière.</p>
+        <ab><lb/>G. DIx-Nox</ab>
+      </div>
+      <div type="article">
+        <head><lb/>NoS TRAMWAYS</head>
+        <p><lb/>Cheuss' qui n' sont point au courant des<lb/>fantaisies d nos tramways, à Lille, et qui<lb/>désirott'nt printe l'car mercredi passé, à Fives<lb/>ont du putôt êt' surpris. In effet, un car passot à<lb/>2 heures (pardon, 14 heures) rue Pierre Legrand.<lb/>Su' l' devant et à l'arrière, un écusson trian-<lb/>gulaire annonçot : N. Jardin Vauban tandis que<lb/>d' chaque côté de l' voiture deux plaques in<lb/>long portot'nt : Gare de Lille - Fives-<lb/>Hellemmes.</p>
+        <p><lb/>Aller à la Gare pa' l' gardin Vauban, vous n'<lb/>trouvez qu' ch'est des pas inutiles.</p>
+        <ab><lb/>L Curieux.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Acteur Involontaire</head>
+        <p><lb/>Quand on est rédacteur ou simplemint colla-<lb/>porateur, même accidintiell mint, d’un journal<lb/>humoristique, comme l' note, j' suppose, j'estime<lb/>qu'i' n’est point toudis nécessaire de s' mette<lb/>Snartel in tiête, ni de s' creuser l' ciboulot pour<lb/>in faire sortir des idées cocasses, susceptibles<lb/>après leur insertion, d' distraire et même faire<lb/>rire à vinte déboutonné nos aimables lecteurs et<lb/>fidèles lectrices. Non ! I' suffit de r'vettier, in<lb/>allant et v'nant, chin qu'i' s' passe autour de soi,<lb/>d' prêter l'orelle à tous les propos lancés, ainsi<lb/>qu' les conversations qu’i' vous est permis<lb/>d'intinde. Et alors, au lieu d' traiter par imagi-<lb/>nation, cha s'ra du vécu, il est vrai, mais qu’i'<lb/>n in s'ra pas moins intéressant.</p>
+        <p><lb/>Eun' preuv', parmi tant d'autes, et prise au<lb/>hasard, ch'est l' fait suivant :</p>
+        <p><lb/>L' soir du Lundi de l' Brad'rie, je m' trouvos<lb/>au cirque Pourtier, assis sur un banc des pre¬<lb/>mières, applaudichant à tout rompre les exer¬<lb/>cices d’adresse sinsationnels et périlleux des<lb/>artistes, quand au cours de l' représintation,<lb/>vos un homme assez propermint vé̂tu, coiffé<lb/>d'un capiau buiche, qui vient s’assir à min côté,<lb/>l'air fin sérieux, et sans prononcer eun' parole.</p>
+        <p><lb/>Quêqu's secondes après avot lieu un inter-<lb/>mède comique inter un clown et l'inimitable.<lb/>Augusse, l quel, comm' vous l' savez tertous du<lb/>reste, est l'liméro l' pus amusant du programme.</p>
+        <p><lb/>Donc après quêqu's pirouettes et quolibiecs, l'<lb/>Gugusse, s' mettot à faire l' tour de l' piste, in<lb/><lb/>continuant ses bonimints s’arrêtot in arrivant<lb/>in face du particulier in question, l' dévisageot<lb/>in grimaçant, puis li inl'vot sin capiau, qu’i' j'tot<lb/>au mitan de l' piste d' tout's ses forches, puis,<lb/>allot passer à pieds d'ssus l' raplatichant comme<lb/>eun' faluiche.</p>
+        <p><lb/>Ch' dernier s' met alors à fair' des gestes<lb/>désespérés, et s'apprêsot à s'élancer su' l' malo-<lb/>/ru, quand un brave homme d' paysan, qui<lb/>s capote, et pour arriver à l' rapager li dit :</p>
+        <p rend="labelled"><lb/>Allons, allons, monsieur, n' vous fachez<lb/>point comme cha ! Allez faire vo' réclamation à<lb/>l' direction d' l'établiss'mint, on vous l' payera<lb/>vo' capiau.</p>
+        <p><lb/>Mais l'aute, comm' s'i' n' l'avot point intindu,<lb/>continuot ses gestes, in ayant l'air de s'arracher<lb/>les ch'feux tout in s’exprimant dins un langache<lb/>qu' personne n' comperdot.</p>
+        <p><lb/>Pris d' compassion, min pâour imm'aot,<lb/>presque d' forche, ch' l'étrainger à l' direction,<lb/>et là, li servant d interprête, réclamot l' prix du<lb/>capiau in question.</p>
+        <p><lb/>Comm' vous l' pinsez bien, personnel et<lb/>artistes, tout l' monde s'a mis à rir' à larmes,<lb/>chin qui li a fait comprinde, qu'i' v'not, sans s'in<lb/>douter, d' servir d’acteur, car l'individu au<lb/>capiau, n'étot aute qu'un imployé du Cirque,<lb/>chargé d' rimplir un rôle, et que ch' rôle par<lb/>un pur hasard et l’intervention de ch' pâour,<lb/>avot réussi au d'là d' toute prévision.</p>
+        <p><lb/>I' paraitrot qu’il in a brait d' colère, mais que<lb/>pou' l' dédommager d' ses peines et l' payer d'<lb/>sin déring'mint, min Gugusse li a fait obtenir un<lb/>billet d'faveur pou le r'présintation du lind'-<lb/>main, chin qui a suffi à l' calmer.</p>
+        <p><lb/>Seul'mint, j' cros bien qu'on n' l'attrapp'ra pus<lb/>à l'av'nir, à faire des réclamations pour des gins<lb/>qu'i' n' connot point, et qui n'ara point été s'<lb/><lb/>vainter de ch' l'affaire à sin villache.</p>
+        <p><lb/>Ah ! mais non, alors!</p>
+        <ab><lb/>Passe-Partout</ab>
+      </div>
+      <div type="article">
+        <head><lb/>eun' fEmMe Qu'Ell’ mint jamais</head>
+        <p><lb/>Sam'di passé, Titine Toucaud, l' femm' du<lb/>colleu' d'affiches, elle étot in train d' mett' sin<lb/>linge à l'amidon quand ell' veyot sin garchon<lb/>qui r'venot de s' boutique tout brayant; i' faut<lb/>vous dire que d'puis quêqu' temps i' travall' dins<lb/>eun' boutique à busettes du forbou' d' Paris.</p>
+        <p><lb/>D'vinant que ch'ti-chi avot incore dù fair<lb/>mag'mint, ell' l'attrapot aussitôt:</p>
+        <p rend="labelled"><lb/>A ch't heure ! quoich' que t'as incor' fait,<lb/>bon bien, dis un peu pourquoi qu' te brais ?</p>
+        <p rend="labelled"><lb/> l' a que j' sus mis à l' porte de m' boutique,<lb/>répondot ch' garchon.</p>
+        <p rend="labelled"><lb/>Et pour queull' raison qu' tin patron t'a<lb/>mis à l' porte ; ch' n'est point sans motif bien<lb/>sûr? t'as dû fair' des farces ou batiller.</p>
+        <p rend="labelled"><lb/>— Mais non, manman, l' patron i' a dit qu'i' n'<lb/>volot pus m' vir parc' que j'étos l' pus minteu'<lb/>de l' boutique.</p>
+        <p rend="labelled"><lb/>— Et pourquoi qu' te mins? capenoul, mau¬<lb/>vais garnemint, te n' sais point qu' mintir qu'<lb/>ch'est l' pus vilain défaut qui existe su' l' tierr"<lb/>du monde. Est-ch que t'intinds jamais tin père<lb/>ou t' mère dire eun' mintirie ? Jamais d' la vie,<lb/>eh ben, ch’est du biau.</p>
+        <p><lb/>Pindant qu'ell' s'expliquot d' la sorte avec sin<lb/>garchon, elle intindot sin marchand d' carbon,<lb/>qui criot, Titine! dins sio collidor, et comm’<lb/>justemint ell' li d'vot tros sacs à dix francs, d'vi-<lb/>nant que ch'ti chi v'not pour r'chevoir ell' dijot<lb/>comm' cha à sin garchon :</p>
+        <p rend="labelled"><lb/>— Allez ! P'tit mioteu'... deschinds dire au<lb/>marchand d' carbon que je n' sus point là...</p>
+        <p><lb/>Queull' minteusse, hein! pour eun' femm'<lb/>qu'ell' mint jamais !</p>
+        <ab><lb/>C. Frégoly</ab>
+        <figure type="decoration"/>
+        <ab><lb/>PROCHAIN’MINT<lb/>Lire not' nouviau Feull'ton:<lb/>L' Ménache Bastien</ab>
+        <ab><lb/>par Gustave Léonard père</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

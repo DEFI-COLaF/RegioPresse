@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508551h</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1883-09-16">1883</date>
+          <idno type="ARK">bd6t54508551h</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508551h</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Numéro 60. (2me ANNÉE).</fw>
+        <ab><milestone unit="column" n="2"/><lb/>Un Numéro: 10 centimes</ab>
+        <ab><milestone unit="column" n="3"/><lb/>DIMANCHE 16 SEPTEMBRE 1883.</ab>
+        <figure type="decoration"/>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>ASONN<lb/>«Il y a des betises<lb/>payables d'avance<lb/>qu'un homme d'esprit<lb/>3mois fr-50<lb/>achèterait..<lb/>3-<lb/>6 <lb/>VOISENOR<lb/>Etranger. port en sus.</p>
+        <p rend="heading"><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING</p>
+        <p rend="styled"><lb/>Administration : FRERE-GLORIEUX, Imprimeur, rue de Lille, 18. — Rédaction : Jules WATTEEUW, Grand' Place, 19</p>
+      </div>
+      <div type="article">
+        <head><lb/>LES VAGANCES</head>
+        <quote><lb/>Ah! qu'in étot hureux, adan!<lb/>Du qui est l' temps!</quote>
+        <p><lb/>Ebé, mon Di! tcheu bonheur que les<lb/>vagances y sont beteu outtes, y dittent<lb/>les ma mères: min garchon y n’a pus<lb/>d' tchu à s’maronne... l'min v’la l'deuxime<lb/>paire de bottines d' pus les vagances... et<lb/>min pus jomme, y a tché, in grippant sur<lb/>in arpe, y a in bourcheu à s' tête aussi<lb/>greu qu' min peung.... si les vagances y<lb/>dur'tent acor tchinsse jours, y tra tué ! Et<lb/>mi, vous n’ savez po chin qui z’ont fait<lb/>les mins? y z’ont été jeuer sus l'boulevard<lb/>Y ont j' té des cayeux vin les jardins et<lb/>j'ai attrapé in prochés.... Et mi, min pus<lb/>vil, y a feumé du toubaque de bergique<lb/>qui a pris vin l' blaque d' sin mon père,<lb/>j'ai pinsé qui allot morir.... à continuer<lb/>y vinn' tent d' mander des tarteines et les<lb/>portes y vont, y s’ouvertent, y s’ sertent<lb/>et y vinn' tent jeuer inveuc inne masse<lb/>d'afants, qu’in a s' majon pleine... y tront<lb/>pus ma qu’ des diabes tchan qui vont<lb/>erpéri à l'école... y batell' tent, y vinn'tent<lb/>pire que des pilets... y n’a po d' bon sins,<lb/>d' donner des si grandés vagances à d' z'ar-<lb/>souls essin... in ersèque d' misère;... mi<lb/>j'ai freint d' dix lives d'pus in mos d'ichi...<lb/>wetti min consache... ah! cha! cha! y n'a<lb/>Po d' bon sixs!</p>
+        <p><lb/>Et les mon pères, et les ma mères, y<lb/>bertonn’tent et y rutell’tent, inveuc raijon,<lb/>y faut tout dire. D' téfos, y vaut mi vir<lb/>z’afants essin, qu' malades ; ch’est gra-<lb/>hint pus amusant. Et pus, in a tertus passé<lb/>par la, ch'est nin vrai? et in s’in rappelle<lb/>avec plaiji, acor; ch'est in d'ces vis sou-<lb/>venirs qui reste gravé vin l' mémoire<lb/>pou toute s' vie;</p>
+        <p><lb/>Mais, rin n’ vaut les vagances de l'jeu-<lb/>nesse, pasque adan, les plaijis sont purs<lb/>y n’ sont po traversés comme tchan qu'in<lb/>est grand, alfos, par d' z’idées trisses et<lb/>d' z'ennus d' commerce ou ben d'auter<lb/>cose.</p>
+        <p><lb/>Et dire, qui arrive in temps qu’in aspire<lb/>que l' dernire vagance sot fini, pour intrer<lb/><lb/>vin l' monde; in s' fidjure que ch'est tout<lb/>chuque et tout pénincke, in est pressé<lb/>d’ tchitter les bons maîtes qui s’ sont<lb/>dévoués à vous anstrure, in tcheur invo<lb/>d' l'école comme d'inne prijon! Mais pus<lb/>tard, aussi, tcheu z’ergrets! comben qui<lb/>n’ d'a à Tourco, Roubaix et Lille, qui<lb/>vorottent erpéri à c' temps passé pour<lb/>ramasser chin qui z’ont laichi tcher!<lb/>combin, qu’in n’ d’attind qui dittent: j'lai-<lb/>chero coper m'in p’tit dogt, pou savoir<lb/>tout chin qui m' s' rot si utile aujord'hu!<lb/>J'souhaite que tous les p'tits copagnons<lb/>qui vont acor à l’école et qui liront c’lime-<lb/>reu chi du Broutteux, profitent de c’ con-<lb/>seil que j' vas leu donner in amisse et<lb/>qu' leus parints n’ont po été sans leu répé-<lb/>ter; j'in sus seûr :</p>
+        <p><lb/>» Tchan qu' les vagances tront outtes, si<lb/>vous avez acor l'bonheur d’aller à l'école,<lb/>profitez hardimint d' l’instruction qu’in<lb/>vous donne, car in ergrette jomais d’avoir<lb/>trop appris. Inveuc l’instruction, in n'd’in<lb/>vude toudis, n’importe dans tcheu circons-<lb/>tance de la vie qu'in s' trouve, (et in<lb/><lb/>n' d’in vot alfos des dures, savez?) l'ins<lb/>truction sauve tout, tchan qu’in l’tourne<lb/>au profit du bon pus tôt qu' du ma, ben<lb/>attindu et vous trez hureux et vous ren-<lb/>drez l' z’autes hureux in même temps.<lb/>Veyi l' Broutteux, par eximbe, si qui n’aro<lb/>o profité in p'tit mioche d' l’instruction<lb/>qu'in li a donné, est-ce que vous pori lire<lb/>le gd' vou serviteur.</p>
+        <ab><lb/>JULES WATTEEUW.</ab>
+        <lg>
+          <l><lb/>Comben d' fos, sus l' vil chimintire,</l>
+          <l><lb/>Qu'in a jeué : aux barre' aux cats,</l>
+          <l><lb/>Aux voleurs, à l' guisse, aux soldats,</l>
+          <l><lb/>Au pid d'agache et à l' dernire !</l>
+        </lg>
+        <lg>
+          <l><lb/>Tcheu plaiji qu'in avot adan!</l>
+          <l><lb/>Du qui est l' temps!</l>
+        </lg>
+        <p><lb/>Et ch'est alfos, vin les momints qu'in a<lb/>de l' misère qu’in y busie pus volontis,<lb/>n’est nin vrai, cha ? Tcheull' âge hureux!<lb/>sans soucis, sans peines, l'afant n' busie<lb/>qu’a jeuer et à... faire danner ses parints.<lb/>Pour l' z’afants, les vagances ch'est in<lb/>mot magique, cha leu met in tête, des<lb/>cateux in Espane; l’afant qui a eu l' bon-<lb/>heur d’ête ochénié vin l'écours d'inne<lb/>belle madame, y busi au p’tit gu’veu ou<lb/>ben au p'tit baudet qu’ sin papa li a pro¬<lb/>mis pou les vagances, si il est sage! l' fils<lb/>du bourgeos y s' promet du plaiji, in bu-<lb/>siant qui- va aller passer la mitan d' ses<lb/>vagances à l' majon d'inne ma tante ou<lb/>ben d'inne maraine qu'ill' le va brader.<lb/>L'afant d’ouvri, y busi à les courses qui va<lb/>faire vin les campanes; y s' pourlèque in<lb/>busiant à les peuns et les poires qui va<lb/>mingi, à les pronnes et les goques qui va<lb/>accliboter. Et les grands, qui z’ont des<lb/>vagances, comme : les juges, les députés,<lb/>les professeurs, l' z'avocats, etc., même<lb/>y busitent aussi au plaiji qui vont avoir,<lb/>l' z’uns, in allant à l' cache vin les bos,<lb/>l' z’autes, in allant à leu pays, vir leu<lb/>famille, imbrachi leus parints. (les ceux<lb/>qui z’ont acor l' bonheur de l'z’avoir) in<lb/>a tertus sin désir à accomplir pindant les<lb/>vagances.</p>
+        <p><lb/>Et tchi qui ertourne essin, à sin pays<lb/>après inne longue absence, ch'est acor les<lb/>souvenirs de jeunesse qui li ervinn'tent<lb/>anveuc pus d' plaiji. In s’ertrouvant vin<lb/>s' n’endrot.natal y dira, volontis : ch’est<lb/>ichi que j' j'euo étant gamin, que j'couros<lb/>pindant mes vagances.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

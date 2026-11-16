@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t51153793s</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1850-05-02">1850</date>
+          <idno type="ARK">bd6t51153793s</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t51153793s</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>Journal de la Côte-d'Or.</fw>
+        <ab><milestone unit="column" n="2"/><lb/>d la choliue</ab>
+        <p><milestone unit="column" n="1"/><lb/>jardinier, qui habite aux Capucins.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Offe de M. DEVILLEBICIOT, commis.</head>
+        <p><lb/>En la salle de vente de M. Devillebichot,<lb/>commissaire-priseur, rue de la Liberté, 92,</p>
+        <p><lb/>Le détail paraîtra dans un prochain numéro</p>
+        <ab type="head"><lb/>BOIS DE SCIAGE de quatre ans, essence</ab>
+        <p rend="labelled"><lb/>de chêne, faubourg d'Ouche, aux Trois-Forge¬<lb/>rons, à vendre aux enchères, le lundi 6 mai,<lb/>à midi précis, par le ministère de M. Deville-</p>
+        <p><lb/>Consistant en planches, plateaux, traveaux,<lb/>et bois de cuve, etc. Ces bois sont très-secs,</p>
+        <p><lb/>Il sera accordé trois mois de terme, et on</p>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>commissaire-pri-</p>
+        <p rend="labelled"><lb/>Le lundi6 mai 1850, heure de midi, rue du<lb/>Vieux-Collége, n^o 8, par le ministère de<lb/>M. Lebourg, commissaire-priseur, en pré¬<lb/>sence de M. Beaubois, son successeur dé-</p>
+        <p><lb/>Consistant en cinq ameublements de cham-<lb/>bres, et notamment bois de lit, tables de nuit,<lb/>secrétaires, commodes, guéridons, bureaux,<lb/>toilettes, fauteuils Voltaire et autres, chaises,<lb/>matelas, lits et traversins de plume, édre-<lb/>dons, couvertures, tours de lits, rideaux de<lb/>croisées, glaces, pendules, tableaux, gravures,<lb/>ustensiles de ménage, et quantité d'autres ob-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>BAINS de GUILLON.</head>
+        <p><lb/>Cet établissement modèle réunit tous les<lb/>genres de médications essentiellement physio-</p>
+        <p><lb/>1^o Traitement des maladies de la peau, des<lb/>affections des organes digestifs, des engorge-<lb/>ments du foie, etc., par la boisson, les bains<lb/>et les douches d'eau minérale sulfureuse;</p>
+        <p><lb/>2^o Traitement des rhumatismes, des scia-<lb/>tiques, des suppressions de règles, etc., par les</p>
+        <p rend="labelled"><lb/>3o Traitement des affections nerveuses, de<lb/>la goutte, des gastro-entérites chroniques, etc.,<lb/>par la méthode HYDROTHÉRAPIQUE, avec les<lb/>appareils les plus modernes et les plus per-</p>
+        <p><lb/>4^o Traitement des affections de matrice, par</p>
+        <p><lb/>Des sites pittoresques et variés, une table<lb/>bien servie, tous les agréments de la vie de<lb/>campagne, ont fait de Guillon un séjour des<lb/>plus agréables pendant la saison des eaux.</p>
+        <p><lb/>Prix modérés. Ouverture de l'établisse-<lb/>ment du 15 mai au 15 octobre. Ecrire (fran-<lb/>co) à M. Lambert, directeur-médecin des<lb/>bains de Guillon, près Baume-les-Dames</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>MINES D'OR</ab>
+        <p><lb/>Toute la science industrielle se résume en deux mois, prudence et promptitude<lb/>Dans la question californienne, c'est le cas ou jamais d'appliquer cette théorie; la<lb/>Compagnie française et américaine de San-Francisco l'a parfaitement comprise.<lb/>Aussi, après deux mois à peine d'existence, elle a déjà organisé trois départs de tra-<lb/>vailleurs sur les navires en partance au Havre, l'Arche-d'Alliance, le Pescatore et<lb/><lb/>le Ferrière; elle a fait un choix habile d’hommes robustes et spéciaux qui, sous la<lb/>direction de deux de ses gérants, iront à la recherche du minerai. Elle a terminé ses<lb/>approvisionnements de vivres, vêtements, instruments de travail et maisons de bois.<lb/>Les actionnaires et travailleurs qui l'ont merveilleusement secondée dans cette en¬<lb/><lb/>treprise, recueilleront les fruits de leur confiance. — Les actions de 5 fr. au por¬<lb/>teur, qui donnent droit à une prime de 800 fr. et à des bénéfices considérables, sont<lb/>enlevées avec une surprenante rapidité par les spéculateurs de Paris et de province.</p>
+        <p><lb/>S'adresser, par lettre affranchie, au siége de la société, à MM. Faudot, Raparliez et</p>
+        <p rend="heading"><lb/>LA CATHOLIQUE (DE LONDRES),</p>
+        <ab><lb/>Compagnie générale d'Assurances sur la Vie.<lb/>CAPITAL DE GARANEIE: CINO MELLIONS DE FRANCS.<lb/>LONDRES, 8, New Coventry Street.– PARIS, 21, rue Louis-le-Grand.<lb/>ASSURANCES EN CAS DE MORT. — RENTES VIAGÈRES.</ab>
+        <p><lb/>Pour tous renseignements et demandes d'Agences, s'adresser, franco, à Paris, au Direc-<lb/></p>
+      </div>
+      <div type="article">
+        <p><lb/>Madame Bénouville prévient les personnes<lb/>qui élèvent des vers à soie, qu'elle achètera</p>
+        <p><lb/>Pour plus amples renseignements, lui écrire<lb/>par la poste, à la filature de Barrigan, com-<lb/>mune d’IGNY, PAR GY, arrondissement de</p>
+      </div>
+      <div type="article">
+        <head><lb/>VIN DE CHAMBERTIN,</head>
+        <p><lb/>année 1844, provenant des récoltes des<lb/>héritiers de M. Belot, à vendre, au prix de<lb/>2 fr. la bouteille, et à 1 fr. 80 c. par lots de</p>
+        <p><lb/>S'adresser à M. Chabeuf, rue du Palais, 6<lb/>1<lb/>La REVUE SCIENTIFIQUE, Secrets des<lb/>Arts. Recettes et Formules, dont M. le doc-<lb/>teur QUENESVILLE est le fondateur et rédac-<lb/>teur en chef, est arrivé à sa onzième année.<lb/>Cette revue rend compte de l'académie des<lb/>sciences, de médecine, et des (sociétés d'en-<lb/>couragement et d'agriculture; elle publie trois<lb/>volumes par année et une revue rétrospec-<lb/>tive de tous les travaux publiés depuis dix<lb/>ans, qui sera donnée en prime aux abon-<lb/>nés. La Revue paraît tous les mois. Prix,<lb/>20 fr., et 25 fr., par la poste. On peut s'abonner<lb/><lb/>aux Secrets des Arts seulement. Prix de ce<lb/>dernier recueil, 10 fr. (franco). Paris, rue<lb/>Hautefeuille, n^o 9, chez M. le docteur QUE-</p>
+        <p><lb/>Entreprise des Maîtres de Poste de Dijon</p>
+      </div>
+      <div type="article">
+        <ab><lb/>cent, n^o 46, où le public sera admis à en aux injections, ainsi queles maladies syphiti-</ab>
+        <p><lb/>Le mercredi 15 mai 1850, à une heure de<lb/>l'après-midi, il sera procédé, à la mairie de<lb/>Besançon, à l'adjudication publique, sur sou-<lb/>missions cachetées, d'une Tourniture de mille<lb/>châlits à tréteaux en bois, divisée en quatre<lb/>lots de 250 chaque, pour le couchage de la</p>
+        <p><lb/>Le cahier des charges portant devis, est<lb/>déposé dans les bureaux de la sous-inten-<lb/>dance militaire à Besançon, rue Saint-Vin-<lb/></p>
+      </div>
+      <div type="article">
+        <p><lb/>S'adresser à M. Picard-Bataille, négociant</p>
+      </div>
+      <div type="article">
+        <p><lb/>Fonds de commerce d'épicerie, dans le<lb/>quartier le plus commerçant de Châtillon-sur¬<lb/>Seine, à remettre de suite à des conditions</p>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>Amodiation du droit de pêche dans la ri-<lb/>vière d'Ouche, sur le territoire de Neuilly-</p>
+        <p><lb/>Le jeudi 9 mai 1850, à midi, en la maison<lb/>commune de Neuilly-lez-Dijon, par M. le<lb/>maire dudit lieu, assisté et en présence de<lb/>qui de droit, il sera procédé à l'amodiation<lb/>aux enchères publiques, en deux lots et pour<lb/>neuf années, du droit de la pêche dans la ri-<lb/>vière d'Ouche, pour les parties de cette ri¬</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>PORTE-FEUILLE PERDU. — Il a été<lb/>perdu le 17 javril, sur la route de Pont-de-<lb/>Pany à Dijon, un porte-feuille contenant dif-<lb/>férents titres ou quittances, concernant le<lb/>sieur Darbois, fermier à Chaudenay, com-<lb/>mune de Chevanay, canton de Vitteaux. En<lb/>cas de découverte, le rapporter rue d'Assas,</p>
+      </div>
+      <div type="article">
+        <p><lb/>Incessamment, fête équestre au manége de<lb/>M. Lechaine. Dans cette séance on présente-<lb/>ra 4 chevaux dressés, le Fermier, la Cha¬<lb/>lonnaise, Rebecca et Lucrèce; les personnes<lb/>qui désireront des cartes s'adresseront chez</p>
+        <note>
+          <p rend="styled"><lb/>DIJON, IMPRIMERIE DE DOUILLIER, RUE DES GODRANS,41.</p>
+        </note>
+      </div>
+      <div type="article">
+        <head><lb/>DEPURATIF DU SANG.</head>
+        <p><lb/>LE SIROP CONCENTRE DE SALSEPAREILLE<lb/>COMPOSE, préparé par QUET AINE, pharmacien<lb/> Lyon, est employé avec un succès constant pou<lb/>la guérison aussi prompte que radicale des Maladies<lb/>dites Secrètes, des Dartres, Serofules, Gales ancien-<lb/>nes, Démangeaisons, Rougeurs, Taches et Boutons à<lb/>la peau, Goutte, Rhumatismes, et toutes âcretés et<lb/>vices du Sang. PRIX: 10 f. la grande Bouteille, et 5f.<lb/>la demi-Bouteille, avec une instruction. DEPOTS<lb/>macie Boisseau, rue Saint-Michel, ; et à Chalon,</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>LE ROB guérit radicalement, et en<lb/>peu de temps, les dartres, scrofules, douleurs<lb/>pertes, rhumatismes, et gouttes syphilitiques-<lb/>écoulements récents ou rebelles au copahu et<lb/>tiques nouvelles ou secondaires et résistant<lb/>au mercure, à la salsepareille, et à l'iodure<lb/>de potassium. Prospectus gratis. PRIX: 7 fr</p>
+      </div>
+      <div type="article">
+        <head><lb/>COMPAGNIE LUNIVERSELLE DES</head>
+        <head><lb/>Boulevard Poissonnière, 6, à Paris.</head>
+        <p><lb/>Dans le courant de mai l'expédition sera<lb/>pourvue de tout le matériel nécessaire: vête-<lb/>ments, maisons mobiles, et notamment de mé-<lb/>caniques dites tables sibériennes, dont les<lb/><lb/>résultats donnent, pour 50 travailleurs, le<lb/>produit de mille. — Toute demande d'action<lb/>doit être accompagnée d'un mandat sur la<lb/>poste à l'ordre de M. Thévelin, directeur de<lb/>l'Aurifère.— S'adresser tous les jours à l'ad-<lb/>ministration, de 10 à 5 heures, dimanches</p>
+        <p><lb/>il, 800,co fr.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Sainte-Anne, no 51 6tst</head>
+        <p rend="labelled"><lb/>En l'étude et par le ministère de M^e Quantin,<lb/>notaire à Gevrey-Chambertin, arrondisse-<lb/>ment de Dijon, département de la Côte-</p>
+        <ab type="head"><lb/>Sise à Gevrey-Chambertin, Grande Rue;</ab>
+        <p rend="structured"><lb/>Situées territoire de Gevrey-Chambertin, ar-<lb/>rondissement; de Dijon, département de</p>
+        <p rend="labelled"><lb/>L'Adjudication aura lieu le dimanche 12 mai</p>
+        <p rend="labelled"><lb/>On fait savoir à tous ceux qu'il appartien-<lb/>dra qu'en exécution d'un jugement de la<lb/>chambre du conseil du tribunal civil de pre-<lb/>mière instance de la Seine, du 12 mars 1850,</p>
+        <p><lb/>de madame Marie Antoinelle-Mthilde Savin<lb/>de Surgy, veuve de M. Claude-Nicolas-Phili-<lb/>bert Joly, ancien auditeur au conseil d'Etat,<lb/>membre du conseil général de la Côte-d'Or,<lb/>demeurant ladite dame à Paris, rue Neuve¬</p>
+        <p><lb/>Agissant comme tutrice de Marie-Louise-</p>
+        <p><lb/>Ayant pour avoué M^e Edouard-Marie-Fé-<lb/>lix Lacroix, demeurant à Paris, rue Sainte-</p>
+        <p><lb/>M. Pierre-Charles-Etienne Hernoux, con¬<lb/><lb/>tre-amiral, demeurant à Paris, rue Riche-</p>
+        <p rend="labelled"><lb/>Agissant au nom et comme subrogé tuteur</p>
+        <p><lb/>greniers, écuries, pressoir, jardin anglaise<lb/>tiares, petite cour et bûcher au levant, aisa</p>
+        <p><lb/>levant la rue de Charreux, de couchant Ch</p>
+        <p><lb/>Nots, joignant de levant les cinquième et sixi</p>
+        <p rend="labelled"><lb/>mas et le troisième lot, et de couchant lee</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Progrès de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k1869464v</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Progrès de la Côte-d'Or : journal politique... ["puis" journal républicain quotidien]</title>
+          <publisher>[s.n.] (Dijon)</publisher>
+          <date when="1898-03-12">1898</date>
+          <idno type="ARK">bpt6k1869464v</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k1869464v</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>Samedi 12 Mars</fw>
+        <fw type="runningTitle"><lb/>Le Progres de la Cote-d'Or</fw>
+        <ab><milestone unit="column" n="1"/><lb/>MACHINE DE LUXE (11 kilos)<lb/>Munie des derniers perfectionnements, pour 250 fr.<lb/><lb/>DÉPOT, Fournier, Hon et Gr.<lb/>no Sainf-Pierre, n°26<lb/>adJudication<lb/>D'UNE BELLE<lb/>MAISON<lb/>eir ee anin<lb/>Marque Recommandée<lb/>BELLE PROPRIETE</ab>
+        <p rend="heading"><lb/>Au progres du cycle</p>
+        <ab><lb/>Développement 6m 90<lb/>Roulements clos<lb/>Pompe, Sacoche,<lb/>Burette, Clé<lb/>et nécessaire</ab>
+        <figure/>
+        <ab><lb/>Chaines à rouleaux<lb/>Jantes Westwood<lb/>Gros tubes<lb/>Pédalier étroit</ab>
+        <ab><lb/>aDJUDICATION</ab>
+        <p rend="heading"><lb/>Vaste hOTEL</p>
+        <p rend="heading"><lb/>MAISON</p>
+        <p rend="labelled"><lb/>2 roe de ledere</p>
+        <p rend="heading"><lb/>A vendre aux enchères</p>
+        <ab><lb/>MAISON</ab>
+        <figure type="table"/>
+        <p rend="heading"><lb/>Adjudication</p>
+        <ab><lb/>Train de Culture<lb/>AVENDRE AUX ENCHÉRES</ab>
+        <p rend="heading"><lb/>A vendre a Famiable</p>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="2"/><lb/><lb/>e a prix da totinfr<lb/>d . r de <lb/>DOMAINE<lb/>Sla s̀ Vlériqaa, esnten de Miretes</ab>
+        <ab><lb/>SIROP BOURGOUIN<lb/>Plus de toux en 48 heur<lb/>r son mage, Pios de Potrinai</ab>
+        <ab><lb/>A vendre aux enchères<lb/><lb/>MOULIN</ab>
+        <figure/>
+        <figure/>
+        <p rend="heading"><lb/>terre</p>
+        <p rend="heading"><lb/>A LOUER</p>
+        <p rend="heading"><lb/>A vesdre à Tamiable</p>
+        <ab><lb/>A VENDRE</ab>
+        <p rend="heading"><lb/>un jeune homme</p>
+        <p rend="heading"><lb/>BOIS</p>
+        <ab><lb/> Hitel du Cherrenl et Proidareot</ab>
+        <p rend="styled"><lb/>. Pani i </p>
+        <ab><lb/><lb/>A Vendre aux Enchères<lb/><lb/></ab>
+        <ab><lb/>MAISON<lb/>Magasin ou Cuverie<lb/>Ponds de Café-Restaurant</ab>
+      </div>
+      <div type="article">
+        <head><lb/>a vendre</head>
+      </div>
+      <div type="article">
+        <ab><lb/>ANCIEN SOUS-OFFICIER</ab>
+        <p rend="heading"><lb/>BLAE ET RONNE</p>
+        <ab><lb/>FERME<lb/>a LOUER</ab>
+        <p rend="heading"><lb/>ON DEMANDE</p>
+        <p rend="styled"><lb/>agasin</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>acamdres à alt lnct<lb/>LAE<lb/>Plusieurs machines d'occation d oas prix</ab>
+        <ab type="head"><lb/>A 250 Francs</ab>
+        <p rend="dateline"><lb/>La Bicyclette à Chaine!</p>
+        <p><lb/>vordinaire, c'est jes<lb/>pcéctatlon es la machine<lb/>de la resio à prix rédait de la Becycletto a<lb/><lb/>  , </p>
+        <p><lb/>à dsubles rouleaux, à 210 fraacs la biyciette à chaine trem</p>
+        <ab><lb/>PTACATiNE in tracs, en ne trouvera jumel<lb/>PROGRÈS DU CYCLE, 10-12, Rue Saint-Pierre, DIJON<lb/> <lb/> porieire</ab>
+        <ab><lb/>J. RENAULT, 10-12, Ruo Saint-Pierre, DIJON</ab>
+        <ab><lb/>MASSON-MARTELLIÈRE<lb/>Tapisserie<lb/>AMBUBLEMENTS CoMPLETS<lb/>DIJON - 25, rue Verrerie, 25 - DIJOy<lb/><lb/> preeemment, dans serx<lb/>25, RUE VERRERIE, 25<lb/>e ma cantaisie, cte, pour coirtese stier<lb/></ab>
+        <figure/>
+        <figure/>
+        <ab><lb/>Melbles — Pautelus — Literie<lb/><lb/>Alcliers de Fabrication et Reparatine.<lb/>TrEs BEau Salon LouIS XIV 650"<lb/>WaGNifIOUe SaLOn LoUiS XV<lb/>PETIT SALON LOUIS XV</ab>
+        <ab><lb/>DEUx RAND HANGARSPaeH. BOUCHER Ainé, Fabricat<lb/></ab>
+        <ab><lb/>A VENDRE<lb/>EXCÉDENT DE PÉPINIERES<lb/>  </ab>
+        <ab><lb/>MaISON<lb/>A vendre à lamiable</ab>
+        <figure type="decoration"/>
+        <ab><lb/>Les Cycles Cottereau 1898<lb/>SONT EN VENTE<lb/>foin du Mfirofr<lb/>LENTILLÈRES<lb/><lb/>m Catalogue<lb/>sont GARANTIS</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>A VENDRE</ab>
+        <p><lb/>PIQUETS TUTEURS pour vignes américalnes, en<lb/>tnlimet<lb/>pout, et 1° 70 de longueur. S'adresser à F. Renand, na<lb/></p>
+        <figure/>
+        <figure/>
+        <ab><lb/>Cycles et Automobiles <lb/>CLÉMENT<lb/>ch.<lb/>place d Armes, 3. et rue des Bons- Enfants,<lb/>EXPOSITION PERMANENTE DES MODELES 1898<lb/>Tipe muitatre Clámah 27 iotr.<lb/>marquen<lb/><lb/><lb/>GRAND CHOIX D'OCCASIONS. — (Demander les listes et prix)<lb/>econs gratuien</ab>
+        <ab><lb/>Magasins de détail de Vins et Liqueurs<lb/>63, RUE NONGE, 63 (pres la Porte d'Ouche)<lb/>51, RUE D'AUXONNE, 54<lb/>48, RUE J.J. ROUSSEAU, 48<lb/>BON VIN NOUVEAU<lb/><lb/>Tous les a5 lieree on vous donne i litre de vin<lb/>n des caves Bourguignonnes<lb/> as , 70 cn inn.<lb/>DÉpOIS DES VNS FINS DE LA VNSON A. REGNIAULT<lb/>vin EN BOUTELLENd EC AUTHANTIOUE</ab>
+        <ab><lb/>LEAU SOUVERAIE</ab>
+        <figure/>
+        <figure type="decoration"/>
+        <ab><lb/>CASSIS ROYER-HUTIN<lb/>APÉRITIF ROYER-HUTIN<lb/>ABSINTHE ROYER-HUTIN<lb/>PRuNELLE ROYER-HUtIN<lb/>GUiGNOLET ROYER-HUTIN<lb/>Liquours supérieures de tontes marques</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>SALON du CYCLE<lb/>36. Rue Saint-Pierre<lb/>CYCLES ET MOTOCYCLES PHÉBUS<lb/> ire<lb/>Mo clette de reute, modle specl. . . . . . 290 fr.<lb/>ATELIER SPÉCIAL DE RÉPARATIONS<lb/>Vente, Location, Echange<lb/>PISTE PoUR LEçONs<lb/>La seule Malsen de</ab>
+        <p rend="heading"><lb/>A LouEr pour La saIson</p>
+        <p><lb/>moalas tres erantsgoue. - sadrener piece saine son, n 2s. Magaria de eate, Gtaler de Riparettas et Piste pour Pecens</p>
+        <ab><lb/>ou gumb./Bibioèque nationle de France</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

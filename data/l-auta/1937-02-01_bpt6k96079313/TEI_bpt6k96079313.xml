@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k96079313</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1937-02-01">1937</date>
+          <idno type="ARK">bpt6k96079313</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k96079313</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Paraissant tous les mois, sauf en Juillet, Septembre et Octobre</fw>
+        <ab><lb/>Nouvelle Série – N. 89<lb/>Février 1937</ab>
+        <figure/>
+        <ab><lb/>DRGA<lb/>16. RUE<lb/><lb/>LES TOULOUSAINS DE TOULOUSE<lb/>SA<lb/>SOCIETE<lb/>JEAN</ab>
+        <p rend="heading"><lb/>SOMMAIRE</p>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>Samedi 27 Février, à 21 heures, au siège social,<lb/>6, rue Saint-Jean, réunion générale.</p>
+        <p><lb/>Elections statutaires.<lb/>Conférence de M. Pierre de Gorsse, avocat à la Cour : Une<lb/>histoire d'amour et de plagiat.</p>
+        <p rend="labelled"><lb/>Dimanche 28 Février, à 17 heures, visite de l'église Saint-<lb/>Jérôme, sous la direction de M. l’Abbé Corraze, de la Société Ar-<lb/>chéologique du Midi de la France.<fw type="digitisation-artefact"><lb/>i/a</fw></p>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="18"/>
+      </div>
+      <div type="article">
+        <head><lb/>L’Eglise Saint-Georges à Toulouse</head>
+        <p><lb/>La petite église Saint-Georges, de fondation très ancienne a<lb/>Toulouse, était bâtie au centre de l’antique place de Montaygon,<lb/>qui, depuis, prit le nom du patron de cette église et devint la<lb/>place Saint-Georges, célèbre dans l’histoire de notre cité. Mais<lb/>d’après l’historien Catel, cette église fut démolie au commen-<lb/>cement du seizième siècle et reconstruite à l’angle de la rue Saint-<lb/>Antoine-du-T sur un terrain qui appartenait à l’hôpital de Notre-<lb/>Dame-du-Puy.</p>
+        <p><lb/>Voici quelques précisions sur la reconstruction de ce sanctuaire<lb/>dont il ne reste rien que le nom et le lointain souvenir. Le mira¬<lb/>cle de l’histoire, n’est-il pas, grâce à de précieux documents, de<lb/>pouvoir remettre debout, sous les yeux des générations présentes,<lb/>une image fidèle de ce que fut le passé ?</p>
+        <figure type="table"/>
+        <p><lb/>La reconstruction de l’église Saint-Georges, au commence-<lb/>ment du seizième siècle, commença en 1512.</p>
+        <p><lb/>Le 28 juin de cette année, les bailes de Saint-Georges, —<lb/>nous dirions aujourd’hui les fabriciens, — reçurent le nouveau ter-<lb/>rain sur lequel allait se bâtir leur chapelle : c’étaient neble Pierre<lb/>Buxi, bourgeois ; Colin Auger, olier (potier de terre) ; l’hôtelier<lb/>Jean Gelama; Antoine Marti, rodier ou charron; Pierre Vital, et en-<lb/>fin noble Jean de Saint-Paul et Bertrand Doat, surintendants de nos<lb/>fabriciens ; ces personnages, de condition diverse, étaient réunis<lb/>par la commune ferveur qui les attachait à la petite église de leur<lb/>quartier. Déjà ils avaient fait la démonstration publique, par devant<lb/>toutes les autorités, procureurs du roi au siège de la viguerie, Capi¬<lb/>touls, Vicaires généraux représentant l’archevêque et enfin cour<lb/>suprême du Parlement, « que per lo profieyt et utilitat de la causa<lb/>publica, » l’église d'evait se reconstruire sur le terrain qui appar¬<lb/>tenait à l’hôpital de Notre-Dame-du-Puy, sur la même place.</p>
+        <p><lb/>Georges d’Olmières, conseiller du roi à la cour du Parlement,<lb/>et Vital de Sabonnères, official de Toulouse et vicaire général du<lb/>cardinal d’Orléans-Longueville, se transportèrent ensemble à l’en-<lb/>droit désigné, et après avoir tout éxaminé, ils décidèrent que le<lb/>cas échéant, rigoureusement appliquées. Je ne saurais admettre<lb/>qu’en cas d’infraction, aucun contrevenant puisse arguer de sa<lb/>bonne foi et déclarer n’avoir pu pr'endre connaissance des textes<lb/>réglementant l'affichage. »</p>
+        <pb facs="0012.xml"/>
+        <milestone unit="page" n="28"/>
+        <p><lb/>Le Ministre profite de l’occasion pour rappeler à ses préfets<lb/>les dispositions des lois antérieures, les inviter à les utiliser et à<lb/>veiller à leur application ; il termine en insistant sur la nécessité<lb/>d’une répression pour assurer le respect de t'extes jusqu’à ce jour<lb/>trop méconnus et trop transgressés. Pour stimuler le zèle de ses<lb/>représentants, le Ministre les prie de l’informer périodiquement,<lb/>et, au moins à la fin de chaque année, des mesures de protection<lb/>intervenues, ainsi que, le cas échéant, des sanctions prononcées.</p>
+        <p><lb/>Jamais nous n’avions eu, en termes aussi énergiques, la ma¬<lb/>nifestation d’une semblable sollicitude envers des questions qui,<lb/>si elles sent d’importance pour ceux qui placent dans les valeurs<lb/>spirituelles et artistiques de notre pays, une force et une richesse<lb/>nationale, paraissaient, jusqu’à ce jour, assez délaissées de l’admi¬<lb/>nistration et « des bureaux ». Puisse le rappel énergique de M. le<lb/>Ministre réveiller, enfin, la torpeur et l’indifférence de l’adminis-<lb/>tration et conserver à nos villes et à nos campagnes leur beauté<lb/>première et leur vrai visage (1).</p>
+        <p rend="dateline"><lb/>Pierre DE GORSSE.</p>
+        <p rend="labelled"><lb/>(1) Grâce aux nouvelles dispositions législatives que vient d’exposer notre<lb/>ami, il sera donc désormais possible d’obtenir la disparition des panneaux pu¬<lb/>blicitaires de la place Saint-Sernin et des affiches multicoles des arcades du<lb/>Capitole. Saint-Sernin et le Capitole sont classés, la Section permanente des<lb/>Sites de la Haute-Garonne ne manquera sans doute pas de réclamer une zone<lb/>de protection prohibant autour d’eux l’affichage. Malgré cette mesure qui,<lb/>nous l’espérons, sera prochainement prise, il faudra peut-être attendre encore<lb/>trois ans avant de voir cette « lèpre » disparaître; l’article 12 du décret-loi de<lb/>1935 prévoit en effet « à titre transitoire » ce délai pour l’expiration des baux<lb/>en cours, car on n'ignore pas que pour de tels affichages, il est des propriétaires<lb/>qui louent leur façade. (N. D. L. R.).</p>
+        <pb facs="0013.xml"/>
+        <milestone unit="page" n="29"/>
+        <ab><lb/>Réalisant un projet qui lui était cher, la Société a visité, le<lb/>dimanche 31 janvier, le Musée Labit, où elle a été accueillie par<lb/>le plus qualifié et le plus affable des conservateurs, M. le Dr Sallet.</ab>
+        <p rend="heading"><lb/>La Vie de la Société</p>
+        <p rend="heading"><lb/>Visite au Musée Labit</p>
+        <p><lb/>M. le Dr Sallet, qui s’est retiré à Toulouse, a fait toute sa car-<lb/>rière en Indochine, dont il a étudié particulièrement le folklore et<lb/>l’art, et il fut durant plusieurs années le conservateur du remar-<lb/>quable Musée de Tourane (Annam).</p>
+        <p><lb/>Ceci pour justifier la première des épithètes que nous avons<lb/>appliquée, en tête de ces lignes, au conservateur du Musée Labit.<lb/>Quant à la seconde, elle est de celles qui n’ont besoin d’aucune<lb/>démonstration.</p>
+        <p><lb/>Un témoignage s’en trouve pourtant dans le fait même de<lb/>la réceptien dont nous fûmes l’objet, puisque, pour nous être<lb/>agréable, M. le Dr Sallet n’avait pas hésité à surmonter les senti-<lb/>ments qui auraient pu lui interdire de montrer une installation<lb/>et des aménagements inachevés.</p>
+        <p><lb/>Ce que dut être la déception et l’hésitation du savant conser-<lb/>vateur venant du riche musée de Tourane, lorsque le regretté<lb/>adjoint Julien lui eut demandé d’accepter la charge du Musée<lb/>Labit, on l’imagine sans peine et lui-même nous l’a confirmé en<lb/>nous faisant la description de l’état de ruine dans lequel il trouva<lb/>bâtiments et collections après vingt ans d’abandon, au cours des-<lb/>quels la poussière, les insectes, les rats, la pluie et le soleil s’en<lb/>étaient donnés à cœur joie. Le Dr Sallet se mit pourtant à la<lb/>besogne et, aidé d’un adjoint technique particulièrement habile<lb/>et dévoué, M. Deriquebourg, il est arrivé à arracher à la rouille,<lb/>à la crasse, à la moisissure, ce qui pouvait être sauvé.</p>
+        <p><lb/>Il faut ajouter, d’ailleurs, que les collections du Musée Labit<lb/>— on peut le regretter ou s’en réjouir selon le point de vue auquel<lb/>on se place — n’étaient pas composées que de pièces de choix.<lb/>Elles se ressentaient de l’éclectisme de leur fondateur, Georges<lb/>Labit, qui dans sa villa au décor tunisien de fantaisie, entassait<lb/>des objets au petit bonheur, sans se soucier de leur patrie d’ori¬<lb/>gine, de leur âge et de leur qualité. M. le Dr Sallet s’est efforcé<lb/>de séparer l’ivraie du bon grain et, dans ce dernier, de rapatrier<lb/>vers les différents musées de la ville ce qui pouvait rentrer dans<lb/>leurs précccupations. A charge de revanche, espérons-le, car il<lb/>y a notamment au musée Saint-Raymond des collections qui se-<lb/>raient mieux placées au musée Labit que dans un décor médié¬<lb/>val où elles sont pour le moins inattendues.</p>
+        <pb facs="0014.xml"/>
+        <milestone unit="page" n="30"/>
+        <p><lb/>Les efforts du docteur Sallet ont également tendu à enrichir<lb/>la bibliothèque embryonnaire du musée d’ouvrages concernant<lb/>les arts asiatiques. Par ses soins une série de volumes magnifiques<lb/>viennent de remplir une partie de ce programme qui se propose de<lb/>faire du Musée Labit un centre d’études de folklore et d’art d’Ex-<lb/>trême-Orient, institution qui faisait totalement défaut dans le<lb/>Midi de la France.</p>
+        <p><lb/>Après avoir donné des explications sur l’ensemble de ces pro-<lb/>jets, M. le docteur Sallet a fait une présentation plus détaillée<lb/>des collections exposées attirant l’attention sur les pièces heureu-<lb/>sement rescapées, ainsi que sur celles qu’il a pu y faire entrer lui¬<lb/>même, souvent en puisant dans sa propre collection. Parmi les<lb/>nouvelles acquisitions, il en est de particulièrement remarquables,<lb/>telles ces cinq sculptures, précieux spécimens d’art cham (^e et 8º<lb/>siècles), provenant des fouilles de Tra-Kieu et que l’Ecole Fran-<lb/>çaise d’Extrême-Orient a bien voulu envoyer au musée Labit en<lb/>raison des rapports étroits qu'elle entretient avec son conservateur.<lb/>Nous pouvons préciser que jusqu’à maintenant le musée Guimet<lb/>seul pouvait se flatter d’avoir reçu des dons de cet intérêt, l’Ecole<lb/>Française d’Extrême-Orient n’ayant pas l’habitude de placer ses<lb/>libéralités au petit bonheur.</p>
+        <p><lb/>C’est devant ces remarquables et étranges statues que s’est<lb/>terminée la visite. Au nom de la Société, M. J.-R. de Brousse féli-<lb/>cita M. le docteur Sallet de la vie nouvelle qu’il a donné au musée<lb/>Labit et remercia la municipalité en la personne de M. Valats,<lb/>adjoint aux Beaux-Arts, présent à la visite, d’avoir fourni à l’émi-<lb/>nent orientaliste qu’est M. le docteur Sallet, les moyens d’opérer<lb/>cette résurrection. M. Valats assura qu'e la municipalité, fière de<lb/>ses musées, ne demandait qu’à favoriser leur épanouissement et<lb/>c’est sur ces heureuses paroles qu'on se dispersa.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

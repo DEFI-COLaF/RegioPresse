@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Campana de Magalouna</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7350102p</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Campana de Magalouna : journal populàri que parei lou 1è e lou 15 de toutes lous meses</title>
+          <publisher>[s.n.] (Mount-Peliè)</publisher>
+          <date when="1897-09-01">1897</date>
+          <idno type="ARK">bpt6k7350102p</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7350102p</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Un double sou:<lb/>Zou! quau n’en vou?</fw>
+        <fw type="runningTitle"><lb/>Sieisièma annada — No 125</fw>
+        <dateline><lb/>Dau 1è au 15 de Setembre 1897</dateline>
+        <figure type="table"/>
+        <figure/>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/>Journal poupulàri das Felibres de Mount-Peliè que pareis lou 1^e e lou 15 de toutes lous meses</p>
+        <figure type="table">
+          <head><lb/>Abounamen per un an :</head>
+        </figure>
+        <ab><milestone unit="column" n="3"/><lb/>La "Campana" se vend à Paris<lb/>Enco de M. Pierre DUPPAU, Galerie Vivienne, 25</ab>
+        <ab><milestone unit="column" n="2"/><lb/>Aministracioun e Redacioun<lb/>27, Grand-Carrièira, 27. à Mount-Peliè</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Una Pesca miradiousa</head>
+        <p><lb/>Jan dau Gòbi, Loniset Sauquèna e Pierrau dau<lb/>Merlan, tres galabontems de las Matellas que cresièn<lb/>pas d'avedre la palha à l'iol, éroun anats à la pesca,<lb/><lb/>una nioch dau mes de Juliet. dins la rivieireta dau<lb/>Lirou. Certa, n'es pas desfendut d'anà à la pesca,<lb/>mès ce qu'es desfendut es de faire las cledas avans<lb/>d'avedre las fedas; e justamen antau avièn ſach lous<lb/>tres pescaires : avièn envitat quatre de sous amies á<lb/>dinna emb'eles lou lendeman, à miejour, e l'avièn<lb/>dich : Faren un rebòbi de peis.</p>
+        <p><lb/>Nostes tres pescaires passéroun sa nioch sus lou<lb/>bord dau Lirou, à manjà, à béure e pescà de toutes<lb/>Nous biaisses.</p>
+        <p><lb/>La nioch èra talamen bella que l'aviè plasé d'es-<lb/>tre defora; més lou plasé seriè 'stat encara plus<lb/>grand e plus meravilhous se la pesca era estada mièja<lb/></p>
+        <p><lb/>Nostes paures pescaires passèroun sa nioch sans<lb/>prene una vernièira e se vegèroun au moumen de<lb/>s'entournà à las Matellas sans avedre brulà l'amorça.</p>
+        <p rend="labelled"><lb/>— Coussi faren, diguèt Pierrau dau Merlan, pèr<lb/>tène nosta proumessa as camaradas qu'avèn envitat<lb/>à dinnà embé nautres, e quante peis jè serviren ?</p>
+        <p rend="labelled"><lb/>— I'a parés à faire, diguet Louiset Sauquéna. Tus,<lb/>Pierrau, qu'as bona camba, engulba lou cami dau<lb/>Clapàs ; vai vite à la plaça croumpà de peis ; regar-<lb/>des pas quant costa e revira-te lèu : t'esperan aici.</p>
+        <p><lb/>Couma de-fèt. Pierrau mes las cambas sus lou<lb/>col e gagna lou Clapàs. A la plaça croumpa sièis<lb/>liéuras de peis e s'entorna.</p>
+        <p><lb/>Fièrs couma Artaban, nostes tres pescaires intra-<lb/>voun dins las Matellas à ioch ouras e mièja dau mati<lb/>Adouba lou peis e lou faire coire, seguet l'afaire<lb/>d'un parel d'ouras. A ounze ouras e mièja se metièn<lb/>à taula e pèr premiè plot agéroun un court-boulhoun<lb/>d'anguilas. Jusquas aqui degus diguèt parés. Lous<lb/>envitats se countentavoun de dire : — Las anguilas<lb/>dau Lirou soun pas tent bonas dins l'estiéu que dins<lb/>l'ivèr. —Mès quand pèr segound plat se metet sus la<lb/>taula una grossa sartanada de veirats, alor Mèstre<lb/>Matién, qu’èra das invitats, ié tenguèt papus:<lb/>— Aco's de peis dau Lirou? sou dis. Ai proche de<lb/>setanta ans, e pode ben dire qu'es la premièira fes<lb/>qu'ai vist pescà de veirats dins lou Lirou. Pode pas<lb/>coumprendre couma ié soun venguts.</p>
+        <p rend="labelled"><lb/>— Vous hou dirsi, faguèt Jan dau Gòbi. Es lou<lb/>garda de Restinglèisa que nous a esplicat lou fenou¬<lb/>mène. Pareis, d'après lou garda, que l'an pas at,<lb/>d'aqueste tems ma peissounièira de las Cabanas, que<lb/>veniè de vendre de veirats à las Matellas, passava<lb/>sus lou cami de traversa que vai de las Matellas à<lb/>Pradas. Couma ié restava un found de banasta que<lb/>devièn èstre mai que veirats, jugèt à perpaus de lous<lb/>traire dins lou Lirou. Sai-que un das veirats èra<lb/>pas ben mort; traguèt sous iòus, e d'aqui soun ven¬<lb/>guts lous veirats qu'avès pres embé vosta sàrcia.</p>
+        <p rend="labelled"><lb/>— S'es pot estre, diguet Mèstre Matieu. E couma<lb/>avièn acabat soun dinnà, anèroun enco d'Ernest<lb/>prendre una bona tassa ce cafè.</p>
+        <p><lb/>A pena s'eroun assetats que lou garda de Restin-<lb/>glèisa intra dins la sala.</p>
+        <p><lb/>Tant-lèu lou veire, Jan dau Gòbi se lèva e s'en-<lb/>vai sans prendre soun cafè.</p>
+        <p><lb/>Mèstre Matiéu lou sona. — Vau veni! respond<lb/>lou Gòbi. — Mès venguèt papus, e Pierrau espli-<lb/>quèt á touta la soucietat la pesca miraclousa.....</p>
+        <ab><lb/>BALIN-BALAN.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>ATE IL. SCÉNA VnI</head>
+        <head><lb/>La Luceta de Molière</head>
+        <p><lb/>A prepaus de las féstas de Mollère à Pezenás, s'es<lb/>mai-que-mai parlat de Luceta, un das persounages de<lb/>la coumedia de Monxieur de Pourceaugnac. Per avedre<lb/>escrich aquel role de Luceta dins la lenga dau pais,<lb/>s'es revendicat en l'ounou de Molière lou titre de pre-<lb/>cursou das Felibres, e M. Larroumet, membre de l'Es-<lb/>titut, qu'es vengut celebrà Molière à Pezenas, a recou-<lb/>nougut felibre lou grand escrivan francés.</p>
+        <p><lb/>Mes l'a vint ans passats, lou 21 d'Abriéu 1876, que<lb/>noste ravent coumpatriota e amic. M. lou dòutou Adel-<lb/>fe Espague, legissiè à la Sourbona de Paris un traval<lb/>aguent pèr titre : « Des formes provençales dans<lb/>Motière», traval publicat dins lou fascicle dau 15<lb/>d'Agoust 1876 de la Revue des langues romanes. Lou<lb/>role de Luceta f'es dounat. A noste tour, publican loi<lb/>dins la Campana de Magalouna aquel doucumen que<lb/>lous de nostes letous que lou counonissièn pas auran<lb/>gau de veire alcl. Cau dire qu'à Pezenas la finala femi-<lb/>nina clapassièra a sona en o: Luceto, à loga do Luceta.<lb/>Pèr quant à l'ourtougrata de nosta lenga, Molière l'a<lb/>scricha à hèl ime. Nautres donnan soun tèste dins l'our-<lb/>tougrata de la Campana de Magalouna, qu'es aquela<lb/>dau Tresor dou Fetibrige ou Dictionnaire embras-<lb/>sant les divers dialectes de la langue d'Oc moderne,<lb/>ourtongrafa, couma hou avèn dich mai d'un cop, defi¬<lb/>nitivamen adoutada, fora quaucas ecepciouus, pèr<lb/>toutes lous telihres dau Micjour.</p>
+        <ab type="head"><lb/>LUCETO</ab>
+        <p><lb/>Ab ! tu sios aici, e à la fi iéu te tròvi, après avé<lb/>fach tant de passes! Podes-ti, scelerat, podes-ti sous-<lb/>teni ma visto?</p>
+        <ab type="head"><lb/>M. DE POURCEAUGNAC</ab>
+        <p><lb/>Qu'est-ce que veut cette femme-là?</p>
+        <ab type="head"><lb/>LUCETO</ab>
+        <p><lb/>Que te vòli, infame? Tu fas semblant de nou me<lb/>pas counouisse, e nou rougissos pas, impudent que<lb/>tu sios, tu nou rougissos pas de me veire ? (A Oronte)<lb/><lb/>Nou savi pas, Moussu, s’acò 's vous dount m’òu<lb/><lb/>dich que vouliò espousa la filho. Mai iéu vous de-<lb/>clari que iéu sioi sa fenno e que j'o set ans, Moussu,<lb/>qu'en passant à Pezenas, el auguèt l'adrèsso, dambé<lb/>sas mignardisos, coumo sap tapla faire, de me gagna<lb/><lb/><lb/>lou cor, e m'oubligèt praquel mouien (1) à li douna<lb/>la man per l'espousa.</p>
+        <p><lb/>Lou traite me quitèt tres aus après, sul pretèste<lb/>de qualques afaires que l'apelavou dins soun pais,<lb/>e despèi noun n'ai reçauput cap de nouvellos. Mai,<lb/>dins lou tems qu'i sonnjàvi lou mens, m'òu dounat<lb/>avis que veniò dias aquesto vilo per se remarida<lb/>damb' uno autro jouino filho, que sous parents i'òu<lb/>proucurado, senso saupre res de soun premiè ma-<lb/><lb/>riage. léu ai tout quitat en diligenço e me sioi ren-<lb/>dudo dins aqueste loc, lou pus lèu qu'ai pouscut,<lb/>per m'oupausa end'aquel criminal mariage e coun-<lb/><lb/>foundre as els de tout lou mounde lou pus mechant<lb/>dais omes.</p>
+        <ab type="head"><lb/>M. DE POURCEAUONAC</ab>
+        <p><lb/>Voilà une étrange effrontée !</p>
+        <ab type="head"><lb/>LUCETO</ab>
+        <p><lb/>Impudent! n'as pas ounto de m'injuria, al-loc<lb/>d'estre counfus dai reproches secrèts que ta coun-<lb/>scienço te déu faire?</p>
+        <ab type="head"><lb/>M. DE POURCBAUGNAC</ab>
+        <p><lb/>Moi, je suis votre mari?</p>
+        <ab type="head"><lb/>LUCETO</ab>
+        <p><lb/>Infame! gausos-ti dire lou countràri? I</p>
+        <p><lb/>(1) Franchimandejage; es mejan que cau.</p>
+        <ab><lb/>purce allica.n.fr/Montpellier Méditerranée Métropole-Médiateque centrale Emile ola</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

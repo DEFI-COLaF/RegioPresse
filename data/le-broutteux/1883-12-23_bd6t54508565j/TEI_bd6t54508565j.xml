@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508565j</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1883-12-23">1883</date>
+          <idno type="ARK">bd6t54508565j</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508565j</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0003.xml"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>Inn' fos, min liffe y s'avinture<lb/>A di pétrix ! mi j'sus foutu!<lb/>Et min liffe a povu v'nir morir, vin sin lit.<lb/>Mais a pein' qui- estrintré v'la s'compan' qu'ill'</ab>
+        <ab type="head"><lb/>L'LIFFE Et L'PETRIX.</ab>
+        <p><lb/>Vin les crass' terre' de l'sceins' Gadenne,<lb/>Au plein mitan d’in tchamp d’tronenne</p>
+        <lg>
+          <l><lb/>In liffe et inn' pétrix, comm' deux bons copa-</l>
+          <l><lb/>Pasott' leu vie, la d'vin, vraimint aux p'tits</l>
+        </lg>
+        <lg>
+          <l><lb/>D'aller mingi vin inn' pature ;</l>
+          <l><lb/>Du qui avot d'quo avaler</l>
+          <l><lb/>Des pichaulits et de l'verdure,</l>
+          <l><lb/>An vérité, pou s'régaler.</l>
+          <l><lb/>Tout d’inne-in cœup, derchant l'z'orelles,</l>
+          <l><lb/>Y vot vudi d'in tchamp d’surelles,</l>
+          <l><lb/>In mâtin d’tchin... pus in cacheu</l>
+          <l><lb/>Qui prind s’n'elan d'seur in rucheu.</l>
+          <l><lb/>Pan ! pan! min liff' fait l'tchuberlire...</l>
+          <l><lb/>Mais-y s’erleff... l’tchin, par derire,</l>
+          <l><lb/>Y tcheur, y tcheur tout sin pus mi...</l>
+          <l><lb/>L'liffe est toudis acor premi.</l>
+        </lg>
+        <lg>
+          <l><lb/>Tant qu'a la fin s'forch l'abandonne</l>
+          <l><lb/>Sin sang r'dégout'! l'bon Di m'pardonne</l>
+          <l><lb/>Dit l'pauver bete; J'sin ben qu’ch’est tu</l>
+        </lg>
+        <lg>
+          <l><lb/>Faut croir' que l'tchin n'etot po d'race</l>
+          <l><lb/>Vu qui-a fini pa perd l'trace.</l>
+        </lg>
+        <lg>
+          <l><lb/>Ti qui savos corir si rate</l>
+          <l><lb/>Te vos, quoqu'ché, min comarate ?</l>
+          <l><lb/>Inveuc tes pids, t'étos trop ars</l>
+          <l><lb/>Te 'tpinsos l'ro d'tous les gayards.</l>
+          <l><lb/>T'es prope, euch'teur, inveuc t'vitesse,</l>
+          <l><lb/>Tcheur hardimint vite à l'confesse !</l>
+          <l><lb/>Et ill' riot !... Mais v'la qui tché,</l>
+          <l><lb/>Sus nou pétrix, in greu moutché</l>
+          <l><lb/>Qui, à plein' griffe inleffe l'bete.</l>
+          <l><lb/>Et vin sin nid li croque l’tête.</l>
+        </lg>
+        <p rend="styled"><lb/>Chin qui prouve: qu'in n' dot pos motchi des mal-</p>
+        <p rend="styled"><lb/>Tchi qui peut garantir qui tra toudis heureuxl</p>
+        <ab><lb/>JULES WATTEEUW.</ab>
+        <p rend="labelled"><lb/>J'n'in sais po.</p>
+        <p rend="labelled"><lb/>Vous n’en savez pas?... pourquoi<lb/>crier vous donc de la sorte ?</p>
+        <p><lb/>Batisse y crie acor pu fort:</p>
+        <p rend="labelled"><lb/>— Ch’est pou faire honneur à min mon</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>L'ARISMETIQUE</head>
+        <p><lb/>In est in train d'faire l'école... l'maîte<lb/>y sue les mille gouttes pou faire rintrer<lb/>vin l'tête des garchonnals : quoqu'ché<lb/>d’inne soustraction:</p>
+        <p rend="labelled"><lb/>— Vous comprenez, maintenant ? qui<lb/>dit l'professeur. Bah ! ouais, y n’font nin<lb/>pus attintion qu' si in n’leu parlero po; y<lb/>n'd'a inne paire qui jeuttent à pais ou<lb/>nonne, in aute y est in train d’attraper<lb/>des mouques, y n’d'a deux, tros, qui font<lb/>de l’culiche. Saclés, tas d'capons !y n’d'a<lb/>po in qui fait attintion. A la fin du conte<lb/>l'maîte y s'met in colère, comme de<lb/>jusse, y tape inveuc s’règle sus sin pi-</p>
+        <p rend="labelled"><lb/>— Allons, voyons, nous allons un peu<lb/>voir si y n'aura pas moyens de vous faire<lb/>entrer ça dans la tête. Si d’un nombre<lb/>entier je retire un quart, et cela quatre<lb/>fois de suite, que reste-t-il ?...</p>
+      </div>
+      <div type="article">
+        <head><lb/>AU CABARET</head>
+        <p><lb/>Y n'd'a, alfos, qui z'ont des réponses à<lb/>faire, vraimint, qui méritent d'attraper<lb/>chinquante fos l'main sus l'bouque, à la</p>
+        <p><lb/>Vin in cabaret, in blagueur (in minteu<lb/>pus tôt) étot in train d’indormir les gins<lb/>inveuc l'z'is overts : y rincontôt des bleus<lb/>contes que cha n’avot ni tcheu ni tête.</p>
+        <p><lb/>Tout d’inne in cœup, in vot l’cabaretire<lb/><lb/>s'élever jus de l'selle et faire l'tour de<lb/>l’plache commune, in ratirant inveuc sin</p>
+        <p rend="labelled"><lb/>— Vous 'n'sintez po comme y sint l'bru-<lb/>lin ? ill' dit cheull' femme.</p>
+        <p rend="labelled"><lb/>— Tin, ch'est vrai, y répondent l'z'abi-</p>
+        <p rend="labelled"><lb/>— Effectivement, en réalité, il y a quel-<lb/>qu’un qui se carbonise, y dit l’bladjeur.</p>
+        <p rend="labelled"><lb/>— Ch'n'est po mi, alfos ill' dit l'femme<lb/>in fourant sin nez vin ses jupons... y sint<lb/>Roudis d'pus in pus fort.</p>
+        <p rend="labelled"><lb/>— Ch'n'est po mi?... y dittent tous les<lb/>gins in fournatchant leu nez in air.</p>
+        <p rend="labelled"><lb/>— Mais mon Di! ill' dit l'femme au<lb/>bladjeur, ch’est vous Monci, vous fintchez<lb/>comme in pourcheu... J'sus seûr que vous<lb/>qu'miche ill' brule déjà.</p>
+        <p rend="labelled"><lb/>— En vérité, je sens une chaleur péné-<lb/>trante sous l'aiselle droite majeure.</p>
+        <p rend="labelled"><lb/>— Mais v'la l'fintchi qu'ill' vude de vou<lb/>gyet, défaites vou paletot ben vite.</p>
+        <p rend="labelled"><lb/>—Oh !'la la, y dit l'bladjeur qui n'étot<lb/>pus si ars que d't'a l'heure... Je sens que<lb/>ça me chauffe la peau.</p>
+        <p><lb/>Et v'la qu'l'un tire sus s'capote, l'aute<lb/>sus les manches, malhureusemint y avot<lb/>inne espèce de sacoche passé in travers<lb/>de ses bras, par deseur, et comme l'un tirot<lb/>a hue et l'aute a dia, m'n'homme y que-<lb/>mincho à crii comme in inragi qui allot<lb/>tout brûler. V’la qu’in li jette des chopes<lb/>sus sin gyet. A la fin du conte, y s’treuve<lb/>in manche de quemiches et tout les gins<lb/>du cabaret jusqu’a l'cabaretire, y passottent<lb/>à deux pids sus l'capote et l'gyet pour<lb/>Steinde l'fu!</p>
+        <p rend="labelled"><lb/>— Eh bien, y dit l'bladjeur, qui étot<lb/>v'nu blanc comme inne lapette... blanque,<lb/>en voila des affaires? hein !</p>
+        <p rend="labelled"><lb/>— Bé, mi, je l’savos ben qu’vous brûli,<lb/>Monci, y n'd'a in qui dit, y avot lommint<lb/>que j'l'vos vu, mi.</p>
+        <p rend="labelled"><lb/>—Comment ? y dit l'aute, vous le<lb/>voyez et vous ne dites rien?</p>
+        <p rend="labelled"><lb/>— Mi? po d'dangi, j'dijo, in mi mème,<lb/>pour mes bonnés raijons : qu’les machés<lb/>nouvelles in les sait toudis vite assez.</p>
+        <p><lb/>Y d'd'a po in qui overt s'bouque pou<lb/>répondre... vous ne comprenez pas? Tenez<lb/>voilà une pêche je la coupe en 4 mor-<lb/>ceaux, je les mange. C'est fait, qu’est ce<lb/>qu'il en reste?<lb/></p>
+        <p rend="labelled"><lb/>— Monci, Monci ? Je l'sais mi, je n'peux<lb/>po l'dire.</p>
+        <p rend="labelled"><lb/>— Mais certainement mon ami, que<lb/>rest-il?</p>
+        <p rend="labelled"><lb/>— Y reste l'pirette, Monci.</p>
+      </div>
+      <div type="article">
+        <head><lb/>TERRIBLEACCIDENT</head>
+        <p><lb/>D'chint fos, vous n'ari po povu lire<lb/>l'Broutteux cheull' semaine, savez ? L'im¬<lb/>primerie ill' a mantchi d’voler jus.</p>
+        <p><lb/>Lundi, au matin, in gu'veu attelé à<lb/>l'carette d’in marchand d'burre, étot in<lb/>train d’wetti l’z'imaches et les tchanchons<lb/>à l'fernête d'l'imprimerie vin l'rue d'Lille.<lb/>Je n’sais po si c’gueveu a vu inne saquo<lb/><lb/>qui l'a fait rire, toudis qui s'a mis à danser<lb/>au mitan du pavé et in ertchulant y a<lb/>invoï l’carette vin l'vitrine... panf! cli, cli,<lb/>clique ! bîm ! crac ! padaff! les boutelles<lb/>d’ingre y font à part, la mitan vin l'ma-<lb/>gasin et l'aute de mitan sus l’pavé, l'z'incris<lb/>y font au croque l'in conter l'aute, l'z'agen¬<lb/>das, les liffes y nag’tent à terre vin la mer</p>
+        <p><lb/>L'Madame qu'ill' étot vin l'comptoir<lb/>ill' vint beteu faibe d’saisissemint, in n'a<lb/>que l'temps d'li mette ses pids vin l'eu.<lb/>L'mètchenne qu'ill' étot au premi étage<lb/>ill'pinsse que l'majon s’éboule, ill' bran-<lb/>delle du haut in bas de l'z'émontés et vole<lb/>les 4 fers in air in d’sous de l’taffe du salon.<lb/>L'petit afant qui étot vin l’magasin, y pinse<lb/>que ch’est in nouveau jeu du St-Nicolas<lb/>y s’met à rire aux éclats et l'Broutteux<lb/>arrive tout juste pou boire inne goutte, a<lb/>forche que l'z'autes avottent été saisis.</p>
+        <p><lb/>Inne heure après, les d’jambons du vijin<lb/>y tronnottent acor !</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>Par in diminche au matin, j'vos rintrer vin</ab>
+        <ab type="head"><lb/>MÉMOIRES D'INNE CASTROLE</ab>
+        <p><lb/>l’tchampe de l'orpheline, in jeune homme in-<lb/>dimanché qui vint d'mander à l'fille: si<lb/>elle ne porot po ovrer pour inne majon d’con-<lb/>fections, qu’in avot attindu parler de s'n’ovra-<lb/>che, qu'ill' savot ben ovrer, chi et cha.</p>
+        <p><lb/>L'orpheline qui étot mefiante a dit qu'ill'<lb/>arot éte donner l'réponse elle même, et l'jeune<lb/>homme est invo.</p>
+        <p><lb/>Huit jours apres, y est acor ervenu, comme<lb/>pou parler d'ovrache... Ah ! mais l'passoire<lb/>ill' a overt l'œil et mi aussi, in s'dijot quoqu'ché<lb/>qui vint ſaire chi c’l'ostrogeu?</p>
+        <p><lb/>A dire la vérité, y faijot l'air d'in bon gar-<lb/>chon, j'dijos cha à l'passoire qu'ill' me repon-</p>
+        <p><lb/>Allez, allez, y sont tertus bons d'vant marier,<lb/>après ch'est pisse que des diables.</p>
+        <p><lb/>Si ben, qu'a la fin du conte, cigarchon a<lb/>v'nu tous les jours et pus, par in beau jour, y a<lb/>rintré inveuc inne Madame qu'ill' a imbrachi<lb/>l'orpheline y s'sont assis et d'après chin qu'in<lb/>a pu attinte y allottent marier.</p>
+        <p><lb/>In a vu arriver les peintres et les tapissiers<lb/>qui z'ont arringi l'plache comme in p'tit salon.</p>
+        <p><lb/>Après qu'ill' est heureuse! ill' dijot toudis<lb/>l'passoire.</p>
+        <p><lb/>Infin l'grand jour y a arrivé, in a vu qu'in<lb/>faijot les préparatifs de l'neuche.</p>
+        <p><lb/>Pou nous autes, ch'n'étot nin inne ducasse ;<lb/>in devot servir à faire les fristis.</p>
+        <p><lb/>L'z'invités yont arrivé, in a queminchi à faire<lb/>bombance.<lb/>Mi j'wétos toudis l'marié et d'après m'n'idée</p>
+        <p><lb/>j'ai vu tout d'enne que ch'étot in gayard qui<lb/>savot ben l'ver l'coude.</p>
+        <p><lb/>us veyi ben qu'cha vint d'famille qui</p>
+        <pb facs="0004.xml"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>PrEMIÈRe PARTIE.</ab>
+        <ab type="head"><lb/>DEUXIEME PARTIE.</ab>
+        <p rend="labelled"><lb/>Au bénéfice des victimes de Roubaix. Pro-<lb/>gramme de la Soirée Bachique du lundi 24<lb/>courant,à 7 heures, chez M.Vidrequin-Liétard,<lb/>estaminet du Cheval-Blanc, place Thiers. — Y<lb/>va avoir inne belle tombola inveuc des lots à</p>
+        <p rend="labelled"><lb/>1. La Traviata, fantaisie pour violon, par<lb/>M. Louis Scamps (Singelée). — 2. Le Pres-<lb/>soir, par M Paul Deldick (Faure) — 3. Mono-<lb/>logue, par M. Léon Manaut (). — 4. L.'Om-<lb/>bre, Par M. Dominique Podvin (Flotow). — 5.<lb/>Le Carnaval de Venise, air varié pour baryton,<lb/>par M. Jules Burms (Demerssman). — 6.<lb/>L'Etoile du Nord, par M. Adolphe Dugau-<lb/>quier (Meyerbeer). — 7. Chansonnettes, par<lb/>M. Jules Watteeuw.</p>
+        <p rend="labelled"><lb/>1. Air varié pour violon, par M. Louis<lb/>Scamps (G. Gourlier). — 2. Stances avec ac-<lb/>compagnement de violon et violoncelle, par<lb/>M. Paul Deldick (Flégier). — 3. Monologue,<lb/>par M. Léon Manaut (). — 4. La Charité,<lb/>par M. Dominique Podvin (Faure). — 5. Duo<lb/>pour piston et baryton, par MM. Charles<lb/>Vidrequin et Jules Burms (Canivez). — 6. Le<lb/>Val d'Andorre, par M. Adolphe Dugauquier<lb/>(Halévy). — 7. Chansonnettes, par M. Jules</p>
+        <p><lb/>Le piano sera tenu par M. C. Desurmont.</p>
+        <p><lb/>Le tirage de la tombola aura lieu sitôt le<lb/>concert terminé.<lb/>dit l'moulin au café. Wetti sin mon père, tcheu<lb/>In vérité, à neuf heures, au soir, y dormot,</p>
+        <p><lb/>vin l'tchusine, inveuc s'tête par deseur l'baque</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>MO1. Jugez si je fus étonné<lb/>Lorsque la nuit dernière,<lb/>Je sentis ma bouche et non nez<lb/>S'agiter en colère;<lb/>Qui donc, en sursaut<lb/>Me dis-je aussitot,<lb/>Si matin me réveille?<lb/>Le nez se moucha,<lb/>Na bouche cracha,<lb/>Et je pretai l'oreille.<lb/>LA BOUCHE. Maudit nez, que le vente t'emporte,<lb/>Ronfla-t-on jamais de la sorte ?<lb/>Morbleu ! quel démon m'installa<lb/>Près de cette bavarde-là ?<lb/>Et c’est au milieu du visage,<lb/>Qu’on loge in si sot personnage?<lb/>LE NEZ. Tout sot que je suis, je me crois<lb/>Encor moins mâchoire que toi.<lb/>LA BOUCHE (piquée.)<lb/>Que m'importent ta colère,<lb/>Et tes sarcasmes mordants?<lb/>— Est-ce pour me faire taire,<lb/>Que tu me montres les dents?<lb/>Va, je ris de tes sottises,<lb/>Entends-tu? vilain camus!<lb/>Quelque chose que tu dises,<lb/>J'aurai toujours le dessus.<lb/>Nécessaire autant qu'agréable,<lb/>le sers l'enfant et le barbon ;<lb/>Et de toi qui fais le capable,<lb/>On ne peut rien tirer de bon!<lb/>In NEZ. De quelque titre plâtrée<lb/>Que tu t'autorises,<lb/>Jamais je ne souffrirai<lb/>Que tu me maitrises.<lb/>LE NEZ. Si tu le veux, fâche-toi;<lb/>Je n'ai jamais craint, ma foi,<lb/>D'en venir aux prises, moi.<lb/>D'en venir aux prises.<lb/>LA BOUCHE. Je suis utile à mille choses;<lb/>De ses dons le ciel m'a comblée,<lb/>C'est pour moi qu'on plante les<lb/>C'est pour moi qu'on sème le blé,<lb/>Par moi l'on respire sur terre.<lb/>C'est moi qui préside aux repas:<lb/>L'homme sans moi ne vivrait guère.<lb/>L'homme sans moi ne vivrait pas.<lb/>LE NEZ. Dans une maison, lorsqu'on entre,<lb/>A l'instant même du diné,<lb/>Ne dit-on pas,frappant son ventre,<lb/>Ma foi, je vois que j'ai bon nez.<lb/>LA BOUCHE. De tous les mets auxquels on tou-<lb/>LA BOUCHE (́cumant de rage).<lb/>As-tu jure de mettre<lb/>Ma patience à bout ?<lb/>C'est trop me compromettre<lb/>Avec un marabout ;<lb/>LE NEZ. En vain tu voudrais feindre,<lb/>J'ai su te battre Moi !<lb/>LA BOUCHE. Que puis-je avoir à craindre<lb/>D'un morveux tel que toi?<lb/>LE NEZ (rouge de colère).<lb/>Qui, moi morveux?<lb/>Dans ma colère,<lb/>Je vais te prouver sans pitié,<lb/>Que le nez est un adversaire,<lb/>Qui ne se mouche pas du pied;<lb/>Je me salis, si je te touche;<lb/>Il vaut mieux nous séparer,<lb/>Et d'ailleurs le nez et la bouche<lb/>Sont ils faits pour se mesurer?<lb/>LA BOUCHE. Bon voyage, mon cher voisin.<lb/>Nous en ferons tous deux meilleur<lb/>Bon voyage, mon cher voisin,<lb/>Loin l'un de l'autre on est toujours<lb/>LE NEZ (se détachant et lui tournant les talons).<lb/>Tu vas savoir si du nez l'on se<lb/>Dans quel quartier vas-tu donc<lb/>Je ne tiens pas une si grande place,<lb/>Que je ne trouve enfin où me four-<lb/>LA BOUCHE. Bon voyage, mon cher voisin,<lb/>Nous en ferons tous deux meilleur<lb/>LA BOUCHE. Bon voyage, mon cher voisin,<lb/>Loin l'un de l'autre on est toujours<lb/>LA BOUCHE. Oh! grand Dieu! sans nez que je<lb/>J'ai tort, j'en conviens, reviens vite<lb/>Oh ! grand Dieu! sans nez que je<lb/>Jesens en effet que la nature à tout<lb/>LE NEZ. (un peu honteux, reprenant sa place).<lb/>Je voulais faire un coup de tête;<lb/>Mais toute réſtexion faite,<lb/>Je reste où le destin m’a mis:<lb/>Peut-être ailleurs serais-je pis!</ab>
+        <ab type="head"><lb/>Pot Pourri de la Bouche et du Nez</ab>
+        <ab type="head"><lb/>Dialogue nocturne.</ab>
+        <ab><lb/>Celui qu'on croit de meilleur goût,<lb/>N'est-il pas celui que partout<lb/>On garde pour la bonne bouche?</ab>
+        <p rend="labelled"><lb/>LE NEZ. Tu conviens pourtant que jamais<lb/>Tu ne cessas d'etre gourmande ;<lb/>LA BOUCHE. C'est bien toi que tout affriande<lb/>Jusqu'à la seule odeur des mets.</p>
+        <lg>
+          <l><lb/>LE NEZ. Oui, leur parfum me touche.</l>
+          <l><lb/>J'en dois faire l'aveu.</l>
+          <l><lb/>En tout temps, en tous lieux,</l>
+          <l><lb/>Je fus toujours un peu sur la bouche.</l>
+        </lg>
+        <p rend="labelled"><lb/>LA BOUCHE.Quand pour raconter des nouvelles,<lb/>Je me plais à m’exténuer,<lb/>Toi,tu viens troubler les plus belles,<lb/>Et c'est pour éternuer.</p>
+        <p rend="labelled"><lb/>LE NEZ. Il faut pourtant qu'on me chérisse,<lb/>Car malgré ce bruit importun<lb/>A mes éternuments chacun<lb/>Répond toujours : Dieu vous bé-</p>
+        <p rend="styled"><lb/>(Le nes sort par une vitre cassée)</p>
+        <figure type="table"/>
+        <ab><lb/>LE NEZ (dehors, cherchant une place).<lb/>Mais oùdone faut-il que je meplace?<lb/>Mon œil étonné, rencontre un nez<lb/>א<lb/>[sur chaque face.<lb/>Mais où donc faut -il que jeme place,<lb/>Ou donc me jucher<lb/>Où me percher,</ab>
+        <p rend="labelled"><lb/>MO1. A ces mots, ils s'embrassèrent,<lb/>Et se tenant par la main,<lb/>Tous les deux ils se jurèrent<lb/>Alliance, accord sans fin.<lb/>C'est ainsi que sur la terre,<lb/>Me dis-je alors en secret,<lb/>La discorde sait se taire<lb/>A la voix de l'intérèt.</p>
+        <figure type="decoration"/>
+        <note>
+          <p><lb/> FRERE-GLORIEUX.</p>
+        </note>
+      </div>
+      <div type="article">
+        <head><lb/>SoLutioN Du DERNi PROBLÈmE</head>
+        <p><lb/>L'distance devra ête de 1m55, ch'est<lb/>l'nombre qui divise exactemint les deux<lb/>nombres 23, 25 et 15, 50.</p>
+        <p><lb/>Si les diminsions du terrain arottent été<lb/>2om50 et rom50, l’problème n’aro po été<lb/>oossible, ches distances n’étant po divisi-<lb/>ples par aucun nombre intre 1 et 2 mètres.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>V'la les noms de l'z'advineux:</p>
+        <p><lb/>Un garchonnal lillos, un gros garçon de St-<lb/>Severs (Landes), ancien artilleur de la pièce<lb/>humide. Lolo de Lille, artilleur au 15°. la Herr<lb/>Mina. Henri le japonais d'Armentières qui<lb/>fiche le camp avec les oches quand y va à inne<lb/>tripie. L'petite geugeuse d'mon onque Louis.<lb/>Arsene Papegay. Dujardin, Vermeulin, Le-<lb/><lb/>conte Moise, Jean Casier. Lecroart, Rys, De-<lb/>buisne, buveuy de vin au 44° de ligne à Lons¬<lb/>le-Saulnier (Jura).</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>ADVINETTE</head>
+        <lg>
+          <l><lb/>P'tit chef-lieu d’ia départemint,</l>
+          <l><lb/>J'sus inn' ville batie sus France</l>
+          <l><lb/>J’sus mot patos et mot français</l>
+          <l><lb/>Dtèfos min nom y n’tchang' jamais</l>
+          <l><lb/>In peut ben m’lire inveuc aisance</l>
+          <l><lb/>Sot pa la fin ou l’queminch’mint.</l>
+        </lg>
+        <ab><milestone unit="column" n="2"/><lb/>La gérant, P.DUVILLIER.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

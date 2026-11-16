@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Gau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k95717295</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Gau : revisto mesadiero pèr li revendicacioun de la lengo prouvençalo à l'escolo, dins la cadiero e à la tribuno poupulàri : parèis lou 15 de chasque mes / secretàri dóu Gau D. Savié de Fourviero</title>
+          <publisher>[s.n.] (Tarascoun-sus-Rose)</publisher>
+          <date when="1909-01-01">1909</date>
+          <idno type="ARK">bpt6k95717295</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k95717295</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>ANNADO TREGENCO</fw>
+        <fw type="runningTitle"><lb/>N 160</fw>
+        <ab>
+          <stamp><lb/>RROT LBCAL<lb/>vaucluse<lb/>пo 126<lb/>909</stamp>
+        </ab>
+        <ab><milestone unit="column" n="1"/><lb/>à l'Esçolo, dins la Cadiero e à la Tribuno poupulari</ab>
+        <figure/>
+        <p rend="heading"><lb/>CANTAIRE DI REVENDICACIOUN PROUVENÇALO</p>
+        <ab><milestone unit="column" n="2"/><lb/>LI BAILE DÓU GAU:<lb/>D. SAVIE DE FOURVIERO<lb/>MÈSTE EISSETO — ANTONI BERTIE</ab>
+        <ab><lb/>AMENISTRACIOUN:<lb/>PAREIS LOU 1e E LOU 15 DOU MES<lb/>FITOR JACOUMET<lb/>ABOUNAMEN : 8 FRANC PER AN<lb/>Vilo-Dieu<lb/>(Vau-Cluso)</ab>
+        <p rend="structured"><lb/>TAUL.ETO : Bono annado, I. BAu.F. — 1909, A. BERTIE. — Raço racejo, J. MAsCL.E. — Quauqui letro de l'abat Imbert. — Au grand<lb/>Semenari d'Avignoun, UN QUE I’ERO. — PrimO-Aubo, LOU F. DE BOUENC VOULOUNTA. — Pastouralo e Armana, LOU F. DE LA TOURRE-<lb/>CARRADO. — Li Prone di Curat, D. R. pE ... et D. S. OE F. — L.a Traducioun franceso en regard, P. DEvOLUv. - Pichoto Courres-<lb/>poundénci, D. S. DE F. — Fuietoun : I.'Eleitricita, A. BERTIÉ.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Bono Annado</head>
+        <figure type="decoration"/>
+        <ab><lb/>Bono annado,<lb/>Ben lunado<lb/>E granado!<lb/>Acoumpagnado<lb/>D'uno sequelado!</ab>
+        <ab><lb/>LI BAILE.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>1909</head>
+        <p><lb/>bello chatouno dóu Tèms qu'arribes, risouleto,<lb/>au mitan de tant de tristesso e de dòu, dequé<lb/>nous aduses dins toun faudau flouri? As-ti acampa<lb/>pèr nautri, dins lis ort celestiau, d’espino o de flour ?<lb/>de mèu o de fèu?... de lagremo o de rire ?... de gra-<lb/>fignado o de poutoun?...</p>
+        <p><lb/>Pauri courcoussoun que de-longo cercan à nous<lb/>gara lou viéure, lis un dis autri, t’esperavian e te<lb/>saludan tóuti plen de gau. Pèr glourifica ta vengudo<lb/>avèn leissa'cala li batèsto e bouta dins un caire lou<lb/>ficheiroun di targo poulitico e religiouso... Mai, lou<lb/>sabèn d’avanço, auras pas pu lèu durbi la rego<lb/>que tourna-mai l'aspro lucho de la vido vidanto re¬<lb/>coumençara...</p>
+        <p><lb/>O beu 1909, per nàutri li bon Prouvençau, pèr<lb/>nàutri tóuti li valènt catouli fugues un pau mai ge-<lb/>nerouso, e un pau mai amistadouso que ço que si-<lb/>guèron ti sorre einado, esbarboulado, tóuti crou¬<lb/>toulouso, tant li jusiòu e li manjo-capelan arrascassi<lb/>li faguèron trapeja dins li camin enfangousi.</p>
+        <p rend="labelled"><lb/>O bèu 1909, Lou Gau saludo ta primo-aubo de<lb/>si cacaraca enfestouli!... Fai que ti rai esbléugissènt<lb/>coussejon bèn liuen de nautri li nivoulas esfraious e<lb/>negras que pounchejon e que fugues pèr nàutri tóuti<lb/>li felibre, abouna e legèire dou Gau la grando Aubo<lb/>de Pas e de Liberta !</p>
+        <ab><lb/>ANTÒNI BERTIE.</ab>
+        <figure>
+          <figure type="decoration"/>
+        </figure>
+      </div>
+      <div type="article">
+        <head><lb/>Raço Racejo</head>
+        <p><lb/>l'a 'n vièi prouvèrbi prouvençau que dis : « Raço ra-<lb/>cejo».</p>
+        <p><lb/>Despièi de lònguis annado forço parènt dins lou mounde<lb/>bourgés e la soucieta di vilo se soun afeta à douna à sis<lb/>enfant lou desgoust de la lengo prouvençalo e l'òdi de<lb/>nòstis us.</p>
+        <p><lb/>Esbrihauda pèr la civilisacioun materialo que parèis<lb/>tremuda touto causo, an pas coumprés que poudien, en<lb/>restant bon prouvençau de-longo, èstre tambèn de gènt<lb/>de prougrès. Noun an vist que nosto forço e nosto glòri,<lb/>èro de counserva e d'embeli nosto amo prouvençalo dins<lb/>lou treviramen e l'educacioun nouvello que nous adus lou<lb/>tèms.</p>
+        <p><lb/>Tout ço que vèn d'en deforo lis a pivela. An reçaupu<lb/>tóuti flame de Paris li prougramo pouliti e souciau dóu<lb/>meme biais que li capèu de si damo. Acò l'an fa coume se<lb/>de la terro nostro l'on devié pas crida li revendicacioun<fw type="digitisation-artefact"><lb/>ce allica.n./Bilotèque naonede France</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

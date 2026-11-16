@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Campana de Magalouna</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k73671254</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Campana de Magalouna : journal populàri que parei lou 1è e lou 15 de toutes lous meses</title>
+          <publisher>[s.n.] (Mount-Peliè)</publisher>
+          <date when="1894-06-01">1894</date>
+          <idno type="ARK">bpt6k73671254</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k73671254</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Tresièma annada. — N^o 58.</fw>
+        <dateline><lb/>Divendre, 1è de Jun 1894</dateline>
+        <ab><milestone unit="column" n="2"/><lb/>Pas qu'un sout<lb/>Quau n'en vòu?</ab>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/>Sournal poupulàri das felibres de Mount-Peliè que parei lou 1' e lou 15 de toutes lous meses</p>
+        <ab><lb/>ABOUNAMEN:<lb/>Un An..<lb/></ab>
+        <lg>
+          <l><lb/>Per las anounças e las reclamas,</l>
+          <l><lb/>s'enténdre embé l'Aministracioun.</l>
+        </lg>
+        <p rend="styled"><lb/>Aministracioun e Redacioun<lb/>15, carriéira dau Chival.Verd, à Mount-Pelie</p>
+        <ab><lb/>Quaranta sus.</ab>
+        <figure/>
+      </div>
+      <div type="article">
+        <head><lb/>Lou Vi a tres Sous</head>
+        <figure type="decoration"/>
+        <p><lb/>Mèstre Pitit, de quau vous parlave l'autra<lb/>senmana, m'en vòu de ce que vous ai dich.<lb/>M'es vengut cercà garoulha, e nous sièn brou-<lb/>lhats. Tambèn n'ai pas pus besoun de me geinà,<lb/>e pode vous countà ce que i'arribèt lon len-<lb/>deman dau jour ounte pareissiè la Campana de<lb/>Magalouna.</p>
+        <p><lb/>Aviè, lou gusàs, mes per ensegnadou sus la<lb/>porta de la boutiga ounte vend soun aigada<lb/>aquestes mois:</p>
+        <quote><lb/>VI DE L'AIGA-LONGA,</quote>
+        <ab type="head"><lb/>A TRES SOUS LOU LITRE.</ab>
+        <p><lb/>Era una messorga pus grossa que lou Pioch<lb/>de Sant-Loup, pioi-que soun vi es de la Font-<lb/>d'Aurella, e de mai batejat couma se déu au<lb/>Clapàs.</p>
+        <p><lb/>Dins la nioch, un leventi qu'aviè vist dins la<lb/>Campana ounte lou coulàs cachava aquel bar-<lb/>dot, ajustèt tres ou quatre letras à l'ensegna.<lb/></p>
+        <p><lb/>Atabé quante cacalàs quand lou mati, en<lb/>passant, chacun legiguét sus la porta:</p>
+        <ab type="head"><lb/>VI QUE L'AIGA ALONGA,</ab>
+        <ab><lb/>A TRES SOUS LOU LITRE !</ab>
+        <p><lb/>Pitit. desempioi descoulèra pas. Se me sen-<lb/>tissiè pas una bona pougna, sariè capable de<lb/>cercà à m'espoussù las aurelhas. Mès digas-ié<lb/>que vèngue...</p>
+        <ab><lb/>LOU MASELIE.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LOU FARRAT</head>
+        <lg>
+          <l><lb/>L'autre jour de-vers moun cousi</l>
+          <l><lb/>Ounte travalha moun vesi.</l>
+          <l><lb/>Un garçou qu'apelloun Niquesa.</l>
+          <l><lb/>Toumbét lou farrat dins lou pous.</l>
+          <l><lb/>(Vous óussèrve, per parentèsa.</l>
+          <l><lb/>Qu'es un farrat de couire e que pesa per dous).</l>
+        </lg>
+        <lg>
+          <l><lb/>Niqueea èra entre-pres, pecaire!</l>
+          <l><lb/>D'aici, d'alai el a virat...</l>
+          <l><lb/>Pioi se dis d'un er triste: — Ai negat lou farrat!</l>
+          <l><lb/>Per l'avedre, conma cau faire?</l>
+          <l><lb/>— Couma cau faire? Moun amic.</l>
+          <l><lb/>Vai, vai, l'esfraies pas: juste tombes à pic!</l>
+          <l><lb/>(Van querre un cerca-pous). Aici couma cau faire:</l>
+        </lg>
+        <lg>
+          <l><lb/>Viraràs jusqu'à tant que l'agues acroucat.</l>
+          <l><lb/>Se vos d'ajuda, pioi, me sounaràs, counfraire.</l>
+          <l><lb/>— Oh ! gramecis, respond, vous soui ben óublijat:</l>
+          <l><lb/>Couma l'ai negat bouide, anas, pesarà gaire.</l>
+        </lg>
+        <ab><lb/>LOU CASCAVKL.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LOu GrAND SaNt ClEMENt</head>
+        <p><lb/>D'aco pot l'avedre quaranta amai belèu setanta<lb/>ans : lou bèu jour de la fèsta de sant Clement<lb/>patroun de sant Clement-lou-Lez, couma hou es<lb/>De toutes lous sants Clements de la terra, lou<lb/>curat d'aquel endrech fasiè soun sermoun, e<lb/>parlava, aco vai sans dire, sus sant Clement.<lb/>La glèisa èra coumoula de mounde, e lon ser-<lb/>moun dau curat éra fach per la grandou de soun<lb/>sujêt.</p>
+        <p rend="labelled"><lb/>— O mous fraires, o mas sorres, badava l'ou¬<lb/>ratou traspourtat, saguen fièrs d'avedre per<lb/>patroun un sant couma aquel, un sant que n'a<lb/>pas soun pariè sus la terra e dins lou paradis !<lb/>Sar se lous autres sants e lous pures esprits<lb/>tènoun tant poulida plaça proche lou trone de<lb/>l'Autisme, ounte dounc poudren metre noste<lb/>grand sant Clement? Lou metren-ti embé lous<lb/><lb/>patriarchas? Nàni, pus naut qu'aco ! Embé lous<lb/>apostas ? Nàni, pus naut qu'aco! Lou metren-t<lb/>embé lous anges, embé lous arcanges? Nani<lb/>pus nant qu'aco. Embé lous cherubins, embé<lb/>lous serafins? Nàni, pus naut qu'aco ! Lou me-<lb/>tren-ti embé lous trones, las douminaciouns, e<lb/>toutes lous ordres das esprits celestiaus ? Nàni,<lb/>pus naut qu'aco! Ounte lou metren, noste grand<lb/>e bèu e luminous sant Clement? Lou metren-<lb/>ti.....</p>
+        <p rend="labelled"><lb/>— Ai! boudiéu: cridètaalor un ome, en se<lb/>levant de sa cadièira e s'acoussant vers la porta.<lb/>tenès ! metès lou à ma plaça !...</p>
+        <ab><lb/>LOU BOURGAL DAU CLAPAS.<fw type="digitisation-artefact"><lb/>urce gallica.bnf.fr/Montpellier Méditerranée Métropole - Médiathèque centrale Emile ola</fw></ab>
+        <figure/>
+      </div>
+      <div type="article">
+        <head><lb/>GALEJADAS</head>
+        <p><lb/>Un ibrougna fai de zigazagas sus la plaça de<lb/>la Coumedia emb'un cigarro à la bouca. Era<lb/>dech ouras dau vèspre.</p>
+        <p><lb/>Aun moumen dounat s'aprocha d'un bec de<lb/>gaz e ié dis onnestamen:</p>
+        <p rend="labelled"><lb/>— Escusàs, moussu... Pourriàs pas vous<lb/>baissà un pau per me dounà de floc?...</p>
+        <figure type="decoration"/>
+        <p><lb/>Disièn à-n-una fenna de Mountels que veniè<lb/>de perdre soun ome subitamen :</p>
+        <p rend="labelled"><lb/>— Dequé me countàs? Voste ome es mort<lb/>sans ajuda; i'a dounc pas de medecis dins<lb/>voste endrech?</p>
+        <p rend="labelled"><lb/>— N'i'a pas ges, respoundèt la fenna naiva-<lb/><lb/>men. Dins noste pais mourrissèn toutes soulets;<lb/>avèn pas besoun de medecis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

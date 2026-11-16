@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136181b</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1896-08-07">1896</date>
+          <idno type="ARK">bpt6k8136181b</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136181b</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>DIVENDRE, 7 FAVOUST 1896.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>SIEISEI O ANNADO, No 202</ab>
+        <lg>
+          <l><lb/>Nautri, li bon Prouvençau,</l>
+          <l><lb/>Au sufrage universau,</l>
+          <l><lb/>Voutaren pèr l'ôli</l>
+          <l><lb/>E faren l'aiòli.</l>
+        </lg>
+        <ab><milestone unit="column" n="3"/><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.</ab>
+        <ab><lb/>(Prouverbi di melscunie).</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PÈR MES (7,17,27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN</p>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI<lb/>au palais dóu Roure,<lb/>EN AVIGNOUN</ab>
+        <figure type="table"/>
+        <ab><lb/>Baile dóu journau:<lb/>FOLCO DE BARONCEE</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>En etrofo damour.</ab>
+        <ab type="head"><lb/>ACAMP COUNSISTOURIAU</ab>
+        <ab><lb/>(26 de juliet 1896).</ab>
+        <p><lb/>Lou Counsistòri dou Felibrige, acampa en<lb/>sesiho dins la coumuno di Santo, a proucedi,<lb/>segound l'Estatut, à la nouminacioun dóu<lb/>najourau nouvèu en plaço de Marius Bour-<lb/>relly, defunta dins l'annado. Eron presènt à<lb/>l'acampado li 9 majourau seguènt : Arnavielle,<lb/>Cassini, Chassary, Constans, Girard, Gras,<lb/>Jourdanne, Mistral, Mouzin, — emé lou sendi<lb/>Messine, aguènt voues counsultativo.</p>
+        <p><lb/>Es esta elegi au proumié tour En Pèire Ber-<lb/>tas, de Marsiho, autour di pouesio Li Set<lb/>Saume d'Amour, de la coumèdi en vers Pierrot<lb/>badaio, e de la counferènci La naciounalita</p>
+        <p><lb/>S'es decerni lou titre de « Mèstre en Gai<lb/>Sabé », à Louis Astruc, de Marsiho, à Maurise<lb/>Raimbault, de Cano, e à F. Garbier, de Cano.</p>
+        <p><lb/>S'es nouma « Sòci dóu Felibrige » M. Ri-<lb/>chard Watson Gilder, direitour dóu Century<lb/>illustrated Magazine de New-York, qu’a canta<lb/>la Prouvènço en de vers delicious é qu'a du-<lb/>bert à brand la grand revisto que regis au ser-<lb/><lb/>vice e au lustre de la Causo felibrenco.<lb/>Mireille, d'où s'est levée, radieuse, l'aurore de notre réveil<lb/>provençal, d'ou est issue cotte renaissance de notre belle<lb/>langue du Midi dont les premiers d'entre vous ont fixé les<lb/>règles. C'est du chaste baiser de Vincent et de Mireille<lb/>qu'est sortie, toute armée comme Minerve du cerveau de<lb/>Supiter, notre fédération du Midi de la France, frère<lb/>désormais, et non plus vassal du pays d'Outre-Loire. Hon-<lb/>neur à vous, Messieurs, honneur au grand Mistral, le mai-<lb/>tre sans épithète, honneur à vos précurseurs : vous avez su<lb/>cous allier les sympathies de tous ceux qui pensent qu'en<lb/>dehors et au dessus des réalités brutales de l'existence, il est<lb/>bon de trouver un réconfort dans lidéal et la poésie. Enfants<lb/>de nos pays de lumière et de joie, où sous le soleil de mes-<lb/>sidor, se melent à la crécelle de la cigale les chants des<lb/>moissonneuses, les hennissements de nos cavales sauvages<lb/>et les mugissements de nos taureaux indociles au joug.<lb/>nous accueillons en vous des frères, et la Camargue vous a<lb/>envoyé la fleur de ses gardians pour vous constituer une<lb/>royale escorte d'honneur. L'heure n'est pas aux longs<lb/>discours. Aussi, Messicurs, terminerai-je ces brèces paroles<lb/><lb/>par ces cris: vive la Frunce, vive la Provence, vive Mistral,<lb/>vive les félibres, vive les Saintes-Maries!</p>
+        <p><lb/>A la sourtido de la garo, une dougeno de gardian espè-<lb/>ron, emé chascun sa gènto femo o soun amigo en groupo,<lb/>poulido á li devouri, couifado simplamen de la gravato<lb/>blanco, de la divino gravato de Mirèio qu'al! las! per¬<lb/>tout se perd, e que, per grand bonur, li Santenco coun-<lb/>servon, coume pèr douna l'eisèmple, dóu founs de sa<lb/>Camargo claro, á si sorre d'Arle e de Barbentano. Folcò<lb/>de Baroncelli, lou ficheiroun en man, emé la coumtesso<lb/>Lileto, soun li proumié de l'escarrado, e s'avançant de-<lb/>ן<lb/>vers Mistral e de-vers Fèlis Gras, veici lou coumplimen<lb/>que lé fai en tóuti dous, au noum di gardian, lou baile de</p>
+        <lg>
+          <l><lb/>0 Mistrau, Ourrias lou trevan de Camargo</l>
+          <l><lb/>arla soue</l>
+          <l><lb/>er de</l>
+          <l><lb/>viéi Méste Ram¬</l>
+          <l><lb/>gardtan de bouvino</l>
+          <l><lb/>ero esmougudo</l>
+          <l><lb/>grand balle gardn</l>
+          <l><lb/>ta glòri, o Mistrau, eternamen alene</l>
+        </lg>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Fiéu dóu Ventour, dounan</l>
+          <l><lb/>Capoulié aune de noi feriban dur e fort</l>
+          <l><lb/>ariane qu'un jour</l>
+        </lg>
+        <p><lb/>Em' acò la musico jougant la farandoulo, li cavallé emé<lb/>si cavaliero se meton a fllado, e li cavalot blanc, li chi¬<lb/>vau de bouvino, lou Fouquetoun, lou Cèrvi, lou Republi¬<lb/>can, lou Fos, Cerès, lou Bartalot, lou Canet, si creniero<lb/>et si couvo oundejant en mesuro, trepon, lambrejon o<lb/>marchon plan, segound lou ritme, fasènt, de la garo à la<lb/>Crous de la Mar, d'anello emé de cacalauso, s'enver-<lb/>touiant à l'entour de la crous o bén s'estirant, se desple-<lb/>gant, e virant coume de bourdet quand pico lou refrin.<lb/>Es em' aquelo escortó que li felibre arribon davans la<lb/>Coumuno. Lou majourau Jourdanne, en uno flamo im-<lb/><lb/>prouvisacioun, remercio li gardian, Il gardiano, ll San¬<lb/>tenco e li Santen. Se pren de refrescamen graciousamen<lb/>prepara pèr li siuen de M. lou Maire, e, quand s'es re¬<lb/>pres alen, se vai, musico en tésto, is Aguieto em' à la<lb/>courso de Camarguen. Dequé l'a de plus poulit que lis<lb/>Aguleto, dins li grand salanc qu'envirounon li Santo?<lb/>Aqui falé véire la crémo de Camargo, Ulisse Barralié<lb/>em' Ulisse Courtiol, e Galoutet, e Vendranet e lou Ca-<lb/>mard, e Camihe e Layalet, et tant d'autre, bandissent si<lb/>mounturo de-vers l'anello pendouleto, de-fes la daverant<lb/>emé sa lanço. Es Ulisse Barralié qu'a agu li proumiéri<lb/>joio e Vendranet li segoundo. Pèr la courso de chivau, es<lb/>Ulisse Courtiol qu'emé la cavalo Roso-dóu-Ceu es arriba<lb/>proumié, e Layalet segound. Coume lou soulèu davalavo<lb/>lou vincèire dis Aguleto, Barralié, nous meno au café,<lb/>Mistral e Gras en tésto, e fai tóuti refresca. Es un bèn<lb/>galant usage de Camargo, acò : aquéu qu'a davera li jolo<lb/>is Aguleto, o à chivau o en batéu, o la coucardo dins<lb/>lou round, emé l'argent qu'a gagna regalo de coustumo<lb/>si coumpan resta in bataio, e se dis : Argènt de joio se<lb/>deu béure en coumpagnié ; aqui lou bon soucialisme.</p>
+        <p><lb/>Après soupa i'aguè de farandoulo magico emé lou bal<lb/>souto la gléiso de Mirèlo. Aquéli farandoulado, aquéli<lb/>bal di Santo, (emé li prouvençalo couifado à la gravato,<lb/>vestido d'estofo anciano, coume se n'en vèi en-llò-mai,<lb/>an quicon de fantasti, quicon d'estraourdinari, qu'es difi-<lb/>cile à rèndre, e que tóuti lou ressenton parié : es-ti l'ei-<lb/>normo gleiso á̀ merlet, escrincelado sus lou cèu estela, a<lb/>la vaigo lusour de la luno e di lume, coume lou decor<lb/>meravihous de quauque opera gigant? Es-ti lou brut,<lb/>alin, dis erso, mescla dins la musico, o li crid di flamen<lb/>travessant lis estello, o bén pausa aqui à coustat dins ll<lb/>lono? Es-ti (e es acò; l'amo de Mirèio que trèvo aquél;<lb/>muraio, aquéll carriero, tout aquéu pals? O, es acò : es<lb/>aquelo amo que vestis d'uno pouèsio inmènso, d'uno<lb/>lusour estranjo, d'uno douçour de pantai, qu'envouloupo<lb/>de ritme clar, de vesioun tristo en meme tèms e lume-<lb/>nouso, aquest radèu di Santi Mario, tant liuen de tout,<lb/>coume uno barco dins la niue ! O, es acò. Es tu Mistral,<lb/>tu que siés vuei eici au mitan de nous-autre coume un<lb/>simple pescaire, coume un simple gardian, es tu qu'as<lb/>bandi, un jour de ta vido, aquelo poueslo eterno, douço,<lb/>parlanto, vivento, e forto coume uno amo, e bressarello e<lb/>enchusclanto, sus aquest paure pichot vilage ! E siés aqui<lb/>coume un pacan, simple e bon, au mitan de la realisa-<lb/>cioun carnalo e triounflanto dóu pantai inmènse de ti<lb/>vint-e-cinq an! O Mèstre, se sabiés ço que boulegues<lb/>dins nous-autre! O Mèstre, se sabiés coume nous es de<lb/>grèu de noun pousqué te dire, emé nosto pauro lengo<lb/>arrapado d'emoucioun, coume t'aven coumprés, coume<lb/>nous as boulouversa, coume as rampli touto nosto amo!</p>
+        <p><lb/>La vesprado s'es finido deliciousamen souto li tendo<lb/>dóu cafè Davin, ounte la farandoulo estènt vengudo<lb/>trouva Mistral e Gras, chascun s'es bouta à canta la<lb/>siéuno, Vendranet, Giraud, lou Chot, e Gras Janeto dou<lb/>coutihoun verd e Mistral Lou porto-aigo.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LOu RACONTE</head>
+        <head><lb/>ND-ESTELLO</head>
+        <figure type="decoration"/>
+        <p><lb/>T Santo, dins l'estrambord silencious di mirage, Santo<lb/>Estello, aquest an, s'es passado coume falié que se pas-<lb/>èsse, coume li Mestre la voulien, en famiho, entre prou-<lb/>sençau e felibre; e Miréio e Vincèn, dourmènt dins li<lb/>sablèio, souto lis ile-de-mar flouri, an pouscu countunia<lb/>lou pantai de sa vido, au brut dis ersó, di farandoulo de<lb/>sardian, dis endihado de camarguen, sènso que la voues<lb/>e lis abi de courpatas d'un deputa o d'un menistre siegon<lb/>vengu li treboula e remembra en tóuti, que mounte i'a<lb/>la léi dis ome, touto armounlo e pas soun routo.</p>
+        <p><lb/>Lou dissate, à tres ouro, Mistral e lou capoulié Félis<lb/>Gras, emé Moussu e Madamo Janvier, emé Marius Gi.<lb/>rard, emé Gastoun Jourdanne, emé Pèire Libon, J. d'Ar-<lb/><lb/>baud, Mario Demolins, Pau Roman e d'autre, arribon per<lb/>nou trin. A la garo la musico jogo la Marsiheso emé l'èr<lb/>de la Coupo, l'a lou Maire di Santo, M. Pau Peyron, lou<lb/>Maire de la plus poulido coumuno de Franço, coume dis<lb/>slistral, e lou mai digne de l'èstre. Veici coume galanta-<lb/>men e felibrencamen éu reçaup li felibre:</p>
+        <p><lb/>heureux de cous souhaiter la biencenue. Nous sommes<lb/>fiers de lhonneur que cous nous avez fait de venir tenir<lb/>dans nos murs, à combre de notre antique basilique, vos<lb/>assises annuelles, mais nous pensons qu'un aussi solen-<lb/>nel hommage était du par vous, Messiem om</p>
+        <ab><lb/>Au nom de netre vieille cité des Saintes-Maries, je suis</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

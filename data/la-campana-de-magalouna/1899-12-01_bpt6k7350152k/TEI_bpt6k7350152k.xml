@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Campana de Magalouna</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7350152k</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Campana de Magalouna : journal populàri que parei lou 1è e lou 15 de toutes lous meses</title>
+          <publisher>[s.n.] (Mount-Peliè)</publisher>
+          <date when="1899-12-01">1899</date>
+          <idno type="ARK">bpt6k7350152k</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7350152k</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Un double sou,<lb/>Zoul quau n'en vou?</fw>
+        <fw type="runningTitle"><lb/>lochièma annada.— Nº 177</fw>
+        <fw type="runningTitle"><lb/>Dau 1è au 15 de Decembre 1899</fw>
+        <note>
+          <p rend="styled"><milestone unit="column" n="3"/><lb/>Dounmal lé tiroun la garganta<lb/>Dounmai canta,</p>
+        </note>
+        <figure/>
+        <ab><milestone unit="column" n="1"/><lb/>Journal poupulàri das Felibres de Mount-Peliè que pareis lou 1^e e lou 15 de toutes lous meses</ab>
+        <figure type="table">
+          <head><lb/>Abounamen per un an:</head>
+        </figure>
+        <ab><milestone unit="column" n="2"/><lb/>Aministracioun e Redacioun<lb/>27, Grand-Carrièira, 27, à Mount-Peliè</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LOUS ESCAIS-NOUMO</head>
+        <p rend="labelled"><lb/>(Seguida)</p>
+        <figure type="decoration"/>
+        <p><lb/>Lou canton de Clar-Mount serà pèr lou numero<lb/>que vèn.</p>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>Lous Manja-Lèus de Mount-Pelie</ab>
+        <p><lb/>Un jour l'amic Marsal, noste brave cabiscou,<lb/>me disiè: — M'estoune, Balin-Balan, que n'agues<lb/>pas encara parlat das Manja-Lèus de Mount-Peliè!</p>
+        <p rend="labelled"><lb/>— Es que, ié respoundère, moun ome, pèr parlà<lb/>de quicon hou cau saupre, e mau-grat toutas mas<lb/>recercas, ai pas encara trouvat la veritat, e pamens<lb/>ai vist de mounde e ai seguit las regas das libres<lb/>de touta la biblioutèca e de foça papiès escrichs à la<lb/>man.</p>
+        <p><lb/>Pamens crese que ioi pode dire qu'ai trouvat quicon<lb/>e sièi urous de poudre countentà noste brave amic<lb/>Marsal. Ai agut prou de pena, de-segu, mès sièi,<lb/>countent tout de mèmes, perqué lou fèt es istouric,<lb/>es vertadiè, n'es pas un conte: l'ai trouvat escrich<lb/>tout au long dins las archivas de l'Escola de Mede-<lb/>cina.</p>
+        <p><lb/>Me sembla qu'entende Broussetou de las Arcadas<lb/>que dis:— Ounte tron aquel bigre de Balin-Balan<lb/>es anat trouvà à l'Escola de Medecina que las gents<lb/>dau Clapàs soun de Manja-Lèus?</p>
+        <p rend="labelled"><lb/>— Moun ome, quau cerca, trova. Eh! ben, iéu ai<lb/>cercat e ai trouvat, e sans ajuda encara (noste saberut<lb/>felibre e amic Teulié, lou devouat biblioutecàri de<lb/>la Medecina, me gararà de menti), amai que lou pu<lb/>penible es pas estat de lou trouvà, es estat de lou<lb/>legi, car saves couma escrivoun aqueles moustres<lb/>de medecis! De patadas de mouscas... S'en fariè<lb/>mai end'una broca, mès, pèr ma fe! m'en sièi<lb/>tirat.</p>
+        <p><lb/>Aici ce qu'ai legit:</p>
+        <p><lb/>En mila sèt cent cinquanta-nou (lou diable tous<lb/>nòus!) faguèt un estiéu que seguèt uu pichot ivèr<lb/>per lous pais de mountagna.</p>
+        <p><lb/>Lous troupels èrou mountats couma chaca aunada.</p>
+        <p><lb/>Dins la Louzera ié jalava à pèira à fendre, ié<lb/>nevava, ié toumbava deigibre e touta mena de salou-<lb/>o talamen abouminable que<lb/>toutes lous troupèls ié prenguèrou mau e seguèroun<lb/>óublijats de davalà avans l'oura.</p>
+        <p><lb/>N'i'aguèt de gamats que tout n'èra e tant gamats<lb/>que foça moutous ou berigas toumbavou paumou-<lb/>nistas.</p>
+        <p><lb/>Lou Consou dau Clapàs, qu'èra medeci, crese-<lb/>guèt ben faire de prendre aqueste arrestat :</p>
+        <p rend="labelled"><lb/>Lous bouchès que tuaran de moutous, de fedas<lb/>e d'agnèls seran tenguts de pourtà lous lèus d'aque¬<lb/>las bèstias à l'Escola de Medecina pèr lous faire visità<lb/>avans de metre la car en venda, e se las bèstias soun<lb/>recounegudas paumounistas seran escampadas dins<lb/>lou Merdansoun. »</p>
+        <p><lb/>Pensàs que chaca jour n'en pourtavou de lèus à<lb/>l'Escola de Medecina, e couma lous bouchès dau<lb/>Clapàs se gardavou ben de croumpà de bèstias ga-<lb/>madas, toutes lous lèus èrou sans e las bèstias<lb/>bonas.</p>
+        <p><lb/>Lous esperts, après lous agudre visitats, douna-<lb/>vou lous lèus as paures, que lous esperavou davans<lb/>la porta de l'Escola e chaca jour lou moulou das<lb/>paures aumentava.</p>
+        <p><lb/>Un jour que n'i'aviè sai-que mai de dous cents<lb/>qu'esperavou, e au moumen que lou pourtiè de<lb/>l'Escola se presentèt sus la porta emb'una banastada<lb/>de lèus pèr n'en dounà una gauta en chacun, se ié<lb/>trouvèt una cola de Mezauds venguts pèr visità<lb/>l'Escola de Medecina.</p>
+        <p><lb/>En veguent que toutes aqueles omes ou fennas se<lb/>batièn pèr agudre chacun sa gouta: — Eh ! be, pèr<lb/>ara, diguèt un das Mezauds, coussi trapàs, mous<lb/>amics, qu'aici se batou pèr agudre ce que nautres<lb/>à Meza escampan dins l'estang de Tau?... Se<lb/>venièn à Mezi farièn de bèu rebòbis... aco e quau-<lb/>cas crancas...</p>
+        <p><lb/>Un noutari, qu'èra de la banda e que saviè'n pauc<lb/>parlà francimand, se metèt à dire: — Enfant de<lb/>Montpellier, mauvaise nourriture. Nous n'avons<lb/>pas envie de ton recate; va, mange-le !</p>
+        <p><lb/>Un das pescaires qu'èroun aqui e que coumpre-<lb/>niè pas trop lou francés, faguèt: — Dequ'a dich ?<lb/>Mange-le. — A dich, repliquèt un autre que lous<lb/>Clapassiès soun de Manja-Lèus.</p>
+        <p><lb/>E despioi aquel jour se dis pertout: Manja-Lèus<lb/>de Mount-Pelie.</p>
+        <ab><lb/>BALIN-BALAN.</ab>
+        <figure type="decoration"/>
+        <ab><lb/>urce gallica.bnf.fr / Montpellier Méditerranée Métropole - Médiathèque centrale Emile Z</ab>
+      </div>
+      <div type="article">
+        <head><lb/>LaS FESTAS DE MATIÉU LACROIX<lb/>E FREDERIC MISTRAL A LA GRAND-COUMBA</head>
+        <p><lb/>Retardadas dos fes, ço qu'empechèt Milla Maria-<lb/>Terèsa de Chevigné, la graciousa Rèina dau Feli-<lb/>brige de l'assistà, mès enfin celebradas lou 12 de<lb/>nouvembre, las fèstas de Matiéu Lacroix an agut<lb/>una reüssida coumplèta : Mistral i'èra. Se poudriè<lb/>jamai dire la grandou, dins sa simplicitat, de l'espe-<lb/>tacle que nous es estat permés de veire à la Grand-<lb/>Coumba aquel dimenche. Cinq ou sièis mila oubriès<lb/>de las minas, s'esquichant, sus la nauta plaça de,<lb/><lb/>la vila, autour dau buste d'un oubriè couma eles,<lb/>lou troubaire-massou Matiéu Lacroix, e Mistral,<lb/>l'ilustre pouèta de Mirèio, de Calendau, de la Reino<lb/>Jano, dau Pouèmo dòu Rose, Mistral, familhè,<lb/>esmougut, magnifique, diguent à tout aquel brave<lb/>pople trefoulit quau èra aquel Matiéu Lacroix en<lb/>quau se fasiè tant fèsta ! Nou, despioi que lou Feli-<lb/><lb/>brige esista, jamai espetacle pariè!</p>
+        <p><lb/>E tout lou mounde, à la Grand-Coumba, a ben<lb/>fach soun devé, aquel jour : lou coumitat Matiéu<lb/>Lacroix, l'aministracioun de las Minas, la poupu-<lb/>lacioun entièira e lous felibres venguts de Lengadoc<lb/>A<lb/>e de Prouvença.</p>
+        <p><lb/>Couma toujour, lous Mount-Pelierencs avièn<lb/>dounat: lou sendic Messine, l'assesou Arnavielle,<lb/>embé sa filha Margarida Aruavielle, Euric Teulié,<lb/>Juli Veran, Broussetou de las Arcadas, Pèire<lb/>Arnavielle (l'Arabiquet), Manissier, de Claret ; Marc<lb/>Sarenne, Pèire Hortala, qu'a fach dins lou journal<lb/>lou Midi Mondain, de Mount-Peliè, un raconte<lb/><lb/>meravilhous de la journada. En gara d'Alès, lous<lb/>Clapassiès prenguèroun emb' eles lou valent Jas,<lb/>Carrère, Bouquet, lou felibre das Baus de Prou-<lb/>sença, e lous felibres alesencs l'abat Jousè Albran,<lb/>Edouard Crouzat e Grabiel Haon.</p>
+        <p><lb/>Au banquet, lou pus poulit das brindes saguèt<lb/>aquel de M. de Castelnau, engeniour en chèfe au,<lb/>Cors de las Minas, aministratou de la Coumpagnie.<lb/>de las Minàs de la Grand-Coumba e counselhè<lb/>eneral, en l'ounou de Frederic Mistral. « C'est un<lb/>grand remerciement que nous vous devons, diguèt<lb/>au Mèstre, pour avoir bien voulu, malgré la fati-<lb/>gue du voyage, quitter votre blanche ct jolie rési-<lb/>dence de Maillane pour venir dans notre pays noir<lb/>exalter un de nos humbles ouvriers.» Noste sendic</p>
+        <ab><lb/>Lous abounamens partissoun dau iè de janvié<lb/>e dau iè de juliet de chaca annada.<lb/>Mandà déch sous per tout chanjamen d'adrèssa</ab>
+        <pb facs="0002.xml"/>
+        <fw type="runningTitle"><lb/>LA CAMPANA DE MAGALOUNA</fw>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Tiran de l'Armana prouvençau de 1900, qu'avèn<lb/>anounçat e qu'es en venda pertout, aquesta-d'aici<lb/>qu'adouban dins lou parlà clapassiè. Es lou Casca-</p>
+        <p><lb/>Messine brindèt à la ciéutat de la Grand-Coumba.</p>
+        <p><lb/>A la ceremòni dau buste, discours elouquent de<lb/>M. Gaujac, que, au noum dau Coumitat, remetèt<lb/><lb/>lou monumen à la vila ; responsa noun mens elou-<lb/>quenta de M. Darodes, Maire de la Grand-Coumba<lb/>e diretou de la Coumpagniè de las Minas, que fini¬<lb/>guèt antau, en s'adressant à Mistral e as felibres :<lb/>« Puissiez-vous garder un bon et durable souvenir<lb/>de votre visite dans notre Cité, et en emporter<lb/>l'impression que chez nous la lutte de tous les jours<lb/>contre la nature n'a pas endurci les cœurs, qu'on<lb/>sait aimer et comprendre les poètes, qu'on vénère<lb/>les morts, et qu'on sait rendre justice à tous, à<lb/>quelque niveau social qu'ils appartiennent!» Seguèt<lb/>pioi lou tour de M. de Castelnau, que s'adressèt</p>
+        <p><lb/>Avèn dounat amount nosta empressioun à per-<lb/>paus de l'aloucucioun de Mistral. Après el èra difi-<lb/>cile d'apoundre quicon mai : pamens Arnavielle e<lb/>Jan Carrère i'anèrou chacun d'una courta mès<lb/>calourenta arenga, e lou pople de lous aplaudi,<lb/>ainsin que lou jouine felibre Grabièl Haon dins<lb/>sous verses patetics à la memòria de Matiéu Lacroix.</p>
+        <p><lb/>Anessian pas desoublida M. Lallemand, l’amis-<lb/>tous e gent jouta-prefèt d'Alès, qu'èra de la fèsta<lb/>atabé e que parlèt mai que milhou tant au banquet<lb/>qu'à l'inauguracioun dau buste ounte, an noum dau<lb/>Gouvèr, remetèt de medalhas de traval à mai de<lb/>60 oubriès coumtant d'unes trenta e d'autres jus-<lb/>quas à cinquanta ans de service à la Coumpagniè de</p>
+        <p><lb/>Vejaqui qu'ara lou Gouvèr aproufita de las fèstas<lb/>dau Felibrige pèr coumpli d'ates ouficials. D'aco,<lb/>lou Felibrige se n'en planirà pas.</p>
+        <p><lb/>Lou vèspre, à ioch ouras, la poupulacioun touta<lb/>entièira que, lou matin, èra venguda esperà lous<lb/>felibres e lou jouta-prefèt, lous acoumpagnèt à la<lb/>gara qu'èra iluminada. Aqui, avans l'oura de la<lb/>partença, se cautèt e recantèt mai-que-mai de can¬<lb/>sous felibrencas. Lou trin filet au mitant das crids<lb/>mila fes repetats de : « Viva Mistral! Viva lous<lb/>felibres ! Au reveire! » E lous felibres de respon-<lb/>dre : « Viva la Grand-Coumba ! Au reveire !...»</p>
+      </div>
+      <div type="article">
+        <head><lb/>GRAMMAIRE LANGUEDOCIENNE</head>
+        <p rend="labelled"><lb/>(DIALECTES DE MONTPELLIER ET DE LODEVE)</p>
+        <ab><lb/>Suite (Voir n^o 166 à 172, 174 et 175).</ab>
+        <figure type="decoration"/>
+        <ab><lb/>CLensoNT. — Sioi l'efan del siècle e noun pas del passat.<lb/>je suis l'enfant du siècle et non pas du passé.<lb/>Al tems que sèn, au temps où nous sommes.<lb/>Met de negre sul blanc, il met du noir sur le blanc.<lb/>Sul pedestal, sur le piédestal; sul cami, sur le chemin.<lb/>La crenta de la fan no fo lou tributàri des grans,<lb/>La crainte de la faim en fait le tributaire des grañds.<lb/><lb/>Lous pastres dabalou das serres, les bergers des-<lb/>Sus clouquiès de las capitalas, sur les clochers des</ab>
+        <p rend="labelled"><lb/>Remarques.—I.—On a pu constater par le tableau et les<lb/>exemples qui précèdent que le lodévois possède au pluriel<lb/>trois séries de formes pour l'article. Celles do la 1re colonne<lb/>(lous, des, as, sus), s'emploient devant les mots commen-<lb/>çant par une consonue: lous biòus, les bocufs, sus pès,<lb/>sur les pieds ; celles de la 2e colonne s'emploient devant</p>
+        <p><lb/>Aqueste mes de mai passat, anère faire la visita<lb/>de las escolas de moun cantou. Car, save pas s'hou<lb/>savès, sièi delegat cantounau e es pèr aco que<lb/>Moussu lou Ministre, i'a quauques ans, me mandèt</p>
+        <p><lb/>Adounc anère, couma èra moun devé, veire<lb/>coussi se menavon lous afaires de nosta escola. Lou<lb/>mèstre èra au mitant d'una marmalha de mecouses<lb/>que d'unes l'escoutavoun ou n'en fasièn lou sem-<lb/>blant, d'autres se pessugavoun ou s'escoupissièn<lb/>dessus, d'autres fasièn envoulà de mouscas embé la<lb/>broca au cuéu, n'i'aviè, das mai pichots, que dour-<lb/>missièn sus sous silabàris. E lou mèstre s’esgousi-<lb/>lhava à iè faire la liçou de geougrafia.</p>
+        <p><lb/>«Lous Alemands, sou ié fasiè, soun de-longa<lb/>estats de rapiàmus, e dins lou tems passat soun<lb/>venguts enjusquas aici,e n'an devastat toutes lous païs<lb/>dau Miejour ; d'unes s'apelavou lous Gots, d'autres<lb/>lous Visigots, d’autres, onfin, lous Ostrogots. Ioi<lb/>touta aquela raça de manjairasses a per capitala<lb/>una granda vila que ié disou Berlin...»</p>
+        <p><lb/>Mès lou mèstre veniè de s'avisà que lou pichot<lb/>Dodo l'escoutava pas e s'amusava à-n-escramachà<lb/>de testas de mouscas entre dos fiolhas blancas de<lb/>soun caiè per veire las bellas flous qu'aco fasiè; se<lb/>revirèt vers el e ié demandèt :</p>
+        <p rend="labelled"><lb/>— Veguen, Dodo, couma ié disoun à las gents</p>
+        <p><lb/>Dodo venguèt rouge couma un coural e respoun¬</p>
+        <p rend="labelled"><lb/>— Ié disou lous Berlingots!<lb/>les mots commençant par un s, dei souldatch, des<lb/>soldats, enfin les formes de la 3e colonne se placent devant<lb/>les mois commençant par une voyelle, deis oustals, des<lb/>maisons; ais efans, aux enfants.</p>
+        <p><lb/>Les formes correspondantes, las et lai, mais non lais<lb/>se retrouvent au féminin: On dit par ex.: lai sèrs, les<lb/>serpents, las fennas, los temmes. las aucas (ot non lais</p>
+        <p rend="labelled"><lb/>1I. — Les formes das et des s'emploient concuremment<lb/>dans le parler de Clermont l'Hérault, mais la première</p>
+        <p><lb/>Cette hésitation (que l'on retrouve aussi dans le sous-<lb/>dialecte d'Agde) indique une lutte d'influence entre les<lb/>dialectes montpelliéraias et biterrois.</p>
+        <p><lb/>L'article pluriel à Marsillargues. Nous avons déjà<lb/>signalé le parler de Marsillargues comme intermédiaire<lb/>rentre le montpelliérain et le provençal : il nous semble<lb/>donc intérossant de remarquer ici que les formes plurielles</p>
+        <p><lb/>(1) Sans entrer dans des considérations qui ne seraient<lb/>pas à leur place dans ce travail, il est nécessaire de faire<lb/>remarquer que l'i de l'article singulier (dai, ai) et celui<lb/>de l'article pluriel (loui, louis, etc.), ont des origines abso¬<lb/>lument différentes, le premier étant la vocalisation de l'i<lb/>(dai, dei pour dal, del, ai pour al), et le second étant le<lb/><lb/>résultat d'une modification de l's finale. (Voir plus haut,<lb/>chap. Ier.— III. Modification des consonnes finales).<lb/>catedrala Sant-Pèire de Mount-Peliè, e vicàri gene-<lb/>ral, ouriginàri de Claret, acoumpagnat de M. l'abat<lb/>Gabanoun, lou tant devouat curat de Lauret, e de<lb/><lb/>toutes lous capelans das envirouns, que batejèt e<lb/>beniguèt Estieineta-Suzanna.</p>
+        <p><lb/>Noste brave Campaniè Adrian Fedière, qu'èra<lb/>estat cargat de mountà la campana e qu'aquela fèsta<lb/>ié remembrava lou tems de sa jouvença, passada<lb/>Nins aquel pais, legiguèt aquestes verses coumpau-<lb/>sats pèr el sus lou ritme mistralenc de Miréio e de</p>
+        <ab type="head"><lb/>A Dona Suzanna e Moussu Estièine Combres</ab>
+        <p><lb/>LOU JOUR DAU BATEAAT DE LA TANT POULIDA CAMPANA<lb/>BSTIEINETA-SUZANNA QuE N'AN FACM DOUN A NoSTA-<lb/>de l'article dans cette variété dialectale sont identiques<lb/>à celles du provençal d'Aix et de Marseille. Comme en<lb/>provençal et en français il n'existe à Marsillargues qu'une<lb/>seule forme d'article pour le pluriel des deux genres, lei<lb/>devant une consonne, leis devant une voyelle, et les<lb/>formes contractées, dei, deis, ci, cis, s'emploient au<lb/>féminin aussi bien qu'au masculin.</p>
+        <lg>
+          <l><lb/>Braves dounatous generouses,</l>
+          <l><lb/>Estent aqui ! Mès Diéu n'a jujat antramen.</l>
+          <l><lb/>Au grand dòu que vous tèn en fora,</l>
+          <l><lb/>lé prenèn part, car nous mancora,</l>
+          <l><lb/>E dau bèu doun que vous ounora,</l>
+          <l><lb/>Amai çai segués pas, vous fasèn coumplimen!</l>
+        </lg>
+        <lg>
+          <l><lb/>Car, siègue au bos ou dins la plana.</l>
+          <l><lb/>Soun brounzimen vous rènd mai-que-mai pensatiéu;</l>
+          <l><lb/>Ou be soulènna ou be doulenta,</l>
+          <l><lb/>Au cor nous met fe mai ardenta,</l>
+          <l><lb/>Enaura e lausa l'ama, e la fai peasà Diéu!</l>
+        </lg>
+        <lg>
+          <l><lb/>En venguent dins lou bosc e lou carrau peirous,</l>
+          <l><lb/>Es que lou campagnard fouseire</l>
+          <l><lb/>Mostra qu'a pas quitat de creire</l>
+          <l><lb/>Au caput mau-cresent que la fe rènd urous.</l>
+        </lg>
+        <lg>
+          <l><lb/>Ounte fa tal bonur que brilha?</l>
+          <l><lb/>— O paisan, as bon fach de rostà cresent !</l>
+          <l><lb/>E me remembrant ma jouvença,</l>
+          <l><lb/>Dau bèu moumen de la partença.</l>
+          <l><lb/>Lou vèspre, d'Aleirac, cantant toutes ensen.</l>
+        </lg>
+        <lg>
+          <l><lb/>Quand, la voues d'amour desbourdanta,</l>
+          <l><lb/>Disiè 'adiéu à la Maire Santa,</l>
+          <l><lb/>L'estrambord, aquel jour, noun poudiè s'amaisa;</l>
+          <l><lb/>Que rènd ma musa tant de lese.</l>
+          <l><lb/>Car l'endrech benit que revese</l>
+          <l><lb/>L'a lausat talamen que vòu pas se taisà.</l>
+        </lg>
+        <p><lb/>Ces formes ne sont usitées sur la rive droite du Vidourle<lb/>(département de l'Hérault) qu'à Marsillargues, et sur la<lb/>rive gauche (département du Gard), qu'à Saint-Laurent<lb/></p>
+        <p><lb/>Un peu plus loin vers l'Est, à Aimargues, Vauvert,<lb/>Weauvoisin. etc., commence l'usage des formes nimoises,<lb/>li, dí. i, identiques à celles d'Avignon.</p>
+        <p><lb/>Nous donnons ci-contre, le tableau résumé des<lb/>formes de l'article dans la région montpelliéraine et<lb/>lodévoise, comparées à celles de quelques dialectes</p>
+        <p rend="labelled"><lb/>Remarque. Lorsqu'uno double forme est indiquée pour<lb/>un même cas de l'article, la ligne supérieure contient les<lb/>formes employées devant les consonnes, et la ligne infé-<lb/>rieure celles qui s'emploient devant les voyelles.</p>
+        <ab type="head"><lb/>II. L'articte indéfini et Varticle partitif</ab>
+        <p><lb/>L'article indéfini est, comme en français, repré-<lb/>senté par l'adjectif numéral: masc. un, fém. una.</p>
+      </div>
+      <div type="article">
+        <head><lb/>BATEJAT E NOÇA</head>
+        <p><lb/>Lou 24 d'otobre se benissiè à la glèisa de Nosta-<lb/>Dama d'Aleirac, amount dins lou cantou de Claret,<lb/>una campana, doun de M. e Mma Estièine Combres,<lb/>fil e filhada de M. Anatòli Combres, de Vau-Flanés,<lb/>lou regretat counseliè general de Claret.</p>
+        <p><lb/>La mort de M. Anatòli Combres, survenguda<lb/>tres ou quatre jours davans, aviè tengut en fora de<lb/>la fèsta lous dous dounatous, desiguats pèr estre lou<lb/>pairi e la mairina d'Estieineta-Suzanna, noum dou-<lb/>nat à la nouvella campana. Mau-grat aquel auvàri,<lb/>i'aviè foça pople à la fèsta, car lous paisans de pèr<lb/>amount aimou ben d'anà emb'aquel santuari venerat<lb/>de Nosta-Dama d'Aleirac.</p>
+        <p><lb/>Es M. l'abat Gervais, lou digne archiprèstre de la</p>
+        <ab><milestone unit="column" n="2"/><lb/>ou gamn./nee édeée éoeéee re mile 261</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

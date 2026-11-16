@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Gau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k9571725h</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Gau : revisto mesadiero pèr li revendicacioun de la lengo prouvençalo à l'escolo, dins la cadiero e à la tribuno poupulàri : parèis lou 15 de chasque mes / secretàri dóu Gau D. Savié de Fourviero</title>
+          <publisher>[s.n.] (Tarascoun-sus-Rose)</publisher>
+          <date when="1908-10-01">1908</date>
+          <idno type="ARK">bpt6k9571725h</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k9571725h</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>ANNADO DOUGENCO</fw>
+        <fw type="runningTitle"><lb/>N155</fw>
+        <ab>
+          <stamp><lb/><lb/>1e d'OUTOBRE dè 19081908</stamp>
+        </ab>
+        <figure/>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>CANTAIRE DI REVENDICACIOUN PROUVENÇALO</p>
+        <p rend="heading"><lb/>à l'Escolo, dins la Cadiero e à la Tribuno poupulari</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab><lb/>PAREIS LOU 1e E LOU 15 DOU MES<lb/>AMENISTRACIOUN:<lb/>FITOR JACOUMET<lb/>ABOUNAMEN: 3 FRANC PER AN<lb/>Vilo-Dieu<lb/>(Vau-Cluso)</ab>
+        <ab><milestone unit="column" n="2"/><lb/>LI BAILE DÓU GAU:<lb/>D. SAVIE DE FOURVIERO<lb/>MESTE EISSETO — ANTONI BERTIE</ab>
+        <p rend="labelled"><lb/>TAUL.ETO: Uno Assouciacioun de Capelan-felibre, D. SAVIE DE FOURVIERO. — La Freirie Prouvençalo à Sisteroun. P. RUAT. — Tres<lb/>flour outoubrenco à la Vierge Mario, U. MENOURET. — Crounico, C. MESSELAN. — Fuictoun : margun, BOCKa hlent.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Uno Assouciacioun</head>
+        <p rend="labelled"><lb/>de Capelan-Felibre</p>
+        <figure type="decoration"/>
+        <p><lb/>'A d'acò sèt à vuech an, un tantost, qu'ère à<lb/>Maiano, à l'oustau dóu Pouèto, charravian<lb/>éu e iéu, de la predicacioun prouvençalo.</p>
+        <p rend="labelled"><lb/>— Tè, me venguè tout à-n-un cop, Mistrau, la<lb/>caro iluminado, sabès de que devrias faire? Devrias,<lb/>tóuti li capelan prouvençau que voulès e qu’en¬<lb/>tendès resta prouvençau, devrias vous uni, vous<lb/>assoucia...</p>
+        <p rend="labelled"><lb/>— l'a bravamen de tèms que ié pènse...</p>
+        <p rend="labelled"><lb/>— Ato mai ! Sabès que sarias fort se vous grou¬<lb/>pavias ensèn !... E que noun bandissès l'idèio dins<lb/>Lon Gau.</p>
+        <p rend="labelled"><lb/>– Acò vendra à soun ouro...</p>
+        <p rend="labelled"><lb/>— E pièi, vous, en estènt qu’emé vòsti predi-<lb/>cacioun sias de-longo pèr orto, poudès, gramaci<lb/>vosto paraulo e voste eisèmple, ajougne la toco<lb/>desirado encaro mai qu’emé voste journalet.</p>
+        <p><lb/>Avès aqui, ami legèire, en quauqui ligno lou<lb/>resumit de nosto charradisso... Ai! las, coume sa¬<lb/>bès, ai parti'de ma bello Prouvènço, e, despatria<lb/>que siéu — qu saup per quant d’annado encaro?—<lb/>noun ai pouscu countunia moun pres-fa de predi¬<lb/>caire e douna ansin lou vanc à l'idèio, coume disié<lb/>Mistrau, pèr ma paraulo e pèr moun eisèmple.</p>
+        <p><lb/>Urousamen que la questioun de la predicacioun<lb/>prouvençalo a pas toumba au sòu, es encaro à l'or¬<lb/>dre dóu joure vivènto mai que jamai.</p>
+        <p><lb/>ra quare mes, lou Baile dou Rampeu, Mounsen</p>
+        <p><lb/>Paian, que meno tant gaiardamen la campagno dou<lb/>prouvençau, m’escrivié soun idèio d'uno assou¬<lb/>ciacioun.</p>
+        <p rend="labelled"><lb/>« Auriéu ama de vous véire, disié. Aurian char¬<lb/>ra dou proujèt d’uno Assonciacion) de Capelan-feli¬<lb/>bre que nous ramblarié pèr la defenso dis interès<lb/>prouvençau. MM. Cler, Nat, Auroyze, Grimaud,<lb/>Camicas, Espariat, Mascle, Allié, Casteran e tant<lb/>d’autre e tant d’autre que sarié trop long de vous<lb/>n'escriéure si noum, touti n'en sarien e 'mè grand<lb/>gau... »</p>
+        <p><lb/>Vaqui l'idèio, aro, en plen bandido. Es i prèire<lb/>qu’an lou pitre prouvençau de la faire valé. Lou<lb/>Rampèu n’a que de rampela li bòni voulounta es-<lb/>parpaiado, de li groupa ensèmble, e l'Assouciacioun<lb/>prejitado se fara touto souleto.</p>
+        <p><lb/>De bèn bon cor, Lou Gau qu’es lou cantaire di<lb/>Revendicacioun prouvençalo, adurra soun ajudo, e<lb/>ni court ni coustié.</p>
+        <ab><lb/>D. SAVIÉ DE FOURVIERO.</ab>
+        <p rend="heading"><lb/>oooooooooooooooooooo</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>La Freirié Prouvençalo à Sisteroun</p>
+        <p><lb/>Crese bèn que faudrié reveni de 20 à 25 an en arrié, i<lb/>Santo Estello de Cano, de Sant-Rafèu o d’lero, pèr vèire<lb/>tant bello acampado felibrenco qu'aquelo dou 4º Coungrès<lb/>de la Freirié Prouvençalo, à Sisteroun, lou 13 de Setèm¬<lb/>re</p>
+        <p><lb/>Recepcioun óuficialo à la garo pèr lis autourita dou des¬<lb/>partamen, de musico, de carosso, de gendarmo e de<lb/>gardo de fourèst. Bèn-vengudo à la Coumuno pèr lou Mu¬<lb/>nicipe Sisterounen. Joio e soulas dóu pople de la vilo, tou¬<lb/>to abandierado e vestido de bouis trena. Picamen de man<fw type="digitisation-artefact"><lb/>pue ../Biblotèque naioe e Frace</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

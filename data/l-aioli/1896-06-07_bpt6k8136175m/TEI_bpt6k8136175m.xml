@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136175m</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1896-06-07">1896</date>
+          <idno type="ARK">bpt6k8136175m</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136175m</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>SIEISENCO ANNADO, No 196.</fw>
+        <fw type="runningTitle"><lb/>DIMENCHE, 7 DE JUN1896.</fw>
+        <lg>
+          <l><lb/>Nautri, li bon Prouvençau,</l>
+          <l><lb/>Au sufrage universau,</l>
+          <l><lb/>Voutaren pèr l'ôli</l>
+        </lg>
+        <ab><milestone unit="column" n="3"/><lb/>(Prouvèrbi di meinounte.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PÈR MES (7, 17,27)</p>
+        <figure/>
+        <ab><lb/>PREs DE L'ABOUNAMEN</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="1"/><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONGELLI<lb/>au palais dóu Roure,</ab>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <ab><lb/>Baile dóu journau:<lb/>FOLCO DE BARONCELLI</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>RESSON dE MANDORRO</head>
+        <lg>
+          <l><lb/>Que lou soulèu flourigue longo-mai</l>
+          <l><lb/>Dins ti grands iue, reino de mi pantai,</l>
+          <l><lb/>E que lou sang renadiéu de Prouvènço</l>
+          <l><lb/>Clar e fougous enfloure ta jouvènço:</l>
+          <l><lb/>0 ma bèuta! se l'ai douna moun cor,</l>
+          <l><lb/>De toun amour pode pas ista sènso,</l>
+          <l><lb/>Que mouririéu de lagno e de maucor.</l>
+        </lg>
+        <lg>
+          <l><lb/>Siegues la bello e bono longo-mai,</l>
+          <l><lb/>A toun lindau vole planta lou mai;</l>
+          <l><lb/>M'as pivela 'mé ta fièro avenenço,</l>
+          <l><lb/>E, dins la draio ount trèvo ta jouvènço,</l>
+          <l><lb/>An regreia li nerto de moun cor:</l>
+          <l><lb/>De toun amour pode pas ista sènso,</l>
+          <l><lb/>Que mouririéu de lagno e de maucor.</l>
+        </lg>
+        <lg>
+          <l><lb/>Que noun siés miéuno e miéuno longo-mai!</l>
+          <l><lb/>Quouro ié pènse, ai Diéu ! ploure d'esmai:</l>
+          <l><lb/>Toun souveni dins la niue canto e gènço,</l>
+          <l><lb/>Bel aucèu blanc de joio e de jouvenço,</l>
+          <l><lb/>Qu'emé sis alo acato un paure cor...</l>
+          <l><lb/>De toun amour pode pas ista sènso,</l>
+          <l><lb/>Que mouririéu de lagno e de maucor.</l>
+        </lg>
+        <lg>
+          <l><lb/>Vers toun oustau quand siéu vengu</l>
+          <l><lb/>M'as autant lèu recouneigu,</l>
+          <l><lb/>Aviéu perdu ma capo e ma quitarro,</l>
+          <l><lb/>E di pantai autre-tèms auboura</l>
+          <l><lb/>Noun me soubrè que lis iue pèr ploura.</l>
+        </lg>
+        <lg>
+          <l><lb/>E, renadiéu, de gau candi,</l>
+          <l><lb/>Vers toun amour agarlandi:</l>
+          <l><lb/>Bello calanco ount ma talèat s'amarro,</l>
+          <l><lb/>Port benesi qu'assoustè mi descor,</l>
+          <l><lb/>Toun aigo bléujo a refresca moun cor.</l>
+        </lg>
+        <lg>
+          <l><lb/>Coume uno sorre m'as bressa,</l>
+          <l><lb/>Dis arpo folo dóu passa,</l>
+          <l><lb/>Au souleiant de toun esplendour caro,</l>
+          <l><lb/>Tout barbelant de ti bais abeli,</l>
+          <l><lb/>Tourna mi raive an subran espeli...</l>
+        </lg>
+        <ab><lb/>Ma bello damo de la mar,<lb/>M'es bèn amar<lb/>De plus senti lou vènt dóu larg,<lb/>Quand tóuti dous trevavian la niue claro,<lb/>Permié li flour qu'enauron soun encèn,<lb/>Ai ! mèmbro-te, qu'èro bon d'èstre ensèn !<lb/>Quand li niéulas escavarta<lb/>Lou paradis de ta bèuta,<lb/>Lis arangié blanquejavon pancaro,<lb/>Mai, espandido au mitan di rousié,<lb/>Toun regard linde alin me sourrisié.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>La prouMIero couMuNIEn</head>
+        <p rend="styled"><lb/>Mario Audibertquéu beu our,</p>
+        <p><lb/>Es encuei lou cinq d'abriéu ; sènte boumbi moun couer<lb/>souto moun pitre ; pico talamen fouert que s'ères à moun<lb/>caire, creiriés qu'un manescau tabaso subre l'enclùmi<lb/>pèr n'en fourja un poulit eissadoun, coumo aquéu que<lb/>ta pauro grand nous prestavo, quand voulian planta lei<lb/>plantun de flour que devien servi pèr garni lou grand<lb/><lb/>autar, lou jour que recebrian lou Bouen-Diéu.</p>
+        <p><lb/>Al un vounvoun de remembranço que canton à moun<lb/>entour, coume leis auceloun canton, cade matin, au leva<lb/>dóu soulèu Vese toun bastidoun, quiha sus un cresten,<lb/>que se miraio dins l'aigo lindo dóu Riéu de Paradis,<lb/>mounte l'estléu, anavian nous asseta a l'oumbro dei sause<lb/>pèr estudia noueste catechime. La vese toujour, aquelo<lb/>tepo flourido de margarideto, de boutoun-d'or e de pe-<lb/>nitènt-blu, que nous servié de séti. Lei roussignòu, lei<lb/>bouscarleto, lei cardelino, voulastriavon d'un bouissoun<lb/>à l'autre pèr fa sei nis, enterin que nous cantavon sa<lb/>meloudiouso cansoun e nous aprenien à fa sourti de<lb/>noueste góusié lei proumiérei noto. Nautro peréu, falié<lb/>que sachessian canta la glòri de Noueste-Segnour.</p>
+        <p><lb/>E lou soulelaire, eila à drecho dóu bastidoun, mounte<lb/>nous anavian encafourna, quand la Mountagniero gingou¬<lb/>lavo dintre lei pibo ! Aquelo cafourno mounte boutavias<lb/>lei roscon emé leis uiet, pèr que lou fre lei jalèsse pas; ta<lb/>bravo grand, que flelavo pèr lou prouvimen de tei souerre<lb/>e lou tiéu ; lel tanto souerre, aquélel doues bràvel fiho<lb/>que nous amavon coumo s'erian siéuno... Tout aco, lou<lb/>vese toujour. E lou brusc plen d'abiho, que l'iver li dou-<lb/>navias de cassounado pèr pousqué agué 'no toupino de<lb/>mèu, quouro arribarié lou mes d'abriéu! Te rapelles<lb/>coumo suçavian lel troues de bresco que la pauro grand<lb/>nous dounavo? Coumo èro bouen, que? S'en lipavian<lb/>lei det ! E la grosso figuiero, aqui davans lou bastidoun,<lb/>que nous tenié de figo negro, grosso coumo de merin-<lb/>jano, pèr nouéstei gousta, lis al nimai pas óublidado ! E<lb/>aquelo grosso ribo de giróuflado, de serengat, de majou-<lb/>rano que segavian pèr pourta á Nouesto Damo de Rou-<lb/>migié: que li a de tèms d'acò, e pamens me sèmblo<lb/></p>
+        <p><lb/>Digo-me que t'en résto peréu la souvenènço, d'aquélei<lb/>bèu jour passa, mounte, sénso soucit de l'endeman, s'es-<lb/>coulavo nouesto vido d'enfant !...</p>
+        <p><lb/>E lou Riéu dei Rato, digo-me se l'as eissublia? Coumo<lb/>erian urous, quand escalavian lei ribo dóu Riéu de Para-<lb/>dis, que passavian souto leis arcado dóu pouent d'Espen,<lb/>per fa béure lei petouo !</p>
+        <p><lb/>Avian pou ni dei serp, ni dei limbert ; furnavian souto<lb/>lei boueissoun e t'en fasian un brave chaple, d'aquélei<lb/>poulldei vióuleto bluio e blanco qu'amon tant leis es-<lb/>coundaio E lou paure curat Maureu, n'èro mai que coun-<lb/>ent, quand nous vesié arriba 'mé noueste gros bouquet.</p>
+        <lg>
+          <l><lb/>S'en dou me siéu parti de tu,</l>
+          <l><lb/>Vergié d'amour e de vertu !</l>
+          <l><lb/>Lou tèms feroun pòu pa'scafa ta caro</l>
+          <l><lb/>De moun pensa, que, dins ma tristo niue,</l>
+          <l><lb/>Sempre veirai lampeja li bèus iue.</l>
+        </lg>
+        <lg>
+          <l><lb/>Tout enlusi de ti grand rai,</l>
+          <l><lb/>Soulas escrèt, tant que viéurai;</l>
+          <l><lb/>Ma noblo amigo, avèn franqui li raro</l>
+          <l><lb/>De la doutanço, e fa plus de belèu</l>
+          <l><lb/>Pèr nostis amo apariado au soulèu.</l>
+        </lg>
+        <p><lb/>Mai tè, en escrivènt lou noum dóu brave curat, me<lb/>sènte l'amo esmougudo !... Perqué tóutei lei capelan<lb/>soun pas brave coume éu ? Que de misèri que li avien fa!<lb/>Noun sèmblo verai, entre crestian, entre aposto d'un<lb/>meme Diéu, que li ague d'amo tant negro! Pamens èro<lb/>ou melour dei prêire, e s'èro atrouba un evesque emé<lb/>S'antrei capelan que li avien fa passa lei set obro de<lb/><lb/>mizericòrdi; e tout acò: Jesus! Mario! perqué? pèr<lb/><lb/>eicò, tenés : lou gouvernamen avié fa de Nouesto-Damo<lb/>uno glèiso, mounte lou curat es inamouvible, e que<lb/>Moussu Maurèu èro esta lou proumié à prouficha d'a-<lb/>quelo favour e que vouguè jamai s'en deimetre. Acò,<lb/>revesque vo ll perdounavo pas; e cado fes que venié à<lb/>Manosco pèr counflerma, n'aguessias pas pòu qu'intrèsse<lb/>dins Nouesto-Damo, ni que se signèsse en li passant<lb/><lb/>davans! Acò empachavo pas qu'avian lou plus brave<lb/>curat dóu mounde, un curat coume faudrié que lou fu-<lb/>guèsson tóutei; bouen pèr lei paure, un paire pèr leis<lb/>enfant; jamai un mot dins aquelo santo bouco que vous<lb/>dounèsse l'idèio dóu man !.. Eu coumprenié que lou<lb/>meiour mejan pèr garda la joueinesso contro lou man, es<lb/>de vo li pas faire counéisse !</p>
+        <p><lb/>Se lei parrouquian de Sant Sauvaire noun l'amavon,<lb/>se li disien lou manjo-faro, tóutei aquélei de Nouesto-<lb/>Damo lou pourtavon subre lou paume de la man ! E tant<lb/>n'avié, d'aquélei de Sant-Sauvaire, que lou plagnien, de<lb/>lou véire secuta d'aquéu biais. Mai éu noun se rebutavo:<lb/>amavo soun troupeu e l'abandounè jamal. Quand Diéu<lb/>lou venguè querre, fuguè pèr tóutei aquélei qu'avié ba¬<lb/>teja, fa faire la proumiero coumunien e marida, un bèn<lb/>gros chacrin; e se tóutei lei lagremo que s'escampèron,<lb/>soun estado de perlo à sa courouno, deu esbariuga ben<lb/>mai que de diamant.</p>
+        <p><lb/>Mai reviren-nous, courben-nous davans aquéu bèu<lb/>jour de la proumiero coumunien. Sabian noueste cate-<lb/>chime sus lou bout dóu det ; erian lei doues proumiero.<lb/>Quente ounour pèr lei doues pichòtei bastidano! Sian<lb/>neissudo tóutei doues long d'aquéu Riéu de Paradis ;<lb/>avèn just un mes de diferènci; nouéstei maire nous fasien<lb/>courre ensen ; nous sian sempre amado coume doues<lb/>souerre, e mau-grat que nous veguen pas uno fes tóutei<lb/>lei dès an. Siés sémpre presènto à ma memòri; e, ço<lb/>que fai qu'aquelo remembranço es tant vivo, es nouesto<lb/>vido d'enfant nousado per aquéu beu jour de la prou-<lb/>miero coumunien. Coume se li erian bèn preparado !<lb/>Mancavian jamal lou Camin de la Crous ; a cado estacien,<lb/>nous semblavo que nous tancavon peréu uno lanço dins<lb/>lou coustat coumo à noueste divin Segnour. Avian cadun<lb/>un pichot bout de cièrgi aluma, per pousqué legi; mai<lb/>avian leis uei talamen trebo dei lagremo que se n'escam-<lb/>pavon que, s'avian pas tout sachu de couer, noun au-<lb/>rian pouscu segui noueste brave curat.</p>
+        <p><lb/>Enfin arribo lou grand jour, nouesto amo éro blanco<lb/>coumo la nèu e avian encaro pòu que la fuguèsse pas<lb/>proun. Acò s'anavian óublida un pecat! Sabian plus<lb/>mounte n'atrouba. Es lou cop de dire que leis enventa-<lb/>vian, car que pecat poudian faire en aquel làgi!</p>
+        <p><lb/>Lou soulèu se levè esbarlugant, aquéu jour de Dimen-<lb/>che dei Rampau. Pas lou mendre niéu ; uno auro em¬<lb/>baumado dóu perfum dei rouseto emé dei granié qu'avié<lb/>poutouna subre leis autin dei bastidoun e dei bastido<lb/>de tout lou terraire. Nous sentian dins l'amo un quau-<lb/>carèn que noun poudian esplica: erian urouo</p>
+        <p><lb/>Coumo aquéu jour, lou plus beu de nouesto vido, se<lb/>capitavo estre lou D.</p>
+        <ab><lb/>ouaa./Bèues</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

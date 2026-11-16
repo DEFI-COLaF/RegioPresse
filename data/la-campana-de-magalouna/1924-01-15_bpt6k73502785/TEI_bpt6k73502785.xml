@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Campana de Magalouna</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k73502785</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Campana de Magalouna : journal populàri que parei lou 1è e lou 15 de toutes lous meses</title>
+          <publisher>[s.n.] (Mount-Peliè)</publisher>
+          <date when="1924-01-15">1924</date>
+          <idno type="ARK">bpt6k73502785</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k73502785</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="article">
+        <div>
+          <pb facs="0008.xml"/>
+          <fw type="runningTitle"><lb/>LA CAMPANA DE MAGALOunA</fw>
+          <ab><lb/>une série de produits excellents<lb/>à des prix extrêmement modéres:<lb/>100<lb/>CAHIERS MAGALO, les meilleurs du monde, 100 pages.....<lb/>290<lb/>PAPIER A LETTRE MAGALO, 100 feuilles poulet double...<lb/>PAPIER COMMERCIAL MAGALO, 100 feuilles doubles......<lb/>5.00<lb/>10,00<lb/>PAPIER DACTYLO MAGALO, 500 feuilles volantes....<lb/>et les<lb/>fameux porteplumes-réservoir MAGALO<lb/>Modèle écolier Safety noir : 13.95, le même marbré: 15.f00.<lb/>Modèle étudiant, plus gros :25.00; Modèle très-gros: 30.00.<lb/>DEMANDEZ</ab>
+          <figure type="decoration"/>
+          <figure/>
+          <p rend="heading"><lb/>LA PAPETERIE DEZEUZE<lb/>LANCE SOUS LE NOM DE<lb/>A<lb/>MAGAL<lb/></p>
+          <figure/>
+          <figure/>
+          <figure/>
+          <figure/>
+          <ab><lb/>MAGALO</ab>
+          <p rend="heading"><lb/>BANQUE du FoncIER FRAnÇaIS</p>
+          <lg>
+            <l><lb/>SOCIÉTÉ ANONYME AU CAPITAL DE 5.000.000 DE FRANCS</l>
+            <l><lb/>AUGMENTATION PRÉVUE STATUTAIREMENT JUSQU’A 20.000.000</l>
+            <l><lb/>SIÈGE SOCIAL: PARIS. — 127, RUE DU FAUBOURG SAINT-HONORÉ. — PARIS</l>
+          </lg>
+          <figure type="decoration"/>
+          <lg>
+            <l><lb/>Agence de Montpellier, 9, B Victor-Hugo</l>
+            <l><lb/>Toutes Opérations de Banque, de Bourse et Change</l>
+            <l><lb/>140 Succursales en France</l>
+          </lg>
+          <ab><lb/>Mount-Peliè — Estamnariè F. DEZEUZE, Carrièira de l'Agulharié, 27<fw type="digitisation-artefact"><lb/>suree gamea.bi.nMonpemer medleranee medopole Medraeque cendale Emile Zola</fw></ab>
+          <p rend="dateline"><lb/>LOu Gerent JAN-L'AN-PRES</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

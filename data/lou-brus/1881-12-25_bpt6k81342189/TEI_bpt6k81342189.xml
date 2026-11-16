@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81342189</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1881-12-25">1881</date>
+          <idno type="ARK">bpt6k81342189</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81342189</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Dimenche, 25 de Desèmbre 1881.</fw>
+        <fw type="runningTitle"><lb/>Dous sòu lou numerò</fw>
+        <fw type="runningTitle"><lb/>III. Annado — N° XXXIX p. 305</fw>
+        <head><lb/>JOURNAU POUPULARI DE LITERATURO, D'ISTORI E DE SCIENCI<lb/>PAREISSENT TOUTEI LEI DIMENCHE</head>
+        <ab><milestone unit="column" n="2"/><lb/>BIBLIOUGRAFIO. — Lou Franc prouvençau.</ab>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/>Depausitàri majourau pèr Marsiho: H. Blancard, 6 carriero dei Recoulèto, 6,</p>
+        <lg>
+          <l><lb/>Abounamen:</l>
+          <l><lb/>SE tranc pèr an pèr touto la Françe.</l>
+          <l><lb/>Fouero Franço, lon port en subre, ço</l>
+          <l><lb/>que revèn à DDES fr.</l>
+        </lg>
+        <p rend="styled"><lb/>Tont co que toco lon journau dèn<lb/>èstre manda afranqui à l'Empremarié<lb/>Prouvençalo, 15, carrièro dóu Grand-<lb/>Relògi, à-z-Ais.</p>
+        <p rend="styled"><milestone unit="column" n="3"/><lb/>Les annonces, réciames et faits di-<lb/>vers sont reçus exclusivement à la<lb/>Société Anonyme de publicité, 52 rue<lb/>d'Aboukir, termière de la publicité.</p>
+        <p rend="heading"><lb/>THÉATRE DE JEAN DE CABANES</p>
+        <ab><lb/>Tome ll (Section Littéraire)<lb/>DE LA<lb/>GRANDE BIBLIOTHEQUE PROVENÇALE<lb/>Directeur : ALBERT SAVINE<lb/>(Vèire la crounico e lou prospectus de suplemen).</ab>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>TAULETO</p>
+        <figure type="table"/>
+        <p rend="labelled"><lb/>CROUNICO. - L'Escolo de Lar - Lou councours de<lb/>Fourcauquié.</p>
+        <p><lb/>Letro d'En M. Girard - Jean de Cabano -Novo.</p>
+        <p rend="labelled"><lb/>VARIETA. — Coume se barjo dins quauquei Pas-<lb/>touralo - J.-B. G.</p>
+        <p rend="labelled"><lb/>TRATRE PROUVENÇAU. — Li Pastrihounode Bete-<lb/>ien.<lb/>E va li mandon beu, lei mascle ! Es uno rage.</p>
+      </div>
+      <div type="article">
+        <head><lb/>PASSO-TEMS</head>
+        <head><lb/>VIVO LOU FIERE</head>
+        <lg>
+          <l><lb/>Es verai. De moun tèms lei fremo èron pas mudo.</l>
+          <l><lb/>Avien, tant que voudrés, la lengo ben pendudo</l>
+          <l><lb/>E batien pavaioun de la blago au grand ma.</l>
+          <l><lb/>— Es plus ensin despuei que sian en republico:</l>
+          <l><lb/>Dins l’oustau, au café, sus la plaço publico,</l>
+          <l><lb/>Davans lei mascle, vuei, lei fremo an desarma.</l>
+        </lg>
+        <lg>
+          <l><lb/>De la pu richo vilo au pu paure vilage,</l>
+          <l><lb/>Cadun es avoucat, cadun es ouratour;</l>
+          <l><lb/>E, coumo l'a toujour quauque fada que pito</l>
+          <l><lb/>Ei proumesso, ei counsèu qu’un marrias li debito,</l>
+          <l><lb/>Dóu pu fin au pu muòu si disputon lou tour.</l>
+          <l><lb/>Quand si soun espuerga, semblo qu’an gagna'n</l>
+          <l><lb/>quino.</l>
+          <l><lb/>Tout li serve e l'es bouan pèr si n'aussa l'esquino:</l>
+          <l><lb/>Balcoun, taulo d'aubergo e banc de menuisié.</l>
+          <l><lb/>N'a meme qu’anarien precha dessus lei téure,</l>
+          <l><lb/>Se li vourias mounta, gratis, de vin à bèure,</l>
+          <l><lb/>Car de parla'u bouan pople artèro lou gòusié.</l>
+          <l><lb/>Ah! li poudien veni, pèr lou còu de platino,</l>
+          <l><lb/>Berryer, Ledru-Rollin, Dufauro, Lamartino!</l>
+          <l><lb/>— Entr'eli à bellei dènt si dechiron la péu.</l>
+          <l><lb/>Puei, coume fau qu'après lou verin si refresque,</l>
+          <l><lb/>Toumboun sus lei prefet, lel jugi, leis evesque ;</l>
+          <l><lb/>E tout lou mounde crido : Amen ! à l’estampéu.</l>
+          <l><lb/>Es un filossera generau, uno pèsto !</l>
+          <l><lb/>Si fa plus un dina, si fa plus uno fèsto</l>
+          <l><lb/>Senso qu’aquéu refrin v'estrasse lou cervèu:</l>
+          <l><lb/>« Nouma-mi deputa vo senatour, mei fraire !</l>
+          <l><lb/>« Manjarès, trincarès, aurès plus rèn à faire</l>
+          <l><lb/>« Que de canta lou sauguinpur à plen pivèu!</l>
+          <l><lb/>« Ei mèstre dau terrau pourrés faire lei bano.</l>
+          <l><lb/>« L'aura plus ges de mas e plus ges de cabano.</l>
+          <l><lb/>« Lei villa, lei castèu, pèr vautre soun basti.</l>
+          <l><lb/>« Sènso que fes un pas, sènso que v'anés querre,</l>
+          <l><lb/>« Lei routo, lei canau e lei camin de ferre,</l>
+          <l><lb/>« V'aduran lou pan blanc e lei poulet rasti...»</l>
+        </lg>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="306"/>
+        <fw type="runningTitle"><lb/>LOU BRUSC</fw>
+        <ab><milestone unit="column" n="1"/><lb/>A Moussu A.-L. SARDOU, felibre majourau e cabiscou<lb/>de l'Escolo de Bellando, à Niço.<lb/>A la court napoulitano<lb/>Feraut, lou troubadour degrunè si cansoun.<lb/>E la mar bluro que s'envano<lb/>E l'Amour jouve que trapano<lb/>E li floureto di bouissoun<lb/>De sa muso èron li liçoun.<lb/>Soudart, troubadour e prèire<lb/>Tau siguè Ramoun Feraut,<lb/>Se veramen soun de creire<lb/>Li percamin dóu terrau.<lb/>E di belli signouresso<lb/>Cantavo lis amour en mot siau e dous.<lb/>E di chatouno la belesso<lb/>E li gràci mé la noublesso<lb/>Emé li pantai amourous<lb/>Emplissien si tensoun courouso.<lb/>Soudart, troubadour e prèire<lb/>Tau siguè Ramoun Feraut,<lb/>Se veramen soun de crèire<lb/>Li percamin dou terrau.<lb/>Coumo i roumo qu'oumbradisson<lb/>Vèn piei que si flour passisson<lb/>Long di draiou frescous, quand Jun mostro soun<lb/>E qu'amaduron lis amouro<lb/>nas,<lb/>Qu'a plus d'acino l'agranas,<lb/>Ensin la flour de jouinesso<lb/>Vèn que lou Tèms la cabesso...<lb/>Adiéu lis òudour siavo e li bèlli coulour!<lb/>Li frucho van veni prenturo</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>RAMOUN FERAUT</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>2</p>
+        <lg>
+          <l><lb/>Soudart, troubadour e prèire</l>
+          <l><lb/>Tau siguè Ramoun Feraut,</l>
+          <l><lb/>Se veramen soun de crèire</l>
+          <l><lb/>Li percamin dóu terrau.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>POUESIO<lb/>-<lb/>Sege an! Sege an! mouri! Sias pas juste, bon Diéul<lb/>Quau mau vous a fs la chatouno<lb/>Pèr nous la derraba de nòsti bras fidéu.<lb/>E de nosti douci poutouno ?<lb/>Aves presso soun amo, o Poutentat crudeu,<lb/>N us laissas soun corps ; mai ferouno<lb/>La terro lou reclamo e dins uno ouro, léu,<lb/>Entarraran la charmantouno.<lb/>O queto visto soumbro o l'espetacle sour!<lb/>Van amoussa lou triste cierge<lb/>Qu'ilumino si trad de vierge ;</ab>
+        <ab type="head"><lb/>FLOUR E CHATO</ab>
+        <ab type="head"><lb/>VII.</ab>
+        <ab type="head"><lb/>lE MORT</ab>
+        <ab type="head"><lb/>A moun ami Nouré DELEUIL.</ab>
+        <lg>
+          <l><lb/>Ausés lis ourlamen terrible dóu mistrau,</l>
+          <l><lb/>Li grands aubre plegon l'esquino,</l>
+          <l><lb/>Li ró davalon, m'un crid rau</l>
+          <l><lb/>Di cresten dins li vabre, e vous, flour mistoulino,</l>
+          <l><lb/>Qu'avès per apara, de l'affrous vent terrau,</l>
+          <l><lb/>Voste cors,e vosto amo fino,</l>
+          <l><lb/>Qu’uno teleto en mousselino,</l>
+          <l><lb/>Pecaire ! toumbarés dins li rego o li trau.</l>
+          <l><lb/>Avias la blancour di paloumbo</l>
+          <l><lb/>Aro, au founs negre de la coumbo</l>
+          <l><lb/>Escoulourido, o flour, saurés pas que, degout</l>
+          <l><lb/>De la plueio, coumbour de la caud, jusqu'au bout</l>
+          <l><lb/>Vous pouriran : immoubile</l>
+          <l><lb/>Devendres fumié : fumié, l'ile !1</l>
+        </lg>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>ROSO....</ab>
+        <lg>
+          <l><lb/>MORTO LOU DIMENCHE 18 DÉCEMBRE 1881</l>
+        </lg>
+        <lg>
+          <l><lb/>E pièi, te veiren plus pèr toujour, per toujour!</l>
+          <l><lb/>Ta vido, enca boutoun, ta vido,</l>
+          <l><lb/>Roso, adau s'es espandido!</l>
+        </lg>
+        <ab><lb/>H, Fernand ANTOINE</ab>
+        <lg>
+          <l><lb/>E lei fremo, qu’avèn tant trata de blaguso,</l>
+          <l><lb/>Plouron souvent davans la panièro qu'es nuso ;</l>
+          <l><lb/>Van pas paga la rento emé de bèu discours ,</l>
+          <l><lb/>Fau desoupo eis enfant que couchon sus la duro....</l>
+          <l><lb/>— Quant ei travaiadou tranquile, s’acò duro,</l>
+          <l><lb/>An plus qu'à prega Diéu pèr que lei rende sourd!</l>
+        </lg>
+        <ab><lb/>CH. PONCY.</ab>
+        <p rend="heading"><lb/>Alouro</p>
+        <p rend="heading"><lb/>Maduro</p>
+        <lg>
+          <l><lb/>S'un vèrp noun a rouiga li flour..</l>
+        </lg>
+        <p rend="heading"><lb/>.<fw type="digitisation-artefact"><lb/>rce gallica.bnf.f/Bibliothèques de Marseille</fw></p>
+        <lg>
+          <l><lb/>Vaquit lou troubadour, lou jouious calignaire</l>
+          <l><lb/>Un di flèrs escrivan dóu rode prouvençau</l>
+          <l><lb/>Qu'i pèd de l’autar sant es a ginous, pecaire</l>
+          <l><lb/>S’es fa prèire... Perqué ?... Acò degun lou saup!</l>
+          <l><lb/>Quauque vèrp auriè-ti rouiga lis estamino</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

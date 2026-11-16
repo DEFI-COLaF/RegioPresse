@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k9605770w</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1964-01-01">1964</date>
+          <idno type="ARK">bpt6k9605770w</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k9605770w</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Paraissant tous les mois, sauf en Juillet, Septembre et Octobre</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Le Numéro: O,30NF</ab>
+        <ab><lb/>JUILLET-AOUT 1964<lb/>Nouvelle Série — N° 326</ab>
+        <p rend="heading"><lb/>QUE BUFO UN COP CADO MÉS</p>
+        <ab><lb/>LES TOULOUSAINS DE TOULOUSE 1.RUE<lb/>ORGANE<lb/>SOCIETE<lb/><lb/>ET AMIS DU VIEUX TOULOUSE<lb/>MAΥ</ab>
+      </div>
+      <div type="article">
+        <head><lb/>SOMMAIRE</head>
+        <figure type="table"/>
+      </div>
+      <div type="article">
+        <head><lb/>Cotisation 1964</head>
+        <p><lb/>Nous serions très reconnaissants à nos adhérents de bien vouloir<lb/>penser sans plus attendre au règlement de la cotisation (6 francs).</p>
+        <p><lb/>Nous rappelons qu’elle peut être acquittée, soit aux bureaux de<lb/>notre trésorier, M. Pierre Berdoues, parfumeur, 9, rue Rivals, soit<lb/>en la versant au compte de chèques postaux « Société des Toulou¬<lb/>sains de Toulouse », 7, rue du May, C.C.P. 1264-68, Toulouse.</p>
+        <p><lb/>A partir d’octobre prochain, les cotisations non acquittées seront<lb/>mises en recouvrement, sans autre avis, augmentées de 1 F pour<lb/>frais.</p>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="98"/>
+      </div>
+      <div type="article">
+        <head><lb/>A propos de la démolition de la maison</head>
+        <head><lb/>de la rue des Marchands</head>
+        <p><lb/>Pourquoi n’a-t-on pas soumis à la Commission des Sites le<lb/>projet de démolition de la maison no 35 de la rue des Marchands,<lb/>demandions-nous dans notre précédent numéro ? Parce qu’on<lb/>n’avait pas à la consulter, nous a-t-on répondu. Elle doit l’être<lb/>quand il s’agit d’une modification touchant un « site » classé ou<lb/>inscrit, mais la préservation du périmètre de protection autour d’un<lb/>« monument historique » ne relève que des fonctionnaires de<lb/>ce service. S'il arrive parfois qu'on consulte la Commission sur des<lb/>questions n’étant pas strictement de ce qu’on peut appeler<lb/>« son terrain », c’est par déférence et sans que cela constitue<lb/>une obligation.</p>
+        <p><lb/>La maison de la rue des Marchands ne se trouvait pas dans<lb/>un « site » et la proximité de l’Hôtel d’Assézat semble avoir<lb/>été oubliée dans l’affaire. En effet, c’est parce qu’elle était située<lb/>dans « l’écusson archéologique » que les services municipaux du<lb/>permis de construire transmirent le dossier pour avis, le<lb/>6 mars 1963, à leur voisin : le Bureau d’Esthétique Urbaine qui le<lb/>transmit à son tour, le 15 mars, à l’Architecte des Bâtiments<lb/>de France (et des Monuments Historiques) en attirant son attention<lb/>sur les arcades du rez-de-chaussée. L’immeuble n’étant ni classé, ni<lb/>inscrit, l’architecte des Bâtiments de France ne pouvait que s’en<lb/>laver les mains. Il donna son accord le 21 mai, estimant qu’en raison<lb/>de la répugnance de son administration à augmenter ses charges,<lb/>une proposition d’inscription d’office était vouée à l’échec.</p>
+        <p><lb/>Un an après, les ouvriers arrivèrent pour démolir.</p>
+        <p><lb/>En somme tout fut régulier et c’est le plus régulièrement du<lb/>monde qu’un acte de pur vandalisme a été commis.</p>
+        <p><lb/>Et cependant, nous ne pensons pas que l’administratioin<lb/>municipale eût nécessairement à s’incliner devant la carence de<lb/>l’administration d’État. Il nous paraît que c’est une abdication<lb/>injustifiée. En effet, les maires sont maîtres dans leur ville (c’est<lb/>d’ailleurs pour cela qu’il est question de les remplacer par des<lb/>fonctionnaires) et ce sont eux qui donnent l’autorisation de démolir.<lb/>C’est en vertu de ce droit que M. Bazerque a naguère imposé la<lb/>conservation de la façade de l’Hôtel Rességuier-Duranti sur la<lb/>rue du Lt-CI-Pélissier, et l’administration des Monuments Histori-<lb/>ques n’est intervenue que lorsque ce résultat a été acquis.<fw type="digitisation-artefact"><lb/>i/ci</fw><lb/>de Paris (1896-1907), où il eut pour maîtres Magnard et Vincent<lb/>d’Indy. Il partagea sa vie entre Saint-Félix et Céret, et fut surtout le<lb/>chantre inspiré de la nature et du pays d’Oc. Raffiné, délicat<lb/>et sensible, Debussy disait de sa musique qu’elle « sentait bon ». Il a<lb/>laissé de nombreuses œuvres : pièces pour piano, mélodies, musique<lb/>de chambre, théâtre (15).</p>
+        <pb facs="0012.xml"/>
+        <milestone unit="page" n="108"/>
+        <p rend="heading"><lb/>SAINT-JULIA-DE-GRAS-CAPOU.</p>
+        <p rend="labelled"><lb/>A Saint-Julia-de-Gras-Capou dont l’altitude est plus que le double<lb/>de celle de Toulouse (293 m contre 142), nos cars s’arrétèrent<lb/>devant une belle croix en fer forgé du XVIIIe siècle scellée sur un<lb/>socle ventru et cependant, fort élégant avec ses courbes et contre-<lb/>courbes caractéristiques du style Louis XV. Par la porte du Cers ou<lb/>de Toulouse, étayée de deux puissants contreforts, nous pénétrâmes<lb/>dans la petite ville, au fil d’une ruelle étroite qui découvre brusque¬<lb/>ment le saisissant et farouche clocher de pierre, l’un des murs<lb/>campanaires les plus originaux du Lauragais. En face, l’ancien hôtel<lb/>de ville présente encore une fenêtre géminée. Plus loin, nous admi¬<lb/>rons une porte magnifiquement cloutée, puis, contournant l’église,<lb/>nous arrivons à son mur sud, au vieil appareil marqué de<lb/>nombreuses reprises et dont le couronnement offre ces lucarnes à<lb/>fronton, fréquentes dans les sanctuaires de l’Aude. L’abri de<lb/>l’église nous reçut ensuite et M. Mesplé y évoqua à grands traits le<lb/>passé de Saint-Julia.</p>
+        <p><lb/>En premier lieu, l’étymologie de son nom : capu, lieu élevé, gras,<lb/>fertile, pas plus que gras chapons ne paraissent à retenir. Plus<lb/>sérieux semble le rapprochement avec le mot languedocien gras¬<lb/>capou désignant deux plantes : la barbarée étalée que l’on mange<lb/>en salade (Mistral) et la lanpsanne commune utilisée contre la<lb/>gerçure des seins de nourrice. L’une ou peut-être les deux plantes<lb/>croissaient sans doute en abondance aux abords de Saint-Julia</p>
+        <note>
+          <p rend="labelled"><lb/>(15) Notamment: le « Cœur du Moulin », sur un poème de Mauric Magre,<lb/>joué à l'Opéra, 1909. « Héliogabale », joué aux Arènes de Béziers, 1910. « Hélène<lb/>de Sparte », joué au Châtelet, 1912. Sa mort laissa inachevés : « Les Anti-<lb/>bel », d’après Emile Pouvillon, ainsi qu’un « Simon de Montfort ».</p>
+        </note>
+        <p rend="styled"><lb/>Saint-Félix a élevé un monument à Déodat de Séverac, sous les murs du<lb/>château, Toulouse lui a récemment dédié le Jardin-Royal qu’il aimait.</p>
+        <p><lb/>Déodat de Séverac a été honoré, en juin 1964, dans la Collégiale, où le « Messi-<lb/>dor toulousain 64 » a débuté, devant une foule considérable, par un concert<lb/>d'orgue, musique de chambre, et chant choral, qui lui était en grande partie<lb/>consacrés.<lb/>aussi bien que de son quasi homonyme ariégeois : Saint-Julien-de-<lb/>Gras-Capou. Reste encore, d’après de Thou, le rapprochement avec<lb/>ce qui aurait été l’appellation antique : fanum Julii.</p>
+        <pb facs="0013.xml"/>
+        <milestone unit="page" n="109"/>
+        <p><lb/>La préhistoire, l’époque romaine, le haut moyen âge ont laissé<lb/>des traces dans le sol de la commune, mais ce n’est qu’avec le moyen<lb/>âge que Saint-Julia apparaît comme une communauté constituée<lb/>dès le XIIe siècle, ville fermée ayant remparts, fossés et deux portes:<lb/>la porte de Cers ou de Toulouse qui subsiste encore et<lb/>la porte d’auta ou de Revel qui était encadrée de deux tours et qui<lb/>a été démolie à la fin du siècle dernier. Il n’y avait pas de seigneur<lb/>résidant et donc pas de château. Les seigneurs lointains, qui avaient<lb/>concédé des coutumes libérales (consuls élus par les habitants et<lb/>droits divers), furent : jusqu’en 1224 les comtes de Toulouse,<lb/>jusqu’en 1270 les comtes de Foix, jusqu’en 1606 les rois de France<lb/>(d’où l’écu de France dans le blason de Saint-Julia). En 1606,<lb/>Catherine de Lignerac acheta la seigneurie qui, à la suite d’un<lb/>procès passa, en 1626, à Adrien de Montluc, comte de Carmaing et<lb/>seigneur de Saint-Félix; et jusqu’à la Révolution, les deux cités<lb/>eurent les mêmes maîtres (énumérés ci-dessus par M. Camboulives).</p>
+        <p><lb/>Saint-Julia était l’une des onze villes maîtresses du diocèse et,<lb/>à ce titre, envoyait un député aux Etats de Languedoc et un repré-<lb/>sentant à l’assemblée de l’assiette de l’impôt. Ses habitants avaient<lb/>le droit de porter les armes et de former des milices bourgeoises,<lb/>dont il n'eurent que trop à user, car, du XIIIe au XVIIe siècle inclus,<lb/>le pays connut une succession de calamités dues principalement aux<lb/>guerres : croisade des Albigeois, guerre de Cent Ans, guerres de<lb/>religion et leurs séquelles. Saint-Julia fut pillé, rançonné, assiégé,<lb/>pris et repris de multiples fois, dut loger des troupes ou se saigner<lb/>aux quatre veines pour qu’elles aillent loger ailleurs, le tout entre¬<lb/>coupé de deux épidémies de peste en 1629 et en 1670. Le XVIIIe siècle<lb/>apporta enfin la paix et si la Révolution troubla un moment la<lb/>petite ville, du moins sa population n’eut pas à subir de graves<lb/>sévices. Au dieu du jour, elle offrit en holocauste provisoire son nom<lb/>qui devint Mont-Civique et, en holocauste définitif, la chapelle Saint¬<lb/>Roch (élevée à l’occasion de la peste de 1629) et qui tombait en<lb/>ruine. Mais elle fit la sourde oreille à l’ordre de démolir son clocher<lb/>et, si ses administrateurs eurent l’air d’obéir à l’ordre d’apporter<lb/>leurs cloches à Toulouse pour y être fondues et les firent déposer<lb/>à la mairie, un rapt bien organisé les en enleva dans la nuit.</p>
+        <pb facs="0014.xml"/>
+        <milestone unit="page" n="110"/>
+        <ab><lb/>-<lb/>Enfouies dans un champ, elles attendirent pour reprendre leur place<lb/>l’avènement de temps meilleurs.</ab>
+        <p><lb/>Quant à l’église qui remonterait au XIIIe siècle, elle eut certaine¬<lb/>ment à souffrir des troubles traversés et dut être restaurée ou même<lb/>en partie reconstruite à plusieurs reprises. Une inscription de 1326<lb/>(disparue ?) fait allusion à l’un de ces travaux. D’autre part, la nef<lb/>avait été dotée, à la fin du XVIe ou au début du XVIIe siècle, d’un<lb/>très beau chœur pour lequel la reine Marguerite, seigneuresse de<lb/>Saint-Julia, avait donné l’importante somme de 15 000 livres.<lb/>En 1728, alors qu’on commençait des travaux de restauration, la<lb/>voûte de la nef s’écroula ne laissant debout que le chœur, les<lb/>chapelles sud et le clocher. On reconstruisit au nord des chapelles<lb/>voûtées, mais la nef ne reçut qu’un plancher qu’on n’eût de cesse<lb/>de remplacer en 1869 par une voûte de style pseudo-renaissance<lb/>qu’on étendit malheureusement au chœur; ainsi l’édifice a perdu<lb/>intérieurement la plus grande partie de son caractère.</p>
+        <p><lb/>Des tableaux sans intérêt particulier ornent le chœur; la chapelle<lb/>du Sacré-Cœur conserve une toile de Bernard Bénézet représentant<lb/>un épisode de la peste de Marseille (ne serait-ce pas plutôt un<lb/>épisode de la peste de Saint-Julia ?) ; au-dessus de la tribune, se<lb/>développe l’Assomption, peinture murale de Gabriel Béringuier.<lb/>Notons pour finir cinq cloches anciennes : une de 1396, une de 1470,<lb/>deux du XVIe siècle, une de 1750.</p>
+        <p><lb/>M. Pierre de Gorsse ajouta quelques mots pour rappeler le sou¬<lb/>venir du romancier Edouard Estaunié (1862-1942), de l’Académie<lb/>Française, qui écrivit une bonne partie de son œuvre à Saint-Julia.<lb/>Une plaque a été apposée sur sa maison qui appartient aujourd’hui à<lb/>nos amis M. et Mme Jacotin de Rosières (1).</p>
+        <p rend="heading"><lb/>LE CHATEAU DE MONTGEY.</p>
+        <p><lb/>Il était 7 heures du soir et le temps s’assombrissait lorsque, dans<lb/>les rafales du vent d’autan, nous arrivâmes sur la terrasse du<lb/>château de Montgey où M".<lb/>propriétaire, nous attendait. Avec un empressement auquel tous<lb/>furent particulièrement sensibles, elle nous en fit les honneurs,<lb/>nous montrant sur la façade ouest une porte en plein cintre murée,<lb/>certainement l’une des parties les plus anciennes du château; puis<lb/>elle nous fit pénétrer dans la cour et de là dans ses appartements du</p>
+        <note>
+          <p rend="labelled"><lb/>(1) Voir l'Auta d'avril 1943 (N^o 144): Un académicien de chez nous, Edouard<lb/>Estaunié, par le Dr Louis TIMBAL.<fw type="digitisation-artefact"><lb/>eai/Aci Toulo</fw></p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

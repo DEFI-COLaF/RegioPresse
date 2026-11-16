@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Progrès de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k1868861p</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Progrès de la Côte-d'Or : journal politique... ["puis" journal républicain quotidien]</title>
+          <publisher>[s.n.] (Dijon)</publisher>
+          <date when="1896-07-17">1896</date>
+          <idno type="ARK">bpt6k1868861p</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k1868861p</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0005.xml"/>
+          <ab><milestone unit="column" n="1"/><lb/>pexferes e portes en fer sient<lb/>Marrières et portes en fel<lb/>FOURNEAUX Ainé<lb/>Serrurier-Constructeur à Ladoix-Serigny (Cote-(Or)<lb/>SERRURERIE DE BATIMENT, etc, etc.<lb/>Poreeler ern NOURNRAUX Ainé<lb/>MAISON VONDEE EN IS5S<lb/>BAILLE FRÈRES — DIJOn<lb/>AnTi a 1a e 1s fA aructe <lb/>eres, a 12 et 15 fr.: aricls<lb/>t. 50: coina fer, A 4,5 et Cfr: cotas cuir. 7 fr.<lb/>PLIANTS, GYNNASTIQUE. VOITURES D'ENPANTS<lb/><lb/>L'ADMINISTRATION<lb/>GRAnd DÉBALLAGE<lb/>ANNONCES<lb/>ET AVIS DIVERS<lb/><lb/>Une Représentation<lb/>A Vendre aux Enchères<lb/>N'ayant plus que quelques jours de vente,<lb/>:<lb/><lb/>PRoPRIÉTÉ<lb/>Magie de la raa Daup<lb/><lb/><lb/>A vendre aux enchères<lb/>BICYCLETTES AESOLUUENT IRREPROCHABLES<lb/>3' NUE-PROPRIETE<lb/><lb/><lb/>purgeoise</ab>
+          <ab><lb/>ADJUDICATION<lb/>OUPES DE BOIS Vente Mobiliere<lb/>du 1" août 1896<lb/>cre eu u vor , </ab>
+        </div>
+        <div type="article">
+          <ab><lb/>ue er cupe s'm es me<lb/>eo centiares, coupo m- 1i. Fore<lb/>30 csstares, cospe - i1. grae<lb/>s, cospo s, bets ee la Baia, <lb/>Dota Lereque, cospe n° 2. 7 hectaret<lb/> sur Bory. Bas, coope a' 4, S bectar<lb/>. ser Blaisy. Bas, coope m' 4.e<lb/> Pre. coope n n. 1 e-<lb/>ur Bagost, coope n' 4. Cpartis<lb/>stes, sur Pernane, eoopo n 6. 4 bectare<lb/>cei, rur Perzand, cope n° 5. a bestares 8.<lb/>es sur ay. co i4, <lb/>rane Cies, 9 mtae<lb/>Reriites, commune de Labe<lb/>tle.. tesies. 1.</ab>
+          <p rend="labelled"><lb/>ci à Di, 17. piac stiena</p>
+          <p rend="heading"><lb/>2° TERRAIN</p>
+          <p rend="heading"><lb/>CAFÉ -RESTAURANT</p>
+        </div>
+      </div>
+      <div type="article">
+        <figure type="table"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Récoltes sur pied</ab>
+        <ab><milestone unit="column" n="2"/><lb/>   . . 1, , 1</ab>
+        <p rend="heading"><lb/>TAENE DE<lb/>DE </p>
+        <p rend="heading"><lb/>TONDS DE CONVERCE</p>
+        <ab><lb/>es vin a Spinis es FONDS DE CHARPENTIER</ab>
+        <ab><lb/>Maison bourgecise</ab>
+        <p rend="heading"><lb/>A VENDRE</p>
+        <p rend="heading"><lb/>tier a oes, rue Mate,</p>
+        <p rend="heading"><lb/>Matériel de Peintre</p>
+        <p rend="heading"><lb/>UN FONDS DE</p>
+        <p rend="heading"><lb/>WOBILIER</p>
+        <ab><lb/>V.BALLOT<lb/>eccesseur de M.A. Gaillam<lb/><lb/><lb/>LOCATION DAPPARIEVEATS<lb/></ab>
+        <p rend="heading"><lb/>T E 2</p>
+        <p><lb/>compani. sans fesi.</p>
+        <ab><lb/>ER<lb/>Rre Saicte-Amse, 12<lb/>LOCAL<lb/></ab>
+      </div>
+      <div type="article">
+        <p rend="labelled"><milestone unit="column" n="3"/><lb/>IHPUISSANCE </p>
+        <p><lb/>Pastilles Pectorales-Anficatarrhales</p>
+        <p rend="heading"><lb/>DE L. VERNEAU</p>
+        <p><lb/> ver Pai</p>
+        <p><lb/>caui M. Tive. - A Cin. cas . es en. — A Nai</p>
+        <ab><lb/>BOIS DE CONSTRUCTION<lb/>E. PHILIPOT<lb/>DIJON - Rue du Drapeau. - DIJON<lb/>Scierie à Andelot-en-Montagne (Jura)<lb/>Bois de sspia por cp et i, Parques ch<lb/>Seiogen ehène, hötre, peupliers</ab>
+        <p rend="styled"><lb/>a. ruo du Chapean Rouge. pres Tangie de la rm ee la Lcrto</p>
+        <p rend="labelled"><lb/>BASKEIS cu malles oiter. garnie cuir de vatho, depuis 45 et 50 fr.</p>
+        <p rend="styled"><lb/>re, Sac rs, sac e toui<lb/>o</p>
+        <ab><lb/>GRANDE PHARMACIE NOUVELLE<lb/>22, rue de la Liberté, Dijon<lb/>La houteille: 2 fr. 50 au leu de 4 fr.<lb/>HUILE DE POIE DE MoRtE ́ 1'80<lb/>HUILE DE FOIE DS MORIE Biancb E'. 2'50<lb/>HUILE DE FOI DE NORE.2'50<lb/>sctoral du B James, à s. cta. La bo<lb/></ab>
+      </div>
+      <div type="article">
+        <ab><lb/>VINS D'ALGÉRIE<lb/>GaRANTIs NATURELS<lb/>des dsmices de Sili-Aim (Négrier) et Sim-Aspestia (Sai-Sal) casscroles rendces a raion de 40 conimes plece<lb/>AYME père, Prepndirelcke<lb/>A. AYME Jeune, Sucer<lb/>Nanuketure nationale de Dijon vEnTE EA PiÉcES, FEvitETTES, qUAATs, DEPUIs 35. L'uTeT.<lb/>ega de ducoendes en sa sn e ras den</ab>
+        <ab><lb/>BOIS DE CONSTRUCTION ET DE HENUISERIE<lb/>ADRIEN GIROD<lb/><lb/>EHTREPOT: 13, RUE C'ARUT, A DISON<lb/>SCRACES SAPIN, CIENE, NÉTRE, PEUPLER. ETC.<lb/>Mouiures, parquets chéno, sapin, pitchpi<lb/>MOIS DE CMARPENTE DE TOUTES LONGUEUR</ab>
+        <p rend="heading"><lb/>Designation des lots</p>
+        <p rend="heading"><lb/>FRÉDÉRIC MUGNIER, DIJON</p>
+        <p><lb/>ante d Bourgogneus<lb/>portante de la Bourgogne</p>
+      </div>
+      <div type="article">
+        <head><lb/>CHASSE</head>
+        <ab><lb/>CASSIS MUGNiER<lb/>APÉRITIF MUGNIER<lb/>ABSINTHE MUGNIER<lb/>BIGARREAU MUGNIER<lb/>8 Diplômes d'honneur, 55 Médailles or, etc.<lb/>MtDAILLE BOR. EIPOSITION DEIV. PARIS. 1:89<lb/>o ille, se</ab>
+        <p rend="labelled"><lb/>BREAU</p>
+        <p rend="heading"><milestone unit="column" n="4"/><lb/>MACHINES AGRICOLES &amp; VINICOLES.</p>
+        <p rend="heading"><lb/>puloirs et égrappoirs perfec</p>
+        <p rend="styled"><lb/>PABRICATiON SPíCIALE DE PERSIENNES</p>
+        <p><lb/>trgte modeles, avec aemblage</p>
+        <ab><lb/>Construction de Voitures &amp; Harnais<lb/>EN TOUS GENNES<lb/>Ancienne Maison BARY ainé<lb/>Jacques HILGER<lb/>DIJON — Res Cincelier-[Hespital — DIJON<lb/>GRAND CHOIX DE VOITURES NEUVES<lb/>Harnais, Selles, Briles, Caavertares, Articles décuris, etc.</ab>
+        <ab><lb/>CUIVRAGE<lb/>Polissage, Nickelage, Dorure<lb/>ARGERTURE SUR TOUS MÉTAUX<lb/>ARRINDARRÉ<lb/>19, RUE COURTEPEE, DNON<lb/>ON DEMAHDE DES OUVRIERS POLISSEURS</ab>
+        <ab><lb/>dano d'Ar<lb/>SUŒ<lb/>BOURGUIGNON<lb/>Spécialites : PRUNELLE et CASSIS<lb/>Distillerie d'Absinthe supétieure<lb/>, ts. ru </ab>
+        <p rend="heading"><lb/>d'Articles émaillés</p>
+        <p><lb/>de la rue du Bourg, 33 (angle de la rue Dauphine;</p>
+        <p><lb/>Prévient les Dijonnais qu'un nouvel arrivage de<lb/>casseroles et marchandises diverses vient d’avoir lieu.</p>
+        <ab><lb/>CYCLES DECAUVILLE<lb/>7, ruo Saint-Pierro, DisON</ab>
+        <p><lb/>Bicyelettes pneumatiques depuis 260 fr.</p>
+        <p rend="heading"><lb/>es, arce cec compt, us, cere el laars</p>
+        <p rend="heading"><lb/>BRANDE LOCATION</p>
+        <p><lb/>Bioyolettes Hommes et De</p>
+        <p rend="styled"><lb/>LzçONS. PRIX TRES MOOEne<lb/>Réperetiont soigutes. - Eenange. - Grand chsix cAecssotres</p>
+        <ab><lb/>Cycles Rochet<lb/>A. CANÉ, 15, me Pires, DIJON<lb/>BICYCLETTE, TYPE MILITAIRE<lb/><lb/>net 250 francs<lb/>GARANTIE CINO ANS<lb/>Atelier de Réparations de toutes marques<lb/>OUVERT DIMANCHES ET FÉTEN</ab>
+        <ab><lb/>Sou geBbliotèque nationae de e</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

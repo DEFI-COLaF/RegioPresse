@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136262b</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1898-10-27">1898</date>
+          <idno type="ARK">bpt6k8136262b</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136262b</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>VUECHENCO ANNADO, No 282</fw>
+        <fw type="runningTitle"><lb/>Bi00, 2. D'ÓUTOBRE 1898.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr l'oli<lb/>E faren l'aiòli.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>(Prouver: de menounté </ab>
+        <ab><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.</ab>
+        <ab><lb/>F. MISTRAL.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FE (7,17,27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI<lb/>au palais dóu Roure<lb/>EN AVIGNOUN</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>vie française, ce ne sont pas uniquement les foncten cremenes geuerateurs cu pantoustisme, tous egalement<lb/>Mais le pas décisif reste à faire. Une assemblée pro-<lb/>vinciale, une administration provinciale doivent couron¬<lb/>ner cet heureux ensemble. Elles auront dans leurs attri-<lb/>butions tout ce qui touche aux intéréts régionaux, dont<lb/>Paris est absolument tenu de se désintéresser. Par con-<lb/>tre, le gouvernement local devra scrupuleusement :ban¬<lb/>donner au pouvoir central tout ce qui est de l'intérêt<lb/>commun de la nation. Sous cette seule réserve, l'admi-<lb/>mistration provençale ne peut qu'être absolument affran-<lb/>chie de toute tutelle, en ce qui regarde les choses de<lb/>Provence. Ses membres, personnellement majeurs en<lb/>tant que citoyens, ne sauraient, en bonne justice, deve-<lb/>nir mineurs lorsqu'ils réunissent en faisceau leurs lu-<lb/>mières individuelles. Il faut, de plus, que ce personnel<lb/>soit indigène et exclusivement recraté, selon la formule<lb/>de 1348, parmi « les hommes du pays ou habitant le<lb/>pays ». Il est indispensable enfin, suivant le vœeu du<lb/>congrès d'Avignon, qu'ils connaissent le parler local.</ab>
+        <ab type="head"><lb/>DISCOURS</ab>
+        <ab type="head"><lb/>L. de BERLUC.PERUSSIS</ab>
+        <p><lb/>Lou discours prounouncia en felibrejado<lb/>de Vòus pèr M. de Berluc-Perùssis, noste bèu<lb/>majoarau bilingue, es uno trop grando esclar-<lb/>siado pèr que noun la larguen, entiero e lindo,<lb/>dins l'Aiòli. E laus courau à l'ouratour!</p>
+        <p rend="styled"><lb/>MESDAMES ET MESSIEURS,</p>
+        <p><lb/>Si nombreuse et si belle que soit cette assemblée, jose<lb/>presque dire que nous voici en famille. Tous ici, nos<lb/>élus en téte, nous appartenons à cette vieille et bonne<lb/>maison qui a noi Provence. Pas le moindre champ mois<lb/>ou picard, pas le plus petit sous-secrétaire d'Etat des<lb/>télégraphes ou des colonies, nul de ces hauts barons<lb/>d'lle de France, qui volontiers proménent, parmi les<lb/>provinces vassales, leur bienfaisante protection, toujours<lb/>prêts à dorer, à l'aide des plus artistiques formules, les<lb/>Nourd anneaux forgés par les Valois et cadenassés par<lb/>réveque de Luçon.</p>
+        <p><lb/>Donc, mesdames et messieurs, puisque nous voilà<lb/>dans une sorte d'entre-nous, causons, si vous le voulez<lb/>bien, de nos affaires. Je voudrais effleurer du bout de la<lb/><lb/>plume la question aigue inscrite au frontispice de notre<lb/>programme. Son nom seul est déjà, vous le savez, ma-<lb/>tière à controverse. Les timides d'arrière-garde l'appellent<lb/>encore, comme il y a quarante ans, la Décentralisation ;<lb/><lb/>les jeunes éclaireurs du XXe siècle l'étiquettent bravement<lb/>le Fédéralisme ; mais, pour le quart d'heure, à l'étape où<lb/>nous la voyons arrivée, elle ne peut, à mon humble sens,<lb/>se nommer autrement que Provinciallsme.</p>
+        <p><lb/>N'ayez peur que je fasse entendre en ce plein air<lb/>une seule parole, ni que j'aie au fond de l'âme une seule<lb/>pensée que ne puisse ouir, voire approuver, quiconque,<lb/>sutil délégué du pouvoir parisien, porte en soi un cœur<lb/>de patriote et un libre esprit.</p>
+        <p><lb/>Il est des problèmes qu'il est impie de poser. Ne vous<lb/>est il pas arrivé plus d'une fois, mesdames, tandis que<lb/>votre enfant gambadait joyeux entre son père et vous,<lb/>de rencontrer, au détour du chemin, un aimable mal-<lb/>appris qui, de l'air le plus gracieux, demandait au bébé<lb/>interloqué : « Lequel donc, mon petit ami, préférez vous,<lb/>de papa ou de maman? » Quel aigre froissement, n'est-ce<lb/>pas? au plus intime de vois-mêmes ! Eh ! bien, cette<lb/>culsante piquure, certains politiciens ne nous l'iofligent-<lb/>ils pas, tout aussi profonde, lorsqu'ils nous somment<lb/>d'analyser et d'affirmer nos préférences entre ces deux<lb/>Patries, l'une naturelle et sentie, l'autre adoptive et vou-<lb/>lue, que nous sommes habitués à marier dans une même<lb/>tendresse? C'est chez nous une manie, hélas ! trop na-<lb/>tionale, que celle de classer et de hiérarchiser ainsi, non<lb/>seulement les gens et les choses, mais jusqu'aux senti-<lb/>ments. Dans la perpétuelle distribution de prix qu'est la<lb/>nécessaires, les uns comme base matérielle, les autres<lb/>comme couronnement moral. Vouloir les isoler serait<lb/>séparer, dans un édifice, le faite des fondations.</p>
+        <p><lb/>Nous naissons dans ce petit cercle qui s'appelle la<lb/>famille. A son tour, la famille est entourée de cercles<lb/>grandissants, la commune, la province, la nation, l'hu¬<lb/>manité. Tout cela nous enveloppe, tout cela est à nous<lb/>et nous sommes à tout cela. Supprimez ou restreignez<lb/>l'un quelconque de ces anneaux concentriques, et vous<lb/>brisez toute une admirable combinaison de rouages,<lb/>toute une harmonie lentement formée par l'évolution na-<lb/>turelle des cités et des peuples.</p>
+        <p><lb/>L'amour de la commune, celui de la province, celui de<lb/>la nation, sont les formes échelonnées d'un sentiment<lb/>unique. Quiconque ne les confond pas dans un même<lb/>culte passionné, ne comprend qu'à moltié la grandeur<lb/>et la saveur de cette religion de la Patrie. Un musicien<lb/>aimerait à y voir ce trio de notes sours, dont chacune,<lb/>prise à part, ne représente qu'un son banal, et qui<lb/>constituent l'accord parfait par leur union et leur simul.</p>
+        <p><lb/>Soyons donc provençaux autant que français, français<lb/>non moins que provençaux. Travaillons de tout notre<lb/>effort moral à la résurrection des provinces, dont la nô<lb/>tre, Provincia provinciarum, est le prototype historique.<lb/>Déja rétablie depuis longtemps, aux divers points de<lb/>vue religieux, judiciaire, militaire, académique et fores-<lb/>tier, la Provence a récemment récupéré, en perspective<lb/>au moins, la quasi-autonomie de son université antique.<lb/>C'est un pas marqué vers notre idéal.</p>
+        <p><lb/>Car, mesdames et messieurs, c'est toujours à cette<lb/>question de la langue qu'on aboutit fatalement, dès qu'on<lb/>aborde le problème de l'indépendance provinciale. La<lb/>langue est un phénomène naturel, que la politique n'a<lb/>ni la possibilité de méconnaitre ni le droit de suppri-<lb/>mer. Le provençal est le véhicule spontané, obligatoire,<lb/>de la pensée provençale.</p>
+        <p><lb/>Ici, plus d'un m'arréte avec l'objection ressassée: «Le<lb/>provençal s'en va, il est condamné à une mort prochaine<lb/>vous tentez une ceuvre inutile.»<lb/>naires, les routes et les monuments qui sont mandari-<lb/>nesquement rangés par catégories. Le coeur lui-mème<lb/>doit, parait-il, offrir, comme un train omnibur, des<lb/>compartiments de toute classe ; et de même qu'un sous-<lb/>ordre n'a droit qu'à un ticket de deuxième, de même une<lb/>simple Province ne peut prétendre qu'à un sousamour.</p>
+        <p><lb/>Il serait temps, m'est avis, de s'entendre une bonne<lb/>fois sur cette notion du patriotisme, qui tend, le centra¬<lb/>lisme aidant, à dévier de son sens traditionnel.</p>
+        <p><lb/>Avez-vous jamais cherché, messieurs, l'origine de ces<lb/>syllabes sacrées, Patrie, qui sont sur toutes les lèvres<lb/>et que profanent tant de bouches ignares ou indignes?<lb/>La patrie, tellus patria, c'est le sol paternel.</p>
+        <p><lb/>Un félibre avant la lettre, Plutarque, trouvait ce mot<lb/>insuffisant pour désigner une aussi douce chose que la<lb/>région qui fut notre berceau; et comme, disait il, l'idée<lb/>de maternité éveille un sentiment plus tendre que celle<lb/>de paternité, Il voulait que la terre natale s'appelât,<lb/>non Patrie, mais Matrie. Notre compatriote, l'auteur du<lb/>Jeune Anacharsis, assure que les Crétois. qui, de tout<lb/>temps et hier encore, montrèrent une si ardente attache<lb/>pour leur pays, avaient devancé ou peut-être lu Plutar¬<lb/>que, et nommaient la Crète leur Matrie. J'imagine que,<lb/>pour être logiques, lls gardaient le nom de Patrie à l'hé¬<lb/>roique Grèce, orgueilleux qu'ils étalent de s'encadrer<lb/>dans la fière confédération de l'Hellade.</p>
+        <p><lb/>Voilà, n'est-il pas vrai, messieurs, un beau précédent<lb/>à suivre. Nous aussi, cette lumineuse contrée où nos<lb/>yeux s'ouvrirent á l'azur ensoleillé, cette nourrice dont<lb/>les sucs féconds formèrent nos jeunes chairs, cette Pro-<lb/>vence qui nous apprit à balbutier son verbe musical et<lb/>suscita nos premiers instincts vers te Beau, ne l'adorons-<lb/>nous pas comme la Mère par qui nous sommes? Ce<lb/>grand pays de France, qui doucement nous arracha des<lb/>genoux maternels et nous prépara aux viriles exigences<lb/>de la vie, en nous disant ses gloires, ses malheurs, ses<lb/>espoirs, n'est-il pas, à son tour, le Père de qui nous<lb/><lb/>nous réclamons, pour qui nous prétendons combattre<lb/>et vider tout le sang de nos veines? Nous sentons pal-<lb/>piter en nous leurs deux ámes jumelles Entre la Ma-<lb/>trie qui berça nos premiers ans et la Patrie qui nous<lb/>enivre de sa fierté généreuse, nul n'a le droit de nous<lb/>imposer une préférence, de réclamer une option de no-<lb/>tre flliale piété. Pas plus que votre enfant, mesdames,<lb/>nous ne saurions choisir entre « papa et maman ».</p>
+        <p><lb/>C'est pourquoi, j'en demande pardon au Capoulier, mais<lb/>f'estime que son la Franço mai que tout fait vraiment<lb/>trop bon marché de cette Matrie sainte que la voix bien<lb/>française de nos parlementaires vient de magnifler avec<lb/>émotion. L'inverse, la Prouvènço mai que tout, serait un<lb/>autre contre-sens, une autre impiété. Tamizey de Larro-<lb/>que a trouvé, lui, une formule exquisement ingénieuse:<lb/>« Il faut, a dit le regretté savant qui fut l'incarnation du<lb/>méridionalisme, il faut aimer de tout son cœeur la grande<lb/>patrie, et encore plus, s'il se peut, la petite. » Ce s'l se<lb/>peut est la dominante du précepte ; car, je l'ai dit, cela<lb/>ne se peut pas. Nul choia n'est possible entre les divers</p>
+      </div>
+      <div type="article">
+        <head><lb/>PRES de L'ABOUNAMEN</head>
+        <figure type="table"/>
+        <ab><lb/>Baile dóu journau<lb/>FOLCO DE BARONCELLI<fw type="digitisation-artefact"><lb/>Bibliothèqu<lb/>gallica.bnf.fr</fw></ab>
+        <figure type="decoration"/>
+      </div>
+    </body>
+  </text>
+</TEI>

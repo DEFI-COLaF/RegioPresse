@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136109m</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1894-08-07">1894</date>
+          <idno type="ARK">bpt6k8136109m</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136109m</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>QUATRENCO ANNADO, No 130.</fw>
+        <fw type="runningTitle"><lb/>DIMARS, 7 D'AVOUST 1804</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr loli<lb/>E faren P'aiòli.</ab>
+        <lg>
+          <l><lb/>Vidoun, Vidau,</l>
+          <l><lb/>Segound la vido</l>
+          <l><lb/>Lou journau.</l>
+          <l><lb/>(Prouverot de meisrounis)</l>
+        </lg>
+        <ab><lb/>F. MISTRAL.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17,27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="3"/><lb/>PRES DE L'ABOUNAMEN</ab>
+        <ab><lb/>BUREU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI,<lb/>au patais déu Roure,<lb/>EN AVIGNOUN</ab>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>Baile dóu journau:<lb/>FOLCO DE BARONCELLI.</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>Veire à la 4° pajo dou journau LOU<lb/>PROUGRAMO DI FESTO FELIBRENCO E CIGA¬</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>ublica pèr Folcò de</ab>
+        <ab type="head"><lb/>L'ARMADO</ab>
+        <ab type="head"><lb/>AU POUN DE VISTO PROUVENÇAU·</ab>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/> l'escolo felibrenco di gênt jouine don Miejour que<lb/> demoron à Paris s'es tengu, lou 17 dóu mes de<lb/><lb/>juliet passa, uno sesiho que merito lis ounour d'aquest<lb/>journau — e veici la causo.</p>
+        <p><lb/>Après s'êstre debana, coume es aqui l'usage, lou cabe-<lb/>deu de l'ordre dou jour, lou felibre Jóusé Mange s'es<lb/>esplica coume seguis:</p>
+        <p><lb/>Messiés, anan claure la sessioun de 1893.<lb/>1894. Noun avèn plus que dous dimars avans<lb/>que de parti cadun pèr noste pais. Nous re-<lb/>trouvaren en óutobre que vèn. Soulamen,<lb/>dins aquesto soucieta — que li jouvènt ié<lb/>soun en majouro partido, degun pòu ignoura<lb/>qu'au mes de setèmbre se dèvon faire dins<lb/>tout noste car païs de Franço, e peréu en<lb/>serro d'O, li gràndi manobro d’autouno, que<lb/>e dison « li vint-e-vue jour».</p>
+        <p><lb/>Es bessai lou cop de se remembra entre<lb/>nautre li vers de noste mèstre Mistral, en par-<lb/>lant de la lengo d'O:</p>
+        <p rend="styled"><lb/>Per nous etsda de langy<lb/>Per nous engarda de lang</p>
+        <p><lb/>Proun d'àutri, fau lou dire, an adu avans<lb/>nautre nosto lengo à la caserno. l'a dous an,<lb/>noste ami Folcò de Baroncelli faguè soun ser¬<lb/>vice dins lou 58 d’enfantarié en Avignoun e,<lb/>en rintrant à soun oustau, escriguè pèr l'Aiòli<lb/>un bèl article qu’avèn souvènti-fes relegi eicito<lb/>meme, L'armado au poun de visto prouvençau.</p>
+        <p><lb/>Avèn vist de nòstis iue, quàuquis ami d’en-<lb/>fanço e tambèn iéu, coume èro vertadié lou<lb/>di de Folcò. Sian esta soudard ensèn à Nimes,<lb/>à Marsiho, à-z-Ais, à Digno: avèn óusserva<lb/>pertout coume lou bon pople de Prouvènço,<lb/>representa pèr li mascle e li jouvènt de la<lb/>raço, es resta fidèu au parla de si rèire. A Digno<lb/>subre-tout, ounte ère reservisto, se charravo<lb/>que prouvençau à la caserno.</p>
+        <p><lb/>Lou capourau, l'iue fissa sus la teourio,<lb/>tradusié tout ço que l'avié dessus d'escri is<lb/>ome qu'estruisié. Disié pas un pessu de fran-<lb/>chimand. Lou mot tradurre éu-meme es pas<lb/>proun verai : lou capourau reservisto, que<lb/>sourtié de sa terro e qu'anavo se i'entourna,<lb/>legissié lou franchimand coume s'èro escri en<lb/>prouvençau. Lou franchimand pèr éu noun</p>
+        <p rend="labelled"><lb/>E La marcho di Rei ! l'a dous pouèmo prou-<lb/>vençau bèn couneigu que se podon canta sus<lb/>d'aquel èr: lou vièi nouvè de Doumergue e lou<lb/>jouine serventés de la Marcho de Tureno qu'a<lb/>fa noste brave Capoulié En Fèlis Gras:</p>
+        <ab type="head"><lb/>Mi soudard....</ab>
+        <p><lb/>E bèn, Messiés, vous prepause de dire e de<lb/>fai dire i jouini felibre:</p>
+        <p rend="styled"><lb/>Aquéli bèu cant, li fau mena 'mé vautre. Li<lb/>fau canta a la caserno en touto óucasioun. Li fau<lb/>coupia de tout caire e li faire coupia. Es ansin,<lb/>sènso argènt, sènso ceremounié, memamen sènso<lb/>empremarié que se pou reviéuda un grand pople<lb/>per lou coumun esfors di boni voio e di bon cor.</p>
+        <p><lb/>Acò, lou sabe, i'a de felibre que lou faguèron<lb/>ajaproun en seguissènt la soulo ispiracioun de<lb/>soun amour pèr lou Païs e pèr la Causo. Faguen-<lb/>lou, nautre, emé « metodo », emé e countuni»<lb/>coume dirié Pèire Laffite; e, pèr aco, M. Pèire<lb/>Laffite, bèn ispira dóu mount-pelieren Aguste<lb/>Comte, a resoun. La « countúni », en bon prou-<lb/>vençau la perseveranço emé lou testardige, i'a<lb/>qu'aco dins lou mounde, i'a qu'acè per faire</p>
+        <p rend="labelled"><lb/>Lou Cabiscou (Frederi Amouretti)<lb/>demando a M. Frissant, que revèn tout-bèu-<lb/>just de l'armado, ço que pènso de la proupou-<lb/>sicioun de M. Mange.</p>
+        <p rend="labelled"><lb/>M. Frissant. — Pode rèn faire que<lb/>de l'aprouva assouludamen. Siéu d’aquéli que<lb/>creson, emé Folcò de Baroncelli, que la ca-<lb/>serno es l'endré mounte noste lengage sara<lb/>de-longo en usanço. Soulamen fau, coume<lb/>l’avès di, Moussu Mange, reviéuda aquelo<lb/>usanço e la faire servi à rèndre lou Felibrige<lb/>poupulàri.</p>
+        <p><lb/>léu, quouro ère à Bastia, sóudard au 61e<lb/>d'enfantarié, ai bèn vist coume li causo dèvon<lb/>èstre counducho.</p>
+        <p><lb/>Avian founda alin un ciéucle escassamen<lb/>coumpausa de militàri. N'en siéu esta lou Ca-<lb/>biscòu. L'article proumié de l'Estatut pourtavo<lb/>que li prouvençau soulamen poudien n'en<lb/>faire partido. Aqui, pagavian uno pichoto<lb/>coutisacioun mesadiero que servié à l'abou-<lb/>nage de journau prouvençau, L'Aiôli, La Sar-<lb/>tan, La Cigalo d'or e, quouro nous soubravo<lb/>quauque argènt, nous acampavian en sesiho<lb/>generalo, e se cantavo, e se disié de causo en<lb/>lengo d'O, tout en turtant de got e lipant de<lb/>pastissarié.</p>
+        <p><lb/>Dous o tres cop l'an, meme, fasian de ban-<lb/>quet e, au moumen di brinde, lou prouvençau<lb/>clantissié au mitan dis aplaudimen. Coume<lb/>crese la causo unico, d'un ciéucle assoulu-<lb/>damen militòri, em' un burèu, un estatut, uno<lb/>salo pèr éu soulet, ai vougu vous n'en parla'n<lb/>veisistavo. Couneissié que la lengo de soun<lb/>mas, de si grand, qu’es peréu la de Mistrau,<lb/>d'Aubanèu e de Roumaniho.</p>
+        <p><lb/>E tóuti èron coume aquéu. Lou « chasse-<lb/>pot » avié noum eiçamount lou casso-pèu. E<lb/>falié entèndre coume apelavon la « spatule-<lb/>curette»: n'i'avié un que ié disié la particu-<lb/>liero. L'embauchoir èro l'emboutaire, e tout<lb/>lou rèsto coume acò. Tout mot franchimand<lb/>ero segur d'èstre espeia. Mai, de-vèspre, à la<lb/>chambrado o, dins lou jour, sus li grand<lb/>camin s'ausié que li cant de Digo Janeto, Adiéu<lb/>paure, adiéu paure, o bèn la poulido cansoun</p>
+        <ab type="head"><lb/>Que tant auto sou<lb/>Que tant auto</ab>
+        <p><lb/>que li Gascoun cresien particuliero i Pirenèu,<lb/>mai que de tout tèms s'es cantado dins li<lb/><lb/>coumbo de nòstis Aup, ço qu'es la provo enca<lb/>vivènto de l'unita de raço, de lengo e de ter-<lb/>raire, coume peréu aquesto que pèr tout lou<lb/><lb/>Miejour li calignaire fan clanti</p>
+        <lg>
+          <l><lb/>Canto pas pèr leu :</l>
+          <l><lb/>Canto per s</l>
+          <l><lb/>Que n'es auprés d'eu.</l>
+        </lg>
+        <p><lb/>Trouvas pas, Messiés, que l'a aqui un claus<lb/>forço bèn alesti, un gara tempouriéu pèr cau-<lb/>pre e bèn reçaupre la proupagando felibrenco?</p>
+        <p><lb/>Noun avèn proun de sòu, — ai, ai! — pèr<lb/>faire tout ço que sarié necite à-n-aquelo prou-<lb/>Sagando. Sian encaro en un moumen ounte<lb/>la « proupagando individualo » es noste soul<lb/>mejan d'acioun : pamens l'a proun felibre que<lb/>san faire si vint-e-vue jour ; i'a proun jouvènt<lb/>qu'unisson dins si cor l'amour de la coumuno<lb/>patrio franceso à l'amour cremadis de nosto<lb/>patrio d'O, de la patrio prouvençalo. Es à-n-<lb/>aquéli que vous prègue d'adreissa 'no crida-<lb/>disso publico pèr que fagon counèisse dins li,<lb/>caserno ounte anaran li bèu cant naciounau<lb/>que devèn à l'engèni e au patrioutisme de nòsti<lb/>majourau.</p>
+        <p><lb/>Bèn o mau, tóuti cantan. Tóuti poudèn<lb/>aprene li couscri à canta lou Cant dóu soulèu,<lb/>Magali, La Coupo, Jan de Gounfaroun, Lis estello,<lb/>Palinello, e la subre-poulido Cansoun dóu<lb/>papo Clemènt V. l'aurié-ti jamai quaucarèn de<lb/>mai agradiéu, quouro lou soulèu vous ensuco,<lb/>quouro lou mistrau vous bacello, sus li gràndi<lb/>souto póussouso de noste Miejour, coume<lb/>d'enaura lou gènt ritme:</p>
+        <lg>
+          <l><lb/>Dison qu'éro un lapin</l>
+          <l><lb/> eina</l>
+        </lg>
+        <p><lb/>Es em' aquéli cant ravoi e galejaire que<lb/>nòstis aujòu prenguèron vilo e ciéutadello pèr<lb/>la glòri de Franço e l'ounour de Prouvènço.<lb/>Boutas, poudren recoumença.</p>
+        <ab><lb/>oucegque</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

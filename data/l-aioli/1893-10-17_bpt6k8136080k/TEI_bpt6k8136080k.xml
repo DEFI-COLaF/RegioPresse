@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136080k</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1893-10-17">1893</date>
+          <idno type="ARK">bpt6k8136080k</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136080k</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>TRESENCO ANNADO, No 101</fw>
+        <ab><milestone unit="column" n="3"/><lb/>DIMARS 17 D'OUTOBRE 1803</ab>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr l'òli<lb/>E faren Paisti.</ab>
+        <ab><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Prouverbi dee</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7. 17, 27)</p>
+        <figure/>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI,<lb/>au palais dóu Roure,<lb/>EN AVIGNOUN</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <ab><lb/>Baile dóu journau:<lb/>FOLCÒ DE BARONCELLL.</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>Esbalauvi pè</ab>
+        <ab type="head"><lb/>CHAPITRE-PREPÀCI DI ROUGE DÓU MIEJOUR</ab>
+        <p><lb/>Quand fuguè vièi, bèn vièi, que mangè dins<lb/>si nounanto an, noste vesin Pascau, lou fiéu<lb/>de la vièio Patino, faguè plus que repepia. Eu<lb/>que nous avié counta de fiéu en courduro,<lb/>dins li lòngui vihado d'ivèr, soun viage à Paris<lb/>emé li Marsihés, quand anèron assieja lou rèi<lb/>« Capet » dins soun castèu, e touti li guerro<lb/>de l'Empèri, despièi la bataio di Piramido en-<lb/>jusquo à la famouso bataio dóu Mount-Sant-<lb/>Jan! O, aquéu bon vièi Pascau de la Patino<lb/>faguè plus que repepia. E de-longo disié :<lb/>« Mourirai lèu, vau mouri ! e quand sarai mort,<lb/>moun fraire Lange, pecaire, éu tambèn mou-<lb/>rira! e alor quau aura siuen de la miolo?»</p>
+        <p><lb/>Paure Pascau! fasié pieta de lou vèire ansin,<lb/>éu que nous avié esmeraviha emé si recit epi,<lb/>que sus un meme sujèt duravon pièi tout<lb/>l'ivèr. I'arribavo meme d'improuvisa de vers,<lb/>e touto uno vesprado, sus un ritme dous, emé<lb/>quàuqui rimo à peno marcado de liuen en<lb/>liuen nous fasié lou raconte d'un episòdi de<lb/>Na Revoulucioun o d'un chaple d'Alemand, de<lb/>Rùssi o d'Anglés.</p>
+        <p><lb/>Me sèmblo lou vèire encaro, toujour à la<lb/>memo plaço, asseta au mitan dóu banc que<lb/>tenié tout-de-long de la muraio au founs de la<lb/>boutigo dóu courdounié, ounte s'acampavian<lb/>tóuti li vesin pèr passa la vihado.</p>
+        <p><lb/>Aqui lou meme lume servié pèr lou cour-<lb/>dounié, e soun aprendis. Fau dire qu'avien<lb/>chascun sa viholo, qu'acò èro un globe de<lb/>vèire plen d'aigo que pendoulavon em' un<lb/>courrejoun davans lou calèu, e la clarta roujo<lb/>dóu lume, en passant à travès lou globe<lb/>poumbu plen d'aigo claro, fasié sus lou soulié,<lb/>o la simello que courduravon un rode de fum<lb/>esbrihaudant coume un rai de soulèu Aqui<lb/>i'avié peréu un bon pouelo, de-longo rouge<lb/>coume un cherubi, que tenié lou mèmbre caud<lb/>coume un four — erian aqui dins uno bono<lb/>michour, coume de tian. Ah! quand lou vièi<lb/>Pascau èro dins si moumen pateti, quand se<lb/>coumprenié que parlavo en vers, lou cour-<lb/>dounié, mau-grat lis usso que ié fasié sa femo,<lb/>cessavo lou travai, viravo l'esquino au viha-<lb/>dou. Se sarié bèn engarda, aquéli vèspre, de<lb/>pica la simello, e coume tóuti restavo espanta<lb/>e escoutavo en durbènt d'iue coume de pour-<lb/>tau e d'auriho grando coume de cuerbe-plat.</p>
+        <p><lb/>E iéu, qu'aviéu alor vue o nòu an, segur ai<lb/>esprouva aqui li plus auti jouissènço de ma</p>
+        <p><lb/>De l'Armana prouvençau pèr lou bel an de Diéu 1894,<lb/>que vai paréisse deman e que n'en faren un comte-rendu<lb/>dins noste numero venent, avèn l'ur de pousqué tira lou<lb/>goustous moussèu que veici:<lb/>vido... Quand la vihado èro finido, que falié<lb/>ana se jaire, me languissiéu d'èstre au lende-<lb/>man pèr reveni, dins moun cantoun, sus lou<lb/>pichot banc emé lou cat, ausi la seguido de<lb/>la bataio qu'avian leissa en plan la vèio.</p>
+        <p><lb/>Tambèn me fuguè un cop mourtau, quand<lb/>aguère dès an e que m'embarrèron au pichot<lb/>semenàri de Santo-Gardo pèr faire mis estùdi.<lb/>La vese encaro la carreto de moun paire, ata-<lb/>lado de noste vièi chivau rouge qu'avié jamai<lb/>reguigna, la vese empourtant à travès li garrigo,<lb/>sus lou camin peirous, moun matalas à grand<lb/>carrèu blanc e blu, e ma malo touto espe-<lb/>loufido de si long péu de porc rede e sedous.<lb/>La vese, nosto poulido carreto bluio ounte m'ère<lb/>balança dins la remiso, la vese intra dins la<lb/>court dóu semenàri, ounte tout-d'un-tèms dous<lb/>ome abiha emé de redingoto coume de mous-<lb/>su, descargon lou viage. Alor moun paire me<lb/>pren dins si bras, me fai dous gros poutoun,<lb/>que n'en sènte encaro sa barbo pouguènto<lb/>sus mi gauto tèndro, me bouto uno grosso pou-<lb/>gnado de mounedo dins li man, em' acò s'en<lb/>vai !... E Vitour, lou pourtié que pourtavo un<lb/>pincèu de barbo au mentoun, qu'acò ié fasié<lb/>uno tèsto de bòchi, venguè emé soun gros<lb/>paquet de clau e cri! cra ! pestelè la porto.</p>
+        <p><lb/>Tant que fuguè jour, acò anè bèn; coumtère<lb/>e recoumtère mi dardèno, li toumbave pèr li<lb/>faire vèire ; faguère la couneissènço d'uno<lb/>dougeno de pichot nouvèu, coume iéu em-<lb/>barra dóu matin. Mai quand la niue venguè,<lb/>après soupa, quand fauguè ana se coucha,<lb/>ah ! paure de iéu ! Pensère à ma maire que<lb/>m'ajudavo descourrejouna mi soulié, quand,<lb/>toumbant de la som, arribave de la vihado dóu<lb/>courdounié ; pensère au vièi Pascau de la<lb/>Patino e lou reveguère davans mis iue, coun-<lb/>tant si bèllis istòri. Alor li lagremo bagnèron<lb/>mi gauto e regoulèron sus moun couissin ;<lb/>plourère enjusquo que la som, aquelo som<lb/>d’enfant que rèn destourbo, venguèsse m'a¬<lb/>garri e me teni dins si bras moulet.</p>
+        <p><lb/>Entre que me revihère, l'idèio que de tout<lb/>lou jour noun veiriéu ma maire, e qu'à la<lb/>vesprado anariéu mai pas passa la vihado emé<lb/>lou vièi Pascau, me trafiquè l'esprit e n'en<lb/>fuguère sourne e tristas. La niue venènto<lb/>plourère mai e lou lendeman n'en fuguère que<lb/>snai sournaru.<lb/></p>
+        <p><lb/>Quand vue jour se fuguèron escoula, ma<lb/>maire emé moun paire venguèron vèire s'a-<lb/>viéu manja, s'aviéu dourmi, se m'acoustu-<lb/>mave. Ah! pecaire ! quénti trànsi ié boutère<lb/>au cor quand ié diguère que manjave plus, e<lb/>vouliéu m'entourna à l'oustau.</p>
+        <p rend="labelled"><lb/>— Mai, moun bèu, me fasié moun paire,<lb/>veses bèn que fau éstudia, aprene la chifro<lb/>e tout acò ; autramen, quand saras grand,<lb/>dequé faras ?</p>
+        <p rend="labelled"><lb/>- Iéu vous dise que vole m'entourna à<lb/>l'oustau, n'en sabe proun comme acò.</p>
+        <p rend="labelled"><lb/>— Mai dequé sabes? Sabes rèn, moun bèu.<lb/>— Sabe legi!</p>
+        <p rend="labelled"><lb/>— Sabes legi, o ; mai pièi?</p>
+        <p rend="labelled"><lb/>— Sabe chifra.</p>
+        <p><lb/>Tout acò vai bèn; mai fau aprene un brigoun<lb/>de latin, de grè e que sabe iéu !</p>
+        <p rend="labelled"><lb/>– Vole pas ! vole m'entourna emé vautre!</p>
+        <p rend="labelled"><lb/>— Veguen, veguen, dequé vos te faire? Me-<lb/>decin, capelan, noutàri ?</p>
+        <p rend="labelled"><lb/>– Vole rèn èstre de tout acò!</p>
+        <p rend="labelled"><lb/>— Vos èstre païsan? Marrit mestié, moun<lb/>bèu, crese-me; vai, acò te passara, veiras.</p>
+        <p rend="labelled"><lb/>— Noun, me vole pas faire paisan. Vole<lb/>m'entourna à l'oustau, vous dise. —</p>
+        <p><lb/>Ma maire disié rèn, e, brandant la tèsto, me<lb/>pelavo de castagno boulido que grignoutave<lb/>d'enterin que teniéu lou coumparant à moun<lb/>paire, qu’en fin finalo, despacienta, me faguè:</p>
+        <p rend="labelled"><lb/>— Anen, parlo franc, ve ? Se noun vos te<lb/>faire medecin, capelan o noutàri, 'ni paisan,<lb/>alor dequé vos èstre?</p>
+        <p rend="labelled"><lb/>— Eh ! bèn, voulès que vous lou digue? ié<lb/>respoundeguère en beissant lis iue, vole...<lb/>vole me faire courdounié !....</p>
+        <p rend="labelled"><lb/>— Oh!! que la pèsto de tu! faguè moun<lb/>paire en picant de si man rufo. Courdounié !<lb/>courdounié! Ah ! bèn, aquelo es bono ! Sabes<lb/>doune pas que li courdounié empèston la<lb/>pego? Anen, anen, crese que li veno te mo-<lb/>ron... Courdounié ! Oh ! d'aquéu viedase ! Mai<lb/>quau t'a bouta dins la tarnavello de te faire<lb/>courdounié 2...</p>
+        <p><lb/>E iéu counfus d'agué larga lou fin mot de<lb/>ma pensado, ausère pas ié respondre ; ausère<lb/>pas dire qu'èro pèr ausi de-longo à la vihado<lb/>lis istòri que countavo lou vièi Pascau de la<lb/>Patino. Pèr ausi counta d'istòri coume aquéli,<lb/>dequé me sariéu pas fa ?</p>
+        <p><lb/>Basto ! moun paire vesènt que lou tèms<lb/>adoubarié tout, me decidè à resta quàuqui<lb/>jour de mai, e m'aproumeteguè que se poudiéu<lb/>pas m'acoustuma me vendrié querre à la fin<lb/>dóu mes; e se vouliéu sènso remessioun me<lb/>faire courdounié, me boutarié en aprendis-<lb/>sage vers noste vesin, ounte aviéu passa de<lb/>tant bèlli vihado. E, pèr miéus m'afeciouna à<lb/>ma nouvello escolo, m'aproumeteguè de me<lb/>faire estudia la pinturo, qu'acò èro mai ma<lb/>grando passioun, e la musico. Tout-d'un-<lb/>tèms me croumpè uno bouito de coulour e un<lb/>cournet à pistoun que Moussu l'abat Trou-<lb/>chet, l'ecounome, fuguè encarga de me faire<lb/>veni de Carpentras.</p>
+        <ab><lb/>ouega.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

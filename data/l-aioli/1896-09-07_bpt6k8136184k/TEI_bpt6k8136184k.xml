@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136184k</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1896-09-07">1896</date>
+          <idno type="ARK">bpt6k8136184k</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136184k</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>SIEISENCO ANNADO, No 209</fw>
+        <fw type="runningTitle"><lb/>DILUN, 7 DE SETÈMBRE 1896.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>PRES DE L'ABOUNAMEN</ab>
+        <lg>
+          <l><lb/>Nautri, li bon Prouveņau,</l>
+          <l><lb/>Au sufrage universau,</l>
+          <l><lb/>Voutaren pèr l'oli</l>
+          <l><lb/>E faren P'aioli.</l>
+        </lg>
+        <ab><milestone unit="column" n="3"/><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.</ab>
+        <ab><lb/>(Prouvèrbi di meissounis).</ab>
+        <ab><lb/>F. MISTRAL.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 19f27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI<lb/>au palais dóu Roure,<lb/>EN AVIGNOUN</ab>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <ab><lb/>Baile dou journau:<lb/>FOLCO DE BARONCELL</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Pèire Develuy.</ab>
+        <ab type="head"><lb/>DINS LIS AUP</ab>
+        <ab type="head"><lb/>NOTO DE MANOBRO</ab>
+        <p><lb/>Tóuti lis an, vèngue lou mes de Mai, li sóu-<lb/>dard galoi que tènon garnisoun dins Prou-<lb/>vènço, Dóufinat e Savoio, escalon la mounta-<lb/>gno e fan, ma fisto, coume lis abeié de Crau:<lb/>se van metre, pèr l’estivage, à-n-un pasquié<lb/>sanitous, fresqueirous e goustous ounte cou-<lb/>neiran l'ardènto e forto sabour de la patrio.<lb/>La raro es aqui: de l'autre las, li canoun ita-<lb/>lian espinchon dins lou blu ; l'a de jour que<lb/>vous arrescountras, à la cimo d’un coulet,<lb/>emé lis Aupin dóu rèi Umbert, e lé tiras vosto.<lb/>capelado. A passa tèms, lis óuficié di dos ar-<lb/>mado se toucavon la man subre lou blot-froun-<lb/>tiero e brindavon à la freirejacioun. Aro, acò's<lb/>enebi, e, — l'ai vist mai que d’un cop, — li<lb/>bràvi gènt, d'uno part coume de l'autro, s'ar-<lb/>regardon emé d'iue regretous... Que voulès!<lb/>la poulitico es uno bravo garço!</p>
+        <p><lb/>Mai se sian lest, en causo d'elo, à bèn garda<lb/>noste devens, quand, pèr acò, faudrié larga<lb/>tout lou fiò dis armo e lou sang di cor, em-<lb/>pacho pas que nous es grèu de vèire la grand<lb/>famiho latino en bourroulo, car davans li<lb/>caro amistouso di pichot bersalié de Sant-<lb/>Remo o de Douço-Aigo (1) que sèmblon, pe¬<lb/>caire, de prouvençau, poudèn pas, poudren<lb/>jamai senti l'ahiranço que nous envahis,<lb/>quouro vesèn manoubra sus li plaço de Metz<lb/>li chourmo tudesco, péu rous e tèsto d'escaire.</p>
+        <p><lb/>Acò di, revenen à nòstis abeié, — vole dire<lb/>i pichot sóudard de l'armado dis Aup. Dequé<lb/>fan amoundaut, tres mes de tèms, ennebla<lb/>sus li piue e li serre, dins li grand bouscarasso<lb/>de sap e de pinastre? Camino que caminaras:<lb/>gausisson lis escarpin de la princesso; n’en<lb/>vos de marcho e de contro-marcho, de ma-<lb/>nobro à souspresso, à grand cop de fusiéu:<lb/>sus lis apèns, dins li roucas, lou canoun<lb/>trono; li cadelas enebria cridon: Avans! coume<lb/>s'èro de bon; e'm' acò, sus li vounge ouro,<lb/>vesès li caumo se poupla de pichòti tèndo<lb/>blanquinello pèr la couchado; dóu tèms que<lb/>d'ùni descargon li canoun, d'àutri lis aprouve-<lb/>simen: li miòu bramant e reguignant s'envan<lb/>en longo rigo à l'abéuradou proche; sus tres<lb/>caiau, pren lèu lou boui la soupo, dins l'oulo en<lb/>ferre-blanc; un perfum atalentous s'aubouro,<lb/>e coume es pas de manco l'apetis, avès aqui<lb/>uno bello festo de dènt blanco e jouveineto...<lb/>Pièi fau bèn que la niue soumbreje: li graile<lb/>sonon la som ; un après l'autre s'amosson li<lb/>calèu, e, franc lou vai-e-vên di gacho garda-<lb/>rello e l'endiha dóu cavalin, s'entènd plus rèn<lb/>souto la glòri dis estello. Es verai que de-fes,<lb/>lis estello s'amagon, l'aurige rounco e l'endou-<lb/>lible ennègo lou camp; mai li niue soun courto<lb/><lb/>pèr sant Jan, e 'n cop de soulèu eidraco tout.</p>
+        <p><lb/>A-n-aquéu mestié (vous lou souvète !) pen-<lb/>sas bèn que li simpli sóudard éli-meme vous<lb/>diran lèu, à dès lego à la roundo, ounte pou¬<lb/>dès atrouba 'n sourgènt, quete draiòu es bon<lb/>pèr li miòu, quinte autre soulamen pèr li<lb/>pedoun, ounte se pòu passa francamen, e pièi<lb/>mounte se faudra « desoungla li quatre mèm-<lb/>bre ». Brave! acò 's un bon travai pèr aprene<lb/>à counèisse lou cantoun de patrlo qu’aurés<lb/>un jour à-n-apara.</p>
+        <p><lb/>E, que chale, enarquiha sus la cimo de<lb/>l'Ours o la pouncheto dóu Manjo-Biòu, o 'ncaro<lb/>la tèsto dóu Ventabren, quand devistas un es-<lb/>pandidou que res n'en saup dire l'esplendour,<lb/>la majesta, la santo emoucioun !... Avau, ba-<lb/>gna de neblun lóugié, s’esperdènt dins un<lb/>raive, es touto la mar latino, de Bourdiguiero<lb/>à Sant-Troupé, la douço Antibo emé soun cap<lb/>poupla de pantai bèu, l'Esterèu feroun, li<lb/><lb/>Mauro... Pièi, de tout autre las, la bello moun-<lb/>tagno cencho de nèu, vestido de flour e de<lb/>fourèst, enjusquo Chamato amount vers Digno,<lb/>enjusquo lou Viso e la Fremo-Morto i counfin<lb/>d'itali, à l'Uba.</p>
+        <p><lb/>Dins tout acò, la lengo d'O fai flòri en païs<lb/>niçard. Tóuti nòsti jouvènt soun de Prouvènço<lb/>e fai gau d’ausi, lou sèr, li charradisso, d'un<lb/>tibanèu à l'autre. Pièi, vivo Prouvènço! — lou<lb/>fau bèn dire: pau à cha pau, lis óuficié de<lb/>païs franchimand qu’èron li mai prevengu con¬<lb/>tro la parladuro nostro, coumprenon que ser-<lb/>virié de rèn e sarié contro-naturo de n'en de-<lb/>fendre l'us permié la troupo. N'i'a mai-que-<lb/>mai que veson enfin, dins aquelo bello es-<lb/>pressioun de la patrio, uno forço coungreiant<lb/>e mantenènt l’esperit militàri.</p>
+        <p><lb/>E, tè! n'en voulès uno provo? — Aquest an<lb/>avèn fa de camin de defènso pèr pousqué<lb/>mena li canoun sus de pousicioun requisto.<lb/>Au còu de Braus, ounte resterian campa mai<lb/>d’un mes, nous an fa cava dins la roco uno<lb/>routo que mounto lou pichot Ventabren, —<lb/>d'aqui se coumando la passo duberto e me-<lb/>naçanto de la Béuro (1).</p>
+        <p><lb/>A l'intrado de noste camin, e bèn en visto<lb/>dis espioun que trèvon l’encountrado, nostis<lb/>óuficié an-ti pas agu l'idèio de faire grava 'n<lb/>roucas en souvenènço; e sabès dequé l'an</p>
+        <p rend="labelled"><lb/>  Frnd. Dins lo ps,<lb/>escri subre? En bello lengo prouvençalo<lb/>aquéu fièr reprouvèrbi:</p>
+        <quote><lb/>Qu tèn, tèn, qu reno, reno.</quote>
+        <p><lb/>Un autre cop, mi bèus ami, vous dirai l'is-<lb/>tòri d'aquéu douanié italian, que coumprenié<lb/>pas lou franchimand nimai l'italian de Dante,<lb/>e me respoundeguè 'n bèu niçard quand ié<lb/>parlère roudanen.</p>
+        <ab><lb/>UN DE L'ARMADO</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>BLANCO-DE-NEU</head>
+        <p><lb/>Pavié 'no fes, au castelas de Fenestrello, uno femo<lb/>bello de suavo beuta, mai que sa fiho, Blanco-de-Néu,<lb/>ero encaro pu bello.</p>
+        <p><lb/>Or, lou sabié e n'avié 'no jalousié fèro. A noun plus de<lb/>mastega soun verin, sono un jour un de si varlet.</p>
+        <p rend="labelled"><lb/>— Vas, ié fai, mena ma fiho dins la souloumbrouso<lb/>fourèst de Loubo; aqui l'escoutelaras, e'm'aco m'adurras<lb/>piêi sa lengo.-</p>
+        <p><lb/>L'endeman, à la primo aubo, lou varlet e Blanco-de-<lb/>Neu partiguèron coume pèr la casso, mai vaqui qu'ar¬<lb/>riba dins la séuvo, l'ome aguè coumpassioun de tant<lb/>fresco e tant jouino bèuta e, prenènt sa fino chineto, la<lb/>sauné eié coupé sa lengo roso qu'aduguè à la mestresso.</p>
+        <p><lb/>Vaqui que Blanco-de-Neu se trouvant soulo dins la<lb/>fourèst souloumbrouso, s'encamine daise-daise, e sus<lb/>lou vèspre s'atrouvè au castèu di Nevié.</p>
+        <p><lb/>Intrè La grand salo d'ounour èro vuejo, mai au mitan<lb/>l'avié la taulo messo pèr douge persouno. Coume ero<lb/>afamado e assedado, mangè 'n pau dins chasco sieto e<lb/>beguè 'n pau dins chasque got. Après, mountè dins uno<lb/>grand chambro, vuejo mai, ounte l'avié douge lié, c<lb/>coume èro lasso se couchè'n pau dins cadun e s'en-<lb/>dourmigué dins lou darrié.</p>
+        <p><lb/>Tout en soumihant, ausiguè abas de pichot brut de<lb/>sicto e de got, pièi de voues menudo coume vounvoun<lb/>de parpaiolo que disien: — «Oh ! que ma sieto embaumo<lb/>liéli!» — « Moun got es fres coume la neu !</p>
+        <p><lb/>E piei aquéli voues s'ausiguèron dins la chambro memo.<lb/>Misto coume un vòu d'amo, disien: — « La chambro es<lb/>mai redoulènto aniue! » — « Segur, nosto rêino prou¬<lb/>messo, aquelo que sa béuta e sa frescour dévon triounfla<lb/>de la mort pèr la venjanço di vitimo d'amour, a passa<lb/>pèr eici! » — « Ah! — em' amiracioun souspirè 'no<lb/>oumbro, arribado davans soun llé, lou dougen — velaqui<lb/>nosto segnouresso, la segnouresso di Nevié!»</p>
+        <p><lb/>E'm'acò tóuti li voues se teisèron e lis oumbro fusèron<lb/>pèr noun destourba lou pantai requist de la bello Blanco.</p>
+        <p><lb/>D'aquéu tèms, la jalouso melrastro de Fenestrellos<lb/>après avé guierdouna soun variet e jita la lengo roso i<lb/>porc, vouguè joul de sa belesso, aro sèns pariero, e s'es-<lb/>tènt boutado davans soun mirau;</p>
+        <p rend="labelled"><lb/>— Mirau, beu mirau, lé vengue, digo-me la plus bello<lb/>femo dóu mounde.—</p>
+        <p><lb/>E lé respoundeguè lou mirau:</p>
+        <p rend="labelled"><lb/>— Es tu la plus bello dóu mounde, mai n'la uno au<lb/>castèu di Nevié que cent cop mai es pu bello que tu !—</p>
+        <p><lb/>Cujè toumba dins sa supèrbi mourtificado, la feroujo<lb/>castelano, e quate<fw type="digitisation-artefact"><lb/> all..f/Bib̀</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t51154325w</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1852-10-19">1852</date>
+          <idno type="ARK">bd6t51154325w</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t51154325w</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0004.xml"/>
+          <fw type="runningTitle"><lb/>Journal de la Côte-d'Or.</fw>
+          <ab><milestone unit="column" n="2"/><lb/>Saint frères, r. des Bourdonnais, 13 et 15, fab. à Bcauval et Alle-<lb/>Vaissances.—Du 15 au 18 octobre 1852, 2 garçons et 2<lb/>Sises dans différents quartiers de Dijon,<lb/>sel; et, pour tous renseignements, à Me Gal-<lb/>Sises au elimat dit des Sauts, territoire de<lb/><lb/>Dijon, route de Mirande, contenant?<lb/>OLON, UMPARDMERIE OE DOULLARR, RUE DES CODRANS, 41.</ab>
+        </div>
+        <div type="article">
+          <ab><lb/>4rt. de Si-Quentin et Tarare. (Tissus, bondes brodées, cu)<lb/><lb/>Férouelle et Rolland, r.du Sentier, 8;à St-Quentin, rue StThomas, 13.<lb/>Cohin et Cic, rue des Bourdonnais, no 31, ancien no 11.<lb/>Auguste Flcury et Cie, rue Bertin-Poirée, no 11.</ab>
+          <lg>
+            <l><lb/>Tolter à doub́luees. (Art. Vilefranche, Laval et Troyes.)</l>
+            <l><lb/>Amédée Sangnier frères, rue Bertin-Poirée, ne</l>
+          </lg>
+        </div>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>Situé en l Gevrey-Chambe<lb/>Gevrey-Chamberub,<lb/>DATTION ET DETOT</ab>
+        <ab type="head"><lb/>Commerciales, et Avis divers.</ab>
+        <p rend="styled"><lb/>Reude de Mo PERREAU, 0<lb/>place du Palais, n^° en</p>
+        <ab><lb/>Eatre majeurs et mineurs, le dimanche 31<lb/>octobre 1852, heure de midi, à Dijon, en<lb/>Pétude et par le ministère de M^o Perreau,</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>ES en divers<lb/>L'adjudication aura lieu sur la mise à prix</ab>
+        <p><lb/>S'adresser, pour renseignements, s<lb/></p>
+        <p><lb/>visgère, sur une seule téte ágée de <lb/></p>
+        <p><lb/>Capitaux de toute importance à placer sa,<lb/>hypothèque par sommes de 1,000, 2,0005</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Le jeudi 21 octobre 1852, à midi, en l'é-<lb/>tude et par le ministère de M^o Durandeau,</ab>
+        <ab type="head"><lb/>Etude de No DURANDEAU, notaire à Dijon,</ab>
+        <p><lb/>Il sera accordé du temps pour le payemen</p>
+        <p><lb/>Petitjean, qui l'habite; et, pour les condit<lb/></p>
+        <ab type="head"><lb/>A placer à rente viagère, une somme de</ab>
+        <p><lb/>20,000 f. qui pourrait étre divisée par 10,000<lb/>fr., et plusieurs sommes par hypothèques de-</p>
+      </div>
+      <div type="article">
+        <head><lb/>Etude de M^e GALLOIS, notaire à Dijon, rue</head>
+        <p><lb/>Le dimanche 31 octobre 1852 et jours sui-<lb/>vants, à l'heure de midi, à Villecomte, can-<lb/>Ln dsur,-Tille, ast omicile du sieur</p>
+        <ab><lb/>CHOCOLAT MENIER<lb/>Nomenclature et Prix des diverses sortes.<lb/>WANILD<lb/>, 1m corte. 4 .<lb/><lb/>Lo</ab>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <ab><lb/>Situé sur les territoires des communes de Vil-<lb/>D'exploitation, à Villecomte, rue de Tarsul,<lb/>S'adresser, pour visiter ce domaine, à Vil-<lb/>lecomte, au château, au sieur Georges Rous-</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Btude de M^o PETITJEAN, notaire à Dijon,</head>
+        <p><lb/>En l'étude et par le ministere de<lb/>, tmire ̀ Dijon, le same 23 octob</p>
+        <p><lb/>Sise à Dijon, rue de PEcole-de-Droit, n^o 1a,<lb/>comportant deux bâtiments, l'un sur ladite<lb/>rue, l'autre au fond d'une petite cour, ayane<lb/>rez-de-chaussée, et premier élage, divisés en<lb/>six chambres avec mansardes, caves et gre-</p>
+        <p><lb/>On pourra traiter de gré à gré avant le</p>
+        <p><lb/>Sad, esr, pur renseiguements, ̀ e Pe-</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Arcelot, consistant en 31 hectares de terres</ab>
+        <ab type="head"><lb/>Situé sur les territoires d'Aro-sur-Tille et</ab>
+        <p><lb/>Le dimanche 14 novembre 1852, à midi,<lb/>au domielle du sieur Grebille, aubergiste à<lb/>Arc-sur-Tille, par le ministère de M^e Blon¬</p>
+        <p><lb/>S'adresser, pour renseiguements, audit no-</p>
+        <figure type="decoration"/>
+        <p><lb/>S'adresser, pour le visiter, à M. Deronge.<lb/>seignements, Me Blondet, pour tou </p>
+        <p rend="heading"><lb/>Pièces de Terre<milestone unit="column" n="3"/><lb/>centimes par franc en sus du prix d'adjudica-<lb/>o.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Offce de M. DEVILLEBICHOT.<lb/>saire-priseur, rue du Bour.</ab>
+        <p rend="labelled"><lb/>Bn fer, fonte, cuivre, zinc et bois de service</p>
+        <p rend="structured"><lb/>Place d'Armes, no 10, à Dijon, ancienne cour<lb/>des bains, le samedi 23 octobre, heure de<lb/>midi, par le ministère de M. Devillebichoi,</p>
+        <p><lb/>Consistant en: deux coupe-racines, un se-<lb/>moir, plusieurs charrues, une râpe à bette-<lb/>raves, plusieurs paires de roues, essieux et<lb/>arbres de fer, roues et essieux de wagons en<lb/>fer et fonte, chaudières et bassines en cuivre<lb/>rouge, plaques de zinc, beaux plateaux de<lb/>foyard, chevrons et bois de démolition, etc.,</p>
+        <p><lb/>DEUX PETITES MAISONS</p>
+        <p><lb/>A placer sur hypotièque, par fractions de</p>
+        <p><lb/>Le jeudi 28 octobre 1852, à midi, en l'étude<lb/>et par le ministère de M^o Serriguy, notai-</p>
+      </div>
+      <div type="article">
+        <p><lb/>Avec terrain à bâtir, A VENDRE. Plusieurs<lb/>LOGEMENTS eIBOUTIQUE A LOUBR.</p>
+        <p><lb/>S'adresser à MM. Chaffotte, notaire, et<lb/>Prouillet, propriétaire, au jardin de Sol, à Di-<lb/></p>
+      </div>
+      <div type="article">
+        <p><lb/>Appelée la ferme du Cheffin, sur Seurre et<lb/>Chamblanc, composée de vastes bâtimenis de<lb/>fermier, en très-bon état, et de 18 hectares</p>
+      </div>
+      <div type="article">
+        <p><lb/>Mercredi dernier, 13, un petit ramoneur<lb/>s'est enfui de chez son maître à Dijon. Il est<lb/>âgé de 12 ans, taché de pelite vérole, gros et<lb/>trapu, vêtu d'une blouse, et se nomme Joseph<lb/>Dangon; il est enfant trouvé. On ignore de<lb/>quel côté il a puse diriger. Les personnes qui<lb/>pourraient en donner des renseignements<lb/>sont priées de les transmêttre à M. Marchand,<lb/>rue Roulotte, no 35, à Dijon. Il y aura récom¬</p>
+        <figure type="decoration"/>
+        <p><lb/>Sur Seurre, composé de 19 hectares 39 ares<lb/>de terres, de très-bonne qualité, en 3 piè-</p>
+        <p rend="styled"><lb/>D'HABITATION, sises au faubourg St-<lb/>Georges de Seurre, à proximité de la Saòne;</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>PLUSIEURS VASTES MaGASINS ̀<lb/>grains avec logement nouvellement distribué<lb/>et frafchement décoré à neuf, A LOUER,<lb/>pour entrer en jouissance de suite. Le toutsi-<lb/>tué près la gare du chemin de fer, à Dijon.</p>
+        <p><lb/>S'adresser, pour les voir et traiter du prix,<lb/>à Mme veuve Thevenio, propriétaire, même</p>
+        <p><lb/>4. Un petit DOMAINE sur Trugny et Jal-<lb/>langes, près Seurre, de 3 hectares 32 ares de</p>
+        <p rend="labelled"><lb/>50 Un DOMAINR sur Mont-lez-Seurre,<lb/>composé de bâtiments de fermiers et de 13<lb/>hectares 79 ares de vignes, terres et prés;</p>
+        <p><lb/>6^o Et un autre DOMAINE sur Armoire (Ju-<lb/>ra), de 10 hectares 19 ares de terres et prés.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Institution Delavigne,</head>
+        <p><lb/>Fondée depuis 1826, à Paris, 33, rue des<lb/>Fossés-St-Victor. — M. P. G. Beauchef, d<lb/>recteur et successeur, ouvre de nouveaur<lb/>cours à la rentrée des classes. Ces cours em-<lb/>brassent les nouveaux programmes pour les<lb/>deux baccalauréats es lettres et es sciences.—<lb/>Comme les examens sont permanents à Paris,<lb/>cours spéciaux pour ceux qui veulent sulir<lb/>l'épreuve avant le 1^er janvier. — Internes d<lb/><lb/>externeS.— CABINET DE PuYSIQUE ComLEr,</p>
+      </div>
+      <div type="article">
+        <p><lb/>On pourra traiter même avant le jour indi-</p>
+        <p rend="heading"><lb/>Btude de M^o MAIRET, notaire à Genlis.</p>
+        <p rend="labelled"><lb/>Les dimanche 24 octobre 1852, à 2 heures a-<lb/>près midi, à Cessey-sur-Tille, au domicile<lb/>du sieur Couturier, cafetier, par le minis-</p>
+        <ab><lb/>D'exploitotion situées au village de Cešsey;<lb/>Bn plusieurs pièces situées sur le territoire</ab>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>M. LÁMBERT, coutelier, a l'honneur &amp;e<lb/>prévenir MM. les vignerons qu'il demeare<lb/>maintenant rue Crébillon, no 15, et de leur<lb/>faire savoir qu'il n'a jamais fourni de serpe-</p>
+      </div>
+      <div type="article">
+        <p><lb/> Couternon, de la polpe de BETTERAVES,<lb/>à raison de 12 francs les mille kilogrammes.</p>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>Offces de MM. DEVILLEBICHOT et LOM-</p>
+        <p rend="labelled"><lb/>BARD, commissaires-priseurs à Dijon.</p>
+        <ab type="head"><lb/>Pour cause de départ, hors la porte St-Ber¬</ab>
+        <p><lb/>nard, rue Sambin, no 1, à Dijon, le lundi 25<lb/>octobre, heure de midi, par le ministère de<lb/>BIM. Lombard et Devillebichot, commissaires.<lb/>Consistant en: glaces de fortes dimensions,</p>
+        <p><lb/>dont une Louis XV, armoires à glace, étagè¬<lb/><lb/>res, commodes, secrétaires, bois de lit, ta-<lb/>bles de nuit, et toilettes en palissandre et en<lb/>acajou, bureau Louis XIII, matelas, sommiers<lb/>élastiques. rideaux de croisée, fauteuils et<lb/>chaises garnis en velours, objeis d’aris et<lb/>d'antiquités, foyères dorées, flambeaux, lam-<lb/>pes, cave à liqueurs, baguiers, tables, buffets,<lb/>armoires, choises ordinaires, poéle en falence,</p>
+        <p><lb/>Il sera accordé trois mois de terme aux<lb/>quéreurs reconnus solvables, et on paye,<lb/>maise 5,37 ans.— Marie Pécatier, femme de Pierre Vienne,<lb/>ancien cocher, rue Poissonnerie, 10, 69 ans.— Jean-Bap-,<lb/>tiste Neveu, manouvrier, célibataire, demeurant à Cham-<lb/>pagne-sur-Vingeanne (Cote-d'Or), 45 ans. — Nicolas Du-<lb/>puis, domestique célibataire, faubourg Saint-Nicolas, 31<lb/>ans. Du 16, Anne Maillot, femme de Jean-Baptiste Nesle,<lb/>vivandier, rue Sainte-Catherine, 26, 69 an</p>
+      </div>
+      <div type="article">
+        <p><lb/><lb/>perches et blancs; on vendra la carp.«.</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>MM. les créanciers de la société Jossinete<lb/>Gaudelet sont invités à se réunir au tribuns<lb/>de commerce de Dijon, le samedi 30 octobra<lb/>courant, à midi précis, pour faire vérifes<lb/><lb/>leurs créances dans la faillite Gaudelet et es<lb/>affirmer la sincérité entre les mains de</p>
+        <p rend="styled"><lb/>Le Rédacteur-gérant, J. -B. Ls. VINCENT.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t51170962j</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1861-11-26">1861</date>
+          <idno type="ARK">bd6t51170962j</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t51170962j</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0004.xml"/>
+          <fw type="runningTitle"><lb/>Journal de la Côte-d'Or.</fw>
+          <ab><milestone unit="column" n="1"/><lb/>Beaux bâtiments d'exploits<lb/>Vente en détail et aux<lb/>enchères publiques,</ab>
+        </div>
+        <div type="article">
+          <ab><lb/>120 kllog., de 41 à 63 fr.; seile, 25 fr. les 115 kilog.; tolitre, 110 fr.; dito fi, 1eaé, 90 é,</ab>
+          <p rend="labelled"><lb/>— Hercuriale de Besançon. Marché du 18 novemére.<lb/>Froment, 5, 185 d. d. à 6 fr. 30; 5,804 id. à 5 fr. 14;<lb/>4,604 id. à 4 fr. 93; prix moyen, 5 fr. 12. Seigle, 3 fr.</p>
+          <p rend="labelled"><lb/>— Lyon. Cotte place est restée dans la même posi- dernière semaine pour l'Angleterre.<lb/>tion, quoique la tenue du marché ait été un peu meil¬<lb/>leure; froment de pays, les 100 kilog., 31 fr. les pre¬<lb/>mid̀res qualités; exoliques, de 30 50 à 33 fr.; orges, de<lb/>22 à 24 fr.; avoines, de 21 à 22 fr.; farines promières,<lb/>les 125 kilog., 62 fr.; deuxid̀mes, 56 fr.</p>
+          <p rend="labelled"><lb/>— Saint-Florentin. Offres en blés toujours faibles;<lb/>ia demande a étó pen active, et la marchondise est<lb/>tenue ferme, avec tendance à la hausse; froment, les</p>
+          <figure type="decoration"/>
+        </div>
+      </div>
+      <div type="article">
+        <head><lb/>ANNONCES JUDICIAIRES</head>
+        <head><lb/>ET AVNS DEVE,</head>
+        <head><lb/>M. CHAUDRON,</head>
+        <p><lb/>D'Ampilly, a l'honneur de préve<lb/>tra en vente chez M. Ursot, auber<lb/>giste, faubourg Raines, à Dijon, sa</p>
+        <p rend="labelled"><lb/>25 Béliers mérinos</p>
+        <p rend="styled"><lb/>Etude de M. DARANTIERE, notsire<lb/>là Dijon, placo Saint-Jean, 17, suc<lb/>coiseur de M. Vaissie,</p>
+        <p rend="heading"><lb/>VIGNES</p>
+        <p rend="heading"><lb/>AUX VOLNAY-SANTENOT.</p>
+        <p><lb/>Le dimanche 1° décembre 1861,<lb/>midi, à Meursault, en la salle de la<lb/>mairie, par le ministère de M^o Da¬</p>
+        <p><lb/><lb/>A, no 187, 1 hect. 32 ates 65 centia-|Grands-Bernard, contenant 18 ares.<lb/>res. Mise á prix, les ares 28 cen. Il joint par devant le chemin d</p>
+        <figure type="table"/>
+        <figure type="table"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>Une enchère adjugera.<lb/>Facilités pour les paioments.</ab>
+        <p><lb/>S'adresser, pour tous renseigne-<lb/>500 fr. ments, audit No Chaffotte.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>on évalue à 50,000 hectolitres les blés achetés cette 00 fr.; quatre premiers mois de 1862, 87 fr. 00 à 00 fr.</ab>
+        <p><lb/>2lieu, sect. Perès, et de midi M. Denuit<lb/>2Aux duAlse iprix, Mise à prix;</p>
+        <p><lb/>3 Aux Sant <lb/>section, n^o 28, 41 ares Nies prae</p>
+        <p><lb/>4o Au Clos du Chène, sur<lb/>venir MM. les cultivateurs qu'll met sect. E, no 139, 19 ares 80 cent. Mise cer à fonds perdu sur une seule tête<lb/>à prix, les 4 ares 28 cent., 500 fr</p>
+        <p><lb/>S'adresser à M^e Darantiere, notaire Etude de Me ROY, notaire à Dijon<lb/>fr. 25. 4 19 fr. 25: pou de noircs. Alfaires pastable- orge, 19 fr. les 100 kllog.; avoines, do 18 fr. 50 à 18 tolitre, 78 fr. d 00 f.</p>
+        <p rend="labelled"><lb/>dont les arrivages so succédent, malgré qu'il y sit ou fr. 00.<lb/>une interruption occasionnée par lo vent du pond. La<lb/>25. Opze, de 2 fr. 50 à 2 fr. 65. Avoine, de 1 fr. 35 à 1 vonte a continué à étre lourde, et presque impossible; rant du mois, 84 fr. 00 5 00 fr.; décembre, 84 fr. 23</p>
+        <p rend="labelled"><lb/>tout fût, 112 fr. 50 c.; en tonnes, 114 fe.; épurée, en 120 fr.; 2o qualité, 115 fr.<lb/>tonnes, 122 fr. 00; lin, en fûts, 100 fr. 00; en tonnes<lb/>101 fr. 50; cillette commune, 110 fr.; bon goût, 154 </p>
+        <p><lb/>Colso.— Lille, 104 fr. 00; Rouen, 110 fr. 00; Caen,</p>
+        <p><lb/>Bsprits. — Montpellier. 1 ualité, 90 degtés, 1</p>
+      </div>
+      <div type="article">
+        <ab><lb/>rue Chabot-Charny, 22<lb/>eher<lb/>Les grandes pieces pourront être pour être cultivé en jardin d'ugré</ab>
+        <ab type="head"><lb/>Etat eivil de Dijo</ab>
+        <ab type="head"><lb/>d'un Domaine</ab>
+        <p><lb/>Situé à Atricourt et Fley, appar- Etude de M RlPrefecture, 37<lb/>tenant à M. Létant-Valory,</p>
+        <p><lb/>Le dimanche 13 décembre 1861,<lb/>tère de M' Roy, notaire à Dijon.</p>
+        <p><lb/>Ce domaine se compose d'une joli<lb/>maiton de campagne, avec jardin, vi-<lb/>gne et prés bordés par la rivière;</p>
+        <p rend="labelled"><lb/>D'une maison de ferme avec clos et cansl et l'Ouche,<lb/>dépendances, et environ 25 hectares A vendre en bloc ou par lot.<lb/><lb/>de terres et prés.</p>
+        <p><lb/>(Voir l'offiche pour la désigostion.) planté en vigne.</p>
+        <p><lb/>Bles (les 420 kiloz. brul). — Tete) 60 <lb/>Marscille. Le port est toojours encombré de blés, 00; 1^e quallté, 16 000 fr; 2^e ualfi</p>
+        <p rend="labelled"><lb/>Farines (le sac de 157 kil.). — Disponible et cou-</p>
+        <p><lb/>Savons (escompte, 3 p. 100). — Bleu pále, ferme,<lb/> Marchandires. — Hedle de colsa. — Disponible, 96 fr. 50; dito moyen, 95 fr. 50; bianc, 1e qualité, chine est cotée á 270 fr. le no 2</p>
+        <p rend="labelled"><lb/>Suifs. — De Franco, 128 fr. 00 o.; do Russie, 150 fr.</p>
+        <p rend="labelled"><lb/>Sucres. — Martinique et Guadeloupe, bonne 4,<lb/>fr. 00 c.; indigéne, bonne 4., en entrepót. 63 fr. à 00 fr.</p>
+        <p rend="labelled"><lb/>Cofes.- Haf. 2 fr. 30 à 0 f. 0 c.; Moka, fr. 800.<lb/>faires, Les usines ont vu arriver cette semaine à elles<lb/>un assez geand nombre de commandes. Aussi parais<lb/>oxquels on doit livrer sont á la complète satisfaction</p>
+        <p><lb/>se reste toujours cotée de 127 50 à 150<lb/>fr. Les fets luminés ne dépassent pas le chiffre de 250<lb/>fr. Les fors battos se livrent à 280 fr. Enfin la ma¬</p>
+        <figure type="table"/>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <ab><lb/>Dijon, rue Saint-Pierre, u- (</ab>
+        <p rend="heading"><lb/>volontaire et aux enchères,</p>
+        <p><lb/>Le mercredi 4 décembre 1861,<lb/>une heure, en la Chambre des notai. midi, en la maison commune<lb/>res de Dijon, par le ministère de Me Licey-sur-Vingeanne, par le minis</p>
+        <p rend="heading"><lb/>D'un Jardin</p>
+        <p rend="heading"><lb/>situé à Dijon rue Bergère.</p>
+        <p><lb/>Un terrain situé a Dijon, rue Ber-</p>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <note>
+          <p rend="styled"><lb/>DIJON, IMPRIMERIE ADOLPHE GRANGE, PRES SAINT-MICHET.</p>
+        </note>
+        <figure type="decoration"/>
+        <p><milestone unit="column" n="3"/><lb/>toine Maire, négeciant, bassin<lb/>cnil ; et, pour tous renscignemen</p>
+        <ab><lb/>700 fr. nord M. Belleville, de cocchant M. Etades de Me VIREL.Y et BLONDEL. S'adrescer, pour le visiter, AN. .<lb/>2,000.Fermes du Boutran.<lb/>Sises sur Tillenay et Champdôtre</ab>
+        <p rend="labelled"><lb/>Office de M. LOMBARD, commis n'ayant pas encore été à l'écurie.<lb/>saire-priseur á Dijon, rue de la</p>
+        <p rend="heading"><lb/>A vendre à l'amiable,</p>
+        <p><lb/>Contenance: 141 hectares en</p>
+        <p><lb/>Appartenent à MM. Simon frère<lb/>maitres de poste è Commarin,</p>
+        <p><lb/>pour cause de suppression de</p>
+        <p rend="labelled"><lb/>de midi, au domicile du sieur Be<lb/>not, aubergiste, hors la porte Gui.<lb/>um, à birn, par le ministe</p>
+        <p rend="heading"><lb/>Terrain clos</p>
+        <p rend="styled"><lb/>De la contenance de 73 ares 99 cen.</p>
+        <p><lb/>lien dit les Champs-Elysées, catro</p>
+        <p><lb/>Ces chevaux, qui sont propres<lb/>tout service, conviendraient surtout</p>
+        <p><lb/>Ce terrain convient parfaitemen<lb/>ment et jardin maraicher ou eir<fw type="digitisation-artefact"><lb/>urce gemee, Bqde nationale</fw></p>
+        <figure type="table">
+          <head><lb/>Embranchement de Dole à Salins.</head>
+        </figure>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p><lb/>4o Un cheval cono, bien dressé,<lb/>ir la selle et la voituré</p>
+        <p rend="labelled"><lb/>5^o Une jument de cabriolet, faisant<lb/>5 lieues à l'heure, an trot.</p>
+        <p><lb/>6o 8 poulains de 18 mois à 2 ans,</p>
+        <p><lb/>Il sera sccordé aux personnes sol-<lb/>vables de grandes facilités pour payer,<lb/>et il sera perçu 5 p. 100 en sus du</p>
+        <p rend="heading"><milestone unit="column" n="4"/><lb/>40 CHEVAUX</p>
+      </div>
+      <div type="article">
+        <head><lb/>Avis aux Cultivateurs.</head>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p><lb/>On vend, à la sucrerié d'Alserey,<lb/>la pulpo de betteraves pressée, pout<lb/>l'engrais des bestiaux, au prix de 16</p>
+        <p rend="heading"><lb/>A vendre aux enchères,</p>
+      </div>
+      <div type="article">
+        <head><lb/>Consommés de Santé</head>
+        <p><lb/>AUX VOLAILLES DE BRESSE,<lb/>de Joseph THIOT, à Bourg (Ain)<lb/>GRASSOT gendre, successeur.<lb/>Il suffit d'avoir de l'eau bouillante<lb/>pour se procurerá la minute un es<lb/>laille. — Scul dépôt à Dijon, chez</p>
+        <p><lb/>1o24 bons chevaux de poste.</p>
+        <p><lb/>M</p>
+        <p rend="styled"><lb/>Ce Réd-Gérant, J. B.-Is. Vincent.</p>
+        <figure type="table"/>
+      </div>
+    </body>
+  </text>
+</TEI>

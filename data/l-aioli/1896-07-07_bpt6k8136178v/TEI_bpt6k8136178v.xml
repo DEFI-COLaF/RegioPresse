@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136178v</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1896-07-07">1896</date>
+          <idno type="ARK">bpt6k8136178v</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136178v</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>SIEISENCO ANNADO, No 199.</fw>
+        <fw type="runningTitle"><lb/>DIMARS, 7 DE JULIET 1806.</fw>
+        <dateline><lb/>(Prouverbt di meisrounie).</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr l'ôli<lb/>E faren laidti.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Vidoren, Vidare,<lb/>Segound la vido<lb/>Lou journau.</ab>
+        <ab><lb/>F. MISTRAL.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17,27)</p>
+        <figure/>
+        <figure/>
+        <p rend="heading"><lb/>PRES dE L'ABOUNAMEN</p>
+        <ab><lb/>URÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>vers<lb/>FOLCO DE BARONCELLI<lb/>au palais déu Roure,<lb/>EN AVIGNOUN</ab>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <ab><lb/>Baile dóu journau:<lb/>FOLCO DE BARONCELLI</ab>
+        <figure type="decoration"/>
+        <ab><lb/>Piêt nous parlo dóu lenguisto coulabourant</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Encò di «MARDISTES»</head>
+        <head><lb/>Sesiho franco-prouvençalo. — Counferénci sus Verdot</head>
+        <p><lb/>ou dimars, 23 passa, aquelo valènto as-<lb/> souciacioun de jóuvi literatour marsihés,<lb/>que ié dison li Mardisto, dounavo uno inte-<lb/>ressanto sesiho publico, que se poudrié apela<lb/>uno vesprado felibrenco. Entre autri causo,<lb/>F'ordre dou jour pourtavo : Couaferènci de<lb/>Louis Pascal sus lou pouèto prouvençau Aguste<lb/>Verdot e, pèr amor, la sesiho èto souto la pre-<lb/>sidènci d'ounour dóu majourau En Louis<lb/>Astruc; vai sèns dire que l'Escolo di felibre de<lb/>la Mar èro aqui au grand coumplèt, permié li<lb/>parènt — fiéu, fraire, nebout, cousin — de<lb/>Verdot, li Mardisto e li noumbrónsi dono que<lb/>lou prouvençau atrivo toujour que mai. Si-<lb/>gnalen peréu la presènci de l'egrègi majourau<lb/>de Berlu-Perùssis, vengu esprèssi de-z-Ais pèr<lb/>la memòri d'un vièi e bon counfraire. Enfin, la<lb/>salo èro coumoulo.</p>
+        <p><lb/>La sesiho es duberto pèr Astruc em'aquesto<lb/>aloucucioun:</p>
+        <quote><lb/>«Midamo, Messiés,</quote>
+        <p rend="labelled"><lb/>« D'en proumié, permetés-me de gramacia<lb/>li simpatique Mardisto de l'ounour que m'an<lb/>fa en me reservant, sus l'estiganço de M. Pas-<lb/><lb/>cau, la presidènci d'aquesto vesprado literàri.</p>
+        <p><lb/>« Segur, n'en manco pas dins nosto grando<lb/>vilo prouvençalo que, mai que iéu, s'amerita-<lb/>von aquelo plaço d'ounour, e coumprene la<lb/>delicadesso de noste galant counferencié, sa-<lb/>chènt la vièio amistanço que me ligavo au<lb/>paure Verdot e que l'Escolo de la Mar, tant flòri<lb/>despièi 1877, e tant vivènto vuei eici meme,<lb/>sourtiguè un pau de nosto coumuno coula-<lb/>bouracioun.</p>
+        <p rend="labelled"><lb/>«Mai, basto ! Sias pas vengu pèr entèndre<lb/>uno charradisso de iéu sus iéu ! Vouliéu tout<lb/>bounamen coustata la bello freirejacioun di<lb/>Mardisto e di Felibre, à la favour dóu gènt<lb/>Galicier e dóu digne presidènt, M. Prunet, e la<lb/>bono ouspitalita qu'avèn toujour trouvado ei-<lb/>ci, quouro s'agis d'enaura de noum ami cou-<lb/>me aquéli de Roumièux, Bourrelly e autre<lb/>Gramaci mai.</p>
+        <p rend="labelled"><lb/>« Aro, vous presentarai-ti lou cambarado<lb/>Louis Pascau ? Es eici quàsi coume dins soun<lb/>oustau e lou couneissès tant bèn que iéu. Dóu<lb/>rèsto, l'amas ansin e sara sa plus bello presen-<lb/>tacioun. Lou felicitarai, soulamen, pér la bono<lb/>pensado qu'a agu de faire reviéure vuei la<lb/>memòri d'un meritous que l'on semblavo ou¬<lb/>à la gramatico de frai Savinian e adusènt soun<lb/>ajudo au Tresor dóu Felibrige ; e nous parlo<lb/>dóu savènt esplourant, en 1876, emé l'enge-<lb/>niaire Bouche, lou garagai de Santo-Ventùri.</p>
+        <p><lb/>Fuguè un brave ome, dis lou counferencié,<lb/>un ami discrèt e devot, sèmpre agradiéu, mau¬<lb/>grat un founs d'óuriginaleta, e que toujour<lb/>trouvè de segùris afecioun dins lis endré que<lb/>souvênt vesitavo. E l'aguè pas soulamen en<lb/>Verdot lou felibre pantaiaire: l'aguè peréu lou<lb/>messiounàri de la Causo prouvençalo. l'a pas<lb/>Sino felibrejado, un acamp, en l'ounour de<lb/>nosto lengo, ounte noun siegue ana. Dóu<lb/>coumtat de Niço en Auvergno, de Catalougno<lb/>en Dóufinat èro couneigu e ama.</p>
+        <p><lb/>Mai, countùnio M. Pascau, noste felibre<lb/>noun fuguè e noun poudié èstre un pouèto<lb/>poupulàri : si mot soun trop recerca, trop de-<lb/>licat es soun talènt e sa councepcioun trop<lb/>grando pèr èstre aprecia de la foulo. Aguè,<lb/>foro lou poudé de l'engèni, la gamo de tóuti<lb/>li qualita que fan lou pouèto. Toujour sincèro<lb/>e auto siguè soun ispiracioun, soun goust in-<lb/>fautable, soun voucabulàri pur, soun ritme<lb/>savènt e sutiéu.</p>
+        <p><lb/>E pamens, emé tóuti aquéli qualita e, peréu,<lb/>emé tóuti li relacioun qu'avié, soun noum l'a<lb/>quàsi segui dins lou cros! La novo genera-<lb/>cioun counèis pas Verdot. D'ounte vèn aquel<lb/>injuste óublit? Proubablamen de ço que sis<lb/>obro, esparpaiado dins noumbre de publica-<lb/>cioun despareigudo vuei, soun pas estado<lb/>reûnido en un voulume. Aquéu voulume, l'a-<lb/>lestissié noste troubaire, n'avié chausi lou<lb/>Sître, Li Luseto, e avié fa deja un sounet-pre-<lb/>faci, Rire e lagremo; lou filoulogue i'avié<lb/>apoundu un gloussàri etimoulougi. La mort<lb/>l'es vengu coupa au mitan de soun travai, e 's<lb/>estounant que degun ague pensa, despièi, de<lb/>publica li sieissanto e tant de pèço de Verdot,<lb/>emai si brinde e discours.<lb/></p>
+        <p><lb/>Lou gènt óuratour — qu'a charra pas mens<lb/>d'uno ouro, cubert souvènt de picamen de<lb/>man entousiasto — a acaba en souvetant que<lb/>Sis entre-signe que venié de douna sus lou<lb/>pouèto eiguieren poscon faire trachi un cou-<lb/>mitat (e acò 's segur lou souvèt de tóuti li feli-<lb/>bre) qu'en s'óucupant de la publicacioun d'a-<lb/>quélis obro, farié un devé de reparacioun au¬<lb/>tant legitimo que tardiero.</p>
+        <p><lb/>Gros, gros sucès pèr M. Louis Pascau e pèr<lb/>Aguste Verdot que, n'en doutan pas aro, pou-<lb/>dren legi bèn lèu.<lb/></p>
+        <p><lb/>Tant bello sesiho s'es countuniado pèr de<lb/>vers e de cansoun de dono Lazarino de Ma-<lb/>nosco; MM. Galicier (impagable dins soun<lb/>blida e injustamen, car ai fisanço que d'aquelo<lb/>counferènci sourtira lou mejan de metre au<lb/>jour l'obro de Verdot que, brutalamen, la mort<lb/>venguè derroumpre.</p>
+        <p rend="labelled"><lb/>«Anen, gai felibre, parlo-nous de Verdot,<lb/>tant moudèste mau-grat sa sciènci, tant pouèto<lb/>mau-grat si pensamen, tant pietadous e gene-<lb/>rous mau-grat soun siècle !»</p>
+        <p><lb/>M. Pascau s'oubouro: «Ciramaci, dis, moun<lb/>brave Astruc, di paraulo, bessai trop lausen-<lb/>giero, que vènes de m'adreissa. T'ai chausi,<lb/>subre-tout, pèr presida ma charradisso pèr-ço¬<lb/>qu'ères un dis ami li mai afouga de Verdot.<lb/>Siés esta peréu un di set foundadou de l'Escolo<lb/>de la Mar emé lou felibre d'Eiguiero; siés esta<lb/>'m' éu souto-cabiscòn e majourau. Te revenié<lb/>de dre l'ounour d'aquesto presidènci.</p>
+        <p rend="labelled"><lb/>« Pèr vàutri, Midamo e Messiés, voste en-<lb/>vanc e voste empreissamen, e tambèn la vengu-<lb/>do de M. de Berlu-Perussis, lou saberu majou-<lb/>rau de-z-Ais, dèvon faire tresana d'aise lou<lb/>paure Verdot, souto lou bard jala que recuerb<lb/>sa despueio, éu qu'escrivié : « Je me prête fré-<lb/>quemment à faire l'éloge des autres en littérature;<lb/>qui songe à parler de moi?... Mais, ne nous plai-<lb/>gnons pas. Un jour, après ma mort, quelque no¬<lb/>ble ami, sans flatterie comme sans passion, me<lb/>rendra bonne et ample justice.»</p>
+        <p rend="labelled"><lb/>« Si noblis ami soun noumbrous: es vàutri<lb/>tóuti tant que sias !»</p>
+        <p><lb/>Em' acò, lou jouve counferencié intro en<lb/>plen dins soun sujèt. E se pòu dire que, pèr<lb/>un darrié vengu, poussedis sis ancian coume<lb/>pas un di pu vièi felibre. Sa charradisso marco<lb/>de dato, de fa, d'aneidoto, que faran plus tard<lb/>la joio de nòstis istouriougrafe, aquéli subre-<lb/>tont qu’amon... lou travai fa — e bèn fa.</p>
+        <p><lb/>Après nous avé parla de la neissènço dóu<lb/>pouèto, en Eiguiero lou 13 de jun 1823; de sis<lb/>estùdi jusquo en segoundo (1840) encò de<lb/>Coustet; de soun camin à través di divers gra-<lb/>de di Pont-e Caussado, nous revèlo qu'en letro<lb/>debutè pèr de pouesio franceso qu'avien pas<lb/>uno valour veraio, mai que voulié pamens<lb/>publica em' aquest titre : La Harpe éolienne.</p>
+        <p><lb/>Soun arribado à Marsiho, en 1860, couën-<lb/>cidis emé soun intrado dins lou Felibrige.<lb/>Dous an plus tard, fasié sa proumièro pèço :<lb/>Moun pais ; à parti d'alor, canto que cantaras,<lb/>Verdot laisso plus en repaus la muso prouven-<lb/>çalo. Eici, M. Pascau fai legido de diferènti<lb/>trobo de Verdot que soun cuberto d'aplaudi-<lb/>men, subre-tout Mariage astra, adreissa à<lb/>Mistral pèr soun matrimòni, en 1877.<fw type="digitisation-artefact"><lb/>purce gallica.bnf.fr/ Bibliothèques</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

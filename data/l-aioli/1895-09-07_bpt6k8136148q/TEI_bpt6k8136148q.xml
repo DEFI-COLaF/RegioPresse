@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136148q</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1895-09-07">1895</date>
+          <idno type="ARK">bpt6k8136148q</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136148q</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>CINQUENCO ANNA 169.</fw>
+        <fw type="runningTitle"><lb/>DISSATE 7 DE SETEMBREM8U5.</fw>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr l'oli<lb/>E faren Paisu.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>(Prouverbi di meissounie)</ab>
+        <ab><lb/>Vidoun, Vidau,<lb/>Segound la vido</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17,27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab><lb/>EURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI<lb/>au palais dóu Roure,<lb/>EN AVIGNOUN</ab>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN</p>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <ab><lb/>Baile dou journau:<lb/>FOLCO DE BARONCELLI</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>UNO BONO OBRO</head>
+        <p><lb/>NRI BOUVET, l'autour d'aquéu recuei<lb/>de pouesio avignounenco e satirico<lb/>entitula Lou femelan, tant vivènt<lb/>pèr soun realisme, es en trin de coumpli uno<lb/>obro bèn piouso vis-à-vis de soun mèstre lou<lb/>paure Ansèume Mathiéu.</p>
+        <p><lb/>Bouvet a fa grava à si frès uno lauso de<lb/>mabre blanc, destinado à-n èstre messo sus<lb/>la porto d'intrado de l'oustau peirenau dóu<lb/>felibre di Poutoun, à Castèu-Nou-de-Papo.<lb/>Aquelo lauso porto eicò en belli letro rougi-</p>
+        <ab type="head"><lb/>EICI ES NA E MORT</ab>
+        <ab type="head"><lb/>EN ANSEUME MATHIEU, PELIBRE MAJOURAU.</ab>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Dins soun libre La Farav</l>
+          <l><lb/>E dins si conte en prouvençau</l>
+          <l><lb/>l'a li rai de noste soulèu,</l>
+          <l><lb/>L'esperit de noste bon vin</l>
+          <l><lb/>E lou rire de nosti chato</l>
+        </lg>
+        <p><lb/>De mai Enri Bouvet a fa, en double eisem-<lb/>plàri, un precious manuscri, en tencho roujo,<lb/>negro e verdo, de tóuti lis oubreto inedito de<lb/>Mathiéu, que fugue vers o proso, tout ço que<lb/>noun s'atrovo dins lou recuei La Farandoulo.<lb/>Lou libre es precedi de quàuqui noutico biou¬<lb/>grafico, signado de Mistral, Sernin Santy,<lb/>Cassini, Bouvet, etc. La cuberturo es ournado<lb/>d'un brout de sèt boutoun de roso enribana<lb/>de la deviso : Tant de boutoun, tant de poutoun,<lb/>qu’acò 'ro lou blasoun dóu gènt e bon An-<lb/>sèume; e se legis en tèsto dóu galant ma-</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Poat-F Avignson, lou 7 de jullet 1805.<lb/>co dou Museon Calvet. unch, à la bibliou-<lb/>tèco dóu mas</ab>
+        <ab type="head"><lb/>I LEGÉIRE dE L'OBRO INEDIPO D'A. MATHIÉU</ab>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Aquel enchuscla d'ambrousio</l>
+          <l><lb/>Cantavo coume un roussignou,</l>
+          <l><lb/>En largant dins chasque draiou</l>
+          <l><lb/>Li resson de sa pouesio.</l>
+        </lg>
+        <lg>
+          <l><lb/>Coume soun vin de Castèu-Nou,</l>
+          <l><lb/>Vès, si cansoun an d'alegrìo,</l>
+          <l><lb/>An la frescour, an la babiho</l>
+          <l><lb/>E lou clarun di rajeiròu.</l>
+        </lg>
+        <lg>
+          <l><lb/>O vàutri que venias en foulo</l>
+          <l><lb/>Quand nous disié si conte blu,</l>
+          <l><lb/>Quand menavo sa farandoulo,</l>
+        </lg>
+        <lg>
+          <l><lb/>Vès-eici li darrié belu,</l>
+          <l><lb/>L'or pur d'aguéli pimpiheto</l>
+          <l><lb/>Que, trelusènt, nous fan lingueto !</l>
+        </lg>
+        <ab><lb/>Enri Houvet.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>LOU RATUN</head>
+        <lg>
+          <l><lb/>Disès que lou Counsèu vòu demouli li bàrri</l>
+          <l><lb/>Pèr douna d'èr à-n-Avignoun?</l>
+          <l><lb/>Dounara d'èr pulèu i gàrri</l>
+          <l><lb/>Que traucon lou saquet pèr manja lou pougnoun</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>l'avié de mounde?</ab>
+        <ab type="head"><lb/>LOu RouMAVAge de SaNt gent</ab>
+        <p><lb/>aquesto semano qu'au Bausset de Vau-Cluso s'es fa la<lb/>festo de Sant Gènt. Li Sant-Genaire l'eron 25,000. Vès-n'eici<lb/><lb/>uno descripcioun que n'avié facho dins lou téms lou paure<lb/><lb/>Telibre Bagnôu, de Mazan, — qu’es mort l'a quàuquis an.</p>
+        <p><lb/>La fêsto de Sant Gent n'es plus la fèsto d'un endré,<lb/>d'un cantoun, d'un despartamen, es la festo de la Prou¬<lb/>vènço, e coume, de l'autro man dóu Rose, dóu Gard, de<lb/>Erau, de l'Ardecho, di Ceveno, n'' en ven tant e mai,<lb/>e pòu dire qu'es la fésto dóu Miejour.</p>
+        <p><lb/>Aquelo festo esbrihaudanto, sousprenènto, incoumpa¬<lb/>rablo, que vous laisso à l'esperit P'efet d'uno vesioun ce-<lb/>lesto, l'a 'no trenteno d'an que se n'en parlavo quasi pas.<lb/>Es lou pople que l'a 'stablido sèns l'ajudo e lou counsèu<lb/><lb/>de res, lou pople, rèn que lou pople, dins un envanc<lb/>irresistible de fe, d'amour e de recouneissènço.</p>
+        <p><lb/>Se je preparon d'un an à l'autre: entendes aquest pa-</p>
+        <list>
+          <item>Venes de Sant Gent?</item>
+        </list>
+        <list>
+          <item>O! ah! paure de tu: aviéu jamai rèn vist!</item>
+        </list>
+        <list>
+          <item>E la proucessioun?</item>
+        </list>
+        <list>
+          <item>Se pou pas dire: ll proumié eron deja 'n bas que lou Sant avié panca parti.</item>
+        </list>
+        <list>
+          <item>Aquéli lume devien faire un bêl efêt?</item>
+        </list>
+        <list>
+          <item>- Me sèmblo que li vese encaro.</item>
+        </list>
+        <list>
+          <item>– Ero lou paradis!</item>
+        </list>
+        <list>
+          <item>Paire, nousiéfau mena l'an que ven?</item>
+        </list>
+        <list>
+          <item>Tetino, lé fandra 'na</item>
+        </list>
+        <list>
+          <item>Fefin, fau veni !</item>
+        </list>
+        <list>
+          <item> Dido, ié vau mai!</item>
+        </list>
+        <p><lb/>léu, fau que l'ane tonti lis an !<lb/>Un mes á l'avanço, entre parênt, ami, vesin, couneis-</p>
+        <p><lb/>sent, se mancho de troupo de dès, vint, trento, quaranto,<lb/>quand arribo la vèlo e lou jour de parténco, li femo<lb/>espòusson, lavon, empeson, estiron, fan couire gigot,<lb/>cousteleto, roundello, rougnounado, tian, troucho, bras-<lb/>sadèu, que sabe féu ! Lis ome preparon li bésti, tendon<lb/>la carreto, lé meton lis escaleto, li parabandoun, l'alon-<lb/>gon, l'ausson, l'alargisson, ié fan d'estagiero, la garnisson<lb/>de trousso, de bassaco, de matalas, n'en fan un oustau; e<lb/>quand es tout lèst, que soun tóuti rendu, ome, femo,<lb/>enfant, viei, ami, amigo, couifo e capèu, tout acò mounto,<lb/>se fourro, s'amoulouno, s'encafourno aqui-dedins; lou<lb/>fouit peto, lou falèt tiro, e li vaqui parti: Vivo Sant Gent!</p>
+        <p><lb/>Nr'a que vènon de liuen, que fan quaranto-vuech ouro<lb/>de camin e que se pauson sièis o sêt cop long de la<lb/>routo. A mesuro que s'avançon, n'en rescontron d'autre.<lb/>d'aqui, d'eila, de pertout ; s'apoundon, s'arrenguéiron e<lb/>formon de trin que finisson plus. Pa son li mourre, li<lb/>plan, li ribiero, li vilo, l vilage; fan un tapage, un tara-<lb/>, an Tor carnentrs e na un mn de <lb/>que degun pou plega li parpello. D'aquélis endré e de<lb/>touto la Coumtat, li gênt qué soun plus proche parton<lb/>que lou dissate, e n'ia forço que van à pèd, veritabli<lb/>roumiéu. Tóuti amiron Sant-Leidié ounte l'a plus qu'uno<lb/>routo, la routo dóu Bausset. Aqui l'on coumenço de vèire<lb/>quaucarèn : pendent mai de quaranto ouro, aquelo routo<lb/>es uno veritablo ribiero de mounde: n'i'en passo, n'l'en<lb/>passo, de carreto, de carretoun, de jardiniero, de chara-<lb/>banc, de tapo-quiéu, d'omnibus, de diligenço, que van au<lb/>pas, au trot, au galop, au grand courre, se rescountrant,<lb/>se crousant, se passant, se leissant, s'agantant mai, tóuti<lb/>cacalucha de gènt que rison, que canton, que cridon, que<lb/>quilon, espouscant, segound li têms, de pòusso o de fango,<lb/>li pedoun que ténon prudentamen li ribo. Es un cop<lb/>d'iue di plus poulit : en avans, tant que poudès vèire, de<lb/>gènt que van; à rêire, tant que la visto pòu ana, de gent<lb/>que vènon. E la ribiero umano passo e desbordo.</p>
+        <p><lb/>Arriban au Bausset. Vivo Sant Gent!</p>
+        <p><lb/>Lou Bausset, pais roucassous e baumelu, se quiho tant<lb/>ben que mau 'mé soun castèu esvalabra, sus lou grou-<lb/>pioun d'uno colo que partejo en dos la richo coumbo de<lb/>Sant-Leidié: uno di dos es la coumbo de Sant Gént. Se<lb/>vai á-n-aquéu vilage escalabrous pèr un parèu de moun¬<lb/>tado caladado de frejau, que fan boufa diablamen. Ape-<lb/>raqui sus lou mitan s'atrobo lou cementèri, pourtant sus<lb/>cadun di pieloun de soun intrado uno sentènci en prou-<lb/>vençau. Lou Bausset a l'ounour e lou bonur de counserva<lb/>dins sa glèiso li relicle dou sant ermito : soun dins uno<lb/>bello caisso daurado supourtado per la Vaco e lou Loup,<lb/>li dous coumpagnoun de noste Sant, lou tout servènt de<lb/>pedestau à l'estatuo dón benurous, un di cap-d'obro de<lb/>Bernus de Mazan. que n'a fa que de cap-d'obro. En 1876,<lb/>dreissèron soulennamen, souto l'endré, au bord d'un pi-<lb/>chot replanat soustengu pèr de forti muraio, la reprou-<lb/>ducioun en pèiro frejo de grandour naturalo d'aquelo<lb/>estatuo. Se vèi de liuen. Apiela d'un geinoun sonlamen,<lb/>sus un pedestau de déso douge pan d'aut, lou bras estendu,<lb/>lou front atuba, lis iue raiounant, semblo en estàsi dins</p>
+        <p><lb/>Es eici que coumenço la festo. Entre cinq e sièis ouro<lb/>de vèspre, prenon dins la glèiso li relicle dóu Sant e ll<lb/>porton en triounfle à sa capello dóu desert ounte réston<lb/>lou mes de setèmbre. Segound l'us antique, la prouces.<lb/>sioun dèu se faire en courrént tout-de-long dóu camin,<lb/>g'arrestant soulamen au Lié de Sant Gènt, ounte se fal un<lb/>beu sermoun, sèmpre douna pèr un jouine prèire de</p>
+        <p><lb/>Parti à pèd de Mazan à quatre ouro mens dès, emé<lb/>nòu kiloumètre à faire enjusquo au Bausset, nous crian<lb/>espala per arriba à cinq ouro: à cinq ouro, nous restavo<lb/>un pichot quart de lègo à brula; estirerian mai la cambo<lb/>e, quauqui minuto après, arriberian bagna coume de<lb/>souco au Bausset. Demanderian vitamen se la prouces-<lb/>sioun avié parti ; nous diguèron que noun.</p>
+        <p><lb/>A la bono ouro ! prenen alen.</p>
+        <p><lb/>Apres agué saluda lou grand Sant, jiterian un cop d'iue<lb/>sus aquelo bello coumbo de Sant-Leidié. Que de carreto<lb/>en tóuti li granjo ! que de gènt sus la routo que moun¬<lb/>ton! que de gènt de pertout! E partên mai, à l'aise<lb/>aquesto fes, per ana au hé espera la proucessioun.</p>
+        <p><lb/>La coumbo de Sant Gent, que finis pèr uno soulitudo<lb/>sóuverto e secarouso, es eici d'uno veritablo magnifi-<lb/>cenci : larjo, founso, apradido, aubrihado, de bancado<lb/>espetaclouso l'encadron e la courounon de pertout, assous.<lb/>tant de plantado d'óulivié e d'amourié que semblo que<lb/>s'arroson: d'éurre, de redorto, balançon graciousamen<lb/>si vertouioun au-dessus de baumo sournarudo ; de cre-<lb/>basso pleno de verduro, de baus destaca, arresta 'n der-<lb/>runant long di pendo, souto la pampo risouleto dis<fw type="digitisation-artefact"><lb/>So/Bieu</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k9605592s</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1923-11-01">1923</date>
+          <idno type="ARK">bpt6k9605592s</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k9605592s</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>NOUVELLE</fw>
+        <dateline><lb/>Novembre 1923.</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>6, Rue Saint-Jean</ab>
+        <p rend="heading"><lb/>A1<lb/>Que bufo un cop cado mes<lb/>ORGANE DE LA SOCIÉTÉ</p>
+        <fw type="numbering">No 60</fw>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>LES TOULOUSAINS DE TOULOUSE</p>
+        <ab><lb/>Ce Bulletin et les similaires sont à conserver et à relier dans la série de<lb/>L'Auta dont ils font partie intégrante.</ab>
+        <figure type="decoration"/>
+        <p><lb/>Les réunions mensuelles se tiendront à l’avenir au<lb/>siège social de la Société, 6, rue Saint-Jean (Carmes).</p>
+        <p><lb/>La première aura lieu le samedi 3 novembre à 8 heures 30 du soir</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>Causerie de M. Alexandre Biscons:</p>
+        <p><lb/>Aperçu sur quelques monuments détruits à Toulouse depuis le<lb/>début du XIXe siècle.</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>Le Dimanche 18 novembre visite de l’Asile d'aliénés de<lb/>Braqueville sous la conduite de M. le Dr Dic<lb/>irecteur de<lb/>l’établissement.</p>
+        <p><lb/>Rendez-vous à 15 heures devant l’asile.</p>
+        <p><lb/>Tramways Place des Carmes-Braqueville. Départ toutes les heu-<lb/>res : 13 heures, 14 heures, etc.</p>
+      </div>
+      <div type="article">
+        <head><lb/>La Vie de la Société</head>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>RÉUNIONS<lb/>16 juin 1923 — M. J.-R. de Brousse fait une causerie sur</ab>
+        <p rend="styled"><lb/>Un adversaire toulousain de Pasteur : le Dr N. Joly</p>
+        <p rend="labelled"><lb/>Né à Toul le 11 Juillet 1812. Nicolas Joly fit de solides études<lb/>et entra comme maître d’étude, d'abord au Lycée de Grenoble, puis<fw type="digitisation-artefact"><lb/>des Toulous</fw><lb/>au Lycée de Montpellier. C’est dans cette dernière ville qu’il passa<lb/>sa thèse et fut reçu docteur ès science. Un peu plus tard, après six<lb/>mois de travail acharné à Paris, il obtint la première place au con-<lb/>cours de l’agrégation. Chargé de cours à la Faculté des Sciences de<lb/>Toulouse, Joly s'y fit remarquer par sa valeur et apprécier pour<lb/>la droiture de son caractère et de ses convictions. En Février 1848,<lb/>il devint adjoint au Maire, mais donna sa démission assez rapide-<lb/>ment. Il revint à ses travaux avec plus d’enthousiasme que jamais.</p>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="263"/>
+        <p><lb/>Les théories de Pasteur fraîchement écloses révolutionnaient le<lb/>monde savant. Deux camps s'étaient formés. Le Dr Joly se classa<lb/>résolument parmi les adversaires de Pasteur et quand vint le moment<lb/>des démonstrations publiques, c’est le professeur toulousain qui<lb/>fut désigné pour exposer les arguments de son parti dans l'amphi-<lb/>théatre de l'Ecole de Médecine de Paris. Ce fut là pour lui un grand<lb/>honneur qu’il ne dût qu’à sa valeur incontestée. Il se trompait, com-<lb/>me de grands esprits se sont trompés à toutes les époques.</p>
+        <p><lb/>En 1873, le Dr Joly fut nommé professeur honoraire. Il mou-<lb/>rut agé de 76 ans, le 17 Octobre 1885.</p>
+      </div>
+      <div type="article">
+        <head><lb/>VISITES ET PROMENADES</head>
+        <head><lb/>A l'Usine à Gaz</head>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>Le Dimanche 17 Juin, la Societé a visité l'usine à gaz. Nos adhé-<lb/>rents ont été aimablement guidés dans les diverses salles de ma¬<lb/>chines où des explications techniques leur furent abondamment<lb/>fournies. On n'a pu qu'admirer l’impressionnant matériel et l’ordre<lb/>parfait qui règne dans cette importante organisation. L’ouverture<lb/>d’un four d’une splendeur rutilante termina magnifiquement cette<lb/>instructive promenade.</p>
+        <ab type="head"><lb/>Notre Musée</ab>
+        <p><lb/>Notre musée, totalement réorganisé, sera ouvert au public gratui-<lb/>tement le premier Dimanche de chaque mois de 10 heures à midi et<fw type="digitisation-artefact"><lb/>a.bnf.fr/Association des Toulousains de Tou</fw></p>
+        <figure type="decoration"/>
+        <pb facs="0003.xml"/>
+        <milestone unit="page" n="264"/>
+        <ab><lb/>1108 M. Roger Taillade, Rédacteur à l'Office Départemental des<lb/>Pupilles de la Nation, 23, rue Saint-Roch des Minimes,<lb/>Présenté par MM. Louis Ariste et J.-R. de Brousse.<lb/>Mme Venturini, 18, rue de la Fonderie.<lb/>1109<lb/>Présentée par MM. J.-R. de Brousse et Praviel.<lb/>2, rue de Vienne, Paris.<lb/>1113 M. Lalubie, 26, quai de Tounis.<lb/>Présenté par MM. J.-R. de Brousse et Lupiac.<lb/>1114 M. Castéras, industriel, 40, Boulevard de Strasbourg.<lb/>Présenté par MM. Biscons et Mesplé.<lb/>1115 M. Paul Biedermann, industriel, 28, rue Valade.<lb/>Présenté par MM. Mesplé et Giscaro.<lb/>en tout temps moyennant un droit d’entrée de i franc par personne.</ab>
+        <p><lb/>(S'adresser au concierge au 3me).<lb/>Dans l’installafion actuelle, une nouvelle salle a été à peu près<lb/>entièrement consacrée à la collection Gabriel Gay. Un prochain nu-<lb/>méro de l'Auta fournira de plus amples renseignements sur ce don<lb/>important.</p>
+        <p><lb/>Premier jour d’ouverture : Dimanche 4 novembre de 10 h. à midi.</p>
+        <p rend="heading"><lb/>NOUVEAUX ADHÉRENTS</p>
+        <p rend="labelled"><lb/>1110 M. Joseph Jean-Jean, Impasse Tournefeuille.</p>
+        <list>
+          <item>Presenté par MM. Schwab et Mesplé.</item>
+          <item>1III M. le Dr Delherm, Conseiller général de la Haute Garonne,</item>
+        </list>
+        <p><lb/>Présenté par MM. Biscons et Dr Escat.</p>
+        <p rend="labelled"><lb/>1112 M. Salomon Bach, chef des services de la Rédaction Toulou¬<lb/>saine de «La Petite Gironde», 45 rue Alsace-Lorraine.</p>
+        <list>
+          <item>Présenté par MM. Boyé et Dumas.</item>
+        </list>
+        <figure type="decoration"/>
+        <note>
+          <p rend="styled"><lb/>L'Administrateur-Gérant: ROUCOLLE</p>
+          <p rend="styled"><lb/>Imp La Gutenberg. Toulouse.<fw type="digitisation-artefact"><lb/>nf.fr/Association des Toulous</fw></p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k9605591c</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1923-01-01">1923</date>
+          <idno type="ARK">bpt6k9605591c</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k9605591c</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <dateline><lb/>Janvier 1923.</dateline>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>NOUVELLE SERIEIN 42<lb/></p>
+        <figure type="decoration"/>
+        <p rend="dateline"><lb/>Que bufo un cop cado mes<lb/>ORGANE DE LA SOCIÉTÉ</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>LES TOULOUSAINS DE TOULOUSE</p>
+        <p rend="styled"><lb/>6, Rue Saint-Jean</p>
+        <ab><lb/>Ce Bulletin et les similaires sont à conserver et à relier dans la série de<lb/>L'Auta dont ils font partie intégrante.?</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>923, a<lb/> sond</ab>
+        <p><lb/>Réunion générale mensuelle, samedi 27 Jar<lb/>8 heures 30 du soir, au Sénéchal, 17, rue de Rem<lb/>de la cour, à gauche, au second.</p>
+        <p><lb/>Ordre du jour:</p>
+        <p><lb/>Causerie de M. Maurice Boyé:</p>
+        <p><lb/>Cujas Intime</p>
+        <p><lb/>Dimanche 28 janvier, visite du chantier de construction<lb/>du nouveau théâtre du Capitole, sous la direction de M.<lb/>Paul Pujol, architecte du théâtre.</p>
+        <p><lb/>Rendez-vous à 10 heures du matin, dans le Vestibule du Théâ-<lb/>tre, place du Capitole.</p>
+      </div>
+      <div type="article">
+        <head><lb/>La Vie de la Société</head>
+        <head><lb/>RÉUNIONS</head>
+        <list>
+          <item>16 Décembre 1922. — Présidence de M. J.-R. de Brousse.</item>
+        </list>
+        <p rend="labelled"><lb/>M. Mesplé fait une causerie sur:</p>
+        <p><lb/>Un Précurseur du Félibrige, le poète Olympe Eénazet.</p>
+        <p><lb/>Né à Beaumont-de-Lomagne, en 1802, le poète Olympe Bénazet<lb/>demeura toute sa vie «un pauvre gueux» comme il s’était qualifié<lb/>lui-même, Il s’intitulait «professeur d’écriture, faisant des dessins<lb/>de broderie pour les dames». Ses poésies françaises consistent prin-<lb/>cipalement en madrigaux, fables et épigrammes, souvent fort bien<lb/>tournés, selon la tradition du 18e siècle. En langue d’Oc, il se révèle<lb/>surtout comme un satirique parfois très violent comme dans la pièce<lb/>intitulée Les Capelas. Mais il excelle dans le théâtre populaire, dans<lb/>la farce. Son Proucès de Bounifaço Coutoun et son Tounis et<lb/>Naoubernat mêlent à des attaques envers les puissants de ce monde<lb/>une bouffonnerie de bon aloi. Il serait à souhaiter que telles de ses<lb/>pièces soient encore représentées sur des scènes de village ou de<lb/>faubourg.</p>
+        <figure type="decoration"/>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="239"/>
+        <p><lb/>Olympe Bénazet etait trop vieux et dans une trop grande gêne<lb/>pour prendre part au mouvement félibréen, mais il l'a précedé<lb/>et annoncé au même titre que Jasmin et Vestrepain.</p>
+      </div>
+      <div type="article">
+        <head><lb/>VISITES ET PROMENADES</head>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>Au Jardin d’Acclimation de MM. Bastide frères</ab>
+        <p><lb/>Le dimanche 17 décembre, la Société a visité le Jardin d’Acclima-<lb/>tation et d’élevage des perruches ondulées sous la direction de l’un<lb/>de ses directeurs M. Henri Bastide. Cet établissement avec ses<lb/>vastes dépendances, unique au monde, a été fondé il y a quarante<lb/>ans environ, par M. Bastide père, mais il a pris depuis ses débuts<lb/>une extension étonnante et souvent insoupçonnée. M. Henri Bastide<lb/>a expliqué à ses visiteurs les moyens d’élevage et de sélection des<lb/>oiseaux et a fourni des renseignements sur l’étendue de ce com-<lb/>merce qui traite surtout avec l’étranger, avec l’Angleterre principale-<lb/>ment. Bien que la visite ait eu lieu au moment de l'année où les<lb/>perruches sont en nombre réduit les membres de la Société ont pu<lb/>quand même en apercevoir quelque chose comme 30.000.</p>
+        <p><lb/>En remerciant M. Henri Bastide de son aimable accueil et de ses<lb/>explications, M. le Dr. Escat a ajouté fort justement qu’il n’y avait<lb/>pas que les Allemands qui sachent créer de grandes entreprises et<lb/>que les Français et les Toulousains en sont également capables.</p>
+        <figure type="decoration"/>
+        <pb facs="0003.xml"/>
+        <milestone unit="page" n="240"/>
+        <ab><lb/>Toulouse C.C. 10464</ab>
+        <p rend="heading"><lb/>NOUVEAUX ADHÉRENTS</p>
+        <ab><lb/>1081 M. le Dr. de Montval, 1, rue Montardy.<lb/>Présenté par M. le Dr Escat et M. Chalande.<lb/>1082 M. Dominique Sourd, entrepreneur de charpente, 33,<lb/>Présenté par M.M. Moncassin et Durand.<lb/>1083 M. Antoine Laporte, 5, rue Arago.<lb/>1086 M. Gazagne, entrepreneur, 41, rue Raymond IV.<ab><lb/>Côte Pavée.</ab></ab>
+        <p><lb/>Présenté par MM. Moncassin et Durand.</p>
+        <p rend="labelled"><lb/>1084 M. Marquier, bijoutier, 12, rue de Castres.</p>
+        <p><lb/>Présenté par MM. Moncassin et Durand.</p>
+        <list>
+          <item>1085 M. Boulicaud, étudiant, 7, rue Fermat.</item>
+          <item>Présenté par MM. Castelbert et Dumas.</item>
+        </list>
+        <ab>
+          <stamp><lb/>BIRLIO<lb/>TOOLOU<lb/></stamp>
+        </ab>
+        <p><lb/>Présenté par MM. Moncassin et Durand.</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>COTISATION 1923</p>
+        <p><lb/>Nous signalons à nos adhérents que pour régler leur cotisation<lb/>1923, ils ont la facilité de l’adresser (affranchissement 15 centimes)<lb/>au compte de chèque postal de notre trésorier :</p>
+        <ab><lb/>M. Giscaro, 12, Place des Puits-Clos.</ab>
+        <p><lb/>Le reçu de la poste tient lieu de quittance.</p>
+        <figure type="decoration"/>
+        <note>
+          <p rend="styled"><lb/>L’Administrateur-Gerant: ROUCOLLE</p>
+          <p rend="styled"><lb/>Imp. La Gutenberg. Toulouse.<fw type="digitisation-artefact"><lb/>ion des Toulo</fw></p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

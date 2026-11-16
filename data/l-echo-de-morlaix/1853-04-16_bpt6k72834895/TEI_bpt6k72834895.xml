@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Écho de Morlaix</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k72834895</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Écho de Morlaix : feuille d'annonces : journal politique</title>
+          <publisher>V. Guilmer (Morlaix)</publisher>
+          <date when="1853-04-16">1853</date>
+          <idno type="ARK">bpt6k72834895</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k72834895</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="bre">breton</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>QUINZIEME ANNÉE.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>SAME 182</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>FEUILLE D'ANNONCES.</p>
+        <p rend="styled"><lb/> Ce Sourmal puslie les Ventes, les Annences judielairen, administrativen, commereiales, Metéraires. industriettes.</p>
+        <ab><lb/>aaricoles, et les Avis divers.</ab>
+        <p rend="styled"><lb/>L'Eche paralt le samedi de chaque semaine. — Le prix de l'abonnement pour une année, est de 10 fr. pour Morisis, e:<lb/>50 c. par la poste. — Les lettres, les paqueis et l'argent<lb/>On s'abenne et on reçoit les annences pour notre journal, à f'aris<lb/>doivent etre adressés franco, au Bureau du Journal, ches V. Guumsa, Imprimeur-Libraire, à Merlair (Finistère).<lb/>Notre-Dame des- V'icteires, 23, à l'Office correependance LusoLsvar<lb/>les Libraires et ches les Direeteurs des postes. — Prix d'insertion: 25 cratimes la ligue¬</p>
+      </div>
+      <div type="article">
+        <head><lb/>AVIS ET PAITS DIVERS.</head>
+        <p rend="labelled"><lb/>-Calvez (Jean-Guillaume), galochier, nè à Gar¬<lb/>lan le 18 mai 1808, demeurant quartier Traoulen, a<lb/>été trouvè asphyxié par suspension dans sa chambre.</p>
+        <p><lb/>Depuis cinq ans ce malheureux avait perdu sa femme<lb/>et donnait, depuis cette époque, des signes d'aliéna¬</p>
+        <p rend="labelled"><lb/>— Par décret en date du 2 avril courant, rendu sur<lb/>le rapport du ministre secrétaire d'Etat au departe¬<lb/>ment de l'intérieur, S. M. l'Empereur a nommé pré-<lb/>sident de la Sociètè de secours mutuels des Instituteurs<lb/>et Institutrices du Finistère M. Perron, directeur de</p>
+        <p><lb/>Cette Socièté̀, dont la fondation ne date que de<lb/>quelques mois, et qui a déjà obienu les sympathies<lb/>des principales autorites du département ainsi que<lb/>d'un grand nombre de personnes recommandables,<lb/>est appelée à rendre d'immenses services à la classe<lb/><lb/>si intéressante des instituteurs et institutrices. Nous<lb/>ne doutons pas que tous les membres de l'instruction<lb/>primaire, désireux de se venir mutuellement en aide<lb/>dans les circonstances difficiles de la vie, ne s'y rallient<lb/>bientôt et ne forment pour ainsi dire qu'une seule et</p>
+        <p><lb/>— On nous écrit de Redon, 26 mars :</p>
+        <p rend="labelled"><lb/>«Neuf bateliers de la Vilaine sont en ce moment<lb/>écroués à la maison d'arrèt de Redon, sous l'inculpa-<lb/><lb/>tion de vol de vin commis dans le trajet de Redon à<lb/>Rennes, et passeront probablement en cour d'assises.<lb/>Cette fois, les libations ne se sont pas faites comme<lb/>d'ordinaire en famille; il y avait des invitès, ceux-ci<lb/>ont mème fait leurs provisions avant de quitter les<lb/>bateaux. C'est le transport du vin volé qui a tout appris<lb/>à la justice. Il est temps enfin de réprimer cette habi-<lb/>tude qu'ont les mariniers de la Vilaine de puiser sans<lb/>scrupule aux barriques qu’ils transportent. Mais d'or-<lb/>dinaire ils prennent si bien leurs précautions, qu'il<lb/>est presque impossible de les convaincre.</p>
+        <p rend="labelled"><lb/>— Samedi dernier, un accident, dont les suites<lb/>pouvaient être funestes, a mis en émoi le quartier<lb/>Saint-Pierre, à Saint-Brieuc. Un journalier, nommé<lb/>Bourel, travaillait à une assez grande profondeur dans<lb/>les fondations de la maison que construit en ce moment<lb/>M. de T.... Un énorme tas de sable surmontait la place<lb/>où se tenait cet ouvrier, et le propriètaire l'avait averti<lb/>plusieurs fois de se tenir en garde contre un éboule-</p>
+        <p><lb/>Ce qui était prévu arriva; une énorme avalanche fit<lb/>tout-à-coup disparattre Bourel. Plus d'un mètre de<lb/>sable recouvrait sa tềte ; et pourtant, enveloppé sou-<lb/>dainement par cette matière, il était demeuré presque<lb/>debout, la poitrine soutenue par le manche de son<lb/>outil. Les secours les plus empressés et les plus intel-<lb/>ligents furent aussitôt organisès, mais un nouvel ébou-<lb/>lement était toujours à craindre. Enfin, on écarta as-<lb/>sez de sable pour dégager la tête de Bourel, et l'on<lb/><lb/>fut rassuré sur son état. Toutefois, il ne put respirer<lb/>librement que lorsque le manche d'outil qui pressait<lb/>sa poitrine fut adroitement coupé. On acheva, avec<lb/>d'extrèmes précautions, d'enlever le sable qui l'en-<lb/>veloppait, et M. le docteur Rault, dont le zéle avait<lb/>direct aux producteurs, et, par suite, l'exclusion de<lb/>tous les intermédiaires. Cependant, malgré les pré-<lb/>cautions prescrites, des hommes qui se livrent au ma¬<lb/>quiguonage essaient encore de s'interposer entre l'a-<lb/>cheteur et le producteur, auquel l'Etat veut assurer<lb/>tous les avantages qui résultent de l'achat direct. Pour<lb/>parer à cet inconvénient, une circulaire ministérielle<lb/>prescrit l'établissement, dans chaque commune faisant<lb/>partie d'une circonscription de remonte, d'un registre<lb/>sur lequel les éleveurs seront tenus de faire inscrire<lb/>à l'avance les chevaux destinés à l'armée. Ces docu-<lb/>ments, recueillis par les maires et contrôlés par les<lb/><lb/>officiers de remonte, formeront une statistique pré¬<lb/><lb/>cieuse des ressources des différentes communes et<lb/>rendront plus faciles et plus sùres les opérations d'achat.</p>
+        <p rend="labelled"><lb/>— Mercredi, vers minuit, un brouillard très épais,<lb/>qui a continué longtemps, a enveloppè la Manche,<lb/>plusieurs batiments ont péri corps et biens ; incapables<lb/>de se diriger, à cause de l'obscurité, ils touchaient<lb/>la côte, sans s'y attendre. D'autres batiments, voulant<lb/>éviter les côtes d'Angleterre, ont touché les sables du<lb/>littoral français. Le Junior, frêté de Callas, pour<lb/>Aberdeen, ayant une riche cargaison, a touché la<lb/>côte à 900 milles à l'O. de Boulogne ; heureusement<lb/>léquipage a pu se sauver. Le Glaningen, navire hol¬<lb/>landais, égaré par le brouillard, a touché les rochers<lb/>près Jerscy. Le capitaine et 6 hommes de l'équipage</p>
+        <p><lb/>Un cutter français, les Trois Suzannes, de Bordeaux,<lb/>à peu de distance à l'Ouest de Rogerin Castle, a donné<lb/>contre des rochers formidables: la chaloupe a été mise<lb/>à la mer. Trois hommes ont péri ; trois autres, qui<lb/>s'étaient cramponnés à la chaloupe et qui avaient tenu<lb/>bon pendant quelque temps, ont heureusement été<lb/>recueillis par des canotiers, après beaucoup d'efforts.</p>
+        <p rend="labelled"><lb/>— La ville de Palais était le 5 au matin dans la plus<lb/>grande agitation. Blanqui et Cazavan étaient parvenus<lb/>à tromper la surveillance des gardiens, et s'étaient<lb/><lb/>échappés, pendant la nuit, de la prison d'état, en<lb/>franchissant, à l'aide d'une corde grosse au plus comme<lb/>De petit doigt, un mur et un fossé de la citadelle.</p>
+        <p><lb/>L'éveil a été donné ce matin au moment de l'appel.<lb/>Les troupes de la garnison, la gendarmerie et une<lb/>escouade de gardiens se sont aussitôt mises à leur re-</p>
+        <p><lb/>Les deux évadés ont été trouvés, à 9 heures du<lb/>matin, au village de Radenec, près du grand phare.<lb/>Ils étaient cachés dans la grange d'un cultivateur chez<lb/>lequel ils avaient espèré trouver les moyens de gagner<lb/>le continent. On a ramené les fugitifs à Palais vers<lb/>midi. On avait placé Blanqui sur une charrette parce<lb/>qu'en escaladant le mur il s'est, à ce qu'il parait, lé¬<lb/>gèrement blessé aux verres qui en garnissent le cha-<lb/>peron ; son camarade Cazavan suivait à pied. Le pre-<lb/><lb/>mier avait conservé le costume de la maison de déten¬<lb/>tion, le second était en habit noir.</p>
+        <p><lb/>Quelques minutes après ils étaient réintégrés dans<lb/>la prison et mis en cellule de punition.</p>
+        <p><lb/>On a trouvé sur eux un millier de francs en or et<lb/>plusieurs bijoux qu'ils avaient eu soin de coudre dans</p>
+        <p><lb/>On s'accorde à dire que les surveillants n'avaient<lb/>négligé aucune des précautions d'usage. L'appel avait<lb/>été fait, le 4, au soir, comme d'habitude. En ouvrant<lb/>habilement dirigè tous les secours, put lui administrer<lb/>les soins que son état exigeait. On a lieu d'esperer un<lb/>prompt et complet rétablissement de cet ouvrier.</p>
+        <p rend="labelled"><lb/>- Le vol à laméricaine tend à se naturaliser en<lb/>Bretagne. On se rappelle d'impudentes tentatives faites<lb/>récemment à Rennes et à Nantes ; Saint-Brieuc a eu</p>
+        <p><lb/>Avant-hier, vers trois heures, le garçon de caisse<lb/>de M. P... venait de faire des recouvrements en ville<lb/>el se disposait à retourner vera le bureau de son maitre;<lb/>il rencontra dans la rue Charbonnerie un homme assez<lb/>bien vêtu qui portait aussi un sac sur le bras et qui se<lb/>dit faisant les commissions d'en nègociant de Binic;<lb/>ils parlaient de la pluie et du beau temps, quand un<lb/>monsieur, affectant l'accent asglais, les aborda et les<lb/><lb/>pria de le conduire vers l'église monumentale de Saint-<lb/>Jichel, leur promettant une grosse gratification.<lb/>L'homme au sac engagea le garçon de caisse à accep-<lb/>ter ; et tous les trois, se dirigèrent vers Saint-Michel<lb/>où l'étranger prit les dehors d'une vive pièté.</p>
+        <p><lb/>En sortant, la gratification promise fut doublée;<lb/>l'homme au sac engagea notre briochin à accompagner<lb/>comme lui l'étranger vers la Croix de santé, afin qu'il<lb/>put jouir du coup d'œil. Chemin faisant, celui-ci leur<lb/>montra le desir d'échanger contre leurs saes d'argent,<lb/>l'or dont il était porteur ; il leur fit voir, en effet,<lb/>fune bourse bien garnie. L'homme au sac, le compère,<lb/>affectait de la défiance sur la valeur des pièces d'or et<lb/><lb/>il rentra en ville pour en faire vèrifier une. Au retour,<lb/>le troc fut conclu ; l'or montré d'abord rentra, sans<lb/>doute par un jeu de main, dans les poches de l'escroc<lb/>qui fit semblant de le livrer au garçon de caisse en un<lb/>petit sac ficelé et fermant avec un cadenas. Les deux<lb/>inconnus partirent pour aller, disaient-ils, vérifier à<lb/>leur tour les pièces d'argent ; et notre concitoyen,<lb/>qu'ils devaient venir retrouver, les attendit sous l'orme...<lb/>le soupçon le prit; il brisa le petit sac... qui ne con¬<lb/>tenait que des gros sous!!</p>
+        <p><lb/>La police, informée de ces faits, fit d'actives re¬<lb/>cherches dans la soirée; elles furent sans résultat. Hier<lb/>matin, le garçon de caisse, qui était en recherches<lb/>dans la ville, fut presque froissé au coin de la place<lb/>par un homme vètu en paysan, et sous ce costume il<lb/>crut reconnaitre l'un de ses escrocs. Le commissaire,<lb/>averti, ſit aussitôt saisir eet homme, sur lequel l'ar-<lb/>gent ne s'est pas retrouvè.... Mais le saisi est un indi-<lb/>vidu deux fois repris de justice...</p>
+        <p><lb/>L'instruction se poursuit avec activité. (Le même.)</p>
+        <p rend="labelled"><lb/>– Notre correspondance nous donne des détails<lb/>très-circonstanciès sur un meurtre qui aurait été com¬<lb/>mis ces jours derniers à Plounévez-Quintin. Mais la<lb/>justice étant saisie de cette affaire, nous nous bornons<lb/><lb/>à en raconter le fait en deux mots?</p>
+        <p><lb/>Deux jeunes gens, nous pourrions dire deux enfants,<lb/>puisque le plus âgé n'a que douze ans, gardaient les<lb/>bestiaux dans un mème pacage. Une dispute s'élève<lb/>entre eux, une lutte s'engage, et le plus faible est<lb/>ctouffé dans la neige par son adversaire. D'après les,<lb/>renseignements qui nous sont fournis, le meurtrier<lb/>serait une jeune fille de douze ans, et la victime un</p>
+        <p rend="labelled"><lb/>— Les règlements qui régissent le service de la re-<lb/>monte de l'armée consacrent le principe de l'achat</p>
+        <ab><milestone unit="column" n="3"/><lb/>u/Bèque noa d</ab>
+        <pb facs="0002.xml"/>
+        <p><lb/>les chambres de Blanqui et de Caravan le gardien s'è-<lb/>tait laisse abuser par la voe de deux manequins, dont<lb/>Pun (Blanqui) avait t'air de se chauffer, tandis que,<lb/>Fautre (Cazavan) accoude sur une table, paraissait<lb/>absorté par le travail. Aucune circonstance antèricure<lb/>n'ayant donné a soupconner le projet d'evasion de ces<lb/>deux détenus, le gardien avait eru leur presence suf¬<lb/>fisamment constatée et avait ferme la porte de leurs</p>
+        <p rend="labelled"><lb/>tèmoignage des sentiments de reconnaissance et de<lb/>dévouement dont elle est animée pour l'Empereur.<lb/>Dans l'espérance que S. M. daignerait visiter la Bre-<lb/>tagne, le conseil municipal de Nantes a voté, à l'una-<lb/>nimité, un crédit illimité pour recevoir dignement<lb/>L.I.. MM. Ce vote est d'autant plus significatif que le<lb/>conseil a en mème temps exprime au maire, que si la<lb/>ville de Nantes avait le bonheur de recevoir lEmpe-<lb/>reur, elle devrait donner à cette auguste visite le plus</p>
+        <p rend="labelled"><lb/>de Paris une lettre qui annonce que le voyage de<lb/>rEmpereur en Bretagne est ajourné. (Le meme.)</p>
+        <p rend="labelled"><lb/>extraordinaire, une somme de 10,000 fr. en prévision<lb/>des dépenses qu'occasionnera la réception de S. M.<lb/>l'Empereur quand il viendra visiter cette ville, au</p>
+        <p rend="labelled"><lb/>bruit que le Gouvernement pensait à proposer une</p>
+        <p><lb/>gesse de notre législation dans cette importante matière.</p>
+        <p rend="labelled"><lb/>allemandes, suisses ou alsaciennes, qui quittent en<lb/>masse les pays ou elles sont nées, n'ayant plus qu'un<lb/>souci: celui de gagner le Havre, pour de là, fuir<lb/>P'Europe et se perdre dans les deserts de l'Amèrique.<lb/>L'embarcadère du chemin de fer de Rouen présente<lb/>chaque soir le spectacie le plus animé et le plus bizarre.<lb/>Femmes, enfanis, vieillards s'asscoient, causent et<lb/>mangent sur les frottoirs de la rue d'Amsterdam,<lb/>pendant que les hommes valides portent leurs lourdes<lb/>caisses dans la salle des bagages, sans paraitre accor-<lb/>der la moindre attention aux parisiens qui s'arrêtent<lb/>et les regardent. On assure que l'émigration sera en-<lb/>core plus considérable ce printemps et cet éte qu'elle</p>
+        <p rend="labelled"><lb/>une ordonnance concernant les sucreries colorièes,<lb/>les substances alimentaires, les ustensiles et vases de</p>
+        <p rend="labelled"><lb/>Londres, qui a été lue à l'empereur, était écrite sur<lb/>une feuille de parchemin de 92 pieds anglais de lon-</p>
+        <p rend="labelled"><lb/>ceuvres d'art envoyées pour le salon de cette année,</p>
+        <p><lb/>Quatre mille tableaux, statues, pastels, gravures,<lb/>environ, ont été envoyés aux Menus-Plaisirs. A peu<lb/>près deux mille seront recus. Les nouvelles salles sont</p>
+        <p rend="labelled"><lb/>département de l'Ilérault à l'exposition universelle de<lb/>Londres, en 1831, figurait une composition littèraire<lb/>sans verbe. L'auteur de ce tour de force grammatical,<lb/>M. Garach, vient de recevoir de Londres, à titre de<lb/>récompense, une belle médaille de bronze à l'efligie<lb/>du prince Albert, un magnifique volume contenant<lb/>le rapport du jury sur l'exposition, et un diplôme at-</p>
+        <p rend="labelled"><lb/>journaux, savoir : 110 en langue nationale, 8 en<lb/>français, 30 en allemand, 3 en anglais, 2 en polonais<lb/>et 2 en livonien. Les trois ſeuilles anglaises s'occupent<lb/>exelusivement de commerce; les journaux allemands,<lb/>tout en traitant aussi les questions commerciales,<lb/>portent également leur attention sur l'agriculture, la<lb/>medecine, la religion ; leur publie se compose surtout<lb/>de protestants. Quant aux journaux français, qui pa-<lb/>raissent à Saint-Pétersbourg, à Moscou et à Odessa,<lb/>ils embrassent les sujeis les plus intèressants au point<lb/>de vue de la science, de la littérature et de la p<lb/>aussi soni-ils repandus dans toute la Russie, queique<lb/>nombreux que soient les abonnés de leurs confrères</p>
+        <p><lb/>La littèrature religieuse russe qui ne dépend que de<lb/>la censure du clergè de chaque culle, consisie dans<lb/>les traductions des Sainis-Pères et des auteurs asce¬<lb/>tiques du catholicisme, et elle n'offre aucun danger</p>
+        <p><lb/>En 1819 un évèque russe a traduit lui-mème les<lb/>opuscules ascctiques de Bellarmin. L'Imitation de Jesus¬<lb/>Christ était le second livre imprimé en russe an sci¬<lb/>rième siecie, et sa dernière traduction appartient au<lb/>comte Speransky, président du dépariement des lois<lb/>au conseil de l'Empire et qui a étè jusqu'a sa mort le</p>
+        <p rend="labelled"><lb/>31 décembre 1850, la valeur approximative du maté¬<lb/>riel de la guerre était de francs 418,857,181 et qu'll<lb/>est, au 31 décembre 1851, plus élevé de 11,570,180 fr.</p>
+        <p rend="labelled"><lb/>nomme la chicorée, que tant de braves gens, par<lb/>habitude ou par économie mélent à leur cafe. La aussi,<lb/>on a voulu savoir au fond ce que c'était que le com¬<lb/>merce de cette denrée, et de quel profit elle était pour<lb/>le peuple, en faveur duquel elle a étè, dit on, creèc,<lb/>et l'on a trouve dans l'analyse de cette substance, de<lb/>la carotte, du panais, de la betterave, des fèves, de<lb/>la graine de lupia, du ble torréfié, du biscuit à chiens,<lb/>du caramel, de la terre rouge, du marron d'inde, du<lb/>tan, de la sciure de tois, du foie de cheval ou du<lb/>beruf cuit au four, de la poudre de Hambourg, du<lb/>rouge de Venise, etc., etc. — Cest un véritable thé</p>
+        <p rend="labelled"><lb/>vient d'obienir T'appui de M. le ministre de la marine<lb/>pour la découverte de l'emploi de l'air chaud dans les<lb/>machines á vapeur. M. Reich, dans ses moyens d'exé-<lb/>cution, differe entièrement du capitaine Erieson. Il<lb/>applique son principe à la turbine. C'est toute une ré¬<lb/>volution s'il réussit, car son système supprime le pis-<lb/>ton, le corps de pompe, simplifie alors complètement<lb/>les apparcils. Au moyen du courant d'air chaud intro¬<lb/>duit dans la turbine, cette dernière donne elle-mème<lb/>l'impuision et le mouvement. M. Reich a promis de<lb/>faire connaitre prompiement le resultat de ses expè¬<lb/>riences. Elles seront suisies par une commission de<lb/>l'Académie qui attache un grand prix à cette décou¬<lb/>verte. L'appareil d'Erieson, qui menace déjà de chan¬<lb/>ger le premier système des machines à vapeur, serait<lb/>distance bien davantage par l'emploi des turbines et</p>
+        <p rend="labelled"><lb/>pourrait bien aller à Paris au mois d'aout et qu'au<lb/>retour de sa tournée dans le Levant, toute l'escadre<lb/>de l'amiral La Susse lui ferait escorte de Civita-Vec-</p>
+        <p rend="labelled"><lb/>dresse des négociants de Londres ont, dit-on, demande<lb/>à l'Empereur de concourir pour dix millions dans le</p>
+        <p rend="labelled"><lb/>Vers midi on a retirè de la Seine, près du Quai aux<lb/>Meules, un sac de toile dans lequel se trouvait le ca¬<lb/>davre d'une femme agée d'environ 30 ans. Cette mal-<lb/>heureuse victime avait les jambes recourbees et ga¬<lb/>rottèes avec une corde. Ses bras étaient aussi liès à<lb/>son corps. Ce cadavre a étè portè à la Morgue. Deux<lb/>mèdecins ont procèdè à l'autopsie. Cette femme ne<lb/>portait sur elle aucune trace de blessure, ce qui fait<lb/>supposer que ses meurtriers l'ont engloutie vivante<lb/>dans ce sac pour ensuite la précipiter dans la Seine.<lb/>On a trouvé sur elle une alliance et une boucle d'o¬<lb/>reille en or. Les médecins ont déclaré que ce cadavre<lb/>avait séjourne deux mois dans l'eau. — M. le Procu-<lb/>reur Impérial et M. le Juge d'instruction se sont trans¬<lb/>portès à la Morgue et ont commencé une instruction,<lb/>qui, il faut l'espèrer, permettra de découvrir les au¬<lb/>teurs de cet épouvantable crime et de leur appliquer</p>
+        <p rend="labelled"><lb/>est, sans contredit, la question des fourrages. Si vous<lb/>voulez savoir ce que vaut, ce que rapporte une ex¬<lb/>ploitation rurale, demandez quelle en est la production</p>
+        <p><lb/>damment nourrir à r'étable sera grande, plus vous<lb/>aurer de famier; et le fumier, c'est la clef, le ressort</p>
+        <p><lb/>tantét ils sont solides, tantêt ils sont liquides, quei-<lb/>quefois meme concentres: tout cela est fort bon, <lb/>n'en doute pas; mais ce qui me parait meilleur pour<lb/>le cultivateur, qui n'a point d'ordinsire besucoep d'ar¬<lb/>gent à dépenser, c'est de faire fabriquer ses engrais<lb/>dans son étable, par son bétail, avec les fourrages</p>
+        <p><lb/>Dans la ssison ou nous sommes, au commencement<lb/>du printemps, vous aven bien un hectare de terrain libre<lb/>de toute récolte, sur lequel vous vous proposez de faire<lb/>semer du froment au mois d'octobre ou novembre? Ha-<lb/>tes-vous... faites-y transporter du fumier, couvrez en le<lb/>quart eu 23 ares de suite, faites donner un bon laboor<lb/>à la charrue... aussitêt la charrue sortie, faites herser<lb/>en long, en travers, que la terre soit bien ameublie;</p>
+        <p><lb/>Quinre jours après, fumez 25 autres ares à la suite:<lb/>labourer, hersez, semez et herser de nouveau pour</p>
+        <p><lb/>Puis, de quinze jours en quinze jours, traitez ainsi<lb/>les deux dernières portions restantes, de 25 ares cha-</p>
+        <p><lb/>Ausitel que voire nouvelle récolte pourra étre con¬<lb/>sommée, faites couper à la faux, porter à létable et</p>
+        <p><lb/>Des que la première planche de votre champ sera<lb/>libre de sa récolte, portez-y de nouveau une ample<lb/>ſumure, labourez, herser et semer les mêmes graines<lb/>que précédemment, et dans une quantite proportion-<lb/>nelle au terrain... faites ainsi pour toutes vos planches,</p>
+        <p><lb/>vous aura donné ce procédé, vous aurez immédiate¬<lb/>ment une ample récompense: votre bétail, vigoureux<lb/>et en bon état, aura pris de la valeur; vos fumiers se<lb/>seront multipliès, el leur qualitè aura été augmentée.<lb/>Voire terre ayant été couverte toute la belle saison,<lb/>par une récolte épaisse, aura été̀ purgée des mauvaises<lb/>herbes, et les labours et les hersages qui lui ont été<lb/>donnes l'auront merveilleusement disposée à recevoir<lb/>le froment que vous lui destinez... ce froment pourra<lb/>très bien être fait avec un seul labour, et sans qu'il</p>
+        <p><lb/>Faites cela celle année, et je vous promets que vous</p>
+        <p><lb/>Dans les terres naturellement peu fertiles et dont<lb/>les produits ne végètent que lentement, en semant de<lb/>quinze jours en quinze jours, depuis le commence-<lb/>nent d'avril jusqu'à la fin de juillet, du mais un peu<lb/>dru, on a tout l'èté et pendant les travaux d'automne,</p>
+        <p><lb/>culteur à connaitre ses terres et à ne leur demander<lb/>que ce qu'elles peuvent rapporter... Mais partout aussi<lb/>l'on ne doit point oublier que la Providence donne à<lb/>l'agriculteur la raison de ses soins, de son travail et</p>
+        <p rend="labelled"><lb/>vient tous les jours vendre dans cette ville des legumes<lb/>et des fruits, se chagrinait fort à la pensee que son<lb/>fils, son unique enfani, pourrait un jour tomber au<lb/>sort et la quitter. La pauvre femme n'avait pas le pre¬<lb/>mier sou pour lui acheter plus tard un remplaçant, et<lb/>elle ne pouvait guère espèrer être plus riche à l'époque<lb/>où il tirerait à la conscription. Voici ce qu'elle imagina<lb/>alors, et ce qu'elle fit avec une constance qui est un</p>
+        <p><lb/>Elle cacha précieusement dans sa maison une énorme<lb/>cruche en terre qu'elle avait bouchée et disposée de<lb/>manière à en faire une véritable tirelire, et tous les<lb/>jours elle mettait dans cette tirelire tout ce qui n'était<lb/>pas indispensable aux dèpenses du ménage. Cétaient<lb/>malheureusement le plus souvent de petites pièces de<lb/>billon; mais les jours les plus heureux pour la bonne<lb/>mère étaient ceux où elle pouvait ajouter à son trésor<lb/>une pièce blanche. Pendant plus de quinze ans qu'elle<lb/>entassa, sou par sou, l'idée ne lui vint jamais de re-<lb/>garder ce qu'il y avait dans la tirelire; elle se flait en<lb/>la Providence, et ne doutait pas qu'au jour dit elle ne</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k9609280s</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1906-04-01">1906</date>
+          <idno type="ARK">bpt6k9609280s</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k9609280s</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0005.xml"/>
+        <dateline><lb/>AVRIL 1906</dateline>
+        <ab><milestone unit="column" n="2"/><lb/>SECRÉTAIRE de la RÉDACTION:<lb/>RÉDACTION et ADMINISTRATION<lb/>RAMOUN de la BOLH<lb/>Boulevard de Strasbourg, 22</ab>
+        <note type="handwritten"><lb/>PnT MÊRO INXADO. -N1 O ToutousO! Ciutat Maïralo</note>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>Que bufo un cop eado tres meses</p>
+        <ab><lb/>«ORGANE <lb/>DE LA SI CIETE</ab>
+        <ab><milestone unit="column" n="3"/><lb/>ADMINISTRATEUR:<lb/>FAUR</ab>
+        <p rend="heading"><lb/>Les Toulousains de Toulouse</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/> de etedeserion de ta terre</ab>
+        <ab type="head"><lb/>Notre Programme, Notre But</ab>
+        <p><lb/>Nous voulons de toutes nos forces<lb/>conserver à notre Cité tout ce qui rap-<lb/>pelle son long passé de gloire et de gran-<lb/>deur; ce programme de patriotisme<lb/>local est assez étendu, car il comprend<lb/>la protection et la conservation des<lb/>vieux monuments, la préservation et la<lb/>restauration de ceux qui nécessiteraient<lb/>quelques réparations urgentes ; le main¬<lb/>tien et le respect des vieux noms des<lb/>rues qui sort étroitement liés à notre<lb/>histoire locale.</p>
+        <p><lb/>Nous chercherons à rappeler et à<lb/>faire respecter les antiques traditions, les<lb/>vieux usages, les anciennes coutumes de<lb/>nos aieux, tout ce qui constituait autre¬<lb/>fois l'originalite et les particularités de<lb/>notre race; pourquoi suivre toujours,<lb/>sur un modèle uniforme, ce qui nous<lb/>vient de pays et de villes dont l'esprit et<lb/>le caractère des habitants sont absolu¬<lb/>ment diſſérents des nôtres?</p>
+        <p><lb/>Nous ferons connaître et aimer notre<lb/>vieille langue si douce, si sonore et qui<lb/>incarne mieux et plus que toute autre<lb/>chose le génie et l'âme même de nos<lb/>peres.</p>
+        <p><lb/>Ces grandes lignes seront l'objet de<lb/>nos constants efforts et de nos persévé-<lb/>rantes préoccupations, nous nous y<lb/>consacrerons entièrement, et aidés de<lb/>tous les bons Toulousains qui répon¬<lb/>dront à notre appel, nous poursuivrons<lb/>de toutes nos énergies leur entière réa-<lb/>lisation.</p>
+        <p><lb/>Nous nous efforcerons aussi de com¬<lb/>battre le dépeuplement des campagnes,<lb/>l’abandon des champs, et ce déplorable<lb/>exode incessant vers les grandes villes;<lb/>par des brochures, par des conférences,<lb/>par notre journal, nous montrerons les<lb/>natale, nous publierens les statistiques<lb/>qui feront connaitre aux habitants des<lb/>campagnes le tribut épouvantable que<lb/>paient à la maladie et à la mort ceux<lb/>qui viennent, à un âge déjà avancé,<lb/>habiter les grandes villes.</p>
+      </div>
+      <div type="article">
+        <p><lb/>Enfin. Association amicale. nous ai-<lb/>derons nos compatriotes malheureux ;<lb/>nous rapatrierons ceux qui voudront<lb/>revenir dans leur vieille cité maternelle;<lb/>nous tacherons de procurer des emplois<lb/>aux Toulousains et rous inviterons nos<lb/>grands commerçan et industriels à<lb/>[<lb/></p>
+        <p><lb/>tes les emplois qui seraient vacants<lb/>dans leurs maisons.</p>
+        <p><lb/>Notre programme doit réunir toutes<lb/>les bonnes volontés; tous ceux qui ai-<lb/>ment passionnément la cité maternelle<lb/>doivent joindre leurs efforts aux notres;<lb/>c’est par le nombre que nous serons<lb/>forts, aussi recommandons-nous à tous<lb/>nos sociétaires de faire la plus active<lb/>propagande pour nous amener le plus<lb/>grand nombre d’adhérents; après sept<lb/>mois de fondation, nous sommes déjà<lb/>quatre cents, qu’à la fin de l'année cou¬<lb/>rante nous comptions un millier de<lb/>sociétaires. A nous tous de prêcher la<lb/>bonne parole autour de nous, et nous<lb/>aurons le succès que mérite notre pro¬<lb/>gramme et que comporte notre but.</p>
+        <ab><lb/>BACQUIÉ-FONADE.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/> uos o ae</ab>
+        <ab type="head"><lb/>L'AUTA</ab>
+        <p rend="styled"><lb/>Pait per fltot de L'AUTA, journat des Touton-<lb/>sans de Toulouso.</p>
+        <ab><lb/>A T'amic Bacquié-Fonade.</ab>
+        <lg>
+          <l><lb/>Fastigous e repoutegaire,</l>
+          <l><lb/>O vent maldit de moun pais,</l>
+          <l><lb/>Que le Narbounes nous envôio</l>
+          <l><lb/>En nous panan un pauc de joio</l>
+        </lg>
+        <lg>
+          <l><lb/>Autà raujous, autà rounaire,</l>
+        </lg>
+        <lg>
+          <l><lb/>Le Lauragues, sap tas atacos.</l>
+          <l><lb/>Ein Rebel descornos las vàcos!...</l>
+          <l><lb/>E fas la pousco viroulà</l>
+          <l><lb/>Sus las parets, las andenièros.</l>
+          <l><lb/>E desparrecos las carrièros.</l>
+          <l><lb/>Las descarnan de ça de la.</l>
+        </lg>
+        <lg>
+          <l><lb/>Les albres fols plègon las brancos.</l>
+          <l><lb/>Des amelliès, pauros flous blancos.</l>
+          <l><lb/>Coumo no neu, al mes de mars.</l>
+          <l><lb/>Voulatejon, neu perfumado.</l>
+          <l><lb/>Que blanquejo sus la trumado</l>
+          <l><lb/>Coumo al cel negre. de lums clars.</l>
+        </lg>
+        <lg>
+          <l><lb/>Las nivouls folos e pressados,</l>
+          <l><lb/>Mai qu'al tems de las marsescados,</l>
+        </lg>
+        <lg>
+          <l><lb/>Per delà l'aigo, en Americo,</l>
+          <l><lb/>S'anflan en grosso bouffarico,</l>
+          <l><lb/>Engranon le cèl garounenc.</l>
+        </lg>
+        <lg>
+          <l><lb/>Mes dins la poulido Toulouso,</l>
+          <l><lb/>Léu, la buffarado raujouso</l>
+          <l><lb/>Per las aleios courrera,</l>
+          <l><lb/>E, de soun aleno bufairo,</l>
+          <l><lb/>De quines cops un pauc trufairo,</l>
+          <l><lb/>As coutilhous s'arrapara,</l>
+        </lg>
+        <lg>
+          <l><lb/>Cap-virara les paroplèjos,</l>
+          <l><lb/>E des vielhots las frèullos pièjos</l>
+          <l><lb/>Subre les pèds tremoularan,</l>
+          <l><lb/>E sus capèls nauts à vintièmo,</l>
+          <l><lb/>De la teulado del cinquièmo,</l>
+          <l><lb/>Las chemenèios voularan.</l>
+        </lg>
+        <lg>
+          <l><lb/>Se le mistral an à Marselho,</l>
+          <l><lb/>Se le simoun que desperpelho</l>
+          <l><lb/>Flambo le sable del desèrt,</l>
+          <l><lb/>Le nostre autà fa, sans vergougno,</l>
+          <l><lb/>Nese que manco pas de « pougno »</l>
+          <l><lb/>Mes qu'es pacant e qu'es deguèrt!</l>
+        </lg>
+        <lg>
+          <l><lb/>Caps as poumpils de la Moundino,</l>
+          <l><lb/>De soun buf amourous roundino.</l>
+          <l><lb/>l desfa les pelses maurels</l>
+          <l><lb/>Al nas del drolle que l'acasso,</l>
+          <l><lb/>E qu'en gourrinan nou s'alasso</l>
+          <l><lb/>De remira les pandourèls.</l>
+        </lg>
+        <lg>
+          <l><lb/>Autà malfasent, se t'ahissi,</l>
+          <l><lb/>Es à causo del desahissi</l>
+          <l><lb/>Que trop souvent portos as camps.</l>
+          <l><lb/>Mes t'aimi b-un bricou, salvatje !</l>
+          <l><lb/>A mesuro que vauc dins l'atje,</l>
+          <l><lb/>E malgrat tout aimi tous cants,</l>
+        </lg>
+        <pb facs="0006.xml"/>
+        <fw type="runningTitle"><lb/>БЖUТЖ</fw>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="1"/><lb/>Exceller dans les genres les plus divers.<lb/>c'est le propre d'un grand poète. Goudouli<lb/>est donc une des gloires de Toulouse. Il est<lb/>aussi un génie purement Toulousain. Dans<lb/>son amour filial pour la «lengo mairalo».<lb/>il voulut prouver qu'elle ne doit pas être<lb/>abandonnée, qu'elle peut exprimer toutes<lb/>les idées, tous les sentiments. Il y a pleine-<lb/>ment réussi. Il l'a démontré dans ces épi-<lb/>tres dédicatoires, dans ses prologues et</ab>
+        <p><milestone unit="column" n="2"/><lb/>Parfois il se laisse prendre par l'émotion<lb/>et verse une larme sincère. La nature, «las<lb/>flouretos del gran ramiè ») font naitre en lui<lb/>des impressions, qu'il traduit avec une<lb/>gràce exquise,</p>
+        <lg>
+          <l><lb/>Couitats vous de fouri, Nouretos,</l>
+          <l><lb/>E de milanto coulouretos,</l>
+          <l><lb/>Fasets nous sur la pradario,</l>
+          <l><lb/>Un bel tapis en broudario.</l>
+        </lg>
+        <p><lb/>Son invention poétique s'exerce aussi sur<lb/>des sujets bien populaires dans nos régions.<lb/>Dans des récits d'évènements imaginaires et<lb/>plaisants, tels qu'on en fait encore dans les<lb/>veillées, il dépense une verve étincelante.<lb/>Notre poète ne se contente point de dé-<lb/>ployer des grâces légères ou de faire cuvre<lb/>d'imagination. Il s'élève sans effort jusqu'à<lb/>la haute poésie et certaines de ses stances<lb/>sont d'un lyrisme puissant.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Peyre Goudouli</head>
+        <p rend="labelled"><lb/>(1580-1649)</p>
+        <p><lb/>L'amour du pays est chez nous tous.<lb/>Toulousains. un sentiment vivace : mais ce<lb/>sentiment, tel qu'il est. c'est-à-dire spontané.<lb/>ne nous satisfait plus. DNous voulons savoir<lb/>pourquoi il existe en nons. l'analyser, en<lb/>être animés consciemment. N'est-ce point<lb/>pour cela. Toulousains de Toulouse, que<lb/>nous voici groupés en bon nombre déjà.<lb/>Expliquer le présent par le passé, afin d'as-<lb/>surer l'avenir. c'est là notre but. Tournons-<lb/>nous done vers ceux qui conservèrent le<lb/>mieux les traditions de la race: dans ce regard<lb/>en arrière la ligure qui se présente à nous<lb/>la première est celle «del nostre Goudouli».</p>
+        <p rend="labelled"><lb/>« Nouirigat de Toulouso, me plai de<lb/>manteni soun lengatge bel. e capable de<lb/>derrambulha touto councepciu ». C'est par<lb/>cette patriotique et nette déclaration que<lb/>Pierre Goudelin nous indique la portée de<lb/>son œeuvre. Fils de Toulouse, il aime son<lb/>pays. Il aima sa langue et la respecte, sen-<lb/>tant très bien que les deux affections se<lb/>prêtent un mutuel appui. N'y-a-t-il point là<lb/>toute une doctrine!</p>
+        <p><lb/>Goudouli n'est point poète dans le sens<lb/>moderne du mot. Il ne cultive point sa sen-<lb/>sibilité et se laisse entraîner par son naturel<lb/>qui est tout de bonne humeur. L'amour lui<lb/>même l'inspire peu. S'il lutine la Pastouro<lb/>Liris. s'il tombe dans le genre galant. c'est<lb/>pour suivre la mode du temps. Il faut voir<lb/>comme il envoie promener le petit Cupidon<lb/>s'il vient l'importuner.</p>
+        <lg>
+          <l><lb/>Etu droullet, vai t'en poups.</l>
+          <l><lb/>Qu'ieu soun convidat à soupa.</l>
+        </lg>
+        <p><lb/>Pour lui les muses « tenen l'esprit de la<lb/>barrico ». Il ne faudrait cependant pas pren-<lb/>dre ce fervent de Bacchus pour un rimeur<lb/>aviné. S'il consacre à son dieu des hym-<lb/>nes enthousiastes, il chante toujours sur un<lb/>mode décent et conserve assez de mesure<lb/>pour dire au milieu d'un festin.<lb/>contre cette inepte légende que nous devons<lb/>latter.</p>
+        <lg>
+          <l><lb/>E foro de nostro présenço</l>
+        </lg>
+        <p><lb/>Il existe dans un quartier éloigné de notre<lb/>ville une rue Godelin. Ce n'est point assez<lb/>pour honorer sa mémoire. Il y a quelques<lb/>années le conseil múnicipal lui vota un<lb/>monument. la maquette fut exécutée par le<lb/>maitre Mercié. Qu'est donc devenu ce beau<lb/>projet PIl appartient aux Toulousains de<lb/>Toulouse. qui obtiennent tous ce qu'ils veu¬<lb/>lent, de le reprendre et de le faire aboutir.<lb/>En attendant sa réalisation, élevons-lui, en<lb/>chacun de nous, un monument d'admira-<lb/>tion et de reconnaissance. Suivant la voie<lb/>qu'il nous a indiquée en maintenant la lan-<lb/>gue, nous maintiendrons aussi la patrie<lb/>languedocienne, en dépit de l'unitarisme<lb/>destructeur.</p>
+        <ab><lb/>RAMO DE LA BOLMO.</ab>
+        <lg>
+          <l><lb/>Cariou cresi dins ma «boussolo »</l>
+          <l><lb/>Qu'à la citat del Capitolo</l>
+          <l><lb/>Balhos le foc que nous rand cauds!</l>
+          <l><lb/>E que ſas parti la marrano</l>
+          <l><lb/>De l'encountrado toulousano</l>
+          <l><lb/>Per que siousquen pas tant malauts.</l>
+        </lg>
+        <lg>
+          <l><lb/>E sc, gamats, soun les de biso,</l>
+          <l><lb/>Autá! te prendren pèr deviso,</l>
+          <l><lb/>Per auriflambo e pèr drapeu.</l>
+          <l><lb/>E t'aimaren Toulouso nostro</l>
+          <l><lb/>Mai que vostre Paris de mostro,</l>
+          <l><lb/>Que s’engourrudo joubs la nèu.</l>
+        </lg>
+        <ab><lb/>IJAN PirenOU</ab>
+        <p rend="dateline"><lb/>16 de mars 1996</p>
+        <p rend="labelled"><lb/>« Cartels », et quand il s'adresse à Dieu.<lb/>son langage à toute la noblesse qui sied à<lb/>la prière.</p>
+        <lg>
+          <l><lb/>Diu que mourèts per nous, ajats piétat de mi,</l>
+          <l><lb/>Que mourire ta-bé, mais que noun sabi l'houro,</l>
+          <l><lb/>E tirats en-t-a vous, moun amo pécadouro,</l>
+          <l><lb/>Quanddins un triste clot me pourtaran dourmi.</l>
+        </lg>
+        <p><lb/>Prendre un parler sur les lèvres du peu-<lb/>ple, pour en faire du premier coup une<lb/>langue littéraire, c'est ce que Goudouli et<lb/>quelques rares génies, ont seuls pu faire. Il<lb/>ne procède de personne. Notre langue romane<lb/>classique se mourait au moment où il nais-<lb/>sait. Il fut le premier à écrire dans cette<lb/>« Lengo Moundino », qu'il porta à la per-<lb/>fection. Semblable. suivant la forte expres-<lb/>sion de Lafaille. à ces lleuves qui sortent<lb/>tous grands et navigables du sein de la<lb/>terre.</p>
+        <p><lb/>Son cuvre eut sur la langue une in-<lb/>fluence encore agissante depuis trois siècles.<lb/>Elle cut à notre connaissance 15 éditions. Il<lb/>n'est point chez nous de bibliothèque où le<lb/>« Ramelet Moundi » ne trouve une place<lb/>d'honneur. Malgré cela. Gondouli porté aux<lb/>nues par ses contemporains. pensionné par<lb/>les Capitouls, enseveli dans le cloitre des<lb/>Grands Carmes, puis solennellement trans-<lb/>féré à la Dalbade, est méconnu par le<lb/>peuple. Il s'est créé autour de son nom une<lb/>injuste légende, qui le représente comme un<lb/>bouffon, propre seulement à divertir les<lb/>foules par des plaisanteries eyniques. C'est</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>SOUNET</head>
+        <lg>
+          <l><lb/>Hier, tant que le Caûs, le Chot e la Cabeco"</l>
+          <l><lb/>Trataon à l'escur de lours menuts afas,</l>
+          <l><lb/>E que la tristo neyt, per moustra sous lugras',</l>
+          <l><lb/>Del grand Calel del Cel' amagabo la mèco.</l>
+        </lg>
+        <lg>
+          <l><lb/>Un pastourel disio: b'e fait uno grand péco</l>
+          <l><lb/>De douna moun amour à qui nou la bol pas.</l>
+          <l><lb/>A la belo Liris, de qui l'armo de glas</l>
+          <l><lb/>Bol randre pauromen ma persuto bufèco</l>
+        </lg>
+        <lg>
+          <l><lb/>Mentre que soun troupèl rodo le coumunal,</l>
+          <l><lb/>Yeu soun anat cent cops parla-li de moun mal:</l>
+          <l><lb/>Mès la cruèlo cour à las autros pastouros.</l>
+        </lg>
+        <lg>
+          <l><lb/>Ah! Soulel de mous els, se jamay sur toun sé</l>
+          <l><lb/>Yeu podi fourrupá dous poutets à plaze,</l>
+          <l><lb/>Yeu farei tan gintet que duraran tres ouros.</l>
+        </lg>
+        <ab><lb/>P. GOUDOULI.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>(3) Calel del Cel: Lagrande lampe du Ciel: Le Soleil.</ab>
+        <ab type="head"><lb/>LA PLAQUE COMMÉMORATIVE</ab>
+        <ab type="head"><lb/>DE LA</ab>
+        <ab type="head"><lb/>PLACE DU PONT NEUF</ab>
+        <p><lb/>Place du Pont-Veuf, arrêtez-vous devant<lb/>le n^o 10. maison Dast, levez la tête et au¬<lb/>dessus du magasin du cordier, vous verrez.<lb/>une plaque de marbre noir, encadrée de<lb/>briques ouvrées; c'est la plaque commémo¬<lb/>rative de l'entrée de Louis XIV à Toulouse.</p>
+        <p><lb/>Nous donnons l'inscription qu'elle porte;<lb/>vue d'en bas. elle est actuellement presque<lb/>illisible, car l'action du temps a effacé la<lb/>dorure des lettres gravées en creux dans le<lb/>marbre : nous donnons aussi sa traduction.</p>
+        <p rend="labelled"><lb/>(1) Le Caûs, le Chot et la cabeco : Chat-huant, hibou<lb/>et chouette.</p>
+        <p rend="labelled"><lb/>(2) Lugras : Les étoiles les plus brillantes, les cons-<lb/>tellations.</p>
+        <p><lb/>(4) Buffec : creux, vide. La bergère Liris veut rendre<lb/>vaine la poursuite du berger amourcux.</p>
+        <pb facs="0007.xml"/>
+        <fw type="runningTitle"><lb/>ѢЖUТѧ</fw>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="1"/><lb/>(1) Livre VIII, p. 164 et IX, p. 2.</ab>
+        <lg>
+          <l><lb/>En cette année le voi Lquis Quatorsième</l>
+          <l><lb/>Arriva devant tes marailles de cette oille</l>
+          <l><lb/>Et d'abord avant de franchier le seuit des portes</l>
+          <l><lb/>Il jure comme ont fait ses aieux</l>
+          <l><lb/>De respecter les privilèges éternels de Toutouse</l>
+          <l><lb/>Au milieu des applandissements de toute la Cité</l>
+          <l><lb/>Les huit Capitouts, qui ont ici teuvs armoiries, le</l>
+          <l><lb/>reçoirent</l>
+          <l><lb/>soyeux que les lauviers de la guerre soient entevés</l>
+          <l><lb/>(de son front</l>
+          <l><lb/>Et qu'ils soient remplaces par les oliviers désirés</l>
+        </lg>
+        <ab type="head"><lb/>Année de la Rédemption 1000</ab>
+        <p rend="styled"><lb/>d'une longue paix</p>
+        <p rend="styled"><lb/>Et qu'il donne à son voyarme et à ses peuples<lb/>Pour reine l'Auguste Théré̀se.</p>
+        <p><lb/>Par le traité des Pýrénées, que Mazarin<lb/>venait de signer, le roi d'Espagne, Phi-<lb/>lippe IV, donnait sa fille Marie-Therèse<lb/>d'Autriche, pour épouse à Louis XIV; c'est<lb/>à ce mariage que l'inscription fait allusion.</p>
+        <p><lb/>Cette plaque fut enlevée à la Révolution,<lb/>et les armoiries des huit capitouls furent<lb/>alors détruites. Le propriétaire de cette<lb/>maison cacha cette plaque de marbre sous<lb/>un plancher, où elle était complètement<lb/>oubliée et ignorée; il y a environ une qua¬<lb/>rantaine d'années, en faisant des répara-<lb/>fions dans cet immeuble, on la retrouva et<lb/>elle fut, à cette époque, replacée au même<lb/>endroit où elle était autrefois.</p>
+        <p><lb/>La maison qui porte le n^o 10 fût bâtie<lb/>en même temps que le Pont, elle était<lb/>provisoirement destinée à loger les archi-<lb/>tectes, conducteurs des travaux et tailleurs<lb/>de pierre venus en grand nombre du dehors<lb/>pour travailler à la construction de cè pont.</p>
+        <p><lb/>Nous avons vu que le roi jura de respecter<lb/>les droits et franchises de la Cité: lorsqu’il<lb/>fit ce serment. il eut grand soin de deman-<lb/>der plusieurs fois, si ses aïeux en avaient<lb/>fait ainsi, et il ne se décida que sur l'assu¬<lb/>rance des Capitouls, qui lui dirent que<lb/>c'était l'usage toujours respecté par tous<lb/>les rois qui étaient venus à Toulouse.</p>
+        <p><lb/>Cette hésitation à prêter le serment de-<lb/>mandé tenait à ses projets de supprimer<lb/>tous les droits, toutes les libertés de notre<lb/>Province, et il était dit que cette visite du<lb/>roi serait funeste aux franchises de notre<lb/>Cité: en effet, il n'y avait pas un mois<lb/>qu'il était à Toulouse, qu’il profita de sa<lb/>présence dans notre ville pour défendre<lb/>aux Capitouls, qui terminaient leur mandat,<lb/>d'élire leurs successeurs comme c'était la<lb/>coutume; le roi trouva plus simple de les<lb/>nommer lui-même.</p>
+        <p><lb/>Cet ordre royal fut donné par une lettre<lb/>qui porte la date du 25 novembre 1659.<lb/>On garde aux Archives communales l'écrit<lb/>royal, et il est transcrit deux fois sur les<lb/>livres des Annales.</p>
+        <p rend="labelled"><lb/>Le huitième livre commence en 1646 et va jusqu'en</p>
+        <ab><lb/>SVMERET OPTATAS VT LONGE PACIS OLIVAS<lb/>ET DARET AVGVSTAM REGNO POPVLISQ. THERESAM<lb/>mais avant il est nécessaire de dire quel-<lb/>ques mots sur cette visite royale.</ab>
+        <p><lb/>Louis XIV venait de Bordeaux, il avait<lb/>laissé à Cadillac la barque qui l'avait con-<lb/>duit en Guienne; il prit la route de Nérac<lb/>et passant par Lectoure et l'isle-en-Jour-<lb/>dain, il arriva à Toulouse, le 14 octobre<lb/>1659; sa mère, Anne d'Antriche, l'accom-<lb/>pagnait.</p>
+        <p><lb/>Le roi fit son entrée, à Saint-Cyprien,<lb/>par la porte qui portait alors le nom de<lb/>Porte-de-l'Isle. et qui se trouvait placée au<lb/>bout de la rue Reclusane. Les capitouls<lb/>avaient placé en dehors du faubourg une<lb/>batterie de trente canons pour saluer l'arri-<lb/>vée du roi. Le cortège s'arrêta au ravelin'<lb/>qui précédait la porte de l'Isle; là, avant de<lb/>franchir la porte de la ville, les capitouls<lb/>offrirent les clefs de la cité, et le président<lb/>du Consistoire municipal harangua le roi :<lb/>en terminant son discours, il pria le roi, au<lb/>nom de la ville, de faire le serment de lui<lb/>conserver ses droits, ses franchises et libertés.</p>
+        <p><lb/>On conserve au Capitole unc enlumi-<lb/>nure, arrachée en 1793 des Annales ma-<lb/>nuscrites de la ville, qui représente l'entrée<lb/>de Louis XIV. On voit au premier plan,<lb/>arrêté devant une porte des remparts, le<lb/>carosse royal attelé de quatre chevaux<lb/>blancs, les capitouls sont à genoux devant<lb/>la portière, où se présente le jeune roi ; il<lb/>étend la main sur le livre des Evangiles et<lb/>il prête le serment qu'on lui a demandé.<lb/>Dans un cartouche placé au-dessous du<lb/>tableau, on lit :</p>
+        <ab type="head"><lb/>PREMERE. EN</ab>
+        <lg>
+          <l><lb/>ROY. LOVIS</l>
+          <l><lb/>XIIII. LE XIIII</l>
+        </lg>
+        <ab type="head"><lb/>TREEDV</ab>
+        <ab type="head"><lb/>OCTOBRE 1659.</ab>
+        <p><lb/>Au-dessous. le peintre a mis les armoi-<lb/>ries capitulaires, et les noms des Consuls<lb/>de la cité sont inscrits au fond du tableau.</p>
+        <p><lb/>La Cour resta à Toulouse deux mois et<lb/>demi, elle était logée à l'Archevêché, au-<lb/>jourd'hui la Préfecture.</p>
+        <p><lb/>Voici la reproduction de cette plaque:</p>
+        <ab type="head"><lb/>ANN. RESTAVR. SALNT. M.DC.LX.</ab>
+        <p><lb/>ISTO REX DECI. QUART LODOIC' IN ANNO<lb/>VRBIS TECTA SVBIT PRIMOQ IN LIMINE PORT E<lb/>IVRANTEM ETERNVM FOED' DE MORE PATERNO<lb/>EXCIPINNT TOTA CIRCUM PLAVDENTE THOLOSA<lb/>OCTOVIRE. QVORV. MIC. CERNVTVR STEMATA LETI<lb/>QVOD BELLI LAVROS POSVIT DE PROTE SVPERBA</p>
+        <p rend="labelled"><lb/>(1) On appelait ravelin un ouvrage de fortification<lb/>en terre qui défendait l'approche des portes des<lb/>remparts. Ce quartier porte encore le nom de Place<lb/>du Ravelin.</p>
+        <p rend="labelled"><lb/>(2) Cette enluminure encadrée se trouve dans le<lb/>cabinet de l'archiviste du Donjon de lHôtel-de-Ville. 1659. L'autre livre va de 1600 à 1683.</p>
+        <p><lb/>Mais Louis XIV ne s'en tint pas à cet<lb/>acte d'arbitraire, il voulut aussi frapper sur<lb/>tout le Languedoc; pour commencer. il dé-<lb/>créta de nouvelles et lourdes impositions ;<lb/>alors tout le Midi s'agita et fit entendre son<lb/>indignation et sa colère ; partout à Nîmes, à<lb/>Montpellier, à Béziers, à Albi, on disait que<lb/>de n'importe quelle manière, il fallait se<lb/>délivrer de ce jong détestable: à Carcas-<lb/>sonne, un des Consuls de cette ville fut<lb/>jusqu'à dire que le Languedoc devait, cette<lb/>fois, servir de tombeau aux tyrans d'outre-<lb/>Loire</p>
+        <p><lb/>Ainsi. le Midi se souvenait toujours et,<lb/>quand il le pouvait, il faisait éclater la<lb/>haine qu'il gardait depuis tant de siècles<lb/>pour les Francimands.</p>
+        <ab><lb/>BACQUÍ-FONADE.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>L'AUTA</head>
+        <lg>
+          <l><lb/>Coum'un moustre enjaurit descapat de las mars</l>
+          <l><lb/>Travetsan les vinhés, la plano Narbouneso,</l>
+          <l><lb/>Passan subre Naurouzo e sous sapins espars</l>
+          <l><lb/>Ven pourta soun desaire en terro Lauragueso;</l>
+        </lg>
+        <lg>
+          <l><lb/>Trabucan as coustous, treboulan les riùs clars,</l>
+          <l><lb/>Secoutis terro e cel de sa fado represo,</l>
+          <l><lb/>Sa raujo qu'emmalis le sourel e sous flars</l>
+          <l><lb/>Echamoustio les orts e la fresco deveso.</l>
+        </lg>
+        <lg>
+          <l><lb/>Destrintcho fious e frut tremoulan pes cimèls</l>
+          <l><lb/>E deranco d'estrous les casses les mai bels.</l>
+          <l><lb/>Alargo sous fols brams pel la calou pesuco,</l>
+        </lg>
+        <lg>
+          <l><lb/>Rouno dins les cantous ount se ven entuta</l>
+          <l><lb/>Le vent descabestrat, l'enferounit auta</l>
+          <l><lb/>Que nous ven adali de sa leno qu'atuco.</l>
+        </lg>
+        <ab><lb/>Jousep. Garssor.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>COUNTARALHOS</head>
+        <head><lb/>AL SERVICI</head>
+        <p><lb/>Le general Cranocap passabo un joun, sul camp de<lb/>las manobros, la revisto de nostre régiment, e coumo<lb/>aimabo forso pausa de questius as souldats, s'arestabo<lb/><lb/>d'endret en endret davans les omes, e lour i demandabo<lb/>tout so que i veniò pel cap. Aqui, que vengut proche de<lb/>iou, s'aresto justoment à l'ome qu'èro dins la rengo a<lb/>ma dreto, e i demando :</p>
+        <p rend="labelled"><lb/>— Digats souldat, me couneissets e sabets quin es<lb/>mon grado?</p>
+        <p rend="labelled"><lb/>— Oui, moun generai.</p>
+        <p rend="labelled"><lb/>— E quin es aquel que ven le prumiè déjoubs jou?</p>
+        <p rend="labelled"><lb/>Le brave pirol sousco un bricou e i respound:</p>
+        <p rend="labelled"><lb/>— Vostre chabal, moun general.</p>
+        <p><lb/>Corodi! sa diguet le general, es autant bestio qu'un<lb/>melou.</p>
+        <p><lb/>E fasent dus passes, m'espigo un moument, e me<lb/>passan demando à moun camarado de gaucho:</p>
+        <p rend="labelled"><lb/>— Souldat, vous an apres à vous ourienta, anats me<lb/>respoundre sens sousca, viste. Dins la pousiciu ount<lb/>vous troubats, avets davans vous-le miedjoun, à dreto<lb/>louest, e be digat-me so qu'abets darniè vous.<lb/></p>
+        <p><lb/>"E l'intenere de brama coumo un ase:</p>
+        <p rend="labelled"><lb/>— Le sac, moun general.</p>
+        <p><lb/>Riceste n'en demandet pas mai, m'agachet un bricou<lb/>de tems, e sa diguet en viran les talous:</p>
+        <p rend="labelled"><lb/>(5) Lettres manuscrites de P. de Conti.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

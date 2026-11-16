@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Nouvielle Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t545172627</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Nouvielle Vaclette : journal patoisant humoristique, non politique / avec la collaboration du Caveau lillois</title>
+          <publisher>[s. n.] (Lille)</publisher>
+          <date when="1928-09-15">1928</date>
+          <idno type="ARK">bd6t545172627</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t545172627</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>0.28 LE NUMERO</fw>
+        <fw type="runningTitle"><lb/>L'abonnement se paie d'Avance</fw>
+        <fw type="runningTitle"><lb/>5o ANNÉB. — No 185</fw>
+        <ab><milestone unit="column" n="3"/><lb/>Samedi 15 Soptemere l</ab>
+        <ab><milestone unit="column" n="1"/><lb/>l'a pourcheau et pourcheau:<lb/>pureduit</ab>
+        <figure/>
+        <ab><lb/>Journal patoisant-humoristiQu<lb/><lb/>NON PoLITIQUE<lb/>AVEC LA COLLABORATION DU<lb/>SIÈGE 49 RUE ST SAUVEUR<lb/>R.du c. LIILE 28109. - C. Ch.Px 16162.</ab>
+        <p rend="styled"><lb/>GÉRANT: HERREN</p>
+        <p rend="heading"><lb/>MAXIME VACLETTIQUE</p>
+        <p rend="styled"><milestone unit="column" n="2"/><lb/>Le Siège de notre Journal est transféré: 11, Rue du Marché-aux-Bêtes, Lille.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Concert Artistique et Patoisant</head>
+        <p><lb/>Comme nous l'avons annoncé l' semain' passée,<lb/>ch'est Dimanche 30 Septembre à 4 heures<lb/>précises (ouverture des portes à 3 h. 1/2) qu'<lb/>P'Union d l'Alimentation, donn'ra, Salle du<lb/>Conservatoire, un Concert Artistique et<lb/>Patoisant au profit de s' caisse de S'cours.</p>
+        <p><lb/>L' Programme est des mieux queusis. On<lb/>intindra et verra tour à tour, M'Ancelin ténor du<lb/>Théâtre de Lille; les Frères Morris duettistes<lb/>à voix; les Frères Celmar's merveilleux acro-<lb/>bates de force; l'excellent groupe de mandolinistes<lb/>Les Trouvères Lillois; M' Menez et M<lb/>François du Caveau Lillois dans leurs duos<lb/>franco-Belges; M E. Lelong et F. Dupont<lb/>du Caveau Lillois dans leurs œuvres ; Les<lb/>R'mèdes pour les mas d' dints Comédie-<lb/>boufte en un acte de J. Hollain par les Membres<lb/>du Caveau Lillois.</p>
+        <p><lb/>La tâche d'accompagnatrice sera remplie par<lb/>M Bour, professeur de piano, 1e prix du Con-<lb/>servatoire de Lille.</p>
+        <p><lb/>Au cours du Concert eun' conférence s'ra faite<lb/>par Monsieur Savoie Secrétaire Général de la<lb/>Fédération de l'Alimentation.</p>
+        <p><lb/>Malgré l'importance du Programme, l'intrée<lb/>est fixée au prix modique de 3 francs. On peut s'<lb/>procurer des cartes au Siège, chez Valecamps,<lb/>98, Rue de Paris et chez Cramette, 269, même<lb/>rue.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>........................</ab>
+        <ab type="head"><lb/>In Congé</ab>
+        <ab><lb/>Mes chinq Minutes.</ab>
+        <figure type="table"/>
+        <ab type="head"><lb/>DURÉDUIT, In permission.</ab>
+        <figure type="decoration"/>
+        <ab><lb/>A L'OUVRIE<lb/>12, Rue Léon-Gambetta, LILLE<lb/>Vétements pour Dames, Messieurs et Enfants<lb/>Deuil en 24 heures - 0 - Velours d'Amiens</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>Boulevard des Ecoles, Lille.</ab>
+        <ab type="head"><lb/>A L' COLLE FORTE</ab>
+        <p><lb/>Parmi les viell's nouvielles assez récentes qui<lb/>n’ont point incore eu les honneurs de la colonne<lb/>(de Juillet) puisqu’on n' mettra cheull' chi qu’au<lb/>mos d' Septembre, existe cheull' qui a trait au<lb/>voyache qu'a fait à Lille eun' bainde d'ainciens<lb/>combattants Inglais qui s' faijottent app’ler si j'<lb/>me rappell' bien la Brise-Tige Légion¬</p>
+        <p><lb/>Si j'étos un journaleu ordinaire ou putôt un<lb/>grand journalisse (quoique je l' sus grand autant<lb/>qu' Croque-chuque) j' vous donn'ros comme<lb/>excuse un bobard quelconque par eximpe :</p>
+        <p><lb/>Retardé par la transmission (eun' poulie qui a<lb/>fait l'œuf).</p>
+        <p><lb/>Accidint à l' machine à mette in patois les<lb/>artiques écrits in français.</p>
+        <p><lb/>Artique que l' gérant à mis poche restante,<lb/>etc, etc, etc...</p>
+        <p><lb/>Mais tout cha n' s'rot point vrai et j' préfère<lb/>vous dire tout bonn'mint qu' j’ai eu l' quien de<lb/>l' faire pus vite ; mais passons.</p>
+        <p><lb/>On avot logé cun' partie d' chés inglais dins<lb/>les grands batimints d' l'Institut du Boul'vard<lb/>Louis XIV. Cheus chi (point les batimints, les<lb/><lb/>inglais) intre deux excursions avott'nt trouvé<lb/>bon accueul et bonn' cafe au coin du Boul’vard<lb/>des Ecoles (Mason réputée pou' s' cafe et ses<lb/>tripes à l' mode de Caen) si bien qu' les inglais<lb/>au moumint du départ n' trouvott'nt point d'<lb/>mots pou' r'mercier l' patronne, l' patron, l'bon-<lb/>niche et même l' quien qu'i's avott'nt pris in<lb/>amitié.<lb/></p>
+        <p><lb/>Tout d'un cop i' n'a un qui a eun' idée lumi-<lb/>neuse:</p>
+        <p rend="labelled"><lb/>Moa, faire envoyer à vo par mon sœeur,<lb/>cartes postales, yes.</p>
+        <p><lb/>Donner à moa, adresse.</p>
+        <p rend="labelled"><lb/>— Pa lé peine, qui dit un aute in sortant sin<lb/>carnet de s' poche, moa je avais.</p>
+        <p><lb/>L'patronne avant eu l' curiosité de r'vettier<lb/>ch' carnet povot lire:</p>
+        <ab type="head"><lb/>Joseph Vandame</ab>
+        <ab type="head"><lb/>Blonde et Brune</ab>
+        <p><lb/>Ch' l'inglais avot tout simplemint pris 17<lb/>réclame du garde-solei et avot ajouté l' nom de<lb/>l' rue et l' ville, i' parait qu'in Ingleterre, ch'est<lb/>comme cha qu'on écrit les adresses et les facteurs<lb/><lb/>n' se tromp'tent jamais.</p>
+        <ab><lb/>Double-Mète.</ab>
+        <figure type="decoration"/>
+        <ab><lb/>Pour tout ce qui concerne la MIUSIQUEE veyer<lb/>VERCRUYSSE &amp; DHONDT<lb/>139-141-143, Rue de Paris - LILLE<lb/>Téléphone 3860<lb/>omrens nouvelles et patoises</ab>
+        <ab><lb/>CHRONIQUE LITTÉRAIRE</ab>
+        <p rend="heading"><lb/>Deux Livres Artésiens</p>
+        <p><lb/>Trouver au jour d'aujord'hui un livre qui<lb/>amusse, intéresse et instruit, est un n' séquoi assez<lb/><lb/>rare par chés temps d' pleumes folles : ch'est<lb/>pourtant chin qu' nous promet un canchonnier<lb/>et prosateur artésien in r'nom.</p>
+        <p><lb/>Monsieur Alfred Demont, mimbre des Rosati,<lb/>ex président des Rosati du Ternois, mimbre titu-<lb/>laire de l'Commission Départemintale des Monu-<lb/>mints Historiques du Pas-de-Calais, Hors-con-<lb/>cours des Rosati, etc... auteur déjà, de deux<lb/>recueuls de canchons et poèmes in patois d'<lb/>Saint-Pol et d'autes lives su' des sujets d'histoire<lb/>locale, s' décide, infin, sollicité par gramint d'<lb/>ses amis, à publier un choix d' ses dernières<lb/>"(Eivres Patoisses" et ses “notices sur Saint<lb/>Pl</p>
+        <p><lb/>L' premier livre: Fleurs de nos champs<lb/>d'Arlois, poèmes et canchons in patois d' Saint<lb/>Pol avec, au qu'minch'mint du life, un “essai<lb/>su' l' Littérature patoisse artésienne, un r'cueul<lb/>d'œuvres des XVII et XVIII sièques et eun<lb/><lb/>bibliographie des palois des provinces d'Artois,<lb/>d' Flandre Wallonne et d' Picardie; tout cha<lb/>précédé d’eune Préface du poète artésien Emile<lb/>Poiteau, mimbre de l' Société des gins d' lettes.<lb/>laviron deux chint chinquante paches in-8 avé l'<lb/><lb/>musique d' quéqu’s canchons, dûe à M' Emile<lb/>Lagniez, organisse à Pernes-en-Artois, aincien<lb/>élèfe d' l’école Niedermeyer et des illustrations<lb/><lb/>d'Edem. Ch' l'ouvrache qui sortira des presses<lb/><lb/>de M. Jean Dubois, directeur de “l'Abeille de<lb/>la Ternoise" s'ra viodu 25 fr. in librairie.</p>
+        <p><lb/>L' deuxième livre : Couris papiers sur...<lb/>Sain!-Pol véritable guide d' pourmenates, avec<lb/>préface de M. Jean Ott, directeur des Rosati.</p>
+        <p><lb/>Inviron chint chinquante paches in-8 avec<lb/>illustrations d'Edem, imprimées pa' "la Nouvelle<lb/>Société Anonyme du Pas-de-Calais” vaudra,<lb/>12 frs in librairie.</p>
+        <p rend="styled"><lb/>Mais, à lous cheuss' qui souscriront pour les<lb/>deux volumes qui sortiront in Janvier ou Février,<lb/>prochain ou pour l'un d'euss' seul'mint, et cha<lb/><lb/>tavant P' 1u' Octobre, l' premier s'ra vindu<lb/><lb/>20 fr. et l' deuxième 10 fr.</p>
+        <p rend="styled"><lb/>On peut souscrire dès aujord'bui chez l’auteur,<lb/>rue Nouvelle de la Cilé Cahen à Arras, ou à<lb/>PAmi Gaston Herreng, Gérant de L' Nouvielle<lb/>Vaclette, à Lille.</p>
+        <p><lb/>A ch' t'heure v'nez point vous plainte qu'<lb/>trinte francs ch’est quer pour deux biaux lites<lb/>qui, je l' répète, aront l' don d' vous amuser et<lb/>d' vous instruire. A cha, j' vous répondrai qu’<lb/>gramint d' gins dépins’tent pus maudimint qu'<lb/>cha leur argint.</p>
+        <ab><lb/>Herreng Gaston.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

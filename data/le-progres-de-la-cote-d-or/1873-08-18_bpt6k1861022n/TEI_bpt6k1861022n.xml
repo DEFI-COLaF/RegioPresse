@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Progrès de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k1861022n</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Progrès de la Côte-d'Or : journal politique... ["puis" journal républicain quotidien]</title>
+          <publisher>[s.n.] (Dijon)</publisher>
+          <date when="1873-08-18">1873</date>
+          <idno type="ARK">bpt6k1861022n</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k1861022n</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Lundi 18 Août 1873</fw>
+        <fw type="runningTitle"><lb/>Cinquième Année. - No 192</fw>
+        <ab><milestone unit="column" n="3"/><lb/>dens doiges<lb/>[</ab>
+        <figure type="table"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>de la Côte-d’Or</p>
+        <p rend="heading"><lb/>PARAISSANT TOUS LES JOURS, EXCEPTE LE DIMANCHE</p>
+        <ab><lb/>POUR TOUT CE QUI CONCERNE LA RÉDACTION</ab>
+        <ab><milestone unit="column" n="1"/><lb/>sadrener as Eerast, ree Amral Mont. .A Dyes</ab>
+      </div>
+      <div type="article">
+        <p><lb/>toute la France la grande session des<lb/>Conseils généraux tels qu’ils sont sortis<lb/>de la mémorable élection d’octobre<lb/>1871. C'est en présence des entre-<lb/>la souveraincté nationale, en présende<lb/>dacicusement attaqués, de la volonté<lb/>et délibérer. Cette situation leur impose<lb/>de grands devoirs à l'accomplissement<lb/>desquels les conseils généraux patriotes<lb/>et républicains ne pourraient se sous-<lb/>fraire sans se rendro coupables envers</p>
+        <p><lb/>tion prise dans ses couches les plus<lb/>appartient de rappeler à ceux qui af-<lb/>encore une France agissante, pensante,<lb/>ple, en un mot, qui ne veut ni renier<lb/>xance souveraine entre les mains d'unc</p>
+        <p><lb/>connseils généraux, il leur sera difficile<lb/>de faire entendre cetto voix du pays<lb/>dont nous les convions à derenir les<lb/>interprètes : outre que la force des<lb/>des législateurs, a largement introduit<lb/>la politique dans les conseils généraux<lb/>exclure, nous dirons que rien n'em-<lb/>ment leur pensée dans les conjectures<lb/>présentes, de le faire hautement, clai¬<lb/>rement, sans pour cela violer le moins<lb/>du monde ni fesprit ni la lettre de la<lb/>éclat ce que le pays pense des faits ac-<lb/>complis depuis la session d'avril, et<lb/>quels sentiments lui inspirent les projets</p>
+      </div>
+      <div type="article">
+        <p><lb/>devient, cette année, pour chaque con-<lb/>seil général, une manifestation de la</p>
+        <p><lb/>tion de la commission départementale,<lb/>appelée à jouer un rôle si important<lb/>loi, et dans tous les cas destinéea<lb/>résister aux agissements et aux empiè-<lb/>tements des préfets de l'ordre moral.</p>
+        <p><lb/>que pour le choix des membres de la<lb/>commission départementale, la majo¬<lb/>rité républicaine écarte done impitoya-<lb/>blement les fauteurs du 24 mai et<lb/>qu’elle choisise uniquement des ci¬<lb/>suffrago universel, au droit souverain<lb/>de la nation, et l'on peut tenir pour<lb/>certain que la portés de ces choix sera</p>
+        <p><lb/>d'être les seuls moyens d'expression<lb/>des sentiments du pays dont disposent<lb/>personne n'a songé à interdire comme<lb/>affectant le caractère politique les<lb/>roeux des conseils généraux relatifs au<lb/>service militaire obligatoire, à la gra-<lb/>tuité et à l'obligation de l'enseigne-<lb/>ment primaire, de même nul no pourra<lb/>prétendre que ces conseils n'aient pas<lb/>le droit de se préoccuper des ques<lb/>tions, bien plus spécialement adminis-<lb/>tratives que les précédentes, que sou¬<lb/>lèvent les propositions déjà mises en<lb/>avant relativement à la « réglementa-<lb/>tion » du suffrage universel et an mode</p>
+        <p><lb/>énergiquement formulé pour le main-<lb/>tien de l'intégrité du suffrage universel<lb/>et de la nomination des maires par les<lb/>conseils municipaux ne soit compris de<lb/>tous, amis et ennemis, comme syno-<lb/>nyme d'un voeu pour le maintien de la<lb/>République démocratique? nul doute,<lb/>répétons-le, relativement à la parfaite</p>
+        <p><lb/>de décentralisation ont convié eux¬<lb/>mêmes les conseils généraux à délibé-<lb/>rer sur cos sujets en leur adressant́<lb/>mode d'élection et de nomination des<lb/>devant l'usurpation complotée. Les<lb/>ront-ils la noble tâche qui leur in-<lb/>combe? Ce serait leur faire injure que<lb/>de douter d'eux. Nous avons d'ailleurs,<lb/>que le conseil général de la Côte d'Or</p>
+        <p><lb/>lors du débat de la loi départementale,<lb/>et, dans la séance du 20 juillet 1871,<lb/>brecht, qui, en sa qualité de ministre<lb/>de M. Thiers, était aussi disposé à res-<lb/>treindre les attributions des conseils<lb/>généraux que la commission était dis¬<lb/>disons-nous, déclarait, avec l'approba-<lb/>tion unanime de l'assemblée, qu'il était<lb/>conseils généraux le droit d'émettre des<lb/>des maires. Donc, pas d'hésitation à</p>
+        <p><lb/>loin ? Et si ron interprete sclon res¬<lb/>d'une façon large et libérale, les ter-<lb/>mes de « voeux relatifs à des questions<lb/>d'administration générale, » les con¬<lb/>seils gónéraux n’ont-ils pas le droit de<lb/>contro les principes qui président de¬<lb/>à l'administration générale de la Fran¬<lb/>de remettre la France entière, ses lois<lb/>légitime. Or, en présence de parcilles<lb/>conseils généraux n'ont-ils pas le droit<lb/>d'émettre le vou que nulle modifica-<lb/>tion ne soit apportée aux institutions<lb/>existantes et à l'administration géné-<lb/>rale du pays sans une consultation<lb/>préalable du peuple souverain convo¬</p>
+        <p><lb/>d'insister davantage. L'importanco ex-<lb/>traordinaire de la session prochaine ne<lb/>veillo de la crise suprềme, les conseils<lb/>décisive; leur attitade pout suffire a<lb/>d'eux, s'ils se montrent à la hanteur<lb/>de leur mandat, que la coalition du<lb/>Il y a encore sur les bancs du centre<lb/>des hommes faibles, mais honnêtes,</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Lorsque Guerrandoécarta les sentioelles</ab>
+        <p><lb/>son <lb/>leur y prêtant, ou, tout au moins, à quel-</p>
+        <p><lb/>ui surveile</p>
+        <p><lb/> es ma</p>
+        <p><lb/>out d<lb/>Interlocuteur</p>
+        <p rend="labelled"><lb/><lb/>ia gorge, en pénétrant dans la salle d</p>
+        <p><lb/><lb/>trait tour à<lb/>che, hxé<lb/></p>
+        <p><lb/>Suerrando lut cet avis, imprimé en a<lb/>Le chef du rexime</p>
+        <p rend="labelled"><lb/><lb/>pas un Ingrat en me precaat sou ra</p>
+        <p><lb/><lb/>a fedalt<lb/>d rempiir le<lb/>ae a romplir le</p>
+        <p><lb/>elle, reprit - e<lb/></p>
+        <p><lb/><lb/>csujet,<lb/>ue dans ma démalet<lb/>eto ci</p>
+        <p><lb/>va pour le rojagear francals</p>
+        <p><lb/>nont amené mai</p>
+        <p><lb/>ant que dura ctte epco plac<lb/><lb/><lb/>ge famme qui incendiait lours<lb/></p>
+        <p><lb/>le sang qui tachait sas mandibales<lb/>    rete</p>
+      </div>
+      <div type="article">
+        <p><lb/>sontiment de leura admisistrés à l'égard des<lb/><lb/></p>
+        <p><lb/>es rigneure contre la preste républicain,<lb/>contiauent. Les préfets de Tordro morai, sai¬<lb/><lb/>redoubies sur tout journal qui a lo tort de ne<lb/>pas professer une vive tendresse pour le ca¬</p>
+        <p><lb/>Saint. Die, par arrêté du colonel de gondar¬</p>
+        <p><lb/>nterdiction sur la volo pub̀lique du jour¬<lb/>Saleie du jouraalla Hece, da Harra</p>
+        <p><lb/><lb/>A la loi du colportago. Le porteur est égalo-<lb/>ment acquitté comme ayant agi sans diso</p>
+        <p><lb/>fait a un coiportage noa antoriss. </p>
+        <p><lb/>barairee da pee de rordre on</p>
+        <p rend="labelled"><lb/>de chevaux sur la grea<lb/></p>
+        <p><lb/>tar le prestige de lordro moral no leur a pas<lb/></p>
+      </div>
+      <div type="article">
+        <p><lb/>tndo des rapports faits a rUnion réf<lb/>-</p>
+        <ab><lb/>ource gallica../Biliotèque naione de France</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

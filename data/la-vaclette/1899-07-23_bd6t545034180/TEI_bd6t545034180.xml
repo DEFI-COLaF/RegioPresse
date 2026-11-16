@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t545034180</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Vaclette : journal humoristique, drôlatique, excentrique, non politique, rédigé en patois de Lille</title>
+          <publisher>[s.n.] (Lille)</publisher>
+          <date when="1899-07-23">1899</date>
+          <idno type="ARK">bd6t545034180</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t545034180</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Le Numéro : 5 Centimes.</fw>
+        <dateline><lb/>Dimanche 23 Juillet 1899.</dateline>
+        <fw type="numbering">8me Année. — No 416.</fw>
+        <figure/>
+        <ab><milestone unit="column" n="3"/><lb/>ADMINISTRATION<lb/>3, Rne des Brigittines. 3 ( -deedd.)</ab>
+        <ab><milestone unit="column" n="1"/><lb/>ABONNEMENTS<lb/>LILLE et environs : Un an, 2 fr. 50; Six mois, 1 fr. 25<lb/>Autres Départements : 3 fr. &amp; 1 fr. 50.</ab>
+        <p rend="heading"><lb/>GOLIATH AUX ARÊNES DE ROUBAIX<lb/>INTERVIEW du LIoN<lb/></p>
+      </div>
+      <div type="article">
+        <ab><lb/>au Torodrome de Roubaix<lb/>AIR: Le Chameau.</ab>
+        <p rend="labelled"><lb/>— Tas d' v... d' farceux, va!</p>
+        <p rend="labelled"><lb/>— Eh ! la-bas ! Que j' m’écrios, in intindant un<lb/>homme pousser ch' l'esclamasse in sortant des<lb/>arènes de Roubaix, attintion à ch' que vous dites,<lb/><lb/>vous povez l' pinser, mais point l' crier, in un<lb/>mot, faites comme mi, après tout, quoich' qu'on a<lb/>arqué su' l's affiches : Le Lion et le Taureau;<lb/>n' vous a point parlé d' combat.., et puis, si<lb/><lb/>lion n'a point marchè, comme on dit, ch' n'est<lb/>Point de l' faute des organisateurs</p>
+        <p rend="labelled"><lb/>— Non, ch'est de l' mienne, répond l'aute. Et<lb/>dire qui n'y a des gins qui ont donné jusqu'à chint<lb/>rancs pou leu' plache, ch'est à faire rire eun'<lb/>baleine.</p>
+        <p><lb/>Pindant que l' foule, in colère d'avoir été farcée<lb/>Séloingnot des arènes de Roubaix, j'avos eun' drôle<lb/>de conversation avé ch' pauv' Goliath, l' lion que<lb/>not d'esquinter l' taureau.</p>
+        <p rend="labelled"><lb/>– Eh ben ! mon vieux, que j' li dis, te v'là bien<lb/>arringé.</p>
+        <p rend="labelled"><lb/>— Awi! qu'i répond, in ressuant eun' larme<lb/>avec eun' de ses pattes ; à m' mote que j' sus rousti,<lb/>Pai r' cop</p>
+        <p rend="labelled"><lb/>-Mais qu'mint qu' cha s'fait qu' ti, l' roi du<lb/>désert...</p>
+        <p rend="labelled"><lb/> Désert! quoich' que cha veut dire? J'ai souvint<lb/>Untindu dire ch' mot pa' l'zique qui m' moutrot<lb/>lins s' ménag'rie, mais j' n'ai jamais vu d' désert.<lb/>Pai v'nu au monde, n'y-a enn' soixantaine d'ainnées<lb/><lb/>l' cage d'eun' petite ménag'rie qu'elle faijot les<lb/>oires de villache ; aujord'bui ichi, d'main pus lon.</p>
+        <p><lb/> peine âgé d' six s'maines, on m' séparot de<lb/>mère; quèqu's mos après on m'appernot à<lb/>buvrer... à cops d' triques ; j'étos douche comme un<lb/>mouton mais pour que j'aie l'air terrible, un gardien<lb/>appernot à rugir in m' flanquant un bâton dins<lb/><lb/>gueule. Un jour, in juant, j'ai mordu l'dompteur,<lb/>find main on m’arrachot tous mes dints et on<lb/>mettot un ratelier in caoutchouc, vous povez<lb/></p>
+        <p><lb/>In effet, passant l' main dins s' gueule, j'y sintos<lb/>des dints ausrmous qu' des tétines d' bib'rons.</p>
+        <p><lb/>Alors, continue l' lion, on n' s'a point arrèté là,<lb/>on m'a copé les griffes et j'ai dev'nu l' biète féroce<lb/>l' puque inoffensive d' la terre.</p>
+        <p><lb/>In dermer lieu, j'étos à Hambourg ; avec l'àge,<lb/>les romatisses étott'nt venus, j'étos pus souvint<lb/>couché que d'bout. Dernièr'mint, on m’a fait<lb/>sortir de m' cage pou'm' mute dins eune aute, opé-<lb/>ration qu' j'ai faite d' bonne grâce, on m'a mis<lb/>sur un train et am'né ichi pou' m' batte contre<lb/><lb/>un blanc biec de taureau. Les hommes n'ont point<lb/>d' respect pou l' vieillesse Quoich' que j' povos<lb/>faire avé mes dints in caoutchouc et mes pattes<lb/>sans griffes, et mes romatisses, et m'n asthme qui<lb/>m'étouffe par moumints ! J' m'ai laiché rouler.</p>
+        <p rend="labelled"><lb/>— Comme nous autes nous avons été roulés.</p>
+        <p rend="labelled"><lb/>— Et ch'est bien fait, ajoute l'lion Quoi ! Cha<lb/>vous amuse de vir deux biêtes s' tuer, vous<lb/>autes, civilisés, vous n'avez donc pus des plaisis<lb/>plus nobles. On a t't-à-l'heure traité d' lâche l' roi<lb/>des animaux, on m'a app'lé dégènéré, mais j'cros<lb/>bien que l'race humaine a jolimint dégénéré aussi<lb/>d'puis m' jeunesse.</p>
+        <p><lb/>Pourquoi aller sauter sur eun biète que je<lb/>n' connos point pour in amuser d's autes (pardon<lb/>pour vous)?<lb/>On dira que je n' m'ai point défindu : ch'est vrai,</p>
+        <p><lb/>mais pourquoi aussi qu'i's ont pris un vieillard<lb/>malade, perclus, usé ? N'y-in avot d' pus jeunes et<lb/>d' pus forts que mi ; seul'mint, i's coûtott'nt pus<lb/>quers, v'là. V'là pourquoi, sans respect pou' mes<lb/>ch'veux blancs, on m'a condamné.</p>
+        <p><lb/>lchi, l' voisse du Lion s’affaiblichot, l' pauv’<lb/>biête d'vot souffrir terriblemint ; après eun' pose<lb/><lb/>d' quèqu's minutes, il ajoutot : Cheuss' qui ont dit<lb/>tas d' farceux, i's ont bien eu raison ; i' m' reste<lb/>peu d'heures à vivre, laiçhez-me les passer in paix,<lb/>pardonne aux hommes leu' cruauté, pou' vous<lb/>l' prouver, j' vous donne la patte, donnez-me l' rôte<lb/>(merci) Dins quèqu's jours, Roubaix maing'ra du<lb/>saucisson d'Lion... Bon appétit.. Adieu....</p>
+        <ab><lb/>RÉPERTOIRE LATULUPE</ab>
+        <ab type="head"><lb/>L' LION ET L' TAUREAU</ab>
+        <lg>
+          <l><lb/>D'faire eun biell tutte au Torodrome,</l>
+          <l><lb/>Tra la</l>
+          <l><lb/>A la grand' corrida,</l>
+          <l><lb/>Tra la</l>
+          <l><lb/>Et comme extra,</l>
+          <l><lb/>On d'vot mette in présince,</l>
+          <l><lb/>Un Lion et un taureau,</l>
+          <l><lb/>Cheull lutt la, comme on l' pinse</l>
+          <l><lb/>O'vot fair bien dins l'tableau</l>
+          <l><lb/>Hardi, Lion ! Hardi, Taureau !</l>
+        </lg>
+        <lg>
+          <l><lb/>A Roubaix, vill que chacun r'nomme,</l>
+          <l><lb/>ra la</l>
+          <l><lb/>L'aut jour on décida,</l>
+          <l><lb/>fra la le</l>
+          <l><lb/>On s'avisa,</l>
+        </lg>
+        <lg>
+          <l><lb/>Aussi, p</l>
+          <l><lb/>Courott'nt au Torodrome.</l>
+        </lg>
+        <lg>
+          <l><lb/>T n' n'arrivot d'tous les puissances,</l>
+          <l><lb/>In grand pontificat.</l>
+          <l><lb/>Tra la</l>
+          <l><lb/>a la plaza,</l>
+          <l><lb/>Et l' caissier vétiant les finances,</l>
+          <l><lb/>Fra </l>
+          <l><lb/>Caressot sin p'tit sa,</l>
+          <l><lb/>Tra la </l>
+          <l><lb/>Et s' gondola,</l>
+          <l><lb/>Infin l'course ell queminche.</l>
+          <l><lb/>Ch'est d'abord les taureaun,</l>
+          <l><lb/>L' toréador s'avinche,</l>
+          <l><lb/>On agit' des capiaux</l>
+          <l><lb/>Hardi taureau! Hardi taureau!</l>
+        </lg>
+        <lg>
+          <l><lb/>Aussi, pour vir cha, les p'tits comm' les grands</l>
+          <l><lb/>Courottent au Torodromé</l>
+          <l><lb/>l'rgrettotent leu eingt E</l>
+        </lg>
+        <ab><lb/>J. NOLLAIN.</ab>
+        <pb facs="0002.xml"/>
+        <figure type="decoration"/>
+        <note>
+          <p rend="labelled"><milestone unit="column" n="1"/><lb/>(1) Goliath nom du Lion, Venaito nomn du Taure.</p>
+        </note>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>FEUILLETON DE « LA VACLETTE»</head>
+        <head><lb/>LES CABARÉTIERS</head>
+        <head><lb/>Etude lilloise en trois parties</head>
+        <head><lb/>IIIe PARTIE. — La Cession.</head>
+        <head><lb/>Toujours même décor: Une salle d'estaminet</head>
+        <p><lb/>In attindant, on n' cède point vite ; on dirot<lb/>un guignon, personne n' veut de ch' cabaret ; si,<lb/>i' n' n'a qui-z-in veul'nt bien, mais sans doupes...<lb/>et i's f'ront Saint Pierre par nuit dins tros mos;<lb/><lb/>on connot cha. N'y-a chinq-six agents d'affaires<lb/>qui se n'n occupent, i's invoient toudis des ama-<lb/><lb/>teurs, mais on n' revot jamais chés gins... Tiens !<lb/>quoich' que ch'est qu' chés deux qui r'vett'nt si<lb/>bien l' façate ? Cha dot ête des gins du déhors.<lb/>Ch'est-l' pour ichi? v'la qu'l's arriv'nt, j' vas</p>
+        <p><lb/>r'tirer tous chés verres que j'ai mis su' les tables<lb/>pour faire croire qui n'y-a v'nu du monde. Ch'est<lb/>un truc de Dinand ; pou' céder, il est cabarétier.</p>
+        <p><lb/>Un monsieur et une dame entrent, ils s'assoient et<lb/>demandent deux chopes.</p>
+        <p><lb/>CADIE (servant et continuant de rincer des verres)</p>
+        <p rend="labelled"><lb/>(Haut). Queul imbarras !... Ch'est imbêtant<lb/>d'ête tout seul' pou' servir quand i' vient tant d'<lb/>monde... Ichi, ch'est par secousses.</p>
+        <p><lb/>Vous vendez-bien, ici ?</p>
+        <p><lb/>Pour sûr, alors, tros rondelles par semaine.<lb/>(A part). Comme i' faut mintir, tout d' même.</p>
+        <p><lb/>Des liqueurs? On vind tout ch' qu’on veut<lb/>(à part), ch’est imbêtant qui n' vient personne.<lb/>(Haut). Ainsi, du g’nèfe, ch’est chinq-six litres<lb/>tous les jours. (A part). Je n' les vinds point</p>
+        <ab type="head"><lb/>LA FEMME (a l'homme)</ab>
+        <lg>
+          <l><lb/>Ça s'rait bien notre affaire !</l>
+        </lg>
+        <p><lb/>Awi, pour raison d' santé. (A part). Si i' porrot<lb/>v'nir quèqu's clients!</p>
+        <p><lb/>Vous avez beaucoup d' loyer ?</p>
+        <p><lb/>Presque rien pour nous ; j'ai deux cambres au<lb/>premier que j' loue vingt-chinq francs, au s'cond<lb/>dij-huit francs, au trosième, j'ai deux p’tites<lb/>cambres à siept francs, cha vous fait prés d' siepte<lb/>chints francs par an ; ainsi, sur un lover d' mille<lb/>francs, n'y-a qu' vingt-chinq francs par mos pour<lb/>vous ; on n' peut point s' loger à moins.</p>
+        <p><lb/>Et pour la cession ?</p>
+        <p><lb/>C'est quinze chints francs.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Mais v'là l'heur du grand cop qui sonne<lb/>Ch'est l' liméro d' gala,<lb/>Quoich qui s' pass'ra ill<lb/>A l' vu' du Lion chacun frissonne,<lb/>«Je n'voudros point êt là !</ab>
+        <lg>
+          <l><lb/>vla les deux biêt's in plache,</l>
+          <l><lb/>L Taureau veut faire un saut,</l>
+          <l><lb/>Mais l'Lion s' rétind dins s' cache,</l>
+          <l><lb/>n s' plaignant qui fait caud</l>
+          <l><lb/>Hardi Lion! Hardi Taureau!</l>
+        </lg>
+        <lg>
+          <l><lb/>ha. les ptits comm' les grands</l>
+          <l><lb/>ls rgrettot nt leu chint fen</l>
+          <l><lb/>Ls r'grettot'nt leu' chint frane</l>
+        </lg>
+        <lg>
+          <l><lb/>Par moumints on craingnot qu' cha s'gâte,</l>
+          <l><lb/>Mais l' Lion comme un Pacha,</l>
+          <l><lb/>D'timps in temps i r'muot eun patte,</l>
+          <l><lb/>Et l taureau f r' niffa.</l>
+          <l><lb/>Tros quarts d'heure à l'horloche</l>
+          <l><lb/>GOLIATH et VENAITO, (</l>
+          <l><lb/>N'ont point r'mué un oche,</l>
+          <l><lb/>Aussi tout l' mond' criot..1</l>
+          <l><lb/>Te dors Lion ? Te dors Taureau !</l>
+        </lg>
+        <lg>
+          <l><lb/>Pou' n'vir que cha gramint d' petits et d'grands</l>
+          <l><lb/>ls rgrettottnt leu chint s</l>
+          <l><lb/>Ys r'grettott'nt leu' chint francs</l>
+        </lg>
+        <lg>
+          <l><lb/>Pour fuir cheulr seance cocasse,</l>
+          <l><lb/>Ch'est l' taureau qui trinqua</l>
+          <l><lb/>Dir' que des gins assez bonasses</l>
+          <l><lb/>Donn'nt chint francs pour vir cha</l>
+          <l><lb/>Ch' l'acte la inhumain-</l>
+          <l><lb/>Cha ch'est certain ! cha ch'est certain!</l>
+        </lg>
+        <lg>
+          <l><lb/>Dir que pour vir cha, les p'tits comm'tles grands</l>
+          <l><lb/>Courott'nt au Torodrome</l>
+          <l><lb/>l's rgrettottnt leu chint fran</l>
+          <l><lb/>l's r'grettour'nt leu' chint francs.</l>
+        </lg>
+      </div>
+      <div type="article">
+        <head><lb/>CHRONIQUE TARTAGROBORRIENNE</head>
+        <figure type="decoration"/>
+        <p><lb/>Après ête sorti de l' salle du Viau qui tête, ach<lb/>que v'not d'avoir lieu l' réunion dont j'ai parlé dins<lb/>liméro 411, l' père Prévoyant, ayant r'tourné direc-<lb/><lb/>temint à s' mason, s'étot mis aussitót à rédiger des<lb/>convocations, qu’il invoyot par sin valet l' lind'-<lb/>main à l' promière heure à tous les habitants de</p>
+        <p><lb/>Vla l'appel qui leus adréchot:</p>
+        <p rend="labelled"><lb/>« Habitants et habitantes de Tartogroborr,</p>
+        <p rend="labelled"><lb/>« L' société d' secours mutuels, in l' personne de<lb/>sin président, a l'nonnenr de vous inviter à vous<lb/>trouver aujord'hui même, à midi, su' l' grande Plache,<lb/>à l'effet d' prinde eun décision pour eune affaire des<lb/>pus importantes, concernant toute l' population<lb/>Cartagroborrienne. Comme il y va d' vos intérêts,<lb/><lb/>j'ose espérer qu'chacun d' vous tiendra à répondre à</p>
+        <p><lb/>A midi sonnant, on povot vir déboucher d' tous les<lb/>quimins du villache des hommes, des femmes, d’s<lb/>infants, d' certains am'nant avec euss's tout's les<lb/><lb/>volailles d' leu' basse cour, attachées par des fichelles,<lb/>d’aut's leus bestiaux : Bués, vaques, viaux, moutons,<lb/>qu'vas et jusqu’à leus pourcheaux, si bien qu'in un<lb/>rien d' temps, l' Plache d'l'Egliche qu'on a surnommée<lb/>l' Grand Place, peut-ête bien parce qu'i' n’y-a qu'<lb/>cheull-la, présintot l'espectacle du marqué de</p>
+        <p><lb/>Queu' brouhaba, mes frères, que tout ch' monde là<lb/>faijot au moumint que l' père Prévoyant a d'mainde<lb/>la parole. Les bués, vaques et viaux beuglottent, les<lb/>pourcheaux grognottent, et infin à intinde les coco¬<lb/>ricos, les cott'-codaques, les clouq-clouq, les coin-<lb/>coin des coqs, poules, dindons et canards, l' diable<lb/>in arot pris les armes.<lb/>Bref, d'vant l'impossibilité d' parler longtemps à</p>
+        <p><lb/>cheull' foule, l' président a expliqué in peu de mots<lb/>l’exigence des hommes de l'art, l' cang'mint d'<lb/>situation qu' cheux-chi volottent créer à l' société,<lb/><lb/>et après leus avoir fait comprinte que si on n’y mettot<lb/>point halte-la, au moyen de l' solidarité, cha les arot<lb/>ingagés à augmenter à l'av'nir l' prix d' leus visites,<lb/>à leu' faijot part du projet qui avot été décidé précé¬<lb/>dammint : Ca est-à-dire d' faire eun' trêve à toutes les<lb/>maladies indistinctemint ; afin de s' passer d'eusse.</p>
+        <p rend="labelled"><lb/>— Mais ch'est l'impossibilité, qu' vous d'maindez<lb/>là, interrompt alors l' femme à Clachiron qu'mint<lb/>volez-vous, allons, que j' puisse vivre sans mes d'mi<lb/>graines n'est-ch' point la un prétesque tout trouvé,<lb/>pour nous aut's, femmes, monter l' cop à nos</p>
+        <p rend="labelled"><lb/>— Et mi s'écrie cheull à Vacquivele, mi qui n'suis<lb/>jamais sans mis sévralgiques quoich' que j' frai si<lb/>je n' peux pus m' procurer des paquets d'antipérine.</p>
+        <p><lb/>Infin, toute à chacune des femmes avot du ma'<lb/>quequ'part ; jusqu'à eun' flaminqu' qu'ell' se plaignot<lb/><lb/>d'avoir des coliques — des cliques comme elle dijot—<lb/>puis v'not l' tour des hommes, parlant poureuss's,<lb/>leus infants et leus biêtes, si bien que d'vant l' peu<lb/>d'approbation qui résolvot l' proposition d' Limagi¬<lb/>naire, l' père Prévoyant s' préparot à se r'tirer<lb/>sans l' mette aux voisses, avé l'intintion d'invoyer<lb/>s' démission d' président, quand eun' petit' vieille<lb/>qu'elle venot d'arriver, prind la parole.</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>— Bonn's gins ! qu'ell' s'écrie, j' comprinds très<lb/>bien qu’on n' peut point lutter conte les maladies<lb/>dont no pauvre bumanité est tant affligée, quant»<lb/>s' passer d' méd'cins ch'est différint, et j' trouve<lb/>que rien n'est pus facile.</p>
+        <p rend="labelled"><lb/>— Et qu'’mint cha ? dit's-nous qu'mint?» s'écrie</p>
+        <p rend="labelled"><lb/>— Est-ch' que les simples r'mèdes n'ont point<lb/>toudis été les meilleurs ? interroge l' vielle.</p>
+        <p rend="labelled"><lb/>— Si ! si ! répond l' foule.</p>
+        <p rend="labelled"><lb/>— Eh ben ! quand quéqu'un d'inter vous, gins<lb/>comm' biêtes, biét's comm' gins, s'ra indisposé qui<lb/>vieinche m' trouver : avé les r'mé l's dont j' vieas<lb/>d' vous parler, je m' sarge de l' guérir, et cha n' li<lb/>coût'ra point quer incore.</p>
+        <p><lb/>La d'sus on a porté la vieille in triomphe, et tout<lb/>in chacun a pris l' direction d' sin domicile ; Les gins<lb/>d' leu mason, les bués vaques et viaux d' l'étable, les<lb/>quivas d' l'écurie, les montons d' leu' bergerie, les<lb/>pourcheaux d' leu' toit, et tous les autes ; Coqs, poules.<lb/>dindons et canards d' leu poulailler.</p>
+        <p><lb/>Et à ch't' heure qui n' nous reste pus qu'à attinde<lb/>les résultats qu' donn ront les médicamints d'l' vielle,<lb/>j' vous crie : A la prochaine !</p>
+        <ab><lb/>CROQUE-CHUQUE.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>CHRONIQUETTE9</head>
+        <p><lb/>On peut dire qu' les fietes de Moulins-Lille et<lb/>S' Michel correspondant avé l' 14 Juillet, ont réussi<lb/>ch' l'année ichi mieux qu' jamais. D'abord, un temps<lb/>superbe, un peu caud, on peut même dire trop caud,<lb/><lb/>mais cha n'fait rien. L' bonne volonté et l' dévoue<lb/>mint d' tertous a su vaincre même l' solei ; aussi,<lb/>tout's nos félicitations aux organisateurs. I's ont, on<lb/>peut l' dire, bien mérité l's acclamations qui n' leus<lb/>ont point manqué pindant l' superbe retraite aux</p>
+        <p><lb/>Et l' vieux r'nom du forbourg des Malates a j' vous<lb/>vassure, fait du piche, comme on dit à Lille, à tous<lb/>les quartiers des bien portants. D'puis longtemps on<lb/>n'a vu rien d'aussi biau et d'aussi réussi, ch'étot, pou<lb/>n' point in dire davantache : Parfait!</p>
+        <p><lb/>Bravo donc pour tous les forbougtiers. Bravo pou<lb/><lb/>l' comité, et tout Lille n' deminde qu'eun'seule chose<lb/>ch'est d' nous faire r'vir bientôt l'admirable retraite<lb/>aux flambeaux du samedi 15 Juillet,</p>
+        <figure type="decoration"/>
+        <p><lb/>Partout ch' jour-là chétot fiete et cha s'rot long<lb/>d' vous raconter les détails que no' fil Vaclettique<lb/>nous a apportés à ch' sujet. Néanmoins, i' faut que<lb/>j' vous parle d'un programme qu' j'ai vu affiché dins<lb/>eun' petite commune ûch' que gramint d' péqueux<lb/>d' Lille vont jouir du plaisi, non seul'mint de l' pèque<lb/>mais aussi d' l'air pur et frais de l' campagne et de<lb/>l' satisfaction d' rincontrer dins ch' villache rien qu'<lb/>des braves gins, toudis prêts à vous ête agréable,<lb/>surtout quand su' vo' binette i's s’aperçoiv'tent qu'</p>
+        <figure type="decoration"/>
+        <pb facs="0003.xml"/>
+        <p><lb/>Ch'étot donc avant d'arriver à Arras. dins cheull'<lb/>commune d' 458 bonn’s gins. L' matin de ch' grand<lb/>hour l' programme n' vous indique rien, trouvant qu’'e<lb/><lb/>l'après-dinné est longue assez pour avoir du plaisi<lb/></p>
+        <p><lb/>A deux heures, r'vue des pompiers : Ch'est là<lb/>qu' j'aros volu vir cheuss' de Tartagroborr pour euss<lb/>printe eun' leçon. Propes et luijants comme un<lb/>nouviau sou, i's matchottent comme un seul homme<lb/>à l'assaut de l' mason commune uch' que les vins<lb/>d'honneur leus étott'nt offerts par monsieur l'adjoint.<lb/>intouré d' sin conseil. l's ont bu à la France, à<lb/>l' République, à l'agriculture et à l' prospérité de<lb/>l' commune uch que grâce à l' qualité du pichon, un<lb/>service s'ra bientôt installé pour conduire directemint<lb/>les péqueux, d' tout's les gares des invirons aux<lb/>marais. Bravo ! Bravo !! Insuite a eu lieu eun' course<lb/>pou' les jeunes filles et fillettes : pour mi, ch'est<lb/>l' même, mais par là faut croire qui n'y-a eun'<lb/>différince ou qu'on s'a trompé su' l'affiche.</p>
+        <p><lb/>Puis un massacre d'un coq : l's infants de l' com¬<lb/>mune armés d'un bâton et l's yeux bandés dottent<lb/>d'un seul cop tuer cheull' pauve biête plachée sur<lb/>eun' table. Ch'est biau, j' vous l'assure la suite, l' ju<lb/>de l' candelle et l' course in sac. Pais l' ju d' piquet,<lb/>tetc, etc. Des prix d' grande valeur sont offerts aux<lb/>gagnants et tout l' monde est contint ; Non je<lb/>m' trompe, car je n' n'ai vu deux, cha dot éte deux<lb/>cousins, qui, pindant pus d' deux heures n’ont point<lb/>arrêté d' disputer, prêts à s' batte et pour canger d'ête<lb/>d'accord et d'attraper chacun eun' bielle prone. Mais,<lb/>m'samis, si vous volez ête bien r'chus, avoir du plaisi,<lb/>attraper gramint d' pichon et faire bonne chère, allez<lb/>vous in chez Mazingue, i vous donn'ra tout chin qui</p>
+      </div>
+      <div type="article">
+        <head><lb/>UN PROJET D' SUICIDE</head>
+        <head><lb/>AIR: Vous vorez blen qu'elle est rosière</head>
+        <lg>
+          <l><lb/>l'puis longtemps jai forme l' profes</l>
+          <l><lb/>D'piquer eun tiête d'dins l'</l>
+          <l><lb/>In v'la tout simplemint l' sujet</l>
+          <l><lb/>Ch'est qu' j'aspire l' fin de m' carrière,</l>
+          <l><lb/>J'ai queusi la Bass' Deûl' pour cha,</l>
+          <l><lb/>Ch'est l' seul indrot qui porrot m' plaire,</l>
+          <l><lb/>Malheureus'mint quand pass' par</l>
+          <l><lb/>J' vos qu' l'iau n'in est point assez claire.</l>
+        </lg>
+        <lg>
+          <l><lb/>Oui, d'cheull facon j'veux m's</l>
+          <l><lb/>In veyant les MARIE-SALOPPES (1)</l>
+          <l><lb/>Qui maneuvrent dins ch' grand bassin</l>
+          <l><lb/>Pour tâcher de l' rind' sanitaire</l>
+          <l><lb/>Fattindrai que l' Bass Deul sot claire</l>
+        </lg>
+      </div>
+      <div type="article">
+        <head><lb/>Ah! C'est une belle somme!</head>
+        <p><lb/>Mais ch'est pour rien.. Quinze chints francs,<lb/>on n' peut point moins. Vettiez tout ch' qui n'y-a</p>
+        <p><lb/>Nous allons réfléchir, on viendra vous dire<lb/>quoi, aujourd'hui ou demain... Au r'voir, madame.</p>
+        <p><lb/>A r'voir, monsieur et madaime, quand vous</p>
+        <p><lb/>Acoutez, si vous n'n êtes amateurs, i' n' faut<lb/>point trop tarder, cam n'y-a chinq six personnes</p>
+        <p><lb/>Ch'est eune occassion qu'vous n' trouv'rez pus.<lb/>(A part). Que j' sus canalle tout d' même!</p>
+        <p><lb/>Eh bien! Nous allons nous consulter, nous</p>
+        <p><lb/>A quelle heure ?... J' vous d'mainde cha, ch'est<lb/>pour que m'n homme i' soche là ; vous savez, je<lb/>n' peux point faire cha mi tout seu' ?</p>
+        <p><lb/>Vers sept heures, hein! Ferdinand.</p>
+        <p><lb/>Ferdinand.! Monsieur s'appelle Ferdinand?<lb/>Eh ben ! C'est comme m'n bomme, seul'mint, li.<lb/>on l' l'appelle Dinand pour aller pus vite. Alors,</p>
+        <p><lb/>Comme cela, on verra s'il y a du monde Allons,<lb/>au revoir, madaime. (Ils s'en vont).</p>
+        <p><lb/>Incore des nouviaux ! Savoir si cheux-là<lb/>vodront...On n' n'a d'jà tant vus ! On a d'jà dépinsé<lb/>tant d' doupes pou' cheull' cession. Comme ch'<lb/>soir, i's vont v'nir, ch'est incore au moins tros<lb/>francs qu' cha va nous coûter... Ch'est vrai qu'<lb/>pou' faire croire qu'on fait d's affaires, m'n homme<lb/>il amène d's ouverriers de s' boutique qui boivent<lb/>et qui paitt'nt, mais i' leu' rimbourse ; ch'est un<lb/>truc d'un agent d'affaires, comme cha on a l'air de<lb/>sinde gramint. Mais ch’est égal, fant ête canalle<lb/>pou' faire des sé juois parels... Aprés tout, on<lb/>nous a trompés de l' mème façon... Ch'est mal-<lb/>heureux à dire et pourtant, à part d'avoir eun'<lb/><lb/>chance extraordinaire, mais n'y-a pus moyen<lb/>d' vivre honnêt'mint dins l'commerce ; ch'est<lb/>les moins honnêtes qui viv'tent l' mieux .. Tout<lb/>d' même quand j' pinse que pour rintrer dins<lb/>eun' partie d' ses doupes, i' faut tromper des gins,<lb/>cha m' fait de l' peine, j'n'ai point été él'vée comme</p>
+      </div>
+      <div type="article">
+        <head><lb/>SI J'ETOS MÉDISANT....</head>
+        <p><lb/>Si j'étos médisant, j' vous racont'ros qu'eun' bielle<lb/>grosse fille d'Esquermes a r'chu d' sin bon ami eun'<lb/>bague extraordinaire, tell'mint bielle qu'elle li a fait<lb/>desr proches d'avoir dépinsé tout's ses économies pou<lb/>li faire un si biau cadeau, et que l' lind'main, ell'<lb/>a appris qu'il l'avot trouvée dins un cornet, eune</p>
+        <p><lb/>Mais j'dis cha et je n' dis rien, je n' sus point</p>
+        <figure type="decoration"/>
+        <p><lb/>Si j'étos médisant, j' vous racont'ros qu' gramint<lb/>d'artistes et d' mimbres du jury d'un concours, ont<lb/>été contints d'avoir des voitures pour r'tourner à leu"<lb/>mason, car i's avottent rimplaché les lanternes pa'<lb/>l'gaz et que l' lind'main i’s s' trouvott'nt incore<lb/>Mluminés. Mais j'aime mieux ne rien dire pou' n<lb/></p>
+        <lg>
+          <l><lb/>(Tout l' mond' n'a point l' bon</l>
+          <l><lb/>Comm' jeiquminché faut que ldan</l>
+          <l><lb/>Dins l' bedoull' je n'veux point m'dan,</l>
+          <l><lb/>D'vrot nous rinde s Bass -Dec</l>
+          <l><lb/>D'vrot nous rinde s'Bass-Deur pus</l>
+        </lg>
+        <lg>
+          <l><lb/>De m' nature je n' suis point invieux</l>
+          <l><lb/>Su' ch'ti qui possède eun' gross' bourse,</l>
+          <l><lb/>Comme j' queminche à dev nir vieux</l>
+          <l><lb/>Et que j' n'ai point l' moindre ressource,</l>
+          <l><lb/>Aussi vrai que l'Bon Dieu m'éclaire,</l>
+          <l><lb/>M' noyer j'préfèr chint fos mieux cha</l>
+          <l><lb/>Mais j'attinds que l' Bass'-Deul' sot claire.</l>
+        </lg>
+        <lg>
+          <l><lb/>A ch' t heur cha qu'minche à m'inquièter</l>
+          <l><lb/>l' faut pourtant qu'un jour j'y pass</l>
+          <l><lb/>Mais jusqu'au bout j' veux m’intiéter.</l>
+          <l><lb/>Quoi qu' d'attinde, à la fin, cha m' lasse.</l>
+          <l><lb/>Bien intindu, chacun s'n affaire,</l>
+          <l><lb/>J'ai d'jà fait bien des pétitions,</l>
+          <l><lb/>Pourtant, l' Bas-Deûl n'est point pus claire</l>
+        </lg>
+        <lg>
+          <l><lb/>Laichons l'cas qui m' touc</l>
+          <l><lb/>A part cha, je l' déclar bieni</l>
+          <l><lb/>Il est urgent qu'on nous l's évite.</l>
+          <l><lb/>Des victimis porrottent nous faire</l>
+          <l><lb/>Mais j' cros qu'tout commi l'offair</l>
+          <l><lb/>ais clair</l>
+        </lg>
+        <lg>
+          <l><lb/>J finis donc pa' m'désespérer,</l>
+          <l><lb/>J' dos vous l'avouer in conscieinche</l>
+          <l><lb/>M'n' idée n' porra point prospérer</l>
+          <l><lb/>Je m' sins tout au bout de l' paticinche</l>
+          <l><lb/>Morir. pour tertous ch'est un sort,</l>
+          <l><lb/>Min goût j'n'arai pu l' satisfaire</l>
+          <l><lb/>Sijatinds que l' Bass-Deul sot</l>
+        </lg>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LE ZarDINIER</head>
+        <p><lb/>Un zour que z' l'avais plus d' l'ouvrace dins mon<lb/>bel pays de Bruxelles, ze suis venu faire une petite<lb/>tour à Lille ousque z'ai beaucoup de-z-amis; en<lb/>arrivant, ze m' dis : Quoi c' que z' f'rai bien pour<lb/>gagner mon vie ?Comme z'avais été él vé au villace<lb/>des camps ousqu'on fait pousser des patates, ze me<lb/>dis in frappant sur min front de m' téte : Ze vas me</p>
+        <p><lb/>Aussitôt, z'écrivais une annonce que ze portai<lb/>dans 72 zournaux et le lendemain z'avais 72 réponses,</p>
+        <p><lb/>Z'avais donc fait les 72 masons et, final'mint, ze<lb/>m'enbauçai dans l' plus grande, ousqu'il y avait une<lb/>magnifique zardin avec 72 arbres que c'était 72</p>
+        <p><lb/>Un zour, que z'étais en train de planter des çoux,<lb/>mon mattre il me tape tout donc ment sur l'épaule et<lb/>me dit : Pitche, ze voudrais mettre des poires à<lb/>l'exposition, quand ce serait qu'une ; ze voudrais<lb/>exposer le plus grosse poire du monde.</p>
+        <p><lb/>Alors, tout grattant à mon tiête, z'ai d'mandé à</p>
+        <p rend="labelled"><lb/>— Bon ! qu'i' m' dit, z'attendrai 72 minutes et pas<lb/>davantace et si dans 12 minutes, t'as pas trouvé une<lb/>Snoyen, ze prendrai un autre zardinier.</p>
+        <p><lb/>Là d'sus, z' vas dans l' mitan de m' zardin et ze<lb/>prends mon tête dans mes mains et ze me mets à<lb/>réfléchir comment que z m'y prendrais.</p>
+        <p><lb/>Il me prenait peut-être pour Cascanbois.</p>
+        <p><lb/>Ze peux pourtant pas souffler dedans pour le faire<lb/>grossir, un poire c'est pas de caoutçoue élastique. Et<lb/>a réflécissais tou ours et l' temps il marçait touzours,<lb/>quand c' qu’a l' 72e minute une idée zigantesque vient<lb/>frapper l'esprit de m' cervelle ; z'avais trouvé.</p>
+        <p><lb/>Ze cours vite trouver mon mattre, qui m'attendait,<lb/>son montre à s' main et ze dis à lui comme ça:<lb/>Mynbeer, t'auras l' plus grosse poire de l'univers.</p>
+        <p><lb/>Aussitôt, ze me mettais à l'ouvrace, z' vas cercer<lb/>une écelle et ze la mettai sur le plus bel poirier qui<lb/>avait dézà 72 poires et ze commençais à couper tous<lb/>les feuilles, tous les brances et ze défaisais tous les<lb/>poires ; c’est-à-dire, z’en laissais une seul mint et</p>
+        <figure type="decoration"/>
+        <p><lb/>Si j'étos médisant, j' vous diros que l' chochon<lb/>Auguste a ramassé eun' pelle Dimanche à Aniche,<lb/>probabelmint aussi parc' qui veyot trop clair. Mais</p>
+        <figure type="decoration"/>
+        <p><lb/>J' vous diros aussi que l' musique d' Canteleu¬<lb/>Lambersart a bien fiêté l' 14 Juillet et réjoui grands<lb/>et p'tits, et que l' commisaire, un monsieur rintier,<lb/><lb/>a en du succès avé s' casquette qui l'a préservé<lb/>'un cop d'solei, d'une cuite et d' bien auter cosse.<lb/>Maisj' m'arrête, car vous porrites dire que j' sus un</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508614k</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1884-11-30">1884</date>
+          <idno type="ARK">bd6t54508614k</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508614k</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Numéro 123. (3me ANNÉE).</fw>
+        <fw type="runningTitle"><lb/>Un Numéro: 16 centimes</fw>
+        <dateline><lb/>DIMANCHE 30 NOVEMBRE 1884.</dateline>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/><lb/>payables d'avance<lb/>3mois. fr.1-50<lb/>6<lb/><lb/>VOISENOR<lb/>JOURNAL-PASQUILLE HEBDQMADAIRE DE TOURCOING</p>
+        <ab><milestone unit="column" n="3"/><lb/>«y ades béfises<lb/>qu'un homme d'esprit<lb/>achéterait."</ab>
+        <ab><lb/>Etranger, port en sus.</ab>
+        <p rend="styled"><lb/>Administration: FRERE-GLORIEUX, Imprimeur, rue de Lille, 18. — Rédsctio : Jules WATTEEUW, rue Desurmont 581</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Pimage de l'ame du maltre.</ab>
+        <p rend="styled"><lb/>Toute maison bien ordonnée est</p>
+        <p><lb/>Ya idne saquo qui'est pou gratint ain<lb/>nos jos et nos misères, vin nou vie toute<lb/>intire, j'diros beteu, piodant nou passache<lb/>sus la terre de c'monde. J'veux parler d'nou<lb/>majon et notez ben que ch'n'est po des<lb/><lb/>briques, du morti, des portes et des fer-<lb/>nètes que j'veux parler, mais d'l'intérieur,<lb/>de l'famille, quo.</p>
+        <p><lb/>Y tché que j'parle d'cha, au rapport<lb/>qu'in d'mes comarates d’école, qui a<lb/>tehitté Tourco y a d'jà du temps, étot<lb/>v'nu m'vir l'semaine passée et y m'rincon-<lb/>Aot qui avot prospéré, tout cha, qui avot<lb/>in bel établiss'mint. Et d’téfos in s’in dal-<lb/>lant à l'estation, du que j'l'ercondujos, y<lb/>m'a d'mandé pou passer par inne petite<lb/>rue détournée pou li j'ter in cop d’œil sus<lb/>s'majon d'naissance, s'visse majon comme<lb/>y dijot, et j'ai vu qu’cha li faijot in effet<lb/>in l'vevant, cha li a ram'né des souv'nirs<lb/>djais et trisses, vu qu’ch’est là qui a eu<lb/>l'malheur de perde ses bons parints... Et<lb/>jcomprinds bin chin qui a dû li passer<lb/>vin l'tête à in momint essin.</p>
+        <p><lb/>S'majon natiffe ! est-ce que cha n'vous<lb/>rappelle po les pus beaux jours de vou<lb/>no?</p>
+        <p><lb/>In rappelle sin jeune âge, ses plaijis<lb/>'afants, les vaganees, au mitan d'ses frè-<lb/>res et sœurs, et</p>
+        <lg>
+          <l><lb/>Du soir, fin fir de ses prouesses,</l>
+          <l><lb/>In rintro matt usés d'courir,</l>
+          <l><lb/>L'ma mère nous condujos dormir</l>
+          <l><lb/>Inveuc inno pair' de boinn' gross' baisses</l>
+          <l><lb/>Ah! qu’in étet heureux, adane</l>
+          <l><lb/>Du qui est ltemps!</l>
+        </lg>
+        <p><lb/>Et tchan qu'in jeuot au cat vin l'majon,<lb/>et au Noë, tchan que l’pétit Jésus apportot<lb/>inne cotchille à rogins sus s’n’orei ! à<lb/>des momints essin, tehan qu’in y busie,<lb/>in vot acor sin p'tit lit du qu'in faijot si<lb/>ben dodo</p>
+        <p><lb/>Et au St Nicolas! Et à Pâques, tchan<lb/>qu'in cactot après deeufs que l'maman<lb/>avot si ben muchis.</p>
+        <p><lb/>Et à les ros, tchan qu'in tirot les byets!<lb/>tcheu jo, tcheu plaiji!</p>
+        <p><lb/>Et à l'nouvelle année, tertus l'in après<lb/>l'aute, in rintrot vin l'tchampe d'ses bons<lb/>parints pou leu souhaiter inne boinne et<lb/>hureusse année : Du qui sont les lettes et<lb/>les complimints? du qu'ill' est cheulle<lb/>majon qu'ill' a été témon d'tout chès bons<lb/>momints?</p>
+        <p><lb/>Et vin tus lès passaches d'l'existence, in<lb/>est toudis heureux d’ervir s’majon. Wetti<lb/>l’soldat tchan qui ervint pou bon, qui a<lb/>fini sin congé, si y n’est po contint tchan<lb/>qui aperçot l’balot de s'majon, et tchan<lb/>qui met sin pid conte l'porte, comme sin<lb/>tchœur y fait doc doque.</p>
+        <p><lb/>Et sti qui a l'malheur d’ête blessé, ou<lb/>malade a l'hôpita, étant militaire; ch'est<lb/>koudis s’majon qui li passe vin s’tête, in a<lb/>bel à dire, in s'rappelle inne masse de<lb/>saquos, in vot s’majon qu’in connaichot<lb/>d'pus l'guerni qu’a l'cave, d'pus l’pelure<lb/>qu’au perlinpinpin, quo.</p>
+        <p><lb/>Pus tard, tchan qu’in est marié, est-ce<lb/>qu’in n’ervint po inveuc plaiji aussi à<lb/>l'majon papa et maman, in dirot qu'in a<lb/>tout gagni tchan qu’in est là, in dirot qu’iu<lb/><lb/>ertrouve inne saquo qu’in avot perdu.</p>
+        <p><lb/>Si in fait in voyache, qu'in désirot d'pus<lb/>lommint, in finit, in mingeant, pa dire :<lb/>in n’fait jomais si boinne chire qu'a<lb/>s'majon et au d'but d'inne paire de jours,<lb/>in dit, in ovrant s'bouque qu'a ses orelles:<lb/>y n'a rin d'tel que s' majon, tin.</p>
+        <p><lb/>D'abord in a vu des hommes célèbes,<lb/>des grands générals, d’passache vin leu<lb/>z'indrots aller saluer leu majon natiffe !y<lb/>est vrai d'dire aussi, qui avot alfos, la<lb/>a'vin, inne boinne vieille mère à imbra-<lb/>chi.</p>
+        <p><lb/>Et pus, veyi inne fos, sus les majons<lb/>du qu’les pus grands hommes ont v’nu'au<lb/>monde, in met i ne plaque comme pou<lb/>dire, ici est né le Grand Corneille, ichi a<lb/>v'nu au monde, in tel, tout cha. Et chès<lb/>majons la sont wettis comme des tchu-<lb/>riosités, pure vérité!</p>
+        <p><lb/>J'parle ichi, comme je l'pinsse, vous<lb/>savez mes gins, mais in sait ben, qui a<lb/>d'z’exceptions, in sait ben qui n'd'a qui<lb/>n’ont aucun d’ces bons sintimints, mais<lb/>j'pinsse qui n'd'a po gramint pasque les<lb/>souvenirs de eunesse, même chez l'indi¬<lb/>vidu qui a tourné magemint, y sont toudis<lb/>la vin l'esprit et in s'les rappellent tertus<lb/><lb/>volontis.</p>
+        <p><lb/>J'sais ben aussi, qu'tus les gins n'sont po<lb/>de m'n’avis, qui aim’tent mi aller s’amuser<lb/>dehors, qu'à leu majon, chacun sin gût,<lb/>Mais mi j’trouve que sti qui a in intérieur,<lb/>qui a l’bonheur de n’po s’trouver tout seu,<lb/>pasque ch'n'est foque adan qu’in l'appré-<lb/>cie, y n'est jomais pus heureux qu'a<lb/>s'majon.<lb/>Et si in fait inne petite réunion, est-ce</p>
+        <p><lb/>qu’in est jomais mi qu’tertus insonne<lb/>frères et sœurs, afants ou parints, veyons?<lb/>Tchan qu’in est d’boinne humeur in tchante<lb/>tertus chacun sin tour, in s'lanche la balle<lb/>l’in à l'aute, po d'détours à printe, po<lb/>d'paroles in s'crets, rin a muchi, ch'est tout<lb/>à tchœur overt, et in finit pa tchanter<lb/>tertus insonne :</p>
+        <p><lb/>Ou peut on z’être mieux, ou peut on<lb/>z'être mieux qu'au sein de sa famille.</p>
+        <p><lb/>Et ch'est ben la vérité.</p>
+        <ab><lb/>JULES WATTEEUW</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

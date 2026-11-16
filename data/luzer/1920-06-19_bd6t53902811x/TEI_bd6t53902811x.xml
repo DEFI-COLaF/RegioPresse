@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Luzer</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t53902811x</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Luzer</title>
+          <publisher>[s.n.] (Nîmes)</publisher>
+          <date when="1920-06-19">1920</date>
+          <idno type="ARK">bd6t53902811x</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t53902811x</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">français</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="article">
+        <div>
+          <pb facs="0001.xml"/>
+          <fw type="runningTitle"><lb/>PRIX : 30 CENTIMES</fw>
+          <fw type="runningTitle"><lb/>Fremière Année. — No 12.</fw>
+          <dateline><lb/>19 JUIN 1920.</dateline>
+          <ab><lb/><lb/><lb/>M.A. ELOY-VINCENT</ab>
+          <p rend="heading"><lb/>Sèn lis entan de Nime:<lb/>Loueviel Luzer nous gardo et crén pares.<lb/>A. Bigot<lb/>Rue Régale. Nimes<lb/>Administration et Rédaction</p>
+          <ab>
+            <stamp><lb/><lb/>qu more</stamp>
+          </ab>
+          <ab><lb/>are gallica.n.fr/ Bibliotèque urre a at/Nîmes</ab>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

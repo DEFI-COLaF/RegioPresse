@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81363010</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1899-11-27">1899</date>
+          <idno type="ARK">bpt6k81363010</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81363010</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>NOUVENCO ANNADO, NO</fw>
+        <fw type="runningTitle"><lb/>DILUN, 27 DE NOUVÉMBRE 1899.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,</ab>
+        <ab><milestone unit="column" n="3"/><lb/>(Prouvere di meuranis)</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17,27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab><lb/>SUREU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI</ab>
+        <figure type="table"/>
+        <ab><lb/>FOLCÒ DE BARONCELLI</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Envoueaean</head>
+        <lg>
+          <l><lb/>La Pouěsio, à grand cop d'alo,</l>
+          <l><lb/>Plus aut, toujour plus aut, escalo;</l>
+          <l><lb/>Vai jusquo à Diéu, vai mounte vòu;</l>
+          <l><lb/>La Pouësio, aiglo sublimo,</l>
+          <l><lb/>Quand trèvo sus li bèlli cimo,</l>
+          <l><lb/>Queto amo fièro noun trelimo</l>
+          <l><lb/>De l'acoumpagna dins soun vou?</l>
+        </lg>
+        <lg>
+          <l><lb/>Tout mor; mai elo, sèmpre vivo,</l>
+          <l><lb/>Estrassant la niue e li nivo,</l>
+          <l><lb/>Jouino coume un soulèu levant,</l>
+          <l><lb/>Coume un enfant dou cèu divino,</l>
+          <l><lb/>Trelusis, e tout s'ilumino,</l>
+          <l><lb/>E lon que dins la vau camino</l>
+          <l><lb/>Saludo en ié passant davans</l>
+        </lg>
+        <lg>
+          <l><lb/>Saluden la noblo divesso!</l>
+          <l><lb/>Es lou bonur! es la sagesso</l>
+          <l><lb/>D'èstre si prèire au tèms que sian;</l>
+          <l><lb/>Quand dins la pòusso tout debano,</l>
+          <l><lb/>Quand lou laid pico emé si bano</l>
+          <l><lb/>Pèr chanja lou tèmple en cabano</l>
+          <l><lb/>Ounte se viéuton li boumian,</l>
+        </lg>
+        <lg>
+          <l><lb/>Es bèu d'ista dre dins la foulo</l>
+          <l><lb/>Que se rebalo e que s'engoulo</l>
+          <l><lb/>Sai pas mounte; de garda siéu</l>
+          <l><lb/>Sa fe, soun cor, quand revouluno</l>
+          <l><lb/>L'aurige e que l'espèr degruno,</l>
+          <l><lb/>Quand se crèi plus au clar de luno,</l>
+          <l><lb/>Quand se crèi plus au tron de Dieu.</l>
+        </lg>
+        <lg>
+          <l><lb/>L'auro matiniero qu'arribo</l>
+          <l><lb/>Fai ferni la broundo di pibo</l>
+          <l><lb/>D'un trefoulèri misterious</l>
+          <l><lb/>E, dóu frountau i branco basso,</l>
+          <l><lb/>Un frejoulun rapide passo;</l>
+          <l><lb/>Semblo, dins li fueio foulasso,</l>
+          <l><lb/>Que s'ausis charra d'amourous.</l>
+        </lg>
+        <lg>
+          <l><lb/>Aquéu paraulis, pèr l'entèndre,</l>
+          <l><lb/>Fau un esprit masele, un cor tèndre</l>
+          <l><lb/>Ebri dou bèu, ébri d'amour;</l>
+          <l><lb/>Mai quau trato de bachiquello</l>
+          <l><lb/>Nosti celèsti farfantello,</l>
+          <l><lb/>Per eu lou ceu n'a plus d'estello</l>
+          <l><lb/>E la terro n'a plus de flour.</l>
+        </lg>
+        <lg>
+          <l><lb/>Dins l'azur, dins la clarta fado,</l>
+          <l><lb/>Vers l'ideau. d'uno boufado</l>
+          <l><lb/>Envoulen-nous ! la niue vèn leu:</l>
+          <l><lb/>Enterin que l'oumbro davalo,</l>
+          <l><lb/>Fai jour sus la cimo pourpalo ;</l>
+          <l><lb/>L'aucèu emporto sus soun alo</l>
+          <l><lb/>Li darrié trelus dou soulèu.</l>
+        </lg>
+        <p rend="labelled"><lb/>(fira dou Ré-Soulu, Mariho, braris Plammarion.)<lb/>Diéu ; piei sus lou tantost, en un relarg, la jouvenço s'a<lb/>largavo : P'avié li tres saut, lucho e autri jo ; lis endré<lb/>proche d'un courrènt d'aigo l'apoundien lou penoun o la<lb/>courso di canard ; aro nosti sorgo, pudissènto d'escour-<lb/>riho, en majo-part cuberto, permeton plus de taus amu-<lb/>samen, lou Rose soulet pèr acò a l'ur d'acampa la foulo<lb/>sus si ribo quouro li grand campano soun à brand.</p>
+      </div>
+      <div type="article">
+        <p><lb/>Coume festo de remarco, après aquéli di pourtau, ci-<lb/>taren la Calado, la Pignoto, li Carme, la plaço Pio, l'an-<lb/>cian pourtau Maianen festant Nosto Damo d'avoust), la<lb/>Triparié e la Piramido (celebrant Nosto-Damo de setèm-<lb/>bre), lou-Paradis e la carriero dóu Crucifis (festejant la<lb/>Crous, lou 3 de Mait, pièl lou Cors-Sant qu'ounouravo<lb/>sant Pèire de Lissembourg em' un fiò de joio que la<lb/>parròqui Sant-Deidié anavo benesi proucessiounalamen.</p>
+        <p><lb/>Ah ! mis ami de Diéu, s'avias vist acò davans que la<lb/>sacro poulitico divisèsse li gent coume fai aro ; aqui,<lb/>vue jour à l'avanço, vesin e vesino, lou rire en bouco, li<lb/>mancho estroupado, trenavon de garlando e guerin¬<lb/>doun flouri; la vèio s'anounciavo toujour pèr de sere¬<lb/>nado, farandoulo e flò de joio, piei lou bèu jour, messo<lb/>ausido balle e beilesso enribana, escourta dis abat bras<lb/>dessus, bras dessouto, anavon de porto en porto, pour¬<lb/>gént sus plat d'estam l'image dóu sant patroun o de la<lb/>santo patrouno emé lou pan signa, enterin qu'uno au-<lb/>bado vous musiquejavo un er galoi e prouvençau. Piei li<lb/>bal d'alor n'estènt pas envahi coume aro per li panturlo<lb/>d'un pau pertout, li gént coume se dèu ié menavon si<lb/>famiho, e lou bon rire ero de la voto.<lb/></p>
+        <p><lb/>Dins lou courrent de l'an venien piêt li fèsto oubriero<lb/>coume sant Jóusè, santo Ano, etc., mounte lou coumpa¬<lb/>gnounage dins soun pountificat se metié sus soun trento-<lb/>un ; enribana e la longo cano à la man, fustié, manes-<lb/>cau o menusié, pourtavon en candèlo lou cap-d'obro<lb/>d'un mestieran, au son di fifre segui pèr la Maire e'lou<lb/>baile en carrosso à dous chivau, qu'après la ceremounié<lb/>religiouso defilavon pèr la vilo avans de s'entaula.</p>
+        <p><lb/>Li soucieta de secours talo que l'Embut, lis Oubrie<lb/>reûni o Sant Francés-Savié, avien, éli tambèn, sis acam-<lb/>pado freirenalo mounte Roumaniho, Agustin Boudin e<lb/>Cassan deplegavon lou gros libre de si cascareleto e gale-<lb/>jado toujour seguido di cacalas de rire espetacious ; piel la<lb/>pountannado de Calèndo rampelavo lou meme envanc de<lb/>joio à l'entour di fougasso e vin muscat, au refrin di</p>
+        <p><lb/>Li representacioun de la Pastouralo sus li tiatre de<lb/>soucieta fan encaro flòri de nòsti jour e nous laisson l'es-<lb/>pèr que tout s'es pas esvali encaro de la vièio galeta dóu</p>
+        <p><lb/>Venien piei li Carnava, foço mai brusissènt qu'a l'ouro<lb/>d'aro, emé si bal de courpouracioun e cavaucado en vilo;<lb/>lou celèbre Martèu, empremèire, s'èro fa grand renoum<lb/>dins ll galejado e discours, mounte avié soun fin mot per<lb/>cadun e grana coume de sau, au mitan d'uno pluelo d'a-<lb/>range, flour e dragéio (li counfèti d'aquéu tèms) ; pèr<lb/>malur de mau embouca, de groussieras apoundeguèron<lb/>après éu l'escandale e la pourcarié ! la pouliço qu'entre-<lb/>pachavo li chareverin di noço per de resoun pariero,<lb/>n'en faguè ni uno ni dos, e lou 1' de febrié 1851 pareigué<lb/>l'arrestat municipau contro messiés li pas-geina</p>
+        <p><lb/>Acò's esta pèr elci la tristo fin di Carnava e di Cara<lb/>mentran que nosti rêire fasien coume en ltall, mounte<lb/>fai encaro l'empèri.</p>
+        <p><lb/>De mai, nosti grand tiatre, véuse de bons artisto, an<lb/>pèr councurrènt ll Casino-bataclan; aqui, pecaire, l'art<lb/>musicau e l'art literàri lé soun en pleno descasençoe<lb/>n'en sian à nous demanda se tout aro, pèr un pau rire<lb/>em' esperit, vaudrié pas miés se regarda lis un lis autre<lb/>pèr saupre quau a la plus grosso tèsto.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>aqueu jour trelustssté coume un pausadou de festo de</ab>
+        <ab type="head"><lb/>moun viėi avignoun</ab>
+        <ab type="head"><lb/>LI FESTO DE QUARTIE</ab>
+        <p rend="labelled"><lb/>ANEM ET CIRCENSES!.. Acò 's esta e sara sèmpre<lb/>la deviso agradivo desempiè lis ancian Rouman;<lb/> tamben lis Avignounen d'à tèms passa coume<lb/>aquéll d'au jour d'uei, eron encaro un briset</p>
+        <p><lb/>Per óublida 'n moumenet lis auvàri dóu têms l'es un<lb/>de-bon de s'esgaieja d'aro-en-la, emai l'obro siegue plus<lb/>assujetissènto qu'áutri-fes, emai se bagne lou safre e se<lb/>trime foço mai que lou fasien nosti rèire à gagna la vi¬<lb/>dasso, buta que sian per la modo americano adraiant li<lb/>pople à n'en veni à tiro-péu pèr un pessu d'or.</p>
+        <p><lb/>E plèl li fèsto de nòsti jour n'an plus — se n'en manco<lb/> la coulour loucalo, l'ouriginaleta que caraterisavo<lb/>aquéli d'avans: es de longo uno retrèto i flambèu, se-<lb/>guido d'un bal mounte lou plus abile a l'er de chaucha<lb/>li rasin dins li tino. Avén eici leissa farandoulo e tam-<lb/>bourin, li lucho an passa de modo, franc de la lucho pèr<lb/>la vido; i justo sus tou Rose vesès plus á la tintéino<lb/>aquélis ome espetacious de l'anciano batelarié; li conse<lb/>dóu pals emé l'abit brouda, segui de la musico, presidon<lb/>plus li courso d'ome sus lou prat, mounte lou varlet de<lb/>vilo tenié lou galardet di joio garni de cherpo, plat d'es-<lb/><lb/>tam, etc.. Tout acò béu s'es abouli emai li bouto de vin<lb/>blanc o rouge rajant sus li plaço à l'entour di deviso<lb/>counvidant lou bevèire; pòr bonur nòsti grangié dóu<lb/>claus de Coupo-d'Or, festejant sant Fiacre, nous an coun-<lb/>serva il councours de charrulage e la courso de la car-<lb/>reto em' un atrencamen bèn miejournau.</p>
+        <p><lb/>Avignoun, vilo papalo, es souto lou patrounage de sant<lb/>Agricò, un de si grands evesque ; à naquelo festo reli¬<lb/>giouso e poupulàri, li conse dóu pais, en sesiho soulenno<lb/>dóu 10 desèmbre 1640, apoundeguèron de rejouissènço<lb/>publico mounte l'estrambord miejournau e la tradicioun<lb/>boutèron sa noto brusissènto. En souvenènço di cigogno<lb/>dóu sant pastour qu'en soun tèms despouplèron di ser-<lb/>patas nòsti terraire gabin), la vilo embandissié 'no ribam-<lb/>bello d'aquél becaru; acò cessè en 1738 per causo di<lb/>degai d'un tau bestiàri dins li champ ; pamens, en liò e<lb/>placo, davans la glèiso, li gàbi de canard e auco n'en<lb/>courounèron long-tèms la bigo pèr quau voulié l'escala.</p>
+        <p><lb/>En noste jouine téms avèn encaro festa sant Agricò<lb/>emé ceremòni lou 2 de setèmbre ; aprés la proucessioun<lb/>mounte figuravon li municipau segui de la musico, s'a¬<lb/>navo segound l'osage, long dis alèio de la porto de<lb/>l'Oulo, dansa e vèire tira lou flo d'artifice. Aquéu caire<lb/>verdejant de nosti bord dóu Rose fai gau de véire tout<lb/>alumina, emé si barraco de ref́rescamen, lipetarié, jo de</p>
+        <p><lb/>Li festo naciounalo, f'a ben lèu cinquanto an, ram¬<lb/>placèron tout acò em' un nouvèu prougramo ouficiau,<lb/>prougramo qu'es lou frai becsoun de l'abit negre mou¬<lb/>derne, esgaieja soulamen emé la lumiero eleitrico, li cop<lb/>de campano o la petadisso di bouito.</p>
+        <p><lb/>Faudrié trop mascara de pajo pèr faire eici lou raconte<lb/>di recepcioun princiero o reialo dins l'Avignoun papau ;<lb/>lis en cartamen d'âtèms passa nous esbrihaudon rèn<lb/>qu'à la leituro dou recit d'aquéli festo mounte la decou-<lb/>racioun artistico, l'art musicau e lou bon goust coumta-<lb/>din luchavon en quau farié lou mai de fla-fla dins la noto<lb/>dóu beu, dou grand e de l'ideau.</p>
+        <p><lb/>Quasimen tóuti li pourtau de la vilo e bono part di<lb/>plaço e planet festejavon soun sant, dount la nicho</p>
+      </div>
+    </body>
+  </text>
+</TEI>

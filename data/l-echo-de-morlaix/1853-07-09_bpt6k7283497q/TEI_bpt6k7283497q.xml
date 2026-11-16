@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Écho de Morlaix</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7283497q</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Écho de Morlaix : feuille d'annonces : journal politique</title>
+          <publisher>V. Guilmer (Morlaix)</publisher>
+          <date when="1853-07-09">1853</date>
+          <idno type="ARK">bpt6k7283497q</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7283497q</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="bre">breton</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0004.xml"/>
+          <ab><milestone unit="column" n="2"/><lb/>LECHO DE MORLAIX<lb/>Alexis Miossue, cultivateur, demeurant au fieu<lb/>de Cree’hi ar Glas, commune de Mespant; Jean<lb/>L.a Durv, cultivateur, demeurant à Kernec’h,<lb/>commune de Plouescat, comme tuteur de René,<lb/>Vincent, Paul et Marie-Louise La Durv, enfants<lb/>minetrs issus de son mariage avec Marie-Yvonne<lb/>PaisEa ; Yves TaOADEC, cultivateur, demeurant<lb/>a Kerbernès, commune de Trézilidé, comme<lb/>1° tuteur légal de ses deux enfants mineurs Paul<lb/>et Marguerite Tnoantc, issus de son mariage avec<lb/>Renée Amisor; 2° tuteur datif de Françoise<lb/>Anissor, mineure, actuellement au couvent de<lb/>Soipt-Pol-de-Léon, tous défendeurs, ayant pour,<lb/>Avoué maltre Yozime BIENVENUE, dont l'Etude<lb/>est située grande place, numéro 4, à Morlaix.</ab>
+          <figure type="decoration"/>
+        </div>
+        <div type="article">
+          <p rend="styled"><lb/>DESCRIPTION DE LA PROPRIETE.</p>
+          <p><lb/>En la commune de Plouescat, un Lieu appelé<lb/>wOmESAN, section E du plan codastral,<lb/>comporé de:</p>
+          <p><lb/>° Une maison manale couverte en gled ; 2°<lb/>autre logement appelé la Chamb̀re, à l'est du<lb/>précédent ; 3e joignant ladite chambre, une étable<lb/>sous couverture en gied; 4° l'aire a hattre au<lb/>midi de la manale, le tout contenant sous sol<lb/>cinq ares quarante centiares ; 5e un courtil dit<lb/>Liors Forban, contenant dix-huit ares, au midi<lb/>des édifices ; 6o Pare tosta, terre labourable,<lb/>contenant quarante-neuf ares quatre-vingts cen-<lb/>tiares; 7o au nord de Pare tosta, Tachen Mé-<lb/>chou Linadec, contenant neuf ares soixante-dix<lb/>centiares terre labourable; 8e jolgnant Pare tosta<lb/>au midi, autre champ dit Parc creis, terre la-<lb/>bourable, contenant trente-six ares; 9e à l’ouest<lb/>de Parc creis et au midi de Pare tosta, Parc<lb/>pella ou Parc d'Annieac'h, contenant trente-deux<lb/>ares quarante centiares; 100 a Méchou Mesdit,<lb/>une parcelle de terre labourable dite Tachen ar<lb/>Broc'h, contenant treize ares quatre-vingt-dix<lb/>centiares.</p>
+          <p><lb/>La Mise à Prix de cet immeuble a été fixée,<lb/>par jugement du Tribunal du 14 Juin dernier,<lb/>à quatre mille francs, ci.<lb/>4,000 fr.</p>
+          <p><lb/>Fait et rédigé par les soins de l'Avoué sous-<lb/>signé, à Morlaix, le 6 Juillet 1853.</p>
+          <ab><lb/>DUBOIS,</ab>
+          <ab><lb/>Aroué.</ab>
+          <p><lb/>Enregistré à Morlaix, le s Juillet mil huit<lb/>cent cinquante-trois, Fo 121, Case 7. Recu<lb/>1 fr., décime 10 centimes.</p>
+          <ab><lb/>HENAT.</ab>
+          <figure type="decoration"/>
+        </div>
+      </div>
+      <div type="article">
+        <head><lb/>PURGE</head>
+        <head><lb/>===</head>
+        <head><lb/>LÉGALES.</head>
+        <p><lb/>L'an mil huit cent einquante-trois, le cinq<lb/>Juillet, à la requête de monsieur Auguste-Marie<lb/><lb/>DE LA MONNERAYE, propriétaire sans profession,<lb/>domicilié à Keruscar, commune de Lannéanou,<lb/>je soussigné Bizien LE CARS, Huissier-Audien-<lb/>cier près le Tribunal civil de Morlaix, y demeu-<lb/>rant, rue Courte, numéro 1, al signifié et<lb/>donné copie : 1° au sieur Jean CoLCANAP, cul-<lb/>tivateur, demeurant à Kerleva, commune de<lb/>Plougonven, subrogé-tuteur de Guy-Marie SALAUN,<lb/>enfant mineur de Joseph SALAUN et de feue Marie-<lb/><lb/>Jeanne CoLCANAP ; 2° à monsieur le Procureur<lb/>Impérial près le Tribunal civil de Moriaix, de<lb/>l'acte du dépôt fait par mon requérant au Greffe<lb/>dudit Tribunal, de la copie collationnée d'un acte<lb/>passé devant Bourven, Notaire, à Plougonven,<lb/>le dix-sept avril mil huit cent cinquante-trois,<lb/><lb/>enregistré au Guerlesquin le lendemain, portant<lb/>vente par Joseph SALAUN, veuf de Marie-Jeanne<lb/>COLCANAP, audit sieur DELA MOSSERAYE, pour un<lb/>prix de trois mille francs, d’une portion distincte<lb/>d'immeubles, fonds et droits, nommés Douarou<lb/>Bourren ou Parcou Mauricet, situés au terroir<lb/>du Quiliou, en la commune de Plougonven, ledit<lb/>dépôt fait pour parvenir, de la part de monsieur<lb/>DE LA MoNNERAYE, à purger les hypothèques lé-<lb/>gales dont lesdits immeubles peuvent être grevés ;</p>
+        <p><lb/>Déclarant à monsieur le Procureur Impérial<lb/>que ceux du chef desquels il pourrait être formé<lb/>des inscriptions pour raison d'hypothèques légales<lb/>n'étant pas tous connus, il fera publier la pré-<lb/>sente notification dans les journaux de la loca¬<lb/>lité ; et j'ai, audit sieur Jean COLCANAP, subrogé-</p>
+        <ab>
+          <stamp><lb/>Certifie par t'imprimeur soussigné,</stamp>
+        </ab>
+      </div>
+      <div type="article">
+        <head><lb/>IMPORTATiON ANGLAISE.</head>
+        <p><lb/>Vésieateire-James, pour chevaux, sans in¬<lb/>terrompre le travail ni laisser de traces. 20 ans de succès<lb/>en Angieterre, notamment pour les maux d'yeux, an-<lb/>gines, tumeurs, engorgements, boitements, etc. Certi-<lb/>ficats officiels de son merite; voir le prospectus envoyé<lb/>sur demande franco. R. Trappes, 416, rue St. Honoré,<lb/>a Paris. (Affr.)<lb/>(331-2)<lb/>(2-</p>
+        <figure/>
+      </div>
+      <div type="article">
+        <ab><lb/>CONSERVATION ET AMÉLIORATION DE A VUE.<lb/>LE CARS<lb/>Huissier-Andiencier.<lb/>Vu et recu copic.<lb/>tateur, en pariant à lui-même, et a mondit<lb/>dleur Procureur lmpérial, en pariant à lui-même<lb/><lb/>laisse copie tant du présent que de l'acte de depot<lb/>sus-réfère, et à monsieur le Procureur Impérial,<lb/>qui a visé le présent originai, dont le coût est<lb/>de neuf francs vingt centimes, tous autres droits<lb/>réserves.</ab>
+        <ab><lb/>Mortair, le 5 Juillet 1853.</ab>
+        <p rend="dateline"><lb/>Le Procureur impériai,<lb/>A.CAEL.</p>
+        <p><lb/>Bnregistrè a Marlair, le a Juillet mil huit<lb/>cent cinquante-trois. po 31, Vo Case 8. Requ<lb/>a fr., 20 decimes compris.</p>
+        <ab><lb/>HENAY.</ab>
+        <figure type="decoration"/>
+        <figure/>
+        <ab type="head"><lb/>VERRES SPHÉRIOUES.</ab>
+        <p><lb/>Nous avons entretenu nos lecteurs de la précieuse invention des Verres Sphériques à double foyer, pour voir<lb/>de près et de loin dans les mêmes verres, sans aucun mouvement de lunettes, de M. Pédrallo, ingénieur-opti-<lb/>cien spécial pour la vue, à Nantes, rue de la Fosse, No 12.</p>
+        <p><lb/>M. Pédralio restera encore quelques jours à Morlaix. Les personnes dont l'âge, les maiadies ou l'assiduité du<lb/>travail ont affaibli la vue, peuvent s'adresser à lui en toute confiance. Avec l'usage de ces précieux verres con¬<lb/>servateurs, on obtient les résultats les plus satisfaisants. Des personnes dignes de foi ont dit à M. Pédralio que<lb/>des marchands de lunettes avalent des verres de sa fabrique ou de semblables. Afin d'éviter ces mancruvres<lb/><lb/>frauduleuses, M. Pédrallo prévient qu'll n'a personne à son service, et que tous ces verres portent son nom en<lb/>toutes lettres. Il les vend à l'essai et à garantie pendant un an.</p>
+        <p><lb/>M. Pédrallo prévient sa nombreuse cllentelle qu'il ne vient qu'une seule fois par an à Morlaix: toujours dans<lb/>le mois de juillet.<lb/>— Il est déballe Fêtel des Voyageurs, rue de Brest. —</p>
+      </div>
+      <div type="article">
+        <ab><lb/>600,000<lb/>LoTerie de bienfAISAnce<lb/>FRANCS.<lb/>Au Profit des Caisses de Secours des Associations des Lettres et des Arts,<lb/>Sous la surveillance de l'autorité municipale de Paris,<lb/>La seule qui donne, avec chaque billet, une belle Prime en Estampe ou Musique<lb/>valant souvent autant que les prix du billet.<lb/>Billets simples de 1 franc. — Billets de série de 5 francs.<lb/>Et 1,018 Lots en Tabteaux, Bijoux, Meubtes, Objets d'Art et de Toilette, ayant<lb/>coûté de.<lb/>On délivre des billets, à Morlaix, chez Vr GUIL.MER, Imprimeur-Libraire, rue d'Aiguillon.</ab>
+        <ab type="head"><lb/>Un billet de série de 5 fr. peut gagner six fois dans les lots suivants:</ab>
+        <p><lb/>Un magnifique service d'argenterie d'Odiot, composé de soixante à quatre-vingts pièces, pesant<lb/>50,000 francs d'argent à fondre, objet d'art ayant coûté.<lb/>70,000 fr.</p>
+        <ab><lb/>10 fr. à 10,000 fr.</ab>
+        <p><lb/><lb/>Le TIRAGE de cette Leterie est tés PROCHAIN. Le sort<lb/>montrera sans doute racore une ſol<lb/><lb/>lot de 70,000 fr. a été gagné par un vicaire de la petite ville de Lisle, prés d'Avignon. En 1851, ce men<lb/>dot de 70,050 fr. est échu<lb/>un garţon de ferme des environs de Chartres. En échange du sertice d'argenterie, une somme de 50,000 fr. a été donnée en argent<lb/>cette somme a fait d'un modeste vicaire et d'un manouvrier, deux hommes heureux : l'un donne aux pauvres le produit de sa rente ;<lb/>l'autre, devenu propriétaire et fermier, a pu eréer une fortune pour ses enfants. Cette loterie a donc eu un résultai doublemeet moral.</p>
+        <p><lb/>cstaties des sirt et trois lots d'une voleur matérielle consídérable- <lb/>à l'ornementation des églises, et trois lots d'une volcur maiérielle considérable. Nous avour out ned de erene u atr <lb/>culation bienfaisante, si intelligemment protègée par le gouvernement.</p>
+        <p rend="styled"><lb/>M. BOLLE-LASALLE, Agent général de la Loterie, à Paris, Boulevard Poissonnière, 14 ter.</p>
+        <ab><lb/>Le Gérant, Vr GUIL.MER, Imp. -Lib., rue d'Aiguillen.<fw type="digitisation-artefact"><lb/><lb/><lb/>p<lb/>erie<lb/>dan<lb/>on<lb/><lb/><lb/>el<lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/>x<lb/>20<lb/></fw></ab>
+        <figure/>
+        <note type="handwritten"><lb/>En Mairie d̀ Morlaix, le Jaaialel 1853.<lb/>Vu pour légalisation de la signature ci-contre.<lb/>P. Le Maire</note>
+        <ab><milestone unit="column" n="3"/><lb/>tan<fw type="digitisation-artefact"><lb/>buce gallica../Bibliotèque nionle de France</fw></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

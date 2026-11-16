@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Nouvielle Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t545174670</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Nouvielle Vaclette : journal patoisant humoristique, non politique / avec la collaboration du Caveau lillois</title>
+          <publisher>[s. n.] (Lille)</publisher>
+          <date when="1932-10-15">1932</date>
+          <idno type="ARK">bd6t545174670</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t545174670</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Samedi 15 Octobre 1934.</fw>
+        <fw type="runningTitle"><lb/>9° ANNÉE. — No 398</fw>
+        <fw type="runningTitle"><lb/>L'abonnement se pate d'Avancé</fw>
+        <ab><milestone unit="column" n="2"/><lb/>0.28 LE NOMENe</ab>
+        <ab><lb/>REDACTION<lb/>8, Place des Reignaux</ab>
+        <figure/>
+        <ab><milestone unit="column" n="1"/><lb/>journal patoisan<lb/>NON POLITIQ̧UE<lb/>ANEC LA COLLABORAtiON DU<lb/>R. du C. Lille 48.610<lb/>Gérant: MAREELS Isiders<lb/>Chéques Postaux 37.182</ab>
+        <ab><milestone unit="column" n="3"/><lb/>АOEE</ab>
+        <p rend="styled"><lb/>Siège: 1, Rue de la Monnaie</p>
+        <ab><lb/>Francs w an, 18.80</ab>
+        <p rend="heading"><lb/>Amateurs de Canchons Patoises</p>
+        <p rend="heading"><lb/>rous trouvrez dins ch' liméro:</p>
+        <ab><lb/>MIN GARDIN<lb/>Pasquille de Ch. DELACROIX<lb/>mISE AU POINT<lb/>Pasquille de I. MAREELS<lb/>LES SAISONS D' L'EXISTENCE<lb/>Air : L'Habit &amp;' min vieux Grand-Père<lb/>Chanson de C. FREGOLY</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Au jour le jour.</head>
+        <head><lb/>un QuaRtier nouVIaU Riche</head>
+        <p><lb/>pouveau quartier Sair</p>
+        <p rend="styled"><lb/>Air : Oh! ma Rose Marie</p>
+        <lg>
+          <l><lb/>Cha d'vient merveilleux</l>
+          <l><lb/>On s' régal' les yeux</l>
+          <l><lb/>D'vant les cang'mints qu'i's s' font à Lille,</l>
+          <l><lb/>Car vraimint no' ville,</l>
+          <l><lb/>Un peu à l' fos</l>
+          <l><lb/>Fait honneur à tous les Lillos,</l>
+          <l><lb/>On met d' l'hygiène à flots tout partout,</l>
+          <l><lb/>Et tout est fait avé l' meilleur goût.</l>
+        </lg>
+        <ab type="head"><lb/>Refrain</ab>
+        <lg>
+          <l><lb/>No' ville elle s'imbiellie.</l>
+          <l><lb/>Avé l« Nouviell Mairie</l>
+          <l><lb/>Bientôt à Saint-Sauveur.</l>
+          <l><lb/>L' « Foire Commerciale »</l>
+          <l><lb/>Saura melle à l'honneur</l>
+          <l><lb/>Litle Capitale :</l>
+        </lg>
+        <lg>
+          <l><lb/>Ch' quartier d'vient nouviau riche,</l>
+          <l><lb/>On li met eun' pus biell' quémiche</l>
+          <l><lb/>Si on in fait un décor de féerie</l>
+          <l><lb/>Ch'est bien qu' no' ville s'imbiellie.</l>
+        </lg>
+        <lg>
+          <l><lb/>A l' plach' des remparts</l>
+          <l><lb/>On fait des boul'vards,</l>
+          <l><lb/>Et d' nos courett's et des p'tit's rues,</l>
+          <l><lb/>On fait des av'nues</l>
+          <l><lb/>Uch' qu'l fait clair,</l>
+          <l><lb/>Qu'on y respira du bon air.</l>
+          <l><lb/>ChnLa qu' les Lillas diront comm mi hi</l>
+        </lg>
+        <ab><lb/>C. FREGOLY</ab>
+        <figure type="decoration"/>
+        <ab><lb/>COIFFENT BIEN<lb/>210, Rue Léon-Gambetta, LILLE<lb/>Méme Maison: 45, Rue de Béthune, Lille<lb/>Dépositaire de la Casquette Rugby</ab>
+        <p rend="heading"><lb/>Les 3 François</p>
+      </div>
+      <div type="article">
+        <ab><lb/>.</ab>
+        <ab type="head"><lb/>L' garchon Batisse Balouf</ab>
+        <p><lb/>L'gross' Médorine Cotinion, qu'ell' uèfe à la<lb/>Régie au toubac, fréquentot d’puis eun' paire<lb/>de mos, l' garchon Batisse Balouf, qui est mar-<lb/>chand d' moutarde à Rougé-Barres, et comme<lb/>ch’étot un bon parti pou' Médorine, qu’un gar-<lb/>chon comme cha, cheull' futée faijot simblant<lb/>de rien, ell' pernot l'air de n' point vir que s’n<lb/>homme à v'nir étot un p'tit peu martiau, ma-<lb/>boul, quoi.</p>
+        <p rend="labelled"><lb/>— Bast !T'as raison, ma fille, qu'elle li ré-<lb/>pétot toudis s' mère, ses doupes rimplach'ront<lb/>s'n esprit, cha s'ra surtout eun' compinsation si<lb/>sin père i' li met su' s' tiête sin fond d' moutar-<lb/>de.</p>
+        <p><lb/>Dins l' seul but d' mette les quiens au bos,<lb/>comm' on dit ichi à Lille, dimanche passé,<lb/>mère Médorine invitot sin biau garchon ainsi<lb/>qu' ses parints à v’nir mainger un morciau,<lb/>boire un verre tranquill'mint et faire un p'tit<lb/>bout d' causette à s' mason.</p>
+        <p><lb/>A l’heure conv'nue, l' famille Balouf arrivot,<lb/>et ch'est d'vant un bon café au chuque blanc<lb/>que l' séance elle s’ouvrot.<lb/>Pour la circonstance l' futée Médorine avot</p>
+        <p><lb/>mis s' biell' robe griss' perle à p'tits plis et sin<lb/>tablier à dintelle; dins ses ch'veux des rubans<lb/>bleus, et, à ses orelles, eun' paire de cloches d'<lb/>diamant chuque candi qui brillottent comme<lb/>des lum'rottes; infin, d' quoi faire tourner l'<lb/>tiête au garchon du moutardier Balouf.</p>
+        <p><lb/>Ch’est du reste chin qui li arrivot.</p>
+        <p><lb/>Pindant qu' les deux amoureux se r'vettiott'nt<lb/>comm' deux quiens d' faïence, les parints<lb/>parlott'nt du mariache et maman Médorine<lb/>profitot de ch' momint pou' l's inviter à souper<lb/>à l' fortune du pot.</p>
+        <p><lb/>Ch' n'est d' point d' refus, avot répondu l'<lb/>père Balouf in veyant arriver d’avant li un<lb/>assortimint d' charcut'rie du meilleur goût.</p>
+        <p><lb/>Les deux familles s’installott'nt donc et, pour<lb/>la circonstance, on faijot sauter l' bouchon.</p>
+        <p><lb/>Ch’étot l' garchon Balouf qui versot à boire;<lb/>hélas ! faut bien croire qu'in ch' momint-là i'-<lb/>avot s'n esprit ùch' que les poules ont l'œuf. ou<lb/>qu'i' étot trop énervé, car i' versot du vin à<lb/>côté d'un verre et taquot l' blanque nappe de<lb/>table.</p>
+        <p rend="labelled"><lb/>—Bast ! cha n' s'ra rien qu' cha, dijot<lb/>Médorine in mettant eun' pinchée d' sé su'l<lb/>taque de vin, vous yerrez, avec du sé cha s'in<lb/>va tout d' suite.</p>
+        <p><lb/>L' garchon Balouf s'approchot pus, près pour<lb/>vir chin qu' Médorine elle faijot, quand, par un<lb/>malheureux mouv'mint, cheull' fos i' faijot quer<lb/>tout l'salière dins l'écour de Médorine, et alors,<lb/>in veyant cha, ch- Bastien, croyant, bien faire,<lb/>pour li inl'ver tout l' sé qu' cheull' fille avot<lb/>dins sin jupon, à sin tour il y versot du vin<lb/>dins s'n éccr.</p>
+        <p><lb/>l' croyos qu' ch'étot l' même, bien sûr !</p>
+        <p><lb/>Croyez-vous que l' père et la mère Balouf<lb/>i's ont dù faire eun' sale tiête in veyant ch"<lb/>trait d'esprit d' leu' garchon ?</p>
+        <p><lb/>Pindant que l' nez d' manman Médorine i' se<lb/>r'tirot, ch'ti de cheull' pauf' fille i' s’allongeot<lb/>comme eun' saucisse, puis ell' soupirot à s' finte<lb/>l’âme in r'vettiant sin malheureux cotron.</p>
+        <p><lb/>Du cop, l' morciau su' l' pouce i' s' terminot<lb/>tout de suite, les amoureux s' dijott'nt bonsoir<lb/>froid'mint et les parints s' pinchott'nt les lèves<lb/>jusqu’au sang.</p>
+        <p><lb/>I' reste à savoir si cha se r'mettra.</p>
+        <ab><lb/>C. Frégoly.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>" La Classe " s'in va</head>
+        <p><lb/>A l'heure ù paraitrontches lines, les “bleus”<lb/>s’ront prêts à garnir les Casernes. Ch’est<lb/>l'éternelle partie rimplachante : “la classe s'in<lb/>va, les bleus arrivent</p>
+        <p><lb/>Les jeun's conscrits, dins les casernes d' l'Est,<lb/>d'Alsace ou dins nos Colonies vont s'sintir isolés<lb/>lon d'leu' cloquer.</p>
+        <p><lb/>I' faut y avoir passé pour savoir avec queull'<lb/>joie sont r'chus les lettes et journaux du pays.<lb/>Ch'est un peu de ch' qu'i’s ont laiché qui leur<lb/>arrife.</p>
+        <p><lb/>Aussi nous conseillons viv'mint aux parints d'<lb/>souscrire un abonn'mint à l' Nouvielle Vaclette,<lb/>persuadés qu' not' petit' gazette s'ra bien r'chue<lb/><lb/>par nos soldats et les aid'ra à supporter les<lb/>innuis d' leu' nouviau métier.</p>
+        <p><lb/>A ch' l'effet nous avons établi un prix<lb/>d'abonn'mint spécial pour les soldats quelque<lb/>sot leur lieu d' garnison : 1 an, 10 francs.</p>
+        <p><lb/>In cas d' cang'mint d’adresse, sot par permu-<lb/>tation ou cang’mint d' service, i' suffira d'<lb/>nous in informer sans frais supplémintaires.</p>
+        <p><lb/>On peut s'abonner par Compte Chèque Postal<lb/>No 37182, ou par mandat-poste.</p>
+        <p><lb/>Pernez-in bonn’ note et informez-in vos<lb/>parints et connaissances, et vous Prez plaisis aux<lb/>tits poilus.</p>
+        <ab><lb/>N.V.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Knock-out : L'homme descend du<lb/>«swing</ab>
+        <ab type="head"><lb/>LA BОх</ab>
+        <p><lb/>Chin que j' trouv' drôle dins la boxe ch'est d'<lb/>vir l' boxeu Poid-Plume qui s' bat toudis à<lb/>Poil,</p>
+        <p><lb/>Réflexion intindue d'vant un boxeu:</p>
+        <ab><lb/>C. Frégoly.</ab>
+        <note>
+          <p><lb/>Tous les saim'dis, lijez L' Nouviells<lb/>Vaclette, l'pus comique des gazettes</p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

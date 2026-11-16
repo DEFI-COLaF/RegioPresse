@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t545087034</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1886-08-29">1886</date>
+          <idno type="ARK">bd6t545087034</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t545087034</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Un Numéro 10 Centimes.</fw>
+        <fw type="runningTitle"><lb/>Numéro 214. (5o ANNÉE)</fw>
+        <dateline><lb/>DIMANCHE 29 AOUT 1886</dateline>
+        <figure/>
+        <fw type="runningTitle"><lb/>ABONNEMENTS<lb/>payables d'avance<lb/>Un an...... 6.00<lb/>6mois.....3.00<lb/>Elranger, port en sus</fw>
+        <ab><milestone unit="column" n="1"/><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING<lb/>Jules WATTEEUW, rue Desurmont 31<lb/>vils jours, in liffe tout exprès pou<lb/>l'z’afants.</ab>
+      </div>
+      <div type="article">
+        <p><lb/>C'liffe, lommé solfège poétique et<lb/>musical, est in rassemblache de p'tits<lb/>chefs-d'œufs; cha peut ête récité in<lb/>fabes et tchanté pa deux p'tits ou<lb/>grands afants et accompagnés, d'inne<lb/>main, au pianeu.</p>
+        <p><lb/>Et ch'est qui à la musique inveuce<lb/>savez? ouais, ouais, j'ai lu et erlu inne<lb/>petite piche de vers, là d'vin, qui est<lb/>admirabe, ch’est la Mouche:</p>
+        <lg>
+          <l><lb/>Dans l'océan de ma cuvette</l>
+          <l><lb/>Une mouche allait se noyer,</l>
+          <l><lb/>Pour qu'elle s’y put appuyer,</l>
+          <l><lb/>Je lui tendis une baguette.</l>
+          <l><lb/>La mouche que ma main sauvait,</l>
+          <l><lb/>Remercia bien.... la baguette;</l>
+          <l><lb/>La cause lui restant secrète,</l>
+          <l><lb/>Elle ne connut que l'effet.</l>
+        </lg>
+        <lg>
+          <l><lb/>Esprit borné, vue incomplète,</l>
+          <l><lb/>Se trouvent chez plus d’un humain :</l>
+          <l><lb/>Nous apercevons la baguette,</l>
+          <l><lb/>Mais nous ne voyons pas la main.</l>
+        </lg>
+        <p><lb/>Quo qu’vous in dites? est-ce que<lb/>cha n’vaut po les p’tits complimints<lb/>fadasses et les fabes qu’in apprind à<lb/>l'z’afants qui s’tortur’tent leu p’tite<lb/>tête pour réciter alfos inne bétisse de<lb/>deux paches, que tchan qui z’ont fini<lb/>y n'saittent mi chin qui z'ont dit... et<lb/>l'2'autes non pus.</p>
+        <p><lb/>Et, faites-ben attention qu’tout cha<lb/>est mis in musique pour inne ou deux<lb/>voisses.</p>
+        <p><lb/>Vous veyi d'ichi, à les sorées d'hiver,<lb/>deux p’tités fiettes, tchanter insonne:<lb/>l'prière de l'enfant, les voyelles, souvenir!<lb/>Ou ben les p’tits garchons, tchanter :<lb/>Chanson! Patrie! par-devant papa et<lb/>maman, qui verneront inveuci les<lb/><lb/>larmes à l'z'is, d'attinte l'petit bon-<lb/>homme répéter:</p>
+        <ab type="head"><lb/>Patrie!</ab>
+        <p><lb/>Il faut l'aimer vaillante et l'honorer meurtrie</p>
+        <p><lb/>Ah! tcheus belles pinsées qu’nou<lb/>chansonni Nadaud a eu là, et tcheu<lb/>bonne idée!</p>
+        <p><lb/>Ch'est les vagances, l'z'afants peut-<lb/>tent facilement apprinte les piches de<lb/>vers, sot in fabes ou in musiques. Mais<lb/>l'auteur d'mande d'apprinte les paroles<lb/>et d'les réciter in preume, sans mu-<lb/>sique.</p>
+        <p><lb/>Adan, d'apprinte la musique et<lb/>d’tchanter à deux, si in veut.</p>
+        <p><lb/>Nadaud y dit:</p>
+        <p rend="labelled"><lb/>« Oui; j'ai voulu sur mes vieux jours,<lb/>» tenté d'écrire pour l'enfance, et peut<lb/>" être pour la jeunesse, un petit ou-<lb/>» vrage qui donnât quelque attrait à<lb/>» une étude généralement aride. C'est<lb/>„ de l'ambition, soit, mais dans une<lb/>» si modeste mesure!</p>
+        <p><lb/>Nou fait, nous fait, ch'n'est po d'l'im-<lb/>bition; écrire des saquos essin pou<lb/>l’z’afants! ch’est au contraire leu rinde<lb/>serviche et leu donner des boinnes<lb/>leçons</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Autant qu'elles vous ont aimés</ab>
+        <ab type="head"><lb/>PoU L'Z'AFANTS</ab>
+        <lg>
+          <l><lb/>D'un enfantillage, à son heure,</l>
+          <l><lb/>Aucun de nous ne se d'fend:</l>
+          <l><lb/>C'est que la chose la meilleure</l>
+          <l><lb/>Qui soit dans l'homme, e'est l'enfant.</l>
+        </lg>
+        <p><lb/>Ch'est les vagances! ! ébé, mon<lb/>Dieu! Seigneur, donc, donc, y dittent<lb/>les mamans, in veyant les afants dis-<lb/>puter, courir, erpéri in t'nant leus<lb/>maronnes arrachis et leus bottines<lb/>inveuc les lachets défaits.</p>
+        <p rend="labelled"><lb/>— D'où qu’vous avez couru, qu’vous<lb/>êtes tous couverts de sueur? hein?...<lb/>ah! bon, en v’la un qui pleure par là,<lb/>que malheur que c’est les vacances!<lb/>vas, si on pouvait les emballer pour<lb/>un mois.</p>
+        <p><lb/>Et v'la chin qu'in attind pa les<lb/>mamans.</p>
+        <p><lb/>Y dittent cha, vous savez, mais vin<lb/>leu tcheur de ma mère y sont aussi<lb/>hureuses qu'inne glaine au mitan<lb/>d'ses p'tits pouchins, d'les vir ben<lb/>Portants, essin, courir et jeuer. Mais<lb/>aussi, quo qui a d'pus bon au monte<lb/><lb/>que l’tcheur d’inne maman! y pardonne<lb/>avant d’avoir puni. Aussi, vous povez<lb/>ben aimer vous mamans, mes p'tits<lb/>afants;</p>
+        <p><lb/>Vous n'aimerez jamais vos mères</p>
+        <p><lb/>a dit Nadadu, qui vint d'écrire, sus ses</p>
+        <pb facs="0002.xml"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>Quand vous venez diner chez moi !"</ab>
+        <ab type="head"><lb/>LE PaRASITE</ab>
+        <lg>
+          <l><lb/>« Encore une poire véreuse !</l>
+          <l><lb/>Vous avez des fruits au verger ;</l>
+          <l><lb/>Un petit ver vient s’y loger,</l>
+          <l><lb/>S'établit la, court, rampe et creuse.</l>
+          <l><lb/>Nous croyez être riche : point.</l>
+          <l><lb/>Cette année est bien malheureuse!</l>
+          <l><lb/>On ne peut juger à quel point</l>
+          <l><lb/>Mes provisions sont réduites ;</l>
+          <l><lb/>Ces petits rongeurs parasites</l>
+          <l><lb/>Bl'ont mangé tout mon fruit d'hiver."</l>
+          <l><lb/>Voilà comment s'exprimait l'homme,</l>
+          <l><lb/>L'homme à la poire ; et voici comme,</l>
+          <l><lb/>A son tour, s'exprima le ver:</l>
+          <l><lb/>" J'ai mon rôle, gardez le votre.</l>
+          <l><lb/>Lequel de nous deux vole l'autre ?</l>
+          <l><lb/>Je demeure dans la maison</l>
+          <l><lb/>Ou me confine la nature,</l>
+          <l><lb/>Et je n'ai d'autre nourriture</l>
+          <l><lb/>Que les parois de ma prison,</l>
+          <l><lb/>J'y vis solitaire et tranquille.</l>
+          <l><lb/>Vous violez mon domicile</l>
+          <l><lb/>Sans seulement dire pourquoi.</l>
+          <l><lb/>Ai-je été vous faire visite?</l>
+          <l><lb/>Je ne puis sortir, c'est ma loi ;</l>
+          <l><lb/>Et vous m'appelez parasite</l>
+        </lg>
+        <ab><lb/>G. NADAUR.</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>Madrid, 23 août.<lb/>Ils savent que je te pardonne</ab>
+        <ab type="head"><lb/>JULES WATTEEUW.</ab>
+        <ab type="head"><lb/>FIL TÉLÉGRAPHIQUE SPÉCIAL</ab>
+        <ab type="head"><lb/>DE LA BROUETTE</ab>
+        <p rend="styled"><lb/>Agence à vaques.</p>
+        <figure/>
+        <p><lb/>Le journal La Fusetta Maronna se fait l'écho<lb/>d’un bruit d’après lequel don Carlos céderait<lb/>au Broutteux ses droits à la couronne d’Espa-<lb/>gne, si sa maladie de gorge s'aggravait.<lb/></p>
+        <p><lb/>Cette rumeur est vivement commentée.</p>
+        <p><lb/>Cha, j'cros.</p>
+        <ab><lb/>MADDVINTE.</ab>
+        <p><lb/>D'abord, y n'sarot po donner d'mé-<lb/>chants conseils, l’chansonni qui a mis<lb/>sus les lèfes de l'aieule, chés belles<lb/>paroles:</p>
+        <lg>
+          <l><lb/>Plus d'an défaut ; ils sont jaloux.</l>
+          <l><lb/>Jé réponds : je sème pour vous ;</l>
+          <l><lb/>Il sera bon si je fus bonne.</l>
+          <l><lb/>Grand'mère ne sera plus là</l>
+          <l><lb/>Allons, Loïs, embrassez la.</l>
+        </lg>
+        <p><lb/>A l'exemple de l'aïeule, Nadaud a<lb/>semé pou les p’tits afants qui pourront<lb/>recolter des sourires et des baisers<lb/><lb/>d’leus parents, hureux d’attinte leus<lb/>mioches répéter les belles productions<lb/>d’nou chansonnier du Nord qui sont<lb/>réunies, en un volume de un franc, avec<lb/>musique, qui s'vind chez tous les<lb/>Nibraires.</p>
+        <ab type="head"><lb/>Wetti inne fos, cheulle fabe ichi:</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>RIGAUBERT</head>
+        <p><lb/>Lisez, in p'tit cocup, pou vir; mi j'n'ai po<lb/>mes leunettes.</p>
+        <ab type="head"><lb/>L'GARÇON</ab>
+        <p><lb/>Potage: cinquante centimes, bœuf un franc,<lb/>gigot, un franc, poulet, salade un franc cin-<lb/>quante, pâté de lièvre un franc, bordeaux deux<lb/>francs, dessert un franc, pain 50 centimes.<lb/>Total huit ſrancs cinquante.</p>
+        <ab><lb/>Huit francs et dix sus!! hein?</ab>
+        <ab type="head"><lb/>RIGAUBERT (y s'́leffe tout drot)</ab>
+        <ab type="head"><lb/>L'GARÇON (bas à s' n' oreille)</ab>
+        <p><lb/>Oui, Monsieur, et je vous ferai remarquer<lb/>que le garçon n'est pas porté sur l'addition.</p>
+        <ab type="head"><lb/>RIGAUBERT</ab>
+        <p><lb/>Du garçon! ! je n'd'ai po mingi!</p>
+        <p rend="styled"><lb/>(A Suivre)</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>IN IMPLOYE</ab>
+        <ab type="head"><lb/>L'GARCHON RIGAUBERT</ab>
+        <p rend="styled"><lb/>(Suite.)</p>
+        <p rend="styled"><lb/>Rigaubert y s'a indormi, y s' réveille inveuc sin nez<lb/>tout noir. L'Zautes, qui sont déchindus y li ont noirchi<lb/>sin nez comme d' l'ingre.</p>
+        <p><lb/>Calais! Calais!</p>
+        <ab type="head"><lb/>RIGAUBERT</ab>
+        <p><lb/>In est d'jà à Calais? j'ai jolimint dormi<lb/>lommint vin l'train?</p>
+        <ab type="head"><lb/>IN IMPLOYÉ (in riant)</ab>
+        <p><lb/>Il y a longtemps que vous ne vous êtes pas<lb/>mouché?</p>
+        <ab type="head"><lb/>RIGAUBERT</ab>
+        <p><lb/>Min nez?</p>
+        <ab type="head"><lb/>IN IMPLOI</ab>
+        <p><lb/>Oui, votre nez.</p>
+        <ab type="head"><lb/>RIGAUBERT</ab>
+        <p><lb/>Vous avez raijon, je n'me rappelle po avoir<lb/>amoutchi min nez, j'vas l'faire, t'nez, pindant<lb/>qu’j’y busie... (y soufelle vin ses dogts) à quo<lb/>qu’vous veyi cha? vous Monsi?</p>
+        <ab type="head"><lb/>IN IMPLOI</ab>
+        <p><lb/>Parce que vous avez le nez tout moisi.</p>
+        <ab type="head"><lb/>RIGAUBERT</ab>
+        <p><lb/>J'ai min nez tout musi? in v'la inne belle,<lb/>euch’teur. Qui sont comiques les gins d’par chi.</p>
+        <p><lb/>(In vudant d'la gare, y vot tous les hommes et<lb/>les femmes l'welli in riant). A la bonne heure, in<lb/>pays essin, in dirot qui z’ont tertous vu benèche.<lb/>(y s'met à rire aussi. Non de quisse que j'ai<lb/>ſaim, si j'muchero vin c'l'auberge, chi. (y<lb/>rinte vin in hôtel).</p>
+        <ab type="head"><lb/>in garçon</ab>
+        <p><lb/>Que désire Monsieur?</p>
+        <ab type="head"><lb/>RIGAUBERT</ab>
+        <p><lb/>A manger.</p>
+        <ab type="head"><lb/>IN GARÇON</ab>
+        <p><lb/>Voilà la carte,</p>
+        <ab type="head"><lb/>RIGAUBERT</ab>
+        <p><lb/>Que volez-vus que j'faiche inveuc cha? in<lb/>n'minche po d'papi par chi, y est ben seûr.</p>
+        <ab type="head"><lb/>IN GARÇON</ab>
+        <p><lb/>Monsieur désire un potage?</p>
+        <ab type="head"><lb/>RIGAUBERT (y baloche s'tetse)</ab>
+        <p><lb/>Ouais.</p>
+        <ab type="head"><lb/>L'GARÇON</ab>
+        <p><lb/>Bocuf à la mode, gigot braisé, poulet,<lb/>salade, vin ordinaire?</p>
+        <ab type="head"><lb/>RIGAUBERT (invenc s'tête)</ab>
+        <p><lb/>Ouais, ouais, ouais, (in li rapporte Ppotache).</p>
+        <ab type="head"><lb/>L'GARÇON</ab>
+        <p><lb/>Voilà le potage demandé.</p>
+        <ab type="head"><lb/>RIGAUBERT</ab>
+        <p><lb/>Y appel'tent cha du potache? ch'est du<lb/>drôle de lait battu, y a des carottes et des<lb/>rapes d'vin. (y minche, y minche, y bot tant qui<lb/>n’in peul pus, in li rapporte l'note).</p>
+        <ab type="head"><lb/>L'GARÇON</ab>
+        <p><lb/>Voiei l'addition.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>« tantanée et si extraordinaire.</ab>
+        <ab type="head"><lb/>BROUETTE LOCALE</ab>
+        <p><lb/>In a perdu : sus l'route de Roubaix, inne<lb/>monte d’argint portant l’limereu 68.820-180,<lb/>in p'tit tchin noir tatchi d'feu et deux peaux<lb/>d'fourrures à erporter rue d’Inkermann, 8, à<lb/>Roubaix, et inne levrette rousse.</p>
+        <p><lb/>In a trouvé : po gramint d'affaires; inne<lb/>femme bouillie, inveuc sin nez tout machutchi.</p>
+        <p><lb/>Proficiat</p>
+        <p><lb/>Acor inne victoire pou l'cercle d'l'aviron<lb/>d'Roubaix.Chésmatin d’canotis, l’semaine passée<lb/>y faijottent baiji l'bertelle, à Bruxelles à tous<lb/>leus concurrents, et cheulle semaine ch'étot à<lb/>Dunkerque qui z’ont porté in ernom la ville<lb/>de Roubaix... 4 premis prix. !!</p>
+        <p><lb/>Aussi, à Roubaix in leu z'a fait triomphe,<lb/>in l'z'a erchus, comme des bradés à la gare<lb/>d'l'estation; y avot à leu rinconte, la Roubai-<lb/>sienne, les Trois Etoiles, l Rowing Club, la<lb/>Clique boule, la Grande-Harmonie, la Fanfare<lb/>Delattre, Cécilia Roubaisienne, la Lyre l'Union<lb/>des Travailleurs et d'z'autes et acor d'z'autes.</p>
+        <p><lb/>Matousse, l'année qui vint les canotis étrin¬<lb/>gis du dehors, tchan qui verront l’nom du<lb/>cherque d'l'aviron, sus les programmes des<lb/>régates, y vont courir invo.</p>
+        <ab type="head"><lb/>-</ab>
+        <figure/>
+        <p><lb/>Vous savez qu'in a vindu les animals du<lb/>gardin geologique de Lille, ené? Paraitrot<lb/>d'après in journal qui a arrivé la inne séquo<lb/>estraordénaire, accoutez.</p>
+        <p rend="labelled"><lb/>« Au moment de la mise en vente des per-<lb/>« ruches, une dame éplorée s'adressait à unt<lb/>« gardien le priant de bien vouloir l'aider à<lb/>« faire sortir son mari d'une certaine position<lb/><lb/>« qu’il s'entêtait à vouloir garder.</p>
+        <p rend="labelled"><lb/>« Le garde se trouva en présence d'un<lb/>« Monsieur bien mis, qui se tenait debout, la<lb/>« bouche ouverte, les yeux écarquillés et tour-<lb/>«nés du côtés de l'ours.</p>
+        <p rend="labelled"><lb/>« On eut toute les peines du monde à le<lb/>« tirer de cet état, et on se perd en conjec-</p>
+        <p rend="labelled"><lb/>« tures sur les causes de cette paralysie ins-</p>
+        <p><lb/>J'pinse ben.</p>
+        <pb facs="0003.xml"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>Dimanche 5 et Lundi 6 Septembre</ab>
+        <ab type="head"><lb/>COURSES<lb/>DE</ab>
+        <figure type="decoration"/>
+        <figure/>
+        <ab type="head"><lb/>TOURCOING</ab>
+        <p><lb/>Y a d'z'ingagemints in masse pou les deux<lb/>ours, in compte d’jà pusque soixante gueveux,<lb/>qu'à l'course au trot monté, (prix d'la ville)<lb/> n'd'a dix-neuf.</p>
+        <p><lb/>n parle d'vir courir les gu'veux les pus in<lb/>noms des courses de c'l'année chi.</p>
+        <p><lb/>Llundi ch'étra inne belle journée aussi;<lb/>l'course au trot attelé (prix d'l' industrie). y<lb/>p2 gu’veux d'ingagés.</p>
+        <p><lb/>momint que l'solé s'met d'la partie,<lb/>pusse qu’in va avoir du plaiji!</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LES BOUILLIS</head>
+        <p rend="labelled"><lb/>anglais, in drôle comme y sont beteu<lb/>y dinot à table d'hôte à Courtrai, au</p>
+        <p><lb/>dus savez ben qui saittent faire aller leu<lb/>oire, les inglischemennes, éné?<lb/>'n'homme, après avoir avalé sin bouyon,</p>
+        <p><lb/>passe du bouilli inveuc des carottes.</p>
+        <p><lb/>attindot toudis qu'in dijot :</p>
+        <p><lb/>Passez-moi le bœuf.</p>
+        <p><lb/>Passez-moi le bouilli.</p>
+        <p><lb/>d'mande à sin vijin quo qu'ch'est du</p>
+        <p><lb/>Ch'est du bœeuf, qui répond l'aute.</p>
+        <p><lb/>en, qu’in vudant l'hôtel, y vot passer<lb/>masse de bœeufs qui ervenottent du<lb/><lb/></p>
+        <p><lb/>Goddem! y dit l'inglais, quel bel<lb/>peau de bouillis qui passent!</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Allez, vous asseoir.</ab>
+        <ab type="head"><lb/>D ÊTE MALIN</ab>
+        <p><lb/>bé, bé, qui va magemint à l'école<lb/>Laudaté l'clerc du villache.</p>
+        <p><lb/>specteur y est v'nu passer inne petite<lb/>comme de couteume, et y n'd'a po in<lb/>chés garchonnals qui seittent réponte<lb/>abelmint. <lb/>erc y s'démêne comme in diabe vin l'eau</p>
+        <p><lb/>y cache a souffler les réponses à l'in<lb/>à l'aute, mais bah ouais, ch'est l'mème<lb/><lb/> taperot s'tète conte l'mur ; ni ques-<lb/>giographie, ni question d'arismétique,</p>
+        <p><lb/>po in qui sait dire quo et tchesse.</p>
+        <p><lb/>Qu'est ce que la multiplication? y dit<lb/>lecteur au garchon Zèphe Rogin.<lb/>multiplication?</p>
+        <p rend="labelled"><lb/>ui... voyons, répondez.</p>
+        <p><lb/>'multiplicaton ch'est tchan que l'bon<lb/>norit vin l'désert dix mille Philistins<lb/>inne machoire d'âne.</p>
+        <p><lb/>Monsi Laudaté, l'clerc, y faijot d'z'is<lb/> fer, faut po d'mander, ené? surtout<lb/>u'Monsi l'inspecteur y d'mande au<lb/>vesse.</p>
+        <p><lb/>Combien y a-t-il de parties du monde ?<lb/>inq: la foi, l'espérance, la charité, la</p>
+        <p><lb/>it la paresse.</p>
+        <p><lb/>⟦XX par exemple, celle-ci est trop forte.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>INNE BOINNE MÉTCHENNE</head>
+        <p><lb/>Deux Monsis mis comme des milords, sus<lb/>leu trinte et un, s'in vont tirer l'sonnette à<lb/>inne belle majon l'lonque du boulevard.</p>
+        <p><lb/>Non d'inne pipette, in n'vint po overt...<lb/>d'téfos in attind du brut...</p>
+        <p><lb/>An tire l’sonnette acor in cœup.</p>
+        <p><lb/>Ah bon, v'la qu'in vint... in overt l'porte.</p>
+        <p rend="labelled"><lb/>— Y vous a follu attinte... éné, mes<lb/>braffes, ill' dit l'grosse métchenne in faijant<lb/>inne risette, mais j'étos justemint in train<lb/>d'faire bouillir min lait et j'n'aro po volu, pou<lb/>deux sous, qui tcheur invo sus l'étuffe que<lb/>j'ai si ben frotté c'matin, qu'ill' lujot comme<lb/>inne pronne.</p>
+        <p rend="labelled"><lb/>— Monsieur et Madame sont-ils présents?</p>
+        <p rend="labelled"><lb/>— Vous n’povez po tcher pus magemint;<lb/>y vinn'tent d’vudi in voture, qu’au brin soir,<lb/>si vous savez courir vous pori acor les<lb/>rattraper.</p>
+        <p rend="labelled"><lb/>— Non, merci... C'est bien ennuyeux;<lb/>nous sommes venus de Lille tout exprès pour<lb/>leur rendre visite.</p>
+        <p><lb/>Et v'la chés Monsis qui s'wettent tous les<lb/>deux vin l'blanc de l'zis, comme pou dire :<lb/>quo qu'ch'est qu'in va faire?<lb/>il faut absolument, Monsieur Laudaté, mettre<lb/>ordre à cet état de choses.</p>
+        <p rend="labelled"><lb/>— Mais, que voulez, vous, Monsieur l’ins-<lb/>pecteur, y dit l’pauffe Monsi Laudaté inveuc<lb/>les larmes à l'z'is, je m'épuise a leur incul-<lb/>quer les choses les plus élémentaires, çà entre<lb/>par une oreille çà sort par l'autre... ah ! mon<lb/>Dieu ! mon Dieu!</p>
+        <p><lb/>Et y s'pourmène vin l'école in tirant sus<lb/>ses ch'veux.</p>
+        <p><lb/>Tout d'inne in cœup, Monsi l'inspecteur y<lb/>n'd'in vot in qui rit comme in bochu.</p>
+        <p rend="labelled"><lb/>— Qu'est ce que vous avez a rire, ainsi ?<lb/>mon ami?</p>
+        <p rend="labelled"><lb/>— Bé, ch'est pasque Monsi Laudaté y passe<lb/>par derire nous autes in dijant que ch'n'est po<lb/>alin.</p>
+        <p rend="labelled"><lb/>— Et ça vous fait rire?</p>
+        <p rend="labelled"><lb/>— Mais, ouais Monsi.</p>
+        <p rend="labelled"><lb/>— Et pourquoi ?</p>
+        <p rend="labelled"><lb/>— Pasqui n'sait mi quo qu'ch'est de n'po<lb/>ête malin. Et beut-ête que vous n’in savez po,<lb/>non pus, t'nez vous, Monsi... veyi, cha.</p>
+        <p rend="labelled"><lb/>— Comment ? Comment? y dit l'inspec-<lb/>teur, que cha l’intriguot cheulle réponse du<lb/>p'tit paysan qui avot in air de p'tit fichaux,<lb/>dis moi un peu ce que c'est de ne pas être<lb/>malin.</p>
+        <p rend="labelled"><lb/>— Ah! bon.<lb/></p>
+        <p rend="labelled"><lb/>— Dis le moi, y dit l'inspecteur, in mou-<lb/>trant inne piche de deux sous au pauſſe petit<lb/>garchon tout délabrè, et je te donnerai ceci.<lb/>L'petit garchon y prind l'piche, y l'met vin<lb/>s'poche et y dit.</p>
+        <p rend="labelled"><lb/>— N'po ête malin, ch'est payi d'avanche,<lb/>Monsi.</p>
+        <p><lb/>Et y s'in va s'assir à s'plache, tout d'inne.</p>
+        <figure/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>« J'en ai rempli 847 malles-caisses-coffres<lb/>« (Mal kes coffes) et autres compartiments<lb/>« renfermant les médicaments, remplumant<lb/>« infailliblement tous les tempéraments tom-<lb/>« bés dans le dépérissement !</ab>
+        <ab type="head"><lb/>L'DINTISSE</ab>
+        <p><lb/>L'voture ill' s'arrête, in vot gripper sus l'vo-<lb/>ture deux tros hommes inveuc des casques<lb/>d'pompis sus leu tête et des vis tapis d'taffe<lb/>sus leus épaules... en avant la musique.<lb/></p>
+        <p><lb/>Ta de la... Ta de la.... Ta de la la la la zim<lb/>zim, boûm.</p>
+        <p><lb/>In vot arriver l'dintisse inveuc in costume<lb/>de tchurassi, y salue:</p>
+        <p rend="labelled"><lb/>« Il signor Joseppe Marc Antonio Salva la<lb/>« vita. Vers ma binetta tourna la boula.</p>
+        <p rend="labelled"><lb/>« J'entends, dans l'estimable soccilliété qui<lb/>« m'environne,des personnes qui disent: c'est<lb/>« un charlatan, Non, Messieurs, je ne suis pas<lb/>« un sorcier, ce que je suis, vous allez le sa-<lb/>« voir, je suis celui qui a parcouru le monde<lb/>« et fouillé les entrailles de la terre pour ravir<lb/>« à la nature ses secrets médicamenteurs les</p>
+        <list>
+          <item>« plus péromptoires.</item>
+        </list>
+        <list>
+          <item>« En un mot je suis l'ami de l'ouvrier, le « bienfaiteur de l’humanité.</item>
+        </list>
+        <p><lb/>En avant la musique.<lb/></p>
+        <p rend="labelled"><lb/>Ta de la... Ta de la... Ta de la la la la zim<lb/>zim.</p>
+        <p rend="labelled"><lb/>« J'entends dire autour de moi 847 malles?<lb/>« voila un homme qui s’est donné beaucoup<lb/>« de mal. Oui, Messieurs, mais après la peine<lb/>« vient le repos; quand j'aurai traité tous<lb/>« ceusses qui souffrent ma tâche sera accom-<lb/>« plie.</p>
+        <p><lb/>En avant la musique.</p>
+        <p rend="labelled"><lb/>Ta de la... ta de la... ta de la la... zim zim.<lb/>Y fait vir des tableaux inveuc des médalles<lb/>et d'z’imaches inveuc d'z'esquelettes.</p>
+        <p rend="labelled"><lb/>—Si une personne de l'aimable société souf¬<lb/>frait d’une douleur quelconque je le guérirai.</p>
+        <p><lb/>V'la in homme qui dit.</p>
+        <p rend="labelled"><lb/>— Mi, j'ai du ma... wetti.</p>
+        <p><lb/>Et y moute s’bouque tout in inffée.</p>
+        <p rend="labelled"><lb/>— Montez dans ma voiture, je vous arrache-<lb/>rai la dent qui vous fait mal.</p>
+        <p rend="labelled"><lb/>— Vous n'sari po.</p>
+        <p rend="labelled"><lb/>— Comment je n'saurai pas ? montez dans<lb/>ma voiture.</p>
+        <p><lb/>L'aute y monte vin l'voture.</p>
+        <p rend="labelled"><lb/>— l'parie qu'vous n'sari po, y dit acor.</p>
+        <p rend="labelled"><lb/>— Je gage que si, je vous parie mille écus.</p>
+        <p rend="labelled"><lb/>— Mi aussi.<lb/></p>
+        <p rend="labelled"><lb/>— Ouvrez la bouche.... Tiens, vous n'avez<lb/><lb/>pas de dent?<lb/>— Ch'est ben seur... y dit l'aute; j'ai gagni,</p>
+        <p rend="labelled"><lb/>vous dites que vous allez m'arrachi l'dint qui<lb/>m'fait du ma, et v'la pusque trinte ans qu'je<lb/>n'd'ai pus.</p>
+        <p rend="labelled"><lb/>— Et pour le comble... je n'ai pas pris ma<lb/>carte, y n'd'a in qui dit.</p>
+        <p rend="labelled"><lb/>— Et moi, je n'ai pas de cartes non plus, y<lb/>dit l'aute.</p>
+        <p rend="labelled"><lb/>— Des cartes? ill' dit l'métchenne, y a in<lb/>vi jeu, chi, vin l'tchusine; mais y est sale,<lb/>savez, j'n'oseros po vous l'offert pou faire inne<lb/>partie à forche qui est cras.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

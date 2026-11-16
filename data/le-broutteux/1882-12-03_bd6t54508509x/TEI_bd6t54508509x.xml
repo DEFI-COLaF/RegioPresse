@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508509x</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1882-12-03">1882</date>
+          <idno type="ARK">bd6t54508509x</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508509x</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Numéro 19. (1re ANNÉE).</fw>
+        <fw type="runningTitle"><lb/>Un Numéro: 10 centimes</fw>
+        <dateline><lb/>DIMANCHE 3 DÉCEMBRE 1882.</dateline>
+        <figure type="decoration"/>
+        <figure type="table">
+          <head><lb/>payables d'avance</head>
+        </figure>
+        <figure/>
+        <ab><milestone unit="column" n="1"/><lb/>ANNONCES:<lb/>La ligne ord. 20 centimes<lb/>Réclame (la ligne) 1 franc<lb/>on traite à forfait.</ab>
+        <p rend="heading"><lb/>ABONNEMENTS:</p>
+        <figure type="decoration"/>
+        <ab><lb/>v</ab>
+        <p><lb/>Il y a des bêtises qu'un<lb/>homme d’esprit achèterait.</p>
+        <ab><lb/>VOISENON.</ab>
+        <p rend="heading"><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING</p>
+        <p rend="styled"><lb/>En vente à l'imprimerie FRÈRE-GLORIEUX, rue de Lille, 20, et chez M. Jules WATTEBUW Grand Place,</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>A qu’minchi pa les Ste-Elos :</ab>
+        <ab type="head"><lb/>DES BOINNES FÊTES.</ab>
+        <figure/>
+        <ab type="head"><lb/>Vive St-Rloi, Ste-Barbe et St-Nicolas</ab>
+        <p><lb/>In peut dire que cheull' semaine chi,<lb/>l'broutteux a d'l'ovrache assez pou sou-<lb/>haiter des boinnes fêtes à tertus.</p>
+        <p><lb/>Boinne fête à les maricheux, les char-<lb/>rons, les mécaniciens, l'z'ouvris d'fond'-<lb/>ries, les quincaillis, les ferblantis, les<lb/>scincis, les poëlis, les carrossis, les az'-<lb/>tis, les bijoutis, les serruris, l'z’horlogis,<lb/><lb/>les caudronnis, les bourrelis, les plombis,<lb/>les coutelis et tous l'z'amis qu'ch'est leu<lb/>méti.<lb/></p>
+        <p><lb/>Boinne fête à tertus!</p>
+        <p><lb/>Ch'est cheull' semaine, qu'in va attinte<lb/>tchanter pa les rues:</p>
+        <lg>
+          <l><lb/>«. Les noirs, les noirs sont des bons enfants,</l>
+        </lg>
+        <p><lb/>« Qui ne travaillent guòre et qui boivent souvent. »</p>
+        <p><lb/>L'broutteux souhaite à tus chés copa-<lb/>gnons, gramint d'plaiji.</p>
+        <p><lb/>Et à les Ste-Barbe aussi:</p>
+        <p><lb/>Boinne fête à les couturires, les car-<lb/>bonnis, l'z’artificis, les tayeux d’habits,<lb/>les capelis, l'z'armuris, les carabinis et<lb/>les copagnons d'l'artillerie.</p>
+        <p><lb/>Gare la bombel comme in dit par chi,<lb/>c’jour la, les canonnis y attrap'tent inne<lb/>pronne liméreu in, pasqu' inveuc l'per-<lb/>mission d'douze heures, ch'est tout chin<lb/>qui faut pou rintrer ben boulli au quarti,<lb/>in tchantant:</p>
+        <p><lb/>«Et répétons ce gai refrain,</p>
+        <p rend="labelled"><lb/>« Vivent les artilleurs et les soldats du train. »</p>
+        <p><lb/>Tcheu plaiji!</p>
+        <p rend="labelled"><lb/>Allons, boinne chance comarates; in<lb/>attindant d'erpéri à vou pays, l'broutteux<lb/>vous souhaite inne boinne fête à tertus<lb/> aout ses pus forts</p>
+        <ab type="head"><lb/>VIVE S-TE-BARBE.</ab>
+        <p><lb/>J'sus ben seûr que les carbonnis y vont<lb/>crii cha aussi, a tout briji! bah! y peuttent<lb/>ben avoir inne mioche de plaiji aussi des<lb/>gins essin, y vottent toudis tout in noir,<lb/>y peuttent ben ête propes inne paire de<lb/>jours et n’po disputer inveuc les gayettes.</p>
+        <p><lb/>N'est nin vrai?</p>
+        <p><lb/>Inne boinne fête à tus les carbonnis, et<lb/>à les carabinis... ah! ces ti chils, y s’in<lb/>promettent inne boinne et y ont raijon;<lb/>y n'arrive foque inne fos par an.</p>
+        <p><lb/>Boinne fête à les carabinis Tourquen-<lb/>dois, de l'Nouvelle Avinture, des deux<lb/>St-Joseph, du Pré-Catelan, et du P'tit<lb/>Caten.</p>
+        <lg>
+          <l><lb/>Tchipp, tchip, tchip, hourra!</l>
+          <l><lb/>Tchipp, tchip, tchip, hourra</l>
+        </lg>
+        <p><lb/>Vive Ste-Barbe!</p>
+        <p rend="labelled"><lb/>Allons, l'broutteux souhaite à tus les<lb/>carabinis d'Tourco, d’Roubaix et d’Lille<lb/>gramint succès c'l'année chi, et gramint<lb/>d'mouques.</p>
+        <p><lb/>Euch’teur; déchindez d'vou boîtes,<lb/>porichinels, thêates, sabres, pistoulets,<lb/>tambours, trompettes, bébés, p’tits ména-<lb/>ches, guernoulles, turlututus, bonhommes<lb/>on chuques, et d'tus les sortes ! désséréz<lb/>les cordeux d'vou saclets, mon pères et<lb/>ma mères; ch'est St-Nicolas!</p>
+        <p rend="labelled"><lb/>« St-Nicolas patron des écoliers</p>
+        <p rend="labelled"><lb/>« Apportez moi dans mes petits souliers. »</p>
+        <p><lb/>Boinne fête à tus les garchonnals.</p>
+        <ab type="head"><lb/>VIVE-ST-NICOLAS.</ab>
+        <p><lb/>Le vla arrivé, cheull' semaine qu'in<lb/>prêche à les p'tits z'afants d'pus si lommin!</p>
+        <p><lb/>Gare, à sti qui n’a po été sache, y ara<lb/>in martinet.</p>
+        <p><lb/>Du qui est l’temps qu’in allo porter des<lb/>carottes et des peun'terres d'sous l'que-<lb/>snéniée, pou l'baudet St-Nicolas! Eh bé,<lb/>don, don!</p>
+        <p><lb/>Inſin, que sti qui a inne mioche l'moïé<lb/>qui busiche à les p'tits afants pauffes, que<lb/>leu ma mère n’peut seul'mint po leu z'a-<lb/>quater inne couque à rogins! et tout m.</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>Rin ch’ost rin<lb/>In p'tit séquo cha fait du bin.<lb/>—<lb/>d’mandant à St-Nicolas des jouets pou<lb/>vos p’tits afants, busii aussi à les p'tits<lb/>malhureux; y n’in peuttent po les p’tits<lb/>gins si y n'ont po été ochéniés vin l'écours<lb/>d'inne Madame.</ab>
+        <p><lb/>Si vus n'povez po dépinser d'sus, ca-<lb/>chi ben vin vos vis habits, vin vos ber-<lb/>loufs, l'neige ill' tchée.... y fait frod....<lb/>vous trouverez ben toudis d’quo continter<lb/>in malhureux, pasque vous savez, pou les<lb/>pauffes gins</p>
+        <ab><lb/>SULES WATTEEUW.</ab>
+      </div>
+      <div type="article">
+        <p><lb/>Cheull' semaine in a condut à s'dernire<lb/>demeure nou compagnon Leser, ancien<lb/>commandant des Pompis, Président des<lb/>Cricks-Sicks et volontaire de Paris in 48.</p>
+        <p><lb/>Ch'est in des tros dernis volontaires<lb/>survivants, Hinri Montagne, qui li a fait,<lb/>au nom de François Dhal et Amand<lb/>Vienne, un derni adi.</p>
+        <p><lb/>In jour ou l'autre l'Broutteux racontera<lb/>l’histoire d’ches braf copagnons.</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>FIL TÉLÉGRAPHQUE SPÉCIAA<lb/>DU BROUTTEUX.</ab>
+        <ab type="head"><lb/>Le Caire, 24 nov. 8 h. 49 m. soir.</ab>
+        <figure/>
+        <p rend="dateline"><lb/>Agence à vaques</p>
+        <ab><lb/>Egypte.</ab>
+        <p><lb/>Tout à la joie! Un vieil Uléma vient<lb/>de trouver le clou destiné à terminer la<lb/>crise Egyptienne. Ce clou est d’or, mais<lb/>les experts en ont trouvé l’alliage un peu<lb/>Grec; sa provenance est sévèrement te-<lb/>nue cachée ici. Néanmoins, grâce à lui,<lb/>on espère résoudre cette question dont<lb/><lb/>on ne voit pas la queue, à coup sûr, moins<lb/>brillante que celle de la comète.</p>
+        <ab><lb/>Crocodiloss Pacha.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

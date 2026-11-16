@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8134172r</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1880-10-17">1880</date>
+          <idno type="ARK">bpt6k8134172r</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8134172r</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0008.xml"/>
+        <fw type="runningTitle"><lb/>LOU BRUSC</fw>
+        <ab><milestone unit="column" n="1"/><lb/>28</ab>
+      </div>
+      <div type="article">
+        <head><lb/>AVIS UTILE</head>
+        <head><lb/>aux personnes rentrant tard ou demeurant<lb/>sen des endroits isolés.<lb/></head>
+        <ab><lb/><lb/>La Maison S. DREYFUS, 13, rue des Pe-<lb/>tites-Écuries, à Paris offre au prix de fabri-<lb/>que, à toute personne qui en fait la demande :<lb/>Revolvers Lefaucheux, 6 coups, avec ba-<lb/>guette de sûreté triple poinçon d'épreuve,<lb/>depuis<lb/> <lb/>RévolverS VÉRITABLES AMÉRI-<lb/>CAINS, POUVANT SE METTRE DANS<lb/>LE GOUSSET DU GILET, à percussion pé-<lb/>riphérique, double mouvement, ba¬<lb/>guette de sûreté, crosse noire, ca-<lb/><lb/>non rayé et nickelé; portée ga-<lb/>30 fr.<lb/>rantie, 25 mè̂tres, au prix inoui de<lb/>Fusil Lefaucheux, 2 coups,<lb/>c0 fr.<lb/>garanti . . . . . depuis<lb/>— A Piston, 2 coups,<lb/>40 fr.<lb/>garanti . . .. . . . . —</ab>
+        <ab><lb/>TMMENSE<lb/>ASSORTIMENT DE MONTRES PROVENANT D'UNF<lb/>BANQUEROUTE<lb/>OCCASION SANS PRÉCÉDENT<lb/></ab>
+      </div>
+      <div type="article">
+        <ab><lb/>Demander CATALOGUE ILLUSTRÉ, ὰ S. DREYFUS.<lb/>13, rue des Petites-Eeuries, à Paris,</ab>
+        <p rend="heading"><lb/>LOU REST D'AIET<lb/>POUEMO DOU FELIBRIGE EN DOUGE TESTO<lb/>Pèr Marius OURRELLY<lb/>Sendi de la Mantenenço Felibrenco de Prouvènço.<lb/>PRES 6 FR. PER LEI SOUSCRITOUR</p>
+        <p rend="styled"><lb/>Voulume in-8° de 416 pajo e de 10,000 vers prouvençau.</p>
+        <figure type="form"/>
+        <lg>
+          <l><lb/>Se s'ouscriéu, pèr carto poustalo à l'adresso de M. Marius Bourrelly, boulevard</l>
+          <l><lb/>de la Liberté, 31, à Marseille, e se pago qu’à la receptien de l’òubràgi.</l>
+          <l><lb/>Leis ancian souscritour subiran ges d’aumentacien de près.</l>
+        </lg>
+        <figure type="table"/>
+        <ab><milestone unit="column" n="2"/><lb/>Vous payez à peine le travail de l'ouvrier,<lb/>Les Montres ont coûté plus du double<lb/>A remettre à très-bas prix 85,000 de ces Montres<lb/>par lots de 100, 500 et 1,000<lb/>La maison demande des Agents<lb/>Ils sont largement payés. car il fant vendre à tout prix.<lb/>S' adresser à M. COSTE, à Taulignan (Drôme)</ab>
+        <ab><lb/>Ais, — Emp. Trov. carriero dou grand-Relògi 15</ab>
+        <p rend="heading"><lb/>EN SOUSCRICIEN<fw type="digitisation-artefact"><lb/>urce gallica.n.fr/Bibliothèques de Marseile</fw></p>
+        <figure type="decoration"/>
+      </div>
+    </body>
+  </text>
+</TEI>

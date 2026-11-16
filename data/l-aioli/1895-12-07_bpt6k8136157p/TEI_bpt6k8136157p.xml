@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136157p</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1895-12-07">1895</date>
+          <idno type="ARK">bpt6k8136157p</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136157p</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>CINQUENCO ANNADO, No 178.</fw>
+        <fw type="runningTitle"><lb/>DISSATE, 7 DE DESEMBRE 1805.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Au sufrage universau,<lb/>Voutaren pèr l'oli<lb/>E faren l'aioli.</ab>
+        <p rend="heading"><lb/>Nautri, li bon Prouvençau,</p>
+        <ab><milestone unit="column" n="3"/><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.<lb/>Prouverbi de meinsoun</ab>
+        <ab><lb/>F. MISTRAL.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17,27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>vers<lb/>FOLCO DE BANONCELLI<lb/>an paleis don Roure,<lb/>EN AVIGNOUN<lb/></ab>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN</p>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <ab><lb/>Baile dóu journau:<lb/>FOLCO DE BARONCELLT</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Es uno enfant, es bello, èro pas facho, noun !<lb/>Per semoundre à qu vou si flour, mai n'en reçaupre<lb/>Di jouvent esmougu, di jouvent à geinoun.<lb/>— Boudiéu ! Ii belli raiadeto! — clamère estabousi.</ab>
+        <ab type="head"><lb/>LA BOUQUETIERO</ab>
+        <ab type="head"><lb/>SOUNET INEDIT</ab>
+        <ab><lb/>Passo au mitan di taulo en semoundent si pour:<lb/>Parai? es jouino e bello, e la chato a l'èr puro...<lb/>Un i'aganto la man, un autre la centuro,<lb/>Eris, en tóuti ris, sèns rouito e sèns palour.</ab>
+        <lg>
+          <l><lb/>Dóu balans de sis anco e de sa taio, empuro</l>
+          <l><lb/>Divièi roufian creba lou rèsto de calour;</l>
+          <l><lb/>La jouvènt, se trufant, galejon sa belour.</l>
+          <l><lb/>Escorno ! res n'a plus à faire sa caturo.</l>
+        </lg>
+        <lg>
+          <l><lb/>Se lipant li moustacho, un bevèire abesti</l>
+          <l><lb/>S'arrèsto... Ris plusfort. Loumoustre, que i'a di?</l>
+          <l><lb/>Ses gastado e perdudo, oh !vole pas lou saupre;</l>
+        </lg>
+        <p><lb/>n de jun 1870.</p>
+        <ab><lb/>T. Aubanel.<lb/>anave m'encourre sus lou plan dóu Castèu pèr gandou-<lb/>neja 'mé mi bràvi cambaradet de la vesinanço; e, d'en-<lb/>tremen ma sante femo de maire s'escridavo ansindo:</ab>
+        <p rend="labelled"><lb/>— O despichous ! s'aquelo bello paradisso noun<lb/>l'agrado, n'auras rèn mai pèr toun gousta; e pièi, tè!<lb/>velo, val-l'en encò de Mercié ! —</p>
+        <p><lb/>Es aqui ounte se devistavo uno chaminéio moustro,<lb/>pimparado de l'asti lou plus gigant que se posque vêire,<lb/>de que faire rousti un biòn !</p>
+        <p><lb/>Proun d'aloagui: viren fuei!</p>
+        <p rend="labelled"><lb/>— Vène me querre !—</p>
+        <p><lb/>Si darriéri paraulo fuguéron estonfado pèr lou brut<lb/>que faguère en barrant la porto, abadarnado pèr Mer-<lb/>lusset, lou chin de casso de moun paire, que m'esperavo<lb/>coumé à l'acoustumado</p>
+        <p><lb/>Sapitour, lou mangounié, lis avié croumpado au<lb/>marcat d'Arle i Solounen: es à dire qu'èro un dissate.<lb/>Trefoulissiéu de joio en pantaiejant dóu lendeman di-<lb/>monche!</p>
+        <p><lb/>Coume tóuti li jour de la santo semano, aviéu segura¬<lb/>men fouligaudeja lou divèndre; vaqui perqué lagremejère<lb/>la véio d'aquéu beu jour. Marbiéu ! ço qu'es escri noun<lb/>pou estre escrafa.</p>
+        <p><lb/>veici.</p>
+        <figure type="decoration"/>
+        <p><lb/>En logo d'escarlimpa rauturo, espinchère la frucho<lb/>maudicho; em' acò, piéi, enfachina, d'à cha pau, m'a-<lb/>prouchère d'elo: l'esperit dóu man m'avié seguramen<lb/>touca 'mé soun alo negro, e soun alen empudessina entre-<lb/>boulissié lou mirau clarineu de moun ameto d'anjoun.</p>
+        <p rend="labelled"><lb/>- Tèi vejo-li, que soun bello! Zou ! vai-t'en ll maneja:<lb/>embaumon!—</p>
+        <p><lb/>Ansin m'embelinavo, e me sarrère. Pièi, vague de li<lb/>bousigueja. E mi maneto, enfebrado, sèmpre mal fernis-<lb/>sènto, poutejavon lou fru tentatiéu; e lou mau dins moun<lb/>cor coumplissié soun obro sourno; e lou perfum di sclou-<lb/>nenco ben talamen m'enchusclè, qu’embriaga, subran<lb/>arrapère uno d'éli, lusènto que-noun-sai, de pourpro e<lb/>d'or tenchurado, em' acò, zóu! l'encafournère au tre-<lb/>founs de ma bloudeto entre-duberto, sènso crêire d'estre<lb/>visc</p>
+        <p><lb/>Moun ange gardian se tapè la faci emé sis aleto blan-<lb/>quinello; e lou demòni triounfle... Mai, soun counsèu<lb/>segui, lou remors me pounchounejè lou pitre : auriéu<lb/>ben vougu la restitui, mai noun sabe pér-dequé la sour¬<lb/>ti guère pas de sa cafourno; e segrenous, m'agandiguère<lb/>à l'oustau pèr escoundre la raubado dins la despènso,<lb/>ounte m'acantounère à l'escuresino. Tout-àn-un cop,<lb/>coume l'anave belèu engipa 'no mourdudo, la pourteto se<lb/>durbiguè, e, ma santo maire espeligué 'mé l'escoubeto<lb/>dóu cantoun dóu flo à la man. Alor, tremoulante despa-<lb/>raula, me traguère à si geinoun, tout-d'un-tèms que la<lb/>poumo, en barrulant, tusté si pèd.</p>
+        <p rend="labelled"><lb/>- Perdouno-me! - ansin m'escridère en sengiutant,<lb/>Mai elo m'aubouré</p>
+        <p rend="labelled"><lb/>— Tai vist! o, l'as ranbado ! Té, vaqui per ta puni-<lb/>cioun!</p>
+        <p><lb/>E'm'aco, sénso reboundineja, reçaupeguère ma sa-<lb/>bounado. Avié pòu de m'endeca. F'anavo, o! ben tala-<lb/><lb/>men plan, que me mancavo lou tafanari. Mai! acò<lb/>s'acabè pas ansin. M'arrapè la man e me trinassè de¬<lb/>manda gràci au mangounié estoumaca, qu'en logo de<lb/>me charpa cacalassè jusquo is auriho emé sa mouié e sa<lb/>ninèio. Sabiéu plus ounte escoundre moun nas. Pièi,<lb/>d'entremen qu'eissugave mi lagremo, sèns saupre s'ère<lb/>en vido, m'entournère à l'oustau, e, subran, m'ausiguère<lb/>erida:</p>
+        <p rend="labelled"><lb/>— Val te coucha! val, o ranbo-poumo! Souparas seu-<lb/>lamen emé de pan e d'aigo!</p>
+        <p><lb/>Sabes-ti se souscave en enregant lis escallé! Tout<lb/>plourous, me desabihère, après aguedre prega Diéu.<lb/>Moun amo s'empurè dins aquelo preguiero e moun cor<lb/>s'assoulè: pièi, me traguère dins ma bresseto, dintre de<lb/>ridelet blanquinèu embarrado; amoulouna dessouto mi,<lb/>lançeu, me descouflère e m'entrevalère, bressa pèr lis<lb/>ange</p>
+        <p><lb/>Pamens, entre que r'Angelus resclantigue dins la<lb/>calamo de P'aire, ma bono maire venguè me poutouneja.<lb/>Sus sa peitrino me sarrère, en disênt:</p>
+        <p rend="labelled"><lb/>- Lou farai pas plus!</p>
+        <p rend="labelled"><lb/>— Vai bèn! vai, moun bél agnelet! — respoundeguè<lb/>moun paire.</p>
+        <p><lb/>E'm'aco mi quatre bràvi sourreto espeliguèron, la sou-<lb/>pado en man, e touti me tintourlejèron à me devouri.</p>
+        <p><lb/>Tranquelère à me desganacha, chourlère un pareu de<lb/>cop de vin serma; pièi, entanterin que desengrunave la<lb/>mita d'un liame de rasin, cacalassèron tóuti.</p>
+        <p rend="labelled"><lb/>— Encaro s'èro esta 'n bèu rasin! — diguère en lis<lb/>es pinchant à la sousto, — mai uno poumo!</p>
+        <p rend="labelled"><lb/>- Oh! d'aquéu boujarroun! - cridéron lis aujou en<lb/>intrant dins ma cambreto.</p>
+        <p><lb/>Coume que n'ane, la leiçoun fugué bono e me servigue.<lb/>Vesés ! l'aguè 'n Bon-Diéu per léu. Quau diaussi pou-ti<lb/>bèn saupre se sariéu pas esta 'n laire.</p>
+        <p rend="labelled"><lb/>— Un de mai, — me rebecarés, — sus la giganto mou-<lb/>lounado, se sarié-ti couneigu?</p>
+        <p rend="labelled"><lb/>— Ma fisto, nani, pas mai qu'un de mens.... pardin-<lb/>chel-</p>
+        <p><lb/>Dequé que siegue, fuguère eitant nesci qu'Adam: en<lb/>raubant, me sauvére !</p>
+        <p><lb/>Lou tarnagas nous enganè tóuti.</p>
+        <p><lb/>Mai belèu, se sa moulé amourousido m'avié fa lusi,<lb/>siegue uno bello espironcto, uno uiado à grun d'iòu, o bèn<lb/>encaro uno clareto roussejanto coume lor, ma fe,<lb/>d'aquéstis ouro, dirias:</p>
+        <p rend="labelled"><lb/>— D'aquéu galavardoun ! pèr quauqui grun barrè lou<lb/>Paradis à tóuti nâutri si felen! —</p>
+        <p><lb/>Lis ame tant, li rasinet !</p>
+        <ab><lb/>Antoni Chansrous.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Li poumeto dou Sapitour</head>
+        <p><lb/>Maladiciéure ! qu'èron poulideto aquéli poumo de<lb/>tonto meno, entre-mesclado dins uno canestello de vergan<lb/>desrusca! Coume se dis, fasien veni l'aigo à la bouco.<lb/>E pamens lis amave bèn talamen pau, qu'entre li vêire<lb/>arrenguierado sus la pastiero de la cousino pèr la gous-<lb/>tado de la marmaleto, li fougnave en embandissènt de<lb/>regardado envejouso à la paniero, d'ounte, en escalant<lb/>sus la nanto cadiero de moun réire-grand, póutirave uno<lb/>bono miejo-tiero de pan d'oustau tant agradiéu. Adounc,<lb/>estre qu'aurés ausi aquesto istòri, veirés vèire se noste<lb/>proumié paire fugue veramen eitant fautible que co que<lb/><lb/>lou dison. Avès bèu vira e revira de tout gaubi, quand<lb/>laquéu sacre roumpu de demòni a 'nsupa 'no idéio, fau<lb/>qu'espete ; - e, paure bedigas sèns lano, m'engouliguère<lb/>ains lou vertoulen!</p>
+        <figure type="decoration"/>
+        <p><lb/>Erian aperaqui entre Toussant e Calèndo; mai, coume,<lb/>atrouvavo que fasié 'no bello vesprado, entant-leu de<lb/>foro Tescole, moun cartable de cuer descrousa de subre,<lb/>mis espulo e mi libre, courreja dintre dos poustiho de<lb/>nóngulé, vitamen penja em' éu à la caviho, ajougui que-<lb/>noun-sai, moun panoun d'uno man e de l'autro ma bau¬<lb/>duto, que tant bèn dourguejavo', tau qu'un fouletoun,</p>
+        <note>
+          <p rend="labelled"><lb/>ao, manda la baodufo lien en denant lou<fw type="digitisation-artefact"><lb/><lb/>purce gallica.bnf.fr/ Bibliothèqu</fw></p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

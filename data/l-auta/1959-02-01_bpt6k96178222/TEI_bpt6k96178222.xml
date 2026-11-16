@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k96178222</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1959-02-01">1959</date>
+          <idno type="ARK">bpt6k96178222</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k96178222</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>Le Numéro: s0 fr.</ab>
+        <figure type="table"/>
+        <ab><lb/>QUE BUFO UN COP CADO MÉS<lb/>LES TOULOUSAINS DE TOULOUSE ARUE<lb/>ORGANE<lb/>SOCIETE<lb/>ET AMIS DU VIEUX TOULOUSE<lb/>MAΥ</ab>
+        <figure/>
+        <p rend="heading"><lb/>L</p>
+      </div>
+      <div type="article">
+        <head><lb/>SOMMAIRE</head>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>DIMANCHE 1er MARS, à 16 heures, à l’Hôtel d’Assézat, Assemblée<lb/>générale annuelle.</p>
+        <p><lb/>Ordre du jour:</p>
+        <p><lb/>Elections.</p>
+        <p><lb/>Conférence de M. Georges VIGNAUX-COUSPEYRE, Avocat à la<lb/>Cour: La situation des corps de métiers toulousains à la<lb/>veille de la Révolution.</p>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="18"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>Cotisation 1959</p>
+        <p><milestone unit="column" n="1"/><lb/>La cotisation de l’année 1959 (cinq cent francs) peut être<lb/>réglée chez notre trésorier, M. Pierre Berdoues, parfumeur, 9, rue<lb/>Rivals, ou versée au compte de chèques postaux « Société des<lb/>Toulousains de Toulouse », 7, rue du May, C.C.P. 1264-68, Toulouse.</p>
+        <p><lb/>Nous remercions les personnes qui voudront bien l’acquitter<lb/>d’elles-mêmes sans attendre le recouvrement de fin d’année, onéreux<lb/>pour tout le monde.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Et le Journal de Toulouse, des mercredi 20 et jeudi 21 août, nous informe:<lb/>« M. Mérimée, maître des Requêtes, inspecteur général des monuments histo-<lb/>riques, est arrivé avant hier à Toulouse. Il est descendu à l’Hôtel de l'Europe. »<lb/>Ce mot avant hier désigne, d’après le contexte d’échos libellés de façon<lb/>identique dans des numéros portant également une double date, le mardi<lb/>19 août.</ab>
+        <ab type="head"><lb/>Prosper Mérimée combat pour les Jacobins</ab>
+        <p><lb/>Prosper Mérimée fait sa tournée annuelle en compagnie d’Eugène<lb/>Viollet-le-Duc et tous deux, venant du Tarn-et-Garonne, arrivent<lb/>à Toulouse, le mardi 19 août 1845 (1). La visite de ces deux<lb/>personnages officiels a pour premier objectif une étude complète de<lb/>la basilique Saint-Sernin en vue des travaux de restauration dont<lb/>le principe vient d’être arrêté. L’architecte, dont la Commission des<lb/>Monuments Historiques « s’applaudit d’avoir distingué la première</p>
+        <p rend="labelled"><lb/>(1) P.M. et V. le D. étaient le 17 août à Saint-Antonin et à leur retour de<lb/>ce bourg se sont arrêtés à Caussade. Le 18 ils sont repartis pour Toulouse et<lb/>ont traversé Montauban sans s’y arrêter.</p>
+        <p><lb/>Tels sont les renseignements que nous donne l’Echo du Tarn-et-Garonne du<lb/>20 août, cité par P. MONJOIN, l’Œuvre toulousaine de V. le D. (Etude historique<lb/>et critique), tome XXV des Mémoires de la Sociétés Archéologique du Midi,<lb/>Privat, 1957, p. 46.</p>
+        <p><lb/>De son côté V. le D. confirme ce renseignement dans sa lettre à<lb/>F. de Guilhermy, auditeur à la Cour des Comptes, en date de ce même 19 août :<lb/>« Je suis arrivé à Toulouse ce matin. »</p>
+        <p><lb/>Il conviendrait donc de rectifier la date de la lettre adressée par P.M. à<lb/>Jenny Dacquin, figurant dans les Lettres à une Inconnue, I, 246, comme dans<lb/>la Correspondance Générale de P.M., IV, 335, avec l’indication : Toulouse,<lb/>18 août 1845: « Je viens de trouver ici votre lettre... » Cette lettre serait du<lb/>19 août.<fw type="digitisation-artefact"><lb/>u/Aoul</fw><lb/>Jansénius. Une enquête menée par deux commandeurs de l’Ordre<lb/>de Malte fit apparaître le trouble que les propos de l’abbé Vignaux<lb/>avaient fait naître dans l’esprit de quelques-unes de ces bonnes<lb/>religieuses qui tremblaient pour leur salut. La sagesse de l’arche-<lb/>vêque Pierre de Marca apaisa l’affaire.</p>
+        <pb facs="0012.xml"/>
+        <milestone unit="page" n="28"/>
+        <p><lb/>Il n’en fut pas de même avec l’Institut des Filles de l’Enfance<lb/>où M. Pierre Gérard nous introduisit en second lieu. Cette fondation<lb/>avait été effectuée en mars 1662 par une pieuse toulousaine, Jeanne<lb/>de Juliard, dame de Mondonville, sur les conseils de Gabriel de<lb/>Ciron, chanoine et chancelier de la cathédrale Saint-Etienne. Le but<lb/>de cet institut, situé rue Valade, à l’angle de la petite rue de la<lb/>Bastide, était d’accueillir les jeunes filles qui, ne se sentant aucun<lb/>goût pour le mariage, n’avaient cependant aucune vocation pour<lb/>la vie cloîtrée.</p>
+        <p><lb/>La règle, rédigée par Gabriel de Ciron, à la demande de l’arche¬<lb/>vêque de Toulouse, portait l’empreinte de la doctrine janséniste et<lb/>les Filles de l’Enfance étaient astreintes à un rigorisme moral très<lb/>proche de celui de Port-Royal-des-Champs. Elles se recrutaient dans<lb/>toutes les classes de la Société, mais — chose bien représentative<lb/>de l’époque —, la hiérarchie sociale était maintenue au sein de<lb/>la communauté en ce sens que les filles nobles, payant une pension<lb/>élevée, jouissaient d’avantages matériels, notamment d’une bonne<lb/>nourriture, avantages qui étaient moindres pour les filles de la<lb/>bourgeoisie, qui payaient moins, et à peu près nuls pour les filles<lb/>du peuple, qui en étaient en quelque sorte réduites au brouet<lb/>spartiate. Il n’empêche que toutes aimaient leur Institut et demeu-<lb/>rèrent fidèles à son esprit, même et longtemps après sa dispersion.</p>
+        <p><lb/>Il connut d’ailleurs ses premières difficultés dès sa création, du<lb/>fait de l’hostilité des Jésuites, mécontents d’avoir été écartés de<lb/>la direction de conscience des religieuses. Mais un arrêt du Parlement<lb/>de Toulouse, en date du 31 août 1663, donna gain de cause à<lb/>de Mondonville et à sa fondation, que Louis XIV sanctionna<lb/><lb/>peu après. En 1665 se produisit une nouvelle offensive. Sous la<lb/>menace du fouet, plusieurs pensionnaires déclarèrent qu’on leur<lb/>avait enseigné des maximes impies. Une enquête du Sénéchal de<lb/>Toulouse, en juin 1666, montra la vanité de ces accusations.</p>
+        <p><lb/>Après dix ans de tranquillité, l’Institut de la rue Valade connut<lb/>les épreuves qui, cette fois, allaient l’emporter. Le mystère dont<lb/>s’entourait ses occupantes donna naissance à des bruits malveillants;<lb/>on les accusait d’imprimer des ouvrages jansénistes et même de<fw type="digitisation-artefact"><lb/>ssociationde<lb/>oul</fw></p>
+        <pb facs="0013.xml"/>
+        <milestone unit="page" n="29"/>
+        <p><lb/>La fin tragique de l’Institut des Filles de l’Enfance souleva une<lb/>juste émotion, en dépit de l’autoritarisme de Louis XIV. Les milieux<lb/>jansénistes en furent bouleversés et le grand Arnauld, prêtant sa<lb/>plume courageuse à l’exposé de ces malheurs, écrivit L’innocence<lb/>opprimée par la calomnie ou l'Histoire de la Congrégation des<lb/>Filles de l'Enfance de Notre-Seigneur Jésus-Christ, publiée à<lb/>Bologne en 1687. Et, consécration inattendue, M. Genestet nous<lb/>révèle que Racine s’en inspira lorsqu’il choisit le sujet d’Esther<lb/>dont la représentation eut lieu en janvier 1689. Racine avait<lb/>rapproché l’affaire des Filles de l’Enfance de celle du peuple Juif,<lb/>à la suite d’Arnauld qui terminait son Innocence opprimée par la<lb/>citation de versets du prophète Michée. Or, on possède des versets<lb/>de Michée en face desquels Racine a écrit : P.R. (c’est-à-dire Port<lb/>Royal) et les Filles de l’Enfance. Et l’excellent catalogue de<lb/>l’exposition conclut sa notice sur le volume d’Esther : « ... cela<lb/>« explique bien ce qu’il y a dans Esther d’émotion vraie : la poésie<lb/>« des chœurs n’émane pas seulement du climat biblique ...; on ne<lb/>« peut y retrouver les lamentations déjà lointaines des religieuses<lb/>« persécutées de Port-Royal, mais surtout celles beaucoup plus<lb/>« récentes et plus dramatiques des religieuses expulsées de leur<lb/>« couvent toulousain. »<lb/>comploter contre le gouvernement de Louis XIV, dont chaque<lb/>victoire était pour elles un sujet d’affliction.</p>
+        <p><lb/>Voulant se justifier devant le roi, Mme<lb/>à Versailles. Mais une lettre de cachet l’envoya en exil à Coutances,<lb/>où elle mourut le 4 janvier 1703. Pendant ce temps, à Toulouse, les<lb/>Filles de l’Enfance étaient chassées de leur maison et toujours<lb/>avec la même observation de la hiérarchie sociale : les filles nobles<lb/>furent invitées à monter dans des carosses qui les ramenèrent dans<lb/>leur famille; les filles bourgeoises suivirent avec un peu moins<lb/>d’égards et quant aux filles du peuple, elles furent odieusement<lb/>malmenées par la soldatesque. Les plus intransigeantes furent<lb/>enfermées à la Grave dans le quartier des filles publiques.</p>
+        <p><lb/>Après quoi, eut lieu la vente des bâtiments du couvent, dont les<lb/>Jésuites se portèrent acquéreurs pour 15420 livres. Sur les dépouilles<lb/>de l’ennemi, ils établirent leur séminaire. Ils devaient à leur tour,<lb/>d’ailleurs, en être chassés et, sur les bâtiments rasés, Loménie de<lb/>Brienne éleva le Séminaire diocésain constitué par les deux impo¬<lb/>santes constructions classiques occupées aujourd’hui par un collège<lb/>technique.<fw type="digitisation-artefact"><lb/>puse<lb/>ouree gamea.bri.Assocratior des ourodsains de</fw></p>
+        <pb facs="0014.xml"/>
+        <milestone unit="page" n="30"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>642 912</ab>
+        <p><lb/>Remerçiant MM. Blaquière, Genestet et Gérard de cet exposé si<lb/>vivant, si émouvant et si complet, M. Rozès de Brousse évoque à<lb/>son tour des souvenirs de ses lectures sur Port-Royal et l’Institut<lb/>des Filles de l’Enfance, noble sujet qui n’a pas fini de captiver les<lb/>historiens et les écrivains. Il félicite les organisateurs de cette très<lb/>remarquable exposition, qui ne se contentent pas d’étaler des<lb/>documents, mais qui savent les animer de leur science et de leur<lb/>talent. Les applaudissements de l’assistance ont montré combien<lb/>nos amis ont été sensibles à cette passionnante évocation.</p>
+        <ab type="head"><lb/>Compte rendu financier de l’année 1958</ab>
+        <figure type="table"/>
+        <ab type="head"><lb/>RECETTES</ab>
+      </div>
+      <div type="article">
+        <figure type="table"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>DÉPENSES<fw type="digitisation-artefact"><lb/>ei/Aolo<lb/></fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

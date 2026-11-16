@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k96057504</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1939-11-01">1939</date>
+          <idno type="ARK">bpt6k96057504</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k96057504</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><lb/>Nouvelle Série – N. 113<lb/>Novembre 1939<lb/>Paraissant tous les mois, sauf en Juillet, Septembre et Octobre<lb/>ORGANE<lb/>6. RUE<lb/>LES TOULOUSAINS DE TOULOUSE<lb/>SAINT<lb/>SOCIETE<lb/>ET AMIS DU VIEUX TOULOUSE<lb/>JEAN<lb/>Page</ab>
+        <p rend="heading"><lb/><lb/>LE<lb/><lb/><lb/>QUE BUFO UN COP CADO MÉS</p>
+        <p rend="heading"><lb/>SOMMAIRE</p>
+        <figure type="table"/>
+        <p rend="styled"><lb/>...0........</p>
+        <p rend="labelled"><lb/>SAMEDI 25 NOVEMBRE, à 14 heures, visite de<lb/>l’église du Taur et de ses fresques récemment remises à jour, sous<lb/>la direction de M. J.-R. de Brousse.</p>
+        <p><lb/>Entrée par la rue du Sénéchal.</p>
+        <pb facs="0002.xml"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>Pour notre Musée</p>
+      </div>
+      <div type="article">
+        <p><lb/>Les collections de notre Musée et de notre Bibliothèque ont été<lb/>constituées pour une grande part par les dons généreux de nos<lb/>adhérents.</p>
+        <p><lb/>Nous croyons devoir attirer leur attention sur des objets qui<lb/>parfois peu importants par eux-mêmes, peuvent former par leur<lb/>groupement des séries très intéressantes et seront acceptés avec<lb/>reconnaissance, tels que :</p>
+        <p><lb/>Dessins, gravures, lithographies, photographies, ayant un<lb/>intérêt toulousain (exemple : anciens aspects des rues, station de<lb/>fiacres, monuments ou maisons démolis ou transformés, etc.)</p>
+        <p><lb/>Biographies de personnages toulousains, notices nécrologiques,<lb/>programmes et comptes rendus de fêtes, menus anciens, docu¬<lb/>ments sur la vie d'autrefois, par exemple, sur son coût, vieux<lb/>papiers, images et objets de piété de fabrication locale ou se rap-<lb/>portant à des dévotions locales, etc.</p>
+        <p><lb/>Ustensiles anciens (par exemple : lanternes, calels, crémalhs,<lb/>cercos de puits, etc.).</p>
+        <p><lb/>Objets de fer (clefs, entrées de serrures), ou de cuivre (bassi-<lb/>noires, poignées).</p>
+        <p><lb/>Terres cuites (céramique locale, de Martres, d’autres fabriques<lb/>régionales, fontaines en terre cuite, poteries d’usage, etc.). Ob-<lb/>jets de verre anciens.</p>
+        <p><lb/>Etains (fontaines, plats, assiettes etc.).</p>
+        <pb facs="0012.xml"/>
+        <milestone unit="page" n="124"/>
+        <p><lb/>Une énumération rapide nous promène au Musée, nous si-<lb/>gnale les fontaines publiques en distinguant celle de la Trinité,<lb/>nous mène au Jardin des Plantes « le plus vaste de France après<lb/>celui de Paris », l’hôtel des monnaies, les deux bibliothèques pu-<lb/>bliques « où sont réunis plus de cent mille volumes », quand on<lb/>aura vu tout cela, « on aura de Toulouse une juste et grande idée<lb/>qui fera oublier certaines vieilles constructions qui se font plus<lb/>rares de jour en jour ». — Oui, certes, il y avait à Toulouse, alors<lb/>et même encore en l’an de grâce 1939, bien des bicoques, bien des<lb/>taudis, des coins sans air et sans soleil, sinon sans odeur. Mais<lb/>que de choses vraiment curieuses et intéressantes, — surtout<lb/>d’édifices religieux — l’auteur a oubliées ou n’a pas jugées dignes<lb/>d’une mention!</p>
+        <p><lb/>Habitants. La population augmente rapidement. En quarante<lb/>ans elle est passée de 50.000 à près de 100.000 habitants. « Le<lb/>commerce opère cette agglomération qui semble indéfinie ; il ne<lb/>faudra pas s’en plaindre si les nouveaux venus se mettent à la<lb/>hauteur des aimables naturels de Toulouse ». Nous trouvons en-<lb/>suite une longue citation d’un écrivain dont on nous laisse ignorer<lb/>le nom, mais qui ne paraît pas être autre que F. Gimet dans<lb/>Toulouse et son commerce, 1858, et qu’Adolphe Joanne dans son<lb/>De Bordeaux à Toulouse, à Cette et à Perpignan a également mis<lb/>à contribution. « Beaucoup d’esprit et de gaieté, beaucoup de pen-<lb/>chant à l’obligeance et aux sentiments affectueux, beaucoup de<lb/>douceur et d’affabilité dans le commerce de la vie, tels sont, avec<lb/>un grand fonds de vivacité, source ordinaire d’une excessive<lb/>promptitude dans le jugement comme dans la détermination, les<lb/>traits éminemment caractéristiques de Toulouse. L’étude des lois<lb/>et leur application, les travaux scientifiques et littéraires, la culture<lb/>des arts, particulièrement de la musique et de la danse, les plaisirs<lb/>et les fêtes, tels sont les principaux et divers éléments des occupa¬<lb/>tions auxquelles il se livre avec le plus d’ardeur. Extrême dans le<lb/>bien comme dans le mal, il met, il porte tout au superlatif. Mal-<lb/>grès les excès trop nombreux que nous nous dispensons de citer,<lb/>le peuple de Toulouse, si prompt à s’exalter, n’a pas dans son as-<lb/>siette naturelle les mœurs brutales qu’on reproćhe à certaines con¬<lb/>trées du Midi ; on remarque même une certaine douceur dans son<lb/>langage, dans son pafois, son accent et ses manières, comparés<lb/>surtout au langage rude, à l’accent désagréable et aux manières<lb/>brusques du peuple marseillais. (Que vont dire les Marseillais ?<lb/>demande malicieusement Joanne, p. 140.) Le sexe, à Toulouse,<lb/>surtout dans les classes inférieures, allie à la vivacité de l’esprit le<lb/>charme séduisant de la beauté. En général les Toulousaines sont<lb/>petites ; et quoiqu’elles aient généralement les cheveux noirs, la<lb/>blancheur de leur teint ne peut être surpassée. Dans leurs traits<lb/>le piquant s'allie à la grâce'; la fraîcheur de leur visage, l'incarnat<lb/>de leurs lèvres attestent la pureté du sang ; des dents petites et<lb/>perlées, des yeux superbes, presque toujours fendus en amande et<lb/>reliés par de longues paupières, ajoutent à leur agrément. A ces<lb/>qualités extérieures elles joignent une âme aimante et un caractère<lb/>d’une pétulance singulière ; elles sont franches, gaies, communica-<lb/>tives... » La citation se poursuit par l’éloge du génie mu¬<lb/>sical du Toulcusain qui « chante pour ainsi dire en nais-<lb/>sant » ; on y vante « ces belles nuits d’été où des centaines<lb/>de groupes, parcourant les rues, font entendre des accents pleins<lb/>de charmes... Jamais on n’a éprouvé cette jouissance dans les<lb/>contrées du Nord de la France, où les voix sont rauques, surtout<lb/>dans les dernières classes de la société. »</p>
+        <pb facs="0013.xml"/>
+        <milestone unit="page" n="125"/>
+        <p><lb/>Deux paragraphes terminent l’article TOULOUSE. Le pre¬<lb/>mier, Momies toulousaines, traite des caveaux des Cordeliers et de¬<lb/>Jacobins de Toulouse. « Les voyageurs allaient visiter avec une<lb/>sainte horreur les cadayres que l’on y conservait. « L’action dessé-<lb/>chante des caveaux était telle qu’un corps pesant soixante-quinze<lb/>kilos était réduit à six. » M. de Puymaurin (ici, par exception le<lb/>compilateur nomme son autorité) (1), qui en a pesé plusieurs, n’en<lb/>a pas trouvé au-dessus de ce poids. La différence de poids avait<lb/>disparu sans que le corps eût perdu sa forme. C’était de la pous-<lb/>sière sous une figure humaine ; les intestins prenaient feu et<lb/>étaient souples comme de l’amadou, et le cerveau était réduit en<lb/>une poudre grossière comme la sciure de bois ; mais la face con¬<lb/>servait tous les traits de la physionomie. L’effet des passions se<lb/>peignait encore sur ces cadavres ; chez quelques-uns la contrac-<lb/>tion des muscles figurait une sorte de rire hideux... Dans le ca-<lb/>veau des Cordeliers on admirait le corps d’une femme qui passait</p>
+        <p rend="labelled"><lb/>(1) Il aurait pu ajouter qu’il s'agit d’un travail lu à notre Académie des<lb/>Sciences, Inscriptions et Belles-Lettres et inséré dans ses Mémoires, sérre I,<lb/>t. III.<lb/>pour avoir été Paule Viguier, une des plus belles dames de son<lb/>temps. » Il n’est point question des corps conservés sous le porche<lb/>de l’église Saint-Nicolas, lesquels, suivant Le Blanc de Vernet, au-<lb/>raient provoqué le mot connu de Maupertuis, cité par notre au-<lb/>teur sous cette forme : « Les momies qui ricanent se moquent ap¬<lb/>paremment de nous qui vivons encore. » Le Guide des étrangers<lb/>dans Toulouse et ses environs (Delboy, 1853) exprime son degoût<lb/>pour une telle exhibition : « Le porche... était d’un mauvais effet ;<lb/>on y voyait autrefois une vingtaine de cadavres parfaitement con-<lb/>servés, qu’on avait placés debout dans une tribune. On ne crai-<lb/>gnait pas alors d’exposer aux regards de tous les fidèles qui allaient<lb/>adorer Dieu la vue de ce que nous devenions après notre mort.<lb/>Notre siècle est aujourd’hui plus susceptible et ne supporterait plus<lb/>un pareil spectacle. »</p>
+        <pb facs="0014.xml"/>
+        <milestone unit="page" n="126"/>
+        <p><lb/>Le paragraphe consacré à la Bataille de Toulouse est bref : il<lb/>ne fait aucune allusion à la réception enthousiaste faite à Welling-<lb/>ton par une partie de la population toulousaine. Il se termine<lb/>par une anecdote : « Lorsque Soult fut député par Louis-Philippe<lb/>pour assister au mariage de la reine Victoria, on demanda à Wel-<lb/>lington s’il voulait permettre qu’on le plaçât à table près du ma-<lb/>réchal. « J’aime mieux l’avoir à côté qu’en face de moi », répondit<lb/>courtoisement l’Anglais. C’est qu’il se souvenait de la journée de<lb/>Toulouse. »</p>
+        <p><lb/>Dans l'arrondissement de Saint-Gaudens les monuments ne<lb/>tiennent qu’une place infime, s’effaçant devant la beauté des pay-<lb/>sages. Saint-Gaudens « à cause de ses charmants points de vue<lb/>arrêterait pour de longs jours le voyageur le plus exigeant s’il<lb/>n’était impatient de voir de plus près ces merveilles de la na-<lb/>ture... » Quelques mots sur Aspet ; un développement plus long<lb/>sur Bagnères-de-Luchon et le Port d’Oo « qui n’a rien de militaire<lb/>ni de marchand », le lac et la cascade de Séculéjo, sur Saint-Béat<lb/>et la source de la Garonne, celle-ci au lieu nommé le Plan-de-<lb/>Gouéou où se présente aux regards surpris du voyageur « l’énorme<lb/>gouffre qui la vomit par deux bouches ». Montréjeau enfin, avec<lb/>son Pont de marbre et les grottes de Gargas ; le Pont,,, « d’une<lb/>élégance remarquable embellit une contrée sauvage et remarqua¬<lb/>blement belle » ; les grottes, « les plus vastes de toutes les Pyré-<lb/>nées... ont été illustrées par le meurtre ee le brigandage... » —<lb/>Elles ont aujourd’hui beaucoup d’autres titres à la notoriété que</p>
+      </div>
+    </body>
+  </text>
+</TEI>

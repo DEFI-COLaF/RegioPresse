@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Campana de Magalouna</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7350048b</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Campana de Magalouna : journal populàri que parei lou 1è e lou 15 de toutes lous meses</title>
+          <publisher>[s.n.] (Mount-Peliè)</publisher>
+          <date when="1895-01-15">1895</date>
+          <idno type="ARK">bpt6k7350048b</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7350048b</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Quatrièma annada. - No 717.</fw>
+        <dateline><lb/>Dimàs, 15 de Janviè 1895</dateline>
+        <ab><milestone unit="column" n="2"/><lb/>Pas qu'un sou!<lb/>Quau n’en vòu ?</ab>
+        <figure>
+          <head><lb/>Journal poupulàrt das felibres de Mount-Peliè que parei lou 1'e lou 15 de toutes lous meses</head>
+        </figure>
+        <ab><lb/>Aministracioun e Redacioun<lb/>15, carrieira dau Chival-Verd, à Mount-Pelié</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Per las anounças e las reclamas,<lb/>s'entendre embé l'Aministracioun.</ab>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/>Un An<lb/>Quaranta sem</p>
+        <p rend="heading"><lb/>ABOU A MEN :</p>
+      </div>
+      <div type="article">
+        <head><lb/>Emb'aqueste numero la<lb/>Campana de Magalouna</head>
+        <p rend="styled"><lb/>intra dins sa quatrièma annada.</p>
+        <p rend="styled"><lb/>La renoumada de noste journalet grandis embé<lb/>lous ans. D'aquesta oura l'a pas dins noste bèu<lb/>departamen uno soula vilota, un soul vilage<lb/>grand ou pichot, ounte se legigue pas la Cam-<lb/><lb/>pana de Magalouna.</p>
+        <p rend="styled"><lb/>Voulen ourganisà la venta au numero de la<lb/>CAMPANA dins toutes lous endrechs. Mès<lb/>couma aco's pas un pichot traval, counselhan as<lb/>persounas que demoroun pas à Mount-Peliè ou à<lb/>Ceta on à Beziès, pertout enfin ounte se vend pas<lb/>encara la Campana de Magalouna de s'a-<lb/>bounà direitamen en mandant Quaranta sòus au<lb/>secrètari de la CAMPANA, 15, carrièira dau<lb/>Chival-Verd, à Mount-Peliè.</p>
+        <p rend="styled"><lb/>Pregan lous marchands de journals que demo¬<lb/>roun en defora de Mount-Pelie e que voudrièn ven-<lb/>dre la CAMPANA DE MAGALOUNA,<lb/>d'escrièure au burèu dau journal.</p>
+        <p rend="styled"><lb/>Pregan las persounas que voudrièn pas renou-<lb/>vela soun abounamen de nous remandà aqueste<lb/>numero embé la mencioun: Refusat.</p>
+        <p rend="styled"><lb/>Las persounas qu'au countràri voloun s'abounà<lb/>tourna-mai soun pregadas de nous manda la sou-<lb/>ma de quaranta sous acans lou lè de Febriè.<lb/>Passat aquela data, faren encaissa per la posta e<lb/>aco coustara cinq sous de mai- per lous frèsses.</p>
+        <p rend="styled"><lb/>Couma l'an passat, lous estitutous pagaran<lb/>soun abounamen que trenta sous.</p>
+        <p rend="styled"><lb/>Fasen assaupre as persounas que voudrièn se<lb/>proucurà lou SOUC DE NADAU de 1894—<lb/>que soun sucès es estat espetaclous — qu'an pas<lb/>qu'a nous mandà quatre timbres d'un sou per lou<lb/>reçaupre franco.</p>
+        <p rend="styled"><lb/>1893 1892. Auele venden <lb/>de 1893 e 1892. Aqueles ous venden cin <lb/>chacun.</p>
+        <p rend="styled"><lb/>Counselhan à nostes letous de nous escriéure<lb/>per nous dire que voloun reçaupre lou libre de<lb/><lb/>noste coulabouradou Lou Maseliè: En Terra<lb/>Galesa, quand sarà prèste.</p>
+        <p rend="styled"><lb/>Aquel libre coustará pus que 3 fr. 50.</p>
+        <figure/>
+      </div>
+      <div type="article">
+        <head><lb/>Per las metre à l’osca</head>
+        <figure type="decoration"/>
+        <p><lb/>Per las metre à l'osca — pense qu'avès devi-<lb/>gnat de quau parle, — vole que l'age pas cin¬<lb/>quanta mila biais de se ié prene. Mes dequ'e.<lb/>de-besoun de tant? S'agis que n'i'age un bon,<lb/><lb/>pas vrai ? e que se ficou lous autres !</p>
+        <p><lb/>Or lou bon biais i'es e toutes lou counouissès,<lb/>au-mens per ausit dire amai, se cau, quanques¬<lb/>uns per l'avedre emplegat... Chut ! parlen pas<lb/>de ço que facha. D'abord aco's d'afaires qu'arre-<lb/><lb/>gardoun pas degus e, quant à iéu, soui aici<lb/>simplamen per vous countà, s'avès de tems de<lb/>rèsta, coussi 'n cop aquel bon biais agèt double<lb/>sucès. Belèu sabès pas lou fet?</p>
+        <p><lb/>Prenguen las causas per soun fiéu.</p>
+        <figure type="decoration"/>
+        <p><lb/>I'aviè, à las Matellas, un jouinome que son¬<lb/>naren Milota. Aquel Milota aviè perdut soun<lb/>paire de bona oura e sa maire, la, véusa Nanoun,<lb/>aviè toujour dich de nou quand s'èra parlat de<lb/>la remaridà. Couma enfant de véusa èra dounc<lb/>pas partit per soun sort. E viviè sans trop de<lb/>Saguis, urous que-noun-sai, dins soun oustalet<lb/>de l'intrada dau vilage. Gagnava de bravas jour¬<lb/><lb/>nadas, dins sous emperaus fasiè valé sous quau-<lb/>ques cantous, aviè toujour la soupa escullada<lb/>lou vèspre quand arrivava e la biassa garnida<lb/>lou mati quand partissiè, e de-longa sa maire<lb/>lou teniè recatat e propre couma un anèl. Digàs-<lb/>me ço que ié mancava?</p>
+        <p><lb/>Ai ! las ! la benurança, quand per asard passa<lb/>en-quicon, aici-de-bas, ié fai pas de longas fan-<lb/>gas. En lavant sa bugada, un ivèr, Nanoun acas-<lb/>sèt un marrit raumàs. Lou raumàs, d'abord mau<lb/>suegnat, venguèt vilèn, talamen vilèn que la<lb/>paura n'escapèt pas. Quinze jours après l'enter-<lb/>ravoun.</p>
+        <p><lb/>Vejaqui dounc noste Milota sans oustalièiras.<lb/>E ara, coussi viéure tout soulet? Travalhà de-<lb/>fora couma un negre tout lou sanclame dau<lb/>jour e faire la cousina lou vèspre entre arrivà,<lb/>sustout quand i'entendès couma un porc per<lb/>escriéure, es pas causa gaire coumoda. Milota<lb/>hou vourguet ensajà, mès, pecaire, quau t'a<lb/>vist e que te vei! Au bout d'una mesada, el,<lb/>autres cops ple de car e triounflant de santat,<lb/>éra pus sec qu'un estelou e regagnava d’osses<lb/>couma de trissous.</p>
+        <p><lb/>Se virèt d'un autre biais e prenguet pensioun<lb/>enco d’un de sous cousis. Aco seguèt sourti<lb/><lb/>dau réc per toumbà dins la rivièira. Aimava<lb/>lous fabious, ié metièn de lentilhas ; auriè vou¬<lb/><lb/>gut de lentilhas, aviè de fabiòus ; e semblava<lb/>encara que ié fasièn Marmanda de lou nourri,<lb/>amai que, per aco, paguèsse ben. Un jour, per<lb/>pati-patà-pas-res, agéroun quaucas pichotas<lb/>rasous e se quitéroun broulhats à mort.</p>
+        <p><lb/>Milota anèt à l'auberja. S'en faguèt soun sou<lb/>e ié gagnèt de manjà, mai souvent qu’à soun<lb/>tour, de vièls fricots rabinats ounte las mouscas<lb/>assecutavoun lous pèusses de la pachauda cou¬<lb/>sinièira.</p>
+        <p><lb/>De veire tout aco feniguèt per se faire una<lb/>resoulucioun.</p>
+        <figure type="decoration"/>
+        <p><lb/>Un bèu dimenche, entre sourti de la messa<lb/>prumièira, vestit de sas pus bellas bralhas, la<lb/>bloda blua flambant-nòu, capel e souliès das.<lb/><lb/><lb/>festenaus, Milota s’acarrairèt daus Sant-Marti,<lb/>gros vilajàs à dos ouras de las Matellas.</p>
+        <p><lb/>E pas pus-lèu i'arrivà demandèt ounte demou¬<lb/>rava lou vièl Coustant.</p>
+        <p rend="labelled"><lb/>— Tenès. l'ayès amount que vèn de la messa<lb/>granda, quaucun ié diguèt.</p>
+        <p><lb/>Couma de-fêt, Coustant, que l'aviè devistat, se<lb/>sarrava daus el :</p>
+        <p rend="labelled"><lb/>— Holà ! aco's tus, Milota? Per quante fèt<lb/>d'asard te capites aici?</p>
+        <p rend="labelled"><lb/>— Soui vengut vous veire.</p>
+        <p rend="labelled"><lb/>— As ben fach, moun ome... Tè, pichot. —<lb/>diguèt à-n-un manit que passava, — aqui i'a'n<lb/>sòu per tus e vai-t'en vite à l'oustau avisà<lb/>Goutoun que çai avèn quaucun de dinnada,<lb/>que ?... D'aquel tems farian pas mau d'anà gim-<lb/>pla'n veire. Dises pas couma iéu?..</p>
+        <p rend="labelled"><lb/>— S'aco vous agrada, vole ben.</p>
+        <p rend="labelled"><lb/>— Sabes, moun enfant, coussi ta paura maire<lb/>aco seguèt lèu lèste ? Sembla pas poussible, una<lb/>fenna tant galharda !... Ah ! ça, mès, diga-me :<lb/>e quau te nourris?</p>
+        <p rend="labelled"><lb/>— M'en parlés pas, siéuplèt, que n'ai un vòmi.</p>
+        <p><lb/>E, pan per pan, ié countèt sa vidassa desproi<lb/>qu'aviè enterrat sa maire.<fw type="digitisation-artefact"><lb/>purce gallica.bnf.fr/Montpellier Méditerranée Métropole - Médiathèque centrale Emile Zola</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

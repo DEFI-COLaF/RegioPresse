@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Campana de Magalouna</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7350090x</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Campana de Magalouna : journal populàri que parei lou 1è e lou 15 de toutes lous meses</title>
+          <publisher>[s.n.] (Mount-Peliè)</publisher>
+          <date when="1897-03-01">1897</date>
+          <idno type="ARK">bpt6k7350090x</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7350090x</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Un double sou:<lb/>Zou! quau n’en vòu ?</fw>
+        <fw type="runningTitle"><lb/>Sieisièma annada. - No 113.</fw>
+        <dateline><lb/>Dau 1^e au 15 de Mars 1897.</dateline>
+        <figure/>
+        <head><lb/>Lournal poupilant das felibres de Mount-Pelie que parei lou 1' e lou 15 de tontes lous meses</head>
+        <figure type="table"/>
+        <ab><milestone unit="column" n="2"/><lb/>Aministracioun e Redacioun<lb/>27, Grand -Carrièira, 27, à Mount-Pelie</ab>
+        <ab><milestone unit="column" n="3"/><lb/>La Campana se vend à Paris<lb/>Enco de M. Plerre DUFFAU, Gaierie Vivienne, 25</ab>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>Es aici (boulega la tésta).<lb/>DINS LA POULA (lous que soun en camisa de fenna.<lb/>Oui, Moussu lou Tribunal.</ab>
+        <figure/>
+        <ab type="head"><lb/>BARBASTA (fort)</ab>
+        <p><lb/>Silen-en-en-ce !.. Quand tont es siau) La Court.<lb/>Pausàs vostes capèls.</p>
+        <ab type="head"><lb/>Lou JUGE (à Barbasta)</ab>
+        <p><lb/>Apelàs l'acusat.</p>
+        <ab type="head"><lb/>BARRASTA</ab>
+        <list>
+          <item>Sa Majestat Gargantuàs lè dich Caramentran.</item>
+        </list>
+        <p><lb/>CARAMENTRAN (De dejout el una vouès respond)</p>
+        <p rend="labelled"><lb/>Viva Caramentran !... Viva Gargantuàs !...</p>
+        <p><lb/>BARBASTA (en faguent la vouès de canard)<lb/>Siten-en-ce !...</p>
+        <ab type="head"><lb/>Lou JUGE (a Barbasta)</ab>
+        <p><lb/>Uchè, legissès l'ate d'acusacioun.<lb/>BARBASTA (egis un rouléu de papié de 3 ou 4 méstres).</p>
+        <ab type="head"><lb/>Ate d'acusacioun:</ab>
+        <p><lb/>Sa Majestat Gargantuàs, premié dau noum,<lb/>dich Caramentran, aici present, es acusat de<lb/>toutes lous malastres qu'an passat sus noste<lb/>pèn Clapàs despioi quauque tems. — d'avedre<lb/>conmés, pendent las festas dounadas en soun<lb/>ounou, dau 27 de Febriè jusquas à ioi, lous pus<lb/>orres crimes de desbaucha qu'on pogue se<lb/>figurà : — es el qu'es l'encausa que lou vi de<lb/>passarilha se vend e que lou bon jus de nostas<lb/>vignas rèsta dins nostes foudres ; es el que fai<lb/>aumentà las talhas ; es el que nons fai gouvernà<lb/>pas que per la contra-banda ; es el que retarda<lb/>la coustrucioun de nostes tramvais (toussis).</p>
+        <p><lb/>Se la « caissa de mort » es pa 'ncara coum-<lb/>blada, es el que mes d'embouls entre la vila e<lb/>lou cami de ferre. Se las eleciouns soun annu-<lb/>adas, es à cousa de sa michanta poulitica que<lb/>fai que degus pot pas toumbà d'acord.<lb/></p>
+        <p><lb/>Es el, lou miserable ! qu'a mes floc à nosta<lb/>jaura Espausicioun. Es el que n'es l'encausa se<lb/>lou coumerce fai pas res. Es el que nous a man-<lb/>dat touta aquela cassibralha que rauba dins<lb/>ous masets e arrèsta quàsi en plen jour lou<lb/>brave mounde... (toussis).</p>
+        <p><lb/>A troumpat de filhas, a desbauchat de garçous<lb/>e couifat d'omes maridats de ce que se dis pas,<lb/>a deslargat toutas las fedas en faguent intrà lou<lb/>loup dins lou pargue. Es un criminal que la<lb/>Justiça déu puni couma s'amerita. N'en cau des-<lb/>barrassà lou Clapàs aqueste vèspre mème. (Mes<lb/>lou long papiè desroullat sus la taula).</p>
+        <ab type="head"><lb/>LOU JUGE (à Caramentran).<lb/></ab>
+        <p><lb/>Couma vous apelàs?</p>
+        <ab type="head"><lb/>CARAMENTRAN<lb/></ab>
+        <p><lb/>La joia!... Lou plesi!.. Lou cacalàs !.. (En<lb/>cacalossant) Ah! Ah ! Ah !...</p>
+        <ab type="head"><lb/>LO JUGE</ab>
+        <p><lb/>Voste noum, vous dise. Sen pas aici per ga¬<lb/>leja.</p>
+        <ab type="head"><lb/>CARAMENTRAN (cacalarsant mai-que mai)</ab>
+        <p><lb/>Ah:Ah! Ah! Ah! Oh!Oh! M! M!..</p>
+        <ab type="head"><lb/>LOU JUGE</ab>
+        <p><lb/>temouèns.</p>
+        <ab type="head"><lb/>BARBASTA</ab>
+        <p><lb/>Mestre Pipeta, de Figairolas!</p>
+        <p><lb/>e</p>
+        <p><lb/>Vêne, vène.. Bonsour, Moussu lou Tribunal.</p>
+        <ab type="head"><lb/>LOo JeCE</ab>
+        <p><lb/>Es vous Pipeta?</p>
+        <ab type="head"><lb/>PIPETA</ab>
+        <ab type="head"><lb/>LOu JUCr</ab>
+        <p><lb/>Jurùs de nous dire la veritat, res que la veri-<lb/>tat? Levàs la man.</p>
+        <ab type="head"><lb/>PIPETA</ab>
+        <p><lb/>Hou jure, Monssu lon Tribunal, mentirai pas.</p>
+        <ab type="head"><lb/>Lov JUCk</ab>
+        <p><lb/>Menjan, de qu'avès à reprouchà à Caramen-<lb/>tran</p>
+        <ab type="head"><lb/>PIPETA</ab>
+        <p><lb/>Ah! lou gusàs! Ah! lon michant coulà!<lb/>(Sourtis soun moncadou e ploura).</p>
+        <ab type="head"><lb/>LOU JUGE</ab>
+        <p><lb/>Anen, anen, sen pas aici per quichà l'irange.<lb/>Parlàs.</p>
+        <ab type="head"><lb/>PIPETA</ab>
+        <p><lb/>Sièi un brave prouprietàri dau Rouquet, à<lb/>ramassat quauques sòus en nourriguent dei<lb/>porcs, en parlant per respèt. Vivièi tranquilla-<lb/>men embé ma jouina Catarina, una fenneta de</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Rauba-Saumas, marchand de fascous,<lb/>Dona Fissou, carrejaira de la plaça.<lb/>vada de la Jurada)</ab>
+        <ab type="head"><lb/>Lou Jujamen dau Caramentran</ab>
+        <ab type="head"><lb/>gargantuas i</ab>
+        <ab type="head"><lb/>AU CLAPAS</ab>
+        <ab type="head"><lb/>Lou 2 de Mars 1897</ab>
+        <ab type="head"><lb/>mnn</ab>
+        <p><lb/>Milhon infourmada que toutes lous journals de Paris,<lb/>que se vanton toujour d'hou estre tant, la Compana de<lb/>Magalouna a la bona chança de poudre dounà lou pron-<lb/>cès e lou jujamen dau Caramentran Gargantuàs lè avans<lb/>qu'aco se siègue passat. Es vrai que l'uché que nous a<lb/>fach aquela coumunicacioun es<lb/>un Campanié. Mès pre-<lb/>gan nostes letous de pas repeta à degus ce que disen,<lb/>que noste brave amie poudrie belèu perdre sa plaça.</p>
+        <ab type="head"><lb/>PERSOUNAGES:</ab>
+        <list>
+          <item>Griboulha, juge.</item>
+        </list>
+        <list>
+          <item>Mèstre Latitou, avoucat.</item>
+        </list>
+        <list>
+          <item>Barbasta, uchè.</item>
+        </list>
+        <list>
+          <item>Batiston,</item>
+        </list>
+        <p rend="labelled"><lb/>Grand-Jacus,} gendarmas.</p>
+        <list>
+          <item>Pipeta, prouprietàri,</item>
+        </list>
+        <figure/>
+        <list>
+          <item>Dona Marioun,</item>
+        </list>
+        <ab type="head"><lb/>Membres de la Jurada<lb/>Gents dau Clapàs e das vilages</ab>
+        <p><lb/>bun embae la de Mount<lb/>bunal embé la jurad<lb/>jujamen. Caramentran es assetat, en faça, entre dous<lb/>gendarmas á chivalot sus un a</p>
+        <p><lb/>nioch. fan la rounda a l'entour se dargantuas e da<lb/>de nioch, fan la rouuda à l'entour de Gargantnas e das<lb/>gendarmas, en cantant:</p>
+        <ab type="head"><lb/>Adiéu, paure, adiéu, paure,</ab>
+        <list>
+          <item>Adiéu, paure Carnaval !</item>
+        </list>
+        <list>
+          <item>Tus t'envàs e iéu demore,</item>
+        </list>
+        <list>
+          <item>Adiéu, paure Carnaval!</item>
+        </list>
+        <p><lb/>(En picant de las mans) A-n-un, à dous c à tres!<lb/>(Repetoun dous on tres cops aquel coublet jusqu'à l'arri-</p>
+        <p><lb/>Lou Tríbunal arira embé la Jurada<fw type="digitisation-artefact"><lb/>urce gallica.nf.fr/Montpellier Méditerranée Métropole - Médiathèque centrale Emile Zola</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

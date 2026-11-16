@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81342597</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1882-10-13">1882</date>
+          <idno type="ARK">bpt6k81342597</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81342597</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Dimenche 15 d'Outobre 1882</fw>
+        <fw type="runningTitle"><lb/>Dous sòu lou numeró</fw>
+        <dateline><lb/>IVo Annado — No XXIX p. 225</dateline>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>JOURNAU POUPULARI DE LITERATORO, D'ISTORI E DE SCIENCI</p>
+        <p rend="heading"><lb/>PARBISSENT TOUTEI LBI DIMENCHE</p>
+        <p rend="styled"><lb/>Depausitàri majourau pèr Marsiho M. Vincent, carriero Corneille, 3.</p>
+        <ab><lb/>Les annonces, rèclames et faits di-<lb/>Tout ço que toco lou journau dèu<lb/>vers sont reçus euclusivement à l'A-<lb/>estre manda afranqui à l'Emprimariè<lb/>gence Ewig rue d’Amboise-Richelien,<lb/>Prouvençalo, 15, carrièro dóu Grand-<lb/>9. Paris fermière de la publicite.<lb/>Relògi, à-z-Ais.</ab>
+        <figure type="table"/>
+        <ab><lb/>Abounamen ;<lb/>SE franc pèr an pèr touto la Franço.<lb/>Fouero Franço. lou port en subre, ço<lb/>que revèn à DES franc.</ab>
+        <p rend="heading"><lb/>FLEURS FELIBRESQUES<lb/>POÉSIES PROVENCALES ET LANGUEDOCIENNES</p>
+        <p rend="heading"><lb/>PAR</p>
+        <lg>
+          <l><lb/>Editlon avec texto en regard, notices littéraires, notes. étc</l>
+          <l><lb/>un fort volume format in-16 de plus de 500 pages.</l>
+        </lg>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab><lb/>THEATRE DE JEAN DE CABANES<lb/>Tomell (seetion littéraire)<lb/>DE LA<lb/>GRANDE BIBLIOTHEQUE PROVENÇALE<ab><lb/>Directeur : ALBERT SAVINE</ab></ab>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>TAULETO</p>
+        <p><lb/>L'aiglo e lou souléu — M. Bourrelly</p>
+        <p><lb/>La mar latino — Peire Simoun</p>
+        <p rend="structured"><lb/>CROUNICO. — La couronno de Roumanio e lei feli-<lb/>bre — Lei felibre de Paris — La Marsiheso de</p>
+        <list>
+          <item>L. Astruc.</item>
+          <item>VARIETA LITERARI. — Estève. - V. Bernard.</item>
+          <item>PUETETOUN. — L'aneu dóu rei. - F. d'E.</item>
+        </list>
+      </div>
+      <div type="article">
+        <head><lb/>PASSO-TEMS</head>
+        <head><lb/>EN MALOFACNO</head>
+        <p><lb/>Eiço n'es pas de baio.</p>
+        <p><lb/>Baculard éu meme l'a counta, e quaucun que<lb/>l'escoutavo me l'a recounta. Es à prepaus,se passo<lb/>pèr vendemio.</p>
+        <p><lb/>Baculard es un d'aquéli gros e gran: bougras<lb/>en quau farié pas bon cerca carioun.</p>
+        <p><lb/>Es bouchié.</p>
+        <p><lb/>Coume touti li bouchié tènon de longo un trou-<lb/>péu, se devino que Baculard, quand a ges de<lb/>sastre o qu'aqueste eo empacha, vai tamben garda<lb/>li moutoun.</p>
+        <p><lb/>Aperaqui pèr Sant-Miquéu s'atrovo qu'uno niue<lb/>gardavo entre sero e matin, dins un bén meucén<lb/>d'esparset jouine. Acò se fai pas: Baculard éro<lb/>en malofacho : se l'aviéu arrapa n'i'auriéu foutu<lb/>pèr un bèu davans de corset; mai la niue li gènt<lb/>dormon. Dormien pas touti pamens car Baculard,<lb/>asseta sus un ribas, veguè à la clarta d'uno pichoto<lb/>luno ennevoulido, veni quaucun qu'avié l'èr de<lb/>porta un tarrié sus lou còu e que filavo tout dré<lb/>sus uno bello vigno fasènt raro is esparset.</p>
+        <p rend="labelled"><lb/>—Oh! se diguè noste pastre,parei que veseici un<lb/>qu'amo, coumo iéu, de faire si cop de nieu. Vejan<lb/>un pau.</p>
+        <p><lb/>E coume soun chin l'anavo voula dessus, lou<lb/>tenguè entre si cambo.</p>
+        <p><lb/>Lou laire veguè ren; sefourré dins li manuiero,</p>
+        <ab><milestone unit="column" n="2"/><lb/>MODEUNES<lb/>tirèes des ouvres des félibres<lb/>MISES EN VERS FRANÇAIS<lb/>Constant HENNION<lb/>Prix ; franco pour les souscripteurs : 3,50<lb/>Le Volume, qui va paraitre incessamment,<lb/>sera côté 5 franes en librairie.<lb/>PASSO-TÈMS. — En malofachO — P. D. B.<lb/>POUESIO. — A Jan Aicard. — J-B. Gaul<fw type="digitisation-artefact"><lb/>u/B̀</fw></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

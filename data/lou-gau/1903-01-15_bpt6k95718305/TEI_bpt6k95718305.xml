@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Gau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k95718305</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Gau : revisto mesadiero pèr li revendicacioun de la lengo prouvençalo à l'escolo, dins la cadiero e à la tribuno poupulàri : parèis lou 15 de chasque mes / secretàri dóu Gau D. Savié de Fourviero</title>
+          <publisher>[s.n.] (Tarascoun-sus-Rose)</publisher>
+          <date when="1903-01-15">1903</date>
+          <idno type="ARK">bpt6k95718305</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k95718305</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <dateline><lb/>ANNADO SETENCO</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>15 de JANVIÉ 1903</ab>
+        <note type="handwritten"><lb/><lb/>Vaucluse<lb/>n<lb/>1905</note>
+        <fw type="numbering">א77</fw>
+        <figure/>
+        <ab><lb/>à l'Eocolo, dins la Cadiero e à la Tribuno poupuld̀ri</ab>
+        <p rend="heading"><lb/>CANTAIRE DI REVENDICACIOUN PROUVENÇALO</p>
+        <figure type="decoration"/>
+        <ab><lb/>AMENISTRACIOUN:<lb/>LI RAILE DOU GAU:<lb/>FAREIs LOU 15 DE CHASQUE MES<lb/>LI FRAIRE AUBANEU<lb/>MiSTE EIsSETO — ANTÒNI BERTIÉ<lb/>ABOUNAMEN: 3 FRANC PÈR AN<lb/>Avignoun<lb/>van-ciero.<lb/>D. SAVIM DE FOCRVIERO</ab>
+        <ab><lb/>TAULETO : Cacaraca, D. SAVIE DE FoURVIERO. — Espinchounado Setenàri, A. BaRTIÉ. — Crounico, — Li Pastre di Baus, Charloun Rie. —<lb/>Li Pastouralo, ToUNtOUN, de Bèu-Caire. — Li Parla Poupulàri, M. LAURENT. — Pichoto Courrespoundènci. — Fuietoun : Evangèli segound<lb/>Sant Jan, Don SAVIÉ DE FOURVIERO.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure/>
+        <ab><lb/><lb/>qui-ho, e de bau-dour, d'ourguei re-gounfle, de si sèt</ab>
+        <ab><lb/>an sa - lu-do l'au-bo: Caca-ra - ca! ca - ca-ra-</ab>
+        <figure/>
+        <ab><lb/><lb/>CACARACA!!<lb/><lb/><lb/>MusicO de P. CHASSANG</ab>
+        <ab><lb/>oa to dre-cho, bèu, u - fa-nous, se re-quin-</ab>
+        <ab><lb/>cal Ca-ca-m - ca!<fw type="digitisation-artefact"><lb/>e ./qei Fe</fw></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

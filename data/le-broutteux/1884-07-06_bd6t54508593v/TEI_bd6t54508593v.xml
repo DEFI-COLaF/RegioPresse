@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508593v</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1884-07-06">1884</date>
+          <idno type="ARK">bd6t54508593v</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508593v</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>Numéro 102. (3me ANNÉE).</ab>
+        <ab><milestone unit="column" n="2"/><lb/>Un Numéro: 10 centimes</ab>
+        <ab><milestone unit="column" n="3"/><lb/>DIMANCHE 6 JUILLET 1884.</ab>
+        <figure type="decoration"/>
+        <figure/>
+        <figure type="table"/>
+        <p rend="heading"><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING</p>
+        <p rend="styled"><lb/>Administration: FRERE-GLORIEUX, Imprimeur, rue de Lille, 18. — Rélaction: Jules WATTBDUW, rue Desurmont, 31</p>
+      </div>
+      <div type="article">
+        <head><lb/>LES GARDINS.</head>
+        <p rend="styled"><lb/>Un jardin à mes yeux est un<lb/>vaste tableau.</p>
+        <ab><lb/>DELILLE.</ab>
+        <p><lb/>In attind acor ben souvint, des gins,<lb/>dire : ch'est hureux tchi qui a in p'tit gar-<lb/>din par derire s’majon, du qui peut aller<lb/>gober l'air du matin in sélevant ou ben<lb/>aller faire in boutchet à l'occasion, vir<lb/>pousser les rosses, les géramiums, l’z'œil-<lb/>lets, les tulipes, tout cha... aller vir si va<lb/>avoir gramint d’grouselles ou ben d'rojins,<lb/>vir l'z'afants faire des tchuberlires vin<lb/>l'herbe. Ch'est la vérité demen, ch'est<lb/><lb/>plaiji, pasque vous avez bel à dire y n'a<lb/><lb/>rin d'pus beau qu’les fleurs, et y arriffe<lb/>ben souvint qu'in s'casse la boule in s'de-<lb/>mandant : qu'mint qu'cha s'fait? qu'mint<lb/>qu'ch'est possible, infin? cheull' variété<lb/>d'nuances, que l'peintre l'pus habile de la<lb/>terre n’peut po attraper ettous chès sortes<lb/>d'plantes, tout cha, in a bel à busii, in est<lb/>ptit garchon et in dot s'continter d'ad-<lb/>mirer.</p>
+        <p><lb/>In attind acor aussi des gins qui dittent,<lb/>in passant tout près d’in beau gardin,<lb/>d'inne majon d'campagne : ch'est hureux<lb/>d'ête riche pour avoir in gardin essin.<lb/>Ah ! mais, ichi ch'n'est pus l'même ; sti<lb/>qui dit cha la y s'met l'dogt vin l'œil,<lb/>pasque si in a po l'moye tertus d’avoir in<lb/>p'tit gardin par derire s’majon, in n'dot po<lb/>ignorer qui a à Tourco in grand gardin,<lb/>n gardin admirabe qui appartint à tus les<lb/>Tourtchégnos et y peuttent s'vanter qui<lb/>n'd'a po gramint d'parels.</p>
+        <p><lb/>Y a la inne avenue, in rintrant, ill' est<lb/>d'toute beauté, in peut dire. Et d'téfos<lb/>l'z'arpes n'sont po vis, vu quiz'ont du ête<lb/>ernouvelés après l'fameuse timpête du<lb/>mars in dije-huit-chint-soixante-<lb/>Tout cha est arringi au fi d’so, honneur<lb/>au jardini ! Monci Brogniez peut ête fir<lb/>de s'n'ovrache; in dirot qu'in passe sur in<lb/>tapis, y n'a rin qui traîne à terre, ch'est<lb/>toudis netii à temps. Y a la aussi in gar-<lb/>dien, Duterte, qui monte jolimint ben la<lb/>garde vin l'gardin, savez ?</p>
+        <p><lb/>In dira beut-ête, ah 4 mais, fauro vir<lb/><lb/>l'gardin Desbarbieux à Roubaix, cha ch'est<lb/>in gardin. Ch'est la vérité, in n’vot po<lb/>gramint d’pourmenades essin, aussi acci¬<lb/>dintées et aussi ben arringis, mais ch'n’est<lb/>pus l'même genre qu'à Tourco! A Rou-<lb/>baix, l'terrain étot préparé pour imiter<lb/>les montanes, les p'tits qu'mins qui s'in<lb/>vont à perte d’vue et cha surinne étendue<lb/>d'inne paire de lieus, cha ch'est beu. Et<lb/>surtout, que l'diminche ; les sociétés mu-<lb/>sicales qui n’manqu’tent po à Roubaix<lb/>vont taper in air sur in beu Kiosse qu’in<lb/>a fait par exprès. Cha fait qu’in a l'dou-<lb/>ble agrémint de s'pourmener au mitan<lb/>des fleurs et d'accouter l'musique.</p>
+        <p><lb/>Vus veyi ben cha?</p>
+        <p><lb/>A Lille aussi, si in veut dire, y n'man-<lb/>que po d'bellés pourmenates. Y n'd’a<lb/>tant qu’in veut n’d’avoir, d’tous les sortes<lb/>et d'tous les varietés, mais Lille, euch<lb/>teur, ch’est in p'tit Paris, comme in dit.</p>
+        <p><lb/>Et pus, à la fiu du conte, in n’va po aller<lb/>à Roubaix et à Lille exprès pour pourme-<lb/>ner vin les gardins tandis qui n'd'a in si<lb/>beau à Tourco, ah ! j'sais ben qu’si y<lb/>n'd'aro po, in dirot: y n'a jamais rin à<lb/>Tourco, et si veut tourner les ceux qui<lb/>trottent les premis à dire cha la, y n'met-<lb/>tent jamais in pid vin l'gardin. D'téfos,<lb/>les mamans n’peuttent po trouver d'in-<lb/>drots pus agréabes pou faire pourmener<lb/>leu p’tits afants et sans dangis, pusqu’y<lb/>n'a po d'fossé ni rin ad'tut. Les villes gins<lb/>peuttent aller s'assir à l'fraîcheur et les.<lb/>malades à l'ombre.<lb/>tchinsse. Vus s’in rappelez ben tertus qui<lb/>a été si lourd que les totures y s'inlevot-<lb/>tent comme des pleumes et qu'les cou-<lb/>vreux, les vitris et les ferblantis, y riot-<lb/>tent inveuc leu bouque overts qu'à leu<lb/>z'orelles?</p>
+        <p><lb/>Et bé, l'avenue d’arpes du gardin pu-<lb/>blic, ill' a été souflé jus comme in fétu<lb/>d'palle, tout a été ramoné d'in seul cœup.</p>
+        <p><lb/>Y a folu les rimplachi et in a mis les<lb/>beaux arpes qui a euch’teur. Mais aussi,<lb/>y faut dire qui a la in maîte jardini<lb/>qu’ch’est in ro, sayez ? Y sait l’conte,<lb/>Monci Brogniez, y est la, au poste d’pus<lb/>1877 et ch'est li qui a fait de c’gardin in<lb/>des pus beux qui n’a po vin l'départe-<lb/>mint. Y a des coups d'œil esplen diffes la<lb/>d’vin. Y faut dire aussi, que ch'est in<lb/>architeque, Monci Lefebvre de Lille<lb/>erprésentant l'maison Georges Haumont<lb/>d'Paris qui l'a tracé.</p>
+        <p><lb/>In n'peut s'in rinde compte qu'in allant<lb/>pourmener d'vin, y a la des p'tits en-<lb/>drots, saclé vingt non de quisse, qu’in<lb/>dirot qu’in est vin l'Paradis Terresse !Y<lb/>a d'z'arpes inveuc des fulles comme de<lb/>l'dintelle et d'z'autes, à côté, des grandes<lb/>diablesses de fulles qu’in peut s'assir d’sus,<lb/>y sont aussi.larques qu’inne selle.</p>
+        <p><lb/>Y a du gazon, ch’est comme du velours<lb/>vert, mais ch'est damache qui fait si sec,<lb/>d’pus in momint d'chi. Y a des parterres<lb/>de fleurs qu'in dirot qu’ch'est peint à<lb/>l'main, y n'a po inne fleur qu'ill' dépasse!</p>
+        <p><lb/>Y a des dessins d'tous les sortes :</p>
+        <p><lb/>In rintrant, au pid de l'colonne erpré-<lb/>sentant l'batalle de Tourco, y a l'étchus-<lb/>son des armes de la ville in fleurs natu¬<lb/>relles, in n’sarot po l'faire mi sur in<lb/>tablen.</p>
+        <p><lb/>Et sti qui est amateur de serres, y n'a<lb/>qu'a aller vir au gardin d'Tourco, y verra<lb/>l'modèle, in dit qui n'a po mi nulle vart.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

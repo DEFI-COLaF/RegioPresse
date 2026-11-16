@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t511510997</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1842-11-16">1842</date>
+          <idno type="ARK">bd6t511510997</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t511510997</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <head><lb/>FEUILLE POLITIQUE, LITTÉRAIRE, COMMERCIALE ET INDISIRELLE<lb/>Paraissant les Mercredis, Vendredis et Dimanches.<lb/>13 FRANCS PAR AN, 9 francs pour 6 mois, 5 francs po5 mois.</head>
+        <ab><milestone unit="column" n="4"/><lb/>minelle en France. Voici comment s'exprime sur ce M. Morelet qu'on a dû tous les préparatifs nécessaires</ab>
+        <p rend="styled"><milestone unit="column" n="2"/><lb/>On s'abonne à Dijon, au Bureau, rue Verrerie, 2 bis, où l'on reçoit toutes les communications qui peuvent intéresser le chef-lieu ou les communes<lb/>du département. – Les lettres doivent être affranchies et signées pour la garantie du rédacteur responsable.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>ceL's, nou fouarit loccasion de rappeler an bar-<lb/>reau les principes de la défense, dans les causes crimi-<lb/>nelles, que lui a tracés M. DE LACUISINE, dans son ex-<lb/>cellent ouvrage sur l'Administration de la Justice cri¬<lb/></p>
+        <p rend="labelled"><lb/>est donc l'attribution la plus brillante et la plus difficile<lb/>de la profession du barreau; il exige de l'habileté dans le<lb/>langage, de la chaleur dans l'ame, du discernement dans<lb/><lb/>l'esprit, de la mesure dans l'expression, de la convenance<lb/>dans les procédés et une connaissance profonde du cœur<lb/>humain. Prêter à tous les accusés l'appui nécessaire du<lb/><lb/>conseil et de la parole; les défendre en honnête homme et<lb/>en patron dévoné; concilier l'horreur du crime avec les<lb/>égaremens du criminel et le respect des lois avec la fragi-<lb/>lité de l'homme; rester vrai tout en plaidant le doute,<lb/>loyal et sincère tout en tournant la question, l'esquivant<lb/>ou la déguisant; imprimer aux réponses de l'accusé une<lb/>couleur de vraisemblance, aux preuves un cachet d’incer¬<lb/>titude, aux témoignages un soupçon d’infidélité, sans être<lb/>ni trompeur dans ses moyens, ni téméraire dans ses<lb/>assertions, ni diffamateur dans son but; mesurer sa parole<lb/>à sa conviction, faire la part du doute et de la certitude,<lb/>accorder à l'accu-ation ce qu'un bon citoyen ne saurait lu<lb/>contester et à la défense tout ce qu'elle doit légitimement<lb/>attendre; c'est, il faut le dire, le chef-d'œuvre de l'art et</p>
+        <p rend="labelled"><lb/>crimes et tous les intérêts, prostituer, pour sauver les plus<lb/>coupables hommes, les artifices de la parole du mensonge<lb/>et de la mauvaise foi, ou bien peut-être, dans un com-<lb/>merce mystérieux et des relations subalternes, mendier<lb/><lb/>honteusement la défense elle-même et la faire entrer dans<lb/>la composition d’un lucre prématuré; n’est-ce pas avilir sa<lb/>profession et déshonorer son caractère? Un tel oubli du<lb/>devoir est rare, mais ce qui l'est moins sans doute, est cette<lb/>exaltation d'esprit qui, prenant sa source dans l'abus de<lb/>sentimens généreux, emporte l'avocat au-dela des bornes<lb/>d'une sage contradiction: dans son égarement ou dans ses<lb/>préoccupations, il ne voit plus qu’un homme à sauver d’une<lb/>condamnation et peut-être un succès d’amour propre à sa¬<lb/>tisfaire; il s'incorpore à sa cause et s'identifie à son client;<lb/>entraîné dans cette pente funeste, il s’abandonne au déver¬<lb/>gondage du raisonnement et aux saillies d’une imagination<lb/>déréglée, il ment à sa conscience et ose même invoquer sa<lb/>propre conviction: pour lui plus de discernement possible<lb/>de la vérité et de l'erreur, de la certitude et de l'équivoque<lb/><lb/>en un mot, il se trompe lui-même, si bien il a su jouer un<lb/>rôle au lieu d'un devoir qu'il avait à remplir, et c'est ainsi<lb/>qu'il se rend moralement complice d'une coupable action et</p>
+        <p rend="labelled"><lb/>rience et d'un caractère éprouvé; cette carrière est semée<lb/>d'écueils; sans appui, sans modèle et livrée à sa propre<lb/>faiblesse, la jeunesse du barreau y compromettra son ca-<lb/><lb/>ractère, y ſaussera son esprit et y perdra sa franchise;<lb/>mais le talent n'en profitera pas, car il se nourrit, se fé-<lb/>conde et s'inspire dans l'étroite alliance des qualités de</p>
+        <p rend="labelled"><lb/>protéger de leurs exemples cette jeunesse présomplueuse et<lb/>son amour propre, en puisant à ces sources révérées du<lb/>devoir et de la science. Là des esprits graves et méthodi¬<lb/>ques que le temps fait lentement éclore et qui achètent, par<lb/>un travail pénible, des succès tardifs, mais d’autant plus<lb/><lb/>certains, apprendront, par d'encourageans essais, qu'ils<lb/>ne doivent jamais désespérer d'eux-mêmes. Ici des imagi-<lb/>nations déréglées ou des organisations trop faciles viendront<lb/>subir le joug inexorable de la méthode en asservissant leur<lb/>fécondité au contrôle de la raison et à l'enchainement sévère<lb/>d'un ordre réfléchi. Tous apprendront, enfin, comment ils<lb/>devront avant tout respecter les lois du pays, honorer les<lb/><lb/>pouvoirs publics et défendre au besoin les franchises de leur</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>deSamedi 12 nov mbre onteu lieu des fu eeraines<lb/>d'Honneur et ancien maire de Dijon. Le cortège était<lb/>nombreux; on y remarquait une grande partie du con¬<lb/>seil municipal dont il était membre; un détachement<lb/><lb/>d'infanterie escortait le convoi. Les quatre coins du<lb/>poêle étaient portés par MM. Dumay, maire, Pelletier</p>
+        <p><lb/>Son administration, comme maire, avait éé signalée</p>
+      </div>
+      <div type="article">
+        <p><lb/>une note anonyme qui a pour but de persuader au pu¬<lb/>blic que M. JOUFFROY, chargé par M. le ministre de<lb/>l’intérieur de la restauration de notre curieux monu¬<lb/>ment du Puits de Moïse, s'est fait aider, pour l'exécu-<lb/>tion de ce travail, des conseils de l'auteur du savant<lb/>rapport fait à la commission des antiquités de la Côte-</p>
+        <p><lb/>au Spectateur le démenti le plus positif à cette insi-<lb/>nuation, et nous nous ferons un devoir de pablier sa</p>
+      </div>
+      <div type="article">
+        <p><lb/>de la première représentation, à l'Académie royale de<lb/>musique, d’un opéra intitulé le Vaisseau Fantôme,<lb/>dont la musique est due à M. Dietch, notre compa¬<lb/>triote. Nous empruntons au feuilleton des Débats du<lb/>13 le fragment suivant, relatif à l’œuvre musicale qui<lb/></p>
+        <p><lb/>ceau d’orchestre bien écrit et bien instrumenté; sa<lb/>forme n’est peut-être pas assez arrêtée; il vaut tou-<lb/>jours mieux, je crois, surtout pour les ouvertures de<lb/>théâtre, adopter un plan plus simple. Celle-ci con-<lb/>tient, entre autres choses de mérite, plusieurs effets<lb/></p>
+        <p><lb/>terre, aux limites du monde» ont un accent calme et<lb/>de de Mina : «De Satan mobile royaume, » la mélo-<lb/>die n’en est ni bien nette ni bien colorée. Cette ballade<lb/>était d’autant plus difficile à faire que ses strophes<lb/>sont troplongues. Le compositeur ne réussit bien, en<lb/>pareil cas, que si les vers sont courts et peu nombreux.</p>
+        <p><lb/>duo entre Mina et Magnus: «De nos beaux jours d'en-</p>
+        <p><lb/>La prière de la jeune fille pendant l’ora.<lb/>ces morceaux qu’on supporte à peine, s’ils ne sont<lb/>que convenables et bien écrits; le public alors veut<lb/>absolument qu'on le remue; s'il reste calme, il est fu-</p>
+        <p><lb/>vanche, qui se font toujours applaudir, lors même<lb/>qu’ils ne seraient que bien faits, pourvu que la canta¬<lb/>trice les porte la tête haute; tel est le prestige qu’exer¬<lb/><lb/>ce sur un auditoire français le roulement des notes<lb/>vocalisées, et tant nous aimons en général voir les</p>
+        <p><lb/>relle. Mais un bon morceau qui seul suffirait à prou¬<lb/>ver la valeur du talent et de la science musicale de M.<lb/>Dietch, c’est le double chœur des Shetlandais et des<lb/>matelots suédois. C’est vigoureux, sonore, dramati-<lb/>que. Les voix d’ailleurs y sont employées avec une<lb/>grande habileté et une entente parfaite de l’expression<lb/>de leurs divers timbres ; et la réunion des deux chœurs<lb/>de caractères différens est ménagée avec art. Ce mor-<lb/>ceau est très-applaudi; il mériterait de l'être davan-</p>
+        <p><lb/>preinte d’une passion douloureuse qui toucherait da-<lb/>vantage, si le morceau était moins développé. On ne<lb/>saurait, avant de l'avoir éprouvé, croire com<lb/>est difficile de faire écouter au public de l'Opéra un<lb/>andante de longue haleine. Il semble que l’attention<lb/>lui soit trop pénible après les huit premières mesures,<lb/>et qu’à partir du moment où le thème est exposé, en¬<lb/>tendre les développemens de ce thème, quelque beau<lb/>qu’il soit, devienne pour lui une fatigue intolérable.<lb/>Le final cependant contient un adagio qui se fait écou¬<lb/>ter et applaudir ; l'effet en est pompeux, il offre beau-<lb/>coup d’analogie par sa forme avec Donizetti et quel¬<lb/>ques-uns des meilleurs morceaux de ce genre écrits par</p>
+        <p><lb/>bon caractère, et dont l'instrumentation est bien choi-<lb/>sie. Les bassons, avec leur voix terne et un peu pé¬<lb/>nible dans le haut, y figurent avantageusement. Le</p>
+        <p><lb/>air, et malgré tout le mérite de facture qu’on y re¬<lb/>marque, et l'accent désespéré et le mouvement rapide<lb/>qui en animent la péroraison, il produit peu d’effet. A<lb/>l’inverse, la simple cavatine de Magnus, moine rési¬<lb/>gné, prêt à unir celle qu'il aime avec son rival, a valu<lb/>à Marié un véritable succès; c’est, je crois, le meil¬</p>
+        <p><lb/>ly adans cette il miédi<lb/>ce que de résignation : la fin surtone,</p>
+        <p><lb/>val (il est bien difficile, après les anathèmes de la Juive,<lb/>de réussir à cela maintenant), vient l'appel furieux</p>
+        <p><lb/>cation un si long silence; son désespoir est trop bouil¬<lb/>lonnant; il doit aussi mettre moins de pompe et plus<lb/>de fureur dans le mouvement. D'ailleurs ces réponses<lb/>de trombonnes à l'orchestre rappellent trop, par le<lb/>tour de la modulation et par leur gravité, le passage<lb/>dant à la voix large, mais calme, du vieux Melctal:<lb/></p>
+        <lg>
+          <l><lb/>Sois donc sauvé, Troïl, je t'aime</l>
+          <l><lb/>hore.</l>
+        </lg>
+        <p><lb/>théâtre, indique un compositeur qui a fait d’excellen¬<lb/>tes études, qui a soigneusement et long-temps médité<lb/>les diverses doctrines des maîtres, objets de son admi-<lb/>ration, mais qui n’a pas fait encore entre elles de choix<lb/>bien décidé. Il a le savoir et le pouvoir, il ne lui man¬<lb/>par de notables améliorations dans les finances de la<lb/>ville, par l'embellissement de ses rues et par une sévère<lb/>organisation de la police. Plein d’activité et d’énergie,<lb/>il surveillait lui-même tous les services publics, main¬<lb/>tenait l'ordre partout et savait payer de sa personne<lb/>dans lés circonstances difficiles. Aucun genre de fraude,<lb/>aucun abus ne se commettait impunément. C’est à<lb/>à la construction de la salle de spectacle achevée par<lb/>les soins de M. de Courtivron, son successeur. Sans<lb/>sa démission, occasionnée par la chûte du ministère<lb/>de Cazes, les plans de notre célèbre compatriote Cellé¬<lb/>rier eussent été religieusement exécutés, et nous n'au-<lb/>rions pas à refaire aujourd’hui un intérieur qui blesso</p>
+        <p><lb/>de Velars une galerie de tableaux digne d’être visitée<lb/>par les amateurs et les connaisseurs. Les artistes et les<lb/>ouvriers qu’il employait avaient en lui un père, et</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>lache pour les répétitions de la Favorite, grand opéra<lb/>en 4 actes. Jeudi 17, le 1^er début de M. Masson, 1^er té-</p>
+        <p><lb/>Lters advers r ieount aue men tèse un ajourne-<lb/><lb/>ment, ont publié un exposé de leurs motifs. M. Ful-<lb/>chiron les avait fait connaître dans une lettre au Cour¬<lb/>rier de Lyon. La réunion Lemardelay a lancé de mè¬<lb/>me son manifeste sous la forme d’une lettre au conseil<lb/>des ministres. La substance de ces deux pièces, et<lb/>plus particulièrement de la dernière, c’est que notre<lb/>fabrication est, en général, très-inférieure à celle de<lb/>la Belgique; que ce jeune royaume a une puissance<lb/>productive énorme comparativement à nous ; qu'ayant<lb/>un trop plein dont le poids l'écrase, il veut le déverser<lb/>sur le marché français; qu'il n’est pas moins au-des-<lb/>sus de nous par les conditions économiques de la pro¬<lb/>duction; qu’en un mot la Belgique produit sur une<lb/>échelle gigantesque, et produit mieux que nous et<lb/>plus bas prix. On allègue cette supériorité notamment<lb/>pour les tissus de toute espèce, ceux de laine, ceux</p>
+        <pb facs="0002.xml"/>
+        <p><lb/>avancée que la nôtre? Produit-elle mieux et à meil-<lb/>leur compte? Sans aucun doute, disent les adversai-<lb/>res de l’union, elle travaille à meilleur marché. Voyons<lb/>pourtant. Si la Belgique nous surpassait pour les co¬<lb/>tonnades, Mulhouse n’aurait pas dit qu'elle acceptait<lb/>l’union. La Belgique ne nous est pas supérieure pour<lb/>les lainages; car, encore une fois, Reims ne la craint<lb/>Cela se peut, mais Verviers n’a pas moins peur d'El¬</p>
+        <p><lb/>ouillères du Nord, s’étrie-t-on, sont anéanties, si la<lb/>Mouille belge entre sans droit. — Nos houillères du<lb/>Nord sont dans la plus prospère, la plus magnifique<lb/>des conditions. Ces mines de charbon sont plutôt des<lb/>mines d’or, et nous nous en félicitons, parce qu’elles<lb/>sont entre les mains d’hommes industrieux qui ont su<lb/><lb/>les découvrir et qui les exploitent habilement. Mais<lb/>puisqu’elles sont si riches, qu’ont-elles à craindre de la<lb/>Belgique? Ne leur restera-t-il pas la protection qui ré-</p>
+        <p><lb/>tres tissus de laine, pour 15 millions 135,000 fr.; la<lb/>France pour 64 millions 600,000 fr., plus du quadru-<lb/>nacés par les draps belges, figurent dans cette somme<lb/>pour 21 millions 371,388 fr.; c'est une fois et demie<lb/>l’exportation belge en tissus de laine de toute espèce.<lb/>De la laine passons au coton. L'exportation des co¬<lb/>tonnades belges a été de 6 millions 188,000 fr. ; celle<lb/>des cotonnades françaises de 104 millions 70,000 fr.<lb/>Dix-sept fois autant! Qu’en disent les adversaires de<lb/>l’union? Même pour les tissus de lin, dans lesquels la<lb/>Belgique excelle, nous l’avons surpassée. Elle en a ex-<lb/>porté une valeur de 27 millions, et nous de 29 millions</p>
+        <p><lb/>res d’un peuple qui soit encombré de ses produits, et<lb/>par conséquent obligé de les vendre à tout prix. La<lb/>Belgique n’est pas plus avancée que nous. La Belgi-<lb/>que est à peu de chose près, relativement à notre in¬<lb/>dustrie, ce qu’elle était en 1814, quand elle était in-</p>
+        <p><lb/>nion Lemardelay apparaîtra aux juges désintéressés<lb/>dépourvu de force. Il a contre lui les faits généraux<lb/>les plus saisissables et les mieux avérés. Que serait-ce</p>
+        <p><lb/>importante, comme celle des fers, qui ait besoin d’ai-<lb/>de. Cela ne signifie pas non plus qu’il ne soit pas<lb/>utile d’éviter un choc brusque; au lieu de niveler les<lb/>droits immédiatement, il faudrait les réduire graduel-<lb/><lb/>lement et prendre un délai de trois à quatre ans pour<lb/>opérer la transition. Cela est nécessaire, indispensa-</p>
+        <p><lb/>transition fût ménagée, et que, tout en signant le trai-<lb/>té dès à présent, on se réservât un délai de trois ou<lb/>quatre ans pour le mettre pleinement en pratique; si<lb/>elle se fût prévalu de la situation de l’industrie des<lb/>fers, qui seule est menacée de l'invasion du marché<lb/>rable pourtant qu’on ne l’a dit, qui existe dans les éta-<lb/>blissemens de la Sambre et de la Meuse, trop plein qui<lb/>ne se renouvellera pas, et qu’elle eût sollicité le prompt<lb/>et complet achèvement des canaux où les travaux<lb/>languissent, tels que celui de la Marne au Rhin, et le<lb/>perfectionnement d’autres canaux, comme celui du<lb/>Berry, qui à tort sont réputés terminés; si elle eût ré-<lb/>clamé l’abaissement des péages sur les voies naviga¬<lb/>bles, si elle eût recommandé que les comptoirs de la<lb/><lb/>banque de France fussent installés dans d’autres vil-<lb/>les encore, afin que l’industrie nationale tirât parti<lb/><lb/>plus également des capitaux confiés à cette grande<lb/>institution; si la réunion Lemardelay se fût exprimée<lb/>ainsi, elle eût été dans le vrai, elle eût rempli un rôle<lb/>utile, elle n’eût pas contribué à un ajournement qui<lb/>pourra être funeste à la France. Il serait temps encore<lb/>le seul qui convienne à des hommes éclairés, amis de</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>arrêtée par le conseil renferme beaucoup d'ouvrages qui Ils auront pour l'ordinaire, comme les facteurs ru-</ab>
+        <p><lb/>le ministre de linstruction publique, de concert avec<lb/>le conseil royal, dans le programme des livres desti¬<lb/>nés à l’usage des colléges. M. le ministre vient d’a¬<lb/>dresser à cet égard aux recteurs une circulaire pu-</p>
+        <p><lb/>relative aux livres classiques d’histoire et de philoso-</p>
+        <p rend="labelled"><lb/>d'histoire et se borne à indiquer, pour chaque cours, un<lb/>des Précis approuvés par l'Université. Mais sa pensée a<lb/>été surtout de porter l’enseignement du professeur vers l'é¬<lb/>tude des textes originaux et des grands historiens, dont les<lb/>citations partielles, habiment mêlées à la série d’un cours,<lb/>inspirent le sentiment du vrai et fortifient le jugement des<lb/>élèves, tandis que leur mémoire se charge utilement de<lb/>dates et de faits. Sous ce rapport, depuis Xénophon, Plu-<lb/>tarque et Tacite jusqu'à Bossuet et Montesquieu, la liste<lb/>raux, un itinéraire particulier; mais ils pourront en<lb/>être détournés et envoyés sur d’autres points pour<lb/>visiter les boites, placer ou retirer des titres, explorer<lb/>l’état des chemins et la situation des lieux, et pour re-<lb/>cueillir des renseignemens de toute espèce concernant</p>
+        <p rend="labelled"><lb/>deux heures, à la mairie du 11e arrondissement, rue<lb/>Servandoni, dans le but d’examiner les questions de<lb/>contrefaçon étrangère qui viennent d’être soulevées<lb/>de nouveau par le projet d'union douanière avec la<lb/></p>
+        <p rend="labelled"><lb/>tral de police à Nantes, et plus tard à Toulouse, au<lb/>moment des troubles si graves qui agitèrent ce chef¬<lb/>lieu de la Haute-Garonne, a été arrêté le 10 à Paris,<lb/>et a été écroué au dépôt de la préfecture de police.<lb/>Le sieur Lenormand (Charles-Auguste), âgé de qua¬<lb/>rante-huit ans, natif d’Amsterdam, avait été condamne<lb/>Garonne, le 30 juin 1842, à la peine de la dégradation<lb/>civique, à 400 fr. d'amende et aux frais, comme con-<lb/>vaincu de concussion et de corruption dans l’exercice</p>
+        <p rend="labelled"><lb/>liste de candidats pour la place d’académicien libre<lb/>vacante dans l’Académie des Sciences par suite du<lb/><lb/>décès de M. Pelletier, avait porté en première ligne<lb/>M. Pariset. L'Académie a procédé à l'élection. Le<lb/>mier tour de scrutin, M. Pariset a réuni 42 voix; sa</p>
+        <p rend="labelled"><lb/>duc d’Orléans, la cour a pris le deuil pour quatre<lb/>mois. Le délai, qui expirait demain, a été prorogé au<lb/>mille royale quitteront Saint-Cloud pour venir habiter<lb/>doivent être médités à double titre, et marquer l'étroite al-<lb/>liance des solides études de lettres et d’histoire, en même<lb/>temps qu'ils préparent l'esprit, déjà plus mûr, aux études<lb/>de philosophie, liées si naturellement elles-mêmes à l'é-</p>
+        <p rend="labelled"><lb/>d'histoire, le conseil n'a prescrit spécialement aucun ou-<lb/>vrage, parce qu’aucun ouvrage ne lui a paru présenter un<lb/>traité méthodique et complet de toutes les parties de la<lb/>pensée qu’il avait toujours eue, il a indiqué comme la vé-<lb/>ritable régle des études philosophiques un choix de monu-<lb/>mens consacrés par les plus beaux souvenirs de la science<lb/>et de la religion. Ce sont, pour l'antiquité grecque et la¬<lb/>tine, quelques ouvrages de Platon, d'Aristote, et de Cicé-</p>
+        <p rend="labelled"><lb/>conseil a cru devoir recommander, à partir de Bacon jus-<lb/>qu'à Reid, les principaux ouvrages qui ont marqué l'effort,<lb/>le progrès et les retours divers de l'esprit humain dans l’é<lb/>tude de la philosophie. Avec Descartes, dont la part de<lb/>trouvent inserits les noms de Bossuet, de Fénélon, de Mal-</p>
+        <p rend="labelled"><lb/>éminens, mais qui portent la même empreinte de philoso¬<lb/>phie religieuse et morale, tels que, par exemple, le traité<lb/>de Clarke sur l'existence et les attributs de Dieu, et le<lb/>Traité des vérités premières par Buffier. Le livre de Locke.<lb/>place sur cette liste; il y est à côté de la plus sérieuse rec-<lb/>Leibnitz sur l'entendement humain, et à côté des Lettres<lb/>d'Euler. Sous ces autorités imposantes, l'enseignement est<lb/>assuré de rester toujours irréprochable, sans être moins</p>
+        <p rend="labelled"><lb/>prospérité, est aujourd’hui terminé, et sera prochainement</p>
+        <p rend="labelled"><lb/>du Roi, a rendu, le 8 novembre courant, l’arrété sui¬</p>
+        <p><lb/>ment manifesté par l'armee d’Afrique et la population<lb/>civile, d’élever, sur la principale place d’Alger, par<lb/>voie de souscription, un monument à la mémoire de</p>
+        <p><lb/>la réalisation de cette grande et noble pensée, et ad¬<lb/>la forme du monument, et de désigner le statuaire qui</p>
+        <p><lb/>les corps de l'armée, et notamment dans ceux qui ont</p>
+        <p><lb/>dans les caisses des receveurs-généraux ou d’arron¬<lb/>diaire des lieutenans-généraux commandant les divi¬</p>
+        <p><lb/>réalisées et perçues conformément à ce qui a été réglé</p>
+        <p><lb/>France qu’en Algérie, faire dresser la liste générale</p>
+        <p><lb/>d'Erlon, baron Voirol, baron Rapatel, comte Schramm;</p>
+        <p rend="labelled"><lb/>sité d'instituer des agens intermédiaires entre les pré¬<lb/>pour la surveillance de ces derniers. Les nouveaux</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>septembre de cette année avait autorisé la publication du<lb/>procédure commencée pour la canonisation du vénérable<lb/>Jean-Baptiste de La Salle, prêtre, fondateur de la Congré-<lb/>pelle de l'école des Frères, nous pensons qu'on lira avec</p>
+        <p rend="labelled"><lb/>par la tradition orale, par l'histoire et par des documens<lb/>témoins; tous attestèrent unanimement les vertus du zèlé</p>
+        <p rend="labelled"><lb/>chrétiennes et sacerdotales à un degré héroïque, et l’on a<lb/>tout lieu d'espérer que le Saint-Slége en portera le même</p>
+        <p rend="labelled"><lb/>1651, fit ses études à Saint-Sulpice de Paris; il fut fait<lb/>chanoine de la métropole de Reims et docteur à l'Université<lb/><lb/>de la même ville. En 1681, il habita avec ses disciples,<lb/>qu'il ne quitta plus qu'à sa mort, arrivée à Rouen, dans la</p>
+        <p rend="labelled"><lb/>–Il a été cousommé à Paris, dans le mois de hre<lb/>dernier, 6,256 œf, 1,943 vacs, 5,149 </p>
+        <p rend="labelled"><lb/>cerne le prince Louis, les faits publiés dernièrement<lb/>à Londres dans une brochure dont les contrefacteurs<lb/>des bons de l’échiquier anglais étaient les auteurs.</p>
+        <p rend="labelled"><lb/>de l'expédition à Boulogne, sous la direction du prince<lb/>Louis Napoléon, dépenses qui se sont élevées au chiffre de<lb/><lb/>80,000 liv. st. (deux milions), ont été payées par les in-<lb/>dividus qui avaient contrefait les bons de l’échiquier, nous<lb/>pouvons, d’après les pièces que nons avons en main, et<lb/>sé dans cette expédition, tout a été payé sur la fortune par-<lb/>ticulière du prince, qui a également donné les fonds pour<lb/>l'achat de certains journaux de Paris. Quelque reproche<lb/>que l'on puisse adresser à la prudence du prince, toujours<lb/>est-il que son honneur ne doit recevoir aueune atteinte.»</p>
+        <p rend="labelled"><lb/>tits<lb/>Carmes ont été suspendus de leurs fonctions, par suite de</p>
+        <p rend="labelled"><lb/>mencée et se poursuit. Des circulaires portant le signale¬</p>
+        <p rend="labelled"><lb/>l’évasion du général Vandersmissen étant prévu, un<lb/>officier retraité, son ami, tenait ses chevaux tout prêts<lb/>l'évadé. On ajoute que le fils du condamné s’était<lb/>rendu, le jour de l’évasion de son père, chez un maître<lb/>de ménage où il avait loué deux chevaux qui auraient<lb/>tière. Ce maître de ménage a été interrogé au parquet</p>
+        <p rend="labelled"><lb/>ment d'un projet, lequel, s'il était mis à exécution,<lb/>entraînerait beaucoup d’inconvéniens. Il s’agirait<lb/>lodie, et de contraindre les seigneurs catholiques, qui<lb/><lb/>ont des sujets appartenant à la religion grecque dans<lb/>(Gazette d'Augsbourge,</p>
+        <pb facs="0003.xml"/>
+        <p><lb/>abolir celle qui, sans contredit, les gêne le plus, c’est-à¬<lb/>dire le réglement de police qui leur prescrit de ne se loger<lb/>thèse, sont les plus anciennes, les plus étroites, les plus sa-</p>
+        <p rend="labelled"><lb/>tions à ce réglement; mais jamais les Juifs n’ont osé pro¬<lb/>trouve dans la nécessité d'expulser tout juil qui demeure-</p>
+        <p rend="labelled"><lb/>se loger partout, dans la ville et dans la banlieue, où il leur<lb/>tée, parce que, d'un côté, les préjugés contre les juifs ont<lb/>perdu ces temps derniers, et surtout depuis l'incendie du<lb/>mois de mai, beaucoup de leur ancienne vivacité, et d'un<lb/>autre côté, parce que la concession dont il s'agit doit né-<lb/>cessairement augmenter la valeur des maisons et des pro-</p>
+        <p rend="labelled"><lb/>de Londres a donné, dans le Guild-Hall, son banquet<lb/>d’installation. Bien que le lord-maire, M. Humphry,<lb/>fût d’opinions libérales, il avait néanmoins invité les</p>
+        <p><lb/>lord-maire a porté des toasts à la Reine, dont il a<lb/>exalté le talent, l’énergie et surtout les vertus; au<lb/>prince Albert, à la Reine douairière, au prince de Gal¬</p>
+        <p><lb/>lord-maire, je crois que ces Messieurs ont chaudement<lb/>dire, il n’est pas un homme à qui S. M. pourrait plus<lb/>sûrement confier qu’à sir Robert Peel l’administration</p>
+        <p><lb/>remercié l’assemblée et le lord-maire, de l’honneur<lb/>fait au ministère, sir Robert Peel dit qu’il importe,<lb/>dans cette occasion, de s’abstenir de toute discussion<lb/>politique de nature à soulever des conflits. Milords et<lb/>Messieurs, ajoute-t-il, quelle que soit la divergence<lb/>de nos opinions, il est, j’en suis sûr, un point sur le-<lb/>quel nous serons tous d’accord : je veux parler de la<lb/>juste fierté avec laquelle nous devons nous énorgueil-<lb/>lir de la réputation, de la population, de l’opulence et<lb/>de l'importance commerciale de la Cité de Londres qui<lb/><lb/>prime, assurément, toutes les autres Cités du monde<lb/>civilisé. Dans tout ce qui pourra se rattacher aux in¬<lb/>térêts de cette Cité, je viens, tant en mon nom qu’au<lb/>nom de mes collègues, promettre aux autorités muni¬<lb/>cipales le concours empressé des membres du cabinet<lb/>Je sais combien une coopération cordiale est impor-<lb/>tante entre les autorités municipales et le gouverne-<lb/>ment exécutif. Lorsqu’il y a quelques mois l’émeute<lb/>menacait la métropole, j’ai été témoin de l’accord par¬<lb/>fait qui régnait entre les diverses autorités qui, ou¬<lb/>bliantles divergences de l'esprit de parti, s’entendaient</p>
+        <p rend="labelled"><lb/>d’évacuer l’Afghanistan, point important des nouvelles<lb/>que l’on vient de recevoir; mais avant de se retirer,<lb/>les troupes anglaises qui sont encore dans le pays<lb/>doivent frapper un dernier coup sur la ville de Ca¬<lb/>boul, essayer de ravoir les quelques milliers de pri-<lb/>sonniers qui sont tombés dans les mains des Afghans<lb/><lb/>à la suite des événemens de l’hiver dernier, et tenter<lb/>enfin si, au milieu des partis qui divisent les tribus,<lb/>il n’y a pas moyen de s’entendre avec l’une d’elles pour<lb/>conserver à l’influence anglaise quelque peu de son</p>
+        <p><lb/>campagne de 1839, quand on se rappellle ce qu'était<lb/>cette magnifique armée que lord Keane conduisit,<lb/>presque sans coup férir, à Caboul, on est frappé mal¬<lb/><lb/>gré soi de la triste différence qui règne entre les temps</p>
+        <p><lb/>quent de linge et de souliers, et l’on ne peut plus em-<lb/>mener de tentes que pour les malades et les blessés.<lb/>En 1839, les ambulances régimentaires traînaient avec<lb/>elles jusqu’à des vases pour faire prendre des bains de<lb/>pied aux soldats malades; en 1842 on manque de mé¬<lb/>dicamens. L'armée de lord Keane dépensait, en huit<lb/>mois de campagne, des sommes énormes (on a dit<lb/>treize crores de roupies, ou 325 millions de francs);<lb/>aujourd’hui il est dû deux mois de solde à la division</p>
+        <p><lb/>nous ne savons rien sur ce qui se passe du côté des<lb/>Afghans. Peut-être le courrier du mois prochain, qui<lb/><lb/>Caboul, nous éclairera-t-il aussi sur les événemens<lb/>dont cette ville a dû être le théâtre depuis le mois de</p>
+        <p rend="labelled"><lb/>transférés de Caboul à l'Indow-Koosh; on n'a excepté de<lb/>pitaines Eyre et Anderson, dont les femmes et les enfans<lb/>Socteur Champbell est restéà Caboul pour soigner les ma-<lb/>faible espoir de voir nos malheureux compatriotes re¬</p>
+        <p rend="labelled"><lb/>d’Alexandrie, et dont on doit attendre la confirmation,<lb/>le Liban serait de nouveau en pleine insurrection. Les<lb/>Druses et les Maronites se seraient réunis pour atta¬<lb/>quer les troupes turques. Les dernières nouvelles de<lb/>Constantinople ne mentionnent point ces faits. Elles<lb/>rappelé. Une correspondance du 19 octobre, publiée</p>
+        <p rend="labelled"><lb/>été destitué de ses fonctions en vertu d’une décision du sul-<lb/>tan. Hier le firman de destitution a été envoyé à Bucharest-<lb/>Le divan a pensé qu’il fallait faire quelque chose pour la<lb/>Russie qui est offensée par ce qui s’est passé en Servie, et<lb/>qui sollicite une restauration à Belgrade. Depuis long-temps<lb/>la Russie était mécontente du prince Ghika, dont la ten-<lb/>dance à se soustraire à son influence était devenue mani-</p>
+        <p rend="labelled"><lb/>la nouvelle de la destitution du prince de Ghika, hos-</p>
+        <p rend="labelled"><lb/>tion de l'hospodar actuel Ghika. Ce dernier a déjà déposé<lb/>le gouvernement dans les mains de la régence provisoire<lb/>fixée par le réglement organique. Cette régence (kamia-<lb/>Philippesko, du grand wornick Wakaresko, et du grand<lb/>logothète Michel Kornesko. Après la convocation des dé-<lb/>putés en une assemblée extraordinaire, on procédera à<lb/>l’élection d’un nouvel hospodar selon le réglement existant.<lb/>Le commissaire de la Porte qui est porteur du hatti-sheriff<lb/>de destitution est arrivé dans la quarantaine de la Vala-</p>
+        <p rend="labelled"><lb/>sensibles dans l’art de la défense. Ils terminent un long</p>
+        <p rend="labelled"><lb/>ne semble donc pas probable que cette guerre doive finir<lb/>de si tôt. Que faut-il croire, ou que la persévérance an¬<lb/>glaise se fatiguera de tant de victoires inutiles et cependant<lb/>si coûteuses, ou bien que le génie europêen finira par faire<lb/>brèche dans ce monde si long-temps impénétrable, et dé-<lb/>robera enfin ses secrets à cette civilisation extraordinaire<lb/>qui depuis tant de siècles fait vivre le tiers de l’espèce hu¬<lb/>maine d’une existence mystérieuse et incompréhensible au</p>
+        <p><lb/>et de cavalerie ne suffisent plus pour labourer les<lb/>toute leur richesse consiste en bétail. Méhémet-Ali</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>ces derniers temps au gouvernement sarde, d’exécuter ri-<lb/>états il y a quelques années, ayant été accueillie favorable-<lb/>ment, les bandits corses réfugiés en Sardaigne sont rentrés<lb/>à la hâte dans la mère-patrie, et s'y trouvent en ce mo-</p>
+        <p rend="labelled"><lb/>quelques mois la force armée leur fait une guerre d'exter-<lb/>mination, surtout dans l'arrondissement de Sartène, où</p>
+        <p rend="labelled"><lb/>coli qui tombait près de Porto-Vecchio sous les coups du<lb/>brigadier de gendarmerie Guelfucci et de ses deux gendarmes</p>
+        <p rend="labelled"><lb/>et à la suite des habiles dispositions ordonnées par le capi-<lb/>taine Leonetti,commandant la4 compagnie. On signale<lb/>comme s'étant distingués en cette occasion les sergens Va¬</p>
+        <p rend="labelled"><lb/>droit couvert de makis presque impénétrables et d'énormes<lb/>blocs de rochers, nommé Pinarello, se sont battus et sont<lb/>morts avec la plus grande énergie. Couvert de blessures<lb/>presque toutes mortelles, Luciani père a encore eu la force<lb/>de donner un coup de stylet à un voltigeur corse qui s’appro¬<lb/>chait trop vite de celui qu'il croyait déjà sans vie. A peine<lb/>eut-il porté ce coup qu'il poussa un grand soupir et mourut.<lb/>Son fils survécut une heure environ à sesiblessures sans<lb/>sur les lèvres jusqu’au moment où le prêtre est venu lui</p>
+        <p rend="labelled"><lb/>les gendarmes et les voltigeurs corses de notre arrondisse-</p>
+        <p rend="labelled"><lb/>ces événemens, lorsqu'un nouveau crime est venu porter<lb/>l'effroi dans la ville, surtout par les conséquences qu'il peut<lb/>entraîner. La dame Trajané, veuve Rocaserres, demeurant<lb/>à Lévie, vient d'y être blessée mortellement d'un coup de<lb/>pistolet tiré sur elle par un individu, cousin-germain de son<lb/>disposé de tous ses biens en faveur de ladite dame. Cet<lb/>assassinat va léguer à la commune de Lévie une inimitié<lb/>tribe, à aquelle presque aucun habitant ne pourra rester</p>
+        <p rend="labelled"><lb/>neau, dont il est question depuis quelque temps, est arrivé<lb/>aujourd'hui assez à maturité pour que nous puissions pu-<lb/></p>
+        <p><lb/>Bussierre se sont associés pour l'exécution de cette entre-<lb/>prise. Le chemin devra passer par Vendenheim, Hœrds,<lb/>Weyersheim, Kurtzenhausen et Bischwiller, et se diriger</p>
+        <p rend="labelled"><lb/>haut intérêt pour le département du Bas-Rhin, et surtout<lb/>pour la partie du département située au nord de Strasbourg,<lb/>et pour tout l’arrondissement de Wissembourg en particu¬<lb/>lier. Aujourd'hui, grace au chemin de fer de Bâle, Stras-<lb/>bourg est plus près de Mulhouse et de la Suisse même que<lb/>de Wissembourg et des différentes localités de ce dernier<lb/>arrondissement. Dans peu de temps, lorsque le chemin de<lb/>fer de Paris à Strasbourg sera exécuté, au moins de Stras-<lb/>comme l'est déjà Sélestadt. à une heure et demie de chemin<lb/>de Strasbourg. La plupart des communes les plus impor-<lb/>tantes du département, au sud et à l'ouest, seront reliées<lb/>d’une manière directe au chef-lieu. Haguenau et Wissem-<lb/>bourg seuls restaient pour ainsi dire en dehors de la vie<lb/>nouvelle que les lignes de fer versent dans toutes les laca-</p>
+        <p rend="labelled"><lb/>nouard de Bussierre préviendra ce fâcheux isolement qui<lb/>menaçait le nord du département du Bas-Rhin. En attendant<lb/>que la ligne projetée soit prolongée jusque vers la Bavière<lb/>rhénane, elle servira à rapprocher de Strasbourg et du<lb/>reste de l’Alsace les populations agricoles et industrieuses<lb/>de l’arrondissement de Wissembourg ; Bischwiller devien-<lb/>dra tête de ligne pour les cantons de Seltz et de Lauter-<lb/>bourg; Haguenau pour les cantons de Niederbronn, de<lb/>Werth, de Wissembourg et de Soultz. Haguenau deviendra<lb/>un marché important pour toute la Basse-Alsace, le centre<lb/>du mouvement commercial et de la circulation des voya-<lb/>geurs qui se dirigeront de la Bavière rhénane et de la</p>
+        <p rend="labelled"><lb/>sierrre veulent entreprendre l'exécution du chemin à leurs<lb/>risques et périls, sauf certaines concessions qu'ils deman¬<lb/>dent à l'état, au conseil général du Bas-Rhin et aux com-</p>
+        <p rend="labelled"><lb/>du chemin de fer de Paris à Strasbourg comprise entre<lb/>Strasbourg et Vendenheim, et qui sera également la pre-<lb/>mière section de la ligne de Strasbourg à Haguenau. Ils ré¬<lb/>clament, en outre, de lui un emplacement pour leur dé¬<lb/>barcadère spécial dans le grand débarcadère communa<lb/>tous les chemins de fer aboutissant à Strasbourg, qui doit</p>
+        <p rend="labelled"><lb/>bourg, de Hagueneau et de Bischwiller, ainsi qu’au conseil<lb/>général du département, est celle d’un concours gratuit<lb/>d’un million, réparti suivant l'intérêt plus ou moins grand<lb/>que ces communes et le département peuvent avoir à l'exé-<lb/>cution du chemin de Strasbourg à Hagueneau. Biscwiller<lb/>devra, en outre, fournir le terrain nécessaire pour l’établis¬<lb/>sement de la station, et Hagueneau se charger de la cons¬</p>
+        <p rend="labelled"><lb/>entes cond<lb/>nous faisons, dans l'intérêt général, des vœux sincères pour<lb/>que ce projet arrive à réalisation, car il ajoutera de nou¬<lb/>veaux élémens de vie et de prospérité à lous ceux que pos¬<lb/>sède déjà l'Alsace; et il sera, nous l'espérons du moins, le<lb/>prélude d'un projet plus grand encore qui aura plus tard<lb/>pour résultat d'établir une ligne de fer sur toute la rive</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>1o De plusieurs maisons, bâtimens très-vastei en<lb/>bon état, donnant, avec les cours, une contenan</p>
+        <figure type="table"/>
+        <p rend="labelled"><lb/>à faire, tant à raison de l'excellente qualité du sol,<lb/>qu'a cause du nombre des sources abondantes qui le<lb/>nduedea</p>
+        <pb facs="0004.xml"/>
+        <p><lb/>Le revenu de ce domaine, qui a toujours été cultivé<lb/>par le propriétaire, a été porté en 1831, par l’opération<lb/>cadastrale, à la somme de 9,500 francs. Mais depuis<lb/>cette époque la propriété a été beaucoup augmentée,<lb/><lb/>par plusieurs acquisitions faites par le propriétaire, et<lb/>aussi par l'accroissement de valeur des fonds depuis</p>
+        <p><lb/>S'adresser, pour voir la propriété, à M. Auguste</p>
+        <p><lb/>Et, pour tous autres renseignemens, à M. LA-</p>
+      </div>
+      <div type="article">
+        <head><lb/>Le dimanche 4 décembre 1842, à St.aten, du donr</head>
+        <p><lb/>Cette vente consistera dans 9 vaches, 1 taureau, 4<lb/>genisses, tous de race suisse; 7 chevaux de trait de<lb/>l’âge de 8 ans et au-dessous, 2 poulains, 3 cochons,<lb/>harnais, chariots à larges jantes et autres, voitures,<lb/>tombereaux, charrues, un char-à-banc, herses, rou-<lb/>leau, coupe-racines, pressoir, cuve, balonge, tarrare,<lb/>cylindre, crible et autres objets d’agriculture; une<lb/>tisse de blé et une autre d’avoine; foin en bottes, paille<lb/>de blé, seigle et orge, 400 doubles décalitres de<lb/>pommes de terre, blés en grain, haricots, turquis,</p>
+        <p><lb/>Il sera accordé 6 mois de terme pour les paie-</p>
+      </div>
+      <div type="article">
+        <head><lb/>Etude de M. JOANNET, notaire à Pontailler.</head>
+        <head><lb/>Dépendant de la succession de M. le curé de Perrigny-sur-</head>
+        <p><lb/>Par le ministère de M. JOANNET, notaire à Pontail-<lb/>ler, le lundi 21 novembre 1842, à 10 heures du ma-<lb/>tin, et le mardi 22, à la même heure, s’il y a lieu.</p>
+        <p><lb/>Ce mobilier consiste en batterie de cuisine, vaissel-<lb/>le, meubles meublans, une bonne horloge, plusieurs<lb/>lits garnis, une assez grande quantité de linge, une<lb/>bonne vache, une bibliothèque pouvant contenir 3 à</p>
+        <p><lb/>Les personnes solvables auront 3 mois de terme</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Office de M. BÉLIARD, Commissaire-priseur,</head>
+        <p><lb/>cheres du MOBILIER de lhote du Chapeau-Roue<lb/>enchères du MOBILIER de l'hôtel du Chapeau-Roug</p>
+        <p><lb/>Les 16 et 17, batterie de cuisine en rosette et autre,<lb/>grands fourneaux en fonte, poè!es en tôle garnis en<lb/>cuivre; vaisselle en porcelaine et tout ce qui concerne<lb/>le service de table; tables à coulisses en acajou et en</p>
+        <p><lb/>Le 18 et jours suivans, meubles, couches, pendules,<lb/>glaces, tours de lit, rideaux, etc.; linge de lit, de table<lb/>et de ménage, et enfin tous les articles indiqués dans<lb/></p>
+        <p><lb/>Continuation de la vente de la BIBLIOTUS du soir<lb/>feu M. BERTHOLOMÉ, tous les jours à 6 heures du soir</p>
+        <p><lb/>Antiquités de Montfaucon et plusieurs autres ou-</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>A louer, un PETIT APPARTEMENT fraichement</p>
+        <p rend="structured"><lb/>S'adresser à M. Ronot, rue des Godrans, 5. (*)</p>
+      </div>
+      <div type="article">
+        <p><lb/>S'adresser à M. Roux, tonnelier, rue du Petit-Potet,</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>M. FELIX aîné, marchand-tailleur, place d'Armes,<lb/>14, a l’honneur de prévenir les habitans de cette ville,<lb/>qu’il vient d’arriver de la capitale avec un très-grand<lb/>assortiment d'habillemens confectionnés pour hommes<lb/>et pour jeunes gens, le tout dans la plus haute nou-</p>
+        <p><lb/>Comme il n'a rien négligé, soit pour la solidité des<lb/>coutures, soit pour le bon teint de toutes ses étoffes<lb/>il offre pour garantie, aux acheteurs, de reprendre dans<lb/>le délai de huit jours tous les articles qui manque¬<lb/>raieit par le vicedes coutures ainsi que par la mauvaise</p>
+        <note>
+          <p rend="styled"><milestone unit="column" n="2"/><lb/>DNERTIESOOTCN,CESDUCDBORCO</p>
+        </note>
+      </div>
+      <div type="article">
+        <p><lb/>Il a été perdu à Dijon, le 13 courant, une CHIENNE<lb/>D'ARRÊT ayant la robe blanche avec des taches bru¬<lb/>nes et portant un collier de force. Cette chienne, qui</p>
+        <p><lb/>y aura récompense pour la personne qui la con-<lb/>duira chez M. Thevenard, aubergiste, près la porto<lb/></p>
+      </div>
+      <div type="article">
+        <p><lb/>On demande dé suite, pour un café, UNE FILLE et</p>
+      </div>
+      <div type="article">
+        <p><lb/>L'extrait de salsepareille, composé en forme de<lb/>pilules, de M. Smith, docteur en médecine de la Fa-<lb/>culté de Londres, est le remède le plus efficace pour<lb/>toutes les maladies qui ont leur siége dans le sang,<lb/>telles que dartres, gale répercutée, rougeurs de la<lb/>peau, démangeaisons, boutons, éruptions, douleurs<lb/>rhumatismales et vices vénériens, agissant sur tous<lb/>les fluides du corps; il se mêle à la masse du sang, dis-<lb/>sout toutes ses viscosités, emporte toutes espèces d'hu¬<lb/><lb/>meurs, et chasse du corps les inflammations et autres<lb/>symptômes morbifiques, suites de l’impureté et de l’al¬</p>
+        <p><lb/>Le dépôt, à Dijon, est chez BOISSEAU, pharmacien,</p>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>Des maladies chroniques produites et entretenues</p>
+        <ab type="head"><lb/>enes ennes et cancereuses)</ab>
+        <p><lb/>heures de l'après-midi; et dans la soirée, de six à</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Ayant appris par plusieurs personnes que l'on fai-<lb/>fait courir le bruit que j'avais cessé la teinture, je<lb/>déclare le contraire, car j'arrive de Paris où j’ai pris<lb/>les couleurs nouvelles pour toutes étoffes, soie, laine ou<lb/>coton. Je donnerai les couleurs les plus à la mode, et</p>
+      </div>
+      <div type="article">
+        <head><lb/>A l'extrémité de la rue d'Auxonne, faubourg St.-Pierre,</head>
+        <p><lb/>Mme. PICARD a l'honneur de prévenir les dames<lb/>qui s’occupent de broderie qu’elle imprime à l’instar de<lb/>Paris et Nancy sur mousseline, canevas, drap et ve-<lb/>lours. Elle aura toujours les dessins les plus nouveaux,<lb/>et se fera un plaisir de servir avec la plus grande promp<lb/>titude les personnes qui l’honoreront de leur confiance.</p>
+      </div>
+      <div type="article">
+        <p><lb/>M. LIÉBAUT-GILLIOT, commissionnaire de rou¬<lb/>lage, faubourg Saint-Bernard, à Dijon, a l’honneur<lb/>de prévenir MM. les consommateurs qu’il tient un<lb/>dépôt de VERRES à vitres, façon Bohême; que ses<lb/>magasins sont approvisionnés dans toutes les dimen¬<lb/>sions, choix et qualités, qu’il livrera aux prix de<lb/></p>
+        <p><lb/>Il prévient aussi MM. les négocians et fabricans qu'il<lb/>lui a été consigné à la vente quantité de marchan¬<lb/>dises : telles que drogueries diverses, alun, prussiate,<lb/>carmin d’indigo, etc., qu’il peut céder à des prix avan-</p>
+        <p><lb/>Son dépôt de CIMENT-ROMAIN de Pouilly est tou¬-<lb/>jours approvisionné de manière à pourvoir à toutes</p>
+        <p><lb/>Il se charge aussi des expéditions de toutes espèces<lb/>de marchandises, pour la France et l’étranger, comme<lb/>aussi de leur entrepôt, ayant de vastes caves et ma-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>sur-S</head>
+        <p><lb/>n'son nom per-<lb/>sonnel qu'en qualité de tuteur légal de Françoise Jo¬<lb/>mard, âgée de vingt ans, domestique, domiciliée à<lb/>Auxonne; de Jean-Baptiste Jomard, âgé de dix-neuf<lb/>ans, domestique, domicilié à Pontailler-sur-Saône,<lb/>et de Claudine Jomard, âgée de quatorze ans, domes-<lb/>tique, domiciliée à Soissons; trois de ses enfans issus</p>
+        <p rend="labelled"><lb/>2o Du sieur Etienne Mignon, tailleur de pierres, et<lb/>de Pierrette Jomard, sa femme, demeurant ensemble</p>
+        <p><lb/>Stipulant en leurs noms et encore le sieur Mignon<lb/>en qualité de subrogé-tuteur desdits mineurs Jomard;</p>
+        <p rend="labelled"><lb/>3^o De Marguerite Jomard, majeure célibataire, vi-<lb/>4° Et de Colette Jomard, aussi majeure célibataire,</p>
+        <p rend="labelled"><lb/>Stipulant en leurs noms personnels lesdits Françoise,</p>
+        <p><lb/>Jean-Baptiste, Claudine, Pierrette, Marguerite et Co¬<lb/>lette Jomard, héritiers chacun pour un sixième de la¬</p>
+        <p><lb/>Lesquelles parties ont constitué M. GLEIZE, avoué</p>
+        <p><lb/>Il sera procédé, le dimanche 4 décembre 1842, à<lb/>midi, à Pontailler-sur-Saône, en l’étude et par-devant<lb/>M. FAIVRE, notaire à ladite ville, commis à cet effet<lb/>par ledit jugement, à l’adjudication des immeubles ci-<lb/>après désignés, dépendant de la communauté qui a<lb/>existé entre Reine Jomard et Pierrette Duvollet, et</p>
+        <p><lb/>1o Une maison, située à Pontailler-sur-Saône, fau-<lb/>bourg Saint-Jean, composée d’une chambre à feu,<lb/>d’une autre chambre à la suite, cave dessous et gre¬<lb/>dier dessus, joignant de levant la route départementale<lb/>de Pontailler à Dijon, de couchant les maisons des<lb/>sieurs François Maillotte et de la veuve Tirquis, de<lb/>midi un treige commun entre les vendeurs et lesdits<lb/><lb/>sieurs Maillotte et la veuve Tirquis, et de nord un<lb/>autre treige commun entre les mêmes et M. Chauchot-</p>
+        <p rend="labelled"><lb/>2^o Une écurie, sise audit Pontailler-sur-Saône, au<lb/>couchant de ladite maison, avec un grenier à foin<lb/>dessus, joignant de levant la maison du sieur Maillotte,<lb/>de couchant, de midi et de nord les treiges dont il a<lb/>été ci-dessus question, communs avec les mêmes.</p>
+        <p rend="labelled"><lb/>3^o Et la moitié à prendre au couchant d'une pièce de<lb/>vigne, située sur le finage de Pontailler-sur-Saône,<lb/>lieu dit au Long-Bois, de la contenance de 42 ares,<lb/>joignant de levant la veuve Grènot, de couchant Jean<lb/>Rouhey; aboutissant de nord sur le sieur Bouton, et</p>
+        <p><lb/>Ces immeubles seront vendus en deux lots : le pre¬<lb/>mier sera composé de la maison et de l'écurie; et le<lb/>second de la vigne. Les enchères seront ouvertes sur<lb/>les mises à prix déterminées par ledit jugement; les-<lb/>quelles sont pour le premier lot de onze cents francs,<lb/></p>
+        <p><lb/>,auquel</p>
+        <p><lb/>Les adjudicataires auront des facilités pour les</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>MM. les créanciers du sieur Nicolas Monot, qui<lb/>était menuisier, domicilié à Dijon, sont invités à se<lb/>présenter à l'assemblée qui aura lieu en la salle du<lb/>conseil du tribunal de commerce de cette ville, le lundi<lb/>21 novembre courant, à midi précis, pour donner leur<lb/>avis sur la composition de l'état des créanciers, e<lb/>sur la nomination du nouveau syndic, que doit faire<lb/>le tribunal à vue du procès-verbal que M. le juge¬<lb/>commissaire dressera des dires et observations des</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>MARCHÉ DE DIJON. — DU 12 NOVEMBRE 1842.</head>
+        <figure type="table"/>
+        <figure type="table"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>Naissances. — Du 11 au 14 novembre, 5 garçons, et</p>
+        <p rend="labelled"><lb/>Décès. – Du 11 novembre, Pierre Morelet, chevalier<lb/>de l'Ordre royal de la Légion-d'Honneur, propriétaire,<lb/>ancien maire de Dijon et conseiller municipal de cette<lb/>ville, 75 ans.— Marguerite-Rosalie Nicolardot, femme<lb/>de Jean-Baptiste Jadot, vérificateur des droits du<lb/>canal, 22 ans. — François Finel, tisserand, 45 ans.<lb/>Du 12, Françoise Martin, veuve 1^e de Pierre Trapet,<lb/>na</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Nouvielle Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54517413f</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Nouvielle Vaclette : journal patoisant humoristique, non politique / avec la collaboration du Caveau lillois</title>
+          <publisher>[s. n.] (Lille)</publisher>
+          <date when="1931-10-03">1931</date>
+          <idno type="ARK">bd6t54517413f</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54517413f</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>8' ANNÉB. — No 344</fw>
+        <fw type="runningTitle"><lb/>0.25 LE NUEe</fw>
+        <fw type="runningTitle"><lb/>L'abonnement se paie d’Avance</fw>
+        <fw type="runningTitle"><lb/>Samedi 3 Octobre Men.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>69, Rue Saint-Sauveur</ab>
+        <figure>
+          <head><lb/>Siège: 1, Rue de la Monnaie</head>
+        </figure>
+        <p rend="heading"><lb/>ANEC LA COLLABORATION DU</p>
+        <ab><lb/>R. du C. Lille 48.610</ab>
+        <ab><lb/>Chéques Postaux 37.182</ab>
+        <quote><lb/>REDACTION</quote>
+        <ab><milestone unit="column" n="3"/><lb/>France un zn, 18.50</ab>
+        <p rend="heading"><lb/>Amateurs de Canchons Patoises</p>
+        <ab><lb/>Vous trouvrez dins ch' liméro:<lb/>LIND'MAIN D' FIÊTE<lb/>Poésie Patoise de Ch. LAURENT<lb/>PhiLomÈne a du ma'<lb/>Chanson de Augoste DELMOTTE, alias Duréduit<lb/>Peut se chanter sur l'air : Meunier lu dors<lb/>On n' réussit point toudis<lb/>Chanson d'I. MAREELS<lb/>Air: Ma Tante a vu l' loup</ab>
+      </div>
+      <div type="article">
+        <head><lb/>RAJEUNISS'MINT</head>
+        <p><lb/>Après avoir lu, i'-a d' cha siept à huit mos, in<lb/>huitième pache d'leu' quotidien, l'annonce sui-<lb/>vante :</p>
+        <p><lb/>« Si vous souffrez de la Goutte, de Rhuma-<lb/>tisme, du Lumbago, si vous êtes atteints de<lb/>l'Exzéma, de la Constipation, des maladies du<lb/>Foie et des Reins; en outre, si vous tenez à<lb/>recouvrer les forces, l'ardeur de la jeunesse, à<lb/><lb/>voir disparaitre vos rides et toutes les traces de<lb/>la vieillesse, n’hésitez pas à prendre chaque<lb/>matin à jeun, dans un bol de liquide : café, lait,<lb/>etc... une cuill'rée de sel... (ichi, j' m’abstiens d'<lb/>citer l' nom de ch' sel, n’étant point payé pou'<lb/>faire de l' réclame) les époux Blanquette-Deviau,<lb/>p’tits sinciers d' Ravaudons, respectiv’mint âgés<lb/>d' soixante et quêqu's ainnées, après s'êt' con-<lb/>sultés, et d'un commun accord, avottent décidés<lb/>d'in faire usache, d’autant pus qu' cha n' devot<lb/>point leu' rev'nir quer : Un sou par jour à peine<lb/>pour chacun. Et depuis, un grand cang mint<lb/>s’opérot in eux. Les résultats obtenus étottent<lb/>merveilleux. Quoich' que j' dis là ? Miraculeux.</p>
+        <p><lb/>Donc, tout dernièr mint, i’s r’chevottent eun"<lb/>lette d'leu' garchon, soldat au Maroc depuis<lb/>deux ans, les informant qu' sin congé étant fini,<lb/>il allot rintrer dins ses foyers, et qu'i' s’rot des-<lb/>chindu à la gare du pat'lin, tel jour, pa' l' train<lb/>d' telle heure, et qu'il espérotbien qu'i’s s'rottent<lb/>v'nus à s' rincontre, impatient qu’il étot d'povoir<lb/>les imbrasser.</p>
+        <p><lb/>Au jour et à l'heure indiqués, chés deux gins<lb/>s' trouvottent su' l' quai, égal'mint impatients d'<lb/>povoir serrer l' fieu dins leus bras.</p>
+        <p><lb/>L' train qui l' trinsporte estannoncé. L'chifflet<lb/>de l' locomotive vient de s' faire intinde. Il intre<lb/>in gare, puis i' s’arrête. Les voyageurs deschin-<lb/>dent d' wagons, et parmi eusses s' trouve un<lb/><lb/>soldat colonial.</p>
+        <p><lb/>Ch' ti-chi, qu'il avot hâte d' rintrer à l' mason<lb/>paternelle, et de r'vir ses bons vieux parints,<lb/>presse l' pas tout in busiant sans s'aperchevoir<lb/>qu'i passot à côté d'eusses, quand s' mérote, in</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>UN HOMME POINT TROP PRESSÉ</head>
+        <p><lb/>Dernièr'mint, l'huissier du Directeur d'eun'<lb/>Compagnie d’Assurance déclarot à sin patron:<lb/>Monsieur, i' n’y-a dins l' sall' d’attente, un<lb/>monsieur qui veut à tout' fin vous parler.</p>
+        <p><lb/>Eh ben répond l' directeur, fait's le intrer.</p>
+        <p><lb/>Aussitôt i' vot intrer un p’tit bonhomme, l'air<lb/>agité qui li dit aussitôt:</p>
+        <p><lb/>Monsieur, i' fautà tout' fin qu' vous m' donniez<lb/>satisfaction. J'ai eu l' fu à m' mason et j'ai,<lb/><lb/>naturell'mint, des dégâts.</p>
+        <p rend="labelled"><lb/>— Ch'est bien, ch'est bien, répond l' directeur<lb/>et pour combien ch' qu'i' n’y-a d' dégâts ?</p>
+        <p rend="labelled"><lb/>- Ben, répond l' bonhomme, j'ai l' porte de<lb/>m' garde rope brûlée....</p>
+        <p rend="labelled"><lb/>Vous n’avez qu' cha P Ch'est facile à<lb/>arringer. Et... i n’y a longtemps d' cha....</p>
+        <p rend="labelled"><lb/>— Huit ans, monsieur.</p>
+        <p rend="labelled"><lb/>— Commint, huit ans et ch' n’est qu’aujour-<lb/>d’hui qu' vous v'nez réclamer l'rimboursemint?..</p>
+        <p rend="labelled"><lb/>— Ch'est m' femm' qu'ell' m'imbête avec cha.<lb/></p>
+        <p><lb/>Elle me dit toudis : Va vir l'assurance !.. Va<lb/>vir l'assurance !.. alors, j'ai fini par perdre<lb/>F</p>
+        <ab><lb/>Mimile.<lb/>courant au d'vant d' li, s' met à crier : — Eh<lb/>ben, quoi Gustin ! Te n' me r'connos pus ?</ab>
+        <p><lb/>Ch' ti-chi s'arrête net, r'vette cheull' femme<lb/>tout surpris, des pieds à l' tiête, puis, après<lb/><lb/>l'avoir dévisagée attintiv'mint, li répond joyeu-<lb/>s'mint:</p>
+        <p rend="labelled"><lb/>— Quoi ! ch'est donc ti, manman ?</p>
+        <p rend="labelled"><lb/>— Mais awi, awi, min garchon qu' ch'est mi.<lb/>Et alors?</p>
+        <p rend="labelled"><lb/>— Que t'es cangée ! comm' t'es rajeunie !<lb/>Vraimint, on t' donn'rot vingt ans d' moins que<lb/>quand j'ai parti au régimint.</p>
+        <p rend="labelled"><lb/>— Hein, là ! cha t'étonne de m' vir ainsi,<lb/>aussi d’aplomb.</p>
+        <p rend="labelled"><lb/>J' te cros. Et quoich' que t'as fait pour<lb/>obtenir un tel rajeuniss'mint, t'as pris de l' jou-<lb/>vence?</p>
+        <p rend="labelled"><lb/>Point du tout. Un peu d' sé chaqu' matin<lb/>et rien d' puque.</p>
+        <p rend="labelled"><lb/>— J' te félicite. Et à propos, ch' gosse qu'il<lb/>est là, dins cheull' voiturette, à qui ch'est ; point<lb/>à ti, j' suppose ?</p>
+        <p rend="labelled"><lb/>— Quoi ! te n' le r'connos point non pus,<lb/>garchon ? Mais ch’est tin père ! Seul'mint<lb/>tiens à t' déclarer qu' li, il a pris de ch' sé in<lb/>double dose, chin qu'i fait qu'il est tourné in<lb/>infance.</p>
+        <p><lb/>Inutile de vous dire, énon, que ch' garchon n'<lb/>povot point s'in ravoir. Il in aurot été du même<lb/>si nous avimes été à s' plache, ch'est-i' point<lb/>vrai</p>
+        <ab><lb/>Passe-Partout.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Ah! les bonnes Moules</head>
+        <p><lb/>Vous savez tertous qu'à l' Brad'rie on mainche<lb/>des bonnes et biell's moules, vindues in portions<lb/>dins l' rue Saint-Sauveur et d' Paris. J' vas vous<lb/>raconter eun' petite histoire à ch' sujet.</p>
+        <p><lb/>A Saint-Sauveur, un marchand d' légumes,<lb/>épicier, tient égal'mint eun' buvette. Ch'est si<lb/>utile cheull' buvette, plachée à côté des légumes<lb/>Y café, l' chocolat ou l' savon, comme cha, in<lb/>acatant ch' qu'i' faut pou' l' soupe ou l' ménache,<lb/>certainn’s femmes, qui aim'nt boire, peuv’nt in<lb/>même temps vidier un verre ou faire rimplir<lb/>" l' petite Sophie" (l' petite boutell' au pousse-<lb/>café).</p>
+        <p><lb/>Not' épicier avot installé su' sin trottoir, eun'<lb/>grande table et deux bancs ; un peu su' l' côté i’<lb/>avot un fourniau à coke pour cuire les moules<lb/>cont'nues dins eun' grande marmite à faire boul-<lb/>lir l' linche.</p>
+        <p><lb/>Pou' l' circonstance, l' marchand d' légumes<lb/>— app’lons-le Auguss’ — avot mis un tablier<lb/>bleu à bavette, et fallot l' vir, les manches<lb/>r'troussées, r'muant avec eun' grande écueu-<lb/>mette les moules in train d' cuire; d' temps in<lb/>temps, i' lachot sin fourniau pour tourner<lb/>moulinet in bos et crier : « A l’oselle, à l'oselle,<lb/>v'là les bonn's moules ».</p>
+        <p><lb/>Les clients arrivott'nt, les assiettes étott'nt<lb/>rimplies d' moules feumantes, l' boutell' d<lb/>vinaig', l' pot à moutarde étott'nt su' l' table ;<lb/>vous assure qu’eun' portion n' faijot point long<lb/>fu, car elle étot vite avalée par chés bons clients.<lb/>Cheuss' qui avott'nt fini d' mainger faijott’nt<lb/><lb/>plache à d'aut's et Auguss' faijot d' bonnes<lb/>affaires.<lb/></p>
+        <p><lb/>Tout d'un cop, un d' chés nouviaux clients<lb/>d'maindot sérieus'mint au restaurateur occasion¬<lb/>nel s'i' avot pris ses précautions pou' l' qualité<lb/>d' ses moules et s'i' n’y avot point d' danger à<lb/>l’impoisonn'mint.</p>
+        <p rend="labelled"><lb/>— N'ayez point peur, répondot in riant<lb/>Auguss', j’ai mis l' contre-poison que j' mets<lb/>habituell'mint ; d'ailleurs, t'nez j' vas app’ler m'<lb/>elle vous dira elle-même ch' qu'elle a fait.</p>
+        <p><lb/>Et s’adreschant à eun' fill' avec un tablier<lb/>i' dijot:</p>
+        <p rend="labelled"><lb/>» Marie, vous avez bien mis l' pièche d' vingt<lb/>sous in argint dins l' marmite, comme j' vous<lb/>l'ai dit.<lb/>— Ben j' vas vous dir' Mossieu, répondot</p>
+        <p rend="labelled"><lb/>cheull' fill' fort imbiétée, j'ai caché après au fond<lb/>du tiroir ùch' que vous m’avez dit qu’elle étot,<lb/>et comm' j' l'ai point trouvée, pou' n' point vous<lb/>dérainger, i' avot du mond' qui attindot, je m<lb/>su’s souv’nu que vous m’avez dit d' mett'<lb/>pièche blanque d' vingt sous, surtout point d'<lb/>dorée ; alors j'ai mis quatre pièches blanques d'<lb/></p>
+      </div>
+    </body>
+  </text>
+</TEI>

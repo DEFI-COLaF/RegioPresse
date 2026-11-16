@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136166n</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1896-03-07">1896</date>
+          <idno type="ARK">bpt6k8136166n</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136166n</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>SIEISENCO ANNADO, No 187.</fw>
+        <fw type="runningTitle"><lb/>DISSATE, 7 DE MARS 1896.</fw>
+        <lg>
+          <l><lb/>Nàutri, Ki bon Prouvençau,</l>
+          <l><lb/>Au sufrage universau,</l>
+          <l><lb/>Voutaren pèr l'òli</l>
+          <l><lb/>E faren l'aiòli.</l>
+        </lg>
+        <ab><milestone unit="column" n="3"/><lb/>(Prouveroi de meieounis).</ab>
+        <lg>
+          <l><lb/>Vidoun, Vidau,</l>
+          <l><lb/>Segound la vido</l>
+          <l><lb/>Lou journau.</l>
+        </lg>
+        <ab><milestone unit="column" n="1"/><lb/>F. MISTRAL,</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17,27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN</p>
+        <ab><lb/>SUREU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>ver<lb/>FOLCO DE BARONCELLI<lb/>au palais dóu Roure,<lb/>EN AVIGNOUN</ab>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>Baile dóu journau:<lb/>FOLCÒ DE BARONCELLR</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>P A-prouchas-vous, cha - to re-quisto,<lb/>Ca-tarinet, Ro-so, Françoun, Sian proun jouvènt des-<lb/>d <lb/>Mour-<lb/>sus la listo, Venés dansa, qu'es la sesoun. Ve-<lb/>.. ...<lb/>nés leu- leu tóuti d'un pau pertout, D'en Crau, di<lb/>Baus, de Mouriés, de Maus - sa - no, Ve -<lb/>nès leu - leu tóuti d'un pau per- tout, Fa-</ab>
+        <ab type="head"><lb/>Ei DAnSaIRe Dóu PaRADou</ab>
+        <figure type="decoration"/>
+        <note type="handwritten"><lb/>SS P Alcgro moderata<lb/></note>
+        <note type="handwritten"><lb/>E<lb/></note>
+        <ab type="head"><lb/>ren la marcho din lou Pa-ra - dou.</ab>
+        <lg>
+          <l><lb/>Aprouchas-vous, chato requisto,</l>
+          <l><lb/>Catarinet, Roso, Françoun,</l>
+          <l><lb/>Sian proun jouvènt dessus la listo:</l>
+          <l><lb/>Venès dansa, qu'es la sesoun !</l>
+        </lg>
+        <ab type="head"><lb/>REFRIN</ab>
+        <lg>
+          <l><lb/>Venès leu-lèu, touti d'un pau pertout,</l>
+          <l><lb/>D'en Crau, di Baus, de Mouriés, de Maussano;</l>
+          <l><lb/>Venès leu-leu, tóuti d'un pau pertout,</l>
+          <l><lb/>Faren la marcho dins lou Paradou.</l>
+        </lg>
+        <lg>
+          <l><lb/>De faire quauqui contro-danso,</l>
+          <l><lb/>Pa pas de que se recrida,</l>
+          <l><lb/>Car es souvènt uno estiganço</l>
+          <l><lb/>D'un jour pousqué se marida.</l>
+        </lg>
+        <lg>
+          <l><lb/>En passant souto li piboulo,</l>
+          <l><lb/>Se lou fau, sautaren bèn aut;</l>
+          <l><lb/>Tóuti faren la farandoulo,</l>
+          <l><lb/>D'acord batren lis entrechau.</l>
+        </lg>
+        <lg>
+          <l><lb/>Un moumen dessus la grand routo,</l>
+          <l><lb/>Aguènt li rouito jusquo au front,</l>
+          <l><lb/>Tout en susant à gròssi gouto,</l>
+          <l><lb/>Faren la vòuto sus lou pont.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LA VIDO ARTISTICO</head>
+        <head><lb/>RAU GuiGoU</head>
+        <figure type="decoration"/>
+        <p><lb/>Après Pigalio, Suchet ; après Suchet, Guigou, tóuti de<lb/>bon prouvençau, escrincelant, piutant, escrivènt, que la<lb/>mort nous raubo. E's bén lou moumen de suplica 'mé<lb/>lou Mêstre:</p>
+        <ab type="head"><lb/>gnour espargno la Proucenço !..</ab>
+        <p><lb/>Couneissiéu pau Pigalio, que veguère belèu dous cop<lb/>à l'ataié dón pintre-felibre Valèri Bernard; couneissiéu<lb/>proun Suchet, un di plus gai counvivo de nòsti belli feli-<lb/>brejado d'antan, ounte nous disié li fièri cansoun de<lb/>Gelu; couneissère Gulgou de biais tant estrange que<lb/>vous lou vole counta.</p>
+        <p><lb/>Ero en 1890, un an benesi pèr la Prouvénço que venié<lb/>d'avé soun guierdoun de Petrarco d'Avignoun à Flourènço<lb/>de Beatris. Despiéi lou mes de Mai êre tourna d'itali, la<lb/>tésto pleno de vesioun magico, quand, vers avoust, fu¬<lb/>guère malant, ben tant malant, que lou mège m'impausè<lb/>l'aire pur e que partiguère quatecant pêr Auruou, ounte<lb/>lou coulègo Raimbault m'escrivié, tant malaut ère : « Se<lb/>l'itali pèr nautre a ges agu de crous, entacho-te de pas<lb/>t'en faire pourta uno per lou clergue de Sant-Peire !... »</p>
+        <p><lb/>Mai aquel an benesi devié pas l'estre á l'aigo-signado<lb/>pèr léu, e lou bon aire di pin e di roumaniéu, en l'in¬</p>
+        <lg>
+          <l><lb/>Asseta long di parabando,</l>
+          <l><lb/>Tant qu'eilalin i'aura de jour,</l>
+          <l><lb/>En estent qu'uno soulo bando</l>
+          <l><lb/>Di tres vilage d'alentour.</l>
+        </lg>
+        <lg>
+          <l><lb/>Nous grouparen pèr la quadriho,</l>
+          <l><lb/>Coume an fa nosti davancié;</l>
+          <l><lb/>Emé lou tems, ai ! las ! qu'esquiho,</l>
+          <l><lb/>Acabaren pèr lou lancié.</l>
+        </lg>
+        <lg>
+          <l><lb/>Dous o tres jour fasènt verdesco,</l>
+          <l><lb/>De nautri foço qu'auran pou,</l>
+          <l><lb/>En nous abihant en mouresco</l>
+          <l><lb/>Anaren acampa lis iou.</l>
+        </lg>
+        <lg>
+          <l><lb/>Ansin dins uno joio estrèmo,</l>
+          <l><lb/>Que lou jour fugue laid o bèu,</l>
+          <l><lb/>Lou proumié vèspre de Carèmo,</l>
+          <l><lb/>Nous regalaren d'un crespeu.</l>
+        </lg>
+        <lg>
+          <l><lb/>Souvenés-vous, chato poulido,</l>
+          <l><lb/>Di darrié jour de Carnava:</l>
+          <l><lb/>Mai coume sias proun ajouguido,</l>
+          <l><lb/>Anessias pas vous entrava.</l>
+        </lg>
+        <ab><lb/>Charioun niéu.<lb/>chaienço, aquelo donço inchaiènço de touto canso, me<lb/>remetiéu proun lèu sus mi cambo.</ab>
+        <p><lb/>Enterin, despièi uno quingenado, cade matin e cade<lb/>tantost, vesiéu passa davans moun éstro ço que se pou-<lb/>drié apela 'n pouetique fantaumo. Ero un grand jouvent,<lb/>jou péu bloundinèu e la caro poulido, apelant d'ausido<lb/>l'amistanço, mai tant palinello ! Uno testo barbano que<lb/>me fuguè simpatico tre la vèire, noun tant pèr sa pouli-<lb/>desso dins si rego puro, mai pèr la soufrenço que pareis-<lb/>sié aflcha, o Crist d'evòri de Jan Gulhemin!</p>
+        <p><lb/>E lou jouvent, sempre soulet, arribant souto li gràndi<lb/>piboulo que menon de Sant-Francés en ciéuta d'Auruou,<lb/>travessavo lou pont de l'Uvéuno e cercavo, pèr ié passa<lb/>'no bono ouro, l'endré sus la grand plaço ounte lou sou¬<lb/>leu pougnié lou plus fort. E'rian en avoust e li cigalo<lb/>ensucavon encaro!</p>
+        <p><lb/>M'entrevère leu d'aquelo oumbro que m'atiravo. Soun<lb/>istòri ero simplo; retrasié à la miéuno: lou pauras éro<lb/>aqui, malant coume leu e pêr chanja d'er. Soulamen, éu<lb/>venié de plus liuen, venié de Paris. Eli palsan que me<lb/>countavon acò me disien: « Es ben daumage, boutas,<lb/>car lou moussu es quaucun, e raport à sa malautié, es<lb/>fourça de quita, amount, un superbe pres-fa qu'es d'as-<lb/>ciença lis enfant d'uno grando damo, d'uno coumtesso...»</p>
+        <p><lb/>L'endeman travessave lou pont e sarrave la man dóu<lb/>gent incouneigu. Charrerian long-tèms art e letro, e a<lb/>mesuro que se crousavon nosti paraulo, si gauto sembla-<lb/>von carga li rouito miés qu'à l'aflat dóu soulèu. Me par¬<lb/>lavo de Paris ; lé parlave de Flourenço ; me ramentavo li<lb/>tresor dóu Louvre; lé disiéu aqueli dóu Palais Pitti, de<lb/>la Loggia dei Lanzi, etc. ; me desvelavo, en tussissent,<lb/>pecaire! si béu raive artisti pèr l'aveni qu'entre-vesié<lb/>dins l'oustau soulitàri; i'escudelave quauqui vers de moun<lb/>futur Pèr un bais. Aquéu vèspre tournè à Sant-Francés<lb/>slau e urous. E lou veguère plus que dous cop ; éu plus<lb/>qu'un cop me vegue.</p>
+        <p><lb/>L'aguent plusrescountra sus la Grand Plaço, partiguère<lb/>un matin vers Sant-Francés, ounte éro au siéu dins uno<lb/>agradivo abitacioun campèstro. La vièio servicialo, la<lb/><lb/>vièio e fidèlo bailo-nourriço, m'aprenguè sa subito par-<lb/>tenço. E noun vouguènt que fuguèsse vengu pèr rèn, me<lb/>fagué vesita lou castelet. Vese encaro la chambreto de<lb/>l'artisto emé si libre sus d'estagiero e sis atribut de casso ;<lb/>e vese encaro, sus un moble, uno queisseto de medecino:<lb/>«Sian tant liuen de la vilo, eici », m'esplicavo la bono<lb/>iemo<lb/></p>
+        <p><lb/>Dóu rêsto, tardère pas, léu peréu, à quita Auruon, que<lb/>la sesoun se reirejavo e qu'ère plus malant. Retrouvère,<lb/>un vèspre, l'ami au Daliah bleu ounte dounavo couneis-<lb/>sènço d'uno magistralo introuducioun is obro de Monti-<lb/>celli. Pareissié urous, tout à soun art, tout à soun eterne<lb/>pensamen. Aguè 'n incoumparable sucès.</p>
+        <p><lb/>Ai revist enfin, pèr lou tresen e darrié cop, l'ami l'au-<lb/>tre dissate, mai lou saup pas. Pau Guigou, nouma des-<lb/>pièi, counservatour dou museon di Beus-Art,èro alounga<lb/>sus soun lié de mort, semblant ravasseja en de causo ar-<lb/>tistico. E léu, soun coumpan d'uno ouro, soun counciéu-<lb/>tadin de malouro, l'ai signa, lis iue plen de lagremo!</p>
+        <ab><lb/>Louis Astruc.</ab>
+        <figure type="decoration"/>
+        <p><lb/>Es en Arle, deman, que li fèsto à l'ounour<lb/>dou Prestdènt Fèlis Faure auran veritablamen<lb/>lou bon estè de la Prouvènço : aubado de tam-<lb/>bourin, passado di gardian, ferrado is Areno,<lb/>farandoulo e subre-tout lis Arlatenco dins la<lb/>poumpo de soun coustume naciounau.<fw type="digitisation-artefact"><lb/>ourg/Bièue</fw></p>
+        <ab><milestone unit="column" n="4"/><lb/>arseille</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

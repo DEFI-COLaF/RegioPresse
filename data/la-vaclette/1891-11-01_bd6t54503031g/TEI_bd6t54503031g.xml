@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54503031g</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Vaclette : journal humoristique, drôlatique, excentrique, non politique, rédigé en patois de Lille</title>
+          <publisher>[s.n.] (Lille)</publisher>
+          <date when="1891-11-01">1891</date>
+          <idno type="ARK">bd6t54503031g</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54503031g</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>LE NUMERO: CENTIMES.</fw>
+        <fw type="runningTitle"><lb/>N^o 13. — Première année.</fw>
+        <dateline><lb/>Dimanche 1er Novembre 1891.</dateline>
+        <figure/>
+        <figure/>
+        <ab><milestone unit="column" n="3"/><lb/>ABONNEMENTS (lie et d́petses):<lb/>Un An : 2 fr. 50 — 6 mois 1 fr. 25 —3 mois 0 fr. 75<lb/>Autres départements, port en sus.</ab>
+        <ab><milestone unit="column" n="2"/><lb/>ADMINISTRATION<lb/>LILLE — 15, rue Léon Gambetta — LILLE<lb/>Pour les Annonces et Réclames, on traite à forfaite</ab>
+        <lg>
+          <l><lb/>ministration s'adresser au d</l>
+          <l><lb/>i concerne l'Ad</l>
+          <l><lb/>ur 15, rue Léon Gambetta, ou au gérant, J. HOLLAIN,</l>
+          <l><lb/>rue Constantine, 21 bis.</l>
+          <l><lb/>Aucun manuscrit immoral ou politique ne sera inséré.</l>
+        </lg>
+      </div>
+      <div type="article">
+        <head><lb/>LA</head>
+        <head><lb/>Bonne Pipe d’un Sou</head>
+        <head><lb/>Paroles et musique</head>
+        <head><lb/>d'Emile HORNEz</head>
+        <figure type="decoration"/>
+        <ab><lb/>Lorsqu'en tour-bil-lons ta fu-<lb/>mé e S'é- léve et dis - pa - rait aux<lb/>yeux, N'est ce pas ll mago a ni</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure/>
+        <figure type="decoration"/>
+        <figure/>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Si je prône ici ton principe,</l>
+          <l><lb/>De ton goût si je suis épris,</l>
+          <l><lb/>Ne t'enorgueillis pas, ma pipe.</l>
+          <l><lb/>Cinq centimes, voilà ton prix !</l>
+          <l><lb/>Un soir, quittant quelques intimes,</l>
+          <l><lb/>Je t'achetai.... je ne sais où</l>
+          <l><lb/>Je n'avais plus que cinq centimes,</l>
+          <l><lb/>O ma bonne pipe d'un sou !...</l>
+        </lg>
+        <lg>
+          <l><lb/>Dès qu'en ma poche tu fus mise,</l>
+          <l><lb/>Je te dis : « Fille, tu n'es rien,</l>
+          <l><lb/>« Rien qu'un morceau de terre grise</l>
+          <l><lb/>« Oue je briserais bel et bien.»</l>
+          <l><lb/>Mais, aujourd’hui, ta douce flamme</l>
+          <l><lb/>M'enivre, et, là-bas, ce vieux clou,</l>
+          <l><lb/>Perdu dans le mur, te réclame,</l>
+          <l><lb/>O ma bonne pipe d'un sou !...</l>
+        </lg>
+        <lg>
+          <l><lb/>Ta roture point ne me blesse,</l>
+          <l><lb/>Tu charmes par ta nudité ;</l>
+          <l><lb/>Pour moi bonté passe noblesse</l>
+          <l><lb/>Et tu brilles par ta bonté </l>
+          <l><lb/>Laisse ta rivale à bout d'ambre</l>
+          <l><lb/>Aimer maryland et cachou,</l>
+          <l><lb/>Et mieux qu'elle embaume ma chambre</l>
+          <l><lb/>O ma bonne pipe d'un sou !.n.</l>
+        </lg>
+        <lg>
+          <l><lb/>Lorsqu'en tourbillons ta fumée</l>
+          <l><lb/>S'élève et disparalt aux yeux,</l>
+          <l><lb/>N'est-ce pas l'image animée</l>
+          <l><lb/>Des grands projets ambitieux ?</l>
+          <l><lb/>Ainsi l'on convoite sans trêve</l>
+          <l><lb/>L'éclat, la gloire et... le Pérou,</l>
+          <l><lb/>Puis, tont s'efface comme un rêve,</l>
+          <l><lb/> ma bonne pipe d'un sou !...</l>
+        </lg>
+        <lg>
+          <l><lb/>A mon souffle tu dois la vie,</l>
+          <l><lb/>Et vivre, sans toi, serait peu;</l>
+          <l><lb/>Tu sens bien mon âme ravie</l>
+          <l><lb/>Prendre sa chaleur dans ton feu. —</l>
+          <l><lb/>Qu'un danger semble te poursuivre,</l>
+          <l><lb/>Je te sauve du casse-cou,</l>
+          <l><lb/>Et nous recommençons à vivre,</l>
+          <l><lb/>O ma bonne pipe dun sou !...</l>
+        </lg>
+        <ab type="head"><lb/>I</ab>
+        <lg>
+          <l><lb/>Le soleil luit ; vois, ma compagne,</l>
+          <l><lb/>Le beau dimanche de printemps !</l>
+          <l><lb/>Sous une treille, à la campagne,</l>
+          <l><lb/>A travers la plaine fleurie,</l>
+          <l><lb/>Accompagne ton pauvre fou,</l>
+          <l><lb/>Et charme encor sa rèverie,</l>
+          <l><lb/>O ma bonne pipe d'un sou !...</l>
+        </lg>
+        <ab><lb/>Emile HORNEZ.</ab>
+        <ab><milestone unit="column" n="1"/><lb/>mé- e Des grands pro-jets am -bi- ti-<lb/>eux? Ain-si Pon con-voi- to sans<lb/>trè-ve D'e ctat, la gloire et le Pé<lb/>rou... Puis tont sef fa -ce comme un<lb/>re-ve, 0 ma bon- ne pi- po d'un-</ab>
+        <ab><lb/>sou !....</ab>
+        <p rend="styled"><lb/>(Tous drouts reserves.)</p>
+      </div>
+      <div type="article">
+        <head><lb/>Bout d' Fil télégraphique de«L' Vaclette»</head>
+        <dateline><lb/>Packett goff (Zelande), 31 octobre 1891.</dateline>
+        <lg>
+          <l><lb/>J'ai débarqué lundi, dins l'ile d' Come-Ichlingue</l>
+          <l><lb/>Uch que jai vu eun' fié̂te, in Grand' Solennité,</l>
+          <l><lb/>Par les Berneux d' l'indrot et l'sous-préfet d' Flessingue</l>
+          <l><lb/>Qui faijott'nt l'ouverture des Lieux d' Nécessit</l>
+          <l><lb/>On n' veyot qu' des Drapeaux, des Mats, des Oriftammes,</l>
+          <l><lb/>Tout l' monde avot à cœeur, d' prouver sin Sintimin.</l>
+          <l><lb/>Les garchons comm' les fill's et les homm' comm' les femmes</l>
+          <l><lb/>Criottent tout partout: Vive l' Gouvernemint!</l>
+        </lg>
+        <ab><lb/>BOUT D' FIL.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>CHRONIQUE LILLOISE</head>
+        <head><lb/>LES DÉSAGRÉMINTS D' LILLE</head>
+        <p><lb/>l' n' manque point d'agrémints à Lille ; l' n' faut<lb/>point êt' Lillos pou' l' reconnaite. Lille a des<lb/>pourmenates et des gardins bien intret'nus, des<lb/><lb/>musées r'nommés dins toute la France, des so-<lb/>ciétés d' musique et d' canteux qu'elle a l' droit d'êt<lb/>fière, des savants, d's artistes, d's écrivains et des<lb/>poètes, infin des canchonniers toudis rimplis<lb/><lb/>d' galté; mais.. awi, il y a un mais.., Lille a aussi<lb/>ses p'tits désagrémints, peut-êt' pire que l's aue<lb/>villes : ses p'tits marchands imbulants.</p>
+        <p><lb/>Ch'est donc d'euss' que j' vas parler.</p>
+        <figure type="decoration"/>
+        <p><lb/>D'abord, mes bons amis, j' dos vous dire que<lb/>je n' connos chés désagrémints que l' dimanche,<lb/>car, vous l' pinsez bien, dins l' semaine, à chinq<lb/>heure' au matin, je m' mets in route pou' m' fabri¬<lb/>que et j' n'intinds rien du bruit de l' rue jusqu’'à<lb/><lb/>Theure du dinner</p>
+        <p><lb/>L'dimanche, ch'est eune aute affaire : j'arringe<lb/>des pindules à m' mason — on fait chin qu'on peut<lb/>quand on n’est point riche. — Si vous in avez eun"<lb/>qui n' va point, je m' réclame ; j' demeure dins<lb/>l' rue... mais non, J'ai trop d'ouvrache dins l' mou-<lb/>mint. Eune aut' fos j' donn'rai m'n adresse.</p>
+        <figure type="decoration"/>
+        <p><lb/>les cris des marchands n'déringent point mes<lb/>pindules, j' dos avouer qu'i' m' gên'nt bien souvint<lb/>pou' l's arringer, car cha m'impêche d'intinde<lb/>tic-tac, aussi j' profite d' l'aprés-midi pour in<lb/>faire l' réglache. Pourtant, je n' m’in plains point.</p>
+        <p><lb/>Mais, dimanche dernier, ch'étot eune aut paire de<lb/>manches. Javos, la velle, assisté au mariache de<lb/>m' nièche Célina et la noce avot duré jusqu'à tros<lb/>heures au matin. Bah! que j' métos dit, d'main<lb/>on peut dormir, et, in effet, j' dormos d'un bon<lb/>cœeur, quand, vers six heures et demie, me v'là<lb/>par eun' voisse d'infant qui poussot des<lb/></p>
+        <pb facs="0002.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>« Ny a pas d' chaises à rempailler?»<lb/>Et puis de l' trompette et un homme qui crie :<lb/>In v'là un à qui je dirai point de r'passer.<lb/>cris, mais des cris ! à supposer qu'on volot li faire<lb/>du ma. J'saute in bas d' min lit, et au moumint<lb/>uch' que j'allos ouvrir m' ferniette, l' voisse se<lb/>r'met à crier: « V'là du p'tit bois cassé, à deua<lb/></ab>
+        <p rend="labelled"><lb/>— Sale morveux! j' dormos si bien. Et j' me<lb/>A peine indormi, un nouviau cri, par eun' voisse</p>
+        <p><lb/>d'homme et tout sur un même ton : « Marchand</p>
+        <p><lb/>J' mets mes couvertures au-d'sus de m'tiête et<lb/>j'allos r'partir pour un somme quand un aut' cri<lb/>m' fait sauter dins min lit :</p>
+        <p rend="labelled"><lb/>vlà du coke ! du coke 1 du coke... hue!</p>
+        <p><lb/>Vous veyez par là si j'inrageos. J’intasse min<lb/>bonnet d' coton jusqu’à min cou et j' me r'niche<lb/>d' pus bielle. Awi ! un arsoulle s' met à crier<lb/>pindant chinq minutes : « Du Sa...bre ! Du</p>
+        <p><lb/>Et j'aros fait si « bonne chair » à dormir !</p>
+        <p><lb/>Infin, j' mets m'n oreiller au-d’ssus de m' tiète,<lb/>au risque d' m'étouffer ; pour sùr que je m' dijos,</p>
+        <p><lb/>Incore des cris! cheull' fos, par eun' femme :</p>
+        <p rend="labelled"><lb/>« Charbon ! à 28 sous et c'est du bon », et un aut' :<lb/>« Vitrier! Vurier!» Et un trosième: «Du lait»<lb/>Et un quaterième : « V'là du sel et d'lachicorée!»<lb/>Et un chinquième : « Paraplutes ! Parapluies!<lb/>marchand &amp;' parapluies ! » Et un sixième, avec un<lb/>cri-cri qui fait un tapache infernal : « A qui des<lb/><lb/>moules ! » Tout cha, presque in même temps. N'y<lb/>avot d' quoi faire dev'nir fou un professeur du Con-</p>
+        <p><lb/>Mais tout passe. Et. l' rue étot r'dev'nue à peu</p>
+        <p><lb/>Ch'est bien sûr fini, que j' me dis. Allons ! pro-<lb/>fitons-in pou' dormir.</p>
+        <p><lb/>A peine si m'étos r'couvert conv'nabelmint qu'on<lb/>crie d' nouviau: « Du pétrote! Marchand d' pé-</p>
+        <p><lb/>Ch'est un peu fort ! J' mets mes deux bras autour<lb/>de mes orelles et j'intinds incore : « V'là l'petit<lb/>marchand d' cirache, mine de plomb... »</p>
+        <p><lb/>Allons, bon ! v’là eun' cloque, à ch't heure: ch'est<lb/>un marchand d' faïence, et puis un marchand<lb/>Mon Dieu! mon Dieu! Queu malheur ! v'là</p>
+        <p><lb/>l' journal : « L' Progrès, l' Petit Nord, la Dépèche,<lb/>la Vaclette.» Il est suivi par un qui crie, avé s' voisse<lb/>trainante : « V'là l' Cour...lier Populaire du<lb/>Nord, le Réveit du Nord ! Comme si j' n'étos point</p>
+        <p><lb/>D'un aut' côté arrive incore un imbêtant : « Mar-<lb/>chand d' paillassons ! » Infin on n'intind pus rien<lb/>pindant tros minutes, à peine, puis ch'est l' tour du<lb/>grand... braillard : « Je rrrpass' les rasoirs, les</p>
+        <p><lb/>« Pas d' porcelaine à raccommoder ? » Cha,<lb/>ch'est dit tout tranquill'mint, à la bonne heure!</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>FEUILLETON DE LA VACLETTE.</head>
+        <head><lb/>UN CRIME</head>
+        <head><lb/>PIÈCE EN TROIS ACTES</head>
+        <head><lb/>L'action se passe sur la placette aux Oignons, vers 1860).</head>
+        <head><lb/>Chez le Perruquier. — Même décor qu'au premier acte.</head>
+        <head><lb/>SCÈNE PREMIÈRE</head>
+        <head><lb/>Copocourt, Dinand (qu'on rase)</head>
+        <p><lb/>Et dire qu'avec tout cha, j'n'ai point trouvé hier<lb/>un quart d'heure pour faire faire m'barbe !</p>
+        <p><lb/>Cha n' métonne point. Mi-même, je n' sais pus</p>
+        <p><lb/>Alors, vo' garchon est parti avé l' préfet de l' pla-</p>
+        <p><lb/>Awi, et puis l' commissaire, un méd'cin et Tintin<lb/>l' crochu, qui a vu l' scène par nuit. On dit que l’<lb/>rue d’Inguelterre est pleine d' monde. Ch' matin,<lb/>on parlot d' chinquante crimes qu’il n’y-arot eu dins<lb/>cheull' mason d'puis vingt ans.</p>
+        <p><lb/>Ah ! Bah! Chinquante crimes! Queull' affaire!<lb/>On va bien sûr. rtourner tout l' gardin ?</p>
+        <p><lb/>Mais cha, c'hest certain. On a pris deux terrassiers<lb/>ch' matin pou tout r'muer l' tierre.</p>
+        <ab type="head"><lb/>Les mêmes, Angélique</ab>
+        <p><lb/>Eh ben ! Vo'garchon est r'venu, monsieur Copo-</p>
+        <p><lb/>J'ai été pour vir, mais n'y-a tell'mint du i<lb/>qu’on n' peut point approcher... Gramint d'hon<lb/>n'aront point d' soupe pour dinneranjord'hui,<lb/>et cheuss' qu’i-z-in maing'ront, elle s'ra brule</p>
+        <p><lb/>Ch'est drôle, tout d' même, les pressintin<lb/>Chaque fos que j'veyos ch' domestique pass<lb/>m' dijos qu’'il avot l'air d'un assazin. Toudis<lb/>avec tout l' monde, répondant bonjour quand<lb/>dijot, mais n'adressant jamais la parole à pers<lb/>tout cha m' paraissot louche.</p>
+        <ab><lb/>Nin, non, l' s' rasot li-même, à chin qu'on de</ab>
+        <p><lb/>P' n' venot point ichi pou s'faire raser?</p>
+        <p><lb/>Queul avare ! Au lieu d' faire viv' les perruq<lb/>mais v'là eun' femme qui m'agace, car elle va répé-<lb/>ter chint fos : « Fromage mou!</p>
+      </div>
+      <div type="article">
+        <p><lb/>Profitons de ch' petit moumint d' calme, que je<lb/>m' dis ; et j' mets un deuxième oreiller su' m' tiète.</p>
+        <p><lb/>J' mindors. J' rêve même que j' minge les restes<lb/>d' la noce et qu’on m'apporte gramint d’horloches<lb/>à raccommoder. Je m' vos heureux. Tout d'un cop,<lb/>me v'là réveillé par eun' voisse que j’ai intindue<lb/>quéqu' part : j' saute in bas d'min lit pou l'deuxième<lb/>fos. Min cœur palpite. J'ai cru r' connalte l' voisse</p>
+        <p><lb/>Chest bien elle... Elle crie: « V'là des biaux<lb/>frairins !a frairins ! frairins !» Ah !j' veux jouir</p>
+        <p><lb/>Je m' mets à min cassis et j' le r' vette venir.</p>
+        <p><lb/>Elle est toudis aussi p'tite et aussi bielle que lors-<lb/>que j'ai bourlé in-d'ssous d'elle (*). Tiens ! elle a un<lb/>bonnet noir. S'rot-elle in deul ? — Mais non, ch’est<lb/><lb/>Sin bonnet blanc qui est cangé d' couleur. Tant</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>A PROPOS D'ÉLECTIONS</head>
+        <p><lb/>Je m' sus mis in colère l' jour des élections, non<lb/>point à cause de l' politique, j' n’y intinds rien.</p>
+        <p><lb/>Je n’ suis ni opportuniste, ni socialiste, ni possi-<lb/>biliste, ni royaliste. ni impossibiliste. Je m' continte<lb/>d'ête ébéniste et j'ai déjà de l' misère assez.</p>
+        <p><lb/>Seul'mint, j'avos rindez-vous avec min comarate<lb/>Martial Bergot pour aller faire un chint d' piquet à<lb/>Concorde (un cabaret de l' rue Rabelais à Saint-<lb/>Meurice, d'uch' qu’il y a rud'mint de l' bonne bière),<lb/>l'heure étot arrivée d'puis longtemps; mais l' gail¬<lb/>lard n'arrivot point du tout.</p>
+        <p><lb/>Fatigué d'attinte, je m' décide à aller vir après li<lb/>jusqu'à s' mason, craignant qu'un malheur n' li sot<lb/>arrivé, v’là qu’in passant d’vant la mairie, j'intinds<lb/>un porteu' d' bulletins qui m' crie :</p>
+        <p rend="labelled"><lb/>Mais d'uch' que te cours comme cha, ch' n'est<lb/>pourtant point t' route ?....</p>
+        <p rend="labelled"><lb/>Ah ! te v'là, Isidore, viens boire eun' chope,<lb/>t'aros point vu quéqu'fos Martial passer par ichi ?</p>
+        <p rend="labelled"><lb/>— Si, j'l'ai vu rintrerau bureau d' vote, n’y-a à peu<lb/>près eune heure et j' cros fort qu’il y est incore.<lb/>Là-d'ssus, je m' monte comme eun' soupe au lait.</p>
+        <p rend="labelled"><lb/>— Qu’est ch' que ch’est ? Mon homme i m' donne<lb/>rindez-vous et i' n' vient point ! I' s’imagine qu’il a<lb/>affaire à un paysan ! Mille tonnerres ! cha n' se<lb/>passera point comme cha, j' vas li faire vir que je<lb/>n' laich' rire de mi par personne, et qu’il in faut un<lb/>aute que li pou' m' monter l'coup. Vidons nos</p>
+        <p><lb/>Je n' fais qu’un saut jusqu'à l'salle du vote et<lb/>comme on me l'avot dit, min particulier étot là su<lb/>banc et il attindot comme un homme qui a tout</p>
+        <p rend="labelled"><lb/>— Ah t cha mais, pour qui qu' te m' prinds?<lb/>cros que j' vas faire l pied d' grue comme un im<lb/>cile pindant qu' t'es ichi à rien faire: v’là et<lb/>heure que j'attinds et te mérites de r'chevoir n</p>
+        <p rend="labelled"><lb/>Rtienn'te! r tienn'te, comarate. Si i' le<lb/>arrivé l' même affaire qu'à mi, te n' f'ros pou<lb/>autermint que j' n’ai fait.</p>
+        <p rend="labelled"><lb/>— Quoi-ch' qui t'es arrivé ? Raconte vite;<lb/>bien, te vas avoir affaire à mi.</p>
+        <p rend="labelled"><lb/>-V'là ! j'm'étos mis in route pour venir<lb/>r'jointe, comme ch'étot conv'nu; mais je m'<lb/>rappelé tout d'un cop que j' devos aller voiter.<lb/>n' vodros point y manquer pou' tout l'or du mon<lb/>J'arrive ichi, j' donne min papier et j' min vas.<lb/>moumint d' franchir l' porte, j' m’aperços que<lb/>m' sus trompé. Au lieu d’un bulletin, j’avos doz<lb/>au Président l' quittance de min dernier<lb/>d' loyer. J'ai naturellemint été forché d’att.<lb/>l' dépouillemint pou l' ravoir, et v'là pourquoi<lb/>n' sus point v’nu au rindez-vous. Mais surt<lb/>n' raconte point cha à personne, on rirot d' mi.</p>
+        <p><lb/>In riant comme un bochu, j'li ai promis<lb/>n' jamais in toucher un mot et la preuf que<lb/>t'nu parole, ch'est que je m' sus continté de l'<lb/>mett dins l' journal.<lb/></p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Chés Farceux d' Noirs</head>
+        <lg>
+          <l><lb/>Et si j' vous rappelle ch' l'affaire</l>
+          <l><lb/>A l' fiète d' chés fameux lurons</l>
+          <l><lb/> l' Saint Eloi, P' roi des patrons</l>
+          <l><lb/>Malgré qu'i's ont gramint d' coracho,</l>
+          <l><lb/>Il étot dur de r'prind' l'ouvrache</l>
+          <l><lb/>A l'atelier d'un d' mes voisins</l>
+          <l><lb/>Dins l's alintours des Quat'-Quemins.</l>
+          <l><lb/>L' patron, dins l' fond, un vieux brave homme,</l>
+          <l><lb/>Qui avot tapé l' fier tout comme</l>
+          <l><lb/>Les ouverriers qu'il imployot.</l>
+          <l><lb/>leu permit d'boire un tout p'tit cos</l>
+          <l><lb/>Mlais l' n’ fallot point quitter s' plac,</l>
+          <l><lb/>Et chucher in faijant s'n ouvrache.</l>
+          <l><lb/>Comme i's avottent l' gosier</l>
+          <l><lb/>Et que lanq' collot dins chaq' biec.</l>
+          <l><lb/>n'a point fallu eun' secondo</l>
+          <l><lb/>Pour que les mains all'nt à l' profonde.</l>
+          <l><lb/>Alant P'argint, un vieux roublard</l>
+          <l><lb/>Pou' soiler, point souvint in r'tard,</l>
+          <l><lb/>In eun' minut' rumin' dins s' tiête</l>
+          <l><lb/>Un biau plan pour rallonger l' fiête;</l>
+          <l><lb/>l' fait querr' par deux apprintis</l>
+          <l><lb/>La mitan de ch' qu'on avot mis</l>
+          <l><lb/>r dit à l'un: « Cha s'ra t'n ouvrache,</l>
+          <l><lb/>Te serviras chacun à s' plache</l>
+          <l><lb/>Et ti, l' pus jeun', va-t-in verser</l>
+          <l><lb/>ch' l'homm' que te vos arrivez</l>
+          <l><lb/>Fais attintion! Ch'est dins l' jeunesse</l>
+          <l><lb/>Qu'on dot apprinde l' politesse</l>
+          <l><lb/>In li offrant, dis-li sin nom</l>
+          <l><lb/>farchon</l>
+          <l><lb/>Avot qu'minché s' vi d'ouverrier,</l>
+          <l><lb/>Alors, tout bonn'mint, donnant l verre,</l>
+          <l><lb/>l li dit: « T'nez, buvez cheull' bière.</l>
+        </lg>
+        <figure type="decoration"/>
+        <pb facs="0003.xml"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>ou' r'quemincher j' n'ai été quitte</ab>
+        <p><lb/>scène s' passot, su' l'Esplénate, dins l'allée des<lb/>tures, à l' dernière foire :<lb/>n face de l' barraque d'eun femme colosse, un<lb/>ux noceur, borgne, interpelle l' donzelle plachée<lb/>porte, in train de r’chevoir l'argint d' cheuss</p>
+        <p><lb/>Combien qu' cha coûte pour vir vo' femme</p>
+        <p><lb/>La dame (avec eun' révérence) : Trente centi-<lb/>, mon cher Monsieur.</p>
+        <p><lb/>Laichez-me rintrer pou' tros sous, allez,<lb/>ou enar qu'un œil, j' vous l' promets !...</p>
+        <lg>
+          <l><lb/>patron, in intindant chès mots,</l>
+          <l><lb/>l'accepter, li tourne l' dos.</l>
+          <l><lb/>l'infant, veyant qu'll est in faute,</l>
+          <l><lb/>va dire s'n affaire à l'aute</l>
+          <l><lb/>Qui li répond su' l' mèm moumint:</l>
+          <l><lb/>Dis-li bien Monsieur, polimint</l>
+          <l><lb/>vous apporte un verr' de honn' chuche</l>
+          <l><lb/>Etl' paiera pus d'eun' canuche.</l>
+          <l><lb/>garchonnal, après ch' dernier mot,</l>
+          <l><lb/>etit bonimint qu'l d'vot faire,</l>
+          <l><lb/>ais i' pinsot putot à braire</l>
+          <l><lb/>l'à r'dévidier sin p'tit cap let</l>
+          <l><lb/>h offrant l' bière d' sin charlet</l>
+          <l><lb/>ou' n' point arlander davantache,</l>
+          <l><lb/>ern tout drout à l'éia iin corache,</l>
+          <l><lb/>tch que l patron étot parti,</l>
+          <l><lb/>cole</l>
+          <l><lb/>dit cheull' fameuss po</l>
+          <l><lb/>findant qu'à côté on rigole</l>
+          <l><lb/>apport', Monsieur Polimint</l>
+        </lg>
+        <list>
+          <item>Un verr' de bonn' chuch' comm' du</item>
+        </list>
+        <list>
+          <item>asez, n' sachant point vo' nom d' suite,</item>
+        </list>
+        <list>
+          <item>« Cna suflit pou' fair min bonheur !»</item>
+        </list>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>infin avoir l' portrait d' min Franços</ab>
+        <ab type="head"><lb/>es progrès de l' photographie</ab>
+        <p><lb/>us avez d'jà intindu parler d' cheull' bonne<lb/>ne qu'elle a été chez tous les photographes de<lb/>d'uch' qu'il étot marqué au d' sus de l' porte:</p>
+        <ab type="head"><lb/>Portraits après décès</ab>
+        <p><lb/>ur faire faire l' portrait de s'n homme qui étot<lb/>d'puis deux ans et qui n'avot jamais volu avoir<lb/>ure sur du papier. Cheull' femme pinsot qu'i<lb/>vot qu'à expliquer q'mint ch' que s’n homme<lb/>it, pour avoir s’ binette sur eun' carte, et, natu-<lb/>nint, après avoir ri d’elle, personne n’'avot</p>
+        <p><lb/>a jour cheull' brave femme appernant que<lb/>ijos aussi des portraits, vient m' trouver et<lb/>se les mêmes questions, in ajoutant : Coûte<lb/>coûte, j' vodros l' l’avoir. Là-d’sus, j' gratte à<lb/>tiête, j' busie, infin, j' trouve un truc et j' li</p>
+        <p rend="labelled"><lb/>Est-ch' que vous avez incore les habits d' vou"</p>
+        <p rend="labelled"><lb/>Awi, monsieur, j'ai tout conservé, s' capote,<lb/>sin gilet, sin patalon, s' casquette.</p>
+        <p rend="labelled"><lb/>— Est-ch' que vou' n’homme feumot ?</p>
+        <p rend="labelled"><lb/>— Si l' feumot ! et comme un sapeur, incore !...<lb/>Au moins six sous d' toubac par jour.</p>
+        <p rend="labelled"><lb/>— Vous avez incore s' pipe?<lb/>— Je l' conserve comme eun' relique, je l' mets</p>
+        <p rend="labelled"><lb/>même dins mes cartons, on dit qu' ch'est bon pour</p>
+        <p><lb/>Eh ben, cha suffit, vous n'avez qu'à tout m'ap-<lb/>porter et je m' sarge de vous faire un portrait qu'<lb/>vous in s'rez continte.</p>
+        <p><lb/>Là-d'sus cheull' bonne femme court bien vite à<lb/>s' mason et r'vient eune heure après avec sin paquet,<lb/>in m’ dijant : Surtout, ayez bien soin de n’ point<lb/>casser s' pipe. Quand qu' ch'est qué j' porrai l' venir</p>
+        <p rend="labelled"><lb/>- Eh ben, «' venez dins huit jours et j'espère<lb/>que vous s’rez satisfaite.<lb/>— Ah ! que bonheur ! s'écrie cheull' femme, j' vas</p>
+        <p><lb/>Huit jours après, elle r'vient et m' demande :</p>
+        <p rend="labelled"><lb/>- Eh ben ! monsieur, est-ch' que vous avez<lb/>— Awi, que j' li dis; attindez, j' m'in vas vous</p>
+        <p rend="labelled"><lb/>l querre; je r'viens avec l'épreuve, et j' li fais vir :<lb/>- Eh ben ! qu’mint ch' que vous l' trouvez ?</p>
+        <p rend="labelled"><lb/>Cheull' femme s'écrie avec joie :</p>
+        <p rend="labelled"><lb/>— Eh mon Dieu ! qu' ch’est bien s' tournure,<lb/>s' capote, sin gilet, s' casquette ; tiens, vous l'avez</p>
+        <p rend="labelled"><lb/>— Ch'est sur; vous m'avez dit qu'i' feumot comme<lb/>un sapeur, cha fait que j' l'ai posé avé' s' pipe.</p>
+        <p rend="labelled"><lb/>— Et vous avez bien fait ; i' faijot si bonne<lb/>chair ; mais, à propos, il est bien r' semblant, mais<lb/>je n' vos point s' figure.</p>
+        <p rend="labelled"><lb/>— Commint, vous ne l' veyez point ? ch'est parc<lb/>qui feume et que s' figure est derrière l'feumée de<lb/>Tiens, ch'est vrai; je n' l'avos point r'marqué,</p>
+        <p rend="labelled"><lb/>et cheull' femme est partie fin continte in impor-<lb/>Nant l' portrait d' Franços.<lb/></p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Ch'est comme cha, les assazins.</p>
+        <ab type="head"><lb/>DINAND, se levant et s'essuyant.</ab>
+        <p><lb/>Allons, j' m'in vas. Si vous savez des nouvielles,<lb/>nez les dire, hein ! Parc' que dins m' boutique,<lb/>l'est à qui va v'nir m' demander si je n' sais rien,<lb/>ins sont si curieux !....</p>
+        <p><lb/>Soyezsans crainte. Aussitôt quej' sais un n'séquoi<lb/>acoars vous l' dire. A r'voir, à vot service.</p>
+        <figure type="decoration"/>
+        <p><lb/>On trouve incore des liméros 1 à 12 de<lb/>VACLETTTE, rue Léon Gambetta, 15.</p>
+      </div>
+      <div type="article">
+        <head><lb/>UN BON R'MÈDE</head>
+        <figure type="decoration"/>
+        <p><lb/>On étot là huit, diche, à l' mason du comarate<lb/>Félicien, rue du Vieux Fourbou, liméro 17.</p>
+        <p><lb/>Attindant no' tour, l’s uns pou' s' fair raser,<lb/>'s autes pou' s' faire coper les ch'veux, d'visant<lb/>d' sorte et d'aut's pou' faire passer l' temps, quand<lb/>un flamind qu' sin tour v'not d' arriver, dit, d’un air</p>
+        <p rend="labelled"><lb/> Monsieu fai' un fois un coup' de ch'veux à la<lb/>mote, car ze va' à un café de noc', et ze veux avoir<lb/>la pus belle tête : savez-vous !</p>
+        <p><lb/>Félicien veyant qu' ch'est un bon drille, li dit<lb/>de s'n air aimable :</p>
+        <p rend="labelled"><lb/> Monsieu' désire à la Bressant, à la Capoul,<lb/>aux enfants d'Edouard ?</p>
+        <p><lb/>Ch' flamind n' sachant quoi, li répond d'un air</p>
+        <p rend="labelled"><lb/>— Monsieur accout, fai'à tin mote, je me fie à<lb/>vous ; ze l'ai pas gramint d' cheveux, hein ! ce l'est<lb/>les avoir depuis quinze jours seul'mint: avant ze<lb/>n'avos pus; mais ce l'est trouvé un r'mède et je te<lb/>certifie un bon, savez-vous, Monsieur : Ce l'était de<lb/><lb/>frotter mon tête avec de z’huile de foie de morue !</p>
+        <p><lb/>Alors Félicien sécrie : Quoi ! vous avez frotté vo'<lb/>tiête à l'huile d' morue, cha d'vot sintir tout</p>
+        <p rend="labelled"><lb/>— Awi, Monsieur, mais min femme c'est pus vou-</p>
+        <p><lb/>Félicien s' bâche et dit à lorelle de ch' client:</p>
+        <p rend="labelled"><lb/>— T"nez !! vous êtes un chochon, je l' vos; j' vas<lb/>vous donner un consel, mais surtout n’allez point<lb/>l' dire ; parc' que ch'est un s'cret d' famille : Vous<lb/><lb/>allez print' chinq' gaunes d’ués, eun' pinte d’iau-<lb/>d'vie et eun' life d'ardoises; vous in f'rez eun' pàte<lb/>et vous in frotterez vo' tiête tous les soirs in vous<lb/>couchant; avant un mos, vous arez des ch’veux<lb/>frisés comme Jean Babenne et aussi longs qu' cheux</p>
+        <p><lb/>Là ! l' coup' de ch'veux étot finie et ch' bon drill'<lb/>s'in va fin contint le r'merciant et dijant qu’il allot<lb/>essayer l' lind'main</p>
+        <p><lb/>Accoutez, aujord’hui, je l' dis à vous tous, sans<lb/>ch'veux, vous povez tesmayer.</p>
+        <p><lb/>Mais surtout n’allez point dire à Drumez qu’<lb/>ch'est mi qui l' l'a raconté: Non ! car i m'in voudrot</p>
+        <p><lb/>Ch'est un s'eret d' famille!</p>
+        <p rend="styled"><lb/>ADOLPHE DEREUMAUX.</p>
+      </div>
+      <div type="article">
+        <head><lb/>EUNE COSSE UTILE</head>
+        <lg>
+          <l><lb/>Si vous volez, pour eune délicatesse</l>
+          <l><lb/>un ami, faire un biau p'tit cadeau</l>
+          <l><lb/>Offrez eun' boite d' gauffrettes « L. Déesse .,</l>
+          <l><lb/>Ch'est un dessert agréable et nouviau.</l>
+        </lg>
+        <ab><lb/>Boulevard de la Liberte </ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>VIEILLES CROYANCES</head>
+        <head><lb/>Souliers sous le lit font rèver.</head>
+        <p><lb/>Ah ! v'là chin qu'gramint d' gins n'saittent point:<lb/>ch'est qu' des sorlets plachés in d’zous du lit, cha<lb/>fait rèver in dormant. Donc, on n' dot point mett<lb/>ses sorlets sous sin lit.</p>
+        <p><lb/>Qu' pindant l'été, cha n' sot point sain pou' les<lb/>gins qui transpirent gramint, comme les facteurs et<lb/>les gendarmes, je l' cros; j'ajoute même que cha<lb/>n' dot point les faire rêver des sintimints si fins du<lb/>savon Maubert ou de ch’ti du Congo ; mais dins<lb/>l'hiver !... Cha m' fait rèver !...<lb/></p>
+        <p><lb/>Je r'nonce à savoir d'ùch' que nous vient cheull<lb/>sottise. J' dis cheull' sottise, parc' que l' malheu-<lb/>reux qui couche paillasse par tierre, comme ch’ti<lb/>qui r'pose dins un biau lit rêvent l'un comme l'aute<lb/>et l' rève du dernier est quéqu’fos moins biau que</p>
+        <p><lb/>A moins qu' cheull' croyance ven'rot des garchons<lb/>et servantes d’hôtels qui craignottent d' perde<lb/>l' monopole du cirache des sorlets. I's in sont bien</p>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>PRIME AUX ABONNÉS</p>
+        <p><lb/>Vaclette, qui apour tis<lb/>l' Vaclette, qui a pour titse</p>
+        <p rend="heading"><lb/>LE MANNEQUIN</p>
+        <p><lb/>Sauf avis contraire, nous continuerons à servir cheuss'<lb/>qui ont fini leu tros mos au liméro 13.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>L' quaterième esposition des artists peintres qui<lb/>avot été r'mise, ara lieu dins deux salles d' l'ancien</p>
+        <p><lb/>L'Société s'a adjoint les aquarellistes, graveurs et<lb/>Les artistes qui vodrott'nt participer à ch' l'espo-</p>
+        <p><lb/>sition peuv'nt s'adresser à M. Debaene, secrétaire,</p>
+        <p><lb/>L'esposition s'ouvrira le 22 novembre.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Les Maq'reaux d' St-Crépin</head>
+        <figure type="decoration"/>
+        <p><lb/>Vous avez dù avoir souvint, comme mi, des sor-<lb/>lets qui criott'nt viv l'Imp'reur, ch'est-à-dire des<lb/>sorlets qui pernottent l' poussière ; et n' povant point<lb/>toudis aller au neuf, d'ête obligé de r'courir à-n-un</p>
+        <p><lb/>Chav'tier! Faudrot point qu'l' m'intindrottent!</p>
+        <p><lb/>Par conséquent, vous avez pus d’eun' fos deschindu<lb/>din' eun' cave d'chés bijoutiers su l' genou.</p>
+        <p><lb/>Queulle odeur, mes amis !</p>
+        <p><lb/>Pindant que ch' brave ouverrier s' casse l' tiête à<lb/>vous espliquer qu’i' faudra d' nouviell's impeinnes,<lb/>eun' paire de d'mi-s'melles et des talons, vous vous<lb/>t'nez l' nez pour tâcher de n' point respirer l'odeur<lb/>de l'arpoix, des vielles chavates, ekcétéra.</p>
+        <p><lb/>Ch' n'est point tout d' cha, in comparaison de ch'<lb/><lb/>qu'i m'a arrivé n'y-a autant d'ainnées comme lundi</p>
+        <p><lb/>Ignorant complètement qu' chétot Saint-Crépin,<lb/>je m' sus vu obligé d'aller mette m'n apparel respi-<lb/>ratoire au-d'sus du domicile d'un d' chés bijoutiers.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136118k</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1894-11-07">1894</date>
+          <idno type="ARK">bpt6k8136118k</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136118k</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0001.xml"/>
+          <fw type="runningTitle"><lb/>QUAI' NCO ANNADO, No 13.</fw>
+          <ab><milestone unit="column" n="3"/><lb/>DIMÈCRE, 7 DE NOUVÈMBRE 1894.</ab>
+          <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,</ab>
+          <ab><lb/>(Prouverbi de meinsounie)</ab>
+          <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7,17,27)</p>
+          <figure/>
+          <p rend="heading"><lb/>PPRES DE L'ABOUNAMEN</p>
+          <ab><lb/>BUREU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI,</ab>
+          <figure type="table"/>
+          <figure type="decoration"/>
+          <p rend="heading"><lb/>FOLCÒ DE BRRASSEL</p>
+          <figure type="decoration"/>
+          <figure type="decoration"/>
+        </div>
+        <div type="article">
+          <p><lb/>L'ARMANA MARSIÉS, de noste ami Aguste Marin<lb/>mand de parèisse pèr la setêimo fes. Sian urous,<lb/>an, de n'en douna la mostro en tésto de l'Aiòli. La Crou-<lb/>nico de Garlaban (escais-noum dóu brave Marin) es touto<lb/>fervourouso de fierta prouvençalo ; e Marin qu'es.<lb/>Paris, redatour au Journal e pas di mendre, es plaça miés<lb/>que res pèr vêire mounte lou bast ba mo e nous douna<lb/>de bons avis. N'i'a tant que nous óublidon, quand pièi<lb/>nous vèndon pas, uno fes foro-nisa ! N'es dounc que juste<lb/>de faire lis ounour à-n-aquéll aqu'an la memòri», a-n-<lb/>aquéll qu'an lou cor aut».</p>
+        </div>
+      </div>
+      <div type="article">
+        <head><lb/>CROUnicO DE GARLABAn</head>
+        <p><lb/>Se legissias, bràvei coumpan, tout ço que<lb/>s'escriéu dins lei journau de fouero Prou-<lb/>vènço sus noueste paure pais, vous n'en farias<lb/>de marrit sang! Avès resoun, se va legissès<lb/>pas: vès, lei journau, coumo lei goi, soun de<lb/>badau e fan d'embroi ! Vous rèsto l'Armana<lb/>Marsihés, qu'es galejaire mai pas capoun, e<lb/>qu'a pas soun parié pèr canta lei roumanso<lb/></p>
+        <p><lb/>Lei journau, aquest an, coumo sabon plus<lb/>que nous dire, acoumençon l'espetacle con¬<lb/>tro lei courso de buou ; e zóu sus lei Prou-<lb/>vençau, lei gus, lei feroun, qu’aimon miés<lb/>lou jué d'un toreador dins l'areno, qu'aquéu<lb/>d'uno granouio verinouso levant la cambo au<lb/>Moulin-Rouge vo bèn au Casino de Paris!</p>
+        <p><lb/>A Paris, es verai, si tué ges de buou, franc<lb/>au tuadou de la Vileto, mounte leis ensucon à<lb/>mita e lei saunon avans que moueron, pèr que<lb/>la car siegue pas escaufado; mai si tué de<lb/>chivau, sus lei prat de courso, cènt coup mai<lb/>que dins leis areno de Nimes, si fa de tir ei<lb/>paloumbo, de chaple d'innoucènt ! e lei couer<lb/>lagremous que crèbon en legissènt lou ra-<lb/>conte d'uno « courrido » mounte un valènt<lb/>toreador, emé soun gàubi, sa resoun, soun<lb/>couràgi, a fini pèr mata la bèsti feroujo que<lb/>lou cercavo de sei bano, lei couer estransina<lb/>dei gènt de la coungregacien laico, boumbis¬<lb/>son, fernisson e prenon fué davans lou doun-<lb/>taire qu'intro dins uno gàbi en bacelant de<lb/>lien embastardi, nascu esclau, qu’an plus ni<lb/>dènt ni arpien, e qu'an embruti, de pòu que si</p>
+        <p><lb/>Alor, li coumpréni plus rèn !</p>
+        <p><lb/>Fau vèire, dins lei casso gardado, coumo<lb/>si regalon lei gènt dóu gros grun! N'ai segui<lb/>uno, vaqui un parèu de mes, tout pròchi de<lb/>Paris De rabaiaire, de varlet de casso en braio<lb/>estrecho, fasien veni à l'endavans dei cassaire<lb/>uno ribambello de bestiolo aprivadado ; e<lb/>quand l'avié plus qu'à tira, zou à-n-élei ! lei<lb/>bèu messiés, emé sei carabino, tuavon à ràgi,<lb/>sènso mai de dangié que dins un galinié.</p>
+        <p><lb/>Fau vèire tambèn, dins lei casso à courre,<lb/>que chamatan, que joio, qu'estrambot! quouro<lb/>la bèsti, perseguido despuei lou matin pèr lei<lb/>chin e lei cavalié, si rènde, si tirasso au sou,<lb/>coumo se cridavo gràci ! Lei chin l'an agan-<lb/>tado, e la descarnon sènso l'acaba. Alor, lou<lb/>valènt cavaucaire l'estripo à còup de coutèu,<lb/>e sèmblo, tant n'es fièr, sèmblo, en si relevant,<lb/>que vèn de mata la Tarasco!</p>
+        <p><lb/>Aquélei resoun, leis avèn dounado pèr<lb/>sousteni que lou matàgi dei buou es mai no¬<lb/>ble qu'acò, que lou toreador que risco sa vido,<lb/>que leis Areno soun uno escolo de la vou-<lb/>lounta, de la bello tengudo davans lou dangié,<lb/>puei, subre-tout, que, se lou matador tué lou<lb/>brau, es pèr ensigna que l'ome, estènt vale-<lb/>rous e inteligènt, dèu triounfla de la bèsti fe-<lb/>rouno. Alor, d'ai cabanié nous an di, dins sei<lb/>journau, que la casso à courre es un regàli de<lb/>segnour, sènso marrit eisèmple pèr lou pople,<lb/>bord qu'a pas lesi de la faire...</p>
+        <p><lb/>S'acò vous douno pas l'envejo de lei cassa<lb/>tambèn à courre. lei richas ! Es bèn verai de<lb/>dire que lou pople es mata, pulèu que lei<lb/><lb/>buou ! Se si tirassavian pas coume de feinian-<lb/>tas dins la poulitico, s'erian d'ome fièr e inde-<lb/>pendènt, lou seguirian, lou marrit eisèmple,<lb/>coumo lei segnour !</p>
+        <figure type="decoration"/>
+        <p><lb/>Uno remarco à faire, à prepaus d'aquelo<lb/>levado de plumo contro noste jué poupulàri :<lb/>dins la Franço dóu Nord, à Lilo, à Tourcoing,<lb/>tóuti lei dimenche fan batre lei gau, sus la<lb/>plaço, e, dins d’àutrei pais, lei chin que si<lb/>matrasson. Demandan pas la supressien d'a-<lb/>quélei lucho, bord qu'apereila agrado en tout<lb/>lou mounde. Mai coumo va que jamai lei gènt<lb/>de la coungregacien laïco an fa d'article sus<lb/>d'acò? Alor, lei gau soun pas de bèsti? E lei<lb/>chin, que lei damoto n'en devènon fadado !..</p>
+        <p><lb/>La verita, vès, bràvei coumpan, es qu'à l'óu-<lb/>casien dei courso de buou, lei gènt dóu Nord<lb/>an mai cerca garrouio ei Prouvençau. E touto<lb/>la verita es aqui. la guerro dóu Nord contro lou<lb/>Miejour sera jamai finido. Un jour, se leissan<lb/>rena lei guècho, diran qu'es noueste soulèu<lb/>que l'a trevira leis uei ! Enous faran paga de<lb/>Suneto fumado!</p>
+        <p><lb/>Es bouen qu'en Prouvenço, sus d'aquelo<lb/>questien dei buou, tout lou mounde siegue<lb/>d'acord. Iéu que vous pàrli, àimi miés lou jué<lb/>prouvençau dóu Poulit (qu'a l'èr de galeja lou<lb/>camarguen, de lou pougne pèr si trufa d'éu e<lb/>de faire la figo à sei bano) que la batèsto deis<lb/>espagnòu, ardido, fèro, espetaclouso ! Ai pica<lb/>dei man ejita lou capèu quand Reverte a mata<lb/>d'un còup d'espaso la bèsti terriblo que lan-<lb/>davo sus d'éu ; mai m'agrado miés de vèire<lb/>sauta lei vaqueto landeso, e miés encaro la<lb/><lb/>bourgino, que mete en aio tout un vilajoun,<lb/>vo bèn la ferrado de Camargo, mounte van,<lb/>lei masclas dóu terradou, quicha leis anouble<lb/>dins la plano bataiero. La lucho es bello d'en-<lb/>signamen ; mai àimi miés lou jué.</p>
+        <p><lb/>Pamens, vous va diéu, davans la guerro que<lb/>nous es facho, es necite que siguen tóuti d'a-<lb/>cord, e tóuti afeciouna pèr lei courrido de<lb/>mouert, s'agrado ei prouvençau e ei lenga-<lb/>doucian de n'agué dins seis Areno. Resto ei<lb/>Parisen lou dre de supremi sei courso de</p>
+        <p><lb/>Lei Prouvençau de boueno raço, aqué¬<lb/>lei que soun pas bastard e soustènon sei dre,<lb/>soun leis enemi naturau dóu poudé centrau<lb/>qu'a pèr pres-fa, que siegue blanc, que siegue<lb/>rouge, de metre au nivèu ço qu'escalo, e<lb/>d'empacha la manifestacien de touto ideio<lb/>fonero la rego, persounalo vo poupulàri.</p>
+        <p><lb/>Lou poudé centrau, se supremis lei courso<lb/>de buou, mespreso la liberta que déurian agué,<lb/>de passa lou dimenche coumo nous agrado<lb/>tant que fa de tort en degun. Acò sèmblo rèn?<lb/>Pamens, lei Prouvençau dóu bouen tèms an<lb/>fa tèsto au rèi de Franço pèr sousteni de cous-<lb/>tumo que voulien garda, coumo es lou dre<lb/>d'un pople qu'empacho pas leis autre.</p>
+        <figure type="decoration"/>
+        <p><lb/>Sabès quau soun lei journalisto de Paris<lb/>qu'an lou mai crida contro nouéstei courrido<lb/>de brau? Just aquélei que si dien libertàri,<lb/>qu’an soustengu lou dre de cadun à si regi se<lb/>gound soun idèio ; aquélei que si meton fouero<lb/>la lèi e vouelon plus ni sourdat, ni coumes-<lb/>sàri, ni reglamen, ni Diéu ni diable ! estènt<lb/>que l'ome fara ges de mau quouro l'encade-<lb/>naran plus coumo un chin.</p>
+        <p><lb/>Vous dirai qu'es ansin que pènsi. Es toujour<lb/>contro un mèstre que l'ome si rebèco ; e<lb/>quouro l'anra ges d'esclau, l'aura ges de re-<lb/>vouluciounàri. L'ome es pas marrit de neis-<lb/>sènço : se li fasien pas pòu emé de farfantello,<lb/>quand es pichoun, restarié franc e noble ; s'a-<lb/>trouvavo pas, quand vèn grand, de lèi que<lb/>l'empachon de camina pèr faire plaço à d'au-<lb/>tre, si regimbarié pas, estènt urous coumo</p>
+        <p><lb/>Mai lei libertàri parisen, qu'an tant crida<lb/>contro l'ourganisacien de la soucieta, sei tri-<lb/>bunau e seis armado, aro vouelon nous em-<lb/>pacha de faire ço que l'agrado pas à-n-élei,<lb/>e s'adrèisson au menistre ! demandon un regla-<lb/>men ! Fan bouqueto ei jùgi que nous avien di<lb/>fin-qu'aro de mespresa ; reclamon enfin l'es-<lb/>tradicien dei matador espagnòu, dins lei mé-<lb/>mei journau mounte escrivien que l'a ges d'es-<lb/>trangié en-lué, tóuti leis ome estènt fraire.</p>
+        <p><lb/>Paure pople ! aquélei crounicaire que t'an<lb/>engana, sabon bèn que pèr faire respeta lei<lb/>reglamen que demandon, l'a de tribunau<lb/>soumés au gouvernamen; sabon que pèr l'a-<lb/>plicacien de la lèi l'a de fusiéu, dins lei caserno<lb/>de Nimes ! Va sabon, e sa ràgi contro lou<lb/>Miejour crido au menistre: «Zou ! que la lèi<lb/>siegue respetado !</p>
+        <p><lb/>Escoutas, cambarado : siéu, vous va dirai,<lb/>de tout couer libertàri ; mounte l'a de sourdat e<lb/>de jùgi, mounte l'a l'autourita, coumpréni que<lb/>l'a pas de resoun e que lou pople es en dan-<lb/>gié... Tambèn, dins l'aveni, faudra si mesfisa<lb/>-<lb/>d'aquélei que fan mestié de lagremeja sus lou<lb/>paure, e qu'un jour an demanda d'èstre sous-<lb/>tengu contro éu pèr l'armado e lei tribunau!<fw type="digitisation-artefact"><lb/>ce gallica.n.fr/Bibliothèqu</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

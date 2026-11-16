@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Bouil-abaïsso</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k5418253j</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Bouil-abaïsso : journaou populari en vers prouvençaous ["puis" journal en vers provençaux, languedociens et comtadins]</title>
+          <publisher>[s.n.] (Marseille)</publisher>
+          <date when="1841-03-26">1841</date>
+          <idno type="ARK">bpt6k5418253j</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k5418253j</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0004.xml"/>
+          <figure type="decoration"/>
+          <ab><milestone unit="column" n="1"/><lb/>Bien-aymado,<lb/>Quant on sat pas ayma.<lb/>Tristo soun las contrados<lb/>Quand s’abeousoun de tu;<lb/>Las sèdos ni las prados<lb/>Nou soun plus embaoumados,<lb/>Lou ciel n’es plus tan blu.<lb/>Quant tornes faribolo,<lb/>La languino s’embolo,<lb/>Cadun sé rébiscolo,<lb/>Minjayan tous ditous<lb/>Bién-aymado,<lb/>Quant on sat pas ayma!<lb/>Ta tourtèro infugido<lb/>Te baillo uno litçou;<lb/>Es al bos qué tooublido,<lb/>Et que ben pu poulido,<lb/>Dunpéy qu'y fay l'amou.<lb/>Pel l’amou tout palpito,<lb/>Siét-lou per qué t'embito,<lb/>Aoutromen de ta bito<lb/>Lou bes jours sayon nuts<lb/>Et perduts.<lb/>N'a que l'amou, maynado,<lb/>Qu'al bounnur pot ména:<lb/>Acos tout d’estré aymado,</ab>
+          <lg>
+            <l><lb/>Al bounnur pot ména:</l>
+            <l><lb/>Qu'es aco d'estré aymado,</l>
+          </lg>
+          <lg>
+            <l><lb/>Dé poutous.</l>
+            <l><lb/>Mais rés d’aco maynado,</l>
+            <l><lb/>Al bounnur pot ména:</l>
+            <l><lb/>Qu'es aco d’estré aymado,</l>
+          </lg>
+          <p rend="heading"><milestone unit="column" n="2"/><lb/>Ben-aymado,</p>
+          <lg>
+            <l><lb/>Mais quant on sat ayma!</l>
+            <l><lb/>Agen, mars 1841.</l>
+          </lg>
+          <figure type="decoration"/>
+          <p rend="heading"><lb/>UN PROUVERRE ARLÉSIEN.</p>
+          <lg>
+            <l><lb/>Cansonn sur un air counégu.</l>
+            <l><lb/>Din noste siéclé de lumièro,</l>
+            <l><lb/>A forço de ye veire clar;</l>
+            <l><lb/>En pento anen testo premièro</l>
+            <l><lb/>Et trouven doux ce qu’es amar.</l>
+            <l><lb/>Lou systèmé que fay merveyo,</l>
+            <l><lb/>Crent pourtant quaouque revoulun!</l>
+            <l><lb/>Ges de fio din la chamineyo,</l>
+            <l><lb/>Que noun nen sorte un paou de fun.</l>
+          </lg>
+          <lg>
+            <l><lb/>Lou charlatan que fay d'esbroufé,</l>
+            <l><lb/>Lou sot qu'à tout voou mette un pris;</l>
+          </lg>
+        </div>
+        <div type="article">
+          <ab><milestone unit="column" n="3"/><lb/>Mars 1841.</ab>
+          <lg>
+            <l><lb/>Lou fanfaroun que fay de poufé,</l>
+            <l><lb/>Lou faou dévot que porte un christ;</l>
+            <l><lb/>Soun touteis gens, qu'à moun ideyo,</l>
+            <l><lb/>Cregnoun un regard importun</l>
+            <l><lb/>Ges de fio din la chamineyo</l>
+            <l><lb/>Que noun n’en sorte un paou de fun.</l>
+          </lg>
+          <lg>
+            <l><lb/>D'un amitié grando et sincèro,</l>
+            <l><lb/>Proun gens vous fan hieuy lou serment;</l>
+            <l><lb/>Bons amis, quand tout vous prouspero,</l>
+            <l><lb/>Maï s'avé de desagrament,</l>
+            <l><lb/>Vosteis soustiens, qu’avia la veyo;</l>
+            <l><lb/>Vite de vous se tiroun yun;</l>
+            <l><lb/>Ges de fio din la chamineyo</l>
+            <l><lb/>Que noun n’en sorte un paou fun.</l>
+          </lg>
+          <lg>
+            <l><lb/>Quand arrivo à sa dernièro houro,</l>
+            <l><lb/>L’hommé que n’a pas ben viscu,</l>
+            <l><lb/>Plen de remords, prègo et piey plouro,</l>
+            <l><lb/>Voudrié n'estre jamai nasçu:</l>
+            <l><lb/>L’éiganaou, viven, fay riseyo</l>
+            <l><lb/>De ce que cren esten defun:</l>
+            <l><lb/>Ges de fio din la chamineyo</l>
+            <l><lb/>Que noun n'en sorte un paou de fun.</l>
+          </lg>
+          <ab><lb/>J.P. d'Arles.</ab>
+          <figure type="decoration"/>
+          <p rend="heading"><lb/>ENіGO.</p>
+          <figure type="decoration"/>
+          <lg>
+            <l><lb/>Eme ma testo sieou</l>
+            <l><lb/>Un animaou précieou</l>
+            <l><lb/>Eis Arlétens</l>
+            <l><lb/>Coumo eis Tarascounens ;</l>
+            <l><lb/>Senso testo, uno cavo</l>
+            <l><lb/>A mangea fouesso bravo</l>
+            <l><lb/>Din les couvens</l>
+            <l><lb/>Per les avens.</l>
+          </lg>
+          <ab><lb/>JASMIN.</ab>
+          <figure type="decoration"/>
+          <p rend="heading"><lb/>cHARADO.</p>
+          <figure type="decoration"/>
+          <lg>
+            <l><lb/>Moun premier va ben à la tailio;</l>
+            <l><lb/>Moun darnier vis toumbar leis empirés puissans,</l>
+            <l><lb/>Tué tout, dévoro tout, marquo tout su sa taillo.</l>
+            <l><lb/>Et moun entier revent touteis leis ans,</l>
+            <l><lb/>Fairé naissé la joyo et trimar leis paysans,</l>
+            <l><lb/>Et pourtant quaouque fès assigno uno bataillo.</l>
+            <l><lb/>Joousé DESANAT, éditour,</l>
+            <l><lb/>Proupriétari-Rédactour.</l>
+          </lg>
+          <p rend="styled"><lb/>Lou mot dé la dernièro charado es: CHI-CHOIS.</p>
+          <ab><lb/>So/BF</ab>
+          <figure/>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

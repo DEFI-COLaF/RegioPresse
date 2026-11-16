@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Camel</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t536795096</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Camel : risoulhé artistiqué ["puis" risoulié artistic]</title>
+          <publisher>[s.n.] (Besiès)</publisher>
+          <date when="1905-06-18">1905</date>
+          <idno type="ARK">bd6t536795096</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t536795096</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Costo dous soùs</fw>
+        <fw type="runningTitle"><lb/>Segoundo Annado - N^o 27</fw>
+        <dateline><lb/>18 Jun 1905</dateline>
+        <ab>
+          <stamp><lb/>C.I.D.<lb/>BEZIER</stamp>
+        </ab>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>CAMEL<lb/></p>
+        <p rend="heading"><lb/>Redactous en chef : Emile BARTHE &amp; René D'OC</p>
+        <ab><lb/>Redaciù e Administraciù<lb/>BESIÈS — PLAÇO DE LA REPUBLIQUO — BESIES</ab>
+        <p rend="styled"><milestone unit="column" n="3"/><lb/>Abounomen: cinquanto sous per an<lb/>Announços: de grat a grat</p>
+        <p rend="styled"><lb/>Adressa toutos las letros e mandats à l'Administratou: Plaço de la Republiquo</p>
+      </div>
+      <div type="article">
+        <head><lb/>LA SANTO ESTELLO</head>
+        <figure type="decoration"/>
+        <p><lb/>La Santo-Estello, festo annadieiro felibrenco<lb/>a avut lioc aqueste an en Arles, lou bèl dilus<lb/>de Pantacousto.</p>
+        <p><lb/>Après uno passejado dins lou Museon arlaten<lb/>ounte lou Mestre, aroudelat de la colo de sous.<lb/>amiratous, dounavo d’esplicacius curiousos, sa-<lb/>berudos e mai qu’interessantos, lous valents<lb/>aparaires de las lengos mairalos venguts des<lb/>quatre caires del Mièjour s’ataulèrou dins la<lb/>grando salo del Lioun d'Arles. Las parets artis-<lb/>ticomen adournados am de flous, de tablèus, e<lb/>lou vol de gentos arlatencos que s'èro barrejat<lb/>as taulejaires, èrou un regal per la visto. La<lb/>bouco ajèt lèu lou séu amb'uno dinnado de lepet<lb/>que ne vejo aici lou detal:</p>
+        <ab type="head"><lb/> Rabalun</ab>
+        <lg>
+          <l><lb/>Langousto de l'Estaco à la Mahounenco</l>
+          <l><lb/>Fielet de biòu emé cep dòu Peirigord</l>
+          <l><lb/>Pichot pese de Barbentano au cambajoun</l>
+          <l><lb/>Poulanchoun estiven rousti</l>
+        </lg>
+        <ab type="head"><lb/>Entre-mie</ab>
+        <ab type="head"><lb/>Pastissoun à la Gastoun-Fèbus<lb/>Frucho e Lipetige</ab>
+        <ab type="head"><lb/>Vins</ab>
+        <lg>
+          <l><lb/>Vin rouge de Crau e Pico-poul gascoun</l>
+          <l><lb/>Vin de la Coupo-Santo</l>
+          <l><lb/>Piò-Rouge de Sant-Gile</l>
+        </lg>
+        <p rend="styled"><lb/>(Oufert per lou felibre Champ-Rous)</p>
+        <ab type="head"><lb/>cafe</ab>
+        <p><lb/>Après lou Cant de la Coupo Santo entounat<lb/>per Mistral e repres per toutes al refrin, En<lb/>Peire Devoluy « s'aubouro ». Es l'ouro del dis-<lb/>cours capoulieirenc e des brindes. S'apugant<lb/>sus de counsideracius istouricos e literàrios, lou<lb/>Capouliè arderousomen emparaulat, revendico<lb/>la prumieiro plaço per l'armouniouso lengo<lb/>d'Arles ; mès acò faguent — e ajent esplicat ço<lb/><lb/>qu'es estat, ço que déu estre lou Felibrige mis-<lb/>tralenc — rend un oumage d’amiraciu pla degut<lb/>vas dialectes fraires e as omes de bouno vouloun<lb/>tat escampilhats l'un aici, l'autre alai, que, dins<lb/>Nou Lengadoc, lou Bearn, l'Auverguo e lou Li¬<lb/>mousi, reviscoulou e fòu reflouri sa parladuro<lb/><lb/>delaissado.</p>
+        <p><lb/>Pei aici lou tour de Planté qu'amb'uno pou¬<lb/>lido elouquenço clamo soun afougamen per la<lb/>Causo; del Cabiscol del Bournat del Perigord;<lb/>del Jasmin d’aquel bourgnou felibrenc coumoul<lb/>de forço e de vido. Vejo-aici lou poupulàri<lb/>Charloun que canto dos bellos cansous (la se-<lb/>goundo demandado per la Reino) ; Leopold<lb/>Constant anounço que de mai en mai se fa boun<lb/>aculh al prouvençal dins l'ensegnament de las<lb/>Facultats e lèvo la coupo al grand Malhanenc.<lb/>Se canto, se brindo loung tems encaro coumo<lb/>pensas, e la vesprado s'acabo agradivomen dins</p>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>BRINDE</p>
+        <p rend="heading"><lb/>Pourtat à la SANTO ESTELLO d'Arles</p>
+        <p rend="styled"><lb/>Lou 12 Jun de 1905</p>
+        <lg>
+          <l><lb/>Al felibre de las Telados</l>
+          <l><lb/>Refaudit ai-las ! dins la mort,</l>
+          <l><lb/>En dos rimos encatelados</l>
+          <l><lb/>léu brindarai : à Junior!</l>
+        </lg>
+        <lg>
+          <l><lb/>Al gimblaire de Camelados</l>
+          <l><lb/>Al vièlh amic, franc coumo l'or,</l>
+          <l><lb/>Al felibre de las Telados</l>
+          <l><lb/>Refaudit ai-las! dins la mort.</l>
+        </lg>
+        <lg>
+          <l><lb/>Que dàu las voutos estelados,</l>
+          <l><lb/>En souveni de soun boun cor,</l>
+          <l><lb/>Montou coumo un pious recor,</l>
+          <l><lb/>Aquestos trobos envoulados</l>
+          <l><lb/>Al felibre de las Telados !</l>
+        </lg>
+        <ab><lb/>RENAT FOURNIER.</ab>
+        <p rend="heading"><lb/>IKIXK</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Galant enfant que me ressèmbles,<lb/>Siègues beni d’ounte que vengues,<lb/>Se vouiès me segui, me quitariès papus ;<lb/>Vène seren urous ensèmble,<lb/>Que l'innoucenço nous assèmble,<lb/>D'abord que vésés que te sèmble,<lb/>La tèro, moun amic, n'es pas facho per tus.</ab>
+        <ab type="head"><lb/>L’Ange e l'Enfant</ab>
+        <ab type="head"><lb/>Imitado de Jan REBOUL<lb/>las anticos e superbos Arenos d'Arles à veire<lb/>estoca quauques tàures.</ab>
+        <lg>
+          <l><lb/>Un ange a faço radiouso,</l>
+          <l><lb/>Coumo quand la luno es pargouso,</l>
+          <l><lb/>Espinchavo un enfant coucha dedias soun brès.</l>
+          <l><lb/>L'enfant es bèu dins soun jouine age!</l>
+          <l><lb/>Cresiè de veire soun image</l>
+          <l><lb/>Encadra dins soun abihage,</l>
+          <l><lb/>Lou caress' un moument, e iè dis pièu après:</l>
+        </lg>
+        <lg>
+          <l><lb/>Aici la vid' es pas urouso,</l>
+          <l><lb/>Toujour la routo es espinouso,</l>
+          <l><lb/>L'ama souiris dou cor mème dins si plesi ;</l>
+          <l><lb/>l'a jamai joio sans tristesso,</l>
+          <l><lb/>I'a de larmo dins l'allegresso,</l>
+          <l><lb/>Coumo de plours dins la jouinesso,</l>
+          <l><lb/>On souspiro tojour quand on crei de joui.</l>
+        </lg>
+        <p><lb/>Per tout dire dins dous mots, la Santo Estello<lb/>arletenco es estado uno journado marcanto pes<lb/>felibres e pel Felibrige!</p>
+        <ab><lb/>RENAT.</ab>
+        <lg>
+          <l><lb/>La pòu es de touti li festo.</l>
+          <l><lb/>O! que de lagui dins la testo;</l>
+          <l><lb/>Jamai ie rancountras un jour siau e sans vent ;</l>
+          <l><lb/>E per tant qu'aguès bon courage,</l>
+          <l><lb/>A tout moument i’a qu'auqu’ourage,</l>
+          <l><lb/>Que vous lan esprouva 'n noufrage,</l>
+          <l><lb/>Mentirias se disias : Deman anarèn ben.</l>
+        </lg>
+        <lg>
+          <l><lb/>E tus voudriès que li secousso</l>
+          <l><lb/>Coum' un vaissèu que la mar pousso</l>
+          <l><lb/>Venguessoun sus toua frount ié marca la doulou?</l>
+          <l><lb/>E que la guèr' e lis alarmo,</l>
+          <l><lb/>Que fan toujour coula li larmo,</l>
+          <l><lb/>Surtout dins lou mestiè dis armo,</l>
+          <l><lb/>Changessoun ti bèus iols en dous traus couladou.</l>
+        </lg>
+        <lg>
+          <l><lb/>Non, non, iou counouisse la routo</l>
+          <l><lb/>Per traversa la bello vouto,</l>
+          <l><lb/>Voularas embe lou sus lou camin dau cièl.</l>
+          <l><lb/>Aqui ié trouvaras ta plaço,</l>
+          <l><lb/>D'ounte veiras toun Dièu en faço,</l>
+          <l><lb/>La Providenço te fai graço</l>
+          <l><lb/>Di jour qu'auriès viscut s'ères vengu pu vièl.</l>
+        </lg>
+        <lg>
+          <l><lb/>Que ni toun paire ni ta maire</l>
+          <l><lb/>Pamai que ti sor e ti fraire</l>
+          <l><lb/>Carguessoun pas lou doou per t'agudre perdu ;</l>
+          <l><lb/>Paca de crespo sus la testo,</l>
+          <l><lb/>Que tant li raubo que li vesto</l>
+          <l><lb/>Rejouigoun coumo lou resto,</l>
+          <l><lb/>E que siègoun counten coumo quand siès nascu.</l>
+        </lg>
+        <lg>
+          <l><lb/>Fau pas que li front se frounzigoun,</l>
+          <l><lb/>Ni que li gauto se passigoun,</l>
+          <l><lb/>Que ren marque pa'n liocque per tus ia un toumbèu.</l>
+          <l><lb/>Quand on s'envai anb'aquel age</l>
+          <l><lb/>Coumo tus que siès estat sage</l>
+          <l><lb/>O! quante bèu pelerinage</l>
+          <l><lb/>Lou jour que l'on s'en vai es lou jour lou purbèu.</l>
+          <l><lb/>E desplegan sis alo blanco</l>
+          <l><lb/>Coum' un passeroun sus la branco,</l>
+          <l><lb/>Ou coum' un bastimen que vai quita lou port</l>
+          <l><lb/>L'ange s'en vai à tiro d'alo,</l>
+          <l><lb/>Vers li demoro eternato,</l>
+          <l><lb/>Onte se monto sans escalo</l>
+          <l><lb/>Toun amour à cessa, maire toun fil es mort.</l>
+        </lg>
+        <ab><lb/>Auguste ADvENIER.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Bracounache de las lébrès</head>
+        <p><lb/>Dèsempei las darnièros bendémios Trissosébos a<lb/>pas quittat l'allègre bilache de Courneilha. E se<lb/>qualque lichiairé dal Camel, bol le couneissé, a<lb/>qu'ana al Cafè que i a en faço lé Piboul tradissiou-<lb/>nel ; qu'es courounat d'uno bisarro courouno de<lb/>cornos de moutou. Aqui le troubarés amé soun en-<lb/>separabie amic Lagrello.</p>
+        <p><lb/>Aqueste dilus de Pentocousto, en benguén de</p>
+        <ab><lb/>Source gallicanf.fe medeca occitana</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

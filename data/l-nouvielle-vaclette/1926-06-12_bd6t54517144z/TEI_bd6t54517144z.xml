@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Nouvielle Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54517144z</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Nouvielle Vaclette : journal patoisant humoristique, non politique / avec la collaboration du Caveau lillois</title>
+          <publisher>[s. n.] (Lille)</publisher>
+          <date when="1926-06-12">1926</date>
+          <idno type="ARK">bd6t54517144z</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54517144z</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>ANNÉE. — No 67</fw>
+        <fw type="runningTitle"><lb/>Samedi 12 Juin 1926.</fw>
+        <fw type="runningTitle"><lb/>L'abonnement se paie d'Avance</fw>
+        <ab><milestone unit="column" n="2"/><lb/>0 25 LE NUMERO</ab>
+        <figure/>
+        <note>
+          <p rend="labelled"><milestone unit="column" n="1"/><lb/>ce Journal n'a qu'un but, distraire ses nombreux lecteurs sans faire de politique ni de personnalité. — Sa devise est “ Bien faire et laicher dire“. — Il peut être<lb/>Parlont et par tous. — On s’y abonne, pour (13 Nos 3 fr.) ; (26, 6 fr.) ; (39, 9 fr.) ; (52, 12 fr.) à l'ami Gaston Herreng, Gérant, 49, rue Saint-Sauveur, à Lille, ou à tous<lb/>mres du Caveau Lillois. Paraît tous les samedis.</p>
+        </note>
+      </div>
+      <div type="article">
+        <head><lb/>NOCTURNE</head>
+        <p><lb/>es douze coos d' minuit viennent d' sonner à<lb/>te-Cath'rine. L's allées d' l'Esplanate, qui,<lb/>été fréquentées dins l'après-dinner, par eun<lb/>intité d’ gosses riches ou paufes qui s' sont<lb/>a leus ébats sous l'œul vigilant d' leu’s<lb/>fiches ou d' leu's mamans et toute l' soirée,<lb/><lb/>les couples d'amoureux, qui, après s'ête<lb/>menés l' main dins l' main ou bien à l<lb/>mette tout in s' racontant chin... qu' vous<lb/>raconté dins le temps et qu' vos infants s<lb/>Pront pus tard, s' sont assis sur un banc.<lb/>eux d'povoir s’y r’poser, tout in respirant l<lb/>parfum des tilleuls, et.. infin passons, ches<lb/>sont dev’nues complêt'mint désertes. Les<lb/>rs des rares biecs de gaz, suffijent à peine à<lb/>her l'épais feuillache des abres, et la lune,<lb/><lb/>point volu ouvrir ses persiennes pou’<lb/>fier l's' étoiles juer au much', much', i' fait<lb/>noir qu' dins un cul d' four de boulinger.<lb/>qui donc, à ch' l' heure tardive et dins un<lb/>aussi r'tiré, même sans avoir frod à l’s<lb/>qui os'rot s’y avinturer ? Personne</p>
+        <p><lb/>noins qu’un graineux par eximple, n'ayant<lb/>dut à fait conscieince d' ses actes</p>
+        <p><lb/>à peine si l' dernier cop de l' sonn'rie<lb/>qu'eun' voisse, simblable à cheull' d'un<lb/>cappé d' l'Abattoir s' faijot intind' dins<lb/>lain. Cheull' voisse est cheull' d'un porte-<lb/>rainé antant qu' trinte six Polonais, qui,<lb/>ête attardé à boire chopes sur chopes dins<lb/>prets du Vieux Lille, arpinte l' rue du<lb/>sin, in balochant comme un abre à pronnes<lb/>vint, et tout in cantant l'air des sal-<lb/>nques :</p>
+        <lg>
+          <l><lb/>st l'amour qui flotte dans l'air à la ronde,</l>
+          <l><lb/>amour qui console le pauvre monde,</l>
+          <l><lb/>amour, qui donn' chaque jour la gaité,</l>
+          <l><lb/>Cest l'amour qui nous rendra la liberté,</l>
+        </lg>
+        <lg>
+          <l><lb/>ponsoir Négrier! salut vieux général</l>
+          <l><lb/>minul s seul'mint, deschinds d'tin piéd</l>
+          <l><lb/>te paie un verre</l>
+          <l><lb/>i? à m'n' invit' te n' réponds scul'mint point?</l>
+          <l><lb/>immobile, in gardant t'n' air sévère</l>
+          <l><lb/>ch'est d'un bon cœeur qu'au tapis qui fait l'coin,</l>
+          <l><lb/>J' te paie un verre.</l>
+          <l><lb/>sabre au clair, ringain' le dins lf</l>
+          <l><lb/>leind' vert de gris, et r'sanne à un chim</l>
+          <l><lb/>a tin képi drot, pou' parait' pus faraud</l>
+          <l><lb/>e par</l>
+        </lg>
+        <p><lb/>supposer qu'i' n'est point pressé de<lb/>gner ses pénates, ch' disciple d' Cambri-<lb/>arrivé au bout de l' rue. ch’est à dire<lb/>'Esplénate, ayant aperchu, malgré.. s<lb/>estatue du Général Négrier, et, arrivé<lb/>grill'qui intoure l' monumint, i' s'in<lb/>toudis in zigzagant, joint les talons,<lb/>lut militaire, et s' met à déclamer les<lb/>ivants:<lb/>v'not comme li, print' possession d'un nouviel<lb/>apparel.<lb/></p>
+        <p><lb/>In attindant leu' tour, l' conversation s'inga-<lb/>geot su' l' sujet qu' vous d'vinner : "la guerre".</p>
+        <p><lb/>Uqu' ch'est qu' te t'as fait arringer comme<lb/>cha ?Mi, dins la Somme, et ti? Mi, à Craonne,<lb/>etc. etc... Infin, l'connaissance étot vite faite et<lb/>l' mutilé du bras invitot Pascal à li rinte visite a<lb/>s' mason, si un jour i' v'not à Bully Grenay et i'<lb/>li donnot s' carte.</p>
+        <p><lb/>Pascal d' sin côté, li faijot l' même invitation<lb/>et faijot simblant d' cacher après s' carte d' visite<lb/>dins s' poche, mais i' savot bien d'avinche qui n’<lb/>n'arot point trouvé, pou' l' bonn' raison, ch'est<lb/>qu'i' n' a'a jamais fait faire.</p>
+        <p rend="labelled"><lb/>— Cha n' fait rien qu'i' dijot à sin nouviau<lb/>chochon, si te viens un jour, te n’ s ras point<lb/>géné de m' trouver, ch'est mi qui tiens l' pus<lb/>grand salon d' coiffure d' Cant'leu.</p>
+        <p><lb/>Infin au bout d’un p’tit moumint, les v’là ser¬<lb/>vis et comme dins toute administration qui<lb/>respecte, on leu' fait signer eun' quantité d'<lb/>papiers, d' décharches, d' recus, chin qui les<lb/>obliche à déposer su' l' guichet leu’s paquets<lb/>qu’on v'not d' leu' donner.</p>
+        <p><lb/>Les formalités rimplies, nos deux chochons s'<lb/>quittent et... à la r'voyure.</p>
+        <p><lb/>Arrivé à s' mason, Pascal, dins l'intention d'<lb/>moutrer à s' femme et à quéqu's clients, s' nou<lb/>vielle gampe perfectionnée, déballe sin paquet<lb/>et trouf.... un bras mécanique.</p>
+        <p rend="labelled"><lb/>— Mais quoich' que cha veut dire, s'écriot s’<lb/>femme, on s’a trompé, prinds bien vite les<lb/>gampes à tin cou et va r’porter cheull' méca-<lb/>nique, t' n'as point b'soin d tros bras.</p>
+        <p rend="labelled"><lb/>— Cha non, qu' je n' vas point le r'porter,<lb/>ch'est l' comarate d' Bully Grenay qui a pris m'<lb/>gampe. J' m’in vas li invoyer sin bras par colis<lb/>postal et tiens j'ai justemint s' carte d' visite, cha<lb/>ga aller tout seu'.</p>
+        <p><lb/>In eflet, cha allot tout seu'. Mais uch' que cha<lb/>n’allot point tout seu’, ch'étot à Bully Grenay ;<lb/>l' mèm' scène s'étot passée et in ouvrant l'<lb/>paquet cont'nant l' gampe, l'manchot l'vot ses<lb/>bras au ciel in dijant : Me v'là prope ! Commint<lb/>fair' pour invoyer ch' paquet ? Point d' nom,<lb/>point d'adresse, point d' carte d' visite ! Tout<lb/>d'un cop, i' s' souv'not qu' sin comarate d'<lb/>rinconte li avot dit qu'il étot l' pus grand perru-<lb/>quier d' Cant leu. Me v'là sauvé qui dijot, et in<lb/>s'impressot d' porter au cabaret qui sert de dépot<lb/>du messager. l' colis su' l'quel i' mettot eun' éti-<lb/>quette avec cheulle inscription:<lb/></p>
+        <p><lb/>Pour remette ou plus grand çoiffeur d' Cant'leu</p>
+        <p><lb/>Quéqu's jours après i' r'chevot l'visite du mes-<lb/>sager qui li rapportot sin paquet in li dijant qui<lb/>n'avot point trouvé l' pus grand soiffeur d' Can-<lb/>t'leu, qu' ch’étot un pat'lin ûch' qu'i' avot point<lb/>mal de soiffeurs, mais qu'i' n'avot pu trouver l'<lb/>pus grand.<lb/><lb/>ne est rébarbative et t'es d'méchante heumeur,<lb/>Peut-ête qu' l'es faché, d' point avoir fait la guerre?<lb/>A quoi bon P... Vu qu'la France elle est restée vainqueur,<lb/>J' te paie un verre.</p>
+        <lg>
+          <l><lb/>Allons, décid' te donc, j' t'in prie su' tous les tons,</l>
+          <l><lb/>Car te sais, mi j'ai soif, l' faut qu' je m' désaltère...</l>
+          <l><lb/>Te r'fus'sP eh ben. restes d'vant tin parc à moutons,</l>
+          <l><lb/>J' vas boire un verre.</l>
+        </lg>
+        <p><lb/>Ayant ainsi monologué, min graineux saluot<lb/>d' nouviau, faijot un d’mi tour par principe, mais<lb/>ayant par trop brusqué l' mouv’mint, ou bien<lb/>gliché sur eun' séquoi d' douche, i' perdot l'équi¬<lb/>libre et s'étalot su' l' dos d' tout s' longueur. Et<lb/>alors, après avoir gigoté des pieds et des mains<lb/>dtelle eun' mouque intortillée dins eun' toil?<lb/>d’arainnie f'rot d' ses pattes, veyant l'inutilité d’<lb/>ses eflorts, i' s' mettot à crier d'eun' voisse sup-<lb/>pliante: «Hé! Négrier! viens à min s’cours!<lb/>viens min vieux général, pour m’aider à me<lb/>r'mett' sur pieds ! Mi tout seu’, j'ai biau faire, j'<lb/>n’y parviendrai jamais ».</p>
+        <p><lb/>Ches cris attirottent l'attintion du Père bon<lb/>Dieu, l'quel. comme tout in chacun l' sait, est l'<lb/>grand protecteur des grainneux alors qu’i' pernot<lb/>P'air à l' lucarne du Paradis.</p>
+        <p><lb/>Emu d' pitié à l' vue de l' position imbarras-<lb/>sante du porte-faix, i' inveyot pou' l' rel’ver,<lb/>deux d'ses anges, sous l' forme d'agents d' police,<lb/>ה<lb/>Cheux-chi, avé tous les égards dus à sin rang,<lb/>s'acquittottent d' leu' mission, puis l'imm nottent<lb/>au violon, ûch' qui trouvot un abri cont' les<lb/>daquoires qui comminchottent à quer à pleins<lb/>séaux, non sans li avoir donné chin qu'il avot<lb/>réclamé à grands cris in cours de route, ch'est'à-<lb/>dire : un verre à boire ! Malheureus'mint, ch'étot<lb/>du Château Lapompe.</p>
+        <ab><lb/>I. MARÉELS</ab>
+        <ab><lb/>alias: Passe-Partout</ab>
+        <figure type="decoration"/>
+        <ab><lb/>MES CHINO MINUTES</ab>
+        <p rend="heading"><lb/>BRAS ET GAMPE</p>
+        <p><lb/>Quoiqu' grand mutilé d' guerre, puisqu'il a<lb/>eun' gampe mécanique, Pascal est un homme<lb/>bien portant, bien gai, toudis prêt à raconter d's'<lb/>histoir's drôles, chin qui n’est point étonnant,<lb/>puisqu'il exerce l' métier d' perruquier.</p>
+        <p><lb/>Ch’est li qui répondot d'ailleurs, eun' fos, à un<lb/>d' ses clients qui s' délamintot su' sin sort, et li<lb/>dijot que s'n' infirmité d'vot bien l' géner, pour<lb/>rester d’bout au long du jour.</p>
+        <p rend="labelled"><lb/>— Bah, ch’est toudis eun' gampe uch' que<lb/>n’ai point d' varices, et puis.. cha va pus vit'<lb/>pour mi printe un bain d' pied.</p>
+        <p><lb/>Malgré sin joyeux caractère, l' farce qui li est<lb/>arrivée dernièr mint n' l'a point fait rire.</p>
+        <p><lb/>Comme i' d'vot toucher eun' nouviell' gampe<lb/>mécanique d’un modèle pus perfectionné, i<lb/>rindot donc au Centre d'Appareillache, et là,<lb/>rincontrot un aute mutilé, mutilé d'un bras, qui</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Campana de Magalouna</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7367131v</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Campana de Magalouna : journal populàri que parei lou 1è e lou 15 de toutes lous meses</title>
+          <publisher>[s.n.] (Mount-Peliè)</publisher>
+          <date when="1894-09-01">1894</date>
+          <idno type="ARK">bpt6k7367131v</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7367131v</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Dissate, 1è de Setembre 1894</fw>
+        <fw type="runningTitle"><lb/>Tresièma annada. — N^o 64.</fw>
+        <ab><milestone unit="column" n="2"/><lb/>Qu 'en vou?<lb/>au n'en vou</ab>
+        <figure/>
+        <ab><milestone unit="column" n="1"/><lb/>sournal poupulàri das felibres de Mount-Pelie que parei lou 1' e lou 15 de toutes lous meses</ab>
+        <ab><lb/>Aministracioun e Redacioun<lb/>15, carrieira dau Chival-Verd, à Mount-Pelie</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Per las anounças e las reclamas,<lb/>s'entendre embé l'Aministracioun.</ab>
+        <p rend="styled"><lb/>Un An . . . . Quaranta sóus.</p>
+        <p rend="heading"><lb/>ABOUNAMEN:</p>
+      </div>
+      <div type="article">
+        <head><lb/>LOUS FELIBRES</head>
+        <ab><lb/>A COURNOU</ab>
+        <p><lb/>Lou dimenche 2 de setembre, lous felibres de<lb/>l'Escola de Ceta e lons dau Parage de Mount-<lb/>Peliè s'acamparan à Cournoun Terral, la vilota<lb/>que fai tant ben parlà d'ela desempioi qu'a pres<lb/>l'iniciativa de toutas las manifestaciouns per la<lb/>defensa de nostes vis e das interèsses das prou-<lb/>prietàris pichots e grands dau departamen de<lb/>l'Erau.</p>
+        <p><lb/>Se sap que Couruou ourganisa per lou mes.<lb/>d'otobre una fièira-espausicioun de toutas las<lb/>menas das vis de l'Erau — ecetat per esemple<lb/>lou vi de passarilha, qu'el es pas un vi de l'Erau,<lb/>mès ben un vi de Paris-Bercy.</p>
+        <p><lb/>Lous felibres, qu'aimoun toutes lou bon vi,<lb/>brindaran, dimenche, au sucès de la flèira-<lb/>espausicioun de Cournou.</p>
+        <p><lb/>Es pas la prumièira fes que lous felibres van<lb/>a Cournou. l'an deja fach una festa poupulària<lb/>lon 3 dau mes d'Abriéu 1887 e, aquel jour, lou,<lb/>felibre majourau Albert Arnavielle cantèt la<lb/>cansou que dounan aqui-dejonta e que vai estre<lb/>fencara à la moda, deman dimenche.</p>
+      </div>
+      <div type="article">
+        <head><lb/>SE CANTA SUS D'En: Le Cabaret<lb/>ou Lou tambourin de Berbezie</head>
+        <lg>
+          <l><lb/>Couma au balan de la campana.</l>
+          <l><lb/>E couma au rampèl dau tambour,</l>
+          <l><lb/>Lou castél. lou mas. la cabana.</l>
+          <l><lb/>Tout s'es aigrejat dins lou bourg;</l>
+          <l><lb/>Courris la foula enfestoulida</l>
+          <l><lb/>As felibres per faire ounon.</l>
+          <l><lb/>Oh! jamai festa pus poulida...</l>
+          <l><lb/>Lou Felibrige es à Cournou !</l>
+          <l><lb/>Tont canta e ris, ioi, à Conruou!</l>
+        </lg>
+        <lg>
+          <l><lb/>As pergamis de la coumuna</l>
+          <l><lb/>Pourran marcá lou tres d'Abriéu:</l>
+          <l><lb/>Oi, pourran l'escriéure couma una</l>
+          <l><lb/>Data que viéura mai d'un briéu.</l>
+          <l><lb/>Cournou monta d'un fièr cop d'ala.</l>
+        </lg>
+        <ab><lb/>LOu FELIBRIGE a COURNOU</ab>
+        <figure/>
+      </div>
+      <div type="article">
+        <ab><lb/>Souvoni dan 3 d'Abriéu 1887, beu jour do la festa das Rams.</ab>
+        <p><lb/>En l'an mila ioch cents sorbas, l'annada' que<lb/>Tinella éra merchand de merlussa, una sou¬<lb/>cietat de cantaires lonjava dins un cafeton dau<lb/>quartiè lou pus noble, lou pus aristoncratique,<lb/>lou mai select (couma se dis ioi en francimand)<lb/>de tout lou Clapàs: avès divignat que vole parlà<lb/>de la Vau-fèra.</p>
+        <p><lb/>Lons cafetous de la Vau-fera an aco de pariè<lb/>emé lous grands cafès de la Plaça de la Coume-<lb/>Sia que l'estiéu tout lou mounde sourtis davans<lb/>la porta per pintà de limounada e de limoun-<lb/>cassis, noun pas que l'ivèr tout aco s'encafourna<lb/>autour de las taulas e se recaufa lou coco emé<lb/>de cafè, de canards au rom e à l'aiga-ardent.</p>
+        <p><lb/>Dounc, dins l'estiéu de l'annada mila ioch</p>
+        <lg>
+          <l><lb/>E de Lunèl à Cessenou</l>
+          <l><lb/>Es ioi la soula capitala....</l>
+          <l><lb/>Lou Felibrige es à Cournou!</l>
+          <l><lb/>Lou Clapàs, ioi, es à Cournou!</l>
+        </lg>
+        <lg>
+          <l><lb/>Per tus, vileta patriota.</l>
+          <l><lb/>Lou felibre ten lou rameu.</l>
+          <l><lb/>La poulitica es l'agriota.</l>
+          <l><lb/>La pouesia, aco's lou meu.</l>
+          <l><lb/>A soun rajèu, neguen la brega?</l>
+          <l><lb/>D'aquel vi toumben un canou:</l>
+          <l><lb/>Aquel fai pas perdre la rega....</l>
+          <l><lb/>Lou Felibrige es à Cournou !</l>
+          <l><lb/>La pouěsla es à Cournon !</l>
+        </lg>
+        <lg>
+          <l><lb/>E d'abord que n'en sèn à l'enca,</l>
+          <l><lb/>Garden-nous de quita lou got</l>
+          <l><lb/>A la frairessa Cournalenca</l>
+          <l><lb/>Sans avedre begut un cop!</l>
+          <l><lb/>Davans tant galanta avenenca</l>
+          <l><lb/>Lou felibre sariè court ?... Nou</l>
+          <l><lb/>Cournou, brinde á ta souvenença...</l>
+          <l><lb/>Lou Felibrige es à Cournou!</l>
+          <l><lb/>Brinden, brinden à tus, Cournou!</l>
+        </lg>
+        <ab><lb/>Albert ARXAVITLE.<lb/>cents sorbas, una après-soupà, lous ourfeou-<lb/>nistas fasien repeticioun dins una sala : dins<lb/>l'autra sala, las bravas fennas dau quartiè èroun<lb/>amoulounadas autour das champouraus.N'i'aviè.<lb/>de grossas, moustachudas, emé lou nas rouge,<lb/>gros e una berruga au bout ; de secas couma<lb/>secutenos, emé de mans de savonnairas, pus<lb/>lindas e pus grossas que sous bacèls: n'i'aviè de<lb/>grassas e de linjas, de grandas couma de pilas-<lb/>tres e de bassas couma de caulets. E tout aco<lb/>charrava, blagava, risiè, brounzinava, cacalas¬<lb/>sava, en boulegant dins l'aiga-ardent lou sucre<lb/>que vouliè pas se foundre, e lou suçant entre<lb/>las dents per ne tirà lou jus. Aco, e lous can¬<lb/>taires que bramavoun au coustat, menava un<lb/>bousin que fasiè fugi lous vesis et japà toutes<lb/>lous chis.</ab>
+        <p><lb/>Tout d'un cop, à la porta entre-douberta de<lb/>separacioun, apareguèt la tèsta rosa e sans pèu<lb/>d'un tenor de la soucietat, qu'èra l'enfant ben<lb/>aimat de las abounadas dau café :</p>
+        <p rend="labelled"><lb/>— Glandou ! Glandou! ié cridèroun tontas,<lb/>dequé nous contes de nòn ?</p>
+        <p rend="labelled"><lb/>— Saupriès pas un remédi per lous boutous?<lb/>N'ai un que me poussa sus lou coupet e es dejà<lb/>pus gros qu'un teti de nourriça !</p>
+        <p><lb/>A-n-aquela coumparesoun desproupourciou-<lb/>nada, toutas aquelas trochamandas s'espoutis-<lb/>soun dau rire, quand la cafetièira, jalousa dau<lb/>sucès dau cantaire que rigoulava couma lous<lb/>ases sans faire veire las dents, jé fai :</p>
+        <p rend="labelled"><lb/>— As dich qu'éroun couma de tetis de nour¬<lb/>riça !Te planirièi ben mai encara s'èronn couma<lb/>lous tetis de moun pichot ! Pourriès pas pus<lb/>virà lou col!</p>
+        <p rend="labelled"><lb/>— Au diable, la patrouna ! Dequé se mescla<lb/>aqui ? S'au mens lous fasiès veire lous tetis de<lb/>toun pichot !<lb/></p>
+        <p rend="labelled"><lb/>— Parlàs d'aquel chapitre, mès poudès pas<lb/>lutà, rebequèt Glandou Se fasièi veni moun fraire<lb/>Glandounet, voste pichot pourriè s'anà rescon¬<lb/><lb/>dre</p>
+        <p rend="labelled"><lb/>— Eh! be, mena-lou toun Gandounet ! res¬<lb/>poundet Madama Cassounada la cafetièira, e<lb/>Sapoun quau s'en dedis ! Jougan lou cafè per</p>
+        <ab><lb/>Lou tEti de GlAnDOUNET<lb/><fw type="digitisation-artefact"><lb/>urce gallica.bnf.fr / Montpellier Méditerranée Métropole - Médiathèque centrale Emile Zola</fw></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

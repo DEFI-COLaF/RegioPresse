@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de Forcalquier et de son arrondissement</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t51235505t</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de Forcalquier et de son arrondissement : commerce, agriculture, littérature, industrie, annonces judiciaires, administratives, d'intérêt public, avis divers, etc. ["puis" radical-socialiste indépendant "puis" hebdomadaire régional]</title>
+          <publisher>[s.n.] (Forcalquier)</publisher>
+          <date when="1865-08-13">1865</date>
+          <idno type="ARK">bd6t51235505t</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t51235505t</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Dimanche 13 août 1865.</fw>
+        <ab><milestone unit="column" n="3"/><lb/>22me année. — (No 32.)<lb/>(20 CENT. LE NUMERO)</ab>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>IT DE SON Aehbhhdt</p>
+        <figure type="decoration"/>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/>La publication légale des actes de société est obligatoire, pour l'année 1863, dans les trois journaux snivants: L'AMI DE L'ORDRB,<lb/>LE JoURNAL dE PORCALQUIER, ... LE PUBLICATEUR.</p>
+        <p rend="styled"><lb/>COMMERGE, AGRICULTURE, LITTERATURE, INDUSTRIE, ANNONCES JUDICIAIRES, ADMINISTRATIVES.<lb/>D'HeLBaTTCLLIC, AVIS DIVERS, etc.</p>
+        <p rend="styled"><lb/>J.-J. Rousscau, 3. ; et chez M. NOMBERT ESTIMAE. place de la Bourse, 12. — On insère geatuitement tous les articles ayant na but d'utilité publigue</p>
+      </div>
+      <div type="article">
+        <head><lb/>NOUVELLES DIVERSES.</head>
+        <p><lb/>Par décret du 2 aout, le bureau du Conseil <lb/>général des Basses-Alpes a été ainsi constitué:<lb/></p>
+        <p><lb/>Président: M. le colonel Réguis, député;<lb/><lb/>Vice-président : M. Fortoul, premier prési-<lb/>dent de la cour impériale de Poitiers;</p>
+        <p><lb/>sec ét clappier, president du eun<lb/>Mées, et M. Clappier, président du tribun<lb/>civil de Digne.</p>
+        <p rend="labelled"><lb/>— D'après des renseignements dont le<lb/>Constitutionnel garantit la rigoureuse<lb/>exactitude, la compagnie des chemins de<lb/>fer de Lyon à la Méditerranée doit livrer<lb/>à l'exploitation les lignes ou fractions de<lb/>lignes suivantes :</p>
+        <p><lb/>En 1866, d'Avignon à Cavaillon, 32<lb/>kilomètres;</p>
+        <p><lb/>En 1867, de Lunel à Arles, 44 kil.;<lb/>de Nice à la frontière d’Italie, 28 kil.; de<lb/>Cavaillon à Salon, 24 kil. ; de Pertuis à<lb/>Aix, 31 kil. ; d’Aubagne à Fuveau, 17<lb/>kilomètres;</p>
+        <p><lb/>En 1868, de Marseille à Aix, 20 kil.;<lb/>de Marseille (nouvelle gare) à la ligne de<lb/>Toulon, 4 kil. ;</p>
+        <p><lb/>En 1869, de Cavaillon à Gap, 180<lb/>kilom.;</p>
+        <p><lb/>En 1871, l’embranchement d’Hyères,<lb/>15 kilom.;</p>
+        <p><lb/>La compagnie compte, en outre, à titre<lb/>de concession éventuelle les lignes de Gap<lb/>à la frontière d’Italie, 100 kil. ; de Salon<lb/>à Rognac, 21 kil. ; de Grenoble à Gap ,<lb/>100 kil. ; de Cavaillon à Apt, 33 kil. ; de<lb/>Peyruis à Digne, 22 kil.</p>
+        <p><lb/>Le Constitutionnel affirme avoir relevé<lb/>ces renseignements sur des documents<lb/>officiels.</p>
+        <p rend="labelled"><lb/>— On a découvert à Pompéi un temple<lb/>de Junon et on y a trouvé plus de 300<lb/><lb/>squelettes. Ces squelettes, qui tombaient<lb/><lb/>en poussière à mesure qu'ils apparais-<lb/>saient au jour, étaient ceux de femmes<lb/>et d’enfants qui avaient été engloutis sous<lb/>la cendre brûlante lancée par le volcan<lb/>au moment où, dans le temple, un sa-<lb/>crifice était offert à la reine des dieux,<lb/>sans doute pour l'implorer contre le fléau<lb/>terrible qui menaçait. Un de ces sque-<lb/>lettes, que l'on croit être celui de la grande<lb/>prêtresse, à en juger par les riches bijoux<lb/>dont elle était couverte, tenait encore,<lb/>attaché à son bras par un anneau d'or,<lb/>magnifiquement ciselé, un encensoir de<lb/>même métal rempli de parfums calcinés.<lb/>Cet encensoir a la forme de ceux dont on<lb/><lb/>se sert dans les cérémonies de l'église<lb/>catholique; il est d’un travail merveill eux<lb/>et émaillé des pierres les plus belles. La,<lb/>statue de la déesse est une des plus<lb/>magnifiques choses que l’on ait encore<lb/>trouvées dans ces villes englouties sous<lb/>la lave; ses yeux sont en émail; elle porte<lb/>aux bras, aux chevilles et au cou, des<lb/>bijoux et des bracelets en pierres pré-<lb/>cieuses taillées avec un très-grand fini et<lb/>d’une forme charmante. Le paon placé<lb/>à ses côtés est également presque tout<lb/>entier en pierres précieuses.</p>
+        <p><lb/>Le trépied qui se trouvait devant l'au¬<lb/>tel est tout en or, travailté aussi merveil-</p>
+      </div>
+      <div type="article">
+        <head><lb/>Do LETTRE PARISIENNE.</head>
+        <ab><lb/>AM. ALPH. .</ab>
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>Paris, le 1er août 1865.</p>
+        <p><lb/>Nous voici à la fin de la fre série de nos<lb/>lettres. Si tu veux, finissons, cher ami. com-<lb/>me nous avons commencé, par de la littéra-<lb/>ture pure.</p>
+        <p><lb/>Le théâtre anglais n’est guère connu en<lb/>France que depuis les romantiques. Vol¬<lb/>taire avait pillé Shakespeare tout en le trai¬<lb/>tant de barbare ; dès 1769, Ducis nous don-<lb/><lb/>na ses pasliches incolores que les contem-<lb/>porains trouvaient trop forts car il fallut<lb/>écrire un dénouement heureux au terrible<lb/>drame d'Othello dans lequel Talma avai;<lb/>produit un trop grand effet. Bientôt vinrent<lb/>les savanis cours de M. Villemain qui tra¬<lb/>duisit les plus beaux fragments des dramati-<lb/>ques anglais ; puis les célebres préfaces de<lb/>Victor Ilugo, les imitations de Vigny, Des-<lb/>champs et autres. Depuis, les librettistes et<lb/>les dessinateurs ont tellement reproduit les<lb/>types shakespeariens, l'anglomanie est de-<lb/><lb/>venue si à la mode, que — l'excellente tra-<lb/>duction de Hugo fils aidant — Shakespeare<lb/>est devenu populaire. Mais une foule d'au-<lb/>tres auteurs dramatiques très-remarquables<lb/><lb/>sont peu connus ; les comiques n'ont jamais</p>
+        <p rend="labelled"><lb/>voi le jorna depuis le 6 avil.<lb/>été adaptés à la scène française, et le seront<lb/>difficilement car l'action manquant un peu<lb/>il reste seulement le dialogue qui perd tout<lb/>son charme dans une traduction. Néan¬<lb/>moins, c'est une tentative à faire.</p>
+        <p><lb/>L'auteur dont nous apprécierions le mieux<lb/>la manière serait Shóridan. Ses diverses<lb/>pièces, les Rivaux, le Lieutenant à projets,<lb/>la Duègne, et surtout l'Ecole de la médisance<lb/>(4777) pétillent d'esprit, et d'un esprit très-<lb/>compréhensible pour nous, car Shéridan<lb/>écrivail avant la réaction saxonne de Byron,<lb/>alors qu'il était de bon goût d'émailler la<lb/>conversation d'expressions françaises.......<lb/>un peu á tort et á travers, il est vrai. —<lb/>Analysons cette dernière pièce scène par<lb/>scène afin que le lecteur se rende bien<lb/>compte de la marche suivie par l'auteur<lb/>anglais. — Prévenons que, conformément à<lb/>l'usage, les personnages ont des noms signi¬<lb/>ficatifs que nous traduirons.<lb/></p>
+        <p><lb/>La tolle levée, on apercoit la veuve<lb/>Sneerwell (ricane bien) qui complote avec<lb/>l'infâme folliculaire Snake (vipère), contre<lb/>la réputation de toutes ses connaissances, et<lb/>s’occupe á empêcher un mariage entre la<lb/>charmante orpheline Marie, seul personnage<lb/>vraiment intéressant de la comédie, etl'ex-<lb/>travagant mais loyal Charles Surface que la<lb/>méchante veuve désire pour elle-même.<lb/>Elle s'est associé Joseph Surface, hypocrite<lb/><lb/>fieffé, frère de Charles, qui, amoureux de<lb/>Marie or of her fortune, ou de sa dot, a les mê-<lb/>mes intérêts qu'elle. Bientot arrivent les ama-<lb/>teurs de scandale : Crabtree (pommier acer-<lb/>be), Bakbite (calo niateur, littéralement<lb/>mordeur de dos, car ces laches mordent par<lb/>derrière), Mada me Candeur, la fausse dou-<lb/>cereuse qui on ayant l'air de défendre les<lb/>gens les tue plus sûrement encore. Si la<lb/>place ne nous manquait pas, nous tradui¬<lb/>rions cette scène.... Dieu ! quel festin de<lb/>calomnie !... à chaque coup de langue une<lb/>répulation reste sur le carreau. La pauvre<lb/>Marie proteste bien, mais que peut un ar¬<lb/><lb/>brisseau pour arrêter l'avalanche ! — La<lb/>scène change, et nous pénétrons dans le<lb/>ménage Teazle (taquin), tuteur de Marie,<lb/>et des deux Surface dont l'oncle Olivier est<lb/>aux Indes. Iei c’est une dispute perpétuelle.<lb/>«Nous nous chamaillions en allant à l'église,<lb/>dit le mari, et cùmes une querelle avant que<lb/>les cloches eussent fini de sonner. » Depuis<lb/>lors la situation s’est empirée, et au commen¬<lb/>cement du 2e acte nous assistons à une<lb/>curieusescène d’intérieur. Nouveau tableau:<lb/>encore une séance de cancannerie, où M.<lb/>Teazle dit quelques bonnes vérités ; peines<lb/>perdues. Après la plus grande affectation<lb/><lb/>de moralité;, Joseph Surface fait la cour à<lb/>Madame Teazle, femme de son ami. et es-<lb/>saie par des lettres fausses de faire tomber<lb/>les soupçons sur son fròre. Bien. M. l'hypo¬<lb/><lb/>crite. — La scène change encore et nous<lb/>retournons chez M. Teazle pour voir arri.<lb/>ver des Indes l'oncle Olivier.</p>
+        <p><lb/>nédie, Ofivier se déguise épruver<lb/></p>
+        <pb facs="0002.xml"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Entretiens sur l'Encyclique de Sa Sainteté</head>
+        <p><lb/>lui souhaitons la bienvenue et nous<lb/>osons lui promettre notre concours, si</p>
+        <p><lb/>les jours que la question de l'Encyclique<lb/>est enterrée : nous leur répondrons que<lb/>l'enterrement dure longtemps, et nous<lb/>-<lb/>doutons que l'on voit de sitôt la fin de</p>
+        <p><lb/>occuper ainsi les esprits. Elle a été faite<lb/>par le grand Pape qui gouverne l'église<lb/>pour éclaircir particulièrement les fidèles<lb/>sur le sens à donner aux idées et aux<lb/>libertés modernes. Puisque les ennemis<lb/><lb/>de l'église ne cessent do dénaturer le<lb/>sens de ce grave document, n’est-il pas<lb/>naturel et même nécessaire que les gar-<lb/><lb/>diens de la doctrine, les interprètes légi¬<lb/>times de la parole Pontificale élèvent la<lb/>voix pour lui rendre sa véritable signifi</p>
+        <p><lb/>aient apporté autant dezèle que de science<lb/>dans l'interprétation qu’ils ont faite du<lb/>document Pontifical, il reste encore cer-</p>
+        <p><lb/>qui acceptent le décret de Pie IX, tel qu’il<lb/>est, sans restriction ni réserve, il y a des<lb/>chrétiens timides qui en contestent l’op¬<lb/>portunité, et des chrétiens habiles qui<lb/>leusement que l'encensoir tenu par la<lb/>grande prêtresse. Il y avait encore dans ce<lb/>temple des lampes en bronze, en fer, en<lb/>argent et en or, ciselées avec art ; des<lb/>branches de feuillages, des tiges de<lb/>vignes, entremêlées de fleurs et de fruits<lb/>ravissants de forme. L'endroit seul où se<lb/>faisaient les sacrifices est dallé de mar-<lb/>bre. Tous les instruments dont on se ser-<lb/>vait à cette occasion se trouvaient encore<lb/><lb/>sur la table de bronze, et les vases sacrés<lb/>étaient remplis d’une matière rougeâtre<lb/>ses neveux. Marie refuse énergiquement<lb/>d'épouser Joseph qu'elle a deviné, et les<lb/>opoux Teazle se requerellent. — 2e tableau,<lb/>chez Charles où le Juif Moses et l'oncle dé¬<lb/>guisése présentent sansle rencontrer. Jamais<lb/>un auteur français n'aurait fait un tableau<lb/>pour cela. — 3e tableau : Charles boit avec<lb/>ses amis Sans-Souci et Rasade. Cette scène<lb/>nous rappelle les propos des buveurs de<lb/>Rabelais. Le Juif et l’oncle arrivent au mi</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>vente que fait Charles, de tous ses portraits<lb/>de famille : heureusement il refuse de ven¬<lb/>dre celui de son oncle, et envoie une forte<lb/>somme au prétendu parent pauvre Stanley,<lb/><lb/>Un 2e tableau pour une conversation insi-<lb/>gnifiante. — 3e tableau, une bibliothèque<lb/>où Joseph a, avec Madame Teazle, un ren-<lb/>dez-vous interrompu par l'arrivée du mari;<lb/>la femme se cache derrière un paravent.<lb/>La situation se complique ; Charles arrive<lb/><lb/>Madame est découverte, mais elle connait<lb/>maintenant Joseph et est indignée contre<lb/>Dans l'acte 5e, Joseph avec du french plate,<lb/><lb/>de la monnaie française, eau bénite de cour,<lb/>refuse tout secours à l'oncie déguisé. 2e ta-<lb/>bleau chez les époux Teazle où arrive enfin<lb/>la société médisante que nous n'avions pas<lb/>revue depuis le commencement du 2e acte ;<lb/>elle vient attirée par le bruit de la scène du<lb/>paravent comme les corbeaux par l'odeur</p>
+        <p><lb/>des doivent déjà se rassurer : l'attitude<lb/>de l’épiscopat du monde entier leur mon¬<lb/>tre que Pie IX a parfaitement choisi le<lb/>moment de parler. D'ailleurs quand le<lb/><lb/>tun, c'est d'adhérer ; ce qui est oppor-<lb/>tun c'est de défendre cette parole infailli-</p>
+        <p><lb/>se permettent, tout en se disant fort bons<lb/>catholiques, d'interpréter l’acte Pontifi-<lb/>l'accomplir en l'accusant de compromet-<lb/>tre l'avenir de l'église par son ignorance,<lb/>nous leur conseillons de lire attentive-<lb/>ment le remarquable travail que Monsei-<lb/>gneur l'Evêque de Digne vient de publier<lb/>sous ce titre : Entretiens sur l'Encycli-</p>
+        <p><lb/>gage et dans une forme toute nouvelle ,<lb/>achevera de dissiper les injustes préven-<lb/>tions que l'ignorance ou l'irréflexion en-<lb/>vretiennent encore dans cette classe de</p>
+        <p><lb/>compose d'une série d'entretiens où figu-<lb/>rent trois personnages qui représentent<lb/>Nes trois principales fractions qui divisent<lb/>la Société: un catholique, un libéral et</p>
+        <p><lb/>Y'analyse, nous paraît être la justification<lb/>de l'église au double point de vue de la</p>
+        <p><lb/>première est consacrée à établir l'autorité<lb/>doctrinale de l’Encyelique et du Syllabus<lb/>qui l'accompagne contre les prétendues<lb/>libertés de l'église gallicane et contre<lb/>certains droits que la raison humaine</p>
+        <p rend="labelled"><lb/>de l'ancienne école, met son esprit à la<lb/>Norture pour échapper à l'obligation d'ac¬<lb/>que. Il invoque contre elle l’enseignement<lb/>de la Sorbonne et les déclarations de<lb/>lents compliments de condoléance en chas-<lb/>core à la bibliothéque où Lady Sncerwell<lb/>et Joseph essaient de reprendre leurs plans<lb/>déjoués, mais l'oncle Olivier arrive, les<lb/>époux Teazle se réconcilient, Charles épouse<lb/>Marie qui le choisit librement suivant les<lb/>habitudes saxonnes, et Joseph en est quitte<lb/>pour être complètement dévoilé. Punition</p>
+        <p><lb/>choqueraient des spectateurs français.<lb/>D'abord le manque d'action : plusicurs ac¬<lb/>tes se passent en conversations spirituelles<lb/>quin'aménent pas le dénouement , comme<lb/>dans les admirables proverbes d'Alfred de<lb/>Musset. Les Anglais ne font pas une scène<lb/>de chaque entrée ou sortie du personnage<lb/>le plus insignifiant, ils ont raison ; ils appel-<lb/>n'indiquent pas cette différence) ; mais ils<lb/><lb/>chinistes, Dumas ou Scribe, n'en aurait pas<lb/>fait cinq. Les actes sont mal coupés , des<lb/>avant tout d'unité, le Français critiquerait<lb/>ractère, dès que l'auteur adopte le nom d'un<lb/>ment doit être amené par le développement<lb/>l'assemblée de 1682; puis il prétend que<lb/>l'Encyclique, bien qu'émanée du chef de<lb/>ensuite , il tombe avec une sorte de rage<lb/>attribuant un caractère purement poli-</p>
+        <p><lb/>contre l'enseignement de l'Encyclique.<lb/>Il prétend que Pie IX, en condamnant la<lb/>liberté de conscience, des cultes et de la<lb/>presse, heurte toutes les idées reçues ,<lb/><lb/>renverse les principes qui gouvernent les<lb/><lb/>sociétés modernes et conteste à tout hom-<lb/>me un droit naturel consacré par toutes</p>
+        <p><lb/>battre les vieux préjugés de l'un et les</p>
+        <p><lb/>cyelique étant un décret doctrinal qui a<lb/>reçu l'adhésion la plus entière et la plus<lb/><lb/>éclatante de tous les Evêques du monde,<lb/>tout catholique, même le gallian le plus<lb/>encroûté estobligé de l'accepter dans toute</p>
+        <p><lb/>lique, est convaincu par un raisonnement,<lb/>aussi simple que solide, que le Pape ne<lb/>pouvait, sans abdiquer son titre de chef<lb/>de l'église, rester indifférent devant une<lb/>telle prétention, et qu’il ne pouvait pas<lb/>plus admettre le droit d'attaquer la vérité<lb/><lb/>du caractère lui même qui, présent ou ab-<lb/>sent, doit toujours occuper la scène. Voyez<lb/>le Glorieux, le Joueur, le Menteur, et sur¬<lb/>tout le Tartufe et le Misanthrope. Il n’en est<lb/>pas ainsi dans l'Ecole de la médisance. La moi-<lb/>tié du 2^e acte, le 3^e, le 4e et les deux tiers du<lb/>5e se déroulent sans médisance, et la société<lb/>cancanière arrive, à la fin, sans utilité pour<lb/>le dénouement. On pourrait aussi bien inti¬<lb/>tuler la pièce : Le retour des Indes, par<lb/>exemple. — En un mot, on trouverait là<lb/>trois choses maladroitement fondues : Le<lb/>ménage Teazle, le retour de l'oncle, et la<lb/>portant. — Ces critiques justes au point de<lb/>vue français ne le sont pas absolument pour<lb/>les Anglais. Il est banal de dire : la littéra-<lb/>ture est l'expression de la société ; c'est très-<lb/>vrai pourtant. Le génie français — résuitat<lb/>aussi notre littérature est peu originale. Le<lb/>génie anglais c'est la liberté, l'indépendance<lb/>Notre critique ne serait pas comprise au</p>
+        <figure type="decoration"/>
+        <p><lb/>étincelle d'esprit, — de cet esprit méchant<lb/>qui est un attrait pour la plupart. L'espri<lb/><lb/>anglais s'y montre sous son plus beau jour;<lb/>il excelle surtout à dire d'une manière plai¬<lb/>vraies. Ainsi lorsque, suivant la méthode<lb/>ordinaire des cancaneurs, Mistress Candeur<lb/>déctare avoir entendu dire les infâmies qu'elle</p>
+      </div>
+      <div type="article">
+        <p><lb/>60,000 en France et 50,000 en Angleterre — la sciene<lb/>Mlédicale n'a jamais ceussi à opposet un remède effi-<lb/>cace, et il n'y a rien à s'y étonner, vu que toute<lb/>drogue ne peut produire d'autre effet que celui<lb/>fut réservé à la Revalescière Du Bary de Londres<lb/>de résoudre le problème de réparer les orgar es de la<lb/>digestion, fournir nouveau sang, musele et os e<lb/>guerir le système glandulaire et nerveux saus forcer<lb/><lb/>ei echaufler, mais d'une manière toute naturelle<lb/>Aussi avons-nous des preuves abondantes de son<lb/>teur Routh, Président de l'hópital des Enfants et<lb/>Femmes, à Londres, qui a trouvé dans la Revales-<lb/>ciere Du Barry le moyen de ranimer les forces vitale;<lb/>et la digestion des malades qui ne pouvaient plu;<lb/>digérer, qui rejetaient tout, souſfr ants en méme temp;<lb/>de diarrhée, spasines, crampes et périssant à vue<lb/>médecine et ne laissait plus d'espoir de guérison. —<lb/>3. Chinnery avait un enfant près de mourir d'ina<lb/>nition (d’atrophie), la digestion n'étant plus suſfi-<lb/>sante pour assimiler le lait maternel : la Revalescière<lb/>le sauval: un pareil cas s'est présenté dans la famille<lb/>de M. Lavvley, page de Sa Majesté la Reine d'An-<lb/>gleterre.— Nous pourrions ajouter 65,000 cas de<lb/>guérison de (constipation, indigestion, diarrhée,<lb/>bronchite, toux, phihisie, crampes, spasmes et<lb/>rachitisme pour démontrer l'incalculable bienfait de<lb/><lb/>ette précieuse Farine de santé, non-seulément pour<lb/>BARRY, 26, PLACE VENDOME, PAnIs. — En boites</p>
+        <pb facs="0003.xml"/>
+        <figure type="decoration"/>
+        <p><lb/>dans toutes les villes.s, Epiciers et contiseurs</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p rend="structured"><lb/>Gracures : Remise au commandant du Prégent d'une</p>
+        <figure type="decoration"/>
+        <p><lb/><lb/>3 mois, 9 fr.: 6 mois, 18 fr. ; 1a0, 366. en<lb/>phrases est passé, elles n'inspirent que de la<lb/>disait Proudhon, j'envoic la main à mon<lb/>fusil et à ma bourse, parce qu'’on en veut à<lb/>ma liberté ou à mon argent. » Blâmons le<lb/>blasphème, mais acceptons l'idée. Pour<lb/>qu'on sente la moralité dans une œuvre<lb/><lb/>quelconque, il faut que l'auteur soit honnête.<lb/>sinon ou, comme Salluste, il se bat les flanés<lb/>et arrive à une exagération ridicule ; ou,<lb/>te et probablement du mal que pãr l'arrivée,<lb/>vait aboutit au crime. Méſions-nous, jeunes<lb/>gens ; ce n'est plus un éloge que de dire :<lb/>mauvaise tête et bon cœeur ; on sait que tout<lb/>va ensemble, et que si on commence mal<lb/>on finit.... comme Shéridan !i-même, qui<lb/>après avoir été riche propriétaire du théà-<lb/>tre de Drury-Lane, orateur distingué à la<lb/>chambre, secrétaire de la trésorerie, mou¬<lb/>rut misérable, abandonné de ses nobtes com-</p>
+      </div>
+      <div type="article">
+        <p><lb/>Paris nous fimes cette extraordinaire chose<lb/>son grand roman les Paritains de Paris. Notre,<lb/>deviSe : IN SE, SEVERITAS; IN ALIOS, KQUITAS,<lb/>sévérité pour soi, justice-indulgente pour les<lb/>autres, résume notre foi. Mais, hâtons-nous<lb/>de le dire, nous n'accomplimes rien de grand<lb/>aux yeux du vulgaire. Nouveaux stoïciens,<lb/>nous visions seulement, d'après la 62e maxime<lb/>le plus profond respect pour la femme. Nous<lb/>mode ; mais quand passaient leurs batards<lb/><lb/>produits de la corruption, et nous faisions<lb/>s deux sous aux an-</p>
+        <ab><milestone unit="column" n="1"/><lb/>on ne moralise que part'exemple; etemps des<lb/>colporte el n'en être pas responsable, Teazle<lb/>s'écrie avec raison : « On devrait appliquer,<lb/>aux bruits les lois des lettres de change, et<lb/>lorsque une calomnie est en circulation sans<lb/>que le tireur (Piaventeur) soit connu, les en¬<lb/>dosseurs seraient solidairement poursuivis.»<lb/>Cette idée est à méditer. Et lorsque l'oncle<lb/><lb/>s'informant de ses neveux apprend que per-<lb/>sonno ne parle contre Joseph : « J'en suis<lb/>faché, di-il ; il a trop bonne réputation<lb/>pour être un honnète homme. Chacun parle<lb/>bien de lui ? Oh! oh ! alors c'est qu'il s'est<lb/>incliné aussi lachement devant les coquins<lb/>que devant le génie et la vertu.... c'est qu’il<lb/>n'a pas assez de mérite pour mériter des<lb/>ennemis. » L'auteur a encore raison. Cer-<lb/><lb/>grandissent. Les guèpes ne s'attaquent<lb/>Le mépris des eoquins fait la gloire des,<lb/>honnêtes gens, avait déjà dit le proverbe.<lb/>elle-même pourquoi les âmes viles et dé-<lb/>gradées se livrent á la calomnie : « Je veux,<lb/>dit-elle, ravaler les autres à mon niveau.»<lb/>Et voilá l'explication vraie de toutes les in¬<lb/>fàmies qu'on est condamné à entendre, et<lb/>qu'il faut dédaigner tout en méprisant ceux<lb/>quil les commettent. Les êtres sàles veulent<lb/>jout sâlir: que t'ai-je fait? s'écrie le ver-<lb/>luisant de la fable de Pfeffel, noyé dans la<lb/>bave gluante du crapaud ; et pourquoi bril¬<lb/>les-tu ? dit l'envieuse bête. — Il est des cas<lb/>néanmoins où l'honneur commande de par¬<lb/>ler. C'est lorsque le silence nuirait à qui,<lb/>vous aimez et vous rendrait complice d'un<lb/><lb/>crime. Voussa vez que demain on doit incen¬<lb/>dier telle maison, qu'on va livrer à un im-<lb/>pur une chaste jeune fille, qu'un assassinat<lb/>rest médité? parlez, empèchez le mal et ho-<lb/></ab>
+        <p><lb/>Anglais l'ont reconnu — un haut sentiment<lb/>de moralité. Le théàtre doit être une école<lb/>de mœurs, sinon, comme ce gamin de Paris.<lb/>j'aime mieux le cirque. Mais nous l'avons dit.</p>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>Le NEUF SEPTEMBRE mil huit cent</p>
+        <p><lb/>labourable, vigne, vague et bois, sise<lb/>au terroir de Saint-Etienne, quartier du<lb/>Clouet de Peyre ou de Pallian. Sur<lb/>cette propriété se trouve un bâtiment<lb/>sont crépis, et il est couvert en tuiles;<lb/><lb/>il se compose d’un rez-de-chaussée, ou<lb/><lb/>d'un étage au - dessus composé d'une<lb/>chambre et d’un grenier à foin. On<lb/>pénètre dans ce bâtiment par quatre<lb/>ouvertures fermées de leurs portes ,<lb/>dont deux visant au sud-ouest pour<lb/>l'écurie et la cuisine, et deux visant<lb/>au nord-est pour la chambre et le gre¬<lb/><lb/>nier à foin. Ladite propriété, d'une<lb/>contenance approximative, savoir : la<lb/><lb/>terre labourable, de un heclare vingt<lb/>ares dix centiares ; la terre vigne, de<lb/>ingt-quatre ares cinquante centiares<lb/>ares quatre-vingis centiares, et le sol<lb/>du batiment, de soixante-et-dix-sept<lb/>centiares, ou soit d’une contenance to¬<lb/>quante ares soixante-et-dix-sept centia-<lb/>res, se trouve portée sous les numéros<lb/>453, 454, 453, 456 et 457 de la sec-<lb/>tion D du plan cadastral de la com-<lb/>mune de Saint-Btienne ; elle confronte,<lb/><lb/>dans son ensemble, Jean Antoine-Jour¬<lb/>dan, le chemin de Pallian, Madame,<lb/>Nochebrune, la commune de Saint¬<lb/>Etienne, les hoirs de Joseph Bizot, dit<lb/>à la requête de dame Marie-Anne GIRAU-<lb/>DON, sans profession, épouse de Fer-<lb/>réol Mégy, propriétaire, et dudit Mégy<lb/>comme marta tous les deux domieilés</p>
+        <p><lb/>enfanis mineurs de Fortuné Magnet<lb/>ancien cafetier à Saint-Etienne, et ac-<lb/>tuellement agent de police, à Marseille<lb/>et de feue Catherine Germain , qu'ils<lb/>représentent sous la tutelle légalo de</p>
+        <p><lb/>vingt-six avril mil huit cent soixante-<lb/>cinq , dûment enregistré, de Pontès,<lb/>huissier à Forcalquier, transerit, ainsi<lb/>que l'exploit de dénonciation, au bureau<lb/>des hypothéques de Forcalquier, le dix-<lb/>sept mai suivant, volume 16, numéro</p>
+        <p><lb/>la mise à prix de HUIT CENIS ERANOS</p>
+        <p><lb/>conditions de la vente, a été déposé au<lb/>greffe du Tribunal civil séant à Forcal;<lb/>Xante-cinq, et la lecture en a été faite</p>
+        <p><lb/>de l'article 696 du code de procédure,<lb/>civile, modisié par la loi du 21 mai<lb/><lb/>1858 , que tous ceux du chef desquels<lb/>d pourrait être pris inscription pour rai-<lb/>son d'hypothèques légates devront, pour<lb/>conserver leurs hypothèques sur les im-<lb/>meubles expropriès, requérir cette ins-<lb/>cription avant la transcription du jugement</p>
+        <p><lb/>4865, fo 33. r. c. 6, recu un franc, dé-<lb/>ciennes bichés devenues vendeuses de bottes</p>
+        <p><lb/>et nous nous vengions d’une singulière façon ;<lb/>des lâches amis qui nous abandonnaient, en<lb/>leur réstant fidèles ; des indifférents qui nous<lb/>raillaient, en étant meilleurs et plus heureux<lb/>qu'eux ; des ennemis qui nous attaquaient,<lb/>en leur faisant du bien, et en les couvrant<lb/>d’un immense mépris. Ce dernier sentiment<lb/>finit par envahir les âmes qui après avoir eu<lb/>des aspirations trop élevées, voient que ce<lb/>qu'il y a de plus beau au monde, c'est ce qui<lb/>n'y est pas, c'est ce qu'y mettaient leurs ima¬<lb/><lb/>ginations trop enthousiastes. — Si la vie était<lb/>à recommencer..... nous agirions encore de<lb/>la même manière, car le Bien réserve à ses<lb/>adeptes un bonheur particulier ; et comme nous<lb/>l'avons dit dans notre 6e étude, nous appar-<lb/>tenons à l'armée de l'idéal : quoi qu'il arrive</p>
+        <p><lb/>première<lb/>série de nos études. Je te remercie toi, cher<lb/>Alphonse, qui m'as procuré le moven de dire<lb/>plus librement ma pensée que je ne pouvais<lb/>le faire dans les journaux de Paris, trop dis-<lb/>ciplinés par les comités de rédaction. Je re-<lb/>mercie les lecteurs que mes travaux ont inté¬<lb/>ressés ; tu me dis qu'à Forcalquier, à Manos-<lb/>que, à Marseille des personnes intelligentes<lb/>ont applaudi à mes premiers essais ; j'ai reçu<lb/>ici des encouragements précieux et venus de<lb/>haut. Je n'oublic rien. Il faut que nous par¬<lb/>venions. It le faut pour prouver à ceux qui<lb/>croient à notre avenir qu'ils ne se sont pas<lb/>trompés, et aux autres qu'ils se connaissent</p>
+        <p><lb/>Axerai pent-être en Allemagne d'ou je t'envers<lb/>rai d'autres études ou traductions. En atten-<lb/>dant, remplace-moi ; parle-nous pailologie. (1<lb/>C’est une science attrayante, peu connue en¬<lb/>core, et qui est, je crois, le seul objet de tes</p>
+        <pb facs="0004.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/>-4-</ab>
+        <ab><milestone unit="column" n="1"/><lb/><lb/>Le propiéaire gérant; Av. Mson.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>VENTE</head>
+        <head><lb/>PAR EXPROPRIATION FORCEE.</head>
+        <p rend="styled"><lb/>Le NEUF SEPTEMBRE mil huit cent<lb/>soixante-cinq, jour de samedi, à huit<lb/>heures du matin, pardevant le Tri¬<lb/>bunal civil séant à Forcalquier, et à<lb/>l'audience des criées dudit Tribunal,<lb/>il sera procédé à la vente, aux en-<lb/>chères publiques, des immeubles ci-<lb/>après:</p>
+        <p rend="labelled"><lb/>4o Une PROPRIÉTÉ en nature de terre<lb/>vague autrefois et aujourd’hui en nature<lb/>de vigne, sise sur le terroir de Saint-<lb/>Etienne, quartier de la Blache, d’une<lb/>contenance approximative de trente-cinq,<lb/>ares, confrontant : du midi, Magnan?<lb/>des levant et nord, les hoirs de M. Prosper<lb/>Tardieu, et du couchant, un passage,<lb/>Blle est portée au numéro 238 de la sec-<lb/>tion B du plan cadastral de la commune<lb/>de Saint-Etienne. Sur cette propriété se<lb/>trouve un poste de chasse, dont la porte<lb/>vise au midi ; il est couvert en dalles et<lb/>a une meurtrière au levant, sur la mise<lb/>a prix de CINQ FRANCS, ci<lb/>5 fr<lb/></p>
+        <p rend="labelled"><lb/>2° Une PROPRIÉTE autrefois terre la-<lb/>bourable, a ujourd’hui en nature de vague,<lb/>jardin et pré, sise au même terroir, quar-<lb/>tier de Saint-Joseph, d'unc contenance<lb/>approximative et totale de quarante-un ares<lb/>dix centiares, confrontant : du midi,<lb/>Ponsson Joséphine et les hoirs de Tour¬<lb/>niaire François; du couchant, lesdits hoirs<lb/>et passage ; du nord, Landric Jacques et<lb/>Bizot Etienne, et du levant, ledit Bizot;<lb/>elle est portée sous le numéro 1038 de la<lb/>section E dudit plan cadastral. Sur cette<lb/>propriété se trouvent un petit bastidon et<lb/>un pavillon en planches ; le bastidon es<lb/>couvert en tuiles, il a une porte au midi<lb/>et une petite fenêtre au levant<lb/><lb/>mise à prix de NEUF CENTS FRANCS<lb/>900 fr.</p>
+        <p><lb/>30 Une PROPRIÉTÉ en nature de terre<lb/>sague et terre labourable, sise sur le<lb/>-<lb/>terroir de Saint—Etienne , quartier de<lb/>l'Eyssard, d'une contenance approximative:<lb/>quie</p>
+      </div>
+      <div type="article">
+        <head><lb/>CONTRE</head>
+        <head><lb/>PLUS DE MÉDECINE</head>
+        <head><lb/>LA SANTÉ PARFAITE, rendue sans médecine, ni purgation, ni frais</head>
+        <p rend="labelled"><lb/>DUBARRY Ce délicieux aliment sauveur des malades et faibles a la vertu d'absorber<lb/>PEECE de Londres et d'éliminer radicalement les mauvaises digestions (dyspepsies), gastrites,<lb/>gastralgies, constipations habituelles, hémorrhoïdes, glaires, vents, palpitations, diarrhée, gonflement, étourdissement,<lb/>bourdonnements dans les oreilles, acidité, pituite, migraine, surdité, nausées et vomissements après repas et en grossesse ; dou-<lb/><lb/>leurs, aigreurs, crampes, spasmes et inflammation d'estomac, des reins, du ventre, du cœur, des côtés, et du dos, tout désordre<lb/>du foie, nerfs, de la gorge, des bronches, de l’haleine, membranes muqueuses, vessie, et bile ; insomnies, toux, oppression<lb/>asthme, catarrhe, bronchite, phthisie (consomption), dartres, éruptions, mélancolie, dépérissement, épuisement par suite<lb/>d'excès, paralysie, épilepsie, perte de mémoire, diabetes, rhumatisme, goutte, fièvre, hystérie, la danse de St. Guy, irri-<lb/>tation des norfs, névralgie, vice et pauvreté du sang, suppression, hydropisie, rhumes, grippe, manque de chaleur, de fraîcheur<lb/>et d'énergie physique et morale, hypocondrie, des idées tristes , et toutes les horreurs morales d'un état de marasme. Elle est<lb/>aussi le meilleur fortifiant pour les enfants faibles et les personnes de tout âge.</p>
+        <p rend="labelled"><lb/>Extraits de 65,000 guérisons.— No 52,081: M. le duc de Pluskow, maréchal de cour, d'une gastrite.— Cure 64,825: de Son<lb/>Excellence M. le Comte de Mensdorff-Pouilly , premier Ministre de l'Autriche. 8 octobre 1864.— l'ai été commandé par Son Excellenee<lb/>M. le Comte de Mensdorff-Pouilly de vous exprimer sa plus haute reconnaissance pour voire excellente Revalescière, dont il s'est servi<lb/>pendant deux mois avec le plus grand succès possible, — beaucoup de remèdes qu'il avail employés auparavant n'ayant eu aucun effe<lb/>salutaire sur la santé. J'ai été également commandé par Son Excellence de vous prier de donner autant de publicité à cette lettre que vous<lb/>jugerez convenable. J’ai l’honneur d’être votre très-humble serviteur. Le Prince YSENSTEIN, aide-de-camp.— No 62,476 : Ste. Romaine<lb/>des Isles (Saòne et Loire). Dieu soit béni ! La Revalescière Du Barry a mis fin à mes 18 ans de souffrances horribles de l'estomac, de<lb/>sueurs nocturnes et mauvaise digestion. J. Comparet, Curé. — No 47,421 : Mille E. Jacobs, de souffrances horribles des nerfs, indigestions,<lb/>eruptions, hystérie, mélancolie. — No 49,842: Mme Maria Joly, de 50 ans de constipation, indigestion, des nerfs, asthme, toux, flatus.<lb/><lb/>spasmes et nausées.—No 36.418 : le docteur Minster, de crampes, spasmes, manvaise digestion et vomissements journaliers.<lb/>31,328 : M. W. Patching, d’hémorhoïdes. — No 46,270 : M. Roberts, d’une consomption pulmonaire, avec tous, vomissements, consti-<lb/>pation et surdité de 25 années. — No 46,210 : M. le docteur-médecin Martin, d’une gastralgie et irritation d’estomac qui le faisait vomir<lb/>15 à 46 fois par jour pendant huit ans. — No 46,218 : le colonel Watson, de la goutte, névralgie et constipation opiniâtre. — No 49,422:<lb/>M. Baldwin, du délabrement le plus complet, paralysie des membres par suite d'excès de jeunesse.—No 48,721: M. le baron de Zaluskow ski,<lb/>général de division, de souffrances horribles de plusieurs années dans les voies digestives. —. No 55,860 : Mile Gallard, rue du Grand¬<lb/><lb/>Saint-Michel, 17, à Paris, d'une phthisie pulmonaire, après avoir été déclarée incurabie, et qu'elle n'eût que quelques mois à vivre.<lb/>Plus fortifiant et moins coûteux que le chocolat, thé, café, huile de foie de morue, ce délicieux aliment économise mille fois son prix<lb/>en d’autres moyens ; il a opéré 65,000 guérisons où tout autre moyen avait échoué.— E. DU EÀR Y et Comp.', place Vendòme,<lb/>26, à Paris. — 4/2 kil., 4 fr. ; 1 kil., 7 fr. ; 6 kil. (franco), 32 fr.; 12 kil., 60 fr. Contre bon de poste. Et chez les premiers Pharma-<lb/>ciens et Epiciers dans tous les pays.</p>
+        <p rend="styled"><lb/>Dépót à Forcalquier, chez MM. PLAUCNeD et BESSON, pharmaciens. — Digne, chez M. RENNAU.<lb/>la terre vague, de quatre hectares dix-sept<lb/>ares soixante-et-dix centiares, et la terre<lb/>labourable, de vingt-sept ares vingt cen-<lb/>tiares, confrontant, dans son ensemble)<lb/>de tous les côtés, le terrain communal<lb/>appelé les Graves ; elle est portée audit<lb/>plan cadastral sous les numéros 610 et<lb/>611 de la section B<lb/>sur la mise à prix<lb/>de QUARANTE FRANCS, ci.<lb/>40 fr.</p>
+        <p><lb/>Les immeubles ci-dessus ont été saisis<lb/>à la requète de MM. Hypolite GUÉRIN.<lb/>Jean-Francois BOUSCARLE, et Perdinand<lb/>MÉRITAN, tous les trois domiciliés et de-<lb/>meurant à Ápt, agissant en qualité de<lb/>syndics définitifs de la faillite de Jean-<lb/>Baptiste-Paul Bonnet, banquier à Apt<lb/><lb/>çonfirmés dans ces fonetions par jugement<lb/>date du vingt-huit mars dernien</p>
+        <p><lb/>M. Prosper DULME, propriétaire, domi-<lb/>cilié et demeurant audit Saint-Etienne</p>
+        <p><lb/>Suivant procès-verbal de saisie du dix-<lb/>neuf mai mil huit cent soixante-cinq<lb/>dûment enregistré, de Maurel, huissier à<lb/>Forcalquier, transcrit, ainsi que l'exploit<lb/>de dénonciation, au bureau des hypothèque<lb/>de Forcalquier, le six juin suivant, volume<lb/>46, numéro 11</p>
+        <p><lb/>Lesdits biens seront vendus en trois lots<lb/>distincts et séparés et sur les mises à prii-<lb/>ci-dessus fixées</p>
+        <p><lb/>Le cahier des charges, clauses et con¬<lb/>ditions de la vente, a été déposé au greffe<lb/><lb/>du Tribunal civil séant à Forcalquier, le<lb/>vingt-quatre juin mil huit cent soixante-cinq.<lb/>et la lecture en a été faite à l'audience<lb/>dudit Tribunal, le vingt-sept juillet sui-<lb/>vant.</p>
+        <p><lb/><lb/>l'article 696 du code de procédure civile,<lb/>modifié par la loi du vingt-un mai mit<lb/>huit cent cinquante-huit, que tous ceux<lb/>du chef desquels il pourrait être pris ins-<lb/>cription pour raison d'hypothèques légales</p>
+        <ab><lb/>PHOSPHO-GUANO.<lb/>GALLET, LEFEBVREET Co, à Paris et au Havre.<lb/>VENTE EN BARILS, CACIETÉS AUX EPFIGIES CI-DESSUS.</ab>
+        <figure/>
+        <p rend="styled"><lb/>DEPOTS DANS TOUS LES DEPARTEMENTS. —Pour les Basses-Alpes: M. ALEx.<lb/>MÉGI, à DICNE<lb/>devront, pour conserver leurs hypothèques<lb/>sur les immeubles expropriés, requérir cette<lb/>inscription avant la transcription du jugemen<lb/>d'adjudication.</p>
+      </div>
+      <div type="article">
+        <p><lb/>En conséquence, l'adiudication desdits<lb/>biens aura lieu les jou, mois et an ci-<lb/>dessus fixés</p>
+        <p><lb/>Forcalquier, le sept août mil huit cent<lb/>soixante-cinq-</p>
+        <ab><lb/>ROUSTAN, avoué.</ab>
+        <p><lb/>Enregistré à Forcalquier, le 7 aou<lb/>1865, fol. 33, r. c. 5, reçu un franc de<lb/>cime quinze centimes.</p>
+        <ab><lb/>ARNAUD.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Tribunial de Commerce de Manosque.</head>
+        <head><lb/>AGUS</head>
+        <p><lb/>Messieurs les créanciers de la faillite<lb/>de la société Jules LANDRY et compa-<lb/>guie (en liquidation), marchand de bois-<lb/>à Banon, sont avertis qu'ils doivent se<lb/>présenter en personne ou par fondés de<lb/><lb/>pouvoirs, dans le délai de vingt jours,<lb/><lb/>plus les délais à raison de la distance, au<lb/>syndic de la faillite et lui remettre leurs<lb/><lb/>titres, accompagnés d’un bordereau in-<lb/>dicatif des sommes par eux réclamées,<lb/>si mieux ils n'aiment en faire le dépôt au<lb/>greffe du Tribunal.</p>
+        <p><lb/>La vérification des créances aura lieu<lb/>à partir du mardi dix-neuf septembre<lb/><lb/>1865, pardevant M. le Juge Commissaire,<lb/>en chambre du Conseil, à dix heures du<lb/>matin.</p>
+        <p><lb/>Manosque, le onze août mil huit cent<lb/>ixnecinq</p>
+        <ab><lb/>Le Greffier du Tribunal,</ab>
+        <ab><lb/>GIRAUD.</ab>
+        <figure/>
+        <note>
+          <p rend="styled"><milestone unit="column" n="3"/><lb/>Forcalquier, imp. MasSON.<fw type="digitisation-artefact"><lb/>oliothèque<lb/>a</fw></p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

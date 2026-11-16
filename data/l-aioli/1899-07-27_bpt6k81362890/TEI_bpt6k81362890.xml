@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81362890</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1899-07-27">1899</date>
+          <idno type="ARK">bpt6k81362890</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81362890</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>NOUVENCO ANNADO, No 309</fw>
+        <ab><milestone unit="column" n="3"/><lb/>DIJOU, 27 DE JUAaT S.</ab>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr l'ôli<lb/>E faren raiau.</ab>
+        <figure type="table"/>
+        <note>
+          <p rend="styled"><lb/>(Prouvere de mensanié)</p>
+        </note>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PÈR MES (7, 17,27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI<lb/>au palais dóu Roure<lb/>EN AVIGNOUN</ab>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN</p>
+        <figure type="table">
+          <head><lb/>Baile dou journau</head>
+        </figure>
+        <ab><lb/>FOLCÒ DE BARONCELLI</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Vièio cansoun<lb/>Elo li cansouno à voués douço;<lb/>E lel bessoun<lb/>Arpatejon contro lei pousso;<lb/>E la piéunaio, entanterin,<lb/>Chamatejo. — Ansin l'auceliho<lb/>S'escarrabiho<lb/>Sus l'autin qu'es carga de rin.<lb/>— «As pas crento ! que, bramaire<lb/>D'estamaire<lb/>Pèr Nouve travaia 'nsin!<lb/>— «Al 'no niado de sausin<lb/>Qu'espèro, touto afougado,<lb/>"Hola 'atama cascró!,<lb/>Pamens, si gratant l'auriho:<lb/>Brave! estama casserò !<lb/>......</ab>
+        <ab type="head"><lb/>La PauriHo</ab>
+        <figure type="decoration"/>
+        <p><lb/>En Valèri Bernard, lou mèstre pintre e lou<lb/>pouèto majourau, largo vuei i ferverous de<lb/>Prouvènço emai en tóuti lis amo alabro d'ideau<lb/>e de vertu un superbe libre : La Pauriho,<lb/>coumpausa justamen d'uno longo tiero de<lb/>pouèmo tras-que realisto, mai que s’enauron,<lb/>dins acò, sus lis alo d'un raive subre-noble.<lb/>Lou Mèstre de Maiano li benastrugo en uno<lb/>prefàci estraourdinarimen lumenouso, verta-<lb/>dié manifèste soucioulougi, d'uno evangelico<lb/>e fegoundo bèuta (1). Après agué oupausa la<lb/>pauriho di champ à-n-aquéu grouun de mise-<lb/>rable que Bernard nous pinto dins li bourdi-<lb/>gaio marsiheso, Mistral escriéu eiçò: «Mai de<lb/>pauriho, vuei, — entènde la pauriho que n’a<lb/>que si vint ounglo,— n’T'a quasimen plus ges au<lb/>champ. l'an tant di que la terro èro lou dar-<lb/>rié di mestié, l'an tant di qu'à Marsiho r'avié<lb/>d'obro pèr tóuti e de journado bèn pagado,<lb/>emé de grand cafè lusènt, emé de Palais<lb/>de cristau e de turno e de bar un oustau<lb/>l'autre noun, e qu'emé de diplomo e de certi-<lb/>ficat d'estudi poudien avé de bòni plaço, quand<lb/>sarié que dins la pouliço, i'an tant di que l'ou-<lb/>brié èro en drudeso, en jouissuro coume en<lb/>inteligènci, superiour au pèd-terrous, que li<lb/>patàrri de la terro, coume li noumes quauco<lb/>part, soun quàsi tóuti descendu dins la vilasso<lb/>de la mar ; e rèsto plus dins lou campèstre<lb/>que li particulié que vivon sus lou siéu. Dison<lb/>meme qu'eilamoundaut l'a d'endré, dins la<lb/>Gavoutino, que noun l'es plus resta degun:<lb/>tóuti li gènt an davala pèr se marfi dins li fa-<lb/>brico o vuja li jarroun di gava e di panturlo.<lb/>Mai la naturo a l'ourrour dóu vuege, e 'm'<lb/>acò qu'es arriba ? Dins li vilage de l'auturo<lb/>abandouna pèr li Gavot, au bout de quàuquis<lb/>an es arriba de Piemountés, uno raço de ra-<lb/>pino, que, troubant lis oustau desert e li ter-<lb/><lb/>rado acampassido, se ié soun bravamen nisa<lb/>e, au bèl èr de la mountagno, an pres la plaço<lb/>di dourgas que vuei groupisson à Marsiho<lb/>aqui mounte nous li fas vèire! » Li legèire<lb/>de Bagatóuni (2) se retroubaran eicito en pais<lb/>de couneissènço ; e, à la verita, lou cadre di</p>
+        <p rend="labelled"><lb/>()Un <lb/>tipougrafico d'edicioun, 25, cours Liéutand, à Marsiho.</p>
+        <p rend="labelled"><lb/>(1) Sarié de lou prepaura i meditacioun di nesci francihot<lb/>qu'escrivon dins «La Plume »: « Mistral prophête du passé.«<lb/>Es bèn lon cas de dire: «Que touto barbo cale quand lou<lb/>Prudome a parla. « Verai que lis enfant e ll cresta an ges de<lb/>barbo; es, proubable, pèr acò que desparlon.<lb/></p>
+        <p rend="labelled"><lb/>(2) Bagatouni, rouman de Valéri Bernard.<lb/>pichot pouèmo estènt belèu un pau estre¬<lb/>choun pèr caupre aquéu desbord de vido que<lb/>Bernard nous escampè generousamen dins<lb/>soun rouman maistrau, n'i'a belèu mai que<lb/>d'un que regretara Bagatouni. Pamens, quau<lb/>noun amarié la bèuta souvènt perfèto d'aquéli<lb/>vers musicau e embelinaire que danson dins<lb/>lou soulèu dóu Lacidoun e nous laisson en<lb/>l'amo uno eigouso frescour de marinaio !</p>
+        <lg>
+          <l><lb/>La velo bloundo</l>
+          <l><lb/>Fuso e boundo</l>
+          <l><lb/>Dins lou blu :</l>
+          <l><lb/>Dirias à travès deis oundo</l>
+          <l><lb/>D'uno iroundo</l>
+          <l><lb/>Dirias d'uno fado bello</l>
+          <l><lb/>Du espapello</l>
+        </lg>
+        <p><lb/>Aigo-fort souvènt tragi, aquéli pajo de la<lb/>Pauriho nous pinton la vido dins si manifes-<lb/>tacioun li mai diverso; veici la joueino famiho<lb/>de l'oubrié que respiro uno sano e forto óu-<lb/>dour de bonur poupulàri ; veici la maire,<lb/>poulit tablèu d'umblo felicita:</p>
+        <lg>
+          <l><lb/>Uno piéunaio,</l>
+          <l><lb/>— Dirias un vòu de parpaioun,</l>
+          <l><lb/>Juego e s'estraio</l>
+          <l><lb/>A l'entour de sei coutihoun.</l>
+          <l><lb/>Elo, souto seis uel lei couo:</l>
+          <l><lb/>Ansin tan lei pichoun poulet</l>
+          <l><lb/>Tout tremoulet</l>
+          <l><lb/>Contro la maire que s'agrouo.</l>
+        </lg>
+        <p><lb/>Es coume acò touto la majo part dou libre,<lb/>d'uno bello baudour de santa au mitan di<lb/>peiandro de la pauriho e de la «paurugno»;<lb/>lou miés, se la plaço noun fautavo, sarié de<lb/><lb/>cita lou Segne-grand, l'Enfant, leis Amourous,<lb/>Marino, Danso marmoto! etc.. Uno di mai pon-<lb/>lido bessai d'aquéli cansoun bouleguivo es<lb/>leu Nouvè de l'Estamaire:</p>
+        <lg>
+          <l><lb/>Lou baguié pertont verdejo,</l>
+          <l><lb/>Tout petejo,</l>
+          <l><lb/>Tout canto e ris à l'oustau.</l>
+          <l><lb/>Enterin, souto un pourtan,</l>
+          <l><lb/>L'estamaire que varaio,</l>
+          <l><lb/>S'escarcaio:</l>
+          <l><lb/>«Hola l'stama casserò!»</l>
+        </lg>
+        <lg>
+          <l><lb/>Enco dei riche tout dindo</l>
+          <l><lb/>Davans leis enf́ant goujard,</l>
+          <l><lb/>Viro, couinant dins soun lard.</l>
+          <l><lb/>Mai n'a rèn que la bourdiho,</l>
+          <l><lb/>Deis estama cassero...</l>
+        </lg>
+        <p><lb/>Eici l'amarour dóu pensaire umanitàri apa¬<lb/>rèis, mai noun pas coume dins tàli pèço que<lb/>n'en parlaren pièi, simplamen aro à guiso de<lb/>testimòni pèr oumbreja leimamen lou founs<lb/>dóu poulit tablèu:<lb/></p>
+        <lg>
+          <l><lb/>« L'aucellho</l>
+          <l><lb/>« Voudrié bén un pau d'estra»</l>
+          <l><lb/>Si dis. — Lou vaquito intra</l>
+          <l><lb/>Per l croumpa 'no poumpeto</l>
+          <l><lb/>Ben rousseto.</l>
+          <l><lb/>Flame ! estama-casserò!</l>
+        </lg>
+        <list>
+          <item>— «Papa! papa!» — La marmald</item>
+        </list>
+        <lg>
+          <l><lb/>Mounte ei braio</l>
+          <l><lb/>De l'estamaire negras,</l>
+          <l><lb/>Que, lei prenent dins sei bras,</l>
+          <l><lb/>Cuerbe sei bloundei testeto</l>
+        </lg>
+        <lg>
+          <l><lb/>Mai, basto! fau se n'enchaure</l>
+          <l><lb/>D'èstre paure,</l>
+          <l><lb/>E viéure emé mau de couar,</l>
+          <l><lb/>Bord que lou jour que sian mouart</l>
+          <l><lb/>Anan 'stama leis astello</l>
+          <l><lb/>Deis estello!</l>
+          <l><lb/>Hola ! 'stama casserò!</l>
+        </lg>
+        <p><lb/>Crese que res me n'aura vougu mau d'a<lb/>ounga 'n pau ma dicho en citant aquéli vers<lb/>delicious. Tóuti li tablèu d'En Valèri soun<lb/>pas dins aquelo noto atendrido e resignado.<lb/>Souvènt e subre-tout dins la tresenco part de<lb/>soun libre : Pauraio, lou magician que nous a<lb/>pinta la Farandoulo de Maiano, dirias que se<lb/>tremudo en revóuta souciau ; es la part la<lb/>mens forto de soun obro à noste avejaire;<lb/>P'on lé sènt lou vaigue aflat di pouèto franchi-<lb/>mand de la descasènço emai di presicaire<lb/>misti dóu soucialisme atuau. Que dire, pèr<lb/>eisèmple, dóu pichot pouèmo entitoula Pla-<lb/>gnun: Lou paure escracha de lassige voudrié<lb/>'n pau se pausa sus la draio umano, mai li<lb/>Soulo se prèisson, lou buton en caminant<lb/></p>
+        <quote><lb/>« Dins lei grand revoulun »</quote>
+        <lg>
+          <l><lb/>«Zou ! escrachen lou couar dou feble que s'aplanto!</l>
+          <l><lb/>Sian pressa que-noun-sai, sabèn pas mounte anan.</l>
+          <l><lb/>Jamai s'entournaren !...</l>
+        </lg>
+        <p rend="labelled"><lb/>............<fw type="digitisation-artefact"><lb/>Source gallica.bn.fr/ Bibliothèques de Mars</fw></p>
+        <lg>
+          <l><lb/>Lou camin durara sens fin coumo nouesto amo,</l>
+          <l><lb/>Dins lou grand revoulun,</l>
+          <l><lb/>L'eterne revoulun</l>
+          <l><lb/>Dóu prougrès qu'a jamai couneissu la calamo.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

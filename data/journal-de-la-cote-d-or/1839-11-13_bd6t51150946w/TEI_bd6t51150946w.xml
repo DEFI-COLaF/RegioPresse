@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t51150946w</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1839-11-13">1839</date>
+          <idno type="ARK">bd6t51150946w</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t51150946w</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/>Mercredi 13 Nov. 1839.<lb/>Ce JOURNAL parait trois fois par semaine: les MERCREDI, VENDREDI et DIMANCHE. - On s'abonne à Dijon, au Bureau, rue Verrerie, n^o 2 bis, près de la place</ab>
+        <fw type="runningTitle"><lb/>59e Année. - No 136.</fw>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>POLITIQUE</p>
+        <p rend="styled"><lb/>PRIX DE L'ABONNEMENT: Pour la ville, 22 francs par an; 11 francs pour six mois, et 6 francs pour trois mois. – Pour le département, 27 francs par<lb/>an; 13 francs 50 cent. pour six mois, et 7 francs pour trois mois. — Hors du département, 30 francs par an, 15 francs pour six mois, et 8 francs pour trois mois.<lb/>L'ABONNEMENT SE PAIE D'AVANCE.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>On lit dans le Courrier Français du 8:</p>
+        <p><lb/>« L'armée d'Afrique est aujourd'hui dans une sit ua-<lb/>lion indigne de la grandeur de la France et de la civili¬<lb/>sation de notre époque. Elle endure en pleine paix des<lb/>maux cent fois plus affreux que les horreurs de la guerre;<lb/>et les épreuves qu’elle subit après tant de victoires<lb/>sont beaucoup plus dures que les malheurs dont elle<lb/>pourrait être affligée après une défaite. Des régimens<lb/>presque entiers disparaissent sans avoir brûlé une</p>
+        <p rend="labelled"><lb/>« Cette funeste moisson d'hommes a surtout été im-<lb/>mense en 1839. Nous savons les chiffres; nous n'osons<lb/>pas les dire, de peur de soulever en France un cri d’ef¬<lb/>froi qui retentirait dans tous les cœurs, excepté dans le<lb/>cœur de l'armée elle-même. Qu’il nous suffise d'affir-<lb/>mer qu’en moins de cinq mois tel bataillon de 600<lb/>hommes en a perdu 200 ét en compte 300 de malades;<lb/>que telle compagnie isolée a perdu les deux tiers de son<lb/>monde et fait le service avec le tiers restant, quand ce</p>
+        <p><lb/>«Nous espérons qu'aucune voix ne s'élèvera pour dé-<lb/>mentir ces faits déplorables. S'ils étaient contestés, nous<lb/>prendrions à témoin de si terribles documens, qu’on<lb/>nous dispensera de les citer. Nous soutenons donc sim-<lb/>plement que l’armée d’Afrique manque des objets les<lb/>plus nécessaires à la conservation de la vie du soldat,<lb/>dans presque tous les camps et même dans certaines<lb/>villes, comme à Constantine. Nous affirmons que dans<lb/><lb/>les baraques servant d'hôpital, à Philippeville par<lb/>exemple, 950 malades occupaient naguère un espace à<lb/>peine suffisant pour 300 hommes valides ; qu'à Constan¬<lb/>tine, en ne comptant pas même les malades qui étaient<lb/>étendus dans la rue, les autres étaient tellement pressés<lb/>que les infirmires pouvaient à peine circuler entre les lits</p>
+        <p><lb/>«Le cinquième de l'armée d'Afrique a péri dans les ho-<lb/>pitaux ou sur la terre nue depuis quinze mois. Les deux<lb/>tiers de ce qui reste sont malades. Le tiers valide se<lb/><lb/>compose de sept à huit mille athlètes indomptables, au<lb/>cœur d'airain, sur qui ni les élémens, ni les maladies,<lb/>ni le fer ennemi n’ont pu avoir avoir de prise. Eux seuls<lb/>font tout et suffisent à tout en se multipliant d'une ma-<lb/>nière dont la parole humaine ne saurait donner une idée.<lb/>Nous demandons une paillasse pour chacun de ces hom-<lb/>mes quand ils sont valides, et un matelas quand ils sont<lb/>malades. Ce présent sera accueilli comme un bienfait ; la</p>
+        <p rend="labelled"><lb/>– Il serait difficile de rien imaginer de plus sombre,<lb/>de plus déchirant que ce tableau de la situation de notre<lb/>armée d'Afrique. Déjà plusieurs correspondances avaient<lb/>fait pressentir une partie de ce qu’avaient à souffrir nos<lb/>intrépides soldats, sur cette terre de feu qui les dévore<lb/>sans gloire. Mais il nous en coûtait trop d’y eroire, pour<lb/>ne pas attribuer ces rumeurs sinistres au ressentiment<lb/><lb/>de quelques ennémis du maréchal gouverneur, et au<lb/>génie malveillant de ceux que le ministère compte dans</p>
+        <p><lb/>Aujourd'hui il n'est plus permis de conserver du doute<lb/>sur les ravages qu’exercent dans les rangs de nos braves<lb/>les fléaux du climat, l'excès des fatigues, et le dénue¬<lb/><lb/>ment de toute espèce de secours, au milieu des maux<lb/>sans mesure et sans nombre qui les déciment plus rapi¬<lb/>dement que ne ferait la guerre la plus sanglante. Le<lb/>douloureux récit du Courier présente un caractère de<lb/></p>
+        <p rend="labelled"><lb/>« Le Moniteur hasarde un fait matériellement faux,<lb/>lorsqu'il déclare que le nombre des lits avec leur cou¬<lb/>chage a été plus considérable que celui des malades.<lb/>Nous affirmons sur l’honneur, pour l'avoir vu de nos<lb/>yeux, qu’en ce moment plus de trois mille soldats ma¬<lb/><lb/>Nades de l'armée d'Afrique n'ont point de lits avec leur<lb/>1<lb/>couchage. Les uns sont couchés, racoquillés sur eux-<lb/>mêmes, dans des hamacs sans matelas, où ils ne peu¬<lb/>vent se retourner; les autres sont étendus sur de la<lb/>paille où les insectes, et quels insectes! les dévorent<lb/><lb/>nuit et jour ; quelques-uns, trop nombreux encore, gi-<lb/>saient par terre quand M. le duc d’Orléans les a fait re-<lb/>lever et les a si généreusement assistés. Certes, s'il y<lb/>eût eu à Constantine plus de lits que de malades, on ne<lb/>comprendrait guère pourquoi le prince aurait donné<lb/>mille écus de sa bourse pour leur procurer des matelas;<lb/>et si les abris n’ont pas manqué, pourquoi laissait-on,<lb/>par terre, dans la rue, les pauvres soldats que j'ai vu<lb/>ramasser? Le Moniteur ne saurait démentir des faits<lb/>aussi évidens. Voudrait-il nier un trait qui honore le</p>
+        <p><lb/>« Nous souhaiterions de toutes les forces de notre<lb/>ame que le cinquième de l'armée d'Afrique n'eût pas<lb/>péri, comme nous l’avons affirmé, depuis quinze mois.<lb/>Plût au Ciel ! Mais si l’on trouve que nous ayions exa-<lb/>géré, qu'on publie, en l'affirmant aussi sur l'honneur, le</p>
+        <p rend="labelled"><lb/>Le Moniteur convient lui-même que l'administra-<lb/>tion espère créer partout où il sera besoin des abris pour<lb/>les hommes valides et des établissemens suffisans pour<lb/>les malades: voilà qui est très-bien; mais, en attendant,<lb/>ces établissemens et ces abris n’existent pas. Le soldat<lb/>couche à la belle étoile ; les malades manquent de tout.<lb/>La mort frappe à coups redoublés; l'Afrique n'est plus<lb/>gravité, de conviction, qui n'admet pas la possibilité<lb/>d’une imputation gratuite et de pure invention. Ses as¬<lb/>sertions sont trop précises, trop circonstanciées; et il<lb/>se dit prêt à les appuyer sur de si terribles documens<lb/>(ce sont ses expressions), qu’il serait aussi inhumain<lb/>qu’insensé de ne pas y ajouter foi, et de ne pas gémir<lb/>profondément des faits signalés par cette lamentable<lb/>révélation, qui est d’une expression d’autant plus impo¬<lb/>sante qu'on l'attribue à un savant chargé par le cabinet<lb/><lb/>d'une mission d'exploration en Afrique, à la suite du</p>
+        <figure type="decoration"/>
+        <p><lb/>Si cette dernière circonstance est fondée, on pourrait<lb/>s'étonner que le ministère ait laissé l'initiative de cette<lb/>sinistre publication au fiel de la presse de parti. Dans la<lb/>supposition de la vérité des faits articulés, n’était-il pas<lb/><lb/>de son devoir de les faire connaître officiellement à la<lb/><lb/>France, et d’en poursuivre les abominables auteurs dans<lb/>toute la rigueur des lois militaires?</p>
+        <p><lb/>Mais comment les choses ont-elles pu arriver aux af-<lb/>freuses extrémités qu’on nous dépeint, sans qu’il en ait<lb/>été précédemment instruit ; et s'u ne les a pas ignorées,<lb/>combien ne serait-il pas coupable de n’avoir pas sauvé<lb/>l'armée et sévi exemplairement contre ses bourreaux?</p>
+        <p><lb/>Toutefois, qnelque grave que soit la prévention qui<lb/><lb/>naît de l’accusation du Courrier Français, ou plutôt à<lb/>cause de sa gravité même, suspendons notre jugement,<lb/>et attendons les explications contradictoires que son ar-</p>
+        <p rend="labelled"><lb/>— En terminant ces réflexions, nous trouvons dans<lb/>les journaux l'article suivant, publié par le Moniteur:</p>
+        <p rend="labelled"><lb/>«La sollicitude de l'administration de la guerre, com-<lb/>me celle du pays, est assez vivement éveillée par le nom¬<lb/>bre inaccoutumé de malades qu’a eu l’armée d'Afrique<lb/><lb/><lb/>qui ont pu résulter de cet encombrement, pour qu’il ne<lb/><lb/>soit pas besoin d'exagérer le mal, comme l'ont fait plu-<lb/></p>
+        <p><lb/>« Personne ne doute que ce qui reste valide, parmi<lb/>les régimens les plus éprouvés par les maladies, ne<lb/>soient des athlètes indomptables, au cœur d'airain;<lb/><lb/>mais, Dieu merci, le nombre en est grand, et le pays<lb/>n'a point à déplorer que le cinquième de l'armée ait péri<lb/>depuis quinze mois. Quelque élevé qu’ait été le nombre<lb/>des malades, le nombre des lits avec leur couchage a<lb/>été plus considérable encore ; les approvisionnemens en<lb/><lb/>vivres, en médicamens, existent en Afrique dans la<lb/><lb/>même proportion; un personnel considérable d’hôpi-<lb/>taux, plus de deux cents officiers de santé, et sept cents<lb/>infirmiers, répartis partout où il était nécessaire, pro-</p>
+        <p rend="labelled"><lb/>« Il faut pourtant bien reconnaître que, malgré toute<lb/>cette prévoyance, de nouveaux besoins se sont révélés;<lb/>mais cela tenait évidemment à l'insuffisance des bâti-<lb/>mens, qu’on ne peut élever au gré de ses vœeux, ni<lb/>surtout multiplier sur une grande quantité de points.<lb/>.<lb/><lb/>Pour assurer la tranquille possession de la vaste pro¬<lb/>vince de Constantine, il a fallu que les troupes fussent<lb/>fréquemment en marche, et que de nombreuses stations<lb/>temporaires fussent établies. Sans doute à Philippeville,<lb/>à Constantine même, le nombre des abris suffisans n’a<lb/>pu être construit; le temps, les matériaux et les bras</p>
+        <p rend="labelled"><lb/>«Il est donc injuste d'accuser de tiédeur et d'incurie<lb/>l'administration qui a fait tout ce qui est en son pouvoir<lb/>pour prévenir les maux qu'on lui reproche aujourd'hui.»</p>
+        <p><lb/>Le Courrier Français ne laisse point cette molle et<lb/>incomplète défense sans réplique, et nous y lisons?</p>
+      </div>
+      <div type="article">
+        <head><lb/>Caisse d'épargnes et de prévoyance de Dijon.</head>
+        <p><lb/>La caisse a reçu le dimanche 10 novembre, de soixante-<lb/>deux déposans, dont douze nouveaux, 7,104 fr.</p>
+        <p><lb/>Les remboursemens demandés se sont élevés à la</p>
+        <p><lb/>Treize ont été faits en compte, et huit pour solde.</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="7"/><lb/>«Dès notre première visite dans cet établissement.</ab>
+        <p><lb/>Mgr. l'évêque de Dijon vient de publier une lettre pas-<lb/>torale sur la nécessité de transférer dans un nouvel éta-<lb/>blissement le petit séminaire de Plombières, et pour<lb/>appeler le clergé et les fidèles à contribuer aux frais de<lb/>cette entreprise. Nous en citerons les passages suivans:</p>
+        <p rend="labelled"><lb/>«De ce que les anciens évêques de Dijon s’étaient<lb/>fort bien trouvés du séjour de Plombières, on a conclu<lb/>à tort que deux cents jeunes hommes y seraient conve¬<lb/>nablement établis. De ce que l'été et l'automne y sont<lb/>agréables à celui qui peut se promener dans un parc om¬<lb/>bragé, ou se garantir de mille manières des inconvéniens<lb/>des saisons, on a conclu à tort que les rigueurs de l’hi¬<lb/>ver, l'humidité du printemps, les ardeurs de l'été, se-<lb/>raient sans inconvénient pour deux cents enfans enfermés<lb/>dans des salles d'étude, réunis dans des dortoirs, et<lb/>circonscrits dans une cour tour-à-tour glacée, fangeuse,<lb/>ou brûlante. De là sont nés de graves inconvéniens.<lb/><lb/>Comme lieu de réunion, de travail sérieux et d’études<lb/>suivies, Plombières sera toujours incommode et mal-</p>
+        <p rend="labelled"><lb/>qu’on nous avait vanté cependant, nous connûmes faci¬<lb/>lement les incolteniens de la position et de la maison</p>
+        <pb facs="0002.xml"/>
+        <figure type="decoration"/>
+        <p><lb/>« Mais comment sortir de cet état?... Quelque arrê¬<lb/>tée que fût notre conviction, fortifiée par des visites sub¬<lb/>séquentes ; quelque vif que fût notre désir, nous aurions<lb/>renoncé à cette entreprise, malgré son utilité incontes-<lb/>table, si nous avions été seul pour la tenter. Mais un<lb/>homme que nous avons perdu trop tôt, et que nous re-<lb/>gretterons toujours, un de ces prêtres que le zèle du<lb/><lb/>bien dévore, et que l’estime générale environne, Mgr.<lb/>MORLOT, confident de nos pensées, les comprit, et nous<lb/>soutint. Il nous montra ce vaste diocèse qui nous a si<lb/>bien accueilli, ce clergé qui nous montre tant d’affection<lb/><lb/>et de dévouement. Voilà ceux qui vous aideront, nous<lb/>disait-il. Ayez confiance dans vos diocésains, dans vos<lb/><lb/>prêtres. — Mais la tâche est grande! — Elle n’est pas<lb/>au-dessus de leur bonne volonté: n’hésitez pas à les<lb/>appeler à votre aide. D’autres départemens ont fait des<lb/>merveilles en ce genre; celui-ci ne restera pas en ar-</p>
+        <p><lb/>« C’est par ces paroles d’un homme qui vous connaît,<lb/>N. T.-C. F., qu’apprenant à vous connaître nous-même,<lb/>nous mîmes en vous notre espérance, comme déjà nous</p>
+        <p><lb/>«Enfin, après bien des recherches et des projets,</p>
+        <p rend="labelled"><lb/>« L'enclos connu sous le nom de l'Enclos de la Retraite,</p>
+        <p rend="labelled"><lb/>« Sa situation à l’est, sa vaste étendue, sa clôture en<lb/>bon état, sa proximité de la ville épiscopale, son isole-<lb/>ment, sa position aérée, tout nous invitait à l'acquérir<lb/>de préférence à quelques autres localités moins favora-</p>
+        <p rend="labelled"><lb/>« Là nous élèverons un bâtiment simple, mais vaste,</p>
+        <p rend="labelled"><lb/>«Notre tâche est grande, mais notre confiance en vous</p>
+        <p rend="labelled"><lb/>« Ce n'est pas un secours passager que nous vous<lb/>demandons. C’est une œuvre durable qu’il faut fonder.<lb/>C'est un grand sacrifice qu’il faut faire. Mais c’est dans<lb/>l'intérêt général, c’est au nom de la Religion que nous<lb/>vous le demandons, et ce ne sera pas en vain : vous ne<lb/>laisserez pas votre évêque seul dans cette voie où il s’en¬<lb/><lb/>gage pour vous tous; mais, pressant vos rangs autour<lb/>de ce pasteur de vos ames, vous lui prouverez qu'il n'a</p>
+        <p rend="labelled"><lb/>« Vous nous aiderez, N. T.-C. F., et tous un jour<lb/>nous nous féliciterons d'avoir répondu à cette inspira-</p>
+        <p rend="labelled"><lb/>« Pour en assurer le succès, nous avons cru devoir<lb/>former à Dijon une commission d'hommes honorables et<lb/>habiles, dont les lumières nous guideront dans cette<lb/>grande entreprise, et offriront à nos diocésains une nou¬<lb/>velle garantie du sage emploi des fonds que nous atten-</p>
+        <p rend="labelled"><lb/>«M. Dumay (Victor), maire de la ville de Dijon; M. le<lb/>chevalier de Berbis, M. le marquis de Saint-Seine ;<lb/>M. David-Boüault, banquier; M. Bonnetat, ingénieur<lb/>en chef des ponts-et-chaussées, directeur du canal de<lb/>Bourgogne; M. Bordet, avocat à la Cour royale; M. La¬</p>
+        <p><lb/>« Les plans seront soumis à ce conseil, discutés, ap¬</p>
+        <p rend="labelled"><lb/>« Chaque année un compte-rendu des travaux exé-<lb/>cutés, des sommes perçues et employées, sera dressé et</p>
+        <p><lb/>Voici le programme du concert donné par MM. Lefé-<lb/>bure-Wely et Triebert, le vendredi 15 novembre 1839,<lb/>à huit heures du soir, dans la salle de la Société Phil-<lb/></p>
+        <p><lb/>1. Quatuor sur les Puritains pour flûte, hautbois,<lb/>clarinette et basson, avec accompagnement de piano.</p>
+        <p rend="labelled"><lb/>2. Fantaisie pastorale pour piano et hautbois, compo¬<lb/>sée et exécutée par MM. Lefébure-Wely et Triebert.</p>
+        <p rend="labelled"><lb/>3. Souvenirs de Pozzioli, fantaisie pour le Poïkilor-<lb/>gue, dédiée à la Reine, composée et exécutée par M.</p>
+        <p rend="labelled"><lb/>1. Trio pour piano, violon et hautbois, composé par<lb/>Brod, et exécuté par MM. Lefébure-Wely, Triebert et</p>
+        <p rend="labelled"><lb/>2. Improvisation sur le poikilorgue, par M. Lefébure-</p>
+        <p rend="labelled"><lb/>4. Fête villageoise, bluette pour pole e</p>
+      </div>
+      <div type="article">
+        <p><lb/>Par ordonnances individuelles, datées du 7 novem-<lb/>bre, contresignées par M. le président du conseil, mi-<lb/>nistre des affaires étrangères, le Roi a élevé à la dignité</p>
+        <p rend="labelled"><lb/>M. Bérenger (de la Drôme), député, conseiller à la</p>
+        <p><lb/>M. le comte Octave de Boissy, membre du conseil-</p>
+        <p rend="labelled"><lb/>M. Despans-Cubières, ancien ministre, lieutenant-gé-</p>
+        <p><lb/>M. le comte Eugène Merlin, ancien député, lieutenant-</p>
+        <p rend="labelled"><lb/>M. le comte Jules de La Rochefoucauld, ancien dé¬<lb/>puté, membre du conseil général du département du</p>
+        <p rend="labelled"><lb/>M. le comte de sainte-Hermine, ancien député, an-</p>
+        <p rend="labelled"><lb/>M. de Vandeul, député, ancien ministre plénipoten-</p>
+        <p rend="labelled"><lb/>Voici la liste des pairs déc édés depuis la promo-</p>
+        <p><lb/>MM. le général Bordesoulle, général Mathieu Dumas,<lb/><lb/>général Danrémont, comte Clément de Ris, comte Rein-<lb/>hard, baron Silvestre de Sacy, marquis d’Osmond, mar-<lb/>quis de Catelan, prince Talleyrand, général Haxo, pré-<lb/>sident Cassaignoles, comte d’Angosse, comte d’Hunols-<lb/>tein, duc de La Force, maréchal Lobau, duc de Choiseul,<lb/>comte de Montlosier, comte Christian de Nicolaï, comte<lb/>de Durfort, général Lallemand, marquis de Sémonville,<lb/>duc de Bassano, comte de Vogué, baron Alex, de Tal-<lb/>leyrand, comte de Vautbois, de Prony, comte de La¬<lb/>briffe, Deforest de Quartdeville, général Bernard; en</p>
+        <p><lb/>Nous ajoutons la liste des pairs nommés depuis la</p>
+        <p><lb/>MM. le baron Rohault de Fleury, le vicomte de Jes-<lb/>saint, baron de Saint-Didier, amiral Rosamel, vicomte<lb/>Schramm, Gay-Lussac, de la Pinsonnière, duc de La<lb/>Force, baron Dupont Delporte, baran Nau de Champ-</p>
+        <p rend="labelled"><lb/>S. M. la Reine a écrit à la veuve de M. le général<lb/>Bernard pour lui exprimer ses regrets de la perte cruelle<lb/>qu’elle avait faite. S. A. R. Mme Adélaïde s’est rendue<lb/>auprès de Mme la baronne Bernard pour lui confirmer<lb/>toute la part que la famille royale prend au malheur<lb/></p>
+        <p rend="labelled"><lb/>génie, pair de France, ancien ministre de la guerre,<lb/>aide-de-camp honoraire de S. M. le roi des Français,<lb/>commandant supérieur du Palais-Royal, ancien aide-de-<lb/>camp de l’empereur, ex-brigadier-général de l’arme du<lb/>génie aux Etats-Unis d'Amérique; grand- croix de<lb/>l'Ordre royal de la Légion-d'Honneur, commandeur de</p>
+        <p rend="labelled"><lb/>– Dans les discours prononcés sur la tombe du gé¬<lb/>néral Bernard, les services qu’il a rendus aux Etats-</p>
+        <p rend="labelled"><lb/>« Lorsque le général Bernard arriva aux Etats-Unis<lb/>d'Amérique, il y était entièrement étranger aux habi-<lb/>tudes, aux mœurs, à la langue de ce pays ; sa réputa-<lb/>tion d'ingénieur célèbre et d'officier particulièrement<lb/>remarqué par le plus grand capitaine du siècle l'avait<lb/><lb/>seule devancé ; mais il apportait avec lui son caractère<lb/>personnel, si riche en modestie, en simplicité, en af-<lb/>fection, et pour lui servir d’introducteur à la famille<lb/>américaine, le nom de l'illustre patriote des Deux-Mondes<lb/>bois, composée par M. Lefébure-Wely, et exécutée par</p>
+        <p><lb/>NOTA. M. Lefébure-Wely doit se faire entendre sur<lb/>l'orgue, mercredi à une heure, à St.-Michel, et jeudi,<lb/>donc bientôt accueilli comme l’enfant adoptif de Was<lb/>hington, à la patrie duquel il venait apporter le puis-</p>
+        <p rend="labelled"><lb/>« La tâche qu’il eut à accomplir sur le Nouveau-<lb/>Monde est sans parallèle dans nos annales; car seul i<lb/>eut à constituer le système défensif d’une frontière de<lb/>plus de 1,300 lieues de développement sur son littoral.<lb/>et d’autant sur les bords des lacs intérieurs qui séparen</p>
+        <p rend="labelled"><lb/>« Il projeta plus de quinze places fortes, autant de<lb/>forts de première classe, un nombre plus grand de fort<lb/>de seconde classe, des routes, des canaux, qui vinrent<lb/>compléter l’admirable système de défense créé par son<lb/>génie et exécuté par la sage prévoyance de cette grande<lb/><lb/>nation, pour se mettre à l'abri de toute agression de l'é¬</p>
+        <p rend="labelled"><lb/>« Les dépenses qu'ont entraînées tous ces travaux<lb/>s’élèvent à plus de 100 millions, et après un si gigan-<lb/>tesque travail, le général Bernard est revenu dans sa<lb/>patrie, aussi riche, aussi pauvre qu’il l'avait quittée.»</p>
+        <p rend="labelled"><lb/>M. Plougoulm, procureur général, a prononcé un dis-<lb/>cours dans lequel nous trouvons sur l’application des<lb/>circonstances atténuantes, en matière criminelle, un pas-<lb/>sage entièremeut conforme aux idées que nous avons<lb/>émises lors de l'affaire de Strasbourg; en voici un ex-</p>
+        <p><lb/>« Il est un point de nos lois nouvelles, d’une applica-<lb/>tion délicate et où l’on s’égare souvent; vous entendez<lb/>que je parle des circonstances atténuantes, ressource<lb/>admirable d'indulgence et d’équité, mais qui trop sou-<lb/>vent (les exemples parlent) énerve le jury, le rend timi-<lb/>de, déserteur de son devoir et des intérêts de la société.<lb/>L'abus est tellement signalé, qu'il serait presque inutile<lb/><lb/>d’en parler. Le jury est une institution qui a un tel be-<lb/>soin de vérité, c’est une application si pure de la cons-<lb/>cience humaine, qu'on n'y peut souffrir d'altération. On<lb/>dit souvent : le jury est souverain ; je crains que ceux<lb/>qui répètent ce mot ne l'entendent pas bien. Si l'on pré-<lb/>tend que le jury est indépendent, qu’il ne relève d’au¬<lb/>cun pouvoir, on a raison ; mais si l'on entend qu’il peut<lb/>justement, et sans violation d’aucune loi morale, faire<lb/>tout ce qui lui plait, déclarer non, quand l'évidence<lb/>crie oui, on se trompe gravement. Le juré, comme pou¬<lb/>voir, est libre; comme conscience, il est enchaîné à<lb/>la vérité. Ce principe n’admet ni interprétation ni sub-<lb/>terfuge. Chose étrange! on se croit permis, sur un<lb/>siège de juge, et sous le joug du serment, ce qu’on ne<lb/>voudrait pas se permettre dans le monde, dans un en-<lb/>tretien familier: on viole la vérité! Et s'il faut le dire,<lb/>Na main sur le cœur on ment par verdict, c’est-à-dire</p>
+        <p rend="labelled"><lb/>au port de Montereau avait coûté la vie à plus de soixante<lb/>personnes. Voici les faits exacts résultant du procès-<lb/>verbal dressé immédiatement après l'événement par les</p>
+        <p rend="labelled"><lb/>« Le bateau-coche ayant pour devise le Saint-Vic-<lb/>tor est venu frapper en descendant aval-debout, dans<lb/>Ne pont de Montereau, contre le pilier de gauche de la</p>
+        <p rend="labelled"><lb/>« D’après les renseignemens donnés, le bateau le<lb/>Saint-Victor portait diverses marchandises et environ<lb/>700 feuillettes de vin, qui ont été en partie entraînées</p>
+        <p><lb/>«Il y avait aussi dans la cabane vingt-trois voyageurs,</p>
+        <p rend="labelled"><lb/>force du courant qui a porté le bateau, malgré les ef¬</p>
+        <p rend="labelled"><lb/>« L’équipage se composait de sept hommes, et nous<lb/>certifions que la capacité de ces hommes, et notamment</p>
+        <p rend="labelled"><lb/>heureusement réprimés, et l'on espère qu'ils n'auront</p>
+        <p><lb/>Le chef du mouvement, le nommé Frost, ancien ma¬</p>
+        <p rend="labelled"><lb/>— De fréquentes contestations s’étant élevées entre<lb/>les communes et les fabriques au sujet de l'indemnité<lb/>de logement due aux curés et desservans, à défaut de<lb/>presbytère ou de logement en nature, le Conseil-d’Etat<lb/>a été appelé à examiner la question de droit et de com¬<lb/>pétence que soulèvent ces contestations. Il a été d'avis:<lb/>1° que les fabriques doivent appliquer l'excédant de<lb/>leurs revenus à l'indemnité de logement due au curé ou<lb/>desservant à défaut de presbytère, et que cette indem¬<lb/>nité n’est à la charge des communes que dans le cas ou<lb/>l'impuissance des revenus de la fabrique ne lui permet<lb/><lb/>Sur tous les points de cette vaste république il fut pas d'y subvenir sur ses propres ressources; 2o que</p>
+        <figure type="decoration"/>
+        <pb facs="0003.xml"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Le maréchal Valée à M. le président du conseil.</head>
+        <p><lb/>Le corps sous les ordres de S. A. R. M. le duc d'Or¬<lb/>léans est arrivé à Alger le 2, venant de Constantine par<lb/>terre. Le prince royal se porte très-bien; il a passé les<lb/>Portes-de-Fer le 28, et occupé le fort démantelé de</p>
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>Le général commandant la 20^e division militaire à</p>
+        <p><lb/>Le 30, le quartier-général d'Espartero était à Las-<lb/>parras; les autres divisions de l'armée du Nord, à Bor¬<lb/>don et Alcoriza; celles de l'armée du Centre, à Fortaneté</p>
+        <p><lb/>De la situation des villages mentionnés dans la dépê-<lb/>che précédente, il résulte que le général O'Donnel,<lb/>commandant l'armée de Valence ou du Centre, s’est<lb/>établi à deux lieues de Cantavieja, et que le maréchal<lb/>Espartero, avec l'armée du Nord, s'avance dans la di-<lb/>rection de Morella, dont il n’était plus éloigné que de 4</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Le général commandant la 21^e division, à M. le mi¬</head>
+        <p><lb/>Le 26 octobre, le comte d'Espagne a été renvoyé par<lb/>la junte, ainsi que les membres Orteu, Ferrer et Sau-<lb/>pons. On croit qu’ils sont entrés en France par le dépar-<lb/>tement de l'Arriége. Segarra a pris le commandement<lb/>et a fait mettre en liberté les prisonniers civils à Berga.</p>
+        <p rend="labelled"><lb/>— La Reine régente d’Espagne a accepté la démission<lb/>du général Alaïx, et confié l'intérim des ministères de la<lb/>guerre et de la marine à don Francisco Narvaez, capi-</p>
+        <p><lb/>Les Chambres ont été prorogées le 20 novembre.</p>
+        <p rend="labelled"><lb/>« Le Mémorial Bordelais, et après lui quelqués jour¬<lb/><lb/>naux de Paris, parlent des négociations entamées entre<lb/>le gouvernement espagnol et plusieurs gouvernemens<lb/>étrangers pour en obtenir la reconnaissance de la reine<lb/>d’Espagne à certaines conditions. Cette nouvelle n’a au¬<lb/>cun fondement, et les bases qu’on prète aux négociations<lb/>dans le cas où la commune doit payer l'indemnité de<lb/>logement et où le conseif municipal refuse d’allouer les<lb/>fonds nécessaires pour cette dépense, le recours du curé<lb/>ou desservant ne peut être exercé que devant l’autorité<lb/>administrative, dans les formes qui ont été réglées par<lb/>l'article 39 de la loi du 18 juillet 1837. D'où il suit que,<lb/>lorsqu’un pareil recoûrs est exercé devant le tribunal<lb/>civil, le conflit doit être immédia tement élevé par le</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>La Gazette de Madrid du 1^er novembre publie le dé-</p>
+        <p><lb/>« Dans le but de réorganiser complètement le cabi-<lb/>net de la manière la plus conforme aux circonstances<lb/>graves et urgentes qui doivent l’occuper pour le bien<lb/>de l’Etat, tant pour son assistance assidue aux<lb/>discussions des deux Chambres qu’en ce qui con¬<lb/>cerne les mesures à prendre pour activer la guerre et<lb/>amener la pacification générale ; en ma qualité de reine<lb/>régente, etc., usant de la prérogative que me confie<lb/>-<lb/>l'article 26 de la Constitut ion, et conformément à l'avis<lb/>de mon conseil des ministr es, j'ai décrété ce qui suit:</p>
+        <p rend="labelled"><lb/>« Article unique. — Les séances des Cortès sont<lb/>suspendues jusqu’au 20 novembre de la présente année.</p>
+        <p rend="labelled"><lb/>–Le duc de la Victoire a adressé aux commandans<lb/>des places fortes une circulaire pour régler les divers<lb/>points relatifs à la soumission volontaire des factieux.<lb/>Tout individu qui se présentera ave c son fusil, recevra<lb/>60 réaux. Des fonds seront pour cet objet déposés en-<lb/>tre les mains des intendans. Les cavaliers qui amène-<lb/>ront leurs chevaux recevront 160 réaux. Les sergens et<lb/>soldats qui voudraient prendre du service seront reçus<lb/>dans le corps provincial organisé par le brigadier D.<lb/>Juan Cabanero. Tout général ennemi qui se présen tera<lb/>avec sa division, tout brigadier avec sa brigade, rece-</p>
+      </div>
+      <div type="article">
+        <p><lb/>Dans la suite de l'histoire des sociétés révolution-<lb/>naires d'Allemagne, dont nous avons publié un extrait<lb/>usqu’en 1830 (voir notre numéro du), on lit :<lb/></p>
+        <p><lb/>«Tous les vœux et tous les efforts qui étaient dirigés<lb/>vers un changement de l’ordre de choses existant en<lb/>Allemagne, qui ne s’étaient par manifestés dans les der-<lb/>nières années, furent appelés au grand jour par la révo¬<lb/>lution de Juillet, qui fut suivie, quelques semaines après,<lb/>de la révolution Belge. Dans la première moitié du mois<lb/>de septembre 1830, des émeutes éclatèrent à Dresde,<lb/>Cassel, Leipsick, Brunswick. A Dresde, l’Hôtel-de-Ville<lb/>fut pris d’assaut; à Brunswick, on mit le feu au châ-<lb/><lb/>teau. Des mouvemens séditieux eurent lieu ensuite dans<lb/>la Hesse supérieure et dans le duché de Saxe-Altenbourg.<lb/>Au mois de janvier 1832 des troubles éclatèrent dans<lb/>le royaume de Hanovre, notamment dans Osterode et<lb/>Gœttingue. L’effervescence des esprits augmenta encore<lb/>par suite de la révolution de Pologne, qui éclata le 29</p>
+        <p rend="labelled"><lb/>« Plusieurs jours avant l'ouverture de la fête de<lb/>Hambach (27 mai 1832), les routes étaient emcombrées<lb/>de voyageurs; ils affluaient non-seulement de la Bavière,<lb/>mais du Wurtemberg, de Bade, des deux Hesses, du<lb/>Nassau, de Francfort et de l’Alsace française. Des dé-<lb/>putations choisies arrivèrent de divers points de la<lb/>Saxe et du Hanovre. Heidelberg était représenté par 300<lb/>étudians. Chacun portait une cocarde tricolore; les cou¬<lb/>leurs étaient noir, rouge et or. C’étaient les couleurs<lb/>adoptées dès le commencement par la Burschenschaft.<lb/>C’était le drapeau politique de tous ceux qui, renver¬<lb/>sant ce qui existait, voulaient constituer un empire ger-<lb/>manique. L’air retentit de chants révolutionnaires.</p>
+        <p><lb/>Quoiqu'une partie du peuple eût quitté Neustadt le<lb/>28 mai, la fête dura jusqu'au 1^er juin. L'agitation qu'elle<lb/>avait produite se reproduisit ailleurs, et celle qui exis-<lb/>tait déjà dans le cercle de la Bavière-Rhénane atteignit<lb/>un plus haut degré. On planta des arbres de liberté,<lb/><lb/>on proclama la liberté et l'égalité, on provoqua au refus<lb/><lb/>de l'impôt, à la destitution des ſonctionnaires publics,<lb/>à la prise de possession illimitée des caisses publiques<lb/>et des forêts. Pendant des semaines entières, les habi-<lb/>tans aisés craignirent jour et nuit une attaque du peuple<lb/>fanatisé, à qui l'on avait désigné comme aristocrates<lb/>tous ceux qui possédaient quelque chose. Des troupes<lb/>qui arrivaient en masse empêchèrent l’explosion.<lb/></p>
+        <p rend="labelled"><lb/>« Les projets des années qui suivirent et qui ont eu<lb/>pour but d’amener une révolution en Allemagne, ont<lb/>été révélés par les enquêtes, qui eurent surtout pour ob-<lb/>jet les intrigues en Suisse, dont est sortie l’association<lb/>de haute trahison, appelée la Jeune Europe, qui se for-<lb/>mait des diverses associations de la Jeune France, de<lb/>la Jeune Italie, de la Jeune Pologne, et qui subsista<lb/><lb/>jusqu’au moment où la Diète Suisse adopta le Conclu-</p>
+        <p rend="labelled"><lb/>— Les décrets que la Diète a rendus pour comprimer<lb/>ces tentatives révolutionnaires sont rigoureux; et, en<lb/>France, ils cussent augmenté l'incendie au lieu de l'é-<lb/>teindre. Mais l’Allemagne n’est point animée de notre<lb/>esprit volcanique. Il faudrait l’en féliciter, si la Diète n’a-<lb/>busait pas de son flegme pour lui refuser des institu-<lb/>vront une récompense en proportion avec le mérite de<lb/>ce service. Cette circulaire est datée du quar tier-géné¬</p>
+      </div>
+      <div type="article">
+        <p><lb/>Un jeune CHIEN LÉVRIER, entièrement blanc,<lb/>l'oreille gauche d'un jaune-roux, s'est échappé ce matin.<lb/>Récompense à la personne qui le ramènera rue Chabot¬</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>Étude de M. GAULOT, notaire à Dijon, rue Chabot-</p>
+        <p rend="labelled"><lb/>MAISON située à Dijon, rue Buffon, n° 23,<lb/>vendre avec toutes facilités pour les paiemens, en l'é¬<lb/>tude et par le ministère de M. GAULOT, notaire à Dijon,<lb/>le dimanche 17 novembre 1839, heure de midi.</p>
+        <p><lb/>Cette Maison, divisée en trois corps de bâtimens con-<lb/>tigus, avec cour et entrée à porte cochère, consiste en<lb/>on rez-de-chaussée composé de plusieurs pièces à che-<lb/></p>
+      </div>
+      <div type="article">
+        <head><lb/>Étude de M. MAZEAU, notaire à Dijon, rue Vannerie,</head>
+        <p rend="labelled"><lb/>MAISON sise à Dijon, rue Chancelier-l'Hôpital, n^o 15,<lb/>à vendre aux enchères, le dimanche 1er décembre 1839,<lb/>a midi, en l’étude et par le ministère de M. MAZEAU, no-</p>
+        <p><lb/>Cette Maison se compose de boutique et chambre au<lb/>rez-de-chaussée, chambre et cabinet au premier étage;<lb/>même répétition au second, et deux mansardes au des-<lb/>sus; cave, grenier, aisances et dépendances. Il sera ac-</p>
+        <p rend="labelled"><lb/>S'adresser, pour les conditions, audit notaire MAZEAU,<lb/>chargé de traiter de gré à gré avant le jour de la déli-</p>
+        <p rend="labelled"><lb/>-On désirerait emprunter une SOMME de 40,000 à<lb/>50,000 fr., avec première hypothèque, sur une pro¬<lb/>priété sise à deux lieues de Dijon, composée de terres,</p>
+        <p><lb/>S'adresser à M. MAZEAU, notaire, rue Vannerie,</p>
+        <p rend="labelled"><lb/>— Vingt-sept pièces de VIGNES, plantes en rapport,<lb/>situées sur les territoires de Brochon et Gevrey, à<lb/>vendre en détail, le dimanche 24 novembre 1839, heure<lb/><lb/>de midi, à Brochon, au domicile du sieur Jacqueson, au-<lb/>bergiste, par le ministère de M. MAZEAU, notaire à Dijon.</p>
+        <p><lb/>On entrera en jouissance de suite, et il sera accordé</p>
+        <p><lb/>S'adresser, pour les conditions, audit notaire MAZEAU,</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Elude de M. MALTESTE, notaire à Dijon, rue des</head>
+        <p><lb/>A vendre, trois MAISONS contigües, situées à Dijon,<lb/>dans l’une des rues les plus commerçantes, et une au¬<lb/>tre maison située dans la même ville, composée de plu¬<lb/>sieurs logemens d'habitation en bon état, avec un grand</p>
+        <p><lb/>S'adresser, pour tous renseignemens, à M. MALTES-<lb/><lb/>TE, notaire à Dijon, rue des Bons-Enfans, n° 7.</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p rend="structured"><lb/>CINQ MILLE FRANCS à placer à fonds perdu, sur</p>
+        <p rend="styled"><lb/>Etude de M. ROUGET, notaire à Dijon, rue de la</p>
+        <p rend="labelled"><lb/>ÉTUDE de notaire, dans une commune de l'arron-<lb/>dissement de Dijon, dans laquelle étaient reçus annuelle-<lb/>minées; au première étage, d’une antichambre, de deux<lb/>grandes pièces à cheminées avec grenier au-dessus.</p>
+        <p><lb/>Un autre BATIMENT comprend au rez-de-chaussée<lb/>cuisine, petite salle à manger, évier; au premier étage,<lb/>deux chambres et cabinet, et grenier au-dessus.</p>
+        <p><lb/>Le troisième BATIMENT, au fond de la cour, réunit<lb/>une écurie et une remise de chaque côté, fenil et dépen-</p>
+        <p><lb/>Il y a une fort belle cave, avec issue dans la cour et</p>
+        <p><lb/>L'adjudicataire entrera en jouissance le 1^er décembre<lb/>prochain. Il sera accordé de grandes facilités pour les</p>
+        <p><lb/>S'adresser à la maison pour la visiter; et, pour tous<lb/>autres renseignemens et conditions de la vente, au no¬</p>
+        <p><lb/>Très-belle PÉPINIÈRE, d'environ six mille beaux<lb/>peupliers noirs, du Canada, de l'âge de trois ans,[à vendre<lb/>en gros ou en détail, à Bretenières, joignant la route de</p>
+        <p><lb/>S'adresser, pour touS renseignemens, à M. JACQUELIN,</p>
+        <p rend="labelled"><lb/>- Deux PIECES DE VIGNE, situées sur Dijon,<lb/>appartenant à M. Belnet, et cultivées par M. Lemaire,<lb/>ancien tripier à Dijon, à vendre ou à amodier, ensemble<lb/>Su séparément, pour entrer en jouissance de suite, en<lb/>l'étude et par-devant M. GAULOT, notaire à Dijon, le</p>
+        <p><lb/>L'une, lieu dit en St.-Jacques ou Croix-de-Guise, joi-<lb/>gnant le clos Focillon, de 68 ares 56 centiares;</p>
+        <p><lb/>L'autre, de 25 ares 71 centiares, en Mont-de-Vigne,<lb/>joignant de midi la veuve du sieur Mongeot, et de nord</p>
+        <p><lb/>Sadresser, pour tous renseignemens, au notaire<lb/><milestone unit="column" n="5"/><lb/>d'être rectifiée, sans nuire au développement et à la</p>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>Journal de la Côte-d'Or.</fw>
+        <figure type="decoration"/>
+        <p><milestone unit="column" n="3"/><lb/>Tonneaux vides, une grande cuve, foin, paille et une<lb/>bonne vache. On vendra en détail 180 doubles déca¬<lb/>litres de blé, une tisse d'orge et une d’avoine, 8 pièces<lb/>de vin de cette dernière récolte:</p>
+      </div>
+      <div type="article">
+        <head><lb/>Etude de M. GILLES, notaire à Auxonne.</head>
+        <p rend="labelled"><lb/>MAISON à vendre, à Auxonne (Côte-d'Or). Cette<lb/>Maison, située sur la Grand'-Rue, n^o 72, et grande<lb/>route de Dijon à Besançon, se compose d'une cave sous<lb/>tout le bâtiment et une partie de la cour; le rez-de¬<lb/>chaussée, d’une boutique et deux pièces à la suite;<lb/>plus, d’une cour, d’un bûcher, d’un cabinet à la suite,<lb/>et d’un autre cabinet servant de lieux d’aisances, ainsi</p>
+        <p><lb/>Au premier de ces étages, de deux chambres à feu,<lb/>comme au rez-de-chaussée; plus, d’une chambre à la<lb/>suite, servant de desserte, et d’un bûcher, ainsi qu’un<lb/>cabinet d’aisances. Toutes ces pièces sont parfaitement<lb/>éclairées et d’une belle vue sur la Grand'-Rue. On<lb/>pourrait, à peu de frais, faire, sous le comble, autant<lb/>d’appartemens qu’au premier, et en tirer des loyers qui<lb/>surpasseraient les intérêts des premières avances ou dé¬</p>
+        <p><lb/>Cette Maison convient parfaitement à un rentier.</p>
+        <p><lb/>On pourra traiter et voir les lieux avec M. GILLES, no¬<lb/>taire à Auxonne, ou avec M. BEC, propriétaire, demeu¬<lb/>rant sur le Port de Gray (Haute-Saône), qui en fera la<lb/>délivrance à des conditions très-avantageuses. (4-12)</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Etude de M. GUICHARD, notaire à l'Etang-Vergy.</head>
+        <p><lb/>A vendre, par le ministère dudit M. GUICHARD, le di¬<lb/>manche 24 novembre 1839, à 11 heures du matin, au<lb/>village de Bévy, trois chevaux garnis de leurs harnais;<lb/>une vache, une génisse, deux cochons, six moutons ;<lb/>deux charrues, une voiture à bois, un tombereau, un<lb/>charretin, deux paires de roues; 5,000 de paille, des<lb/>palonges et autres objets.</p>
+        <p><lb/>Le même jour, il sera donné à ferme 20 journaux,<lb/>rant terres que vignes, pour 3, 6 ou 9 années.</p>
+        <p><lb/>S'adresser audit M. GUICHARD.</p>
+        <p><lb/>S'adresser, pour tous renseignemens, à M. ROUGET,</p>
+      </div>
+      <div type="article">
+        <head><lb/>Office de M. BELIARD, commissaire-priseur, rue</head>
+        <p><lb/>Très-beau MOBILIER moderne, en acajou, cristaux<lb/>et autres objets, à vendre aux enchères, par le minis-<lb/>tère de M. BÉLIARD, commissaire-priseur.</p>
+        <p><lb/>Meubles: Lit, table de nuit, commode, armoire à<lb/>glace; un meuble de chambre à coucher, composé d'une<lb/>causeuse, deux fauteuils et quatre chaises ; un bu¬<lb/><lb/>reau à cylindre et fauteuil; une pendule, flambeaux et<lb/>foyère en bronze et or; deux lampes de Gotten, leurs<lb/>pieds et galerie ; coupes et figure en bronze.</p>
+        <p><lb/>Cristaux: Un service de table, composé de douze<lb/>caraffes et dix-huit de chacun des quatre verres de<lb/>table; quelques pièces de fantaisie en cristal de Bohême,<lb/>1<lb/>porcelaine de Saxe et autres. Tous ces objets sont de<lb/><lb/>premier choix et du meilleur goût.</p>
+        <p><lb/>Deux marmotes et un renard, argenté, du Canada;<lb/>un tapis (12 pieds sur 11), une pendule et autres objets<lb/>en palissandre à incrustation; quelques objets de fan-</p>
+        <p><lb/>Cette vente aura lieu lundi 18 novembre, à 11 heures<lb/>du matin, place d’Armes, n° 4, au second. Les acqué-<lb/>reurs paieront 5 centimes par franc en sus du prix d'ad-</p>
+        <p><lb/>NOTA. Les objets qui composent cette vente méritent<lb/>réellement d’être appréciés; il en sera fait exposition les<lb/>samedi 16 et dimanche 17 novembre, de midi à quatre</p>
+        <p rend="labelled"><lb/>—LIVRES à vendre aux enchères, lundi 18 no¬<lb/>vembre, à six heures du soir, en la salle de vente,<lb/>rue des Godrans, no 88, par le ministère M. BÉLIARD,</p>
+        <p><lb/>Histoire, droit, littérature et voyages.</p>
+        <p><lb/>Les acquéreurs paieront 5 centimes par franc.</p>
+        <p><lb/>La présentation des livres sera faite par M. Lamarche,<lb/>libraire, successeur de M. Lagier.</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>ustensiles de ménage, etc.</ab>
+        <ab type="head"><lb/>Office du Greffier du canton (Est).</ab>
+        <ab type="head"><lb/>VENTE MOBILIÈRE A RUFFEY-ÉCHIREY.</ab>
+        <p><lb/>Le dimanche 17 novembre 1839, en vertu d'ordon-<lb/>nance et après décès de Philiber. FOUILLARD, il sera pro¬<lb/>cédé à la vente du mobilier par lui délaissé, consistant<lb/>en deux lits garnis, couchettes en noyer, rideaux en co-<lb/>tonne, deux belles armoires aussi en noyer, une horloge<lb/><lb/>et autres meubles; linge de lit, de table, hardes, sacs,</p>
+        <note>
+          <p rend="labelled"><milestone unit="column" n="2"/><lb/>DIJON. — IMPRIMERIE DE SIMONNOT-CARION, PRÈS LA PLACE-AUX-FRUITS.</p>
+        </note>
+        <p><lb/>A vendre, bonne JUMENT, âgée de 6 ans, excel-<lb/>lente trotteuse. Elle conviendrait parfaitement pour</p>
+        <p><lb/>S'adresser à M. Benoit, à Pont-de-Pany.</p>
+        <p rend="labelled"><lb/>FONDS de PATISSIER à remettre de suite, pour</p>
+        <p><lb/>Ce fonds, possédant une jolie clientelle, est suscep-</p>
+        <p><lb/>S'adresser rue Berbisey, no 32.</p>
+        <p rend="labelled"><lb/>Deux APPARTEMENS à louer, rue des Godrans,<lb/>n^o 1, et un autre petit logement garni, à louer égale-<lb/>ment, ou plusieurs chambres à volonté.</p>
+      </div>
+      <div type="article">
+        <p><lb/>A louer, ancienne BOUTIQUE de chapelier, ayant<lb/>deux ouvertures, à l'angle des rues Saint-Martin et<lb/>Chaudronnerie, près les anciennes Halles, et dans le<lb/>meilleur pas de ce quartier, occupée par M. Seguin fils,<lb/>qui reprend le fonds de M. Bizot, rue de la Liberté;<lb/>elle convient tout aussi bien à beaucoup d’autres états<lb/>marchands. On laissera au locataire la jouissance des ar¬<lb/>moires vitrées, banques, etc., qui la garnissent, sans<lb/></p>
+        <p><lb/>On pourrait joindre une autre jolie boutique, qui la<lb/>touche, si cela convient, ou louer cette dernière sépa-</p>
+      </div>
+      <div type="article">
+        <p><lb/>A louer, petit LOGEMENT réparé à neuf, tout-à-<lb/>fait indépendant. S'adresser rue Suzon, n^o 8, où il y<lb/> aussi à louer des chambres garnies.</p>
+      </div>
+      <div type="article">
+        <p><lb/>A louer, pour entrer en jouissance de suite:</p>
+        <p><lb/>1° Joli LOGEMENT complet, restauré à neuf, au<lb/>premier, avec caves, mansardes, grenier écurie, remise<lb/>et toutes les commodités et aisances désirables, rue des<lb/></p>
+        <p rend="labelled"><lb/>2^° LOGEMENT, composé de huit pièces, cave et<lb/>grenier, susceptible d’être divisé, rue du Petit-Potet,</p>
+        <p><lb/>S'adresser à M. DURAND-HUBERT, rue des Godrans,</p>
+      </div>
+      <div type="article">
+        <head><lb/>AU PETIT-BALCON,</head>
+        <p><lb/>Portion de MAISON à louer présentement.</p>
+        <p><lb/>A vendre, de gré à gré, une GARDE-ROBE, de huit<lb/>pieds de hauteur sur six de largeur.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>POMMADE ANTI-OPHTHALMIQUE</head>
+        <head><lb/>DE LA Ve FARNIER,</head>
+        <head><lb/>DE SAINT-ANDRE DE BORDEAUX,</head>
+        <head><lb/>Pour la guérison des maladies des yeux<lb/>et des paupières,<lb/>Se vend à Dijon, chez M. BONNEFOND-DUMOULIN,<lb/>libraire, rue des Forges.</head>
+        <p><lb/>Cette Pommade, très-connue et employée avec succès<lb/>depuis un grand nombre d’années, est un remède des<lb/>plus efficaces contre les maladies inflammatoires des<lb/>yeux et des paupières. Elle éclaircit et fortifie les vues<lb/>affaiblies par l’âge ou les travaux, et peut s’appliquer<lb/>avec un égal succès aux yeux des animaux.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>-</ab>
+        <ab type="head"><lb/>AVIS AUX DAMES.</ab>
+        <p><lb/>Mule BRICARD, fabricante de corsets, à Dijon, rue<lb/>Chabot-Charny, n° 37, presqu’en face de l’hôtel d’Agrain,<lb/>n’a pas eu à regretter d’avoir été se perfectionner près<lb/>des meilleures corsetières de la capitale ; aussi, pour jus¬<lb/>tifier la confiance qu’on lui accorde, redoublera-t-elle<lb/>d’efforts et de soins, pour que l’ouvrage qui sortira de<lb/>ses ateliers soit sans cesse irréprochable, dans le meil-<lb/>leur goût, et à la dernière mode.</p>
+        <p><lb/>Elle rappelle aux dames qu'elle confectionne des cor¬<lb/>sets hygiéniques pour les jeunes personnes faibles de<lb/>constitution, et pour celles dont la taille aurait besoin</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>GAGNARD-JANIN, bijoutier de Paris, vient d’ou-<lb/>vrir une boutique sur la place près la Salle de spectacle,<lb/>pour le temps de la foire seulement; on y trouvera tout ce<lb/>qui concerne son article et autres objets de nouveautés.<lb/>Il a joint à son assortiment un beau choix de jumelles,<lb/>faces à main, lunettes et verres pour toutes les vues.</p>
+        <p><lb/>Il change l’or, l’argent et les vieux flambeaux.</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>MM. les maires des communes qui voudront faire des<lb/>plantations de peupliers, M. Jacquelin s’engage à les leur<lb/>fournir, à un prix très-modéré, dans la qualité qu'i</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Une jeune FILLE, qui sait coudre et repasser, de-</ab>
+        <ab type="head"><lb/>Cours de langue anglaise.</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>M. POPE, natif d’Angleterre, ouvrira son Cours le 15<lb/>novembre prochain. Les personnes qui désireraient le<lb/>suivre, pourront se faire inscrire chez M. Picard, li¬<lb/></p>
+        <p><lb/>M. Pope donnera aussi des leçons particulières, soit</p>
+        <p><lb/>mande une place de bonne ou femme de chambre ; elle<lb/>a d'excellens répondans. S'adresser à M. LAUREAU, rue</p>
+      </div>
+      <div type="article">
+        <p><lb/>Le dimanche 10 de ce mois, entre six et sept heures<lb/>du soir, il a été perdu, à partir de la rue Crébillon, pas-<lb/>sant par la rue Berbisey, jusqu’au milieu de celle des<lb/>Carmélites, un BOA de nuance brune. Le rapporter au<lb/>bureau du journal; il y aura récompense.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LE DAGUERRÉOTYPE.</head>
+        <p><lb/>MM. Robin et Martin, se rendant en Halie pour y<lb/>faire des expériences, d’après les procédés inventés par<lb/>M. DAGUERRE, donneront, mercredi 13 courant, de<lb/>une heure à trois, une séance publique dans le foyer de<lb/>la salle de spectacle, au moyen de laquelle chacun pourra<lb/>se rendre compte de l'importance de la découverte de</p>
+        <p><lb/>On pourra se procurer des billets d'entrée, au prix<lb/>de 2 fr. 50 c., chez M. Décailly, libraire; et chez<lb/>MM. Martin et Robin, hôtel du Lion-d'Or, place Saint-Jean.</p>
+        <p><lb/>Le Foyer sera ouvert à une heure précise.</p>
+        <p><lb/>Il y aura exposition des produits du Daguerréotype.</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>Dépôt de MARÉE et D'HUITRES, chez M. RAvEY,<lb/>marchand de vin, rue des Forges, n° 66, et rue Pois-<lb/>sonnerie, no 10, à Dijon.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Saille.... . .. . . . . .. 38 00 41 00 44 00</ab>
+        <ab type="head"><lb/>MARCHÉ DE DIJON. — 9 NOVEMBRE 1859.</ab>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>Naissances. — Du 8 au 12 novembre, 7 garçons, et</p>
+        <p rend="labelled"><lb/>Mariages. – Du 10 novembre, François-Jules Met-<lb/>man, substitut du procureur du Roi près le tribunal ci¬<lb/>vil d'Auxerre, et Catherine-Angélique-Laure Morel. Du<lb/>41, Jean-Claude Turlin, caporal au 19^e régiment d'in-<lb/>fanterie légère en congé illimité, et Jeanne-Germaine¬<lb/><lb/>Charlotte Perrot. – Pierre-Marie Pingaud, propriétaire,</p>
+        <ab>
+          <stamp><lb/>Décès. – Du 7 novembre Eliende Lelièvre, ancien<lb/>laboureur, 85 ans. Du 8, Magdeteine Mangt, dite Bussy,<lb/>maîtresse d'école, célibataire, 81 ans. Cinq au-des-<lb/>SiMONNOT-CAROn, redacteur responsable.</stamp>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

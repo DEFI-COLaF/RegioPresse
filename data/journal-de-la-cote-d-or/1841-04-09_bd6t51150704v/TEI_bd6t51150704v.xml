@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t51150704v</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1841-04-09">1841</date>
+          <idno type="ARK">bd6t51150704v</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t51150704v</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="5"/><lb/>18 FRANCS PAR AN, 9 francs pour 6 mois, 3 francs pour 3 mois.</ab>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>JOURNAL</p>
+        <p rend="heading"><milestone unit="column" n="4"/><lb/>FEUILLE POLITIQUE, LITTÉRAIRE, COMMEECIALE ET INDUSTRIELLE.</p>
+        <ab><lb/> ad acredis, vendrediseet pimanches</ab>
+        <p rend="styled"><milestone unit="column" n="2"/><lb/>On s'abonne à Dijon, au Bureau, rue Verrerie, 2 bis, près la place aux Fruits, où l'on reçoit toutes les communications qui peuvent intéresser<lb/>-Les lettres doivent être affranchies et signées pour la garantie du rédacteur responsable.<lb/>le chef-lieu ou les communes du département.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>c'est-à-dire, est-ce expédient, prudent, avantageux, mo- vues pratiques, dontles principales sont ainsi conçues:</ab>
+        <ab type="head"><lb/>Societe particulière de bienfaisance de</ab>
+        <p><lb/>A l'assemblée générale du 28 février, M. DE FRON-<lb/>TIN, au nom de la commission prise dans le conseil<lb/>général de la Société, a présenté les comptes du con-<lb/>seil d’administration pour l’exercice de 1840.<lb/></p>
+        <figure type="table"/>
+        <p><lb/>A la suite de cet apurement de la comptabilité, M.<lb/>le rapporteur aborde la question de l'Extinction de la<lb/>mendicité: question si délicate et si difficile, à son sens,<lb/>qu’il se serait, a-t-il dit, abstenu d’en essayer l’examen,<lb/>si les circonstances actuelles ne lui en eussent fait un<lb/></p>
+        <p><lb/>M. de Frontin s'élève d'abord contre les différens<lb/>systèmes proposés jusqu’ici pour la solution de ce<lb/>grand problème social, et qu'il classe sous ces qua-</p>
+        <p><lb/>1^o Du travail imposé aux mendians valides;</p>
+        <p><lb/>2^o Du secours rendu obligatoire par la loi, en faveur des</p>
+        <p><lb/>4o Du cantonnement des mendians dans leurs commu¬<lb/>nes respectives, et de la proscription de la mendicité.</p>
+        <p rend="labelled"><lb/>5^o Des institutions libres agissant avec le concours de</p>
+        <p><lb/>Aucun de ces systèmes ne lui paraît propre à at-<lb/>teindre le but que la charité publique et le vœu de la<lb/>Société se proposent. Il termine ses réflexions sur la<lb/>première classe par cette douloureuse observation:</p>
+        <p><lb/>Les colonies agricoles et les maisons de travail destinées<lb/>aux mendians ont au cœur un vice mortel dont on ne sem¬<lb/>ble pas pouvoir les guérir; car ce vice, ce sont tous les<lb/>vices réunis de la population inhabile, paresseuse, indo¬<lb/>cile et profondément démoralisée, qu'on leur donne, et qui<lb/>paraît devoir être un obstacle éternel aux résultats qu’il<lb/>serait si doux de pouvoir attendre de ces institutions.</p>
+        <p><lb/>S'il faut renoncer à faire travailler les mendians vali-<lb/>des, ne devrait-on pas au moins mettre les indigens inca¬<lb/>pables de travailler à la charge des communes et de l'Etat,<lb/>plutôt que de tolérer la mendicité et de souffrir l'indigence?</p>
+        <p><lb/>Mais est-ce admissible? Je ne dis pas : est-ce possibie?<lb/>car c'est très-possible; mais je dis: est-ce admissible?</p>
+        <figure type="decoration"/>
+        <p><lb/>Sachez bien, Messieurs, ce que l'on demande en par-<lb/>lant de la sorte; l'on demande, et c'est sans détour ni dé-<lb/>guisement, la taxe des pauvres et la charité légale</p>
+        <p><lb/>Or, ne sait-on pas ce que vaut le système de la charite lé¬<lb/>gale, et que c'est à ce système essentiellement que l'An¬<lb/>gleterre doit le nombre effroyable de ses pauvres et leur<lb/>démoralisation plus effroyable encore, et que ce système<lb/>de charité est à la fois tout ce qu'il peut y avoir en ce genre</p>
+        <p><lb/>M. le rapporteur termine ainsi les développemens</p>
+        <p rend="labelled"><lb/>Si je ne m'abuse singulièrement, tout le monde doit com¬<lb/>prendre que la loi ne peut ouvrir des établissemens publics<lb/>à tout infirme, à tout vieillard indigent, à tout orphelin in¬<lb/>digent, à tout enfant abandonné, ou leur assurer à domi¬<lb/>cile des secours obligés, sans exercer une influence aussi<lb/>certaine que fâcheuse sur la moralité, sur la prudence et<lb/>l'économie des classes ouvrières, et sans amener, avec un<lb/>accroissement considérable et progressif de paupérisme,<lb/>un accroissement considérable et progressif dans les char-</p>
+        <p><lb/>Sur le troisième moyen qui prétend s'appuyer sur<lb/>des institutions volontaires de charité pour centrali-<lb/>ser les aumônes, les difficultés ne sont pas moindres</p>
+        <p><lb/>1^o D'abord, si la charité volontaire et collective ouvre<lb/>des hôpitaux, des hospices ou des maisons de refuge pour<lb/>tous les vieillards et les infirmes indigens; pour tous les<lb/>orphelins indigens, pour tous les enfans abandonnés, ou<lb/>seulement si elle leur assure d'une manière certaine, à do-<lb/>micile, des secours sur lesquels on ne puisse pas avoir de<lb/>doute; soyons assurés que la charité volontaire produira<lb/>les mêmes effets funestes que la charité légale.</p>
+        <p><lb/>2^o Ces institutions qui ne se chargent, pour le moment,<lb/>de secourir que les mendians qu'on oblige à renoncer à<lb/>mendicité, en viendront à peu près nécessairement, si l'on<lb/>reste long-temps sans mendians, à être chargées de tous<lb/>les indigens hors d'état de travailler. Or, quelles charges<lb/>n’auront pas les institutions qui se proposent d’éteindre la<lb/>mendicité, lorsqu'elles auront à pourvoir aux besoins de<lb/>tous les indigens hors d’état de travailler?</p>
+        <p rend="labelled"><lb/>5^o Enfin, si ces institutions volontaires copsont donnée<lb/>vre et d'être fidèles à la mission qu'elles se sont donnée</p>
+        <p><lb/>C'est encore inévitable. Le raisonnement et les faits le</p>
+        <p><lb/>Le cancoemene des men de la mendicté, y ménene</p>
+        <p><lb/>dans son rapport, M. deFrontin presente quelque</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>RÉGULus LE RÉPubLICAIN.</head>
+        <p><lb/>I faut vous dire d'abord comment Régulus était affublé de<lb/>nom ridicule. Il avait un oncle nommé Félicien, et cet oncle Féli-<lb/>cien avait fait partie, comme soldat, de ces armées de la républ<lb/>qui volaient, pieds nus, aux frontières, en chantant la Marseillaise,</p>
+        <p><lb/>Pendant tout le cours de sa carrière militaire, il n'avait eu d'au¬<lb/>tre chagrin que de s'entendre appeler Félicien,<lb/>1. Ce regret le suivit lorsqu'il rentra dans ses foyers, où il passait<lb/>Le soir, il buvait une bouteille de vin avec le magister<lb/>ge, contre lequel il soutenait de grandes discussions sur</p>
+        <p><lb/>l'ils étaient à discuter sur les oies qui avaient sauvé le<lb/>Capitole, et les braves qui depuis lors l'avaient pris<lb/>er à l'oncle Félicien qu'il lui était né un neveu. L'oncle Féli¬<lb/>cien se leva en protestant que l'enfant porterait u<lb/>l'oncle Félicien, en cette circonstance, furent incroyables : aussi<lb/>opposition très-compacte, parvint-il à le faire nom¬</p>
+        <p><lb/>ans, Régulus manifesta les plus précoces dispo<lb/>avait découverte au fond d'un grenier, et lui apprit la Marseil¬</p>
+        <p><lb/> coups depque dans les vie</p>
+        <figure type="decoration"/>
+        <p><lb/>félicien<lb/>douze ans, on le mit au collége. La, il s’insurgeait assez se<lb/>ent contre l'autorité de ses professeurs. Il fut enfin convaincu<lb/>ptesté contre la tyrannie. On comprend quels progres avaient</p>
+        <p><lb/>Regulus manifestât hautement du dédain pour les<lb/>décida néanmoins à subir son examen de bachelier; il fut reçu ?<lb/>grand'peine et ensuite envoyé a Paris pour y étudier le dre</p>
+        <p><lb/>Paris, Régulus se procura une gravure représentant la liber-<lb/>de cette gravure était apposée une tête de mort;<lb/>affilie à plusieurs societés secrètes, et avait chez lui en dépâ<lb/>grand nombre d'exemplaires du Catéchisme des droits de l'homme</p>
+        <p rend="labelled"><lb/>Quelquefois il s'agissait de rendre les derniers devoirs a un col</p>
+        <p rend="labelled"><lb/>orts dont l'autorité était censée s'être rendue coupable a l'égard<lb/>des étudians. Dans l'un et l'autre cas, il trouvait<lb/>eût dû commencer par lui-même, ne lui laissa pas le loisir de ces</p>
+        <p><lb/>is lettres de Régulu<lb/>soir, apres souper, l'oncle Félicien et le père de Regulus étaien<lb/>ssis vis-a-vis l’un de l'autre auprès d’une petite table et devisaient</p>
+        <p><lb/>On doit, selon nous, tolérer la mendicité, malgré ses<lb/>s abus, crainte de lui substituer des maux plus</p>
+        <p><lb/>Mais, en la tolérant, l'on peut et l'on doit:</p>
+        <p><lb/>1° Ne pas l'encourager par des conseils et des dons;<lb/>mais, au contraire, en détourner les indigens, et se mon¬<lb/>trer généralement peu favorable à ceux qui mendient</p>
+        <p rend="labelled"><lb/>2^o Augmenter aux vrais indigens les secours à domi-</p>
+        <p><lb/>3^o N'accorder ces secours qu'à la condition expresse que<lb/>ceux qui les reçoivent s'abstiendront de mendier, ou qu'ils<lb/>empêcheront de mendier tout membre de leur tamille sur</p>
+        <p><lb/>A ce rapport, étudié consciencieusement, M. Gaulin</p>
+        <p><lb/>Que l'administration municipale, espérant trouver des<lb/>renseignemens utiles et puiser de nouvelles lumières au-<lb/>près du ministre de l'intérieur, lui a adressé sur ces gra-<lb/>ves questions des observations et des demandes, mais que<lb/>malheureusement il n’a point encore été fait de réponse;<lb/>que dès-lors il paraît prudent et sage de s'abstenir jusqu'à<lb/>nouvel ordre d’essais dispendieux et de tentatives qui</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>rendre ina</p>
+        <list>
+          <item>illés de nos droits politiques de s’attaquer encore à no onnes, et de priver de la liberté, ce doux présent des cieux</item>
+        </list>
+        <list>
+          <item>us attendons comr</item>
+        </list>
+        <list>
+          <item>pour leur fils de sort plus heu-</item>
+        </list>
+      </div>
+      <div type="article">
+        <p><lb/>Nous apprenons que M. Grenier-Echalié, l'un des<lb/>plus honorables négocians de Saint-Jean-de-Losne,<lb/>et président du tribunal de commerce de cette ville,<lb/>dont il a été nommé récemment maire, vient d'être<lb/>installé dans ses nouvelles fonctions. Ce choix satis¬<lb/>fait le vœu de la grande majorité des habitans de<lb/>Saint-Jean-de-Losne, qui ont manifesté leur satisfac-<lb/>tion par une illumination générale. Indépendance,<lb/>impartialité et fermeté, tel est le caractère de M. Gre-<lb/>nier, qui exercera certainement une heureuse in¬<lb/>fluence sur l’administration dont il est le chef, et qui<lb/>justifiera par ses actes les honorables suffrages dont it</p>
+      </div>
+      <div type="article">
+        <p><lb/>Caisse d'épargnes et de prévoyance de Dijon.</p>
+        <p><lb/><lb/>ques, pour recevoir les dépôts, sera fermée le lende¬<lb/>main et n'opérera que le mardi 13 de ce mois les rem-</p>
+      </div>
+      <div type="article">
+        <p><lb/>Le Spectateur a cru devoir publier, sur le refus du<lb/>Journal de la Côte-d'Or, une réponse de M. le doc-<lb/>teur Vallée à M. le docteur Ripault. Le Journal de la<lb/>Côte-d'Or croit devoir à son tour expliquer les motifs<lb/>de son refus. Il lui a semblé qu’entre deux médecins<lb/>honorables une polémique scientifique devait se bor¬<lb/>ner à des coups de lancette; mais la discussion ayant<lb/>pris, contre son gré, un caractère acerbe de nature<lb/>à provoquer des coups de manchette, il a cru devoir y</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="8"/><lb/>ussitôt après la lecture de cette lettre, le père de Régulus et<lb/>de tabac vers l'oncle Felicien, qu'il n'arive qunlaturel,</ab>
+        <p rend="labelled"><lb/>n ce moment, un domestique se présenta et remit la lettre sui</p>
+        <p><lb/>Mon cher et honoré père, je vous écris cette lettre, étendu<lb/>justiee des hommes. Il appartient bien a ceux qui nous ont dé</p>
+        <p><lb/>is trouvèrent Régulus déjeûnant tranquillement dans sa cham</p>
+        <p><lb/>ns, ils avisèrent un chien errant, et ils jugèrent<lb/>cria a la garde, et l'on enferma les trois amis pour vingt-quatre<lb/>heu</p>
+        <p><lb/>Il résulta de ce voyage que Régulus fut ramené dans son village<lb/>Je crains ort, urare le po de eant en menant n u mere, en le voyant, fut sur le point de lui donner sa malé-</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <pb facs="0002.xml"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>« La chambre des députés prendra-t-elle en considéra<lb/>tion la proposition de MM. Mauguin et Pagès (de l'Arriège),<lb/>qui a pour but d’interdire la députation à un grand nombre<lb/>de fonctionnaires publics en attendant qu'on l'interdise à</p>
+        <p rend="labelled"><lb/>«Nous aimons à croire que les auteurs de la proposition,<lb/>en la présentaut, ont calculé les conséquences qu'elle en-<lb/>traînerait; qu’ils ont eu un autre but que celui de faire<lb/>une misérable épigramme contre la majorité et d’embar-<lb/><lb/>rasser peut-être le ministère; nous supposons, en un<lb/>mot, que leur proposition se lie à une pensée politique, à</p>
+        <p rend="labelled"><lb/>Est-ce une pensée aristocratique? MM. Mauguin e<lb/>Pagès (de l'Arriège) comptent-ils sur la grande propriété<lb/>pour remplacer les fonctionnaires? La grande propriété,<lb/>où est-elle chez nous? Notre Code civil l'attaque incessam-<lb/>ment. Nous avons des gens riches, mais sans lien entre<lb/>eux. Il y a en France quelques grandes fortunes, mais rien<lb/><lb/>qui ressemble à un corps de grands propriétaires. Il y a peu<lb/>de familles à qui, par l'égalité des partages, l'économie et<lb/>le travail ne soient nécessaires pour ne pas voir leurs biens<lb/>fondre en quelques années. Ce n'est pas un mal, à Dieu<lb/>ne plaise! C'est un ſait qu'il serait insensé de ne pas prendre<lb/>en considération quand il s’agit de réduire par des exclu¬<lb/>sions arbitraires le nombre des éligibles que la médiocrité</p>
+        <p rend="labelled"><lb/>ue dont<lb/>le germe est déposé dans la proposition de MM. Mauguin et<lb/>Pagès (de l'Arriège): En diminuant d’un côté le nombre des<lb/>éligibles, leur intention est-elle, pour l’augmenter de l'au¬<lb/>tre, de proposer plus tard le salaire des députés? Cela est</p>
+        <p rend="labelled"><lb/>« Le salaire, affecté aux places de députés ne donnera<lb/>pas de la fortune à ceux qui n’en ont pas, ni du talent et<lb/>de la hardiesse à ceux qui manquent de l’un et de l’autre.<lb/>Le salaire ne remplacera pas pour un notaire son étude,<lb/>pour un avocat sa clientelle, pour un industriel son usine,<lb/>pour un commerçant le produit de sa maison. Le salaire<lb/>aura des attraits merveilleux, pour qui? pour une classe<lb/>d’hommes que dans tous les temps, dans tous les pays, sous<lb/>toutes les formes de gouvernement on a regardés comme<lb/>les instrumens les plus dangereux de désordre et de révo-</p>
+        <p rend="labelled"><lb/>«La base de notre système électoral, c’est le cens. On<lb/>en exige un cens des électeurs, on en exige un des éligi-<lb/>bles. Tout, dans notre système électif, repose sur la pro-<lb/>priété, sur la propriété telle que notre état social l'a faite,<lb/>petite, mais sufffsante pour garantir dans l'électeur et dans<lb/>l'éligible un intérêt et un esprit de conservation. Le salaire<lb/>renverse cette base. Au lieu d’appeler à la députation ceux<lb/>qui possèdent, il y appelle, il y invite ceux qui ne possè-<lb/>dent pas. Il offre une prime aux gens sans état, sans biens<lb/>acquis, sans famille. Son principe, qui ne le voit? est tout<lb/>juste l'opposé de celui du cens! Tout en ayant l'air de ne<lb/>s'occuper que d'un point de notre système électoral, c'est<lb/>donc le système tout entier, c'est. l'esprit, c'est le fond de<lb/>notre législation qu’attaque la proposition de MM. Mauguin<lb/>et Pagès (de l'Arriège). La proposition est mauvaise; ses</p>
+        <p><lb/>Ces réflexions auraient quelque fondement dans l’hy¬<lb/>pothèse où la question du salaire des députés serait<lb/>soulevée : mais en ce moment elles nous paraissent<lb/>prématurées; et nous ne pensons pas que le sort ré¬<lb/>servě à la proposition de MM. Mauguin et Pagès leur<lb/>a législation <lb/>ponsabilité d’une contravention à<lb/>fois pénibles à remplir, et ce n'est pas sans tristesse que je suscite<lb/>dans ces sapes obscures qui minent le pouvoir dont on veut hériter.<lb/>les services des députés fonctionnaires, et eux-mêmes me rendront<lb/>gnage, qu’ils ne m’ont pas rencontré sur la route qui mèn<lb/>à la faveu</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p><lb/>ede conscience, un devoir impérieux de</p>
+        <p rend="labelled"><lb/>fon septembre 1831, proposition de M. Blondeau sur les député.</p>
+        <p><lb/>1832 à 1839, neuf propositions de M. Gauguier. La der-</p>
+        <p rend="labelled"><lb/>avril 1840, proposition de M. Remilly. Elle est prise en con-</p>
+        <p rend="labelled"><lb/>1841, demande en reprise de cette proposition par</p>
+        <p><lb/>a publiquemen reconnu</p>
+        <p rend="labelled"><lb/>(de l'Arriège): Le cabinet du 1^er mars a déclaré qu'il</p>
+        <p><lb/>Mais l'état de la chambre, telle qu'on l'a faite, peut-il se pro</p>
+        <p rend="labelled"><lb/>Quel déplorable spectacle depuis huit ans ! une lutte incessante</p>
+        <p><lb/>ante une réforme parlementaire sonts</p>
+        <p rend="labelled"><lb/>1. Liadieres: l'ai déja eu l'honneur de le dire à la chambre<lb/>défaut est de manquer de franchise; elles marchent vers un but</p>
+        <p><lb/>vient<lb/>sur lequel la chambre était appelée à broder ses idees sur</p>
+        <p><lb/>veux vous dire qne votre proposition telle que vous la pré-<lb/>beaucoup la plus mauvaise de celles qui ont été pro-</p>
+        <p><lb/>vez-vous ce que vous allez prouver par votre proposition<lb/>allez prouver que votre politique a toujours été et sera toujou<lb/>incapable de rien enfanter, de rien produire de raisonnable, de</p>
+        <p><lb/>and on a raison, en effet, c'est à la raison qu'on s'adresse</p>
+        <p><lb/>lariés de cette chambre décroît au lieu de croître; c’est qu’il s'en<lb/>aujourd'hui 21 de moins qu’aux élections de 1831 et de</p>
+        <p><lb/>Que devient votre accusation? Que deviennent les prémisses de<lb/>pe, parlé dans son rapport des deux cinquièmes, et déclaré<lb/>nombre qu'il se résigne, si c'est pour arriver à ce résultat qu'il</p>
+      </div>
+      <div type="article">
+        <p><lb/>C'ordre du jou<lb/>à modifier l'art. 64</p>
+        <p><lb/>M. Pagès (de l'Arriège): Messieurs, les devoirs sont quelque-</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Il fut tenu un conseil de famille à son sujet. L'oncle Félicie<lb/>vait pas lieu de se vanter de son élève, subit en</p>
+        <p><lb/>omplis<lb/>voyé toucher de l'argent chez des fermiers, il retourna secrète-</p>
+        <p><lb/>avait un ami nommé Ernest. Frère, lui dit-il, le soir de son<lb/>nélie; veille sur elle avec soin jusqu'à ce qu'à mon retour je puis</p>
+        <p rend="labelled"><lb/>nent d'un devoir qui me réste a remplir. On est citoyen avant</p>
+        <p><lb/>ependant nos lecteurs de ne pas croire que la ct<lb/>put romain de Cornélie; c'éta<lb/>peler ainsi; mais il voulait, disait-il, que sa future épouse eût un<lb/>refuserait de se soumettre aux conseils et aux ordres de sa famille<lb/>gulus lui répondit qu’il était au désespoir de se voir dans l'o¬</p>
+        <p><lb/>seurent lieu à la suite d'une émente. Un ami de Régulus</p>
+        <p rend="labelled"><lb/>plus nul du monde, mais qui fut enchanté de l'occasion d'ètre bon</p>
+        <p><lb/>Is restèrent huit jours chez cet ami qui passait la journée</p>
+        <p rend="labelled"><lb/>Ce fut alors que Régulus écrivit la lettre suivante à Ernest :</p>
+        <p><lb/>Quelques jours après, Régulus reçut de l'argent de son oncle,<lb/>he lui. Mais il trouva,<lb/><lb/>he ai. Mais il trouva, à la</p>
+        <p><lb/>Celui-ci déclara qu’il y avait anguille sous roche, et manda le<lb/>endormit, et rêva qu'on l'avait décoré pour le service rendu à</p>
+        <p><lb/>ne pesait aucune autre charge contre lu</p>
+        <p><lb/>tconfé cornélie, avait jué ne pouvoir miex veiller</p>
+        <p><lb/>aintenant Régulus se eroit quitte de toute dette envers sa pa-<lb/>enu à échapper que par une audace et une énergie extm</p>
+        <p><lb/>pied 'endrot eneraement recou pur </p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>Le Bulletin des Lois promulgue, sous la date du 3<lb/>avril, et sous le n^o 799, la loi qui affecte une somme de<lb/>cent quarante millions aux travaux des fortifications de Pa-<lb/>ris. Cette loi est contresignée par M. le maréchal duc de<lb/>Dalmatie, président du conseil, ministre secrétaire-d'état</p>
+        <p rend="labelled"><lb/>-Il est certain que le procès de Darmès ne commencera<lb/>à la cour des pairs qu'après le 1^er mai. (Constitutionnel.)</p>
+        <p rend="labelled"><lb/>—La quarante-cinquième liste de la souscription<lb/>générale pour les départemens inondés du Midi, ver¬<lb/>sée chez M. Vernes, à la banque, trésorier, porte le</p>
+        <p rend="labelled"><lb/>—Mlle. Rachel et la Comédie-Française sont enfin parve-<lb/>nues à se mettre d'accord. Un engagement a été signé hier;<lb/>sa durée ne sera que d'un an, et non de cinq, comme il en</p>
+        <p><lb/>Voici les conditions du nouveau contrat : 60,000 francs<lb/>de traitement, trois mois de congé (mai, juin et juillet). Il a<lb/>bien été question de trois autres mois (août, septembre et<lb/>octobre), que Mlle. Rachel désirait avoir; soit pour aller<lb/>jouer en province ou à l'étranger, soit pour aller prendre<lb/>du repos; on voulait même que les appointemens lui fus-<lb/>sent alloués pendant ce malencontreux trimestre, mais la<lb/><lb/>proposition n’a pas eu de suites. La seconde partie du traité<lb/>porte que dans un an Mlle. Rachel sera reçue sociétaire,<lb/>avec 42,000 fr. de traitement. A ce titre, elle se soumettra<lb/></p>
+        <ab><lb/>aux chances, éventualités, bénéfices et pertes résultant de</ab>
+        <p rend="labelled"><lb/>Le Journal de Toulouse rend compte en ces ter¬<lb/>mes de l'audience du 1^er avril, qui a terminé l'affaire</p>
+        <p rend="labelled"><lb/>«Les jurés, après une heure de délibération, ont rendu<lb/>un verdict qui déclare Sarda Tragine coupable : 1° du cri¬<lb/>me d'excès graves sur la personne de Castauais; 2° d'une<lb/>tentative d'assassinat sur la personne de Pierre Pic; 3° d'u-<lb/>ne tentative d'assassinat sur la personne de Guillaume Pic;<lb/>mais qu'il existe des circonstances atténuantes en sa fa-</p>
+        <p rend="labelled"><lb/>La figure de Tragine, un moment assombrie, s'est il-</p>
+        <p rend="labelled"><lb/>«En conséquence de ce verdict, Sarda Tragine a été<lb/><lb/>condamné aux travaux forcés à perpétuité et à l'exposition</p>
+        <p rend="labelled"><lb/>«La foule était immobile, silencieuse, étonnée. Sarda,<lb/>en rentrant dans sa prison, s'est écrié, en parlant à ses<lb/>compagnons qui le regardaient passer : « On m'a trouvé<lb/>assez court, on n'a pas voulu me raccourcir davantage.»<lb/>vote en faveur de la proposition, son vote nous est acquis pour la<lb/><lb/>de<lb/>s du tiers! Vous êtes pressés de faire jouir le pays des doucez<lb/>térielle; elle pèche par la base. Je tenais à le constater, et je</p>
+        <figure type="decoration"/>
+        <p><lb/>dopter la prise en considération, c'est verser à pleines mains</p>
+        <p><lb/>l'est ce pas assez de scandale? et veut-on en faire la vérité de</p>
+        <p><lb/>près avoir entendu MM. Gauguier et Fould, la chambre con-</p>
+        <p><lb/>Notre correspondance particulière nous annonce que,<lb/><lb/>dans la séance suivante, on a demandé à grands cris la<lb/>clôture de cette discussion; d’où l’on peut conclure que la<lb/>proposition de MM. Mauguin et Pagès aura le sort de ses</p>
+      </div>
+      <div type="article">
+        <p><lb/>Nous lisons dans le Courrier de Lyon du 22 avril:</p>
+        <p rend="labelled"><lb/>On sait que plusieurs lettres anonymes ont été adres-<lb/>sées à différentes personnes de notre ville. Ces lettres,<lb/>paraissent loutes devoir émaner de la même source. Nous<lb/>mettons sous les yeux de nos lecteurs la copie de l’une de<lb/>ces lettres, dont l'original se trouve entre les mains de M.</p>
+        <figure type="decoration"/>
+        <pb facs="0003.xml"/>
+        <p><lb/>de la société, après ample information sur l'état de fortune<lb/>a chargé les membres du comité exécutif pour la rentrée<lb/>des fonds nécessaires à frapper un grand coup et arracher<lb/>l'humanité de la servitude, vous a imposé à verser la<lb/>somme de 10,000 fr. en billets de banque, le 31 mars, en¬<lb/>tre les mains de deux de ses membres, à 7 heures du soir,<lb/>église St-Nizier, chapelle où l’on baptise. Pour éviter<lb/>toute erreur, l'un des membres sera assis et l'autre de-<lb/>bout. Nous pensons, citoyen, qu’à l’exemple de plusieurs<lb/>richards de cette ville, vous satisferez à cet impôt. Vous<lb/>devez savoir que le refus attirerait sur votre tête et sur<lb/>celle de tous vos proches la hache de la loi et la juste peine<lb/>de mort à tout rebelle, mort aux riches insensibles et</p>
+        <p rend="labelled"><lb/>verture du camp de Belfort à partir du 1^er avril. Les trou-<lb/>pes qui doivent faire partie de ce camp se composeront,</p>
+        <p rend="labelled"><lb/>frontière suisse, a été mis en dernier lieu dans le meilleur<lb/>et le plus complet état de défense. Il est gardé en ce mo¬<lb/>ment par une compagnie de fusilliers détachés du 33e ré-</p>
+        <p rend="labelled"><lb/>dues, on commencera les travaux de la forteresse des<lb/>Rousses, à l’embranchement des deux routes de Dôle à<lb/>Genève. Le tracé des ouvrages projetés est irrégulier<lb/>comme le terrain qu'il est destiné à couvrir, et enveloppe<lb/>le plateau des Rousses sur un rayon moyen d’un quart de<lb/>lieue, le village de ce nom étant pris pour centre. Les ma¬<lb/>tériaux pourront être facilement extraits du sol lui-même,</p>
+        <p rend="labelled"><lb/>tivité avec laquelle la compagnie anglaise, concessionnaire<lb/>du chemin de fer de Paris à Rouen, procède à l’exécution<lb/>de ses travaux, en avançant de jour en jour dans les voies<lb/>les plus promptes et en même temps les plus économi-</p>
+        <p rend="labelled"><lb/>été admis à contracter un engagement avec les directeurs<lb/>telligens et les plus laborieux de leur profession. Les trains<lb/>de wagons et toutes les autres machines qui constituent<lb/>l'attirail nécessaire aux extractions et aux terrassemens<lb/>ont été loués à la compagnie de Southampton à un prix de<lb/>beaucoup inférieur à la somme qu'il aurait fallu employer<lb/>pour se procurer temporairement une partie de ces objets<lb/>en France. Les ingénieurs chargés des études, des sonda-<lb/>ges préparatoires et de la surveillance des travaux, se sont<lb/>P'on annonce qu’ils sont disposés à livrer aux entrepre-<lb/>neurs contractans les points d’exploitation qui paraissent<lb/>devoir présenter les plus grands obstacles au parcours de</p>
+        <p rend="labelled"><lb/>thodique sont, on ne peut se le dissimuler, un bon exem-<lb/>ple à mettre sous les yeux des hommes qui se chargent<lb/>et nous ne serions pas surpris que l'influence de cette<lb/>porter dans leurs colossales entreprises ne se fît sentir<lb/>d'une manière salutaire pour nos travailleurs, qui, avec<lb/>des qualités incontestables et une intelligence supérieure<lb/>de cette activté soutenue sans laquelle on parvient si dif-<lb/>ficilement à compléter les plus heureuses conceptions.»</p>
+        <p rend="labelled"><lb/>cution des firmans délivrés par la porte-Ottomane en fa-</p>
+        <p><lb/>voter sur la question de la régence. Le sénat est loin d’être<lb/><lb/>au complet; dix-huit de ses membres manquent encore<lb/>pour que le sénat puisse être en nombre et voter des lois.»</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>dans les positions les plus importantes, ne formant plus de</ab>
+        <p rend="labelled"><lb/>expédition. A Blidah on réunit toutes les denrées nécessai-<lb/>res à la subsistance de l'armée. On présume que le 29 ou<lb/>le 30 mars deux colonnes se mettront en marche pour al¬<lb/>ler ravitailler Médéah et Miliana. Les Arabes, qui sont ef-<lb/>frayés par ces préparatifs et fatigués de la guerre, deman-<lb/>dent la paix à grands cris. M. le général Bugeaud n'est<lb/>nullement disposé à écouter des propositions semblables. Il<lb/>nous sont hostiles, pour s’occuper ensuite plus sûrement</p>
+        <p rend="labelled"><lb/>été marqué par d'importantes améliorations. Les camps<lb/>trop multipliés sur les routes ne nous permettaient pas d'a-<lb/>voir dans chacun d'eux une force suffisante pour aller châ-<lb/>tier les tribus qui se seraient révoltées et porter secours aux<lb/>Arabes soumis. La garde de plusieurs de ces camps a été<lb/><lb/>remise aux tribus elles-mêmes, et nos troupes, groupées</p>
+      </div>
+      <div type="article">
+        <p><lb/>a Ouvert la discussion du rapport de la commission<lb/>concernant l’affaire des couvens. Le député d’Argovie</p>
+        <p rend="labelled"><lb/>trée plus fidèle à son désir d’opérer une conciliation. De-<lb/>porté sur toute tentative pacifique. Je commence par dé-<lb/>clarer que le décret de suppression des couvens ne peut<lb/>être retiré; l’honneur et l’indépendance du canton d’Argo¬<lb/>vie ne le permettraient pas. Il est tout aussi impossible de<lb/>suspendre l’exécution de ce décret de liquidation, car déjà un<lb/>demi million a été distribué aux pauvres et aux écoles com-<lb/>munales. Je ne puis donc accéder aux conclusions de la<lb/>majorité de la commission, ni à celle de la minorité. Réta-<lb/>blir les couvens, à l’exception de Wettingen et de Muri, se-<lb/>rait une demi-mesure qui ne satisferait personne. Je pour-<lb/>rais adhérer aux articles 1 et 2 de l’avis de la première<lb/>minorité, mais non à l'art. 3. Un ajournement de la diète<lb/>ne me paraîtrait pas opportun. Une dissolution serait plus</p>
+        <p><lb/>de la commission, mais il préfère un ajournement à une<lb/>dissolution, car il pourrait se présenter des événemens qui</p>
+        <p><lb/>mandent le rétablissement des couvens sans aucune condi¬<lb/>tion. Glaris, Fribourg, Bâle-ville, Schaffhouse, Appenzell<lb/>(J.-R.), Saint-Gall, Grisons, Valais et Neufchâtel, Soleure,<lb/>Bâle-campagne et Appenzell (R.-E.), se réservent d’en ré-<lb/>férer à leurs cantons. Thurgovie et Tesin rejettent les con-<lb/>clusions de la commission, comme attentatoires à la souve-</p>
+        <p rend="labelled"><lb/>4er janvier 1842, toutes les voitures attelées avec des<lb/>chiens seront défen dues dans l'étendue du royaume-uni<lb/>ont été consignées dans l'acte de la police métropolitaine<lb/>simples garnisons, pourront à l'avenir se porter en colon-<lb/>nes sur les points où la présence de nos forces serait né-<lb/>cessaire. Les tribus arabes ont été exclusivement chargées<lb/>des escortes et des transports. Les chefs de corps et de l'in-<lb/>tendance doivent payer, sans l'intermédiaire des entrepre¬<lb/>neurs et des fournisseurs, les Arabes à qui ce service a été<lb/>imposé et pour qui aussi c'est une faveur. Il en résulte que<lb/>ces indigènes recevront une plus forte indemnité, et le tré¬</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>campée à quelques lieues de la ville. Ces sorties ont à la fois<lb/>l’avantage d’habituer le soldat aux fatigues et de tenir les<lb/>Arabes sous le coup de la terreur que produisent sur eux</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>rant dans un hôtel de la rue Saint-Dominique-d'Enfer, se<lb/>prennent de querelle; on convient de vider le différend l'e-<lb/>pée à la main, et deux étudians en médecîne, demeurant<lb/>dans le même hôtel, sont choisis pour témoins. Le lende-<lb/>main matin, on se réunit dans la chambre de l'un des té-</p>
+        <p rend="labelled"><lb/>coupe la gorge, mais cela ne doit pas faire négliger cer-<lb/>taines mesures hygiéniques; en conséquence, nous allons<lb/>vider, avant de partir, ces deux bouteilles d’excellent Cha-</p>
+        <p rend="labelled"><lb/>témoins promettent qu'ils n'ont pas l'intention d'empêcher<lb/>le combat. Enfin, le chablis est absorbé; dix minutes après<lb/><lb/>on monte en wagon, et, au bout d'un quart-d’heure, on</p>
+        <p><lb/>à son ventre; c’est en vain qu’il voudrait dissimuler ce qu’il<lb/>éprouve, force lui est d’aller se mettre un instant à l'écart.<lb/>Il revient bientôt, reprend son arme; mais alors c’est au<lb/>tour de son adversaire à faire des contorsions et à courir<lb/>on se met en garde, les fers se croisent... Impossible d’y te-<lb/>nir, et tous deux, comme d’un commun accord, sont forcés<lb/>de cesser; les témoins se tiennent les côtés à force de ri-</p>
+        <p rend="labelled"><lb/>nent de plus en plus graves; le purgatif que les étudians en<lb/>médecine avaient introduit dans l’une des bouteilles de cha¬<lb/>blis était si violent, que leurs camarades éprouvèrent bien-<lb/>gôt tous les symptômes d’un véritable empoisonnement. Ce<lb/>ne fut que lendemain qu'ils purent être ramenés à Paris;<lb/>et, trois jours après, leur état inspirait encore d'assez vi-<lb/>ves inquiétudes. C'est une leçon dont empoissonneurs et</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>dredee ic e maka,que, v<lb/>ere éms vic-amil de Mackau, au M, vnt</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>commandement de la Belle-Poule, devait avoir lieu le 15<lb/>de ce mois; mais il est décidé qu'il ne partira qu’après la<lb/></p>
+        <p rend="labelled"><lb/>régimens, savoir: 75 régimens de ligne, 25 de légers,<lb/>de carabiniers, 10 de cuirassiers, 12 de dragons, 8 de<lb/>lanciers, 13 de chasseurs, 9 de hussards, 15 d’artillerie<lb/>régimens de chasseurs d’Afrique, les spahis, les zouaves<lb/>les légions étrangères, les vétérans, 24,000 gendarmes et<lb/>3,000 gardes municipaux. Il faut encore y ajouter les pon¬</p>
+        <p rend="labelled"><lb/>ticles du projet de la majorité de la commission ont été<lb/>adoptés le 2 par la diète helvétique par la majorité absolue<lb/>des voix, composée des douze états qui ont voté la veille</p>
+        <p><lb/>monie avec l'article 12 du pacte fédéral. L'article 3 fixe au<lb/>milieu du mois de mai le terme auquel Argovie devra faire<lb/>connaître ses résolutions au vorort. |L’article 4 statue que<lb/>la diète se réserve les mesures ultérieures à prendre pour<lb/>le cas où Argovie n’obtempérreait pas à l’invitation qui est<lb/>faite. L’article 5 l'invite à suspendre toute mesure d’exé-</p>
+        <p><lb/>demi-voix qui ont voté ce décret ont une population totale<lb/>de 890,258 habitans, tandis que les états qui ne s’y sont<lb/>pas associés ont une population de 1,301,863 âmes; par<lb/>de faire exécuter ce décret par voie coërcitives</p>
+        <p rend="labelled"><lb/>portante vient d'avoir lieu à Oran. Il paraît que la crainte<lb/>que le général Lamoricière inspire aux Arabes est telle;<lb/>qu’ils avaient formé le projet de s’emparer de sa personne,<lb/>pour atteindre leur but, ils avaient tendu un piège auquel<lb/>M. de Lamoricière, prévenu par ses espions, ne s’était pas<lb/>laissé prendre. Afin de les punir de leur perfidie, le brave<lb/>général dressa lui-même une embûche que les Arabes n<lb/>purent éviter, et par suite de laquelle 800 des leurs sont<lb/>restés sur la place. Nous ne garantissons pas l’authenticité<lb/>de cette nouvelle qui, si elle est vraie, sera confirmée par</p>
+        <p rend="labelled"><lb/>imptla flotte turque, attendde depuis mni-tmps a vles<lb/>murs de Constantinople où elle attendait un vent propice<lb/>pour doubler la pointe du sérail. Aujourd’hui, poussée par<lb/>une brise assez fraîche et favorisée d’un temps superbe,<lb/>elle a commencé vers les dix heures à faire son entrée dans<lb/>le port, et précédée du Mahmoudiéh, elle est allée s'éche-<lb/>lonner dans le Bosphore, en face de Dolma-Baktché et du<lb/>palais impérial de Béchiktach. Une foule immense s’était<lb/>portée sur tous les points culminans pour jouir d'un spec-</p>
+        <p><lb/>se placer au mouillage; une seule frégate a chassé sur ses<lb/>ancres et cassé le beaupré d'une autre frégate qui se trou¬</p>
+        <p><lb/>2 corvettes et 3 bricks. L’un de ces derniers est resté à<lb/>Marmaritza pour réparer la perte de son gouvernail, qu’un<lb/>gros temps lui a enlevé. Le retour de la flotte a répandu<lb/>la joie dans la capitale; tout le monde a vu dans cet évé-<lb/>ment, non-seulement le recouvrement légitime d'une partie<lb/>importante de nos forces, mais encore une preuve mani-<lb/>feste de la solution favora ble des affaires et de l'inviolabilité</p>
+      </div>
+      <div type="article">
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <p><milestone unit="column" n="5"/><lb/>ny rien de plus efficacee es melldue ue pa prTe<lb/>PECTORALE de Georgé, pharmacien d'Epinal (Vos-<lb/>ges). Elle se vend moitié moins que toutes les autres,<lb/>et on en trouve dans toutes les meilleures pharmacies<lb/>de Dijon, et chez M. Béraud-Gaillard, droguiste, rue</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>SAINT-NICOLA</head>
+        <head><lb/>SITUÉ SUR LE TERRITOIRE DE BARGES, CANTON</head>
+        <p><lb/>ges, par le ministère de M. ROYDET, notaire à Dijon.</p>
+        <p><lb/>belot, cultivateur à Barges; et, pour tous autres ren¬<lb/>dea Liberté, e iudit noair Roe, imnadi25</p>
+        <pb facs="0004.xml"/>
+      </div>
+      <div type="article">
+        <head><lb/>Etude de M. MAZEAU, notaire à Dijon.</head>
+        <p rend="styled"><lb/> CHABOT-CRARNI, n° 6</p>
+        <p rend="styled"><lb/>Situés sur le territoire de Dijon, entre la porte Guil-<lb/>laume et la porte des Godrans, longeant la grande</p>
+        <p><lb/>le amanche 18</p>
+        <p><lb/>Cet emplacement, en nature de terre de 1re classe, à<lb/>proximité des deux portes, et qui peut convenir pour<lb/>toutes espèces de constructions, chantiers et jardins,<lb/>sera vendu par lots de 19 à 20 mètres de façade sur 50</p>
+        <p><lb/>On accordera toutes facilités pour le paiement du<lb/>pr</p>
+        <p><lb/><lb/>esser, pour tous renseignemens, audit notaire</p>
+        <p rend="styled"><lb/>Dans un des cantons de Langres, d'un produit de 4 à<lb/>5,000 fr., à céder de suite, à des conditions très-</p>
+        <p><lb/>S'adresser à M. MAZEAU, notaire à Dijon, rue Van-</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>S'adresser, pour tous renseignemens, audit notaire</ab>
+        <ab type="head"><lb/>Etude de M. CHABEUF, notaire à Dijon,</ab>
+        <ab type="head"><lb/>CRÉANCE DE 12,666 fr. 66 c.</ab>
+        <p><lb/>L'un de 4,666 fr. 66 c., et les deux autres de 4,000 f.<lb/>chacun, le dimanche 18 avril 1841, heure de midi,<lb/>Dijon, en l'étude et par-devant M. CHABEUF, notaire</p>
+        <p><lb/>Cette créance, exigible sans intérêts au décès d’une<lb/>personne âgée de plus de 63 ans, est garantie par un<lb/>privilége sur des immeubles ruraux situés dans l'ar-<lb/>rondissement de Dijon, en valeur de plus de 70,000 fr.</p>
+      </div>
+      <div type="article">
+        <head><lb/> DUOMES EAU. not Lous</head>
+        <p><lb/>Ils se composent, 1^o de trois paires de meules, net-<lb/><lb/>toyages, diviseurs, blutteries, etc., avec mécanisme en<lb/>fonte, et de vastes magasins, logemens de maître et de<lb/>contre-maître; 2° des anciens moulins, comprenant<lb/>quatre paires de meules destinées au public, et d'un</p>
+        <p><lb/>Ces moulins, actuellement exploités par M. Vaffier,<lb/>sont mus par la rivière du Solnan, à son embouchure<lb/>dans la Seille; ils offrent des avantages incontestables<lb/>sur les usines de ce genre par la facilité des approvi¬<lb/>sionnemens et des débouchés, soit dans le Jura, soit à<lb/>Lyon, par le transport par eau des farines qui, à rai¬<lb/><lb/>son de leur qualité, sont recherchées par le commerce</p>
+        <p><lb/>Pour les renseignemens à demander et les proposi-<lb/>tions à faire, s’adresser, à Louhans, au notaire Du¬<lb/>CHESNEAU, chargé de la vente, ou à M. Alfred Sordet,<lb/>l'un des cO-héritiers, et à Dijon à M. PETITJEAN, no-</p>
+      </div>
+      <div type="article">
+        <ab><lb/>de 18 ares environ; le tout joignant de levant et de</ab>
+        <ab type="head"><lb/>Etude de M. DECAILLY, notaire à Mirebeau.</ab>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>Situé sur le territoire de Trochères, canton de</ab>
+        <p><lb/>Le dimanche 9 mai 1841, à Mirebeau, en l'étude</p>
+        <p><lb/>Ce domaine consiste, 1^o en une maison d'habit at<lb/>nant, de la conteuance de 34 ares 28 centiares.</p>
+        <p rend="labelled"><lb/>2^° 9 hectares 10 ares 15 centiares de terres labou-</p>
+        <p><lb/>mens, terres et prés, le 23 avril 1842, et des autre</p>
+        <p><lb/>S'adresser, pour voir ledit domaine, à M. Louis<lb/>Perrey, cultivateur à Trochères, et pour les condi¬<lb/>tions, à Mirebeau, à Mme. veuve Perrey-Leminé, ou</p>
+        <p><lb/>Le dimanche 2 mai 1841, à Mirebeau, en l'étude<lb/>et par le ministère de M. DÉCAILLY, notaire.</p>
+        <p><lb/>Cette maison, récemment réparée, consiste en plu¬<lb/>sieurs corps d’habitation et d’exploitation, avec une<lb/>vaste cour et un jardin y attenant, de la contenance</p>
+        <note>
+          <p rend="styled"><milestone unit="column" n="2"/><lb/>DIJON. — IMPRIMERIE DE SIMONNOT-CARION, PRÈS LA PLACE AUX FRUITS.<lb/>Nord M. Genret, de midi M. Jary, et de couchant la</p>
+        </note>
+      </div>
+      <div type="article">
+        <p><lb/>L’acquéreur entrera de suite en jouissance, et aura</p>
+        <p><lb/>M.D Jacquelin<lb/>IM. DECAILLY.</p>
+      </div>
+      <div type="article">
+        <p><lb/>Le lundi de Pâques 12 avril 1841, à midi, au domi¬<lb/>cile où est décédé le sieur Briandet père, il sera pro<lb/>cédé à la vente aux enchères de tous les effets mobi-<lb/>liers délaissés par le défunt, et consistant en trois<lb/>lits garnis, deux armoires, batterie de cuisine, linge<lb/>de lit et de corps, une grande chaudière à lessive,<lb/>ustensiles de cuisine, hardes du défunt et autres ob-</p>
+      </div>
+      <div type="article">
+        <head><lb/>Office de M. RÉLXARD, commissaire-priseur,</head>
+        <p><lb/>PRESSOIR A GRUE, et tous ses accessoires,<lb/>vendre aux enchères, samedi 10 avril, à midi précis,<lb/>rue du Chaignot, maison Thoridenet, par le ministère</p>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>Le dimanche 18 avril, au domicile du sieur BONX fils,</p>
+        <ab type="head"><lb/>TrAIN d'AGRICULTuRE</ab>
+        <p><lb/>Se composant de, 1^o 4 chevaux avec leurs harnais,<lb/>trois vaches et un jeune taureau de 2 ans, et 150 mou¬<lb/>tons; 2° de plusieurs voitures et tombereaux, charrues,<lb/>herses, roulots et autres accessoires; 3° du mobilier,<lb/>tel que linge, plusieurs lits garnis, armoires, tables,<lb/><lb/>chaises, horloges, garnitures de feu, vaisselle en<lb/>faïence et en terrerie, plusieurs chaudières, marmites,<lb/>petites et grandes casseroles en fonte et autres; 4o une<lb/>cuve en chêne, 3 ballonges cerclées en fer, un cuvier<lb/>à lessive, un grand coffre à farine, plusieurs autres<lb/>coffres à avoine, un alambic en cuivre de 150 litres<lb/>avec son chapeau et differens autres articles. (1-3)</p>
+        <p><lb/>tre bas, rue Saint-Philibert, n 20.</p>
+        <p><lb/>A remettre, une BOUTIQUE DE GRENETIER, sise<lb/>à Dijon, rue des Godrans, n^o 72. S'y adresser.</p>
+      </div>
+      <div type="article">
+        <p><lb/>Petite MAISON BOURGEOISE, située à Talant-lès-<lb/>Dijon, rue des Orfèvres, à vendre ou à louer. S’adres-<lb/>ser à Mme. Leroux dans ladite maison.—Il y aura aussi</p>
+      </div>
+      <div type="article">
+        <p><lb/>A amodier, pour entrer en jouissance de suite, par-<lb/>tie d’une MAISON nouvellement bâtie, bien distribuée,<lb/>sise à Dijon, sur le port du Canal, au Petit-Chan¬<lb/>tilly, composée de plusieurs chambres, cabinets, cui-<lb/><lb/>sine, soit au rez-de-chaussée, soit au premier étage;<lb/>mansarde, grenier, belle cave, grande cour, hangard<lb/>fermé, de 9 mètres sur 6, grand emplacement sur le¬<lb/>quel le propriétaire ferait d’autres hangards ou des</p>
+        <p><lb/>Cette maison, par sa proximité du port du Canal,<lb/>son importance, est propre à tout genre de com¬</p>
+        <p><lb/>S'adaue dépot de MERRIN à endre. (1-3)</p>
+        <p><lb/>Il y a un dépôt de MERRIN à vendrePAT</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p><lb/>Très-bien distribué et fraichement décoré, ci-devant<lb/>occupé par M. Rathelot, docteur en médecine, rue<lb/>Berbisey, n^o 10, composé d'un beau salon parqueté,<lb/>plusieurs chambres à coucher, cabinet, placards,<lb/>salle à manger, cuisine, cave, écurie, remise et fenil.</p>
+        <p><lb/>S’adresser à M. GLEIZE, avoué, rue Proudhon, ou<lb/>à M. Victor LAGIER, libraire-éditeur, à Dijon.</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>Auxonne, Voituree;<lb/>NOTA. On ne doit avoir confiance qu'aux boites portant l'étiquette et la signature Georgé. Ip</ab>
+        <ab type="head"><lb/>De Réglisse à la Gomme de GEORGÉ, Pharmacien à Épinal (Vosges).</ab>
+        <p><lb/>Cette Pâte, recommandée par tous les médecins, guérit les RHUMES, TOUX, CATARRNES, ASTHMES, COQUE-<lb/>LUCHES, ENROUEMENS et autres maladies de POITRINE. La vogue immense dont elle jouit est la preuve de son<lb/>efficacité. BOITES DE 12 ET 24 sOUS avec le Prospectus. Dépôt dans toutes les meilleures pharmacies de Dijon,<lb/>et chez M. Béraud-Gaillard, rue Charrue, n^o 14;</p>
+        <p><lb/>Les Dépôts viennent de recevoir un envoi qui peut suffire à toutes les demandes.</p>
+        <ab type="head"><lb/>PATE PECTORALE</ab>
+      </div>
+      <div type="article">
+        <head><lb/>PETIT MONUMENT</head>
+        <p rend="styled"><lb/>Pour couronner l'ouverture du grand réservoir des</p>
+        <p><lb/>Le maire de la ville de Dijon fait savoir que, le jeudi<lb/>22 avril 1841, à midi précis, il sera procédé publi-<lb/>quement par-devant lui, assisté de deux conseillers<lb/>nunicipaux, dans la salle ordinaire de l’Hôtel-de-<lb/>Ville, à l'adjudication sur soumissions cachetées de la<lb/>construction d'un petit monument d'architecture et de<lb/>sculpture, destiné à couronner l'ouverture supérieure<lb/>du grand réservoir des fontaines publiques, situé sur<lb/></p>
+        <p><lb/>L'estimation de ce monument est portée, dans le<lb/>devis dressé par M. l’architecte SAGOT, à la somme de<lb/>13,610 fr. 32 c., y compris 1,080 fr. pour la sculp-</p>
+        <p><lb/>Les minutes des plans et devis et du cahier des char¬<lb/>ges, ainsi qu’un exemplaire imprimé des conditions<lb/>imposées aux entrepreneurs des ponts et chaussées par<lb/>la décision du directeur général du 25 août 1833, et<lb/>dont il est fait mention ci-dessus, sont déposés au se¬<lb/>crétariat de la mairie, où il en sera donné communi¬<lb/>cation au public, de dix heures du matin à quatre<lb/>heures de l'après-midi, tous les jours non fériés, jus-</p>
+        <p><milestone unit="column" n="4"/><lb/>ijon, un CHIEN<lb/>ÉPAGNEUL, robe rousse, répondant au nom de Stop.</p>
+      </div>
+      <div type="article">
+        <p><lb/>On est prié de le ramener rue Chabot-Charni,</p>
+        <p><lb/>On a perdu dimanche dernier, depuis l'allée de la<lb/>Retraite jusqu'à l'entrée du cours du Parc, en passant<lb/>par la route d'Auxonne et la rue Coupée de Longvic,<lb/>une CLÉ de secrétaire. On est prié de la rapporter au</p>
+        <p><lb/>On a perdu, lundi 5 avril, un SAC DE LINGE, de¬<lb/>puis Bezouotte à Dijon. On est prié d’en donner des<lb/>renseignemens, à Bezouotte, à Mme. Perrey; à Dijon,</p>
+        <p rend="labelled"><lb/>On demande pour tout faire dans un ménage une<lb/>FILLE qui n’ait pas moins de 30 ans, et qui puisse<lb/>fournir d'excellens répondans. S'adresser au bureau<lb/></p>
+        <p><lb/>Une FILLE sachant faire la cuisine, coudre et repas¬<lb/>ser, demande une place pour servir à la campagne; elle<lb/>offre de bons répondans. S'adresser à la veuve Gagne-</p>
+        <p><lb/>Une jolie CHIENNE D'ARRET anglaise a disparu<lb/>d’Arceau dimanche 4 avril. Elle est âgée d'un ar<lb/>robe est entièrement noire et ses formes très-sveltes.</p>
+        <p><lb/>Ou est prié de la ramaner</p>
+      </div>
+      <div type="article">
+        <p><lb/>Toutes les formalités voulues étant remplies dans la<lb/>faillite des mariés Duvollet-Brugnot, imprimeur<lb/>Dijon, MM. les créanciers ayant vérifié et affirmé leurs<lb/>créances dans cette faillite, sont invités à se présen-<lb/>ter en personne ou par fondé de pouvoir à l’assemblée<lb/>qui aura lieu en la salle du greffe du tribunal de<lb/>commerce de cette ville, le samedi 10 avril courant,<lb/>à deux heures précises après midi, sous la présidence<lb/>de M. le juge-commissaire à ladite faillite, à l'effet,<lb/>1^o d'entendre le rapport que doit faire le syndic sur<lb/><lb/>les formalités et les opérations qui ont eu lieu;</p>
+        <p><lb/>2o De faire un concordat avec les faillis si le cas y<lb/>échet, ou participer à la formation d'un contrat d’u-<lb/>nion en donnant leur avis sur l'utilité du maintien ou</p>
+      </div>
+    </body>
+  </text>
+</TEI>

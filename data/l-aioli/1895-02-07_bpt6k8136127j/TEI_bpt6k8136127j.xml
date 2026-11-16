@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136127j</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1895-02-07">1895</date>
+          <idno type="ARK">bpt6k8136127j</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136127j</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>DIJOU, 7 DE FEBRIE 1895.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>CINQUENCO ANNADO, No 148.</ab>
+        <ab><lb/>PRES OE L'ABOUNAMEN</ab>
+        <ab><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr l'òli<lb/>E faren l'aidn.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>(Prouverbi de ménonnie)</ab>
+        <ab><lb/>Vidoun, Vidau,<lb/>Segound la vido</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PÈR MES (7,17,27)</p>
+        <figure/>
+        <ab><lb/>BUREU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>KOLCO DE BARONCELLI,<lb/>au palais dóu Boure,<lb/>EN AVIGNOUN</ab>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <ab><lb/>Baile dóu journau:<lb/>FOLCO DE BARONCELLI</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Em' à sa novio ENRIETO CONSTANTIN<lb/>Lou jour de soun mariage.</ab>
+        <ab type="head"><lb/>A Folcò de Baroncelli</ab>
+        <lg>
+          <l><lb/>Valènt fiéu de Prouvènço e felen d'Apouloun.</l>
+          <l><lb/>Siés segnour dins l'Oulimpe emai au pals blound,</l>
+          <l><lb/>O blound Folcò de Barouncélli,</l>
+          <l><lb/>Ejouine coume un diéu, bèu coume toun pais,</l>
+          <l><lb/>T'alandes alegri, sounjaire o cantadis,</l>
+          <l><lb/>Dins l'estelan e dins lis iéli.</l>
+        </lg>
+        <lg>
+          <l><lb/>Mai, barrulant, un jour, coume fasié Vincèn,</l>
+          <l><lb/>Fuguères aplanta pèr dous rai trelusènt</l>
+          <l><lb/>Mai que la lus de l'Empiréio.</l>
+          <l><lb/>E lèu pourtant li man à toun front, à toun cor,</l>
+          <l><lb/>Li trouvères uscla pèr de sutiéu record</l>
+          <l><lb/>E pèr lis iue d'uno Mirèio.</l>
+        </lg>
+        <lg>
+          <l><lb/>Aqui vesiés, sentiés ço que se pou qu'un cop.</l>
+          <l><lb/>Eres mai que tu-meme, e pamens, o Folcò !</l>
+          <l><lb/>De tout toun éstre tremoulères</l>
+          <l><lb/>E, tau que lou pacan que trevavo la Crau.</l>
+          <l><lb/>Coume aquéu panieraire ilustra pèr Mistrau,</l>
+          <l><lb/>A dous geinoan t'ageinouières.</l>
+        </lg>
+        <lg>
+          <l><lb/>Alor, de la belour ressentènt tout l'aflat,</l>
+          <l><lb/>D'un tèms, segnour esclau, te la fauguè bela,</l>
+          <l><lb/>Bagna si pèd de ti lagremo;</l>
+          <l><lb/>Mai au jour d'uei l'Imen touca de toun amoun</l>
+          <l><lb/>Tadus l'Encantarello, e te dis: «Pèr toujour,</l>
+          <l><lb/>Ange o divesso, acò 's ta femo!»</l>
+        </lg>
+        <lg>
+          <l><lb/>Gloria pèr li novi ! adounc, odo e quatrin.</l>
+          <l><lb/>Celebras lou bonur de noste Ciéutadin</l>
+          <l><lb/>E lou de sa Castèu-Nouvenco,</l>
+          <l><lb/>Car van à la perfin tóuti dous tresana,</l>
+          <l><lb/>Car restaran toustèms, urous, embessouna,</l>
+          <l><lb/>Dins li lono paradisenco.</l>
+        </lg>
+        <lg>
+          <l><lb/>S'envan dins li planuro ounte van li pantai,</l>
+          <l><lb/>Ounte lou vertadié dis à l'Ideau : T'ai !</l>
+          <l><lb/>Van ounte van li bais de flamo;</l>
+          <l><lb/>Van ounte lou mistèri apello li desir;</l>
+          <l><lb/>Van ounte. melicous, s'envolon li souspir,</l>
+          <l><lb/>Van ounte Amour diéu li prouclamo.</l>
+        </lg>
+        <lg>
+          <l><lb/>E lèu, souto lou Roure auturous d'Avignoun,</l>
+          <l><lb/>S'enfarandoulara de troupo d'angeloun</l>
+          <l><lb/>Que cantaran em' alegrio</l>
+          <l><lb/>Fino-Roco, di flèu desfisant lis assaut</l>
+          <l><lb/>E, coume de felibre, en parla prouvençau,</l>
+          <l><lb/>L'amour sacra de la Patrio.</l>
+        </lg>
+        <lg>
+          <l><lb/>Car fihat de Prouvènço e d'Apouloun felen,</l>
+          <l><lb/>Saran prince dóu cor e prince de l'alen</l>
+          <l><lb/>Li sagatun de Barouncèlli,</l>
+          <l><lb/>E bèu coume li diéu, si rèire e soun pais,</l>
+          <l><lb/>Landaran alegri, sounjaire o cantadis,</l>
+          <l><lb/>Dins l'estelan e dins lis iéli.</l>
+        </lg>
+        <ab><lb/>Jun Cassini.</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>An tant poulit castêu de Fino- Roco,<lb/>de Magal (es de Don Savié):<lb/>Es tu que menes plen de voio<lb/>Lou bèu Jacob au ibord dou pous ;<lb/>Trimo set an, mai quinto jolc,<lb/>Quand de Racheu devèn l'espous !</ab>
+        <ab type="head"><lb/>LI NoÇO DE NoSTE BAILE</ab>
+        <p><lb/>Dimars passa s'es fa, à la coumuno de Castèu-Nou-dóu-<lb/>Papo, lou mariage dóu comte Folcò de Baroncelll emé<lb/>Madamisello Constantin</p>
+        <p><lb/>Li temoi de la chato eron Moussu Simoun, engeniaire,<lb/>e Moussu Reynaud ; aquéli dóu garçoun, Moussu Fé¬<lb/>lis Gras, capoullé dóu Felibrige, e Moussu Roger de<lb/>Beaulieu. Acò s'es passa en famiho e coume uno<lb/>simplo fourmalita. Acò, vesès, n'èro que l'aperitiéu<lb/>de nòsti poulit nòvi, — que fan l'efêt coumpli dóu qua¬<lb/>ranto de meinage, valént-á-dire l'unioun dóu blound<lb/>varlet de carrèu e de la bello bruno damo de pico. Fa-<lb/>sèn aquelo coumparesoun pèr fin qu'aquéll que li cou¬<lb/>nèisson pas de visto agon d'éli un retra imaginatiéu.</p>
+        <p><lb/>Maise li gent de la noco, aquéu jour an vougu faire pi-<lb/>chot, li Castéu-Nouven, éli, an vougu faire grando, e soun<lb/>ana en foulo e en fogo óufri un bouquet asi novi, piel tout lou<lb/>fihan l'a canta 'questo roumanço coumpausado pèr noste<lb/>Anseume Mathieu, lou gênt felibre di poutoun, qu'es de</p>
+        <lg>
+          <l><lb/>Galois ami, que touto vosto vido</l>
+          <l><lb/>Begués lou vin courau dis amourous!</l>
+          <l><lb/>Naurés pas pou de la chourmo marrido</l>
+          <l><lb/>Qu'esvartarié noste canta tant dous.</l>
+        </lg>
+        <lg>
+          <l><lb/>De Casteu-Nou, sian li chatouno</l>
+          <l><lb/>Que lou destin a coumanda</l>
+          <l><lb/>Per vous adurre uno courouno,</l>
+          <l><lb/>Lou jour qu'anas vous marida, la, la, la.</l>
+        </lg>
+        <lg>
+          <l><lb/>S'espandiran li génti roso en flour,</l>
+          <l><lb/>Car lou bon Diéu vous adurra si coco</l>
+          <l><lb/>Dins lou tèms fres, coume l grandi calout</l>
+        </lg>
+        <lg>
+          <l><lb/>Dou founs dóu cor e touti trefoulidó,</l>
+          <l><lb/>Vous sou retan, coume li troubadogre</l>
+          <l><lb/>La gaieta 'mè la vido ajouguido,</l>
+          <l><lb/>E que tengués de-longo court d'amour.</l>
+        </lg>
+        <p><lb/>Mai lou grand jour, lou grand cop, es esta dijòu, lou 7,<lb/>pardine! (Folcò poudié-ti prene uno autro dato per se</p>
+        <p><lb/>Adounc lou 7, sus lou cop de miejour, dins la gléiso<lb/>de Castèu-Nòu-de-Papo, touto enbouquetado, alumenado<lb/>e cacaluchado de mounde, arribavon li nòvi e soun<lb/>brihant courtege, venènt dóu castéu de Fino-Roco, ma-<lb/>gnifico prouprieta de M. Constantin, dins aqueste ordre:</p>
+        <p><lb/>M. Constantin, Mm Constantin; Mm la Marqueso de Ba-<lb/>roncelli-Javoun, M. lou comte Folcò de Baroncelli;<lb/>M Constantin, M. lou Marqués de Baroncelli; Mm Lauf<lb/>rent, M. lou comte Humbert de Grille; Mm Terèso de<lb/>Aaroncelli, M. Roger (aquésti quatre darrié èron li parèu<lb/>d'ounour), Ma Jano de Raroncelli, M. Louis de Blanchetti,<lb/>M Emma de Baroncelli, M. Ch. Constant, M Ferrier,<lb/>M. Simon, M“ Simon, M. lou baroun de Chaussande,<lb/>Mae Tissot, M. de Dianoux, Mme la Coumtesso de Chansier-<lb/>gues, M. de Mouron, Mm de Dianoux, M. Redon,<lb/>M Pons, M. Gras, capoullé dou Felibrige, Me Rou¬<lb/>manille, Mue Jano Roumanille, en richo teleto, pour-<lb/>tant la cigalo d'or de soun paire espinglado au cou-<lb/>let, M. Enri de Baroncelli, Mm Margarido de Baroncelli,<lb/>Mu Adriano de Baroncelli, Mm la marqueso du Villard e<lb/>Sp. du VIllard, Mu Claudia Moritz, M. Joubert.</p>
+        <p><lb/>Enterin, l'Unioun musicalo jogo uno uberturo de Me-<lb/>hul, e quand li novi emé si parèn se soun mes i prego-<lb/>Diéu que lé soun destina davans lon grand-autar, e que<lb/>tout lou mounde s'es asseta 'n plaço degudo, lou curat<lb/>fai un discours. Piêl lou Paire Premontré, Don Savié<lb/>de Fourviero, ami de la famiho Baroncelli, pren la pa-<lb/>raulo coume eiçò:</p>
+        <ab type="head"><lb/>MOUN PRAIRE, MA SORRE,</ab>
+        <p><lb/>La terro, dirias, s'es ennouviado. Lou bon Diéu l'a manda<lb/>d'eilamount, teissudo de si man, uno superbo raubo blanco.<lb/>Es li coulour nouvialo ! es li coulour papalo ! coulour avi¬<lb/>gnounenco emai castèu-nouvenco. E certo s'enderèn à ravi<lb/>emé l'amouierage d'un jouvènt, réire-nebout di Papo, aquel<lb/>enmantelamen de blancour, emé lou maridage d'uno jou-<lb/>vento, gardado pèr sa maire, coume un bèl iele inmacula, e<lb/>touto envierginado de soun innoucenci de chatouno... E dirias<lb/>que sian tourna-mal à n-aquéli tèms di pountife d'Avignoun,<lb/>de veire aquelo gleiso pleno e repieno, aquelo antico glèiso<lb/>de Casteu-Nou ounte flouris d'aquesto ouro l'auto soncieta<lb/>coumtadino emai lou pople, lou bon pople travaiaire que fai<lb/>veni lou pan emai lon vin, lou poplo qu'a na noublesso, éu</p>
+        <p><lb/>E la lengo prouvençalo, elo, es de la festo, elo lé fai gan<lb/>vuei d'èstre vosto maridarello e es elo que pèr ma bouco<lb/>vous dis: « Vès-lou, aquéu sacramen, grand mai-que-mai en<lb/>J.C. e sa Glèiso.</p>
+        <p><lb/>Lon discours es esta uno tirado déumatico sus la gran-<lb/>dour dóu mariage.</p>
+        <p><lb/>La perouresoun pou se resumi dins l'estello di Sêt Rai,<lb/>en quan Don Savié de Fourviero a fa alusioun, estello<lb/>misteriouso que Folcò es ana culi dins l'esteloun abeluga,<lb/>dou ceu pèr la pendoula, nouvèu Vincenet, au coui de sa</p>
+        <p><lb/>(Alnsioun au bijout que Folcò n'a fa presènt à sa novio.)</p>
+        <p><lb/>Après, entameno l'óufice dóu mariage e dis, toujour en<lb/>prouvençau, d'uno voues forto: — «Comte Folco de Ba-<lb/>roncelli-Javoun, sias counsentènt de prene pèr femo<lb/>legitimo e segound li lei de la gléiso Mm Enrieto Cons-<lb/><lb/>tantin?» E lou comte Folcò de Baroncelll Javoun res-<lb/>pond: — « La vole. « Lou Paire fai dins lou meme biais<lb/>sa demando à Mm Enrieto Constantin, que lé respond à<lb/>soun tour: — « Lou vole.»</p>
+        <p><lb/>Autant-leu un Cor de chato escoundudo amoundant<lb/>dins li tribuno, se bouton à canta, 'mé de voues d'ange<lb/>acoumpagnado d'uno ourgueno, aqueste cantico sus l'er</p>
+        <lg>
+          <l><lb/>O Diéu, as fa l'ome ela femo,</l>
+          <l><lb/>Lis as uni fin-qu'à la mort ;</l>
+          <l><lb/>Lis a liga ta bounta memo,</l>
+          <l><lb/>D'un liame dous antant que fort.</l>
+        </lg>
+        <lg>
+          <l><lb/>Fai sus li novi que desbounde</l>
+          <l><lb/>Joio en abounde!</l>
+          <l><lb/>Pal din mes demi</l>
+        </lg>
+        <lg>
+          <l><lb/>Es tu qu'i jour de l'innousenci,</l>
+          <l><lb/>As joun ensemble Evo em' Adam:</l>
+          <l><lb/>E tóuti dous, en ta presénci,</l>
+          <l><lb/>Se soun, ravi, douna la man.</l>
+        </lg>
+        <lg>
+          <l><lb/>Es tu qu'as joun Abram e Saro,</l>
+          <l><lb/>Tu qu'as vougu lis espousa:</l>
+          <l><lb/>Es tu, béu Segne, qu'as encaro,</l>
+          <l><lb/>Adu Rebéco au jouine Isa.</l>
+        </lg>
+        <ab><lb/>puce Bèque</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

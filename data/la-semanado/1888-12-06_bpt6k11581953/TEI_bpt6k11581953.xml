@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Semanado</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k11581953</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Semanado : l'hebdomadaire provençal : journau literari e artisti...</title>
+          <publisher>[s.n.] (Ais)</publisher>
+          <date when="1888-12-06">1888</date>
+          <idno type="ARK">bpt6k11581953</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k11581953</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Dijou, 6 de Desèmbre, 1888.</fw>
+        <fw type="runningTitle"><lb/>Se vende 2 òn lou numerò.</fw>
+        <dateline><lb/>— Annado proumiero, No 1.</dateline>
+        <ab><milestone unit="column" n="2"/><lb/>-<lb/>pièl, dins la mesado, un moussèu de musico.<lb/>ABOUNAMEN: 5 fr. l'an, en Prouvènço; — 6 fr. en fouero.<lb/>ANOUNÇO: 25 cent. la tigno.<lb/>l'itena pie neire oro nostço de 7 lgts i gritis; mnso dai de 3 eies, sita pes<lb/>a-z-Ais<lb/>Tout se dèn manda. franc de port, au burèu dóu journan, cous Mirabèu, 53.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>d <lb/>Boc<lb/></ab>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>Journau Literàri e Artisti,<lb/>(L’HEBDOMADAIRE PROVENÇAL)</p>
+        <p rend="heading"><lb/>Pareissènt lou dijòu, à l'Escolo de Lar, à-z-Ais,</p>
+        <ab><lb/>e dounant, emé pouesio e proso en lengo d'O, d'article en francés sus Prouvènço e Prouvençau,</ab>
+        <ab><lb/>Empremarié felibrenco,</ab>
+        <lg>
+          <l><lb/>I. FORMENTAL, Gerènt,</l>
+          <l><lb/>J. REMONDET, Empr.-Direitour.</l>
+        </lg>
+      </div>
+      <div type="article">
+        <ab><lb/>La Prouvòn o ́ Laprao. L. o. BELUG-PERONsS.<lb/>Leis Beo prouvençau.<lb/>Le Graveur Marius Reinaud. F. VIDAL.<lb/>Ah.!se moun cor avié d'alo, pouésio de T. AUDANEt,</ab>
+        <ab type="head"><lb/>ORESOENCHOU:</ab>
+        <p><lb/>Nouesto DichO. L'ESCOLO IE LAR.<lb/>Cours d'Hlistoire de la Langueet Littérature provenȩ ales.<lb/>Son Gramaci dei Laren. J.-B. Gaer.<lb/>Lou Quatren Ceotenati frances-prouvençau. Chapoli</p>
+        <p rend="styled"><lb/>GuittT.</p>
+        <lg>
+          <l><lb/>A Marseille. XAVIER DE MAALLON.</l>
+        </lg>
+        <ab><lb/>musico de G. BOREL.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Nouesto Dicho.</head>
+        <p><lb/>Bel aubre telibren, aro tai vist Nouri!</p>
+        <p><lb/>sian urous de dire emé lou capoulié Roumanille;</p>
+        <p><lb/>— lou cours d'Istòri de la Lengo e Literaturo<lb/>prouvençalo que se duerbe vuei dins la vièio ca-<lb/>pitalo dou Gai Sabé, em'à la Reino de la Mediter-<lb/>ragno, n'eu es l'espandimen coumipli, après lei<lb/>Sampau flòri de Paris, Mount-Pelié, Toulouso.</p>
+        <p><lb/>Sèmblo que nous mancavo quasimen plus qu'a¬<lb/>cò, e, bounadi lou Counsèu generau, souto la<lb/>presidènci de M. Maglione, fasènt tant bouen<lb/>acuei au vot dou valènt proufessour Gautier, pou-<lb/>dèn, à-z-Ais coumo à Marsiho, ausi parla de ço<lb/>que tant aman, siegue à la Faculta dei Letro,<lb/>siegue à-n-aquelo dei Sciènci.</p>
+        <p><lb/>E nous n'en parlara, 'm'autant d'amour que de<lb/>sabé, l'eicelènt felibre-proufessour Constans, que<lb/>lou Menistre de l'Estrucien publico a mes bèn<lb/>justamen sus la draio dei Pau Meyer, dei Cha-<lb/>baneau, dei Thomas. Lou gouvèr francés noun<lb/>poudié mies encapa: à-n-éu, en tóutei, nouéstei<lb/>meiour gramaci!</p>
+        <p><lb/>Coumo Paris, Mount-Pelié, aguent lei Revisto<lb/>savento e interessanto « Romania », « Revue Fé-<lb/>libréenne», « le Mois Cigalier », « lou Felibrige»,<lb/>la« Revue des Langues Romanes », «Occitania»,<lb/>e peréu à Pau la « Rebiste Gascoune », e à Mar-<lb/>siho lou journalet « Zou », zoubo ! avèn di, nautre<lb/>lei Laren, meten man à noueste ourgane especiau ;<lb/>daren aquito un rejounchoun dóu nouvèu cours<lb/>chasco semanado, entandóumens, ço que nous<lb/>pretoco, e dins lei letro e dins l'art, en lengo d'O<lb/>emai en francés voulountié, - car, gaire es necit<lb/>d'apoundre eiçò dóu cantaire de Mirèio:</p>
+        <p><lb/>B ni court ni coustié, sian de la grando Franço.</p>
+        <p><lb/>Noun se pou que lou francés ague relarg dins<lb/>aquest edoumadàri, estènt que, bèn d'article an-<lb/>sin, escri à Paris coumo dins lou Miejour, s'ame-<lb/>riton mai que mai desse estampa, vo tont o pèr<lb/>troues.</p>
+        <p><lb/>Dins la mesado, emé plesi metren de coumpou¬<lb/>sicien musicalo d'Audran, Borel, Granier, Poncet,<lb/>Queirel, Rolland, Thumin (pèr cita que sòt mu-<lb/>sicaire dei mai nouestre), quouro pèr galoubet,<lb/>quouro emé pouesio.</p>
+        <p><lb/>Un mot sus lei davancié, pèr acaba de moustra<lb/>nouesto toco.</p>
+        <p><lb/>En seguidode la manifestacien pouetico, à z.-Ais,<lb/>dou Roumavàgi dei Troubaire, après lou poulit<lb/>recuei que se faguè de sei p'ço, s'espandiguè eici<lb/>la fueio « le Gay Saber », souto la direicien mai<lb/><lb/>dou cabiscòu J.-B. Gaut ; pu tard, emé lei cen-<lb/>tenau de sounetaire francés e prouvençau qu'a-<lb/>duguè d'en pertout un sòci eminènt, - A. de Ga-<lb/>gnaud, — quatre an pareissè l'« Almanach du<lb/>Sonnet », ounte coungreiè l'auto idèio dou Cente-<lb/>nari de Petrarco e d'autrei Festo Latino qu'oubli-<lb/>daren jamai.</p>
+        <p><lb/>Lou journau «lou Prouvençau », dei bràvei<lb/>Frizet e de Vilonovo, fasié alor lego en nouesto<lb/>ciéuta capouliero deis obro de l'esperit e dou beu;<lb/>pièi, venguè « lou Brusc », acamp dou Felibre<lb/>d'Entre-Mount, que mantenguè proua lou reca¬<lb/>heu.</p>
+        <p><lb/>Evaquito: à lEscolo de Lar, au-jour-d'uei se<lb/>sian di qu'aquelo richo boulegadisso per lei letro<lb/>e l'art dóu Pais ama noun devié bóuca ; tambèn,<lb/>fisançous sus la bello ajudo dei bouen Prouvençau,<lb/>coumo en tant d'ami de la Causo sacrado d'esto<lb/>pichoto patrio, publican, plen de voio e 'mé grand<lb/>gau, la Semanado literàri e artistico.</p>
+        <p><lb/>En avans! veiren Berro...</p>
+        <ab><lb/>L'ESCOLO DE LAR.</ab>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>COURS D'HISTOIRE DE LA LANGUE ET LITTÉ-<lb/>RATURE PROVENÇALES.</ab>
+        <p><lb/>C'est aujourd'hui, jeudi, à 8 heures 3/4 du soir, à<lb/>la Faculté des Sciences de Marseille, et demain,<lb/>vendredi, à 4 heures 3/4 du soir, à la Faculté des<lb/>Lettres d'Aix, que M. L. Constans doit ouvrir son<lb/>cours d'Histoire de la langue et littérature proven-<lb/>çales. Le savant professeur, lauréat de l'Académie<lb/>française, se propose de traiter de « l'Epopée pro-<lb/>vençale ».</p>
+        <p><lb/>Nous n'insistons pas sur l'intérêt que présente un<lb/>pareil sujet. Tous nos lecteurs voudront entendre<lb/>exposer, sur cette question si controversée, les der¬<lb/><lb/>niers résultats obtenus par la critique française et<lb/>étrangère. Nous donnerons, du reste, à cette place,<lb/>toutes les semaines, un compte rendu succinct de<lb/>chaque leçon, afin que les personnes qui seront<lb/>empêchées d'ussister au cours puissent s'en faire<lb/>une idèe exacte.</p>
+        <note type="handwritten"><lb/>f2</note>
+        <p><lb/>A ce sujet, ce n'est peut-être pas inutile de pré-<lb/>munir le public contre une erreur dans laquelle,<lb/>paraît-il, sont tombées quelques personnes en lisant<lb/>sur les affiches le titre du nouveau cours. Il ne sau-<lb/>rait être question, pour le moment du moins, d'é-<lb/>tadier les maîtres de la Renaissance provençale,<lb/>Mistral, Roumanille, Aubanel, etc. Il s'agit, croyons-<lb/>nous, de faire connaître au grand public les œuvres<lb/>qui ont fourni, en partie, aux fondateurs du Féli-<lb/>brige la forme dont ils revêtu les sublimes ou gra-<lb/>cieuses inspirations de leur génie, les sources où<lb/>devraient aller puiser sans cesse leurs disciples pour<lb/>maintenir et dévèlopper, dans notre belle langue<lb/>provençale, ses qualités essentielles, et surtout l'o-<lb/>riginalité qui fait sa principale force et lui donne le<lb/>Proit d'exister à côté de la langue officielle. Il s'agit<lb/>2<lb/>aussi d'entrenir le patriotisme local bien entendu,<lb/>en rajeunissant les vieilles gloires littéraires et his-<lb/>toriques du Midi, et en particulier de la Provence.</p>
+        <p><lb/>C'est là une noble tàche, bien digne des efforts<lb/>de tous ceux qui aiment leur pays, et dans laquelle<lb/>nos concitoyens tiendront à honneur d'aider le mo<lb/>deste et laborieux érudit qui a cru devoir l’accepter,<lb/>par dévouement pour la science et pour les intérêts<lb/>intellectuels et moraux de la région provençale.</p>
+        <ab><lb/>J. REMONDET.</ab>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>Conseil général des Bouches-du-Rhône.<lb/>SESSION ORDINAIRE DE 1888.</p>
+        <p rend="styled"><lb/>Extrait de la séance du 11 avril 1888.</p>
+        <p><lb/>VOSU TENDANT A LA CHÉATION, AVEC LE CONCOCRS DE L'ETAT,<lb/>D'UN COURS COMPLÉMENTAIRE DE LA LANOUE ET LITTÉRA-<lb/>TCAE PROVENÇALES A LA FACULTÉ DES LETTRES D'AIX.</p>
+        <p><lb/>M. Guibert expose que le Conseil général a été saisi<lb/>d'une proposition relative à la création d'un cours com-<lb/><lb/>plémentaire d'histoire de la langue provençale. La<lb/>commission a décidé que le meilleur rapport qui pou-<lb/>vait être fait de cette affaire était la lecture du vœu<lb/>lui-même, vœu que voici:</p>
+        <p rend="labelled"><lb/>«Attendu que l'étude historique de la tangue et de<lb/>la littérature provençales a sa place marquée au sein<lb/>des Facultés d'Aix, dans la ville qui a été si longtemps<lb/>la capitale de la Provence:</p>
+        <p rend="labelled"><lb/>«Attendu que déjà le Conseil général de la Haute-<lb/><lb/>Garonne a créé unc chaire de la langue et littérature<lb/>provençales à la Faculté des Leures de Toulouse;</p>
+        <pb facs="0002.xml"/>
+        <fw type="runningTitle"><lb/>LA semanaDo</fw>
+        <p rend="labelled"><lb/>« Attendu que de tous côtés le gouvernement et les<lb/>corps élus s'associent à ce mouvement de rénovation<lb/>des étndes historiques qui permettra d'approfondir nos<lb/>origines nationales, et qu'à ce point de vue le magni¬<lb/>fique développement de la littératore provençale au<lb/>moyen âgo est un objet d'études des plus intéressants;</p>
+        <p><lb/>« Attendu que depuis longtemps un grand nombre<lb/>d'universités étrangères prenant, sur ce point, une ini-<lb/>tiative qui aurait dù être réservée à noire pays, ont<lb/>consacré des chaires nombreuses à l'enseignement de<lb/>la langue et littérature française et provençale au<lb/>moyen âge, et que l'on peut citer comme exemples,<lb/>notamment, les Universités de Berlin, Halle, Marbourg,<lb/>Vienne, Milan, Rome, Promingue, Upsal, etc.;</p>
+        <p rend="labelled"><lb/>« Le Conseil général des Bouches-du-Rhône émet le<lb/>vœeu qu'un cours d'histoire de la langue et littérature<lb/>provençale soit créé à la Faculté des Lettres d'Aix;</p>
+        <p><lb/>« Prend l'engagement de contribuer aux frais que<lb/>nécessitera ce cours par une allocation dont le montant<lb/>sera ultéricurément déterminé par une entente avec<lb/>M. le Ministre de l'Instruction publique.</p>
+        <p rend="labelled"><lb/>« Ont signé: A. GAUTIER, F. CAIRE, AILLAUD. »</p>
+        <p><lb/>Votre commission estime qu'il y a lieu d'adopter le<lb/>voeu et de renvoyer á̀ la session d'août la solution de la</p>
+        <p><lb/>M. Estier ne combat pas le vœu, auquel il se rallie<lb/>volontiers, mais il désirerait que le Conseil général prit<lb/>d'ores et déjà l'engagement de faire faire ce cours à<lb/>Marseille, tout en indiquant que le professeur restera<lb/>nominalement attaché à la Faculté des Lettres d'Aix.</p>
+        <p><lb/>M. Gautier dit qu'il est facile de donner satisfaction<lb/>à M. Estier, car l'honorable conseiller croit savoir que<lb/>l'administration supérieure a l'intention de faire faire<lb/>ce cours à Aix et à Marseille par le même professeur.<lb/>C'est ce que font du reste les professeurs de droit public<lb/>et administratif et d'économie politique.</p>
+        <p><lb/>M.B. Abram répond qu'il ne faut pas qu'il y ait divi-<lb/>sion sur une question de cette nature. Le cours ne sera<lb/>l'apanage d'aucune ville, pas plus de Marseille que<lb/>d'Aix. Il n'y a donc qu'à voter l'utilité de ce cours.</p>
+        <p><lb/>Le rapport de M. Guibert est adopté.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Lou Gramaci dei Laren.</head>
+        <p><lb/>En fin abriéu d'aquest'an, la crescien d'un cours de<lb/>literaturo prouvençalo a-z-Ais e à Marsiho èro á pau<lb/>près derida, emai noun siguèsse encaro istitur.</p>
+        <p><lb/>A-n-aquelo nouvello, lei sòci de l'Escolo felibreaco<lb/>de Lar, de nouesto vilo, s'acampèron en taulejado, souto<lb/>la presidènci de M. J.-B. Gaut, cabiscou dei Laren,<lb/>pèr festeja l'urous evenimen literàri. M. Cmnstons, prou-<lb/>fessour de literaturo latino à la Faculta dei Letro d'Ais,<lb/>prepansa per lon nouveu cours, ero, à taulo, à la<lb/>drecho dou presidènt.</p>
+        <p><lb/>A l'ouro dei brinde, quouro M. Constans aguè anoun¬<lb/>cia mounte n'èro l'afaire, lon cabiscou sefaguè foneço<lb/>aplaudi em aquest « Gramaci, que noun ero destina</p>
+        <lg>
+          <l><lb/>Antan, la lengo prouvençalo.</l>
+          <l><lb/>Lou dous parla dei Troubadour.</l>
+          <l><lb/>Ero la lengo universalo,</l>
+          <l><lb/>Subre-tout aquelo dei court.</l>
+          <l><lb/>Dintre l'Europo emai l'Asio.</l>
+          <l><lb/>S'espandissié sa pouesio:</l>
+          <l><lb/>Dei beu lengàgi èro la four.</l>
+        </lg>
+        <lg>
+          <l><lb/>Gisclant 'mé la sabo latino,</l>
+          <l><lb/>Dou cepoun de l'aubre rouman,</l>
+          <l><lb/>Avènt la ramo verdo e fino,</l>
+          <l><lb/>Lou fres espandimen qu'aman.</l>
+          <l><lb/>S'ausié sempre, dins sei brancàgi.</l>
+          <l><lb/>L'auceliho au linde ramàgi</l>
+          <l><lb/>Qu'encantavo l'àgi mejan.</l>
+        </lg>
+        <lg>
+          <l><lb/>Emé l'estrambord dei Troubaire</l>
+          <l><lb/>S'envoulavo, dins soun belu,</l>
+          <l><lb/>Br'envané dei gali cantair</l>
+        </lg>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>Chapòli GULLLIBERT,</ab>
+        <ab type="head"><lb/>Lou Quatren Centenari francés- prouveņu.</ab>
+        <lg>
+          <l><lb/>Avèn dos lengo e fen qu'un cor,</l>
+          <l><lb/>Sian li bon Francés de Prouvènço;</l>
+          <l><lb/>Festejan 'quest soulenne acord</l>
+          <l><lb/>D'avé dos lengo emai qu'un cor.</l>
+          <l><lb/>Vaqui quatre cents an, qu'en Cor.</l>
+          <l><lb/>Avèn vougu, rèire e jouvènço</l>
+          <l><lb/>Parla dos lengo, èstre qu'ua cor,</l>
+          <l><lb/>E faire qu'un, Franço e Prouvèrço.</l>
+        </lg>
+        <p rend="styled"><lb/>Conse secretari de Laren.</p>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Li durbié lei pourtissou blu.</l>
+          <l><lb/>Uno alenado celestialo</l>
+          <l><lb/>De-longo enauravo soun alo.</l>
+          <l><lb/>LDeis autre pouèto èron mut.</l>
+        </lg>
+        <lg>
+          <l><lb/>Sout lou desbord dei lengonovo</l>
+          <l><lb/>S'assoulèron sei dous prepaus.</l>
+          <l><lb/>Soumihavo dins soun alcovo,</l>
+          <l><lb/>Noun pou mouri lou prouvençau !</l>
+          <l><lb/>Coumo un aucèu subre la branco,</l>
+          <l><lb/>Wressa dintre lei clarour blanco,"</l>
+          <l><lb/>Toustèms se pausavo amoundaut,</l>
+        </lg>
+        <lg>
+          <l><lb/>Vnei, vesèn sa desrevihado,</l>
+          <l><lb/>Pertout renaisson sei cansoun.</l>
+          <l><lb/>Sus la torro meravihado</l>
+          <l><lb/>Enebrié sa reflouresoun.</l>
+          <l><lb/>Felibre, felen dei Troubaire,</l>
+          <l><lb/>Aro fès mai restounti l'aire</l>
+          <l><lb/>De cant empli de cremesoun.</l>
+        </lg>
+        <lg>
+          <l><lb/>Quinto espetaclouso espandido</l>
+          <l><lb/>Aubouro lei pople countènt !</l>
+          <l><lb/>Quouro nouesto lengo embandido,</l>
+          <l><lb/>Fent la glòri de noueste tèms,</l>
+          <l><lb/>A-Z-Ais, l'anciano capitalo,</l>
+          <l><lb/>Pèr uno chabènço fatalo,</l>
+          <l><lb/>Lou prouvençau n'èro plus rèn.</l>
+        </lg>
+        <lg>
+          <l><lb/>Dourmié peréu dins la Prouvènço</l>
+          <l><lb/>Noueste bèu lèngàgi. Degun</l>
+          <l><lb/>Dins lei coupo de la jouvènco</l>
+          <l><lb/>N'en vujavo lei dous prefum,</l>
+          <l><lb/>Quand, dins l'Europo e l'Americo,</l>
+          <l><lb/>Nouesto flouresoun pouẽtico</l>
+          <l><lb/>S'esparpaiaco au larg, au lun!</l>
+        </lg>
+        <lg>
+          <l><lb/>Bicí dovalavo à la baisso</l>
+          <l><lb/>Noueste parla tant melicous.</l>
+          <l><lb/>D'aquéu desden, d'aquelo laiso</l>
+          <l><lb/>Lou pais éro vergougnous.</l>
+          <l><lb/>Au-jour-d'uei, auxso mai la testo,</l>
+          <l><lb/>E dintre la Prouvènço en festo</l>
+          <l><lb/>Lou flume reprendra soun cous.</l>
+        </lg>
+        <lg>
+          <l><lb/>Despartamentalo sesiho,</l>
+          <l><lb/>E grand baile de l'Estrucien.</l>
+          <l><lb/>De nouesto antico pouesio</l>
+          <l><lb/>De la flous d'aquesto nacien,</l>
+          <l><lb/>Vautre ajudas la reneissenço.</l>
+          <l><lb/>a nde sbaci lPouvenço</l>
+        </lg>
+        <lg>
+          <l><lb/>Souto lei rai de Santo Estello,</l>
+          <l><lb/>La sciènci va durbi, dins Ais,</l>
+          <l><lb/>Un santuàri, uno capello</l>
+          <l><lb/>Que trelusira mai que mai.</l>
+          <l><lb/>Dins Ais, uno voues saberudo</l>
+          <l><lb/>Ensegnara la lengo aludo,</l>
+          <l><lb/>Lou gai sabé, 'mé soun bouen biais.</l>
+        </lg>
+        <lg>
+          <l><lb/>Aussito, la recouneissenço</l>
+          <l><lb/>Fa noueste acamp siave e seren.</l>
+          <l><lb/>Dins lou parla de la Prouvènço,</l>
+          <l><lb/>Brindan, 'mé lou vin felibren ;</l>
+          <l><lb/>Cantan urous à la taulado.</l>
+          <l><lb/>Noueste bello felibrejado</l>
+          <l><lb/>Es lou gramaci dei Laren.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LA PROuVENÇO A LAPRADO</head>
+        <lg>
+          <l><lb/>Toun Fourez aguè ta primo sesoun,</l>
+          <l><lb/>Emai toun radié pantai, o Laprado:</l>
+          <l><lb/>Mai noste soulèu, nòstis Aup daurado</l>
+          <l><lb/>Pèron ta jouvènço e ta granesoun.</l>
+        </lg>
+        <lg>
+          <l><lb/>Tambèn, sies esta felibre un brisoun,</l>
+          <l><lb/>B pèr vòire encuei ta glòri enaurado</l>
+          <l><lb/>O noste inmourtau e bon cambarado,</l>
+          <l><lb/>Landon nosti cor de-vers Mount-Brisoun.</l>
+        </lg>
+        <lg>
+          <l><lb/>Entre dous parla bessoun sies lou liame,</l>
+          <l><lb/>Vaqui pèr-de-que iéu t'amire e t'ame</l>
+          <l><lb/>E mescle à ti four mis umbli perfum.</l>
+        </lg>
+        <lg>
+          <l><lb/>Davans l'estrangié sourne que nous guèiro,</l>
+          <l><lb/>Moustraren que long Rose emai long Leiro,</l>
+          <l><lb/>Francés d'oc e d'oil acot es tout un.</l>
+        </lg>
+        <ab><lb/>L. DE BERLUC-PERUSSIS.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>ACADÈMI DEIS ART E BÉLLEI-LETRO DE MARSIHO.<lb/>Joio, soulas e passo-tèms de tout lou pople dóu Miejour.<lb/>LEI PRES ACUSTE-TNOMIN. — Satrovo dins la</ab>
+        <ab type="head"><lb/>Leis Ecò prouvençau.</ab>
+        <p><lb/>LA FACULTA DEIS ART. — A la rintrado soulenno<lb/>dei Faculta, M. lou Reitour de l'Acadèmi a legi<lb/>un chapitre dei mai curiéus d'un livre que se va<lb/>estampa. Aquélei pajo sus la Faculta deis Art,<lb/>à-z-Ais, au siècle passa, fan bravamen desira la<lb/>publicacien de l'óubràgi sus l'Universita de Prou-<lb/>venço dóu saberu autant que simpati reitour M.</p>
+        <figure type="decoration"/>
+        <p><lb/>– Dins sa sesiho dou 23 de nouvèmbre, la dóuto<lb/>Coumpagnié a decerni lou 1u pres (de Villars) à<lb/>noueste jouve soci Laren Savié de Magallon, pèr<lb/>sa pouèsio « Notre-Dame de la Garde.»</p>
+        <p><lb/>L'odo « le Mistral », dóu meme pouèto, a agu<lb/>tambèn un pres ansin, à Marsiho ; e vaqui doui<lb/>courouno nouvello, au coup, sus la tèsto dóu can-<lb/>taire que counquistavo à Paris, au councours Au¬<lb/>banel, la bello proumiero joio!</p>
+        <figure type="decoration"/>
+        <p><lb/>L'ARMANA PROUVENÇAU. — LOu bouen librihoun<lb/>va faire tourna-mai, en 1889, an trento-cinquen</p>
+        <p><lb/>Que voulès mai dire? Pregan Diéu que tengue<lb/>encaro au mens quinge an: alor, de sauta au coui<lb/>de l'editour-capoulié Roumanille, nautre</p>
+        <quote><lb/>Lei gai Felibre prouvençau.....</quote>
+        <figure type="decoration"/>
+        <p><lb/>EsCOLO DE MARSIHO. — Lei Felibre de la Mar<lb/>soun en fèsto, dimenche 9 de desèmbre, à 7 ouro<lb/><lb/>e miejo de nue (Hôtel de Marseille), à l'óucasien)<lb/>de l'acoumençanço dou cours de literaturo prou-</p>
+        <p><lb/>La counvidacien ei counfraire pouerto justamen<lb/>que lou felibre Constans sara lou rèi de la fèsto,<lb/>felibrejado que fa bèn sounja à la calanco, em' au<lb/>cant d'Astruc e d'Huot:</p>
+        <lg>
+          <l><lb/>Vous vegon matinié.</l>
+        </lg>
+        <figure type="decoration"/>
+        <p><lb/>darriero livresoun de la « Revue Sextienne » un<lb/>article sus lou Boui -Abaiss, tant coungousta;<lb/>es uno bibliougrafio tir ado à despart, emé la poue-<lb/>sio abord remarcado «la Gibouso», paraulo e mu¬</p>
+        <pb facs="0003.xml"/>
+        <fw type="runningTitle"><lb/>lA SEMANADO</fw>
+        <ab><milestone unit="column" n="2"/><lb/>.<lb/><lb/><lb/>Paradi<lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/></ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>César les abattit, mais non point ta fierté.<lb/>Libre tu voulais vivre ou libre au moins mourir:<lb/>Putôt que d'être serve, on t'aurait vu courir<lb/>Au flot qui noie ainsi qu'il lave:<lb/>Liberté! si ce mot venait à résonner.<lb/>Ville, en toi tu sentais ton peuple bouillonner.<lb/>Comme le Vésuve, sa lave!<lb/>Il eut parfois, ton peuple, en ses rébellions,<lb/>Le grand rugissement et le bond des lions !<lb/>Mais, ò cité, pour tes pareilles,<lb/>La gloire ce n'est pas d'être le lieu clément<lb/>Ou l'on repose et mange, où l'on vide gaiement<lb/>De larges coupes sous les treilles.....<lb/>La gloire, c'est de voir ceux qu'elles ont nourris,<lb/>Lorsqu'ils ne s'en vont pas, matelots aguerris,<lb/>Sur les vogues intimidées,<lb/>Et si d'autres combatss ne les réclament point,<lb/>Combattre encor, - toujours! - leur étendart au poing.<lb/>Dans la bataille des idées.<lb/>Plus d'un suivra l'erreur, par ses songes trompé,<lb/>Mais, du ter par le fer dans les luttes frappé,<lb/>Le vrai jaillit, cette étincelle!<lb/>Et qu'importe? pourvu que des males discours<lb/>Et des beaux vers en qui, souffle d'en haut, tu cours,<lb/>La source sans cesse ruisselle!<lb/>Mais, ville, tu le sais, l'art seul est immortel:<lb/>Que tes enfants jamais n'en délaissent l'autel!<lb/>Rends leur langue prompte et hardie,<lb/>Leur bouche harmonieuse, afin que, si parfois<lb/>Dans tes conseils du peuple ils élèvent la voix,<lb/>Leur parole soit applaudie !<lb/>L'on a pu réfréner le cours de tes destins,<lb/>Mais non pas rétrécir les horizons lointains:<lb/>Sur la mer qui rit ou sanglotte,<lb/>Continue à tracer. ò ville, tes sillons,<lb/>Et qu'il n'en soit aucun où de tes pavillons<lb/>L'ombre triomphale ne flotte!<lb/>Il te reste tes ports et ton firmament clair.<lb/>Ses murmures de brise et de vaguo dans l'air</ab>
+        <ab type="head"><lb/>a MaRSEilLe<lb/>sico d'En Thumin, e fieramen virado en vers<lb/>francés pèr C. Hennion</ab>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>J'ai rêvé de louer, ó ville, en larges vers</l>
+          <l><lb/>Dont j'ornerais ton front comme de rameaux verts,</l>
+          <l><lb/>Tes flottes que l'orage enchante,</l>
+          <l><lb/>Les aspects variés de tes claits horizons,</l>
+          <l><lb/>Ton passé, cycle auguste aux fécondes saisons,</l>
+          <l><lb/>Ton golfe qui hurle et qui chante.</l>
+        </lg>
+        <lg>
+          <l><lb/>Comme il est loin le temps de ceux qui, les premiers.</l>
+          <l><lb/>Firent plier tes bords, propices aux palmiers,</l>
+          <l><lb/>Sous des autels et des quadriges,</l>
+          <l><lb/>Quand la brune Gyptis au plus beau de leurs chefs</l>
+          <l><lb/>Eut offert, pour fixer les vagabondes nefs,</l>
+          <l><lb/>La bague d'or des Ségobriges!</l>
+          <l><lb/>Tu grandis et voilà qu'ils veulent t'étouffer,</l>
+          <l><lb/>Par une vierge encore il te faut triompher :</l>
+          <l><lb/>Ette rompit leur ligue infâme ;</l>
+          <l><lb/>Comme une double étoile, augure fortuné,</l>
+          <l><lb/>Ainsi, sur ton berceau, Marseille, ont rayonné</l>
+          <l><lb/>Deux sourires de jeune femme!</l>
+          <l><lb/>Virant leurs toits de brique aux flots étincelants,</l>
+          <l><lb/>D'autres cités bientôt naquirent de tes flancs</l>
+          <l><lb/>Le long de la chaude Corniche.</l>
+          <l><lb/>Et chacune épandait, sur les coteaux voisins,</l>
+          <l><lb/>L'ombre des oliviers, la pourpre des raisins,</l>
+          <l><lb/>Les blés, où l'alouette niche.</l>
+          <l><lb/>Plus rapides au vol que les goénlands blanes,</l>
+          <l><lb/>Tes navires, légers coureurs des flots tremblants,</l>
+          <l><lb/>Jetaient l'ancre en chaque mouillage.</l>
+          <l><lb/>Et Tyr, dont les marins en versèrent des pleurs,</l>
+          <l><lb/>Syracuse et mainte autre ont souffert que les leurs</l>
+          <l><lb/>Suivissent des tiens le sillage.</l>
+          <l><lb/>Experte aux jeux de l'arc et du glaive acéré,</l>
+          <l><lb/>Rome te chérissait comme une sceur... Malgré</l>
+          <l><lb/>Le grand cœur qui battait en elle,</l>
+          <l><lb/>Lorsque sous le fardeau d'un monde elle ployait,</l>
+          <l><lb/>Parfois la ville aux sept collines s'appuyait</l>
+          <l><lb/>Sur ton épaule fraternelle.</l>
+          <l><lb/>Portant haut ton beau front, de lumière casqué,</l>
+          <l><lb/>Tu haissais Carthage au visage masqué</l>
+          <l><lb/>Et ses paroles ambigues; —</l>
+          <l><lb/>Au moment ou les dieux même les méprisaient,</l>
+          <l><lb/>Toi, seule avec Caton, vos ámes se plaisalent</l>
+          <l><lb/>A suivre les causes vaineues.</l>
+        </lg>
+        <p><lb/>Nous es un devé e un plesi, peréu, de tira eiçò<lb/>beu de la Revisto caçaliano:</p>
+        <quote><lb/>« Non content d'avoir fait œuvre d'écrivain, œuvre<lb/>« estimée des maitres du Gai Sabé, ce généreux pro-<lb/>« vençal a encore prouvé qu'il était un bon patriote, en<lb/>« instituant tout récemment un prix annuel de cent<lb/>« trancs pour le Félibrige et l'art provençal.»</quote>
+        <p><lb/>Felibre dou creioun, de la plumo, dou ciseu,<lb/>alestissès-vous!</p>
+        <p><lb/>E vautre, artisto dóu flahutet, vons parlaren<lb/>mies bèn-leu dei pres Couve e la Coumpagno.</p>
+        <figure type="decoration"/>
+        <p><lb/>FÉLIBRÉE DE LABRILLANE. — Just parèis lou<lb/>comte rendu d'uno journado de marco, mai, pèr<lb/>lou Felibrige deis Aup e l'Ateneu de Fourcauquié.<lb/>Voudrian, en citant lou baile de Berluc-Perussis,<lb/>lou counseié Granier, lou cabiscòu Maurel, lou<lb/>presidènt Plauchud, dire la part presso aqui pèr<lb/>lei coumpan de la Mar, de Lar, de la Mountagno.<lb/>Nous menarié tròu luen: voulèn que nouta la<lb/>Muso franceso de Dono Joulio Fertiault : es lou<lb/>prefum d'aquéu librihoun, veritable pendènt de la<lb/>« Félibrée de Saint-Clément», — autro journado<lb/>de marco enco dóu gênt secretari deis Aup, de<lb/>Ganteume d'Ille.</p>
+        <lg>
+          <l><lb/>Après avoir brisé leurs armes dans leurs mains,</l>
+          <l><lb/>Quand Brennus à la gorge étreignait les Romains,</l>
+          <l><lb/>Tu leur as tendu ton épée ;</l>
+          <l><lb/>Très-haut lorsque le monde entier les eut trabis,</l>
+          <l><lb/>Toi seule osas, devant les lâches ébahis,</l>
+          <l><lb/>Brandir les drapeaux de Pompée!</l>
+        </lg>
+        <lg>
+          <l><lb/>Il fit de tes remparts un débris, mais, cite,</l>
+          <l><lb/>Ceux-mêmes qui les renversèrent</l>
+          <l><lb/>De l'immortel honneur furent aussi témoins:</l>
+          <l><lb/>Si ton cou plia sous le joug, tes veux du moins,</l>
+          <l><lb/>Tes yeux jamais ne se baissèrent.</l>
+        </lg>
+        <lg>
+          <l><lb/>Tu fus, jeune guerrière éprise des hasards,</l>
+          <l><lb/>Ambitieuse encor de la splendeur des arts:</l>
+          <l><lb/>Les poètes, grands chez les hommes,</l>
+          <l><lb/>Florissaient sur ton sol, et les fiers orateurs</l>
+          <l><lb/>Qui des parages bas aux lointaines hauteurs,</l>
+          <l><lb/>Trainent le troupeau que nous sommes.</l>
+        </lg>
+        <lg>
+          <l><lb/>Bien des siècles après le dur événement,</l>
+          <l><lb/>Française on te revit, gardant superbement</l>
+          <l><lb/>Une amitié de date fraiche,</l>
+          <l><lb/>Contre un autre vainqueur aux gestes triomphants,</l>
+          <l><lb/>Envoyer tes vieillarus, envoyer tes enfants,</l>
+          <l><lb/>Ruer tes filles sur la brèche.</l>
+        </lg>
+        <lg>
+          <l><lb/>Si tu connus aussi la longue adversité,</l>
+          <l><lb/>Si tu dormis parfois ton sommeil, ò cité,</l>
+          <l><lb/>Ce fut à la façon des chénes</l>
+          <l><lb/>Dont l'hiver, qu'on croirait devoir les engourdir,</l>
+          <l><lb/>Fait afluer la sève et les forces grandir</l>
+          <l><lb/>Pour les saisons d'amour prochaines.</l>
+        </lg>
+        <lg>
+          <l><lb/>Tu ne peux plus lancer tes marins aux assauts,</l>
+          <l><lb/>Ville, ni voir, rentrant du large, tes vaisseaux</l>
+          <l><lb/>Plier sous le poids des trophées:</l>
+          <l><lb/>C'est le destin commun et tu le subiras.</l>
+          <l><lb/>Dans des embrassements trop vastes pour leurs bras,</l>
+          <l><lb/>Les races meurent étouffées.</l>
+        </lg>
+        <lg>
+          <l><lb/>Qui lorsque l'ombre au loin surplombe</l>
+          <l><lb/>Les vals où Dieu te berce en un rêve enchanté,</l>
+          <l><lb/>Semblent, tant ils sont doux, pendant les nuits d'été,</l>
+          <l><lb/>Des roucoulements de colombe.</l>
+        </lg>
+        <lg>
+          <l><lb/>Il te reste tes fils, dompteurs des grandes eaux,</l>
+          <l><lb/>Qui, la mer se cabrant, la frappent aux naseaux</l>
+          <l><lb/>Et ne cèdent point devant elle,</l>
+          <l><lb/>Et tes filles dont l'air est tel qu'on les prendrait,</l>
+          <l><lb/>Si le sang, sous leur chair, comme un feu ne courait,</l>
+          <l><lb/>Pour des marbres de Praxitèle!</l>
+          <l><lb/>Tout ce qui fait la joie et l'honneur des cités</l>
+          <l><lb/>Ábonde dans tes murs que l'histoire a vantés.</l>
+          <l><lb/>Sans inquiétude qui creuse</l>
+          <l><lb/>A ton front orgueilleux de femme grecque un pli,</l>
+          <l><lb/>Dans l'azur, que le bruit de ta gloire a rempli,</l>
+          <l><lb/>Sois fière, ó ville, et sois heureuse !</l>
+          <l><lb/>Moi, je t'oftre ces vers ainsi qu'un fils pieux.</l>
+          <l><lb/>L'aspect de tes maisons, de ta mer, de tes cieux</l>
+          <l><lb/>Sans cesse à mes yeux tourbillonne</l>
+          <l><lb/>A vec ton grand soleil de flammes t'inondant ;</l>
+          <l><lb/>Mon cour, plein de lumière, est un autel ardent:</l>
+          <l><lb/>Ton image, o ville, y rayonne!</l>
+        </lg>
+        <ab><lb/>XAvier DE MACALLON.</ab>
+        <figure type="decoration"/>
+      </div>
+    </body>
+  </text>
+</TEI>

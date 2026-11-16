@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Gau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8138458r</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Gau : revisto mesadiero pèr li revendicacioun de la lengo prouvençalo à l'escolo, dins la cadiero e à la tribuno poupulàri : parèis lou 15 de chasque mes / secretàri dóu Gau D. Savié de Fourviero</title>
+          <publisher>[s.n.] (Tarascoun-sus-Rose)</publisher>
+          <date when="1908-11-01">1908</date>
+          <idno type="ARK">bpt6k8138458r</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8138458r</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <milestone unit="page" n="157"/>
+        <fw type="runningTitle"><lb/>ANNADO DOUGENCO</fw>
+        <dateline><lb/>1^é de NOUVEMBRE de 1908</dateline>
+        <figure/>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>CANTAIRE DI REVENDICACIOUN PROUVENÇALO</p>
+        <p rend="heading"><lb/>à l'Escolo, dins la Cadiero e à la Tribuno poupulàri</p>
+        <ab><lb/>AMENISTRACIOUN:<lb/>PAREIS LOU 1e E LOU 15 DOU MES<lb/><lb/>LI BAILE DÓU GAU:<lb/>EITOR JACOUMET<lb/>Vilo-Dieu<lb/>(Vau-Cluso)<lb/>ABOUNAMEN : 3 FRANC PER AN<lb/>D. SAVIE DE FOURVIERO<lb/>MESTE EISSETO — ANTONI BERTIE</ab>
+        <p rend="structured"><lb/>TAULETO: Li Set Saume, D. SAVIE DE FOURVIERO. — Pregaio per li Mort. — D'en Prouvenço, C. MESSELIN. — Calabrun d'Autouno,<lb/>L. F. SFENOSA.— LI Nouvè dou Fougau, LOU FELIBRE DE LA TOURRE CARRADO.— Pichoto Courrespoundènci, D. S. DE F. — Fuietoun:<lb/>Margai, BOUNET L'EINAT.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Touro-louro-louro! lou gau canto<lb/>E n'es pas encaro jour;<lb/>leu m'envau en Terro-Santo<lb/>Pèr vèire Noste Segnour.<lb/>Vos-tu veni?<lb/>[Saume.</ab>
+        <ab type="head"><lb/>Li Set Saume</ab>
+        <p><lb/>QUAU es que noun counèis aquest moutet dou<lb/>viei Sabòli:</p>
+        <list>
+          <item>— Nani, nani !</item>
+        </list>
+        <list>
+          <item>— Vendras proun bèn</item>
+        </list>
+        <list>
+          <item>— N’en farai rèn.</item>
+        </list>
+        <list>
+          <item> Guihaume! Guihaume!</item>
+        </list>
+        <p rend="styled"><lb/>Au mens s'ieu noun torne plus, fai-me dire ùnei Set</p>
+        <ab><lb/>Saume.</ab>
+        <p><lb/>De qu'es acò, uni Sèt Saume ? Aro que sian à la<lb/>semane di Mort, en bèn lou cas de l'esplica.</p>
+        <p><lb/>Autri-fes, au bon vièi tèms que Marto fielavo —<lb/>aro debano, pecaire ! — avias pas tant, coume n’en<lb/>vesès vuei, quasimen pertout, dins li cementèri, de<lb/>toumbo clafido de flour, subre-cargado de courouno<lb/>de fiéu d’aram emné de perlo de tóuti li coulour de<lb/>l'arc-de-sedo. Avias pas tant de bouquet à l’ounour<lb/>de nòsti pauri mort, noun ! Mai ço qu’èro mai<lb/>aboundous qu’à l'ouro d’aro e subre-tout mai cres¬<lb/>tian, èro li messo dicho o cantado, èro li prègo<lb/>recitado à la memòri e pèr lou soulas di defunta. E<lb/>uno pratico, vuei aboulido quasimen o tant vau dire.<lb/>uno pratico forço en vogo, èro aquelo de la recita-<lb/>cioun di Sèt Saume de la Penitènci.</p>
+        <p rend="styled"><lb/>Guihoume! Guihaume!</p>
+        <p><lb/>Au-mens s'ieu noun torne plus, fai-me dire unei Set</p>
+        <p><lb/>Acò 'ro un dire bèn poupulàri. Vèngue Toussant,<lb/>vesias, dins li glèiso, li clerjoun s’avança dóu moun¬<lb/>de... Uno pauro véuso èro aqui, d’acouida sus un<lb/>banc, touto apensamentido, li man dins sajunchado.<lb/>Lou clerjounet s’aflatavo d’elo : — Mioun, Guerido,<lb/>éu fasié, voulès que vous digue uni Sèt Saume pèr<lb/>voste paure ome?</p>
+        <p rend="labelled"><lb/>—O, mignot ! Ah ! lou Bon Diéu l'ague en soun<lb/>Paradis !... Coumenço, moun brave drole.</p>
+        <p><lb/>E lou clerjoun contro elo s’ageinouiavo, e zóu,<lb/>vague de debana si paternejado : Domine, ne in<lb/>furore. Edebanavo, vous proumete, debanavo acò à<lb/>la lèsto ; n’en manjavo la mita. Guerido o Mioun ié<lb/>dounavon soun miè-sòu. E zóu ! lou clerjoun d’ana<lb/>vers uno autro.</p>
+        <p rend="labelled"><lb/>— Misè Ricaudo, voules que vous digue uni Sèt<lb/>Saume pèr vosto paurc maire?</p>
+        <p rend="labelled"><lb/>— Ah ! poudiés pas me faire mai de plesi.</p>
+        <p><lb/>O, digo-lèi, li Sèt-Saume... Pauro bello amo,<lb/>a</p>
+        <ab type="head"><lb/>– Domine ne in furore tuo...</ab>
+        <p><lb/>E debano que debanaras ! Ero mai leu-fa !... lèu<lb/>acabado la letanio di Sèt Saume !... Es egau, la<lb/>preguiero d’aquéli bràvi clerjoun, d’aquélis amo in¬<lb/>noucènto e naïvo, devié, lou Bon Diéu, de tout segur<lb/>l’escouta ; èro un soulas pèr lis amo éli memo, èro<lb/>un baume pèr li gènt que plouravon si mort.<lb/></p>
+        <p><lb/>En aquèu bon vièi tèms, avien fe, mai que vuei,<lb/>à la preguiero, e n’en fasien pas fauto i mort. Vesèn<lb/>meme, dins mant-e-un testamen li Sèt Saume que ié<lb/>soun menciouna. Un Jan Deidié d’Ouliéulo, au siècle<lb/>xv, qu’avié soun drole capelan, lou prègo « de<lb/>recita, emé l’óufice di Mort, li Sèt Saume pèr soun<lb/>amo. » Jan de Fourbin, de Marsiho, en soun testa-<lb/>men, marco à si tres garçoun Janet, Palamedo e<lb/>Jaumet « que cascun jour digan un set salmes, que<lb/>non los gravara gayre, car en levant e vistent, si los</p>
+      </div>
+    </body>
+  </text>
+</TEI>

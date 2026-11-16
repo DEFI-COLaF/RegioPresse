@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Gau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k9571807x</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Gau : revisto mesadiero pèr li revendicacioun de la lengo prouvençalo à l'escolo, dins la cadiero e à la tribuno poupulàri : parèis lou 15 de chasque mes / secretàri dóu Gau D. Savié de Fourviero</title>
+          <publisher>[s.n.] (Tarascoun-sus-Rose)</publisher>
+          <date when="1901-03-03">1901</date>
+          <idno type="ARK">bpt6k9571807x</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k9571807x</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>ANNADO CINQUENCO</fw>
+        <dateline><lb/>3 de MARS 1901</dateline>
+        <note type="handwritten"><lb/>1901</note>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>PROUVENÇALO<lb/>CANTAIRE DI REVENDICACIOUN</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>à l'Escolo, dins la Cadiero e à la Tribuno poupulàri</p>
+        <ab><lb/>D. SAvIE DE FOUEINRO<lb/>Abadie de Bos-Liè</ab>
+        <ab><milestone unit="column" n="3"/><lb/>L RAIE DOU GAU:<lb/>MÈSTE EISSETO — REINIÉ MOUWTAUT<lb/>D. SAVIE DE FOURVIERO</ab>
+        <p rend="heading"><lb/>AMENISTRACIOUN:</p>
+        <ab><lb/>PAREIS LOU 15 DE CHASQUE MES<lb/>ABOUNAMEN: a FRANC PER AN</ab>
+        <ab><lb/>TAULETO</ab>
+        <p><lb/>Mounsegne Roubert, D. SAVIM DE FOURVIERO. — Cantico dóu Fiéu de la Véuso de NaIm.— En Glèiso de Sant-Laurèns, L. CMIVALIE. — La<lb/>centenco Counferènci Sant-Janenco, UN EsCOUTAIRE, — Mounsen Lacrous, curat di Sant-Janen, UN SANT-JASEN. — Cansoun à M. Lacrous.<lb/>L.. EsPARIAT. — La Lengo Prouvençalo, grand cor prouvençau. — Carto poustalo, L. ROUMIEU. — Nòsti gravaduro : Mounsegne Roubert:<lb/>Resurreicioun dou jouvènt de Naim; Uno Counferènci à Sant-Laurèns; D. Savié de Fourviero; Mounsen Lacrous.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Mounsegne Roubert</head>
+        <figure/>
+        <p><lb/>1çO 's un numero<lb/>estraourdinàri, que<lb/>parèis — e sara lou<lb/>soulet d’aqueste mes<lb/>— à l'óucasioun de la<lb/>cènt-unenco counfe-<lb/>rènci dounado vuei en glèiso de<lb/>Sant-Laurèns de Marsiho.</p>
+        <figure type="decoration"/>
+        <ab><lb/>Degun mai qu'éu a soustengu<lb/>emai encouraja li Counferènci<lb/>Sant-Janenco. Venguèsse lou Ca¬<lb/>remo, se n’en fasié 'no fèsto, s'en-<lb/>trevant d’avanço di sujèt que sarien<lb/>trata e jusquo di cantico que se<lb/>cantarien. Acò l'interessavo. A<lb/>l’óucasioun, noun s'escoundié pèr<lb/>marca soun auto simpatio à nosto obro.<lb/>Lou proumier an — èro lou 14 de febrié, lou<lb/>dissate après Cèndre — nous devinavian acampa,<lb/>li predicadou de la vilo, dins uno di salo de l'eves¬<lb/>cat. pèr reçaupre lis avis e la benedicioun de</ab>
+      </div>
+      <div type="article">
+        <p><lb/>Se vai faire grand fèsto, aniue !....<lb/>Mai, paure vous! dins touto fèsto,<lb/>bello que bello, i'a sèmpre quaucun<lb/>de manco. Aquéu que nous fara<lb/>fauto vuei es noste tant ama e tant<lb/>regreta Mounsegne Roubert, mort<lb/><lb/>i'a tout-bèu-just tres mes. Alucas<lb/>aquelo bono e simpatico figuro<lb/>d'evesque. Se devino bèn à sa<lb/>plaço, boutas, en tèsto de noste Gau!<lb/>Ero l'ami, éu, de la lengo prouven¬<lb/>çalo, èro lou soustaire de nòsti<lb/>counferènci.</p>
+        <p><lb/>La lengo prouvençalo, l'amavo<lb/>mai-que-mai. N'es un testimòni, aquelo poulido<lb/>aprouvacioun, que poudès legi à la coumençanço<lb/>de noste recuei Li Cantico Prouvençau; n'es un<lb/>testimòni tambèn, aquelo magistralo epistro que<lb/>sièr de prefaci à nosto CREACIOUN Dóu MOUNDE;<lb/>n’es un testimòni enfin, aquelo<lb/>amistouso letro d’éu en responso<lb/>à-n-un sermounet que i'avian<lb/>manda : « Mon bien cher Père, je<lb/>voudrais vous remercier dans la<lb/>langue que vous savez si bien<lb/>manier. Mais je ne suis qu’un pro-<lb/>fane, ignorant le provençal; je n'ai<lb/>d'autre mérite que de le beaucoup<lb/>aimer et de faire des vœux pour que<lb/>cette belle langue ne soit point<lb/>exilée du pays ou elle a produit de<lb/>si belles auvres et où elle sait inspi-<lb/>rer de si délicieux ouvrages.»</p>
+        <figure/>
+        <ab><lb/>5oe./B̀e n Fce</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

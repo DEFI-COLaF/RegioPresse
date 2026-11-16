@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Campana de Magalouna</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7350194x</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Campana de Magalouna : journal populàri que parei lou 1è e lou 15 de toutes lous meses</title>
+          <publisher>[s.n.] (Mount-Peliè)</publisher>
+          <date when="1901-10-01">1901</date>
+          <idno type="ARK">bpt6k7350194x</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7350194x</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Desièma annada. — No 219</fw>
+        <fw type="runningTitle"><lb/>Dau 1è au 15 d'Otobra 1901</fw>
+        <p rend="styled"><milestone unit="column" n="3"/><lb/>Dounmai lé tiroun la garganta<lb/>Dounmai canta!</p>
+        <ab><milestone unit="column" n="1"/><lb/>Un double sou,<lb/>Zou! quau n'en vòu?</ab>
+        <figure/>
+        <p rend="styled"><lb/>Journal poupulàri das Felibres de Mount-Peliè que pareis de toutes lous meses</p>
+        <ab><lb/>Lous abounamens partissoun dau iè de janvié<lb/>e dau fè de juliet de chaca annada.<lb/>Mandà dèch sous per tout chanjamen d'adrèssa</ab>
+        <figure type="table"/>
+      </div>
+      <div type="article">
+        <ab><lb/>10, carrieira d'Alger, à Mount-Peliè<lb/>E noun mouriren sus la paio!</ab>
+        <ab type="head"><lb/>Aministracioun e Redacioun</ab>
+        <ab type="head"><lb/>ASSABE</ab>
+        <p><lb/>Amai n'ague pas l'èr, nosta Campaneta<lb/>countunia de faire sous afaires. Aqui que<lb/>ven de croumpà, e pagà coumtant lou Midi<lb/>Mondain, un journal qu'avèn pas besoun de<lb/>faire soun eloge e que, de soun coustat e à sa<lb/>façoun, travalha pas mau, pondès hou creire,<lb/>à l'espandimen de nostas idèias.</p>
+        <p><lb/>Nostes letous an d'alhour deja vist dins la<lb/>Campana de Magalouna que venian de foundà<lb/>una soucietat pèr aciouns e ié counselhan de<lb/>n'en prendre, que poudrièn faire, segu, un<lb/>pus michant plaçamen.</p>
+        <p><lb/>Noste assabé de ioi es pèr dire que lou sèti<lb/>de la Campana de Magalouna es ara, rue d'Al-<lb/>ger, 10, à Mount-Peliè, e qu'es aqui que déu<lb/>se mandà tout ço qu'arregarda l'aministra-<lb/>cioun e la redacioun.</p>
+        <lg>
+          <l><lb/>Femo, aurié mestié d'or: l'a tant de pleidejaire l</l>
+          <l><lb/>Es que... noste Giloun es flnocho e barjaire !</l>
+          <l><lb/>Nous rebèco pas mau : saubrié bèn rebeca !</l>
+          <l><lb/>- As resoun, dis la maire, auren un avóucat,</l>
+        </lg>
+        <lg>
+          <l><lb/>Tant fa, tant va lGiloun, l'endeman de matin,</l>
+          <l><lb/>Sus li banc de l'escolo anè gausi de braio ;</l>
+          <l><lb/>Masteguè, beu vuech an, de grè 'mé de latin;</l>
+          <l><lb/>Se gavè de geougraflo,</l>
+          <l><lb/>L'augèbro e de filonsouflo....</l>
+        </lg>
+        <lg>
+          <l><lb/>Quanid uno fes sachè que tros e dous fan cinq,</l>
+        </lg>
+        <lg>
+          <l><lb/>Que Rosa vòu dire la Roso.....</l>
+          <l><lb/>Envisca de vers e de proso,</l>
+          <l><lb/>S'entournè fièr dins sou amèu</l>
+          <l><lb/>Ounte l'esperavon soun paire</l>
+          <l><lb/>E sa maire,</l>
+          <l><lb/>Qu'avien que lis os e la pèu:</l>
+          <l><lb/>S'èron tant esquicha, pecaire !..</l>
+        </lg>
+        <lg>
+          <l><lb/>Sauvaire labouravo, e noste muscadèu</l>
+          <l><lb/>Se frisavo an montoun uni sèt à vue péu,</l>
+          <l><lb/>Sus l'auriho toujour pourtavo lou capèu.</l>
+          <l><lb/>E de tonti ll chato èro lon calignaire !</l>
+        </lg>
+        <lg>
+          <l><lb/>Oh ! mai, Giloun èro panca</l>
+          <l><lb/>Un avoucat!</l>
+        </lg>
+        <lg>
+          <l><lb/>Partiguè pèr Paris... Esquich»-te, Sauvaire !</l>
+          <l><lb/>An! bràvi gènt, fau rustica!</l>
+          <l><lb/>Voste drole es un travaiaire !</l>
+          <l><lb/>Estùlio li cinq code.... en dansant la polki !....</l>
+          <l><lb/>E pièi, tóuti li quingenado,</l>
+          <l><lb/>Uno letro venié: Je suis un brave enfant.....</l>
+          <l><lb/>Faites-moi le plaisir d'envoyer de l'argent....</l>
+          <l><lb/>Veguen, encaro uno esquichado!</l>
+        </lg>
+        <lg>
+          <l><lb/>E pièl, fiuguè vèndre lou prat,</l>
+          <l><lb/>E pièi... dis amourié la poulido plantado!</l>
+          <l><lb/>Basto ! ié restè rèn.... que lis iue pèr ploura!</l>
+          <l><lb/>- Eh ! bèn, fasié Nanoun, te lou dislén, Sauvaire!</l>
+          <l><lb/>— De que ploures, bestiasso? auren un avoucat.</l>
+          <l><lb/>Femo, aura mestié d'or: l'a tant de plei lejaire !...</l>
+          <l><lb/>E Giloun, que fasié? Dansavo la polka!</l>
+        </lg>
+        <lg>
+          <l><lb/>Fau vous dire pamens qu'à cha cènt, dous cènt franc,</l>
+          <l><lb/>Uno pichoto vigno es bèn lèu avalado ;</l>
+        </lg>
+        <lg>
+          <l><lb/>L'esperèron long-tèms, mai en van l'esperèron,</l>
+          <l><lb/>E noun veguèron que l'ussiá</l>
+          <l><lb/>Que mascarè forço papié !...</l>
+          <l><lb/>E, paure coumo Jo, li dous vièi s'enanéron,</l>
+          <l><lb/>Lis iue tóuti plourous, lou cor endoulouri.</l>
+          <l><lb/>Pecaire ! à l'espitau Nanoun ane mouri....</l>
+        </lg>
+      </div>
+      <div type="article">
+        <head><lb/>ממ</head>
+        <p><lb/>Nous an souvent domandat de publicà dins la Campana<lb/>la poulida pèça « Se n'en fasian un avoucat?» de<lb/>Jousè Roumanille, lou paire ilustre dau Felibrige, l'es-<lb/>crivan poupulàri que, tant en vers qu'en prosa, es estat<lb/>un grand mèstre de la lenga prouvençala.</p>
+        <p><lb/>Amai noste journalet siègue coviusacrat qu'à la lenga<lb/>d'aici, poudèn pas pamens nous refusà au desir espromit<lb/>pèr lous bons amics que disèn. E pioi, pèr la mourala<lb/>que fai caupre, aquela pèça de Roumanille poudriè jamai<lb/>èstre prou proupaga la. La vejaici doune:</p>
+      </div>
+      <div type="article">
+        <head><lb/>SE N'EN FASIAN UN AVOUCAT</head>
+        <lg>
+          <l><lb/>Un jour, un meinagié que ié disien Sauvaire</l>
+          <l><lb/>A sa femo venguè: — Nanoun, siéu en soucit.</l>
+          <l><lb/>— Qu'as? — Giloun es grandet: sabe pas que n'en faire...</l>
+          <l><lb/>Siéu à moun aise, dóumaci</l>
+          <l><lb/>Sian esta tóuti dous abarous, espargnaire.</l>
+          <l><lb/>Esquichen-nous un pau pèr buta noste enfant</l>
+          <l><lb/>Vaudrié-ti pas miés que fuguèsse ... noutàri,</l>
+          <l><lb/>Qu'un pèd-terrous e qu'un pacan ?</l>
+          <l><lb/> Beu ! léu, amariéu mai n'en faire un capel n</l>
+          <l><lb/>— Pèr rebouli de fam e mouri segoundàri ?</l>
+          <l><lb/>Crèi me, Nanoun, sarié pecat !...</l>
+          <l><lb/>Se n'en fasian un avoucat,</l>
+        </lg>
+        <ab><milestone unit="column" n="2"/><lb/>purce gallicabnf.f/Montpellier Méditerranée MétropoleMédiatèque centrale Emile ola</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>(BROT SSETOU DE LAS AKCADAS).</ab>
+        <ab type="head"><lb/>A-N-UN MIOUSOUTIS</ab>
+        <lg>
+          <l><lb/>Dins lou prat ai vist una fon...</l>
+          <l><lb/>Qu'èra mignota e poulideta !</l>
+          <l><lb/>N'en vole faire un bouquetou</l>
+          <l><lb/>Pèr Laura, ma bella migueta!</l>
+        </lg>
+        <lg>
+          <l><lb/>Penjavonn dos perlas d'argent</l>
+          <l><lb/>Encara, à soun tendre calice ;</l>
+          <l><lb/>In pichot raioun trelusent</l>
+          <l><lb/>La ca ignava embé delice.</l>
+        </lg>
+        <lg>
+          <l><lb/>Soun noum aco 's lou Miousoutis,</l>
+          <l><lb/>Bouton d'azurenca parura</l>
+          <l><lb/>Que, dins lous printaniès matis,</l>
+          <l><lb/>Fai mamour embé la verdura...</l>
+        </lg>
+        <lg>
+          <l><lb/>Pos pourtà lou noum lou mai dous,</l>
+          <l><lb/>O tus qu'aime, tendra floureta !</l>
+          <l><lb/>Simbèu d'amistat, ¡oulileta,</l>
+          <l><lb/>Siès la flou dau « Souvenès-vous!«</l>
+        </lg>
+        <ab><lb/>Francés BROUSSE</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>— Aubourés pas lou féu au-essus de soun pairé.<lb/>1851.</ab>
+        <ab type="head"><lb/>JAN BRETOUN</ab>
+        <figure type="decoration"/>
+        <p><lb/>Pioi que n'en sèn joi à Roumanille, n'en vejaici 'na<lb/>autra d'el — guloia aquela e qu'adouban à la clapas-<lb/>sieira.</p>
+        <p><lb/>Amai seguèsse brete grelat couma la sartan cas-<lb/>tagnièira, Jan Bretoun, quand l'aguèrou refourmat,<lb/><lb/>n'atrouvèt una e se vouguèt maridà.</p>
+        <p rend="labelled"><lb/>— Paire, à soun paire diguèt, me vo...o... le<lb/>ma...ma...maridà.</p>
+        <p rend="labelled"><lb/>-Ah! te vos maridà?... E quau es aquela<lb/>paura inoucenta, bèu bon Diéu?</p>
+        <p rend="labelled"><lb/>– Ca...ca..catarina de Chan... chin.</p>
+        <p rend="labelled"><lb/>—Te vòu ? grelat. panard e bret couma siès ?</p>
+        <p rend="labelled"><lb/>— Me òn, e la...l...la o.......</p>
+        <p rend="labelled"><lb/>— Eh! be, se la vos, prend-la.</p>
+        <lg>
+          <l><lb/>L'avoucat se tuè. Lou malurous Sauvaire,</l>
+          <l><lb/>La biasso sus l'esquino, un bastoun à la man,</l>
+          <l><lb/>Disié de porto en porto en demandant soun pan:</l>
+        </lg>
+        <ab><lb/>JOUSE ROUMANILLE.</ab>
+        <pb facs="0002.xml"/>
+        <fw type="runningTitle"><lb/>LA CAMPANA DE MAGALOUNA</fw>
+        <ab><milestone unit="column" n="1"/><lb/><lb/>Lou gibous de Branto, un boussu pas manca e l'eau pour se taver les extrémités des pralanges A<lb/><lb/></ab>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>— Dequé me dou...dou .dounarés ?</p>
+        <p rend="labelled"><lb/>— Ma benedicioun, moun enfant.</p>
+        <p rend="labelled"><lb/>— Vosta be... be... benedicioun?... Gra ..a....<lb/>mecis, moun paire ! E pioi, emb'aco?</p>
+        <p rend="labelled"><lb/>farés, paire? Quant faguères à Zi.. zi...na, ma sorre,</p>
+        <p rend="labelled"><lb/>— lé faguère cent escuts.</p>
+        <p rend="labelled"><lb/>— Fa...fa...fasès-me cent escuts, paire!</p>
+        <p rend="labelled"><lb/>— Outre ! couma ié vas !... Escouta, Jan,<lb/>parlen plan, que se nous entendièn !... Parlen plan...<lb/>Veses, ta sorre Zina seguèt... troumpada. E pèr<lb/>que lou gusàs que la troumpèt la prenguèsse, nous<lb/>esquichèren, e, pecaire ! ié faguèren cent escuts.</p>
+        <p rend="labelled"><lb/>— Couma ! vous esqui...qui...quichères pèr Zina<lb/>e poudès pas vous esqui...qui...quichà per ieu ?</p>
+        <p rend="labelled"><lb/>— Ab ! certa, noun ! Jamai, moun paure drole!</p>
+        <p rend="labelled"><lb/>— Amor que ma...ma...ma sorre seguèt troum-<lb/><lb/>pada, ié ba...ba...balhères cent escuts, e me ba...<lb/>ba...balhàs, à iéu, vosta be...be...benedicioun ?.. .<lb/>Eh ! be, paire, fi...fi... fique moun camp, ieu, ca...</p>
+        <p rend="labelled"><lb/>— Vau lèu me...me...me faire troumpà.</p>
+        <p><lb/>(Adonbat à la clapassieira.)</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>FREDOL DE MAGALOUNA</ab>
+        <ab type="head"><lb/>തത</ab>
+        <ab type="head"><lb/>LOu GROS MANJAIRE<lb/>ou s'aplatis. Ai pas ce que me fau per faire atiro la<lb/>résso, Jan Vidau», mès, vè, vène embé iéu, me<lb/>farai ajuda per lou chòurou (1) e te la laminaren<lb/>souto la molo dau mouli d'òli.</ab>
+        <lg>
+          <l><lb/>Guiraud es un famqus manjaire,</l>
+          <l><lb/>Fort renoumat dins soun quartiè</l>
+          <l><lb/>Jamai à l'obra un tal brafaire</l>
+          <l><lb/>N'aviè moustrat un tal gousiè.</l>
+          <l><lb/>— Es-ti vmi, ié demandèt Pierre,</l>
+          <l><lb/>Que manjariès dins un repàs</l>
+        </lg>
+        <lg>
+          <l><lb/>Tontas roustidas, e veiràs!</l>
+        </lg>
+        <lg>
+          <l><lb/>Que cinq ou sièis me sufrièn.</l>
+        </lg>
+        <lg>
+          <l><lb/>⟦Embé lous caulets tout autour!</l>
+        </lg>
+        <lg>
+          <l><lb/>(Escais-noum felibrene d'Alfred Moquin-</l>
+          <l><lb/>Tandon, l'ilustre naturalista, nascut</l>
+          <l><lb/>à Mount-Peliè en 1804, mort à Paris</l>
+        </lg>
+        <figure type="decoration"/>
+        <p><lb/>Poulinchinello escampè sa peceto de vint sous<lb/>— N'i'a pas prou !... Quant...quant...quant me sus la taulo e... fichè lou camp coumo un fum,<lb/>sans óublida la bosso de soun esquino.</p>
+        <ab><lb/>Ernest CHALON, d'Alès.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Lou gibous de Branto</head>
+        <p><lb/>que ié disièu Poulinchinello, venguè atrouva<lb/>Moussu Isnard, lou galoi e tant bon medeci das<lb/>Mages, per uno lòupio qu'aviè acampa coumo uno<lb/>tèsto d'ase sus soun pitre.<lb/></p>
+        <p><lb/>Moussu Isnard lou despeitrino e, sounco, embé<lb/>soun cresto-chi, ié trauco uno fenèstro que n'en<lb/>sourtiguè, sans menti, un capèl de vilaniè à faire<lb/>fasti. Aco 'ro espés e jaunas coumo de mèu ou d'òli<lb/>de vagoun de la Grand-Coumbo.<lb/></p>
+        <p rend="labelled"><lb/>Aro siès bouida ; i'a pas pus res. N'as per<lb/>tous vint sòus ; pos t'enana.</p>
+        <p><lb/>Alor, noste boussu ié fui: — Eh ! be, Moussu<lb/>Isnard, pièi-que sès tant resounable e que ié sès,<lb/>poudrias pas, per lou mème pres, me creba aquelo</p>
+        <p rend="labelled"><lb/>- Aquelo, moun ome, se crèbo pas: se rèsso disou: lou chourou dau moull d'otie</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>Dinnà de Ministre</p>
+        <figure type="decoration"/>
+        <p><lb/>Es la moda, à ço que pareis, que dins lous oustaus<lb/>riches, vous portoun, à la fin dau repàs, d'aiga cauda<lb/>pèr lavà lou bout das dets ou pèr se gargalisà la</p>
+        <p><lb/>Per las gents que soun au courrent d'aquela<lb/>moda, aco vai ben ; mès lous qu’hou savou pis,</p>
+        <p><lb/>Es co qu'arrivèt un jour emb' una dameta dau<lb/>vilage, qu’aviè un parent naut plaçat (es estat,<lb/>pareis, Ministre de la Marina). Aquela persouna,<lb/><lb/>adounc, anet à Paris e seguèt couvidada, couma de<lb/>juste, pèr soun cougnat lou Ministre.</p>
+        <p><lb/>Aquel jour, se faguèt un grand dinnà. Lou chèfe<lb/>de la Marina aviè reçachut foça d'amies, crese mème<lb/>que n'i'aviè d'aqueles que languissièn que s'enanèsse<lb/>pèr ié prendre sa plaça.</p>
+        <p><lb/>Aqui i'aviè de deputats, de senatous, d'escrivas-<lb/>siès, que save mai ? e quaucas damas.</p>
+        <p><lb/>Dins un dinnà couma aquel, poudès pensà se<lb/>l'aviè de recate; res mancava.</p>
+        <p><lb/>Venièn de se metre à taula, quand an serviciau<lb/>tout chimarat pourtèt à la dameta, sus un grand plat<lb/>d'argent, una letra de soun oustau, dins una d'aque-<lb/>las envelopas couma n'en vendou dins lous vilages<lb/>e que n'en bailou quatre ou cinq pèr un sòu, emb'una<lb/>escritura de travalhadou touta d'à-galis e bousigada.</p>
+        <p><lb/>Lous vesis riguèrou de veire aco, e la paura se<lb/>seriè ficada dins un trauc de rat, de la vergougna.</p>
+        <p><lb/>Enfin lou repàs se passèt prou ben. La dameta<lb/>dau vilage èra emb' un bout de la taula, e couma<lb/>èra foça tucla, se countentava de manjà ço que ié<lb/>servissièn ; s'hou vesiè pas, hou sentissiè, e couma<lb/>tout ço que ié dounavoun èra bon, n'en manjava.<lb/>Pamens, quand aguèroun acabat de dinnà, ié pour¬<lb/>térou quicon dins una granda bola. Hou sarrèt de<lb/>soun nas, mès sentiguèt pus res.</p>
+        <p rend="labelled"><lb/>— Dequ'es aiço mai ? pensèt la paisana. Era<lb/>pas de cafè, èra pas de tè ni de maula; mès èra caud<lb/>e fumava. — Pamens, sou dis, fau hou tastà — E<lb/>n'en buguèt una gourjada.</p>
+        <p><lb/>Auriè faugut veire aquelo grimaça. — Beh!<lb/>faguèt, es pas poussibie, aquelas gents soun malau-<lb/>tes ! Ara qu'avèn ben manjat, nous portou d'aiga<lb/>cauda per nous fuire goumi !... Dequé tron es</p>
+        <p><lb/>Un de sous vesis, journalista galejaire, qu'aviè<lb/>vist lou manège, ié dis: Pardon, Madame, c'est de</p>
+        <ab><lb/>LESQUINLAIRE DE SANT-CRISTÓU.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>«FINESSE ET SOLIDITÉ»</head>
+        <p rend="labelled"><lb/>(Parlà d’en Cevenas)</p>
+        <p><lb/>Sivès belèu que Marti, l'espiciè de la Blancariè,<lb/>Pièi pren sis aguios d'embalage, ié sarcis sa aviè arrendat soun premiè à Moussu Tebo, l'agent-</p>
+        <p><lb/>Un jour dau mes d'avoust passat que Moussu<lb/>Tebo courrissiè per camis, Marti vei arriva lou<lb/>pichot coumis de Moussu Lafont lou papetiè que ié</p>
+        <p><lb/>(1) Lou chòurou es lou varlet dau mouli d'ôll. Quand<lb/>volou dire, en Alès, un ome crassous à faire fasti,<lb/>dis en jé bailant un paquetou: — Moussu Lafont<lb/>vous mando acò per l'ensaja.</p>
+        <p><lb/>E lou drounlet se sauva per ana faire d'autros</p>
+        <p><lb/>Marti eisamino lou paquetou. ben plegat, lou<lb/>doubris e legis sus la bouito : Papier végétal supé-<lb/>rieur-Finesse-Solidité.</p>
+        <p rend="labelled"><lb/>— Perqué diàussi Moussu Lafont me mando<lb/>aquel papiè ? sou dis; e fasiè coumo lous niets,</p>
+        <p><lb/>Au bout d'un moumen pensèt d'avedre devignat<lb/>ve vejaici sa descouverto : Lou paure Marti s'èro un<lb/>pau cargat de meloun la semano d'avans e aviè...<lb/>coumo dirai ? perdut la boundounièira. Amai aco<lb/>l'embestiavo prou. Lou moulou de journalets que<lb/>croumpavo au pes per plega de merchandisos seguis.<lb/>sièu un autre cami e baissavoun à visto d'ièl.</p>
+        <p><lb/>En veguent aquel papiè tant dous, s'amaginèt<lb/>que lou papetiè ié lou mandavo per ramplaça sous<lb/>journals e saguèt pas long per ensaja aqueste nouvèl<lb/>moucadou. S'aviè agut legi Rebalais, auriè sai-que<lb/>di que soun sistèmo valiè mai encaro que l'auqueto<lb/>de Gargantian ! Mès couneissiè pas Pantagruèl...<lb/>e quand veguèt tourna-mai lou papetiè : — Santa-<lb/>fiéu ! ié diguèt, Moussu Lafont, que voste papiè es<lb/>dounc fi! e soulide emb' acò! L'etiqueto mentis pas.</p>
+        <p><lb/>Moussu Lafont coumpreniè pas, e vejaici perqué:<lb/>lon coumis s'èro troumpat e aviè bailat à Marti lou<lb/>papiè de trasso que Moussu Tebo aviè coumandat<lb/>per coupla sous plans...<fw type="digitisation-artefact"><lb/>o /e éé éeé̀e 8</fw></p>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>A LA CAMPANA DE MAAALOUNA</p>
+        <lg>
+          <l><lb/>O Campana de Magalouna,</l>
+          <l><lb/>Pla liont fai ressoundi ta vouès !</l>
+          <l><lb/>Ce que tratou de vièl patouès,</l>
+          <l><lb/>Aco 's la lenga la milhouna.</l>
+        </lg>
+        <lg>
+          <l><lb/>Canta-la dounc, canta pla naut</l>
+          <l><lb/>La douça lenga dai terraire :</l>
+          <l><lb/>Aco 's aqnela que li maire</l>
+          <l><lb/>Nous aprenio près dai lougau.</l>
+        </lg>
+        <lg>
+          <l><lb/>Sona pertout, sona, Campana,</l>
+          <l><lb/>Dins nostra vièlha terra d'Oc,</l>
+          <l><lb/>Que toun batan fague toc ! toc !</l>
+          <l><lb/>Tant dessus pioch que dins la plana!</l>
+        </lg>
+        <lg>
+          <l><lb/>Sona de Ganges jusqu'ai Grau,</l>
+          <l><lb/>Dai grand Clapàs à l'Espinousa,</l>
+          <l><lb/>Canta la lenga armouniousa</l>
+          <l><lb/>Que parlan sus bords de l'Brau!</l>
+        </lg>
+        <lg>
+          <l><lb/>Canta la lenga das fouchaires,</l>
+          <l><lb/>La de Fabre e de Jan Laurés.</l>
+          <l><lb/>La dai pouèta clar-mouatés :</l>
+          <l><lb/>Aco's la lenga das troubaires.</l>
+        </lg>
+        <lg>
+          <l><lb/>Vai-t'en pus naut, daus lou Vigan,</l>
+          <l><lb/>O ma Campana cantarella,</l>
+          <l><lb/>Canta sui brès de Flourian</l>
+          <l><lb/>E sui toumbeu de soun Estella!</l>
+        </lg>
+        <lg>
+          <l><lb/>Canta dins tout lou Rouërgàs,</l>
+          <l><lb/>Lou flèr pais dai « diéu me danne!»</l>
+          <l><lb/>Anen, cau pas que lou nas sanne (!)</l>
+          <l><lb/>Per escalà dessui roucàs !</l>
+        </lg>
+        <lg>
+          <l><lb/>Monta toujour dins la Cevena;</l>
+          <l><lb/>Sui grand causse fai carrilhoun,</l>
+          <l><lb/>Canta lous omes de renoum,</l>
+          <l><lb/>Canta toujour sans perdre alena !</l>
+        </lg>
+        <lg>
+          <l><lb/>S'aco te plais, monta pus nant.</l>
+          <l><lb/>Mès bauro tant, o ma Campana,</l>
+          <l><lb/>Que davalèssen dins la plana ;</l>
+          <l><lb/>Lous bords dai Rose me fan gau.</l>
+        </lg>
+        <lg>
+          <l><lb/>A Tarascoun sièn en Prouvença,</l>
+          <l><lb/>Riche pais tant soulelhous,</l>
+          <l><lb/>Ple de felibres e de flous,</l>
+          <l><lb/>E d'abitants ples de valhença.</l>
+        </lg>
+        <lg>
+          <l><lb/>Canta lou Rose vagabound</l>
+          <l><lb/>Que davala de las mountaguas</l>
+          <l><lb/>Per fegoundà tant de campagnas</l>
+          <l><lb/>E que pioi dins la mar se found!</l>
+        </lg>
+        <p rend="labelled"><lb/>(1) Cau pas que lou nas sanne, loucncioun poupularia<lb/>pèr dire qu'on cala pas, qu'on a paspou</p>
+      </div>
+    </body>
+  </text>
+</TEI>

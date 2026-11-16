@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81341572</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1880-03-21">1880</date>
+          <idno type="ARK">bpt6k81341572</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81341572</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0008.xml"/>
+        <fw type="runningTitle"><lb/>LOU BRUS</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Enco de Sardat, libraice-editour, Als-de-Prouvenço.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>EN SOUSCRICIEN:</p>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>FLOURETOS DE MOUNTAGNO</p>
+        <p rend="heading"><lb/>PER</p>
+        <ab><lb/>LOU LIBRE DE TOUBIO<lb/>Fidelamen revira mot pér mot de la Santo Biblo<lb/>(EDICIEN DE LA VULGATO)<lb/>Un pertet de voulume in-8. – Près: 1 fr. 25<lb/>Se pagara qu'en reçaupênt lou voulume.</ab>
+        <ab><lb/>MELQUIOR BARTHES<lb/>FELIBRE MANTENEIRE<lb/>Gatant e fouert voutrime, emé traducien franceso.<lb/>E prefaci en vers prouvençau de Marius Bourrelly<lb/>Près 55 fr. encò de l'autour, à Sant-Pouens<lb/>(Eraut).</ab>
+        <note>
+          <p rend="styled"><lb/>EN SOUSCRICIEN:</p>
+        </note>
+        <ab><lb/>I<lb/>ARd<lb/>ROUMAN EN XII CANT<lb/>Em'uno letro de Frederi MISTRAL<lb/>Fouert roulume in-8e adourna d'uno cinquanteno de gravaduro entremesclado<lb/>dins lou teiste:<lb/>OBRO COUROUNADO EI FESTO LATINO DE MOUNT-PELIÉ (MAI 1878)</ab>
+        <p rend="heading"><lb/>PER LOU FELIBRE D'ENTRE-MOUNT</p>
+        <p rend="heading"><lb/>PRÈS : 7 fr. 50 c.</p>
+        <p rend="styled"><lb/>Au Bureu dou journar è de-vers tóutei lei Libraire.</p>
+        <p rend="styled"><lb/>Lou Voulume se va metre SOUT PRESSO</p>
+      </div>
+      <div type="article">
+        <ab><lb/>EN VENDO:</ab>
+        <p><lb/>Afeciouna à-n-espandi tout ço que preto-<lb/>co nouésto Prouvènço, s’apreissan d’a¬<lb/>nouncia que se vai estampa l'Histoire de<lb/>la ville d'Aix, par P. J. DE HAITZE.<lb/>1718-19). inmense manuscrit de la Bi-<lb/>blioutèco Mejano, que fourmara quatre gros<lb/>voulume in-4° de 450 à 500 pajo cadun.<lb/>L'oubràgi pareissera pèr liéuresoun de 40<lb/>pajo au près de:</p>
+        <ab><lb/>1 fr. sus papié ourdinàri.<lb/>1 fr. 50 sus ben papié.</ab>
+        <p><lb/>Des eisemplàri sus papie d'Oulando, dès<lb/>sus papié de coulour à 25 fr. lou voulume.<lb/>Se fara doues liéuresoun per mes. Se sous-<lb/>crièu au bureu dou journau e de-vers tou-<lb/>ter lei libraire.</p>
+        <ab><lb/>Coumèdi Prouvençalo en un ale, en ver<lb/>DE<lb/>MARIUS BOURRELLY<lb/>Broucherg in - 8' de 48 pajo.<lb/>Près: 60 cent. pèr la posto: 35 cent<lb/>SOUT PREISSO, DOU MEME AUTOUR:<lb/>LOU SICILIAN, de MOLIERE<lb/>Coumèdi farcejado en 1 Ate, en vers prouvençau.</ab>
+        <ab type="head"><lb/>LA CARRETO DEI CHIN</ab>
+        <p rend="styled"><lb/>Lou direitour gerent; F. Guitton-Talamel.</p>
+        <p rend="styled"><lb/>Ais.- Emp. Prouv. carrièro dou Grand- Relogi, 15</p>
+        <ab><lb/>ver de gemeen Diote ques de Marseille</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Progrès de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k1865365p</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Progrès de la Côte-d'Or : journal politique... ["puis" journal républicain quotidien]</title>
+          <publisher>[s.n.] (Dijon)</publisher>
+          <date when="1886-12-03">1886</date>
+          <idno type="ARK">bpt6k1865365p</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k1865365p</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>BUREAUX, RUE MAHRAL-ROCSSIN, 35</fw>
+        <fw type="runningTitle"><lb/>Dix-Huitième Ani 880</fw>
+        <dateline><lb/>Vendredi 3 Décembre 1886</dateline>
+        <ab><milestone unit="column" n="3"/><lb/>ABONNEMENTS, ANNONCES</ab>
+        <figure type="table"/>
+        <figure type="table"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>la Côte</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>Journal Quotidien</p>
+        <ab><lb/>POUR TOUT CE QUI CONCERNE LA RÉDACTION</ab>
+        <ab><milestone unit="column" n="1"/><lb/>S'adretter au GERANT, rue Airal-Roussin, À DIJON</ab>
+      </div>
+      <div type="article">
+        <p><lb/>détachement a été inméd<lb/>ordres</p>
+        <p><lb/>Camiral de Gueydon, député de<lb/>che, est o</p>
+        <p><lb/>acieux, à Pats, eux re<lb/><lb/>e ad<lb/>Ame jour de jednr<lb/></p>
+        <p><lb/>manitestation, place de lotel-de¬<lb/></p>
+        <p><lb/>ac 1ocore, pour a</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>passionnent tous les partis se rat¬ nous expose à voir retarder le vot</ab>
+        <p><lb/>a bodgel du m</p>
+        <p><lb/>à propos du crédit affecté aux di¬<lb/>recteurs dont le ministre de l'inté<lb/>rieur avait porté le traitement de<lb/>15,000 fr. à 20,000 fr. Par 398 voix<lb/>contre 158, la chambre, sur la pro¬<lb/>position de M. Maurice Faure, a</p>
+        <p><lb/>reux en ce qui touche le maintien<lb/>der rfonctinegageant à des sous-secrétaires d'Etat, don<lb/>M. Colfavru demandait la suppres-<lb/>tionnelle qui ne pouvait se ré¬<lb/>soudre par une suppression de<lb/>crédit. Il a profité de la circons¬<lb/>tance pour énumérer les réformes<lb/>fiscales que le gouvernement so<lb/>cité notamment la surtaxe sur l'al-<lb/>cool; la diminution de l'impôt sut<lb/>des boissons hygiéniques, l'impòs<lb/>sur le rovenu et l'augmentation des<lb/>terminé en disant que, sans exa-<lb/>geer le dil ́tit préfrb d<lb/>en votant le budget dedaitt. et</p>
+        <p><lb/>tre 238, a donné raiton au préci¬<lb/>sous-secrétaires d'Etat ani en<lb/>provisoirement maintenus; mais<lb/>pidopas pris uno allure plus ra</p>
+        <p><lb/>budgets de six ministères restent s'établir au Palais Bourbor<lb/>encore à voter. Des questions qui<lb/>tachent à ces différents bud-<lb/>gets, et notamment celle rela¬<lb/>tive au budget des caltes. On<lb/>sait que la gauche radicale a dé-<lb/>cidé, morcredi, de voter contre les<lb/>crédits afférents à la direction des</p>
+        <p><lb/>erel do retarder l0 rote nal de<lb/>la loi de finances et d’empêcher<lb/>que le budget général ne soit en-<lb/>voyé au sénat assez à temps pour<lb/>que cetto assemblée puisse en exa-<lb/>miner utilement les divers chapi-<lb/>tres, et surtout les modifications<lb/>que la chambre y aura apportées.</p>
+        <p><lb/>budget n'est pas près d'ôtre voté;<lb/>nous avons dit qu'il restait encore<lb/>six départements dont les crédits<lb/>sénat rótablira vraisemblabiement<lb/>un certain nombre des sommes<lb/>reconooitra que le retour de la loi<lb/>sera nécessaire, puis uno nouvelle<lb/><lb/>nouveaux votes</p>
+        <p><lb/>pourrait rétablir, on cite la réduc¬<lb/>tion de 600,000 francs opérée sur<lb/>le personnol des finanees. O rait<lb/>estime que cette réduction en<lb/><lb/>ment de ses services, et l’on ne<lb/>saurait avoir oublié qu'il a an<lb/>noncé son intention de demander<lb/>au sénat le rétabllssement de c</p>
+        <p><lb/>Mais l'esprit politique n'est<lb/>co qui domine chez tous nos re¬<lb/>présentants, il faut avoir le cou¬<lb/>rego de le reconnaitro. On a vu<lb/>avec tristesse qu’un grand nombro<lb/>de députés républicains n'ont con¬<lb/>mercredis. Trois votes ont été né-<lb/>cessaires pour apporter cette lé¬<lb/>gère modification au règloment de</p>
+        <p><lb/>Or, tandis que certaios députés<lb/>semblent ne pas se rendre suffi-<lb/>samment compte de la situation,<lb/>au Luxembourg on reproche à la<lb/>vote defnitit du budget.</p>
+        <p><lb/>zièmes provisoires pourrait être<lb/>évitée si, depuis plusieurs années,<lb/>l'habitude de prendre occasion de<lb/>la discussion, du budget pour dis-<lb/>etions les plus paipi-</p>
+      </div>
+      <div type="article">
+        <ab><lb/>es e paralt eln ave d́vorer u la maigre alocalion dun de<lb/> decbro elles tantes do la pollique no toata à<lb/>Parmi les crédits que le sénat loi de finances? Nous le saurons</ab>
+        <p rend="labelled"><lb/><lb/>Acher puritani</p>
+        <p><lb/>chaque question à sa place, voilà<lb/>moment, la vérité, c'est d'aller vite<lb/>et d'arriver avant le 31 décombre.<lb/>Il faut que la loi de finances soi<lb/>rotée avant cotte date par le par¬</p>
+        <p><lb/>sagesse et de bonne volonté pour¬<lb/>renoncer à certaines joutes ora-<lb/>toires qui ne sont plus de circons<lb/>tanco dans les conditions actuel¬<lb/>les, et pour voter rapidement la<lb/>bientôt. Mais si on était obligé de<lb/>recourir aux douzièmes provisoires,<lb/>tonte la responsabilité de ce dé¬<lb/>able expédient lui incombo¬<lb/><lb/>et mèmo à ses adversaires plus<lb/>Préfet sous l'empire, il avait ad<lb/>de bonnes paroles, des sourires, des<lb/>porter par la passion: la main tou¬<lb/>ldoumépris et quil flaivsait par</p>
+        <p><lb/>tons les députés qui connaissent<lb/>serrait pas moins d'astez beaux<lb/></p>
+        <p><lb/><lb/>Comment sopposer qu' aavoc phrelle, oi elle nétait pas ruinée, quon n'arait pas d'actre fortune</p>
+        <p><lb/> ous, s comme adersires</p>
+        <p rend="labelled"><lb/>nir dia<lb/></p>
+        <p><lb/>de la loi de finances, mais elle<lb/>met dans la nécessité de recourir<lb/>budget n'est pas voté au 31 dé-<lb/>combre et de laisser croiro au<lb/>pays que l'état de nos finances</p>
+        <p><lb/>les seuls. A rouloir tont entrepren<lb/>dre, tout rétondre à propos de le<lb/>discussion des crédits, on s'expose<lb/>à n'étudier quo d'uno manière su¬<lb/>perficielle, et par conséquent in-<lb/>importantes. Est ce la la maturité<lb/>d'esprit que le pays attend de ses<lb/>représentanta? Evidemment non.<lb/><lb/>honnen.<lb/>la falait pour la mai</p>
+        <figure type="decoration"/>
+        <p><lb/>go aistan de cette preure de</p>
+        <p><lb/> rocs a e noudtes contes</p>
+        <p><lb/>res d'elle il retrouvait dan<lb/>désasa<lb/>des satire<lb/>térieur à la mode, une table bien<lb/>a e ae</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>cami<lb/>Le drepeau français, disait M.<lb/><lb/>Saigon: militairement ce marché<lb/>nous appartient, mais commercia-<lb/>lement il appartient aux Anglais.»<lb/>du budget du ministère des affaires<lb/>avons déjà eu l'occasion de parler<lb/>assurer le marché du Tonkin. Ne¬</p>
+        <p><lb/>fait mieux, il se donne la peine d<lb/>Pourquol! Ce de<lb/><lb/>milions no dit pas un seut ins-</p>
+      </div>
+      <div type="article">
+        <ab><lb/>La ceneure a la cour des compes dezro les intécits de la France e</ab>
+        <p rend="labelled"><lb/>Le corps de Paul Bert a Salgon</p>
+        <ab type="head"><lb/>Péttion en favcur des anarchistes<fw type="digitisation-artefact"><lb/>Source gallica.bn.fr/ Bibliothèque nationare de ane.</fw></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

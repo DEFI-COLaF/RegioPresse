@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Gau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k9571757g</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Gau : revisto mesadiero pèr li revendicacioun de la lengo prouvençalo à l'escolo, dins la cadiero e à la tribuno poupulàri : parèis lou 15 de chasque mes / secretàri dóu Gau D. Savié de Fourviero</title>
+          <publisher>[s.n.] (Tarascoun-sus-Rose)</publisher>
+          <date when="1897-06-01">1897</date>
+          <idno type="ARK">bpt6k9571757g</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k9571757g</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>JUN 1897</fw>
+        <fw type="runningTitle"><lb/>PROUMIERO ANNADO</fw>
+        <ab><milestone unit="column" n="1"/><lb/>3 franc<lb/>PE<lb/>AN</ab>
+        <figure/>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>CANTAIRE DI REVENDICACIOUN PROUVENÇALO</p>
+        <ab><milestone unit="column" n="2"/><lb/>à l'Escolo, dins la Cadiero e à la Tribuno poupuld̀ri</ab>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="3"/><lb/>Li baile:<lb/>MESTE FISSKTO — REINIÉ MOUNTAUT<lb/>D. SAVIE DE FOURVIERO</ab>
+        <ab><lb/>Secretari don Gran:<lb/>D. SAVIM DE FOCRVIERO<lb/>Sant-Michin de Ferigonier</ab>
+        <ab><lb/>PAREIS LOU 15 DE CHASQUE MES</ab>
+        <p rend="styled"><lb/>Tarassoun sus Rose.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>TAULETO</head>
+        <ab><lb/>La Predicacioun prouvençalo, BAILE Dou GAU. — LOu tros de<lb/>rougnounado. — Li gènt coume fau. M. EissETO. — L.a Fèsto<lb/>de S. Pons, Toumas DAvt. — Lou Pater en prouvençau. —<lb/><lb/>Councours de versioun prouvençalo.— Councours di capelan.—<lb/>Tribuno poupulàri, T. EsrERIT. — Prone di Curat. — Nouveleto.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>la</head>
+        <head><lb/>Predicacioun Prouvençalo</head>
+        <figure/>
+        <p><lb/>U vai plan vai san. La predicacioun<lb/>prouvençalo vai soun camin plan-planet,<lb/>e plan-planet s'espandis pèr la glòri de<lb/>Diéu e de Prouvènço. Quand tant de francihot<lb/>calu chaurihon coume de miòu davans l'enclume,<lb/>quand tant de besuquet amoussuri s’entèston dins<lb/>sounnescige o sa supèrbi, e frounsisson lou nas à<lb/>nosto obro evangelico, fai gau de vèire lis<lb/>inteligènt, lis ome de la bono qu'eisaminon<lb/>aquelo obro sènso partit-pres e à sang pausa.</p>
+      </div>
+      <div type="article">
+        <p><lb/>E bèn nous fai gau de douna, eici meme, l'apre-<lb/>ciacioun dóu Bulletin théologique, scientifique et<lb/>littéraire de l'Institut catholique de Toulouse:</p>
+        <p><lb/>On répète assez volontiers: les idiomes populaires vont<lb/>mourir; ils n’en ont pas pour bien longtemps ; et, sous<lb/>l'empire de cette idée, on s'habitue à les traiter à l'église<lb/>comme s'ils étaient déjà morts. Une telle conduite est-elle<lb/>bien conforme aux véritables besoins religieux des fidèles?<lb/>Reproduit-elle avec vérité les traditions de la doctrine<lb/>chrétienne qui ont toujours consisté à se mettre à la portée<lb/>des petits et des pauvres? Se forme-t-elle à l'image des<lb/>apồtres qui prenaient le plus grand soin d'évangéliser cha-<lb/>cun dans sa langue?</p>
+        <p><lb/>Quoi qu'il en soit de l'avenir de la langue populaire,<lb/>c'est un fait certain qu'elle vit encore et qu'il y a dans nos<lb/>campagnes une partie du peuple chrétien qui n'en parle<lb/>pas d'autre, tandis que tout le reste sait encore la parler.<lb/>Nous oserons donc le dire hautément avec une liberté<lb/>qui porte en elle-mème son excuse: ce serait une faute<lb/>grave que de méconnaitre ainsi, dans l'état de nos<lb/>paroisses, ce qu'elles présentent de plus touchant et<lb/>de plus indispensable, et de prendre prétexte de l'ignorance<lb/>des simples pour les traiter en déshérités. Et s’il est vrai,<lb/>comme on l’a plus d’une fois prétendu, qu'en abandonnant<lb/>l'usage du dialecte local dans la chaire, plusieurs curés de<lb/>eumpaue r mai que ondre aux instances de la<fw type="digitisation-artefact"><lb/>ouree gumed.Boueque nationale de France</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

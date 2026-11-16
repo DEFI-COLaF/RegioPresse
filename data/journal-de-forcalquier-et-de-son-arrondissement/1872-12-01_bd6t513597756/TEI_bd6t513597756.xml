@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de Forcalquier et de son arrondissement</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t513597756</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de Forcalquier et de son arrondissement : commerce, agriculture, littérature, industrie, annonces judiciaires, administratives, d'intérêt public, avis divers, etc. ["puis" radical-socialiste indépendant "puis" hebdomadaire régional]</title>
+          <publisher>[s.n.] (Forcalquier)</publisher>
+          <date when="1872-12-01">1872</date>
+          <idno type="ARK">bd6t513597756</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t513597756</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Cette Feuille arrive le Dimanche dans les établissements publies de l'arrondissement de Forcalquier.</fw>
+        <fw type="runningTitle"><lb/>Dimanches 1er et 8 décembre 1872.</fw>
+        <dateline><lb/>29e année.— (No 46-47).</dateline>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>ET DE SON ARRONDISSEMENT.</p>
+        <figure type="decoration"/>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/>Commerce, Agriculture, Littérature, Industrie, Annonces Judiciaires, Adminis-<lb/>tratives, d’intérêt public, Avis divers, etc.</p>
+        <p rend="styled"><lb/> ournar psi ons les paan de l'abonnement: par an, 5 fr., par la poste, 6 fr. — Prix des annonces de la Bourse, 8. — On insère gestuitemee<lb/></p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>L Imprimerie a été transférée place du<lb/>Palais, ancienne maison Peyraud.<lb/>de 7 ans, et tout porte à croire que cette<lb/>morsure n'aura pas de suites fâcheuses.</p>
+        <figure type="decoration"/>
+        <p><lb/>Liste de MM. les jurés de l'arrondisse-<lb/>ment de Forcalquier qui doivent siéger<lb/>aux assises, s'ouvrant à Digne le lundi</p>
+        <lg>
+          <l><lb/>Bornard Alexis, fils, proprietalire à S</l>
+          <l><lb/>Bernard Alexis, fils, proprétaire à </l>
+        </lg>
+        <lg>
+          <l><lb/>Estoubion Michel, propriétaire à Lurs.</l>
+          <l><lb/>Lautier Hippolyte, huissier à Banon.</l>
+          <l><lb/>Breton Joseph, cultivateur à Pierrevert.</l>
+          <l><lb/>n</l>
+        </lg>
+        <p><lb/>Mefve Amédée-Pancrace, meunier à Nio-</p>
+        <lg>
+          <l><lb/>B</l>
+          <l><lb/>Bruu-Diedoné. proprflaire au e</l>
+        </lg>
+        <p><lb/>Le ministre de l'intérieur vient de dé-<lb/>cerner, sur la proposition de M. le préfet.<lb/>one médaille d'honneurau sieur Berthet<lb/><lb/>Fierre-André, ouvrier mineur à Mane.</p>
+        <figure type="decoration"/>
+        <p><lb/>On nous annonce la mort prématurée<lb/>de Mgr. Royne, évêque dela Guadeloupe.<lb/>Enfant des Basses-Alpes, ce prélat avait<lb/>fait ses études au collége de Manosque.<lb/>Vicaire, aumônier de la flotte, évêque,<lb/>il s'était fait apprécier dans toutes les<lb/>parties du monde par l'aménité de son<lb/>caractère, un abord et un commerce fa-<lb/>ciles; une simplicité et une modostie ra-<lb/>res, une piété vraie, une charité évangé-<lb/>lique, un esprit gaulois, une franchise<lb/>militaire ! Il laisse une mémoire honorée,<lb/>de vives sympathies, d'unanimes regrets<lb/>comme toutes les nobles âmes et tous<lb/>les grands caractères.</p>
+        <p><lb/>Quel rude coup poursa mère à laquelle,<lb/>l'an dernier, avant son départ pour l'île<lb/>lointaine d'où il ne devait plus revenir,<lb/><lb/>comme s'il eût en lo pressentiment de sa<lb/><lb/>fin prochaine, il voulut laisser son por-<lb/>trait, œeuvre d'un habile artiste, du pein-<lb/>tre Patriti ! Qu'elle nous permette, non<lb/>de lui offrir des consolations, il est des<lb/><lb/>situations qui n'en comportent point, non<lb/>de lui interdire les larmes, la nature ré¬<lb/>clame ses droits et J.-C. pleura bien sur<lb/>la tombe de son ami Lazare, mais de mê¬<lb/>ler notre douleur à la sienne et de lui rap-<lb/>ler que la vie n'est qu'une lueur, tandis<lb/>que le Ciel est une splendeur éternelle.</p>
+        <p><lb/>Mercredi soir, la ville de Bordeaux a<lb/>été témoin d'un de ces magnifiques phé-<lb/>nomènes cosmiques qui se montrent à<lb/>peine quâtre à cinq fois dans l'espace<lb/>d'un siècle ; nous voulons parler d'une<lb/>pluie d'étoiles filantes et de bolides.</p>
+        <p><lb/>Jusqu'ici le Nord seul souffrait des<lb/>inondations ; le Midi, sauf quelques trom¬<lb/>bes d’eau, était assez épargné. Mais on<lb/>annonce que le Rhône grossit beaucoup<lb/>et que la Garonne est en forte crue. Sur</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>Par délibération, en date du 4 dé-<lb/>cembre 1872, le Tribunal de Commerce<lb/>de l'arrondissement de Forcalquier, dé-<lb/>partement des Basses-Alpes, séant à Ma-<lb/><lb/>que, a arrété qu'à partir du PREMER<lb/>JANvIER 1873, les audiences dudit Tri-<lb/>bunal de Commerce se tiendront le<lb/>MARDI de chaque semaine, à 10 heures</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>.</ab>
+        <p><lb/>Deux foires consécutives se sont te<lb/>nues, l'une le samedi 30 novembre à<lb/>Forcalquier, l'autre le mercredi 4 dé-<lb/>cembre à Mane : généralement ces foi-<lb/>res ont une certaine importance, surtout<lb/>pour les animaux de la race porcine,<lb/>dont l’engraissement est généralement<lb/>fini à cette époque. Il n'en a pas été de<lb/>même cette année.</p>
+        <p><lb/>Le 30 novembre, l'on vit arriver à<lb/>Forcalquier une grande quantité de bé¬<lb/>tail, les porcs gras y étaient largement<lb/>représentés ainsi que l'espèce ovine;<lb/>mais si les vendeurs étaient nombreux il<lb/>n'en était pas de même des acheteurs;<lb/>l'offre était considérable, la demande<lb/>faible ; et les quelques affaires qui ont<lb/>pu se traiter n'ont servi qu'à indiquer<lb/>une diminution sensible sur les différents<lb/>cours des marchés. Les grains apportés<lb/>en petite quantité, ont trouvé acquéreurs.<lb/>mais en subissant eux aussi une dimi-<lb/>nution. En somme, lorsque dans le cou¬<lb/><lb/>vant de la journée, la pluie, qui n'avait<lb/>cessé de menacer, vint à tomber, les<lb/>vendeurs se retirèrent, et l'on put cons-<lb/>tater alors que les transactions n'avaien,<lb/>pas été nombreuses.<lb/></p>
+        <p><lb/>Le mercredi on voyait figurer à Mane,<lb/>les mêmes produits que le samedi à For¬<lb/>ea quier, le temps s’étant mis au beau,<lb/>les marchands affluaient ; mais de mê-<lb/>me qu'à Forcalquier les prix se maintin¬<lb/>rent si bas qu'une grande partie des ven-<lb/>deurs rentrèrent chez eux sans avoir<lb/>voulu céder leurs produits à un taux si<lb/>peu rémunérateur.</p>
+        <p><lb/>Enfin, espérons que la foire qui se<lb/>tient à Forcalquier le 21 décembre sera<lb/>meilleure, et permettra aux cultivateurs<lb/>d'écouler leurs produits en réalisant un.<lb/>bénéfice convenable.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Nous recevons une longue lettre de M.<lb/>Granier Charles, élève de l'école commu¬<lb/>nale de Cruis, pour nous avertir qu’un<lb/>jeune de ses condisciples nommé Bonne-<lb/>foy Marius, a été mordu dans la journée<lb/>du 23 novembre par un chien atteint<lb/>d’hydrophobie. Des soins furent prodi-<lb/>gués immédiatement à ce jeune enfant<milestone unit="column" n="3"/><lb/>les côtes de l'Ocean et de la Méditerra-<lb/>née, on signale de très gros temps.</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>Sisteron, le 27 novembre 1872.</p>
+        <p rend="styled"><lb/>Monsieur le Directeur,</p>
+        <p><lb/>Ainsi que l'avaient annoncé les jour-<lb/>naux et les affiches apposées dans toutes<lb/>les communes, par ordre de la Compagnie,<lb/>l'inauguration de la section du chemin<lb/>de fer de Volx à Sisteron a eu lieu le 25</p>
+        <p><lb/>La population Sisteronnaise s'était<lb/>rendue tout entière à la gare pour assis-<lb/>ter à l'arrivée du premier train. A onze<lb/>heures précises, le convoi a été signalé<lb/>et tous les regards se sont portés du côté<lb/>du Midi. Aussitôt une grosse colonne de<lb/>fumée a paru dans l'air, un bruit sourd<lb/>et continu s'est fait entendre, le puissant<lb/>sifflet de la locomotive a retenti et quel-<lb/>ques instants après le train entrait majes-<lb/>tueusement en gare. Le matin, des nua¬<lb/>ges noirs couvraient le ciel et les montá¬<lb/><lb/>gnes voisines étaient enveloppées d'un<lb/><lb/>manteau de brouillards ; on aurait dit<lb/>que le tempś allait chercher à s'opposer<lb/>à la promenade que chacun s’était pro-<lb/>posé de faire, pour satisfaire sa bien lé-<lb/>gitime curiosité. Mais, vers les neuf heu-<lb/>res, Phébus a déchiré les nuages qui<lb/>2<lb/>cherchaient à lui barrer le passage, est<lb/>monté lentement au zénith dans son<lb/>ן<lb/>brillant char de feu et un faible vent<lb/>tiède a chassé les brouillards au loin.<lb/>L'enthousiasme a été grand, quand, pour<lb/>la première fois, la locomotive a fait en-<lb/>tendre son sifflet au cri sinistre et perçant<lb/>et qu'elle a traversé majestueusement la<lb/>plaine, aux yeux de la population ravie</p>
+        <p><lb/>L'ouverture de cette ligne est donc un<lb/>fait accompli, elle imprimera de l’activité<lb/>au commerce, une vie nouvelle à l'indus-<lb/>trie et combattra le renchérissement des<lb/>denrées les plus nécessaires. Elle donne-<lb/>ra de la valeur aux propriétés de certains<lb/>quartiers deshérités et des occupations à<lb/>une foule d'industries.</p>
+        <p><lb/>Iei les travaux des champs touchent à<lb/>leur fin, et, sauf quelques propriétaires<lb/>peu intelligents qui ont la mauvaise ha-<lb/>bitude d'emblaver jusqu'au dernier jour<lb/>où le temps le permet, on peut dire que<lb/>Des semences sont complètement ache-<lb/>vées ; malheureusement, elles ont été<lb/>faites dans de très-mauvaises conditions,<lb/>à cause des pluies torrentielles du mois</p>
+        <p><lb/>C'est le moment de la décuvaison. Les<lb/>vins nouveaux manquent de force alcooli¬<lb/>que et leur couleur est d'un rouge bien</p>
+        <p><lb/>Les prix se maintionnent entre 30 et<lb/>35 fr. l'hectolitre et les prétentions des</p>
+        <p><lb/>propriétair,s sont excessives.</p>
+        <ab><lb/>directeur de l'école gratuite..</ab>
+        <pb facs="0002.xml"/>
+        <fw type="runningTitle"><lb/>Le Journal de Forcalquier.</fw>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>guerre, en date du 14 de ce mois, pres-<lb/>crit de s'occuper dès à présent de la for¬<lb/>mation des tableaux de recensement de<lb/>la classe de 1872, afin que ces tableaux<lb/>puissent être affichés et publiés les 1er et<lb/>2e dimanches du mois de janvier 1873,<lb/>conformément à la loidu 27 juillet 1872.</p>
+        <p><lb/>sieurs, de procéder immédiatement à la<lb/>Sormation de ces tableaux qui devront<lb/>comprendre tous les jeunes gens devant<lb/>atteindre l'âge de vingt ans, dans le cou¬<lb/>rant de l'année 1872, c'est à-dire tous<lb/><lb/>ceux qui sont nés du 1er janvier au 31</p>
+        <p><lb/>cet effet, à ma circulaire du 7 janvier<lb/>1871, insérée au Recueil administratif.</p>
+        <p><lb/>primés nécessaires pour établir lesdits<lb/>ableaux que vous devrez communiquer<lb/>a MM. les sous-préfets et à moi pour l'ar</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Texte de la loi sur le jury, adoptée la</head>
+        <p rend="labelled"><lb/>fonctions de juré, à peine de nullité des<lb/>déclarations de culpabilité auxquelles il<lb/>aurait concouru, s'il n’est âgé de 30 ans<lb/>accomplis, s'il ne jouit des droits politi-<lb/>ques, civils et de famille, ou s'il est dans<lb/>un des cas d'incapacité ou d'incomptabi¬<lb/>lité établis par les deux articles suivants.</p>
+        <p rend="labelled"><lb/>nés, soit à des peines afflictives et infa-<lb/>mantes, soit à des peines infamantos seu-</p>
+        <p><lb/>nes correctionnelles pour fais qualitiés</p>
+        <p rend="labelled"><lb/>ment de trois mois au moins ; toutefois,<lb/>les condamnations pour délits politiques<lb/>ou de presse n'entraîneront que l'incapa¬<lb/>cité temporaire dont il est parlé au pa-</p>
+        <p><lb/>l'emprisonnement, quelle qu'en soit la<lb/>durée, pour vol, escroquerie, abus de<lb/>confiance, soustraction commise par des<lb/>dépositaires publics, attentats aux<lb/>mœurs prévus par les articles 330 et 334<lb/><lb/>du Code pénal, délit d'usure ; les con-<lb/><lb/>damnés à l'emprisonnement pour outra-<lb/>ge à la morale publique et religieuse,<lb/><lb/>attaque contre le principe de la propriété<lb/>et les droits de famille, délits commis<lb/>contre les mœurs par l'un des moyens<lb/>énoncés dans l'article 1er de la loi du 17<lb/>mai 1819, pour vagabondage on mendi-<lb/>cité, pour infraction aux dispositions des<lb/>articles 60, 63 et 65 de la loi sur le re-<lb/>crutement de l'armée et aux dispositions<lb/><lb/>de l'article 422 du Code pénal, de l'arti-¬<lb/>cle 1er de la loi des 5-9 mai 1855; pour<lb/>les délits prévus par les articles 134, 142,<lb/>143, 174, (251, 305, 345, 362, 363,<lb/>364 2 3, 365, 387, 380, 399 Z 2, 400 </p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>tale, publie en ce moment, une Histoire<lb/>populaire de la Guerre Franco-Alleman.<lb/>de 1870-1871. Cette Histoire, écrite<lb/>d'après les documents officiels, les ou-<lb/>tialité le plus vif sentiment de patriotis-<lb/><lb/>me. Nous la recommandons vivement à<lb/>nos lecteurs. L'Histoire papulaire de la<lb/>faillite a été déclarée soit par les tribu-<lb/>oaux français, soit par jugement rendu à</p>
+        <p rend="labelled"><lb/>purés ont été interdites en vertu de l'ar</p>
+        <p rend="labelled"><lb/>seulement, à dater de l'expiration de<lb/>eur peine, les condamnés à un empri¬<lb/>sonnement de moins de trois mois pour<lb/>quelque délit que ce soit, même pour les<lb/></p>
+        <p><lb/>terdits, les individus pourvus de conseils<lb/>judiciaires, ceux qui sont placés dans un<lb/>établissement public d'aliěnés, en vertu</p>
+        <p><lb/>incompatibles avec celle de député, de<lb/>ministre, membre du conseil d'Etat,<lb/>membre de la cour des comptes, sous¬<lb/>secrétaire d'Etat ou secrétaire général<lb/><lb/>d'un ministère, préfet et sous-préfet, se-<lb/><lb/>crétaire général de préfecture, conseil-<lb/><lb/>ler de préfecture, membre de la cour de<lb/>cassation ou des cours d'appel, juge ti-<lb/>iulaire ou suppléant des tribunaux civils<lb/>et des tribunaux de commerce, officièr<lb/>du ministère public près les (tribunaux<lb/><lb/>de première instance, juge de paix, com¬<lb/>missaire de police, ministre d'un culte<lb/>reconnu par l'Etat, militaire de l'armée<lb/>de terre ou de mer en activité de service<lb/>et pourvu d'emploi, fonctionnaire ou pré¬<lb/>posé du service actif des douanes, des<lb/>contributions indirectes, des forêts de<lb/><lb/>Etat et de l'administration des télégra¬<lb/></p>
+        <p rend="labelled"><lb/>domestiques et serviteurs à gages, ceux<lb/>qui ne savent pas lire et écrire en fran¬</p>
+        <p rend="labelled"><lb/>ont besoin pour vivre de leur travail<lb/>manuel et journalier ; 3e ceux qui ont<lb/>rempli lesdites fonctions pendant l'année</p>
+        <p><lb/>à ¡faire par chaque arrondissement (un<lb/>juré par 500 habitanis), la composition<lb/></p>
+        <p><lb/>cavalerie de Saumur, est déposé à la<lb/>Préfecture et aux Sous-Préfectures, où<lb/>les intéressés pourront en prendre con¬<lb/></p>
+        <p><lb/>courir serendront à Saumur à leurs frais.<lb/>ront de leur intention de se présenter<lb/>aux examens et lui remettront les pièces<lb/>avoir lieu pendant le repos de la végéta-<lb/>tion c'est-à-dire, du premier novembre<lb/>au premier avril ; si le terrain est sablon-<lb/>neux ou léger, il estpréférable de la faire<lb/>avant l'hiver qu'au printemps, car dans<lb/>ces sortes de terres, le développement<lb/>des bourgeons a lieu ordinairement de<lb/>bonne heure ; si, au contraire le terrain<lb/>est compacte, humide, il convient de ne<lb/>faire la plantation qu'au printemps, en<lb/>ayant soin, toutefois de faire les trous<lb/>avant l'hiver, afin que la gelée et le dé-<lb/>reuses et rendent la terre plus substan-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>terrain qui n'a pas été préalablement dé-<lb/>foncé, on prépare les trous sur un mètre<lb/>et demi cárré au moins dans un sol mé-<lb/>diocre. Dans un sol riche, on leur donne<lb/><lb/>tres de profondeur. On met d'un colé la<lb/>terre qui est à la surface du sol, c'est-à-<lb/>dire celle qui a vu l'air et qui est propre<lb/>la végétation. On met sur un autré<lb/>bord du tron la terre de dessous, celle<lb/>qui est vierge et qui a besoin de voir le</p>
+        <p><lb/>meilleur moyen pour obtenir un bon<lb/>succès, en ce sens que le terrain remué<lb/>se pénètre davantago des agents atmos-<lb/>phériques, et que les racines y trouvent<lb/>pour l'avenir une plus facile pénétration<lb/>mais il est plus onéreux ; cependant co<lb/>moyen doit toujours être exécuté autant<lb/>que possible lorsqu'il s'agit de la planta¬<lb/>tion d'un certain nombre d'arbres à dis-<lb/>tance assez rapprochée, surtout si le sol<lb/>est de mauvaise qualité ou qu’il soit in¬</p>
+        <p><lb/>profondément et prendre en considéra-<lb/>tion l'affaissement des terres qui est d'un<lb/>dixième environ, c’est-à-dire d'un centi-<lb/>mètre sur dix. La règle à suivre, le plus<lb/>ordinairement est d'enterrer l'arbre au<lb/>niveau du collet de manière à ce que les<lb/>plus hautes racines, au point de leur<lb/>naissance, soient couvertes de quatre à<lb/>six centimètres de terre. Dans lès terrains<lb/>exposés à la sécheresse, cette profondeur<lb/>peut être de dix centimètres de plus, et<lb/>dans ceux exposés à un excès d'humidi-<lb/>té, il faut à peine recouvrir le sommet de<lb/>ces plus hautes racines. Si l'ar-<lb/>bre est greffé à basse tige ou près de terre,<lb/>ce qui se présente souvent, il ne faut pas<lb/>enterrer la greffe ; le côté où cette greffe<lb/><lb/>se trouve doit être de préférence tourné<lb/>du côté le moins exposé à la vue, si faire<lb/>se peut. On commence par ramener dans<lb/>trou la terre végétale, celle qui était au-<lb/>dessus avant que le trou fut fait, qu'on<lb/>a eu soin de mettre à part, ainsi que je<lb/>l'ai fait observer plus baut. Quand les<lb/>sont plus fortes d'un côté que de l'autre,<lb/>il fant mettre les fortes dans la direction<lb/>du nord, car de ce côté la végétation se<lb/><lb/>développe moins que dans la direction<lb/>du midi. Il fant encore étendre les raci-<lb/>nes le plus horizontalement possible, en<lb/>les espaçant entre elles, sans cepondant<lb/>les contrarier en changeant leur direction<lb/>naturelle, et en ayant soin de couper un<lb/>peu l'extrémité de celles qui ont été mal</p>
+        <p><lb/>procurer du terreau bien consommé, en<lb/>mettre trois ou quatre pelletées autour<lb/>des racines, cela facilitera la production<lb/>du nouveau chevelu, la reprise de l'ar<lb/><lb/>bre. Une fois le terreau dans le trou, il<lb/>ne reste plus qu'à y mettre la terre neu-<lb/>ve. Mais il faut bien se garder de la jeter<lb/>brutalement sur les racines des arbres;<lb/>il faut s'arranger de façon qu'elle s'épar¬<lb/>pille en tombant. Aussi on ne réussit<lb/>bien que lorsque la terre est mouble:<lb/>trop humide ou bououse, elle ne convient<lb/>pas. Il faut deux personnes pour planter<lb/>un arbre convenabloment et avec aisance.<lb/>L'une met la terre dans le trou, l'autre la</p>
+        <pb facs="0003.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/>Le Journal de Forcalquier.<lb/>repartit, la fait couler avec la main entre<lb/>les racines. Il faut secouer légèrement<lb/>l'arbre de temps en temps, afin que la<lb/>Aerre pénètre dans les interstices des ra</ab>
+        <figure type="decoration"/>
+        <p><lb/>ler la terre en totalité, si toutefois il s'a-<lb/><lb/>git d’arbres de même nature. Dans le</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>les et minerales sont perdues pour l'agricul-<lb/>ture, et cependant quoi de plus facile que de<lb/>Il suffit en effet, pour cela, de réunir dans un<lb/>même tas toutes les matières qui, une fois<lb/>enfouies dans la terre peuvent procurer des<lb/>aliments aux végétaux sans leur être nuisi-<lb/>bles ; c'est l'ensemble de toutes ces substan-<lb/>ces intimement mnélangées entre elles et dé-<lb/>composées par la fermentation qui constitue</p>
+        <p><lb/>le fumier des lapins, la colombine, les excré-<lb/>ments humains qui contiennent abondam-<lb/>ment des matières organiques ; les crins, les<lb/>poils provenant de la tonte des chevaux, les<lb/>plumes des oiseaux substances toutes très-<lb/>riches en azote et dont les bons effets se font<lb/>cuisine, soit comme matières animales, soit<lb/>des sarclages, les feuilles tombées et soigneu-<lb/>les marcs de raisins, les résidus provenant<lb/>buis, les roseaux, les balles de céréales, la<lb/>sciure de bois qui tous apporteront au tas<lb/>suivant leur richesse une certaine quantite<lb/>de principes fertilisants ; les curures des fos-<lb/>sés, les balayures des cours des habitations,<lb/>bres riches en sels à base de potasse, desoude<lb/>des matières azotées et des sels de chaux, les<lb/>cest-à-dire ceux de potasse et de sonde et<lb/>durables ; les chiffons provenant des habille-<lb/>ments et surtout ceux de laine qui sont très<lb/>grais, dure au moins quatre ans ; on aura<lb/>soin de les couper préalablement en petits<lb/>morceaux. On arrose la masse ainsi compo¬<lb/>sée avec des eaux de vaisselle et des caux de<lb/>lessive, ces dernières tenant en suspension<lb/>les alcalis enlevés aux cendres lors de leur<lb/>Enfin on y joint la terre nécessaire à la for-</p>
+        <p><lb/>gulaires ; pour l'établir on commence par<lb/>épandre sur le sol une nappe de terre de vinge<lb/>deux mètres de largeur et dont la longueur<lb/>ne doit pas donner immédiatement toute la<lb/>longueur au tas afin d'éviter l'évaporation.<lb/>ayant soin de les mettre autant que possible<lb/>on remet une nouvelle couche de terre aussi<lb/>épaisse que la première sur laquelle on place<lb/>couvre le tout d'une nappe de terre épaisse de<lb/>30 contimètres pour éviter les pertes par l'é-<lb/>vaporation, et on abandonne le tas à la fer-<lb/>mentation en ayant soin toutefois de l'arro<lb/>l'on a à sa disposition. Silles matières for¬<lb/>mant le tas sont d'une décomposition lente,<lb/>on peut accélérer leur désorganisation en les<lb/>saupoudrant avec de la chaux à mesure qu'on</p>
+        <p><lb/>trémités et de le reformer derrière soi après<lb/>trois ou quatre mois de fermentation. Au<lb/>bout de six mois ou unfan, suivant les subs¬<lb/>tances employées, le cultivateur aura obtenu<lb/>de la sorte un engrais complémentaire qui<lb/>lui assurera des récoltes plus abondantes,<lb/>car il augmentera la fertilité de ses terres ara-<lb/>bles, et cela sans autre déboursé que celuf</p>
+        <p><lb/>bons résultats sur les vignes, les prairies, les<lb/>chanvres, plantes qui toutes demandent une<lb/>répandre sur un hectare variera évidemment<lb/>suivant que les matières qui ont servi à la<lb/>rconfectio edeu cots ferts serons plus ou moins</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>ment du village de SAINT VIOAL, traversaient<lb/>passaient dans une forêt de pins, de chênes el<lb/>de coudriers, couverts, depuis peu, de feuil¬<lb/>lop de leurs montures, du cóté des hautes<lb/>montagnes des Cévennes qui apparaissaient,<lb/>village dont nous venons de parler, est situé<lb/><lb/>dans le bassin de la Loire, au milieu d'énor¬<lb/>mes rochers et de volcans éteints depuis plu¬<lb/>sieurs siècles. Le soleil venait de se montrer à<lb/>P'Orient, enveloppé de quelques nuages rou¬<lb/>geâtres, qui ne parvenaient pas à empêcher<lb/>ses rayons, quoique faibles encore, de dorer<lb/>les hautes cimes neigeuses des montagnes<lb/>voisines et de faire briller, à travers les brous-<lb/>lettes de rosée, qui ressemblaient à de gros-<lb/>ses perles d'argent. Ces cavaliers causaient<lb/>gaiment et bruyamment entre-eux et parais¬<lb/>saient tout contents et tout réjonis. On aurait<lb/>dit que l'air embaumé des prairies, qui se<lb/>couvraient en ce moment de fleurs nouvelles,<lb/>qui leur était envoyé par l'aurore, qui venait<lb/>de disparaltre, comme sur les alles des zé¬<lb/>phirs, était P'unique cause de leur bonne<lb/>humeur et de leur franche gafté et que le<lb/>chant des fauvettes dans les buissons, des<lb/>alouettes dans les airs et des pêtits grillons<lb/>dans les sillons récemment tracés par le<lb/>rouges, bleus et verts, sortis depuis peu des<lb/>fabriques de Saint-Etienne, attachés à leurs<lb/>chapeaux, aux pistolets suspendus à leur<lb/>cilement compris que c'était des jeunes gens</p>
+        <p><lb/>sage qui existe en Provence, la célébration<lb/>des mariages a lieu ordínairement dans lé<lb/>pays natal de l'époux. L'usage que le fiancé<lb/>se rende, accompagné du garçon d'honneur<lb/>qu'il a choisi et des jeunes gens qu'il a invi¬<lb/>de grand matin, afin d'arriver à temps pour<lb/>ssoi le plaisir, de tresser les longs chereux de sa<lb/>promise. Il doit avoir soin de ne pas oublier le<lb/>gros cornet à dragées, afin qu'en arrivant il<lb/>la belle-mère, en échange de ce cadeau, est<lb/>force), son poulailler au pillage, pour que<lb/>tous les jeunes gens invités puissent se pro-<lb/>que dans l'église, où malgré les cris perçants<lb/>dre la fin de la cérémonie. Après, chacun<lb/>suivant les malheureuses gallinacées sont<lb/><lb/>tirées de leur prison et immolées impitoya-</p>
+        <p><lb/>dévoné et tout joyeux, allit chercher la fu-<lb/>suite au pied de l'autel. Celui-ci était vetu<lb/>d'un costume à la mode de l'époque et avait<lb/>pour monture, en sa qualité de Novi, une su-</p>
+        <p><lb/>onze du matin, irrévocablement ; rien ne de¬<lb/>ques lavaient dit. Pauvre jeune homme, il<lb/>aurait peut être mieux fait de renvoyer cette<lb/>union au calender Gréquer, car il attachait<lb/>un boulet formidable a sa chaine, boulet<lb/>milleu des cailloux, et des grosses pierres du<lb/>chemin qui conduit à la tombe ; mais il lui<lb/>semblait qu'il avait trouvé une mine d'o<lb/>plus riche que toutes celles du Pérou. D'ail¬<lb/>leurs, l'amour, le cruel amour qui, sembla-<lb/>ble aux algues de la mer, enlace ses victimes<lb/>avec ses longs bras, les étreint et lesfentrai-<lb/>ne dans les profondeurs du gouffre et rend<lb/>avengles tous ceux qu'il visite, était entré dans</p>
+        <p><lb/>taient toujours rapidement, car les éperons<lb/>א<lb/>d'argent s'enfonçaient dans leurs flanes et le<lb/>double picotin qu'ils avaient dévoré le matin,</p>
+        <p><lb/>lel, araient montérapidement dans le ciel où<lb/>ils se promenaient épars, nonchalamment et<lb/>ses ravons commençaient à devenir chauds,<lb/>Les vigoureuses montures des cavaliers<lb/>étaient couvertes d'écume et de temps en<lb/>Lemps elles faisaient entendre de longs hen-<lb/>nissements, comme si elles avaient voulu, à<lb/>leur manière, prendre part à l'allégresse gé-</p>
+        <p><lb/>du clocher d'une<lb/>léglise se dessina au loin derrière une colline<lb/>et le guide donna le signal de la halte. Ils<lb/>étajent, en ce moment, au pied d'une haute<lb/>montagne, couverte encore de son blanc man¬<lb/>un long serpent, coulait majestueusement du<lb/>cóté de l'Orient, sans bruit, comme une nappe<lb/>d'huile et les cascades bruyantes de la Borne<lb/>ne se faisaient plus entendre derrière eux. Du<lb/>bout de la cheminée de la première maison<lb/>du village, s'échappait une fumée noire et<lb/>épaisse, qui montait lentement en spirales<lb/>vers le bleu du ciel et s'effaçait peu à peu en</p>
+        <p><lb/>ges de la voulte et les yeux des caraliers<lb/>étaient continuellement braqués sur elle et<lb/>chacun d’eux, en voyant s’élever la fumée,<lb/>entendait sonner la ClOche du BÉNÉDICITÉ dans</p>
+        <p><lb/>jeunes gens de cotte locallté qui devaient ve-<lb/>nir au devant des cavaliers, pour les conduire<lb/>Tont-à-coup un bruit lointain retentit dans les<lb/><lb/>pistolets, fortement chargés sans doute; car<lb/>le bruit apporté par l'écho de la montagne<lb/>était étourdissant. En un mot, le village et<lb/>toute la vallée retentissaient de chants variés</p>
+        <p><lb/>annoncait que tont allait pour le mieux dans<lb/>le magnifique royaume des amours, que tout<lb/>etait prêt, que le veau gras avait été immole¬<lb/><lb/>et que la future jusqu'alors indécise, était dé-<lb/>tracter l'union projetée et à prononcer le OUI</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>croyons devoir recommander comme le<lb/>cadeau d'étrennes le plus agréable, le<lb/>plus utile et le plus économique, le<lb/>Journal des Demoiselles, journal d'édu-<lb/>cation, littéraire en mêmo temps qu'un<lb/>guide pratique pour tous les travaux d'ar¬</p>
+        <p><lb/>res de modes, patrons à découper et de<lb/>par la variété des renseignements et des<lb/>modèles; il offre une source véritable<lb/>d'économie aux personnes qui seraient<lb/>dans la nécessité de se procurer et à grands<lb/>frais tous Jes matériaux renfermés dans</p>
+        <p><lb/>moiselles donne à ses abonnées un élé-<lb/>ment de distractions utiles par le choix<lb/>res à l'huile et aquarelles, modèles de<lb/>tapisseries en couleur, etc., cartonnages<lb/>variés , albums de musique, surprises,</p>
+        <p rend="styled"><lb/>ce jomen quatre Editions,</p>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>Le Journal de Forcalquier.</fw>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <p><lb/>PRIX DE L'ÉDITION MENSUELLE (COnvertu-</p>
+        <p><lb/>PaIX DE L'ÉDITION MENSUELLE (COuvertu-<lb/>re bleue), avec gravures, 18 fr.</p>
+        <p><lb/>PRIX DE L'EDITION BI-MENSUELLE (COUVer-<lb/>ture verte), avec gravures et patrons, 24</p>
+        <p><lb/>PRIX DE L'ÉDITION REBDOMADAIRE (COU¬<lb/>verture orange), 3 mois, 8 fr. 50.</p>
+        <p><lb/>On envoie un spécimen franco à toute<lb/>personne qui en fait la demandé, par let-</p>
+        <p><lb/>On s'abonne pour l'édition mensuelle<lb/>et les éditions bi-mensuelles à partir du<lb/>1er JANVIER, pour l'année entière ; et à<lb/>l'édition hebdomadaire à partir d'un tri-</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>Première édition, avec gravures dans<lb/>le texte...................., 4 fr. par an.<lb/>Deuxième edition, papier satiné, avec.<lb/>suppl. de modes de 16 p. par quizai-<lb/>ne.......................... 7 fr. par an.<lb/>Troisième édition, papier satiné, avec<lb/>16 pages de musique par mois (sans mo-<lb/>des)......................... 7 fr. par an.</ab>
+        <ab type="head"><lb/>DÈS MAINTENANT</ab>
+        <p><lb/>En s'abonnant dès maintenant à la<lb/>Revue des Familles pour l'année 1873,<lb/>on reçoit gratuitement les numéros d'oc-<lb/>tobre, novembre, décembre 1872. La<lb/>Revue des Familles a pour devise : Dieu.<lb/>Patrie, Famille; c'est assez dire son<lb/><lb/>genre de rédaction. Elle donne chaque<lb/>semaine une livraison illustrée de 32 p.<lb/>et forme par an six vol. de chacun 260<lb/>p. — Elle a quatre éditions dont voici les</p>
+        <p rend="labelled"><lb/>Quatrième édition, papiersatiné, avec<lb/>32 pages de modes par mois et 16 pages<lb/>de musique par mois.... 10 fr. par an.</p>
+        <p><lb/>Belgique et Suisse, 1 fr. en plus ; au-</p>
+        <p><lb/>Adresser les lettres et abonnement<lb/>en bons de poste (ou timb.-p. avec 25 e.<lb/>en plus pour change) à M. E. CHARPEN-<lb/>TIER, directeur, 47, rue Condorcet, Pa-</p>
+      </div>
+      <div type="article">
+        <head><lb/>No 1553. — 30 novembre 1872.</head>
+        <p rend="structured"><lb/>TEXVE: Janet Lange. — Revne politique<lb/>de la semaine.—Courrier de Paris.<lb/>Chronique parlementaire.—Bigarrures<lb/>anecdotiques, littéraires et fantaisistes.<lb/>— Correspondance de Boston. — Les<lb/>Théâtres. — Revue littéraire. — Nos,<lb/>gravures.— Bibliographie: Les Métaux.<lb/>livre de M. With. — Revue du mois,<lb/>par Bertall.—MM. Buffaud frères, in-<lb/>génieurs-constructeurs à Lyon,<lb/><lb/>GRAVURES : Janet Lange. — Rentrée des<lb/>troupes françaises à Reims, le 20 no¬<lb/>.<lb/>vembre 1872 : le colonel du 79me de<lb/>ligne faisant le salut militaire ; vue pri¬<lb/>se du balcon de l’Hôtel-de-ville. — Une<lb/>descente de police dans une maison de<lb/>jeu clandestine do la rue Scribe. —Les<lb/>maladies des chevaux aux Etats-Unis<lb/>un omnibus trainé à bras d'homme<lb/>dans les rues de Boston. — Le banquet<lb/>ב<lb/>du Lord-Maire à Londres : la coupe<lb/>d'amour. — Allant à l'ambulance, ta-<lb/>bleau de Janet Lange. — Les Métaux,<lb/>livre de M. E. With (5 gravures). —<lb/>Revue du mois, par Bertall (12 grav.)-<lb/><lb/>Machine à vapeur de MM. Buffaud frè-<lb/>res, ingéni eus-constructeurs à Lyon.</p>
+        <note>
+          <p rend="styled"><lb/>Le propriśtaire Gerant: Av. Masson.</p>
+        </note>
+      </div>
+      <div type="article">
+        <head><lb/>Annonces Judiciaires.</head>
+        <head><lb/>Einde de M^e ROUsAN, avoué à For¬</head>
+        <head><lb/>PA ABGAON</head>
+        <p><lb/>Le VINGT-NEUF DECEMBRE mil huit<lb/>cent soixante douze, jour de Diman-<lb/>che!, à deux heures de l'après midi,<lb/>dans la salle de la Mairie de Lincel et<lb/>par le ministère de Me MIANE, notairo<lb/><lb/>à Réillanne, à cet effet commis, fil<lb/>sera procédé à la vente, aux enchères<lb/>publiques, des immeubles ci-après,<lb/>formant cinq lois distinets et séparés</p>
+        <p><lb/>ue maison d'habitation, sise en l'en¬<lb/>cemnte du village de Lincel, quartier du<lb/>Ribas. d'une superficie d'environ quatre-<lb/>vingt-onze centiares, portée au plan<lb/>cadastral sous les numéros<lb/>(bis) de la section B. confrontant : du<lb/>levant, Iippolyte Escoffler: du midi, une<lb/>rue ; du couchant, ledit Escoffier et Léon<lb/>Varus ; et du nord, une autre rue</p>
+        <p><lb/>Mise á prix, cent quarante franes,</p>
+        <p><lb/>Une propriété en nature de terre la-<lb/>bourable et vigne, sise sur le terroir<lb/>de la commune de Lincel, quartier du<lb/>Ribas. d'une contenance approximative<lb/>de cinquante= sept ares cinquante cen-<lb/>tiares, portée au plan cadastral sous les<lb/>numéros 234 et 248 de ladite section<lb/>. confrontant : du levant , Antoine Es-<lb/>coffier ; du midi, Jean-Baptiste Barruol ;<lb/>du couchant et du nord, les hoirs dé</p>
+        <p><lb/>Une autre propriété en nature de terre,<lb/>labourable, méme terroir, quartier de<lb/><lb/><lb/>vingt-trois ares quarante centiares, por-<lb/>tée au plan cadastral sous le numéro 83<lb/>de la section A, confrontant : du levant,<lb/>les frères Audibert: du midi, Jean-Bap¬<lb/>(iste Barruol et Mathieu Santel ; du cou-<lb/>chant et du nord, lesdits Barruol et</p>
+        <p><lb/>Mise à prix, soixante franes,</p>
+        <p rend="labelled"><lb/>Un bois, mème terroir, quartier du<lb/>Claux, d'une contenance d'environ un<lb/>hectare vinigt-un ares vingt centiares<lb/>porté au plan cadastral sous le numéro<lb/>445 de la susdite section B, confrontant:<lb/>du levant, les frères Audibert ; du midi<lb/>Achard; du couchant, les hoirs de<lb/>M. Auguste De Gardane ; et du nord,</p>
+        <p><lb/><lb/>120 1.</p>
+        <p><lb/>Un jardin, sis sur le terroir de la<lb/>commune de Reillanne, quartier du Lar-<lb/>gue, confrontant : du levant et du nord.<lb/>le Largue ; du couchant, Martel ; et du</p>
+        <p><lb/>Mise à prix, trente francs, et ci. 30 fr.<lb/>Les immeubles ci-dessus désignés dé-<lb/>pendent de la succession de sieur Antoine<lb/>SAUTEL., en son vivant propriétaire,<lb/>agriculteur, domicilé et demeurant à Saint-</p>
+        <p><lb/>vente en a été ordonnée et la<lb/>mise à prix de chacun d'eux fixée par<lb/>jugement de défaut rendu par le Tri¬<lb/>bunal civil, séant à Forcalquier, le<lb/>quatorze novembre dernier, sur les pour¬<lb/>suites de dame Magdeleine SAUTEL,<lb/>épouse sans profession de sieur Victor<lb/><lb/><lb/>iguier, propriétaire, domielllés et de-<lb/>meurant à Saint-Michel, et de ce dernier<lb/>comme mari, lesquels ont constitué pour<lb/>avoué Me ROUSTAN, avoué prés ledit Tri-<lb/>bunal de Forcalquier, demeurant en ladite</p>
+        <p><lb/>10 Dame Pauline BOURDIN. sans profes-<lb/>sion, veuve d'Isidore Sautel, domiciliée,<lb/>et demeurant à Céreste, en sa qualité<lb/>de tutrice légale de Léon Victorin<lb/>Joseph Sautel, ses deux enfants mineurs.<lb/>issus de son mariage avec ledit Sautel ;<lb/>et 20 Etienne SAUTEL., propriétaire, do-<lb/>micilié et demeurant a Lincel, en sa<lb/>duflité de suefaé-tuteur desdits mineurs,</p>
+      </div>
+      <div type="article">
+        <head><lb/>PHOTOGRAPHIE</head>
+        <p><lb/>Le sieur CUREL, Photographe,<lb/>l'honneur de prévenir le public qu'il<lb/>vient de réinstaller son atelier, rue du</p>
+        <p><lb/>Une Galerie vitrée lui permet d'opérer<lb/>dans les meilleures conditions, et de faire<lb/>des Photographies dans tous les genres,<lb/><lb/>grandes dimensions et carte de visites,<lb/>groupes et photograghies siamoises, re-<lb/>production de gravures et de tableaux,</p>
+        <p><lb/>Vues de Forcalquier, et de tous les</p>
+        <p><lb/>Rien ne sera omis pour satisfaire sa</p>
+        <p rend="styled"><lb/>Prix modérés et ressemblance garantie.</p>
+        <p rend="styled"><lb/>Depuis 20 centimes le Rouleau.</p>
+        <p><lb/>Le cohier des charges, clauses et con¬<lb/>ditions de la vente, est déposé dans les;<lb/>minutes dudit Me MIANE, où chacun peut<lb/>en conséquence, l'adjudication deslits</p>
+        <p><lb/>immeubles aura lieu les jour et leure<lb/>sus-indiqués, et sur les mises à prix<lb/>ci-dessus fixées, en présence desdils défen-</p>
+        <p rend="labelled"><lb/>S'adresser, pour les renseignements<lb/>Me ROUSTAN. avoué poursuivant la vente.<lb/>ou à Me MANE, détenteur du cahier des</p>
+        <p><lb/>ent solme-d</p>
+        <p><lb/>Enregistré à Porcalquier, le 6 décembre<lb/>1872. fo 137. case fre. reçu un franc quatre<lb/>vingis centimes. décime compris</p>
+      </div>
+      <div type="article">
+        <ab><lb/>CHOCOLAT MENIER</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Papier wlinsi</head>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="table"/>
+        <ab><milestone unit="column" n="2"/><lb/>ge FRANÇAISE<lb/>Toujours 2 francs le 1/2 kilogr.<lb/>CACAO EN POUDRE<lb/> DT</ab>
+        <figure type="decoration"/>
+      </div>
+    </body>
+  </text>
+</TEI>

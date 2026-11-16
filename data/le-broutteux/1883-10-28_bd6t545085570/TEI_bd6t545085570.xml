@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t545085570</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1883-10-28">1883</date>
+          <idno type="ARK">bd6t545085570</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t545085570</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Numéro 66. (2me ANNÉE).</fw>
+        <ab><milestone unit="column" n="3"/><lb/>DIMANCHE 28 OCTOBRE 1883.</ab>
+        <ab><milestone unit="column" n="2"/><lb/>Un Numéro: 10 centimes</ab>
+        <figure type="decoration"/>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/><lb/><lb/>ABONNEMENTS:<lb/>y a des bétises<lb/>payables d'avance<lb/>qu'en homme d'esprit<lb/>3mois fJ-0<lb/>acheterait<lb/>0<lb/>6„<lb/>VOISENON<lb/>Etranger. port en sus.</p>
+        <p rend="heading"><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING</p>
+        <p rend="styled"><lb/>Administration: FRERE-GLORIEUX, Imprimeur, rue de Lille, 18. — Rédaction: Jules WATTEEUW, Grand' Place, 19</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>APPEL A LES BONS TCHEURS</head>
+        <p rend="styled"><lb/>In comite, qui s'a formé pou secourir<lb/>les blessés du Ton-Kin, s’adrèche au<lb/>Broutteux pou li d’mander d'voloir ben<lb/>Serclamer à les braffes gins qui arottent<lb/><lb/>bon tcheur, pour invoï à les malhureux<lb/>Eu toubacque et des jeux de cartes ou ben,<lb/>a'z'autes jeux, n'importe.</p>
+        <p rend="styled"><lb/>In peut déposer les dons au bureu du<lb/>Broutteux. Merci à l'avanche.<lb/>trompé d’date; qui avot tchangi cha après,<lb/>pasque l' marché fait l' 8 n’avot été mar-<lb/>tchi que l' 9, in a t'nu min Lesurques.</p>
+        <figure type="decoration"/>
+        <p><lb/>D'in aute côté, des gins v' notent affir-<lb/>mer avoir raccommodé l' z'éporons d' Le-<lb/>surques inveuc du fiet.</p>
+        <p><lb/>Infin, des gins assurottent erconnoîte<lb/>l' malheureux comme ayant rôdé, pindant<lb/>l' nut, inveuc tros autes individus, vin<lb/> z'invirons d' l'indrot du que l' crime<lb/>avot été commis.</p>
+        <p><lb/>Et pou l' pus beau d' l'affaire, ch'est<lb/>qu’in a arrêté in individu lommé Cour-<lb/>riol qui étot réellemint in des coupables;<lb/><lb/>pusqu'y l'a avoué li-même et qui a juré<lb/>qu' Lesurques étot innocent. In n' l'a po<lb/><lb/>accouté.</p>
+        <p><lb/>Toudis, que l'29 Octobre 1796 l pauvre<lb/>malhureux montot, inveuc corache, à<lb/>l'échafaud à côté d' Courriol qui a crii<lb/>d' vant tertus : Je suis coupable, mais<lb/>Lesurques est innocent!</p>
+        <p><lb/>Ah! mais v'la-t-y po qu'in momint après,<lb/>in met la main sur in andividu lommé<lb/>Dubosc sti qui ersonnno si fort à Lesur-<lb/>ques. In fait ervenir les témoins, les fem-<lb/>mes et tous les gins qui avottent juré<lb/>erconnoîte l'azazin et v'la, qu' tertus, in<lb/>veyant Dubosc y dittent que ch’est ben li,<lb/>que l'premire fos y s' sont trompés asseu<lb/><lb/>rémint. Et même, inne de ces femmes<lb/>lommé Alfrid ill'à v'nu sotte, de l' misère<lb/>qu'ill' s'a faite d'avoir fait condamner in<lb/><lb/>honnête homme!</p>
+        <p><lb/>L'famille de Lesurques a attatchi l'gou¬<lb/>vernemint in 1804, in réclamant l’fortune<lb/>de Lesurques qui avot été confisquée. Ill'<lb/>a erqueminehi in 1821 et a obtenu inne<lb/>premire restitution d' 224,000 francs, in<lb/>1835, inne seconde de 252,000 francs, mais<lb/>jamais, l' tribunal n’a volu réhabiliter<lb/>Lesurques ! S' femme à v'nu folle d'déses-</p>
+      </div>
+      <div type="article">
+        <head><lb/>LESURQUES</head>
+        <p><lb/>Ch'est l'semaine de Toussaint+</p>
+        <p><lb/>Quoque l' Brontteux n’euche po l'ha¬<lb/>bitude de rinconter des saquos pou faire<lb/>braire les gins, y n’ peut po s'impêchi<lb/>qu' d'ermette, in souvenir, l'mémoire d’in<lb/>honnête homme qui a été djillotiné par<lb/>erreur, l'29 de c' mos chi, in 1796, y ara<lb/>juste lundi 87 ans. Personne n’est sinsé<lb/>ignoré l' mort de Lesurques, sti à tchi<lb/>qu'in a cope l' tête jus comme étant l'aza-<lb/>zin du Courrier de l'Lyon. L'z'erreurs<lb/>judiciaires de justice y sont rares, hureu-<lb/>semint, mais aussi, tchan que l' malheur<lb/>vous poursut... y faut succomber.</p>
+        <p><lb/>In aro dit que l' diable s’in mélot, vin<lb/>c' l'affaire la. In des azazins ersonnot<lb/>comme deux gouttes deau à Lesurques et<lb/>us les gins v' nottent dire que ch'étot li!<lb/><lb/>Et pour combe de malheur, in arot dit<lb/><lb/>qu' toutétot fait et préparé d'avanche pou<lb/>condamper!</p>
+        <p><lb/>Au fait, accoutez : l' min vas faire tout<lb/>min pus mi, pou vous rinconter l'histoire<lb/>de c' malhureux.</p>
+        <p><lb/>Joseph Lesurques a v'nu au monde, à<lb/>Douai, in 1763. Comme y v'not d’inne<lb/>famille honnête et vin l'aisance, ses parints<lb/>ont povurecoler convenabemne.</p>
+        <p><lb/>Par après, y a pris du serviche vin l'ré-<lb/>gimint d’Auvergne et y a obtenu l' grade<lb/>de sergent.</p>
+        <p><lb/>In 1789 y a erpéri à s' majon et in 1790<lb/>y mariot inveuc inne certaine d’ moiselle<lb/>Campion qui li a apporté inne assez belle<lb/>fortune.</p>
+        <p><lb/>Comme y avot inne mioche de doupes,<lb/>aussi, y s’a trouvé propriétaire d’inne cer-<lb/>taine position qui li a permis d'faire du<lb/>commerce in grand, et y a réussi. Y a<lb/>même été chef de bureu à l'administra-<lb/>Kion centrale de Douai.</p>
+        <p><lb/>Au mos d’Avril, 1796, y s’in d'allo, in-<lb/>veuc s' femme et ses afants, habiter la<lb/>capitale de Paris. Y étot à peine arrivé; y<lb/>n’avot po même acor tout mis in ménache<lb/>v'la que l'brut court: qu’in avot saccagi,<lb/>l' malle de Lyon, à Lieursaint, et qu'in<lb/>avot tué l' courri !</p>
+        <p><lb/>In a arrêté, in premi, in amisse à Lesur-<lb/>ques in lommé Guénot. Comme Lesur-<lb/>ques allot printe des nouvelles de sin copa¬<lb/>gnon, au Palais de Justice, deux métchen-<lb/>nes de Montgeron qui étottent là com¬<lb/>me témoins, in veyant Lesurques y s’ sont<lb/>mis à crii; qu' ch’étot in des deux azazins<lb/>qu'chétot ben li... qui l'erconnaichottent.<lb/>Et in erwettant l' signalemint des ceux<lb/>qu’in supposot les voleurs, y n' d’avot in<lb/>qu' ch’étot l'portrait craché d' Lesurques!</p>
+        <p><lb/>Vus coperdez ben, qu'in l'a arrêté tout<lb/>d’inne, li et s’ n’amisse Guénot.</p>
+        <p><lb/>Lesurques y a prouvé du qui étot l’jour du<lb/>crime; y a dit qui avot été chez un certain<lb/>Legrand orfève pou li acater d' l'argen-<lb/>terie.., in a appelé Legrand inveuc s' n’er-<lb/>giste. Par-malheur... justemint à l'date de<lb/>c' jour la, Legrand avot berdoui sus sin<lb/>liffe; y avot fait in 8 inveuc in 9 que ch'étot<lb/>justemint l' jour du crime!</p>
+        <p><lb/>L'marchand a eu bel à dire qui s'étot</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Campana de Magalouna</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7350099n</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Campana de Magalouna : journal populàri que parei lou 1è e lou 15 de toutes lous meses</title>
+          <publisher>[s.n.] (Mount-Peliè)</publisher>
+          <date when="1897-07-15">1897</date>
+          <idno type="ARK">bpt6k7350099n</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7350099n</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Un double sou:<lb/>Zou! quau n’en vou?</fw>
+        <fw type="runningTitle"><lb/>Sieisièma annada.— No 122</fw>
+        <dateline><lb/>Dau 15 au 31 de Juliet 1897</dateline>
+        <figure/>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/>Journal poupulàri das Felibres de Mount- Peliè que pareis lou 1^e e lou 15 de toutes lous meses</p>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <ab><milestone unit="column" n="2"/><lb/>Aministracioun e Redacioun<lb/>27, Grand-Carrièira, 27, à Mount.Pelie</ab>
+        <ab><milestone unit="column" n="3"/><lb/>La "Campana» se vend à Paris<lb/>Enco de M. Pierro DUPPAU, Galerie Vivienno, 25</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>Grasila<lb/>Marida sa filha<lb/>Emé Fabarolet.</ab>
+        <ab type="head"><lb/>VESPRADA GALOIA</ab>
+        <p><lb/>Couma hou avèn fach per la fèsta de<lb/>Quaranta, avançan de quauques jours l'espe¬<lb/>lida de noste numero dau 15 de Juliet, à<lb/>l'oucasioun de la representacioun teatrala,<lb/>dounada per lous Campaniès aqueste dilus<lb/>12 de Juliet, à l'Eden-Councert, embé la<lb/>bona ajuda de la troupa clapassièira Gelly e<lb/>lou galant counçours d'artistas e amatous mai¬<lb/>que-mai counouguts e aimals à Mount-Peliè.<lb/>Publican à la 3ª paja lou prougrama d'aquela<lb/>representacioun.</p>
+        <p><lb/>La pèça de resistança de la vesprada, aco's<lb/>La Filha de Madama Grasilha, farcejada de<lb/>noste esperitat e gai Campaniè l'Escoutaire.<lb/>N'en dounan una aperçuda aqui-dejouta.<lb/>Pernod que de travailhà mièja-journada. Es el que<lb/>Grasilha vòu bailà à sa cardounilheta : mès Madama<lb/>Grasilha es aqui. Ela vòu un coumis, un emplegat<lb/>de bon biaisset, que porta de lourgnouns e qu'age de<lb/>bellas façouns. L'asard qu'es tant'grand fai que Fa-<lb/>barolet, jouine coumtable enco d'un negouciant en<lb/>vi de la routa de Toulousa, a remarcat Madoumai¬<lb/>sella Grasilha. Amourous, se mes à la cercà. Fai<lb/>semblant de plaçà una nouvella envencioun, intra<lb/>enco de Madama Grasilha, ié dis ço que cerca;<lb/>l'autra lou touèsa, l'atroba à soun goust e ié dis que<lb/>serà soun gendre.</p>
+        <p><lb/>Dau tems que s’embrassoun, Moussu Grasilha,<lb/>arriva emé soun Castagnou, lou presenta couma<lb/>gendre causit. Madama Grasilha presenta Fabarolet<lb/>couma soun cousi de Lunèl. Per faire veire sa pou¬<lb/>gna, que Grasilha n'en parla couma de quicon de<lb/>flambard, Castagnou maneja lous peses que servis-<lb/>soun per loy carbou, n'en laissa toumbá un, lou mai<lb/>gros, de 40 kilos sus l'agacis dau paure coumtable<lb/>que s'atrova mau.</p>
+        <p><lb/>Madama Grasilha mes defora lous dous ibrougnas<lb/>de sona au secous. Una cola de pintres que passa-<lb/>voun introun e carrejoun Fabarolet sus una escala.</p>
+        <p><lb/>Madama Grasilha coumplota alor emé Pincèl, lou<lb/>contra-mèstre pintre, e emé Banasta, un jardinié que<lb/>vòu espousà Grasilheta, couma faran per coussejà<lb/>Castagnou. Banasta prepausa una anchoiada ounte<lb/>metran de ciguda, qu'es una planta empouisounada,<lb/>à loga de jaubert. Madama Crasilha vòu sannà l'ani-<lb/>mau ; Pincèl fai remarcà que lou bourrèl Deibler,<lb/>as qu'an tuat ou empouisounat, se derenja de Paris<lb/>per lous faire sanjà d'èr. Couic! — Alor dequé<lb/>fr</p>
+        <p><lb/>Fabarolet, que sa caca èra de fufu, revèn e dis que<lb/>lous uchès e lous gendarmas cercoun Castagnou que<lb/>Néu à cats e à chis e qu'enfounsa lous mases. Autant¬<lb/>lèu Pincèl e Banasta se van deguisà en uchès e en<lb/>gendarmas, e quand Castagnou arriva e que fan<lb/>semblant de lou voudre acipà, partis en lous vegent<lb/>couma una lèbre e revèn pas pus. Madama Gra-<lb/>silha causis Fabarolet per gendre, Pincèl serà gar-<lb/>çou d'ounou, e toutes s'envan en cantant sus l'èr<lb/>espetaclous de la marcha de l'operà dau Proufêta:</p>
+        <p><lb/>Dounan pus liont la cansou de Magali, aquela de</p>
+        <ab><lb/>E FELIBRENCA</ab>
+        <ab><lb/>à l'Eden-Councert de Mount-Peliè</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>La Filha de Madama Grasilha</head>
+        <p rend="labelled"><lb/>(ANALISA DE LA PECA)</p>
+        <p><lb/>Madama Grasilha vend de carbou, de fagotas, de<lb/>coke, de carbounilha, de gabèls e de boi d'éuse dins<lb/>una boutiga de la Vau-fèra. Soun ome, Moussu Gra-<lb/>silha, passa soun tems au café, béu lous benefices<lb/><lb/>dau carbou, crei de faire tout lou traval e s'amagina<lb/>qu'es el que porta las bralhas.</p>
+        <p><lb/>Es sa fenna pamens que ten lou timou ; an una<lb/>pichota qu'acoumença d'èstre grandeta e poulideta:<lb/>la voloun maridá. Quau ié bailaran?</p>
+        <p><lb/>L'ome a fach counouissença au cafè d'un gandard<lb/>de michanta mena, d'un traça d'arnès dau noum de<lb/>Castagnou, grand bougre fort couma un brau, pigre<lb/>e brama-lesca, pus capable de moucà foulbeta de</p>
+        <ab><lb/>3o i./nee éé erooleéèe </ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Mandadisses Felibrencs</head>
+        <head><lb/>A LA FÉSTA CELEBRADA A QUARANTA LOU 13 DE JUN<lb/>EN L'OUNOU DE FREDERIC LAFORGUE.</head>
+        <p><lb/>Dins noste darniè numero, avèn aproumès de pu¬<lb/>blicà lous principaus mandadisses felibrencs adres-<lb/>sats à M. Camile Laforgue e au municipe quaran-<lb/>tenc à l'óucasioun de la superba manifestacioun que<lb/>n'avèn fach lou raconte.</p>
+        <p><lb/>Au banquet, M. A. Vidal, l'enteligent e devouat<lb/>cònsou de Quaranta, a legit lou mandadis prouven-<lb/>çau seguent dau majourau En Leoun de Berluc-<lb/>Perussis, membre de l'Academia de las scienças,<lb/>agricultura e bellas-letras d'Ais :</p>
+        <p rend="labelled"><lb/>« Vous avez eu raison de penser que je m'asso-<lb/>cierais pleinement à l'hommage que vous allez ren-<lb/>dre à Frèdéric LAFORGUE ; il me sera, par malheur,<lb/>impossible de me rendre, à la réunion à la fois<lb/>intime et solennelle, à laquelle vous me faites la grâce<lb/>de me convier ; mais je serai présent d'esprit, et plus<lb/>encore par le cour, à cette assemblée d'admirateurs<lb/>et d'amis.</p>
+        <p><lb/>Outre que nul n'a plus et mieux mérité les hon¬<lb/>neurs civiques que votre éminent compatriote, j'es-<lb/>time que cette démonstration a une portée plus géné-<lb/>rale. En un temps et en un pays ou l’on prodigue<lb/>plaques, bustes et statues aux politiciens ; il est bon,<lb/>il est excellent de magnifier un de ces admirables<lb/>ruraux qui, loin de toute visée ambitieuse, se sont<lb/>noblement et obscurémènt voués aux intérêts du sol,<lb/>c'est-à-dire aux intérèts primordiaux du peuple.</p>
+        <p><lb/>Parmi cette foule banale qui, sous les espèces du<lb/>marbre ou du bronze, encombre nos places et nos<lb/>carrefours, je voudrais, moi, non pas une simple<lb/>inscription, mais un piédestal pour le citoyen vrai-<lb/>ment utile et grand que vous allez fêter. LAFORGUE<lb/>n'est-il pas, après tout, le général en chef qui a<lb/>purgé le sol de la patrie d'une horde d'envahisseurs<lb/>qui le ravageait? N'est-il pas l'initiateur d'une pou-<lb/><lb/>dre autrement précieuse que «la poudre sans fuiée»<lb/>la Raiolo e la roumansa d'Estello, que saran canta-<lb/>das à la vesprada de l'Eden-Councert.</p>
+        <ab><lb/>BARBASTA.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

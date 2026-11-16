@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Écho de Morlaix</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k72833870</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Écho de Morlaix : feuille d'annonces : journal politique</title>
+          <publisher>V. Guilmer (Morlaix)</publisher>
+          <date when="1850-09-14">1850</date>
+          <idno type="ARK">bpt6k72833870</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k72833870</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="bre">breton</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>DOUZIÈME ANNÉE. — No 37.</fw>
+        <fw type="runningTitle"><lb/>SAMEDI 14 SEPTEMERE 1830.</fw>
+        <ab><milestone unit="column" n="1"/><lb/> pne les Tentes, les Annonces judiciaires, administratives, commereiales, listéraires, industriefles,</ab>
+        <note type="handwritten"><lb/>Prefectur</note>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>FEUILLE D'ANNONCES.</p>
+        <ab><lb/>agricoles, et les Avis diser».</ab>
+        <p rend="styled"><lb/><lb/>L'Eche parait le samedi de chaque semaioe. — Le peix de l'abonnement pour une snnée, est de le fr. pour Morlait<lb/>par la porte. - Les leures, les paquets et Pargent<lb/>doiveni etre adresses franco,<lb/>Bureau du Journe<lb/>Suuss, Imptimenr-Libraite<lb/>Morlais Finistere<lb/>Ch. Lesotiver et C, rue Notre-Dame des-Vietoires, 66 (Piace de la Hourse<lb/>Roussesu, ou lon reçoit les annonces pour l'Eche; dans lei depertements, chet les Libraires et cher les Directeurs des poste,,</p>
+      </div>
+      <div type="article">
+        <ab><lb/>L'étoile á travers la sombre ramée<lb/>Jette son rayon pale à l'horizon;<lb/>— L'amant parle bas à sa bien-aimée<lb/>Marchant près de lui sur le vert gazon.<lb/>Et quand on n'a plus dans l'âme de rève,<lb/>On trouve en un coin caché de son cœeur<lb/>Une heure pareille, helas ! et trop brève<lb/>Ou comme eux peut-être on crut au bonheur.<lb/>20 juillet 1830.</ab>
+        <ab type="head"><lb/>CREPUSCULE.</ab>
+        <lg>
+          <l><lb/>Au soleil couchant voici que les grives</l>
+          <l><lb/>Siffent leur romance au fond du verger,</l>
+          <l><lb/>La mer doucement se plaint à ses rives,</l>
+          <l><lb/>Le troupeau revient aux eris du berger;</l>
+        </lg>
+        <lg>
+          <l><lb/>La fleur sans rosée au cœeur s'étiole</l>
+          <l><lb/>Et penche la tête aux vents embrasés;</l>
+          <l><lb/>L'arbre est immobile et la luciole</l>
+          <l><lb/>Scintille dans l'herbe au bord des fosses;</l>
+        </lg>
+        <lg>
+          <l><lb/>Des bruits incertains, de molles haleines,</l>
+          <l><lb/>De vagues lueurs s'elèvent du sol;</l>
+          <l><lb/>Les chauves-souris et les grands phalènes</l>
+          <l><lb/>Dans l'air endormi promènent leur vol;</l>
+        </lg>
+      </div>
+      <div type="article">
+        <head><lb/>LE GOLFE.</head>
+        <lg>
+          <l><lb/>O doux golfe d'azur! que n'ai-je comme toi</l>
+          <l><lb/>Une vie humblement abritée en sa foi,</l>
+          <l><lb/>Qui sur le vert gazon laissant dormir son onde,</l>
+          <l><lb/>Ne fut jamais troublée aux clameurs de ce monde;</l>
+          <l><lb/>Où les êtres perdus et les lointains regrets</l>
+          <l><lb/>Viendraient seuls me parler a l'ombre des forèts;</l>
+          <l><lb/>Qui sur les flots trompeurs ne lançant plus de rèves,</l>
+          <l><lb/>Ne trouverait jamais de dèbris sur ses grèves,</l>
+          <l><lb/>Et ne réftéterait en son flot calme et bleu</l>
+          <l><lb/>Que la sainte tristesse et r'espérance en Dieu!</l>
+        </lg>
+        <lg>
+          <l><lb/>Petit golfe dormant à lombre de tes rives,</l>
+          <l><lb/>Tu n'as pas de la mer les grandes perspectives,</l>
+          <l><lb/>Tu n'as pas les rescifs altiers, les sables blancs,</l>
+          <l><lb/>Ni les verts orangers sur les vagues tremblants;</l>
+          <l><lb/>Les joyeux pèlerins aux fortunés rivages</l>
+          <l><lb/>Ignorent les abris de tes grèves sauvages;</l>
+          <l><lb/>Et les barques le soir fendent seules tes caux</l>
+          <l><lb/>Qui ne virent jamais passer les grands vaisseaux.</l>
+          <l><lb/>Mais tu n'as pas non plus les voix de la tempête,</l>
+          <l><lb/>Et le timide écho de tes bords ne répète</l>
+          <l><lb/>Que le cri triste et doux des blancs oiseaux de mer</l>
+          <l><lb/>Qui mornes et pensifs rasent ton flot amer ;</l>
+          <l><lb/>Quelques maigres buissons de bruyère et de lande</l>
+          <l><lb/>De ton calme miroir sont la seule guirlande ;</l>
+          <l><lb/>A peine s'il s'y cache une modeste fleur</l>
+          <l><lb/>Dont la foule en passant dédaizne la paleur,</l>
+          <l><lb/>Mais qui garde souvent une senteur plus douce</l>
+          <l><lb/>Au réveur qui la sait découvrir sous la mousse.</l>
+        </lg>
+        <p rend="styled"><lb/>, 1.</p>
+      </div>
+      <div type="article">
+        <head><lb/>AVIS ET PAITS DIVERS.</head>
+        <p rend="labelled"><lb/>— Le huit du courant, vers une heure de l'après-<lb/>midi, un incendie s'est déclaré dans la rue basse, près<lb/>Saint-Mathieu, au premier étage de la maison de la<lb/>veuve Le Roux, habité par les époux Kergoat, mar-<lb/>chands de lard. Gràce aux prompis secours portés par<lb/>les pompiers, par plusieurs soldats de la garnison et<lb/>par un grand nombre d'habitants, rien n'a été brûlé.</p>
+        <p><lb/>La cause de ce commencement d'incendie est attri-<lb/>buée, soit à un chat qui se couche habituellement sur<lb/>la cendre et qui serait monté sur le lit ou le feu s'est<lb/>déclarè, soit à la domestique des époux Kergoat, agée<lb/>de 11 aus, qui aurait pu aller prendre de la paille du<lb/>lit pour allumer du feu.</p>
+        <p rend="labelled"><lb/>— Sur la proposition de M. le Ministre de PAgri-</p>
+        <p><lb/>Par dècret de M. le Prèsident de la République,<lb/>approuvé par la Commission de l'Assemblée Nationale,<lb/>il vient d'être accordè à PAssociation Bretonne, trois<lb/>sases de porcelaine de la manufacture de Serres,<lb/>d'une valeur de 700 à 900 franes.</p>
+        <p><lb/>Ces objets devront accompagner le premier prix des<lb/>tiné à l'amélioration de la race bovine, et les deux<lb/><lb/>autres, les deux prix principaux réservés aux amélio.<lb/>rations agricoles.</p>
+        <p><lb/>Le President de la Commisnion organisatrice du Congrès régio-<lb/>nal Brcton de 1850.</p>
+        <ab><lb/>1. QUET.</ab>
+        <ab type="head"><lb/>PROGRAMME</ab>
+        <p><lb/>DES QCESTIOSS PROPOSÉES POLE LE COSCRES PROVINCIUL<lb/>DE nAETAGNE QUI S'OUVRIRA A MOMLAIN LE 6 OCTONRE</p>
+        <ab><lb/>Première Partie. _ Mistoire des Arts.</ab>
+        <p><lb/>1. Signaler et décrire les monuments celtiques de<lb/>l'arrondissement de Morlaix, autres que ceux indiques<lb/>par M. de Frèminville.</p>
+        <p><lb/>2. Signaler et classer les monnaies celtiques-armo¬<lb/>ricaines qui ne portent pas d'inscriptions, en les rap-<lb/>portant aux diverses peuplades de lArmorique aux-<lb/>quelles elles appartiennent.</p>
+        <p><lb/>3. Signaler et décrire les vestiges d'établissements<lb/>romains existant dans la partie du diocèse de Tréguier<lb/>comprise dans l'arrondisement de Morlaix et dans le<lb/>diocese de Leon, spécialement à Locquirec, Le Gue.<lb/><lb/><lb/>rand et Kerilien.</p>
+        <p><lb/>4. Signaler et décrire les voies romaines de l'arron¬<lb/>dissement de Mortaix; étude spéciale de la voie de<lb/>Morlaix á Carhaix.</p>
+        <p><lb/>5. A quelle époque peut-on rapporter la construction<lb/>des églises de Lanmeur et de Kernitroun, et en par-<lb/>ticulier de la crypte de Saint-Mêlair? Quels sont, dans<lb/>les diocèses de Tréguier et de Leon, les édifices qui<lb/>présentent quelque analogie de style avec ces deur<lb/><lb/>mouuments?</p>
+        <p><lb/>6. Existe-t il entre l'architecture de la Haute-Bre-<lb/><lb/>tagne et celle des évèchés de Léon et de Cornouaille<lb/><lb/>quelques diffèrences, soit quant au plan des édifices,<lb/>soit quant à l'ornementation, soit quant à la durèe du<lb/>style ogival? Quelles sont les limites extrèmes de ce<lb/><lb/>style en Basse Bretagne? Y a-t-il suivi, dans son dè-<lb/>veloppement chronologique, les differentes phases gé¬<lb/>néralement assignèes à la marche de lart au moyen</p>
+        <p rend="labelled"><lb/>7. Existe-1-il des documents historiques relatifs à la<lb/>consteuetion des cathèdrales de Saint-Pol-de-Léon et<lb/>de Trèguier, et des monuments qu'elles renferment?<lb/>Donner, avec la description de ces édifices, l'indica-<lb/>tion des époques auxquelles peuvent se rapporter leurs<lb/>diffèrentes parties.</p>
+        <p><lb/>8. La tradition qui attribue la construction du clo¬<lb/>cher du Kreisker aux Anglais, repose-t-elle sur quel-<lb/>ques documents historiques? _ Quelle a été l'influence<lb/>exercée par ee monument sur l'architecture bretonne?<lb/>Signaler et décrire les principaux clochers qui sem-<lb/>blent l'avoir pris pour modèle.</p>
+        <p rend="labelled"><lb/>9. Donner la descrip ion de reglise collègiale du<lb/>Folgoet et des monuments qu'elle renferme. Quelle est<lb/>la date de ses différentes parties ? Existe-t-il des docu-<lb/>ments historiques relatifs à sa construction?</p>
+        <p><lb/>10. Quels sont les documents qui permettent de re¬<lb/>garder le cèlèbre sculpteur Michel Colomb comme ori-<lb/>ginaire du pays de Léon? Que penser de l'existence,<lb/>aux Xve et XVI siècles, d'une corporation d'artistes<lb/>bretons connue sous le nom de Lambullays, dont il<lb/>cût êté le chef? — Quels sont les autres artistes que le<lb/>pays de Lèon a produits aux époques du moyen àge<lb/>et de la renaissance?</p>
+        <p><lb/>11. A quelles remarques peuvent donner lieu les<lb/>châteaux du Léon, et, en particulier, le château du<lb/>Taureau, au double point de vue de leur architecture<lb/>et des faits historiques dont ils ont étè le théâtre? —<lb/>Leur description, leur date.</p>
+        <p><lb/>12. Quels sont les principaux monuments de l'archi¬<lb/>lecture civile en Bretagne, soit qu'ils dépendent des<lb/>abbayes ou monastères, tels que les salles capitulaires,<lb/><lb/>infirmeries, réfectoires, cloitres, etc. ? soit qu'ils fussent<lb/>affectès à des usages purement séculiers, tels que les<lb/>hôtels de ville, maisons privées, etc.</p>
+        <p><lb/>13. Signaler et décrire les principaux monuments de<lb/>la sculpture sur bois existant dans les diocèses de Leon<lb/>et de Tréguier, tels que meubles civils, buffets d'orgue,<lb/>stalles, jubes, etc.</p>
+        <p><lb/>11. Signaler les principales productions du théâtre<lb/>breton; en apprécier le caractère général et la valeur<lb/>historique ou littéraire.</p>
+        <p><lb/>15. Déterminer le rôle et la nature de l'élément co-<lb/>mique dans la poesie bretonne.</p>
+        <ab type="head"><lb/>Deuxième Partie._ Histoire Politique.</ab>
+        <p rend="labelled"><lb/>16. Quelles étaient les divisions territoriales de la<lb/>péninsule armoricaine à l'époque gauloise et sous la<lb/>domination romaine? — Discuter spècialement : 1° P'o-<lb/>pinion de d'Anville sur les limites de la cité des Osis-<lb/>miens; 2 celle de M. Walhenaer sur les diverses peu-<lb/>plades gauloises du Finistère; 3e les textes de l'Ano-<lb/>nyme de Ravenne qui concernent la Bretagne.</p>
+        <p><lb/>17. Faire la géographie politique et ecclèsiastique des<lb/>pays occupés ou possédes par les Bretons du continent,<lb/>depuis leur arrivée en Armorique jusqu'à l'invasion<lb/>vormande au xe siècle.</p>
+        <p><lb/>18. Quels renseignements les documents écrits en<lb/>langue galloise, et spécialement les Bardes, pourraient-</p>
+      </div>
+      <div type="article">
+        <p><lb/>() Toutes questions en dehars de celles qui compotent ee pro-<lb/>gramme peuvent etre discutees au Congrès, pourvu qu'elles aient<lb/>ete préalabiement approuvees par le bureau. — On pourra se<lb/>préoceuper, entre auires, des questions relatives au dépattement<lb/>du Finistère déjà abordées au Congrés de Quimper, en 1847, et<lb/>sur lesquellea il scrait posiblo de fouruir de nouveaux rensei-<fw type="digitisation-artefact"><lb/>Source gallica.bnf.fr/Bibliothèque nationale de France</fw></p>
+        <pb facs="0002.xml"/>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="1"/><lb/>ils nous fournie sur la lutte des Reetons insulaires<lb/>contre les Anglo-Saxons jumqu'à la fin du vir siècle?<lb/>1° Prix, 30. — 2 Id. 10. — 3 Id. 30. — 1o ld. 20.<lb/>1 Prime, 60. — 2 Id. 50. — 3 Id. 154. — 4o Id. 40.</ab>
+        <p><lb/>— Mettre ces indications en rapport avee celles qu'on<lb/>trouve d'autre part dans les documents saxons et latins.</p>
+        <p><lb/>19. Quelle valeur historique fant-il attacher aux Actes<lb/>des saints bretons ? Quel parti peut-on firer de ces do-<lb/>euments pour l'histoire de Bretagne? — Application</p>
+        <p rend="labelled"><lb/>20. Faire lhistoire du deoit d'asile en Bretagne au<lb/>moyen age. Signaler les lieux et les terrritoires qui</p>
+        <p rend="labelled"><lb/>21. Quelles ont êté les relations récipreques des Pre¬<lb/>tons continentaux et des Irtandais avant le uiI siècle?<lb/>Quelle influence ont-elles pu exereer sur la firetasne?</p>
+        <p rend="labelled"><lb/>22. Dêterminer la valeur alsolue et la valeur com-<lb/>parative des monnaies, des terres, des diverses den¬<lb/>rées et des marchandires de foute sorte dans les deux</p>
+        <p rend="labelled"><lb/>23. Quelle est P'origine des noms de famille en Bre-</p>
+        <p><lb/>21. Eaquiser le système d'administration politique,</p>
+        <p rend="labelled"><lb/>25. Quelles sont les grandes collections inedites qui<lb/>peuvent fournir des documents nouveaux sur l'histoire<lb/>de Bretagne? Quelle en est Timportance? Serait -il pos-</p>
+        <p rend="labelled"><lb/>26. Kerhercher s'il n’y a pas dans les archives com-<lb/>munales de Farrondinsement de Mortais des documents<lb/>intèressants pour l'histoire générale de la province, et<lb/>spécialement pour celle de forganisation interieure<lb/><lb/>des paroisses rurales en Bretagne, avant la révolution<lb/></p>
+        <p rend="labelled"><lb/>depuis les premières origines de celle principante jus¬</p>
+        <p rend="labelled"><lb/>23. Faire Thistoire des villes maritimes du Léon et</p>
+        <p rend="labelled"><lb/>29. Faire lexposé historique des origines et des dé¬<lb/>veloppements successifs du commerce de la ville de</p>
+        <p><lb/>La classe d'Archéologie consacrera l'une de ses jour¬<lb/>nèes à visiler les importants monuments de Saint-Pol-<lb/>de-Léon, et à étudier sur ces beaux types de l'archi¬<lb/>tecture bretonne, la marche de l'art dans notre pro-</p>
+        <ab type="head"><lb/>PROGRAMME de la Fête Agricole du Comier</ab>
+        <p><lb/>Les étrangers au Comice sont admis à concourir. Les<lb/>coneurrents devront être inserits dès la veille, au se¬</p>
+        <p><lb/>mème de la fête, avant le commencement des labours.</p>
+        <p rend="labelled"><lb/>distribuées aux meilleurs Taureaux de la circonscrip¬</p>
+        <p><lb/>Les Taureaux primés devront étre conservés pour la<lb/>reproduction jusqu'au 1er juin 1831, et le montant des<lb/>Primes ne sera dèlivré qu'à cette époque et sur le vu</p>
+        <p rend="labelled"><lb/>leurs Poulains de l'âge de 1 an à 18 mois, prèsentès</p>
+        <p><lb/>Les Poulains primés devront être conserves par leurs<lb/>propriétaires, jusqu'au 1e mars 1831, et les primes</p>
+        <ab><lb/>1 — ENCOVRACEMENISALA CLIE DES</ab>
+        <p><lb/>Deux Primes seront accordées aux propriétaires qui</p>
+      </div>
+      <div type="article">
+        <p><lb/>() On ne demande point iei de faite l'histoire genealogique des<lb/>comtes de leon qui paralt assea connue, mais bien plutei de<lb/>metre en reliei : 1. le róle politique que le laon et ses priners<lb/>ent joué aux diretses épaiqurs dans l'bisteire cenerale de Eire¬<lb/>iagne; 2. les traits catneierisiques qui setvent à distinguer lo<lb/>pays de léon du reste de la leetagne bretonnante, quant aux<lb/>mititutiens, sur marnrs, sor contumes et meme, si l'on veut,<lb/>„<lb/>à la langue. l es recherches de topographle histerique, de sia<lb/>ui pue e derte leus iqe , eiee r trueo </p>
+      </div>
+      <div type="article">
+        <ab><lb/>Le Prediient du Conire Acricelo du Canten de Si. Togunnee,</ab>
+        <p rend="labelled"><lb/>cants, sient dêtre sielime d'ataques d'hy drophobile.<lb/>dans la commune de Breteuit (Oise). I avait reeu du<lb/>garde-chasse de M. de Laval-Montmorency un chien<lb/>de chasse qui s'etait jeté sur lui quand il avait voulu<lb/>le careser. Le jeune homme fia cantériser la plaie;<lb/>mais deux mois plus tard les symptômes de la rage se<lb/>manifestèrent; il supplia lui-mème sa famille de l'al¬<lb/>tacher avec des cordes; mais dans un accés il les rompit<lb/>et parcournt plusients rues cherchant une vietime.<lb/>qu'heureusement il ne trouva pas. Au bout de 36</p>
+        <p rend="labelled"><lb/>— M. M., contrôleur des contributions, que ses<lb/>fonetions appellent frèquemment à la campagne, re¬<lb/>venait dernièrement d'Etoutteville à Yvetol, et suivait<lb/>un chemin auprès duquel passait un troupeau de mou-<lb/>tons, lorsque, tout à coup, le chlen du berger se jette<lb/>sur lui et lui mord une jambe avec tant de fureur</p>
+        <p><lb/>la feroeite de son chien, le berger qui est un tont jeune<lb/>homme se borne à dire à plusicurs reprises à M. M.:</p>
+        <p><lb/>Alors, aussi prompie que leclair, celte idee vient<lb/>à M. M.: «puisque ee chien n'est pas méchant, se-</p>
+        <p><lb/>On conçoit d'antant mieux que cette pensée soit ve¬<lb/>nue á M. M. que le chien apres P'avoir mordu, avait<lb/>pris la fuite quoique son maitre leût appele long</p>
+        <p><lb/>ver un médecin, entre dans la première habitallon<lb/>qu'il rencontre et demande qu'on lui fasse rongir un<lb/>morceau de fer pour eauteriser la morsure; et comme<lb/>on ne trouve pas de fer, M. M. qui voit bon feu à<lb/>l'âtre, prend un énorme charbon tout en feu et P'ap-<lb/>plique éneraiquement sur la partie blessée jusqu'à ce<lb/>qu'elle soit elle -même en quelque sorle carbonisèe.</p>
+        <p><lb/>Les personnes presentes à celle seène étaient aussi<lb/>surprises du courage de M. M., que vivement impres-<lb/>sionnées, en songeant combien il devait souffeir en se</p>
+        <p><lb/>Une amez longue indisposition a été, chez M. M.,</p>
+        <p><lb/>Il parait certain que le chien n'etait pas enrazé; ce¬<lb/>pendant personne n'a songé à reprocher à M. M. d'a-<lb/>voir aui, en cette circonstance, avec trop de précau-<lb/>tion. — Sous tous rapports, par consèquent, ses amis<lb/>(et ils nt nombreux sont aujourdlue partaitement</p>
+        <p rend="labelled"><lb/>Depuis quelques jours, des tentatives d'emission<lb/>de faume monnaie ont lieu dans le pelit commeree de<lb/>Paris et aux barrières. Les pièces fausses (de 1 et 2 fr.)<lb/>sont à lefligie de l'empereur et au millèsime de 1812.</p>
+        <p rend="labelled"><lb/>— On sait que les pièces de 2e., du même module<lb/>que celles de 23 centimes, n'en difterent guère que par<lb/>l'indication de la valeur et quelques autres signes peu<lb/>apparens qui demandent une certaine attention pour<lb/>être apprèciés. Le signe le plus facile à saisir pour les<lb/>personnes qui ne savent pas lire, consiste dans une<lb/>étoile placèe au dessus de l'effigie. Cette étoile n'existe<lb/>pas dans les pièces de 23 cent. Dans la pièce nouvelle<lb/>de 20 cent., la tète regarde à ganche. Dans celle de<lb/>23 cent., elle regarde à droite. Quant à la difference<lb/>d'épaisseur existant entre les deux pièces, elle est in-<lb/>suisissable. Nous avons cru devoir donner ces indica-<lb/>tans au publie auin de le prémunir contre toute ten¬</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>Tarascon dan foreal lilece fasbienable. Ce peren-<lb/>nage s'était établi à Artes, y avait achete une maison<lb/>de campagne, avait fait faire des construetions, et<lb/>avait fini par entrer comme commis principal dans f'ad-<lb/>ministration des contributions indirectes: mais un beau<lb/>jour l'habitude lemporta, et 8.000 fr. disparurent de la<lb/>caisse du receveur ainsi que M hilog. de poudre dans<lb/>le dépôt. Le commissaire de police de Marseille avait</p>
+        <p rend="labelled"><lb/>demenrant a Narne dille enr Seine (Euce). rentrait<lb/>chez lui vers les sepi heures du matin, après son ser¬<lb/>vice fait. Quelle ne fut pas sa surprise en voyant son<lb/><lb/>jardin devasté; il voulut en savoir la cause et fit des<lb/>recherehes. Elles ne furent pas infructueuses, car à<lb/>peine avait-il fait quelques pas, qu'll vit blotti dans<lb/>un carrè de choux un enorme animal. Courir chercher<lb/>son fusil fut P'affaire d'un instant. Rientêt un coup re¬</p>
+        <p><lb/>Nayant plus de crainte, il s'approche et voit un<lb/>énorme loup: inutile de dire sa joie. Notre homme,<lb/>fatigué, ne pense pas à prendre du repos, charge sa<lb/>proie sur son dos et ya dens le pays recueillie quelques<lb/>petites récompenses que les habitants de la campagne<lb/>ont l'habitude de donner en pareille circonstance. Cne<lb/>partie du pays exploité. il se présente chez un sieur<lb/>Layet, boncher; mais, è malheur ! celui-ei s'apercoit<lb/>que le loup en question était son chien. Notre héros</p>
+        <p><lb/>Cette petite histoire a bien égayé les habitants de<lb/>cette contrèe. Les pauvres en ont en leur part, car<lb/>l'argent recu par noire brave homme leur a éte distri¬<lb/>bué: c'était d'une mésaventure faire une honne action.</p>
+        <p rend="labelled"><lb/>ques années dans un pelit villaze des enirons de<lb/><lb/>Paris, au milien de sa famille, qui se compose dese<lb/>femme et de deux demoielles, et il goûte, loin du</p>
+        <p><lb/>Mais qui n'a pas ses peines? M. G... suit en cela la<lb/>loi commune: il est affecté de douleurs qui souvent<lb/>viennent interrompre son sommeil. I1 se lève alors et<lb/>desrend dans son jardin, ou il se promène jusqu'à ee</p>
+        <p><lb/>Or. avant-hier, vers une heure du matin, M. G...<lb/>se promenait ainsi, lorsqu'au moment ou il allait se<lb/>retirer il entendit le bruit produit par lintroduction<lb/>d'une elef dans la serrure d'une porte donnant accès<lb/>dans un pelit hois voisin. Surpris, il s'arrête, se cache<lb/>dans un massif d'arbres, et voit cette porte s'ouvrir et<lb/>donuer passage à deux hommes que lobscurité lui</p>
+        <p><lb/>partie la plus reculée du jardin ; ils marchent lente¬<lb/><lb/>ment et paraissent porter un fardeau; ils passent prés<lb/>de P'endroit où est M. G..., qui entend échanger à voix<lb/></p>
+        <p rend="labelled"><lb/>Pas trop....: et puis ca sera bien vite fait; là-bas, au<lb/>pied du gros chène, la terre n'est pas dure, je connais<lb/>le terrain, J'y ai travaillè. — Tu as en une drôle d'idée<lb/>de vouloir mettre le corps ici? — C'est par prudence,<lb/>imbècile! Comment voulais-tu nous en débarrasser?<lb/>Et il était temps, eat il y a déjà deux jours qu'il est<lb/>tué, et je l'ai gardé chez moi... M. G... a trop bonne<lb/><lb/>réputation pour qu'on le soupconne jamais, et notre</p>
+        <p><lb/>Persundé que des meurtriers venaient enfouir leur<lb/>victime dans sa proprièté, M. G.... jugea prudent de<lb/>ne pas révéler sa présence; il attendit en proie à la<lb/>plus vive inquiètude. Enfin au bout d'une demi-heure<lb/>environ, il entendit repasser les deux hommes qui<lb/>sortirent par la même porte en la refermant soi-</p>
+        <p><lb/>Le lendemain, M. G.... s'empressa de se rendre au<lb/>pied du grand chène, et reconnut que la terre avait<lb/>éte fratchement remuèe, puis il alla immédiatement<lb/>denoncer au maire de la localité ce qu'il avait vu et</p>
+        <p><lb/>jardin et de faire fouiller la terre. Dès les premiers<lb/>coups de pioche, une odeur nauséabonde se répand<lb/>dans l'air et semble révéler la présence d'un cadavre;<lb/>mais une découverte qu'on était loin de prévoir vient<lb/>auront obtenu la meilleure récolte en Panais sur une<lb/>étendue proportionnelle a limportane de leur tenue.</p>
+        <p><lb/>accondée à la meilleure récolte de Retteraves obtenue</p>
+        <p><lb/>Les producteurs de la circonscription du Comice sont<lb/>seuls admis à concnurir pour les Primes accordees aux<lb/>Plantes Pourrazères. Ceux qui setaient dans lintentiote<lb/><lb/>de se présenter à ce Concours, devront, dans le plus<lb/>bref delai, en donner avis an Secrétariat du Comice.<lb/>afin que la Commission nommèe puisse se transporter</p>
+        <p><lb/>Le rapport de celte Commission devra étre déposé<lb/>au Secrétariat du Comice, huit jours an moins avant<fw type="digitisation-artefact"><lb/>purce gallica.bnf.fr/ Bibliothèque neenare de a</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

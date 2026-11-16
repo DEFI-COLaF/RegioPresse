@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Souc de Nadau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t53679078q</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Souc de Nadau : numero especial de la Campana de Magalouna...</title>
+          <publisher>[s.n.] (Mount-Pélié)</publisher>
+          <date when="1900-12-25">1900</date>
+          <idno type="ARK">bd6t53679078q</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t53679078q</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="article">
+        <div>
+          <pb facs="0001.xml"/>
+          <ab><lb/><lb/>No 201 DE LA CAMPANA DE MAGALOUNA"<lb/>Dimas 25 de Decembre 1900<lb/>Numero Especial<lb/>Campana de Magalouna<lb/>Burèu: 33, Carrièira de l'Agulhariè, à Mount-Peliè<lb/><lb/><lb/><lb/><lb/>ILUSTRACIOUNS:<lb/>Frountispice, Leoun CaUvY.— Merle ou Merlata, Edouard MansAL.<lb/><lb/><lb/>- Gustou au Catechisme, X. — Lous Tres Garçous de<lb/><lb/>Nouè, E.M.<lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/>-<lb/><lb/>=<lb/><lb/>oSTA<lb/>bipresatran<lb/>Tres Sous</ab>
+          <figure/>
+          <p rend="heading"><lb/>DELA</p>
+          <p rend="heading"><lb/>ENSEGNADOU</p>
+          <p rend="heading"><lb/>TESTE:<lb/></p>
+          <p rend="structured"><lb/>Anounça. — Lou Tresor de Sustandioun. JAN DE L'OSLVA. –<lb/>Mèstre Flasqueta, BROUSSATOU DE LAS ARCADAS. Merle ou<lb/>Merlata. LoU RePaPiAIE. — Pèr n'endourmi dous. Adrian<lb/>FRDIERE. — La Campaneta dau Couvent, LOU CANC DE LUNRL.-<lb/>VIEL. — Guston au Catechisme, L’ExCLAUS.T — Lou Cam-<lb/>paniè d'Ancilhoun, E. BoUDon. — Lous tres Garçous de<lb/><lb/>Noué̀. BALS-BALAN. — Lou Brassalet de la Morta, L'ErOCIS-<lb/>LAIRE DE SANT-CRISTOU. — Cansoun d'Autounno, MarC VARENNE.<lb/>— Tres contra Un, LoU SAUTA-RoCS.— L'Aumorno. E, AnAUzIT.<lb/>— Nioch de Nadau, GASTER EnODOTE.-- Uno Petèto. E. AMI-<lb/>T. — Pantoum d'Autouno. Pau VEnAN.— Cops de Campana<lb/>— A nosto Campano, Valèr BILLOU. — Jocs Flouraus das<lb/>Felibres de Paris. — Bibliougrafla. — Grand-Teatre de<lb/>Mount-Peliè. — Aqui lou Fatou.<lb/></p>
+          <ab><lb/>burce gallica.bnf.fr / Montpellier Méditerranée Métropole - Médiathèque centrale Emile Zola</ab>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

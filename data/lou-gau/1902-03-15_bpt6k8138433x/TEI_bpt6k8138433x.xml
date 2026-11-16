@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Gau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8138433x</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Gau : revisto mesadiero pèr li revendicacioun de la lengo prouvençalo à l'escolo, dins la cadiero e à la tribuno poupulàri : parèis lou 15 de chasque mes / secretàri dóu Gau D. Savié de Fourviero</title>
+          <publisher>[s.n.] (Tarascoun-sus-Rose)</publisher>
+          <date when="1902-03-15">1902</date>
+          <idno type="ARK">bpt6k8138433x</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8138433x</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <dateline><lb/>15 de MARS 1902</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>ANNADO SIEISENCO</ab>
+        <fw type="numbering">No67</fw>
+        <figure/>
+        <p rend="heading"><lb/>CANTAIRE Di<lb/>REVENDICACIOUN<lb/>PROUVENÇALO</p>
+        <ab><milestone unit="column" n="2"/><lb/>à l'Escolo, dins la Cadiero e à la Tribuno poupulàri</ab>
+        <figure type="decoration"/>
+        <ab><lb/>AMENISTRACIOUN:<lb/>D. SAVIM DE FOCRVIERO<lb/>Santo-Ano de Bon-Liè</ab>
+        <ab><lb/>PARÈIS LOU 15 DE CHASQUEmES<lb/>ABOUNAMEN: 3 PRANC PER AN</ab>
+        <ab><milestone unit="column" n="3"/><lb/>LI BAILE DOU GAU:<lb/>MÈSTE EISSEIO — REINIÉ MOUNTAUT<lb/>D. SAVIN DE FOUKVIERO</ab>
+        <p rend="styled"><lb/>Marano en Deufnats</p>
+        <p rend="heading"><lb/>TAULETO</p>
+        <ab><lb/>Li Parladuro de Franço à la Chambro di deputa, R. MOUNTAUT. — Lou Pichot Tresor, F. Dóu FOUGAU. — La Trasfiguracioun, P. CIASSANG<lb/>e D. S. de F. — La Boutanico poupulàri, A. BERTIÉ. — Courrespoundènci entre felibre, J. REINAUD e BOUNET L'EINAT. — Fuietoun.</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Li Parladuro de Franço à la Chambro di Deputa</head>
+        <figure/>
+        <p><lb/>òs legèire an pouscu remarca, dins Lou<lb/>Gau de janvié, la requèsto que li felibre<lb/>avien adreissado au Menistre de l'Estru-<lb/>cioun publico. Ero uno requèsto proun justo, proun<lb/>legitimo : se ié demandavo qu'uno placeto siegue<lb/>facho dins lis escolo primàri, coume l’an facho<lb/>deja dins l'enseignamen superiour, i divèrsi parla-<lb/>duro de Franço, prouvençalo, lengadouciano, gas-<lb/>couno, biarneso, flamenco, bretouno e catalano.</p>
+        <p><lb/>La Chambro di Deputa dins sa sesiho dóu 18 de<lb/>fébrié a parla'n moumen d'aquelo questioun. Veici<lb/>'n escapouloun dóu Journal Officiel:</p>
+        <p rend="labelled"><lb/>M. Lemire. — .... L'honorable M. Maurice Faure a parfaitement<lb/>ait ressortir, à propos de l'enseignement supérieur, et je crois que<lb/>son idée s'applique aussi à l'enseignement secondaire, que l'ensei-<lb/>gnement doit tenir compte des ambiances locales.</p>
+        <p><lb/>Il y a certaines choses universelles qu'il faut apprendre partout.<lb/>nais M. le rapporteur fait remarquer avec justesse qu'il y a de la<lb/>part des Universités « une tendance nettement accusée, non seule-<lb/>nent à adapter leur enseignement aux besoins scientifiques et<lb/>industriels régionaux, mais encore à mettre en relief, sous des<lb/>aspects très ignorés, tout le passé de notre pays, toutes les origi¬<lb/>nalités de nos départements, tout le rare trésor de nos vieux<lb/>dialectes, en étudiant, dans les documents dont nos archives<lb/>locales abondent, l'histoire trop longtemps négligée de nos<lb/>diverses provinces et leur rôle particulier dans la formation de<lb/>notre nationalité. Faire connaitre et apprécier les hommes dignes<lb/>de mémoire qui ont contribué, même obscurément, à préparer la<lb/>France moderne en apportant à l'œuvre de l'unité nationale leur<lb/>génie propre et ces qualités natives diverses, auxquelles notre<lb/>pays doit tant de varièté et de charme, n'est-ce pas le meilleur et<lb/>le plus sùr moyen de faire aimer la patrie elle-même?</p>
+      </div>
+      <div type="article">
+        <fw type="digitisation-artefact"><lb/>e France<lb/>ce gallica.bnf.fr / Bibliothèque nationale </fw>
+      </div>
+    </body>
+  </text>
+</TEI>

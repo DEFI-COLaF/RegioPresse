@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8134193x</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1881-07-03">1881</date>
+          <idno type="ARK">bpt6k8134193x</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8134193x</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0008.xml"/>
+        <milestone unit="page" n="112"/>
+        <fw type="runningTitle"><lb/>LO BRUSC</fw>
+        <figure/>
+        <p><milestone unit="column" n="1"/><lb/>Prime à nos abonnés<lb/>et a nos Lecteurs — Un<lb/>Baromètre Anéroide,<lb/>mouvement visible, de<lb/>marche garantie, dia-<lb/>mètre 0,08, expédié<lb/>franc de port sur tout<lb/>le territoire français,<lb/>(ou jusqu’à la frontiere)<lb/>enenvoyant un mandat<lb/>poste de Dix francs<lb/>à M. le Directeur du<lb/>Journal.</p>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>PIGNAN</p>
+        <p><lb/>4 rue Tournefort à Aix, vend le<lb/>véritable COSMYDOR</p>
+        <p><lb/>Incomparable Eau de toilette<lb/>sans acide ni vinaigre.</p>
+        <p><lb/>Les hygiénistes préconisent<lb/>son usage journalier.</p>
+        <ab><lb/>GHIO, Editeur (GALERIE D'ORLEANS, PARIS)<lb/>et chez tous les libraires<lb/>LE COMMANDEUR MENDOZA<lb/>ROMAN DE JUAN VALERA<lb/>Traduit par Albert Savine<lb/>Elegant Volume in-18 à 3 f. 50</ab>
+        <figure type="decoration"/>
+        <p><lb/>Les celebrités médicales en<lb/>ordonnent l’emploi quotidien.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>SOCIÉTÉ ANE CAPITAL 100 MILLIONS DE FRANCS. RUE DE LA PAIX 4, PARIS<lb/>PRETS RÉALISÉ 120 MILLIONS DE FRANCS.<lb/>1. L'ensemble des prêts consent's sur première hypothèque dont le montant doit être toujours<lb/>au moins égal à celui des obligations en circulation (art. 9 des statuts)</ab>
+        <ab type="head"><lb/>BANQUE HYPOTHÉCAIRE DE FRANCE</ab>
+        <p><lb/>Le samedi 9 Juillet 1881, à 3 heures aura lieu, au Siège social, le neuvième tirage public<lb/>des obligations emises le 20 Janvier 1880 et qui sont toutes remboursables à 1000 francs.</p>
+        <p><lb/>La Société délivre au prix de 485 fr. des obligations de 500 fr.Tan intérêt<lb/>annuel de 20 fr. payable trimestriellement.</p>
+        <p><lb/>Les obligations de la Banque hypothécaire ont pour garantie.</p>
+        <p rend="labelled"><lb/>2º Le Capital de la Société qui est actuellement de 100 millions de francs et doit toujours<lb/>tre égal au vingtième des obligations en circulation (art. 8 des statuts).</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab><lb/><lb/>Le Journal des Tirages Financiers<lb/><lb/><lb/>(11° Année)<lb/>PAnrs — 18, Rui de ls Chaussís-8Antia, 18 — PAnrs<lb/>PROPRIÉTÉ DE LA<lb/>SOCIÉTÉ FRANÇAISE FINANCIERE<lb/>(ScciarE AxOETEE)<lb/>Capital : VINGT-CINQ MILLIONS de tranos<lb/>Est indispensable à tous les Porteurs de Rontes, d'Actions et d'Obligations. — Très¬<lb/>complet. — Parait chaque Dimanche. — 16 pages de texte. — Liste officielle des Trages.<lb/>Cours des Valeurs cotées officiellement et en Banque. — Comptes-rendus des Assem-<lb/>blies d'Actionnaires. — Etudes approfondies des Entreprises financières et industrielles<lb/><lb/>et des Valeurs offertes en souscription publique.— Lois, Décrets, Jugements interessant<lb/>les pertsurs de tures. — Recettes des Chemine de fer, etc., etc.</ab>
+        <ab><lb/>L'ABONNÉ A DROIT :<lb/>PAIEMENT GRATUIT DE COUPONE<lb/>T ET A LA VENTE DE SES VALEURS<lb/>sane Cammissien<lb/>nnement pour toute la France d l'Alxace-Larraina:<lb/>F. PARAN<lb/>טא<lb/>On s'abonne sans frais tous ans les Bureaux de Poste<fw type="digitisation-artefact"><lb/>te gallica.bnf.fr/ Bibliothèques de Marseille</fw></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

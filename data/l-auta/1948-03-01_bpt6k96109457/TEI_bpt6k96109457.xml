@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k96109457</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1948-03-01">1948</date>
+          <idno type="ARK">bpt6k96109457</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k96109457</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="article">
+        <div>
+          <pb facs="0008.xml"/>
+          <milestone unit="page" n="40"/>
+          <ab rend="continued"><lb/>tous ses amoureux, qui furent immédiatement accusés par l'opinion<lb/>publique d’avoir voulu se débarrasser de ce mari trop exclusif.</ab>
+          <p><lb/>Se jugeant en danger, six jours après le crime, le Père Arrias<lb/>Burdeus et l’étudiant Candola s’enfuyaient de Toulouse et forti-<lb/>fiaient ainsi les soupçons qui pesaient sur eux. Une prise de corps<lb/>fut aussitôt décrétée contre cux et leurs complices, sans oublier la<lb/>Belle Violante.</p>
+          <p><lb/>Burdeus, qui s'était réfugié à Nîmes, où il avait embrassé le pro-<lb/>testantisme, fut arrêté et comparut le premier devant le Parlement.<lb/>Il niait sa participation au crime, mais l’aveu qu’il fit de n’avoir<lb/>pas assisté à la messe depuis qu’il avait quitté son couvent fut con¬<lb/>sidéré comme une preuve de culpabilité, laquelle fut renforcée par<lb/>des aveux arrachés par la torture. Il fut condamné à avoir la tête<lb/>et les membres tranchés et fut exécuté.</p>
+          <p><lb/>Tour à tour, et sous la même application de la torture, les autres<lb/>inculpés avouèrent et subirent le même supplice, y compris Vio¬<lb/>lante. Ainsi la Cour de Toulouse fut convaincue d’avoir fait exac-<lb/>tement son devoir, cependant que l’opinion était satisfaite.</p>
+          <p><lb/>Or, fait observer Me Maziol, aucun des condamnés n’avait en<lb/>fait porté la main sur le malheureux Saint-Romain. Ils l’avaient,<lb/>sans doute, attiré dans un guet-apens, mais aucun n’avait participé<lb/>aux violences. Celles-ci avaient été le fait de malfaiteurs stipendiés,<lb/>qui les avaient même outrepassées, d’après les aveux reçus de l’un<lb/>d’eux quelques années après, car le greffier Esbaldit ne leur avait<lb/>demandé que d’administrer des bourrades, mais non de tuer. Or,<lb/>au cours de l’action, les cris de « Tuez-le l» ayant retenti, les exé-<lb/>cutants se laissèrent emporter et sortirent la dague. On sait la suite.</p>
+          <p><lb/>C’est pourquoi, en dépit de la satisfaction du Parlement de Tou¬<lb/>louse et en raison même de la rigueur excessive de ses méthodes,<lb/>qui étaient celles de la justice du temps, un mystère planera tou¬<lb/>jours sur les exactes limites de la culpabilité des tristes héros de<lb/>l’affaire de la Belle Violante.</p>
+          <p><lb/>C’est sur les vifs applaudissements de la nombreuse assistance<lb/>et sur les remerciements exprimés par notre président que se ter¬<lb/>mina la belle conférence de Me Maziol et la première assemblée gé-<lb/>nérale tenue dans le bel hôtel Dumay, dont la libéralité du Docteur<lb/>Durand fait la maison des Toulousains de Toulouse.</p>
+          <ab><lb/>Le gérant: Paul Mesplé</ab>
+          <note>
+            <p rend="styled"><lb/>Imp. du Sud-Ouest. 6. rue Sainte-Urande — Toulouse.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

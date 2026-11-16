@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Gau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8138375x</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Gau : revisto mesadiero pèr li revendicacioun de la lengo prouvençalo à l'escolo, dins la cadiero e à la tribuno poupulàri : parèis lou 15 de chasque mes / secretàri dóu Gau D. Savié de Fourviero</title>
+          <publisher>[s.n.] (Tarascoun-sus-Rose)</publisher>
+          <date when="1897-08-11">1897</date>
+          <idno type="ARK">bpt6k8138375x</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8138375x</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>PROUMIERO ANNADO</fw>
+        <fw type="runningTitle"><lb/>11 d’AVOUST 1897</fw>
+        <ab><milestone unit="column" n="1"/><lb/>à l'Escolo, dins la Cadiero e à la Tribuno poupulàri<lb/>PARÈiS LOU 15 DE CHASQUE mES<lb/>detet4t44t44444444t4444444444444t444t4t4tttttttttt4tttttttttt4ttt</ab>
+        <figure/>
+        <ab><milestone unit="column" n="2"/><lb/>3 franc<lb/><lb/>AN<lb/></ab>
+        <p rend="heading"><lb/>CANTAIRE DI REVENDICACIOUN PROUVENÇALO</p>
+        <ab><lb/>Secretari don Gau:<lb/>D. SAVIE DE FOURVIRO<lb/>Sant-Michen de Ferigoalet</ab>
+        <ab><lb/>La baile:<lb/>MÉSTE EISETO — REINIE MOUNTAUT<lb/>D. SAVIE DE FOURVIERO</ab>
+        <p rend="styled"><lb/>Tarascoun sus Rose.</p>
+      </div>
+      <div type="article">
+        <head><lb/>TAULETO</head>
+        <ab><lb/>'Is abouna dóu Gau, Lou SECHETANt. — Escalen lèu, D. 1 br<lb/>FOURVIERO. — Noutiço sus Nosto-Damo La Bruno, PT.LAUDUS.<lb/>— Nosto-Damo-la-Bruno, cantico. — Prougramo di fèsto. —<lb/>Tant que d'aigo, Mounsen DAVI.</ab>
+        <p><lb/>Pèr satisfaire li bon prouvençau que se ié<lb/>rendran e peréu nòstis abouna, dounan eici uno<lb/>noutiço de Nosto-Damo la Bruno emé li cantico<lb/>e lou prougramo di fèsto.</p>
+        <p><lb/>E sus acò, bèn lou bon-jour en tóuti.</p>
+        <ab><lb/>LOU SECRETARI.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Lo Abouna dou Gau</head>
+        <figure/>
+        <p><lb/>OU numerò d'Avoust fara soun aparicioun<lb/>lou 25. En esperant, veici quatre pajo<lb/>counsacrado en majo part i resplendènti<lb/>fèsto que se van debana au Barrous en l'ounour<lb/>de Nosto-Damo la Bruno, lou 14 e lou 15 d’aqueste<lb/>mes.</p>
+        <p><lb/>Lou Barrous es un poulit pichot vilage de milo<lb/>amo, entre Carpentras e Malausseno. Se capito<lb/>fieramen quiha sus uno auturo, e li rouino d’un<lb/>superbe castèu de la Reneissènço l’encourounon<lb/>que fai gau de vèire. D’amoundaut avès un ami-<lb/>radou di plus bèu que i'ague. Entre li rouino<lb/>majestouso s'aubouro la capello de Nosto-Damo<lb/>la Bruno o de La Bruno encaro bèn counservado:<lb/>es un di roumavage li mai interessant de la coun-<lb/>trado, e, tóuti lis an, ié vai abord de gènt e dóu<lb/>Coumtat e de la Prouvènço.</p>
+        <ab><lb/>ro vIO (Er de farandenlo)<lb/>Es- ca-len lèu, gènt dóu Bar- rous Vers Nos-to<lb/>Da-mo de la Bru-no. En prou-ces - sioun sou - to la<lb/>crous, Es-ca-len lèu, gènt dóu Bar-rous. Oh! de l'a-vé que sian u-<lb/>rous! Es noste our - guci, nos-to four - tu-no! Es - ca - len<lb/>alare<lb/><lb/><lb/><lb/>...<lb/>leu, gènt dóu Bar-rous, Vers Nos-to -Da-mo de la Bru « no.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>ESCALEN LÈU</head>
+        <p rend="styled"><lb/>P. CMASSANO.</p>
+        <ab><lb/>Source gallica.bnf.fr/ Bibliothèque nationale de France</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8134282g</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1882-03-19">1882</date>
+          <idno type="ARK">bpt6k8134282g</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8134282g</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Dimenche 19 de mars 1882</fw>
+        <fw type="runningTitle"><lb/>Dous sòu lou numerò</fw>
+        <dateline><lb/>III. Annado — No LI p. 401</dateline>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>JOURNAU POUPULARI DE LITERATURO, D'ISTORI E DE SCIENCI</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>PAREISSENT TOUTEI LEI DIMENCHE</p>
+        <p rend="styled"><lb/>Depausitàri majourau pèr Marsiho: M. Vincent, carriero Corneille, 3.</p>
+        <lg>
+          <l><lb/>Abonnamen :</l>
+          <l><lb/>ST franc pèr an per touto la Franço.</l>
+          <l><lb/>Fouero Franço. lou port en subre, co</l>
+          <l><lb/>que revèn à DES fr.</l>
+        </lg>
+        <p><lb/>Tout ço que toco lon journan deu<lb/>èstre manda afranqui à l'Emprimarié<lb/>Prouvençalo. 15, carrièro dón Grand-<lb/>Relògi, à-z-Ais.</p>
+        <p><milestone unit="column" n="3"/><lb/>Les annonces, rèclames et faits di-<lb/>vers sont reçus exclusivement à la<lb/>Société Anonyme de publicité, 52 rue<lb/>d'Aboukir, termière de la publicité.</p>
+      </div>
+      <div type="article">
+        <head><lb/>ASSABE</head>
+        <p rend="styled"><lb/>Lou numero venènt estent lou radié de<lb/>de l'annado, dounara la taulo generalo<lb/>dei 52 numeró.</p>
+        <p rend="styled"><lb/>Tournan dire eis abouna de nous man<lb/>da set sou sèns retard; an qu'à douna<lb/>set franc à soun burèu de posto. Ecou<lb/>noumisaran lei dès sou qu'ajustaren à<lb/>nouesto quitanço pèr leis abouna que<lb/>nons auran pas paga avans lou 5 d'abriéu.</p>
+        <p><lb/>Va sèns dire qu'apoundren l'abouna-<lb/>men de l'an passa pèr leis abouna en re-<lb/>tard</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>TAULETO</head>
+        <ab><lb/>THÉATRE DE JEAN DE CABANES<lb/>Tomell (Section Littéraire)<lb/>DR LA<lb/>GRANDE BIBLIOTHÉQUE PROVENÇALE<lb/>Directeur ALBERT SAVINE</ab>
+        <p><lb/>DiscoURs dou Sendi de la Mantenènço de Prou-<lb/>vènço, En Marius Bourrelly à Niço,</p>
+        <p rend="structured"><lb/>PouESIO. — Flour e chato XXIX e XXX F. An¬<lb/>toine. — L’eisi'a, E. Bouvet — Fresco Mali-<lb/>nado, P. Gourdou. —L'Ahour, M. V. Bernarl.</p>
+        <p rend="labelled"><lb/>CROUNIco. — Lou Bar de N.-D. de la Seds. — La<lb/>lengo mairalo e Millo Matrat. — Jue Floutau<lb/>de Paris, councours artisti.</p>
+        <p rend="structured"><lb/>TEATRE PROUVENÇAU. — Li Pastrihouno etc.</p>
+      </div>
+      <div type="article">
+        <head><lb/>DISCOURS</head>
+        <ab><lb/>DOU SENDI DE LA MANTENENÇO DE PROUVENÇO<lb/>En Marius Bourrelly, à Niço</ab>
+        <ab type="head"><lb/>Messiés e Gai Counfraire,</ab>
+        <p><lb/>Para ilo longo fan jour court, dis lou prouverbi;<lb/>e coumo la journado proumète d'estre foueço bello<lb/>pèr lou Felibrige, au mitan de la soucieta d'elèi<lb/>ounte se trouban, sariè dóumagi de n'en perdre<lb/>uno minuto en s'amusant ei bachiquello de la<lb/>puerto e en tirant nouesto poudro ei passeroun.<lb/>Es vous dire que vèni pas vou faire un discours<lb/>sus la pluèio vo lou bèu tèms, pèr la resoun touto<lb/>simplo que lei sàbi pas faire e que sarai pas<lb/>long dins ma charradisso. Regrèti qu’uno cauvo,<lb/>es que l'us counsacra dins leis assemblado de<lb/>Mantenènço eisige que lou Sèndi prèngue la pa-<lb/>raulo, que la sache maneja vo noun, quand ni a<lb/>tant d'autre mies parteja qu’èu per acò, e pus<lb/>autourisa, que soun oublija de resta lengo muto<lb/>per l'escouta, vo dóu mens n'en aguè vejaire. Lei<lb/>cartabèu an d'aqueleis eisigenci brutalo e forço<lb/>nous es de nous li soumètre. Pamèns se n'en fau<lb/>pus tròu plagne, perço que nous an laissa carto<lb/>libro e douna touto liberta de n'en dire foueço vo<lb/>gaire, segound lei circounstanço. N'en proufi-<lb/>charai, dins voueste interès... e dins lou mièu.<lb/>perén. Sabi qu’eicibrulariéu ma poudro au soulèu!<lb/>Parla e se taisa à prepaus es uno faculta qu'es<lb/>pas dounado en tout lou mounde.</p>
+        <p><lb/>Sabès que la Mantenènço de Prouvènço devié<lb/>s'acampa, toujour dins aquest rode, lou 5 dou<lb/>mes passa; mai uno malautié de noueste car<lb/>Secretàri me la faguè remanda à plus tard. L'an<lb/>davans, a deja, lou meme montiéu nous privè de<lb/>sa presènci à Touloun e quand viguèri que lou<lb/>sort aviè l'èr de mai vouguè noun engana aquest<lb/>an, me diguèri : Fau engana lou sort! Lei Prou<lb/>vençausian testard e quand avèn couta quaucarèn,<lb/>fau que siègue. Après la malautié venguè d’autrei<lb/>resoun nous barra lou passàgi e mètre de peiro<lb/>sus lei rail. En qualita d'emplega dóu camin de<lb/>ferri, aco me rebutè pas. Un coup siguè lou car¬<lb/>navas, l'autre, leis eleicien; mai s'agissié de<lb/>veni dins lou pais mounte l'esperit e la scienci<lb/>flourisson emé lou meme envanc que leis arangié<lb/>e rèn poudié nous faire recula. Sucamen, de<lb/>dimenche en dimenche, n’en sian arriba en aquest<lb/>jour, 5 de Mars. Es jamai tròu tard pèr bèn faire,<lb/>dison, e au-jour-d'ui qu’avèn franqui tóuti lei<lb/>dificulta, devessa tóuti leis empachié e cauca<lb/>souto lei pèd tóuti leis entravedis que nous metien<lb/>dins lei cambo, lou Felibrige, urous e fièr, se<lb/>rejouis de se trouba, san de cors e d'esprit, au<lb/>mitan de sa nouvello famiho, aquelo Escolo de<lb/>Bellanda qu'a deja tant fa pèr éu e que fara<lb/>encaro mai, aro qu’aura vist soun Capoulié e<lb/>quauqueis un de sei vièi sepoun, veni fraireja<lb/>em'elo « e partaja lou pan, lou vin emé la sau !»</p>
+      </div>
+      <div type="article">
+        <fw type="digitisation-artefact"><lb/>iothèques de Marseille<lb/>allica.bnf.f/<lb/></fw>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="402"/>
+        <fw type="runningTitle"><lb/>LOU BRUSC</fw>
+      </div>
+      <div type="article">
+        <p><lb/>Ço que Mistral disié dei Catalan, se póu dire<lb/>dei Niçard. Niço, dins l'ancian tems, apartenié ei<lb/>Comte de Prouvènço e se dounè à la Savoio<lb/>en 1388. Pu tard siguè reũnido à la Franço e lou<lb/>Coumta dóu reiaume de Sardaigne venguè lou<lb/>despartamen deis Aup-Maritimo, en jusqu’en<lb/>1814, mounte siguè reûnido au Piemount. Reven-<lb/>gudo tourna-mai, e de nouestei jour, à la grando<lb/>patrio, au-jour-d'ui poudèn dire qu’es nouestro e<lb/>lou Felibrige en venènt 'co d'elo a lou dré de se<lb/>crèire encò d’éu. Niço a parla la memo lengo que<lb/>nautre e lei lengo mouèron pas. Lei Sardo, lei<lb/>Savoutard e lei Piemountés an pouscu la trapia<lb/>souto d'elei; s'es retirado, s'es endourmido, mai<lb/>es pas mouèrto e la provo n'es que la vèsen se<lb/>dereviha dejour en jour e de mai en mai. Gràci n'en<lb/>sigue rendudo à l'Escolo de Bellanda e à soun<lb/>valènt cabiscou, En Sardou, que pouerto aut<lb/>nouèste drapèu.</p>
+        <p><lb/>Sentinello avançado, sempre drecho sus lei<lb/>cresten d’aquestei mountagno que separon la<lb/>Franço de l'Itàli, li a tèms long que lou vesèn, la<lb/>ligousso d'uno man, coumo leis ancian chivalié,<lb/>e la jambougno de l’autro, coumo lei vièi trou¬<lb/>badour, prèsto à desfèndre lei dre de nouesto<lb/>bello lengo neo-roumano, contro l’envadissimen<lb/>dei marri dialeito italian, e lèsto à escrièure dins<lb/>l'istòri soun acaminamen lènt e mesura, au mitan<lb/>d'aquélei populacien mesclado de sang, mai tou¬<lb/>jour ensoulerado. Esà soun ajudo que lou Felibrige<lb/>dèu sa reneissènço dins leis Aup de la Mar e Niço,<lb/>sa reunien à la pichoto patrio prouvençalo. Lou<lb/>Felibrige, adounc, tenié à paga soun dèute<lb/>de recouneissènço à-n-aquèu valènt capitan<lb/>qu’a tant fa per soun pais e pèr sa causo;<lb/>es pèr acò qu’a tengu, maugrat tout, à veni s'a-<lb/>quita publicamen e à prouclama à voues auto, à<lb/>la faci dou soulèu, soun triounfle que resplendis<lb/>sus toutei nautre.</p>
+        <p><lb/>Dei bord dou Rose e de la Durènco, seguissen<lb/>lou mouvamen que s’óupero au luen e perden<lb/>jamai de visto lei soudard que caminon souto<lb/>noueste drapèu e coumbaton pèr la causo sacrado<lb/>que desfendèn à noueste tour, emé tout l’envanc<lb/>e touto la forço que douno ei couèr bèn trempa,<lb/>l’amour de la patrio. Quand lou moumen e l’ou-<lb/>casien nous soun douna de pousqué va li dire,<lb/>prenen noueste vóu e arriban au mitan d'elei,<lb/>coumo sian arriba, en aquest jour, au mitan de<lb/>vous autre. Es ansin que nous veson, un jour,<lb/>sus lei bord de la Garouno, e l'autre, sus lei bord<lb/>dòu Var. Es coumo acò que nous an vist en Cata-<lb/>lougno, en Espagno, en Itali e mème dins la Rou-<lb/>manio, siegue en cors, siegue à despart. Vesès<lb/>adounc que lou Felibrige es pas tant separatisto<lb/>que ço que voulien dire e au fur e à mesuro que<lb/>desplègo seis alo va à la counquisto de tóuti lei<lb/>pople de raço latino, mounte adejà, a de repre-<lb/>sentant. Un jour, qu'es pas tant aluencha, bessai,<lb/>que ço que se crèson, finira pèr founda aquel<lb/>empèri dòu soulèu qu'a fa dreissa leis espalo ei<lb/>gènt à courto visto, quand lou Capoulié la mes en<lb/>avans. Qu nous aurié di, en 1852, quand se reünis-<lb/>serian en Arle, qu’arribarian mounte n’en sian<lb/>arriba? Degun! En dounant un coup d’uèi sus<lb/>lou passa aurian tort de douta de l'aveni.</p>
+        <p><lb/>Mai, en esperant, se fau acountenta d’avé coun-<lb/>quist, l’an davans, sucamen, lou despartamen<lb/>dòu Var, en generau, e aquest an, la vilo de Niço<lb/>en particulié. Counquista Niço, dóu vièi latin<lb/>Nicæ, es naturalamen counquista la vitòri.</p>
+        <p><lb/>Messiés, vous ai proumés d'estre court e voueli<lb/>teni ma paraulo. Deman, cadun de nous autre<lb/>retournara dins soun oustau, qu dins sa vilo, qu<fw type="digitisation-artefact"><lb/>/B̀e</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

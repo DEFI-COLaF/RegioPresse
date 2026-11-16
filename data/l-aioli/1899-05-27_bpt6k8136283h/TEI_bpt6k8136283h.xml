@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136283h</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1899-05-27">1899</date>
+          <idno type="ARK">bpt6k8136283h</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136283h</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>NOUVENCO ANNAOO, No 303</fw>
+        <ab><milestone unit="column" n="3"/><lb/>DISSATE, 27 DE MAI 1899.</ab>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr l'oli<lb/>E faren raiou.</ab>
+        <figure type="table"/>
+        <ab><lb/>Vidoun, Vidau,<lb/>Seyound la vido<lb/>Lou journau.</ab>
+        <p rend="styled"><lb/>(Prouvere de menounte)</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17,27)</p>
+        <figure/>
+        <p rend="heading"><lb/>PREs de L'aBOUNAMEN</p>
+        <figure type="decoration"/>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI<lb/>au palais dóu Roure<lb/>EN AVIGNOUN</ab>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <ab><lb/>Baile dou journau<lb/>FOECO DE BARONCELLI</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>GRAND</head>
+        <head><lb/>jo FLOuRAU SEtENARI</head>
+        <head><lb/>de 1800</head>
+        <head><lb/>Aloucucioun de Sa Gràci Mario- Terèso de Chevigné</head>
+        <head><lb/>NOUVELLO REINO DI PELIBRE</head>
+        <p><lb/>2 HAUSIDO pèr Na Filadelfo de Gerdo,<lb/>envestido pèr Na Mario Gasquet, sour-<lb/>reto incouneigudo de mi dos sorre<lb/><lb/>celèbro, acète emé counfusioun l'ur<lb/>que m'es devoulu ; e gramacie li galant pouèto<lb/>de Prouvènço d'aquel óumage esmouvènt,<lb/>rendu unicamen à la gràci de moun sèisse.<lb/>Ges de titre, es verai, me designavon, paureto,<lb/>pèr vosto rèino de vuei. Noun ai reçaupu dou<lb/>cèu que lou doun d'amira!</p>
+        <figure/>
+        <p><lb/>Pamens ause vous lou dire, e noun sènso<lb/>quauco fierta: ame noste car pais tout autant,<lb/>bèn segur, qu’aquéli que m’an elegi o precedi<lb/>en Santo Estello, tout autant qu’aquéli rèino<lb/>que si noum resclantisson pèr tout lou Feli-<lb/>brige, tout autant que vous-autre, o rimaire<lb/>famous que vosto presènci me porto crento,<lb/>mai que vosto glòri, d'aquest vièi caire de la<lb/><lb/>Gaulo, a fa 'no tant grando patrio !</p>
+        <p><lb/>O, ma Prouvènço ! terro di troubaire sabènt,<lb/>reiaume d'Arle, t'ame coume uno umblo en-<lb/>fant de ti campèstre.</p>
+        <p><lb/>Tame pèr toun palsage, pèr toun istòri, pèr<lb/>ti mounumen venera, pèr tis avé de Crau, pèr<lb/>tis óulivié palinèu e pèr ti pouèto tant acou-<lb/>Nouri! Tame pèr toun amo alarganto que<lb/>boui e que reboui dins lis aigo dóu Rose e<lb/>dins lou pitre de Mistral, e pèr ta voues en-<lb/>cantarello que cascaio dins li branco de ti pin<lb/>trefouli e sus li bouqueto de Mirèio!</p>
+        <p><lb/>Enfin, te siéu estacado pèr ma maire vivènto,<lb/>sourtido de toun sòu, e peréu pèr la cadeno<lb/>mistico de mi rèire, que dormon souto ti pèiro<lb/>calcinado, e que n'en siéu lou darrier anèu.</p>
+        <p><lb/>E tu cigalo, ma cigalo dis alo d'or, simbèu<lb/>poulit de moun reinage passagié, de moun<lb/>poudé inóufensiéu, siegues la bèn-vengudo<lb/>sus moun jougne : en fasènt de tu la patrouno<lb/>pagano di pouèto, coume an bèn fa!</p>
+        <p><lb/>Semblablo i felibre que m'envirounon, siés<lb/>caritouso de ti cant, ames tout ço qu'aman<lb/>nous autre, l'eigagno que te refresco, l’'aureto<lb/>que te brèsso, lou soulèu que te caufo ; e tu<lb/>tambèn, coume l'innoucènt rimaire, cantes<lb/>sènso saupre perqué.</p>
+        <p><lb/>Dempièi uno sequèlo d'an ta cansouneto<lb/>moudèsto rènd la routo pu lóugiero au cami-<lb/>naire que passo! O cigaleto, evoques ni lou<lb/>fravai achini pèr acampa la fourtuno, ni l'aus¬<lb/>tèro resoun: tu siés qu'uno bóumiano que<lb/>trèvo dins li campas, mai tu persounifiques<lb/>l'imprudènci e lou pantai, qu'enfanton à la<lb/>longo lis acioun erouico; tu rememòries<lb/>tóuti li bèlli causo inutilo — que nous assolon<lb/>De la vido!<lb/></p>
+        <p><lb/>Lis Atenenco te metien dins si cabeladuro<lb/>perfumado; li femo de la Chino te brodon e<lb/>retrason subre si raubo de milanto coulour.<lb/>léu, te vole amaga subre un cor de chatouno,<lb/>sus un cor nouvelari, esmougu simplamen<lb/>pèr la recouneissènço e l'amiracioun di pouèto!</p>
+        <p><lb/>Diéu assouste la Prouvènço !</p>
+        <p><lb/>Diéu enaure lou Miejour !</p>
+      </div>
+      <div type="article">
+        <head><lb/>LA REINA NOVELA</head>
+        <lg>
+          <l><lb/>Quand vezem lo solelh colgar,</l>
+          <l><lb/>Pauc e pauc cazer en la mar,</l>
+          <l><lb/>Trist remanem e tuit marrit.</l>
+          <l><lb/>Mas pieis nos torna l'esperansa</l>
+          <l><lb/>E nos conorta la pensansa</l>
+          <l><lb/>Que, s'es escondutz, non es mortz:</l>
+          <l><lb/>L'alba pareis, l'astre s'enansa</l>
+          <l><lb/>El som del cel joves e fortz.</l>
+        </lg>
+        <lg>
+          <l><lb/>Autresi n'aven del reinage</l>
+          <l><lb/>D'amor: quan del bel senhorage</l>
+          <l><lb/>Li set an se son esvanit,</l>
+          <l><lb/>La genta reina va pauzar</l>
+          <l><lb/>Sa corona sobre l'altar</l>
+          <l><lb/>Senes despeit e ses enveja;</l>
+          <l><lb/>E la pren la bela al vis clar</l>
+          <l><lb/>E pèr set anz nos senhoreja.</l>
+          <l><lb/>Arte, 81 de Mai 1809.</l>
+        </lg>
+        <ab><lb/>„constan.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Brinde de Na Maris Misraienco</head>
+        <p><lb/>Ccouto 11 dlastro<lb/>Tretume, à dous pas dóu Mu eon Arlaten, sèmblo que<lb/>ע<lb/>tresano d'aise e que trévon lis amo di felibre e felibresso<lb/>despareigu Un rai de Santo Estello lis envertouio e nous<lb/>enmantello nous-autri me¬</p>
+        <p><lb/><lb/>glari luminou<lb/>canta pèr l'espandimen de nosto<lb/>part à' la toio d'Arle e à n aquéll dóu festin setenar</p>
+        <p><lb/>Amo di Roumaniho, dis Aubaneu e di Matiéu ; amo de<lb/>Pau Areno, de Bonsparte-W.<lb/>de Roumiéux ; amo de<lb/>Bouissiero de Froument de Verdot, de Lescuro, de Cas-<lb/>sini; amo de Brunet, de Michèu, de Bourrelly, de Jan-<lb/>Batisto Gaut, dón grand Fourés, de noste Comte de Tou-<lb/>douso ; esperit d'Antounito, de Lidio de Ricard e de<lb/>pauro Bremoundo, veici la Coupo dis Energio e de<lb/>la le — que vous an tengu dre dins la vido ! Emé nous¬<lb/>nutre dins la vido vougués ben coumunia: lou meme<lb/>béu pantai nous enébrio !</p>
+        <p rend="dateline"><lb/>Arle, 21 de Mai 1899.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>A SA GENTO E GRACIOUSO MAJESTA<lb/>NA MARIO-TERESET DE CHEUIGNE</ab>
+        <quote><lb/>RÉINO QUATRENCO DÓU FELISRIGE</quote>
+        <figure type="decoration"/>
+        <p><lb/>A-de-matin en partênt de Sant-Roumié per veni vous<lb/>saluda, estent que n'aviéu encero ni l'ur ni lou grand<lb/>ounour de vous counéisse, me pensave : Dequé me faudra<lb/>dire à nosto nouvelle Reino? lé diras-ti qu'es bello ? Mai<lb/>tout Arle la counèis ! Qu'es bono? Mai touto la Camargo<lb/>lou saup!Qu'es gento, graciouso, avenènto... Mai l'a<lb/>que de la vèire e de l'ausi paria !</p>
+        <p><lb/>Fau pamens dire quaucarèn.</p>
+        <p><lb/>Farai-ti rima «Madamiselo de Chevignés emé «Ma-<lb/>damo de Sévigné»?</p>
+        <p><lb/>Aqui l'aurié belèu un sounet à faire, mai m'es avis que<lb/>d'un coustat, bèn que richo, aquéll rimo retrason trop<lb/>pou parla de noste ami d'Auvergno, lou cigalilé-counfe-<lb/>rencié qu'a 'scri «Beaumarchais», e que de l'autro siéu<lb/>un pau trop vièl aro pèr espell de vers e subre-tout de</p>
+        <p><lb/>Vau miés leissa 'co à nosti cadet de Gascougno que<lb/>soun jouine, e pas m'espausa, léu, à faire uno sounaio<lb/>asclado. E piéi, coume se dis : « Cigalo que canto après<lb/>souleu coucha adus la malancounlé».</p>
+        <figure type="decoration"/>
+        <p><lb/>N'en ère aqui de mi reffeicioun quand lou fatour -<lb/>que fort urousamen avié pas fa grèvo — m'aduguè uni<lb/>tres o quatre letro em' un grand journau vengu d'amount<lb/>de Paris. Tout d'un-tèms estrasse la bendo e vese : “Le<lb/>Gaulois" mardi 16 mai; boute mi luneto, mande vita-<lb/>men un cop d'iue, trove la primo pajo marcado d'uno<lb/>crous au creioun blu sus un titoulet pourtant: « Les<lb/>Reines du Félibrige» ; regarde lèu ço que dis, e finala-<lb/>men, Majesta, veici co que legisse à vosto adrèisso:</p>
+        <p rend="labelled"><lb/>....Depuis quelques années, Mistral et ses amis coyaient<lb/>e avec joie éclore cetto peur charmante du sol ariésien<lb/>qui, à toutes les grâces de la jeune fille, ajoutait réclat<lb/><lb/>e d'une haute culture intellectuelle et d'une pénétrante<lb/>x bonté. Paris ne l'avait pas accaparée et elle aimait sa terre<lb/>e camarquaise, ses paysans de Provence, la langue de sa<lb/>a race et le souvenir des fastes de son pays.</p>
+        <p rend="styled"><lb/>l« Elle adoucit les dernùres années de la pauvre Bre¬<lb/>mounde, sa coisine dont elle poulut être l'élèce, morte<lb/>corci un an, et qui fut une des plus poétiques éclosions du</p>
+        <p rend="labelled"><lb/>« Avec elle, Mademoiselle de Chevigné apprit le culte des<lb/>vers harmonieur, et comme elle y ajoutait l'amour des<lb/>« choses nobles et belles qu'elle tenait de sa race, elle ne<lb/><lb/>a tarda pas à devenir ells-même une des roses ideales<lb/><lb/>« épanouies au jardin de Provence; rose aujourd'hui dans<lb/>« tout son parfum et sa beauté.</p>
+        <p rend="labelled"><lb/>« La voita maintenant Roine quatrième du Fétibrige de<lb/>« par la volonté d'une poétesse supérieure. Cest justice!.</p>
+        <figure type="decoration"/>
+        <p><lb/>Se pou pas miés parta, e la rèn à reprene à tant pou-</p>
+        <p><lb/>nosto patrouno,<lb/>de l'estello à sêt rai di pantaiaire enfelibra, de Testello<lb/>d'or trelusènto di pastre camarguén, de l'estello flame-<lb/>janto d'aquéli qu'an la fe — es elo qu'es vengudo vuel à<lb/>moun secours.<fw type="digitisation-artefact"><lb/>Sode èues e</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

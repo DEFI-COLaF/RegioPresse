@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81359893</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1891-03-07">1891</date>
+          <idno type="ARK">bpt6k81359893</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81359893</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>PROUMIERO ANNAL, 4 10.</fw>
+        <fw type="runningTitle"><lb/>DIMARS, 7 DE MARS 189</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Baile dóre journau:<lb/>EN AVIGNOUN<lb/>FolcÒ DE BARONCELLI.</ab>
+        <ab><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren per l'ôli<lb/>E faren l'aidli.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.<lb/>(Prouverbi di mae</ab>
+        <ab><lb/>MISTRAL.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES</p>
+        <figure/>
+        <figure type="decoration"/>
+        <ab><lb/>BURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>M. FOlcO DE BARONCELLI,<lb/>au palais déu Roure,</ab>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN:</p>
+        <figure type="table"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>(F. MISTRAL).<lb/>Venés tóutilt Faren la farandoulo e nous amusaren it<lb/>A dimenche! E vivo l Biou 1</ab>
+        <ab type="head"><lb/>UNO COURSO DE BIOU</ab>
+        <lg>
+          <l><lb/>La ferret t ferrei</l>
+          <l><lb/>Gardian, anas querre</l>
+          <l><lb/>Vinti sicheiroun</l>
+        </lg>
+        <p><lb/>Emé lou bèu tèms la sabo gourgouio, lou<lb/>sang se bouto en mouvemen, e dóu coustat<lb/>dóu Rose, en que pènson li gènt? A faire<lb/>courre li biòu.</p>
+        <p><lb/>Uno tes peraqui sus la vòuto de Pasco, dins<lb/>li vilo e vilage, se vèi placarda lis aficho ; e<lb/>n'i'a, pèr aquéli courso, de talamen afeciouna<lb/>que l'escaparié, ma fisto, de ié sibla davans...</p>
+        <p><lb/>Ah ! d'aficho, la plus bello, es uno, touto en<lb/>prouvençau, que, i'a'no vinteno d'an, s'espan-<lb/>diguè sus li muraio, anounciant uno courso<lb/>dounado à Sant-Roumié pèr M. Mistral-Ber-<lb/>nard, lou cop que lou noumèron counseié<lb/>generau. Vès-l'eici touto flamo (car iéu l'ai re-<lb/>trouvado sus moun vièi cartabèu, ounte l'a-<lb/>viéu coupiado):</p>
+        <p><lb/>Per dimenche 11 d'óutobre, grando Courso de Mou à<lb/>grâtis, óuferto de bon cor au pople prouvençau!</p>
+        <p><lb/>Dos manado arlatenco, aquelo d'Younet em'aquelo dóu<lb/>Baiard, coumpausado chascuno de tres terribli brau,<lb/>senso coumta lou dountaire, courreiran à tour de role<lb/>dins l'areno.</p>
+        <p><lb/>Veici lou noum d'aquéli Tau, que soun li plus famous<lb/>de touto la Camargo, e que, per la plus-part, an jamai<lb/>courregu:</p>
+        <p><lb/>D'Younet: Grand-Bane; lou Rei Mouro, pur espagnou;<lb/>Manjo-Cabridello; - dou Baiard: Bramo-Fam; Mau-m'a-<lb/>luques; lou Descaladaire, crousa espagnou.<lb/></p>
+        <p><lb/>F'aura dos coucardo de 100 frane chascuno: l'uno pour-<lb/>tado per lou Réi Mouro; l'autro per tou Descaladaire; de<lb/>mai, ll tres rasetaire que se saran lou miés fa vêire pèr<lb/>taire lou raset, recaupran chascun 10 franc.</p>
+        <p><lb/>Se durbira la courso à 2 ouro de tantost e la musico<lb/>jougara. Lou matin vers li 10 ouro, se dounara dos abrí.<lb/>rado de 6 biòn chascuno.</p>
+        <p><lb/>Touti li cavalié e gardian d'en Palun soun counvida de<lb/>se ié rèndre emé si ficheiroun; mai peravans d'ana querre<lb/>ui biou, lou courtege, en cavaucado, fara dins Sant-Rou-<lb/>mié la quisto pèr li paure.</p>
+        <p><lb/>Mai revenen à l'ouro d'iuei... De que se<lb/>parlo dins li cafe? Di brau e di ternen qu'an<lb/>aro bon renoum pèr embana soun ome: lou<lb/>Boucabèu, lou Queilaren, lou Sela, lou Cou-<lb/><lb/>vet, lou Furet, lou Cirous, lou Tigre, lou Cas-<lb/>tihan, lou Troco-Nose!</p>
+        <p><lb/>E de que se barjo mai? Di taurejaire de<lb/>quadriho, di bravejaire e rasetaire que lèvon<lb/>aro li coucardo: lou Poulit, lou Meissaire, lou<lb/>Madur, lou Cop-de-soulèu, lou Gus de Mihet,<lb/>lou Chànchi, lou Pissarèu, l'Eigloun, Viret de<lb/>Tarascoun, Castagnié de Beu-Caire, Nimoz,</p>
+        <p><lb/>Pountoun, Croucant, e l'ome voulant Quequino!<lb/>Mai se vous disiéu un mot, iéu, de nòsti vièi<lb/>gardian qu’à chivau sus sis ego, lou ficheiroun<lb/>en l'èr, nous adusien li biòu, libre, de draio<lb/>en draio, e noun pas, coume vuei, dins de<lb/>càrri de post, barra coume de pot de mèu...</p>
+        <p><lb/>Vous trouvarés qu'un an fasiéu lis iero emé<lb/>d'Arlaten, perabas au Mas-Nòu, ras dóu Vaca-<lb/>rés. Lou dilun, quand lou pelot venguè, que<lb/>just acabavian de planta li garbo sus l'eiròu,<lb/>nous dis : « Crese que, dimenche que vèn, la<lb/>vilo d'Arle fara di siéuno... Talamen que, se<lb/>m'an pas di de messorgo, l'aura 'no courso de<lb/>biòu dins lis Areno coume se n'es encaro ges<lb/>vist: l'aura 'n brau que pourtara 'no coucardo<lb/>qu'aquéu que la levara, gagnara cènt franc,<lb/>argènt tin-tin!»</p>
+        <p><lb/>D'ausi lou raconte dóu majourau dóu mas<lb/>sabian plus l'ouro e lou moumen que poudian<lb/>estre de partènço. La semano fuguè longo, li<lb/>jour nous èron d'an, bèn tant que, lou dissate,<lb/>aguerian pas tenesoun d'acaba la darriero ba-<lb/><lb/>tudo : planterian nosti fourco dins la bancado<lb/>de paio. Prenèn la levado dóu Grand Rose :<lb/>un pau lou vènt de bas que nous butavo, eme<lb/>la furour de vèire li biòu, lou camin nous pesè<lb/>pas uno ounço. Arriban en Arle, soupan à<lb/>l'oustalarié de la Miolo-Blanco — de travaiadou<lb/><lb/>de mas avien fa coume nous-autre — e quand<lb/>aguerian soupa, nous enanerian faire tintèino<lb/>touto la niue, tóutis ensèn.</p>
+        <p><lb/>Sus lou cop de soulèu leva, tout Arle ar-<lb/>ramba sus la Lisso o sus lou Marcat-Nòu, uno<lb/>cridadisso s'entènd: Li biòu! Li biòu! Vès-lèi<lb/>que vènon ! Zóu, fasen-lèi escapa ! Coume acò<lb/><lb/>veiren travaia li gardian...</p>
+        <p><lb/>E co que fuguè... O que lou mounde fa<lb/>guèsse bârri de car, o pèr lis ourlamen dóu<lb/>poupulas, dins un vira-d’iue li vaqui desma¬<lb/>nada dins li gara, dins li vigno, emé li gar-<lb/>dian après que, gràci à de cavalié dis envi-<lb/>roun que i’èron vengu douna soun ajudo, per-<lb/>venguèron à lis estrema dins l'establoun dis<lb/>Areno sènso auvàri.</p>
+        <p><lb/>Li biòu embarra, li pourtau bèn tanca, s'es-<lb/>peravo plus que de saupre quouro la courso<lb/>aurié liò, car li tambour jougant la rampelado,<lb/>un droulas d'uno quingeno d’an caminant da¬<lb/>vans éli, marcavo que tout éro lest, que l'avié<lb/>plus que de coumença.</p>
+        <p><lb/>Sus li dos ouro de tantost, lis Areno soun<lb/>duberto, li carto se deliéuron ; un tambour<lb/>douno lou signau... Es un tau que sort. Mai<lb/>dins la crento que crebèsse quaucun, fan vi-<lb/>tamen alarga lou dountaire, em'acò s'estrèmon<lb/>tóuti dous, forço n'aguènt escapa que pèr la pòu.</p>
+        <p><lb/>Lou segound es un brau, aquéu que pour¬<lb/>tavo la coucardo de cènt franc. Veici que,<lb/>quouro aguènt proun fa de barrulado, Genin<lb/>d'Eirago se ié braco davans, i' aubourant si<lb/>bras en l'èr... Lou brau se ié lanço dessus,<lb/>Genin se fai que vira e ié davero la coucardo,<lb/>qu'un cat se sarié pas mouca!</p>
+        <p><lb/>*Tout-d'un-tèms n'en bandisson un autre,<lb/>aquest d'eici inmoubile dins lou round. Alor,<lb/>di quatre caire dis Areno, vès-eici que tóuti<lb/>cridon: I ferri! I ferri ! An pou ! An pas pòu !<lb/>Es de pastre !...</p>
+        <p><lb/>Lou Santen, un gardian di renouma dins<lb/>soun tèms, tres cop lou biòu ié vèn dessus pèr<lb/>afranqui lou ferri, tres cop l'adré gardian l'au-<lb/>Douro entre li dos narro à dos cano d'autour,<lb/>L'animau furious, n'aguènt proun, patusclant<lb/>de-long di barricado, se lipavo lou sang que<lb/>ié sourtié dóu nas. Di tres autri biòu que res-<lb/>tavo encaro pèr acaba la courso, se n'en de-<lb/>vinavo un rouge qu'avié lou mourre negre,<lb/>emé li bano à l'avans. Quand es dins lou round,<lb/>degun pòu l'abari: lou Soupet de Castèu-<lb/>Reinard se vesié pres, sènso lou Bòssi de Ta-<lb/>rascoun que ié traguè sa blodo. Venguè l'ouro<lb/>que lou fauguè metre dedins... Set fes lé ban¬<lb/>disson lou dountaire, sèt fes lou ternen en-<lb/>vóutè la porto. Jaque Servano, — que soun<lb/>noum, d'aquelo epoco, restountissié 'n Pron-<lb/>vènço emai en Lengadò, — sello soun chivau<lb/>e lou vòu estrema. Lou secutant emé lou fichei-<lb/>roun, un moumen lou recoutant, se poudié pas<lb/>saupre quau sarié lou plus fort.</p>
+        <p><lb/>Lou furious ternen se desclavo de souto lou<lb/>ferri. L'ardènt gardian, vesènt qu'èro lou mou-<lb/>men de se sauva, éu emai soun courrèire, da-<lb/>valo de chivau, trais soun fèrri à quatre pas<lb/>liuen d'éu, e sus lou biòu ourlant coume un<lb/>lioun e sourtènt un lengau de tres pan de long,<lb/>éu se lanço intrepide, l'aganto pèr la bano,<lb/>lanavo barrula... Quand l'idèio ié vèn de pas<lb/>faire vergougno à sa manado de l'Eissello:<lb/>ié pren, ié met sa tèsto sus soun espalo forto,<lb/>e, soulet, éu l'adus ansin dintre l'estable, is<lb/>aplaudimen d'un pople... An ! digas, es pas<lb/>verai que li gardian d'alor ié farien vèire,<lb/>à-n-aquéli d'aro, d'estello au plan de miejour?</p>
+        <ab><lb/>Charloun Riée.<fw type="digitisation-artefact"><lb/>e/B̀</fw></ab>
+        <lg>
+          <l><lb/>Quand ven lou mes d'abriéu,</l>
+          <l><lb/>La seglo dis au blad: Adiéu!</l>
+          <l><lb/>Lou blad ié fai:</l>
+          <l><lb/>Laisso veni lou mes de mai,</l>
+          <l><lb/>Taurai,</l>
+          <l><lb/>Te passarai.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508563q</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1883-12-09">1883</date>
+          <idno type="ARK">bd6t54508563q</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508563q</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Numéro 72. (2me ANNÉE).</fw>
+        <ab><milestone unit="column" n="2"/><lb/>Un Numéro: 10 centimes</ab>
+        <ab><milestone unit="column" n="3"/><lb/>DIMANCHE 9 DÉCEMBRE 1883.</ab>
+        <figure type="decoration"/>
+        <figure/>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING</p>
+        <p rend="styled"><lb/>Administration: FRERE-GLORIEUX, Imprimeur, rue de Lille, 18. — Rédaction: Jules WATTEEUW, Grand' Place, 19</p>
+      </div>
+      <div type="article">
+        <head><lb/>VIENT DE PARAITRE</head>
+        <ab><lb/>A l'imprimerie FRÈRE-GLORIEUX, rue de<lb/>Lille, 18, TOURCOING.</ab>
+        <ab><lb/>CHANSONS, FABLES et PASQUILLES<lb/>tourQuennoises<lb/>par Jules WATTEEUW<lb/>Avec un vocabulaire patois-français, le por¬<lb/>trait de l'auteur et la musique des chansons,<lb/>Prix du Volume : 2 fr. 50<lb/>Franco par poste, 2 fr. 80 en un mandat.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LES JOUJOUX</head>
+        <p rend="styled"><lb/>Les jouets de l'enfance sont aussi<lb/>sérieux que les ambitions de l'age<lb/>mar.</p>
+        <ab><lb/>A. KARR.</ab>
+        <p><lb/>A vou motte, que ch'n'est po merveil-<lb/>leux d'vir l'z'invintions qu’in fait tout<lb/>euch'teur pou les jouets? C'mot d'St<lb/>Nicolas fait vudi des fabriques et des ma-<lb/>gasins, des joujoux qu’in les wettant, in<lb/>s'demande comben d'intelligence, d’a-<lb/>dresse, d’patienche qui a fallu apporter à<lb/>l'inventeur pou fabriquer in objet parel.</p>
+        <p><lb/>In vot, des poupées, parler, dire Papa<lb/>Maman! Des p'tits qu’mins d’fer mécani-<lb/>que que cha va tout seu, in imitant l’brut<lb/>de l'locomotive comme si ill' vivrot !...<lb/>Des p'tits bonshommes qui vont sus des<lb/>vélocipèdes in faijant aller leu djampes et<lb/>in tournant, in ratournant, prope l’même<lb/>que des gins vivants et parlant !... Des<lb/>glaines in carton qui pond'tent d'z’œufs<lb/>in chuque... Des fusils qu’in peut mette<lb/><lb/>vin s’poche. D'z’ojeux qu’in ermonte et<lb/>qui volt'ent in air comme d’z’harondelles.<lb/>Des costumes de bébés, faits vin la per-<lb/>fection, des jeux impossible à explitchi,<lb/>sinon que d'les vir. Des machines qu'in finit pa s'dégoûter d'u.<lb/>lomme Kraèdroscope du qu’in vot d'z'a-<lb/>fants jeuer au volant, des papillons<lb/>voler sus les fleurs, d’z’afants jeuer au<lb/>falicoco et sauter l'un par deseur l'aute,<lb/>aussi naturel que si in l'fero nous même!</p>
+        <p><lb/>Tchi qu'ché qui n’se rappelle po les<lb/>jouets qui avot étant jomme? et sti qui<lb/>préféro, pasque y a toudis in préféré, y a<lb/>d’z'affaires qui restent vin vou tête et qu’in<lb/>oblie jamais.</p>
+        <p><lb/>Je m'rappelle toudis, qu'étant p'tit,<lb/>j’amusos tous l’z’afants du quarti inveuc<lb/>in théâte, du que j'jouos : Petit Francos,<lb/>l’Maladie imaginaire et St Antoine..J’sus<lb/>seur qui a acore gramint d'mes copagnons<lb/>du voisinache qui diront in lijant cha :<lb/>J'min rappelle ben du temps que l'Brout-<lb/>teux, d’euchteur, y faijot l'jeu!</p>
+        <lg>
+          <l><lb/>Les diminche' et les jours de féte</l>
+          <l><lb/>Iu s'intasso enn' in moncheu,</l>
+          <l><lb/>Vin inn' plach', du qu'in faijot l'jeu</l>
+          <l><lb/>Pou vir danser les marionnettes.</l>
+          <l><lb/>Tcheu plaiji qu'in avot, adan !</l>
+          <l><lb/>Du qui est l'temps!</l>
+        </lg>
+        <p><lb/>Ebé, vous m’croirez si vus volez, mais,<lb/>j'vos acor toudis d'vant mes is, l'petit<lb/>théâte inveuc sin fonds d'forêt qui servot<lb/>pou l'salon, l'tchusine, et l'palais. J'vos<lb/>acor les p'tits pantins que j'faijos danser.</p>
+        <p><lb/>Aujourd’hu, l’Broutteux fait encore<lb/>danser sus s’gazette des marionnettes,<lb/>mais ch'est des pus grosses que d'vant,<lb/>savez.</p>
+        <p><lb/>Toudis, qu'in n'd'in vot, euch'teur, des<lb/>joujoux d'tous les sortes et d'tous les<lb/>couleurs. Y est vrai qui in faut pou tous<lb/>les gûts et tous... les bourses ; l’pauffe<lb/>petite fille ill' s'amuse alfos mi inveuc in<lb/>bébé d’six sus que l'St Nicolas li a rap-<lb/>porté, qu’in afant riche inveuc in bébé<lb/>d’six francs; au contraire, y arriffe sou-<lb/>vint, que sti chi y est bradé à forche qui<lb/>n'd’a et y n’sait pus tcheu printe premi, y<lb/>Tcheu jo! tcheu plaiji !... tchan qu’in va<lb/>trouver les joujoux d'vin l'petit quertin!</p>
+        <p><lb/>Je n’sais po si vous avez d’ja ermartchi<lb/>l'fidjure d’in afant tchan qui a in nou-<lb/>veau saquo essin vin ses mains! mais<lb/>ch’est tchurieux à vir, savez? Vous l’veyi,<lb/>comme y l'ertourne ?... qui l'erwette in<lb/>d’sous, au d’seur sus tous les côtés... y<lb/>cache à d’viner qu'mint qu’ch'est fait! Y<lb/>veut s’in servir pour toutes sortes d’usa-<lb/>ges, y d'mande, pourquo? et qu’mint? et<lb/>chi et cha, et patatrac y finit pa l’casser<lb/>pou vir chu qui a d’vin.</p>
+        <p><lb/>Y n'est nin vrai, cha ?</p>
+        <p><lb/>Aussi, comben d'soldats inveuc inne<lb/>djampe ou ben in bras d'cassés, vin inne<lb/>paire de jours, tcheu bataille !</p>
+        <p><lb/>Comben d'gueveux, d'baudets, d'tchins,<lb/><lb/>d'barbaques, d'moutons d'escofiis... tcheu<lb/>boucherie!</p>
+        <p><lb/>Mais les filles, eusses, ch'n'est po acore<lb/>l'même; y ochènt'ent leu p'tits bêbés sus<lb/>leus écours comme des p'tités ma mères.<lb/>In sint que l’bon Di leu z'a mis vin<lb/>l’tcheur, inne saquo d’surnaturel qui<lb/>semble faire ad'viner l'instinct d’l'amour<lb/>maternel.</p>
+        <p><lb/>Dabord, d’tous temps, in a donné des<lb/>poupées à les p'tités filles, pusqu'in n'd'a<lb/>ertrouvé, vin des tombeaux Egyptiens.</p>
+        <p><lb/>Mais in jouet, après l'balle in peau, qui<lb/>est vi et peut ête in des pus vis, ch’est les<lb/>deux p'tits marécheux qui tap’tent par à<lb/>tour sur inne enclume ; ch'est tout chin<lb/>qui a d’pus ancien. Y faut avouer, qu’cha<lb/>n’est nin fort compliqué non pus et qu’<lb/>l'inventeur y n’a po du s'casser la boule<lb/>pou l'inventer.</p>
+        <p><lb/>Infin, toudis qu'a c'momint d'l'année y<lb/>se n'd'ermue à l’pelle vin tous les fabri-<lb/>ques de Paris et d'l'étringi, et si cha rind<lb/>z'afants joïeux, les parints n’sont po non<lb/>pus sans éprouver inne petite satisfaction</p>
+      </div>
+    </body>
+  </text>
+</TEI>

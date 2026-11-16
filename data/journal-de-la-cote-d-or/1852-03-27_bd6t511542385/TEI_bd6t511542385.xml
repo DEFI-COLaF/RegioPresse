@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t511542385</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1852-03-27">1852</date>
+          <idno type="ARK">bd6t511542385</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t511542385</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/>Journal de la Côte-d'Or.</ab>
+        <ab><milestone unit="column" n="1"/><lb/>Un assortiment de draperies toutes nuances et toutes qualités, sortant des principales fabriques de France;<lb/>Ouverture des nouveaux magasins,<lb/>8 RUE BOSSUET.<lb/>A vEnDRe</ab>
+        <p rend="heading"><lb/>MANUFACTURE DE VÊTEMENTS.</p>
+        <ab><lb/>GROS ET DÉTAIL.</ab>
+        <p rend="heading"><lb/>MAISON.. 100,000<lb/>PALETOT<lb/>S RUE BOSSUET,</p>
+        <p rend="heading"><lb/>ANCIEN BUREAU DES MESSAGERIES ROYALES.</p>
+        <p rend="heading"><lb/>PRIX FIXE INVARIABLE, – MARQUÉ EN CHIFFRES CONNUS.</p>
+        <p rend="styled"><lb/>Il manquait, jusqu'à cejour, à Dijon, une MISONDECOVFIANCE, une maison danslaquelle tout le monde, sans exception, pûl s'adresser<lb/>avec la certitude d'être servi avec conscience et loyauté. Les gérants des 100,000 paletots l'ont comp ris; ils ont reconnu que toutes les fois<lb/>que l'acheteur est obligé de marchander, quelles que soient les réductions qu'il obtienne, il est encore trompé, parce qu'on a été naturelle-<lb/>ment foreé de le surfaire. Aussi, ils ont établi leur vente à prix fixe invariable. Toutes leurs marchandises sont marquées en chiffres connus,<lb/>et tellement bas cotées, qu'il est de toute impossibilité de les trouver au même prix ailleurs.</p>
+        <p rend="styled"><lb/>Afin de se mettre à la portée de tous, LA MAISON DES 100,000 PALETOTS a rapporté de Paris:</p>
+        <p><lb/>Un choix varié à l'infini de vêtements confectionnés pour hommes et jeunes gens, depuis les articles les plus ordinaires jusqu'à ceux de la<lb/>dernière mode et de la plus extrême élégance;</p>
+        <p rend="labelled"><lb/>Des nouveautés en casimir, satin, demi-drap, laine douce, piqué anglais et français, cachemire, soicries, etc., etc., pour pantalons et<lb/>gilets;</p>
+        <p rend="styled"><lb/>Enfin un choix d'étoffes en pièces d'un genre exclusif.</p>
+        <p><lb/>Des tailleurs expérimentés, arrivant de Paris, sont attachés à l'établissement pour faire toutes les commandes et les livrer en<lb/>24 heures.</p>
+        <p><lb/>En un mot, la maison DES 100,000 PALETOTS a su réunir toutes les conditions de garantie, d'exactitude et da bon<lb/>marehe.</p>
+        <p rend="heading"><lb/>LE 27 MARS COURANT,</p>
+        <p rend="heading"><lb/>PRIX FIXE INVARIABLE.</p>
+        <p rend="labelled"><lb/>M. CHAMSON a transporté ses mag<lb/>de marbres place Saint-Pierre, dans la gran<lb/>de maison en face le Jet- l'Bau, à Dijon.</p>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>A VENDRE,</p>
+        <p><lb/>A la sucrerie de Couternon, en gros ou<lb/>en détail, environ 500 milte kitogrammes de<lb/>betteraves de première qualité, à 10 fr. les<lb/>mille kilogrammes.</p>
+      </div>
+      <div type="article">
+        <head><lb/>A LOUER,</head>
+        <head><lb/>Un beau Jardin,</head>
+        <p rend="styled"><lb/>Situé faubourg de la Liberté, sur le chemin<lb/>du cimetière, anciennement tenu par DI.<lb/>Henri ainé, jardinier ſteuriste.</p>
+        <p rend="labelled"><lb/>Il existe dans l'intérieur une maison d'ba-<lb/>bitation récemment construite, ayant cave et<lb/>grenier, un grand et vaste ghangar couvert<lb/>en tuiles creuses, où se trouvent la chaibre<lb/>des ouvriers, la cuisine, etc.</p>
+        <p><lb/>Une conduite en fonte y amène les eaux<lb/>des fontaines dans deux réservoirs. La pro-<lb/>ximité de ce jardin du cimetière lui donne la<lb/>clientèle pour P'entretien des tombes. S'a-<lb/>dresser à M. J. B. Bresson, propriétaire, rue<lb/>Turgoi, no 20.</p>
+        <ab><lb/>LE SIROP LAROZE en résularisan les fonctions disestives de Pestomac<lb/>d'écorces d'oranges amères, TONIQUE ANTI-NERVEUX,<lb/>et des intestins, en guérit les maladies nerveuses, facilite et rétablit la digestion, détruit<lb/>la constipation, guérit la diarrhée et la dyssenterie, les gastrites, gastralgies; prévientla<lb/>langueur, le dépérissement; abrége les convalescences. 8 fr. le flacon. On évitera les<lb/>contrefaçons en exigeant les cachet et signature Laroze. Dépôt dans toutes les phar,<lb/>macies, mais spécialement chez MM. Louis DADANT, pharmacien à Dijon; LELONG, phar-<lb/><lb/>macien à Beaune; DEviLtesicuor, pharmacien à Auxonne: GASTINEt, pharmacieu à<lb/>Pontailler; JaCQUIN, pharmacien à Saulieu.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>SEUL RBCOMPENSÉ A L'EXPOSITION DE LONDRES.</head>
+        <head><lb/>VINAIGRE DE TOILETTE</head>
+        <head><lb/>De Jean-Vincent BULLY, à Paris, rue Saint-Honoré, no 259.</head>
+        <p><lb/>Ce vinaigre, seul breveté sur le rapport des commissions scientifiques, admis aux di¬<lb/>verses expositions de l'industrie, est, après 50 ans d'épreuve et de succès, le type et le<lb/>point de mire de tous les vinaigres de toilette qu'on essaye chaque jour.</p>
+        <p><lb/>Il n'a pas, comme l'eau de Cologne et toutes les eaux de tollette que l'on pròne au-<lb/>jourd'hui, et qui sont à base purement alcoolique, l'inconvénient de sécher et de dur-<lb/><lb/>cir la peau; il lui rend, au contraire, sa finesse, sa fralcheur et sa fermeté naturelles. Il<lb/>s'emploie contre le feu du rasoir comme à tous les usages de la tollette, — en bains<lb/>„<lb/>généraux ou locaux,— pour dissiper les migraines, — neutraliser les miasmes de l'air,<lb/>—combattre les influences épidémiques, etc. (Voir la notice jointe à chaque flacon.</p>
+        <p><lb/>GARANTIE. Le nom de Jean-Vincent BULLY est incrusté dans le flacon; sa signature<lb/>est apposée sur l'étiquette et sur le cachet, lequel surtout doit être intact.</p>
+        <p><lb/>Dépôts chez les principaux parfumeurs de Dijon.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>POUR CAUSE D'AGRANDISSEMENT.<lb/>CHANGEMENT DE DOMICILE.<lb/>Les Magasins de La BeLLe JarDiNiERE<lb/>SONT TRANSFÉRÉS RUE DE LA LIBERTÉ, 27 ET 29.<lb/>RÉOUVERTURE LE 1e AVRIL PROCHAIN.<lb/>NOTA.- Nous auronsun choix immense ahabitlements confectionnés à offrir à nos nombreux acheteurs.<lb/>OON, PAMGRIE OE DOUILLIKR, RUR DO ,.</ab>
+        <p><lb/>Un JEUNE HOMME, ayani de bonsrépon-<lb/>dants, désirerait remplacer pour le service mi¬<lb/>Ntaire en traitant de gré à gré, sans, inler¬<lb/>médiaire.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>ronge, à Beaune-</ab>
+        <ab><lb/>GRAND CABINET<lb/>LITTÉRAIRB<lb/><lb/>A REMETTRE<lb/>Dans un court délai, età des conditions avan-<lb/><lb/>tagenses,<lb/>Pour cause de départ.<lb/>Gadresser, à Madame veuve Liger, rue</ab>
+        <p><lb/>S'adresser au bureau du journal.</p>
+        <figure type="table"/>
+        <p><lb/>Boune et jolle CALECHE neuve A VEN-<lb/>DRE. S'adresser, pour la voir, rue du Petit-<lb/>Potei, no 25, et pour les conditions, à M. Pau<lb/>Besson.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Potage recommandé par les médecins.</ab>
+        <ab type="head"><lb/>eAROAD GROUE</ab>
+        <p><lb/>Par un procédé qui lui est tout particulier,<lb/>Groult jeune est parvenu à rendre au Ta-<lb/>pioca du Brésil son bon goût primitif; il en<lb/>a fait un potage excellent, d'une cuisson<lb/>prompte et facile, et qui a l'avantage d'amé-<lb/>liorer le bouillon dans lequel on l'emploie. Il<lb/>est recommandé aux convalescents, aux da-<lb/>mes, pour remplacer le café au lait, et à toutes<lb/>les personnes faibles de l'estomac ou de la<lb/>pourine.</p>
+        <p><lb/>Cette substance, qui coûtait fort cher au-<lb/>trefois, n'était en usage que dans les grandes<lb/>maisons; aujourd'hui le prix modéré du Ta-<lb/>pioca de Groultjeune en a fait entrer la con-<lb/>sommation dans tous les ménages</p>
+        <p><lb/>faisiés.</p>
+        <p><lb/>piciers de<lb/>épiciers de Dir</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>A VENDRE, un elos planté de<lb/>maison. situé à la Combe-au-Serpen<lb/>S'adresser au bureau du journal.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>HUILE DE J. PERSONNE<lb/>Approuvée par l'Académie de médecine<lb/>e rapport académique déclare que<lb/>« l'huile iodée de J. Personne est<lb/> médicament d'une haute valeur, quie<lb/>présente beaucoup d'avantages sur<lb/>l'huile de foie de morue,<lb/>e tou<lb/>prouve que ce nouveau mode d'admi<lb/>nistration de l'iode est appelé à rendre<lb/>les plus grands services à la médeci<lb/>pne. « Elle a étéemployée danstous les<lb/>cas où celte dernière a été préconisée, et<lb/>toujours son action a été plus prompte<lb/>et plus énergique. quoique donnée à des<lb/>doses beaucoup moins considérables. Sa<lb/>saveur différant peu de celle de l'huile<lb/>d'amandes douces, elle est prise avec<lb/>plus grande facilité, tandis que l'huile<lb/>de foie de morue inspire toujours un<lb/>vif dégoú</ab>
+        <p><lb/>huile de J. Personne n'est livrée<lb/>qu'en flacons de forme rectangulaire<lb/>portant le cachet et la signature de l'an¬<lb/>jeur et du dépositaire général. Chez M.<lb/>Rolland.à Dijon; Lamarosse-Barberel,<lb/>Beaune; Kriek, à Chatillon-sur-Seine;<lb/>Courtois, à Saulieu; Verlon, à Arnay<lb/>le-Duc; et dans presque toutes les phar-<lb/>macies.</p>
+        <ab><lb/>Le Rédacteur-gérant, J.-B.-Is. VINCENT.<fw type="digitisation-artefact"><lb/>allica.bnf.fr/Bibliothèque</fw></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

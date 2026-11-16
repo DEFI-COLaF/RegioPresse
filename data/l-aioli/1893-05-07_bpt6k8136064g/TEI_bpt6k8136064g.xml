@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136064g</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1893-05-07">1893</date>
+          <idno type="ARK">bpt6k8136064g</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136064g</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>TRESENCO ANNADO, No0.</fw>
+        <fw type="runningTitle"><lb/>DIMENCHE 7 DE MAI 1803</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr l'ôli<lb/>E faren laiòli.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.<lb/><lb/>(Prouverbi di meisrouniet</ab>
+        <ab><lb/>DMISTRAL</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17, 27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>vera<lb/>FOLCO DE BARONCELLI,<lb/>au palais dou Roure,<lb/>EN AVIGNOUN</ab>
+        <figure type="table"/>
+        <ab><lb/>Baile dou journau:<lb/>FOLCO DE BARONCELLI</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Lou Vice-Cancelie,</ab>
+        <ab type="head"><lb/>CANCELARIE DÓU FELIBRIGE</ab>
+        <p rend="styled"><lb/>Veici la circulari que s'es mandado i felibre:</p>
+        <p rend="dateline"><lb/>Avignoun, 21 d'abrién 1803.</p>
+        <ab type="head"><lb/>MOUSSU E GAI COUNFRAIRE,</ab>
+        <p><lb/>Aqueste an celebraren la festo de Santo-<lb/>Estello dins l'antico e glouriouso ciéuta de<lb/>Carcassouno, lou 11 de Mai.</p>
+        <p><lb/>Dins la matinado, lou Counsistòri felibren<lb/>tendra sesiho soulenno e reçaupra li nouvèu<lb/>majourau. Sus lou cop de miejour, aura liò la<lb/>felibrejado dins l'uno di tourre de la Porto-<lb/>Narbouneso, salo di Chivalié.</p>
+        <p><lb/>Li felibre que voudran aquéu jour béure à<lb/>la Coupo emé nous-autre, an que de manda sa<lb/>counsentido, avans lou 6 de Mai, au delega de<lb/>l'Escolo Audenco, M. Gastoun Jourdanne, à<lb/>Carcassouno.</p>
+        <p><lb/>L'escoutissoun sara de 5 franc.</p>
+        <p><lb/>Agradas, Moussu e gai Counfraire, l'assegu-<lb/>ranço de nosti sentimen egrègi.</p>
+        <p rend="styled"><lb/>Lon Capoulié,</p>
+        <ab><lb/>Felis GRAS.</ab>
+        <ab><lb/>Jan MONNE.</ab>
+        <p rend="styled"><lb/>E fasèn assaupre i felibre di Mantenenço de<lb/>Prouvènço emai de Lengadò que la Coumpagnié<lb/>P.-L.-M. e la Coumpagnié dóu Miejour faran,<lb/>a l'óucasioun di fèsto de Carcassouno, uno redu-<lb/>cio un pèr éli dóu 50 sus la tarifo ourdinari,<lb/>à l'ana coume au retour. Li bihet saran valable<lb/>dóu 7 au 14 de Mai.</p>
+        <p rend="styled"><lb/>Li manteneire que voudran aprouficha talo<lb/>favour soun prega d'adreissa si noum, emé l'en¬<lb/>dicacioun dóu trafé qu'an a faire, pèr la Prou-<lb/>venço à M. Monné (Marsiho, 149, carriero de<lb/>Breteuil), pèr lou Lengadò à M. Fournel (Mount-<lb/>Pelié, 15, carriero dóu Chivau-Verd). E au pulèu,<lb/>pèr i'estre à tèms.<lb/>Falabrego: es Mistral, noste pouèto naciou-<lb/>nau, que vous lou mando, es Mirèio, nosto<lb/>rèino de bèuta, que l'a culi. La bello chato de<lb/>Prouvènço, avans de me lou baia pèr vous<lb/>l'adurre, l'avié espingla un moumenet sus soun<lb/>cor dins un ple de soun fichu blanc e l'avié<lb/><lb/>poutouna tres cop de si bouco rousenco. E iéu,<lb/>en vous lou pourgènt vuei, revese lou blu<lb/>di flour, lou blanc dou fichu e la roujour di<lb/>abro, revese mi tres coulour naciounalo, re-<lb/>vese lou drapèu de ma Patrio, e me sèmblo<lb/>que vous dise: « Vès-eici lou simbole de la<lb/>fraternita di pople.»</p>
+        <figure type="decoration"/>
+        <p><lb/>Aquelo paraulo d'amour, aquelo paraulo de<lb/>pas, que la voues di pouèto clamo de-longo<lb/>sus lou mounde latin, me remèmbro ma primo<lb/>jouvènço, me remèmbro l'esclargido que m'es-<lb/>balauviguè quand li pouèto de Catalougno<lb/>venguèron nous vèire en terro de Prouvènço.</p>
+        <p><lb/>L'ause encaro, la voues forto e caressanto<lb/>d'En Vitou Balaguer. L'ouratour flamejant, lou<lb/>patrioto arderous, èro vengu, buta pèr la tem-<lb/>pèsto poulitico e mena pèr la man de Diéu,<lb/>èro vengu nous dire si desfèci, dins la trou¬<lb/>nadisso de sa paraulo ardènto e la pouesio de<lb/>sa grando e bello amo. E iéu que vous parle<lb/><lb/>(n’ère alor qu’un enfant), aguère ma prou¬<lb/>miero vesioun de la Catalougno erouico, ausi¬<lb/>guère la clamour de si pouèto, e tout-d'un-<lb/>tèms escriguère moun proumié vers ; e ma<lb/>proumiero estrofo, moun proumié cant fuguè<lb/>pèr glourifica la bello espagnolo.</p>
+        <p><lb/>Alor dins li carriero d'Avignoun, sus li bord<lb/>dóu Rose, dins lis Areno d’Arle clantiguèron<lb/>lis estrofo dou Gayter del Llobregat, l'amant<lb/>ferouge de la terro Catalano, Rubió y Ors, e<lb/>d'Antòni de Bofarull lou Barcilounés, e<lb/>d'Aguiló lou Maiourquin. Li paret di bârri<lb/>d'Avignoun e li tourre dóu Palais di Papo re-<lb/>disien dins sis ecò li gèsto dóu Romancerillo<lb/>Catalá de Mila y Fontanals, e nous enfiouca-<lb/>von li pouèmo de Teodor Llorente lou Valen-<lb/>cian, e de Camps y Fabres, e de Montserrat y<lb/>Archs, e de Cutxet, e de Forteza, e de Mounsen<lb/>Jaume Collell, e d'Adalaus Blanch, e de Matheu<lb/>y Fornels, e de Quadrado, e de Querol, e de<lb/>Rosselló, e de Frederi Soler, e de Pons y Gal-<lb/>Narza, e de Francés Ubach, e di Torres, e de<lb/>Carita y Vidal, que jamai li noumarai tóuti !<lb/>E legissian, à l'oumbrino di sause de la Barta-<lb/>lasso, lou Calendari Catala e lou Gay Saber,<lb/>e la Orientada de Pelay Briz e n'en devouris-<lb/>sian li verset coume d'enfant groupa long<lb/>d'un bouissoun n'en devourisson lis amouro.<lb/>D'enterin En Albert de Quintana venié i Jo Flou-<lb/>rau dóu Centenàri de Petrarco e fasié clanti<lb/>soun estrambord. E iéu ai vist lou pople d'Avi-<lb/>gnoun, debout, l'aclamant e d'ouro de tèms</p>
+      </div>
+      <div type="article">
+        <head><lb/>discours dóu capoulié en felis gras</head>
+        <head><lb/>AU CENTENÀRI Di jo FLouRAu</head>
+        <head><lb/>à BARCILOUNO</head>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>SEGNOUR BISBE DE VIC,</ab>
+        <p><lb/>Davans Vosto Grandour, davans vosto nauto<lb/>sapiènci, pause lis óumage e l'amiracioun dou<lb/>Felibrige.</p>
+        <ab type="head"><lb/>ILùSTRI MANTENEDORS,</ab>
+        <p><lb/>Vous aduse pèr vòsti fèsto un bouquet de<lb/>prouvençalo acampa dins li terro dóu Mas di<lb/>cridant: « Vivo la Catalougno ! » Mai uno<lb/>autro resplendour devié nous arriba de la terro<lb/>amado : nàutri qu'erian acoustuma de vèire<lb/>Neva lou soulèu subre Ventour, un jour vegue¬<lb/>rian l'aubo parèisse sus li Pirenèu! Un astre<lb/>s’aubourè e nous clafiguè de soun lum.<lb/>L'Atlantida de Jacinto Verdaguer, lou pouèmo<lb/>di pouèmo Catalan, l'obro genialo de vosto<lb/>raço esbalauvissié lou mounde : au noum dóu<lb/>Felibrige salude noste fraire Jacinto Verda-<lb/>guer</p>
+        <p><lb/>O bello ouro de ma vido! finigues jamai!<lb/>Canten, o fraire, eternamen dins lou meme<lb/>libre d'amour, beven de-longo lou vin de l'es-<lb/>peranço dins la memo coupo ! E li pople de<lb/>Prouvènço e li pople de Catalougno e tóuti lis<lb/>ome de sang latin trefouliran à la voues de si<lb/>pouèto. Ausissès eilalin, de l'autre coustat de<lb/>la mar, la voues di fraire d'Itàli que nous res-<lb/>pondon. La famiho latino s'acampo: la pouẽsio<lb/>de nòstis amo, de nòsti terro esbléugissènto<lb/>De l'argènt dis óulivié, de l'or di meissoun,<lb/>de l'or dis arange, de l'esmeraudo di jardin,<lb/>aura fa la grando pacificacioun de l'Umanita !</p>
+        <p><lb/>E sara vàutri, Mantenedors de Catalougno,<lb/>e sara vàutri, Felibre de Prouvènço e de Len¬<lb/>gadò, e sara vàutri, fiéu de Dante, que sarés<lb/>esta la pensado que rejoun, la voues que<lb/>porto, lou bras que coumplis la Voulounta de<lb/>Diéu.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Car tout un pople aqui s'abéuro;</ab>
+        <ab type="head"><lb/>Adreisso au Counsistori di Jo Flourau<lb/>DE BARCILOUNO</ab>
+        <ab type="head"><lb/>Messiés li Manteneire,</ab>
+        <p rend="styled"><lb/>Desempièi l'an 1859, ounte vosti davancié<lb/>restabliguèron li Jo Flourau pèr sauva e releva<lb/>la libro parladuro dóu pople catalan, germano<lb/>de la nostro, avèn, li felibre de Franço, de-coun-<lb/>cert emé vous-autre, lucha de pèd e d'ounglo pèr<lb/>la memo santo Causo. Vaqui perqué iéu vous<lb/>cridave, ia d'acò mai de trento an:</p>
+        <lg>
+          <l><lb/>Dis Aup i Pireneu e la man dins la man,</l>
+          <l><lb/>Troubaire, aubouren dounc lou viei parla rouman!</l>
+          <l><lb/>Acò 's lou signe de famiho,</l>
+          <l><lb/>Aco 's lou sacramen qu'is àvi joun li féu,</l>
+          <l><lb/>L'ome à la terro! Acò 's lou fiéu</l>
+          <l><lb/>Que ten lou nis dins la ramiho.</l>
+        </lg>
+        <lg>
+          <l><lb/>Intrepide gardian de noste parla gent,</l>
+          <l><lb/>Garden-lou franc e pur e clar coume l'argent,</l>
+        </lg>
+        <lg>
+          <l><lb/>E, de mourre-bourdoun, qu'un pople toumbe esclau,</l>
+          <l><lb/>Se tèn sa lengo, tèn la clau</l>
+          <l><lb/>Que di cadeno lou deliéuro.</l>
+        </lg>
+        <p rend="styled"><lb/>Desempièi trento o quaranto an, di dous coustat<lb/>,es dounc amoulouna lis obro e li</p>
+      </div>
+    </body>
+  </text>
+</TEI>

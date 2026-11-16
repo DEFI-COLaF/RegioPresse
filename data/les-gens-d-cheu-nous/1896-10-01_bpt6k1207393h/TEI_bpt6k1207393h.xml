@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Les Gens d'cheu nous</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k1207393h</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Les Gens d'cheu nous : croquis de J.-E. Sorgel</title>
+          <publisher>[s.n.] (Montendre)</publisher>
+          <date when="1896-10-01">1896</date>
+          <idno type="ARK">bpt6k1207393h</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k1207393h</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <head><lb/>UN BEAU TRIO</head>
+        <ab><lb/>LE FRÈRE «ENTROP»</ab>
+        <p rend="heading"><lb/>MÉDAILLE DE LACHEUR</p>
+        <figure/>
+        <figure>
+          <p><lb/>Six pouces de jambes et le trou<lb/>du.... nez tout de suite quand il .....<lb/>tousse il fait lever la poussière.</p>
+          <head><lb/>Offerte à son filleul le nouveau vendu.</head>
+          <head><lb/>illustre rejeton d'une illustre famille.</head>
+        </figure>
+        <figure/>
+        <ab><lb/>o.B̀ueeeFrce</ab>
+        <pb facs="0005.xml"/>
+        <ab><lb/>EME<lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/>GERIE<lb/><lb/><lb/>GАм<lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/></ab>
+        <p rend="heading"><lb/><lb/><lb/>par<lb/><fw type="digitisation-artefact"><lb/>g</fw></p>
+        <pb facs="0006.xml"/>
+      </div>
+      <div type="article">
+        <head><lb/>TIMBRE ET CONFÉRENCES</head>
+        <figure>
+          <p><lb/>Un étranger qui en gêne beaucoup... sans se gêner lui-même.</p>
+        </figure>
+        <ab><milestone unit="column" n="1"/><lb/>L. 1. POITEVIN. R</ab>
+        <ab><milestone unit="column" n="2"/><lb/>Le gérant: LEGROS.<fw type="digitisation-artefact"><lb/>nale de Frar</fw></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

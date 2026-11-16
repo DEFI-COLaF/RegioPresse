@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508518w</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1883-02-04">1883</date>
+          <idno type="ARK">bd6t54508518w</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508518w</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="3"/><lb/>DIMANCHE 4 FÉVRIER 1883.</ab>
+        <ab><milestone unit="column" n="1"/><lb/>Numéro 28. (2me ANNÉE).</ab>
+        <ab><milestone unit="column" n="2"/><lb/>Un Numéro: 10 centimes</ab>
+        <figure type="decoration"/>
+        <figure/>
+        <p rend="styled"><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING<lb/>En vente à l'imprimerie FRÈRE-GLORIEUX rue de Lille, 20, et chez M. Jules WATTEEUW, Rédacteur, Grand' Place,</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Comben d'ma mères qui ont<lb/>brait l'jour du tirache au sort!<lb/>A la vérité, ch'est in drôle<lb/>de jour!</ab>
+        <ab type="head"><lb/>LES CONSCRITS</ab>
+        <ab type="head"><lb/>N'a po d'avanche de braire;<lb/>Je n'd'ai pou mos choncq ans!</ab>
+        <figure/>
+        <p><lb/>Wetti:</p>
+        <p><lb/>Du matin, in ovrant ses quin-<lb/>tchets, lpremire affaire qui<lb/>passe vin l’tête du Conscrit,<lb/>ch'est in limereu! in bon, si y a d'l'espoir,<lb/>et in bas, si y a vin l'tête qui tra pris pou<lb/>choncq ans.. Y déchind, et malgré s’n'air<lb/>de paraîte djai, in vot ben qui a inne sa-<lb/>quo qui n'est po comme de couteume.</p>
+        <p><lb/>L'ma mère, ill' a d'ja ses is rouches,<lb/>pasque ill' n'a po été sans busii pindant<lb/>l’nut, et braire pou sin garchon.</p>
+        <p><lb/>Infin, l'conscrit s'in va erjointe l'z'amis-<lb/>ses</p>
+        <p rend="labelled"><lb/>Rran tan plan... rran tan plan... ran<lb/>pan tan plan.</p>
+        <p><lb/>Vla les villaches qui arriv'tent in tchan-<lb/>tant:</p>
+        <lg>
+          <l><lb/>La gloire nous appelle</l>
+          <l><lb/>Il faut marcher sans balancer.</l>
+        </lg>
+        <p><lb/>L'Conscrit monte à la Commune, y li<lb/>faut satchi in limereu.</p>
+        <p><lb/>Ah! si in poro vire l'potraine de tous<lb/>chés p'tits copagnons! j'sus seûr qu'in les<lb/>verro batte comme lz'ailes d'in coulon<lb/>ben invoï.</p>
+        <p><lb/>Pou gramint, ch'est inne grande affaire,<lb/>aussi, in n'd’in vot d’tous les sortes; t'nez,<lb/>in v'la chi in qui met s’main vin l'boîte...<lb/>Y vint djaune... y a l'tronnerie... y n’ose<lb/><lb/>po overt ses is, tchan qui donne sin byet<lb/>au gindarme, in l'wette... y est d’vin!!!<lb/>au sort comme y est aujourd'hu, mais in-<lb/>veuc des rimplachants.</p>
+        <p><lb/>Adan, in veyot des gins qu’in appelot<lb/>Marchands d'hommes, aquater des pau-<lb/>vres diables pou l'z'ervinde comme rim-<lb/>plachants!</p>
+        <p><lb/>Et in faijot sept ans, ch'étot dûr,<lb/>savez, j’in connos acor gramint d'Tourco<lb/>qui ont été sept ans, sans ervir St-Chris-<lb/>tophe.</p>
+        <p><lb/>Par après, in a supprimé les rimpla-<lb/>chants et l’serviche a été mis à choncq<lb/>ans, comme y est euch'teur et in a établi<lb/>l'volontaire d'in an.</p>
+        <p><lb/>Vus veyi qui a alfos été pisse qu'euch-<lb/>teur!</p>
+        <p><lb/>Infin, pusque sot in an ou ben chonq<lb/>ans, y faut tertus payi s’n’impot à la pa-<lb/>trie. Allez-y conscrits!</p>
+        <p><lb/>Et tchan qu'vernera l'momint d'aller<lb/>erjointe, in s'in d'allant, n’oubli po les<lb/>principes et les conseils que vou parints<lb/>vous ont donné, et surtout inne saquo<lb/>qui n’vous faura po oblii, ch'est in<lb/>meut qui vous fera passer vou congé<lb/>in douceur, (si vous savez l’printe du<lb/>bon côté), et qu’malgré tous les carot-<lb/>tes et les plans qu’vus porez tirer, y vous<lb/>faura toudis avoir, in bon soldat, vin vou<lb/>sac, ch'est l’meut Devoir, et si alfos, inne<lb/><lb/>mâche idée vernero à vou passer vin la<lb/>boussole, vus n’avez qu’a busii au brout-<lb/>teux, y tra toudis prêt à vou consoler.</p>
+        <p><lb/>Allons, boinne chance à tertus, copa-<lb/>gnons, et bon ertour.</p>
+        <ab><lb/>JULES WATTEEUW.</ab>
+        <p><lb/>J'souhaite inne boinne fête St-Blaise a<lb/>tous les marchands d'sayettes et d'déchets.</p>
+        <p><lb/>J'm’aros ben allongi inne mioche sus<lb/>min journal, pou tirer inne paire de gar-<lb/>djai, y voro y ête pou choncq ans.. y n’y<lb/>Tait à rin; ch'est sin gût d'ête soldat. Y er-<lb/>wette l’gendarme in rigolant... Vus povez<lb/>ête seûr qui perdera in bon limereu, in<lb/>ojeu essin.</p>
+        <p><lb/>Comme de jusse, ch'est in des pus<lb/>heuts de l'boîte.</p>
+        <p><lb/>In v'la chi in aute qui prind in byet<lb/>comme si y saro d’avanche chin qui va<lb/>avoir, cha ch’est in feurnatique, y dit qu’y<lb/>est seûr de n'd'avoir in bon; s'ma mère<lb/>ill' a fait batte les cartes.. d’abord y a<lb/>toudis réussi, vous allez vir cha. In overt<lb/>l'byet... t'es d'vin copagnon! Du cœup,<lb/>y n’sait pus pa du s’in d'aller, in v’la in<lb/>qui est erjoint in bon tour!</p>
+        <p><lb/>Ch'est pou vous dire que tout cha,<lb/>ch'est comme y dot tcher, pusque chi,<lb/>ch'est véritabelmint l'sort qui décide.</p>
+        <p><lb/>Les ma mères y ont beu mette de<lb/>l'tronenne à choncq feulles, ou ben in su<lb/>treué, vin l'capote d’leu garchon tchan<lb/>qui va satchi au sort, cha n’y fait à rin;<lb/>l'Conscrit ara l'limereu qu'y perdera, bon<lb/>ou ma.</p>
+        <p><lb/>Et acore, y a été ben pisse qu'aujour-<lb/>d'hu; vin l'temps in faijot des l'vées, tus<lb/>les jommes gins s'in d’allotent, sot affligis<lb/>ou ben autermint.</p>
+        <p><lb/>Y est vrai, qu'ch'étot dans un momint,<lb/>ou l’Europe in intire étot sus armes!</p>
+        <p><lb/>Mais n’importe que cha existe d'pus<lb/>lommint, vin nou pays:</p>
+        <p><lb/>D'après inne Lo du 19 fructidor An VI<lb/>d’la Révolution, tout Français étot soldat,<lb/>à partir d'l'âge d’20 ans jusqu'à 25 ans.<lb/>L'28 floréal An X, in décret dijot qu’tous<lb/>les ceux qui étottent mis hors de service<lb/>Et qu’les parints payottent puque qu’chin¬<lb/>quante francs d’contributions, devottent<lb/>payi inne indemnité qui povot aller jus-<lb/>que 1200 francs, et ch’est inne Lo du<lb/>In v'la chi in aute, qui vint in riant, finyraeaer e qui a fait l'tirache lousettes in leur honneur, mais malhu-</p>
+      </div>
+    </body>
+  </text>
+</TEI>

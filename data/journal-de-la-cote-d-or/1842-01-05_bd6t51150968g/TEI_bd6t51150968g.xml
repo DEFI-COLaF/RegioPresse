@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t51150968g</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1842-01-05">1842</date>
+          <idno type="ARK">bd6t51150968g</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t51150968g</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <head><lb/>JOURNAL</head>
+        <ab><milestone unit="column" n="4"/><lb/>FEUILLE POLITIQUE, LITDERAIRE, COMMERCIALE ET IEUUSIEITELE.<lb/></ab>
+        <p rend="styled"><lb/>Paraissant les Mercredis, Vendredis et Dimanches.</p>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>18 FRANCS PAR AN, 9 francs pour 6 mois, 3 francs pour 3 mois.</p>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/>On s’abonne à Dijon, au Bureau, rue Verrerie, 2 bis, où l’on reçoit toutes les communications qui peuvent intéresser le chef-lieu ou les communes<lb/>du département. – Les lettres doivent être affranchies et signées pour la garantie du rédacteur responsable.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>De la déclaration de la presse coalisée.</head>
+        <p><lb/>Depuis que les événemens de 1830 ont élevé en<lb/>France l’édifice du gouvernement constitutionnel, la<lb/>presse des factions n’a cessé de le battre en ruine par<lb/>tous les points, avec un acharnement que onze années<lb/>d’efforts impuissans n’ont pu ralentir. La majesté du<lb/>trône, la sagesse du prince qui l’occupe, le dévoue-<lb/>ment de sa royale famille à la gloire de la patrie; la<lb/>dignité de la chambre des pairs, les services qu'elle<lb/>rend au pays avec tant de zèle et de patriotisme, les<lb/>sacrifices et les travaux de la chambre élective, l’es¬<lb/>prit de conservation qui anime la majorité et préside<lb/>à ses délibérations; la capacité et le patriotisme qu’ont<lb/>déployés nos nombreux ministères soit dans l’admi¬<lb/>nistration intérieure de l’Etat, soit dans nos négocia¬<lb/>tions avec la diplomatie étrangère; l’autorité des lois:<lb/>rien, en un mot, de ce qui constitue la puissance<lb/>d'une nation, la force de son gouvernement, la gran-<lb/>deur et la durée de ses institutions, la sûreté de ses<lb/>relations avec les autres peuples, rien de ce qui con<lb/><lb/>serve l'ordre dans la sociétè, les droits politiques des<lb/>citoyens et les libertés publiques, rien de tous ces ob-<lb/>jets sacrés n’a échappé aux coups, à la licence, à l'au-<lb/>dace, aux calomnies, aux injures, aux outrages, aux<lb/>mépris, aux persécutions de cette presse qui, chaque<lb/>jour, distille ses diatribes sur toutes les personnes et<lb/>toutes les fonctions que la raison et la Charte recom¬<lb/>mandent à nos respects; sur tous les actes qui en<lb/>émanent et qui ont droit au moins à notre déférence</p>
+        <p><lb/>Heureusement ce système de dénigrement et de des-<lb/>truction, ces attaques incessantes, d’autant plus lâ¬<lb/>ches qu’elles restent ordinairement impunies, s’amor¬<lb/>tissent et manquent leur but. Que la presse nous dise<lb/>ce qu’elle a gagné à vouloir dégrader la Couronne de<lb/>ses prérogatives, à attenter à l'inviolabilité de la per<lb/>sonne du Roi, à souiller de ses sarcasmes celle des<lb/><lb/>jeunes princes, à avilir la pairie, à abaisser l’autre<lb/>chambre, à ébranler tous les ministères de paix,<lb/>exalter celui qui a failli consommer notre perte et livrer<lb/>notre pays à une troisième et mortelle invasion! Que<lb/>lui a servi d’avoir cherché à mettre l’Orient en feu, à<lb/>nous brouiller avec l’Espagne, l’Angleterre et les puis-<lb/>sances d’outre-Rhin? Quel avantage a-t-elle retiré de<lb/>la protection qu’elle a accordée à toutes les émeutes<lb/>depuis les insurrections de Lyon et de Paris jusqu’aux<lb/>troubles de Toulouse et de Clermont?</p>
+        <p><lb/>Il faut qu’elle l'avoue à sa honte, aucune de ces<lb/>basses manœuvres ne lui a réussi. L’Orient, l’Espagne,</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p><lb/>On doit se rappeler la lubie de quelques partisans du<lb/>Fouriérisme publiée il y a quelques semaines dans la<lb/>Phalange, sur le moyen d’obtenir de riches moissons<lb/>sans terre, sans labourage, sans engrais. Un poète<lb/><lb/>Sien connu dans notre ville par l’élégant badinage de<lb/>ses vers faciles a fait, à ce sujet, une agréable plai¬<lb/>santerie qu’on trouve dans ses Souvenirs du congrès<lb/><lb/>scientifique tenu à Lyon en septembre dernier et que<lb/>nos lecteurs nous sauront gré de leur offrir.</p>
+        <p rend="styled"><lb/>Question proposée par le programme;</p>
+        <p rend="styled"><lb/>ealture depuis oingt-cinq</p>
+        <lg>
+          <l><lb/>Ils sont trop exigeans, nos savans du Congrès:</l>
+          <l><lb/>Dans ce siècle surtout, fécond en hauts esprits.</l>
+          <l><lb/>Deux cents sociétés impriment leurs Annales</l>
+          <l><lb/>Memoires, Bulletins, Journaux, Comptes-rendus;</l>
+          <l><lb/>Déclament des rapports en publiques séances,</l>
+          <l><lb/>La marche lumineuse ébouit nos regards.</l>
+        </lg>
+        <lg>
+          <l><lb/>Un seul point est douteux, celui de la balance:</l>
+          <l><lb/>Voit que les frais toujours excèdent le pr</l>
+          <l><lb/>Que prouverait cela? C'est que de tous les homes</l>
+          <l><lb/>Les moins intéressés seraient les agronomes.</l>
+        </lg>
+        <p rend="styled"><lb/>rai quun prost net fut le prix des travaux<lb/></p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>neur<lb/>au courage malheureux: ils adhèrent à la déclaration de<lb/>leurs confrères parisiens. Nonobstant le ridicule sous lequel<lb/>est tombée cette fanfaronnade, sont arrivées les adhésions<lb/>des feuilles des localités les plus rapprochées de la capi¬<lb/>tale: le Journa! de l'Eure, le Propagateur de l'Aube, le<lb/><lb/>National de l'Ouest, le Journal de Rouen, le Progrès du<lb/>Pas-de-Calais, l'Echo du Nord, le Guetteur de Saint-<lb/>Quentin, l'Impartial du Nord, et le Journal du Hâvre.<lb/>(Pourquoi donc avoir oublié le Courrier de la Côte-d'Or?)<lb/>Seulement quelques-uns d'entre eux, le Journal du Hâ-<lb/>vre entre autres, regrettent que les déclarans se soient trop<lb/>égarés dans la sphère intellectuelle de la politique et qu'ils<lb/>n'aient rien fait pour la matière. Ils auraient voulu qu'on<lb/>parlât quelque peu des insertions judiciaires, que les cours<lb/><lb/>royales persistent à ne pas donner aux journaux indépen¬</p>
+        <p><lb/>sommes étonnés que des journaux si vertueux etsi<lb/>patriotes n'aient pas fait observer plus tôt qu'une loi qui<lb/>oblige les citoyens à une redevance est un impôt, et que<lb/>l'Etat seul ou ses agens devraient être chargés de la per-<lb/>ception de l'impôt, quel qu'il soit et sous quelque forme<lb/>qu'il se présente. Il faudrait donc que les droits perçus sur<lb/>les ventes et annonces judiciaires fussent comme ceux des<lb/>greffes, et que le gouvernement créât des feuilles spéciales<lb/>pour ces insertions, comme il nomme des greffiers, ap¬<lb/>pointés par lui pour délivrer des expéditions et faire des</p>
+        <p rend="labelled"><lb/>«Jusque-là et aussi long-temps que cette loi pourra être<lb/>une ressource, une aide, une subvention même pour les<lb/>journaux, il faudrait que les cours royales se fissent révo¬<lb/>lutionnaires, pour donner à des journaux, tous révolution¬<lb/>naires à un degré plus ou moins elevé, la préférence d'un<lb/>Qrivilége qu'il leur est facultatif d'accorder à des feuilles qui<lb/>l'Angleterre, l'Allemagne, le Nord, le monde entier<lb/>est en paix avec nous, en rapports de bonne harmonie<lb/>avec notre gouvernement, les agitations intérieures se<lb/>dissipent, le recensement s'achève partout sans résis-<lb/>tance sensible, la Cour des pairs vient de porter un<lb/>coup décisif à l'organisation des sociétés secrètes anti-<lb/>sociales et à la théorie des complots révolutionnaires<lb/>l'intrigue de la présidence de la chambre des députés<lb/>a échoué, la majorité est consolidée, le ministère du<lb/>29 octobre est plus ferme qu’il ne l’a jamais été. Où<lb/>donc est le triomphe de la presse coalisée? Dans<lb/>la déclaration à laquelle elle a prétendu donner tant<lb/>d’importance? C'est ce que nous verrons dans le nu¬<lb/>défendent le pouvoir au nom duquel leurs arrêts s'exécu-</p>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Dici l'expédient offert par la PHALANGE,</l>
+          <l><lb/>sablim</l>
+          <l><lb/>einnovation au siécle du Progres! ais:</l>
+        </lg>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>l'est du blé qu'il s'agit, plante fort nécessa </l>
+          <l><lb/>rous croyez</l>
+          <l><lb/>e sol est tout au plus un support pour sa tige</l>
+          <l><lb/>ns, écoutez ! et criez: au prodige.</l>
+          <l><lb/>Sur un champ en jachère éparpiller le grain</l>
+          <l><lb/>Le recouvrir de paille à la hauteur d'un poucs</l>
+          <l><lb/>Voilà tout: vous verrez comme la moisson pe</l>
+          <l><lb/>Pour prouver que la terre est sans fecondité,</l>
+          <l><lb/>J'ai semé le froment sur des plaques de verre!</l>
+          <l><lb/>Excellent procédé !.. mais methode trop chère:</l>
+          <l><lb/>Rien qu’a paver la Beauce en fragiles carreaux,</l>
+          <l><lb/>Il faudrait des verriers épuiser les fourneaux,</l>
+          <l><lb/>On aurait, tous les ans, trop de vitres brisées!..</l>
+        </lg>
+        <lg>
+          <l><lb/>Plus la terre est aride, et mieux le blé croîtra;</l>
+          <l><lb/>Paille et grain glisseraient en pente verticale</l>
+          <l><lb/>Les toits de nos maisons, penchés à l'angle obtus,</l>
+          <l><lb/>Et mieux encor d'Alger les terrasses en dalles</l>
+          <l><lb/>Terroir éminemment propice aux céreales!</l>
+          <l><lb/>Les sables des déserts, s’ils étaient moins mouvans..</l>
+          <l><lb/>Donneraient des fromens de la plus belle espèce</l>
+          <l><lb/>Maloncontreux etangs ! L'an passé, Dieu merci,</l>
+          <l><lb/>L'un bannissait la fièvre et creait des moissons.</l>
+          <l><lb/>L’autre voulait garder sa fièvre et ses poissons.</l>
+          <l><lb/>Invoquant le progrès, respectant la routine,</l>
+          <l><lb/>Soyez d’accord: voici le plan que j'imagine</l>
+          <l><lb/>o pranches, de radeaux</l>
+        </lg>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="6"/><lb/>Est mon froment seme sur des plaques de vere.</ab>
+        <p rend="labelled"><lb/><lb/>de misérable</p>
+        <p><lb/>C'est le même jour et à pareille heure que le Spec-<lb/>tateur et le Courrier de Saône-et-Loire ont publié, cha-<lb/>cun comme de son crû, les réflexions qu’on vient de<lb/>lire sur le discours de la Couronne. Nous ne saurions<lb/>accuser nos confrères de plagiat sans commettre un</p>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Et de grains empailles. Sous ces radeaux, ces p</l>
+          <l><lb/>n de e oés des épis savruxc</l>
+          <l><lb/>Au souffle caressant du Zéphire amoureux...</l>
+        </lg>
+        <lg>
+          <l><lb/>Heureux, trois fois heureux les futurs laboureurs !.</l>
+          <l><lb/>Laboureurs, ai-je dit? Non, les cultivateur</l>
+          <l><lb/>dne</l>
+          <l><lb/>Nous en lirez la preuve à la fin du mémoire.</l>
+        </lg>
+        <p><lb/>ur, la gloire<lb/><lb/><lb/>Depuis l’invention du houblo<lb/>Ne la sait pas, je vais lui raconter l'histoire.</p>
+        <lg>
+          <l><lb/>Un tendre philantrope, arrêtant ses regards</l>
+          <l><lb/>Dont la main, dit Voltaire, adroitement essuie</l>
+          <l><lb/>Présume qu'aux enfans ce métier est malsain,</l>
+          <l><lb/>Et pour les faire vivre, il leur ôte leur pait</l>
+          <l><lb/>Quand des rayons actifs du soleil printannier</l>
+          <l><lb/>Que l'âtre soit garni de terre au lieu de cena</l>
+          <l><lb/>Semez-y du houblon : ses longs bras vont s'</l>
+          <l><lb/>dans tous les recoins récueilleront la suic</l>
+          <l><lb/>Aux derniers jours d'automne annonçaut les frimas,</l>
+          <l><lb/>raire</l>
+        </lg>
+        <lg>
+          <l><lb/>Je prétends du grand prix te disputer l'honneur;</l>
+        </lg>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>le questi<lb/>anachronisme; mais nous serions bien aise de connai-<lb/>tre la source où ils ont puisé leurs inspirations; car,<lb/>malgré l’ancien adage qui dit que les beaux esprits se<lb/>rencontrent, une coïncidence si parfaite nous semble<lb/>miraculeuse. Est-ce que ces journaux, qui fulminent<lb/>perpétuellement contre la vertueuse indépendance des<lb/>feuilles de l’Opposition, auraient fait assez bon mar¬<lb/>ché de la leur pour adméttre des articles de pacotille<lb/>fabriqués dans quelque laboratoire ministériel? Voilà<lb/>ce que l’on pourrait se demander; mais nous espérons<lb/>qu’ils s’empresseront de répousser ce soupcon injurieux<lb/>marquer que George Sand ou Mme Dudevant, — comme<lb/>ne se trouve pas assez libre, — opinion qui pourra pa¬<lb/>raître étrange, — se rappeler les théories insensées et<lb/>profondément immorales qui se trouvent développées dans<lb/>la plupart de ses romans. Quand on a écrit et que l'on fait<lb/>vendre tous les jours Léone-Léoni, Jacques, Lélia, le<lb/>Compagnon du tour de France, on doit être certain que<lb/>la liberlé littéraire ne court aucun danger. N'importe, la<lb/>déclaration de la presse vertueuse a obtenu là un té¬<lb/>moignage de sympathie fort curieux et fort divertissant. Si<lb/>la cour des pairs avait jugé à propos de traduire à sa barre<lb/>les signataires de la déclaration, on se demande comment<lb/>elle aurait pu constater l'identité de George Sand, homme<lb/>de lettres, avec Mme Dudevant, et quel porteur de mandat<lb/>d’amener aurait pu arrêter madame Dudevant en cherchant</p>
+      </div>
+      <div type="article">
+        <pb facs="0002.xml"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>favorable aux doctrines des communistes, et que le Na¬<lb/>tional lui-même s'est vu dans l'obligation de désavouer,<lb/>lorsque M. Thoré a comparu devant la cour d'assises de la<lb/>Seine; — il devait en outre être rédacteur en chef d'un<lb/>journal intitulé: la Démocratie. Dans une réunion que<lb/>tinrent les fondateurs et les rédacteurs futurs de cette<lb/>feuille en projet, il fut question de la couleur morale que<lb/>l'on adopterait. Les uns voulaient qu’on professât franche-<lb/>ment l'athéïsme; les autres, moins avancés, désiraient<lb/>que l'on consentît au moins à admettre l'existence de l'Etre</p>
+        <p><lb/>dehors de toute considération de parti, à la déclaration</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p><lb/>pendans commence par la phrase suivante, qui aura fait<lb/>sourire plus d’un lectenr : « A aucune époque la presse<lb/>n'avait montré plus de respect pour l'ordre légal. » Une<lb/>feuille étrangère, le Courrier belge, accueille eette plai-<lb/>santeriè des journaux indépenduns par les observations</p>
+        <p><lb/>ni le Corsaire, n'ont montré plus de respect pour l'ordre<lb/>légal! La Gazette et le National surtout raffolent de l'ordre<lb/>légal; et la Quotienne donc! et la France! et le Journat<lb/>du Peuple! ne sont-ils pas de vrais petits moutons, de<lb/>petits blancs bien doux, incapables de faire tomber un<lb/>cheveu de l'ordre légal! Ils respectent infiniment la chose<lb/>jugée, et le peuple aurait bien tort de croire que leur dé-<lb/>claration a pour but la critique de l'arrêt en question.<lb/>L'appel au patriotisme et au courage des gardes na-<lb/>tionales et de tous les citoyens français n'est point un ap-<lb/>pel à la révolte; au contraire, c'est une invitation au peuple<lb/>de respecter l'ordre légal, à l'exemple des signataires<lb/><lb/>du memorandum filandreux et insignifiant qu'ils viennent<lb/>de publier pour ne pas avoir l'air de s'être assemblés pour<lb/></p>
+        <p rend="labelled"><lb/>rendue à Paris par le télégraphe de Marseille, de Lille et de<lb/>Bordeaux, adhère au manifeste en question et s’engage<lb/>aussi à ne plus dire un mot des pairs de France, qui</p>
+        <p rend="labelled"><lb/>passe en revue dans les termes suivans les hommes de<lb/>lettres signataires de la déclaration des journaux in¬<lb/>dépendans, au sujet de l'arrêt-Quenisset, rendu par</p>
+        <p rend="labelled"><lb/>pulsé de tous les journaux opposans, comme trop ennu-<lb/>yeux et trop diffus; — ce qui doit donner à penser à M.</p>
+        <p><lb/>pendant en cette occasion, qu’il occupe aux Archives du<lb/>royaume une place très-dépendante du gouvernemen</p>
+        <p rend="labelled"><lb/>connus, d’un mélodrame social et de quelques écrits dé-<lb/>mocratiques dont son éditeur doit avoir les exemplaires à<lb/>titre de rossignols. — Les rossignols sont les livres qui<lb/>ne se vendent pas (ils sont donnés d'ordinaire en prime par<lb/>les journaux qui veulent des abonnés par force, comme la</p>
+        <p rend="labelled"><lb/>rien produire, s'est fait critique et traductenr; il sert de<lb/>verbeux articles aux rares lecteurs de la Revue indépen¬</p>
+        <p rend="labelled"><lb/>rien vu de M. Claudon. C’est, croyons-nous, un de ces<lb/>écrivains qui n’écrivent pas, mais dont les noms s'étalent<lb/>glorieusement sur les prospectus de ces journaux littéraires<lb/>imprimés sur papier jaune ou bleu, qui vivent quinze<lb/>jours et n'ont jamais connu les abonnés que de réputation;</p>
+        <p rend="labelled"><lb/>vers boîteux et mal rimés qui ont pour titre: Chansons</p>
+        <p rend="labelled"><lb/>fait un article assez spirituel : — c'est déjà beaucoup. Il</p>
+        <p rend="labelled"><lb/>hensible de George Sand; il a produit plusieurs romans ré-<lb/>publicains, humanitaires et surtout ennuyeux. Il n'est pas</p>
+        <p rend="labelled"><lb/>1. Hippolyte Lucas. Il écrit des articles que préte<lb/>édiocres, plus souvent mauvais, mais toujours préten<lb/>teux, dans le Siècle et la Patrie;</p>
+        <p rend="labelled"><lb/>dicaux et d'un roman qui vient d'être saisi par le parquet;</p>
+        <p rend="labelled"><lb/>tendue du mot; il aura vu dans le manifeste en sous-ordre<lb/>des gens de lettres l’occasion d’obtenir de tous les jour¬<lb/>naux et gratuitement une sorte de réclame; — il écrit dans</p>
+        <p rend="labelled"><lb/>tiques, sociales et matrimoniales de Mme Dudevant sont</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>que ce fauteuil était occupé, l'année dernière, par un col-</p>
+        <p><lb/>n'a pas cessé, pendant sa carrière administrative et parle-<lb/>mentaire, de montrer autant de zèle à remplir ses devoirs</p>
+        <p><lb/>qu'il emporte dans la lombe les regrets et l'estime de tous</p>
+        <p><lb/>d'opérer le plus promptement possible la libération des<lb/>dettes contractées dans des temps difficiles, prendront</p>
+        <p><lb/>aux intérêts politiques qui pourraient vous être soumis<lb/>toute déviation qui tendrait à fausser les véritables prin¬</p>
+        <p><lb/>et le dévouement dont elle n'a pas cessé de donner des<lb/>j'espère que je la verrai bientôt animée d'une même opi-<lb/>des Français dépend beaucoup de l'union de ses repré-</p>
+        <p><lb/>du bienveillant appui qu'elle m'a accordé, ainsi qu'à mes<lb/>1. Louis Viardot, homme de lettres qui, ne pouvant collaborateurs, et nous la prions d’agréer nos remerci-</p>
+        <p><lb/>Les opérations du bureau provisoire étaes définitif<lb/>'invite M. le président et MM. les secrétaires définitifs</p>
+        <p rend="labelled"><lb/>choix dont elle m’avait trois fois honoré, la chambre n'a<lb/>voulu sans doute que manifester la persévérance de sa vo¬<lb/>lonté. Je ne sens pas moins vivement tout ce que je dois à<lb/>vos bienveillans souvenirs, et en prenant possession de ces<lb/>fonctions si éminentes, j'apprécie comme je le dois la con-<lb/>fiance spontanée qui les défère et la haute indépendance<lb/>torité de sa parole et à l'ordre de la chambre. Liberté de<lb/>nos débats, respect à nos résolutions, union de la fran¬<lb/>chise parlementaire et de cet esprit de convenance et<lb/>d'égards si digne d’une assemblée française ; protection<lb/><lb/>constante à l'inviolabilité de la tribune qui ne s'incline que<lb/>devant l'inviolabilité même des institutions qui l'ont élevée,</p>
+        <p><lb/>circonstances difficiles; de grands sujets de délibérations<lb/>vous attendent encore. Etudier l'état extérieur et intérieur<lb/>principes et le mouvement des idées, le respect du droit et<lb/>la satisfaction des intérêts; donner une large expansion aux<lb/>vœux civilisateurs de notre époque. Telle est la noble</p>
+        <p><lb/>nous décourager jamais; prouvons qu'à l'acivité brillan e<lb/>de son génie, la nation sait aussi joindre cette persévé-<lb/>rance éclairée, première source de la prospérité des peuples;</p>
+        <p><lb/>La chambre est définitivement constituée: p<lb/>donné connaissance au Roi et à la chambre des pairs.</p>
+      </div>
+      <div type="article">
+        <p><lb/>de Colombier et de Just Brazier, sont les nommés Boulley<lb/>et Rousselot. M. Jourdain, juge d'instruction, commis par<lb/>M. le chancelier, s’est transporté hier à la prison du Luxem-<lb/>bourg pour interroger ces deux inculpés, chez lesquels de<lb/>nombreux papiers ont été saisis. (Gazet. des Tribunaux.)<lb/></p>
+        <p rend="labelled"><lb/>Hier, à une heure de l'après-midi, deux fiacres, sous l'es-<lb/>corte de commissaires et d’agens de police, les ont ame¬</p>
+        <p rend="labelled"><lb/>mes de garde, ont une mise annonçant qu'ils appartien¬<lb/>nent à une classe aisée; plusieurs d'entr'eux passent déjà<lb/></p>
+        <p rend="labelled"><lb/>dans divers quartiers de la capitale; aujourd'hui la com-<lb/>mission de la cour des pairs s'est transportée à la prison<lb/>des nouveaux prévenus pour leur faire subir un premier<lb/>interrogatoire. Maintenant, l'extraction des condamnés<lb/>Quenisset, Colombier et Brazier de la geôle du Luxem-<lb/>bourg n’aura plus lieu qu’après la solution de ce nouveau<lb/>procès, dans lequel figureront comme les principaux té¬</p>
+        <p rend="labelled"><lb/>Foucault, gérant de la Gazette de France, sont cités,<lb/>par suite d’un arrêt de la chambre des mises en accusation,<lb/>à comparaître le mardi 11 janvier prochain, devant la Cour<lb/>d'assises, sous la prévention du délit d’attaque aux droits<lb/>que le Roi tient du vœu de la nation française, savoir: le<lb/>National, en publiant dans le numéro du 20 septembre<lb/>dernier un article commençant par ces mots : On lit dans<lb/>la Presse; et la Gazette de France, en insérant le même<lb/>jour un article commençant ainsi: La déclaration du</p>
+        <p><lb/>d’excitation à la haine et au mépris du gouvernement du<lb/>Roi, dans un autre article publié le même jour et intitulé:</p>
+        <p rend="labelled"><lb/>monie d'un haut intérêt, et qui appellera sans doute dans<lb/>ses murs un nombreux concours de curieux étrangers. Il<lb/>s'agit de la translation solennelle, dans le temple protes-<lb/><lb/>tant actuel, de cercueils fortuitement retrouvés, le 24 août<lb/>dernier, de Henri de Latour, père de Turenne et prince<lb/>souverain de Sedan; de Marie-Elisabeth de Nassau, sa<lb/>femme; de Julienne-Catherine, leur fille, femme de Fran¬<lb/>çois de Roye de la Rochefaucauld; d’un fils d’un petit-neveu<lb/>de ces derniers; d’un prince palatin, second fils de Fré¬<lb/>déric V le Constant, roi détrôné de Bohême, et du comte</p>
+        <p><lb/>des préparatifs convenables pour mettre cette pompe fu-<lb/>nèbre en harmonie avec l'illustration des personnages qui<lb/>en seront l’objet. M. le préfet du département, les autorités<lb/>civiles et militaires, les administrations, la garde nationale<lb/>et la garnison feront partie du convoi, et un discours sera</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>pésident dut on de, mnistre déla ̀ ue, par é.<lb/>lieutenant-général Bugeaud, gouverneur-général de</p>
+        <p rend="labelled"><lb/>signalé le bateau d'Oran, et j'ai retardé le départ pour vous<lb/>donner les nouvelles de cette province. A l'ouest, elles sont<lb/>bonnes et très-bonnes. A l'est, je n’ai que des nouvelles<lb/>indirectes de M. de Lamoricière, par le colonel Tempoure.</p>
+        <p rend="labelled"><lb/>plus de 4,000 moutons et 150 chameaux: les Medjehers<lb/>conduisaient en outre plus de 800 ânes et 300 chevaux ou<lb/>mulets: ils étaient chargés de butin composé de tapis, de</p>
+        <p rend="labelled"><lb/>ses services, les témoignages de la satisfaction du Roi que<lb/>M. le maréchal ministre de la guerre me charge de lui tran¬</p>
+        <p><lb/>tré dans les combats, comme aussi de leur patience à sup-<lb/>porter les fatigues et les privations. Elle donne sa complète<lb/>approbation à la campagne du printemps dans la province<lb/>et 5 mai; à celle conduite par M. le maréchal-de-camp Ba-<lb/>raguay-d’Hilliers, qui a eu pour résultat la prise de Taza<lb/>et Boghar et la destruction des récoltes sur les deux rives<lb/>du Chélif; à la campagne d’automne, conduite tour à tour<lb/>par les généraux Baraguay-d’Hilliers et Changarnier, et qui<lb/>a vu deux combats remarquables; aux deux campagnes de<lb/>la province d’Oran, qui ont fait tomber Tekedempt et Saï-<lb/>da, occuper Mascara, et ont produit des défections impor-</p>
+        <p rend="labelled"><lb/>et vigoureuse qui a présidé dans la province de Constantine</p>
+        <pb facs="0003.xml"/>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>mée. Pour moi, qui ai pu l'apprécier, je ne lui demande</p>
+        <p rend="labelled"><lb/>la revue des soldats libérables de la garnison d’Alger et des</p>
+        <p rend="labelled"><lb/>l'occupation des villages que nous construisons. Vous con¬<lb/>naissex tous les lieux où ils sont situés; le sol y est fertile<lb/>et sain, le site est agréable, les abords faciles : tout leur</p>
+        <p rend="labelled"><lb/>mille ue voulussent pas devenir propriétaires incommuta-<lb/>bles sur cette terre que vous avez conquise et si souvent</p>
+        <p rend="labelled"><lb/>d’autrui, ou exercer un métier, et cultiver son propre do-<lb/>vos travaux. Tout sera bien à vous, et pendant plusieurs</p>
+        <p rend="labelled"><lb/>celle des champs est plus sûre, plus constante. C’est aussi<lb/>tiers qui s’exercent dans les cités. Voyez les Arabes, ce peu<lb/>camp, et présenteront un asile impénétrable aux bédouins</p>
+        <p rend="labelled"><lb/>pour couvrir la colonisation civile et assurer à la France la<lb/></p>
+        <p rend="labelled"><lb/>se sont ouverts et des officiers se sont partagé la tâche d'in-<lb/>rester, mais presque tous étaient ébranlés et incertains;<lb/>beaucoup ont dit qu’ils voulaient consulter leurs parens, et</p>
+        <p rend="labelled"><lb/>liers, et d'une foule d'officiers de tous grades, est allé vi-<lb/>siter la colonie de l'Arach, où il a ouvert lui-même le la-<lb/>de fête, qui a paru intéresser vivement les Arabes alliés</p>
+        <p rend="labelled"><lb/>que les événemens se pressent et qu’ils peuvent devenir<lb/>néral Bugeaud y serait dès lors indispensable pour prendre<lb/>certaines décisions qu’un gouverneur intérimaire n'oserait<lb/>dit-on, où la présence du gouverneur-général est de la</p>
+        <p rend="labelled"><lb/>le congé qu'il avait demandé, lui avait laissé, en quelque<lb/>neur-genéral, par toutes les graves raisons que nous vé-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>deur, M. de Salvandy, les Débats, du 1^er, font les ré-<lb/>flexions suivantes que nous croyons conformes aux</p>
+        <p rend="labelled"><lb/>n'a élevé la prétention de se cacher du régent et de parler<lb/>sans témoins à la jeune reine. Bien loin de là, il a positi-<lb/>exige que l'ambassadeur de France, accrédité auprès de la<lb/>reine Isabelle II, organe et représentant du roi des Fran-<lb/>lais, mais au régent dans son hôtel. De cette façon ce ne<lb/>serait plus auprès de la reine d'Espagne que l’ambassadeur<lb/>de Franee serait acecrédité, mais auprès du régent. Est-ce</p>
+        <p rend="labelled"><lb/>et sLee moy, M. de coniliati lecpatibles pvés . Qu 'it-<lb/>ce donc que cette simple question d’étiquette à laquelle le<lb/>cabinet de Madrid tient tant? Au fond, une question fort<lb/>grave, et que le National pose fort nettement, sans le vou-<lb/>foir, quand il dit que le régent est le véritable roi. Nous<lb/><lb/>sommes loin de penser que le cablnet de Madrid pousse la<lb/>prétention jusque-la; mais ne voit-on pas comment, sous<lb/>ces questions d’étiquette qu'on affecte de traiter avec lé-<lb/>gèreté, peuvent se cacher les principes les plus dangereux,<lb/>les plus contraires à la dignité des couronnes et aux droits</p>
+        <p rend="labelled"><lb/>ritable roi, pas plus que le tateur n'est le propriétaire des<lb/>biens de son pupille; et c'est pour que le régent se sou-<lb/>vienne qu’il n'est pas le véritable roi que tout le cérémo-<lb/>nial de la royauté revient au roi mineur, malgré la faiblesse<lb/>de son âge. Enfant, il a des gardes; son berceau même est<lb/>entouré de marques d'honneur; c'est en son nom et sous<lb/>son sceau que se transmettent les ordres de l’autorité. Le<lb/>de petits esprits qui se moquent de ces fictions. Elles sont<lb/>l'image de la réalité et le symbole sous lequel les princi-<lb/>pes se manifestent aux yeux et à l'esprit des peuples. Les<lb/>affaires ne s’en feront pas moins par l’entremise du régent.<lb/>Il a les fonctions; mais il ne les a que comme représentant</p>
+        <p rend="labelled"><lb/>La jeune reine avec toute la pompe royale. Après les der-<lb/>niers événemens de Madrid, c’est encore à la reine que les<lb/>corps constitués sont venus solennellement offrir leurs fé-<lb/>licitations sur la répression de l'insurrection, et la reine<lb/>leur a répondu par un discours qu'assurément elle n'avait<lb/>pas fait. La reine passe des revues, et le régent se tient mo-<lb/>titre de ministres du régent, mais de ministres de la reine<lb/>Nous pourrions citer mille autres exemples du même gen¬<lb/>cérémonial tel que la remise de lettres de crédit, veut-on<lb/>éclipser la royauté devant l'ambassadeur de France et le<lb/>renvoyer au régent? Quelque soit le motif de cette préten¬<lb/>tion, il est évident que M. de Salvandy n’aurait pu s’y sou¬<lb/>mettre sans manquer à ses devoirs et sans faire fléchir,<lb/>nous ne disons pas seulement la dignité de la couronne de</p>
+        <p rend="labelled"><lb/>le régent, rien qui rabaisse sa dignité ou qui diminue ses<lb/>droits. Il ne s’agit pas d’entretenir des relations mystérieu¬<lb/>ses avec la jeune reine. C'est en présence d'Espartero et<lb/>sous ses yeux que M. de Salvandy est prêt à remettre à la<lb/>reine ses lettres de crédit. Toutes les affaires se feront en-<lb/>tre le régent et l'ambassadeur. Mais il est impossible d'ad-<lb/>mettre que l’ambassadeur de France, allant représenter<lb/><lb/>son souverain dans un pays monarchique, soit accrédité<lb/>auprès d'un ministre de la royauté, si élevé que soit ce mi¬</p>
+        <p rend="labelled"><lb/>e chef réel, le chef politique et diplomatique, ce n'est pas<lb/>la jeune reine mineure, c'est le régent. Or, c'est avec le<lb/>chef du gouvernement espagnol, et non avec une reine mi¬<lb/>Neure, et par conséquent incapable, que la France doit<lb/>établir ses relations officielles. Etre représenté auprès d’une<lb/>reine qui ne règne pas, qui ne signe pas, qui n’a encore au¬<lb/>cune valeur politique active et efficiente dans son pays, ce</p>
+        <p rend="labelled"><lb/>c'était auprès de la reine régente que les ambassadeurs<lb/>étaient accrédités, et non auprès de la reine régnante.<lb/>Puisque le duc de la Victoire a remplacé la reine Christine<lb/>à la régence, c'est auprès de lui, régent, que les ambas-</p>
+        <p><lb/>de nos reines qui ont été régentes, parce que le caractère<lb/>de reines dont ces princesses étaient revêtues, les élevait</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>à La plupat des j rn. No n' nt pas paru aujoured'hu<lb/>niteur, le Courrier-Français, le Commerce et la Ga-</p>
+        <p><lb/>rangues officielles adressées au Roi à l’occasion du<lb/>Brignoles-ale, au no du corps diplomatique:</p>
+        <p rend="labelled"><lb/>gane des sentimens du corps diplomatique, je viens vous</p>
+        <p rend="labelled"><lb/>s’est toujours plu à manifester la protection spéciale, dont<lb/>elle couvre la personne de Votre Majesté et son auguste fa¬<lb/>mille, a voulu, dans le cours de l'année qui vient de s'é¬<lb/>couler, en donner une preuve éclatante et bien chère à vo¬<lb/>tre cœur paternel. Cette année a aussi vu se resserrer l'u-<lb/>nion des cabinets, union si nécessaire au repos des peuples</p>
+        <p rend="labelled"><lb/>répandre sur vous, Sire, et sur votre maison royale. Nous<lb/>lui demandons de continuer à vous combler de ses faveurs.<lb/>Nous lui demandons de maintenir et de consolider de plus<lb/>en plus cette paix, objet constant des efforts de tous les<lb/>souverains et gage le plus solide de la prospérité des na-</p>
+        <p rend="labelled"><lb/>deerei prore dpeedevdn<lb/>tendre s'unir à moi pour rendre graces à Dieu des bien-<lb/>faits qui nous sont départis, et surtout de cette protection<lb/>spéciale dont la Providence a de nouveau couvert mes en¬<lb/>fans et qu'elle avait déjà tant de fois étendue sur eux et sur<lb/>moi. Mais, à côté de ces pénibles souvenirs, l'année 1841<lb/>nous laisse d'heureux résultats. Elle a vu les cabinets don-<lb/>ner, par leur accord, un nouveau gage à la paix générale,<lb/>et j'ai la confiance que nons continuerons à la préserver de<lb/>toute atteinte. Je reçois toujours avec une vive satisfaction<lb/>le témoignage de ce vœu commun de tous les souverains, et<lb/>personne n'en pourrait être, auprès de moi, un meilleur</p>
+        <p><lb/>la parole au nom de la chambre des pairs. Voici en</p>
+        <p rend="labelled"><lb/>rendre graces à la Providence des bienfaits qu'elle nous a<lb/>départis. Ce n’est pas seulement en préservant ma vie et<lb/>celle de mes enfans chéris qu’elle déploie sa protection.<lb/>c’est encore en nous mettant à portée de préserver la<lb/>France des envahissemens de l’anarchie, sous quelque for¬<lb/>me qu'elle se présente. C'était, comme vous le dites, une<lb/>œuvre laborieuse que celle de fonder en France un gou¬<lb/>vernement libre et régulier. L'appui que j'ai toujours trou-<lb/>vé dans la chambre des pairs a été un des grands moyens<lb/>d'y parvenir. Ce gouvernement recevra de sa durée cette<lb/>consécration de stabilité qui, en décourageant les factions,<lb/>achèvera d'imprimer à l'autorité la vigueur nécessaire pour<lb/>maintenir les lois, pour faire respecter les droits de tous et<lb/>réprimer ces attaques incessantes à la propriété qui pour¬<lb/>raient ébranler la société jusque dans ses fondemens. La<lb/>noble attitude de la chambre des pairs doit inspirer la sa¬<lb/>lutaire confiance que le trône, auquel la France m'a élevé<lb/>pour la garantie de ses lois et de ses libertés, ne saurait être<lb/>atteint par ces misérables tentatives et que nous continue¬<lb/>rons à déconcerter les coupables menées de ceux qui ex¬<lb/>ploitent une crédule ignorance pour accréditer le succès</p>
+        <p rend="labelled"><lb/>vous remercie, a adonci le regret que me cause l'absence<lb/>de celui que j'ai tant de plaisir à voir à la tête de la cham-</p>
+        <p rend="labelled"><lb/>pre des députés confond dans les mêmes souhaits 'avenr</p>
+        <p rend="labelled"><lb/>de l'ordre social la comprennent aussi quand ils entrepren-<lb/>nent de frapper la civilisation elle-même, tantôt dans la<lb/>royauté, tantôt dans les plus chères espérances de la dy¬</p>
+        <p rend="labelled"><lb/>est plus infatigable que le crime, et la société est plus forte<lb/>que les complots. La nation toute entière les repousse avec<lb/>horreur, et les classes laborieuses qu'on s'efforce d'égarer<lb/>ne sont ni les dernières, ni les moins intéressées à les mau-</p>
+        <p rend="labelled"><lb/>les citoyens et que les plus faibles sont assurés de trouver<lb/>auprès des grands pouvoirs de l’Etat cette sollicitude pa¬<lb/>ternelle qui fut toujours l’apanage des bons Rois et des<lb/></p>
+        <p rend="labelled"><lb/>liorations morales réalisées en peu d'années: l'abolition de<lb/>la loterie, la suppression des jeux publics, la fondation des<lb/>caisses d'épargnes, les salles d'asiles et le réglement des<lb/>ateliers de l'enfance, l'instruction primaire organisée sur<lb/>une vaste échelle, partout enfin les voies ouvertes à l’intel-</p>
+        <p rend="labelled"><lb/>pays; l'autorité de la religion, qui le consacre par sa di-<lb/>vine morale, nos institutions d’égalité légale de conser-<lb/>vation et de progrès, si bien faites pour assurer les fruits<lb/>du travail qui finit, et encourager les espérances du tra-<lb/>vail qui commence; enfin les nobles exemples dont votre<lb/>auguste famille ne laissera jamais manquer la France. Vo¬<lb/>tre vie, Sire, honorée par tant de services et d'épreuves,<lb/>dévouée toute entière à cette royautè déférée par le vœu<lb/>national; à côté de vous, une vie non moins royale, où la<lb/>pratique des vertus et la dispensation des bienfaits ne lais-<lb/>sent jamais le regret d'une journée perdue; à l'ombre de<lb/>votre trône, vos fils, toujours prêts à s’élancer là où le<lb/>bien de la patrie les appelle, tels sont les enseignemens que</p>
+        <p rend="labelled"><lb/>toutes les méditations aux grands intérêts qu’elle repré-<lb/>sente, aux travaux féconds que la France attend. Ses déli¬<lb/>bérations vont s’ouvrir, alors les opinions diverses se pro¬<lb/>duiront avec l'indépendance de nos prérogatives parle-<lb/>mentaires, mais aujourd’hui, Sire, tous les rangs sont<lb/>confondus et de quelque côté que Votre Majesté tourne ses<lb/>regards. Elle ne trouve partout, pour l'état comme pour sa<lb/>personne, que de sincères défenseurs et d'énergiques ap-</p>
+        <p><lb/>festez au nom de la chambre des députés, et je reçois avec<lb/>une entière confiance les assurances que vous me donnez.<lb/>Je vous remercie au nom de la reine, au nom de toute ma<lb/>famille, des vœux que vous m’exprimez. Mes fils sont,<lb/>comme je l'ai été toute ma vie, dévoués à la patrie, et tou¬<lb/>jours prêts à verser leur sang pour elle. J'sccepte, dans<lb/>toute son étendue, la solidarité dont vous me parlez, je<lb/>crois qu'elle existe en fait, et qu'il est essentiel que sor<lb/>existence soit bien reconnue; car ce n'est que par une con¬<lb/>fiance réciproque, et en se prêtant un mutuel appui que<lb/>les divers pouvoirs de l'Etat peuvent acquérir cette liberté<lb/>d'action qui fait leur force et les met à portée de remplir<lb/>leur haute mission. Alors toutes les prérogatives sont res¬<lb/>pectées, l'exercice de tous les droits est garanti par la sé-</p>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>Journal de la Côte-d'Or.</fw>
+        <ab><milestone unit="column" n="3"/><lb/><lb/>Auxonne, Voituret,</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>1^o En bâtimens de fermier, granges, écuries, cours,</ab>
+        <ab type="head"><lb/> CHABOT-CHARNI, n° 33</ab>
+        <ab type="head"><lb/>situé sur le finage de Flavignerot et leux</ab>
+        <ab type="head"><lb/>En l'étude et par le ministère de M. LAPERTOT,</ab>
+        <p><lb/>2^° Soixante-treize hectares vingt-cinq ares soixante-</p>
+        <p rend="labelled"><lb/>3^o Et environ six hectares quatre-vingt-six ares de</p>
+        <p><lb/>pour les terres en sombres et les prés, et après les re<lb/></p>
+        <p><lb/>S’adresser, pour visiter le domaine, au fermier qui<lb/>le cultive actuellement, et pour les renseignemens<lb/>soit à M. Humbert, propriétaire à Dijon, soit à M. La-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>L'entrée en jouissance aura lieu le 1^er juin 1842.</ab>
+        <ab type="head"><lb/>Etude de M. GUICHARD, notaire à Nuits.</ab>
+        <p rend="styled"><lb/>rresentement par la femme Bloeis</p>
+        <ab type="head"><lb/>ruits, le Iundi 31 janvier 1812, a mid<lb/></ab>
+        <p><lb/>Ce moulin, sur un très-beau cours d’eau, dans une</p>
+        <p><lb/>1^o Les bâtimens de l'usine avec tous ses agrès, Gre-</p>
+        <p><lb/>2^o Le logement du meunier, composé d'une cham-<lb/>bre au rez-de-chaussée, avec cabinet à côté.</p>
+        <p rend="labelled"><lb/>3o Une écurie avec un fenil régnant dessus, four,</p>
+        <p rend="labelled"><lb/>5o Un verger, au couchant des bâtimens, d'une</p>
+        <p><lb/>6^o 85 ares 70 centiares de terre, en la Grande-Fin-</p>
+        <p rend="labelled"><lb/>7^o 17 ares 41 centiares, aussi de terre, derrière la</p>
+        <p><lb/>8o 34 ares 28 centiares de terre, en deux pièces, de-</p>
+        <p><lb/>Il existe sur cette propriété environ 100 pieds de</p>
+        <p><lb/>S’adresser, pour tous renseignemens, soit audit no¬<lb/>taire GUICHARD, soit à M. de Reulle, à Dijon, avec<lb/>Nesquels on pourra traiter avant le 31 janvier 1842.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Maison, Jardin et Terres,</head>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>Situées au village d'Arceau, canton de Mirebeau,</ab>
+        <p><lb/>Aux enchères, le dimanche 9 janvier 1842, à mic<lb/>à Arceau, au domicile du sieur Désiré, cafetier,p<lb/>le ministère de M. DÉCAILLY, notaire à Mirebeau.</p>
+        <p><lb/>Ces maison, jardin et terres, d’un seul pourpris, de<lb/>la contenance de 55 ares 70 centiares, joignant de<lb/>nord Mlle. Vernisy, de midi Mme. Mariney, de le-<lb/>vant un contour de M. Bornier, de couchant la route<lb/>Lacquerur aurde gaandes facilités pour payer.</p>
+        <p><lb/>S’adresser, pour voir lesdits objets, à M. Petitjean,<lb/>qui en est le propriétaire, et pour les conditions, au-<lb/>curité générale, et c'est ainsi que se trouve réalisé ce que<lb/>j'annonçais, il y a déjà plus de onze années, quand je di-<lb/>sais que la Charte serait désormais une vérité. Cependant,<lb/>Messieurs, ce sont là les biens qu’on voudrait nous arra¬<lb/><lb/>cher en répandant de vaines terreurs et en propageant d’o¬<lb/>dieuses défiances. Mais avec votre loyal concours nous sau-<lb/>rons triompher de toutes ces attaques à l'ordre social, à la<lb/>prospérité, à tout ce qui est cher à l'homme, et garantir à<lb/>la France le maintien de son repos et le développement de<lb/>sa prospérité. Les témoignages d’affection que je reçois de<lb/>la chambre des députés me sont bien chers, et j'aime tou-<lb/>jours à lui renouveler l'expression de celle que je lui</p>
+        <p><lb/>Le gouvernement n'a pas encore fait publier par le<lb/>Moniteur l'annonóe officielle de la commutation des 3</p>
+      </div>
+      <div type="article">
+        <head><lb/>Office de M. BÉLIARD, CET,</head>
+        <p><lb/>Rue Saint-Philibert, n^o 18, jeudi 6 janvier, à onze<lb/>heures du matin, par le ministère de M. BELIARD,</p>
+        <note>
+          <p rend="styled"><milestone unit="column" n="2"/><lb/>DIJON. — IMPRIMERIE DE SIMONNOT-CARION, PRES LA PLACE DES DUCS DE BOURGOGNE.</p>
+        </note>
+      </div>
+      <div type="article">
+        <head><lb/> a Dis</head>
+        <p rend="labelled"><lb/>IBLIOTHEQUE à vendre aux enchères, en la<lb/>salle de vente, rue des Godrans, n° 88, à Dijon, le lun¬<lb/>di 10 janvier 1842, et jours suivans, heure de six du<lb/>soir, par le ministère de M. Devillebichot, commissaire-<lb/></p>
+        <p><lb/>Cette bibliothèque consiste en bons ouvrages de<lb/>sciences, histoires, voyages, arts, littérature, etc.</p>
+        <p><lb/>Très-belles gravures encadrées, d’après Raphaël,<lb/>Greuze, Horace Vernet, etc. On mettera aussi en<lb/>vente quelques jolis objets en porcelaine dorée, d’au¬</p>
+        <p><lb/>Les acquéreurs paieront 5 centimes par franc.</p>
+        <ab><lb/>-3<lb/></ab>
+      </div>
+      <div type="article">
+        <p><lb/>Elles sont situées au bois de Montoille, entre Cessey,<lb/>Chambeire et Labergement. On y arrive par un chemin<lb/>en excellent état. Toutes ces souches sont empilées<lb/>fortes mesures, sans petites racines, et dégagées de</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>DEUX CHEVAUX de calèche, à vendre à un prix</p>
+        <p><lb/><lb/>Saint-Vincent, no 19.</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p><lb/>M. FÉLIX ainé, marchand tailleur de Paris, a l'hon-<lb/>neur de prévenir le public qu’il a fait sur ses mar¬<lb/>chandises un grand rabais pour cause de départ</p>
+        <p><lb/>II. est déballé place d'Armes, n^o 13, café Gauthiot.</p>
+        <figure type="decoration"/>
+        <p><lb/>On a perdu, le 1^er janvier, depuis la pension Pelte-<lb/>ret jusqu'à la place Saint-Etienne, passant par<lb/>cour de la poste aux lettres, une paire de PANTOU¬<lb/>FLES en tapisserie. Récompense si on les rapporte pen-</p>
+      </div>
+      <div type="article">
+        <p><lb/>L'ÉTUDE de M. ROYDET, notaire à Dijon, rue<lb/>Saint-Nicolas, 88, ser- à partir u 6 janvier 1842<lb/></p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>ANNONCES JUDICIAIRES.</head>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>Ren DERBISEN,</ab>
+        <p><lb/>Notification a été faite suivant exploits du minis-<lb/>tère de Monnet, huissier à Dijon, en date du 22<lb/>décembre 1841, et de Laurain, huissier à Nuits,<lb/>en date du 30 du même mois, visés et enregistrés,</p>
+        <p><lb/>A la requête de M. Lambert-Stanislas Duval d’Es-<lb/>sertenne, propriétaire, demeurant à Essertenne<lb/>(Haute-Saône), et de dame Camille André d’Arceau,</p>
+        <p><lb/>Lesquels ont élu domicile à Dijon, en l'étude de<lb/>M. QUIRIN, avoué près le Tribunal civil de première<lb/>onstance de cette ville, y demeurant, rue Berbisey, 6,</p>
+        <p><lb/>A M. Nicolas-Claude Basire, propriétaire, de-<lb/>meurant à Dijon, et à Mme Aglaé-Marie-Charlotte</p>
+        <p rend="labelled"><lb/>2^° A Mme Pierrette-Julie Basire, veuve de M. le<lb/>baron Yves-Marie Pastol de Keramlin, demeurant à</p>
+        <p rend="labelled"><lb/>M. Louis-Charles Boquillon, ́</p>
+        <p rend="labelled"><lb/>A M. le Procureur du Roi près ledit Tribunal de</p>
+        <p><lb/>De l'expédition d'un acte dressé au greffe dudit</p>
+        <p rend="heading"><lb/>De Réglisse à la Gomme de GEORGÉ, Pharmacien à Épinal (Vosges.)</p>
+        <p><lb/>e<lb/>LUCHES, ENROUEMENS et autres maladies de POITRINE. La vogue immense dont elle jouit est la preuve de son<lb/>efficacité. BOITES DE 60 C. ET 1 FR. 20 C. avec le Prospectus. Dépôt dans toutes les meilleures pharmacies de Dijon,<lb/>et chez M. Béraud-Gaillard, rue Charrue, no 14;</p>
+        <p rend="labelled"><lb/>NOTA. On ne doit avoir confiance qu'aux boites portant l'étiquette et la signature Georgés</p>
+        <p rend="styled"><milestone unit="column" n="4"/><lb/>Les Dépôts viennent de recevoir un envoi qui peut suffire à toutes les demandes.</p>
+        <p rend="heading"><milestone unit="column" n="5"/><lb/>PATE PECTORALE</p>
+      </div>
+      <div type="article">
+        <p><lb/>Suivant jugement rendu par défaut au tribunal civil<lb/><lb/>de première instance de Dijon, le 27 décembre 1841,<lb/>enregistré, Mme Rochet, épouse du sieur Pierre Siro¬<lb/>dot, maitre de forges, demeurant à Bèze, a été séparée<lb/>Tribunal de Dijon, le 27 novembre 1841, enregistré<lb/>constatant le dépôt fait ledit jour audit greffe, par<lb/><lb/>M. QUIRIN, avoué près ledit Tribunal, de la copie<lb/>duement signée et collationnée, d’un acte recu<lb/>MM. CHEVALIER et MAZEAU, notaires à Dijon, le 8 no¬<lb/>vembre 1841, enregistré, contenant vente, par M.<lb/>Charles André, majeur, célibataire, propriétaire, de-<lb/>meurant à Dijon, à mesdits sieur et dame d’Essertenne,<lb/>moyennant, outre les charges, le prix principal de</p>
+      </div>
+      <div type="article">
+        <head><lb/>MARCIE DE DIJON.— DU 31 DÉCEMBRE 1841.</head>
+        <figure type="table"/>
+        <figure type="table"/>
+        <p><lb/>D'une MAISON, sise à Dijon, porte Saint-Piet,<lb/>droite en entrant en ville, aisances et dépenda</p>
+        <p><lb/>et a M. le P<lb/>cureur du Roi, que ladite notification leur était ainsi<lb/>faite pour qu’ils eussent à prendre, dans le délai de<lb/>la loi, sur l'immeuble acquis par M. et Mme d’Esser-<lb/>tenne, toutes inscriptions, pour raison d’hypothèques<lb/>légales, qu'ils jugeraient convenables; et que, faute<lb/>par eux de le faire, ledit immeuble passerait entre<lb/>les mains des requérans, libre et franc de toutes hypo¬</p>
+        <p><lb/>Avec déclaration, en outre, à M. le Procureur du<lb/>Roi, que le terrain sur lequel le vendeur a fait cons¬<lb/>truire la maison sus-désignée, avait été par lui acquis<lb/>de la ville de Dijon, le 12 juin 1838; qu’une partie de<lb/>ce terrain appartenait originairement à la ville de<lb/>Dijon, et l'autre partie, se composant d’une portion<lb/>de bastion, avait été acquise par ladite ville, le 2 août<lb/>1824, de Mme Claire Petit, veuve et commune en biens de<lb/>feu Nicolas-Guillaume Basire, qui était propriétaire à<lb/>Dijon; de M. Nicolas-Claude Basire, propriétaire, de-<lb/>meurant à Paris, et de dame Aglaé-Marie-Charlotte<lb/>Puissant de Saint-Servant, son épouse; de M. Joseph-<lb/><lb/>Numa Pastol de Keramlin, alors élève à l'école mili-<lb/>taire de Saint-Cyr, demeurant à Strasbourg; de M. Ie<lb/>comte Louis-Léger Belair, lieutenant-général des ar-<lb/>mées du Roi, demeurant à Strasbourg, et de Mme Claire¬<lb/>Cécile Basire, son épouse; ledit sieur Nicolas-Claude<lb/>Basire; ledit sieur Pastol, et ladite dame Léger Belair,<lb/>héritiers dudit sieur Nicolas-Guillaume Basire. C<lb/>bastion appartenait à mondit sieur Nicolas-Guillaume<lb/>Basire, par suite de l’adjudication qui lui avait été<lb/>tranchée par le directoire du district de Dijon, Ie</p>
+        <p><lb/>Et que tous ceux du chef desquels il pourrait être<lb/>pris inscription pour cause d’hypothèques légales, n’é¬<lb/>tant pas tous connus des sieur et dame d'Essertenne,<lb/>ceux-ci feraient publier la présente notification, con¬<lb/>formément à la loi et à l'avis du conseil d'état du</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>Naissances. – Du 13 décembre au 3 janvier, 8<lb/>Décés. — Du 31 décembre, Marie-Joséphine Bro-</p>
+        <p rend="labelled"><lb/>card, blanchisseuse, célibataire, 22 ans. Du 1^er jan-<lb/>vier, Françoise Galand, blanchisseuse, célibataire,<lb/>49 ans. — Louise Aubelle, veuve de Georges Henri<lb/>Dierolf, foudrier, 24 ans. Du 2, Marie Charles,<lb/>blanchisseuse, celibataire, 45 ans. — 1 au-dessous de</p>
+        <note>
+          <p rend="styled"><milestone unit="column" n="6"/><lb/>STuONOT-CARION, Redacteur responsable.</p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

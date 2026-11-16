@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Pays cévenol</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t53903627d</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Pays cévenol : hebdomadaire littéraire, artistique, félibréen, mutualiste, commercial, industriel et d'annonces</title>
+          <publisher>[s.n.] (Alais)</publisher>
+          <date when="1907-11-03">1907</date>
+          <idno type="ARK">bd6t53903627d</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t53903627d</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>29me Année. — No 1353</fw>
+        <fw type="runningTitle"><lb/>5 Centimes</fw>
+        <dateline><lb/>3 et 10 Novembre 1907</dateline>
+        <ab><milestone unit="column" n="2"/><lb/>ABONNEMENT:<lb/>a<lb/>AI</ab>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>no</p>
+        <p rend="heading"><lb/>REVUE HEBDOMADAIRE</p>
+        <p rend="heading"><lb/>RÉGIONALISTE * LITTÉRAIRE</p>
+        <p rend="heading"><lb/>D'ANNONCES</p>
+        <ab><milestone unit="column" n="3"/><lb/>BUREAUX<lb/>Imprimerie J. BRABO<lb/>Square de Saucages</ab>
+        <lg>
+          <l><lb/>et reste entter propriétale</l>
+        </lg>
+        <quote><lb/>La Direction laisse à chacun de<lb/>fn<lb/><lb/>dans les travaux signés de leurs</quote>
+      </div>
+      <div type="article">
+        <head><lb/>Chefs-d'CEuvre de la Littérature Provençale</head>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>MOUN TOUMBEU</ab>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Non nobi , Domiu.n</l>
+          <l><lb/>Ri pa lo</l>
+        </lg>
+        <lg>
+          <l><lb/>souto mis tue vese l'enclaus</l>
+          <l><lb/>E la capoucho blanquinello</l>
+          <l><lb/>ounte, coume li cacalaus,</l>
+          <l><lb/>N'acatarai à l'oumbrinello.</l>
+        </lg>
+        <lg>
+          <l><lb/>Suprème esjors de noste ourquei</l>
+          <l><lb/>Per nous sauva dou Tems que manjo,</l>
+          <l><lb/>Empacho pas qu'aier o vuei</l>
+          <l><lb/>En long oublit leu-teu se chanjo!</l>
+        </lg>
+        <lg>
+          <l><lb/>E quand li gent demandaran</l>
+          <l><lb/>A Jan di Figo o Jan di Gueto:</l>
+          <l><lb/>« Qu'es aquéu domo?» Respoundran:</l>
+          <l><lb/>a Aco's la toumbo dou Poueto.</l>
+        </lg>
+        <lg>
+          <l><lb/>Ero un que sague de cansoun</l>
+          <l><lb/>Per uno bello Prouoençalo</l>
+          <l><lb/>Que lé disien Mireio: soun</l>
+          <l><lb/>Coume en Camargo le mouissalo,</l>
+        </lg>
+        <lg>
+          <l><lb/>Escampihado un pau pertout:</l>
+          <l><lb/>Mai eu restavo dins Maiano</l>
+          <l><lb/>E lis ancian dou terradou</l>
+          <l><lb/>L'an oist treca nostis andano.</l>
+        </lg>
+        <lg>
+          <l><lb/>E piei un jour diran: « Ero un</l>
+          <l><lb/>Que l'avien fa rei de Prouvenço...</l>
+          <l><lb/>Mai de soun noum li grihet brun</l>
+          <l><lb/>Canton soulet la suroivenço!</l>
+        </lg>
+      </div>
+      <div type="article">
+        <head><lb/>Jeanne et Frédéric RÉGAMEY</head>
+        <head><lb/>L'ALSACE</head>
+        <p><lb/>En outre de cette snite de scandales de noture<lb/>diverse, devant lesquels se tait la justice impuis-<lb/>sante ; en outre de la dette croissante des char-<lb/>ges financières toujours plus lourdes, du désor-<lb/>dre, de l'anarchie toujours plus menaçante, de<lb/>l'humilité de notre attitude devant l'étranger.<lb/>ils souffrent de l'affaire Dreyfus qui les a divisés<lb/>comme elle divisait les Français, tandis que<lb/>notre politique anticntholique effraie les catholi¬<lb/>ques d'Alsace. Dans tous leurs plus intimes<lb/><lb/>sentiments, ces anciens Français sont blessés.<lb/>L'Allemand, en vérité, a eu la partie si belle<lb/>qu'on pourrait croire que c'est lui qui dispose<lb/>des cartes.</p>
+        <p><lb/>En même temps, comme contraste frappant,<lb/>il montre à l'Alsacien travailleur, religieux, sol-<lb/>dat, un état de discipline, d'ordre, d'énergie.<lb/>Ce n'est pas chez lui qu'on laisserait trainer<lb/>le drapeau au fumier. Son souverain, quoique<lb/>luthérien, inaugore solennellement les travaux<lb/>d'embellissement de la cathédrale de Metz et<lb/>va rendre hommage au pape.</p>
+        <p><lb/>Le résultat, nous l'avons dit, c'est que, de<lb/>l'autre côté des Vosges, on ne compte plus sur<lb/>la revanche. Considéré à ce point de vue, le<lb/>vieux parti de la protestation est mort. Il est<lb/>remplacé par celui qui veut pour l'Alsace-Lor-<lb/>roine la libre disposition de ses destinées inté-<lb/>rieures, dans les limites de la constitution<lb/>impériale.</p>
+        <p><lb/>Ce retour aux séculaires traditions particula-<lb/>ristes signifie-t-il que l'Alsace s'acommode de<lb/>son sort, se détourne de la France? Faut-il<lb/>prendre au tragique le mot de Bismarck : « Fai¬<lb/>tes d'abord des Alsaciens de bons particularis-<lb/>des et ils deviendront ensuite d'eux mêmes de<lb/>bons Allemands »?</p>
+        <p><lb/>Bismarck, comme tous ses compatriotes, pre-<lb/>nait ses désirs pour la réalité. Il feignait de<lb/>croire ce que les savants docteurs enseignent<lb/>de l'antre côté du Rhin. Il se trompait et ils<lb/>nous trompent. L'Alsacien n'est pas d'origine<lb/>allemande, n'a jamais été Allemand, ne parle<lb/>pas un véritable allemand.</p>
+        <p><lb/>Comme le reste de la Gaule, l'Alsace fut sub-<lb/>mergée par les flots de la barbarie germanique.<lb/>L'inondation laissa sor le sol une fange qui ne<lb/>varda pas à être absorbée, assimilée. Mais si le<lb/><lb/>caractère originel des habitants survivants fut<lb/>influencé, il ne fut pas transformé, et plus tard,<lb/>quand le vieux Saint-Empire vermoulu préten-<lb/>dit faire valoir ses droits, fondés sur la conquête<lb/>comme ceux d'aujourd'hui et constatés par<lb/>d'antiques parchemins moisis, il trouva des<lb/>villes libres, confédérées, qui reſusèrent obéis-<lb/>sance, ne consentirent qu'à de vagnes homma-<lb/>ges et surent, constituées en une sorte de répu-<lb/>blique, la Décapole, défendre leur indépendance</p>
+        <p><lb/>Quant à la langue, c’est un dialecte germani¬<lb/>que, mais assez corrompu, assez mêlé de mots<lb/>français et celtiques pour que l'Allemand ne<lb/>puisse le comprendre qu'après un certain temps<lb/>d'etade.</p>
+        <p><lb/>Il est permis de croire que si l'Alsacien le<lb/>pouvait, il se préfererait indépendant comme<lb/>autrefois; mais trop petit peuple entre deux<lb/>grandes nations, il doit choisir. Ses goûts. ses<lb/>instinets, ses origines l'entrainent veis la<lb/>France ; la force l'enchaine à l'Allemagne.<lb/>Comme pis-aller, il réclame l'autonomie dans<lb/>l'Empire, disant, semble-t-il : « Français ne<lb/>puis, Allemand ne daigne, Alsacien suis,»</p>
+        <p><lb/>Le parti qui prétend représenter la France a<lb/>donc à peu près réussi à décourager les Alsa-<lb/>ciens. Pour achever de se délivrer d'une fidélité<lb/>qui l'excède, ce parti vante, réclame, prépare<lb/>une aliance avec l' « ennemi héréditaire ». La</p>
+        <ab><lb/>Enfin, à bout d'esplicacioun,<lb/>Diran: « Es tou toumbeu d'un Mage,<lb/>Car d'uno Estello à set raioun<lb/>Soun pourtalet porto l'image.»</ab>
+        <ab><lb/>F. Mistral</ab>
+        <p rend="styled"><lb/>Per Toussant 1007.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>CONtRE" Et "POUR" LE MIDi</head>
+        <p><lb/>Le Temps publiait il y à quelques jours<lb/>un violent article contre le Midi et la<lb/>C. G. V. Cet article infâme ne pouvait<lb/><lb/>demeurer sans légitime protestation. C'est<lb/>notre ami l'ardent patriote méridional<lb/>Jules Véran qui a répondu à l'article du<lb/>Temps dans un des grands quotidiens de<lb/>la France du Midi. Reproduisons la fin de<lb/>ce magnifique plaidoyer pour la cause<lb/>méridionale:</p>
+        <p><lb/>Et le Temps ne s'aperçoit pas que les<lb/>violences qu'il appelle n'auraient d'autre<lb/>effet que de pousser le Midi à la révolte!</p>
+        <p><lb/>Comment! lorsque le Midi, indigné de<lb/>l'indifférence du gouvernement devant sa<lb/>longue misère, rompt avec le pouvoir cen-<lb/>ral et déclare la grève électorale et la grève<lb/>de l'impôt, le Temps appelle les cuirassiers.<lb/>et lorsque le Midi, rentré dans la légalité,<lb/>tenteune organisation légale, sage, métho<lb/>dique, pour vaincre la mauvaise fortune,<lb/>le Temps appelle encore les cuirassiers!<lb/>Ah ! non, ce n'est plus de jeu...</p>
+        <p><lb/>Et c'est le Temps qui parle ainsi, le Temps<lb/>qui, à l'occasion, recommande l'esprit<lb/>d'initiative, les libres organisations, qui<lb/>encourage avec raison les citoyens à<lb/>compter sur eux-mèmes plus que sur<lb/>rEtat! le Temps qui blâme la lutte de<lb/>classes et prône avec raison l'entente des<lb/>patrons et des ouvriers ! Que voulez-vous<lb/>y comprendre?</p>
+        <p><lb/>Et l'on ne comprendrait rien, en effet, à<lb/>ces attaques contre la C. G. V. s'il n'y avait,<lb/>à la fin de l'article du Temps, une petite<lb/>phrase qui explique tout, c'est celle-ci :<lb/></p>
+        <p><lb/>Ils (les dirigeants de la C. G. V.) en arri-<lb/>« verontbien vite à subtituerleur influence<lb/>« à celledes agents du pouvoir central dans<lb/>« le Mid.»</p>
+        <p><lb/>Et le Temps d'ajouter:</p>
+        <p rend="labelled"><lb/>Nous signalons au gouvernement ce<lb/>danger, il est encore temps, de le conjurer.</p>
+        <p><lb/>Voilà le grand mot lâché : la C. G. V.<lb/>pourrait arriver à substituer son influence<lb/>à celle des agents du pouvoir central.<lb/>voilà la terreur avouee.</p>
+        <p><lb/>Progressistes, radicaux, socialistes-poli-<lb/>ticiens peuvent ne pas être insensibles aux<lb/>misères du Midi, mais, plus que de ces<lb/>misères, il s'inquiètent du principe de la<lb/>centralisation et de la sauvegarde de l'éta-<lb/>lisme. Les vignerons méridionaux, qui ne<lb/>voient pas si loin, se contentent de dire :<lb/>visite auguste depuis longtemps attendue, tou¬<lb/>jours réculée mais à laquelle on ne renonce pas,<lb/>se fera. Elle sera imposée à Paris, car elle est<lb/>indispensable pour montrer aux entêtés qu'ils<lb/>נ<lb/>doivent se soumettre et accepter le fait accom-<lb/>pli, Le tralté de Franefort doit recevoir des<lb/>genérations actuelles cette sorte de consécration<lb/>dont on sent l'absolue nécessité pour frapper</p>
+        <pb facs="0002.xml"/>
+        <figure type="decoration"/>
+        <p><lb/>Après cette nouvelle victoire de l'Allemagne,<lb/>tout serait dit, croit on, et le patriote bafoué<lb/>n'aurait plus qu'à laisser toute espérance aux<lb/>pieds des ares triomphaux décorés des dra-<lb/>peaux du vaincu, fraternellement mêlés aux<lb/>drapeaux du vainqueur. Alors l'Alsace Lorraine<lb/>serait bien définitivement perdue pour la</p>
+        <figure type="decoration"/>
+        <p><lb/>Ceux qui poursuivent ce ré̀ve ont dans leurs<lb/>calculs, mal considéré un des trois facteurs. Ils<lb/>ont puen faire entrer deux dans leurs équations:<lb/>la France et l'Alsace sont à peu près aujour-<lb/>d'hui ce qu'ils voulaient qu'elles fussent. Mais<lb/>c'est l'Allemagne qui trompera leurs espéran-<lb/>ces. Elle n'a pas su, elle ne pouvait tenir le rôle</p>
+        <p><lb/>Pour recueillir le frait de ses étonnants suc-<lb/>cès, tirer parti de son extraordinaire fortune, il<lb/><lb/>lui aura manqué une ultime qualité qui lui faie<lb/>Nous voulons vendre notre vin! Nous<lb/>voulons vivre! Tous les jacobins, roses<lb/>rouges, écarlates. répondent: Périssent les<lb/>les colonies plutot qu'un principe ! Périsse<lb/><lb/>le Midi. plutôt que le principe de la cen¬<lb/>tralisation, plutôt que la tyrannie du pouvoir<lb/>central, plutôt que l'émancipation fût-elle<lb/>seulement économique, du Midi! Et. sur<lb/>ce terrain, se réjoignent et fraternisent les<lb/>progressistes étatites du Temps et les<lb/>socialistes étatistes de l'Humanité, comme</p>
+      </div>
+      <div type="article">
+        <p><lb/>Eh bien, ces messieurs n'ont pas tort<lb/>d'être inquiets. L'histoire de la fin du XIX.<lb/>siècle offre plus d'un exemple de ces<lb/>« petites patries » enserrées et étouffées<lb/>dans une grande patrie, qui cherchèrent<lb/>dans une libre organisation économique<lb/>de solldes moyens de résistance et de</p>
+        <p><lb/>Pour n'en citer que deux, quels admira¬<lb/>bles exemples nous offrent la Catalogne et</p>
+        <p><lb/>Si la presse parisienne n'organisait pas,<lb/>autour du mouvement catalaniste, la cons-<lb/>piration du silence et si la presse de province<lb/>n'était pas hypnotisée par la presse parisien-<lb/>ne, les Méridionaux sauraient qu'en Catalo-<lb/>gne, comme en Irlande, la régénération<lb/>économique a suivi de très près la renais-<lb/>sance littéraire catalane. Leur conscience<lb/>nationale une fois réveillée par leurs poè-<lb/>tes, les Catalans ont voulu, en mềme<lb/>temps que leur langue, sauvegarder leur<lb/>industrie et leur commerce. Aujourd'hui,<lb/>un Catalan n'achète aucun objet qui ne<lb/>sorte des fabriques catalanes et des maga-<lb/>sins catalans. Les négociants catalans ont<lb/>mème créé — j'ignore si cela se fait enco-<lb/>re — un papier monnaie qui avait cours</p>
+        <p><lb/>De même, en Irlande, dans cette malheu-</p>
+        <p><lb/>se llande que Angleterre avait con<lb/>chée au tombeau, l’effort économique a<lb/>suivi de près la renaissance littéraire gaé-<lb/>lique. Et. comme en Catalogne, républi-<lb/>cains et royalistes, catholiques et anticlé-<lb/>ricaux. l'on a vu, en Irlande, s'unir pour<lb/>la régénération économique du pays, abs-<lb/>traction faite de toutes les opinions politi-<lb/>ques, le P. Finlay, jésuite, et le gran«<lb/>maitre des « Orangemen » de Belfast, le<lb/>Dr Kane; M. John Redmond. « leader » du<lb/>parti parnelliste. et des unionistes comme<lb/>The O Connor Don et Lord Mayo. Mais les<lb/>lecteurs du «Journal » me permettront de<lb/>leur parler, un de ces jours, plus longue¬<lb/>ment de cette renaissance irlandaise à<lb/>l'aide du beau livre récent de M. L. Paul<lb/>Dubois, sur l'« Irlande et la Question</p>
+        <p><lb/>Pour en revenir au «Temps», ce qui<lb/>l'inquiète nous doit réjouir. La Contédéra¬<lb/>tion générale des vignerons bénéficiera<lb/>des attaques et des menaces dont elle est<lb/>Nobjet : chacun en voit, dès aujourd'hui.<lb/>r'immédiate utilité ; il suffit de réfléchir un<lb/>peu pour comprendre quelle énorme et<lb/>bienfaisante influence elle peut exercer<lb/>trop défaut. Les dirigeants ne s'en sont pas<lb/>rendu compte, ou peut-être alors l'ont trouvée<lb/>de nulle importance. Voilà si longtemps, avant<lb/>la guerre de 1870 et depuis, qu'ils nous vantent<lb/>sur tous les tons les solides vertus, les nom-<lb/>breux talents, les perfections de la race alle-<lb/>mande, qu'ils seraient excusables de s'être<lb/>illusionnés eux-mêmes au point de ne pas voir<lb/>un de ses rares défants. Malheureusement dans<lb/>la circonstance, ce défaut devient d'une impor-<lb/>lance capitale. Bismarck l'avait compris et<lb/>disait avec autant de surprise que de mélanco¬<lb/>lic : « Nous ne savons pas nous faire aimer ».</p>
+        <p><lb/>Chose surpaenante en effet! Au lieu d'être<lb/>heureux et fiers, les peuples qui ont eu la<lb/>chance d'être unis au grand Empire allemand<lb/>continuent à regretter leur nationalité, leur<lb/>indépendance, et ceux, nombreux, qui se savent,<lb/>dans des temps plus ou moins proches, appelés<lb/>à pareil honneur, protestent d'avance avec<lb/>indignation et s'organisent fébrilement pour<lb/>essayer d'échapper à cette destinée.</p>
+        <p><lb/>Ainsi, depuis quelques années, l'Allemagne<lb/>roit autour d'elle, du Nord au Sud, de l'Es<lb/>à l'ouest, se former un cercle de plus en plus<lb/>étroit de méfiances et de haines. Même la<lb/>Pologne qui, depuis un siècle et demi bientôt<lb/>jouit des bienfaits de l'incomparable culture<lb/>allemande, l'ingrate Pologne n’a pas su se<lb/>résigner. Bien plus, il se produit en ce moment<lb/>un tel réveil de sa nationalité que les journaux<lb/>allemands, alarmés, ne cessent de réclamer les<lb/>mesures les plus énergiques pour combattre et<lb/>écra er ce qu'ils appellent « le péril polonais.»<lb/>La grande Allemagne menacée par les Polonais,</p>
+        <p><lb/>La germanisation du Schleswig n'est pas<lb/>plus avancée. Hors d'Allemagne même, nous<lb/>voyons un certain nombre de peuples sur<lb/>lesquels se pratiquent avec aussi peu de<lb/>semblables essais de dènationalisation. L'Irlande<lb/>latte avec acharnement pour s'affranchir. La<lb/>Bohême, le Trentin, d'autres encore, se réveil-<lb/>lent de leur léthargic, immuables et tels qu'ils<lb/>furent dès l'origine. Jusqu'à la Chine, poussé à<lb/>pout, dont on nous prédit une terrible réno<lb/>vation. Des penseurs affirme que les divisions<lb/>de races, de nations, les frontières enfin (legs<lb/>funèbre d'un passé de ténèbre ! ne sont que<lb/>des créations factiees et ne reposent sur rien de<lb/>naturel. Ils doivent trouver que les événements<lb/>en prennent vraiment trop à leur aise avec<lb/>eurs spéculations de laboratoire</p>
+        <p><lb/>Moltke, malgrà la confiance naturelle au<lb/>conquérant, estimait qu'il faudrait cinquante<lb/>ans pour quelle fut assimilée. C'était reconnai¬<lb/>tre que l'assimilation était difficile.</p>
+        <p><lb/>Nous, qui n'avons pas les mêmes raisons<lb/>pour être optimistes au point de vue allemand,<lb/>nous croyons tout simplemen t que l'Alsace n'est</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>Lou trignoun de l'an que vèn.<lb/>La vergougno e lou mesprès.</ab>
+        <ab type="head"><lb/>AuZor!</ab>
+        <lg>
+          <l><lb/>sieis cents an de desmasclage,</l>
+          <l><lb/>T'an bouta mounte sies aro</l>
+        </lg>
+        <lg>
+          <l><lb/>Li Franchimand t'an après,</l>
+          <l><lb/>En t'inoundant d'uno sorgo</l>
+        </lg>
+      </div>
+      <div type="article">
+        <lg>
+          <l><lb/>E ouei qu'au founs de toun amo</l>
+        </lg>
+        <lg>
+          <l><lb/>A si granjo negro e soumbro</l>
+          <l><lb/>Qu'un la de caus blanquinello</l>
+        </lg>
+      </div>
+      <div type="article">
+        <head><lb/>LE MARTYRE Du MIDI</head>
+        <ab><lb/>Le deuil de Narbonne. — Souvenir aux martyrs glorieu-<lb/>sement tombés dans les rues de Narbonne. — Plus<lb/>de politique ! » c'est le mot d'ordre.</ab>
+        <p><lb/>Le jour de la Toussaint, lhéroique Nar¬<lb/>bonne assistait à une éloquente monifes-<lb/>tation en souvenir des Languedociens<lb/>morts victimes des fusillades des 19.20<lb/>juin 1907. La veille, la population avait<lb/>couvert de branchages, de verdures, de<lb/>deurs, les tumuli qui toujours restent sur<lb/>la place de l'Hôtel de ville pour attester le</p>
+        <p><lb/>Devant une foule immense, recueillie,<lb/>têtes découvertes. les musiques munici-<lb/>pales de Narbonne jouaient la marche fu¬<lb/>nèbre de Chopin et celle de Gutner. Dans<lb/>Saprès-midi vers les deux heures, le cor¬<lb/>tège des manifestants par miliers se for-<lb/>mait sur la place de l'Hôtel de ville. Mise<lb/>en marche, la foule, par le cours de ta<lb/>République et le Boulevard Gambetta, ainsi<lb/>parcourant les grandes artères de la cité;<lb/>va au cimetière où ont été inhumées les<lb/>victimes de la centralisation, du « Gouvèr»<lb/>de Paris. De nombreux drapeaux flottent<lb/>à la téte du cortège, cravatés de crèpe. Des<lb/>groupes de femmes portent des gerbes de<lb/>fleurs. Des groupes d'hommes portent des<lb/>bouquets. Le docteur Ferroul, avec ses<lb/>adjoints, vient après. Des couronnes<lb/><lb/>innombrables, et des délégations de socié-<lb/>tés se tiennent dans le milieu du cortège,<lb/>énorme, imposant par son recueillement.</p>
+        <lg>
+          <l><lb/>Vous faren passa pèr maio</l>
+          <l><lb/>Quauque jour que fara caud!</l>
+          <l><lb/>Qu'as ausa, vesent toun dre,</l>
+          <l><lb/>Bandi contro eti lou glavi</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136268t</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1898-12-27">1898</date>
+          <idno type="ARK">bpt6k8136268t</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136268t</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0001.xml"/>
+          <fw type="runningTitle"><lb/>DIMARS, 27 DE DESEMBRE 1898.</fw>
+          <fw type="runningTitle"><lb/>VUECHENCO ANNAOO, No 288</fw>
+          <ab><milestone unit="column" n="1"/><lb/>Nautri, l bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr l'oli<lb/>E faren Paili.</ab>
+          <ab><milestone unit="column" n="3"/><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.</ab>
+          <ab><lb/>(Prouverdi de meuounié.)</ab>
+          <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PÈR MES (7, 17.27)</p>
+          <figure/>
+          <ab><lb/>PRES DE L'ABOUNAMEN<lb/>FOLCO DE BARONCELLI</ab>
+          <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCÒ DE BARONCELLI<lb/>au palais dóu Roure<lb/>EN AVIGNOUN</ab>
+          <figure type="decoration"/>
+          <figure type="table">
+            <head><lb/>Baile dou journau</head>
+          </figure>
+          <figure type="decoration"/>
+          <figure type="decoration"/>
+        </div>
+        <div type="article">
+          <p rend="styled"><lb/>Lou councours naciounau pèr uno Istòri de<lb/>Prouvènço escricho en prouvençau, que l'Aiòli<lb/>durbiguè e n'en baiè lou prougramo (numerò<lb/>dóu 7 de desèmbre 1896, e que se n'èro pièi<lb/>prourouga l'escasenço enjusquo au 1e de janvié<lb/>-<lb/>1899, vai èstre claus dins quauqui jour. Soun<lb/>doune prega li councurrènt de manda si ma-<lb/>nuscri, signa e cacheta dins li formo d'usage, au<lb/>Capoulié dóu Fehbrige, En Felis Gras, en Avi-<lb/>gnoun, carriero Veloutarié. Lou prèmi sara de-<lb/>cerni e lou vincèire prouclama i grand Jo Flou-<lb/>rau Setenari que se van teni aquest an, rengue<lb/>la primauero.</p>
+          <figure type="decoration"/>
+        </div>
+      </div>
+      <div type="article">
+        <ab><lb/>lou! Pe-cairo! po-caira !Mer cil louceuvoustouren-dral<lb/>..<lb/>ah! gramacil moun bon me<lb/>.......</ab>
+        <ab type="head"><lb/>CANOUN EN 4 PARTIDO</ab>
+        <p rend="structured"><lb/>be<lb/>Aitail ail ait ailai! moun fas-coei<lb/>.<lb/>rout ! Nen plagne mai moun vin que tout! Ai) que di¬<lb/><lb/><lb/>ra, que di- ra moun pau-re - paire,</p>
+        <ab><lb/>Pèr CASTIL-BLAZE</ab>
+        <note type="handwritten"><lb/>....</note>
+        <p><lb/>tant de beure soun sa -. dou? Pe- caire ( pe-cai-</p>
+        <p rend="structured"><lb/>re ! Pi-chounet de-que te fau ? Digo, di. go-me-</p>
+        <p rend="structured"><lb/>lou: Tè, re - ja qui quaranto sou, N'en ana ras acha-ta'n<lb/></p>
+        <p><lb/>nou. Pe- caire ! pe-caire /Sies-ti countènt ? di- go-me¬</p>
+        <figure/>
+        <p rend="styled"><lb/>E...</p>
+        <p><lb/>moun bon mous- su, lou<lb/>Gramaci, gramaci.</p>
+        <p rend="styled"><lb/>ceu, leu cèu vous lou ren-dra.</p>
+        <figure type="decoration"/>
+        <p rend="structured"><lb/>eu, lou ceu vous leu ren-dra, O, louceu cous lourendra!</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Au noum d'ano coumessioun coumpausado dei tres<lb/>La lengo de Crousillat es aquelo dei vieis academician<lb/>nouéstei counfraire Toupin, D'Astros, Diouloufet, Maillet,<lb/>Thumin, Gaut, Bourrelly — anan ei set — foutougrafiant,<lb/>per miés dire, la favello dei gent de l'encountrado; lou<lb/>flame « reglounau» Plauchud magistralamen que va ſa<lb/>pèr lou dialêite fourcauquian, e, noun es besoun de<lb/>cerca bèn luen, lou canounge Milo va fa peréu bèn, e<lb/>dins sei predicanço e dins sei pèço de teatre. Lou Gau<lb/>publico aro aro sa pastouralo tant aplaudido.<lb/>2) Ei souerre de la «Crècho», entandoument sa galoio cou-</ab>
+        <ab type="head"><lb/>CROUSILLAT A L'ACADÈMI</ab>
+        <ab type="head"><lb/>DE-ZAIS</ab>
+        <ab type="head"><lb/>RAPORT SUS SA CANDIDATURO</ab>
+        <p><lb/>felibre majourau de l'Acadèmi, En Leoun de Berluc-<lb/>Perussis,En Chapòli Guillibert, e lou rapourtaire, aquest a<lb/>l'ounour de vous presenta la candidaturo, coume mémbre<lb/>courrespoundènt d'esto Soucieta literàri, artistico, d'An-<lb/>Aoni Crousillat, de Seloun, decan dóu Felibrige.</p>
+        <p><lb/>An carga d'aquéu pres-fa amistous, emai agradiéu, lou<lb/>decan taren, meis egregi suct ctaiscou de rEscolo de<lb/>Lar, élei que vous aurien parla, se pòu pas miés, dóu ve-<lb/>nerable pouéto selounen, un Sestian vertadié, se pòu<lb/>dire, pèr foueço resoun.</p>
+        <p><lb/>Es noun soulamen perqué es de noueste arroundimen,<lb/>Crousillat, es pèr-ço-que, coume Frederi Mistral, a es-<lb/>tudia à-z-Ais d'uno façoun mai que seriouso (1); pièi, li<lb/>a gagna vuno de sei béllei joio (medaio d'or) per l'odo au<lb/>Rei Reinié ; plèi mai, d'en darrié a vougu faire estampa<lb/>à l'empremarié felibrenco soun tresen voulume de poue-<lb/>sio, L'Eissame, que, coumo la Bresco, Lei Nadau, autrei<lb/>recuel impourtant, es tout d'obro e d'oubreto escricho<lb/>dins nouesto parladuro, la mai tipico, la mens franchi-<lb/>mando dei divèrsei varieta dialeitalo de la lengo d'O.</p>
+        <p><lb/>Acò beu, amon de va recounèisse lei savent lenguisto<lb/>de la capitalo de la Prouvènço, e nautri aman de cita à-<lb/>n-aquéu prepaus lou saberu roumanisto alemand Kosch-<lb/>witz, vengu 'n pareu de còup.</p>
+        <p><lb/>Crousillat es adounc dei nouestre de tout biais. Vou-<lb/>drian pas tròu reteni l'atencien de l'Acadèmi en li par-<lb/>lant uno vòuto dóu felibre de marco desempiéi grand<lb/>tèms couneissu, estampa dins tóutel lei publicacien cou-<lb/>leitivo en prouvençan, dempièi Lou Boui-abaisso e L'Ar-<lb/>mana fin-qu'au Roumavàgi dei Troubaire, au Gai-Sabé<lb/>de noueste davancié Jan-Batisto Gaut, e fin-qu'à «l'óu-<lb/>ficiau» mistralen L'Aioli, ounte legissen souvènti-fes de<lb/>peço d'éu, e just dins lou radié nomerò «L'Autouno ».</p>
+        <p><lb/>Es à l'óubràgi de-countûni, sèmpre leri e ravoi ; e se<lb/>lou bagàgi dóu decan dóu Felibrige es pas mai impour-<lb/>tant qu'acò, coumo quantita, sabès, vòu travaia soun<lb/>vers, assiéuna sei pensado, armounisa lou founs e la<lb/>formo à rèn pousqué ll reproucha. Abastarié, pèr miés<lb/>fa counèisse l'obro e l'oubrié, de douna eicito un parèu<lb/>de pajo dóu Grand Mèstre, escrivént l'avans-prepaus de<lb/>La Bresco, l'endeman de la superbo loucho felibrenco à<lb/><lb/>Santo-Ano d'At, ounte avié mai gagna lei joio :</p>
+        <p rend="labelled"><lb/>« Dins lou soulèu, dins la naturo perdurablo, éu<lb/>retrovo á tout pas li pinturo fidelo, lis empressioun suavo<lb/>de Vergéli e d'Ouraci. A soun ausido meme, dins soun<lb/></p>
+        <p rend="labelled"><lb/>(1) Sestént d'enfanço destina au racerdoci, a passa ben dous<lb/>an au Grand Semenàri d'Ais. — F. M.</p>
+        <p><lb/>médi Misè buu.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>.<lb/>oustau, dins la carriero, ressono douçamen uno lengo<lb/>mesurado, quàsi latino e vergeliano. Eu regardo, éu<lb/>escouto, candi, meraviha; e tout-d'un-cop uno auro<lb/>santo frusto sa gauto un béu matin, e lou vaqui sacra pèr<lb/>un autre sacerdòci, lou Felibrige prouvençau.</ab>
+        <p rend="labelled"><lb/>« Entre-miejo, countunié Mistral, uno de si parènto<lb/>l'enmenè en Itali, pèr lè teni coumpagno e lé servi d'in¬<lb/>terprète dins soun viage. D'aquelo escourregudo dins la<lb/>terro de l'art, ounte lou béu, entre la gràci gréco e la<lb/>severita latino mestrejo e resplendis, adugué piousamen<lb/>lou culte de la formo, la recerco paciènto de la courrei-<lb/>cioun emé lou platounisme de Petrarco. — A-n-aquéll<lb/>tresor apoundegué plus tard la leituro dis anglés, ounte<lb/>se sentié pourta pèr aquelo tendènço esperitalisto, parti-<lb/>cuilero, coume al di, au caratèro selounen (1), e parti-<lb/>guè d'aqui pèr trouba en lengo d'O.»</p>
+        <p><lb/>E rèn d'esiounant que lou majourau felibre de la prou¬<lb/>miero ouro ague proun imita, revira de l'italian, de l'an-<lb/>glés, ague fa de retipe de Marciau, de Vergéli, d'Ouràci,<lb/>de Fedre, e meme escri en lengo macarrounico de coum-<lb/>pousicien figurant dins sei libre de balado, odo, nouve,</p>
+        <p><lb/>Noun s'estounen, peréu, de soun goust marcant pèr lei<lb/>bèus-art. li venènt de sei viàgi à lestrangié ; ah ! se li<lb/>counèis mai que -mai, en pinturo, aquéu dilettante laro-<lb/>craven, e tambèn. sei pèço an lei formo ritinico lei mai<lb/>diverso e lei mai armouniouso, dins uno lengo casti-<lb/>gado, franco de touto mesclo, — talo que long de Lar<lb/>creirias ausi lou bouen cantaire, en raro de Crau, pa¬<lb/>mens. D'aquéu Tounin !</p>
+        <p><lb/>Uno d'éstel formo. lou vers blanc, es eu lon beu prou-<lb/>mié que l'a emplega, avans que Mistral aguèsse ansin<lb/>escri soun nouvéu pouèmo Lou Rose; Crouslllat, gaire<lb/>après la publicacioun de la celèbro epoupèio, a brava¬<lb/><lb/>men revendica, se disènt lou proumié avé fa dins lou<lb/>pais de Mirèio d'aquélei vers noun rima; d'enterin, un<lb/>tresen felibre, pariant «sus lei douge cant roudanen »,<lb/>en primo pajo de l'Aiòli, a vougu se li assaja, co qu'es<lb/>pas tout un, segur. Vous n'en disèn pas mai.</p>
+        <p><lb/>Dins soun autoublougrafié deis Isclo d'Or, lou glou-<lb/>rious Malanen dis bèn que lou cantaire de Neno, de Le¬<lb/>leto, es lou proumier en qu a fá ausi, éu Mistral, lei bre-<lb/>sihamen de sa douço Muso, quouro jouvènt éro au pen¬<lb/>siounat, en Avignoun, e qu'avié pèr subre-estant lou<lb/>Sant-Roumieren Roumaniho, un vesin dou mas peirau.</p>
+        <p><lb/>Em' acò, vesès que lou pouèto de Seloun (felibre de<lb/>Luseno, signo de-còup pèr anagramo) d'ouro s'es adraia<lb/>emé lei nòbleis artisan, lel flambèu de la Reneissenço<lb/>Prouvençalo ; te l'avien en estimo lel Saint-René Tail-<lb/>landier, lei Nourbert Bonafous!</p>
+        <p><lb/>Lou digne eiretié dei troubaire Pêire Pan, Trounc de<lb/>Coudoulet, sei counciéutadan, lou bouen sòci de l'istou-<lb/>riougrafe selounen Gimoun, si! que s'amerito un estûdi<lb/>coumpli, e sabén, urousamen, qu'un jouine dou Parla-<lb/>men de-z-Ais (2) se n'en óucupo emé patrioutico pas¬</p>
+        <p><lb/>Verai qu'à Seloun tabon lou presa, lon viêl majourau<lb/>sèmpre jouine pèr l'esperit, plen de voio e d'amour pèr<lb/>lou Gai-Sabé : avèn que d'escouta 'n moumenet aquest<lb/>autre, un letru, M. Reynier, e vès-eicito acò que n’en<lb/>disié dins l'Harmonie (12 de desèmbre 1896) li a just à<lb/>just dous an vuei, anounciant dins soun bel article, proso<lb/>e vers que L'Eissame venié de parèisse:</p>
+        <p><lb/>(1) (Seloun es censa coulounio arlatenco.... Li chato i'èrone)<lb/>sgarlandido: bèn talemen que n'i'a — acò s'es vist belèu<lb/>qu'aqui — que se fan menestriero, batént lou tambourin e<lb/>jougant dóu flabutet e rapelant poulidamen li fahutarello</p>
+        <p><lb/>(2) L'avoucat Sylvius David, valènt Selounen.<fw type="digitisation-artefact"><lb/>ource gallicbnf./Bibltèque de Ms</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

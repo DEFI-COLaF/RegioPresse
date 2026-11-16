@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Gau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8138444q</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Gau : revisto mesadiero pèr li revendicacioun de la lengo prouvençalo à l'escolo, dins la cadiero e à la tribuno poupulàri : parèis lou 15 de chasque mes / secretàri dóu Gau D. Savié de Fourviero</title>
+          <publisher>[s.n.] (Tarascoun-sus-Rose)</publisher>
+          <date when="1908-04-15">1908</date>
+          <idno type="ARK">bpt6k8138444q</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8138444q</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>ANNADO DOUGENCO</fw>
+        <dateline><lb/>1 d’ABRIÉU de 1908</dateline>
+        <fw type="numbering">N 143</fw>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/><lb/><lb/>ב<lb/></p>
+        <figure/>
+        <p rend="heading"><lb/>CANTAIRE DI REVENDICACIOUN PROUVENÇALO</p>
+        <p rend="heading"><lb/>à l'Escolo, dins la Cadiero e à la Tribuno poupulàri</p>
+        <ab><lb/>AMENISTRACIOUN:<lb/>PAREIS LOU 1e E LOU 15 DOU MES<lb/>EITOR JACOUMET<lb/>Vilo-Diea<lb/>(Vau-Cluso)<lb/>ABOUNAMEN : 3 FRANC PER AN</ab>
+        <ab><milestone unit="column" n="2"/><lb/>LI BAILE DÓU GAU:<lb/>D. SAVIÉ DE FOURVIERO<lb/>MÈSTE EISSETO — ANTÒNI BERTIE</ab>
+        <figure type="decoration"/>
+        <p rend="structured"><lb/>TAULETO : Avis, L.I BAILE. — Dicho Nouvialo. L. ESPARIAT. — Canten Lxtare, D. SAVIE DE FOURVIERO. — Crounico. — A través<lb/>libre e revisto, MESTE FRANC. — Pichoto Courrespoundènci, D. S. DE F. — Fuietoun : Margai, BOUNET L.'EINAT.</p>
+      </div>
+      <div type="article">
+        <head><lb/>AVIS</head>
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>Un journau deu estre un pau l'obro de touti, e nous<lb/>sarié forço agradieu que nosti legèire e abouna nous<lb/>mandésson tèms en tèms sa pichoto pajo.</p>
+        <p><lb/>Bràvi gent, quouro se passo à voste entour quauca¬<lb/>ren que pou interessa lou Gau, perqué pas tout-d'un-<lb/>tems nous lou manda? Quàuqui ligno sus uno carto-<lb/>poustalo, un articulet sus uno fueio espedido coume<lb/>papié d'afaire, acos tant leu fa!</p>
+        <p><lb/>Mai fau pas éstre Patroun Bello-Ouro, autramen<lb/>di, espera la darriero minuto. Mandas vosti ligno lou<lb/>3 e lou 17 de chasque mes, e sarés ansin à tems.</p>
+        <ab><lb/>LI BAILE.<lb/>jouine Toublo acoumpagna d'un bèu juvenome incouneigu<lb/>que pèr cop-d'astre se capitè just en aquéu moumen pèr<lb/>ié rèndre aquéu service. Aquéu juvenome amistadous, que<lb/>lou bon Diéu lou mandavo, ero tout simplamen lou bèl<lb/>ange Rafèu. S'es di e de-longo se dis que li maridage eila-<lb/>Mount soun escri en letro bèn-astrado dins lou grand libre<lb/><lb/>di vivènt. E just s'endevèn que de long de la routo, l'ange<lb/>Rafèu à Toubio venguè coume eiçò : Faren pauso e auren<lb/>la retirado encò de Raguèl qu'es toun ouncle e ié deman¬<lb/>daras sa fiho Saro pèr n'en faire ta mouié. A dous, lou ca-<lb/>min es pas tant languissènt. E veici qu'intrèron encò de<lb/>Raguèl qu'emé grand gau li reçaupè. Mai aqueste en de-<lb/>vistant Toubio, subran diguè à sa mouié Ano : Espincho<lb/>an pau, tè, coume aquéu jouvènt douno d'èr à moun<lb/>nebout.</ab>
+        <p><lb/>Em' acò Raguèl i viajaire venguè tourna-mai : Toubio<lb/>qu'es moun fraire, lou couneissès ? Eli respoundeguèron :<lb/>Lou couneissèn. E coume Raguèl disié rèn que de bèn de<lb/><lb/>soun fraire Toubio, l'ange faguè: Aquéu Toubio que vous<lb/>entrevas d'eu es lou paire d'aquéu jouvènt !</p>
+        <p><lb/>E d'entèndre acò-d'aqui, Raguèl sus lou couele de Tou-<lb/>bio penjè sa bello tèsto en lou poutounant e plourant de<lb/>oonur : O moun fièu, s’escridè, que Diéu vous benesigue<lb/>car sias vous l'enfant d'un ome de bèn.</p>
+        <p><lb/>Ano e Saro se meteguèron à ploura. Raguèl fai autant-<lb/>lèu escoutela 'n anounge e alesti un festin. Mai alor Tou-<lb/>bio prenènt la paraulo : Ni manjarai, segne, e ni béurai,<lb/>diguè, se noun me proumetès de me douna Saro pèr n'en<lb/>faire ma fremo. Raguèl aujavo pas respondre.</p>
+        <p><lb/>Alor l'ange ié diguè : Agués pas pòu de douna vosto fiho<lb/>à-n-aquéu jouvènt qu'es dins la cregnènço de Diéu. Vosto<lb/>fiho l'es degudo pèr mouié e degun autre foro d'éu noun a<lb/>pouscu l'avé pèr fremo.</p>
+        <p><lb/>Raguèl respoundeguè : Aro enfin crese iéu que Diéu a<lb/>vist mi plour e ausi mi preguiero. Crese iéu qu'es Diéu<lb/>meme qu'a vougu que venguessias nous vèire pèr que ma<lb/>fiho devenguèsse la nòvi d’un siéu parènt coume lou vòu<lb/>la lèi de Mouise. Adounc iéu vous la doune bord que soun<lb/>talo vosti desiranço.</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>Dicho Nouvialo</p>
+        <p rend="heading"><lb/>Per lou Mariage de Felip e Anais Gilly</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>GENTO DAMISELLO.</p>
+        <p rend="heading"><lb/>BEU JOUVENT,</p>
+        <p><lb/>l'a dins l'istòri santo un raconte talamen poulidet, tala-<lb/>men simple e naturau que fau que iéu vous lou digue tout-<lb/>d'un-tèms. Devès, osco-seguro, vous n'en rapela, mai s'en¬<lb/>devèn talamen bèn emé l'ate impourtant qu'anas coumpli<lb/>dins aquelo umblo gleiseto de voste endré que vous agra-<lb/>dara de l'ausi.</p>
+        <p><lb/>Toubio estènt dins l'age mandè soun fiéu vers Gabèlus<lb/>au païs di Mèdo, pèr regla 'n pichot afaire de famiho.</p>
+        <p><lb/>Prenènt sa biasso e soun bastoun, partiguè dounc lou<fw type="digitisation-artefact"><lb/>urce gallica.bnf.fr / Bibliothèque nationale de Fra</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

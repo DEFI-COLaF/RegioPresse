@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Progrès de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k18642102</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Progrès de la Côte-d'Or : journal politique... ["puis" journal républicain quotidien]</title>
+          <publisher>[s.n.] (Dijon)</publisher>
+          <date when="1883-09-13">1883</date>
+          <idno type="ARK">bpt6k18642102</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k18642102</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>Le Progrès de la Côte d'or</fw>
+        <ab><milestone unit="column" n="1"/><lb/>poco a a<lb/>c cn <lb/>a, rue du Palais<lb/>Près de la plase Armes)<lb/>PRINCIPALLS OPERATIONS<lb/>o<lb/>m<lb/><lb/>A CEDER DE SUITE Peasient de Nne Geofrey<lb/>A remettre<lb/>pour eaure de crmation<lb/>HOTEL SAINT-NCOLAS<lb/>Fac-<lb/>ns de paemen<lb/><lb/>A louer de suite<lb/>   <lb/>erAM Commard́<lb/><lb/>MEME ADRESSE<lb/>Capme p ereIMITDE<lb/>Très bon Café A VENDRE<lb/> i i<lb/><lb/><lb/><lb/>oges ole<lb/><lb/><lb/><lb/></ab>
+        <p rend="heading"><lb/>MAISON DES 100,000 PALETOTS</p>
+        <p rend="heading"><lb/>Succursale de La place darcy, 13</p>
+        <ab><milestone unit="column" n="3"/><lb/>DIJON</ab>
+        <ab><lb/>GRANDE MAISON SPÉCIALE<lb/>VÊTEMENTS FAITS D'AVANCE<lb/><lb/>pour Hommes, Jeunes Gens et Enfants<lb/>INIGURITION<lb/>SAMEDI PRoCHAIN 15<lb/>SEPTEMBRE</ab>
+        <p rend="heading"><lb/>AVIS DIXR</p>
+        <ab><lb/>A VENDRE A L'AMIABLE A VENDRE AUX ENCHÈRES<lb/>Cabinet de Lecture</ab>
+      </div>
+      <div type="article">
+        <head><lb/>JOLI</head>
+        <head><lb/>MOBILIER</head>
+        <head><lb/>A vENDRE</head>
+        <ab><lb/>CHEVAL<lb/>de gendarmerie<lb/>A VENDRE AUX ENCHÉRES</ab>
+        <figure type="table"/>
+      </div>
+      <div type="article">
+        <head><lb/>Désignation:</head>
+        <ab><lb/>REAU<lb/>TRAIN<lb/>de colture<lb/> L T</ab>
+      </div>
+      <div type="article">
+        <head><lb/>VENTE JUDICIAIRE</head>
+        <p><milestone unit="column" n="2"/><lb/>Ende de M. PLANCIER, dotaire</p>
+        <p rend="heading"><lb/>A veadre su à loser<lb/>uN mOULIN</p>
+        <p rend="heading"><lb/>A E</p>
+        <p rend="heading"><lb/>VENTE JUDICIAIRE</p>
+        <p rend="heading"><lb/>LOTERIE DE LILLE</p>
+        <figure type="table"/>
+        <p rend="heading"><lb/>AVIS</p>
+        <figure type="table"/>
+        <figure type="table"/>
+      </div>
+      <div type="article">
+        <ab><lb/>VENTE JUDICIAIRE Train de Culture<lb/>A VENDRE</ab>
+        <ab type="head"><lb/>aux enchères</ab>
+        <ab type="head"><lb/>Désignation</ab>
+        <p rend="styled"><lb/>bazar universel<lb/><lb/></p>
+        <p rend="heading"><lb/>FABRIQUE<lb/>Machines à battre</p>
+        <p rend="heading"><lb/>Sacre glsce era</p>
+        <figure type="table"/>
+        <ab><lb/>OLIVER ET NEVEU<lb/><lb/></ab>
+        <p rend="labelled"><lb/>l aees cons etl dcat</p>
+        <ab><lb/>CAFE<lb/>Avec Garnis<lb/>so de dé<lb/></ab>
+        <p rend="heading"><lb/>o </p>
+        <figure type="table"/>
+        <ab><lb/>.<lb/> a 1. .<lb/><lb/><lb/></ab>
+        <p rend="heading"><lb/>A VENDRE</p>
+        <p rend="heading"><lb/>PécHE</p>
+        <p rend="heading"><lb/>APPARTEMENT</p>
+        <figure type="table"/>
+        <figure type="table"/>
+        <p rend="heading"><lb/>ON DEMANDE</p>
+        <figure type="decoration"/>
+        <p><lb/><lb/>an du joura.</p>
+        <figure/>
+        <p rend="heading"><lb/>ON DEMANDE</p>
+        <figure type="table"/>
+        <figure type="table"/>
+        <ab><lb/>Source gallica..fr/Bibliothèque nationale de France</ab>
+        <ab><milestone unit="column" n="4"/><lb/>JOLI APPARTEMENT<lb/><lb/><lb/></ab>
+        <p><lb/>A LOUER, |Bais de erfage Banque et Commission<lb/></p>
+        <figure type="table"/>
+        <p rend="heading"><lb/>AVIS</p>
+        <p rend="heading"><lb/>TARARE VERVOREL</p>
+        <p><lb/> ee tres</p>
+        <figure/>
+        <ab><lb/><lb/>ao</ab>
+        <p rend="heading"><lb/>PRINCIPAL CLERC</p>
+        <ab><lb/>BAGUE ELASTIOUE<lb/><lb/><lb/>LUCHARD<lb/>Medallié a rExpoalten de Chanment 1882</ab>
+        <ab><lb/>CHASSEUR<lb/>18 50<lb/>CHASSEUR<lb/>18 50<lb/>AU BON PASTEUR<lb/>Rue Notro-Dame. 2, et Ruc Verrerie, 3, et 5. Dijon</ab>
+        <ab><lb/> Maladies Contagieuses<lb/> <lb/></ab>
+        <figure/>
+        <figure type="table"/>
+        <figure type="table"/>
+      </div>
+    </body>
+  </text>
+</TEI>

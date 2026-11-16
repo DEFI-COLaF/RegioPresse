@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Nouvielle Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54517362k</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Nouvielle Vaclette : journal patoisant humoristique, non politique / avec la collaboration du Caveau lillois</title>
+          <publisher>[s. n.] (Lille)</publisher>
+          <date when="1930-10-11">1930</date>
+          <idno type="ARK">bd6t54517362k</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54517362k</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>7o ANNÉE. — No 293</fw>
+        <fw type="runningTitle"><lb/>L'abornement se pais d'Apancs</fw>
+        <dateline><lb/>Samedi 11 Octobre 190,</dateline>
+        <ab><milestone unit="column" n="2"/><lb/>REDACTION<lb/>ABONNEMENT<lb/>69, Ruo Saint Suuven.</ab>
+        <ab><lb/>O 2S LE UMEEO</ab>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>ANEC LA COLLABORATION<lb/></p>
+        <ab><lb/>R. du C. Lille 48.610</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Gérant : MAREELS Isidore</ab>
+        <ab><lb/>Chéques Postaux 87.182</ab>
+        <p rend="styled"><lb/>Siège : 1, Rue de la Monnaie</p>
+        <ab><lb/>France un an, 18.80</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Amateurs de Canchons Patoises</head>
+        <ab><lb/>Vous trouvrez dins ch liméro:<lb/>L' DERNIER MOT N'EST POINT DIT<lb/>Chanson de I. MARÉELS<lb/>Air: Plus on est de fous, plus on rit<lb/>UN VOYACHE A LA MER<lb/>Chansonnette comique d'Alfred EMPIS<lb/>Si oN SaVOT L'AVNIR<lb/>Chanson de F. DUPONT, dit Double-Mète</ab>
+        <p><lb/>Peut se chanter sur l'air: Mes parents sont venus mechercher</p>
+      </div>
+      <div type="article">
+        <ab><lb/>[diable...<lb/>Qu'i répondot l' gros Franços, ch' n'est point croya-<lb/>b<lb/>« Cpindant, dins tin gardin i' n' manque point d'<lb/>(solel,<lb/>Mais cha n' fait rien, j' vas t' donner un bon consel :<lb/>l' faudrot qu'on leu' dich' des « Bétiss's de Lille »...<lb/>« Des bétiss's! qui dijot Maxime . — Ouais, Ba-<lb/>vir<lb/>Et l' mieux d' tout, cha n' te cout'ros point un cen-<lb/>time<lb/>«Puisqu'i's l' font à l'œil. . — Ah! r'dijot Maxime,<lb/>Cha s'rot un bon plan et i's viendrott'nt, te cros?<lb/>Jean Bex du. Cat noir » a ri pu d'eune heurette<lb/>Quand, l'lind'main, sin facteur li r'mettot cheull'<lb/>flette<lb/>'nant tout drot d' Lesquin; — « Cher Mossieu,<lb/>Vous s'rit's grand'mint récompinsé du Bon Dieu<lb/>Si vous porrit's rimplacher pour mi l' nature ;<lb/>a qu' vous avez l' pouvoir d' fair' canger l' verdure;<lb/>Vous n' me r'fus'rez point sûr'mint Dimanche au<lb/>(matin<lb/>3 csntinter m' femm', d’injolier sin p'tit gardin</ab>
+        <ab type="head"><lb/>BÉTISS'S DE LILLE</ab>
+        <p rend="labelled"><lb/>(PASQUILLE)</p>
+        <p><lb/>Lété passé, Maxim' Faluche d' Lesquin<lb/>V'not de s' plaindre d'vant l' gros Franços, sin cousin<lb/>Qu' ses tomates, i's n' rougissott'nt point.<lb/></p>
+        <lg>
+          <l><lb/>moumint</l>
+          <l><lb/>T' n'as qu'a écrire à Jean Bez, l' secrétaire</l>
+        </lg>
+        <list>
+          <item>Du, Cat noir Lillos », là te trouv'ras t'n affaire.</item>
+        </list>
+        <p rend="labelled"><lb/>Ch’est tous des gins qui font rir', tordre et rougir<lb/>Tout chin qu’i' veul'nt; acout', ch'est curieux d' les</p>
+        <p rend="labelled"><lb/>« J'in réponds, min couss", » qu'l' s'écriot Franços.</p>
+        <p rend="labelled"><lb/>quate—<lb/>«Dir des bétiss's pou' fair rougir mes tomates..</p>
+        <ab><lb/>Benoit VANUXEM</ab>
+        <ab><lb/>ear tont es qui concera a MUBIQUE uje<lb/>VERCRUYSSE a DMONDE<lb/>139-141-143, Rue de Paris - LILLE<lb/>rtyhone 86-5<lb/>Chanson: nouvelles et pateisei</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Un Souvenir Odorant!</head>
+        <p><lb/>Il in est arrivé eun' bien bonn' au p'tit Arthur,<lb/>aux grand s moustaches, et l’avinture que j' vas<lb/>vous raconter est attrayante et sintimintale et<lb/>authintique surtout.</p>
+        <p><lb/>Comme gramiat d' gins, Arthur avot décidé<lb/>d' passer agréablemint à Malo, les journées des<lb/>13 et 14 Juillet. Pour cha avés' femme Clémentine<lb/>i' avot pris rindez-vous avec plusieurs chochons<lb/>(puqu' on est de fous, puqu’ on rit) notammint<lb/>sin comarate Michel, l' représentant d apparels<lb/>qui aspirent les poussières.</p>
+        <p><lb/>D’abord, tout s'est bien passé, y a qu'Arthur<lb/>qui avot mal dormi, peur de manquer l' train ;<lb/>mais heureus'mint tout le monde étot là à l'heure<lb/>convenue.</p>
+        <p><lb/>In route, dias l' compartimint, un momint<lb/>après l' départ, on déjeunot et Arthur mingeot<lb/>de bon appétit surtout qu' Michel li avot passé<lb/>eun' bonne tranche de m'lon, chin qu’i' aime<lb/>tant, i' frottot ses longues moustaches d' con-<lb/>tint'mint.<lb/></p>
+        <p><lb/>In arrivant à Dankerque, tous chés joyeux<lb/>chochons allèrent boir' quéqu's verres d' bière<lb/>ou d' vin blanc dins les tapis aux invirons d' la<lb/>Gare, puis on s' rendit à Malo. Tout l' monde<lb/>étot contint, Arthur étot d’eun' gaieté folle et<lb/>faijot rir' toute l' compagnie ; s' femme<lb/>Clémentine ne l'avot point vu d'puis longtemps<lb/>dins un état parel. Tout d’un cop v’là qu’Arthur<lb/>s' met à pâlir, i' tient sin vint' à deux mains :</p>
+        <p rend="labelled"><lb/>— Mère, qu'i' dit à s' femme, j'ai des coliques!</p>
+        <p rend="labelled"><lb/>— Va vite au Water, et n' fais point comme<lb/>à Paris.</p>
+        <p><lb/>Arthur étot d'jà parti que s' femme parlot<lb/>incore. Dich', vingt minutes s' passent, not<lb/>Arthur ne r'venot point, infin, on l' veyot s’ame-<lb/><lb/>ner tout duch'mint, les gambes écartées, mar-<lb/><lb/>chant difficil'mint.<lb/></p>
+        <p><lb/>In l'aperchevant Clémentine dijot:</p>
+        <p rend="labelled"><lb/>— Cha y est, ch'est l' même cop qu'à Paris,<lb/>i' a fait dins sin... pantalon. Marche pus vite<lb/>qu’elle li criot, qu'est ch' que t'as ?</p>
+        <p rend="labelled"><lb/>— Mère, i' a... i' a la queue, répondot Arthur.<lb/>— Quoi, la queue ?</p>
+        <p rend="labelled"><lb/>— Quais, la queue au cabinet d'aisances, et<lb/>j'ai point pu... attinte... min tour.</p>
+        <p rend="labelled"><lb/>— Cha ch'est trop fort, criot s' femme, t'as<lb/>fait comme à Paris, va à l'hôlel te r'canger...<lb/>puant l<lb/>Ch'est ch' que faijot l' pauv' Arthur, tout</p>
+        <p><lb/>penaud, car il étot l' risée d' tous ses chochons<lb/>et des gins témoins d' l'avinture.</p>
+        <p><lb/>Infin, l' journée s'est, malgré tout, bien pas-<lb/>sée, Arthur a été chiné, mais, l' gaieté n’a point<lb/>cessée jusqu'au r'tour, ch'est-à-dire dins l' soirée<lb/>du 14 Juillet.</p>
+        <p><lb/>Surtout, si vous rincontrez Clémentine, n'al¬<lb/>lez point li dire qu' Michel m'a raconté l'indis-</p>
+      </div>
+      <div type="article">
+        <head><lb/>Gramint d' bruit pour peu d' cosse</head>
+        <head><lb/>«I' n'y-a pointd' si bielle iau qu'ell' ne s'trouble»</head>
+        <p><lb/>V'là eune expression qu’on imploie assez<lb/>souvint in parlant d’un ménache, ù l' cat est<lb/><lb/>dins l horloche. Ell' n'est point fausse, j' l'admets,<lb/>car infin, quel est l’heureux mortel, qui après<lb/>avoir fait l' sacrifice de s' liberté in pernant eun»<lb/>femme, pourrot dir' sans s' vanter: « Mi, jamais<lb/><lb/>n'ai eu aucuen' discussion dins min ménache.»<lb/>Eh, ben, j' cros que ch'ti-là s'rot difficile à trou-<lb/>ver, cha s'rot l'ojeau rare.</p>
+        <p><lb/>l'faut si peu d' cosse, énon, pour que cha s<lb/>produiche. Pour un "oui”, pour un "non»<lb/><lb/>crac! cha y est, la guerre est déclarée, mais<lb/>heureus'mint, ell' ne dure jamais quatre ans.</p>
+        <p><lb/>Ainsi, sans voloir aller pus lon que l' dernier<lb/>dimanche d' la foire, j' passos sur l'Esplénate,<lb/>dins l'allée des faïences et émaillés, quand j'in-<lb/><lb/>tinds eun' dispute inter un marchand d'artiques<lb/>d' ménaches, et s' femme. Pourquoi? Tout sim¬<lb/>plemint de l' faut' d'un quien. Awi, i' parait qu'<lb/>cheull' femme avot, afin d' l'impêcher d' courir<lb/>la pertantaine, attaché ch'ti-chi avec eun’ quaine,<lb/>à eun' grande caisse vide qu’ell' se trouvot dins<lb/>l' fond d' l'établiss'mint.</p>
+        <p><lb/>N'étant point accoutumé d'ête inquainé d' la<lb/>sorte, ch' quien, aussi haut qu’un baudet, avot<lb/>qu'minché pa' faire tous ses efforts pou'<lb/>débarrasser d' cheull' quaine qui l' ret'not<lb/><lb/>prijonnier, mais n' povant y parvenir, et ayant<lb/>aperchu eun' quienu' qui s' pourmenot, i'<lb/>mettot in colère, et du cop, imployant tout's ses<lb/>forches, il intrainot, afin d' povoir suiv' cheull"<lb/>biête, l' caisse in question, in travers les tas d'’<lb/>brocs, d' siaux, marmites, etc... etc... rinversant<lb/>tout sur sin parçours, chin qui occasionnot un<lb/>tapache infernal.</p>
+        <p><lb/>Sa' chés intrefaites étot arrivé l' patron, qui,<lb/>in s’aperchevant de ch' déluge, et des dégâts<lb/>causés pa' sin quien, d'maindot des explications<lb/>à s' femme. Cheull'-chi avot raconté l'affaire<lb/>sin pus biau, comm' de juste, mais cha n’avot<lb/>point suffit à ch'l homme, et alors, les gros mots<lb/>qui s'écangeottent réciproqu’mint occasionnot<lb/>un tel rassimblemint, que l'circulation dins ch'<lb/>P'allée a été interrompue pindant pus d’eune<lb/>heure, et qu'il a fallu l'intervintion d' deux<lb/>agents pou' l' rétablir et faire cesser l' dispute.</p>
+        <p><lb/>In somme, on arot povu considé er cheull'<lb/>scène comme étant eune affair' des tas.<lb/>Quoich' que vous in pinsez P Passe-Partout<lb/>position de s'n' homme et ses conséquences ; ell'<lb/>ne s'rot point continte et ell' s'rot incore puque<lb/>in colère si ell' appernot, qu' de m' faute, tout's<lb/>les charmantes lectrices et les lecteurs de “ L'<lb/>Nouviell' Vaclette" connattront l’avinture odo-<lb/>rante d’Arthur.</p>
+        <p><lb/>A min tour, comme l' chochon Michel, je n'ai<lb/>point su t'nir m' langue et je m' sus impressé de<lb/>l' raconter à<lb/>L'Ami Calisse.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

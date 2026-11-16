@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Gau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81384135</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Gau : revisto mesadiero pèr li revendicacioun de la lengo prouvençalo à l'escolo, dins la cadiero e à la tribuno poupulàri : parèis lou 15 de chasque mes / secretàri dóu Gau D. Savié de Fourviero</title>
+          <publisher>[s.n.] (Tarascoun-sus-Rose)</publisher>
+          <date when="1900-07-10">1900</date>
+          <idno type="ARK">bpt6k81384135</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81384135</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>QUATKENCO ANNADO</fw>
+        <dateline><lb/>10 de JULIET 1900</dateline>
+        <fw type="numbering">No 46</fw>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>CANTAIRE DI REVENDICACIOUL PROUVENÇALO</p>
+        <ab><milestone unit="column" n="2"/><lb/>a l'Escolo, dino la Cadiero e à la Tribuno poupulàri</ab>
+        <figure type="decoration"/>
+        <ab><lb/>D. SAVIE DE FOURVIERO</ab>
+        <ab><milestone unit="column" n="3"/><lb/>L BAILE DOU GAU:<lb/>MESIE EISSEIO — REINIÉ MOCNTROT<lb/>D. SAVIE DE FOCRVIERO</ab>
+        <ab><lb/>badie de Bos-Liò</ab>
+        <p rend="heading"><lb/>AMENISTRACIOUN:</p>
+        <ab><lb/>PARÈIS LOU 15 DE CHASQUE MES</ab>
+        <ab><lb/>ABOLNAMEN: 3 FRANC PER AN</ab>
+        <p rend="styled"><lb/>Marsaco en Déufiaat.</p>
+        <p rend="heading"><lb/>TAULETO</p>
+        <p rend="structured"><lb/>Lou Prouvençau à l'Escolo. — A pas ſa si classo, LOU RABAAIRE.<lb/>— La Granouieto blanco (conte pèr lis enfant), Antòni BEarÉ.<lb/>— Councours di Capelan, l'abat L. ESPARIAr. — La Joio dóu<lb/>Panegiri. — Councours di Patrioto, CHAPÒL Boun GUlLISERT. —<lb/>Crounico. — Fuietoun : L'Evangèli segound Sant Matiéu,<lb/>D. SAVIE DE FOURVIERO.</p>
+      </div>
+      <div type="article">
+        <head><lb/>ASSABÉ</head>
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>Lou 31 d'aquest mes, dounaren à nòsti legèire<lb/>un bèu numerò ilustra.</p>
+        <p rend="styled"><lb/>Aqueu meme jour, se tendran, en vilo de Marsiho,<lb/>li Do Flourau de la Predicacioun prouvençalo, dins<lb/>la salo d'ounour dou Pichot Semenari, à 9 ouro 1/2<lb/>dóu matin.</p>
+        <p rend="styled"><lb/>L'acampado di Semenaristo prouvençau se ten-<lb/>dra lou meme jour e au meme endré.</p>
+        <p><lb/>Veire pu liuen li noum di vincèire.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Prouvençau à l’Escolo</head>
+        <figure/>
+        <p><lb/>VEN parla dins un de nòsti darrié numerò<lb/>de la recouneissènço óuficialo dóu<lb/>prouvençau, coumo lengo, dins lis eisa-<lb/>men de licènci is universita d'Ais e Marsiho.</p>
+        <p><lb/>Li prouvençalisant dóu Gau saran segur bèn<lb/>aise de counèisse dous doucumen que nous porge<lb/>lou Felibrige : es uno letro de l'Unioun Catala-<lb/>nisto adreissado à F. Mistrau, e la responso<lb/>d’aqueste i patrioto de l’autre las di Pirenèu.</p>
+        <p><lb/>Vès-leis-eici tóuti dos:</p>
+        <ab type="head"><lb/>Unioun Catalanisto – Coumessioun Permanènto</ab>
+        <p><lb/>La Coumessioun Permanènto de l'Unioun Catalanisto<lb/>a l’ounour de vous traire couralamen si felicitacioun per<lb/>la vitòri que vèn de gagna la bello lengo de Prouvènço,<fw type="digitisation-artefact"><lb/>ource gallica.bnf.fr / Bibliothèque nationale de France</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

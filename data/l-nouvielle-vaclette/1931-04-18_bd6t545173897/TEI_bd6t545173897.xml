@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Nouvielle Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t545173897</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Nouvielle Vaclette : journal patoisant humoristique, non politique / avec la collaboration du Caveau lillois</title>
+          <publisher>[s. n.] (Lille)</publisher>
+          <date when="1931-04-18">1931</date>
+          <idno type="ARK">bd6t545173897</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t545173897</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>8' ANNÉE. — No 320</fw>
+        <fw type="runningTitle"><lb/>L'abonnement se paie d’Avance</fw>
+        <dateline><lb/>0.25 LE NUMÉRO</dateline>
+        <dateline><lb/>Samedi 18 Avril 1931.</dateline>
+        <ab><milestone unit="column" n="2"/><lb/>ABONNEMENT<lb/>REDACTION<lb/>Siège: 1, Rue de la Monnaie<lb/></ab>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>AVEC LA COLLABORATiON DU</p>
+        <ab><lb/>R. du C. Lille 48.610</ab>
+        <ab><lb/>Chéques Postaux 37.182</ab>
+        <ab><milestone unit="column" n="3"/><lb/>France un am, 18.50</ab>
+        <ab><lb/>69, Rue Saint-Sauveur</ab>
+        <p rend="heading"><lb/>Amateurs de Canchons Patoises</p>
+        <ab><lb/>Vous trouv'rez dins ch' liméro:<lb/>A VOT SERVICE<lb/>Chanson d'Arsène WARNIER - Air: Musique de Chambre<lb/>ON A DU MA' D' S'Y METTE<lb/>Chanson d'I. MARÉELS<lb/>Air : Dans mon verre</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Demain Dimanche 19 Avril</head>
+        <p><lb/>A 3 heures, l' Société d' Secours Mutuels des<lb/>Anciens Sous-Officiers d' Lille donn'ra un<lb/>Concert de Famille au Théâte Sébastopol.</p>
+        <p rend="styled"><lb/>Au Programme on lit les noms de:</p>
+        <lg>
+          <l><lb/>Les Canchonniers Patoisants : G. Léonard</l>
+          <l><lb/>F. Dupont, F. Dessève.</l>
+        </lg>
+        <list>
+          <item>M. A. Accollet, professeur de chant.</item>
+        </list>
+        <list>
+          <item>M R. Clesse, ténor.</item>
+        </list>
+        <list>
+          <item>Mme Nozeloff, cantatrice.</item>
+        </list>
+        <list>
+          <item>M. Nozeloff, ténor.</item>
+        </list>
+        <list>
+          <item>Mne G. d'Avril, cantatrice.</item>
+        </list>
+        <p><lb/>L'Association Artistique de Paris interprét'ra:<lb/>Les Sabots de la Marquise, opéra-comique<lb/>an un acte de J. Barbier et Carré, musique de<lb/>E. Boulanger.</p>
+        <p><lb/>Avé l' concours de Mmes G. François,<lb/>G. Léonard et Mlle M. Herreng, l' Caveau Lillois<lb/>interprét'ra Malice d' Femme, l acte d' fou-<lb/>sire de G. François.</p>
+        <p><lb/>L' piano sera t'nu par M. Jules Dupriez, Pro¬<lb/>desseur de Piano au Conservatoire de Lille.</p>
+        <p><lb/>Prix des places : Fauteuils d'Orchestre, Bal-<lb/>cons de face et Loges 6 francs; Balcons de côté,<lb/>ere série et Parquets 5 fr.; Balcons de côté 2<lb/>série et Parterres 4 frs; Secondes 3 fr. ; Troi-<lb/>sièmes 2 fr. l' est incor' temps de s' procurer<lb/>des cachets numérotés (sans augmintation d’<lb/>prix) au Café Ghesquiers, 11, Place Sébastopol.</p>
+        <p><lb/>L' modicité des prix pour un tel programme<lb/>fit<lb/>présager un succès pour cheull' fiête d'<lb/>tamille.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Les p'tils cadeaux intretienn'nt l'amilié.</ab>
+        <ab type="head"><lb/>FABLE-EXPRESS</ab>
+        <p><lb/>Pour un ouais, pour un non, la guerre est au ména-<lb/>D' donner des "gnons " à s'femm', l'homm' n'a<lb/>[che,<lb/>jamais r'vettié,<lb/>(art, car d'in r'chevoir, ell'simble fin bénache</p>
+        <ab type="head"><lb/>MORALITÉ</ab>
+        <ab><lb/>I. MARÉELA</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Un R'mède pir' que l' Ma'</head>
+        <p rend="labelled"><lb/>« Queu' malheur d'avoir eune gross' femme »<lb/>a canté not' regretté Henri Tanche et s’il in est<lb/>un pour li donner raison ch’est bien Binjamin<lb/>Vandequeudfi un cordonnier d' Wazemmes.</p>
+        <p><lb/>Figurez-vous qu' Binjamin à l' bonheur (ou l'<lb/>malheur, cha dépind des gouts) d’ete marié<lb/>avec eun' femme qui pése inviron deux chints<lb/>six lifes. Et dont l' tour de talle a des rapproch'-<lb/>mints avé l' Noble-Tour.</p>
+        <p><lb/>Comme les premièr's caleurs s' faijott'nt sintir,<lb/>l' semain' passée, Rosa, (ch’est sin nom) éprou-<lb/>vot d'jà des difficultés dins s' marche.</p>
+        <p><lb/>Nom de zo, Binz’min, qu’ell' dijot à s’n<lb/>homme, z' la de mal, savez-vous. Z' la de çauff'-<lb/>mint à min cuisse tous les deux, je peux pus mi<lb/>marcer sans faire de aïe... aïe... tell'mint ça<lb/>piquait, sais tu.</p>
+        <p rend="labelled"><lb/>Z' la peux pas, mi, Rosa; t' l'avais qu'a pas<lb/>êt' si grasse. Si vous te l’as pas si bel, te vas<lb/>peut-êt' sur’mint maigrir un fois, pot d' fer blanc.</p>
+        <p rend="labelled"><lb/>— Quoi quoi, z' l'a bel ! Et vous qu' te l'es<lb/>toujours assis sur le derrièr' de vot' l'individu,<lb/>te l'as pas bel, vous?<lb/></p>
+        <p rend="labelled"><lb/>— Mais moi, je le suis pas grasse comme un<lb/>pourceau que te voir dans de concours Hippique<lb/>de l' Foire au coçons. Savez-vous.</p>
+        <p rend="labelled"><lb/>— Coçon vous même, eh ! smerlapp! Si te l'es<lb/>pas grasse, c’est que vous boir' trop de l'zénéfe,<lb/>nom de zo!</p>
+        <p rend="labelled"><lb/>Bh! ben, boir' de zénéfe aussi, vous, et te<lb/>seras pus grasse, et laiss' mi van tranquille.</p>
+        <p rend="labelled"><lb/>— Vous dir' pas ça, va, Binz'min, si te savais<lb/>que mi z' la du mal. Allez zusqu'à l' marçé d'<lb/>Wazemmes et te vas aceter à mi de poudre pour<lb/>que z' le soulaze.</p>
+        <p rend="labelled"><lb/>— Binjamin, qui aim' bien s' Rosa, s’in va<lb/>jusqu’au marqué et, après eun' visite aux bro-<lb/>canteurs, va quer eun demie life de talc à un<lb/>droguisse.</p>
+        <p><lb/>Rosa est bien heureusse et, pou' n' point<lb/>l'oblier ch' soir, va mette l' paquet dins s' table<lb/>de nuit.</p>
+        <p><lb/>L' journée s' passe tranquill'mint, puis, l'<lb/>fraicheur du soir apporte un peu d' soulag'mint<lb/>au ma' d' Rosa puis Binjamin et Rosa vont s'<lb/>coucher.</p>
+        <p><lb/>A pein' si l' leumière est éteinte que Rosa s'<lb/>rappelle qu'ell' n'a point imployé l' remède ap-<lb/>porté pa’ s' homme.</p>
+        <p><lb/>Binz'min, qu'ell' dit, te l'es tout prêt du table,<lb/>de nuit, avançez min paquet de poudre que<lb/>te l'as rapporté, z'l'a blié de mi mette.</p>
+        <p rend="labelled"><lb/>— Te bliais toujours un quequ' çosse nom de<lb/>zo, tiens, v'là vot' paquet, et laiss' dormir mi.</p>
+        <p><lb/>Rosa fait l' nécessaire et, pou' n' pus déringer<lb/>s'n homme elle r'met l' paquet sur eun' cayère à<lb/>coté d'elle.</p>
+        <p><lb/>Eune heure après, ell' n'avot point incor'<lb/>dormi et n'povot pus t'nir tell'mint qu'elle avot<lb/>du ma'.</p>
+      </div>
+      <div type="article">
+        <p><lb/>Infin, ell' se décide d' réveiller s'n homme:<lb/></p>
+        <p rend="labelled"><lb/>— Binz'min! Binz'min! Z' la du mal savez-<lb/><lb/>vous; Ze peux pas mi dors tell'mint z'la du mal.</p>
+        <p rend="labelled"><lb/>- Ah pot d' fer blanc, te vas pas laisser<lb/>dormir mil Te imbêt's, nom de zo, avec vot'<lb/>cauf mint. Qu’est-c’ que te vous veut?</p>
+        <p><lb/>Allumez-le lumière. Binz'min et rehardez un<lb/>peu, z'la bien sur de corçures.</p>
+        <p rend="labelled"><lb/>— Aie Aïe Aïe que vous te l'es bètante Rosa !<lb/>bertonne Binjamin tout in s' levant.</p>
+        <p><lb/>Il alleume l' lampe et r'vette chin qui' n'y a<lb/>que s' femme souffre tant.</p>
+        <p rend="labelled"><lb/>— Nom de zo, de Pot d' fer blanc! qu'i' s'écrie<lb/>tout d’un cop. Qu’est-c' que vous l’avais là,<lb/>moudre! Vous te l'es tout verte, comm' de<lb/><lb/>d' çoux, nom de Zo ! Qu’est c’ que c’était ça?</p>
+        <p rend="labelled"><lb/>— Je suis ête tout' verte, s'écrie Rosa tout<lb/>saisie, c’est peut ête bien sur de rougeole!</p>
+        <p rend="labelled"><lb/>— Mais non, pot d' fer blanc, c’est pas de<lb/>rougeole c’est comm' de vert de gris. Min pauf<lb/>Rosa, tin zampe tous les deux, i’s moisissent,<lb/>savez-vous.</p>
+        <p rend="labelled"><lb/>Mon Dieu! Mon Dieu! que ze suis mi<lb/>zolée ! Aie aïe aïe c’est peut-ête ton poudre que<lb/>vous te l'as rapportée qu'il avait fait ça à mi.</p>
+        <p rend="labelled"><lb/>— Ça non, nom de zo, c’est de poudre blanc,<lb/>c'est pas vert de talc ; ousqu'il est vot' paquet ?</p>
+        <p rend="labelled"><lb/>— Là, sur le çaise, tiens, prendez; al̈e ale<lb/>aïe... que ça mi pique!</p>
+        <p><lb/>Binjamin prind l' paquet, l'ouvre, et l'examine<lb/>à l'leumière et pousse eune exclamation.</p>
+        <p rend="labelled"><lb/>— Qu’est c’ que c’était ça, nom de Zo!</p>
+        <p rend="labelled"><lb/>— Qu'est c' que ce poudre, c'était tout' vertel<lb/>Acque, ça sentait drôle ! Qu’est c' que c'était,<lb/>pour un fois<lb/>Ch'étot... ch'étot que l' garchon d' magasin du</p>
+        <p><lb/>droguisse s'étot trompé in servant Binjamin et<lb/>li avot servi de l' poudre à punaches pour du<lb/>talc, et Rosa, s’in servant dans l'obscurité, n’y<lb/>avot vu qu’ du bleu.</p>
+        <p><lb/>Ch' paufe Binjamin a du alleumer l' fu,<lb/>cauffer de l'iau pour laver s' pauf' Rosa qui,<lb/>lind'main, à été quer du talc ell' mêm' pou'<lb/>n' pus ête attrapé.</p>
+        <p><lb/>A ch' t'heure, quand Binjamin chine s' femme<lb/>i' li dit: Ehoute, moudre, pour une Rosa, te<lb/>l'avais l'air d’un pomm' pas mûre, savez-vous!</p>
+        <ab><lb/>Racusette</ab>
+        <p rend="heading"><lb/>CAVEAU LILLOIS</p>
+        <p><lb/>Dimanche 26 Avril. — à 3 heures pré¬<lb/>cises — Matinée Récréative Patoisantea<lb/>l'Hospice Gantois, Rue de Paris.</p>
+        <p><lb/>On y juera eun' pièch' du répertoire.</p>
+        <p><lb/>Présence indispensable de tous les Sociétaires.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81360773</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1893-09-17">1893</date>
+          <idno type="ARK">bpt6k81360773</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81360773</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>TRESENCO ANNADO,</fw>
+        <ab><milestone unit="column" n="3"/><lb/>DIMENCHE 17 DE SETLMOA 1003</ab>
+        <lg>
+          <l><lb/>Nautri, li bon Prouvençau,</l>
+          <l><lb/>Au sufrage universau,</l>
+          <l><lb/>Voutaren pèr l'oli</l>
+          <l><lb/>E faren l'aidli.</l>
+        </lg>
+        <ab><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.<lb/>(Prouverbt de metnoure</ab>
+        <ab><milestone unit="column" n="1"/><lb/>F. MISTRAL</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17, 27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI,<lb/>au palals deu Noure,<lb/>EN AVIGNOUN</ab>
+        <figure type="table"/>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN</p>
+        <p rend="heading"><lb/>Baile dou journan:<lb/>FOLCO DE BARONCELLI<lb/>naitre une profonde émotion dans l'âme de celui<lb/>qui l'entend pour la première fois, et il produit<lb/>un effet terrible quand les esprits sont excités. II<lb/>électrise, remue, arme comme la Marseillaise ou<lb/>comme certains hymnés écossais...»</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Veici la traducioun de L'AUBRE DE GUERNICA,<lb/>escri en lengo escuara:</p>
+        <lg>
+          <l><lb/>Lou roure de Guernico</l>
+          <l><lb/>Es noste aubre sacra;</l>
+          <l><lb/>Au cor dou pais basco</l>
+          <l><lb/>Es Diéu que l'a tanca.</l>
+          <l><lb/>Aubre de la patrio,</l>
+          <l><lb/>Di fiéu siés adoura;</l>
+          <l><lb/>Estènde liuen ti branco,</l>
+          <l><lb/>Ti fru de liberta.</l>
+        </lg>
+        <lg>
+          <l><lb/>Quau saup quant l'a d'annado</l>
+          <l><lb/>Que siés aqui planta,</l>
+          <l><lb/>O roure de Guernico,</l>
+          <l><lb/>Beu roure enmountagna !.</l>
+          <l><lb/>Ten-te ferme, bon aubre,</l>
+          <l><lb/>E vagues pas toumba,</l>
+          <l><lb/>Qu'emé tu la patrio,</l>
+          <l><lb/>Se toumbes, perira.</l>
+        </lg>
+        <lg>
+          <l><lb/>Mai d'aro ni d'encaro,</l>
+          <l><lb/>Vièi aubre, toumbaras!</l>
+          <l><lb/>La Juncho de Biscaio</l>
+          <l><lb/>Noun dor ni calo pas.</l>
+          <l><lb/>Per defèndre ta cepo</l>
+          <l><lb/>E dóu pais la pas,</l>
+          <l><lb/>La gènt dóu pais basco</l>
+          <l><lb/>An de cor e de bras.</l>
+        </lg>
+        <lg>
+          <l><lb/>D'ageinouioun, o fraire,</l>
+          <l><lb/>Preguen Noste-Segnour</l>
+          <l><lb/>Que siegue de noste aubre</l>
+          <l><lb/>Toustèms lou prouteitour!</l>
+          <l><lb/>Fraire, preguen-lou tóuti,</l>
+          <l><lb/>Nous sarrant à l'entour,</l>
+          <l><lb/>E de lou vèire caire</l>
+          <l><lb/>N'auren pas la doulour!</l>
+        </lg>
+        <lg>
+          <l><lb/>Que vogon lou destruire,</l>
+          <l><lb/>Ah ! n'es que trop segur...</l>
+          <l><lb/>Mai dins la terro basco</l>
+          <l><lb/>Lou soufrira degun:</l>
+          <l><lb/>Per te servi de barri</l>
+          <l><lb/>Auras noste piés nus;</l>
+          <l><lb/>Voulèn viéure à toun oumbro</l>
+          <l><lb/>O mouri emé tu.</l>
+        </lg>
+        <lg>
+          <l><lb/>Aubre sènso magagno,</l>
+          <l><lb/>Vièi gigant desana,</l>
+          <l><lb/>De fueio sèmpre verdo</l>
+          <l><lb/>De-longo ensesona,</l>
+          <l><lb/>Pietadous de toun pople</l>
+          <l><lb/>Que viéu despoudera,</l>
+          <l><lb/>Alargo-ié, beu roure,</l>
+          <l><lb/>Toun fru de liberta.</l>
+        </lg>
+      </div>
+      <div type="article">
+        <head><lb/>L'AUBRE DE GUERNICA</head>
+        <p><lb/> prouvinço Basco d'Espagno an sachu<lb/>counserva, en partido dóu-mens, despièi<lb/>un tèms inmemouriau, si liberta prouvincialo<lb/>couneigudo eilalin souto lou noum de for<lb/>(fueros en castihan), e chasco fes que sènton<lb/>o veson menaça pèr lou poudé centrau si pri-<lb/>vilège antique, li Basco cregnon pas de faire<lb/>ardentamen bàrri de car pèr li defèndre. Es ço<lb/>qu’es arriba, lou 27 dóu mes passa, en vilo de<lb/>Sant-Sebastian, à la barbo de Sagasta, Presi-<lb/>dènt dou Counsèu di menistre espagnòu.</p>
+        <p><lb/>A-n-un councert que dounavo la gardo<lb/>municipalo, lou publi aguènt demanda que se<lb/>jouguèsse un pau lou Guernica-ko-arbola (Au-<lb/>bre de Guernica) qu'es lou cant naciounau de<lb/>la patrio basco, e s'estènt refusa de ié baia<lb/>satisfacioun, lou pople anè canta L'Aubre de<lb/>Guernica e crida: Vivo li for! davans l'hotel<lb/>dou Presidènt, d'ounte pièi fusihado e mani-<lb/>festacioun sanglènto qu'an dura tres jour de<lb/>tèms.<lb/></p>
+        <p><lb/>L'Ajuntament eli noutable demandèron alor<lb/>au Gouvernour que retirèsse si troupo di car-<lb/>riero e qu'éli respoundien de l'ordre. De mai<lb/>se i'acourdè que la musico de la vilo jougarié<lb/>lou cant naciounau.</p>
+        <p><lb/>Ço que fuguè. Au vèspre dóu jour 30 d'a-<lb/>voust, la Musico Municipalo, en presènci dóu<lb/>pople acampa sus lou Cous, jouguè l'Aubre de<lb/>Guernica, e tóuti, lou su descubert, e trefouli<lb/>d'entousiasme, entounèron en Cor inmènse e<lb/>unanime l'inne de la patrio.</p>
+        <p><lb/>Aquelo magnifico proutestacioun d'un pople<lb/>fièr fara, acò 's de crèire, reflechi M. Sagasta<lb/><lb/>que, pèr entèndre dire, a proun marridis en-<lb/>tencioun au regard dis anciàni franqueso di<lb/>prouvinço.</p>
+        <p><lb/>Aro, dequ'es acò «l'Aubre de Guernica?»<lb/>Es un vièi roure que s'atrovo dins l'endré de<lb/>Guernica, un aubre venera de tout lou pople<lb/>basco, qu'à soun oumbro autre-tèms li ma-<lb/>jourau de la nacioun se i'acampavon chasco<lb/>annado pèr discuti lis interès e lis afaire dou</p>
+        <p><lb/>Lou famous patrioto basco Iparraguirre, es<lb/>éu que coumpausè un inne aqui-dessus e<lb/>aquel inne, qu'en Espagno passo pèr sedicious,<lb/>es lou cant e lou crid di liberta dou pais Basco.<lb/></p>
+        <p rend="labelled"><lb/>« Au point de vue musical et litteraire, dis<lb/>Madamo de Rute, le Guernica-ko-arbola est un<lb/>des plus beaux chants qui puissent jaillir de<lb/>l'âme d'un peuple. Chanté dans les romérages<lb/>basques, classique dans les fétes, au théâtre,<lb/><lb/>comme le chantait l'inoubliable Gayarre, il fait</p>
+      </div>
+      <div type="article">
+        <head><lb/>LA FIERO DE SANT-GILE</head>
+        <head><lb/>A Manus Giano.</head>
+        <p><lb/>S'atrouvarié de tout segur cent cop pulèu un merle<lb/>planc o ben encaro miés un ase de Camargo emé de ferre<lb/>i quatre bato qu'un prouvençau o un lengadoucian que<lb/>noun ame à descrestiana la pichoto patrio dins la<lb/><lb/>grando.</p>
+        <p><lb/>Aqui-dessus sabèn tóuti dequé n'es, dôu margoulin au<lb/>gros catau. Tambén, ieu, coume tant d'autre, derraba<lb/>au sou nadau pèr li trop crudélis eisigènci de la vido, coume<lb/>la flour tremoulanto sus sa cambo loungarudo, qu'uno<lb/>man implo davero per l'empourta souto un ceu estrange,<lb/>ounte, languissento, se passis, penjo l'alo e plei se laisso<lb/>mouri, pecaire! — pensatiéu, languisse, lagremeje sou-<lb/>venti-fes à la meliconso remembranço d'aqueli tant bén<lb/>jour que noun saran plus jamai e n'ai lou cor destran-</p>
+        <figure type="decoration"/>
+        <p><lb/>ven de passa lou proumié de Setèmbre </p>
+        <p><lb/>Dequ' aquelo bello dato dereviho pas dins lou cor de<lb/>tout bon Sant-Gilen ! Es la fiero de Sant-Gile, lou pais<lb/>dóu bon vin di coustiero ensoulelado, religa á la Prou¬<lb/>vènço per sa doublo óurigino grèco.</p>
+        <lg>
+          <l><lb/>Nîmes lou marchand,</l>
+          <l><lb/>Arte lou blanc,</l>
+          <l><lb/>Sant-Gile lou grand!</l>
+        </lg>
+        <p><lb/>Pensatiéu e soulet, me permenave sus l'auturo ounte<lb/>fuguè lou castèu di famous comte Ramoun; em' aco,<lb/>uno à uno, mi pensado me fasien revieure lou heu tems<lb/>passa e li lagremo mountavon à mis lue nebla, quand<lb/>subran lou soulèu espeliguè de pèr darrié ll mountagneto<lb/>dentelado di Baus, tremoulanto dins la pousso d'or.</p>
+        <p><lb/>Pau à pau li clouquié daura d'Arle trignoulejéron ellalin<lb/>dins la plano sénso fin, em' aquéli de Tarascoun, d'Avi-<lb/>gnoun, Fourco, Font-Vièlo, Trenco-Taio, Bello-Gardo e<lb/>Bèu-Caire. Lou riban dóu Rose e li grand clar dis estang<lb/>e di palun esbrihandéron mai que de mirau d'argent; e<lb/>dins l'aire lougié tout-d'un-cop ausiguère restounti coume<lb/>cavalo bianquinelloe arderouso dou slabrunne </p>
+        <lg>
+          <l><lb/>Vai l'aubre de Guernico:</l>
+          <l><lb/>« Guèiro! » nous a crida,</l>
+          <l><lb/> Pregas Diéu que me garde,</l>
+          <l><lb/>Que siéu amenaça.</l>
+          <l><lb/>Noun, voulèn pas la guerro,</l>
+          <l><lb/>En pas voulèn ista...</l>
+          <l><lb/>Mai nosti lei antico</l>
+          <l><lb/>Nautri voulen sauva.</l>
+        </lg>
+        <lg>
+          <l><lb/>Preguen Diéu que nous doune</l>
+          <l><lb/>La pas que nous sufis ;</l>
+          <l><lb/>Que laubre sant noun vèngue</l>
+          <l><lb/>Ni se ni malautis;</l>
+          <l><lb/>Que soun brancun escampe,</l>
+          <l><lb/>Mauno de paradis,</l>
+          <l><lb/>La liberta sus nautre,</l>
+          <l><lb/>La fe sus lou pais.</l>
+        </lg>
+        <ab><lb/>MESTE FRANC.</ab>
+        <ab><lb/>oa/B̀ue </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Camel</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t53679512p</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Camel : risoulhé artistiqué ["puis" risoulié artistic]</title>
+          <publisher>[s.n.] (Besiès)</publisher>
+          <date when="1905-07-30">1905</date>
+          <idno type="ARK">bd6t53679512p</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t53679512p</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Segoundo Annado — No 30</fw>
+        <fw type="runningTitle"><lb/>Costo dous soùs</fw>
+        <dateline><lb/>30 Julhet 1905</dateline>
+        <ab>
+          <stamp><lb/>C.I.D..<lb/>BEZIER</stamp>
+        </ab>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>AMEL<lb/></p>
+        <p rend="heading"><lb/>Redactous en chef : Emlle BARTHE &amp; René D'OC</p>
+        <ab><milestone unit="column" n="2"/><lb/>Abounomen : cinquanto sous per an<lb/>Announços: de grat a grat</ab>
+        <p rend="heading"><lb/>Redaciù e Administraciù<lb/>BESIÈS — PLAÇO DE LA REPUBLIQUO — BESIÈS</p>
+        <p rend="styled"><lb/>Adressa toutos las letros e mandats à l'Administratou: Plaço de la Republiquo</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <ab type="head"><lb/>Letros doubertos</ab>
+        <ab type="head"><lb/>A moun nebout JOUSÉPOU</ab>
+        <ab type="head"><lb/>ESTUDIANT A PARIS</ab>
+        <ab type="head"><lb/>Nouvièmo letro</ab>
+        <ab type="head"><lb/>Car nebout,</ab>
+        <p><lb/>Anam coumença bèi las charradis-<lb/>sos sus la segoundo partido de nostro<lb/>letraduro valent-à-dire sus las obros<lb/>bezieirencos espelidos del XIIIe al XIXe<lb/>siècle.</p>
+        <p><lb/>De fèt te caldrio pas creire, qu'après<lb/>lous troubabours, après aquelo epoco<lb/>trelusento ounte lou Mièjour sioguèt<lb/>per l'Uropo de l'Age-Mejan, la terro<lb/>classico de la pouesio, nostro lengo<lb/>paradisenco s’atudèsso jusquos à dispa-<lb/>reisse.</p>
+        <p><lb/>N'avio avut uno rudo souncido mès<lb/>èro trop riplado dins l'amo del pople<lb/>per qu’aqueste la laissèsso mata.</p>
+        <p><lb/>D'unes ou dich e repetat pla souvent<lb/>que la tarrible Crouzado des Albigeses,<lb/>aquelo famouso entrepreso poulitico e<lb/>religiuso l'avio estoufada ambé nostro<lb/>civilisaciu. Dins un sens, aco’s uno pi-<lb/>choto errou.</p>
+        <p><lb/>N'es que de rasclado que la Crouzado<lb/>pourtèt cop à nostre letraduro d’oc.<lb/>Sioguèt be per elo, pardiu, uno marrido<lb/>secousso, mès nostre lengodoucian avio<lb/>perdut tout espèr de vido lou jour ounte<lb/>lous Francimans pourtèro sa lengo jus-<lb/>quos à las Pirenèos e à la Mièterrano.<lb/>La parladuro del pichot noumbre debio<lb/>fourçadomen s'ajouca davans la parla-<lb/>duro del pu grand. E, ço que nous hou<lb/>probo : es que lou Limousi, demourat<lb/>à l’abric del carnage que treboulèt tant<lb/>pregoundomen nostre Lengadoc, coun¬<lb/>servèt pas la séuno mai de tems.</p>
+        <p><lb/>Ai - las! l'abandou qu’Amaury de<lb/>Mountfort faguèt de sous dreches al rei<lb/>de Franço lou restablissiment de Ra-<lb/>mound VII, toutes lous ensajs que sio-<lb/>guèrou faches pus tard per restaura<lb/>nostro letraduro li dounèrou pas un<lb/>briu de forço.</p>
+        <p><lb/>Mès lou lengodoucian, lou bezieirenc,<lb/>èro demourat, malgrat tout, la lengo<lb/>poupulario. Servissio toujours coumo<lb/>aperavans, per la vido de cado jour;<lb/>joust la formo de som-soms, de sourne-<lb/>tos (ourdinàrios ou en proso ritmado) (1)<lb/>de prouvèrbis (sus l’ome, sus las fem¬<lb/>nos, sul tems, sus l'agriculturo....);<lb/>joust la formo de canticos, de nadals,<lb/>e de que savi mai. Parlat per las gens<lb/>de touto classo, dins lous oustals e per<lb/>las carrieiros, èro toujours emplegat<lb/>per la cridos publicos, las deliberacius<lb/>des cossouls, las inscripcius de touto me-<lb/>no, las epitafos, lous sermous, las pèços<lb/>de teatre, etc.</p>
+        <p><lb/>Privat de l'ajudo des segnous e de<lb/>las castelhanos, lou lengodoucian pou¬<lb/>dio pas mourri, amai mouriguèt pas.</p>
+        <p><lb/>Me serio facille de t'ou prouba en te<lb/>dounant aiçi lou nom e las obros de<lb/>doso-sèt troubairos que Moussu lou<lb/>Doutou Noulet, de l’Academio de scien¬<lb/>cos e bellos-letros de Toulouso a estu-<lb/>diat dins soun libre: Recherches sur l'é-<lb/>tat des Lettres romanes dans le Midi de<lb/>la France au XIVe siècle e que lou dar¬<lb/>niè Pèire Durand de Limoux èro estat<lb/>courounat de las Joyos del Gay-sabé en<lb/>1373; mès aco m'escartario trop de<lb/>Beziès.</p>
+        <p><lb/>Te dirai dounc, simplomen qu’aque-<lb/>les troubaire, fargavou encoro de pou¬<lb/>lidos trobos am la lengo e las règlos<lb/>poueticos des troubadous.</p>
+        <p><lb/>Nostre vilo deguèt aveire lous séus,<lb/>mès sas obros se sou perdudos.</p>
+        <p><lb/>E lous prumiès escrivans que cou-<lb/>nousquem es quauques prousatous del<lb/>XVIe siècle: l’escudiè Mascaro, auton<lb/>d'un Libre de Memorias, Mercier e Regis,<lb/>autous d'uno Crounico que s'arresto al<lb/>coumençament del XVIIe siècle.</p>
+        <p><lb/>Lou libre de Memorias de Mascaro<lb/>sioguèt descouvert pel general Henri<lb/>que l'age e las blassaduros aviou escar-<lb/>tat de la vido des camps, ount s'èro illus-<lb/>trat, e que fourfoulhejavo nostros archi¬<lb/>vos ambé la pacienço d'un mounge per</p>
+        <p rend="labelled"><lb/>(1) talo que La sournigueto que se coupèt la cam-<lb/>beto en anant à sérusalem.<lb/>deschifra las vielhos crounicos e las an-<lb/>ticos ourdounanços.</p>
+        <p><lb/>Coumenço lou7 d'abrial de 1247, jour<lb/>famous de l'abdicaciu de Ramoun Tren¬<lb/>cavel, darniè viscomte de Beziès. T’en<lb/>dounarai pas tout lou detal, amai siè-<lb/>gue fort intéressant mès te dirai, car<lb/>nebout, que se lous autous saberuts de<lb/>l'Ilistoire du Languedoc l'aviou counes-<lb/>cut auriou pas coumés tant d’errous ni<lb/>delembrat tant de « fags » dins soun<lb/>oubrage presat. L'istourian loucal i<lb/>atrovo un fum de ransegnomens sus las<lb/>coustumos civilos, pouliticos e moura¬<lb/>los de nostres rèires. Per echemple:<lb/>Nou noum des consous bezieirencs de<lb/>1336 à 1382 (la vilo n’avio set) de 1383<lb/>à 1390 (la vilo n'avio aladounc res que<lb/>cinq) de 1450 à 1573 (lou noumbre èro<lb/>toumbat à 4 despei 1390 per ourdou¬<lb/>nanço de Carles VI aplicablo à cado<lb/>vil0) (2).</p>
+        <p><lb/>Al coustat d’aquelo courdelado de<lb/>consous representant las diferentos<lb/>classos de gens: mesies (3), borzes (4) avo-<lb/>cats... on legis dins lou Libre de Memo-<lb/>rias touto meno de racontes que per-<lb/>tocou nostre istorio municipalo.</p>
+        <p><lb/>On i vei, per echemple que lou 8 se-<lb/>tembre de 1381 la coumuno sioguèt<lb/>preso per la poupulaço de-sé que lous<lb/>consous i èrou acampats; qu’aquestes<lb/>serquèrou à se sauva dins la tourre,<lb/>ount lous revoultats metèrou fioc; que<lb/>lous uns sioguèrou cremats; que lous<lb/>autres, ajent sautat per las fenestros<lb/>s'espoutiguèrou sus pavats de la plaço.</p>
+        <p><lb/>On i aprend que lou 14 d’agoust de<lb/>1533 lou rei (5), la reino, sous efants,<lb/>sas filhos e sa seguido se . desparti-<lb/>guèrou. de Beziès per ana dinna à<lb/>Mountblanc e coucha à Pezenas; en tout,<lb/>uno colo de « fags » mai ou mens inte-<lb/>ressants qu’es ni la plaço ni lou mou-<lb/>men de te delata.</p>
+        <p><lb/>Aco’s escrich sens intenciu d'art, en</p>
+        <p rend="labelled"><lb/>(2) Aquelo annado, al loc de lous nouma la velho<lb/>de Sant Andriu, coumo n'èro l'usage, lous quatre<lb/>consous sioguèrou «instituats » lou 12 del mes de<lb/>janviè por tres delegats del roi embé lou cousentimen<lb/>del counselh municipal.</p>
+        <ab><lb/>Sus la letraduro d’oc bezierenco<lb/>(3) merciès.<lb/>(4) bourgeses.<lb/>(5) Francès 18-</ab>
+        <ab><lb/>Source gallicabnf.f/CIRDOC-Medaeca occitan.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

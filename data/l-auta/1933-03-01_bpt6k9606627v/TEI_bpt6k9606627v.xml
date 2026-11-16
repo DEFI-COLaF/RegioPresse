@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k9606627v</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1933-03-01">1933</date>
+          <idno type="ARK">bpt6k9606627v</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k9606627v</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0010.xml"/>
+        <milestone unit="page" n="42"/>
+        <head><lb/>La Vie de la Société</head>
+      </div>
+      <div type="article">
+        <head><lb/>Réunions</head>
+        <list>
+          <item>25 février 1933. Présidence de M. J.-R. de BROUSSE.</item>
+        </list>
+        <list>
+          <item>M. Robert Bacou fait une conférence sur :</item>
+        </list>
+        <p rend="styled"><lb/>Un illustre Toulousain de l'Antiquité: Marcus Antonius Primus.</p>
+        <p rend="labelled"><lb/>Le conférencier rappelle ce que fut la grandeur de Toulouse<lb/>dans l’antiquité, grandeur due à une situation géographique parti¬<lb/>culièrement favorable et aux bienfaits d’une organisation politique.<lb/>Dotée par Galba, en 68, d’un Capitole, c’est-à-dire d’un temple à<lb/>Jupiter, la ville était un centre intellectuel remarquable où, au<lb/>cours de près de cinq siècles, se formèrent des hommes de premier<lb/>ordre comme Sulpice Sévère, le poète Ausone, le grammairien Vir¬<lb/>gile, etc.</p>
+        <p><lb/>Marcus Antonius, sur la vie duquel nous avons les témoignages<lb/>des écrivains antiques : Tacite, Suétone, Flavius Josèphe, Martial<lb/>et Dion Cassius, y naquit en l’an 40 de notre ère, d’une famille d’ori-<lb/>gine gauloise, mais ayant de hautes relations parmi les fonctionnai¬<lb/>res de l’Empire. Le jeune homme, auquel on donna de bonne heure<lb/>le surnom de Becco (bec de coq en dialecte populaire), reçut une<lb/>excellente éducation et, poussé par son ambition, se rendit à Rome,<lb/>à peine âgé de dix-huit ans. Fort bien reçu à la cour de Néron et<lb/>admis dans l'intimité de l’empereur qui lui octroya le titre de séna-<lb/>teur, Marcus Antonius ne tarda pas à subir les influences corrup¬<lb/>trices de ce triste milieu et se livra à de graves désordres.</p>
+        <p><lb/>En l’an 62, compromis dans une affaire de circonvention de<lb/>testament, il fut ezclu du Sénat et banni de Rome. De 62 à 68,<lb/>époque de la mort de Néron, on ne sait trop ce que devint Marcus<lb/>Antonius. Il est probable qu’il dut faire de fréquents séjours à Tou¬<lb/>louse. Il est bien certain, en tout cas, que cette période d'adversité<lb/>ne lui fut pas défavorable et qu’il y affermit son caractère et son<lb/>courage.</p>
+        <pb facs="0011.xml"/>
+        <milestone unit="page" n="43"/>
+        <p><lb/>Il le montra bien lorsque le nouvel empereur Galba, qui ne<lb/>régna que huit mois, le rappela en Italie et lui confia le comman-<lb/>dement de la septième légion.</p>
+        <p><lb/>A Galba succéda Othon, renversé par Vitellius, qui se vit lui-<lb/>même disputer le trône par Vespasien, acclamé par les légions de<lb/>Judée et de Syrie. Marcus Antonius, entraînant avec lui les troupes<lb/>de Mœsie et de Pannonie, auxquelles se joignirent plus tard celles<lb/>de Dalmatie, prit la tête des armées et marcha sur Rome. A Pettau<lb/>(Hongrie), alors que se manifestait parmi les soldats une certaine<lb/>hésitation, il les harangua, raffermit leurs sentiments et se vit pro-<lb/>clamer par eux « le seul homme, le seul général de l'armée » (Ta-<lb/>cite).</p>
+        <p><lb/>Durant toute cette campagne, magnifiquement racontée par<lb/>cet historien, Marcus Antonius fit preuve d’une très grande autorité<lb/>sur ses troupes, si difficiles à manier, sachant les retenir dans les<lb/>entreprises risquées, les excitant et leur redonnant du courage dans<lb/>les moments de fléchissement.</p>
+        <p><lb/>Vérone emportée, la grande bataille contre les armées de Vi¬<lb/>tellius se livra, de nuit, sous les murs de Crémone. Longtemps son<lb/>sort fut incertain ; à plusieurs reprises, les armées flaviennes se<lb/>trouvèrent en fâcheuse posture. Par ses actes, par ses paroles en¬<lb/>flammées, leur chef ranima leur ardeur. Quand le soleil se fut levé,<lb/>salué d’une clameur par la troisième légion ainsi qu’elle avait ac-<lb/>coutumé de le faire en Syrie, Marcus fit courir le bruit de l’arrivée<lb/>de troupes de renfort. Le stratagème réussit, la ligne ennemie flé¬<lb/>chit sous un choc plus impétueux et la victoire demeura au parti<lb/>flavien.</p>
+        <p><lb/>Les deux armées conclurent d'ailleurs une trêve et s’associèrent<lb/>pour faire subir à Crémone un honteux pillage de quatre jours.</p>
+        <p><lb/>Informé de la nouvelle, à Rome, Vitellius perdit tout sang-<lb/>froid et tergiversa au lieu de s’enfuir. Sa fin fut à la fois grotesque<lb/>et horrible et son cadavre, traîné par des crochets, fut jeté dans le<lb/>Tibre.</p>
+        <p><lb/>Ainsi se justifia une prévision qui lui avait été faite naguère<lb/>qu’il finirait tué par un coq gaulois.</p>
+        <p><lb/>Après la prise de Rome, Antonius reçut les ornements consu¬<lb/>laires, mais l'arrivée de Mucien, gouverneur de Syrie, qui avait</p>
+        <pb facs="0012.xml"/>
+        <milestone unit="page" n="44"/>
+      </div>
+      <div type="article">
+        <head><lb/>Visites et Promenades</head>
+        <head><lb/>Les hôtels Ulmo, d’Auriac et de Lestang</head>
+        <p><lb/>Le dimanche 26 février, la Société a visité sous la direction de<lb/>M. Pierre de Gorsse, avocat à la Cour, membre de la Société Ar-<lb/>chéologique, trois hôtels parlementaires du quartier Saint-Etienne.</p>
+        <p><lb/>M. de Gorsse fit tout d’abord remarquer que si Toulouse a pos-<lb/>sédé de somptueuses demeures dont quelques-unes, heureusement<lb/>parvenues jusqu’à nous, font de notre cité une ville d’art, c’est à ses<lb/>Capitouls et à ses Parlementaires qu’elle le doit. Si les demeures<lb/>capitulaires sont particulièrement nombreuses dans les quartiers<lb/>qui avoisinent le Capitole, les hôtels des Parlementaires se rencon¬<lb/>trent plus spécialement dans les quartiers de Saint-Etienne et de la<lb/>Dalbade, plus voisins du Château Narbonnais, siège du Parlement,<lb/>et plus aristocratiques que les quartiers du centre.</p>
+        <p><lb/>L’Hôtel de Jean de Ulmo porte le numéro 15 de la rue Ninau.<lb/>M. de Gorsse indique tout d'abord l'ancienneté du nom de cette<lb/>contribué à faire acclamer Vespasien par les troupes d’Orient et qui<lb/>n’entendait pas partager le bénéfice de cette action, changea la face<lb/>des choses. Sentant qu’on essayait de le discréditer, Marcus Anto-<lb/>nius se rendit à Alexandrie, auprès de Vespasien, où il fut reçu avec<lb/>froideur.</p>
+        <p><lb/>Blessé dans son amour-propre, ce vainqueur qui aurait pu bri¬<lb/>guer l’empire pour son compte, prit un parti vraiment grand et se<lb/>retira dans la vie privée. Il rentra à Toulouse, où, pendant trente<lb/>ans encore, il vécut dans le calme, dans une belle villa ornée de<lb/>jardins au bord de la Garonne. Il fit commerce d’amitié avec les<lb/>écrivains et les poètes. Martial lui rendit visite et a parlé de lui dans<lb/>trois poèmes pleins d’une chaleureuse admiration. Et ce sage, re-<lb/>venu des grandeurs humaines, mourut paisiblement dans sa ville<lb/>natale, à 75 ans, en 115 de notre ère.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

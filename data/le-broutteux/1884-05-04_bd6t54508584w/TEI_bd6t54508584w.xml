@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508584w</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1884-05-04">1884</date>
+          <idno type="ARK">bd6t54508584w</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508584w</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Numéro 93. (3me ANNÉE).</fw>
+        <dateline><lb/>DIMANCHE 4 MAI 1884.</dateline>
+        <ab><milestone unit="column" n="2"/><lb/>Un Numéro: 10 centimes</ab>
+        <figure type="decoration"/>
+        <ab><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING</ab>
+        <ab><milestone unit="column" n="1"/><lb/>«Iy a des bétises<lb/>payables d'avance<lb/>qu'un homme d'esprie<lb/>3mois, fr.1-50<lb/>acheterait.»<lb/>3-00<lb/>6<lb/>VOISENON<lb/>Etranger, port en sus.</ab>
+        <fw type="runningTitle"><lb/>ABOНNEM</fw>
+        <p rend="styled"><lb/>Administration : FRÈRE-GLORIEUX, Imprimeur, rue de Lille, 18. — Rédaction: Jules WATTEEUW, rue Desurmont, 31</p>
+      </div>
+      <div type="article">
+        <ab><lb/>D<lb/>l’pavé, en plein jour... tchan qui sont<lb/>tout seu vin l'rue... et qui n’os’tent nin<lb/>déchinde à leu cave, du soir, sans tchan-<lb/>delle.</ab>
+        <p><lb/>Toudis, qu'pou n'd'ervenir à les cou-<lb/>vreux, malgré qui z’ont tertus du tcheur<lb/>et qui sont dévoués, y n'd'a acor vin<lb/>l’nombre qui sont pus francs que l'z’autes.</p>
+        <p><lb/>Aussi, tchi qu’ch’est qui n’se souvint po<lb/>d’Françeis Prez, l’couvreu qui allot tcheur<lb/>l’keu in haut du coupet de l'flèche<lb/>d’l'égliche St-Quertoffe et qui faijot l'pori<lb/>sus l’crox! Et par après, y s’laicho pinde<lb/>pa ses djampes! Cha ch'étot des jeux ! les<lb/>gins qui wettotent in bas, y serrottent leu<lb/>z’is in faijant des mennes comme si in<lb/>arot passer sus leu gros ortè, à forche<lb/>qui z’avottent peur de wetti François<lb/><lb/>Prez qui faijot cha, comme si y arot fait<lb/>l’tchuberlire vin l’courti, prope l’même<lb/><lb/>et cha, y l'a fait pus qu'inne fos, savez?<lb/>Y n’d’a gramint qui l’ont vu, comme mi.</p>
+        <p><lb/>Vin l'temps, in couvrot les majons in<lb/>paillotis, j'parle des majons d’par chi, des<lb/>P'tités villes et des villaches, pasque y a<lb/>jolimint lommint que l’tuile est inventée,<lb/>cha date du temps des romains. (Je n’parle<lb/>po chi des imbêtants qui vous ras’tent<lb/>alfos d'z’heures intires, qu’in finit pa dire,<lb/>quelle tuile ! des sortes essin y n'd'a toudis<lb/>eu, malhureusemint). J'parle des tuiles in<lb/>terre tchute. Mais cha avot in grand in-<lb/>convénient, savez? les couvertures en<lb/>palle. Tchan qui avot du fu vin in endrot,<lb/>tous les rangis d’majon cha n’faijot qu’inne<lb/>blaque, vus coperdez ben. Ch'étot cou-<lb/>vert in paille!</p>
+        <p><lb/>Aussi, in 1607, l'lendemain d'Pâques,<lb/>quater-vingt majons d'Tourco ont brûlées<lb/>essin ! in veyot l'fu d'Tournai ! pinsez in<lb/>peu si y devot blatchi, hein? et cha, pas-<lb/>que ch’étot couvert in pallotis.<lb/>au villache, in n'd'in vot acor gramint, in<lb/>appelle les couvreux qui couvertent les<lb/>majons essin, des couvreux in étrin.</p>
+        <p><lb/>J'profite d'l'occasion pou leu souhaiter<lb/>boinne et hureusse, a eusses comme à<lb/>l'z'autes.</p>
+        <p><lb/>l'sais ben qu'in n'crie po toudis, vivent<lb/>les couvreux, tchan qu'in à d'l'eu qu'ill'<lb/>tchée vin s’majon, qu'in va les tcheur à<lb/>tous cœeups et qui n’vintent po, in ber-<lb/>tonne, tout cha, mais vus coperdez ben<lb/>qu'chès gins y n'peuttent po ête d'tous<lb/>les côtés alfos.</p>
+        <p><lb/>Et pus, d'inne aute manire, y n'd'a qui<lb/>vinn’tent dire : ouais, les couvreux, tchan<lb/>qui faît inne tempête, que tous les pannes<lb/>y s’involtent, qu’in vot tcher les ballos,<lb/>qu'les gins y tcheurtent pas les rues in-<lb/>veuc leus mains sus leus têtes, eusses les<lb/>couvreux y rittent! pindant que l'z'autes<lb/>y font des laidés mennes!</p>
+        <p><lb/>Bé, si y rittent, ch'est pasqu’y z’ont<lb/>l'caractère ben fait, et pus si sont djais<lb/>pindant que l’z’autes ont les tronneries<lb/>cha prouve qui z’ont du tcheur. Et pus<lb/>inter nous sot dit, mettons qui rittent pas<lb/>qu’y vont avoir d’l’ovrache, est-ce que<lb/>chacun, sus c’bas monde, n’prie po pou<lb/>s’capelle? Tin matousse!<lb/></p>
+        <p><lb/>D'vant vous tirer ma rérévence j'sou-<lb/>haite inne boinne et crasse fête à tous<lb/>chès braffes copagnons les couvreux, pa-<lb/>trons et ovris.</p>
+        <p><lb/>Mais inne sétchi qu'je m'fais in plaiji<lb/>d'présinter mes souhaits et qu'ch'est min<lb/>d'voir, ben attindu, pusque j’sus sous ses<lb/>ordes à les parties d'boules du jeudi,<lb/>ch’est au président des Rue tout jus de<lb/>l'société du P'tit-Cateu, Louis Beaucarne.<lb/>Matousse qu'in va acor inne fos avoir du<lb/>plaiji d’crii tertus:</p>
+        <ab><lb/>Vivent les couvreux!</ab>
+        <ab><lb/>JULES WATTEEUW.</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>En font pleuvoir l'ardoise et la tuile à foison.</ab>
+        <ab type="head"><lb/>LES COUVREUX</ab>
+        <p rend="styled"><lb/>Des couvreurs grimpés au toit a'une maison</p>
+        <ab><lb/>BOILEAU.</ab>
+        <p><lb/>A propos de l'Ste Asthanase, l'fête des<lb/>couvreux, in poro ben rinconter l’conte<lb/>d’chès ars copagnons qui griptent comme<lb/>des cats sus les totures pou nous mette à<lb/>sec, ené?</p>
+        <p><lb/>D'tous les corps d'état, à m'motte que<lb/>sti chi ch’est in des pus méritants. Tout<lb/>au contraire du braffe mineur qui déchind<lb/>vin l'fond d'la terre, à l'brenne, pour aller<lb/>tcheur du carbon qui sert à faire tourner<lb/>les machines de l'z'atelis et a tchure l'rata<lb/>sus l'étuffe, l'couvreu, li, ch'est in air qui<lb/>œuffe, in plein air, au coupet des majons.<lb/>Mais à dire la vérité, y est aussi exposé<lb/>que l'mineur, y risque s'vie à continuer!<lb/>nne petite toupirie d’tête, inne distrac-<lb/>dion, in bougeon qui casse, tout cha, est<lb/>alfos la cause d’in malheur et d’téfos tous<lb/>les jours, y erqueminche a ovrer inveuc<lb/><lb/>corache, y n'serbute jomais.</p>
+        <p><lb/>Vivent les couvreux, saclé vingt non de<lb/>quisse! Ch'est des ars copagnons. Y m'a<lb/>alfos arrivé d'attraper l'tronnerie, d'in<lb/>wetti sus l’faitichure d’in batiment, faut<lb/>po d'mander li, qui est la val in heut,<lb/>hein, tcheu nouvelles!</p>
+        <p><lb/>Y n'd'a qui dittent. Bah! tout cha<lb/>ch’est d’z’habitudes, y n’y busitent po.</p>
+        <p><lb/>J'voro ben les vir à leu plache, mi, les<lb/>malins qui dittent cha. D'abord j'ai sou¬<lb/>vint ermartchi qu’les ceux qui n'trouftent<lb/>rin d'rare, qui z’ont toudis l'air de criti-<lb/>quer, ch'est les pus p’tits tchan qui s’agit<lb/>d'moutrer leur corache. In n’d’in vot gra-<lb/>mint, essin, qui sont fin gayards, sus</p>
+      </div>
+    </body>
+  </text>
+</TEI>

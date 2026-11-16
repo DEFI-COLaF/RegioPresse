@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8135997n</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1891-06-27">1891</date>
+          <idno type="ARK">bpt6k8135997n</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8135997n</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>PROUMIERO ANNADO, No 18.</fw>
+        <fw type="runningTitle"><lb/>DISSATE, 27 DE JUN 1891.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Baile dou journau:<lb/>FolcO DE BAnONCELLI.</ab>
+        <lg>
+          <l><lb/>Nautri, li bon Prouvençau,</l>
+          <l><lb/>Au sufrage universau,</l>
+          <l><lb/>Voutaren pèr l'ôli</l>
+          <l><lb/>E faren l'aieti.</l>
+        </lg>
+        <ab><milestone unit="column" n="3"/><lb/>Vidoun, Vidaré,<lb/>Segound la vido<lb/>Lou journau.<lb/>(Prouvèrbi di meissounié</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PÈR MES</p>
+        <figure/>
+        <ab><lb/>BUREU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>M. Folc̀ DE RAnONCKLLI,<lb/>an palais dóu Roure,<lb/>EN AVIGNOUN</ab>
+        <figure/>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN:</p>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Co que se dis à-Z-Ais</head>
+        <p><lb/>l'a quauque tèms, l'Acadèmi d'Ais recaupié<lb/>dins soun sen noste ami M. Charle d'Ille, un<lb/>prouvençau dins l'amo, e que l'a prouva<lb/>sèmpre à bello visto e facho dins noumbre<lb/>de publicacioun en favour de la Causo pèr<lb/>laqualo coumbatèn. Es Charle d'Ille qu'escrivié,<lb/>au sujèt dóu mounumen inagura pèr li felibre<lb/>en 1884 eilalin sus lou champ de bataio de<lb/>Muret — ounte toumbè, vincudo, l'indepen-<lb/>dènci dou Miejour:</p>
+        <p rend="labelled"><lb/>« Français dévoués, chrétiens soumis, reconnaissant le<lb/>double bienfait de l'unité religieuse et de l'unité nationale,<lb/>nous ne craignons pas de baiser avec respect ce sol os<lb/>coula le sang de nos ancêtres vaillants et malheureux,<lb/>et nous ne séparons pas ces deux cris: Honneur à nos<lb/>pères et Vive la France!... En défendant leur patrie<lb/>pendant tant d'années, jusqu'à la ruine, jusqu'à la more<lb/><lb/>ils nous ont donné un exemple qui n'a pas été perdu !.<lb/>Nous demandons pour nos aleux, après une union de six<lb/>siècles, l'oubli complet des luttes passées, le souvenir et<lb/><lb/>le respect. Leurs demeures ont disparu, quelques murs<lb/>noircis ont seuls survécu... La nature même s'est trans-<lb/>formée, des générations de chènes se sont succédées sur<lb/>le sol qui les recouvre. Ils ne nous ont laissé qu'un sou-<lb/><lb/>venir vivant, ineffaçable, une empreinte indélébile ; leur<lb/>langue, et nous ne la laisserons pas perir. Cotte part de<lb/>l'héritage, nous la revendiquons ! On crie: Vive la France!<lb/>en provençal, en languedocien, en catalan, en bas-breton,<lb/>d'une voix aussi vibrante et d'un cour aussi chaud qu'en<lb/>patois du Berry et de la Picardie; amis et ennemis l'ont<lb/>entendu et s'en souviennent!»</p>
+        <p><lb/>M. lou counseié Soubrat, en respoundènt,<lb/>au noum de l'Acadèmi d'Ais, au discours<lb/>prounouncia pèr M. Charle d'Ille, largamen</p>
+        <p rend="styled"><lb/>Lou bèu debit de noste Aioli nous permetènt<lb/>de faire pèr la vèndo au numerò uno edicioun<lb/>especialo, aquest journau, à parti d'aro, dins li<lb/>librarié dóu Camin de ferri coume ence di Depou-<lb/>sitari, vai se baia pèr dous sou. Mai coume<lb/>voulèn pas nous apadoui trop leu (que la dru-<lb/>diero meno perdre) e pèr tapa, coume de juste,<lb/>l'escart que pou i'agué entre lou pres de l'abou-<lb/>nage e aquéu dóu numerò, anan douna de primo,<lb/>— entendès bèn, de primO — d nostis ABOUNA.<lb/>La proumiero es Babali, uno nouvello avignou-<lb/>nenco de noste jouine baile Folco de Baroncelli,<lb/>ilustrado pèr Blanchard. La segoundo, qu'elo<lb/>souleto vaudra lou pres de l'abounamen, n'en<lb/>parlaren vers la fin de l'an.<lb/>s'es espandi sus lou mouvemen prouvençau,<lb/>soun impourtanço e soun encauso:</p>
+        <p rend="labelled"><lb/>Comment expliquer (a di) qu'après une si longue<lb/>période d'oubli, cette langue romane, méprisée, avilie,<lb/>et comme morte à jamais, en tant que langue littéraire,<lb/>ressuscite tout-á-coup, s'empare de l'attention de tout<lb/>un peuple, de toute une race, la ranime, la ravive dans<lb/>son génie propre, et suscite bientôt, autour de ce poête<lb/>extraordinaire en qui elle s'est comme incarnée, une<lb/>pléiade de nouveaux trouvères, épris comme lui de ses<lb/>légendes et de ses gloires, en qui l'âme de la patrie se<lb/>reconnait avec sa galeté expansive, sa foi chrétienne,<lb/>naive et simple, mais inébrantable, son goût du naturel,<lb/>ses instincts d'indépendance ?... Pour résoudre cette<lb/>question, il faut consulter l'histoire de notre pays, il faut<lb/>connaitre et se rappeler le tempérament moral de ce<lb/>peuple, le caractère individuel et national de cette race,<lb/>persistant et immuable à travers les siècles, et aujourd'hui<lb/>encore semblable à lui-méme... Les causes de ce révell,<lb/>de cette aube nouvelle, sont faciles à discerner pour<lb/>qui vent bien se rendre compte de l'inépuisable vitalite<lb/>de la race provençale, de son amour du sol natal, de sa<lb/>fidélité à ses traditions, à ses coutumes, de son esprit<lb/>municipal invétéré, de son invariable attachement à ses<lb/>vieux privilèges, à ses franchises perdues et à peine<lb/>retrouvées dans les libertés qu'elle dut à l'ordre nouveau,<lb/>libertés étriquées, toujours disputées, rognées, amoin-<lb/>dries, pâle reflet de son ancienne Constitution, que nos<lb/>plus grands orateurs, nos plus grands politiques, nos<lb/>premiers historiens ou législateurs, tous sortis de son<lb/>sein, purent présenter comme un modéle de sagesse et<lb/>de libéralisme.</p>
+        <p><lb/>Songez un instant à la longue oppression qu'elle a<lb/>subie á travers l'Hlistoire, depuis le jour où, maltresse<lb/>d'elle-méme et non conquise, elle se donnait librement<lb/>et fierement à la France, à ses déceptions amères, à<lb/>son indépendance meurtrie, écrasée sous le poids d'une<lb/>étouffante centralisation, et vous apercevrez, sous son-<lb/>impassibilité et sa mort apparentes, le travail de réno-<lb/>vation, l'effort de vie qui dut se produire peu à peu<lb/>dans son esprit et dans son coeur. Repliée sur elle-même,<lb/>mais non abattue, l'âme provençale condense et transmet<lb/><lb/>d'âge en âge, de famille en famille, de père en fils, ses<lb/>protestations indignées, le cri de ses souffrances, ses<lb/>réves d'avenir et son espoir obstiné. A ces sentiments<lb/>de piété fliale si longtemps contenus, à ces croyances<lb/>religieuses, qui avaient gardé daus le peuple leur fral-<lb/>cheur et leur nalveté des premiers âges, á ces aspira-<lb/>tions latentes de toute une race que hantaient l'im-<lb/>pression des tristesses du présent et le souvenir des<lb/>gloires passées, à cette foi comme a cet amour, il fallait<lb/>une expreasion, il fallait une poésie, et elle vint au</p>
+        <p><lb/>Aquéli nobli resoun, aquéli simpatlo ca¬<lb/>lourènto e ravoio, sourtido de la bouco d'un<lb/>magistrat eminènt, que saup e vèi de près co<lb/>que boui dins nosto oulo, nous a fa gau de li<lb/>metre eici. Sabès perqué ? Uno crousado, uno<lb/>entrepresso d'ideau, inagurado pèr de pouèto,<lb/>pèr manteni la lengo e li vertu d'un pople,<lb/>quand s'encapito pèr camin de testimoni d'a-<lb/>quel ordre, rapellon-se, aquéli que ié veson<lb/>pas bèn, que i'a 'ncaro de jour eila-darrié li<lb/>mountagno.</p>
+        <note>
+          <p rend="labelled"><lb/>Éloge de M. Léon de Garidel. Discours de réceptie</p>
+        </note>
+        <ab><lb/>De sant Pau lou bèu tôms (29 de ju</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>a La Vilo de SAnàri</ab>
+        <p rend="styled"><lb/>A lóucasioun de l'acamp di tambourinaire<lb/>e de la Mantenènço de Prouvènço.</p>
+        <ab><lb/>Que dins toun port, Sanàri,<lb/>Dous nis de couloumbet,<lb/>Boufe lou Miejournàri<lb/>E jamai lou Labé !<lb/>Siés lou grand semenàri<lb/>De nòsti galoubet<lb/>Que, tau que de canàri,<lb/>Ié vènon au sambé.<lb/>Vagon li miliounàri<lb/>Manja de retoumbet !<lb/>Emé tout soun denàri<lb/>Béuran jamai sourbet<lb/>Coume vuei, dins Sanàri,<lb/>Béu noste Gai-Sabé.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>e la Mori de Mircio de Marius Martalot neren au</ab>
+        <ab type="head"><lb/>la prouvènço au saloun</ab>
+        <p><lb/>Nòsti legèndo prouvençalo porton bonur à nòsti pintre.<lb/>Lou pres dóu Saloun de Paris, aquest an, s'es douna à<lb/>M. Pau-Jan Gervais, un toulousen, pèr soun tablèu Li<lb/>santi Mario, que represento nosti Santo, quand desbarcon</p>
+        <p><lb/>M. Duffand, antour dóu tablèu La mort d'Ourrias,<lb/>retrasént l'episodi dramati de Mirêio ounte lou toncadou<lb/>se nègo au mitan di Trèvo dóu Rose, a óutengu 'no<lb/>medaio que lou met foro councours, e de mai la Soucieta<lb/>dis Artisto francés l'a decerni, pêr lou meme óubrage, un<lb/>prèmi de 500 fr.</p>
+        <p><lb/>Quàuquis autri tablèu ispira per la Prouvènço soun<lb/>esta remarca à la memo espousicioun: Enviroun d'Avi-<lb/>gnoun, La tourre de Felip lon Beu, La routo de Vilo¬<lb/>Novo pèr Sain, Lou rampèu di vaco per Vayson, L'ilo<lb/>de Maire pèr J.-B. Olive, Un quèi de Touloun à jour fali<lb/>e Uno mistralado sus la rado per M. Nardi, Uno vesprado<lb/>de desèmbre au Marteque per J. Meissonnier, La passa-<lb/>rello di bourdigo au Martegue pèr M. Moisson, Fin de<lb/>journado en Prourènço pèr Madamo Mayan, Un bos d'óu-<lb/>lirié pèr C. Monnier, Lis Areno d'Arle, Uno passejado<lb/>d'Artatenco per Montenard; enfin de C. Dufour, Lou<lb/>palais di papo d'Avignoun e Lou pont de sant Benezet,<lb/><lb/>que soun esta croumpa pèr lou Menistèri di Beus-Art.</p>
+        <p><lb/>A l'espousicioun di dessin s'es forço regarda tambèn<lb/>uno fino miniaturo de madamo la marqueso de Baroun<lb/>celli-Javoun, lou retra de Mistral.</p>
+        <p><lb/>A prepaus de la Mort d'Ourrias que lou pintre Duffaud<lb/>la facho, coume avèn di, d'après lou pouèmo de Mirèio, es<lb/>lou cas de rameuta li principau tablèn que s'es tira<lb/>jusqu'aro de l'obro de Mistral. E citaren entre proun<lb/>autre : Mirèio au pous, Dialogue de Mirèio e de Vincèn, e<lb/><lb/>Lou cop de soulèu de Mireio, tres telo d'Antonl Regnier;<lb/>lou Vincèn blessa pèr Ourrias de Pêire Grivolas, qu'es<lb/>vers Madamo de Séménow; lou Vincen blessa de Louis.<lb/>Deschamps, qu'es au museon d'Avignoun ; la Mort de<fw type="digitisation-artefact"><lb/>Soea/Bièuese</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

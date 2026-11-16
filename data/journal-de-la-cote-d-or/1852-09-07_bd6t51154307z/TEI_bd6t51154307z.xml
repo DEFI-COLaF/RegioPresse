@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t51154307z</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1852-09-07">1852</date>
+          <idno type="ARK">bd6t51154307z</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t51154307z</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0004.xml"/>
+          <fw type="runningTitle"><lb/>Journal de la Côte-d'Or.</fw>
+        </div>
+        <div type="article">
+          <ab rend="continued"><lb/>distribué en quatre pieces au rez-de¬<lb/>chaussée, quatre pièces au premier,<lb/>grenier dessus, cave dessous; 20 cour<lb/>30 hébergeages distribués en écurie,<lb/>grange à côté, autre écurie joignant la<lb/>fardin à la suite des bátiments, dans</ab>
+          <p><lb/>sont confués au midi par l'art. ler, au<lb/>nord par l'article 3 et par une ruelle,<lb/>hu levant par la rue, et au couchant<lb/>par la banquette de M. de Latourdupin,</p>
+          <p><lb/>Mit. 3. Un petit jardin dans lequef 2510<lb/>existe une source d'eau vixe, confine<lb/>net et Cauthier, au levant par la ruelle<lb/>sur laquelle existe une porte de des-<lb/>serte, et au couchant par la banquette<lb/>de M. de Latourdupin, au moyen d'un</p>
+          <figure type="table"/>
+          <lg>
+            <l><lb/>nordsu ie o, de mdi Mme cnone¬</l>
+            <l><lb/>desaint-see, du levant la pririe</l>
+          </lg>
+          <ab><milestone unit="column" n="1"/><lb/>tiares, Ienan du nord M. Chaussier, 3c<lb/>quéreur du sieur Valeur, du midí Di.<lb/>res 16 centlares, onant de nord M.<lb/>Lagoutte, du levant Mme Chaussier,<lb/>du couchant M. Hernoux, du midi le<lb/>Art. 28. Bn Launois, d ares 20 <lb/>midi François Govin- Couturier.<lb/>Art. 29. En la Chaire, 15 ares<lb/>chard, du mid Françols Berthier.<lb/>Rolin, du midi Msdame Chassier.<lb/>14 centiares, tenant du nord M. Poncet<lb/>aequéreur de la faillite, du midi M.<lb/>Ptes, 15 res censres, teun du<lb/>nord Marie Racioi, du midi M. Boudot.<lb/>s queru Peu<lb/>Exploitée par Sulpice Carrobe,<lb/>18 ares 90 centisres, tenant du levant<lb/>8I. Chaussier, acquéreur du sieur<lb/>Paleur, du couchant M. Delamarche.<lb/>ord Pichanget<lb/>veuve, du midi Nicolas Tarboché.<lb/>80 centiares, tenant du levant Mme<lb/>Chaussier, du couchant M. de Latour-<lb/>Vieile, 17 ares 1a cenares, tenant de<lb/>nord Mime Chaussier, du midi M. Her-<lb/>de levantM. Rosa, et de couchant les<lb/>  Lochrone </ab>
+          <p rend="labelled"><lb/>an da nord et du</p>
+          <p rend="labelled"><lb/>sier, au milien de cette parcelle, une<lb/>contenance de 9 ares, ne faisant point<lb/>partie de la contenance ci-dessus indi¬</p>
+          <figure type="table"/>
+          <ab type="head"><lb/>FERME SUR FONTAINE-YRANCAR</ab>
+          <lg>
+            <l><lb/> cnares enau nord . Ponees,</l>
+          </lg>
+          <p><lb/>22 ares, tenant du levant le fossé, du</p>
+          <p><lb/>tt du nord M Chaussier,</p>
+          <ab><lb/> ae<lb/>Art. 71. Bn Champ-Moufé, 17 <lb/>14 centi, u nored Mme ChaussieL<lb/>Covin-Laurent, de midi M. Blondel.<lb/>atiares, teaant de levant Ncolas<lb/>Parboché, de couchant le bois (fri-<lb/>ant de nord bois, de mid <lb/>centiares, tenant du nord Louis Bou-<lb/>yeret, du midi Jean-Baptiste Baillet-<lb/>2 ares 86 centiares, tenant de levani<lb/>Jean Jannel, de couchant M. Ma-<lb/>centiares, tenaur de mad 1a venve<lb/>Jean-Baptiste Trousset, de nord M.<lb/>liares, tenant de levant Madame,<lb/>Chaussier, du couchant Dominique<lb/>ses, tenant du levant Francois Rol-<lb/>lin, du couchant Plerre-François Ra-<lb/>Jean-Baptiste Bresson, de couchaat<lb/>Art.7. es -P<lb/>(Claude), de midi M. Hernoux.<lb/>Cette parcelle est traversée par la<lb/>Gonget, de midi<lb/>Art. 94. Au Chemin de De<lb/>ares 28 centiares, tenant<lb/>Joseph alichaud, du midi AI. Morisot<lb/>uers Tubaut, de couchan</ab>
+          <p rend="labelled"><lb/>centiares, tenant de levant Patet, de</p>
+          <p><lb/>Biol, de midl M. Blondel de Saint¬</p>
+          <p><lb/>couchant François Couturier-Bou-</p>
+          <p><lb/>All. 85. La Courviotte, 32<lb/>centiares, tenant de levantBlon</p>
+          <p rend="labelled"><lb/>tenant de levant Madame Chaussier.</p>
+          <p><lb/>entre madame Chaussier de part et</p>
+          <ab><lb/>ares 38 centiares, tenant du levant à<lb/>Mme Chaussier, du couchant François<lb/>Art. 50. Révers des Lochères,<lb/>Morisot, de midl Chrétten Rémond<lb/>hectare l are 40 centares, tenant de<lb/>vore Jis, de midi la<lb/>c, t <lb/>hres 10 centiares, tenant de nord Jean-<lb/>Baptiste Rouhier, de midi les enfants<lb/>centiares, tenant de levant Jean Ro-<lb/>pinet, cordier, et de couchant Jean<lb/>ares, tenant de midl ume chausser,<lb/>de nord Claude Beugnot; abouts<lb/>biez au fevant, du nord Mme Chaus¬<lb/>sier, et de midi les héritiers Pierre<lb/>TEARITOIRE DE FONTAINE-PRANÇAISE.<lb/>Mlte. Adélalde Rosat, de midi Eloi<lb/>10 sres 70 contores, tevan de nord<lb/>Jean-Louis Berquin on ses acque¬<lb/>reurs, de midi les enfants Robelot.<lb/>part Mme Chaussier, et faisant contour<lb/>Ar1.60. E Champ-Tarey, 21 e 00<lb/>Baptiste Roubier. d'autre Pierre Co-<lb/>punda M. de Lalourd, du m<lb/>du nord à M. de Latourdepin, du man<lb/>eores 20 centiares, tenant de levant<lb/>Bresson-Michegrand, de couchant M.<lb/>Parc, 14 ares 90 centiares, tenant de<lb/>levant à François Allirot, de cou-<lb/>Art. 65. Les Bruyères M. Blon<lb/>de midi à Pierre Baize. M. Blonde,<lb/>Barbier, de couchant la veuve Narré.</ab>
+          <p rend="labelled"><lb/>ares in centiares, ienant de nord les<lb/>hriecs Boudst Daid, et</p>
+          <p rend="labelled"><lb/>A.L tenan d'une part a</p>
+          <p rend="labelled"><lb/>Ar.. Les Pelites Noue<lb/>28 ceni de midi Mlte Rosard M. e</p>
+          <p rend="labelled"><lb/> 6. B Gi-<lb/>Poncel, du midi M. Morisot..</p>
+          <p rend="labelled"><lb/>617 arcs<lb/>30 centiares, tenant de nord Pierre et<lb/>Dominse</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

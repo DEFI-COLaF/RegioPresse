@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k96056531</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1967-02-01">1967</date>
+          <idno type="ARK">bpt6k96056531</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k96056531</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0010.xml"/>
+          <milestone unit="page" n="26"/>
+        </div>
+        <div type="article">
+          <ab rend="continued"><lb/>en 1621, la chapelle et aussi l’immeuble qu’ils avaient acquis (13),<lb/>et achètent le « Logis de la Pomme », ancienne auberge, dont<lb/>l’enseigne avait donné son nom à la rue où elle ouvrait, et dont<lb/>les vastes dépendances (écuries, remises, jardins) bordaient le Pré<lb/>Montardy (14). Là, ils allaient élever leur nouvelle chapelle, l’actuelle<lb/>église Saint-Jérôme.</ab>
+          <ab type="head"><lb/>ÉGLISE SAINT-JÉRÔME</ab>
+          <p><lb/>En 1621, Louis XIII, venu à Toulouse, adhère aux Pénitents Bleus,<lb/>et signe le premier feuillet du « Livre des Rois ».</p>
+          <p><lb/>En 1622, il pose (lui-même, ou par procuration ?) la première<lb/>pierre de la nouvelle chapelle, ainsi que l’atteste l’inscription latine<lb/>de la plaque apposée au-dessus de la porte d’entrée, rue Duranti :<lb/>« Dédié au Dieu très bon, très grand, et à la mémoire de saint Jérôme.<lb/>Louis XIII dit le Juste, après que les rebelles eussent été vaincus sur<lb/>terre et sur mer, est venu avec la noblesse de son royaume se joindre<lb/>sous l’habit bleu aux membres de la confrérie, ô Jérôme; et de<lb/>cette main droite qui précipita dans l’abîme les forteresses héréti¬<lb/>ques, il a posé, par leur première pierre, les fondements de<lb/>ce temple » (15).</p>
+          <p><lb/>L’architecte de Saint-Jérôme est Pierre Levesville (16). L’édifice<lb/>offre un plan quadrilobé, curieux et rare. Les murs latéraux en<lb/>demi-ellipses, le vestibule d’entrée et le chœur primitif en demi¬<lb/>cercles, donnaient à l’ensemble l’aspect d’une sorte d’ovale irrégulier.<lb/>En arrière du chœur demi-circulaire s’étendait la grande tribune<lb/>en forme de croissant, grillagée de bois et de fils de fer en losanges,<lb/>d’où les Pénitents assistaient aux offices, et une salle au rez-de-<lb/>chaussée. Les murs latéraux, uniformément pleins, ne comprenaient<lb/>encore ni loges, ni arcades. Une voûte de bois, à 16 caissons peints,</p>
+          <p rend="labelled"><lb/>(13) Qui deviendra (reconstruction de J.-P. Rivalz) la Commanderie de<lb/>Saint-Antoine de Vienne, puis le logis des Théatins (Commandement militaire<lb/>actuellement).</p>
+          <p rend="labelled"><lb/>(14) Qui allait jusqu’aux murs d'enceinte de la ville. Délimité par les<lb/>rues Duranti (Lt-Col.-Pellissier), Saint-Antoine-du-T, Montardy, Lapeyrouse.</p>
+          <p rend="labelled"><lb/>(15) Noter l’emphase de ce texte et son exagération des faits : toutes les<lb/>prétendues victoires de Louis XIII : le cuisant échec de Montauban (1621) et<lb/>la fuite royale, la terrible dysenterie aidant, qui contamina Toulouse et y<lb/>fera 10 000 morts!</p>
+          <p rend="labelled"><lb/>(16) Auteur des voûtes du chœur de Saint-Etienne (1609), d’une porte<lb/>(disparue) du Capitole (1613), et des voûtes de la cathédrale d’Auch (1618).<fw type="digitisation-artefact"><lb/>e gallica.bnf.fr / Association des Toulousain:</fw></p>
+          <pb facs="0011.xml"/>
+          <milestone unit="page" n="27"/>
+          <ab><milestone unit="column" n="1"/><lb/>L’église fut achevée en 1625.<lb/>(19) Architecte de la Ville et Directeur de l’Académie des Arts.<lb/>à nervures saillantes et clefs pendantes dorées, couvrait le tout (17).</ab>
+          <p><lb/>En 1632, Louis XIII et Anne d’Autriche font vœu de consacrer le<lb/>royaume à la Sainte Vierge s’il leur naît un fils, dans la grande<lb/>tribune (disparue en 1805) de Saint-Jérôme, et le Roi suit 800 Péni¬<lb/>tents Bleus jusqu’à Saint-Sernin !</p>
+          <p><lb/>En 1643, les Pénitents Bleus célèbrent solennellement les obsèques<lb/>de Louis XIII; un roi de cire, grandeur naturelle, git sur un cata¬<lb/>falque, 800 cierges illuminent l’église.</p>
+          <p><lb/>En 1659, Louis XIV (Dieudonné), reconnaissant, se recueille dans<lb/>Saint-Jérôme.</p>
+          <p><lb/>L’autel fut orné, de 1657 à 1677, d’un beau rétable, œuvre de<lb/>Gervais Drouet, Philibert Chaillon et Antoine Guépin (18)</p>
+          <p><lb/>Les loges furent ouvertes en 1734. Elles étaient alors grillagées.</p>
+          <p><lb/>Les arcades du rez-de-chaussée n’ont été ouvertes qu’en 1802,<lb/>alors que l’église devenait paroisse, pour assurer une communication<lb/>aisée avec les deux chapelles nord et sud.</p>
+          <p><lb/>De 1805 à 1806, Jacques Pascal Virebent (19) réorganisa l’édifice.<lb/>Il démolit le mur demi-circulaire du chœur, supprima la grande<lb/>tribune et créa le grand chœur actuel. Il abattit la voûte d’alors (20)<lb/>et la remplaça par la fausse voûte actuelle de charpente. Il éleva,<lb/>enfin, le clocher (21).</p>
+          <p><lb/>Son fils, Auguste Virebent, projeta, dès 1846, de compléter son<lb/>œuvre par la construction, à l’ouest, d’une rotonde semblable à celle<lb/>du chœur, à la place du vieux presbytère condamné. Cela eut permis,<lb/>lors de la percée de la rue d’Alsace, en 1873, de donner à Saint-<lb/>Jérôme une entrée digne d’elle sur la nouvelle voie. Ce projet fut<lb/>définitivement abandonné en 1878, et l’immeuble actuel s’éleva en<lb/>bordure de la rue d’Alsace, achevant d'étouffer l’élégant édifice, de<lb/>la verticalité sans grâce de ses hautes murailles aveugles, déjà<lb/>désagréablement dominé qu’il était par celles de la Commanderie<lb/>de Saint-Antoine-du-T.</p>
+          <p rend="labelled"><lb/>(17) Travail « à l'espagnole », rappelant celui du premier dôme de<lb/>Saint-Pierre, de Georges Allègre (1611), détruit également. Une double perte<lb/>pour Toulouse.</p>
+          <p rend="labelled"><lb/>(18) Détruit en 1805.</p>
+          <p rend="labelled"><lb/>(20) S'agissait-il de la voûte d'origine, « à l'espagnole », ou d’une réfection<lb/>de 1777, de toute la « charpente du grand Couvent » (?), qui menaçait de<lb/>s'effondrer, et qu'il fallut refaire « en son entier » (travail de Philippe Hardy,<lb/>architecte de la Daurade) ?</p>
+          <p rend="labelled"><lb/>(21) Qui renferme une cloche d'avant la Révolution.<fw type="digitisation-artefact"><lb/>OnEF/<lb/>ocio</fw></p>
+          <pb facs="0012.xml"/>
+          <milestone unit="page" n="28"/>
+          <p rend="heading"><lb/>LES ŒEUVRES D’ART</p>
+          <p><lb/>La presque totalité des œuvres d’art qui, de son origine à nos<lb/>jours, décora l’église Saint-Jérôme, a disparu dans la transforma¬<lb/>tion de 1805-1806 : peintures à fresque d’Hector Estienne pour la<lb/>galerie au-dessous de la tribune des confrères; plafond aux seize<lb/>caissons ornés de saints avec emblèmes et devises, par Pierre<lb/>Fournier; retable de Gervais Drouet de 1657, modifié en 1676-1677<lb/>par Philibert Chaillon et Antoine Guépin et peint et doré par<lb/>Guillaume Fenasse et Escoubé. De même ont disparu les décorations<lb/>du XIXe siècle : peintures des murs par Céroni et Triomphe de<lb/>saint Jérôme par le R.P. Pibou, ornant la voûte du sanctuaire<lb/>(1875).</p>
+          <p><lb/>Il reste tout de même et heureusement les bas-reliefs de Marc<lb/>Arcis, commandés par les Pénitents Bleus à ce bel artiste au début<lb/>du XVIIIe siècle. Dans ces bas-reliefs figurent la représentation de<lb/>dix vertus cardinales, théologales et morales, qui sont, à droite en<lb/>partant du chœur: la Foi, la Charité, la Justice, la Tempérance,<lb/>la Pénitence; à gauche, l'Espérance, la Prudence, la Force, la<lb/>Modestie, la Bienfaisance, toutes représentées par une figure<lb/>féminine et leurs attributs, parfois singuliers. En 1734 ou 1735,<lb/>Marc Arcis compléta sa décoration par des trophées d’église placés<lb/>entre les pilastres; peut-être aussi par les deux bas-reliefs de<lb/>« Concerts d’anges » de part et d’autre de l’orgue et le « grand<lb/>écusson de France » complètement masqué par ledit orgue (1).</p>
+          <p><lb/>Une autre belle œuvre décorant Saint-Jérôme est le tableau de<lb/>l’Invention de la Sainte Croix par Guillaume Guillon Lethière.<lb/>Cet artiste, qui n’a rien de toulousain puisque né à la Guadeloupe,<lb/>en 1760, mourut membre de l’Institut en 1832 après avoir parcouru<lb/>une carrière officielle. Son tableau, qu’il peignit à Rome en 1788,<lb/>fut offert, au moment de la création de la paroisse, par un amateur<lb/>distingué et membre du conseil de fabrique, au nom bien toulousain<lb/>de Pescayre, connu par un livre sur les prisons de Toulouse sous<lb/>la Terreur, qu’il était bien placé pour écrire, ayant été lui-même<lb/>au nombre des emprisonnés. Le tableau représente sainte Hélène et<lb/>saint Macaire, évêque de Jérusalem, au moment où l’on fait<lb/>approcher de la Sainte Croix une possédée qui guérira et un cadavre<lb/>qui ressuscitera.</p>
+          <p rend="labelled"><lb/>(1) Sur Marc ARCIS (1655-1739), nous renvoyons à ce que nous avons dit de<lb/>lui à propos de la visite du 17 avril 1966 au bas-relief d’Apollon et les Muses<lb/>au cinéma Le Rio, dans L'Auta de mai 1966.<fw type="digitisation-artefact"><lb/>rce gallica.bnf.fr/ Association des Toulousains de</fw></p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

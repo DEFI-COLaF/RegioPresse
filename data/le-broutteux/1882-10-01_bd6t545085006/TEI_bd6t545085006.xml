@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t545085006</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1882-10-01">1882</date>
+          <idno type="ARK">bd6t545085006</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t545085006</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Numéro 10. (1re ANNÉE).</fw>
+        <fw type="runningTitle"><lb/>Un Numéro: 10 centimes</fw>
+        <dateline><lb/>DIMANCHE 1er OCTOBRE 1882.</dateline>
+        <figure type="decoration"/>
+        <figure/>
+        <figure type="table">
+          <head><lb/>ABONNEMENTS:</head>
+        </figure>
+        <ab><milestone unit="column" n="1"/><lb/>ANNONCES:<lb/>La ligne ord. 20 centimes<lb/>Réclame (la ligne) 1 franc<lb/>On traite à forfait.<lb/><lb/>Il y a des bêtises qu'un<lb/>homme d'esprit achêterait.</ab>
+        <ab><lb/>VOISENON.</ab>
+        <p rend="heading"><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING</p>
+        <p rend="styled"><lb/>En vente à l'imprimerie FRÈRE-GLORIEUX, rue de Lille, 20, et chez M. Jules WATTEEUW Grand Place.</p>
+      </div>
+      <div type="article">
+        <head><lb/>IN A TREUVÉ.</head>
+        <p><lb/>In a treuvé inne chaine de monte in allu-<lb/>mium, l'erclamer au bureu du broutteux.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Rantan plan, rantan plan,<lb/>ill dot aller à l'fete de Lille inveuc les<lb/>pompis d'Tourco.</ab>
+        <p><lb/>Par après, in 1821 ch'éto M. Eugène Morel.<lb/>Et pus inne mioche alfos in a aquaté in autte<lb/>pompe, cha fait qu'in 1838 l'corps des pompis<lb/>compto quatre vingt chinq hommes queman-<lb/>dés pa M. Hinri Dervaux.</p>
+        <p><lb/>Six ans pus tard, in a lommé M. Darras<lb/>Lemaire commandant, et M. Henri Dervaux<lb/>capitaine d'inne copagnie d'chint trente deux<lb/>hommes.</p>
+        <p><lb/>In 1848 M. IMinistre d'l'Intérieur avo in-<lb/>voyi in drapeu aux pompis d'Tourco, pou<lb/>l'z'ermerchii d'chin qui n'd'avo parmi euss,<lb/>qui s'étottent rindus à Paris pou l'affaire<lb/>d'Juin, mais y paraitro que l'préfet pou n'po<lb/>faire de jalux, a wardé l'drapeu et n'l'a ja-<lb/><lb/>mais donné à les Tourtchégnos.</p>
+        <p><lb/>N'y fait à rin, l'garde nationale a fait<lb/>cadeu aux pompis d'in autte drapeu, et in<lb/>beu! savez?</p>
+        <p><lb/>Ch'est ben fait cha.</p>
+        <p><lb/>In 1853 in a réorganisé les pompis et<lb/>l'commandant ch'éto M. Louis Bernard ancien<lb/>capitaine de l'garde nationale.</p>
+        <p><lb/>Par après cha été M. Leser et aujourd'hu<lb/>l’commandant Masquelier.</p>
+        <p><lb/>Tchi qui veut vir leu portrait qui voiche<lb/>vir à l'hotel des pompis, y z'y sont tertus.</p>
+        <p><lb/>Et ch'n'est po tut, ch'est qu'les pompis ont<lb/>euch'teur in supplémint, inne belle pompe à<lb/>vapeur de l'forche de 40 gueveu et qu'il invo<lb/>d'l'eu à soixante mètes d'hauteur! et inne<lb/>autte pompe qui faut trinte hommes pou,<lb/>l'faire aller et qu'in appelle l'pianeu.</p>
+        <p><lb/>Au jour d'aujord'hu les pompis sont à chint<lb/>chinquante in ville, vingt-chinq à lrouche<lb/><lb/>crox quemandés par M. Bacquart, et vingt-<lb/>chinq au Blanc Sceu quemandés par M. Florin</p>
+        <p><lb/>Wetti inne fos, tcheu chang'mint d’pus<lb/>l'temps passé?</p>
+        <p rend="labelled"><lb/>Jdis tcheu chang'mint, pa rapport à l'or-<lb/>ganisation, mais sous l'rapport du dévoue-<lb/>mint, ch'est toudis les mêmes gins.</p>
+        <p><lb/>Comben qui n'd'a déjà d'péris d'tus les có-<lb/>tropiés, même à Tourco in s'rappelle ben<lb/>acore du fu d'inne filature d'ou qu'des bra-<lb/>ves pompis ont perdu la vie.</p>
+        <p><lb/>Et y n'd'a in autte qui est resté aflligi et<lb/>aveule!</p>
+        <p><lb/>Et malgré cha, est ce que vous n'veyi po<lb/>tous les jours acore des gins s'ingagi ? est ce<lb/>que les vótérans, les vis pompis ont jomais<lb/>erculer pou cha ?</p>
+        <p><lb/>Est ce qu'in a nin vu à Paris in pompis,<lb/>l'caporal Thibaut ristchi s'vie neuf fos à la<lb/>filée et sauver neuf personnes?</p>
+        <p><lb/>Et in autte aller serer in robinet d'vapeur<lb/>vin in fu et sauver in quarti tout intire?</p>
+        <p><lb/>Est ce qu’in n'a nin vu à Bordeaux quatte<lb/>pompis périr les uns après les auttes pour<lb/>aller sauver in p'tit afant?</p>
+        <p><lb/>Et malgré cha in a ri des pompis, in a fait<lb/>des tchanchons. Mais in sait ben que l'Fran-<lb/>çais ch'est vin sin caractère d'rire de tout<lb/>chin qui s’passe, et d’tourner tut in risée.<lb/>Nimpêche po, qu’si in étringer diro du ma<lb/>des pompis d'sin pays y trot l'premi à l'z'er-<lb/>vingi.</p>
+        <p><lb/>Infin, pou n'd'ervenir à les pompis d'Tourco,<lb/>y foro les vir défiler in grande tenue!</p>
+        <p><lb/>Ya la in avant, inne ringi d'sapeurs qui<lb/>n'd'a nulle vart des parels, tchan qui tourn'-<lb/>tent l'tcheu d'inne rue in diro qui coll'tent<lb/>tertus insonne, y font des conversions ch'est<lb/>drot comme inne fleche!<lb/></p>
+        <p><lb/>Et les djais clairons? et les tambours, du<lb/>qui n'd'a des mêmes? mais aussi ch'est les<lb/>garchons d’leu mon Père! ch'est les garchons<lb/>d'Téofi Lagache! l'tambour maite, l'vétéran<lb/>qui compte chinqante deux ans d'serviche.</p>
+        <lg>
+          <l><lb/>Aussi, ch'est pour li qu'in tchante.</l>
+          <l><lb/>v'la Téof, et qu'tout in chacun l'erwette</l>
+          <l><lb/>Sous sin bonnet, ses pleumes et sos galons.</l>
+          <l><lb/>Ch'est Téofl, ch'est no beu tambour matte</l>
+          <l><lb/>Maneuvrant s'ćanno á l'tète d'ses garchons.</l>
+          <l><lb/>Tus los pompis connaich'tent à fond s'n'histoire,</l>
+          <l><lb/>-</l>
+          <l><lb/>Chinquante années passées in dévouemint</l>
+          <l><lb/>Du bataillon, Téofi ch'est la gloire,</l>
+          <l><lb/>Et des pompis ch'est l'pus bel ornemint.</l>
+        </lg>
+        <lg>
+          <l><lb/>L'tambour maite in avant.</l>
+        </lg>
+      </div>
+      <div type="article">
+        <ab><lb/>est acore existante au jour d'aujourd'hu, tés victimes de leu corache et comben d'es-</ab>
+        <ab type="head"><lb/>LEUR, DISCIPLINE, DÉVOUEMENT.</ab>
+        <ab type="head"><lb/>NOU POMPIS.</ab>
+        <figure/>
+        <lg>
+          <l><lb/>Société un large</l>
+          <l><lb/>tribut de dévouement.</l>
+        </lg>
+        <p><lb/>Vu qu'nos pompis dottent fidjurer à les<lb/>fêtes d'Lille du 8 Octobe qui vint, j'pinsse<lb/>que je n'fro po mag'mint d'vus rinconter<lb/>leu z'histoire.</p>
+        <p><lb/>Peurdez l'vaclette, assiji vussus m'brouette<lb/>et alleumez vo pipette.</p>
+        <p><lb/>Vous y êtes? bon, accoutez:</p>
+        <p><lb/>Tourco n'a po toudis eu l'bonheur d'avoir<lb/><lb/>es gins dévoués pou combatte l'fu ; la preut'<lb/>ch'est que tehan qu'nou villache a brûlé in<lb/>1477, et l'lind'main d'Pâques, 16 avril 1607<lb/>qui a eu 80́ majons d'bralées, qu'in veyo<lb/>l'fu à Tournai).</p>
+        <p><lb/>In 1613 et in 1711 que Tourco a brûlé pres-<lb/>qu'in intire, y n'avo po d'pompis, adan, et po<lb/>d'copagnies d'asseurances comme euch'teur.</p>
+        <p><lb/>A c'momint la, y n'avo foque des sćeaus<lb/>in tchur qu'in metto par chi, par la, vin cer-<lb/>taines majons, et in 1701 les villes de Rou-<lb/>baix et Tourco faijottent in accord pou s'don-<lb/>ner s'cours l'inne à l'autte, in cas qui aro eu<lb/><lb/>du fu.</p>
+        <p><lb/>Ch'n'est foque in 1805 que Tourco a aquaté<lb/>à Lille inne pompe qui avo servi au siège de<lb/>1792, et ch'éto in lommé M. Richard, maite-<lb/>carpenti qui a qu'mande l'premire escouade de<lb/>pompis à Tourco, et cheull pompe qu'ill</p>
+      </div>
+    </body>
+  </text>
+</TEI>

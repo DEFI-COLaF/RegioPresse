@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136000j</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1891-07-27">1891</date>
+          <idno type="ARK">bpt6k8136000j</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136000j</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>DILUN, 27 DE JULIET 1891.</fw>
+        <fw type="runningTitle"><lb/>PROUMIERO ANNADO, No 21.</fw>
+        <ab><milestone unit="column" n="1"/><lb/><lb/>Baile dóu journau:<lb/>Folco DE BARONCKLLA<lb/></ab>
+        <lg>
+          <l><lb/>Nautri, li bon Prouvençau,</l>
+          <l><lb/>Au sufrage universau,</l>
+          <l><lb/>Voutaren pèr loli</l>
+          <l><lb/>E faren laidli.</l>
+        </lg>
+        <ab><milestone unit="column" n="3"/><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.<lb/>(Prouverbi de meissouniel</ab>
+        <ab><lb/>F. MISTRAL</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PÈR MES</p>
+        <figure/>
+        <ab><lb/>BURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>ver<lb/>M. Folco DE BanoNCELII,<lb/>au palais dou Roure,<lb/>EN AVIGNOUN<lb/></ab>
+        <figure type="table"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>TREMOUNT DE LUNO</head>
+        <ab><lb/>Quand iéu m’en sou - vène De Ma - damo Lau-ro, Me sèm-blo que vène Amou - rous de l'au- ro:<lb/>Des-pièi que noun trèvo La font de Vau - clu-so, La ca-lour f'es grè-vo, La ro - co l'es nu-so. Mai, o Ma-ga - li,<lb/>Douço Ma-ga - li, Gai-o Ma-ga - li, Es tuque m'asfa-fou - li! Mai,o Ma-ga - li, Douco Ma-ga - li,<lb/>Gal-o Ma-ga - li, Es tu que m'as fatre-fou - li!</ab>
+        <figure type="table"/>
+        <lg>
+          <l><lb/>Quand iéu m'ensouvène</l>
+          <l><lb/>De Madamo Lauro,</l>
+          <l><lb/>Me sèmblo que vène</l>
+          <l><lb/>Amourous de l'auro :</l>
+          <l><lb/>Despièi que noun trèvo</l>
+          <l><lb/>La font de Vau-Cluso,</l>
+          <l><lb/>La calour l'es grèvo,</l>
+          <l><lb/>La roco f'es nuso.</l>
+        </lg>
+        <lg>
+          <l><lb/>Mai, o Magali,</l>
+          <l><lb/>Douço Magali,</l>
+          <l><lb/>Gaio Magali,</l>
+          <l><lb/>Es tu que m'as fa trefouli!</l>
+        </lg>
+        <lg>
+          <l><lb/>Bello Passo-Roso,</l>
+          <l><lb/>Antan siés estado,</l>
+          <l><lb/>En vers coume en proso,</l>
+          <l><lb/>Bèn proun recantado:</l>
+          <l><lb/>Quouro s'encapellon</l>
+          <l><lb/>Dins l'aubo rousenco,</l>
+          <l><lb/>Toun sen nous rapellon</l>
+          <l><lb/>Li colo Baussenco.</l>
+        </lg>
+        <lg>
+          <l><lb/>Mai, o Magali,</l>
+          <l><lb/>Douço Magali,</l>
+          <l><lb/>Gaio Magali,</l>
+          <l><lb/>Es tu que m'as fa trefouli!</l>
+        </lg>
+        <ab type="head"><lb/>Sus l'er napoulitan: Oje Caruli.</ab>
+        <lg>
+          <l><lb/>Tóuti li roumanso</l>
+          <l><lb/>D'un troubaire ilustre:</l>
+          <l><lb/>Nicouleto manso,</l>
+          <l><lb/>Aro adiéu toun lustre !</l>
+        </lg>
+        <lg>
+          <l><lb/>Mai, o Magali,</l>
+          <l><lb/>Douço Magali,</l>
+          <l><lb/>Gaio Magali,</l>
+          <l><lb/>Es tu que m'as fa trefouli !</l>
+        </lg>
+        <lg>
+          <l><lb/>De la mountagneto</l>
+          <l><lb/>Flourissènt la gravo,</l>
+          <l><lb/>Dono Estefaneto</l>
+          <l><lb/>Vous enamouravo:</l>
+          <l><lb/>Tout acò degruno,</l>
+          <l><lb/>Lou dounjoun es véuse,</l>
+          <l><lb/>Li cigalo bruno</l>
+          <l><lb/>Canton sus lis éuse.</l>
+        </lg>
+        <lg>
+          <l><lb/>De la dindouleto,</l>
+          <l><lb/>De la paloumbello,</l>
+          <l><lb/>De la Pourceleto,</l>
+          <l><lb/>De la Mirabello,</l>
+          <l><lb/>De Coustanço d'Arle,</l>
+          <l><lb/>Rèino tant poulido,</l>
+          <l><lb/>Plus degun que parle :</l>
+          <l><lb/>Tout aco s'óublido.</l>
+        </lg>
+        <lg>
+          <l><lb/>Mai, o Magali,</l>
+          <l><lb/>Oouço Magali,</l>
+          <l><lb/>Gaio Magali,</l>
+          <l><lb/>Es tu que m'as fa trefouli!</l>
+        </lg>
+        <lg>
+          <l><lb/>Quant de felibresso</l>
+          <l><lb/>Avian en Durènço,</l>
+          <l><lb/>E quant d’alegresso</l>
+          <l><lb/>Qu'an pres l'escourrènço!</l>
+          <l><lb/>Quant d'Avignounenco,</l>
+          <l><lb/>Sus li permenado,</l>
+          <l><lb/>10 de Selounenco,</l>
+          <l><lb/>Avèn calignado !</l>
+        </lg>
+        <lg>
+          <l><lb/>Mai, o Magali.</l>
+          <l><lb/>Es tu, Magali,</l>
+          <l><lb/>Gaio Magali,</l>
+          <l><lb/>Que nous fas sèmpre trefouli !</l>
+        </lg>
+        <ab><lb/>Mai, o Magali.<lb/>Douço Magali,<lb/>Gaio Magali,<lb/>Es tu que m'as fa trefoulr.</ab>
+        <ab><lb/>Mai, o Magali,<lb/>Douço Magali,<lb/>Gaio Magali,<lb/>Es tu que m'as fa trefouli!</ab>
+        <ab><lb/>Ounte soun, Mabilo,<lb/>Blanco-Flour, Ramoundo<lb/>La gènto Sibilo.<lb/>La fièro Esclarmoundo?<lb/>Dins li miniaturo<lb/>De quauque vièi mounge,<lb/>Un brèu de pinturo<lb/>Nen retrais lou sounge.</ab>
+        <ab><lb/>Uno Nicouleto,<lb/>Qu'èro de Bèu-Caire,<lb/>Empliguè souleto<lb/>Eme soun fringaire<lb/><fw type="digitisation-artefact"><lb/>rc ai./Bbl̀u </fw></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

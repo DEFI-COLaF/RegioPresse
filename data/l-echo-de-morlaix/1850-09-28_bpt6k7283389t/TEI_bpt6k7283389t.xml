@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Écho de Morlaix</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7283389t</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Écho de Morlaix : feuille d'annonces : journal politique</title>
+          <publisher>V. Guilmer (Morlaix)</publisher>
+          <date when="1850-09-28">1850</date>
+          <idno type="ARK">bpt6k7283389t</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7283389t</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="bre">breton</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>L'ECHO DE MORLAIX.</fw>
+        <figure/>
+        <ab><milestone unit="column" n="1"/><lb/><lb/>Un Directeur, un Ingénieur, un Aumônier, un Médecin et un Pharmacien accompagneront eette première ex-<lb/>Envoyer un mandat sur la poste ou sur une Maison de Paris, à l'ordre de MM. VIGOUREL et Cie,<lb/>rait une assurance de suecès.<lb/>Rue Neuve Saint-Augustin, No 20. (Affranchir.<lb/>24, r.de Trévise,</ab>
+        <p rend="heading"><lb/>ACTIONS</p>
+        <ab><milestone unit="column" n="2"/><lb/>ACTIONS<lb/>10s etde 25<lb/>AU PORTEUR<lb/>Rue No S Augustin, 90.</ab>
+        <p rend="labelled"><lb/>5 L'ouverture de l'Frole Secondaire qui sera<lb/>tenue par le professeur ERS'ERVRE, à Morlaix,<lb/>grand'rue, No 15, aura lien la semaine qui suit im¬<lb/>médiatement la Poire-Haute. On pourra s'interire<lb/>avant cette époque, pour un jee trimestre.</p>
+        <p><lb/>La classe du matin se fera de 9 heures à 11.</p>
+        <p><lb/>la classe du soir, de 2 heures à 4.<lb/>Les heures d'intervalle ou suivantes seront consa-</p>
+        <p><lb/>erées à des leçons particulières ou à une étude.</p>
+        <p rend="heading"><lb/>DES MINES D'OR ET DE MERCURE.</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>)M. DUWAE., ancien dève de l'Ecole nor-<lb/>male de Rennes, ou il a obtenu le Brevet supérieur,<lb/>membre de l'Académie de l'Enseignement à Paris,<lb/>quitte l'école primaire supérieure de Dinan pour diri¬<lb/>ger le même enseignement à Mortaix. Ce fonetionnaire<lb/>de l'Universite fait partie du personnel de l'établisse-<lb/>ment qui doit s'ouvrir tres prochainement à Mortaix.<lb/></p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>A YENDRE.</head>
+        <p><lb/>Jeunes Plants - Hêtres, Frènes, Ormes et Chènes.<lb/>A Penanvern, en Sainte-Seve.</p>
+        <p><lb/>S'adresser à M. MACE, receceur, Notaire a<lb/>(9-)<lb/>Saint-Pol-de-Lion.</p>
+      </div>
+      <div type="article">
+        <head><lb/>AVIS AUX DARTREUX.</head>
+        <p><lb/>La plus heureuse découverte vient d'être faite per<lb/>M. DUMONT, Pharmacien, à Cambrai, d'une pom¬<lb/>made ou Cold-Cream hygiénique, pour la guérison<lb/>certaine et sans rechate, de toutes les Dartres. Tei-<lb/>gnes, Gales, Scrophules, Démangeaisons, Ueères de<lb/>mauvaise nature, etc. — L'art vétérinaire en retire<lb/>également les plus beaux résultats. — L.e seul dépêt<lb/>de ce cosmétique important, pour Moriaix, est a la<lb/>-<lb/>pharmacie Lu liia, où l'on trouve aussi les grains sé-<lb/>datifs de Cynoglosse, du mème auteur, pectoral tres<lb/>efficace dans les Rhumes, Toux nerveuse, Insomnie,<lb/>Crachement de sang, etc.</p>
+        <ab><lb/>100.000 FRANCS POUR UN FRANG.<lb/>Prix du Billet:<lb/>LOTerIe deS LiNgots d'Or<lb/>UIFRANC.<lb/>Prix du Billet :<lb/>UITFRAITC.<lb/>par la Gouvernement. par arrêté du 3 aout 1850. dans le but de lavoricer l'émigration gratuite et volontaire en Californie de 5.000 cuvriers sans travail.<lb/>eltent: — M. PORION, membre de<lb/><lb/><lb/>cien prefet de l’Aube<lb/>refecture<lb/>KDSINISTRATEUR: M. le capitsine J. LANGLOIS (du Harre<lb/>LOT PRINCIPAL, 400,000 FRANCS EN UN LINGOT D’OR.<lb/>LES LOTS SECONDAIRES SONT<lb/>Un Lot de 800, 000fr. — Un Lot de 100,000 fr. — Deux Lots de 30,000 fr. — Qustre Lois de 23,000 fr. — Cioq Lots de 10,000fr. — Dix Lois<lb/>de 5,000 fr. — Deux cents Lots de 1,000 fr. chacun.</ab>
+        <p><lb/>Tous les billets (un frane) concourent au tirage de tous<lb/>les lois,—du gros lot comme de lous les lois secondaires.<lb/>a valeur de tous les lois sera délivrée aux gagnants en<lb/>LINGOTS D'OR, au cours du jour du tirage, c'est-à- dire<lb/>qu'aucune réduction appréciable n'est à craindre sur l'es.</p>
+        <p><lb/>mandat ur poteudunetral<lb/>timation.<lb/></p>
+      </div>
+      <div type="article">
+        <ab><lb/>ct a le car, re de e,<lb/>le Gouvernement la autorisée à établir ses bureaux</ab>
+        <ab type="head"><lb/> 1100. LA CALIFORNIENYE ,00,00 P.<lb/>CAPITAI<lb/>ACTIONS</ab>
+        <ab type="head"><lb/>LA CALIPORNIENNE est la plus ancienne des Compagnies.</ab>
+        <p><lb/>406 assoclés-travailleurs, partis par ses soins pour la Californie; — une im-<lb/>mense quantité de marchandises expédiées à San-Francisco par six pavires;<lb/>CINQUANTE MILL.E franes déposés à la Ranque de France, sont des faits qui<lb/>témoignent assez de la confiance qui s'est attachée à cette entreprise.</p>
+        <p><lb/>Cette société a émis aujourd'hui pour une somme de DOUZE CENT MILLE<lb/>franes d'actions. La première émission sera de DEUX MIL.L.IONS.<lb/>La Compagnie expédie chaque mois un navire pour San-Francisco; — les</p>
+        <p><lb/>bénéfices realisés por ses opérations commerciales seront considérables.</p>
+        <p><lb/>(N. B.) Par une lettre adressée à MM. les Maires de<lb/>Paris et à tous les Maires du département de la Seine<lb/>M. le Préfet de police a invité ces fonctionnaires à vou¬<lb/>loir bien établir dans leurs bureaux, et sous leur pa-<lb/>tronage immédiat, des succursales pour la distribution<lb/>des billets de la Loterie des Lingots d'Or.</p>
+        <p><lb/>Garanti: 1e par les terrains que la Compagnle possède en Californie sur le lac Tulares et la rivière Porciun¬<lb/>cula; 2e par les navires qu'elle va acquerir, et 3e par les marchandises qu'elle recoit en paiement de ses actions<lb/>de cent franes. — Gérants de la Compagnie: VIGOUREL et O», Banquiers.<lb/>La Compagnie a pour principal but le commerce d'exportation. Elle recoit en conséquence toutes les marehan¬</p>
+        <p><lb/>dises qui lui sont offertes en paiement de ses actions de 100 fr. Il est de l'intérêt des producteurs, des manufac¬<lb/>turiers et des fabricants, que leurs produits soient les premiers à profiter du débouché nouveau que leur offre la<lb/>Calijornie. Cet intéret leur sera conservé en s'adressant a la Compagnie qui, dans ses comptoirs à San-Fran¬<lb/>cisco, a l'ecoulement assuré et faeile de tous les produits de nos fabriques.<lb/>La Compagnie exploitera aussi les mines d'or et de mercure, les terrains et les sables auriferes; mais elle a</p>
+        <p><lb/>limité à 500 le nombre des associes travailleurs. — Elle leur assure 50 p. * du produit brut de leurs travaux,<lb/>et pour rendre leur labeur moins péuible et plus lucratif, la Compagnie a acquis des machines brevetées poun,<lb/>T'extraction et l'amalgamation de f'or; à l'aide de ces machines, qui sont sa proprieté exciusive, le produit ordi¬<lb/>D'après des calculs établis sur des chiffres incontestables, les actions donneront quatorze capitaux pour un-<lb/>naire des travailleurs est centuple.<lb/></p>
+        <p><lb/>qui, multipliés par la durée de la Société, assurent une somme de 1200 francs aux actions de Dix francs, soit<lb/>140 franes par an, et celles de cent francs, douze mille six cents franes.<lb/>L.e premier départ de 150 travailleurs s'effectuera sur un des navires de la Compagnle, entièrement affrété</p>
+        <p><lb/>Des maisons, des tentes, des outlis de toutes sortes et des vivres abondants seront ex pédiés à ce premier départ.<lb/>par elle, du ter au tá septemb̀re prochain.</p>
+        <p><lb/>pédition.<lb/>Pordre du Directeur de la Loterie des Lingots d'Or. égale<lb/>en nombre de franes) au chiffre des billets demandes.<lb/>II n'y a point de billets dits de sèrie, et tous les billets de<lb/>UN frane peuvent indistinctement gagner soit le lot de<lb/>QUATRE CENT MILLE FRANCS, soit tout autre des<lb/>lois secondaires.</p>
+        <ab>
+          <stamp><lb/>Certifie par l'Imprimeur soussigne.</stamp>
+        </ab>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>Capital Social: Trois Millioua.</p>
+        <p rend="heading"><lb/>TActions de 1O f.<lb/>LA BRETONNEP<lb/>COMPAGNIE AGRICOLE ET COMMERCIALE EN CALIFORNIE.</p>
+        <p rend="labelled"><lb/>eu len<lb/>se Perviere<lb/>et enfin le quatrieme sur le beau navire le Me<lb/><lb/><lb/><lb/>du Havre le<lb/><lb/>mes d'une expé<lb/>reisieme sur l'Anne-i<lb/>deia. Au total: 186 TRAVAILLEURS pent partis ayant a leur tere de<lb/>etements, de vivrer<lb/>ouies sortes<lb/>Les Actionnaires peuvent donc, des <lb/>de machine<lb/><lb/><lb/><lb/>heis, de tentes, etc.<lb/>pettre toutes ses espe<lb/>compter sur de beaux resultats, car la Campagnie<lb/>laboadance, de mar<lb/>se<lb/>e l'établissement de colonies agricoles et<lb/><lb/><lb/>present<lb/><lb/>rances dans la recherche de lor : elle</p>
+        <p rend="heading"><lb/>IA PARIS.</p>
+        <p rend="labelled"><lb/>les epersiions de commeree si productives en Caldornie.<lb/>Les actions donnent droit à 80 POUR CENT sur tous les bénéfices de l'entreprise.</p>
+        <p><lb/>OELL.E, dirocteur-gérant, rue te Treciee. , 4 Paris. — il sua denveger un mandel s<lb/>ELE, dieestenerttant, rue te Treiee, 2, A . — e n <lb/>e YXDES IITRES DE 50, 100 ET S00 F. A PORTEUR O NOMINATIFS.<lb/>poste et en reçoit des actions por reiour du courrier.</p>
+        <ab><lb/>Le Gerast, v. GUM.MEN. lep.-Llb., rue d'Anguilles.<lb/>En Magiea Morlaix, le<lb/>1850.<lb/>Vu pour légalisation de la signatureci-contre.<fw type="digitisation-artefact"><lb/>ource gallica.bnf.fr / Bibliothèque nationale de France</fw></ab>
+        <ab><milestone unit="column" n="4"/><lb/>-</ab>
+        <ab><lb/>E<lb/><lb/></ab>
+        <note type="handwritten"><lb/>Br<lb/></note>
+      </div>
+    </body>
+  </text>
+</TEI>

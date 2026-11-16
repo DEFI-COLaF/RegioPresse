@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81360150</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1891-12-27">1891</date>
+          <idno type="ARK">bpt6k81360150</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81360150</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>PROUMIERO ANNADO, No 36.</fw>
+        <dateline><lb/>Secretari de la vedacioun: GrAntÉ PEnRIER.</dateline>
+        <ab><milestone unit="column" n="3"/><lb/>DIMENCHE, 27 DE DESÈMBRE 1891.</ab>
+        <ab><milestone unit="column" n="1"/><lb/>Au sufrage mniverau,<lb/>Voutaren per l'oli<lb/>E faren Paioti.<lb/>F. MISTRAL.<lb/>BURÉU dE REDACIOUN E D'ABOUNAGE<lb/>VERS M. DE BARONCELLI,<lb/>au palais déu Roure, en Avignoun.</ab>
+        <p rend="heading"><lb/>Nautri, li bon Prouvençau,</p>
+        <ab><lb/>Vidoun, Vidari,<lb/>Segound la vido<lb/>Lou journau.<lb/>(Prouverbe de méissounies</ab>
+        <figure type="table">
+          <head><lb/>PRES DE L'ABOUNAMEN :</head>
+        </figure>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES</p>
+        <ab><lb/>Baile déu journau: M. DE BANONCELLI.<lb/>pinta pèr HÉBERT, grava pèr GAILLARD, e signa<lb/>dou felibre, sara douna en primo à tóutilis abouna.<lb/>vièi e nouvéu, dóu journau L'Aióli per l'annado 1892.</ab>
+        <figure/>
+      </div>
+      <div type="article">
+        <head><lb/>PRIMO DE L’AIOLI</head>
+        <head><lb/>LOU RETRA DE FREDERI MISTRAL</head>
+        <p><lb/>Aquelo magnifico estampo, aquelo obro d'art re¬<lb/>quisto, uno di mies reüssido dóu celèbre pintre<lb/>Hébert, ancian direitour de l'Escolo de Roumo, e<lb/>dou gravaire Gaillard, lou plus fin burinaire dóu<lb/>siècle XIX, e estampado à Paris pèr l'empremèire<lb/>Wittmann sus riche papie d'Oulando, se vènd 10 fr.<lb/>dins lou coumerce (à Paris, encò de Sagot, rue<lb/>Guénégaud, 181. Li leitour de l'Aioli, abouna pèr<lb/>un an, la van reçaupre pèr estreno, au renouve-<lb/>lamen o pagamen de sa quitanço, à l'intrado de<lb/><lb/>l'an que vèn.</p>
+        <figure type="decoration"/>
+        <p><lb/>Tóuti lis assistant fan lou signe de la crous,<lb/>e dóu vin que rèsto n’en vuejon un pau dins<lb/>chascun di vèire esparpaia sus la taulo dóu<lb/>Gros Soupa.</p>
+        <p><lb/>Aquéu moumen d'emoucioun, ressenti pèr<lb/>tout lou mounde au plus prefound de soun<lb/>cor, chascun cerco sa plaço e se bouto à taulo,<lb/>quand grand-paire se lèvo en gangassant la<lb/>tèsto e, li lagremo is uei, dis en aussant soun<lb/>vèire que i'a dedins un pau d'aquéu vin benesi:</p>
+        <p rend="labelled"><lb/>— A l'Enfant-Diéu !</p>
+        <p><lb/>E pichoun e grand, trincon à la glòri de<lb/>Noste-Segne!</p>
+        <p><lb/>Pièi, lou repas es adu, e jouiousamen li<lb/>maisso travaion! Li cousin e li cousino, e<lb/>meme li vièii gènt, fan peta lou gargassoun.<lb/>Li plat se netejon poulidamen! Tóuti li visage<lb/>s'arregardon e tóuti li bouco dison de bèlli<lb/>causo ! Lou Gros Soupa, acò 's lou rai de<lb/>soulèu di famiho que s'amon!</p>
+        <p rend="labelled"><lb/>— Man, nous sommes pas encore au nougat?<lb/>demando l'enfantounet Marius.</p>
+        <p rend="labelled"><lb/>— Lou nougat? Va veni. Agues paciènci,<lb/>moun bèl agnèu !</p>
+        <p><lb/>Lou Gros Soupa, de parladisso en galejado,<lb/>tiro sus li vounge ouro. La jouinesso pòu plus<lb/>resta assetado, li cambo souto la taulo. Li<lb/>Sournigo ié prenon, e fau que boulegon de<lb/>tout caire. Es alor que s'adus lou vin cué. Ca-<lb/>pouchin de carto, garo i tèsto ! Zóu ! à la bou-<lb/>Sho! E vuejo que vujaras ! E quand, dins<lb/>chasque vèire, n'i'a 'no bono lampado, peirin,<lb/>éu, porto un brinde e, se levant tout dre, dis:</p>
+        <p rend="labelled"><lb/>— Dau, mis enfant! Es au vin cué, vuei,<lb/>que se repatrion aquéli que s'en volon. Vuei,<lb/>tout s'oublido ! Urousamen, dins nosto famiho<lb/>chascun s'amo bèn ; mai, pamens, se f'avié<lb/><lb/>quàuqui ressentimen, li fau refoula au founs<lb/>dóu cor! Mi bràvi pitouet, mi bèlli chato, à<lb/>miejo-niue sounara la messo d'aquéu qu'es<lb/><lb/>nascu sus la paio rescaufado dóu biòu e de<lb/>l'ase ! Anas-ié tóuti, e pregas lou bon Diéu que<lb/>vous doune la santa e que nous fague la gràci<lb/>de vous vèire marida! —</p>
+        <p><lb/>E aubourant soun vèire em’un pichot tre-<lb/>moulun e lou picant contro lou vèire de la<lb/>grand, dis en risènt de bonur :</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Un poulit canlet-nori,</ab>
+        <ab type="head"><lb/>LOU GROS SOUPA</ab>
+        <p><lb/>Touto la semanado s'es passado à freta, à-<lb/>n-espóussa, à neteja. E quand li Calèndo arri-<lb/>bon, l'oustau lusis coume un louis-d'or.</p>
+        <p><lb/>Nouvè! deman sara Nouvè ! e vuei que n'es<lb/>la vèio, l'aura l'acamp dóu Gros Soupa. Aquéu<lb/>jour, lis escalié viron à la carriero, e touti lis<lb/>oustau embaumon di bon fricot.</p>
+        <p rend="labelled"><lb/>— Anen, li vièi, li jouine, li drole, li fiheto,<lb/>vite, vite à la taulo, qu'au clouchié trignoulejo<lb/>la « campano dóu nougat!»</p>
+        <p rend="labelled"><lb/>— Mieto, avanço lou fautuei à la plaço dóu<lb/>rèire-grand, pièi la bello cadiero davans l'as-<lb/>sieto de grand-maire, dis Cheilano à sa chato.</p>
+        <p rend="labelled"><lb/>— O la bello taulado !.. Tè, Clara, respond<lb/>Mieto, desplego la napo emé ieu... Eici peirin<lb/>e eici meirino; à coustat tanto Teresoun, e,<lb/>pèr rire un pau, li cousin e li cousino en<lb/>pelau!</p>
+        <p rend="labelled"><lb/>– An! Clara, ajudo Mieto! countunio dono<lb/>Cheilano. Mete de frisouleto i candelié em' i<lb/>viholo, e, dins lis assieto escricho, alestis li<lb/>pachichoi.</p>
+        <p rend="labelled"><lb/>– Man ! crido Marius, y a du nougat pour<lb/>le gros souper ?</p>
+        <p rend="labelled"><lb/>Voui, moun enfant, voui, y'a du nougat;<lb/>n'i'a dóu rouge e dóu blanc!</p>
+        <p rend="labelled"><lb/>- E de poumpo, de vin cué e d'arange d'A-<lb/>frico que toun ouncle a manda d'Argié! dis<lb/>tambèn Batistin en derrabant li plumo d’uno<lb/>dindo que tèn entre si cambo — e que se man-<lb/>jara deman.</p>
+        <p rend="labelled"><lb/>— Sènso coumta la raito emé la sausso de<lb/>tapeno, respond Mèste Cheilan en niflant lis<lb/>oudour que sorton dóu fougueiroun. —</p>
+        <p><lb/>Mai la niue es vengudo, e, de tout caire, en-<lb/>tendès chapla lou bos calendau. Li chaminèio<lb/>tubon e li cacho-fiò s'abrason i belugo di<lb/>gavèu.</p>
+        <p><lb/>Mieto e Clara an mes la taulo, qu'es uno<lb/>meraviho de proupreta e d'arrenjamen.</p>
+        <p><lb/>Sèt ouro picon au reloge. Subran, un brut<lb/>de voues s'esbaudis dins lis escalié. O li bràvi<lb/>pitouet! Que voste rire dure, car la vido es pas<lb/>toujour gaio en aquesto fin de siècle!</p>
+        <p><lb/>Darrié rèire-grand e grand-maire, vaqui pei-<lb/>rin e meirino emé Teresoun, pièi tóuti li galo-<lb/>bon-tèms que gatihon li chatouno... Tè, mai,<lb/>qu canto ansin?</p>
+        <lg>
+          <l><lb/>Dos roundello de toun</l>
+          <l><lb/>Cuecho emé de bon oli,</l>
+          <l><lb/>Nau mai que de pebroun.</l>
+        </lg>
+        <p rend="labelled"><lb/>Acò? Es Bernat emé sa voues de basso-<lb/>taio!</p>
+        <p><lb/>E tóuti li fiheto de souspira:</p>
+        <p rend="labelled"><lb/>– Qu'es brave, aquéu Bernat! Coume canto<lb/>ben!</p>
+        <p><lb/>Pamens, Cheilan e sa femo vènon à l'enda-<lb/>vans di grand parènt. Chascun se jito dins li<lb/>bras dis un e dis autre e, coume un cop de<lb/>vènt, coume uno bourrasco, touto la jouinesso<lb/>intro en sautejant! O mis ami, qu'es bon de<lb/>countempla tant d'unioun, aqui dins l'oustau<lb/>peirau!</p>
+        <p><lb/>Alor, tóuti lis enfant autour d'elo, grand-<lb/>maire pren sus la taulo un vèire de vin qu'a-<lb/>vié prepara sa fiho Cheilano; pièi, la plus jouino<lb/>Shatouno, qu'es Margarido, met sa pichoto<lb/>man dins la man de sa rèire-grand, e tóuti dos<lb/>s'avançon davans lou fiò que flamejo si pam-<lb/>paieto d'or:</p>
+        <p rend="labelled"><lb/>— Au noum dóu Paire, dóu Fiéu e dóu<lb/>Sant-Esprit, te benesisse! dis la vièio en jitant<lb/>sus lou fiò la mita dóu vèire de vin.<fw type="digitisation-artefact"><lb/>ource gallica.bnf.fr/Bibliothèques de Marseille</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

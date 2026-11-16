@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t51150987t</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1842-02-18">1842</date>
+          <idno type="ARK">bd6t51150987t</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t51150987t</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <head><lb/>PEUILE POLITIOUE, LITTERAIRE, SMMERCNAIE ET INDUSTRIELLE.<lb/>18 FRANCS PAR AN, 9 francs pour 6 mois, 3 francs pour 3 mois.</head>
+        <p rend="styled"><milestone unit="column" n="2"/><lb/>On s'abonne à Dijon, au Bureau, rue Verrerie, 2 bis, où l'on reçoit toutes les communications qui peuvent intéresser le chef-lieu ou les communes<lb/>du département. – Les lettres doivent être affranchies et signées pour la garantie du rédacteur responsable.</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>M. Ducos vient d'être rejetée à la majorité de 41 voix.</p>
+        <p><lb/>427 votans, 234 boules noires, 193 boules blanches.</p>
+        <ab type="head"><lb/>Pour le pair de Frunce, préfet de la Côte d'or, en session.</ab>
+        <figure type="decoration"/>
+        <p><lb/>enoncé par cette dépêche. nous souhaitons connaitre<lb/>le sentiment de la presse coalisée sur cette décision<lb/>qui la fait trébucher lourdement dès son premier pas<lb/>meurs de la Mode et du Charivari, et les condamnations<lb/>qui les ont frappés sont tégales. Il y a donc une loi<lb/>qui les autorise et qui leur a donné ce caractère de<lb/>légalité : et en effet ils avouent que celle du 17 mai<lb/>1819 atteint les délits de publication commis par la</p>
+        <p><lb/>duQuimporte d3 que lese tois de es juillet 1828 et<lb/>nière spéciale les garanties par lesquelles on a senti le<lb/>ber oin d'assurer plus efficacement la responsabilité des<lb/>gérans, propriétaires, rédacteurs des journaux et<lb/>autres écrits périodiques, sans s'occuper formellement<lb/>de celle des imprimeurs? puisque les Débats con¬<lb/>viennent qu'elle résulte de la loi de 1819, qui de leur<lb/>aveu n’est pas abrogée, et qu'i y a avantage à la<lb/>laisser dans nos Codes, parce qu'ii peut se présenter<lb/>des cas où il soit juste et raisonnable d'en faire l'appli-<lb/>cation, comme dans les procèes de la Mode et du<lb/>Charivari qu'ils ont eux-mêmes cités en exemple<lb/>pourvu, ajoutent-ils, qu'on n'y recoure pas pour les</p>
+        <p><lb/>Eh! de quel droit et en vertu de quel principe les<lb/>Débals apposent-ils cette restriction à l'autorité de la<lb/>loi de 1819? Rien, disent-ils, n'oblige dans ces cas de<lb/>recourir à cette loi. C'est une assertion fort contes-<lb/>table : mais je l'admets; ils conviendront au moins que</p>
+        <p><lb/>l'instruction d'un delit de presse ont des raisons de<lb/>croire ou seulement de présumer que l'imprimeur de<lb/>l'écrit incriminé soit coupable de complicité, peut-on<lb/>leur contester le droit de procéder contre lui pour dé-<lb/>couvrir s'il peut être prévenu d'avoir encouru la res-<lb/>ponsabilité? Peut-on ensuite dénier à la chambre des<lb/>mises en aceusation celui de le faire comparaître de-<lb/>vant la cour d’assises ? Et n’arrive-t-on pas nécessai¬<lb/>rement à faire décider par le jury sil est coupable ou</p>
+        <p><lb/>La distinction des Débats entre les affaires ordinai-<lb/>res, qui ne doivent pas engager la responsabilité de<lb/>l'imprimeur, et les cas plus graves où il l'encourt,<lb/>n’a donc aucun fondement, et elle ne va à rien moins<lb/>qu’à porter une atteinte tout-à-fait arbitraire à l'indé¬<lb/>pendance des tribunaux et à l'autorité des lois. D’où<lb/>je conclus que le système de ce journal est une erreur<lb/>insoutenable. Et mon opinion n’est pas suspecte, puis-<lb/>que la théorie des Débats n'intéresse pas le Journal de<lb/>la Côte-d'Or, dont le gérant est en même temps l'im-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>De la responsabilité des imprimeurs dans</head>
+        <p><lb/>savoir quelle doit être la responsabilité des imprimeurs</p>
+        <p><lb/>portance que les journaux de l'opposition s'efforcent de<lb/>lui donner. Nous ne croyons pas que la charte soit violée<lb/>et la liberté de la presse en péril, parce que deux impri¬<lb/><lb/>meurs ont été condamnés en vertu d'une loi que l'on peut<lb/>critiquer, mais qui fait encore partie de nos codes. Les<lb/>poursuites exercées contre les imprimeurs et les condam¬<lb/>nations qui les ont frappés, sont légales: il n'y a pas de<lb/>doutes à élever sur ce point. Nous ne prenous pas au sé-<lb/><lb/>rieux la petite malice des feuilles légitimistes qui parais-<lb/>sent en blanc, et font des procès à leurs imprimeurs, le<lb/>gout pour faire croire à leurs lecteurs qu'elles ont été mu¬<lb/>tilées par les ciseaux d'une censure nouvelle. Il faut ren-<lb/>trer dans la vérité des choses et présenter la question dans<lb/></p>
+        <p><lb/>forme à ces principes, si elle offre toutes les garanties ré-<lb/>clamées par l'ordre public, et si elle a pourvu d’une ma-<lb/>nière suffisante à la repression des délits commis par la<lb/><lb/>presse. Or, notre conviction profonde est que le système<lb/>établi par la loi du 18 juillet 1828, et renforcé par la loi<lb/>au 9 septembre 1835, est la meilleure solution du pro¬</p>
+        <p><lb/>bilité sérieuse et efficace, au lieu de fictive et d'illusoire<lb/>qu'elle était sous le régime des éditeurs responsables. C'est<lb/>ce que la loi de 1828 a fait, en exigeant que le gérant soit<lb/>propriétaire pour une part considérable du journal ; c'est<lb/>ce que la loi du 9 septembre 1835 a mieux fait encore en<lb/>exigeant que le tiers du eautionnement appartienne en pro¬</p>
+        <p><lb/>vindicte publique est satisfaite par la punition qui al</p>
+        <p><lb/>it les imprimeurs.<lb/>en les chargeant d’exercer un contrôle habituel et prema-<lb/>nent sur les journaux qu’ils impriment. On les oblige à pro¬<lb/>noncer sur les questions les plus délicates, et on les expose<lb/>à se perdre au milien des piéges que leur tendront les vie-</p>
+        <p><lb/>combiné par la loi du 18 juillet 1828 et par les lois de<lb/>septembre. et dont la responsabilité du gérant est le prin¬<lb/>eipe, suffit pour protéger l'ordre public, et rend superflue<lb/><lb/>la garantie que l'on cherche dans la responsabilité des im¬<lb/>primeurs. Hors de ce système, on se perd dans le faux et<lb/>dans l'arbitraire. Rien n'oblige de recourir à la loi de 1819</p>
+        <p><lb/>l'application de cette loi devienne juste et raisonnable; te<lb/>est le cas oû l'article incriminé porte un caractère de cul¬<lb/><lb/>pabilité si flagrant que l'imprimeur ne puisse invoquer sa<lb/>bonne foi, et qu’il soit présumé s’être associé d'intention<lb/>au crime ou au délit commis par l'auteur. Il n'y a dono<lb/>pas d’inconvénient, il peut y avoir avantage à conserver<lb/>la loi de 1819, pourvu qu'il soit bien entendu que, dans<lb/>les cas ordinaires, elle ne sera jamais appliquée aux écrits</p>
+        <p rend="labelled"><lb/>—Dans cetarticle des Débats, leur logique<lb/>complètement en défaut. Ils commencent par recon-<lb/>saltre que los poursuites exercées contre les impri-</p>
+      </div>
+      <div type="article">
+        <p><lb/>Il parait certain que le gouvernement est décidé a<lb/>s’entendre avec la commission que la chambre des dépu¬<lb/>tés chargera d’examiner le projet de loi sur les chemins de<lb/>fer, pour faire commencer immédiatement l'exécution<lb/>d'une partie de la ligne directe de Paris à Strasbourg, et<lb/>pour taire entrer dans les grandes lignes de l'Etat le che-<lb/>min de Strasbourg à Marseillle par Mulhouse, Dijon et Lyon.<lb/>Un crédit sera également demandé cette année à l'effet de<lb/>commencer, en 1842, les travaux sur cette nouvelle grande</p>
+      </div>
+      <div type="article">
+        <p><lb/>Le projet de ee chemin a été l'objet d'un rapport de la<lb/>seconde commission d'enquête du département de la côte¬<lb/>d'Or, dont les bases avaient été arrètées à la séance du<lb/>janvier dernier, et qui a élé adopté par délibération du 14.<lb/>sur le projet rédigé par M. DARCY, ingénieur en chef de la<lb/>Côte-d'Or. Nous allons en donner l'analyse comme nous<lb/>l'avons fait dans notre dernier n^o, pour son travail sur la</p>
+        <p rend="styled"><lb/>Ulilité publique d'un rail-way entre Dijon et Mulhouse.</p>
+        <p><lb/>Dijon est le point de passage obligé du chemin du Hà-<lb/>vre à Marseille: le rail-way de Mulhouse à Marseille doit<lb/>encore aboutir à Dijon; de plus le chemin de Mulhouse à</p>
+        <p><lb/>quer avec le Hâvre et Paris d'une part; avec Lyon et Mar-<lb/>seille de l'autre, par le seul fait de l'établissement du che-<lb/>min de Mulhonse dont la longueur n'est que de 210 kilo¬<lb/>mètres, et dont la construction n'exigera qu'une dépense<lb/>de 50,000,000 fr. Ajouterons-nous que le système qui per¬<lb/>met d'obtenir cet immense résultat, de la manière la moins<lb/>onéreuse pour le trésor, présentera encore les plus grandes<lb/>chances de succès pour l'exploitation des lignes qui rayon¬<lb/>neraient au centre commun; car chacun des rails-ways se-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Par suite des considérations qui précédent, la commissior</head>
+        <p><lb/>Et, cependant, cetteligne présente seule un développe¬<lb/>ment de 496 kilomètres, un profil très-accidenté, des<lb/>souterrains d'une immense étendue, tandis que pour réu¬</p>
+        <p><lb/>tesapor l'etat eurait à construire que 34<lb/><lb/></p>
+        <p><lb/>Voyons maintenant à quelles conséquences entrainerait<lb/>l'adoption du tracé par Arcis-sur-Aube, dans l'hypothèse<lb/>de l'ajournement indéfini du projet de chemin de Mulhouse</p>
+        <p><lb/>Dans ce système on aurait immédiatement à construire<lb/>189 kilomètres de plus que dans le second, ce qui repré¬<lb/>sente une dépense d’environ 55,000,000 fr., à raison des<lb/>difficultés de tracé présentées par la ligne de Paris à Stras-</p>
+        <p><lb/>En présence de pareils résultats, il est difficile de justi¬<lb/>fier les prétentions exclusives de la ville de Strasbourg. Ce<lb/>n'est pas sans doute une augmentetion d’environ quatre<lb/>heures dans le temps du parcours entre cette ville et Paris</p>
+        <p><lb/>Nous croyons inutile d'entrer dans les calculs du rap-<lb/>port sur le mouvement des ports de Strasbourg et de Mul¬<lb/>house et sur le transit commercial. M. DARCY résume ainsi</p>
+        <p><lb/>La ligne de Paris à Strasbourg ne possède dans sa direc-</p>
+        <p><lb/>La ligne de Paris à Mulhouse et àen aide à untra</p>
+        <p><lb/>Sous le point de vue des considérations stratégiques, le</p>
+        <p><lb/>La Commission croit inutile d’indiquer ici les considéra¬<lb/>tions mititaires qui doivent faire prélérer le tracé par Dijon<lb/>à la ligne directe de Strasbourg; elle se bornera à rappeler<lb/>la délibération du comité des fortifications. (Séance du 14<lb/>avril 1841). — Nous l'avons citée dans notre dernier nu¬</p>
+        <p><lb/>Nous avons démontré, est-il dit dans le résumé de la</p>
+        <p><lb/>s plus considérabe que celui du pou<lb/>-</p>
+        <p><lb/>2^o Que le transit du Hâvre à Strasbourg est, au transit</p>
+        <p><lb/>Nous avons, de plus, rappelé que le comité des fortifi-<lb/>cations réclamait avec instance la ligne de Paris à Mul¬</p>
+        <p><lb/>Toutes les considérations se retsisnn hésiter la procla<lb/>de cette dernière ligne, et l'on doit sans hésiter la procla</p>
+        <p><lb/>l'enquête; c'est l'objet de la 2^e question que le rappor</p>
+        <p><lb/>Est-il préférable de passer dans le département de la<lb/>Haute-Saône? Convient-il mieux, au contraire, de traver¬</p>
+        <p><lb/>C'est cette dernière direction que propose M. Darcy, en<lb/>la justifiant aussi par des renseignemens statistiques sur la<lb/>circulation des voyageurs et le mouvement commercial du</p>
+        <p rend="labelled"><lb/>Dannemarie, Montbéliard, Baume et Besançon, avec em-</p>
+        <p rend="structured"><lb/>SAUNAC, député de la Côte-d'Or, président; V. DUMAY,</p>
+        <figure type="decoration"/>
+        <p><lb/>Un chemin direct de Paris à Strasbourg, ou bien, par<lb/>transaction, une ligne s'infléchissant à Arcis-sur-Aube<lb/>avec embranchement sur Lyon, à partir de ce dernier</p>
+        <p><lb/>Paris à Strasbo urg ne relierait<lb/>l'ouest à l’est de la France, et même, nous veorons plus<lb/>tard qu'il n'arriverait pas aux points de la frontière de l'est</p>
+      </div>
+      <div type="article">
+        <p><lb/>Le comité de la cavalcade du dimanche des Brandons<lb/>remercie, au nom de tous, M. le maire en particulier,<lb/>et Messieurs de la mairie en général, du concours bien¬<lb/>veillant qu’ils lui ont prêté. Il leur adresse ses excuses<lb/>de n’avoir pu temoigner à chacun de MM. les adminis¬<lb/>trateurs sa reconnaissance par une manifestation que<lb/>la difficulté des rues qu’ils habitent a rendue imprati-<lb/>cable, et les prie d’accepter comme entièrement pour<lb/>eux les haltes qn'ils ont faites sur la place principale,</p>
+        <pb facs="0002.xml"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>cession a été plus apparente que réelle. En accompagnant dont la chapelle sera dédiée à saint Fortunat, évèque de<lb/>vail des agens du trésor, travail auquel ils étaient demeu- nous pouvons estimer. Beaucoup de soldats sont morts</ab>
+        <p><lb/>tés (propositionde M. Ganneron); elle espère prendre sa)<lb/><lb/>revanche sur la question des capacités (proposition de M.</p>
+        <p><lb/>que la révolution de juillet, qui a tout désapprouvé, tou<lb/>combattu depuis dix ans. Il y en a une autre plus récente,<lb/>mais plus exaspérée peut-être, et c’est surtout cette der¬<lb/>nièra qui a des vengeauces à exercer contre la majorité ac-<lb/></p>
+        <p><lb/>opposition ; pes cbalitestés partent de la mêmen ma p el tet<lb/>dent au même but. Il importe fort peu à M. Thiers qu’un<lb/>certain nombre de licenciés soient ou ne soient pas élec-<lb/>teurs; mais il lui importe beaucoup qu'un changement<lb/>dans la législation électorale lui ouvre, pour ressaisir le<lb/><lb/>pouvoir, des chances qu’il a perdues par sa faute. Il lui im-<lb/>porte beaucoup que ce ne soit pas un ministère ferme e<lb/>décidément conversateur, un cabinet lié à la majorité ac-<lb/>tuelle par la solidarité de deux ans de politique, qui pré-</p>
+        <p><lb/>nion d'organisation politique ; c’est une question de minis¬<lb/></p>
+        <p><lb/>dans quelques mois la majorité électorale pourra bien bri-</p>
+        <p><lb/>Quand la gauche modérée, celle qui reconnaît pour chef M.<lb/>Odillon Barrot, croira devoir saisir les chambres d'un pro-<lb/>jet de réforme, elle ne s'arrêtera pas là. Donner aux listes<lb/>électorales la même étendue qu'aux listes du jury, c’est<lb/>faire une partie de ce que nos amis souhaitent ; mais ce<lb/>n'est ni faire tout ce qu'ils demandent, ni remplir le plus</p>
+        <p><lb/>puisse tenir la corruption en écchec, et rendre à l'élection<lb/><lb/>son caractère politique, est la réunion des électeurs au<lb/>chef-lieu du département. Jusqu’à ce que la loi ait rassem¬<lb/>blé et concentré les votes qui s'éparpillent à l'ombre de<lb/>cinq ou six clochers d’arrondissement, la nomination des<lb/>députés doit rester à la merci des influences locales ; les<lb/>opinions n'y seront pour rien. Le gouvernement parle-</p>
+        <p><lb/>mesure de proposer cette réforme avec quelque chance<lb/>de succès, elle attendra donc, et n’acceptera qu'à titre de<lb/>satisfaction provisoire les concessions qu’on lui fera. En-<lb/>visagée sous cet aspect, la proposition de M. Ducos a des<lb/>avantages que nous ne prétendons pas contester ; et la gau-<lb/>che se doit à elle-méme de la défendre par tous les moyens</p>
+        <p><lb/>l'on est convenu d'appeler les capacités, c’est introduire<lb/>dans la loi un principe nouveau, le principe de l'intelligen-<lb/>ce, le véritable tire des démocraties. Nous savons que bien<lb/>des gens en trouveront l'application mesquine. Mais il ne<lb/>dépend pas de nous que la chambre soit disposée à recon-<lb/>naitre toutes les conséquences du principe ; et il faut se fier</p>
+        <p><lb/>n’est qu'un premier pas, comme toute la presse coa-<lb/>lisée l’a déclaré, pour introduire l’ennemi dans le<lb/>corps de la place et miner l'une après l’autre toutes<lb/>les garanties de la législation électorale. Que la cham¬<lb/>bre se souvienne du conseil d'un poète latin: princi-</p>
+        <p rend="labelled"><lb/>LLes bureaux de la chambre des députés, après huit<lb/>joars ae selserations, ont terminé t'examen du budget de</p>
+        <p><lb/>gne, ministre des finances dans le cabinet du 15 avril, cette</p>
+        <p rend="labelled"><lb/>de la répartition à établir entre les départemens. Suivant<lb/>lui, un grand nombre de citoyens ayant cru pouvoir fer-<lb/>mer leurs portes, et l'autorité ayant passé outre la taxation<lb/>des habitations sans y pénétrer, cette taxation a dû néces-<lb/><lb/>sairement donner lieu à des erreurs. Sans doute la taxa-<lb/>tion aurait pour résultat d'atteindre le contribuable récal-<lb/>citrant; mais s’il y avait en exagération lors de la réparti-<lb/>résulterait une aggravation de charge, non pour le contri¬<lb/><lb/>buable qui aurait refusé de se soumettre à la loi, mais pour<lb/>les communes elles-mêmes. Ce motif seul lui paraît suffi-<lb/>sant pour qu'on entache de nullité l'opération du recense-<lb/></p>
+        <p rend="labelled"><lb/>il en résulterait, si le travail ministériel était adopté, que<lb/>trouveraient mieux traitées que celles où cette faveur a été</p>
+        <p rend="labelled"><lb/>préopinant, n'est pas d'accord sur les conséquences indi-<lb/>quées par M. Muteau. Si, dans quelques villes, l'autorité<lb/>supérieure, en vue d'éviter des troubles et des scènes de<lb/>désordre, a paru accepter et même provoquer le concours<lb/>des conseillers municipaux et des répartiteurs, cette con-</p>
+        <p rend="labelled"><lb/>communié à Pâques (sur 3,000 environ de garnison); là<lb/>le rapprochement semble se préparer entre les Arabes et<lb/>nous: A Gigelly, j’ai un hôpital, et je vais bénir un sanctuaire;<lb/>à Bougie, j'ai un prêtre, une assez jolie église, un trés-<lb/>grand hôpital avec un seul prêtre. Sans y comprendre les<lb/>militaires de Constantine, j'ai donné la communion à près<lb/>de 3,000 personnes dans le temps pascal, suivant ce que<lb/>dans le courant de l'année, et, sur ce nombre, la plupart<lb/>ont reçu les derniers secours de la religion.... Cette année<lb/>même, et au péril de leur vie, plusieurs de mes prêtres ont<lb/>eccompagné les colonnes expéditionnaires de l'armée, et,<lb/>sous une pluie de balles, tout teints du sang des blessés<lb/>ont pu confesser et administrer ceux qui succombaient.<lb/>Leur conduite a été telle que désormais et toujours noc ar-<lb/>mées seront ainsi accompagnées. — Partout la messe mili-<lb/>les agens du fisc, les conseillers municipaux et les réparti¬<lb/>teurs n'ont pas tardé à s'appercevoir du peu d'efficacité et<lb/>même de la nullité de leur intervention. C'est à ce point<lb/>que, dans certains endroits, ces conseillers et répartiteurs,<lb/>tout en contitnuant à assister les contrôleurs, ont cru de¬<lb/>voir écrire aux préfets pour protester en quelque sorte con¬<lb/>tre leur propre présence, et cela afin que plus tard on ne<lb/>pût pas la leur opposer comme indiquant de leur part une<lb/>sorte de sanction ou seulement d'adhésion donnéa au tra-</p>
+        <p rend="labelled"><lb/>Strasbourg par M. Ferrari, et dès que le ministre a cru<lb/>devoir suspendre son cours, un autre incident est sur-<lb/>venu dans la Faculté des lettres de Toulouse à propos de<lb/>l'enseignement de M. Catien Arnould, professeur de philo-</p>
+        <p><lb/>Toulouse annonçait, cette année, que M. Catien Arnould<lb/>ferait des conférences dans lesquelles il discuterait les doc¬<lb/>trines de M. de Lamennais et de M. Leroux. Ces conféren¬<lb/>ces avaient, entre autres inconvéniens, le danger, plus<lb/>grand à Toulouse que partout ailleurs, de transporter dans<lb/>la chaire enseignante la polémique pour ou contre les écri-<lb/>vains contemporains, et de changer peut-être les cours de<lb/>la Faculté en séance de clubs. Le ministre de l'instruction</p>
+        <p><lb/>carême, dénoncer dans un mandement le cours de philoso-</p>
+        <p rend="labelled"><lb/>pour laisser descendre le Verbe divin... Le vent de la pro¬<lb/>messe chassant la poussière que font aujourd'hui tant de<lb/>choses qui tombent, on verra par-dessus tous leurs décom-<lb/>bres s’élever de nouveau la figure du Christ, plus belle,<lb/>plus majestueuse et véritablement agrandie pour domi-<lb/></p>
+        <p><lb/>des pertfbisen rfii debient veir dans l'enseignemen<lb/>veries à la jeunesse. Celarappelle les folies de M. de</p>
+        <p rend="labelled"><lb/>cent à arriver en grand nombre au Musée. Le 20 février<lb/>est le terme fatal pour le dépôt, et c'est le 15 mars que</p>
+        <p rend="labelled"><lb/>veau modèle d'habillement et d'équipement que le ministre<lb/>de la guerre se propose d'adopter pour toute l'infanterie,<lb/>sont: le 2^e léger, caserné à la Pépinière, à Popincourt et<lb/>au Mont-Blanc; le 4^e léger, employé aux fortifications, à<lb/>Saint-Denis ; le 17e léger, en garnison à Courbevoie, éga-<lb/>lement employé aux fortifications; le 11^e de ligne, caserné<lb/>à l'Ecole-Militaire; le 69e de ligne (nouvelle formation), en<lb/>garnison à Strasbourg. L'essai de cette nouvelle tenue a<lb/>lieu à raison d’un bataillon dans chacun de ces corps, à l’ex-<lb/>ception du 17^e léger, qui fournit, ainsi équipés, deux ba-<lb/>taillons. Tous ces bataillons sortent et font maintenant leur<lb/>service avec le costume dont on vient de les revêtir. Une<lb/>note ministérielle porte que l'adoption de cette nouvelle<lb/>tenue ne recevra son exécution qu’à mesure que les effets<lb/>actuellement en cours d'usage auront fini leur temps de<lb/>durée légale de service. En conséquence, les anciens effets<lb/>des bataillons-modèles des 2c, 4e et 17e léger, 11e et 69e<lb/>de ligne, ont été versés dans les autres bataillons pour y<lb/>terminer le reste de leur durée, moins le pantalon qui sera<lb/>conservé pour la petite tenue. Pour la grande tenue, il en<lb/>est un autre plissé sur le ventre, appelé pantalon à blouse.</p>
+        <p rend="labelled"><lb/>par M. l'évêque d'Alger, renferme des détails sur l'état<lb/>florissant de l’'Eglise catholique dans cette colonie,</p>
+        <p rend="labelled"><lb/>plus de 12,000 catholiques, 2 églises (bientôt 3) et 4 cha-<lb/>pelles..... Avant la fin de l'année, j'aurai une chapelle de<lb/>viens d'énumérer, je compte 4 chapelles et 5 églises, dont<lb/>une consacrée solennellement ; elle est sous l'invocation des</p>
+        <p rend="labelled"><lb/>seulement de trois chanoines, mon vicaire-général, trois<lb/>prêtres auxiliaires de Notre-Dame-de-Sainte-Croix du<lb/>Mans, et trois autres missionnaires, sont dans cette pro-<lb/>vince au nombre de vingt-trois, et desservent, avec les<lb/>hôpitaux militaires contenant jusqu’à 6,000 malades, une<lb/>prison civile, et une prison militaire composée de 1,400<lb/>commencement de mon grand séminaire, de mon petit<lb/>séminaire, de ma double maison d'orphelins, de ma mai-<lb/>son des orphelins, de ma petite maison de nouvelles ca-<lb/>seph à Alger et dans la banlieue, et deux en tout des frères<lb/>jour les dames du Sacré-Cœur. Les prètres de Sainte-Croix<lb/>dirigent avec le petit séminaire un collége de jeunes Arabes<lb/>distingués par leur naissance et fort intéressans. Je travaille<lb/>à établir les sœurs de Saint-Joseph à Blidah et à Bouffarick.</p>
+        <p rend="labelled"><lb/>un prêtre et un grand hôpital; à Mostaganem, un prêtre</p>
+        <p rend="labelled"><lb/>militaires, oeons en magnifique éablissement</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>et chez M. MALTESTE, notaire, rue des Bons-Enfans,<lb/>et dans chaque canton, à MM. les délégués, chargés</p>
+      </div>
+      <div type="article">
+        <p><lb/>et par-devant M. GUENÉE, notaire en ladite ville, rus</p>
+        <p><lb/>chauss ce qu'an<lb/>chambres et cabinets, tant au rez-de-chaussée qu'</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>RUE DALTESTE, notaire à Dijon,<lb/>OES BONS-ENFANS,</ab>
+        <p><lb/>tion et d'un accès facile, se compose d’un principal<lb/>corps de bâtiment consistant en deux chambres à feu,<lb/>avec cave et grenier, chambre à four, une vaste cour<lb/>renſermant deux granges, écuries, hébergeages<lb/>toits-à-porcs et poulailler, jardin potager et clos en<lb/>nature de verger attenant, d’une contenance totale de<lb/>17 ares 14 centiares environ. Le tout est confiné de<lb/>levant par la rue Comblanchien, de nord par Nicolas<lb/><lb/>Verey, de couchant par les héritiers Pérard, et de</p>
+      </div>
+      <div type="article">
+        <p><lb/>En soixante-dix articles, situé principalement su<lb/>la commune de Beire, et pour partie sur les finages de<lb/>ה</p>
+        <p rend="styled"><lb/>Le dimanche 20 février 1842, à midi, au domicile du</p>
+        <p><lb/>jour de l'adjudication des terres en sombres et des</p>
+        <p rend="labelled"><lb/>guignon et Marion aîné, qui les cultivent, et pour<lb/>avec lequel on pourrait traiter de gré à gré avant la<lb/>vente, soit pour la totalité du domaine, soit pour de</p>
+      </div>
+      <div type="article">
+        <head><lb/> DE A PREEECTORE,</head>
+        <p rend="styled"><lb/>Le dimanche 20 février 1842, heure de midi, à Dijon</p>
+        <p rend="labelled"><lb/>ntiares, joignant demdi M. de Meixorn, de non<lb/>co, ignant de midi M. de Mexmoron, de n</p>
+        <pb facs="0003.xml"/>
+        <ab><milestone unit="column" n="3"/><lb/>Etude de M. DECAILLY, notaire à Mirebeau.<lb/>Mo Teussant coutes les quanes voulat par vente des objets mobiliers saisis sur les mariés Barrat,<milestone unit="column" n="4"/><lb/>de Chenôve, par procès-verbal de l'huissier Malbran-<lb/>che, du 30 décembre dernier, consistent en meubles,<lb/>en bois de noyer et autres; linge, batterie de cuisine,</ab>
+      </div>
+      <div type="article">
+        <head><lb/>PROUDHON, n'o 22re à DIJon.<lb/>RI PROUDHON, N° 22</head>
+        <p><lb/>Composé de bâtimens d'habitation et d’exploita-<lb/>tion, et de 30 hectares et demi de terres et près,<lb/>vendre à l’amiable, avec les plus grandes facilités pour<lb/>les paiemens du prix. Le village d'Uncey est actuelle-</p>
+        <p><lb/>S'adresser, pour tous renseignemens et pour traiter,<lb/>soit à M. Couthier, propriétaire à Uncey, soit à M. Mo¬</p>
+        <p><lb/>Jolie MAISON bourgeoise, avec jardin, située au</p>
+        <p><lb/>Vingt pièces de TERRES et VIGNES, situées sur<lb/>Plombières et Talant, à vendre aux enchères et en dé-<lb/>tail, le dimanche 27 février 1842, à midi, chez M. Noi-<lb/>rot, aubergiste à Plombières, par le ministère de<lb/>M. MUGNIER, notaire à Dijon, rue Proudhon.<lb/>et de levant l'hospice, et de couchant un chemin de</p>
+        <p rend="labelled"><lb/>2^oe Sur la Fontaine-d'Ouche, section V, n^o 604, 16<lb/>ares 60 centiares, joignant de couchant M. de Mon¬<lb/>tillet, de levant les héritiers Bligny; aboutissant de<lb/>midi sur un chemin, et de nord sur la Fontaine.<lb/>1</p>
+        <p rend="labelled"><lb/>3° En Champ-Perdrix, section X, no 199, 29 ares<lb/>99 centiares, joignant de levant l'hôpital et M. Belle-<lb/>net, de Plombières, de couchant M. Quantin-Dechaux,<lb/>de Dijon; aboutissant de midi sur la montagne, et de</p>
+        <p rend="labelled"><lb/>4^o A la Combe-au-Serpent, section X, n^o 238, 31<lb/>ares 70 centiares, joignant de midi les héritiers Lo¬<lb/>gerot, de levant Romey, de Pralon, de nord et de<lb/>Il y aura de grandes facilités pour les paiemens.</p>
+        <p><lb/>S'adresser, pour voir ces pièces de vignes, au sieur<lb/>Pierre Fevret, vigneron, rue Cazotte, no 10; et, pour<lb/>NOus renseignemens, audit M. ROUGET, notaire.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Etude de M. MAZEAU. notaire à Dijon.</head>
+        <p><lb/>Une SOMME de 4,000 francs à placer à fonds perdu,<lb/>sur deux têtes; et plusieurs sommes de 600, 1,000,<lb/>1,500, 2,000, 3,000, 4,000, 5,000, 6,000, et au-dessus,</p>
+        <p><lb/>S'adresser, à M. MAZEAU, notaire à Dijon, rue</p>
+      </div>
+      <div type="article">
+        <head><lb/>Btude de M.BOBIN, notaire à Chatlion-sur-</head>
+      </div>
+      <div type="article">
+        <head><lb/>La belle Ferme de la CHASSAIGNE,</head>
+        <p><lb/>Composée de vastes bâtimens d’exploitation, 178<lb/>hectares de terres labourables d’un seul tenant, 11<lb/>hectares de prés et 1 hectare 50 ares environ de vi-</p>
+        <p><lb/>On désirerait céder au fermier entrant les récoltes</p>
+        <p><lb/>S'adresser à M. BOBIN, notaire à Châtillon-sur-</p>
+      </div>
+      <div type="article">
+        <head><lb/>Etude de M. BRULET, notaire à Arc-sur¬</head>
+        <p rend="styled"><lb/>Le dimanche 20 février 1842, heure de onze du matin<lb/>au domicile du sieur Garnier, propriétaire à la rente<lb/>de Forèt, commune d' Arc-sur-Tille, et par le minis-</p>
+        <p><lb/>Ce train consiste en 2 bons chevaux de trait, dont<lb/>un entier, 3 jumens pleines, une pouliche de 2 ans,<lb/>12 mères vaches, un taureau et une genisse de 5 mois;<lb/>un chariot à larges jantes, une charrue, une herse,<lb/>un rouleau, 8 paniers d'abeilles, un fumier et beau-</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>Étude de M. SERRIGNY-FOREY, notaire à</ab>
+        <p rend="styled"><lb/>Tres-propi<lb/>au be"</p>
+        <p><lb/>Avec un domaine sur le territoire de Pouilly-sur-<lb/>Saône, le dimanche 27 février 1842, à midi, en l'é¬<lb/>tude et par le ministère de M. SERRIGNY, notaire<lb/>Seurre, en exécution d’un jugement du tribunal civil<lb/>de Beaune, le 11 janvier 1842, ayant converti en vente<lb/>sur publication judiciaire la saisie desdits immeubles.</p>
+        <p><lb/>S’adresser, pour tous renseignemens, à M. SERRI-<lb/>GNy, dépositaire du cahier des charges, et à M. Mon-</p>
+        <p><lb/>Un père de famille désirerait trouver un JEUNE</p>
+      </div>
+      <div type="article">
+        <ab><lb/>e-losne</ab>
+        <ab type="head"><lb/>Lonotaire à saint-Jean¬</ab>
+        <p rend="styled"><lb/>Le dimanche 27 février 1842, à midi, en l'étude de</p>
+        <p><lb/>Ces maisons, avantageusement situées, compren¬<lb/>nent boutiques et logemens, greniers, magasins, cours,</p>
+        <p><lb/>S’adresser à M. Jeannin, négociant à Saint-Jean¬<lb/>qui se chargerait de tirer à ses risques et périls<lb/>le numéro de son fils, conscrit de la classe de 1841.</p>
+        <p><lb/>S'adresser pour tous renseignemens à M. DÉCAILLY,</p>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>Office de M. BÉLIARD, commissaire-priseur,</p>
+        <p><lb/>MOBILIER, à vendre aux enchères, lundi 21 fé¬<lb/>vrier, heure précise de dix du matin, en la salle de<lb/>vente, rue des Godrans, n° 88, par le ministère de</p>
+        <p><lb/>le, con¬<lb/>vertures, etc.; commodes, secrétaires, buffet à<lb/>portes, pétrissoire et autres meubles en noyer, un joli<lb/>bureau à marqueterie, chaises, tables, un petit bu¬<lb/><lb/>reau en acajou, bibliothèque, gravures encadrées.</p>
+        <p><lb/>Deux pendules, dont une en cuivre à figure, e<lb/>l'autre en marbre, glaces et trumeaux, vases à fleurs</p>
+        <p><lb/>Porcelaine et verrerie de table, ustensiles de cui-<lb/><lb/>sine en rosette et autres; poêles, dont un en fonte de<lb/>Dôle, une jolie cheminée à la prussienne et autres</p>
+        <p rend="labelled"><lb/>LIVRES de droit et de sciences, à vendre aux en-<lb/>chères, mardi 22 février, en la salle de vente, rue des<lb/>GOdrans, n^o 88, par le ministère de M. BÉLIARD, com-</p>
+        <p><lb/>demie précises.La présentation es livres sera <lb/></p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p><lb/>Par suite de décès du titulaire, à Vitteaux (Côte-<lb/>d’Or). S’adresser pour les renseignemens à M. DURAN-<lb/>DEAU, notaire, ou à M. Péchinot, géomètre à Vit-</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p><lb/>Un couple de bons chiens courans, âgés de 5 ans<lb/>d’excellente race, ordre St.-Hubert, fortement gorgés,<lb/>chassant tout gibier. S'adresser à M. Rameau, pro-</p>
+        <p rend="labelled"><lb/>A VENDRE, 50 francs, un adresser rue Charr,e,<lb/>l'âge de deux à trois ans. S'adresser rue Charr, d,</p>
+        <p rend="labelled"><lb/>Portion de MAISON à louer ou à vender à M. K</p>
+        <p><lb/>Un jeune HOMME, âgé de 20 ans, sachant lire ct<lb/>écrire, désirerait trouver une place de domestique ou<lb/>S'adresser à M. Morizot, rue St.-Philibert, no 57.</p>
+        <p rend="labelled"><lb/>On deande de suie, put iee <lb/>une OUVRIÈRE connaissant bien cetepse.</p>
+        <p rend="labelled"><lb/>L'ETUDE de M. CLAIRIN, notaire à Genlis, qui<lb/>était rue de l'Eglise, maison Jacquemin, est trans-<lb/>portée rue de Labergement, maison Ledeuil, près la</p>
+        <p><lb/>On demande, pour un établissement considérable,<lb/><lb/>comme dépensier, un GARÇON, sachant lire, écrire,<lb/>et qui ait de bons répondans. S’adresser rue Saint-Phi-</p>
+      </div>
+      <div type="article">
+        <head><lb/>AVIS AUX PÈRES DE FAMILLE.</head>
+        <p><lb/>Une souscription de 500 fr. est ouverte en faveur</p>
+        <p><lb/>S'adresser à M. Fouleux, rue de l'Ecole-de-Droit</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>ANNONCES JUDICIAIRES.</head>
+        <figure type="decoration"/>
+        <p><lb/>Le samedi 19 février 1842, heure de midi, il sera<lb/>sur la place du Marché au Blé de Dijon, procédé par<lb/>le ministère de M. Sullerot, commissaire-priseur, à la</p>
+      </div>
+      <div type="article">
+        <head><lb/>VENTE MOBILIÈRE PAR AUTORITÉ DE JUSTICE.</head>
+        <figure type="decoration"/>
+        <p><lb/>Le samedi 19 février 1842, à midi, sur la place du<lb/>Marché au Blé de Dijon, il sera procédé à la vente<lb/>aux enchères et au comptant de divers objets mobiliers<lb/>saisis sur le sieur Mielle, cultivateur à Etaules, et<lb/>Marie Menetrier, sa femme, lesquels objets consistent<lb/>en batterie de cuisine, chaises, dressoir, armoire et</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Etude de M. COQUET, avoue à Dijon,</head>
+        <p rend="styled"><lb/>Vente par licitation, à laquelle tous les étrangers seront<lb/>admis, et en détail, de plusieurs PIECES DE<lb/>TERRES, situées sur le territoire de Diénay et lieux</p>
+        <p><lb/>rendu<lb/>contradictoirement au tribunal de première instance<lb/>de Dijon, le 11 janvier 1842, enregistré, sur les pour¬<lb/>suites de M. Jean-Baptiste Laurent, propriétaire, domi¬<lb/>cilié à Villecomte, ayant constitué pour avoué M. Ni-<lb/>colas COQUET, avoué près ledit tribunal, et demeurant</p>
+        <p><lb/>Contre, 1o Demoiselle Françoise Monniot, majeure<lb/>ouvrière, domiciliée à Diénay, et pour le fait de son<lb/>autorisation Nicolas Brocheret, son mari; 2° Marie<lb/>Madeleine Monniot, célibataire, majeure, domiciliée<lb/>au même lieu; 3° Marie-Antoinette Monniot, majeure,<lb/>domiciliée à Til-Châtel; 4° Elisabeth, 5° Nicolas<lb/>6o Jean-Baptiste ; 7° Catherine; 8o Auguste : ces cino<lb/>derniers mineurs, domiciliés à Diénay, représenté.<lb/>par M. Joseph Languereau, leur subrogé-tuteur, do-<lb/>micilié au même lieu: tous en qualité d’héritiers de<lb/>dame Jeanne Languereau, leur mère, décédée; 9o En¬<lb/><lb/>fin le sieur Jean-Baptiste Monniot père, en raison de<lb/>la communauté qui a existé entre lui et la dame Lan¬<lb/>guereau, son épouse, lesquels ont constitué pour leur<lb/>avoué M. Bernard Lavoisot, exerçant en cette qua-<lb/>aîté près le susdit tribunal, et demeurant à Dijon, rue</p>
+        <p><lb/>Il sera procédé, par-devant<lb/>Is-sur-Tille, à ce commis par le tribunal, à la vente<lb/><lb/>par licitation et en détail, à laquelle tous étrangers<lb/>seront admis, des immeubles appartenant indivisé-<lb/>ment aux sieur et héritiers Monniot, provenant tant<lb/>de la communauté qui a existé entre ledit sieur Jean-<lb/>Baptiste Monniot père, et la dame Jeanne Languereau,<lb/>son épouse, que de la succession de cette dernière.</p>
+        <p rend="styled"><lb/>Désignation et m</p>
+        <p rend="labelled"><lb/>Louis Appert, de nord la veuve Didier Gormot-</p>
+        <p><lb/>les héritiers Monniot; aboutissant de levant<lb/>sur Bénigne Garcenot, et de couchant le che¬<lb/>min des Petits-Noyers, estimés cent cinquante</p>
+        <p rend="labelled"><lb/>centiares, faisant plusieurs crosses, joignant<lb/>de nord le bois de la Brosse, estimés cent</p>
+        <p><lb/>res, joignant de midi M. Alvare Darbois, de<lb/>M. Jean-Baptiste Coquet, et de couchant sur</p>
+        <p><lb/>85 centiares, joignant de midi M. Jean-Baptis-</p>
+        <p rend="labelled"><lb/>res, joignant de midi M. Joseph Maire, de nord<lb/>aux colicitans; aboutissant de levant sur la<lb/>route, et de couchant sur les héritiers Louis</p>
+        <p rend="labelled"><lb/>centiares, de nord faisant contour, de couchant<lb/>seuil, et de nord sur Bénigne Garcenot, esti-</p>
+        <p><lb/>17 ares 14 centiares, joignant de levant et de<lb/>chant aux héritiers Gormotte; aboutissant de<lb/>nord sur Didier Faivre, estimés quinze francs,</p>
+        <p><lb/>sur M. Bénigne Garcenot, estimés cent francs,<lb/></p>
+        <p><lb/>28 centiares, joignant de midi Joseph Maire,<lb/>de nord Michel Petitjean et les héritiers Mar¬</p>
+        <p rend="labelled"><lb/>79 ares 73 centiares, joignant dulevant Joseph</p>
+        <pb facs="0004.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/>DIJON. — IMPRIMERIE DE SIMONNOT-CARION, PRÈS LA PLACE DES DECS DE BOURGOGNE.<lb/>Languereau, de couchant aux colicitans; abou-<lb/>tissant de midi sur les héritiers Frèrejacques,<lb/>et de nord Claude Pagot, estimés trois cent</ab>
+        <p rend="labelled"><lb/>centiares, joignant de levant une friche, de<lb/><lb/>couchant M. Vaillant, de nord Pierre Foussey,</p>
+        <p><lb/>tiares, joignant de levant M. Vaillant, de cou¬<lb/>chant M. Jean Baptiste Coquet ; aboutissant de<lb/>midi et de nord sur la route et la veuve Gor¬</p>
+        <p rend="labelled"><lb/>Louis Naudet, et de couchant M. Louis Appert;<lb/>aboutissant de midi sur la grange de M. Louis<lb/>Naudet, et de nord sur M. Vaillant, estimés<lb/>sent vingt francs, ci..</p>
+        <p rend="styled"><lb/>potal de la mise à prix des immeubles in-</p>
+        <ab><milestone unit="column" n="1"/><lb/>de nord la dame ve Didier Gormotte ; aboutis¬<lb/>Mme. veuve Gormotte; aboutissant de midi<lb/>sur la voie publique, estimés soixante francs, ci<lb/>de nord Mme. veuve Gormotte; aboutissant sur<lb/>MM. Frèrejacques et Darbois, estimés deux</ab>
+        <p rend="labelled"><lb/>centiares, joignant de midi M. Vaillant, de<lb/>vant sur M. de Jugny, et de couchant sur M.</p>
+        <p rend="labelled"><lb/>joignant de levant Mme. veuve Didier Gormot¬<lb/>te, de couchant la voie publique ; aboutissant<lb/>sur plusieurs, estimés soixante francs, ci....</p>
+        <p><lb/>lant, de couchant la dame veuve Didier Gor¬<lb/>motte, de nord les héritiers Pierre Monniot,</p>
+        <p rend="labelled"><lb/>37 centiares, joignant de midi M. Louis Appert,<lb/>de nord M. Joseph Languereau; aboutissant<lb/>de levant sur Jeau-Baptiste Estivalet, et de<lb/>couchant sur la route, estimés soixante-dia</p>
+        <p><lb/>8 ares 57 centiares, joignant de levant MM.<lb/>guereau; aboutissant de midi sur M. Louis</p>
+        <p><lb/>tiares, joignant de midi les colicitans, de nord<lb/>de couchant MM. les héritiers Louis Laurent,</p>
+        <p><lb/>res, joignant delevant Mme. veuve Gormotte,<lb/><lb/>de nord M. Vaillant; aboutissant de midi sur<lb/>les colicitans, estimés cent cinquante francs, ci</p>
+        <p><lb/>86 centiares, joignant de levant les colicitans,<lb/>de couchant Mme. Gormotte; aboutissant de<lb/>rejeaques, estimés cent soixante-quinze francs,<lb/><lb/><lb/>ci.</p>
+        <p><lb/>57 centiares, joignant de levant M. Louis<lb/>aboutissant sur Mme. veuve Gormotte, estimés</p>
+        <p rend="labelled"><lb/>joignant de levant M. Joseph Languereau, de<lb/>couchant M. Bénigne Garcenot; aboutissant<lb/>des deux côtés sur MM. Jean-Baptiste Estiva-<lb/>let et Joseph Maire, estimés deux cents francs,</p>
+        <p><lb/>tiares, joignant de levant et de midi M. Vail¬<lb/>lant, de couchant M. Joseph Languereau, et</p>
+        <p rend="labelled"><lb/>joignant de levant M. Alvare Darbois, de cou¬<lb/>chant M. Joseph Languereau; aboutissant de<lb/>midi sur la veuve Henri Appert, de nord sur</p>
+        <p><lb/>joignant de levant M. Jean-Baptiste Estivalet,<lb/>de couchant Mme. veuve Gormotte ; aboutis¬<lb/>M. Louis Goisset, estimés deux cent cinquante<lb/>sur-Tille, de nord M. Claude Voisot; abou-<lb/>tissant de levant et de couchant sur les héri¬<lb/>tiers de M. Vaillant, estimés soixante francs, ci</p>
+        <p><lb/>joignant de levant M. Louis Appert, de couchant<lb/>MM. les héritiers de Pierre Monniot; abou¬<lb/>tissant de midi et de nord sur MM. Vaillant et<lb/>Jean-Baptiste Estivalet, estimés cent cinquante</p>
+        <p><lb/>tiares, joignant de midi Mme. veuve Voisot,<lb/>de nord M. Joseph Maire; aboutissant sur MM.<lb/>Vaillant et le chemin du Petit-Noyer, estimés</p>
+        <p><lb/>centiares; aboutissant de levant au chemin des<lb/>Petits-Noyers, de couchant sur de vieilles<lb/>carrières, joignant de midi M. Corneil-Guinot,<lb/>et'de nord Mme. veuve Voisot, estimés soixante</p>
+        <p><lb/>joignant de levant le chemin, de couchant et<lb/>de midi Mme. veuve Voisot, et de nord Valère</p>
+        <p><lb/>joignant de midi et de nord Mme. veuve Voisot;<lb/>aboutissant de levant sur Mme. veuve Gor¬<lb/>motte, et de couchant Pierre Marchand-Gou¬</p>
+        <p><lb/>tenant de levant et de midi la veuve Voisot,<lb/>de couchant Pierre Marchand-Gouget, et de<lb/>nord sur la Brosse, estimés quatre-vingts</p>
+        <p rend="labelled"><lb/>joignant de midi les héritiers Frèrejacques, de<lb/>nord et de couchant Mme. veuve Voisot; abou-<lb/>tissant de levant sur la veuve Jean Gormotte,</p>
+        <p><lb/>de couchant et de midi les héritiers Morizot,<lb/></p>
+        <p><lb/>centiares, de levant faisant contour, de cou¬<lb/>chant Mme. veuve Voisot, de nord une pointe<lb/>sur la route, et de midi les héritiers Coquet, de</p>
+        <p><lb/>21 ares 42 centiares, joignant de levant M.<lb/>Jean-Baptiste Coquet, de couchant Mme. veuve<lb/>Voisot, de midi sur les héritiers Monniot, et de<lb/>nord sur M. Joseph Brulé, estimés cent vingt</p>
+        <p><lb/>70 centiares, joignant de midi Mmne. veuve<lb/>levant sur Benigne Garcenot, et de couchant<lb/>sur le bois de Montolley, estimés deux cents</p>
+        <p><lb/>Baptiste Monniot, de couchant la dame veuve<lb/>Nicolas Morizot, estimés quarante francs, ci..</p>
+        <p><lb/>de couchant le chemin de Luxerois; aboutissant<lb/>de midi sur M. Bénigne Garcenot, et de nord<lb/>sur Mme. veuve Voisot, estimés cent francs, ci.</p>
+        <p><lb/>25 ares 42 centiares, joignant de midi la veuve<lb/>Voisot, de nord faisant contour et joignant<lb/>Joseph Languereau, et de couchant Louis</p>
+        <p><lb/>25 ares 42 centiares, joignant de levant Mme.<lb/>veuve Voisot, et des trois autres aspects aux<lb/>bois communaux de Diénay, estimés trente</p>
+        <p><lb/>Maire, de nord au bois, de levant Pierre<lb/>Renon, et de couchant Mme. veuve Voisot,</p>
+        <p><lb/>joignant de levant M. de Jugny, de couchant<lb/>Louis Naudet; aboutissant de midi sur Claude<lb/>Pagot, et de nord M. Vaillant, estimés vingt-</p>
+        <p><lb/>de nord Louis Petitjean, Rossin et Pierre<lb/>Fousset; aboutissant de levant sur M. Vaillant,<lb/>de couchant sur ledit Pierre Fousset, estimés</p>
+        <p rend="labelled"><lb/>tiares, joignant de levant Mme. veuve Voisot,<lb/>de couchant M. Vaillant, de midi M. Corneil¬</p>
+        <p rend="labelled"><lb/>tiares, joignant de levant et de midi M.<lb/>Vaillant, de couchant Didier Febvre; abou¬<lb/>tissant de nord sur Mme. veuve Voisot, estimés<lb/>cent francs, ci...........................</p>
+        <p><lb/>joignant de midi et de levant M. Vaillant, de<lb/>sur dame veuve Voisot, estimés cent vingt</p>
+        <p><lb/>ares 85 centiares, joignant de levant le chemin,<lb/>de couchant le bois de Charmey; aboutissant de<lb/>midi sur la veuve Voisot, et de nord en pointe<lb/>sur le bois et le chemin, estimés trente-six</p>
+        <p><lb/>le-Duc, de couchant M. Vaillant; aboutissant<lb/>de midi sur Mme. veuve Voisot, et de nord<lb/>sur M. Alvare Darbois, estimés cent franes, ci.</p>
+        <p><lb/>centiares, joignant de nord Mme. veuve Voi<lb/>sot, de midi M. Vaillant; aboutissant de le-<lb/>vant sur le chemin du Trembloi, et de cou¬<lb/>chant M. Antoine Frèrejacques, estimés deux</p>
+        <p><lb/>Voisot; aboutissant de couchant sur le petit</p>
+        <p rend="labelled"><lb/>centiares, joignant de midi Mme. veuve Voi¬<lb/>sot, de nord faisant crosse, joignant M. Vail¬<lb/>lant et la dame Voissot ; aboutissant de levant</p>
+        <figure type="table"/>
+        <p><lb/>Total de l'estimation et de la mise à prix, ci. 7,145</p>
+        <p><lb/><lb/>l'article 1^er jusqu'à l'article 29 inclusivement seront<lb/>vendus en détail et par licitation, aux enchères pu¬<lb/>bliques et à l’extinction des feux, par-devant ledit no¬<lb/>taire PAYERNE, le dimanche 6 mars 1842, au domicile<lb/>de M. Estivalet, aubergiste, à Diénay, sur la mise a<lb/>prix fixée par le jugement sus-énoncé, heure de midi</p>
+        <p><lb/>puis l'article 30 jusqu'à l'article 57.<lb/>propres au sieur Jean-Baptiste Monniot, seront vendus<lb/>volontairement et en détail par le même notaire, le<lb/>même jour et au même lieu, et après la vente par</p>
+        <p><lb/>P'adresser, pour tous renseignemens, soit audit no-<lb/>taire PAYERNE, dépositaire du cahier des charges, soit<lb/><lb/>à M. COQUET, avoué près le tribunal de première ins¬<lb/>tance de Dijon, demeurant en ladite ville, rue Chau-<lb/>dronnerie, 10, poursuivant la vente, soit enfin à M.</p>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>ndanconite de justice d'un MOULIN A VENT-<lb/>ndances, situés sur le territoire de Chan-</p>
+        <ab type="head"><lb/>ADJUDICATION DÉFINITIVE LE 13 MARS 1842.</ab>
+        <p><lb/>En vertu d’un jugement rendu par le tribunal de<lb/>première instance de Dijon, le 14 décembre 1840, en¬<lb/>registré, à la requête de dame Anne Saverot, veuve de<lb/>Pierre Lamarre, elle propriétaire, demeurant à Pon¬<lb/>cey-lès-Pellerey; agissant en qualité de tutrice légalo<lb/>de Victor, Hortense, Marie-Louise, et Pierre Lamarre,<lb/>ses quatre enfans mineurs, issus de son mariage avec<lb/>son défunt mari ; lesdits mineurs sans profession, do¬<lb/>miciliés chez leur mère, ayant M. Roux pour avoué;</p>
+        <p><lb/>II sera procédé, par-devant M. GAREAU, notaire<lb/>Salmaise, commis par le jugement ci-dessus énoncé,<lb/>le dimanche 13 mars 1842, heure de midi, au domicile<lb/>du sieur Forgeot, aubergiste à Chanceaux, à l'adju¬</p>
+        <p><lb/>Un moulin à vent, construit en pierre, avec tous<lb/>les agrès et ustensiles nécessaires à son roulement,<lb/>établi sur une pièce de terre en nature de terre arable<lb/>et friche, sur le territoire de Chanceaux, lieu dit en<lb/>la Ravière, de la contenance superficielle, compris la<lb/>place occupée par le moulin à vent, d’environ 36 ares<lb/>45 centiares, d’après les opérations cadastrales, et<lb/>ayant pour confins au nord M. Antoine Siméon, au<lb/>midi les héritiers Montaron et autres, à lest la veuve<lb/>de Noël Thevenot, et à l’ouest Boudillet-Madeleine.</p>
+        <p><lb/>Cette propriété dépend de la succession de Pierre<lb/>Lamarre; elle a été estimée par le sieur Saverot-Pe¬<lb/>titot, expert, nommé d’office par le tribunal, à la<lb/>somme de 2,400 francs, qui servira de mise à prix,</p>
+        <p><lb/>La vente aura lieu en présence du sieur Vivant<lb/>Sossotte, propriétaire, demeurant à Blessey, subrogé<lb/>tuteur des mineurs Lamarre, ou lui dùment appelé.</p>
+        <p><lb/>1^o A M. GAREAU, notaire à Salmaise, dépositaire</p>
+        <p><lb/>2^° Et à Dijon, a M. ROUx, avoué poursuivant l.</p>
+        <note>
+          <p rend="styled"><milestone unit="column" n="3"/><lb/>SIMONNOT-CARLON, Rédacteur responsabie.</p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

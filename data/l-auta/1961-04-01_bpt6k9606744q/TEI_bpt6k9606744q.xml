@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k9606744q</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1961-04-01">1961</date>
+          <idno type="ARK">bpt6k9606744q</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k9606744q</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0010.xml"/>
+        <milestone unit="page" n="58"/>
+        <ab rend="continued"><milestone unit="column" n="1"/><lb/>Géorgiques, nous conseillons de négliger notre traduction et de lire<lb/>dans le texte les vers nombreux du Virgile biterrois.</ab>
+        <ab><milestone unit="column" n="2"/><lb/>Robert MESURET.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>— A l’Opéra, ce soir, mon oncle, ou pas de clocher ! C’est ma<lb/>condition sine qua non!</ab>
+        <ab type="head"><lb/>LA PETITE HISTOIRE</ab>
+        <ab type="head"><lb/>Comment fut bâti le clocher de<lb/>l’église Saint-Joseph du Pont-des-Demoiselles</ab>
+        <p><lb/>C'est une histoire assez piquante qu’a racontée Emile Henriot,<lb/>qui vient de mourir, dans Le Livre de mon Père (1), le dessinateur<lb/>Henriot, natif de Toulouse, et qui fit à Paris une longue et brillante<lb/>carrière d’humoriste, notamment à L’Illustration. On y verra que<lb/>le diable porte ... brique.</p>
+        <p rend="labelled"><lb/>... J’ai conté ailleurs comment ayant retrouvé à Tébourda son<lb/>vieux compatriote Gazaniol, évêque in partibus du lieu, il (Pedro<lb/>Gailhard) le fit, à son retour, reconnaître de la République, par<lb/>l’entremise de Constans. L’affaire fut réglée au foyer de la danse.<lb/>Ce n’est pas la seule fois que la religion aura dû d’être secourue<lb/>en cet endroit, où l’église du Pont des Demoiselles, célèbre à<lb/>Toulouse, obtint, de ce même Constans, un clocher. Le curé de cette<lb/>église était un oncle de Pédro. Son église manquait de campanile,<lb/>et la paroisse était trop pauvre pour lui en offrir un. Le bon curé<lb/>se lamentait, et il s’ouvrit à son neveu de son ambition et de son<lb/>chagrin. — « Venez me voir à Paris, dit Gailhard à l’oncle; je m’en<lb/>charge ! » Voici le curé du Pont des Demoiselles à Paris, et, le soir<lb/>de son arrivée, dînant chez son neveu :</p>
+        <p><lb/>— Et mon clocher ?</p>
+        <p rend="labelled"><lb/>— Votre clocher ? Il vous attend à l'Opéra.</p>
+        <p rend="labelled"><lb/>— A l’Opéra ! Tu n’y penses pas ! Et ma robe ?</p>
+        <p><lb/>Le curé consent, à la perdition de son âme. On le presse, on le<lb/>met en habit; Gailhard le pousse dans sa voiture, l’installe dans<lb/>sa loge. A l’entr’acte, sur le coup d’onze heures, on l’entraîne au<lb/>foyer de la danse, où Gailhard, au milieu du peuple en tutu et en</p>
+        <p rend="structured"><lb/>(1) Paris, Plon, 1932, pp. 81, 82.<fw type="digitisation-artefact"><lb/>e lia.n/Assction dToulou</fw><lb/>chaussons roses, le présente à Constans. — « Mon cher Ministre,<lb/>permettez-moi de vous présenter Monsieur le Curé du Pont des<lb/>Demoiselles, mon oncle, que voici. Il a une requête à vous pré¬<lb/>senter. » Les Cultes dépendaient du Ministère de l’Intérieur.<lb/>Constans rit, promit le clocher. Le plus fort est qu’il tint parole,<lb/>et donna l’argent. Et le clocher fut construit, à l’église du Pont<lb/>des Demoiselles. C’est un des jolis, de Toulouse, où il y en a tant.</p>
+        <pb facs="0011.xml"/>
+        <milestone unit="page" n="59"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Visites et Promenades</head>
+        <head><lb/>LE QUARTIER SAINT-GEORGES</head>
+        <p><lb/>En dépit de la conjonction des vacances de Pâques et du beau<lb/>temps, une nombreuse assistance avait répondu à la convocation<lb/>de L’Auta, dimanche 26 mars, pour la visite du quartier Saint-<lb/>Georges. En quelques mots, M. Pierre de Gorsse indiqua l’intérêt<lb/>tout particulier de cette visite-promenade à un vieux quartier de<lb/>Toulouse condamné et présenta notre guide de ce jour, M. Roger<lb/>Camboulives, de la Société Archéologique du Midi, qui prenait la<lb/>parole pour la première fois aux « Toulousains de Toulouse ».</p>
+        <p><lb/>De la place Saint-Georges, lieu de notre rendez-vous, M. Cambou¬<lb/>lives évoqua le vieux passé, quand elle s’appelait place Montaigon<lb/>aux XIIe et XIIIe siècles, puis Saint-Georges du nom de la chapelle<lb/>d’abord édifiée en son centre, puis transportée plus tard à l’angle<lb/>de la rue Saint-Antoine-du-T. Elle devait accueillir les Augustins<lb/>déchaussés ou Petits Augustins qu’il ne faut pas confondre avec<lb/>les Grands Augustins, leurs voisins, siège actuel du grand Musée<lb/>de Toulouse.</p>
+        <p><lb/>La place Saint-Georges fut longtemps la plus grande de Toulouse.<lb/>A ce titre, au XIIe siècle, elle recevait les assemblées publiques où<lb/>se discutaient en plein air, comme à Athènes, les intérêts de la cité.<lb/>Elle était aussi la place du pilori et des exécutions, dont la plus<lb/>célèbre fut celle de Calas. Il s’y tenait encore un marché au vin<lb/>et un marché aux vieilleries dit « des proxénètes », c’est-à-dire des<lb/>intermédiaires entre la marchandise d’occasion et leurs acquéreurs<lb/>éventuels. Au XIXe siècle, on y édifia un monument à sainte Ger-<lb/>maine dont l’architecture était de Paul Pujol et la statue de<lb/>Falguière. Pour des raisons politiques, le monument fut démoli dans<lb/>la nuit du 8 juillet 1881. L’œuvre de Falguière orne aujourd’hui<lb/>l’église Sainte-Germaine au Faubourg Saint-Michel.</p>
+        <pb facs="0012.xml"/>
+        <milestone unit="page" n="60"/>
+        <p><lb/>L’édifice le plus important de la place et qui lui donne son<lb/>caractère est l’hôtel Lafage, édifié au XVIIIe siècle, et qui occupe<lb/>tout le côté exposé à l’ouest. Architecture classique, à la fois sobre<lb/>et monumentale, l’hôtel comprend encore une cour aux façades<lb/>courbes, d’un art savant et une belle cage d’escalier où a apparu<lb/>récemment le nom, assez peu lisible, du constructeur: Pierre Bernad<lb/>dit Barrouqia (?) et la date : 1753.</p>
+        <p><lb/>Au no 24 se trouve le vaste hôtel Bertier ou de Rieux, du nom<lb/>de François Bertier, évêque de Rieux, qui l’occupa en 1657. Doté<lb/>de quatre issues, cet hôtel conserve encore quelques restes gothiques,<lb/>renaissances et classiques ayant échappé aux remaniements du<lb/>XIXe siècle, et aussi des cours et un grand jardin qui, uni à ceux<lb/>des autres immeubles à l’est, forment un important espace vert<lb/>insoupçonné.</p>
+        <p><lb/>Contigu à l’hôtel Bertier, l’hôtel du Président Niquet s’ouvre au<lb/>n° 3 de la rue d’Astorg par un porche monumental unissant deux<lb/>ailes construites, d’après Chalande, sous le Premier Empire. Un<lb/>bâtiment du XVIIe prolonge l’aile ouest que vient terminer, au fond<lb/>du jardin, un agréable pavillon en hémicycle : orangerie ou salle<lb/>de comédie, de la fin du XVIIIe siècle, surmonté d’un étage à la<lb/>Restauration. Une venelle, autrefois publique, ainsi qu’en témoigne<lb/>un bec-de-gaz demeuré en place, longeait cet hôtel et aboutissait<lb/>rue des Têtus, contournant l’immeuble des Dames Noires (n° 5),<lb/>célèbres par la maison d’éducation « Le Petit Saint-Cyr » qu’elles<lb/>avaient ouverte à Lévignac.</p>
+        <p><lb/>La rue des Têtus, du nom du fournier Pierre Testut, était autre-<lb/>fois une rue fermée par une porte dont il reste encore les gongs<lb/>fichés dans la muraille de l’immeuble qui est aujourd’hui celui de<lb/>l’Ecole Ozanam. Celui-ci s’ouvre par un portail monumental du<lb/>XVIIIe siècle malencontreusement surmonté au XIXe siècle d’un<lb/>étage sans style qu’il faudrait démolir pour retrouver caractère et<lb/>proportions. Sera-t-il seulement conservé dans le futur aménagement<lb/>du quartier, bien qu’on l’ait laissé entendre ? — M. Pierre de Gorsse<lb/>rappelle qu’en 1914, comme en 1940, l’Ecole Polytechnique trouva<lb/>ici un abri.</p>
+        <p><lb/>Rue Malaret, no 16, la porte d’une maison médiocre conserve<lb/>un linteau daté de 1568 qui est évidemment un remploi. Sur le n° 24<lb/>une plaque indique que le sculpteur Mercié est né là en 1845. A cette<lb/>occasion, M. Camboulives fait observer que de nombreux artistes<fw type="digitisation-artefact"><lb/>de<lb/>allica.bnf.<lb/>soto Toulou<lb/>louse</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

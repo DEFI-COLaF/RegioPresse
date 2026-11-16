@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508503f</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1882-10-22">1882</date>
+          <idno type="ARK">bd6t54508503f</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508503f</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>DIMANCHIE 22 OCTOBRE 1882.</fw>
+        <fw type="runningTitle"><lb/>Un Numéro: 10 centimes</fw>
+        <fw type="runningTitle"><lb/>Numéro 13. (1re ANNÉE).</fw>
+        <figure type="decoration"/>
+        <figure/>
+        <figure/>
+        <figure/>
+        <figure/>
+        <ab><milestone unit="column" n="1"/><lb/>ABONNEMENTS:<lb/>3 mois, fr. 1-50<lb/>6 » „ 3- 00<lb/>Etranger port en sus.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>La ligne ord. 20 centimes<lb/>Réclame (la ligne) 1 franc<lb/>On traite à forfait.</ab>
+        <p rend="heading"><lb/>ANNONCES:</p>
+        <figure type="decoration"/>
+        <ab><lb/>Il y a des bêtises qu'un<lb/>homme d'osprit achèterait.</ab>
+        <ab><lb/>VOISENON.</ab>
+        <p rend="heading"><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING</p>
+        <p rend="styled"><lb/>En rente à l'imprimerie FRÈRE-GLORIEUX, rue de Lille, 20, et chez M. Jules WATTEEUW Grand Place,</p>
+      </div>
+      <div type="article">
+        <head><lb/>AVIS.</head>
+        <p><lb/>Les abonnements se payant d'avance,<lb/>nous prions nos abonnés de nous faire par-<lb/>venir, sans retard, le montant de leur abon-<lb/>nement si ils ne veulent pas subir d’inter-<lb/>ruption dans la réception du journal.</p>
+        <p><lb/>Nous profitons de la même occasion, pour<lb/>prèvenir nos lecteurs que nous ne pouvons<lb/>reproduire dans notre journal pasquille les<lb/>communications ANONYMES qui nous sont<lb/>adressées.</p>
+        <ab><lb/>FRÈRE-GLORIEUX.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Les gins y étront beteu mattes.</ab>
+        <p><lb/>Quoi! mes amis, nous<lb/>sommes treize à table,<lb/>et devant nous le sel<lb/>est répandu !</p>
+        <ab><lb/>BÉRANGER.</ab>
+        <p><lb/>Ch'est l'limèreu treize du Broutteux!<lb/>Ch'est l'pont d’Judas.</p>
+        <p><lb/>Et dire, qui a acore des gins qui crot-<lb/>tent chal qui verneront vous dire au<lb/>sérieux, qu'in n’peut po ête à treize à<lb/>l'intour d'inne taffe, pasqu'y n'd'ara in<lb/>qui mora vin l'année!</p>
+        <p><lb/>Aussi, tchan qui a inne majon dû qui<lb/>sont à treize, y vont ben vite inviter<lb/>lpremi v’nu (tant mi pou sti qui in profite).</p>
+        <p><lb/>Beteu qui mettrotent leu tchin à l'taffe,<lb/>pou faire l'quatorzime.</p>
+        <p><lb/>Hureusemint acore, tchan qui n’arrive,<lb/>po comme à sti la qui avo été invité à dê-<lb/>nié vin inne majon et qu' in arrivant in<lb/>li a cachi dispute, in l'a beteu mis à l’porte<lb/>pasqu'y faijo l'treizime.</p>
+        <p><lb/>A vous motte après?</p>
+        <p><lb/>Ch'est comme les gins qui n'peuttent<lb/>po vir inne tchuyère et inne fourchette<lb/>in crox, qui dittent que rinverser l’salire<lb/>sus l'taffe ch'est sinne qu’in va disputer!</p>
+        <p><lb/>Casser in miro, et coper in pain à l'ing-<lb/>le, en est sime de détours.</p>
+        <p><lb/>Y a des marchands qui verneront dire,<lb/>tchan qui sont étreignés au matin, par<lb/>inne fimme, y n'feront po inne boinne<lb/>journée, et pou l’nouvel an, y faut que<lb/>s’soche in homme qui vous l’souhaite<lb/>premi pour avoir du bonheur pindant<lb/>l'année.</p>
+        <p><lb/>Y a acore gramint d'z’auttes menoulles<lb/>qu’y n’vautent nin les russes d’in parler.</p>
+        <p><lb/>Ch’est comme les ceusses qui s’méfit-<lb/>tent de l'journée du venderdi!</p>
+        <p><lb/>N'le parlez po d'faire in marché, ou<lb/>ben d’aller vir inne sétchi c’jour la, vus<lb/>n'sarez po les faire vidi d'leu majon, vus<lb/>S'sari même po les faire gripper vin inne<lb/>voture, à forche qui z’arottent peur de<lb/>xchulbuter et de s’casser inne djampe ou<lb/>ben auter cose.</p>
+        <p><lb/>Mais, tchan qu'ch'est in vinderdi 13!<lb/>adan, y n'a po d'pardon, y n'os'tent pu<lb/>vidi d'leu lit, crainte de malheur.</p>
+        <p><lb/>D'z'auttes y verneront dire; que sti qui<lb/>rit l'vinderdi y braira l'diminche.</p>
+        <p><lb/>Comme y dottent ête djais des gins<lb/>essin! et y n’vous faut po busii qu'ch'est<lb/>seul'mint par chi qu’in crot à tout cha ?<lb/>à Paris la grande ville, l'z'omnibus y font<lb/>vingt chinq pour chint mo d’argint, l'vin-<lb/>derdi que l'z'auttes jours.</p>
+        <p><lb/>Ch'est la preuf' que gramint d'gins<lb/>n'os'tent po interprinte d'z'affaires c'jour<lb/></p>
+        <p><lb/>Saclès inochints, va!</p>
+        <p><lb/>Allons, veyons, quoq'cha signifie tout<lb/><lb/>cha!</p>
+        <p><lb/>Est-ce que 13 n'est po in limereu comme<lb/>in autte?</p>
+        <p><lb/>Est-ce que l'vinderdi n'est po in jour<lb/>comme in autte?</p>
+        <p><lb/>J'vouro ben savoir, si les gins qui crot-<lb/>tent tout cha, y jettent invo inne piche<lb/>vingt sus, tchan qu’y z'ont treize francs<lb/>vin leu poche?</p>
+        <p><lb/>J'vouro ben vir, tchan qui vont au bou-<lb/>tique si in leu fero cadeu d'treize mètes<lb/>d'étoffe pou 12. Si y n’les perderottent<lb/></p>
+        <p><lb/>Vus n’avez qu'a leu porter inne héri-<lb/>tance l’vinderdi, vus verrez ben si y n’vont<lb/>po l'accepter.</p>
+        <p><lb/>In sait ben, qu’ch’est malhureux d’ête<lb/>à treize à l'taffe.... tchan qui n'd'a foque<lb/>pou douze.</p>
+        <p><lb/>Y n'a qu' des gins feurnatiques qui<lb/>s'mettent cha vin la boule!</p>
+        <p><lb/>Y n’ont qu'a invoï pourmener tout cha<lb/>ben long et s’dire in eusse mêmes, qui<lb/>n'arrive foque chin qui dot arriver, et<lb/>qu’in gin qui a inne mioche d'idée, y<lb/>n'ajoque po sus des m'nutées parelles.</p>
+        <p><lb/>Vus coperdez?</p>
+        <p><lb/>Vus savez, tchan qu' treize ch'est in<lb/>méchant limereu?.... ch’est tchan qu’in y<lb/>reste!</p>
+        <p><lb/>Y a espoir que l'broutteux n’y restera<lb/>po, pasqu’y va trop ben à sin jeu, aussi<lb/>l’quatorzime est in route, et ben tapé.</p>
+        <p><lb/>Ah ! si l’Broutteux y aro volu accouter<lb/>tout chin qu’in a dit, y a lommint quen<lb/>in parlero pus...</p>
+        <p><lb/>Ch'est l'affaire d'in mos.</p>
+        <p><lb/>Y n’s’ara po toudis quo dire.</p>
+        <p><lb/>Deuxsus ch'est trop tchire, y n’dura po.</p>
+        <p><lb/>Y n'sait po récrire l'pato, in n'sait po<lb/>llire.<lb/></p>
+        <p><lb/>Y n'est pu si désopiant.</p>
+        <p><lb/>Y ara beteu finit s'taque.</p>
+        <p><lb/>Et allez-y Maman, et patati et patata.<lb/>V'la toudis tros mos d'passés! et l'brout-<lb/>teux est pus vivant qu’jomais!</p>
+        <p><lb/>In sait ben, qu’in a in amisse qui nous<lb/>dijo cheull semaine qu’in aro pu êté si<lb/>lommint (d’z'amiss essin y n’in manque<lb/></p>
+        <p><lb/>Infin, tchan qu’chétra finit ch'tra tut,<lb/>et l’broutteux dit comme sti la.</p>
+        <p rend="styled"><lb/>Ben faire, et rin crainte.</p>
+        <ab><lb/>JULES WATTEEUW.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

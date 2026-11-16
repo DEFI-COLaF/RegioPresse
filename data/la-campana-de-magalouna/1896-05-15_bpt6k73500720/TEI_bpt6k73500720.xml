@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Campana de Magalouna</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k73500720</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Campana de Magalouna : journal populàri que parei lou 1è e lou 15 de toutes lous meses</title>
+          <publisher>[s.n.] (Mount-Peliè)</publisher>
+          <date when="1896-05-15">1896</date>
+          <idno type="ARK">bpt6k73500720</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k73500720</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/>Un double sou:<lb/>Zou! quau n’en vòu ?</ab>
+        <ab><milestone unit="column" n="1"/><lb/>Cinquièma annada. - No 95.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Dau 15 de Mai au 1è de Jun 1896</ab>
+        <figure/>
+        <p rend="styled"><lb/>Lournal poupular das felibres de Mount-Peliè que parei lou 1' e lou 15 de toutes lous meses</p>
+        <p rend="styled"><lb/>Per las anounģas e las reclamas.<lb/>S'adressà à l'Agence Fagos, rue Poitevine, 4. Montpeller</p>
+        <ab><lb/>Aministracioun e Redacioun.<lb/>15, csira dau Chival-Verd, à Mount-Peliè</ab>
+        <ab><lb/>Un An.. Quaranta sous.</ab>
+        <p rend="heading"><lb/>ABOUNAMEN:</p>
+        <figure/>
+      </div>
+      <div type="article">
+        <head><lb/>L’Ome Poupulàri</head>
+        <p><lb/>Lou maire de Gigougnargues m'aviè counvi¬<lb/>dat, l'autre an, à la fèsta de soun endrech. Eren<lb/>estats sèt ans camaradas d'escritòri à l'escola<lb/>de Mount-Fariè mès desempioi nous èren pas<lb/>pus vistes.</p>
+        <p rend="labelled"><lb/>— Lou Bon Diéu te benigue ! me cridèt entre<lb/>me veire, tu siès toujour lou memes: fresc<lb/>couma un espinard, poulit coume un sòu, drech<lb/>coume un pibou... T'aurièi counougut sus mila !</p>
+        <p rend="labelled"><lb/>— Oi ! sièi toujour lou memes, ié respounde¬<lb/>guère, soulamen la vista baissa un pauc, la pèl<lb/>se frounsis e lou pèu blanqueja; e quand las<lb/>cimas soun blancas lous valouns soun pas gaire<lb/>cauds.</p>
+        <p rend="labelled"><lb/>— Ah! vai, me faguèt, ideiaire que siès! vièl<lb/>biòu fai rega drecha e vèn pas vièl quau vòu...<lb/>Anen, anen dinnà.</p>
+        <p><lb/>Savès couma se manja à las fèstas das vilages<lb/>e enco de l'amic Lassagna vous responde que<lb/>fai pas frech. Tamben i'agèren un dinnà que<lb/>vous dise pas qu'aco : de lingoustas, de trou¬<lb/>chas de Sant Guilhèn, un merlussat goustous<lb/>que m'en leque las boucas, de viandas finas e de<lb/>sis cachetats ; per lou cop d'en mitan de licous<lb/>de touta mena, e, per servi a taula, una galhar-<lb/>dota de vint ans que.... vous dise pas mai.</p>
+        <p><lb/>Eren au dessèrt, quand entendèn un èr de<lb/>musica dins la currièra: èra l'auboi. La joui¬<lb/>nessa de l'endrech veniè, couma es l'usage,<lb/>dounà l'aubada au Conse.<lb/></p>
+        <p rend="labelled"><lb/>– Doubris la porta, Françouneta ! cridet<lb/>moun amic Lassagna, vai cercà lous fougassets,<lb/>e zou ! lava de veires.</p>
+        <p><lb/>D'aquel tems l'auboissaire fasiè sa batuda !<lb/>Quand agèt acabat, lous caps-de-jonvents, lon<lb/>bouquet à la vèsta, intrèroun dins la sala emé<lb/>l'auboi e lou tambourinet ; avièn tamben lon<lb/>moutou que fasièn jougà, pioi toutes lous feste-<lb/>jaires.<lb/>pertout, anen ! e quand vèn las eleciouns couma<lb/>per un deputat, presemple, couma fas ?</p>
+        <p rend="labelled"><lb/>— Couma fau ? eh ! moun ome, laisse faire...<lb/>Car de ié dire as blancs : « Voutàs per la Repu-<lb/>blica seriè perdre soun Patèr amai sa jouventu»,<lb/>e de iè dire as rouges : « Voutàs per lou Rei»,<lb/>autant vaudriè pissà dins un vióuloun.</p>
+        <p rend="labelled"><lb/>— Mès lous escambarlats, aqueles qu'an pas<lb/>ges d'oupiniouns,lous paures innoucents, toutes<lb/>las bonas gents que viroun, pecaire, ounte lou<lb/>vent lous buta?</p>
+        <p rend="labelled"><lb/>— Ah! aqueles d'aqui? quand, de-fes, de<lb/>but en blanc, me demandoun moun avis :</p>
+        <p rend="labelled"><lb/>— Vesès, ié dise, Bassaquin vau pas mai que<lb/>Bassacan. Se voutàs per Bassaquin aqueste<lb/>estiéu aurés de nièiras ; e se voutàs per Bassa-<lb/>can, aurés de nièiras aqueste estieu. Per Gigou-<lb/>gnargues, vesès, vau mai una bona sesou que<lb/>tout ço qu'aproumetoun lous candidats. Ah!<lb/>seriè diferent se noumaven de paisans : tant<lb/>que per députats noumarés pas de paisans couma<lb/>fan dins la Sueda e couma fan en Danemarc,<lb/>serés pas representats. Lous avoucats, lous me-<lb/>dicis, lous journalistas, lous bourgeses de touta<lb/>mena que mandàs amoundaut demandoun res<lb/>qu'una causa : restà à Paris tant que poussible,<lb/>per tirà au rasteliè e mouse la vaca... Se ficoun<lb/>ben de Gigougnargues! Mès se, couma vous<lb/>dise, ie mandaves de paisans, pensarien à l'es-<lb/>pargne, demenierièn las grossas plaças, farièn<lb/>jamai la guerra, cavarièn de canaus, aboulirièn<lb/>lous drechs sus lous vis, e se despacharièn de<lb/>faire lous afaires per reveni avans vendémias...<lb/>E dire que i'a, en França, mai de vint miliouns<lb/>de péses terrouses, e que n'an pas lou biais de<lb/>mandà tres cents d'entre eles per representà la<lb/>terra ! Dequé riscarien d'ensaja? Seriè ben un<lb/>grand asard se fasièn pus mau que lous autres!</p>
+        <p rend="labelled"><lb/>— Ah ! d'aquel Moussu Lassagna ! Tout aco<lb/>me respond en galejant, a belèu resoun.</p>
+        <p rend="labelled"><lb/>— Revenen, ié diguère. Mès tus persounala-<lb/>men, tus Lassagna, couma as fach per coun-<lb/>servà dins Gigougnargues ta poupularitat e toun<lb/>autouritat pendent cinquanta ans ?</p>
+        <p rend="labelled"><lb/>— Hóu ! Aco's la mendre de las causas. Te !<lb/>leven-nous de taula qu'anaren prene l'èr, e<lb/>quand auràs fach emé iéu un ou dous tours de<lb/>cant, toutes lous gardards coupèroun per soun<lb/>tour un moussèl de fougassa, faguèroun saus-<lb/>sola e trinquèroun à la santat de Moussu lou<lb/>Maire ; end'aco Moussu lou Maire, quand agè¬<lb/>roun begut e galejat un moumen, ié diguèt :</p>
+        <p rend="labelled"><lb/>—Mous enfants, dansàs tant que voudrés,<lb/>amusàs-vous tant que pourrés : segàs toujour<lb/>ounéstes emé lous estrangès : à part de vous<lb/>batre e de mandà de gognas avës touta permis-<lb/>sioun.<lb/></p>
+        <p rend="labelled"><lb/>— Viva Moussu Lassagna ! cridèt la jouinessa.<lb/>End'aco sourtiguéroun en dansant la cagaraula.<lb/>Quand tout aco seguèt defora, iéu diguère à<lb/>Lassagna:</p>
+        <p rend="labelled"><lb/>– Quant i'a de tems que siès Maire de Gigou-<lb/>gnargues?</p>
+        <p rend="labelled"><lb/>– l'a cinquanta ans, moun ome!</p>
+        <p rend="labelled"><lb/>— Couionnes pas ? l'a cinquanta ans?</p>
+        <p rend="labelled"><lb/>— Oi, oi, l'a cinquanta ans. Ai vist passà,<lb/>moun bèu. ounze gouvernamens. E crese pas<lb/>de mouri sans n'entarrà 'ncara una mièja-dou-<lb/>gena.</p>
+        <p rend="labelled"><lb/>— Mès couma as fach per sauvà ta talholà à<lb/>tres coulous entre tant d'embouls e de revou-<lb/>liciouns?</p>
+        <p rend="labelled"><lb/>— Eh! moun amic, es lou Patér das ases.<lb/>Lou pople, lou brave pople demanda res que<lb/>d'èstre menat. Soulamen, de lou menà, toutes<lb/>n'an pas lou biais. N'i'a que disoun : Lou cau<lb/>menà rede. D'autres te disoun : Lou cau mena<lb/>dous. Eh! be, saves pas déqué dise ieu ? Lou<lb/>cau menà gai.</p>
+        <p><lb/>Regarda un pauc lous pastres : lous bons<lb/>pastres es pas aqueles qu'an toujour lou bastou<lb/>en l'èr; es pas nimai aqueles que s'aloungoun<lb/>jouta un éuse e que rouncoun sus las rasas.<lb/>Lous bons pastres es aqueles que caminoun<lb/>plan-plan davans soun troupèl en jougant de la<lb/>flahuta. Las fedas que se sentissoun libras, e<lb/>que, d'efet hou soun, despounchoun, afeciouna¬<lb/>das, lou margal e las bissanas; pioi, quand an lou<lb/>ventre ple e que vèn l'oura de rintrà,lou pastre sus<lb/>soun pifre joga la retirada, e lou troupel coun¬<lb/>tent s'acamina à la jassa. lèu fau antau, moun<lb/>ome : jogue de la flahuta, emoun troupèl seguis.</p>
+        <p rend="labelled"><lb/>— Jogues de la flahuta ! aco's bon à dire... mès<lb/>enfin, dins ta coumuna, as de blancs, as de<lb/>Lous veires se roumpliguèroun de bon ali- rouges, as de caputs, as de cagnots couma Gigougnargues, n'en saupràs autant que iéu.<fw type="digitisation-artefact"><lb/>purce gallica.nf.fr/ Montpellier Méditerranée Métropole- Médiathèque centrale Emile Zola</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

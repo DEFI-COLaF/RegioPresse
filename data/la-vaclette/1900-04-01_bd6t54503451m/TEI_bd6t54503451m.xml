@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54503451m</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Vaclette : journal humoristique, drôlatique, excentrique, non politique, rédigé en patois de Lille</title>
+          <publisher>[s.n.] (Lille)</publisher>
+          <date when="1900-04-01">1900</date>
+          <idno type="ARK">bd6t54503451m</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54503451m</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Le Numéro : 5 Centimes.</fw>
+        <fw type="runningTitle"><lb/>9mo Année. — No 452.</fw>
+        <dateline><lb/>Enanche 1e Avril 1800.</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>L'ABONNEMENT SE PAIE D'AVANCE.</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>humoi<lb/>ourn<lb/>ARTISTIQUE<lb/>EXCENYRIOUE, NON POLIYIQUE<lb/>édigé en Patois de Lille<lb/>BIBEN<lb/>DIRECTEUR JEAN</ab>
+        <figure/>
+        <ab><lb/>ABONNEMENTS<lb/>LILLE et environs : Un an, 2 fr. 50; Six mois, 1 fr. 25<lb/>Autres Départements : 3 fr. &amp; 1 fr. 60</ab>
+      </div>
+      <div type="article">
+        <head><lb/>ES<lb/>LeUNet<lb/>BONNES<lb/>DES</head>
+      </div>
+      <div type="article">
+        <ab><lb/>chochon Appourcheau qui li dit:</ab>
+        <p><lb/>H' pauv' Dubaudet ! In v'là un qui s’in<lb/>souven'ra d' sin voyache à Lille. D'puis<lb/>huit jours qu’il est r'venu, n’y-a pus<lb/>d'chint fos que s' femme elle le traite<lb/>d'imbécile. Et n'y-a d' quoi, comme vous allez l' vir:<lb/>Il avot b’soin d’acater un qu’va et comme<lb/>Dubocourt n' n'a eu un biau et point quer<lb/>dernièr'mint au marqué d' Lille, mon homme s'a<lb/>dit : J frai comme li.</p>
+        <p><lb/>Done, saim'di passé, l's' mettot in route pou' la<lb/>ville, quant v'là qu’i' rinconte Appourcheau quit<lb/>allot aussi à Lille, acater un vêt'mint d' deuil parç'<lb/>qu'i' vient d' perde s' bielle-mère.</p>
+        <p rend="labelled"><lb/>— Nom d'eun' pipe ! dit Dabaudet, cha bourle<lb/>à pic, nous f'rons route insonne.</p>
+        <p rend="labelled"><lb/>— Mais, n’y-a point d' refus, répond l'ante,<lb/>d'autant puq' que te pourras queusir avé mi min<lb/>costume.</p>
+        <p rend="labelled"><lb/>— Et ti, te donn'ras t'n aviss su' min qu'va.<lb/>Puis, les v'là partis avec chacun un bâton à s' main.</p>
+        <p><lb/>Awi ; mais on arrive à l’auberge du Viau<lb/>mort-né, on bot un verre, on in prind deux ; pus<lb/>lon, ch'est l' Grasse Poule, incore un verre ;<lb/>à l' Mule intétée, incore un verre ; bref, l's<lb/>arrivott'nt vers les onze heures à Lille, avec déja<lb/><lb/>eun' petite pronne.</p>
+        <p rend="labelled"><lb/>— Et si on irot dinner, dit Appourcheau,</p>
+        <p rend="labelled"><lb/>— A m' mode qu’on l'a bien gaingnée, répond<lb/>Dubaudet ; veyons, cachons eun' mason ûch' que<lb/>ch' n’est point trop quer.<lb/>— Bast! Bast! s'écrie Appourcheau, quand on</p>
+        <p rend="labelled"><lb/>vient à Lille, i' faut bien vivre. Allons au restaurant;<lb/>du reste, j' paierai l' dinner, ti te paieras l' vin et<lb/>r'casé.</p>
+        <p><lb/>Chin qui fut dit fut fait et nos deux hommes sont<lb/>partis s' restaurer : l's ont bu chacun leu' bonner<lb/><lb/>Soutelle et comme cha tape un p’tit peu puque à<lb/>l' tiète que l' bière d' villache, in sortant d' là, i’s<lb/>étott'nt bien rouches tous les deux et i's balochott'nt<lb/>comme d's abres à pronnes.</p>
+        <p rend="labelled"><lb/>— Ch'est point tout, dit Appourcheau, à ch't</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>— Et mi, répond Dubau det, j' vas m' dépécher<lb/>à acater min qu'va ; t't-à-l'heure i' n' n'ara pus.</p>
+        <p rend="labelled"><lb/>— Eh ben ! Viens avec mi tout d' suite, dit<lb/>l' premier.<lb/>— Non, j' pinse à un n' séquoi, réplique l'aute,</p>
+        <p rend="labelled"><lb/>si je n' t'avos point rincontré, te l' l'aros acaté sans<lb/>mi ; va querre tin costume ti tout seu', mi, j'irai<lb/>querre min qu'va mi tout seu et on se r'trouv'ra<lb/>tantôt su' l' route d' Tartagroborr.</p>
+        <p><lb/>Appourcheau a trouvé cheull' raison si bonne,<lb/>qu'il a parti aussitôt pa' l' rue d' Paris, pindant qu'<lb/>sin chochon infilot l' rue Nationale.</p>
+        <p><lb/>Mais pug' que Dubaudet marchot, li qui a d'jà<lb/>l' vue basse, moins i' veyot clair, si bien qu'arrivé<lb/>au boul'vard, il étot perdu comme dins un brouillard.</p>
+        <p rend="labelled"><lb/>— Hé, là-bas ! Vous n' porrit's point m' dire<lb/>uch' que j' sus, qu'i' dit à un passant ?</p>
+        <p rend="labelled"><lb/>— Vous êtes au boul'vard de l' Liberté, répond<lb/>l'homme. Et vous allez lon?</p>
+        <p rend="labelled"><lb/>— Mais j' vas acater un qu’va.</p>
+        <p rend="labelled"><lb/>— Acater un qu'va ? Mais, brave homme, l'<lb/>marqué il est fini ; seul 'mint, vous avez réussi de<lb/>m' rincontrer ; mi, je n' n'ai un tout ch' qui a d'<lb/>biau, je n’ n’ai r'fusé huit chints francs hier ; v’nez<lb/>l' vir, il est a m' mason. Ch'est eun' biète d' race,<lb/>tout ch' qui n'y-a d' bon. Allons, v'nez l' vir.</p>
+        <p rend="labelled"><lb/><lb/>— Bast ! répond Dubaudet, qui étot un peu<lb/>méfiant, je n' sais point d' trop.</p>
+        <p rend="labelled"><lb/>— Allons, v’nez, réplique l’aute, la vue n’in coûte<lb/>rien et i' li donne l' bras et l'intraine dins eun' rue<lb/>d' Lille, in aiant soin d' li faire boire incore des<lb/><lb/>chopés et des gouttes.</p>
+        <p><lb/>Infin, on arrive à eun' écurie, et l' marchand<lb/>présinte au paysan, eun' biète que l'aute n'aper-<lb/>chevot mème point,</p>
+        <p rend="labelled"><lb/>— Acoutez, dit Dubaudet, j'aime mieux ne rien<lb/>acater sans vir clair, j'ai oblié mes leunettes et.....<lb/>— Mais à cha près, je n' n’ai des leunettes,</p>
+        <p rend="labelled"><lb/>répond l' zique ; t'nez, avec cheull’s-là, vous<lb/>verrez, j'in réponds. J'cros bien, ch'étot des verres<lb/>qui grossissott’nt au moins du triple.</p>
+        <p><lb/>Dubaudot met cha su' sin nez et dit : Awi, i' s'<lb/>porte bien, l' gaillard ; avec cha, on vot clair, au<lb/>moins.<lb/>— Eh ben! Cha y est, dit l' maquignon?</p>
+        <p rend="labelled"><lb/>— Six chints francs, dit Dubaudet.</p>
+        <p rend="labelled"><lb/>- Siept chints, répond l'aute; je n' n'ai r'fusé<lb/>huit hier.<lb/>— Va pour siept chints, s'écrie l' paysan, mais</p>
+        <p rend="labelled"><lb/>j' conserverai les leunettes comme discompte.</p>
+        <p rend="labelled"><lb/>— Là-d'sus, il a payé et a parti fin contint, in<lb/>t'nant s' biète pa' sin licol.<lb/>Arrivé su' l' route d' Tartagroborr, i' vot sin</p>
+        <p rend="labelled"><lb/>— A ciit heure, ch’est tont ch' que t'as pui<lb/><lb/>trouver comme queva?</p>
+        <p rend="labelled"><lb/>— Eh ben 1 I' n’est point biau? répond Dubandet.</p>
+        <p rend="labelled"><lb/>— Si, mais si te m'avos dit que t'avos b'soin<lb/>d'un baudet, je n' n'avos un à t' vinte pou' quatre-<lb/>— Un baudet ! Et comme l'aute ponssot ch' cri,<lb/>vingt franes.</p>
+        <p rend="labelled"><lb/>v'là l' biète qu'elle se met à pousser des hi ! han !<lb/>à n'in p es finir</p>
+        <p><lb/>Dubandet s'a alors aperchu qu'on l'avot trompé ;<lb/>rien qu' cha l'a dessoulé et il a invoyé ses leunettés</p>
+        <p><lb/>au diable.<lb/>Et v'là pourquoi s'femme, d'puis huit jours, elle<lb/>le traite d'imbécile.<lb/>Tant qu'à Appourchean, i'n'a point été gramint</p>
+        <p><lb/>pus heureux, car i s'est aperchu l'lind'main, qu'au<lb/>lieu d'acater un vêt'mint d' deut, il avot queusi un<lb/>vêtmint gris.</p>
+        <p><lb/>Pauv's Tartagroborriens, va, l's n'ont point<lb/>Cat'hrine LONBIEC.<lb/>d'chance.</p>
+        <ab type="head"><lb/>s</ab>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>Les Aventures de Cascanbois</ab>
+        <ab type="head"><lb/>LE FACTIONNAIRE BELGE</ab>
+        <p><lb/>C'était en 1830, à l' révolution de l' Belzique, les<lb/>Belzes et les Français ils venaient de prendre l' ville<lb/><lb/>d'Anvers aux Hollandais et m' père il était zénéral et il<lb/>a été nommé gouverneur de l'citadelle d'Anvers.</p>
+        <pb facs="0002.xml"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>LAPRISE (montrant le désordre de sa tenue)<lb/>Un professeur de musique .. diplômé.<lb/>Il s'élance sur Laprise, le renverse et frappe dessus)<lb/>M. et Mime LARMALEUL. (se levant)<lb/>A ch't heure, quoïch' qui n'y-a ?<lb/>Ah !Des pots d' fer blanc !Des pots d'fer blanc !<lb/>Mme LARMALEUL<lb/>— Maisquiest-ce qui vousa mis là, que z'azoute?</ab>
+        <p><lb/>Comme l'guerre elle était pas tout a fait finie, m' père<lb/>il a donné l'ordre d' mettre des sentinelles un p'tit peu<lb/>partout comme que de zuste que vous d'vez comprendre.</p>
+        <p><lb/>Il y en avait à l' porte, il y en avait dans l' cour, il y<lb/>en avait sur les remparts, il y en avait même une dans<lb/>P' clocer d' l'église de l' çapelle de l'citadelle, parce que<lb/>m' père il était prudent, pot de fer blanc ! Et celui-là il<lb/>devait r'monter l'horlosque tous les zours.</p>
+        <p><lb/>Quand c' que tout a été rentré dans l'calme, m' père<lb/>il a été nommé gouverneur d'autre çose et il a quitté<lb/>Anvers. Son successeur, qu'il n'était pas si prudent que<lb/>m' père, il a fait supprimer une partie des sentinelles<lb/>et il n'en a plus laissé qu' deux à l' porte.</p>
+        <p><lb/>Alors les années ont succédé aux années; vingt ans,<lb/>trente, quarante, chinquante ans ont passé. Quand c' que<lb/>d's étrangers allaient à Anvers, l's Anversois ils étaient<lb/>fiers de dire que dans l' citadelle, il y avait une çose<lb/>extraordinaire, c'était une horlosque qu'elle marçait<lb/>sans zamais étre remontée et comme, zaloux de cette<lb/>gloire, ils voulaient pas que personne il voit l' système,<lb/>il était défendu de monter à l' clocer ousqu'était</p>
+        <p><lb/>Mais un zour, z'étais alors encore cef de l' protocole<lb/>en Belzique comme vous savez, voilà que l'horlosque</p>
+        <p><lb/>Quoi c' que ça veut dire, dit l' Gouverneur, ce scrait<lb/>pas l'fin du monde qu'elle arriverait par hasard.</p>
+        <p rend="labelled"><lb/>— Si qu' te veux, on va aller voir, dit une capitaine.</p>
+        <p rend="labelled"><lb/>— Non, non, répond l' Gouverneur, il faut d'abord<lb/>prév'nir le roi qui préviendra l' ministre d' la herre;<lb/><lb/>celui-là il préviendra l' zénie, l' zénie il préviendra un<lb/>horlozer, tout doit aller héirarciqu'ment.</p>
+        <p><lb/>Alors on a prév'nu le roi et le roi il a réfléci longtemps<lb/>puis il a dit à moi: Cascanbois, ze ne connais qu'un<lb/>homme intellizent dans tout l' Belzique, c’est vous.<lb/>Na-t-en à Anvers et vous verrez pourquoi qu' l'horlosque<lb/>de l' citadelle elle va plus.</p>
+        <p><lb/>Z'ai parti. Arrivé là, on me donne les cleſs de l'clocer<lb/>et ze monte. Voilà que z'avais peut-être monté trente<lb/>marces que z'entends une grosse voix qu'elle crie en<lb/><lb/>flamind : Qui vive!</p>
+        <p><lb/>Pot de fer blanc! Z'ai pas peur, ze suis pas poltron,<lb/>mais d'saisiss'mint, ze descends tout d'suite soixante<lb/>marces et ze vas cercer l' Gouverneur et toute l'<lb/>garnison elle monte dans le clocer.</p>
+        <p rend="labelled"><lb/>— Qui vive ! dit encore l' grosse voix.</p>
+        <p rend="labelled"><lb/>— Cambronne, que ze réponds au hasard.</p>
+        <p rend="labelled"><lb/>— Maestrick, réplique l' grosse voix; avancez à</p>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>FEUILLETON DE LA « VACLETTE » 6</ab>
+        <ab type="head"><lb/>L'éLÈve MUSIciE</ab>
+        <figure type="decoration"/>
+        <p><lb/>Mais, ma bonne dame (it la fait mettre tout<lb/>près de lui) c'est parce que c'est écrit sur un<lb/>tableau noir à la craie blanche, mais à l'encre sur<lb/>le papier blanc, la noire serait bien une noire.</p>
+        <p><lb/>sa femme, Zephque entre tout doucement)-</p>
+        <p><lb/>Pot d' fer blanc ! Quoi c' que c'est qu' ça vent<lb/>dire, mon femme qu'elle fait d' connaissance avec<lb/>une mynheer. Ah ! nom de zo ! Ze vais l'arranzer,</p>
+        <ab type="head"><lb/>POLYDOR (es séparant)</ab>
+        <lg>
+          <l><lb/>T'es maboule !Mon Dieu (Min lait, j' porrai bien</l>
+          <l><lb/>LAPRISE (se cachant derrière Larmaleu)</l>
+          <l><lb/>Je n'ai réellement pas de chance avec mes leçons.</l>
+        </lg>
+        <ab type="head"><lb/>ZEPHQUE (maintenu par Polydor)</ab>
+        <p><lb/>Calmez-vous, quoich'qu'i n'y-a?</p>
+        <p><lb/>Alors voilà que nous montons et qu ze m' trouve en<lb/>face d'un vieillard à barbe blance avec une costume de<lb/>carabinier du temps d'Liopold e</p>
+        <p rend="labelled"><lb/>— Quoi c' que vous faites ici, que z' dis, mon harçon,<lb/>en m'adressant au vieillard?</p>
+        <p rend="labelled"><lb/>— Mais z' monte l'faction, qu'il répond, scul'ment,<lb/>ze crois qu'il y a longtemps que ze suis là tout d' même</p>
+        <p rend="labelled"><lb/>— C'est l' zénéral Cascanbois, qu'il dit, le gouver-<lb/>neur de l' citadelle ; c'était en 1830.</p>
+        <p rend="labelled"><lb/>— Et t'es touzours ici depuis ce temps-là ?</p>
+        <p rend="labelled"><lb/>— Un soldat belze, répond l' vieux carabinier, il ne<lb/>connait que la consigne; voilà cinquante ans que ze<lb/>suis d'faction, mais z' commençais à trouver que c'était<lb/>un p'tit peu longtemps ; voità pourquoi que ces zours-ci<lb/><lb/>un pensée lumineuse a traversé mon esprit et ze me suis<lb/>dit : Ze vais pas remonter l' pendute, les compahons ils<lb/>se rapell'ront qu'ils ont oublié d' venir me r'lever.</p>
+        <p><lb/>Inutile de dire que pour récompenser une pareil servi¬<lb/>teur, on lui a donné les galons d'premier soldat et qu'il</p>
+        <p><lb/>Et à c't heure, quand qu' t'iras à Anvers, si qu' te<lb/>veux faire marronner l's Anversois, t'as qu'à parlerà cuss<lb/>de l' pendule qu'elle marce toute seule, d' l'horlosque<lb/>de l' citadelle, pot d' fer blanc !</p>
+        <lg>
+          <l><lb/>MÉDORINE (qui a repris son enfant)</l>
+          <l><lb/>A m' mode que je n' faijos rien d' ma!</l>
+        </lg>
+        <p><lb/>Un si bon Flamind!</p>
+        <p><lb/>Ze te dirai pas plomé du tout, mais quoi c' que<lb/>vous faisiez avec mon femme, là tout prés de votre</p>
+        <p><lb/>On apprind l' musique.</p>
+        <p><lb/>Dins trosmos, j' s'rai pianisse.</p>
+        <ab type="head"><lb/>Et mi, j' frai m' partie dins les bals ; ch'est ch'</ab>
+        <p><lb/>monsieur qui nous apprind.</p>
+        <p><lb/>Te d'vros apprinte aussi ; cha t' servirot.</p>
+        <p><lb/>Mais ze peux pas apprendre de piano, moi, avec<lb/>des grosses doigis comme ze l'ai.</p>
+        <p><lb/>T'apprindras l'accordéon, l'accompainn' rai.</p>
+        <p><lb/>De l'cordéon,, çi, c'est une idée. (allant vers<lb/>Laprise) Te vas apprendre à mi à zouer de l' cordéon.</p>
+        <p><lb/>Alors, vous êtes une bonne harçou et ze vous en<lb/>veux pas (il lui serre la main).<lb/>Mimi Lamour, les pint'leux, l' piquet voleur et l'<lb/>graissier, suivra Violette. Insuite eun' musique.</p>
+        <p><lb/>L'deuxième groupe r'présint'ra l' conduite du pèré<lb/>Cass'-Bras conduit à l'hopita' par ses infants, s'femme<lb/>et sin frère; dins ch' groupe on verra l'Lillos</p>
+        <p><lb/>Viendra insuite un car r' présintant l'petit sergent<lb/>sans moustache, eun' jeune fille qu'elle a fait la<lb/>guerre et dont l' sexe n'a été découvert que gráce a<lb/><lb/>eun' blessure à l' poitrine.</p>
+        <p><lb/>On y verra après l' valet d' société, Grosse Rou¬<lb/>gette, trainée pa' s'n homme sur cun' brouette, l<lb/>bernatier, l' crieux d' ville, sorlets vieux et incore<lb/><lb/>d’aut's personnaches qu’on porra ajouter. Nous<lb/>arons insuite Chacharles, l'hercule du Nord, in voi-<lb/>aure, suivi d'eun' musique.</p>
+        <p><lb/>Brûle-Mison s'ra aussi r'présinté.<lb/></p>
+        <p><lb/>Su' l' dernier car prindront plache l' petit quin¬<lb/>quin avé s' mère, l' gamin d'L'lle et l' gamiu d<lb/>Paris, P'tit Price, l'habit d' min grand-père et</p>
+        <p><lb/>I n' manqu'ra qu'un n' séquoi, ch'est eun'<lb/>Vila à peu près tout ch' qui figur'ra dins l'cortêche;</p>
+        <p><lb/>le n' vous dirai point qu' cha s'ra brillant, les person¬<lb/>naches d' Desrousseaux étant général'mint ds<lb/>onverriers, on n' peut point l's habiller in princes ou<lb/>mar juis. i' faut, aatant qu' possible les costumes du<lb/>temps, ch'est là qu' linitiative des sociétés ara à</p>
+        <p><lb/>A défaut d' brillant, l' cortèche s'ra original et<lb/>intéress'ra súr mint las vieux Lillos.</p>
+        <p rend="labelled"><lb/>(A part) Il ne m'en veut pas et il m'a esquinté à</p>
+        <p><lb/>Allons, continez l' lecon (a zephque) et vous,<lb/>mettez-vous à côté d' vo' femme.</p>
+        <ab type="head"><lb/>Oh! Elle sera vite finie ; mais s'ils se figurent</ab>
+        <p rend="labelled"><lb/>que je vais revenir.</p>
+        <p><lb/>continue la demona</p>
+        <p><lb/>Nous avons la ron le qui vaut quatre temps.</p>
+        <p><lb/>J't'expliqu'rai cha tantót.</p>
+        <p><lb/>La blanche qui vaut deux temps, la noire qui</p>
+        <ab type="head"><lb/>Eh bien! Et un cordéon, combien qu'ça vant?</ab>
+        <p><lb/>Moi, c'est de l' cordéon que z' veux apprendre,<lb/>z'ai pas besoin de savoir ça.</p>
+        <ab type="head"><lb/>Mme LARMALEUL et POLYDOR</ab>
+        <ab type="head"><lb/>A.ARMALEUL. (baillant)</ab>
+        <p><lb/>Ah !.. Que j'vodros souper et aller m' coucher.</p>
+        <p><lb/>La noire valant un temps, la croche vaut un<lb/>demi-temps ; je fais une croche.</p>
+        <p><lb/>Et te parles tonzours des temps et vous par les<lb/>zamais de min cordéon.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Inauguration du buste d' Desrousseaux</head>
+        <p><lb/>Parmi les fiôtes de Saint-Sauveur, Saint-Maurice<lb/>qu'on organise pou' l' Dimanche et l' Lundi d' Paques,<lb/>partie qui s'ra peut-ête l' pus originale, cha s'ra<lb/>l'inauguration par anticipation, du buste d'</p>
+        <p><lb/>L'inauguration s' (ra plache Wicar ; l'ouvre pro-<lb/>visoire à été confiée à doux artistes qui f'rons quéqu'<lb/>cosse de bien. On y f'ra intinde cun' cantate in patois,<lb/>tout comme à Jeanne Maillote. L' soir, n'y ara illu-<lb/>minations et concerts.</p>
+        <p><lb/>Dins un cortèche organisé pa' des sociétés d' la<lb/>Ville figur'ront les personnaches des principales<lb/>canchons d' Desrousseaux.</p>
+        <p><lb/>L' premier groupe : Arrivéo du P'tit Violette. —<lb/>L'petit Violette, qui a fini sin congé r'vient dins s'<lb/>ville et tous les gins d'Saint-Sauveur li font réception:</p>
+        <p><lb/>L' premier car, r'présintant l' vieux cabar et, avec</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>MES CHUCADES</head>
+        <p><lb/>Eun' flaminque des invirons de l' rue d'Juliers,<lb/>mariée d'puis quèqu's mos avec un honnête bradeux<lb/>d' bos, établi à sin compte, s' trouvot saim'di passé<lb/>au marqué des Halles-Centrales, in train d' marchan¬<lb/>der eun' cas trôle, quand elle intind crier derrière<lb/>elle: « Voyez les beaux bouquets! Je vends cinq sous<lb/>les bouquets de mimosa ! » Cheull' femm' se r'tourae<lb/>et vot un p'tit garchon portant un paianier rimpli d'<lb/>fleurs gannes qu'on appelle mimosa, suspindu à sin<lb/>cou par eun' fichelle.</p>
+        <p rend="labelled"><lb/>— « Qa c'est de belles bouquets, qu'ell' so dit ; et<lb/>ce n'ont pas cer, cinq sous ! Ze vas l'ac'ter une à ce<lb/>harçon pour mon l'homme; zustemint, après domain,<lb/>c'est Sainte-Zoseph, ze souhait rai son fête avec, et<lb/>il sera bien continte, pot d'fer blanc. »</p>
+        <p><lb/>Chin qui fut dit fut fait.</p>
+        <figure type="decoration"/>
+        <pb facs="0003.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/><lb/>AIR: Vice l Crinolina</ab>
+        <p><lb/>Arrivée à s' mason, ell' muchot ch' bouquet soin-<lb/>gneus'mint dins un p'tit coin, tout in s' promettant<lb/>d' faire eun' surprise à s'n homme.</p>
+        <p><lb/>L' lind main matin, ch'ti-chi dormot incore, quand<lb/><lb/>s' femme l' réveille et li souhaite l' bonne fiête in li<lb/>présintant l' bouquet in question ; mais contre s’n<lb/>attinte, elle a été r'chue comme un quien dins un ju</p>
+        <p><lb/> Sale flaminque ! femme de rien! etc., etc...<lb/>V'la tous les noms qu’à s' grand' surprise elle a<lb/>intindus. Et pour quoi? Parc' que ch' l'homme, in<lb/>r'chevant chés fleurs gaunes, s'a figuré que s' femme,<lb/>s' moquot di li, et qu'elle volot li faire comprinde<lb/>avec cha, qui fai ot comme gramint d’hommes, partie<lb/>de l gerrande confrérie des trompés.</p>
+        <p><lb/>L' petit Narcisse, un garchon d' Saint Sauveur,<lb/>qui pent avoir à ch't heure quatorze ans, avot, du<lb/><lb/>demps qui fréquentot l'école, fait comm' gramint d'<lb/>garchonnals de s'n âche, queuette au moins tros jours,<lb/>sur six, chin qui fait qu' quand il a quitté pour aller<lb/>ouvrer in boutique comme p'loteux, au lieu d’avoir</p>
+        <p><lb/>sin certilicat d études, il étot incore in s’conde.<lb/>Cna n' dit point pour cha qui manquot d'intel-<lb/>gence, save? Non, car si i' savot à peine lire,<lb/>perire et carculer, il étot par contre, très fort pou'<lb/> dessin, et comme il avot gramint d' goût pou' l'<lb/>peinture, il est arrivé à povoir suivre les cours à<lb/>lécole académique.</p>
+        <p><lb/>N'y-avot bien six mos qui r'chevot des l'çons du<lb/>professeur....., nom de zo, je n' me rappelle pus d'<lb/>nom ; infin, bref, cha n' fait rien, et il y faijot<lb/>progrès, savez, quand un soir, ch' dernier, li<lb/>mant un p'tit tableau qui d'vot r'présinter eun'<lb/>dont les mariés étott'nt bochus et qui li avot<lb/>à faire à s' mason, qu'n ejours auparavant, i<lb/>ainde: « En bien ! Narcisse, avez-vous terminé</p>
+        <p rend="labelled"><lb/>Non, monsieur, point incore, qui répond.</p>
+        <p rend="labelled"><lb/>— Eofip, vous avez terminé l'ébauche, au moins ?<lb/>Awi, seul mint j' n'ai point m' toile ichi, j' l'ai<lb/>laiché à m' mason.</p>
+        <p rend="labelled"><lb/>Eh bien, vous me l'apporterez demain, dit l'<lb/>Professeur, car je veux absolument la voir.</p>
+        <p><lb/>De r'tour à s' mason. Narcisse qui, in somme.<lb/>n'avot pour ainsi dire point incore touché à cheull'<lb/>doile, s' dépêchot à li donner què qu's cops d' pinceau,<lb/>et s'in allot insuite dormir fin contint qu' sin profes-<lb/>seur n' li avot point d'maindé davantache.</p>
+        <p><lb/>L' lind'main au soir, i s'am not comme d'habitude,<lb/>pou l' cours, et arrivé d'vant sin professeur, sortot<lb/>Ariomphal'mint d' sin carton l' toile in question et l'</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>(à part) Je finis la démonstration et la leçon est<lb/>terminée; mais jamais plus je ne remets les pieds<lb/>ici. (Hant et très picement) La croche valant un,<lb/>demi-temps, il faut donc deux croches pour une,<lb/>Doire, deux noires pour une blanche, deux blanches<lb/>pour une ronde, quatre noires pour une ronde<lb/>jui a la valeur de huit croches tandis que la,<lb/>blanche n'a que la vateur de quatre crochés. (il<lb/>présintot à ch'ti-chi qui, après l'avoir r'vettiée, l'jetot<lb/>à l' tiête de s’n élève avec colère, io s'écriant:<lb/>— « Qu’est-oe que vous m’avez fichu là, imbécile?<lb/>Pourriez-vous me dire ce que cela représente,</p>
+        <lg>
+          <l><lb/>Et moi, vous croyez que z' comprinds un quelque</l>
+          <l><lb/>çose. Et il parle pas de m' cordéon.</l>
+          <l><lb/>Madame LARMALEUL</l>
+          <l><lb/>A m' modequ'il est in train de s' fiche de nous.</l>
+          <l><lb/>LARMALEUL (baillant)</l>
+          <l><lb/>Ah! Je n' n’ai assez ; au diable l' musique.</l>
+          <l><lb/>Lcest l' première leçon. Mais ch'est l'pus</l>
+          <l><lb/>M. et Mme LARMALPUI.</l>
+          <l><lb/>Lpus facile! Ah! mais non, alors.</l>
+          <l><lb/>L' pus facile ! Et on n'y comprind rieme</l>
+          <l><lb/>ill parle pas de m' cordéon.</l>
+          <l><lb/>Nous arrivons à la doubte croche.</l>
+          <l><lb/>Tais-te. va, vieille caboche.</l>
+        </lg>
+        <p rend="labelled"><lb/>Bien sûr, monsieur, répond Narcisse avec<lb/>aplomb, ch'est les boches que vous m'avez d'maindées.</p>
+        <figure type="decoration"/>
+        <p><lb/>Deux camanettes de l' rue d' l' Vingnette conduijant<lb/>leus infants à l'école de l rue St Michel, rigollott'nt<lb/>intr'olles, je n'sais à queu sujet, au moumint qu'un<lb/>garde-police tournot l' coin d' cheull' rue.</p>
+        <p rend="labelled"><lb/> Hé! n’ ris pus si fort, grande sotte, dit l'eune,<lb/>in r'prenant s'n air sérieux, r'vette ch' garde la qui</p>
+        <p rend="labelled"><lb/>— Quoich' que cha fait, répond l'aute, et sans<lb/>pinser pus avant, elle ajoutot : « Mais les gardes, ma<lb/>fille, ch'est des hommes comme nous.</p>
+        <ab><lb/>CROQUE-CHUQUE.</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>MEDORINE<lb/>Allons, dépêchons-us aaller souper et laichons<lb/>l' musique pou l's autes. (Ette chante)<lb/>musique (Desrousseaux)<lb/>AIR: La Retraite<lb/>POLVDOR (s'éloignant)<lb/>L'croyo ire eee <lb/>l's n' comprenn'tent rien<lb/>e de l' cordéon<lb/>Mais ch'est un vieux fou.<lb/>Mme LARMAL<lb/>Et m' cordéon, pot d'fer blanc !<lb/> ch'n'est rien d'cha,<lb/>Il y a, après, la triple croche qui vaut...<lb/>Dev'nir eun' pianisse<lb/>Juer un jour un <lb/>Assez! Vous avez dit suflisammint d' mintiries.<lb/>Suer un jour un sop<lb/>Mais, monsieur.<lb/>Mais l' patieinche ell vous manque !<lb/>ZEPHQUE (l'attrapant derrière par le cou)<lb/>On dit noir pour dir' blanque.<lb/>Te nous prends pas quel quefois pour des Zacques.<lb/>Eh là-bas! Au s'cours?<lb/>Lun double croch<lb/>Mme LARMALEUL. (levant son bras)<lb/>Allez ! A l' porte (it le met dehors).<lb/>Tiens ! Laich'-m'in r'pos.<lb/>Site n' veux point dev'nir bourrique.</ab>
+        <p rend="styled"><lb/>llace et recommence des notes).</p>
+        <ab type="head"><lb/>Je n'comprinds rien a ch qu'i' dit.</ab>
+        <lg>
+          <l><lb/>La double croche, ça vautla moitié d'une croche.</l>
+        </lg>
+        <p><lb/>Ah! P' n' sait pus chin qu'i' dit, Double, cha</p>
+        <ab type="head"><lb/>POL</ab>
+        <p><lb/>Ch'est comme cha.</p>
+        <lg>
+          <l><lb/>A m' mote que vous l'avez saoûlé</l>
+          <l><lb/>Mme LARMALEUL (levant la main sur son garçon)</l>
+          <l><lb/>Quoich' que ch'est, te n' vas point contredire</l>
+          <l><lb/>tin père, quequ' fos ?</l>
+        </lg>
+        <p><lb/>Vous avez lien foit, je n’ veux pus d' tout cha<lb/>dins m' mason. (à Polydor) Et ti, garchon, cesse<lb/>Mme LARMALEUL,</p>
+        <p><lb/>POLVDOR (larmoyant)<lb/>Awi, j'cess'rai et d' bon cœur, in veyant qu'<lb/>ch'est là tout l' respect qu'on a pour un vieux</p>
+        <p><lb/>Vieux musicien? Il sait seul'ment pas zouer de</p>
+        <lg>
+          <l><lb/>Nous n'velons pus de l' musique</l>
+          <l><lb/>ou prequ musicie</l>
+        </lg>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>A PROPOS D' CASQUETTES</p>
+        <p><lb/>On parlot dernièr'mint de l' casquette d'un</p>
+        <p><lb/>On pent dire que ch'ti-la est uu grand veinard.<lb/>Dernièr'mint i' sa fait voler s' casquette par un<lb/>garchonnal, mais comme s'n Administration l' con-<lb/>sidère pour un d' ses agents zélés, elle li a fait cadeau<lb/>d'eun' casquette neuve pou l'indemniser de s' vieille</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>VIVENT LES BOERS</p>
+        <lg>
+          <l><lb/>Un jour la Rein' d'Ingleterre,</l>
+          <l><lb/>Tout in comptant sin trésor.</l>
+          <l><lb/>Dijot cha frot bien m'n affaire,</l>
+          <l><lb/>Si jl possédos des min's d'or</l>
+          <l><lb/>Là d'ssus comm' sortant d'un rève.</l>
+          <l><lb/>Elle appelle sin général</l>
+          <l><lb/>Et li dit : P faut sans trêve</l>
+          <l><lb/>S'imparer d' cheuss' du Transvaal.</l>
+        </lg>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Boërs à Touvrache</l>
+          <l><lb/>Crie : Viv les Boërs!</l>
+        </lg>
+        <lg>
+          <l><lb/>Faut obéir coût que coûte,</l>
+          <l><lb/>Suivant les traces de Malbrouch,</l>
+          <l><lb/>V'là Robert qui s' met in route,</l>
+          <l><lb/>qu'va et raide comme un bouc ;</l>
+          <l><lb/>Mais Krüger l’infatigable</l>
+          <l><lb/>Dit in veyant chés vauriens</l>
+          <l><lb/>'vais t'invoyer d'u qu' te v</l>
+          <l><lb/>' vais t'invoyer d'ù qu' te vies</l>
+        </lg>
+        <lg>
+          <l><lb/>Aussitôt l' s' met in plache.</l>
+          <l><lb/>n,</l>
+          <l><lb/>Il a fait un balayache</l>
+          <l><lb/>Qu' les Inglais d'mandot'nt pardon,</l>
+          <l><lb/>Et chés espèces de cu' d' mou ju'</l>
+          <l><lb/>S' sauvottent comme des sans-</l>
+          <l><lb/>In fac des Boers vainqueurs</l>
+        </lg>
+        <lg>
+          <l><lb/>Les Inglais n'ont point eu d'chance,</l>
+          <l><lb/>l's n' povot'nt point faire un pas.</l>
+          <l><lb/>Sans rchevoir eun' biell' danse,</l>
+          <l><lb/>Malgré tous leu's imbarras,</l>
+          <l><lb/>Et l' général dins s' déveine,</l>
+          <l><lb/>Veyarit qua na'etet pint fort</l>
+          <l><lb/>Invoyez-nous des rinforts,</l>
+        </lg>
+        <lg>
+          <l><lb/>Alors, l'a eu l'avantache,</l>
+          <l><lb/>Mais vrai, n'y-a poiut d' sensches</l>
+          <l><lb/>Car les Anglais comm' des lachés</l>
+          <l><lb/>etottent quarant' contre un,</l>
+          <l><lb/>Et Cronje réduit à l' misere.</l>
+          <l><lb/>Mais. malgré cha ou espère,</l>
+          <l><lb/>Que l'dernier mot n'est point dit.</l>
+        </lg>
+        <lg>
+          <l><lb/>L'Europ' vous admire</l>
+          <l><lb/>Caron intnd qu' dire</l>
+        </lg>
+        <note>
+          <p><milestone unit="column" n="3"/><lb/>Le prochain feuilletm aura pour titre:</p>
+        </note>
+        <p rend="heading"><lb/>LE CRIME DE LA RUE MALPART</p>
+        <p rend="styled"><lb/>Par J. HOLLAIN.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81342775</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1882-02-12">1882</date>
+          <idno type="ARK">bpt6k81342775</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81342775</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Dimenche, 12 de febrié 188</fw>
+        <fw type="runningTitle"><lb/>Dous sou lou numerò</fw>
+        <dateline><lb/>III. Annado – N. XLVI p. 361</dateline>
+        <note type="handwritten"><lb/>Ln</note>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>JOURNAU POUPULARI DE LITERATURO, D'ISTORI E DE SCIENCI</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>PAREISSENT TOUTEI LEI DIMENCHE</p>
+        <p rend="styled"><lb/>Depausitàri majourau pèr Marsiho: M. Vincent, carriero Corneille, 3.</p>
+        <ab><lb/>Abounamen :<lb/>siTtrane pèr an per touto la France.<lb/>Fouero Franço, lou port en subre, co<lb/><lb/>que reven à DS fr.</ab>
+        <figure type="decoration"/>
+        <p><lb/>Tout ço que toco lon journau deu<lb/>estre manda afranqui à l'Empremarié<lb/>Prouvençalo, 45, carrièro dou Grand-<lb/>Relògi, à-z-Ais.</p>
+        <p rend="styled"><milestone unit="column" n="3"/><lb/>Les aunonces, réclames et faits di-<lb/>vers sont reçus exclusivement à la<lb/>Société Anonyme de publicité, 52 rue<lb/>d'Aboukir, termière de la publicité.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>NECROULOUGIO La bello maire de P. Gourdou.<lb/>len - Lou Felbre de Baudo.</ab>
+        <ab type="head"><lb/>THÉATRE DE JEAN DE CABANES</ab>
+        <ab><lb/>GRANDE BIBLIOTHÉQUE PROVENÇALE</ab>
+        <ab type="head"><lb/>Tomell (Section Litéraire)</ab>
+        <ab type="head"><lb/>DE LA</ab>
+        <ab type="head"><lb/>Directeur : ALBERT SAVINE</ab>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>TAULETO</ab>
+        <p rend="structured"><lb/>PAssO-TEMS — La mouart de Pistachié - Peire<lb/>Simoun.</p>
+        <list>
+          <item>PoUESIO. — Flour e chato XIX e XX - F.Antoine</item>
+        </list>
+        <p rend="structured"><lb/>Moun Aubagno - O. Monier.</p>
+        <p rend="structured"><lb/>CnOUNICO. — Lou councours de la Mestriso. —<lb/>En F. Gras à Paris. — Mariagi d’un felibre<lb/>em 'uno princesso.</p>
+        <p rend="structured"><lb/>TEATRE PROUVENÇAU. — Li Pastrihouno de Bete-<lb/>an plu trouva soun parié, talamen rèn que de lou<lb/>vèire lei gen crebavon de rire. Quand pareissié<lb/>su scèno, tout lou mounde aplaudissié, e dins lou<lb/>tèms de la quaranteno de Nouvè, si parlavo que<lb/>d'èu dins tout Marsiho. Pèr dire : anan à la pas-<lb/>touralo, lei gent fasien : anan vèire Pistachié.<lb/>Ero tout dire....</p>
+        <list>
+          <item>FUEIRTOUN — CarnavaS- L. Astruc.</item>
+        </list>
+        <p><lb/>Uno cavo proun estraordinàri, pamens, es que<lb/>noueste Pistachié qu’èro toujour tant gai dins<lb/>soun role, devenié triste e sourne quand lou res-<lb/>countravias pèr carriero, senso sa perruquo gar-<lb/>roto, sa camié de telo cruso, sei braio verdastro e<lb/>sei gros esclò.</p>
+        <p><lb/>Passavo seriéu coumo un papo, lei man dernié<lb/>l'esquino, rède coumo Artaban, èu que poudié pa<lb/>faire un pas senso balinbalan dins la pastouralo.<lb/>Caminavo tèsto basso, e de fes que l'a souspi-<lb/>ravo...</p>
+        <p><lb/>Paure Pistachié ! avès devina soun mau, bessai,<lb/>car èro amourous tant e mai, amourous coumo<lb/>fouele d'uno pichouno bloundo ei chevu freisa<lb/>que fasié lou role de l’angi dins la pèço de la<lb/>neissenço de l'enfant-Diéu...</p>
+        <p><lb/>Estre amourous d’un àngi, aquit l'a rèn d'es-<lb/>traordinàri; mai ce que rouigavo Pistachié, èro<lb/>de saupre que sa flamo brulavo pèr rèn, perqué<lb/>l'angi avié deja douna son couar au premié ber-<lb/>gié, un poulit jouvènt brunet que li gisclavo<lb/>d'uiado de fue proun souvent, e que calignavo<lb/>tant e mai.</p>
+        <p><lb/>0 coumo noueste coumique desiravo la fin de</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>PASSO-TEMS</head>
+        <head><lb/>LA MOUART DE PISTACHIE</head>
+        <p><lb/>Ero lou flambèu de la Pastouralo que si jugavo<lb/>l'a 'no trenteno d'an à la carriero dóu Panié.</p>
+        <p><lb/>Pèr faire lou fada n’avié ges coumo èu, e se<lb/>pou dire que sus touti lei coumique prouvençau<fw type="digitisation-artefact"><lb/>lic/B <lb/></fw></p>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="362"/>
+        <fw type="runningTitle"><lb/>L.OJ BRUSC</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Lou dernié jour vengu, lou direitour decidè que<lb/>la representacien serié pèr lou benefici de Pista-<lb/>chié qu'avié tant fa rire lei gènt, e que meritavo<lb/>bèn acó pèr sa recompenso. Es de fet que toute<lb/>la vilo venguè pèr l'applaudi pu fouart que ja-<lb/>la quaranteno per n'en feni emé la pastouraio e<lb/>plu vèire davan seis uei aquelei calignaire que<lb/>fasien son malur.<lb/>mai... L'aguè pa 'no plaço de rèsto, dei promiero<lb/>finqu'au galinié.</ab>
+        <p><lb/>Pistachié sieguè gai, coumique, risible à faire<lb/>plesi jamai l’avien vis tant bèn juga soun role<lb/>Ero que raisso de picamen de man, un veritable<lb/>triounſle, talamen que l'angi ei friseto bloundo<lb/>cantè sei roussignalado senso que n’en faguesson<lb/></p>
+        <p><lb/>Monate Pistachié faguè flòri, sieguè subretout<lb/>dins la scèno dóu pous, quand lei bóumian l'a-<lb/>guènt jita dins l'aigo, creidè: Mi négui... mi né-<lb/>gui !... Alor toûti lei pastourèu arribèron pèr lou<lb/>saia d'aqui dedins; e, coumo es dins la pèço, li<lb/>jiteron la couardo dou pous emé lou pouire...</p>
+        <p><lb/>Es impoussible de counta lou rire que l'agué<lb/>quand lou found dóu pouire crebant, au moumen<lb/>mounte anavoa lou sauva, Pistachié retoumbè<lb/>dins lou pous, mai mounte la gaieta gagné touto<lb/>la salo, e mounte lei gent si trousseron, siegué<lb/>quand, au segound còu lei pastre saieron pèr la<lb/>testo lou coumique que s’estènt passa la couardo<lb/>au couele mountavo, mountavo en fent un pan de<lb/>lingo.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>CarnavaS</head>
+        <p rend="labelled"><lb/>(Mars 1879.)</p>
+        <p rend="heading"><lb/>A MADAMISELLO ", D'ALES.</p>
+        <p rend="labelled"><lb/>(Seguido.)</p>
+        <lg>
+          <l><lb/>E lou batèu, au timoun fisançous,</l>
+          <l><lb/>Vai dóu pounènt caressa l'aigo lindo,</l>
+          <l><lb/>L'auro subran, au travès pren lou dous</l>
+          <l><lb/>Barquet e sus lou levant filo. Ansindo</l>
+          <l><lb/>Idèio e vers que dèurien estre uni,</l>
+          <l><lb/>Sèmblon de fes se desclara la guerro,</l>
+          <l><lb/>E de qu’arribo? es que lou mai puni</l>
+          <l><lb/>Es lou pouèto aplanta dins l'espèro;</l>
+        </lg>
+        <lg>
+          <l><lb/>S'aviéu à faire un image, — perdoun, —</l>
+          <l><lb/>Diriéu tout net : lou pouèto es la barco,</l>
+          <l><lb/>L'auro es lou vers, l'idèio es lou timoun;</l>
+          <l><lb/>Mounte anara lou sujet que s’embarco?</l>
+        </lg>
+        <p><lb/>Aqueleis esbroufado duravon despuei cinq mi¬<lb/>nuito, quand subran la figuro de Pistachié deven-<lb/>guè blèmo, pièi viéuleto, seis uei si fermèron, e<lb/>soun corps devenguè rede coumo uno barro....</p>
+        <p><lb/>Lou promié bergié, l'amourous de l'àngi, der-<lb/>rabè l'a coutelas au bòumian pèr coupa la<lb/>couardo.... Sieguè dins touto la salo qu’un cris de<lb/>doulour. Lou peure Pistachié s'èro pendu. En li<lb/>levant sei vièsti trouvèron dins sei pocho uno<lb/>biheto em'aquestei mot:</p>
+        <p><lb/>Leissi lou benefici de la representacien à l'an-<lb/>gi... Es ma derniero voulounta. Paure Pistachié,<lb/>l’entarreron lendeman, e vaquit coumo après d'a-<lb/>gué fa tant rire, faguè encaro mai ploura.</p>
+        <ab><lb/>PEIRE SIMOUN.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>POUES1O</head>
+        <head><lb/>FLOUR E CHATO</head>
+        <head><lb/>XIX</head>
+        <head><lb/>BOUQUET</head>
+        <lg>
+          <l><lb/>Quau de vous chato amo li flour?</l>
+          <l><lb/>Mai coume diferas de caro.</l>
+          <l><lb/>Eli diferon de coulour.</l>
+        </lg>
+        <ab type="head"><lb/>I Chato<fw type="digitisation-artefact"><lb/><lb/>/Bu </fw></ab>
+        <list>
+          <item>— lèu, ieu, emai iéu, iéu encaro.»</item>
+        </list>
+        <lg>
+          <l><lb/>O, presquo tóuti vous soun caro.</l>
+          <l><lb/>Amas lou rouge o la palour,</l>
+          <l><lb/>La forto o la douço oudour?</l>
+          <l><lb/>Quali preferas digas v'aro!</l>
+        </lg>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>E bèn un pau lou legèire, parai?</l>
+          <l><lb/>Dequé devès pensa, Madamisello?</l>
+          <l><lb/>Oh ! pièi tout fai d’alòngui, tout n'en fai,</l>
+          <l><lb/>Siéu pas soulet d'alounga la ficello.</l>
+        </lg>
+        <lg>
+          <l><lb/>Quand es parti dóu trelus, lou sorlèu</l>
+          <l><lb/>Pèr au trelus arriba, passo i colo</l>
+          <l><lb/>Dou fre tremount. M'es avis, o calèu,</l>
+          <l><lb/>Que fas tambèn toun camin de l'escolo !</l>
+        </lg>
+        <lg>
+          <l><lb/>Fuguèsse-ti loungaru lou gamin</l>
+          <l><lb/>Que nous marquè lou Mèstre dins la vido:</l>
+          <l><lb/>Parten de rèn pèr arriba, — destin! —</l>
+          <l><lb/>A rèn. Au mens sigue longo e flourido</l>
+        </lg>
+        <lg>
+          <l><lb/>L'umano draio ount nous an semena,</l>
+          <l><lb/>E sus d'acò reprène la seguido.</l>
+          <l><lb/>De moun entrigo e la vau bèn mena..</l>
+          <l><lb/>Deja cresès que quauco Margarido</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

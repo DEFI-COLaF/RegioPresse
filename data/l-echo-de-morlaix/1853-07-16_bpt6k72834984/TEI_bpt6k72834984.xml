@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Écho de Morlaix</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k72834984</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Écho de Morlaix : feuille d'annonces : journal politique</title>
+          <publisher>V. Guilmer (Morlaix)</publisher>
+          <date when="1853-07-16">1853</date>
+          <idno type="ARK">bpt6k72834984</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k72834984</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="bre">breton</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>QUINZIEME ANNEF.</fw>
+        <dateline><lb/>SAMEDI 16 JUILLET 1853.</dateline>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>FEUILLE D'ANNONCES.</p>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/> Gr Sournal Publle len Venten, les Annoncen judiclatren, administratisen, commereialen, Mttérairen, induntrteltes,</p>
+        <ab><lb/>aaricelen, es lem Avis divers.</ab>
+        <p rend="styled"><lb/>L'Eche parait le samedi de chaque semaine. — Le pris de l'abennement pour une année, est de 10 fr. pour Motlait,<lb/>de 11 ſe. 50 e. par la peste. — Les lettres, les paqurts et f'argent<lb/>doivent étre adressés france, au Bureau du Jeurnal, chea V. Guttssa, Imprimeur-Libraire, à Morlain; Finistère). — On s'abonne et on receit les annences pour notre jouraal, d Paris, e<lb/>Netre-Mame dre-Victeires, 23, a 1'Oflee cerreependance Lasotivar et<lb/>A CAgenre des feuittes potitiquee. Dieceteur M. Havas, 3, rue Jesn-Jacques-Roussesu ;nreie, ches<lb/>les Libraites et chea les Pirrcteura des postes. — Prix d'insertion : 25 centimee la ligne¬</p>
+      </div>
+      <div type="article">
+        <head><lb/>AVIS ET PAITS DIVERS.</head>
+        <p rend="labelled"><lb/>-Dimanche dernier plusicurs enfants s'amusaient<lb/>autour d'une voiture, lorsque l'un d'eux s'est trouvé<lb/>pris sous la roue. Il a éte transportè chez lui assez<lb/>grievement blessé. Cet enfant est aujourd'hui hors de</p>
+        <p rend="labelled"><lb/>— Le mérue jour un jeune garçon de trois ans est<lb/>fombé dans la rivière du grand lavoir. Aux cris pousses<lb/>par lui, le nommé François Dantec s'est jeté à l'eau<lb/>et l'en a retirè sain et sauf.</p>
+        <p rend="labelled"><lb/>— Indiestion du dernier numèro compris définiti-<lb/>vement dans le contingent, et contingent assignè à<lb/>chaque canton, arrondissement de Morlaix, pour la</p>
+        <lg>
+          <l><lb/>Landivisiau, 77; contingent 35.</l>
+          <l><lb/>Lanmeur, 67; contingent, 42.</l>
+          <l><lb/>Morisix, 88; contingent, 41.</l>
+          <l><lb/>Plouescat, 70; contingent, 35.</l>
+          <l><lb/>Plouigneau, 100; contingent, 44.</l>
+          <l><lb/>Plouzèvèdè, 74; contingent, 42.</l>
+          <l><lb/>Saint-Pol-de-Léon, 86; contingent, 53.</l>
+          <l><lb/>Saint-Thègonec, 67; contingent, 31.</l>
+          <l><lb/>Sirun, 42; contingent, 25.</l>
+          <l><lb/>Taulè, 48; contingent, 27.</l>
+        </lg>
+        <p><lb/>— L'épreuve de la machine, dite à rapeurs combi-<lb/>nées, systènie du Trembley, appliqué au navire de ce<lb/>nom qui vient de faire le voyage d'Alger à Marseille, a<lb/>été complète de toutes manières, et les résultats obtenus<lb/>comme solidité, sécuritè et économie, ne laissent rien<lb/>à désirer et sont de nature à dissiper toutes les craintes<lb/>qu'avait, de prime abord, fait naltre l'emploi de l'ether<lb/>sulfurique. Assailli par un gros temps, dans la nuit<lb/>du mardi au mercredi, le navire roulait à ce point<lb/>qu'il a failli perdre son embarcation de babord, qui,<lb/>plusieurs fois, a étè soulevée par la vague. La machine,<lb/>quoique très-faible pour la capacité du navire, n'a pas<lb/>éprouvé un moment d'hésitation, et sa marche n'a<lb/>pas subi la moindre modification; malgré les secousses<lb/>qu'elle a eu á supporter, aucune fuite ne s'est déclarée<lb/>dans les joints des appareils dans lesquels circule l'é¬<lb/>ther ou sa vapeur. A la hauteur des lles, le vent étant<lb/>complètement tombé, le navire a dù achever sa route<lb/>par la seule impulsion de sa machine, avec l'aide, par<lb/>moment, d'une légère brise que le capitaine savait<lb/>mettre à profit. Pendant tout le trajet, la machine a<lb/>fonctionné avec une régularitè parfaite.</p>
+        <p><lb/>Quant aux résultats économiques, ils pourraient<lb/>paraitre incroyables, s'ils n'étaient attestés par tous<lb/>les hommes de l'èquipage, et surtout par deux hommes<lb/>éminents par leur position et leur savoir, qui ont bien<lb/>voulu, dans l'intérêt de la science, accompagner le<lb/>Du Trembley dans son premier voyage.</p>
+        <p><lb/>Toutes les précautions avaient été prises pour arriver<lb/>à une appréciation exacte. Le charbon a été pesé pen¬<lb/>dant le temps que la machine menait seule le navire,<lb/>et, sans le secours de la voile, lui faisait filer 6 nocuds<lb/>et demi à 7 nœeuds, ce qui est le maximum de la vi-<lb/>tesse qu'elle puisse imprimer au navire, attendu la<lb/>faiblesse de sa machine, qui n’est que de 60 chevaux,<lb/>Eh bien, les calculs ont donné une consommation<lb/>moyenne de 77 kilogrammes à l'heure, soit en tout,<lb/>poor la durée de la traversée, 4.114 kilogrammes. Le<lb/>Du Trembley est donc arrivé au port avec ses soutes<lb/>presque pleines. Or, l'année dernière, quand sa ma-<lb/>chine marchait par la vapeur d'eau seulement, elle<lb/>consommait, pour accomplir le même trajet, en<lb/>moyenne 21,000 kilogrammes.</p>
+      </div>
+      <div type="article">
+        <p><lb/>La dépense d'éther peut être évaluée à 26 litres au<lb/>moins, 30 litres au plus. Le coêt de l'éther, cette an¬<lb/>née, vu la cherté des alcools, est de 2 fr. dix centimes<lb/>le litre. En admettant le prix de la tonne en charbon<lb/>à 31 fr., nous arriverons à constater ceci: La meme<lb/>machine qui dépensait autrefois 816 francs, ne dépense<lb/><lb/>plus aujourd'hui, l'ether compris, que 202 francs.—<lb/>De tels résultats n'ont pas besoin de commentaires."</p>
+        <p rend="labelled"><lb/>— Le docteur Luanco, professeur de chimie à l'u¬<lb/>niversité d'Ovièdo (Asturies, — Espagne) vient d'in-<lb/>venter des procedès pour extraire du mare de pommes,<lb/>ayant servi à la fabrication du cidre, un gaz d'éclai-<lb/>rage qui donne une lumière aussi pure et aussi écla-<lb/>gante que le gaz de la houifle.</p>
+        <p><lb/>Les appareils et les procédès pour l'obtenir sont<lb/>extrèmement simples et beaucoup moins couteux que<lb/>pour l'extraction du gaz de houille.<lb/></p>
+        <p rend="labelled"><lb/>— L'exhibition vivante du fond des mers et de ses<lb/>bizarres habitants, est une grande nouveauté. Or, sur<lb/>les bords du Lit de Fleurs, dans le jardin zoologique<lb/>de Londres, Regents-Parck, on a construit une sorte<lb/>de palais de cristal, moitiè fer moitié verre, de 60<lb/>pieds de longueur, de 20 pleds de largeur, renfermant<lb/>dans son sein 14 bassins en verre, de 6 pieds carrès.<lb/>Déjà 8 de ces bassins sont occupès par des animaux<lb/>vivants, et six ont été offerts la semaine dernière à<lb/>l'admiration de plus de 40,000 visiteurs. Ils sont rem¬<lb/>plis par des masses de rochers de sable, de graviers<lb/><lb/>de corail, d'herbes marines, d'eau de mer, de pois-<lb/>sons et de crustacès, étoiles de mer, échinides ou<lb/><lb/>oursins, actinies, mollusques, etc., appartenant aux<lb/>mers britanniques.</p>
+        <p rend="labelled"><lb/>— Une découverte fort curieuse de fragments de<lb/>reptiles fossiles et d'une coquille d'eau douce, a été<lb/>faite à l'intérieur d'un des arbres trouvés debout dans<lb/>les mines de charbon de la Nouvelle-Ecosse. Ces<lb/>plantes debout, d'après M. Lyell, professeur de l'Ins-<lb/>titution royale de Londres, prouvent parfaitement<lb/>l'existence d'anciennes surfaces terrestres. Dans une<lb/>portion de 1,400 pieds d'épaisseur de charbon, on<lb/>compte jusqu’à 68 couches, superposées horizontale-<lb/>ment, de racines et de terres. Tout semble indiquer<lb/>que les arbres ont étè carbonisés sur pled. On a trouvé<lb/>dans ces arbres, en outre de plantes fossiles, des os<lb/>et des dents de hatraciens qui vivent actuellement<lb/>dans des lacs et des rivières du Nord. M. Lyell attribue<lb/>la formation de ces dépôts de charbon aux attèrisse-<lb/>ments. Ce sont des forêts qui ont été d'abord submer¬<lb/>gèes puis carbonisées. Ce hardi géologue estime à<lb/>7,527,168,000,000,000 pieds cubes la masse des dépôts<lb/>de la Nouvelle-Ecosse. Il faudrait au Mississipi plus<lb/>de 2,000,000 d'années pour amener, par les attérisse-<lb/>ments, la même masse de matière dans le golle du</p>
+        <p rend="labelled"><lb/>— L'administration des caux et forets vient de dé-<lb/>cider que le repeuplement des principaux cours d'eau<lb/>de la Frauce allait être tentè d'après les procédés et<lb/>sous la direction de l'un de ses inspecteurs, M. Millet.<lb/>Ce moyen est si simple, que le moindre garde-pêche<lb/>pourra l'employer, avec un peu de soin. Il consiste<lb/>à placer, dans une cage à poissons, les femelles qui<lb/>sont prêtes à déposer leurs crufs, en ayant soin de<lb/>munir ces cages d'une tolle de crin qui fasse l'effet<lb/>d'un double fond extérieur. Au fur et à mesure que<lb/>les cufs s'y arrêtent, on introduit, dans l'appareil,<lb/>des miles qui les fécondent. On enlève ces cufs et on<lb/>les place (sur sa cheminèn, si l'on veut) dans un ap-<lb/>pareil qui peut revenir à 5 fr., et qui consiste en una<lb/>caisse ou baquet dans lequel on les immerge de quel<lb/>ques centimètres; ils restent suspendus sur une toile<lb/>de lin, de soie, de crin ou de métal, et entourés de<lb/>toute part d'eau limpide et claire qui se renouvelle<lb/>sans cesse au moyen d'un réservoir supérieur, dont<lb/>ne fond est garni d'un filtre à charbon. Ils attendent<lb/>le moment de l'éclosion. Eclos, on les garde dana le<lb/>baquel, en ayant soin de renouveler sans cesse le cou-<lb/>rant d'eau, au moyen d'un filtre en question, et cela<lb/>jusqu'à ce que la poche que possèdent sous le ventre<lb/>les petits poissons soit absorbée: alors on lea mei en<lb/>vliberté̀ dans les cours d'eau, où ils peuvent yivra et,<lb/>se livrer à tous leurs instincts. Avec une dépense de<lb/>33 litres d'eau par semaine, M. Millet a pu faire éclore<lb/>et élever, en quelques semaines, plus de 23,000 sau-<lb/>mons et truites, et 400,000 lottes, brochets, alosee et</p>
+        <p rend="labelled"><lb/>— Le village de Chenôve, près Dijon, a venda der-<lb/>nièrement pour 2,400 fr. de ccrises aux fruitiers de<lb/>Paris et de Londres, et la vente totale de ces fruits<lb/>ne s'élèvera pas, dans ce seul village, à moins de<lb/>30,000 fr., par suite de ces razzias commerciales, pa-<lb/>risienne et anglaise, que vient favoriser le chemin de<lb/></p>
+        <p rend="labelled"><lb/>- On écrit d'Alger qu'un homme allaché à la pé¬<lb/>pinière expérimentale, a découvert dans un souterrain,<lb/>aux extrèmes limites du territoire de Bone, vers le<lb/>territoire de la régence de Tunis, 41 statues de marbre<lb/>blanc, d'un type admirable, toutes intactes, à l'excep-<lb/>tion d'une seule, dont le nez est brisè; que, dans<lb/>P'origine de sa trouvaille, il avait offert son secret au<lb/>gouvernement, moyennant une somme assez conside<lb/>rable, qui ne fut point accordèe, et qu'aujourd'hui il<lb/>demande un traité avec l'Etat, par suite duquel celui-<lb/>ci s'engagerait à lui payer les statues d'après leu<lb/>valeur arbitrée à dire d'experts.</p>
+        <p rend="labelled"><lb/>— D'après des lettres d'Alger du 20 juin, la récolte<lb/>des cérèales s'annonce sous les auspices les plus favo-<lb/>rables. Son abondance sera telle, que l'Algérie pour¬<lb/>rait expèdier en France 400 mille charges (ou<lb/>800,000 hectolitres de blé), sans compter les autres</p>
+        <p rend="labelled"><lb/>— Les tailleurs de Londres sont dans la désolation,<lb/>On écrit de cette ville que, dans les ateliers d'un<lb/>nommé M. Nichols, on voit actuellement fonctionner<lb/>une machine à coudre. Cette machine fait huit cents<lb/>points par minute, et exécute la couture non-seule-<lb/>ment en ligne droite, mais aussi en toute direction,<lb/>courbe ou en zigzag, et cela avec une égalité, une<lb/>précision et une propreté que la main de l'homme ne<lb/>pouvait jamais attteindre. La conture obtenue par le<lb/><lb/>moyen de la machine est si solide, qu'à moios de cou¬<lb/>per le fil, il est impossible de la défaire sans déchirer</p>
+        <ab><milestone unit="column" n="3"/><lb/>purc ala./Bibliotèque natioale d <lb/>les étoffes qu'elle juini ensemble. — Cràce à lextrème<lb/>rapiditè avéc laquelle la machine fonetionne, M. Ni¬<lb/>chols a pu confectionner, dans le court espace d'un<lb/>mois, 430 pantaiens, sans compier un grand nombre</ab>
+        <pb facs="0002.xml"/>
+        <p rend="labelled"><lb/>Lembere, en Callicie, que dun crime extrsordinaire,<lb/>qui, commis il y a environ quatorze ans, vient scule-<lb/>ment d'être découvert. En 1819, un lord vint à Lem-<lb/>berg avec une somme de 60,000 livres sterling<lb/>(1.500,000 fr.). A son hêtel, il demande à être conduit<lb/>au baia par un garçon. Arrivé à la maison de bains,<lb/>le garçon s'entend avec le mattre de létablissemnent<lb/>pour assassiner le voyageur et se partager la somme.<lb/>La disparition de l'Angiais fut d'autant moins remar-<lb/>quee, que son arrivée n'avait pas encore été signalée<lb/>au bureau des étrangers, et qu'il y avait beancoup de<lb/>monde à l'hêtel ou il était descendu. Le maitre de l'é-<lb/>tablissemeni étant, par suite de cet assassinat, devenu<lb/>tout à coup fort riche, quelques uns prétendirent qu'il<lb/>avait découvert un trèsor, d'autres qu'il avait fait un<lb/>héritage, etc. Le garcon d'hôtel alla en Hongrie, ou<lb/>il a combattu, en 1818 et 1819, dans les rangs des<lb/>insurgés, puis se réfogia en Turquie. Là, il avoua ce<lb/>crime a ses compagnons d'infortune. Au nombre de<lb/>ceux-ei était un Gallicien, qui, revenu peu de temps<lb/>après dans sa patrie, fit parvenir ce fait aux oreilles<lb/>de la justice. On fit des perquisitions et lon retrouva</p>
+        <p rend="labelled"><lb/>cherches archéologiques chrétiennes, en exécutant des<lb/>fouilles dans les terrains à ganche de la grande route<lb/>de Rome e Albano, à environ 5 milles de Rome, á<lb/>une assez grande profondeur au dessous de la surface<lb/>du sol, ils ont trouvé un pavè en mosaique du temps<lb/>de lempire, et, aprés l'avoir enlevé, iis ont trouvé<lb/>d'abord une couche épaisse de mortier, puis deux sar-<lb/>cophages en marbre blanc, dont l'un était tout uni,<lb/>et l'autre avait sur le couvercie supérieur deux bas¬<lb/>relief représentant le Christ et saint Pierre ayant à son</p>
+        <p><lb/>d'un homme; dans l'autre se trouvait le squelette d'une<lb/>femme, dont le côtè droit du crâne était fracassé; sur<lb/>les fracteres se trouvait, dans une enveloppe de linges<lb/>Iins, une éponge durcie par les temps et où l'on recon¬<lb/>nut qu'elle avait été imbibée de sang: plusieurs mor¬<lb/>raient le squelette des deux côtés et aux pieds; enfin,<lb/>sous le dos du squelette on découvrit deux petites<lb/>monnaies en bronze, l'une à l'efligie de l'empereur<lb/>Constance l^er, l'autre à celle de Constantin le Grand,</p>
+        <p><lb/>victimes de persécutions exercèes contre les chrétiens,<lb/>et que leurs coreligionnaires les auraient fait inhumer,<lb/>cachant les deux sarcophages dans une couche de mor-</p>
+        <p rend="labelled"><lb/>roun, en date du 3 juin, que la Perse est affligée par<lb/>de nombreux fléaux: des inondations et le cholèra à<lb/>Téhéran, des sauterelles à Ispahan, un terrible trem-<lb/>blement de terre à Schiraz et à Cashan. Ce tremble-<lb/>ment de terre aurait causè la mort de 12 à 15,000 per¬<lb/>sonnes à Schiraz, et l'odeur des cadavres entassé̀s y<lb/>occasionnait une épidèmie assez semblable à la peste.<lb/>D'après la Gazette du Wéser, la ville de Schiraz aurait</p>
+        <p rend="labelled"><lb/>maria qui met Bruxelles en relations avec Londres a<lb/>eu lieu le 20 du mois dernier, en présence du duc de<lb/>compliments avec le due de Cambridge et lord de<lb/>Maulec. Après le départ des princes, la ligne a étè</p>
+        <p rend="labelled"><lb/>l'ancien cloftre de Santa-Maria-alla-Pace, on a dé-<lb/>couvert une pierre commémorative du 17 siècle;<lb/>rinscription latine qu'elle porte annonce que les no¬<lb/>vices de l'ordre des pères Franciscains occupant ce<lb/>cloltre en 1616, ont élevè cette pierre à la mémoire<lb/>des révérends pères qui, au nombre de cent, furent<lb/>victimes du dévouement avec lequel ils s'empressèrent,</p>
+      </div>
+      <div type="article">
+        <p><lb/>de la maison, qui durera quarante ans environ. Voitlá<lb/>certainement un beau bail et un locataire génèreux;<lb/>mais il est vrai que la maison est tout; car, dans une<lb/>ruche mal faite et mal cultivée, les deux cinquièmes<lb/>des mouchés périssent faute de soins, et pour recueillir<lb/>le miel on asphyxie encore deux cinquièmes des ou¬<lb/>vrières. L'ignorance et l'incurie grossière des cultiva-</p>
+        <p><lb/>les chiffres sont la pour le convaincre. En France, il<lb/>se consomme annuellement pour douze millions de<lb/><lb/>de Jonnès. Quant à la cire, elle est si nécessaire, que<lb/>la France est obligée d'en acheter à l'étranger pout<lb/>en 1630, de porter aux malades et aux mouranis des<lb/>secours et des consolations, alors qu'ene épouvantable<lb/>peste fit périr en Italie 600,000 persennes, et dans la<lb/>ville et la province de Milan, 190,000. Cette pierre,<lb/>jusquici exposèe à tous les outrages du temps, va<lb/>être, par ordre supèrieur, placèe dans un lieu conve-<lb/>nable, où elle sera exposee comme un monument his¬</p>
+        <p rend="dateline"><lb/>u Ede iferns price, quiqe sn , cu-</p>
+        <p rend="labelled"><lb/>Détruire un prejoge est une chose dilleile à obtenir;<lb/>habitudes et le Codex de la pharmacie, est une entre-<lb/>prise hardie, que la philanthropie seule peut tolèrer.<lb/>Comme la plante que je vais indiquer n'est pas une<lb/>panacée universelle, qu'elle est un préservatif contre<lb/>bien des maladies, qu'elle croit dans fous les pays,<lb/>qu'on la trouve sous sa main toutes les fois qu'on en<lb/>a besoin, qu'elle est classee au nombre des plantes<lb/>potagères, et que ceux qui en font usage en éprouvent<lb/>immédiaiement les effets salutaires; qu'en outre je ne<lb/>vends pas ma recette, je la donne à qui veut s'en ser¬<lb/>vir; que dans les départements de louest les médecins<lb/>s'en servent comme un auxiliaire puissant pour les<lb/>maladies intestinales et inflammatoires; en conse¬<lb/>quence, je vais présenter ici, à titre de renseigne¬<lb/>ments hygiéniques, la vertu curative et prèservative<lb/>de la brassica olcraera, vuigairement connue sous le</p>
+        <p><lb/>faire prompiement disparaitre sans douleur ni incon-<lb/>vénient les embarras gastriques et les inflammations</p>
+        <p><lb/>prévient les maladies chroniques, épure le sang, le<lb/>rafraichit et fait écouler par son torrent circulatoire<lb/>toutes les acrimonies qui peuvent s'y trouver; c'est,<lb/>en outre, le plus grand antéphialtique que l'on con¬<lb/>naisse; il calme les nerfs, profonge le sommeil, le<lb/>rend doux et tranquille, préserve de toutes affections<lb/>irritantes qui portent la désorganisation dans le sys¬</p>
+        <p><lb/>que les autres et ne pomme pas; il ne craint pas nos<lb/>vivers, et la gelèe altendrit ses feuilles, qui sont fort,</p>
+        <p><lb/>chouz pommés; on peut se contenter de récolter ses<lb/>feuitles à mesure qu'on en a besoin, en commençant</p>
+        <p><lb/>ladie on ea boit le bouillon. Pour le faire cuire, on<lb/>le met dans l'eau quand elle bout à gros bouillon; on<lb/>maintient l'ébullition pendant une heure et demie, on<lb/>eale et on beurre comme une soupe ordinaire. Si on,<lb/>répugne à manger les choux, ou prendra un bouillon<lb/>chaud dans l'intervalle des repas. En suivant ce ré-<lb/>gime, au bout d'une semaine tous les symptêmes au¬<lb/>rout disparu, le malade dormira paisiblement et aura</p>
+        <p><lb/>faire de mal; on peut avoir confiance en la recette;<lb/>cclui qui la donne en a éprouvé les bienfaits, qui l'ont<lb/>préservé dopais plus de 63 ans de toute maladie et<lb/></p>
+        <p><lb/>pliant le nombre des abeilles, en créant de nombreuses<lb/>colonies de ces gracieuses ouvrières, qui ne se mettent<lb/>jamais en grève et qui trouvent leur salaire dans leur<lb/>travail même. Nous voulons que le meilleur, le plus<lb/>salutaire et le plus doux des aliments soit mis à la<lb/>porièe de tout le monde; nous vouions, en nous asso¬<lb/>ciant aux abeilles, que le confiseur, le parfumeur, le<lb/>pharmacien, le cirier, l'artiste et fouvrier ne puissent<lb/><lb/>plus considèrer les matières précicuses dont ils ont<lb/>besoin comme des choses rares el chères; et, quant<lb/>aux falsificateurs, nous laisserons à la population de<lb/>nos ruches le soin de les confondre et de rendre im-<lb/>possible leur trafie honteux par la qualite inimitable</p>
+        <p><lb/>hommes les plus honorables, les plus dévouès à la<lb/>prospéritè du pays, que nous avons fondé l'Apiculture,<lb/>société ayant pour but l'élève des abeilles sur les grandes<lb/>avons expérimentés par une longue pratique, et que<lb/>nous avons, sinon inventés, du moins considèrable-</p>
+        <p><lb/>de Rouen à Dieppe, comprenant lutilité que pouvait<lb/>avoir une meilleure culture des abeilles, a consenti<lb/>un traité qui nous permet de placer dix mille ruches<lb/>dans le simple parcours de ces deux lignes. Nul doute<lb/>que les autres chemins de fer ne suivent cet exemple,<lb/>et que nous ne poissions arriver de la sorte à propager<lb/>nos ruches et notre culture sur presque tout le terri-</p>
+        <p><lb/>un véritable atelier de production; en effet, d'après<lb/>les évaluations les plus modèrées, d'après nos pro¬<lb/>pres expériences, chaque ruche denne un produit<lb/>annuel de 10 franes. La construction de notre ruche<lb/>perfectionnée, entièrement adaptée aux mecurs et aux<lb/>habitudes des abeilles, construite en bois, l'abri des<lb/>voleurs et des animaux nuisibles, ne nous revient toute<lb/>posee qu'à 10 francs; en sorte que chaque esssim rend<lb/>annuellement 100 pour 100 de bénefices, sauf les dé-</p>
+        <p><lb/>de fer rendent ces frais à peu près nuls, car les ter¬<lb/>rains où nous plaçons nos ruches ne nous coutent rien,<lb/>et le chemin de fer nous accorde la libre circulation<lb/>pour nous et nos gardiens, et ne nous demande, en<lb/>échange de l'hospitalité qu'il nous donne, qu'une re-<lb/>devance annuelle de 50 cent. par ruche, c'est-a-dire<lb/>une somme insignifiante, et il nous donne en échange<lb/>une étendue de terrain pour ainsi dire illimitée, une<lb/>sécurité complète pour nos ruches, qui se trouvent<lb/>placées dans un endroit cios, surveille sans cesse, et</p>
+        <p><lb/>jection : les abeilles pourront-elles vivre avec ce bruit<lb/>de wagons, ce passage rapide des locomotives? A ceci<lb/>nous répondons que quelques chefs de station cultivent<lb/>déjà les abeilles dans les espaces de terrains vagues<lb/>qui sont autour des stations, et qu'enfin, ce qui est<lb/>encore plus concluant, c'est que des quantitès innom¬<lb/>brables de ruches existent en Ecosse sur les chemins<lb/>de fer. Quant à ce qui concerne la vente du miel et<lb/>de la cire, il suffit de consulter les tableaux d'impor¬<lb/>tation du commerce étranger pour se rendre comple<lb/>de la quantité des produits qu'il nous faudra créer<lb/>avant de nous affranchir complètement de cet impôt<lb/>que nous payons à l'étranger. Cette importation s'élève<lb/>en effet, pour la cire seulement, au chiffre considè-</p>
+        <p><lb/>vaillent à sa prospéritè; car il n'y a pour l'abeille ni<lb/>grève, ni chémage, ni jours fériès, et quand nons<lb/>voyons un beau soleil, nous pouvons dire en toute<lb/>súreté que des milliards d'employés travaillent pour</p>
+        <p><lb/>que nous trouvons dans cette nouvelle industrie toutes<lb/>les conditions qui doivent en assurer la réussite entière:<lb/>perfectionnements nombreux, une ruche nouvelle dont<lb/>la visite et le dépouillement offrent la même facilité<lb/>gnies des chemins de fer, assurent à cette grande<fw type="digitisation-artefact"><lb/>u a/Bìe e Fr</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

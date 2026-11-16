@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t51150672b</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1841-01-24">1841</date>
+          <idno type="ARK">bd6t51150672b</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t51150672b</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/>FEUILLE POLITIQUE, LITTÉRAIRE, COMMERCIXLEET INDUSTRIELLE,<lb/>paraissant les Mercredis, vendradis et Dimanghes.<lb/>18 FRANCS PAR AN, 9 francs pour 6 mois, 5 francs pour 3 mois.</ab>
+        <fw type="runningTitle"><lb/>Dimanche 24 Janvier.</fw>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>JOURNA</p>
+        <p rend="styled"><lb/>On s'abonne à Dijon, au Bureau, rue Verrerie, 2 bis, près la place aux Fruits, où l'on reçoit toutes les communications qui peuvent intéresser<lb/>le chef-lieu ou les communes du département. — Les lettres doivent être affranchies et signées pour la garantie du rédacteur responsable.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Durapport de M. Thiers sur les fortincations</head>
+        <p><lb/>Des deux grandes autorités invoquées par M. Thiers<lb/>pour justifier la nécessité de fortifier Paris, j’ai fait<lb/>voir que la première, celle de Vauban, excellente à citer<lb/>sous le point de vue militaire, ne pouvait avoir au¬<lb/>cune influence sur le côté politique de la question qui<lb/>s’agite aujourd’hui, parce que de son temps cette com¬<lb/>plication n’existait point, parce qu’il n’y avait alors<lb/>qu’un seul intérêt en France qui formait de la monar-<lb/>chie et de la nation un tout indivisible, parce qu’enfin<lb/>il était impossible de prévoir que jamais il pût venir à<lb/>la pensée du monarque de faire servir les fortifica-<lb/>tions de Paris à l’oppression de son peuple, ni que ja¬<lb/>mais il pût sortir d'aucune classe de l'Etat un parti<lb/><lb/>qui parvint à s’en emparer et à les tourner contre le<lb/>trône et les libertés publiques. L’opinion de Vauban<lb/>suppose donc un état social qui n’a rien de commun<lb/>avec celui-ci où nos révolutions nous ont amenés; et<lb/>dès-lors cette opinion, quelque imposante qu’elle soit,<lb/>je le répète, sous le rapport stratégique, ne peut être<lb/>d'aucun poids pour la décision de la question politique<lb/>qui est au fond du projet actuel, et que M. Thiers<lb/>cherche habilement à éluder, précisément parce que<lb/>c’est celle dont il lui importe le plus de dissimuler les</p>
+        <p><lb/>Ce que j'ai dit du sentiment de Vauban s'applique<lb/>presque identiquement à celui de Napoléon, quoique<lb/>par des considérations différentes. Le trône impérial<lb/>n’était pas appuyé sur une race dynastique de plu-<lb/>sieurs siècles, comme celle de Louis XIV; mais il<lb/>était fondé sur la gloire et le génie qui donnaient à<lb/>son règne éclatant toutes les apparences d’une union<lb/>indestructible entre la nation et son chef; et ce n’était<lb/>pas au retour d’Austerlitz qu’il avait à prévoir que<lb/>les fortifications dont il avait conçu l'idée d’entourer<lb/>Paris pussent jamais être employées par des factions<lb/>à attaquer sa puissance: il était trop fort, alors, pour<lb/>craindre ce danger. Ce n’est donc pas la perspective<lb/>d’un péril qui n’avait aucune probabilité même éloi-<lb/>gnée, qui aurait pu le détourner du dessein de for-<lb/>tifier la capitale, dessein certainement tout militaire<lb/>dans ses vues comme il l’avait été dans celles de Vau¬<lb/>ban. D’où je conclus, avec la même évidence que je<lb/>l'ai fait pour celui-ci, que la pensée de Napoléon ne<lb/>peut être plus favorable au projet actuel que celle du<lb/>grand ingénieur de Louis XIV. L'un et l'autre n'ont<lb/>envisagé que le côté militaire de la question, parce<lb/>que rien ne les induisait à y attacher des conséquences<lb/>politiques, ni par rapport au monarque ni par rap-<lb/>port à la nation; tandis qu’aujourd’hui, au contraire,<lb/>et dans un état social aussi orageux que le nôtre, c’est<lb/>la possibilité de ces conséquences qui élève les plus<lb/>grandes difficultés, et fournit peut-être les argumens<lb/>les plus insolubles contre le projet de fortifier Paris.</p>
+        <p><lb/>Ne faisons pas à M. Thiers l’injure de supposer qu’il<lb/>ignore ce qu'il y a de capital dans la question placée<lb/>au point de vue politique, et qu’il n’en ait pas senti la<lb/>force. Mais qu'il ne nous fasse pas non plus celle de<lb/><lb/>nous croire dupes du soin qu’il a mis à passer sur ce<lb/>terrain brûlant sans s’y arrêter, se gardant bien de<lb/>nous montrer les périls qu'il recèle dans son sein.</p>
+        <p><lb/>Le rusé rapporteur s’est borné à dire avec le ton<lb/>leste et familier qu’on lui connaît: «quand on veup<lb/>vaincre les préventions, il faut aller droit à elles et ne<lb/>pas craindre de les discuter.» Après cet exorde cavalier<lb/>on s’attend à une discussion approfondie; mais dans<lb/>la bouche de M. Thiers elle se réduit à cette unique<lb/>phrase: « Imaginer que des ouvrages de fortification<lb/>quelconque peuvent nuire à la liberté ou à l’ordre,<lb/>c’est se placer hors de toute réalité; c’est calomnier<lb/>un gouvernement quel qu’il soit, de supposer qu’il<lb/>puisse un jour chercher à se maintenir en bombardant</p>
+        <p><lb/>Voia tout ce que l'on trouve dans l'immense rapport<lb/>de M. Thiers sur la question des dangers politiques<lb/>que le projet peut renfermer. Encore ce peu de mots<lb/>si insignifians ne s’applique qu'à l'hypothèse chimé-<lb/>rique d’un Souverain qui voudrait faire peser le des¬<lb/>potisme militaire sur la nation, hypothèse absurde<lb/>avec un gouvernement aussi tempéré que le nôtre.<lb/>Mais de ce qu’il y aurait de menaçant dans une capi¬<lb/>tale fortifiée, si un chef de parti y faisait triompher<lb/>la révolte, et parvenait à en chasser le prince régnant,<lb/>pour substituer l’anarchie aux lois et la tyrannie pré¬<lb/>toriene Tà une monarchie régulière, oh! c'est la ce</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="4"/><lb/>Je vous prie d'avoir la bonté de réparer trois erreurs qu</ab>
+        <p><lb/>ont été glissées dans le n^o de l'Écho du Monde-Savant<lb/>du 6 janvier dernier, au sujet des manuscrits de la biblio-</p>
+        <p><lb/>^° Leur nombre ne s'élève qu'à 558 au lieu de 1,200;</p>
+        <p><lb/>2^o Le Catalogue raisonné de ces manuscrits, qui m'a<lb/>coûté dix-huit mois de travail, est terminé depuis plus de</p>
+        <p><lb/>Je profite de cette occasion pour vous dire</p>
+        <p rend="labelled"><lb/>1o Que je viens de terminer le Catalogue par ordre de<lb/>matières, des tivres imprimés de la Bibliothèque de Dijon,</p>
+        <p rend="labelled"><lb/>2^o Que j'ai rédige un Catalogue séparé et par ordre chro-<lb/>nologique des éditions du xv^e siècle, 1 vol. in-fol.;</p>
+        <p rend="labelled"><lb/>3^o Que j'ai fait également transcrire séparément un Ca¬<lb/>talogue de tous les ouvrages imprimés à Dijon, qui se<lb/>trouvent dans la bibliothèque de la ville, ( vol. in-fol.</p>
+        <p><lb/>J'envoie, par le premier courrier, copie de cette lettre<lb/>à M. l'éditeur de l'Echo du Monde-Savant.</p>
+        <p><lb/><lb/><lb/>dinstingués avec lesquels j'ai l'honneur d'être, etc.</p>
+        <p rend="styled"><lb/>Bibliothécaire de la ville et membre de l'Académie</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>La mort continue à sévir contre les<lb/>74<lb/>régiment de ligne. Du 13 au 22 janvier, l’état-civil a<lb/>eu à enregistrer treize décès, nombre évidemment hors<lb/>de proportion avec les cas ordinaires de mortalité dans<lb/>la garnison comme dans la population de notre ville,<lb/>surtout si l'on considère que tous les soldats qui<lb/>meurent ne sont âgés que de 21 à 26 ans, et par con¬<lb/>séquent dans toute la force de la jeunesse. Si, comme<lb/>nous l’a affirmé M. le maréchal-de-camp commandant<lb/>la 18e division militaire et comme nous aimons à le<lb/>croire, ces hommes sont bien nourris, bien couchés,<lb/>bien chauffés, quelle est donc la cause des maladies<lb/>qui les déciment si cruellement? car il faut qu'il y en<lb/>ait une, et si elle est connue, n’y a-t-il aucun remède<lb/>à y appliquer pour la prévenir ou la détruire? Nous<lb/>sommes persuadé que les militaires malades reçoivent<lb/>à l'hôpital tous les soins que réclame leur état; mais<lb/>peut-être est-il trop tard une fois qu'ils sont atteints<lb/>des affections que l'art combat inutilement, et c’est à<lb/>les éviter que nous désirerions que l'on réussît.</p>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>Relevé des jugemens rendus au tribunal de simple police<lb/>à Dijon, pendant le 2e semestre de 1840.</p>
+        <figure type="table"/>
+        <p rend="styled"><lb/>Lé Commissaire de police, A.DE BAYS.</p>
+        <figure type="decoration"/>
+        <p><lb/>jugement du 15 janvier 1841, le tribunal de<lb/>commerce de Dijon a désigné, en conformité de la loi<lb/>du 31 mars 1833, le Journal politique et littéraire de<lb/>la Côte-d'Or, pour celui dans lequel doivent être in¬<lb/><lb/>serés les actes de société ou de dissolution de société</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="7"/><lb/> e meme jugement, letarif de Tinsertion a été</ab>
+        <p rend="styled"><lb/>État des versemens faits à la Recee générale en faveur des</p>
+        <p><lb/>de Savigny-le-Sec, 75 fr<lb/>une de Billey, 2 fr.; id. d’Epagny, 65 fr.<lb/>pur les inondés en général et sans affectati<lb/>(id.); id. de Viserny, 70 fr. (id.); id. d'Athie, 36 f<lb/>ous-Vitteaux<lb/>Cleme<lb/>ise, 114 fr. (id.); id. de Villeberny, 42 fr. (id<lb/>40 a (id.). Le cnsei municipal de Villers Patras, 10 fr. (id<lb/>issey-la-Pierre, 20 fr. 60<lb/>francs A<lb/> ae'ea dem, 12<lb/>a d<lb/>l Te, 3. 60 . (id.).M. Garnie, notir A<lb/>la Côte-d'Or); id. de Crugey, 11 fr, 60 c. (id.)<lb/>anterieurs, 78,022 fr.73 c. Total des ve</p>
+        <figure type="decoration"/>
+        <ab><lb/>Le greffier du tribunal de commerce de Dijon,</ab>
+      </div>
+      <div type="article">
+        <p><lb/>Nous nous faisons un devoir d'annoncer, dans l'in-<lb/>térêt des bègues de notre département, que M. Cresp<lb/>vient d’opérer quatre cures remarquables sur des per<lb/>sonnes bien connues de notre ville et dont nous tai-<lb/>sons les noms par discrétion. D'après de tels succès<lb/>nous proclamons hautement l'habileté de M. Cresp pour<lb/>que chacun de nous comprenne l’importance d hono¬<lb/>rer de son estime et de sa confiance un homme si utile</p>
+      </div>
+      <div type="article">
+        <head><lb/>Addition à la séance du 18 janvier.</head>
+        <p><lb/>Dans l'exposé des motifs présentés par M,. leun<lb/>450 millions voté précédemment, on lit</p>
+        <p rend="labelled"><lb/>aprobation, cells qui concernent ommistration<lb/>votre approbation, celles qui concernent l'admimistration<lb/>des ponts et chaussées, déjà sanctionnées par des votes<lb/>antérieurs, ne figurent dans le projet qu’à titre de régula¬<lb/>risation et pour être rattachées au système général que<lb/>nous avons présenté à vos suffrages; elles s'élèvent à 228<lb/>millions, y compris les 40 millions de crédits supplémen¬<lb/>taires qu’il est reconnu indispensable d’ajouter aux alloca<lb/>tions antérieures, pour assurer l'achèvement des entre¬</p>
+        <pb facs="0002.xml"/>
+        <p><lb/>les travaux extraordinaires du département de la guerre,<lb/>92 millions forment le complément du crédit demandé pour<lb/>fortifier Paris; 75 millions sont destinés à compléter l'état<lb/><lb/>de défense des frontières et de l'intérieur du royaume. Je<lb/>n’ai pas à vous entretenir en ce moment des fortifications de<lb/>la capitale, qui vont être discutées à part. Quant à celles<lb/>des places frontières et autres, énumérées dans les déve-<lb/>loppemens du projet de loi, nos propositions ont pour but<lb/>l'exécution du système général de défense, tel qu’il est<lb/>sorti, après vingt années d'études, des travaux des com-<lb/>missions spéciales composées des hommes de guerre les<lb/>plus compétens. Les autres crédits réclamés par le dépar-<lb/>tement de la guerre s’élèvent à 75 millions pour le caser¬<lb/>nement et les magasins militaires, et à 12 millions pour<lb/>les services de l'artillerie et des poudres; leur nécessité<lb/>vous sera justifiée par les développemens joints à cet ex-</p>
+        <p rend="labelled"><lb/>pour activer l'achèvement des travaux de la digue et de<lb/>l'arsenal maritime de Cherbourg, dont l'importance politi¬<lb/>que est dès long-temps connue et appréciée par les cham¬<lb/>bres. Quelques autres travaux également utiles, évalués<lb/>8 millions, élèvent à 52 millions le total des allocations re-</p>
+        <p rend="labelled"><lb/>le projet de loi que nous avons l'honneur de vous soumet-<lb/>tre exigeront l'emploi d’une somme totale de 534 millions.<lb/>qui excède de 84 millions l'emprunt qui vous est proposé</p>
+        <p rend="labelled"><lb/>l'emprunt proposé, aux dépenses des travaux indiqués<lb/>dans le projet de loi, nous aurons à nous occuper des res¬<lb/>sources nécessaires pour les compléter : elles ne nous<lb/>manqueront point, Messieurs. Si le maintien de la paix<lb/>continue de favoriser les progrès de la richesse nationale,<lb/>nous trouverons dans les réserves de l'amortissement, re¬<lb/>devenues disponibles par l’extinction de nos découverts.<lb/>tous les moyens d'achever les entreprises en cours d'exé-</p>
+        <p rend="labelled"><lb/>terminations, en ce qui concerne les travaux extraordinai¬<lb/>res, que pour nous faire prendre en considération, dès<lb/>présent, des nécessités auxquelles il aurait tallu pourvoir<lb/>tôt ou tard, mais qui, dans la situation actuelle de l'Eu-<lb/>rope, sont le complément naturel des mesures de précau-</p>
+        <p rend="labelled"><lb/>nous nous sommus résignés à diminuer de moitié les allo-<lb/>cations qu'il serait désirable d’attribuer aux ponts-et-chaus-<lb/>sées, et à nous interdire d'aborder aucune entreprise nou-<lb/>velle avant 1848. Mais nous avons dû nous préoccuper,<lb/>l'indépendance et l'honneur du pays; car ce sont là les<lb/>premiers biens, les garanties essentielles de tous les au-<lb/></p>
+        <p><lb/>offrent lés indications suivantes des travaux rélames</p>
+        <p rend="labelled"><lb/>kerque au point de jonction de la frontière de terre et de<lb/>mer; en arrière, Calais, dont les fortifications trop res-<lb/>serrées empêchent le développement; Valenciennes et Bou¬<lb/>chain, qui défendent la ligne de l'Escaut et en assurent les<lb/>inondations; vers le centre, Maubeuge, place de manœuvres<lb/>admirablement située; Avesnes, qui observe la gauche de<lb/>la pointe que forme le territoire de Chimay; vers la droite,<lb/>Sedan et Verdun, lieux de passage de la Meuse, et soutiens<lb/>pour l'armée chargée de la défense des Ardennes; Longwy<lb/>opposé immédiatement à l’ennemi débouchant par Luxem¬<lb/>boug; enfin la commission propose l'établissement d'un<lb/>nouveau point fortifié à Vousiers, afin de servir de place<lb/>de dépôt à l'armée défensive chargée de s'opposer à une<lb/></p>
+        <p rend="labelled"><lb/>des Vosges réclame des améliorations pour Bitche et Phals-<lb/>bourg; et une place est à créer à Hagueneau, pour supplées<lb/><lb/>à la protection que la basse Alsace recevait autretois de</p>
+        <p rend="labelled"><lb/>large et profond, exige, toutefois, qu'on courre les dé-<lb/>bouchés des Vosges vers Thann, et qu'on achève Belfort</p>
+        <p rend="labelled"><lb/>de nouvelles dispositions défensives, qui doivent consister<lb/>principalement dans l'établissement d'un premier fort vers<lb/>jes Rousses, nœud des deux communications venant de<lb/>Pierre-Châtel, afin de surveiller le passage du Rhône sur<lb/>ce point; il faut aussi compléter les dehors du Fort-de-Joux<lb/>et de Besançon, et organiser enfin, en arrière du poin<lb/>de jonction avec l'Alsace et sur le revers occidental des<lb/>Vosges, une place de dépôt et de concentration, à Langres.</p>
+        <p rend="labelled"><lb/>jectif de l'ennemi venant de la Suisse, du Piémont et de<lb/>la Haute-Italie; des travaux importans doivent aussi être<lb/>Antibes et à Toulon, dont l'importance, comme grand<lb/>établissement de notre marine militaire sur la Méditer-<lb/>ranée, exige le perfectionnement de l'enceinte et le com-</p>
+        <p rend="labelled"><lb/>défensives sont également à faire à Perpignan, dans les<lb/>valĺes de l'Ariège, d'Arreau et d'Aspe, ainsi qu'à</p>
+        <p rend="labelled"><lb/>travaux les plus urgens sont: le fort Médoc, la pointe de<lb/>les places importantes de Brest, de Cherbourg et du</p>
+        <p rend="labelled"><lb/>diverses chances de la guerre, compléter les places de La<lb/>Fère, Laon, Soissons et Vitry, et organiser deux points</p>
+        <p rend="labelled"><lb/>de première urgence, pour protéger convenablement l'ile</p>
+        <p rend="labelled"><lb/>munique à la chambre le projet de loi sur la proprie com</p>
+        <p rend="labelled"><lb/>d'en autoriser la publication par la typographie, la gravu¬<lb/>re, la lithographie ou tout autre mode, est garanti à l’au¬<lb/>teur pendant toute sa vie, et à ses représentans ou ayant-</p>
+        <p rend="labelled"><lb/>rée de sa vie, mais encore pour tout ou partie de la période<lb/>de trente ans qui s'écoulera après sa mort. Lorsque aucur<lb/>acte de cession n'est produit, la cession est présumée faite</p>
+        <p rend="labelled"><lb/>mis, suivant les règles du droit civil, aux héritiers qu’il<lb/>droit exclusif sera considéré, à l'égard du conjoint survi¬</p>
+        <p rend="labelled"><lb/>tre titre, d’un ouvrage posthume, jouira du droit exclusit<lb/>de le publier ou d'en autoriser la publication pendant trente<lb/>ans, à compter de la première édition. Ce droit sera trans-<lb/>dans les limites de la période de trente ans ci-dessus déter.</p>
+        <p rend="labelled"><lb/>du jour de la première publication. Si, avant l'expiration<lb/>qualité est prouvée après la mort de l'auteur et avant trente</p>
+        <p rend="labelled"><lb/>les écrits publiés en leur nom et par leurs soins durera<lb/>trente ans à compter de la publication du dernier volume<lb/>former collections. Le droit exclusif des académies sur les</p>
+        <p rend="labelled"><lb/>rence, une ordonnance royale pourra, s'ils ne sont pas dû¬<lb/>ou au conjoint de l'auteur pour une durée qui n'excèdera<lb/>point trente ans, ou faire l'abandon desdits droits au do¬</p>
+        <p rend="labelled"><lb/>jouiront des avantagos qu'elle assure, en ce qui concerne</p>
+        <p rend="labelled"><lb/>vres de musique et autres ouvrages dont la reproduction</p>
+        <p rend="labelled"><lb/>publié, imprimé, gravé ou reproduit, en tout ou en partie,<lb/>des ouvrages écrits de tout genre, dessins, peintures<lb/>prit ou des arts, déjà publiés ou encore inédits, sera pas-</p>
+        <p rend="labelled"><lb/>outre, à payer au propriétaire des dommages et intérêts<lb/>dive, l'amende sera de 600 fr. à 4,000 fr.; et le contrefac-<lb/>teur sera, en outre, puni d'un emprisonnement qui n'excé-</p>
+        <p rend="labelled"><lb/>territoire français ou vendu des exemplaires d’éditions con<lb/>fois en France sera puni des peines portées en l'article</p>
+        <p rend="labelled"><lb/>contrefait sera puni d'une amende de 50 fr. à 1,000 fr.<lb/>térêts qui seront arbitrés par les tribunaux, ainsi qu'il est<lb/>porté à l'article 18. En cas de récidive, l’amende sera de<lb/>et a porté principalement sur l'ensemble du système finan-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>budget de 1841. Les dépenses des ministères de la justice,<lb/>des affaires étrangères, de l'instruction publique, de l'in¬<lb/>térieur, de l’agriculture et du commerce et des travaux pu¬<lb/>blics ont peu varié cette année; elles présentent une aug<lb/>mentation totale de 2 millions 732,801 fr., dont 1 millio<lb/>335,250 fr. pour le ministère des finances; le ministère<lb/>des travaux publics est le seul qui ait offert une diminu-<lb/>tion, qui est de 221,312 fr. Les crédits des ministères de<lb/>la guerre et de la marine s’élêvent, cette année, à la somme<lb/>imposante de 492 millions 9,291 fr., somme qui dépasse<lb/>de 156 millions 439,710 fr. les crédits primitifs alloués</p>
+        <p><lb/>sommes, par ces deux ministères, ainsi qu’elles sont éta¬</p>
+        <p><lb/>get primitif de 1841. La cause de cette augmentation res¬<lb/>sort surtout de l’accroissement de l'effectif en hommes et<lb/>en chevaux, qui est, relativement à l'année dernière, de<lb/>176,246 hommes et 46,854 chevaux; en conséquence, les<lb/>dépenses sont basées sur un effectif général de 493,741 hom<lb/>mes et de 110,996 chevaux. Sur ce chiffre, l'infanterie a<lb/>eu 131,571 hommes en plus; la cavalerie, 24,343 hommes<lb/>et 22,949 chevaux; l’artillerie, 14,777 hommes et 16,200<lb/>chevaux; le génie, 2,588 hommes et 402 chevaux; les<lb/>équipages militaires, 1,515 hommes et 1,356 chevaux<lb/>L'augmentation des dépenses pour le matériel de l'armée<lb/>452,000 kilogrammes de poudre en plus, de 40 millions<lb/>de capsules et autres approvisionnemens d’artillerie et sur<lb/>l'amélioration des fortifications et des bâtimens militaires<lb/>Les dépenses du dépôt général de la guerre se sont accrues<lb/>de 20,000 fr., à cause de l'extension donnée à la carte de<lb/><lb/>France qui embrasse déjà plus de la moitié du pays, et<lb/>fournit aux quatorze administrations locales des cartes dé-</p>
+        <p><lb/>treindrait l'effectif des corps au minimum, la création des<lb/>nentes, et rendra indispensable une augmentation de 53,00<lb/>hommes et de 12,000 chevaux, ce qui ſera une différence<lb/>de 70 millions en plus pour l'année 1842, somme qu'i<lb/>considère comme constituant le chiffre de l'extraordinaire</p>
+        <p><lb/>ie de 1842,<lb/>conservant l'effectif de 38,000 hommes, qui sert de base<lb/>aux prévisions des budgets précédens, élève la force de<lb/>l'armée à 63,000 hommes, ce qui excédera le budget ordi¬</p>
+        <p><lb/>basé sur un état militaire qui ne saurait être permanent<lb/>mais qu'il faut maintenir jusqu'à ce qu’un bon système de<lb/>réserve, dont il s'occupe, permette de le réduire sans<lb/>amoindrir les forces disponibles du pays. Il espère surtout<lb/>de manière à concilier les intérèts du service avec ceux de¬</p>
+        <p><lb/>millions 290,400 fr., y compris les dépenses afférentes au<lb/>262,100 fr. le budget primitif de 1840. Cette augmenta¬<lb/>tion a été le résultat de P'attitude prise à la suite de la con¬</p>
+        <p><lb/>pour les travaux du matériel naval et de l'artillerie dans les<lb/>ports et hors des ports, et les travaux hydrauliques et le¬<lb/>bâtimens civils ; enfin le service colonial est évalué à 12</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>altérée. Des personnes pensent même qu'il ne lui reste<lb/>Le régime de sa prison a été tout-à-fait changé depuis le<lb/>permission de la visiter, en sont aujourd'hui empèchées<lb/>née est complet; elle ne reçoit que son avocat et, son mé-</p>
+        <p rend="labelled"><lb/>conduite n’est pas encore fixé. On annonce mème qu'il se<lb/>rait possible qu'elle restât provisoirement à Tulle, un dé-<lb/>placement pouvant avoir, quant à présent, des conséquen¬<lb/>ces funestes pour sa santé. La famille de Nicolaï n’a encore<lb/>fait aucune poursuite pour recouvrer ses diamans. Tou¬<lb/>tefois, il parait qu'elle est toujours dans l'intention d'agir</p>
+        <p rend="labelled"><lb/>formée par la famille de Mme. Lafarge du transtert de cette<lb/>il aurait été décidé qu'elle serait envoyée dans la maisor<lb/>centrale de notre ville, dont le climat plus doux tiendrait<lb/>lieu pour elle d'une maison de santé. Elle viendrait y join<lb/>dre Mlle. Grouvelle qui y est toujours détenue, et qui es<lb/><lb/>me Mlle, Grouvelle ; Mme. Lafarge aurait une chambre sé¬<lb/>prison. on ajoutat que son arrivée éait dea anoncée</p>
+        <pb facs="0003.xml"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>le créateur de toutes choses, car les actions des hommes</ab>
+        <ab type="head"><lb/>ce dune ciculair- de Bogho Reu, adjudan de<lb/>de . A. Méhémet-Ali, en date du Caire, le 10<lb/>D</ab>
+        <p><lb/>Cette circulaire, traduite de l'arabe, est ainsi<lb/>çue:</p>
+        <p rend="labelled"><lb/>trumens, tantôt la paix et la trahison (choses qui existent<lb/>dans le cours de la nature.) Maintenant, si l'on observe at¬<lb/>tentivement les événemens qui arrivent dans le monde, ou<lb/>tous ces événemens doivent être attribués à certaines cau-<lb/>rait point. Elle serait également privée de sa femme de</p>
+        <p rend="labelled"><lb/>quittés, et dix-neuf condamnés, les uns à quinze jours de</p>
+        <p rend="labelled"><lb/>« M. Waller a été reçu ici avec enthousiasme. Le grand.<lb/>conseil lui a exprimé sa reconnaissance pour la résolution<lb/>rité de 115 voix, que tous les couvens seraient supprimés</p>
+        <p rend="labelled"><lb/>vens qui ont contribué à exciter les troubles. Ces mesures</p>
+        <p rend="labelled"><lb/>dent Carlen, à qui l'on a enlevé plusieurs têtes de bétail.<lb/>Les coupables ont déclaré qu'ils résisteraient aux perquisi-<lb/>tions de la justice. M. Carlen a envoyé le vice-président à<lb/>Naters en qualité de commissaire du gouvernement pour<lb/>s'enquérir des causes de la propagation de l'anarchie et</p>
+        <p><lb/>sonniers politiques. Plusieurs chefs du parti catho-<lb/>lique ont cependant réussi à se réfugier dans les can¬<lb/>-<lb/>cantons allemands ont mis des troupes sous les</p>
+        <p><lb/>tion de M. Schyder, qui a proposé une révision par-</p>
+        <p><lb/>raient données au sujet de l’extradition du nommé<lb/>Borel, demandée et obtenue par le gouvernement</p>
+        <p rend="labelled"><lb/>donner ses agens dans leurs rapports avec l'étranger, et il</p>
+        <p rend="labelled"><lb/>très-probablement en route pour revenir en France. Il était<lb/>minente en Europe; ses instructions portaient elles-mêmes<lb/>«ernement. Aussitôt le traité conclu, le commandant de<lb/>pouvait être nécessaire au milieu des grands événemens<lb/><lb/>ne peuvent ni influencer ni accélérer les accidens de l’exis-<lb/>tence; mais c'est Dieu, plein de gloire et revêtu de magni-<lb/>ficence, qui a créé les choses qui arrixent suivant des cau¬<lb/>ses apparentes ou autres, ce qu’il est nécessaire de démon¬<lb/>trer. Depuis la bataille de Nezib, la paix et la tranquillité<lb/>n’avaient plus reparu sous la voûte du ciel; mais plusieurs<lb/>événemens ont amené des lettres annoneçant des nouvelles<lb/>favorables dont on a perdu le sonvenir. Il est enfin arrivé<lb/>que M. Napier, commandant des vaisseaux de guerre an¬<lb/>glais qui croisaient dans la Méditerranée, est venu à Alexan¬<lb/>drie, où il a proposé de donner l'Egypte en succession hé¬<lb/>— La Nouvelle Gazette de Zurich du 15 rapporte réditaire aux enfans et petits-enfans de Sa Hautesse, ce qui<lb/>est le résultat de la détermination et du désir des nations</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>commandant a obtenu le traité de paix, vu que la paix est<lb/>le plus grand bien des gouvernemens, qu’elle arrêtera l’ef-<lb/>fusion du sang parmi les musulmans, et qu'elle maintiendra<lb/>la tranquillité dans le cœur de S. H. et de ses sujets, les-<lb/>cultiver les arts, l'agriculture et le commerce. C'est par<lb/>cette raison que l'ordre a été envoyé à S. Ex. le comman-<lb/>dant en chef des troupes d’abandonner le territoire de la<lb/>Syrie et de ramener toute l'armée égyptienne. La même<lb/>notification a été faite à tous les chefs des différens départe-</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>1</ab>
+        <p rend="labelled"><lb/>de nombreuies conferences avec lies représentans des puis-<lb/>sances alliées, au sujet de la soumission adressée par Mé-<lb/>hémet-Ali à S. A. le grand-visir, cette grave question<lb/>enfin été résolue. Dans un conseil extraordinaire tenu au<lb/>palais du grand-visir, et dans lequel S. Exc. le ministre des<lb/>affaires étrangères, Reschid-Pacha, a rendu compte de ses<lb/>diverses entrevues avec MM. les ambassadeurs, la Porte a<lb/>décidé que lasoumission du Pacha serait acceptée, sauf l'ac-<lb/>complissement de certaines conditions et l’approbation de<lb/>Sa Hautesse. A cet effet, S. Exc. le ministre des affaires<lb/>étrangères s’est rendu vendredi auprès de S. M. impériale<lb/>et lui a soumis un rapport détaillé de tout ce qui s'était<lb/>passé tant dans le conseil que dans les conférences avec</p>
+        <p rend="labelled"><lb/>conduite de ses ministres, notamment celle de S. Exc. Res-<lb/>chid-Pacha qui a fait preuve dans toute cette négociation<lb/>d'autant d'habileté que d'énergie et de patriotisme; et l'on<lb/>prétend que par pure déférence pour ses augustes alliés,<lb/>il a consenti à accepter la soumission du Pacha avec pro¬<lb/>messe de lui accorder l'hérédité de l'Egypte, pourvu que<lb/>sans délai, et avant tout, il évacuât complètement la Syrie</p>
+        <p rend="labelled"><lb/>décision de la Sublime-porte et les ordres relatifs à l'exé-<lb/>cution immédiate des deux conditions ci-dessus mention-<lb/>nées. M. le commandant Fenschawe sera porteurde cette ré-<lb/>ponse; il sera accompagné dans cette mission par l'amiral<lb/>Walker bey, et par Kanoun-effendi, ancien moustéchar de<lb/>l'amirauté, qui a été, dit-on, désigné pour recevoir la flotte</p>
+        <p rend="labelled"><lb/>journas</p>
+        <p rend="labelled"><lb/>les débris de son armée; mais cette position ne saurait être<lb/>long-temps tenable pour lui; car le mécontentement des<lb/>habitans doit lui faire craindre à chaque instant un soulève-<lb/>ment qui aurait déjà eu lieu, si la partie paisible de la po¬<lb/>pulation n’avait pas usé de toute son influence pour s'y op-<lb/>poser, dans la crainte de voir la ville livrée à une solda-<lb/>tesque indisciplinée et sans frein, qui ne respire que l'a-</p>
+        <p rend="labelled"><lb/>égyptienne prétendent qu’Ibrahim a avec lui de 40 à 45,000<lb/>D'autres renseignemens, au contraire, qui méritent plus<lb/>de confiance, ne font monter le reste de l'armée égyptienne<lb/>concentrée à Damas avec Ibrahim-Pacha qn'à 25 ou 30,000<lb/>hommes démoralisés, prêts à tout moment à se mutiner et<lb/>sur lesquels leur chef est bien convaincu lui-même qu’il ne</p>
+        <p rend="labelled"><lb/>compagnés de plusieurs officiers, ont été faire, il y a une<lb/>quinzaine de jours, des reconnaissances jusqu’à Malaca,</p>
+        <p rend="labelled"><lb/>ment des troupes de terre anglaises est arrivé avec du ren-</p>
+        <p rend="labelled"><lb/>autrichienne se trouvaient mouillées dans la rade de Mar-<lb/>marizza. On y a appris ces jours derniers la nomination de<lb/>l’amiral Stopford au poste de gouverneur de l’hôpital ma¬<lb/>ritime de Greenwich, et celle du commodore Napier au rang</p>
+        <p rend="labelled"><lb/>est que le différend oriental marche rapidement vers sa so-<lb/>ation.<lb/>bus ne veulent point payer sous le prétexte que, les hommes<lb/>faisant la guerre, la moisson n’a pu s’effectuer entièrement.<lb/>Ces agens tentent, mais en vain, d’appeler les Arabes à<lb/>une nouvelle guerre sainte. Les enrôlemens se font avec<lb/>lenteur; les Arabes, mieux conseillés, refusent des con¬<lb/>tingens et des secours à l'insatiable ambition d'Abd-el-</p>
+        <p rend="labelled"><lb/>G ette des Tribunaux, sur l'horribte évenement</p>
+        <p rend="labelled"><lb/>d'être témoin me laisse à peine la force de rassembler mes<lb/>idées pour vous faire le récit des circonstances de l'événe-</p>
+        <p rend="labelled"><lb/>des dépêches pour la France parut en vue du port; mais,<lb/>comme la mer n'était pas encore assez haute, il attendit le<lb/>moment faborable pour entrer. Dans le but d’avoir deux<lb/>heures plus tôt la correspondance, un canot fut envoyé<lb/>bord du paquebot anglais. Il était monté par sept marins<lb/>excellens que commandait le brave Delpierre, dit Cator,<lb/>l'un de nos plus intrépides pilotes. Ce dernier aborda assez<lb/>facilement le bateau à vapeur, puis il se mit en mesure de<lb/>retourner à terre, après avoir chargé à bord du canot les<lb/>dépêches, les journaux, le second du navire anglais et deux<lb/>passagers canadiens avec leurs bagages. Ainsi, onze per-</p>
+        <p rend="labelled"><lb/>donnait l'écluse de chasse du bassin du port, le pilote di-<lb/>rigea son canot du côté de l'est, afin de le faire échouer<lb/>sur la plage. Mais soit qu’il ne fût pas allé suffisamment à<lb/>l'est, soit que le canot fût trop chargé ou eût été mal char¬<lb/>gé, à peine était-il éloigné du paquebot à vapeur, qu’une<lb/>lame violente le fit chavirer et précipita à la mer tous ceu,</p>
+        <p rend="labelled"><lb/>courrier mit son canot à la mer pour voler au secours des<lb/>malheureux naufragés ; mais trois seulement d’entre eux<lb/>ont pu être amenés à bord, et l'on n'est parvenu à rappe-</p>
+        <p rend="labelled"><lb/>la terre ; ils ont êté recueilis par des persones quietaient<lb/>entrées dans l'eau pour les secourir, et portés dans le lo-<lb/>cal de la société humaine, où il a suffi de quelques instans<lb/>pour qu’ils fussent tout-à-fait hors de danger. Un de ces<lb/>s'était accroché et à l'aide duquel il a gagné la terre. Ur<lb/>autre marin, recueilli par le canot du courrier, et qui a pu<lb/>être secouru efficacement, a également échappé par le<lb/>moyen d'un autre paquet de lettres. Au moment où on l'a<lb/>arraché aux flots il tenait encore convulsivement avec les<lb/>aents cet ancre de salut que ses mains avaient abandonnée.</p>
+        <p rend="labelled"><lb/>forts pour rappeler à la vie les trois infortunés que son<lb/>embarcation avait retirés des flots. A l'aide des conseils et<lb/>de la coopération d’un jeune médecin anglais, neveu du<lb/>docteur Scott, de Boulogne, qui se trouvait au nombre des<lb/>passagers, il leur fit prodiguer tous les soins qui étaient en<lb/>son pouvoir; mais ces soins n'eurent de succès qu'à l'égard</p>
+        <p rend="labelled"><lb/>vous décrire, je m'étais transporté sur le port pour concou¬<lb/>rir aux mesures à prendre, et aussitôt que le courrier fut<lb/>à quai, j’y pénétrai, et je fis donner aux deux malheureux<lb/>naufragés tous les soins propres à les rendre à l'existence.<lb/>Deux médecins français, les docteurs Duchenne et Dunand<lb/>fils, et deux médecins anglais, le docteur Mischell et un<lb/>autre médecin dont j'ignore le nom, s’empressèrent, avec<lb/>un zèle et un dévouement dignes des plus grands éloges<lb/>d'employer tous les moyens que la science indique en pa¬<lb/>reille circonstance. On alla chercher à la société humaine<lb/>tous les appareils dont on avait besoin. Après trois heures<lb/>de secours impuissans, il fallut renoncer à arracher à la</p>
+        <p rend="labelled"><lb/>péri; trois seulement ont été rappelées à la vie; deux ont<lb/>été retirées des flots, mais mortes, et les six autres ont été<lb/>englouties dans la mer. Tous les paquets et bagages ont<lb/>été apportés sur la grève par la vague, et rien n’a éte</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>on e dans une lettre d'Alger du 4 janvier adressée<lb/>au Poulonnais:<lb/> </p>
+        <p rend="labelled"><lb/>plus extrême misère. Les denrées sont fort rares et se ven-<lb/>dent à des prix très-élevés. Les kalitas parcourent les pro-<lb/>vinces auin de lever les impots qu'un grand nombre de tri</p>
+      </div>
+      <div type="article">
+        <p><lb/>ncuvelle de la maladie de la duchesse d'Angoulème dont</p>
+        <p><lb/>s ce ma<lb/>d'une bande noire à l'occasion de l'anniversaire de la mort<lb/>de Louis XVI. Des services funèbres ont eu lieu ce matin<lb/>dans plusieurs églises et entre autres à Saint-Germain-</p>
+        <p rend="labelled"><lb/>mès, a donné lieu dans le public à maintes conjectures. On<lb/>prétend aujourd’hui que, par suite de ses révélations, on<lb/>est parvenu à faire des découvertes importantes. Mais les<lb/>recherches n'auraient pas laissé que d'être fort difficiles,<lb/>car Darmès, dit-on, ne donnait que des renseignemens<lb/>fort vagues. Il désignait, non pas par les noms propres<lb/><lb/>qu’il ne connaissait pas lui-même, mais par des sobriquets<lb/>et des signalemens, les individus qui faisaient partie de la<lb/>même société que lui et qui assistaient aux séances de son<lb/>club. On lui a montré maints portraits dont il a cru recon-<lb/>naitre quelques-uns, on arrêtait les originaux, on les con¬<lb/>frontait avec lui, puis il ne les reconnaissait plus. Enfin.<lb/>il parait que ces jours passés il a reconnu de cette manière,<lb/>sur un portrait qui lui a été présenté, un individu qu’il a<lb/>prétendu être un des principaux membres de la société<lb/>secrète. Des perquisitions auraient eu lieu au domicile de<lb/><lb/>la personne arrêtée, et l'on prétend qu'on aurait saisi une<lb/>liste res- lonrgue de conjurés, et quelques papiers d'une</p>
+        <pb facs="0004.xml"/>
+        <ab><milestone unit="column" n="3"/><lb/>som, neaceur repnae</ab>
+        <p><lb/>it encore durer</p>
+        <p><lb/>lais-de-Justice, où l'on dit encore que le nombre des ać-<lb/>cusés, qui comparaîtront devant la cour des pairs, pour¬</p>
+        <p rend="labelled"><lb/>niers étaient extraits de la prison de Ségré et dirigés sur<lb/>Angers. Une escorte composée d’une vingtaine d’hommes<lb/>les avait accompagnés jusqu’au Lion; là, l'autorité jugeant<lb/>-<lb/>que la route du Lion à Angers présentait toute sécurité,<lb/>l'escorte fut réduite à 4 gendarmes à cheval. Près de la<lb/>Membrolle, c'est-à-dire à quelques mille mètres d'Angers,<lb/>vers onze heures et demie du matin, le convoi est tout-à¬<lb/>coup arrêté; 25 à 30 hommes armés, placés sur la lisière<lb/>d’un bois bordant la route, crient aux gendarmes : Ren-<lb/>dez-nous vos prisonniers, ou vous êtes morts ! Les gen¬<lb/>darmes étaient tenus la bayonnette au corps, tellement<lb/>que l'un d'eux a eu son habit déchiré, et des deux côtés de<lb/>la route, le reste des bandits les mettait en joue. Les deux<lb/>réfractaires, à la vue des chouans, s’étaient couchés<lb/>terre. Les gendarmes cèdent au nombre, et laissent enle<lb/>ver les deux réfractaires. Les chouans offrent aux deux<lb/><lb/>prisonniers de les suivre, on dit que ceux-ci étaient deux<lb/>soldats poursuivis ou condamnés pour délits militaires ; ils<lb/>ont refusé l'offre qu’on leur faisait. Les gendarmes sont<lb/>arrivés dans la soirée à Angers, où ce fait est aussitôt de-<lb/>veuu public et a fait naitre de vives émotions dans tous les<lb/></p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>ifrd f duijur apele a discussion du projet de loi re-</p>
+        <p><lb/>bre n'a pu terminer le scrutin sur le projet de loi relatif<lb/>aux ventes judiciaires d'immeubles saisis. On reprend au-</p>
+        <figure type="table"/>
+        <p><lb/>La parole est à M. le ministre du commerce pour une</p>
+        <p><lb/>M. le ministre dépose sur le bureau de la chambre le<lb/>traité de commerce conclu entre la France et le gouverne¬<lb/>ment néerlandais, et le projet de loi relatif à sa ratification<lb/></p>
+        <p rend="labelled"><lb/>l'intime conviction que les fortifications de Paris ne seraient<lb/>pas suffisantes pour la défense de la capitale, nuisibles<lb/>peut-être à l'unité du pays, et préjudiciablès aux contri-</p>
+        <p><lb/>Il n'est pas dans le caractère national de se prépare<lb/>la défense : nous avons quelquefois perdu des batailles,<lb/>mais c’est presque toujours sur le territoire de l’étranger</p>
+        <p><lb/>L’orateur veut que la France imite les institutions mili¬<lb/>taires de la Prusse; il demande qu’on prolonge la durée<lb/>du service militaire, et rappelle à cette occasion les idées<lb/>émises à ce sujet dans une récente brochure du général Bu-<lb/>geaud. Il faut, dit-il, que chacun combatte pour tous et</p>
+        <p><lb/>En faveur de son opinion, M. Golbéry cite des brochures<lb/>des généraux Vaudoncourt, Alexandre de Girardin et au¬<lb/>tres'; il cite plusieurs passages de ce dernier, au milieu des<lb/>marques d'impatience de la chambre. Il s'appuie également</p>
+        <p><lb/>den 1815.<lb/>Carnot sur les fortifications de Paris. Carnot répondit<lb/>l'empereur que, pour faire une enceinte autour de Paris,<lb/>il faudra 200 millions, trois années de travail; et, après<lb/>cela, une armée de soixante mille hommes bien disciplinés</p>
+        <p rend="labelled"><lb/>M. Golbéry cite également l'opinion du maréchal Soult<lb/>qui, à une autre époque, a déclaré que jamais sous l'em¬<lb/>pire on n'avait songé à faire de Paris une place de guerre.</p>
+        <p><lb/>des forts détachés; il demande comment il se fait que ces</p>
+        <p><lb/>C'est une fatale pensée, dit-il ; c'est une pensée d'amoin-<lb/>drissement que de dire que le sort de la France dépend<lb/>d'une ville et d'une bataille, que de dire que le sort de<lb/>la France dépend du maître de Paris quel qu’il soit. Vous<lb/>affermissez, Messieurs, ce fatal préjugé des provinces qui</p>
+        <p><lb/>trograde: Vienne démolit ses fortifications. Londres n'en a<lb/>pas et n’en veut pas (Rire général). Je comprends vos ri-<lb/>res; mais, Messieurs, l'époque n’est pas bien loin de nous<lb/>où un illustre guerrier songea à envahir l’Angleterre; vous<lb/>n'avez pas renoncé à toujours à ce gigantesque projet;<lb/>vous ne pouvez pas y renoncer. Eh bien! voyez-vous l’An-</p>
+        <p><lb/>ne devrait pas, ne pourrait pas rester dans Paris: conce-<lb/>vez-vous, dit-il, les chambres délibérant sous le canon des</p>
+        <p rend="labelled"><lb/>ao<lb/>eu le roi Jean; mais, sur le champ de bataille, le roi cher-<lb/>chait un chevalier français pour lui rendre son épée. Fran-<lb/>çois 1^er, à Pavie... (Rires prolongés). Oui, Messieurs, nous<lb/>avons eu des prisonniers : mais nous n'en avons pas eu qui<lb/>dent été pris d'assaut. En cas d'invasion, Messieurs, le<lb/>por et les chambres quitteratent la capitale. Les chambres<lb/>r es es viles assiégées ne servent qu'à pro-</p>
+        <p><lb/>L'orateur s'attache à démontrer qu'une armée ennemie<lb/>ne viendrait pas se jeter follement contre les murailles de<lb/>Paris, mais qu'elle s’attacherait à l'affamer. Elle attendran<lb/>sente-</p>
+        <p><lb/>raient les fortifications en présence de l'audace des factions<lb/>qui pourraient s’en emparer dans une sourde sédition,<lb/>imposer ainsi à la capitale un gouvernement provisoire</p>
+        <p><lb/>M. Golbéry déclare qui nnsp la terreur,<lb/>vain amas de pierres, qui serait non pas la terreur,m</p>
+        <p><lb/>La parole est à M. le président du conseil pour une com-</p>
+        <p><lb/>Le ministre de la guerre, prséd do s, pes f.<lb/>un projet de loi ayant pour but un dd consen, presente</p>
+        <p><lb/>Le ministre présente un second projet de loi relatif à</p>
+        <p><lb/>pour objet d'apporter des modifications à la loi de 1832</p>
+        <p><lb/>Les principales dispositions de ce projet ont pour but de<lb/>modifier le système de remplacement, d'organiser la ré¬<lb/>serve et de prolonger d'une année la durée du service</p>
+        <p><lb/>Le ministre voit dans le projet qu’il présente le moyen<lb/>assuré d'augmenter et de centraliser l'armée, de la mettre<lb/>à même d’entrer plus rapidement en campagne, sans toute-</p>
+        <p><lb/>M. le président du conseil lit, au milieu du bruit des con¬</p>
+        <figure type="decoration"/>
+        <note>
+          <p rend="styled"><milestone unit="column" n="2"/><lb/>DIJON. — IMTRIMERIE DE SIMONNOT-CARION, PRES LA PLACE AUX FRUITS.</p>
+        </note>
+      </div>
+      <div type="article">
+        <ab><lb/>Le détail sera donné dans le prochain numéro du</ab>
+        <ab type="head"><lb/>Office d M DŔN, RE S<lb/>A DIJON, RUE MUSEVLL,</ab>
+        <ab type="head"><lb/>RUE DES BONS ENEANS,</ab>
+        <p><lb/>est entourée d'un jardin de la contenance de 1'hec-<lb/>tares 2 ares 85 centiares, traversé par un ruisseau<lb/>qui ne tarit pas. On pourrait utiliser une chute d'eau</p>
+        <p><lb/>res de bois, en face de lhabita-</p>
+        <p><lb/>Bons-Enfans, <lb/>rE, notaire à Dijon, rue d</p>
+        <p rend="labelled"><lb/>OUTILS DE SERRURERIE, à vendre aux enchè-<lb/>res, lundi premier février, à 10 heures du matin, rue<lb/>BOssuet, n^o 14, par le ministère de M. BÉLIARD, com¬</p>
+        <p><lb/>Etaux, soufflet de forge, enclumes, machine à percer<lb/>et à tarrauder, barre, cric, rouages en fonte assortis<lb/>marteaux, outils de forge, filières doubles, plusieurs<lb/>fléaux, étampes, gros fer , boulons, espagnolettes, vis<lb/>à presse et à cylindre, trente serrures et autres ob</p>
+        <p><lb/>ont 5 centimes par franc.</p>
+        <ab type="head"><lb/>ÉQUIPAGE D'ENTREPRENEUR à vendre aux en</ab>
+        <p rend="labelled"><lb/>chères, par le ministère de M. BÉLIARD, commissanle</p>
+        <p><lb/>Une forte partie de PAPIERS de différens formats<lb/>collés et sans colle, à la mécanique et à la main, pro-<lb/>venant de bonnes fabriques, à vendre, le mardi 2 fé<lb/>vrier, heure de midi, par le ministère de M. BÉLIARD<lb/>commissaire-priseur, en la salle de ventes, rue des Go¬</p>
+        <p><lb/>I sera accordé un terme de 3 à 6 mois aux acquéreur<lb/>connus, dont les achats s’elèveraient au moins à|100f</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Etude de M. MATNEY, notaire à Chalon-sur-</head>
+        <p rend="styled"><lb/>n, rue de la Poissonnerie, n^° 6</p>
+        <p><lb/>Ce domaine se compose: 1^o d'une auberge composée<lb/>de deux chambres à feu, un cabinet, vaste cave, gre-<lb/>nier, écurie, grange; 2° de vastes bâtimens d’habita-<lb/>tion et d’exploitation, petit logement de maître, un<lb/>beau jardin, un clos contenant en terre et vigne<lb/>hectares 12 ares 40 centiares; 3° 22 hectares 12 ares<lb/>70 centiares de terres labourables; 4° 3 hectares 80 ares<lb/>de prés; 5° et 96 ares 60 centiares de vignes, situé sur<lb/>la grande route de Dijon à Châlon, et à 5 kilomètres de</p>
+        <p><lb/>S'adresser, pour voir les lieux, a M. Thorin-Bailly</p>
+        <p><lb/>M. Th. Paccard, propriétaire à Verdun-sur-Doubs; 2°</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Les acquéreurs paieront cinq centimes par frane</ab>
+        <ab type="head"><lb/>Seur à Dijon, Plsce-du-Palats.</ab>
+        <p rend="styled"><lb/>Après décès de M. Huguet, qui était bâtonnier de l'or<lb/>dre des avocats de Dijon, le lundi 25 janvier cou¬<lb/>rant et jours suivans, à 6 heures du soir, en la salle<lb/>de ventes, rue des Godran, n° 88, par le ministera</p>
+        <p><lb/>OEuvres complètes de Merlin; journal des Arrêts de<lb/>cassation, par Dalloz; Pandectes de Justinien, Des-<lb/>cription et coutumes du duché de Bourgogne, Dic-<lb/>tionnaire de jurisprudence et de législation, Traite<lb/>des hypothèques; cours de droit commercial, de Par¬<lb/>dessus; œuvres de Touillier, de Duranton et autres;</p>
+        <p><lb/>Plusieurs volumes d'hist cinq centimes par frane</p>
+      </div>
+      <div type="article">
+        <p><lb/>duxit amprets a feu, dunre cuisińe, et dcun cabi ne<lb/>avec cave et grenier. Cet appartement nouvellement<lb/>réparé est situé, rue Rameau n^o 20 et 22, en face de</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p rend="structured"><milestone unit="column" n="4"/><lb/>sdresr r, notaire en ladite vile</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>hala, d'RL à Dion. S'a<lb/>achalandé, dans le centre de la ville, à Dire, Sie</p>
+        <p><lb/>25 c. la bouteille. S'adresser à M. Roux, tonnelier</p>
+        <p rend="labelled"><lb/>Bon VIN BLANC de la côte châlonnaise, à vendre</p>
+        <p><lb/><lb/>connaissant la taille des arbres, l’éducation des me<lb/>lons, enfin sachant tout ce qui a rapport soit au jardi-<lb/>nage, soit à la culture des fleurs; on désire qu’il sache<lb/>panser un cheval, conduire une voiture et battre à la<lb/>grange. On désire qu’il ait de bons répondans. S’a<lb/>dresser, pour les renseignemens, rue des Novices,n</p>
+      </div>
+      <div type="article">
+        <head><lb/>PUBLICATION D’UN ACTE DE DISSOLUTION DE SOCIÉTÉ.</head>
+        <figure type="decoration"/>
+        <p><lb/>30 juin 1840, enregistré en la même ville le 11 aou<lb/>suivant, folio 96, verso case 4, par Dumollard quia<lb/>perçu 5 fr. pour constitution de société, 5 fr. po<lb/>dissolution, 2 fr. pour nomination de liquidateur, 3 fr<lb/>pour compromis, et 1 fr. 50 de décime, la société for<lb/>mée au mois de janvier 1838, entre les sieurs Jea<lb/>BADET et Claude SAINTOT, négocians à Dijon, pour<lb/>le commerce des charbons de terre, du plâtre e<lb/>des bois de service, a été dissoute d’un commun ac<lb/>cord, à partir du 1er janvier 1841, et M. Winckler,<lb/>agent d'affaires en cette ville, a été nommé liquida</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>vrier, fabricant de chaînes, et Marie-Françoise De-</p>
+        <p rend="structured"><lb/>Pierre Félix, fusilier au 74^e de ligne, 21 ans. — Jea<lb/>Vialle, fusilier au 74e de ligne, 23 ans. Du 20, Louis<lb/>Marie Delamotte, cuisinier, célibataire, 34 ans.<lb/>Antoine Gaudet, fusilier au 17^e de ligne, 21 ans. De<lb/>21, Emilie Roy, celibataire, 29 ans. — Anne Ecard<lb/>femme de Jean-Baptiste Noëllat, propriétaire, 65 ans</p>
+      </div>
+    </body>
+  </text>
+</TEI>

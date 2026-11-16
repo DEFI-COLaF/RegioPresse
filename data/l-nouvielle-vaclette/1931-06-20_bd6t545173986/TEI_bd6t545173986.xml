@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Nouvielle Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t545173986</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Nouvielle Vaclette : journal patoisant humoristique, non politique / avec la collaboration du Caveau lillois</title>
+          <publisher>[s. n.] (Lille)</publisher>
+          <date when="1931-06-20">1931</date>
+          <idno type="ARK">bd6t545173986</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t545173986</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>0.25 LE NUMÉRO</fw>
+        <fw type="runningTitle"><lb/>8' ANNÉE. — N° 329</fw>
+        <fw type="runningTitle"><lb/>L'abonnement se paie d'Avance</fw>
+        <dateline><lb/>Samedi 20 Juin 1931.</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>ABONNENNT<lb/>REDACTION<lb/>France unan 18<lb/>69, Rue Saint-Sauveur</ab>
+        <figure/>
+        <p rend="heading"><lb/>ANEC LA COLLABORATION DE</p>
+        <ab><milestone unit="column" n="3"/><lb/>Gérant MAREELS Isidore</ab>
+        <ab><lb/>Chéques Postaux 37.182</ab>
+        <p rend="styled"><milestone unit="column" n="2"/><lb/>Siège: 1, Rue de la Monnaie</p>
+      </div>
+      <div type="article">
+        <head><lb/>Amateurs de Canchons Patoises<lb/>Vous trouv rez dins ch' liméro:</head>
+        <ab><lb/>Chanson de Felix LEULIRUX dit PHILIS<lb/>Air : Les Camanettes, de A. Labbe<lb/>P'tit Léon et Célina<lb/>Chanson de Maurice PKRCHB, alias MAUVIART<lb/>geut se chanter sur l'air, : Cest pour mon Papa<lb/>Quand j' serai à l'Hospice<lb/>Chanson de I. MARRELS</ab>
+        <ab type="head"><lb/>J'ai toudis la Flemme!<lb/></ab>
+        <ab type="head"><lb/>Air : Le Graissier</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Funérailles de Gaston PIETIN</head>
+        <p><lb/>Bien que ch' genre d'insertion n' soch' point<lb/>du caractère de not' Gazette, les lecteurs nous<lb/>excus'ront d' printe eun' plach' dins l'eune d'ses<lb/>colonnes pour relater, dins l' langache si aimé<lb/>d' note ami r'gretté, les funérailles imposantes<lb/>qui eur'nt lieu Jeudi 11 Juin 1931, à 3 heures.</p>
+        <p><lb/>L' mot "imposante" n'est point d' trop, car,<lb/>nombreux étoi nt les amis et connaissances<lb/>qu'avott'nt tenu à rinte un dernier hommache à<lb/>Gaston PIETIN.</p>
+        <p><lb/>L' chercueil disparaichot sous les feurs et au<lb/>départ du cortèche pus d'un millier d' personnes<lb/>étot massé rue Sainte-Catherine.</p>
+        <p><lb/>On y r'marquot l'Caveau Lillois au complet,<lb/>suivi deun' forte délégation de l'Chorale<lb/>Patoisante “ Les Vacletteux "puis v'not les<lb/>délégations de : l' Chorale " Les Sans Soncis"<lb/>des Mutilés, Réformés et Veuves de Guerre des<lb/>Anciens du 49e Bataitlon d' Chasseurs à pied, d'<lb/>P'Amicale Saint-Sauveur, d' l'Amicale des<lb/>Anciens Bleuets, des Vieillards des Hospices, du<lb/>Groupe Anatole France, d' l'Administration de<lb/>l' Brass'rie Coopérative l'Av'nir, de l' Société<lb/>Typographique Lilloise, d' ses compagnons d'<lb/>Nravail d' l'Imprim'rie Lefebvre-Ducrocq.</p>
+        <p><lb/>Nos amis Auguste Labbe et Gustave Het, deux<lb/>fondateurs du Caveau Lillois avot'nt tenu à<lb/>conduire leur élève, Gaston PIETINà s' dernièr'<lb/>demeure. R'marqué, égal'mint dins l'assistance<lb/>Messieurs Masson, Dompsin, Courouble, de l’<lb/>Municipalité Liloisse, Jaumard des Rosati des<lb/>Flandres, Lévy et Mullier d' l’Administration<lb/>des Hospices, Foulont et Delmotte, Collabo-<lb/>rateurs de l' Noupielle Vaclette et d’aut's<lb/>personnalités dont les noms nous écappent.</p>
+        <p><lb/>Au chim'tierre, note ami Maréels, doyen du<lb/>Caveau Lillois, r'traça l' vie littéraire de Gaston<lb/>PIETIN, r'latant ses débuts, ses succès, tant in<lb/>auteur qu’in interprétateur et fit r’ssortir in<lb/>termes émus, l' vide que fra, dins l' Caveau<lb/>Lillois, l' disparition d’un bon Canchonnier,<lb/>doublé d'un excellent camarade.</p>
+        <p><lb/>Puis, un Mimbre des Mutilés et Réformés d'<lb/>Guerre, r'traça l' vie militaire du défunt pin¬<lb/>dant l' grand' guerre, s' bonne humeur, alliée à<lb/>sin corache, r'montot l'moral de ses compagnons<lb/><lb/>d'armes, tous gas du Nord comme li Il étot à<lb/>fos, organisateur, auteur, interprétateur de<lb/>Programmes des concerts du front au 49-<lb/><lb/>Bataillon d' Chasseurs à Pieds dont i' faijot<lb/>partie quant il a r'chu l' blessure dont i' n' s'est<lb/>jamais r'mis.</p>
+        <p><lb/>Puis, un Vieillard de l'Hospice Général de<lb/>Lille, est v'nu, dins un discours émouvant, ap-<lb/>porter un suprême adieu au Canchonnier<lb/>Patoisant, au joyeux trouvère qui n’a jamais<lb/>marchandé sin temps pour aller, dins les Hos-<lb/>pices de Lil e, porter s' bonne humeur avec ses<lb/>comarates du Caveau Lillois, et donner un peu<lb/>d' gaieté aux deshérités de l' vie.</p>
+        <p><lb/>Monsieur Brodel, au nom du groupe Anatole<lb/>France. r traça l' vie d' droiture, d' philantropie,<lb/>d' sincère camarat'rie d' Gaston PIETIN, appor¬<lb/>tant l' dernier salat d' tout cheux qui, l'ayant<lb/>connu, l'ont estimé et assurant s' famille éplorée,<lb/>qu' sin souv'nir restera parmi tous.</p>
+        <p><lb/>Puis, note Collaborateur Arsène Warnier, lut,<lb/>d’enn' voisse émue, un suprême hommache du<lb/>Caveau Lillois, qu' nous r'produijons d'autre<lb/>part.</p>
+        <p><lb/>Ainsi est parti not' Camarate Gaston PIETIN,<lb/>mais sin souv'nir rest'ra vivace. Il est d' cheux<lb/>qu’on n' peut point oblier.<lb/>Puiss'nt, chés sintimints d' réel' sympathie</p>
+        <p><lb/>adouchir, si possible l'douleur causée pa' s<lb/>perte, à s' vieille maman, à s'n épouse à sin gar-<lb/>chon, à toute s' famillle.</p>
+        <p><lb/>Gaston PIETIN r'pose, à ch' t'heure non loin<lb/>de Plaqu' Commémorative du Caveau Lillois,<lb/>dont il a été l' promoteur, et su' l'quelle, par<lb/>eun' cruauté du destin, sin nom s'ra l' premier<lb/>qui y s'ra gravé, d'puis s'n érection.</p>
+        <p rend="heading"><lb/>Suprême hommage du CAVEAU LILLOIS</p>
+        <p rend="heading"><lb/>au Chansonnier Gaston PIÉTIN</p>
+        <lg>
+          <l><lb/>Pour le calme imposant d'une nature verte,</l>
+          <l><lb/>L'implacable Destin, dédaigneux des douleurs,</l>
+          <l><lb/>T'as pris en ton foyer, brisant de nobles cœurs</l>
+          <l><lb/>Oont la plaie, à jamais, restera découverte.</l>
+          <l><lb/>2</l>
+        </lg>
+        <lg>
+          <l><lb/>Au seuil de cette tombe, hélas, trop tôt ouverte,</l>
+          <l><lb/>Dans un double parfum d'amitiés et de fleurs,</l>
+          <l><lb/>Nous venons, Chansonnier, bon parmi les meilleurs,</l>
+          <l><lb/>Nous pencher vers l'ami, plaindre sa Muse inerte.</l>
+        </lg>
+        <lg>
+          <l><lb/>Nous aimions ta gafté, nous prisions ta chanson</l>
+          <l><lb/>Et tes refrains altiers repris à l'unisson,</l>
+          <l><lb/>Tant ton cœeur généreux faisait vibrer chaque âme.</l>
+        </lg>
+        <lg>
+          <l><lb/>Tu ne charmeras plus. Mais si ton souvenir</l>
+          <l><lb/>Dans l'avenir lointain semblait vouloir faiblir,</l>
+          <l><lb/>Ton ccuvre reviendrait en ranimer la flamme.</l>
+        </lg>
+        <p rend="heading"><lb/>Inter cabarétière et client</p>
+        <p><lb/>Li (intrant). — Ah ! bonjour madaime Emile!<lb/>Et commint qu' cha va, par ichi.</p>
+        <p><lb/>Elle. — Dig et dog, monsieur Achille ; on n'<lb/>gaingne rien à s' plaindre, énon ? Et vous ?</p>
+        <p rend="labelled"><lb/>Li. — Point trop mag'mint. L' santé est<lb/>toudis bonne; quant à l'ouvrache pou' l' mou¬<lb/>mint i' n' va point fort. Du reste. on chôme tous<lb/>les lundis, chin qui m'a permis d' venir pour¬<lb/>mener dins chés paraches, et pa' l' même occa-<lb/>sion d' vous souhater l' bonjour in passant.</p>
+        <p><lb/>Elle. — Vous avez bien fait. On vous vot si<lb/>rar'mint d'puis qu' vous avez quitté l'usine d’in<lb/>face</p>
+        <p rend="labelled"><lb/>Li. — Awi, j' le r'grette bien ch' l'usine, j'v<lb/>gaingnos bien la vie, et j'étos lon d' pinser à l'<lb/>boulette que j' faijos, quand j'ai pris min bloc.</p>
+        <p><lb/>Mais que volez-vous, chin qui est fait et fait,<lb/>et je m' fich'ros chint fos l' fiête conte un mur.<lb/>j' n'in s'ros point pus avainché, ch'est-i' point<lb/>vrai, madaime Emile?</p>
+        <p><lb/>Elle. — In eflet. Et quoich' que vous allez<lb/>boire, monsieur Achille ?</p>
+        <p rend="labelled"><lb/>Li. — Bah! donnez-me eun' grand' chope,<lb/>allez. j'ai eun' soif à n' pus savoir ravaler m'<lb/>salive,</p>
+        <p><lb/>Elle (Aprèsavoir rimpli un d'mi). — V'là.<lb/>monsieur Achille, un bon verre d' bière d’<lb/>l'Av'nir, et bien fraiche.</p>
+        <p><lb/>Li (Après avoir vidié l' mitan du verre.<lb/>r'vette d' tous les côtés, eimblant cacher après<lb/>quéqu' cosse, puis). — Tiens, et vo' cat, vous n'<lb/><lb/>l'avez pus?</p>
+        <p rend="labelled"><lb/>Elle. — Min cat! m' catte qu' vous volez<lb/>dire?<lb/></p>
+        <p rend="labelled"><lb/>Li. — Catte ou cat, vous savez, pour mi ch'est<lb/>l' même, je n' m’y connos point puque qu' cha<lb/>dius les sexes d' biétes, chin que j' sais. ch'est<lb/>que l' vote avot sin poitral pus noir que du jais,<lb/>douch' comm' du v'lours, et qu’ell' se laichot<lb/>facil'mint caresser. Aussi. j' l'aimos autant qu’<lb/>si ell' m'avot appartenu. Et quoich' qu’elle est<lb/>dev'nue?</p>
+        <ab><lb/>N.V.</ab>
+        <p><lb/>Elle. — Mais j' l'ai incore, et j' vous assure<lb/>que j'in ai toudis du soin comm' si ch'étot m'n<lb/>infant. Eun' séquoi qui m' déplait in elle, ch'est<lb/>qu' souvint l' soir, ell' me brûle l' politesse pou<lb/>courir la pertantaine avé les matous du quar-<lb/>dier</p>
+        <p rend="labelled"><lb/>Li. — Que volez-vous, ch'est les biêtes<lb/>comm' les gins ; l' seul' différince qui existe,<lb/>ch'est qu' chès biêtes ch'est par époques, tandis<lb/>qu' nous....</p>
+        <p><lb/>Et à propos, ûch' qu'elle est à présint, qu' je<lb/>n'le vos point?</p>
+        <p rend="labelled"><lb/>Elle. — Dins l'cuisine, elle est in train d'<lb/>mette des p’tit bas,</p>
+        <p rend="labelled"><lb/>Li. — Des p'tits bas ! Bon diabel bon, in</p>
+        <ab><lb/>Arsène WARNIER.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

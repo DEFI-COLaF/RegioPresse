@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8134265z</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1882-11-26">1882</date>
+          <idno type="ARK">bpt6k8134265z</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8134265z</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Dous su lou numero</fw>
+        <fw type="runningTitle"><lb/>Dimence 26 de Nouvemore 1882</fw>
+        <dateline><lb/>IVo Annado — No XXXV p. 27</dateline>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>JOURNAU POUPULARI DE LITERATURO, D'ISTORI E DE SCIENCI</p>
+        <p><lb/>PAREISSENT TOUTEI LEI DIMENCHE</p>
+        <quote><lb/>jourau pèr Marsiho</quote>
+        <p rend="structured"><milestone unit="column" n="2"/><lb/>M. Vincent, carriero Corneille, 3.</p>
+        <note>
+          <p><lb/>Tout co que toco lou journau dèu<lb/>estre manda afranqui à l'Emprimarié<lb/>Prouvençalo. 45, carrièro dóu Grand-<lb/>Relògi, a-z-Ais</p>
+        </note>
+        <p rend="labelled"><lb/><lb/>Abounamen;<lb/>S franc pèr an per touto la Fraico.<lb/>Fouero Franço. lou port en subre. co<lb/>que reven à DEN franc.<milestone unit="column" n="3"/><lb/>Les annonces, réclames et faits di-<lb/>vers sont reçus euclusivement à l'A-<lb/>gence Ewig rue d’Amboise-Richelien,<lb/>9. Paris fermière de la publicité.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>saua i<lb/>DE LA<lb/>MANTENENÇO DE PROUVENÇO<lb/> — oal</ab>
+        <ab type="head"><lb/>COUNCOURS</ab>
+        <p rend="styled"><lb/>Fasen assaupre que dins soun acamp<lb/>ténent, la Mantenènço de Prouvenço<lb/>dounara sa Rour dor e d'argent à la<lb/><lb/>meiouro pèço de pouesio, sus d'un sujet<lb/>tira de l'istori de Prouvenço.</p>
+        <p rend="styled"><lb/>Touti li felibre podon councourri,<lb/>franc di Mestre en Gai-Sabé.</p>
+        <p><lb/>Li peço an d'estre mandado, dins la<lb/>impooB<lb/>formo acoustumado, au Secretariat de<lb/>la Mantenènco, carriero de l'Evescat.<lb/>30 à Marsiho, avansboa 1er de janvié<lb/>de 1883.</p>
+        <p rend="structured"><lb/>;obilVE CTAULETO ordo<lb/>aobogiod qsabeivs bad</p>
+        <p rend="labelled"><lb/>Passo-reMs. — Deigarden de la pu fino .-B.G.<lb/>Fovnsio. — La flour passido.. Bouvet,</p>
+        <p><lb/>Lou despartamen de VArgenM. Bourrelly.<lb/>Calignage. - M. V. Bernard.<lb/>eeainoderq</p>
+        <p><lb/>Caounico. poa coumita de Souscricien per<lb/>Ferrat.eisobro felibrenco àla bibliou¬<lb/>heco de Lieni ovabod ońann</p>
+        <ab><lb/>TARCO LITERARI. — Lou councours dóu Bruses<lb/><lb/><lb/>NECROULOUGIO. — Mmo Sardou.<lb/><lb/>FUEIBTOUN. — L'anèu dóu rèi. F. d'E.<lb/></ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>PASSO-TEMS</head>
+        <head><lb/>L'EIGARDEN DE LA PU FINO </head>
+        <p><lb/>Leis emplega de la regio an la sentido. Li a<lb/>quauque tèms, boutèron lou nas subre uno dis¬<lb/>tilarié ounte s'eigavo, à l'escoundudo, d'eigarden<lb/>de controbando. La maniganço se traisié dins la<lb/>sourniero. Au founs dei clastro souto terro d’un<lb/>ancian mounastie d’Ais, souloumbrous coumo<lb/>aquèu de l'Opera de Robert-lou-Diable, un gros<lb/>alambi encambavo un fournèu beluguejant de<lb/>braso e de flamo pourpalo. De la cucurbito, casco<lb/>de couire que couifavo l'alambi e dou serpentin,<lb/>gouergo en biais de serp qu'escoulavo l’eigarden<lb/>en vapour dins un tineu d'aigo, per la refrescoula,<lb/>s'escapavo uno oudourasso que prenié la narro.<lb/>Jamai la raco dei vendumi avié agu talo alenado.<lb/>Lei ratata se tapavon lou mourre e fasien de si-<lb/>gne de tèsto e de man qu voulien dire: aquelo<lb/>tubo! Mai que tubo? Aqui sa sentido li mancavo.<lb/>Avien beu respira, renifla, aussa lou nas e prèn-<lb/>dre pèd coumo de charuigo que cercan lei trafe.<lb/>Restavon em'un pan de nas, e noun poudien re-<fw type="digitisation-artefact"><lb/>e gallica.bnf.fr/ Bibliothèques de M.<lb/></fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

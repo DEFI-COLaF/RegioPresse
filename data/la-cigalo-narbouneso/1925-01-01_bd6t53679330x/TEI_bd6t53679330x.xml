@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Cigalo narbouneso</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t53679330x</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Cigalo narbouneso : revisto artistico, literario e risoulieiro : engimbado pes Felibres dal Narbounes : canto cado mes</title>
+          <publisher>J. Lombard (Narbouno)</publisher>
+          <date when="1925-01-01">1925</date>
+          <idno type="ARK">bd6t53679330x</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t53679330x</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <dateline><lb/>JANVIE 1925</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>C.I.D.O.<lb/>BEIEI<lb/>ARBOUNESO</ab>
+        <ab><lb/>IX ANNADO</ab>
+        <figure/>
+        <ab><lb/>arbouno — Estampariè dal Lengadoc, A. BRIEU, 4, Carrieiro Auber, 4</ab>
+        <fw type="numbering">No 84</fw>
+        <ab><milestone unit="column" n="2"/><lb/>Revisto Artistico, kiterario e Risoulieiro<lb/>Engimbado pes Felibres dal Narbounes<lb/>CANTO CADO MES</ab>
+        <list>
+          <item>Lou Nept de Jampin. </item>
+          <item>P. Albarel.</item>
+          <item>Louis Bousquet.</item>
+        </list>
+        <pb facs="0011.xml"/>
+        <milestone unit="page" n="9"/>
+        <p rend="heading"><lb/>PASTOURALO</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>LOU PAsTOuRÈL</p>
+        <lg>
+          <l><lb/>Vèni, ma poulido,</l>
+          <l><lb/>Siogues pas marrido,</l>
+          <l><lb/>Moun amo te crido.</l>
+          <l><lb/>Anem fadeja.</l>
+          <l><lb/>Aval dins la prado,</l>
+          <l><lb/>O moun adourado,</l>
+          <l><lb/>Sus moun cor sarrado,</l>
+          <l><lb/>Vèni passeja.</l>
+          <l><lb/>Apèi sus la rivo,</l>
+          <l><lb/>Proche l'aigo vivo,</l>
+          <l><lb/>Bèlo sans parivo,</l>
+          <l><lb/>Coulirem la flour</l>
+          <l><lb/>Mentre que dins l’aire</l>
+          <l><lb/>L’aucèl espingaire</l>
+          <l><lb/>Jitara ' tout caire</l>
+          <l><lb/>Sa cansou d'amour.</l>
+        </lg>
+        <p rend="heading"><lb/>LA PASTOURÈLO</p>
+        <lg>
+          <l><lb/>Quand tindo a l’aurelho</l>
+          <l><lb/>Ta vouès qu'ensourcelho,</l>
+          <l><lb/>L'amo s’asoulelho</l>
+          <l><lb/>E lou cor frusits;</l>
+          <l><lb/>Quand de lèng t’ausissi</l>
+          <l><lb/>Cop-sec trefousissi,</l>
+          <l><lb/>Dins l’oustal languissi,</l>
+          <l><lb/>Tout m’entristesits.</l>
+          <l><lb/>Vès tu ma pensado</l>
+          <l><lb/>S'envolo, pressado,</l>
+          <l><lb/>Toujour airissado,</l>
+          <l><lb/>Moun bèl amourous.</l>
+          <l><lb/>Vèni joust l'oumbreto</l>
+          <l><lb/>Me counta floureto</l>
+          <l><lb/>E sus ma bouqueto</l>
+          <l><lb/>Prene de poutous.</l>
+        </lg>
+        <pb facs="0012.xml"/>
+        <milestone unit="page" n="10"/>
+      </div>
+      <div type="article">
+        <head><lb/>LOU PASTOURÈL</head>
+        <lg>
+          <l><lb/>Ta douço figuro</l>
+          <l><lb/>Es l’estèlo puro</l>
+          <l><lb/>Dount la neit escuro</l>
+          <l><lb/>Oundro soun mantèl.</l>
+          <l><lb/>Sios la bèlo fado</l>
+          <l><lb/>Qu’a travès la prado</l>
+          <l><lb/>Passo, esturlufado,</l>
+          <l><lb/>Vestido de cèl.</l>
+          <l><lb/>La flour mirgalhejo.</l>
+          <l><lb/>Lou rèc cascadejo,</l>
+          <l><lb/>L’aucelou foulhejo,</l>
+          <l><lb/>Volo a toun coustat;</l>
+          <l><lb/>Vès tu, risoulièiro,</l>
+          <l><lb/>Mounto uno preguièiro</l>
+          <l><lb/>E la prado entièiro</l>
+          <l><lb/>Canto ta bèutat.</l>
+        </lg>
+        <ab type="head"><lb/>LA PASTOURÈLO</ab>
+        <lg>
+          <l><lb/>Coumo la cascado</l>
+          <l><lb/>D’escumo floucado,</l>
+          <l><lb/>Courrits enblancado</l>
+          <l><lb/>Vès lou rèc mairal;</l>
+          <l><lb/>Coumo la lauseto</l>
+          <l><lb/>Desplègo l'aleto</l>
+          <l><lb/>Per faire riseto</l>
+          <l><lb/>Al foc dal miral;</l>
+          <l><lb/>leu, quand ta vouès canto,</l>
+          <l><lb/>Douço e tremoulanto,</l>
+          <l><lb/>M’en vau, pantaissanto,</l>
+          <l><lb/>Pleno d’amour fol.</l>
+          <l><lb/>E sioi touto urouso,</l>
+          <l><lb/>Quand toun bras se crouso</l>
+          <l><lb/>E, manhac, se nouso</l>
+          <l><lb/>Al tour de moun col.</l>
+        </lg>
+        <ab type="head"><lb/>LOU PASTOURÈL</ab>
+        <lg>
+          <l><lb/>Vèni, ma poulido,</l>
+          <l><lb/>Siogues pas marrido.</l>
+          <l><lb/>Moun amo te crido.</l>
+          <l><lb/>Anem fadeja.</l>
+        </lg>
+        <pb facs="0013.xml"/>
+      </div>
+      <div type="article">
+        <head><lb/>LA PASTOuRÈLO</head>
+        <lg>
+          <l><lb/>Sioi toun adourado;</l>
+          <l><lb/>Aval dins la prado,</l>
+          <l><lb/>Sus toun cor sarrado,</l>
+          <l><lb/>Anem passeja.</l>
+        </lg>
+        <ab type="head"><lb/>LOU PASTOURÈL</ab>
+        <lg>
+          <l><lb/>Apèi sus la rivo,</l>
+          <l><lb/>Proche l’aigo vivo,</l>
+          <l><lb/>Bèlo sans parivo,</l>
+          <l><lb/>Coulirem la flour.</l>
+        </lg>
+        <ab type="head"><lb/>LA PASTOURÉLO</ab>
+        <lg>
+          <l><lb/>Mentre que dins l’aire</l>
+          <l><lb/>L’ancèl espingaire</l>
+          <l><lb/>Jitara 'tout caire</l>
+          <l><lb/>Sa cansou d'amour.</l>
+        </lg>
+        <ab><lb/>P. ALBAREL.</ab>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <ab type="head"><lb/>Dos lengos de pelharot</ab>
+        <p><lb/>Sept ouros dal mati, punto d’albo. Sul pas de la porto, l’engra-<lb/>nièiro a la ma, la Catinou e la Mioun, picanièiros e moussegairos<lb/>de prumièiro, toujour prèstos a penja lou chimboul al col de<lb/>quauquo michanto nouvèlo, toujour a l’espèro d’un esclandre,<lb/>caquetoun.</p>
+        <p><lb/>— Sabes pas ?</p>
+        <p rend="labelled"><lb/>— Nou.</p>
+        <list>
+          <item>— Frances e Catèt soun tournadis d’Africo.</item>
+        </list>
+        <p rend="labelled"><lb/>-Ah!</p>
+        <list>
+          <item>— Disoun que Catèt a pourtat uno bèlo descento de leit en pèl de lioun.</item>
+        </list>
+        <list>
+          <item>— Ah !e Frances?</item>
+        </list>
+        <list>
+          <item>— Frances, uno descento de gousiè en pèl de mounino.</item>
+        </list>
+        <ab><milestone unit="column" n="2"/><lb/>Emile TAUDOU.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

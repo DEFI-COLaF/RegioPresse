@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Souc de Nadau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7367158h</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Souc de Nadau : numero especial de la Campana de Magalouna...</title>
+          <publisher>[s.n.] (Mount-Pélié)</publisher>
+          <date when="1902-12-25">1902</date>
+          <idno type="ARK">bpt6k7367158h</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7367158h</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="article">
+        <div>
+          <pb facs="0001.xml"/>
+          <figure/>
+          <p rend="heading"><lb/>Numero Especial<lb/>DE LA<lb/>Campana de Magalouna<lb/>Burèu: 10, Carrièira d'Alger, à Mount-Peliè</p>
+          <p rend="heading"><lb/>ENSEGNADOU</p>
+          <p rend="heading"><lb/>TESTE:</p>
+          <p><lb/>Souveni d'un] paire Nouvè à barba blanca. A. FlE.—<lb/>Lou Tour de Facioun, conte de Nadau, F. BRorE (Bau<lb/>DE LAS AnCADAS). — Pouricinella, DRIS-DAIN. — Toujour ProuS.<lb/>pèr, PEsCA-AnCELLS (Tirat de l'Armanac Cetòri de 1903). — As<lb/>nouvéls maridads (Jousefino Bastide e Francés Brousse), V. Bir.-<lb/>LoU. — Sounet dich à la noço de Mlla Margarido Auzière, filho don<lb/>felibre Cloment Auzière emé M. Auguste Gros. A. GLAZE. — Per<lb/>lou mariage de Na Margarido Auzière emb' Auguste<lb/>Gros. A. ANNAVIELLE.— La mort dau felibre majourau En<lb/>Leoun de Berluc-Perussis, F.VIDAL.— La Bernissola, P JuL-<lb/>LAN. — L'Assemblada dau Counsel Municipal de Balhar-<lb/>guet. BALIN-BALAN. — Cops de campana e Carilhouns, LoU<lb/>CAMPANE DE ERVICE. — Pichota bibliougrafia. — Una bona<lb/>counducha. L'EsOCINLAE DE SANT-CISTÒC. — Grand-Teatre<lb/>de Mount-Pelié etc.</p>
+          <ab><lb/>ד<lb/>Bes oas</ab>
+          <ab><lb/>purce allican./Monpelier Médteée érpole Médèque cenre mle la</ab>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

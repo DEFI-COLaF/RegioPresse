@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81363136</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1931-03-21">1931</date>
+          <idno type="ARK">bpt6k81363136</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81363136</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <head><lb/>QUE VAI CREMANT UNO FES PER MES (RL 21)</head>
+        <figure>
+          <head><lb/>Foundadou: Frederi MISTRAL. - Baile de la premiero pountannado: FOLCO DE BARONCELLI</head>
+        </figure>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p><lb/>D'auvari arriba à l'empremarié Seguin.<lb/>qu'avié vougu prene à sa cargo de faire<lb/>reviéure l'Aolila meton dins l'impoussibi-<lb/>leta de n'en assegura la redacioun e de<lb/>n'en countunia la publicacioun à si frès.<lb/>Mai, aguènt larga lou rampèu à nostis<lb/>ami, nous counsideran coume mouralamen<lb/>engaja vis-à-vis d'éli e prenèn, à parti d'aro,<lb/>aquéu double fais sus nòstis espalo. Son¬<lb/>lamen, tant au poun de visto dóu travai<lb/>de la redacioun qu'à-n-aquéu di sou, sinn<lb/>oubliga de noas redima, e, dóu mens pèr<lb/>fini aquest an, «l'Aiòli» pareira qu'un<lb/>cop pèr mes, lou 21, qu'aco's l'adicioun di<lb/>tres 7 d'autre-tèms. Pareira regulieramen,<lb/>à dato preciso, à parti dóu 21 d'abriéu,<lb/>indulgenei e judo mai que amai ami</p>
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>Manda désenant Il manuscri e ll rensi-<lb/>gnamen de morvelun e de boulegadisso<lb/>MrC(B-)</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>la vièio parladuro d'O, tounificado souto coumparablo majesta, d'uno grandour in-<lb/>bassamen persounalo, e seguramen despla-francés e en prouvençau, co que gastarié<lb/>criticon sèmpre, pèr principe. Or, se saup lou gibié en abounde foro de la reservo.<lb/>vibre se pausara tant que lou Rose sara la Pouesio miraclouso s'enarco coume un.<lb/>per la prouteicioun integralo dis animau douna d'èstre lou realisatour amor que<lb/>men es souluciounado, mai aquelo dóu d'amour, mounte rèn es vulgàri, e d'ount<lb/>touti li dispousicioun soun presso roncelli. Se. malurousamen, l'es pas esta darrié representant s'amagon dins de trau,<lb/>tout de long de sa vido, «sis alo de gi¬<lb/>gant l'empachon de marcha», es éu l'amo<lb/>dou proujèt e lou counscié dis ourgani-</ab>
+        <p><lb/>Es éu que reculigue di labro de F.<lb/>Mistral l'eiretage esperitau d'aquéu grand<lb/>raive dóu classamen de la Camargo; un<lb/>jour, lou Mèstre ié diguè: «Folco, cou¬<lb/>nèisse pas proun la Camargo pèr en-<lb/>treprene léu-meme aquelo obro, mai me<lb/>vivênt de moun «Museon Arlaten».</p>
+        <p><lb/>Fidelamen, em'uno passioun fervourou-<lb/>so, Baroncelli s'es estaca à recoustitui e<lb/>sauva hi raço antico e primitivo de chivau<lb/>blanc e di tau dóu negre pelage, à bano<lb/>en micjo luno, A remés en ounour la tra-<lb/>dicioun mourento dis abrivado e ranima<lb/>lon fiò sant que, l'a belèu dès milo an,<lb/>briho sus lis autar Soulari e sus li Tau-</p>
+        <p><lb/>Ia mistico bouvino camarguenco lé deu<lb/>uno flourido novo e senso eisèmple, dins<lb/>Pistòri literàri universalo, de pouèto re¬ póussons dóu Menistèri.<lb/>quist, un pau ferouge, que fan ounour</p>
+        <p><lb/>A-n'aquéu noum ama dóu Marqués, as<lb/>soucien li noum d’un Jóusè d’Arbaud,<lb/>d'un Marcèn Provence, de Mistral nebout,<lb/>Jan Grand (davans Diéu siegue), Jan Bé-<lb/>rard, Charloun dóu Paradou, que pantaie<lb/>dón «mestié de glòri», e tant d'autre<lb/>que desempiei, an apoundu sa clapo</p>
+        <p><lb/>Adoui, la reservo cisisto. Se nous es<lb/>permés de demanda quauquis entresigne<lb/>de larga quauqui vot, dounan, pèr ce<lb/>que vau, de marca, de plaço en plaço, Il<lb/>raro di terren counceda, emé de poutèu<lb/>que pourrien pourta uno iscripcioun en</p>
+        <p><lb/>Li cessaire que, dóumaci l'establimen<lb/>d'uno estendudo de prouteicioun, auran<lb/>saran aquest cop nòstis alia, e nous aju¬<lb/>daran, quouro faudra, à óuteni l'agrandis-</p>
+        <p><lb/>Sabèn proun que li prouprietùri soun<lb/>pas li meme pertout; mai, ço qu'uno<lb/>Cormpagnié pouderouso a fa, d'autri, que<lb/>poussedisson de vàstis estendudo, podon<lb/>tambèn lou faire, un jour o l'autre, Sou-<lb/>Gramacien dounc la Soucieta Naciounalo cieta founciero vo particulié. Co que fau<lb/>sauva estritamen, es pas soulamen un<lb/>cantoun de la Camargo, mai, à noste ve-<lb/>à l'autre, em'uno pouncho en Lengadò.</p>
+        <p><lb/>Se saup que lou vibre viéu dins li sau¬</p>
+        <p><lb/>Dounan eici dessouto un tros dou re-</p>
+        <p rend="labelled"><lb/>«Sont rigoureusement interdits la chas-<lb/>se, par n'importe quel moyen, la capture<lb/>de tout animal, même mort, la récolte<lb/>des ceufs, même abandonnés, des nids,<lb/>même anciens, toute coupe de bois, mé-<lb/>me portant sur du bois mort, tout pâtu-<lb/>rage, toute coupe d'herbages, toute mi-<lb/>taux: fleurs, graines et enfin toute in-<lb/>« troduction d'animaux ainsi que tout se¬</p>
+        <p rend="labelled"><lb/> seues, la pées lap ntorisé, ain que</p>
+        <p><lb/>Ansin, l'a ges de doute.. S'agis pas<lb/>d'aclimata en Camargo de raço estranjo,<lb/>nimai de faire obro artificialo de crea-<lb/>cioun d'un pargue zonoulougi, la toco<lb/>perseguido es de counserva li raço autou- ¿roubòli</p>
+        <p><lb/>Aquéu proujêt intro en plen dins lou<lb/>poun de visto di proumoutour miejournau</p>
+        <p><lb/>Mai, es necite de dire que la Soucieta soun aflat sanitous plen de pureta.<lb/>Naciounalo d'Aclimatacioun s'èro messo<lb/>en raport emé li persounalita miejournalo<lb/>qu'avien fa d'aquelo idèio lou pantai de<lb/>a vido. Devèn la benastruga de sa bello<lb/>e fegoundo iniciativo, en regretant, cucaro<lb/>un cop, que li felibre e lis afeciouna,<lb/>saun d atrijan flimens meriteo pouscu</p>
+        <p><lb/>Certo, aquelo questioun a fa desbourda<lb/>mai d'uno ahiranço e mai d'un parti-pres.<lb/>D'uni, que sa qualita d'afeciouna i biòu-<lb/>que voulèn crèire sincère — aurié degu<lb/>li buta vers la boulegadisso, an belèu re-<lb/>tarda soun espelido emé de poulemico</p>
+        <p><lb/>Touto noblo Causo sèmblo trop grando<lb/>à d'uni qu'an l'esperit forço estré. D'autri</p>
+        <p><lb/>Coume que vague, dóumaci la proupa¬<lb/>gando infatigablo dis ami de la Camargo,<lb/>lou mouvamen d'óupinioun s'es manifesta.<lb/>l.a Soncieta, dispausant de ressourço ma-<lb/>terialo e de bono voulounta, a mes<lb/>proufié aquéu courrènt d'ideio quasimen</p>
+        <p><lb/>Aco di, sarié injuste de pas pou<lb/>nostis oumage à tóutis aquéli, que dep</p>
+        <p><lb/>Proumé, la Coumpagnié A.F.C, dou</p>
+        <p><lb/>E aro, óubliden pas l'amirable aposto<lb/>que, desempièi trento-quatre an, s'est coun-<lb/>sacra tout entié à la respelido camarguen-<lb/>daras e primitiéu d'uno naturo enca vierco, voulèn parla dou Marqués F. de Ba- seto roudanenco, mai, agarri de pertout, si<lb/>e l'a bèn long-tèms que bastisson plus si</p>
+        <p><lb/>Pièi, coume lou disian adès, l'a la Pi-<lb/>choto-Camargo lengadouciano, emé Bras-<lb/>Invers, emé si pinedo sóuvajo, si radèu,<lb/>si lono, si clar, emé soun pont de batèu,<lb/>que de man proufano an bestiamen abou-<lb/>souna e vendu coume materiau de de-</p>
+        <p><lb/>Enfin, au mitan di palun, au miejour<lb/>dóu Vacarés, i'a lou Bos di Riège, aquelo<lb/>fourèst vierge, unico au mounde, que fai<lb/><lb/>crida d'amiracioun li sabent e que caup,<lb/>d'après l'ilustre naturalisto Bourdelle, de<lb/><lb/>raço d'aubre, enca vivènto, de l'epoco<lb/>quaternàri, que se n'en vèi ges autro</p>
+        <p><lb/>ien pas l'obro memo de Diéu respe</p>
+        <p><lb/>Res ignoro la menaço que peso sus li<lb/>Riège, emé lou proujet implo d'abeissamen<lb/>dóu plan d'aigo dóu Vacarés. Pensan e<lb/>souvetan qu'aquéu proujèt ridicule anara<lb/>dourmi emé tant d'autre dins li cartoun</p>
+        <p><lb/>Li Riège, rode esmouvènt, e d'uno in¬<lb/>councevablo, dèvon estre sauva à tout</p>
+        <p><lb/>Au poun de visto puramen zououlougi,<lb/>cresèn que sarlé interessant, pèr acaba<lb/>l'obro entamenado, d'adurre dins la re-</p>
+        <p><lb/>Coume que vague. la reservo es reali-<lb/>sado. Nous baio l'asseguranço que' la Ca-<lb/>margo, tant agradivo emé sa desoulacioun<lb/>noustalgico, tant bello dins l'apouteòsi de<lb/>si mirage estiven, tant richo de Poueslo,<lb/>de passat, de tradicioun e de legèndo,<lb/>restara long-tèms encaro envirounado de<lb/>la glòri de soun mistèri e de sa viergineta.</p>
+        <p><lb/>Es utile d'arresta quauqui-fes lou Prou¬<lb/>grès, qu'es mouralamen uno reculado, pèr<lb/>prouva que li sòu e l'interès soun pas</p>
+        <p><lb/>l'a proun de vigno, de caulet-flòri, e<lb/>de tartifle pèr poudé se permetre lou lùssi<lb/>de quanqui milié d'eitaro d'estendudo sou-</p>
+        <p><lb/>Per nautre, gardian e felibre, ome de<lb/>Fe, es uno counsoulacioun de saupre que<lb/><lb/>soubro, proche nautre, un cantoun de ter-<lb/>ro vierge mounte rèn es pas empouisouna.</p>
+        <p><lb/>Aqui, saren miés au nostre, car la voues<lb/>di Soulitudo, la que clamo la Liberta,<lb/>nous bressara encaro de soun armounio<lb/><lb/>feroujo, de soun infinido malancounié.</p>
+        <p><lb/>Que fi Santo de Diéu vihon jalousamen,<lb/>de l'aut amiradou de sa capello, sus aque¬<lb/>La questioun de la preservacioun di fla¬ lo Camargo terro de countraste, terro</p>
+      </div>
+      <div type="article">
+        <head><lb/>La "Reservo" de la Soucieta</head>
+        <p rend="labelled"><lb/>es vengudo de Paris: la Soucieta Naçiou¬<lb/>nalo d'Aclimatacioun de Franço vèn de<lb/>coustitui en «Reservo integralo li terren</p>
+        <p><lb/>Aquelo inaguracioun aura pas fa grand<lb/>brut ; forço gent l'an aculido em'uno in-<lb/>diferènci proun desdegnouso, mai li mie-<lb/>journau de la bono auran pica di man<lb/>Li cor amaire van tresana, en Lengadò<lb/>coume en Prouvènço, car parla de nosto<lb/>Camargo dins nòstis encountrado bouvino,<lb/>es touca la cordo sensiblo e reviha li sen-<lb/>timen li mai entime de l'amo mieterrano,<lb/>touto de gràci e de mesuro dins soun<lb/>mistèri e que, tras li milenàri, countunio che o de liuen, an buta à la rodo.</p>
+        <p><lb/>Subre aquelo terro unico, meravihouso,<lb/>liò de passage dis espèci li pu raro de<lb/>bèsti, e veritable pargue zououlougi, soun<lb/>desenant classa li paisage, mounumen gran-<fw type="digitisation-artefact"><lb/>burce gallica.bnf.fr / Bibliothèques de Ma</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

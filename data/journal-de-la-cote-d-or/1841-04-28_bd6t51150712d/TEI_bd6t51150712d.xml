@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t51150712d</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1841-04-28">1841</date>
+          <idno type="ARK">bd6t51150712d</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t51150712d</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/>13 FRANCS PAR AN, 9 francs pour 6 mois, 5 francs pour 3 mois.</ab>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>JOURNAL</p>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="4"/><lb/>FEUILLE POLITIQUE, LITTÉRAIRE, COMMERCIE ET INDUSTRIELLE.</p>
+        <p rend="styled"><milestone unit="column" n="5"/><lb/>paraissant les Mercredis, Vendredis et Dimanches</p>
+        <p rend="styled"><lb/>On s'abonne à Dijon, au Bureau, rue Verrerie, 2 bis, près la place aux Fruits, où l'on reçoit toutes les communications qui peuvent intéresser<lb/>le chef-lieu ou les communes du département. – Les lettres doivent être affranchies et signées pour la garantie du rédacteur responsable.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>De la dissolution de la Chambre élective.</head>
+        <p><lb/>L'esprit de malveillance et d'incivisme qui inspire<lb/>toutes les pensées, toutes les intrigues de l'Opposition<lb/>se decèle éminemment dans les bruits de dissolution<lb/>qu’elle fait circuler avec une si imperturbable assu¬<lb/>rance, qu’on pourrait croire qu’elle en a reçu la con¬<lb/>fidence de quelque membre du cabinet, comme d’un<lb/>projet arrêté, si l’on n’était pas au courant de cette<lb/>tactique astucieuse et déloyale qui, pour égarer plus<lb/>facilement l’opinion, présente avec une incessante<lb/>persévérance les mesures qui entrent dans ses plans,<lb/>comme des faits résolus, dont la réalisation n’est sus-<lb/>pendue que par des motifs de prudence ou de pusilla¬<lb/>nimité se rattachant uniquement au choix de l'oc-<lb/>casion la plus favorable à l’exécution.</p>
+        <p><lb/>Les hommes faibles et peu accoutumés à réſléchir<lb/>leurs convictions ne se donnent pas la peine d’appro¬<lb/>fondir les oracles des organes de la presse auxquels<lb/>ils ont voué une foi aveugle, et cette trop commune<lb/>crédulité est exploitée par les factions avec une rare<lb/>effronterie, souvent couronnée d’un succès que le<lb/>patriotisme et la vérité n’obtiennent que bien diffi-</p>
+        <p><lb/>Dans la question que j'examine, par exemple, que<lb/>de gens regardent la dissolution de la chambre des dé¬<lb/>putés, non-seulement comme possible, ce qui ne peut<lb/>être la matière d’un doute, mais comme inévitable et,<lb/>qui plus est, comme imminente! Comment voulez-vous<lb/>qu'ils n'y croient pas? Leur journal l'affirme d’une<lb/><lb/>manière si positive, qu’il leur a conseillé de former<lb/>sans délai des comités électoraux, pour préparer sur¬<lb/>le-champ les voies à la nomination du candidat qui<lb/>leur sera désigné par les hauts et puissans seigneurs<lb/></p>
+        <p><lb/>D'après des assertions si précises, des avis si for-<lb/>mels, pourrait-il leur venir à la pensée qu’il n’y a là<lb/>qu’une manœuvre pour semer l’anxiété dans le pays,<lb/>faire tomber le mépris et la défiance sur la chambre,<lb/>forcer la main au gouvernement pour se séparer d’une<lb/>majorité fidèle, renverser le cabinet réparateur du 29<lb/>octobre, et ramener en triomphe celui du 1er mars,<lb/>au moins son chef aventureux dont la chute éclatante<lb/>a ajouté le ressentiment à l’ambition pour rendre plus<lb/></p>
+        <p><lb/>Plaignons ceux qui ne savent pas démêler ce ma¬<lb/>chiavélisme dégoûtant, ou n’ont pas la force d'y résis-<lb/>ter. Si l’on ne veut pas raisonner, on devrait au moins<lb/>comprendre que, puisque les journaux officiels ont<lb/><lb/>nié formellement qu’il fût question de dissoudre la<lb/>chambre, il n’y a aucune probabilité, à plus forte rai-<lb/>son aucune certitude que cette dissolution ait été ar¬<lb/>rêtée au conseil des ministres, et qu’ainsi les attesta-<lb/>tions des feuilles de l’Opposition à cet égard ne mé¬</p>
+        <p><lb/>times ou seulement apparentes de jeter la France<lb/>gitimes ou seulement apparentes de jeter la Fran<lb/>dans une crise électorale? Il est certain que le système<lb/>agitateur du cabinet du 1er mars est condamné par la<lb/>majorité de la chambre comme par la nation; et que<lb/>les vues pacifiques du ministère actuel ont obtenu une<lb/>faveur générale dans l'opinion. Après les témoigna-<lb/>ges d’adhésion qu’il a recueillis à la chambre dans<lb/>toutes les discussions importantes et sur toutes les<lb/>questions où sa politique était engagée et où il l’a net-<lb/>tement mise à découvert, depuis l’adresse jusqu’aux<lb/>crédits supplémentaires, quel intérêt pourrait-il avoir<lb/>à briser cet appui et à confier son existence aux ora-<lb/>ges d’une lutte électorale dont les chances sont si in¬<lb/>certaines. Cela serait trop absurde: et au fait, sans<lb/>plus d’examen, il suffit que les ennemis du gouverne¬<lb/>ment répandent cette nouvelle avec insistance, pour<lb/>qu'on soit fondé à croire qu'ils en sont les fabrica-</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>PROFESSEUR A L'ÉCOLE NORMALE DE BESANÇON (1).</p>
+        <p rend="styled"><lb/>Rétexions critiques sur <lb/>Grammaire.</p>
+        <p><lb/>y a trois mois, l'attention des institute<lb/>sur la Nouvelle Méthode d'Application de M. Coulot, méthode<lb/>dont le Journal de l'Instruction publique a rendu compte dans so<lb/>du 27 mars, de manière à garantir au public le succès auquel<lb/>urions déjà dit assez s'il ne s'agissait ici que d'une annonce de<lb/>dihrairie. Mais nous sommes de ceux qui pensent que la pressé<lb/>bonnes études doivent concourir de tout leur pouvoir à la p<lb/>populaire n’offrent que trop rarement la valeur spé-<lb/>ciale et le mérite sérieux qui distinguent les Exercices français</p>
+        <note>
+          <p rend="labelled"><lb/> francs</p>
+        </note>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>«Les pièces à produire pour cette inscriptides en.<lb/>Ce sont des personnes OBL.</ab>
+        <p><lb/>Le Recueil des Actes administratifs, n^o 11, contient<lb/>ravis suivant :</p>
+        <p rend="labelled"><lb/>destiné à l'inscription des candidats pour le concours d'<lb/>mission, en 184t, à l’Ecole Polytechnique.</p>
+        <p rend="labelled"><lb/>«1^o L'acte de naissance du candidat, revêtu des</p>
+        <p rend="labelled"><lb/>2o Un certificat de médecin, dûment légalisé et consta¬<lb/>tant que le candidat a eu la petite-vérole, ou qu’il a éte<lb/>vacciné, et qu’il n’a ni maladie contagieuse, ni infirmité ou<lb/>difformité qui le rendrait impropre aux services publics;</p>
+        <p rend="labelled"><lb/>« 3o Une déclaration écrite du lieu d'examen choisi par<lb/>le candidat, qui peut se faire inscrire, soit dans l'arrondis-<lb/>sement d'examen où le domicile de sa famille est établi, soit<lb/>dans celui où il a achevé son instruction; dans ce dernier<lb/>cas, il devra justifier qu’il y a étudié au moins une année.</p>
+        <p rend="labelled"><lb/>Les personnes qui désireront consulter le programme<lb/>des connaissances et conditions exigées, pourront s’adres-<lb/>ser à la Préfecture (bureau de l’Administration générale), ou<lb/>aux Sous-Préfectures de Beaune, Châtillon et Semur, et</p>
+        <p><lb/>«La liste sera close invariablement le 10 juin, terme de</p>
+        <quote><lb/>«Pour le Préfet de la côte-d'Or, pair de France, en session:</quote>
+        <ab><lb/>« Le Conseiller de préfecture, Secrétaire général,</ab>
+        <p><lb/>Les jeunes gens qui voudront se eur, avant le 20 ma<lb/>devront faire parvenir à M. le recleur, avant le 20 ma<lb/></p>
+        <p><lb/>2o Des certificats de bonne conduite, délivrés par les au-</p>
+        <p rend="labelled"><lb/>par les maîtres sous l<lb/>ils ont étudié, et constatant qu'ils ont constamment montr<lb/>de l'assiduité, de l'intelligance et de la docilité;</p>
+        <p><lb/>4^o Des certificats de médecins, constatant qu'ils ont été<lb/>vaccinés ou qu'ils ont eu la petite-vérole, et qu'ils n'ont au-<lb/>cune infirmité qui les empêche de se livrer à l'instruction</p>
+        <p><lb/>5o L'engagement souscrit par les parens de payer la pen-<lb/>sion ou portion de pension qui resterait à leur charge,<lb/>dans le cas où leurs enfans n'obtiendraient ni bourses ni<lb/>portions de bourses, et de fournir le trousseau prescrit.<lb/>le M. Coulot. L'Université les adoptera et les recommandera, per<lb/>e les instituteurs de tous les degrés ne tarderont pas à e<lb/>obtenir d’heureux résultats. Développons l’idée que nous en avons</p>
+        <p><lb/>siblement dans cet ouvrage. Les exposer, ce sera sig<lb/>er les réformes et les améliorations qu'appelle l'enseignement du</p>
+        <p><lb/>emière, c'est que les instituteurs en général font un abus<lb/>de règles qu’ils devraient négliger; en insistant outre mesure sur<lb/>plusieurs points dénués de l’importance qu'.<lb/>ement, et en passant sous silence une multitude de choses dont</p>
+        <p><lb/>participes présent et passé sont l'objet d'un nombre<lb/>vait ouvrir la bouche sans déceler qu’on ignore ces deux points</p>
+        <p><lb/>ne on fait tant de<lb/>pes donx on fait tant d</p>
+        <p rend="labelled"><lb/>On s’escrime, dit-il, à faire distinguer l'adjectif verbal du<lb/>participe présent, à apprendre qu'on dit avec le plu</p>
+        <p><lb/> aumons dire aux instituteurs qu'ils emploient la leu<lb/></p>
+        <p><lb/>pui jamais sera tente de mettre au singulie ces deux premiers</p>
+      </div>
+      <div type="article">
+        <p><lb/>Le concours pour l'admission à l'Ecole Normale-primaire<lb/>de Dijon aura lieu dans cette ville le mardi 15 juin pro-</p>
+        <p><lb/>Pour être admis à ce concours, chaque candidat devra<lb/>être âgé de 16 ans au moins, et avoir reçu l'instruction<lb/>primaire qui se donne, soit dans la commune où résident<lb/>ses parens, soit dans toute autre commune.</p>
+        <p><lb/>Les parens des candidats doivent être domiciliés dans le</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>AVIS. — Le public est prévenu qu'à dater du 2 mai<lb/>prochain, la correspondance apportée par les courriers<lb/>venant de Paris sera distribuée le soir à domicile.</p>
+        <p><lb/>Lorsque l’arrivée tardive de la malle-poste ne per¬<lb/>mettra pas de faire opérer cette distribution à domicile,<lb/>elle sera faite au guichet du bureau, jusqu'à 9 heures</p>
+        <p><lb/>A partir du 1^er mai, les dernières levées de la boite<lb/>auront lieu, pour Auxerre, à 5 heures 172 du soir, et<lb/><lb/>Qour Langres, à 8 heures 172 du matin.<lb/></p>
+      </div>
+      <div type="article">
+        <head><lb/>Caisse d'épargnes et de prévoyance de Dijon.</head>
+        <p><lb/>La caisse a reçu, le dimanche 25 avril, de 71 dé¬</p>
+        <p><lb/>Les remboursemens demandés se sont élevés à la</p>
+        <p rend="labelled"><lb/>34 ont été faits en compte, et 11 pour solde.</p>
+      </div>
+      <div type="article">
+        <p><lb/>M. le maréchal, président du conseil, ministre de la<lb/>guerre, a reçu de M. le lieutenant-général Bugeaud,<lb/>gouverneur-général de l'Algérie, le rapport suivant,</p>
+        <p><lb/>Je suis parti d'Alger le 30 mars, a et je suis arrivé le len<lb/>transport que j'avais fait prépare, et je suis arrivé le len</p>
+        <p rend="labelled"><lb/>Le 1^er avril, je me suis mis en route avec le convoi de<lb/>ravitaillement destiné à Médéah, me dirigeant sur Aouch-<lb/>Mouzaïa ; en même temps le général Changarnier, avec<lb/>trois bataillons, traversait la Chiffa et prenait un sentier<lb/>dans l'Atlas pour tourner le col de Mouzaïa et l'occuper.</p>
+        <p><lb/>De son côté, le général Duvivier, avec trois bataillons<lb/>partait d'Ain-Teleizid pour reconnaître une route de Médéah<lb/>que l’on supposait meilleure et plus courte que celle du Te-<lb/>niah. Cet espoir fut complètement décu et cette colonne ne<lb/>rencontra qu’un chemin détestable et une chaîne de<lb/>montagnes fort difficile à franchir, bien que le général Du-<lb/>stantif? Il est vrai que les phrases suivantes présentent des diffi-<lb/>egard, ils mettraient plutôt le participe au pluriel qu’au sit<lb/>qu'un petit malheur: c’est que ces difficultés ré¬<lb/><lb/>onstruc<lb/>ordinaire aux gens d’une instruction bornée. En effet, au lieu du<lb/>tour employé dans les exemples ci-dessus, elles se servent du tour</p>
+        <p rend="labelled"><lb/>l'ai vu des hommes qui cOURAIENT dans la campagne; je les ai vus</p>
+        <p><lb/>ajouterons que les difficulés rem ds<lb/>rencontrent que très-rarement dans les anteu<lb/>ateurs ou des artisans qui n'écrivent presce sensible leur igno-<lb/>ne matière si peu susceptibie<lb/><lb/>plus</p>
+        <p><lb/>finstruction de lenfance, loin d'y per-</p>
+        <p><lb/>instruites ou lettrées; 2^o parce que, d'aprés les auteurs et l'Aca-</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <pb facs="0002.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/>(1) Tels que Voltaire, Masillon, et MM. Thiers et Guizot, etc.<lb/>vivier n’eût avec lui d’autres embarras que quinze mulets<lb/>portant des cacolets. Cette colonne eut à essuyer la fusil-<lb/>lade des Kabyles sans pouvoir les joindre, et son arrière-<lb/>garde, composée de deux compagnies du 17^e léger, enga-<lb/><lb/>gée dans un terrain couvert de broussailles, eut à soutenir<lb/>l'attaque d'un bataillon régulier d'Abd-el-Kader; mais, dans<lb/>un retour offensif, ce bataillon a été repoussé définitive-</ab>
+        <p><lb/>Cependant le général Changarnier traversa la tribu de<lb/>Mouzaïa qui n'opposa point de résistance, et il occupa le<lb/></p>
+        <p><lb/>Le 1^er avril, le col a été franchi. Quelques tirailleurs<lb/>kabyles seulement se sont montrés; la colonne a couché au<lb/>bois des Oliviers, et le lendemain elle est arrivée à Mé-</p>
+        <p><lb/>ean, me dirigeant,<lb/>le bois des Oliviers pour y passer la nuit. Dans cette mar-<lb/>che un millier de chevaux attaqua le flanc gauche de la co¬<lb/>lonne; je fis aussitôt mettre sac à terre aux trois bataillons<lb/>qui flanquaient le convoi, l’un d’eux commandé par Mgr.<lb/>le duc d’Aumale, et je les lançai au pas de course sur la<lb/>cavalerie arabe, les faisant soutenir par 400 chevaux ; l’en-<lb/>nemi laissa plusieurs cavaliers et leurs chevaux sur le ter-</p>
+        <p><lb/>monta la pente sud de l'Atlas. A peine le jour avait-il paru,<lb/>12 à 1,500 cavaliers arabes, arrivant du côté de Médéah, et le<lb/>bataillon d’El-Barkani venant de la Chiffa, attaquèrent mon<lb/>arrière-garde. Le général Changarnier, qui la commandait,<lb/>contint l'ennemi; mais bientôt après je vis déboucher de<lb/>l'ouest les deux bataillons des kalifas de Miliana et de Se-<lb/>baou, marchant au pied de la montagne, flanqués de nom-<lb/>breux Kabyles, et se dirigeant sur le flanc droit du géné¬<lb/>ral Changarnier. Deux bataillons, que j'avais échelonnés<lb/><lb/>prés de la Mine-de-Cuivre, suffirent pour imposer à ces</p>
+        <p><lb/>combinai un mouvement plus large, exécuté par un batail-<lb/>lon du 23e et un du 53e qui devaient, en descendant des<lb/>hauteurs presque au niveau du col, tourner tout le système<lb/>des ravins inférieurs, et se précipitant sur l’ennemi, le<lb/>prendre à revers. Cette attaque se fit à la course; mais<lb/><lb/>les réguliers lâchèrent pied et se dispersèrent dans les ra-<lb/>vins; toutefois bon nombre furent tués et onze faits prison-<lb/>niers. Les gendarmes maures, aux ordres du capitaine</p>
+        <p><lb/>Cependant la cavalerie arabe, qui se trouvait devant le<lb/><lb/>général Changarnier, voyant les bataillons réguliers s<lb/>compromis, se porta à leur secours. Ce général reprenait<lb/>en même temps l'offensive sur les réguliers de l'Est, et leur<lb/>faisait perdre du monde; c'est en ce moment que cet offi-<lb/>cier général fut atteint d'un coup de feu à l'épaule. On crut<lb/>d'abord sa blessure mortelle; mais la balle fut extraite, et</p>
+        <p><lb/>che, j'ordonnai au général Changarnier de se retirer, et au<lb/>général Duvivier, qui était sur les hauteurs de gauche, de<lb/>venir couvrir la retraite. Il s’en acquitta avec fermeté, et</p>
+        <p><lb/>La colonne atteignit le coloù se trouvait le convoi, sous<lb/>la garde d'un bataillon du 53^e; elle descendit ensuite à</p>
+        <p><lb/>Le lendemain, le second convoi venant de cette ville</p>
+        <p><lb/>Le 7, la colonne expéditionnaire partit de Médéah et vint<lb/>camper au bois des Oliviers, où elle fut suivie par 2,000<lb/>cavaliers; mais les grands-gardes les tinrent à distance<lb/>et à l'entrée de la nuit ils se dirigèrent sur la vallée du<lb/>Bouroumi, Toutes les dispositions furent faites pour la<lb/>marche du lendemain et pour combattre avec chance de<lb/>succès. Avant onze heures du soir le convoi était en mar-<lb/>che pour le col, sous la protection de trois bataillons com¬<lb/>mandés par le général Changarnier; il fut remis au co-<lb/>lonel Bedeau qui le conduisit à Aouch-Mouzaĩa, et le gé¬<lb/><lb/>néral Changarnier revint prendre position au sommet des<lb/>trois arètes qui dominent le bois des Oliviers ; son batail¬<lb/>lon de droite devait arriver dans la vallée assez près du<lb/>Bouroumi pour être assuré que nous ne laisserions pas der-</p>
+        <p><lb/>A la pointe du jour, je vis que le bataillon des zouaves<lb/>commandé par le lieutenant-colonel Cavaignac avait déjà<lb/>débordé les deux bataillons de réguliers sur leur gauche,<lb/>et qu’ils avaient été gagnés de vitesse par les deux autres<lb/>bataillons dirigés par le général Changarnier. Je m'ébran¬<lb/>lais moi-même avec la cavalerie, la colonne du centre et la<lb/>colonne de gauche commandée par le général Duvivier,<lb/>démie, on peut les violer sans faute; 3^o parce qu'on les observe</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>Ouvrez-les seulement à la syntaxe du substantif et de l'adjectif.</p>
+        <p><lb/>surabondance dus substantis <lb/>errez le genre des substantifs <lb/>an</p>
+        <p><lb/>déplorable, inestimable, inconso-<lb/>lorsqu'un ouragan accompagné de torrens de pluie rendit<lb/>immédiatement le terrain impraticable. Je dus, au grand<lb/>regret de toutes les troupes, renoncer à une attaque qui<lb/>les remplissait d’espérance. Nous regagnâmes le chemin<lb/>du col sans être suivis par les Arabes, et nous arrivâmes le<lb/>soir à Bélida. Je fis rentrer les troupes dans leurs camps et</p>
+        <figure type="decoration"/>
+        <p><lb/>Dans cette courte expédition nous avons pris sur l'enne-<lb/>mi une supériorité morale qui durera, j'en suis convaincu,</p>
+        <p rend="labelled"><lb/>«Le duc d'Aumale s'est, dit-on, fort bien comporté dans<lb/>le combat du col; il était à la tête du bataillon du 24^e qui<lb/>chargea au pas de course l'ennemi qui se montrait disposé<lb/><lb/>à résister avec opiniâtreté; les soldats sont fort contens du<lb/>prince et en parlent avec enthousiasme. Certainement nous<lb/>ne nous formons pas une fausse idée de l'instruction réelle<lb/>du duc d’Aumale, si jeune lieutenant-colonel ; aussi nous<lb/>abstenons-nous de vanter, pour le moment, des talens mi¬<lb/>litaires qu'il n'acquerra qu'avec le temps et l'expérience;<lb/><lb/>cependant nous aimons à admirer un courage si précoce,<lb/>et nous croyons fermement que la présence des deux prin¬<lb/>ces, loin d'être un embarras, sera pour l'armée un encou-<lb/>re et surt les faies de la celae prochai-</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Le second projet de loi à l'ordre du jour tend à ouviir a<lb/>ministre de la guerre un crédit supplémentaire de 50a <lb/>pourra être admis à contracter un engagement volontaire de<lb/>deux ans. Ces engagemens ne donneront pas lieu aux exemp¬<lb/>tions prononcées par le no 6 de l'art. 13 de la présente loi.</ab>
+        <p><lb/>M. le président: Tous les articles étant votés, il va être</p>
+        <figure type="table"/>
+        <figure type="table"/>
+        <p><lb/>des colonies un supplément de crédit de 5 millions 524,500 f.<lb/>sur l'exercice de 1841, et opère sur l'exercice 1840 l'an-</p>
+        <p><lb/>Le nombre rigoureusement nécessaire de votans, 230,<lb/>prend part au scrutin. Le projet est adopté par 217 con-</p>
+        <p><lb/>bureau le rapport sur le budget des dépenses de l'exercice</p>
+        <p rend="labelled"><lb/>et l'ouverture de la discussion ultérieurement fixée. Les<lb/>inscriptions pour et contre seront reçues demain à huit</p>
+        <p><lb/>500,000 fr. pour compléter la remonte de la cavalerie.</p>
+        <p><lb/>Le projet est adopté d'abord par assis et levé, puis au</p>
+        <p><lb/>enerement de l'nôtel du quai d'os</p>
+        <p><lb/>Dans cette somme est comprise celle de 9,000 fr. pour le<lb/><lb/>logement du secrétaire général du conseil d'Etat. Cette dé-</p>
+        <p rend="labelled"><lb/>M. le président: Je mets maintenant aux voix le chiffre</p>
+        <p><lb/>La chambre entend les rapports sur les pétitions. Une<lb/>seule présentait quelque intérêt; on lit dans le rapport</p>
+        <p><lb/>Po-</p>
+        <p><lb/>1o Les unes attaquent la forme même du traité et pro¬</p>
+        <p><lb/>avec un pouvoir illégal, que le général Rosas n’était plus<lb/>gouverneur de la province de Buénos-Ayres, ni chargé des<lb/>des relations extérieures de la Confédération Argentine.</p>
+        <p><lb/>Après avoir démontré la validité du traité, et réfuté les<lb/>griefs des pétitionnaires, M. le rapporteur ajoute : Par<lb/>toutes les considérations que j'ai eu l’honneur de vous ex¬<lb/><lb/>poser, et attendu que les pétitionnaires, au lieu de pro¬<lb/>duire des griefs personnels dont la chambre puisse s’occu-<lb/>per, n'ont rédigé qu'un maniteste contre le traité du 29<lb/>octobre, qui a déjà été approuvé dans cette enceinte, la<lb/>commission m’a chargé de vous proposer l'ordre du jour<lb/>sur la pétition présentée par les Français de Montevideo.</p>
+        <p rend="labelled"><lb/>M. le président: La chambre va maintenant reprendre<lb/>le scrutin annulé hier sur le projet de loi portant allocation<lb/>d’un crédit supplémentaire de 241,000 fr. pour le bâti¬</p>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>On continue la délibération sur le projet de loi concer-</p>
+        <p rend="labelled"><lb/>lés ou ceux qui ont été admis à les remplacer, seront im-<lb/>médiatement répartis entre les corps de l'armée. » Adopté.</p>
+        <p rend="labelled"><lb/>pelés sera de huit ans, qui compteront du 1^er juillet de<lb/>l'année dans laquelle ils auront été inscrits sur les contrô-</p>
+        <p rend="labelled"><lb/>soldats qui auront achevé leur temps de service recevront</p>
+        <p rend="labelled"><lb/>après l'arrivée au corps du contingent destiné à les rem-</p>
+        <p rend="labelled"><lb/>ils seront délivrés, selon les nécessités du service, dans<lb/>chaque corps ou fraction de corps et dans chaque grade à</p>
+        <p rend="labelled"><lb/>quisernt<lb/>es qui seront</p>
+        <p><lb/>On reprend la délibération sur le projet de loi concer-</p>
+        <p><lb/>terminée, une interpellation importante a été faite. M. de<lb/>Panat a demandé à la commission si la classe de 1841 se-<lb/>rait soumise aux dispositions de la loi de 1832 qui est en-<lb/>core en vigueur, ou bien si elle serait soumise aux disposi-<lb/>tions de la loi nouvelle qui n'est pas encore promulguée.</p>
+        <p><lb/>La commission, par l'organe de M. Vivien, est venue</p>
+        <p><lb/>La commission du contingent porteur de cette commis</p>
+        <p><lb/>ce n’est pas du tout qu’elle n’y ait pas pensé; elle y a ap¬<lb/>porté, au contraire, tout l'intérèt que mérite une telle<lb/>question; mais, après en avoir longuement délibéré, elle a<lb/>décidé qu’on ne pouvait pas insérer, dans le projet de loi<lb/>relatif à la levée de 1841, une disposition subordonnée à<lb/>la promulgation d’une loi générale qui n’existe pas encore.</p>
+        <p><lb/>M. le général Schneider, rapporteur : La commission à<lb/>laquelle la chambre a renvoyé hier un amendement de M.<lb/>Maurat-Ballange, tendant à favoriser les engagemens de<lb/>militaires libérés, y a donné son adhésion. Elle a pensé<lb/>qu’on ne saurait trop encourager, surtout en cas de guerre,</p>
+        <p rend="labelled"><lb/>aucun contingent, et qui a satisfait à la loi du recrutement,</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>espèce d’utilité pratique. On a beau s’étonner, cela est exact. De<lb/>comme s’ils devaient être mis en pratique tous les jours dans la</p>
+      </div>
+      <div type="article">
+        <p><lb/>L'ordre du jour est la délibération sur les articles du<lb/>projet de loi relatif à l'expropriation forcée pour cause d'u¬</p>
+        <p><lb/>Tous les amendemens de la commission ayant été re-<lb/>langue écrite, et comme s'ils pouvaient être de quelque utilité dans<lb/><lb/></p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Disons-le hardiment, ce ne sont pas là les connaissances usuelles<lb/>'autorité des grammaires ou de l'usage devait prévaloir sur celle</p>
+        <p><lb/>nde. Pourquoi? pa<lb/>es règles<lb/>lant, soit en écrivant, de commettre autant de fautes de fran-<lb/>jetés, la loi entière se trouve votée telle qu'elle est sortie</p>
+        <figure type="decoration"/>
+        <pb facs="0003.xml"/>
+        <p><lb/>chevêque de Rouen, M. de Bonald, archevêque de Lyon, et<lb/>M. de Latour-d'Auvergne Lauraguais, évêque d’Arras, as¬</p>
+        <p rend="labelled"><lb/>cédait chez M. Lehon, et que l'on croyait à-peu-près terminé,<lb/>se poursuit aujourd’hui avec une activité nouvelle, par<lb/>suite de la découverte faite dans un placard du cabinet de<lb/>cet ex-notaire de quinze cartons qui renfermaient des pa-<lb/></p>
+        <p rend="labelled"><lb/>mière chambre du tribunal, pour M. Lehon, opposant au<lb/>jugement par défaut du 16 de ce mois qui prononce sa</p>
+        <p><lb/>rait livré habituellement à des opérations de banque e<lb/>d’industrie étrangères à sa profession. M. Fagniez a de-<lb/>Mmandé la suppression de ce motif du jugement, déclarant<lb/>d'ailleurs s'en rapporter à la prudence du tribunal quant à</p>
+        <p><lb/>de M. Faigniez, déclare qu’il est prêt à se joindre à la pen-<lb/>sée qui les a déterminées, si cette pensée est qu'il n'est pas<lb/><lb/>nécessaire qu’un notaire se livre à des opérations de ban¬<lb/>que et d'industrie pour encourir la destitution, mais qu’il<lb/>suffit pour cela d'infractions aux devoirs de la profession.</p>
+        <p rend="labelled"><lb/>pitale a été prononcée par la cour d'assises de Seine-et-<lb/>Marne contre le nommé Blondeau, âgé de vingt-neuf ans,<lb/>déclaré coupable d’assassinat. Blondeau s’était pourvu e<lb/>grace; mais les circonstances du crime et les antécédens<lb/>du condamné, forçat libéré, antérieurement condamné<lb/>avec circonstances atténuantes, pour assassinat, n’avaient<lb/>pas permis l'intervention de la clémence royale. L'ordre<lb/>d'exécution avait donc été transmis au parquet de Melun,</p>
+        <p><lb/>lun; il apprit que le lendemain une exécution capitale de¬<lb/>vait se consommer; il écrivit immédiatement au garde-des-<lb/>sceaux qu’un ancien usage rendait la vie au coupable qui<lb/>marchant au supplice, rencontrait le cortège du roi, et<lb/>qu’il ne pouvait consentir que l'échafaud se dressât si<lb/>promptement après son passage : en conséquence, le roi</p>
+        <p><lb/>ordonnance a été rendue portant commutation de la peine<lb/>de mort en celle des travaux forcé à perpétuité avec expo-</p>
+        <p rend="labelled"><lb/>dernier à trois heures du soir, par le Pont-de-Beauvoisin.<lb/>S. M., qui a passé la nuit du lundi au mardi à Bourgoin<lb/>est arrivée à Lyon dans la soirée de ce dernier jour. Elle<lb/>est descendue à l'hôtel de l’Europe, où des appartemens lui<lb/>avaient été préparés. Sa suite se compose de plusieurs do-<lb/>mestiques, d’une camériste et d’un secrétaire des comman¬<lb/>demens. S. M. doit rester encore quatre jours dans notre</p>
+        <p rend="labelled"><lb/>terre avait vingt-sept vaisseaux de ligne commission¬<lb/>nés, c’est-à-dire ayant un état-major nommé. De ces<lb/>vingt-sept vaisseaux, quinze étaient complètement ar¬<lb/>més dans la Méditerranée sous les ordres de l'amiral<lb/>Stopford, trois également armés étaient et sont en-<lb/>core dans la mer des Indes, quatre étaient dans les<lb/>ports anglais en disponibilité de rade, c’est-à-dire<lb/>ayant tout leur matériel à bord, mais avec des équi¬<lb/>pages incomplets, et enfin cinq étaient et sont encore<lb/>dans les ports de la Grande-Bretagne, où ils servent<lb/>de dépôts, d’école pour l’artillerie de marine, etc.</p>
+        <p><lb/>A la fin du mois de mars 1841 l’Angleterre avait 34</p>
+        <p><lb/>D’un autre côté, l’Angleterre qui n’avait au mois de<lb/>septembre que trois grandes frégates armées, en come</p>
+        <p><lb/>C'est-à-dire que dans le court espace de sept mois<lb/>l’amirauté anglaise a armé neuf vaisseaux de ligne et<lb/>sept grandes frégates de cinquante canons chacune.</p>
+        <p rend="labelled"><lb/>«Hier, vers minuit et demi, le caporal chef de poste à<lb/>l'arsenal de Lille, faisant visite au factionnaire placé vis-<lb/>à-vis la rue du Nouveau-Siècle, aperçut deux hommes ar¬<lb/>rêtés sur la place de l'Arsenal, à l'entrée de la rue de la<lb/>Baignerie. Il se dirigea vers eux sans bruit, afin d’épier<lb/>leurs démarches, soupçonnant que ce pouvait être des mal¬<lb/>faiteurs. Arrivé près de ces deux hommes, il en vit trois<lb/>autres sortir de l'obscurité et se réunir aux premiers. Tous<lb/><lb/>cinq l'entourèrent et lui ordonnèrent impérieusement de<lb/>retirer le factionnaire. Sur son refus positif, ils se précipi¬<lb/>tèrent sur lui et lui firent plusieurs blessures. Dans la lutte,<lb/>la détonation d'une arme à feu se fit entendre, et le mili-<lb/>taire tomba atteint d’une balle à la jambe. Les assaillans<lb/>prirent aussitôt la fuite par la rue de la Baignerie. Les<lb/>hommes de garde étant accourus au bruit relevèrent le ca¬<lb/>poral blessé et le transportèrent au poste d'abord, puis à</p>
+        <p rend="labelled"><lb/>hommes ont été vus à diverses reprises rôdant dans les en-<lb/>virons; quelques-uns étaient en blouse; d'autres portaient</p>
+        <p><milestone unit="column" n="3"/><lb/>vraiment déplorable. Il y a six mois, à Epinal, brillait une<lb/>famille honorée et puissante. M. Doublat, ancien député,<lb/>avait su gagner l’estime et la confiance de ses concitoyens.<lb/>Rien ne se faisait que par ses ordres, et souvent même les<lb/>préfets durent s’abaisser devant cette puissance. Tout à<lb/>coup le bruit se répandit, le 19 novembre dernier, qu'il<lb/>venait de mourir frappé d’une attaque d’apoplexie fou¬<lb/>droyante. Etait-ce la vérité? On ne sait; sa mort est entourée<lb/>d'un mystère impénétrable. Toujours est-il que le lendemain<lb/>un grand nombre de ses effets étaient protestés à Nancy et<lb/>à Paris. Bientôt après notre ville acquit la triste certitude<lb/>que ses affaires étaient dans un état déplorable. Ses enfans<lb/>n'acceptèrent sa succession que sous bénéfice d'inventaire.<lb/>La consternation fut au comble. Riches, pauvres lui avaient<lb/>confié leur fortune, tout était englouti ! Des faillites nom¬<lb/>breuses éclatèrent sur tous les points du département ; le</p>
+        <p rend="labelled"><lb/>Doublat, receveur-général du département des Vosges,<lb/>donna sa démission et se retira à Autrey, maison de cam-<lb/>pagne de son beau-père. On eut la lâcheté de lui écrire des<lb/>lettres anonymes, dans lesquelles on lui annonçait qu’il<lb/>serait frappé dans ses plus chères affections. Terribles pré-<lb/>dictions qui se réalisèrent bientôt! Sa jeune fille mourut<lb/><lb/>en jetant un dernier regard vers Epinal, qu’elle regrettait<lb/>toujours. Mme. Ernest ne survécut que quelques jours à la</p>
+        <p rend="labelled"><lb/>voit s'anéantir sa position, sa fortune, sa considération, sa<lb/>famille! Cependant, on espère lui faire supporter la vie;<lb/>ses goûts sont simples, modestes, il ne demande qu’une<lb/>petite chambre à Epinal pour pleurer avec ses amis les<lb/>objets si chers qu’il a perdus! Et, le croira-t-on? la haine, la<lb/>colère le poursuivent, des injures lui sont prodiguées.</p>
+        <p rend="labelled"><lb/>paraître: on s'inquiète de son absence, on s'approche de<lb/>sa chambre, elle est fermée; on appelle et personne ne ré¬<lb/>pond. Un funeste pressentiment s’empare de tous les<lb/>esprits, la porte est ouverte par un serrurier. Alors s’offre<lb/>un spectacle horrible : M. Ernest Doublat était étendu sur<lb/>son lit sans mouvement, un fusil était entre ses jambes<lb/>son crâne était percé de cinq chevrotines. Près de lui<lb/>étaient deux lettres. Dans l’une on lisait: « La vie m'es<lb/>« insupportable, je ne puis vivre sans ma Laure, mon</p>
+        <p rend="labelled"><lb/>Vaulot, ancien député des Vosges et beau-père de M. Au-<lb/>guste Doublat, vient d’être frappé d’une attaque d’apo-</p>
+        <p><lb/>individus entrèrent dans la boutique de M. Ledoyen, épicier,<lb/>rue Saint-Jacques, 3, au moment où le garçon était seul.<lb/>L'un de ces individus demande une chandelle qui lui est<lb/>servie et qu’il paie; puis, au moment de sortir, il revient sur</p>
+        <p><lb/>ur, dit-il au garçon<lb/>en lui remettant la chandelle, je me rappelle que je n'ai</p>
+        <p><lb/>rendre ce petit service au prétendu voisin : il émèche la<lb/>chandelle, l'allume, lui fait prendre suif, et revient presque<lb/>triomphant de la belle lumière que projette ce flambeau<lb/>des huit à la livre; mais, à sa grande surprise, il ne trouve<lb/>plus personne. Il veut alors mettre dans le tiroir les deux<lb/>sous qu’il a reçus, mais il n’y a plus de tiroir. Le comptoir<lb/>est veuf de cet appendice important, qui a disparu avec la</p>
+        <p><lb/>Depuis six semaines environ, les vols se multiplient dans<lb/>le quartier Saint-Jacques, particulièrement chez les épi-<lb/>ciers et les marchands de vin, en dépit d’une surveillance<lb/>très-active qui amène chaque jour la capture de quelques-</p>
+        <figure type="decoration"/>
+        <p><lb/>Nous pensons être utile à nos lecteurs en leur faisant connaître<lb/>dans toutes les meilleures pharmacies et chez M."Béraud-Gaillard</p>
+        <p rend="labelled"><lb/>saurais trop en conseiller l’usage habituel à tous ceux qui sont obli-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>dans la nuit du vendredi au samedi 24 courant. MM.<lb/>les maires et autres habitans qui obtiendraient quel-<lb/>ques renseignemens sur son passage dans leurs com-<lb/>munes, sont priés de les transmettre sans délai au<lb/>bureau de la police de Dijon. La personne est de taille<lb/>le reste deses eteens ne peut etre desigaéier bleu</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Une SOMME de 1,000 fr. à placer à fonds perdu,<lb/>sur une seule tête, et plusieurs sommes de 1,000,<lb/>1,200, 1,500, 1,600, 1,800, 2,000, 3,000, 4,000, 5,000,<lb/>6,000, 10,000, 12,000, 20,000 et 40,000 fr., à placer</p>
+        <p><lb/>S'adresser à M. MAZEAU, notaire à Dijon, rue Van-</p>
+        <p><lb/>Une SOMME 2,000 fr. à placer à fonds perdu, sur</p>
+        <p><lb/>S’adresser à M. MAZEAU, notaire à Dijon, rue Van-</p>
+        <p><lb/>uis-Benoit Valen-<lb/>tin Machard-Forey et son collégue, notaires à la rési-<lb/>dence de Nuits, le 16 avril 1841, enregistré le 19 du<lb/>même mois, fo 195, vo c. 4, par M. Dechambure, qui a</p>
+        <p rend="labelled"><lb/>rant à Nuits, veuve de M. François Geisweiler, pro¬<lb/>priétaire et négociant, décédé audit Nuits, d’une part;</p>
+        <p><lb/>ectit entre la da</p>
+        <p><lb/>Que sa durée est de 5 ans, qui ont commencé à cou¬<lb/>rir le 31 juillet 1840, et finiront la veille de pareil jour<lb/>en 1845, sauf le cas de décès de l’un des associés avant</p>
+        <p><lb/>lautre des associés auront la signature ainsi que la</p>
+        <p><lb/>comptant, et pour M. Adolphe-Pierre Geisweil</p>
+        <p><lb/>D'un contrat passé devant M. Louis-Benoit Valentin<lb/>Machard-Forey et son collégue, notaires à la résidence<lb/>de Nuits, le 16 avril 1841, enregistré le 19 du même<lb/>mois, fo 195, vo ro c. 5, par M. Dechambure, qui a per-</p>
+        <p rend="labelled"><lb/>ciliée à Nuits, veuve de M. Francois Geisweiler, pro-</p>
+        <p><lb/>L’association verbale que les comparans avaient éta¬<lb/>blie entre eux, à partir du 31 juillet 1837, dans la pro¬<lb/>portion d’une moitié pour M. Geisweiler, fils aîné,<lb/>et d’un quart pour chacun des deux autres, et ayant<lb/>pour objet le commerce des vins, soit en France, soit</p>
+        <p rend="styled"><lb/>Extrait par M. Machard-Forey de la mir a.<lb/>de l'acte de dissolution restée en sa possession.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>En l'étude de M. JOLIET, notaire à Dijon, lre<lb/>, le mercredi 28 avril 1841, à midi¬</p>
+        <p><lb/>Ce domaine, dont les terres et les pres sonte e<lb/>excellente qualité, est situé à peu de distance de Se<lb/></p>
+        <p rend="labelled"><lb/>De 37 hectares 1 are 10 centiares de terres ara¬</p>
+        <p><lb/>S'adresser, pour prendre communication des titres<lb/>et des conditions de la vente, audit M. JOLIET, »</p>
+        <p><lb/>ment du prix.</p>
+      </div>
+      <div type="article">
+        <p><lb/>et</p>
+        <p><lb/>Cette propriété, dépendant ession dee</p>
+        <pb facs="0004.xml"/>
+        <ab><milestone unit="column" n="3"/><lb/>OCN, Mecie oae</ab>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>Le 2 mai 1841, à midi, en l'etude et parte<lb/>de M. LAPERTOT, notaire à Dijon,</p>
+        <p><lb/>lieu dit an</p>
+        <p><lb/>S'adresser, pour voir la propriété, à Mme. veuve<lb/>Hubert, rue du Bourg, n^o 41, à Dijon; et pour les</p>
+        <p><lb/>Le dimanche 2 mai 1841, à midi, et jours suivans,<lb/>s'il y a lieu, à Fontaine-lès-Dijon, au domicile du<lb/>sieur Nicolas Daisey, propriétaire par le ministère de</p>
+        <p><lb/>Batterie de cuisine, linge de table et de lit, plusieurs<lb/>armoires tant en chêne qu’en noyer, environ cent<lb/>mètres de toile neuve, chanvre, soixante doubles dé-<lb/>calitres d’avoine, plusieurs charrettes tant petites que<lb/>grandes, avec essieux en fer et à roues à larges jantes,<lb/>plusieurs charrues, deux herses à dents de fer, plu¬<lb/>sieurs balonges, cuves et cuviers, un tombereau, un<lb/>tarare, un crible d’Allemagne, plusieurs harnais com¬<lb/>plets, deux charrettes à moisson, vingt doubles dé-<lb/>calitres de pommes-de-terre, deux vaches, un poulain<lb/>d’un an, une belle pouliche du même âge, deux<lb/>jumens, l’une de huit et l’autre de six ans, deux<lb/>chevaux hors d’âge; des bois, futailles vides, fer-</p>
+        <p><lb/>ons au-desss de six franc</p>
+        <p><lb/>2 voitures sur roues à larges jante<lb/>une voiture à coffre, 3 charrues montées, 3 herses à<lb/>dents de fer, 6,000 kilogrammes de paille, la char¬<lb/>pente d’un hangar, etc.; des meubles et ustensiles de</p>
+      </div>
+      <div type="article">
+        <head><lb/>NDU PALAS,N</head>
+        <p rend="labelled"><lb/>QUATRE MILLE FRANCS à placer à fonds perdu,</p>
+      </div>
+      <div type="article">
+        <head><lb/> DE LA PRÉFECTURE, N</head>
+        <p><lb/>La première consiste en une boutique au rez-de-<lb/>chaussée, une chambre à feu au premier étage, une<lb/>mansarde à cheminée, grenier, cave, aisances et dé¬<lb/>pendances; il s’y exploite un fonds de mercerie,<lb/>rouennerie et bonneterie qui, dans le cas où l’acqué¬</p>
+        <p><lb/>La deuxième consiste en une boutique et un cabinet<lb/>au rez-de-chaussée, une chambre à feu au premier,<lb/>une grande mansarde à cheminée, un grenier et unc<lb/>cave; on y exploite un fonds de marchand de vin, qui<lb/>ferait également partie de la vente si on le désirait. Les<lb/>étages supérieurs des deux maisons sont desservis par<lb/><lb/>des escaliers en bois dont l'un est commun avec la<lb/>maison voisine; elles sont situées dans le quartier le<lb/>plus commerçant de la ville, et propres à tout genre de<lb/>commerce. L’entrée en jouissance sera fixée au gré de</p>
+        <p><lb/>S'adresser pour tous renseignemens n° 2<lb/>cture, no 22</p>
+      </div>
+      <div type="article">
+        <head><lb/>SITUÉ A SAUSSY, CANTON DE SAINT-SEINE-L’ABBAYE,</head>
+        <p><lb/>Ce domaine consiste dans, 1^o une maison de maître;<lb/>2° des bâtimens de ferme avec hébergeages, cour<lb/>jardin clos joignant avec toutes ses aisances et dé-<lb/>pendances; 3° environ quarante-un hectares quatorze<lb/>ares de terre labourable; 4° et un canton de bois<lb/>appelé Vaux-Busson, de la contenance de trente-sept<lb/>hectares trente-six ares quatre-vingt-douze centiares.</p>
+        <p><lb/>S'adresser pour visiter le domaine à M. Laligant,<lb/>propriétaire, à Saussy, et pour tous renseignemens<lb/>à M. ROUGET, notaire à Dijon, rue de la Préfecture,</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>chariots montés sur roues à larges jantes et pointues,17 centimètres; charrue, herses, tarare, crible d’Alle-</ab>
+        <p rend="styled"><lb/>Dimanche prochain, 2 mai 1841, heure de midi, av<lb/>domicile de M. Nicolas Mugnier, fermier, quittant<lb/>l'exploitation d'une des fermes de M. Vallet-pey.<lb/>rara,</p>
+        <p><lb/>Ce train d’agriculture consiste en 7 bons chevaux,<lb/>une pouliche, 10 vaches, 1 taureau, 2 génisses,</p>
+        <note>
+          <p rend="styled"><milestone unit="column" n="2"/><lb/>DIJON. — IMPRIMERIE DE SIMONNOT-CARION, PRÈS LA PLACE AEX FRUITSA</p>
+        </note>
+      </div>
+      <div type="article">
+        <p><lb/>Neuf bœufs de trait, quatre vaches, deux génisses,<lb/>deux ânesses, 500 doubles décalitres de blé, 440 d’orge,<lb/>plusieurs voitures, plusieurs charrues montées, une<lb/>magne, un cabriolet et vieux harnais; meubles, tels<lb/>que lits, paillasses, matelas, lits de plume, couver¬<lb/>tures, etc.; commodes, secrétaires, armoires, tables de<lb/>nuit, pétrissoire, tables, chaises, batterie de cuisine en<lb/>rosette et en fonte; linge, tel que draps, nappes et<lb/>linge de ménage, sacs; quelques bouteilles d’eau-de¬<lb/>vie de cognac et de vins divers; deux siams, mâle et</p>
+      </div>
+      <div type="article">
+        <head><lb/>Etude de M. GUICHARD, notaire à Nuits.</head>
+        <p rend="styled"><lb/>Le dimanche 9 mai 1841, heure de 10 du matin, il sera<lb/>procédé à Entre-deux-Monts, commune de Concœur,<lb/>par le ministère de M. GUICHARD, notaire à Nuits, à<lb/>la vente d'un train d'agriculture, composé de:</p>
+        <p><lb/>Plusieurs OMMES de 800, 1,000 placer,00<lb/>1,800, 2,000, 3,000 et 4,000 francs à plar, 1,300,</p>
+        <p rend="styled"><lb/>Par-devant ledit M. GUICHARD, à Gilly, le dimanche</p>
+        <p><lb/>Une jolie MAISON, située au village de Gilly, rue</p>
+        <p><lb/>Elle se compose d'une grande chambre à feu au rez-<lb/>de-chaussée, avec alcôve à deux lits, cuisine avec<lb/>four, bûcher, grande cave sous cette maison, grenier</p>
+        <p><lb/>Plusieurs belles pièces de terres situées sur Gilly,</p>
+        <p><lb/>Elles sont situées dans les meilleurs climats de ces</p>
+        <p><lb/>Pour tous renseignemens, s’adresser audit M. Gui-</p>
+      </div>
+      <div type="article">
+        <head><lb/>m, notaire à châ-<lb/>teauneuf.</head>
+        <p><lb/>Au château de Meilly, canton de Pouilly-en-Auxois,<lb/>le dimanche 2 mai 1841, heure de dix du matin, par<lb/>le ministère de M. GUILLEMARD, notaire à Château-</p>
+        <p><lb/>Des objeufs, tirant de première force, de 3 à 4 ans;</p>
+        <p><lb/>trois bonnes vaches fraîches de lait, dont deux avec<lb/>leurs suivans; trois autres bœufs âgés de 12 à 15 mois:<lb/>lesdits bestiaux étant de belle race. Un beau cheval de<lb/>l’âge de 4 à 5 ans, propre à la selle et à la voiture<lb/>environ 2,000 mètres courant de beau sciage, essenco<lb/>chêne et hêtre; 200 arbres, tant sur taillis que moder-<lb/>nes, propres aux constructions ; 200 doubles décali¬</p>
+        <p><lb/>Pu, u Rg, srese au châu de</p>
+      </div>
+      <div type="article">
+        <p><lb/>Vente d’un BEAU TRAIN, pour cause de cessation<lb/>de culture, le mercredi 5 mai 1841, à 11 heures, au<lb/>domicile de dame veuve Martin, à Saint-Apollinaire.</p>
+        <p><lb/>Il consiste en 16 chevaux, jumens et poulains, sa¬<lb/>voir : 2 chevaux, 8 jumens, dont 3 pleines, ayant été<lb/>saillies par un étalon race cauchoise; une autre avec son<lb/>jeune poulain, 6 autres poulains âgés d’un et deux ans,<lb/>1 taureau et 6 vaches, un troupeau de 160 moutons et<lb/>brebis, qui seront vendus par lots; 2 chariots à larges<lb/>jantes, essieux en fer, 3 charrettes à coffre, à fumier et<lb/>à moisson, 3 charrues montées et plusieurs autres, 1</p>
+        <p><lb/>La vente commencera par les chevaux garnis de</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Office de M. BÉLIARD, commissaire-priseur,</head>
+        <p><lb/>28 avril, à 10 heures du matin, rue du Refuge,par</p>
+        <p><lb/>Bois de lits, commode et secrétaire à dessus de mar¬<lb/>bre, console, armoire à deux portes et autres meubles<lb/>en noyer, buffet, tables, chaises et fauteuils, ustensiles<lb/>de cuisine, bouteilles vides; un beau poêle en tôle<lb/>garni en cuivre, un bureau à 4 places, casier, etc. ; 3</p>
+        <p><lb/>Vente aux enchères, jeudi 29 avril et jours suivans,<lb/>à 10 heures du matin, faubourg Raines, près les bains<lb/>du Belvéder, par le ministère de M. BÉLIARD, commis-<lb/>saire-priseur. Un chariot de 17 centimètres, neuf;<lb/>un chariot à roues pointues, une charrette à roues de</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>A remettre un FONDS DE BOULANGERIE, situé<lb/>dans un quartier très-commerçant de Dijon. S’adres-<lb/>ser à M. CHARLES, rue d’Auxonne, faubourg Saint¬</p>
+      </div>
+      <div type="article">
+        <p><lb/>Bois de lit, commode, secrétaire en citronnier,<lb/>meuble de salon en acajou recouvert en drap, glaces,<lb/>pendules, vases Médicis, forme étrusque, et autres,<lb/>etc. Ces objets sont visibles tous les jours, de 10 heures</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>POMMES DE TERRE à vendre, à raison de 60 cen¬<lb/>times le double décalitre. Il sera fait une remise à ceux<lb/>qui en prendront une forte quantité. S'adresser rue<lb/></p>
+      </div>
+      <div type="article">
+        <head><lb/>AVEC LES PLUS GRANDES FACILITÉS POUR LES PAIEMENS,</head>
+        <p><lb/>Une jolie petite propriété, à un quart d’heure de la<lb/>ville, et réunissant l'utile à l'agréable: elle est com-<lb/>posée d’une maison de maître, ayant deux chambres,<lb/>deux cabinets, grenier, cave voûtée, bonne citerne,<lb/>réservoir, vigne en plein rapport, jardin fruitier, po¬<lb/>tager et anglais; sa contenance est de 1 hectare 68</p>
+        <p><lb/>S'adresser pour tous renseignemens rue Crébillon,</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>ÉTUDE DENOTAIRE à Vellexon, canton de Fresne-<lb/>Saint-Mametz, arrondissement de Gray (Haute-Saône),<lb/>à céder. S’adresser à M. Rambeau, à Ray-sur-Saône,</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>A louer présentement, une petite MAISON, rue dela<lb/>Préfecture, près le rempart, composée de deux cham¬<lb/>bres à feu, cave et grenier, un petit jardin, un pavil-<lb/>lon composé de trois petites chambres, dont une à feu;<lb/>le tout réparé à neuf et au rez-de-chaussée. S'adresser</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>GIROUX-LOMBARD, horloger et bijoutier, rue<lb/>Piron, no 20, à Dijon, a l'honneur de prévenir le<lb/>public que son magasin est bien assorti en pendules,</p>
+        <p><lb/>Même maison, un appartement au second étage,<lb/>composé de trois chambres, salle à manger, cuisine et<lb/>cabinets, fraîchement décorés à louer, pour entrer en</p>
+      </div>
+      <div type="article">
+        <p><lb/>Le sieur JacOTOT, pépiniériste, rue des Moulins,<lb/>faubourg Saint-Pierre, offre aux amateurs plus de<lb/>2,000 boutures de Dahlias anglais, provenant des<lb/>premières collections de Belgique. Ses boutures de dah¬<lb/>lias seront toutes livrées bien racineuses et élevées en<lb/>petits pots. Les amateurs qui désireraient des tuber¬</p>
+        <p><lb/>Les prix seront modérés suivant le nombre que l'on</p>
+      </div>
+      <div type="article">
+        <p><lb/>On demande à louer, dans les faubourgs ou dans<lb/>les environs de Dijon, un petit APPARTEMENT gar-<lb/>ni ou non garni, composé de 3 ou 4 chambres, avec</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="4"/><lb/>MARCHÉ DE DIJON. — DU 24 AVRIL 1841.<lb/>Froment.................. 17 00 18 95 20 50<lb/>Conceau.................. 13 00 14 90 16 00<lb/>Chenevis.................. 00 00 20 00 00 00<lb/>Foin.................... 60 00 85 37 106 00<lb/>............ 48 00 55 00 62 00<lb/>Paille...</ab>
+        <figure type="table"/>
+      </div>
+      <div type="article">
+        <p><lb/>Naissances. Du 23 au 26 avril, cinq garçons, six<lb/>mes.</p>
+        <p rend="labelled"><lb/>Mariages. Du 24, Claude Pâris, plâtrier, et́<lb/>Perrin, ouvrière. Du 26, Jean Bordet, employé </p>
+        <p rend="labelled"><lb/>liba-<lb/>Décès. Du 22, Prudent Fousset, cultivateur, ce<lb/>taire, 35 ans. — Antoine Laveix, soldat au 74^e de li¬<lb/>gne, 22 ans. — Jean-Baptiste Matry, manouvrier, 78<lb/>ans. Du 25, Marie-Eugénie Cordier, femme de Léonard<lb/>Maître, 31 ans. — Jeanne Gaudelet, rentière, céliba¬<lb/>taire, 70 ans.—Marguerite Bas, ouvrière, célibataire,<lb/>42 ans. Du 26, Jean-Baptiste Carrier, ayocat et pro-</p>
+        <figure type="table"/>
+      </div>
+    </body>
+  </text>
+</TEI>

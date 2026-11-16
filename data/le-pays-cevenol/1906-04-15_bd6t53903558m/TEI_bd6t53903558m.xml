@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Pays cévenol</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t53903558m</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Pays cévenol : hebdomadaire littéraire, artistique, félibréen, mutualiste, commercial, industriel et d'annonces</title>
+          <publisher>[s.n.] (Alais)</publisher>
+          <date when="1906-04-15">1906</date>
+          <idno type="ARK">bd6t53903558m</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t53903558m</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>28m Année. — No 1285</fw>
+        <fw type="runningTitle"><lb/>5 Centimes</fw>
+        <dateline><lb/>15 Avril 1906;</dateline>
+        <ab><milestone unit="column" n="2"/><lb/>RÉGIONALISTE * LITTÉRAIRE<lb/>ABONNEMENT:<lb/>4 fr. par an<lb/><lb/><lb/></ab>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>eVenol</p>
+        <figure/>
+        <p rend="heading"><lb/>REVUE HEBDOMADAIRE</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>ET D'ANNONCES</p>
+        <ab><milestone unit="column" n="3"/><lb/>BUREAUX<lb/>Imprimerie J BRABO<lb/></ab>
+        <lg>
+          <l><lb/>ou conu es raeles</l>
+          <l><lb/>et reste entior propriéta</l>
+        </lg>
+        <p rend="heading"><lb/>Les Chofs e'CEvrce de la littírature Prorençals</p>
+      </div>
+      <div type="article">
+        <ab><lb/>An oiscu.<lb/>An tengu<lb/>Nosto lengo vico;<lb/>An viscu.<lb/>An tengu<lb/>Tant coume an pouscu!<lb/>Suoin aquest terraire,<lb/>Maío, 3 de Mara 105.</ab>
+        <ab type="head"><lb/>LA CANSOUN DIS AVI</ab>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>ounour à nostis àvi</l>
+          <l><lb/>Tant sàci, tant sàvi,</l>
+          <l><lb/>Ounour à nosti avi</l>
+          <l><lb/>Qu'aven pas conneigu!</l>
+        </lg>
+        <p rend="styled"><lb/>soungen qu'avans courréire,<lb/>Li rèire, li rèire.<lb/>soungen qu'avans courrèire<lb/>Per nautre an courregu.</p>
+        <ab type="head"><lb/>An oiscu, etc.</ab>
+        <lg>
+          <l><lb/>O fraire, o fraire,</l>
+          <l><lb/>S'aven aquest terraire.</l>
+          <l><lb/>Lis aoi l'an agu.</l>
+        </lg>
+        <ab type="head"><lb/>An viscu, etc.</ab>
+        <lg>
+          <l><lb/>S'acen lou vin de souco</l>
+          <l><lb/>En bouco, en bouco,</l>
+          <l><lb/>S'aven lou vin de souco,</l>
+          <l><lb/>Es lou oin qu'an begu.</l>
+        </lg>
+        <ab type="head"><lb/>An viscu, etc.</ab>
+        <lg>
+          <l><lb/>E manjan la seisseto</l>
+          <l><lb/>Rousseto, rousseto.</l>
+          <l><lb/>E manjan la seisseto</l>
+          <l><lb/>Di terro qu'an mougu.</l>
+        </lg>
+        <ab type="head"><lb/>An viscu, etc.</ab>
+        <lg>
+          <l><lb/>Tout ço qu'avèn de voio.</l>
+          <l><lb/>Revoio, revoio,</l>
+          <l><lb/>Tout ço qu'avén de coid</l>
+          <l><lb/>Deli nous es rengu.</l>
+        </lg>
+        <ab type="head"><lb/>An viscu, etc.</ab>
+        <lg>
+          <l><lb/>Tout ço que nous rènd tibre,</l>
+          <l><lb/>Felibre, Felibre,</l>
+          <l><lb/>Tout ço que nous rend libre,</l>
+          <l><lb/>Lis aoi l'an vougu.</l>
+        </lg>
+        <ab type="head"><lb/>An viscu, etc.</ab>
+        <lg>
+          <l><lb/>Mai d'abord que sai traço</l>
+          <l><lb/>La raço, la raço,</l>
+          <l><lb/>Mai d'abord que sai traço</l>
+          <l><lb/>Fasen noste degut.</l>
+        </lg>
+        <ab type="head"><lb/>An viscu, etc.</ab>
+        <lg>
+          <l><lb/>Aparen lou repaire</l>
+          <l><lb/>Di paire, di paire,</l>
+          <l><lb/>Aparen lou repaire</l>
+          <l><lb/>Ounte nous an pascu.</l>
+        </lg>
+        <p rend="styled"><lb/>an viscu, etc.</p>
+        <lg>
+          <l><lb/>Urous lou que pou vieure</l>
+          <l><lb/>Detieure, detieure,</l>
+          <l><lb/>Urous tou que pou oieure</l>
+          <l><lb/>Aqui mounte es naseu!</l>
+        </lg>
+        <lg>
+          <l><lb/>An viscu.</l>
+          <l><lb/>An tengu</l>
+          <l><lb/>Nosto lengo vico;</l>
+          <l><lb/>An viscu.</l>
+          <l><lb/>An tengu</l>
+          <l><lb/>Tant coume an pouscu!</l>
+        </lg>
+        <note type="handwritten"><lb/>F. Mistral</note>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Donnez vous à la tendrexse</ab>
+        <ab type="head"><lb/>Chanson galante<lb/>de Printemps</ab>
+        <ab><lb/>MVE</ab>
+        <lg>
+          <l><lb/>Fleurissez les jardins, O merveille des Belles,</l>
+          <l><lb/>Et glissez fièrement sur les herbes nouvelles</l>
+          <l><lb/>Ou rit un rayon caressant !</l>
+          <l><lb/>Le ciel est parfumé d'une haleine de roses</l>
+          <l><lb/>Dans l'antre des Hivers les tempêtes sont closes</l>
+          <l><lb/>Et règne L'Amour tout-puissant!</l>
+        </lg>
+        <lg>
+          <l><lb/>Le chariot d'or qui luit s'arme pour la défaite</l>
+          <l><lb/>De Daphné ravissante et dont le corps en fête</l>
+          <l><lb/>Attire un baiser d'Apollon!</l>
+          <l><lb/>Toute chose ici-bas aux délices conspire</l>
+          <l><lb/>Accordez au Printemps l'humeur de votre rite</l>
+          <l><lb/>Et de votre visage blond!</l>
+        </lg>
+        <lg>
+          <l><lb/>Je sais, au fond du val, une retraite sombre</l>
+          <l><lb/>Dù le roc enfeuillé verse la paix de l'ombre</l>
+          <l><lb/>Sur un amour jeune et galant !</l>
+          <l><lb/>Vetez, pour y venir, vos plus fines dentelles:</l>
+          <l><lb/>S'y cueillerai pour vous des rimes immortelles</l>
+          <l><lb/>Au bruit doux du ruisseau dolent!</l>
+        </lg>
+        <lg>
+          <l><lb/>A travers le rideau gracieux des fougères</l>
+          <l><lb/>Nous verrons des combats de bergers à bergères</l>
+          <l><lb/>Dont le prix est voluptueux !</l>
+          <l><lb/>Sein blanc contre le cœur et bouche contre bouche</l>
+          <l><lb/>Verrons-nous se finir quelque douce escarmouche</l>
+          <l><lb/>Au sein d'un gazon montueux?</l>
+        </lg>
+        <lg>
+          <l><lb/>L'Amour nu du Printemps pour eux est à son aise</l>
+          <l><lb/>Parmi les arbres verts il saute. il danse, il baise</l>
+          <l><lb/>Et foule aux pieds les saintes lois !</l>
+          <l><lb/>Venez par la prairie, o merveille des Belles.</l>
+          <l><lb/>Je saurai bien dompter vos caresses rebelles</l>
+          <l><lb/>Dans le pur silence des bois!</l>
+        </lg>
+        <ab><lb/>Charles BOUDON.</ab>
+        <figure/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <lg>
+          <l><lb/>la Direction laisse à chacun q</l>
+          <l><lb/>es dans los travaux signés de leurn</l>
+        </lg>
+      </div>
+      <div type="article">
+        <head><lb/>NOIES D'UNE JOURNÉE FELIBREENNE</head>
+        <p rend="labelled"><lb/>(8 Aoril 1906)</p>
+        <ab type="head"><lb/>MISTRAL et quelts u</ab>
+        <p><lb/>Nimes. - Dimanche des Rameaux, 8 acril.<lb/>8 heures du matin. — Le banquet est pour midi.<lb/>L'assemblée des majoraux composant le consis<lb/>toire felibréen durera jusqu'à cinq heure du soir.<lb/><lb/>Le quai de la gare Talabot. à l'intérieur... seul,<lb/>absolument seul, sur les trottoirs, le « cousinet de<lb/>l'Arabi » ainsi que l'a appelé Mistral, le dernier<lb/>volume de Léo Larguier à la main, écoute venir<lb/>fles trains. 8 heures 40 : Un premier train arrive.<lb/>Brante bas. Portières qui claquent... Montpellier<lb/>et le Languedoc. Arnavielle d'abord « le Saint<lb/>du Félibrige», le peintre Marsal, le béarnais Mi¬<lb/>chel de Camélat, en béret pyrénéen, l'éditeur<lb/>Dezeuze, Thérond de Cette, descendent de wagon.<lb/>Voilà les premiers arrivés. Le train de Tarascon<lb/>portant les Rhodaniens, les Arlésiens et les Dau-<lb/>phinois, ne doit arriver que dans une heure. Par<lb/>distraction, avant l'arrivée de Mistral, on se dirige<lb/>vers les Arènes et Saint-Paul. Le peuple de Nimes<lb/>romaine et provençale gravit en foulé les degrés<lb/>main. Visite aux superbes fresques de Flandrin.<lb/>de laucier<lb/>10 heures : Retour à la gare. Galéjades de Thé¬<lb/>rond et de Chassary toujours grave cependant.<lb/>Malédictions enfantines mais charmantes de quel-<lb/>ques uns d'entre nous, à l'adresse de ceux qui ont<lb/>dépouillé l'avenue Feuchères de ses ares de<lb/>verdure. Arnavielle s'entretient des corridas et de<lb/>la centralisation à outrance, avecson jeune cousin,<lb/>de Jan Carrère qui revient d'Algésiras. La salle<lb/>des Pas-Perdus, puis les arceaux et le buste de<lb/>Talabot. Un coup de siffiet stride se mêlant aux<lb/><lb/>carillons joyeux des cloches qui annoncent au<lb/>monde catholique célébrant la féte des Rameaux,<lb/>l'entrée du Christ dans la sombre Jérusalem. Voici<lb/>Paul Mariéton, radieux, le cigare aux lèvres, la<lb/>barbe à la Henri IV. froissée par une nuit de<lb/>chemins de fer... Mais quelle déception, ò Marié-<lb/>ton! de ne pas voir à vos có̂tés quelque élégante<lb/>toilette féminine ! Que vous était -il donc arrivé, o<lb/>poète d'Hyppolita et de la Terre procençale? Encore<lb/>seriez-vous pardonnable, si vous nous aviez prè-<lb/>senté Maurice Barrès ou Marchand comme vous<lb/>fites l'an dernier !... Mais non! Et vous ne vouliez<lb/>vous inquiéter que du débarquement de vos<lb/>malles !.. Suivent Mariéton, l'éminent capoulié<lb/>Pierre Dévoluy accompagné de Madame Dévoluy.<lb/>Alexis Mouzin, Marius Chabrand, Soulet de Cette,<lb/>Clément Auzière, le professeur Constans, le biblio¬<lb/>thécaire Aude, le baron Dezazars de Montgaillard,<lb/>Boissier d'Anduze, Jules Ronjat taciturne, une<lb/>serviette bourrée de papiers accrochée à sa canne,<lb/><lb/>le chanteur Fédières. Et Mistral ??? Mistral n'ar-<lb/>rivera que sur le coup de onze heures.</p>
+        <p><lb/>Cette fois, nous nous dirrigeons tous vers la Fon-<lb/>taine. On reviendra vers les onze heures prendre<lb/>le grand poète. Devant la statue d'Antonin; et<lb/>saluant de la main, le baron Guilibert court après<lb/>un tram électrique. Dix pas plus haut, longeant<lb/>le canal, Adrien Planté. Le vaillant patriote béar-<lb/>nais devise en compagnie du doux Folco de Baron-<lb/>celli, blond comme un étudiant avignonais du<lb/>temps de Pétrarque, un paquet de journaux et un<lb/>livre sous le bras, s'enquérant d'un barbier. Pros-<lb/>per Estieu contemple l'eau du canal, y cherchant<lb/>une rime à la façon de Hérédia qu'il égalát. Sou-<lb/>dain, un roulement sonore d'r... C'est Antonin<lb/>Perbose qui débouche de la grille du jardin de la<lb/>Fontaine et serre fort les mains qui se tendent vers<lb/>lui. 11 heures moins dix. La sortie de la gare où<lb/>tout à l'heure apparaitra Mistral. Des bourgeois,<lb/><lb/>des jeunes filles rieuses, des soldats, des employés,<lb/>des commissionnaires, tous les ordres de la société<fw type="digitisation-artefact"><lb/>gallica.bnf.fr / CIRDOC - Mediatèc.</fw><lb/>confondus. Nous sommes tous là. Le train de<lb/>Tarascon ost annoncé. Des murmures discrets<lb/>éclatent parmi la foule qui se presse. Mistral<lb/>Mistral ! Mistral ! Trois fois Mistral ! Au-dessus<lb/>de la foule planent les ailes souples d'un chapeau<lb/>noir. Cette foule, une stature d'Olympien la<lb/>domine. Le pardessus de voyage sur le bras,<lb/>appuyé sur une canne au pommeau d'argent,<lb/><lb/>voici enfin le Maitre toujours jeune, toujours<lb/>droit, toujours robuste, tel Apollon vainqueur. La<lb/>foule s'écarte respectueusement. Et le soleil, qui<lb/>depuis la première heure du matin faisait la moue,<lb/>éclate dans une apothéose, et le tintement des<lb/>cloches de la cité des Césars et des Antonins<lb/>grimpe verslebleu du ciel qui crève les nuages gris<lb/>et désolants. Point de fanfares, point de tumulte.<lb/>Rien de ce qui caractérise les fêtes officielles et<lb/>stupides. A bas les calebasses et les grosses caisses!<lb/>Seulement des cœurs solidements unis pour les<lb/>mémes luttes d'un idéal de fraternité et de patrio-</p>
+        <pb facs="0002.xml"/>
+        <figure type="decoration"/>
+        <p><lb/>une embrassade famtliere d'quelques privnégiés,<lb/>et zou en tramway vers le restaurant de la Fon¬<lb/>taine. Dans la galerie du tram Mistral parle de la<lb/>Reine, de Varenne à l'Elysée, de Véran, de la<lb/>publication de ses Mémoires et Recits qui ont<lb/>acquis quinze mille abonnés de plus aux Annales.<lb/>Le jardin de la Fontaine. — Escorté de ses disci-<lb/>ples, vieux et jeunes, Mistral pénètre sous les<lb/>arbres printaniers, parmi le peuple de statues,<lb/>dieux, déesses et faunes, dont la pierre semble<lb/>s'animer par la vertu de quelque souffle mysté-<lb/>rieux pour chanter un hymne à l'arrivée du grand<lb/>Olympien de Maillane. Mariéton tombe en extase<lb/>devant Baroncelli qui tient à la main une Histoire<lb/><lb/>d'Amérique par Robertson qu'il lira en wagon, ce<lb/>soir, à son retour vers sa solitude des Saintes-</p>
+        <p rend="labelled"><lb/>fraternel, en rires ardents. La voix d'Arnavielle<lb/>bruisse, pareille à celle d'une cigale de la Crau.<lb/>Mariéton s'épanouit. Dévoluy parle en érudit et<lb/>cite des faits. Ronjat s'est dégagé de l'air morose<lb/>qu'il avait le matin. La chevelure de Prosper<lb/>Estieu se déploye comme un étendard de révolte.<lb/>Perbose réve à la coupe étoilée « qui nous vient des<lb/>Catalans. » Mistral préside, archonte surhumain,<lb/>écoute les discussions. La Santo-Estello aura lieu<lb/>cette année, à Cette, les dimanche et lundi de<lb/>Pentecóte. Le lauréat des septennaires jeux flo-<lb/>Lausie d'Arte. Le jour de Sainte-Estelle il devra<lb/>nouveaux majoraux sont nommés en remplace-<lb/>ment de Sextus Michel et de Junior Sans, decédés,<lb/>et d'Elzéar Jouveau, démissionnaire Ce sont : le<lb/>marquis de Villeneuve-Esclapon-Bonaparte; Bon¬<lb/>vacant de majoral sera donné à M. Dujarric-<lb/>Descombes qui a recueilli au vote secret de nom-<lb/>breux suffrages. Les délibérations sont terminées</p>
+        <p><lb/>présents les félibres majoraux : Pierre Dévoluy<lb/>capoulié : Adrien Planté, Albert Arnavielle,<lb/>Michel de Camélat, Edouard Marsal, Paul<lb/><lb/>Chassary, Dezazars de Montgaillard, Paul<lb/>Mariéton, Alexis Mouzin, Jules Ronjat, Léopold<lb/><lb/>Constans, Guilibert, Estieu, Perbosc, Aude,<lb/>Thérond, Chabrand, Folco de Baroncelli : les<lb/>félibres mainteneurs : Soulet, président de l'Ecole<lb/>Cettoise, Bard de Nimes, Roger Brunel, Dezeuze,<lb/>Fédières, Dugas d'Orange, Boissier d’Anduze.<lb/><lb/><lb/>Avant de quitter la salle, Mistral est invité par<lb/>quelques uns de ses fidèles à chanter.. Et Mistral<lb/>chante.. Il chante sa nouvelle chanson, la sublime<lb/>Cansoun dis Aoi, d'un style admirablement<lb/>concis, d'une clarté et d'une simplicité supérieures,<lb/><lb/>aux allusions profondes et qui n'appartiennent<lb/>-<lb/>qu'à celui qui est le plus grand poète de la Race<lb/>Latine, à Mistral lui seul.. Tous les majoraux et<lb/><lb/>mainteneurs sont debout, téte nue, pardessus sur<lb/>le brax. une feuille de laurier piquée au ruban du<lb/>chapeau, émus... Le Grand-Maillanais, « le Père<lb/>de la Patrie, », le geste levé, les yeux comme<lb/>noyés par le Rève qui les emplit éternellement, et<lb/>semblant regarder loin, bien loin, très loin, un<lb/>horizon qui matériellement ne peut exister devant<lb/>sa vue, le Grand-Maillanais chante., Et l'on évoque<lb/>légitimement l'image d'Homère, car lui aussi,<lb/>Homère, devait étre ainsi majestueux lorsqu'il<lb/>chantait, près des temples élevés par les Hellènes<lb/>au culte de Zeus Olympicos, la joie de vivre à la<lb/>lumière du soleil sur la terre de Grèce... Du parc<lb/>de la Fontaine incendié par le crépuscule, viennent<lb/>expirer aux fenêtres de la salle du banquet, les<lb/>dernières mesures de la marche royale du Prophète</p>
+        <p><lb/>riéton, nous dévalons les boulevards, vers la gare,<lb/>cieuses, Mistral se découvrant de temps en temps<lb/>devant des personnes amies accourues au-devant<lb/> code la grande artiste</p>
+        <figure/>
+        <figure/>
+        <p><lb/>de mer légère, fraiche et salée se transforme au<lb/>figuré en un vent impétueux qui met en branle-<lb/>bas les girouettes de tous les corps d'état depuis<lb/>Broutchoux, un rude lapin, comme le nom l'indi-<lb/>que, jusqu'à la belle cigarière ou au simple facteur,<lb/>en passant par tous les métiers nécessitant une<lb/>collectivité. Tant pis pour ceux qui travaillent</p>
+        <p><lb/>cations classiques du corps enseignant ou des<lb/>noirs desseins médités par les mineurs. Cela nous<lb/>prouve que tout le monde est intéressant au<lb/>méme titre et que toute corporation a le droit de<lb/>l'unisson d'un même effet et pour une même</p>
+        <p><lb/>cette ère idyllique qui doit nous apporter avec le<lb/>repos général la fortune mathématiquement</p>
+        <p><lb/>elle-méme veut changer de vie et ne veut plus<lb/>nous souffrir sur sa croùte — sans doute parce<lb/>les lles sont envahies par les flots écumants, les<lb/><lb/>montagnes crachent de la pierre et du fer fondus.<lb/>Le soleil se met aussi de la partie et tous les jours<lb/><lb/>nous découvrons de nouvelles tàches à sa robe de<lb/><lb/>feu, preuve évidente de grève partielle ; les<lb/>savants attribuent à Phébus la cause initiale et</p>
+        <p><lb/>marchons à grands pas à la grèce générale ou<lb/>semi-générale et j'explique mon "semi" qui a<lb/>germé là intentionnellement, sachant très bien<lb/>hélas! que les Journaux et les députés ne se met-<lb/><lb/>tront jamais en grève, les derniers surtout, et<lb/>c'en est assez pour que nous ne goûtions jamais</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>République, à la Papeterie Nouvelle. La vitrine de cet<lb/>Roger Brunel, notre vaillant rédacteur en chef, qui,<lb/></p>
+        <p rend="labelled"><lb/>e dessin sur, d'une ressembiance agréable.</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>ב<lb/>Emma Calvé viendra assister à la Santo-Estello<lb/>de Cette. Près de la gare nous ne sommes plus<lb/>que trois ou quatre accompagnant le Maitre de<lb/>Maillane qui part à 7 heures... Les uns sont res-<lb/>tés dans la ville, d'autres se sont petit à petit<lb/>éparpillés un peu partout, qui partiront dans la<lb/>nuit à des heures différentes. 7 heures et demie du<lb/>soir. — Mistral est en wagon avec Mouzin et<lb/>Chabrand. Le train siffle... Mariéton, Ronjat, nous<lb/>serrons affectueusement la main au Poète-Sacré<lb/><lb/>qui rentre à Maillane, emportant avec lui une</ab>
+        <figure type="decoration"/>
+        <p><lb/>là-bas sur les lagunes d’Aigues-Mortes et de la<lb/>Camargue. Le soleil s'engloutissait dans le creux<lb/>des garrigues blanches de poussière. Et porté par<lb/>de larges ailes, un souffle orphique venu du Rhône,<lb/>répandait des parfums propices aux réveries de</p>
+        <p><lb/>bon leur plaira! Mais tous ces hommes quittant<lb/>leur cité, leur village, leur retraite, et accourant<lb/>de tous tes points de la Provence et de ses mar-<lb/>ches, pour un commun sentiment, celui de la<lb/>patrie presque effacée par l'ennemi que l'on sait,<lb/>mais renaissant par le miracle de Fontségogne.<lb/>celà est beau, celà est grandiose, celà est humain !</p>
+        <p><lb/>même après les écrasements funestes, méme<lb/>après les mensonges et la corruption du vainqueur!</p>
+        <p><lb/>Aleux que nous ne connumes point, qui gardèrent<lb/>s'abreuverent du même oin que nous, qui nous ont<lb/>légué leur oigueur, qui nous ont voulu Ubres, fai-<lb/>sant notre deooir, et qui se sont defendus en héros</p>
+        <p><lb/>Ohloui! Aieux, nous le jurn ce que vo<lb/>sur votre mómoire. Nous seroos ce que va</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Billets de Tombola à 10 centimes ; participation<lb/>au tirage do 500 lots. On peut admirer les lots<lb/>exposés rue de lHôtel-de-Ville : Tirage le 29<lb/>courant, date icrévocable. Rappelons que cette<lb/>ceuvre est en faveur des Petits Alaisiens à la<lb/>Montagne et à la Mer et des Veuves et Orphelins<lb/>des Coopérateurs P.-L..-M. C'est donc une œuvre<lb/>philanthropique qui intéresse tous les cœeurs géné-<lb/>reux, nous leurs adressons un appel pressant<lb/>pour nos pauvres petits que la Montagne et la<lb/>Mer fortifient. Des Membres de la Commission<lb/>présenteront des Billets à domicile. Nous prions<lb/><lb/>les personnes charitables de leur réserver bon<lb/>accueil. Les gares détenant des Billets sont priées<lb/>d'en activer le placement. Il ne nous reste que<lb/>fin de touche, délicat, il honore le joune artiste qui</p>
+        <p><lb/>Montpellier, est fils du poète languedocien dont Alès<lb/>s'honore, et qui mérlie par son haut talent, ses vortus.<lb/>sa modestie, le nom populaire de : saint du Pélibrige</p>
+        <p><lb/>un t dus erieu portre Arnaviette detre le digne</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>blée ordinaite au Domaine de Felgère, près<lb/>La Bastide (Lozère), le mercredi seize Mai 1906, à</p>
+        <p><lb/>Société, les titres au porteur devront être déposés<lb/>le 5 Mai 1905 au plus tord, dans le cabinet de l'Ad-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>« mèstre sourèl caufo pamens : e lous aubres<lb/>« fan encaro ges d'oumbro estent qu'an pan ca</p>
+        <p><lb/>d'un péd las e lourd la draio poussieironso, un<lb/>brave ome de trimard, que s'en anavo campeja</p>
+        <p><lb/>rouje lon cèl clar ; quaucos cambados de mai e<lb/><lb/>l'ome sariè gandi ; mè la fatigo l'assucavo, e se</p>
+        <p rend="labelled"><lb/>« aiçi dins lou valat de la routo qu'ailai à la vilo</p>
+        <p><lb/>qu'aviè fa fourtuno, e que, trimard enrichi, ca-<lb/>minavo pus à ped, me dins un tafo-tafo flame</p>
+        <p><lb/>contro quicon de du, de foço du. Aco lou</p>
+      </div>
+    </body>
+  </text>
+</TEI>

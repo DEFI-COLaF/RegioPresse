@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81342367</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1882-04-30">1882</date>
+          <idno type="ARK">bpt6k81342367</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81342367</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Dimenche 30 dAbrie1882</fw>
+        <fw type="runningTitle"><lb/>Dous sou lou numerò</fw>
+        <dateline><lb/>IVo Annado — No V p. 33</dateline>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>JOURNAU POUPULARI DE LITERATURO, D'ISTORI E DE SCIENCI</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>PAREISSENT TOUTEI LEI DIMENCHE</p>
+        <p rend="styled"><lb/>Depausitàri majourau pèr Marsiho: M. Vincent, carriero Corneille, 3.</p>
+        <p rend="styled"><lb/>Abounamen:</p>
+        <p rend="styled"><lb/>Tout ço que toco lou journau dèu<lb/>èstre manda atranqui à l'Emprimarié<lb/>Prouvençalo. 15, carrièro dou Grand-<lb/>Relògi, à-z-Ais.</p>
+        <p rend="styled"><milestone unit="column" n="3"/><lb/>Les annonces, réclames et faits di-<lb/>vers sont reçus exclusivement à<lb/>l'Agence Ewig rue d’Amboise-Riche-<lb/>lieu. 9. Paris termière de la publicitt.</p>
+        <figure type="table"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>assabé</head>
+        <p rend="labelled"><lb/>— En mandant 12 franc, o en apoundènt 5 franc,<lb/>se l'abounamen dóu Bruse es deja paga, se recebe<lb/>pèr un an Lou Brusce Le Midi Littéraire. Aquéu<lb/>journau, mai que mai agradiéu, prèn cade jour<lb/>uno plaço mies marcado dins lei revisto mie-<lb/>journalo.</p>
+        <figure type="decoration"/>
+        <ab><lb/>Tomell (Section Littéraire)<lb/>GRANDE BIBLIOTHÉQUE PROVENÇALE<lb/>Directeur : ALBERT SAVINE</ab>
+        <p rend="heading"><lb/>THÉATRE DE JEAN DE CABANES</p>
+        <figure type="decoration"/>
+        <ab><lb/>PassO-TEMS — A la chambrado - Ph. Chauvier.</ab>
+        <ab><lb/>Ounte soun Flour e chato? - F. Marin.<lb/>Massena. - M. Bourrelly.</ab>
+        <list>
+          <item>POUESIO — Gramaci - Clementino Mathieu.</item>
+        </list>
+        <p rend="labelled"><lb/>CROUNICo — La court d’amour de la Mantenènço<lb/>de lengado. — Prougramo dei festo de Four-<lb/>cauqnié.— Uno letro de P. Maziero. — Letro<lb/>parisenco. — Ouferto à la Mejano. — NOVO.</p>
+        <p rend="labelled"><lb/>FUEIETOUN— Lei desastre de Barbakan. P. Marin</p>
+      </div>
+      <div type="article">
+        <head><lb/>PASSO-TEMS</head>
+        <head><lb/>A LA CHAMBRADO</head>
+        <head><lb/>MACHOUARO</head>
+        <p><lb/>Alor es mai questien de chanja lou gabinet?</p>
+        <ab type="head"><lb/>GANACHO</ab>
+        <p><lb/>Bulèu ben.</p>
+        <ab type="head"><lb/>MACHOUARO</ab>
+        <p><lb/>Despuei tres jour lei papié nous roumpou mai<lb/>lei dardèno, emé soun gabinet.</p>
+        <ab type="head"><lb/>GANACHO</ab>
+        <p><lb/>E lou gouvernament, que di pèr si resoun?</p>
+        <ab type="head"><lb/>MACHOUARO</ab>
+        <p><lb/>Que voues que digue, fa lou mut. Vesés pas<lb/>qu'es tant capoun que lou menistre.</p>
+        <ab type="head"><lb/>GANACHO</ab>
+        <p><lb/>Mai lou presidènt déurié charra, misemblo, vo<lb/>bèn es mai aqui coumo uno branco de boues,<lb/>aquèu.</p>
+        <ab type="head"><lb/>MACHOUARO</ab>
+        <p><lb/>Coumenci quasi de crèire que se lou Gouverna-<lb/>ment e lou ministre l’i avien pas seis esplingo, à<lb/>tout moumen parlarien pas de degoula lou gabi-<lb/>net. Va dounon pui trèu à coumprendre.</p>
+        <ab type="head"><lb/>GANACHO</ab>
+        <p><lb/>Acò es de bello à vèire. S'ère pas pèr soun in-<lb/>terès que n'aurien à garça que lou gabinet fou-<lb/>guèsse d'un Mai vo de l'autre.</p>
+        <p rend="heading"><lb/>DELA</p>
+        <p rend="heading"><lb/>TAULETO<fw type="digitisation-artefact"><lb/>a/B̀q </fw></p>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="1"/>
+        <fw type="runningTitle"><lb/>10BRUSC</fw>
+        <ab><milestone unit="column" n="1"/><lb/>FUEIETOUN DOU BRUSC<lb/>CHIN ERRANT DINS AVIGNOUN</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Li tènon bulèu lou pourto-fueio dou ministre.</ab>
+        <ab type="head"><lb/>MACHOUARO</ab>
+        <lg>
+          <l><lb/>Es tout just ço qu'ai fa : dóu galant troubadour</l>
+          <l><lb/>Ame de la cansoun la graci, la cando ur</l>
+          <l><lb/>E lou bèu naturau que la simplesso aflamo;</l>
+          <l><lb/>Dóu pintre, soun retra de la tourre de Lers,</l>
+          <l><lb/>'Mé si merlet daura que tronon dins lis èr,</l>
+          <l><lb/>M'an douna lou regret de n'èstre grando damo.</l>
+        </lg>
+        <ab><lb/>CLEMENTINO MATHIEU.</ab>
+        <p><lb/>léu sabi que voudrié mies que metesson un<lb/>bouen ministre que faguèsse leu demeni leis im-<lb/>pos, que toutei lei gabinet que pouedon faire.</p>
+        <ab type="head"><lb/>GANACHO</ab>
+        <p><lb/>E que lou tron soun gabinet ! 'Mé tout acò es<lb/>toujour lou paure que n'es lou dindouro.</p>
+        <ab type="head"><lb/>MACHOUARO</ab>
+        <lg>
+          <l><lb/>A ça mai qu saup ce que l'i tènon dedins?</l>
+        </lg>
+        <ab type="head"><lb/>GANACHO</ab>
+        <ab><lb/>Ph. CHAUVIER.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>POUE S1O</head>
+        <head><lb/>GRAMACI</head>
+        <head><lb/>Au felibre Enri B....</head>
+        <p rend="styled"><lb/>que m'avie manda lou retra de la Tourre de Lers.</p>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Felibre, gramaci de voste bèu castèu ;</l>
+          <l><lb/>Se noun siéu damisello e noblo castelano,</l>
+          <l><lb/>E sur li troubadour fau pas plóure, abelano,</l>
+          <l><lb/>L'ounour que d'aquéu tèms plouvié sus si mantèu</l>
+          <l><lb/>M'es avis qu'aujourd'uei coumtesso e bastidano</l>
+          <l><lb/>Podon à soun lesi, franc d’èstre rapatèu,</l>
+          <l><lb/>Aprecia li vers armounious e bèu,</l>
+          <l><lb/>Coumo li Castelas que douminon la plano.</l>
+        </lg>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>LEIS DESASTRES DE BARBAKAN</p>
+        <p rend="heading"><lb/>Pèr lou R. P. Michel Ange Marin, minime mars hés. 1784</p>
+        <lg>
+          <l><lb/>La mettet à quatre pata,</l>
+          <l><lb/>Enfin l'anet tant mau trata</l>
+          <l><lb/>Que la freme perden patience,</l>
+          <l><lb/>Li diguet : N'as tu pas counscience</l>
+          <l><lb/>De t'embriega coume un couquin!</l>
+          <l><lb/>Vay t’en aillour cuva toun vin.</l>
+          <l><lb/>Lorsque s’auzet trata d’ibrougne,</l>
+          <l><lb/>Ah! fouguet ben tale besougne!</l>
+          <l><lb/>Li calet un vilen basseou,</l>
+          <l><lb/>Que viret coume un cabudeou.</l>
+          <l><lb/>Alors avés vis une harpie?</l>
+          <l><lb/> reme si leve en furie,</l>
+        </lg>
+      </div>
+      <div type="article">
+        <head><lb/>OUNTE SOUNT FLOUR E CHATO?</head>
+        <head><lb/>A M. Fernand Antoino</head>
+        <lg>
+          <l><lb/>autour de «Flour e Chato»</l>
+        </lg>
+        <lg>
+          <l><lb/>Demalin siou ana dintre la valounado,</l>
+          <l><lb/>Siou ana sus li cou e dins lou plan,</l>
+          <l><lb/>O mai que changeamen! moun amo desaviado</l>
+          <l><lb/>A plus vis ni flour ni chato, o malan!</l>
+          <l><lb/>Troubaire que nous lis as presso,</l>
+          <l><lb/>Li chato emé li flour de mai,</l>
+          <l><lb/>Digo-nous mounte lis as messo.</l>
+        </lg>
+        <lg>
+          <l><lb/>O Felibre galoi, lis as raubado</l>
+          <l><lb/>Dins lou temps que l'escoutavian;</l>
+          <l><lb/>Dins lou tems que nous fasies ti chamado,</l>
+          <l><lb/>Que de t'ausi canta se chalavian !</l>
+        </lg>
+        <lg>
+          <l><lb/>Ah! va ben! lis as vestido</l>
+          <l><lb/>D'un abi dimenchau bèu mai que mai !...</l>
+          <l><lb/>Mesclado au mèu dóu Bruse an enca de sentido?</l>
+        </lg>
+        <ab><lb/>FIrMIN MARIN.<fw type="digitisation-artefact"><lb/>e gallica.bnf.fr / Bibliothèques de Ma</fw></ab>
+        <lg>
+          <l><lb/>Et l'escarpine lou mentoun.</l>
+          <l><lb/>Lou Rabin sesissé un bastoun,</l>
+          <l><lb/>Et li refresque soun esquine,</l>
+          <l><lb/>Talament que dame Rabine,</l>
+          <l><lb/>De grande feblesse toumbet.</l>
+          <l><lb/>A dounc lou beou père arribet,</l>
+          <l><lb/>Quand vés que li battet sa fille,</l>
+          <l><lb/>Tout soun ancien fuëc si reville,</l>
+          <l><lb/>Metté la man sur un gourdin,</l>
+          <l><lb/>Et saute dessus lou Rabin.</l>
+          <l><lb/>Vé leis à qui dounc tous en vogue,</l>
+          <l><lb/>S’entendien de toute la jogue.</l>
+          <l><lb/>Lei judieoux courreroun d’abord,</l>
+          <l><lb/>Afin de lei mettre d'accord.</l>
+          <l><lb/>Vesen qne si batien ençare;</l>
+          <l><lb/>Chascun cride, chascun separe,</l>
+          <l><lb/>Mais leissen tout aqueou saguan,</l>
+          <l><lb/>Et retournen à Barbakan.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+    </body>
+  </text>
+</TEI>

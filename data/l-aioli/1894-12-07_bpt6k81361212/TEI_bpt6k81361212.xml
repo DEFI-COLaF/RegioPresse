@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81361212</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1894-12-07">1894</date>
+          <idno type="ARK">bpt6k81361212</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81361212</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>QUATRENCO ANNADO, No 142.</fw>
+        <fw type="runningTitle"><lb/>DIVENDRE, 7 DE DESEMBRE 1894.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>E faren Paiti.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Vidoun, Vidau,<lb/>Lou journau.</ab>
+        <ab><lb/>(Prouverbi di méissounie)</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17,27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN</p>
+        <ab><lb/>VSUREU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI,<lb/>au palais dóu Roure,<lb/>EN AVIGNOUN</ab>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>Baile dóu journau:<lb/>FoLCO DE BARONCELLI</p>
+      </div>
+      <div type="article">
+        <head><lb/>la proso prouvençalo</head>
+        <p><lb/>On! d'aquéli mau-m'agrado! En vesènt<lb/>nosto lengo enfanta de pouèmo coume<lb/>jamai se n'èro vist en terro de Prouvènço,<lb/>e despièi quaranto an jita de pouesio à bèl<lb/>eime e de touto meno, la cresien incapablo<lb/>de partouri la proso. E m'acò vague de crida:<lb/>tant que nous farés ges de proso, vosto lengo<lb/>sara pas presso au serious !</p>
+        <p><lb/>Avian bèu ié respondre: mai agantas lis<lb/>armana, aquéli d'Avignoun, de Carpentras e<lb/>de Marsiho; n'en trouvarés aqui, de proso, e<lb/>de la chanudo e de la requisto, pastado dins la<lb/>mastro de nòsti majourau! Ah ! pas mai,<lb/>Roumaniho avié bèu larga au pople si Conte<lb/>prouvençau e sis Oubreto en proso; Frederi<lb/>avié bèu escampa de tèms en tèms quauque<lb/>tros de si Memòri; avié bèu, Cadet Vidau,<lb/>nous douna sa Metodo pèr jouga dóu tambou-<lb/>rin, e La Sinso si Sceno de la vido prouvençalo,<lb/>e Miquèu soun Istori de la vilo d'Eiguiero.<lb/>Avié bèu, lou fiéu de Gelu, publica de soun<lb/>paire lou sabourous Nouvè Granct. Noun, tout<lb/>acò coumtavo pas, e n'èro bon lou Felibrige<lb/>que pèr counta o canta floureto.</p>
+        <p><lb/>Sacre couquinas de goi ! Li jouine alor se<lb/>i'encarèron. Ah! n'en voulès de proso ? Tè,<lb/>vaqui Li Papalino de Fèlis Gras, pèr vous<lb/>candi ; tè, dóu Paire Savié vaqui La creacioun<lb/>dóu mounde; tè, vaqui Lis idèio de Banastoun<lb/>de Charle Boy; tè, voulès de rouman? vaqui<lb/>Agueto, aquéu de Maurise Raimbault, e vaqui<lb/>Bagatóuni, lou de Valèri Bernard. N'en voulès<lb/>mai ? veici li Memòri d'un gnarro!</p>
+        <p><lb/>Aquesto fes vous plagneiriés pas : n'avès<lb/>uno aqui de proso que, de miés avengudo, de<lb/>mai revertigueto e mai gaiardo e aboundouso,<lb/>aurias proun obro à n’en trouva. Aqui fau bèn<lb/>que digués sebo. Tant que lis escandihado de<lb/>Batisto Bonnet fasien babòu que dins L'Aiòli,<lb/>poudias dire qu'acò n'èro qu'un fiò de paio,<lb/>qu'autant n'empourtarié lou vènt. E meme, ço<lb/>qu'es amusant, tau qu’au-jour-d'uei crido<lb/>miracle en parlant d'aquéli memòri, n'en fasié<lb/>pas mai cas que d'un culachoun de figo blan-<lb/>queto, tant qu'acò pareissié que dins li journau<lb/>prouvençau, valènt-à-dire tant que Daudet<lb/>n'avié rèn di. Mai aro que li raconté dóu pichot<lb/>Brisquimi an pareigu en librarié de Paris,<lb/>vers Dentu, emé lou prouvençau d'un caire,<lb/>e la traducioun à dre, de la man de Daudet —<lb/>que n’es amourousi, e n’en fai pas pichoto<lb/>bouco, faudra bèn que lou counfessés, que li<lb/>Prouvençau an sa proso e que sa proso fai<lb/>n'Ta pas pèr li darrié.</p>
+        <p><lb/>Brave Bounet ! se poudiés saupre lou plesi<lb/>que nous fai de vèire triounfla en tu, de vèire<lb/>fruteja pèr tu aquelo lengo dóu terraire que<lb/>tant de nèsci e de bòchi vuei s’esperforçon</p>
+        <p><lb/>Car. piei se fau tout dire, ié sian un pau<lb/>interessa. Es que, pèr Santo Estello, l'a tout-<lb/>aro tres an, i grand Jo Flourau setenàri, lou<lb/>counsistòri felibren noun t'avié declara lou<lb/>gau de nosto proso ? Sian pas de niais, belèu!</p>
+        <p><lb/>Mai, anen, parlen pas de ço que facho : vuei</p>
+        <p><lb/>Sabès pas, i'a sèt an, ço que nous escrivié<lb/>lou paisan qu'es vuei en glòri : « Ame lou<lb/>prouvençau coume un enfant amo sa maire,<lb/>d'aqui vèn belèu lou trop d'amour e d'aban-<lb/>doun que ié mete en l'escrivènt. Pamens<lb/>coume es foço plus dous d'ama que d'ahi, me<lb/>laisse ana vers li gènt, vers li causo, emé la</p>
+        <p><lb/>Coume voulès pas qu'aquéu drole noun<lb/>nous ague escri un libre relènt e redoulènt de<lb/>vido prouvençalo? A fa coume l'aucèu que,<lb/>dins soun riéu-chiéu-chiéu, nous n’en dis<lb/>cènt cop mai e cènt cop mai nous plais que<lb/>tóuti li musico e ourfeon de Pamparigousto.<lb/>E aquéli que disias que nosto lengo es esvalido<lb/>e que lou pople la saup plus, escoutas coume<lb/>la gaubejo aquéu garroun de Bello-Gardo.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Ah! Berteto, Berteto, vos adounc que te mangen l<lb/>gauto, que nous gastes ansindo?</p>
+        <p><lb/>Ma bono maire sourriguè de bonur : èro tant urouso,<lb/>quand vesié lou paire de sis enfant en jolo ! Ah! soun<lb/>ome, soun galant Salumè, lou plus grand di terraioun<lb/>d'Arle ! lou miés engaubia, lou mai adré dis ome dóu<lb/>pals, lou plus fort e lou plus tendre de tóuti; se l'amavo?</p>
+        <p><lb/>N'èro destimbourlado ; sa vido éro qu'un cerco-plan à<lb/>l'adourna so in eisistenci. Dequé-z-éron lis autris ome à<lb/>coustat dóu siéune? Nl'avié pas cap que f'anesson à la</p>
+        <p><lb/>Salumé eici, Salumè eilai, toujour Salumé, car soun<lb/>Saluoié ero soun gréu, soun réi, soun diéu ! Vesié qu'éu<lb/>au mounde : e soun amo s'enchusclavo à sa paraulo; e<lb/>demouravo que-noun-sai counfuso e treboulado à l'enda-<lb/>vans de si desir, la pauro !</p>
+        <p><lb/>Moun paire durbigué soun coutèu e pièi, segound sa<lb/>coustumado, faguè la crous au pan en disènt: « Terro<lb/>que portes bèu blad, soulèu que l'amadures, au noum<lb/>dou Paire, dóu Fiéu e dóu Sant Esperit ; bon pan d'ous-<lb/>tau, tèndre o dur, pan bagna de susour, siegues de-longo<lb/>sus la taulo, pèr nous fourtifica, nous ajuda à derraba<lb/>nosto vidasso, coume lis ounèsti gènt, en trimant !»</p>
+        <p><lb/>Pièi, en s'adreissant à ma maire:</p>
+        <p rend="labelled"><lb/> Sabes, Berteto, qu'aquest matin avèn fa parla II</p>
+        <p rend="labelled"><lb/>De-bon, te siés decida?</p>
+        <p rend="labelled"><lb/>10,o, d'aro-en-lai anaren plus de porto en pinto!<lb/>Acò 's fa. Sian prouprietàri d'uno vigno, amoundaut au<lb/>Plagnòu, sabes ounte te vole dire? En tirant dóu coustat<lb/>di garrigo de Mandiuel... Ié siés pas sai-que? Aqui pas<lb/>bén liuen dóu maset de l'Arna... N'l'a sèt eiminado, tant<lb/>vau dire dès-e-vue-cènt sonco, emé sièis poulldi figuiero</p>
+        <p><lb/>Perdine, es bèn un pau ermassido, mai basto! aqueste<lb/>ivèr, la passarai au bigot; emé cinq o sièis léio d'óulivié<lb/>e quauquis amelié que lé plantarai, d'eici-gaire auren de<lb/>igo sus li canisso, de liame de rasin i traveto, d'amelo,<lb/>de nose, d'oli e d'óulivo, pèr l'annado... Saren sauva!</p>
+        <p><lb/>Entre nautri, fraire e sorre qu'erian, nous espinchavian<lb/>en bevent li paraulo de moun paire; fasian bouqueto, un<lb/>aire de flerta s'emplanavo sus nòsti jóuni caro c, dins li<lb/>cop d'iue que nous dounavian, semblavian nous dire:</p>
+        <p rend="labelled"><lb/>— Que vèngon mai nous narga 'mé si blanquiero,<lb/>aquéli marrias de drole que volon pas jouga 'mé nautre, à<lb/>causo que sian paure! De vigno? ié diren, mardiéu, n'a¬<lb/>ven mai que vautre, emé tóuti vosti blanquiero !... N'avèn</p>
+        <p rend="labelled"><lb/>— Moun brave ami, — faguè ma maire qu'èro restado<lb/>plantado i paraulo de moun paire, — sabe que co que fas<lb/>es toujour ben fa, mai, e aro, digo, per paga?</p>
+        <p rend="labelled"><lb/>— Pèr paga? apoundeguè moun paire, en fasènt dansa<lb/>d'à plat soun coutèu sus la taulo, oh! ma poutounarello<lb/>de Berteto, creses adounc que l'a de bren dins aquéli<lb/>bras? Regardo-me-ll, ve, e digo-me, ma bono, s'emé d'a-<lb/>judo ansin, dous bons estivage e la santa, la vigno sara<lb/>pas lèu pagado? E pièi, es que nous ié metren pas touti?<lb/>Tu de toun coustat, léu dóu miéune; Catarinet, emé lou<lb/>Glàudi e lou Jaque á la man, s'anaran acampa d'erbo dins<lb/>Il valat, long di ribo, entremen que lou Brisquimi,<lb/>em'uno barioto que ié vau faire, s'amatinara per ll camin<lb/>double-diéune ! e te n'acampara d'aquéli bòuso pèr fema<lb/><lb/>la vigno! Veiras acò, Berteto, veiras acò! An, zóu! femo,<lb/>enfant, paras vòsti got, tron d'un bon goi! luei es pas lou<lb/>jour de béure à la bacino ; vengue la mourescaudo e que<lb/>n'en toumben un bon, en l'ounour di premiéri bourro de<lb/>la champino, double sause ! Graci à Diéu, sian prouprie-</p>
+        <ab><lb/>c se vie d'enfant.)</ab>
+        <ab><lb/>Hatisto Bonnet.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Sian Prouprietàri</head>
+        <p><lb/>dimenche dóu mes de febrié, erian à l'entour de la<lb/>taulo qu'esperavian moun paire. Plóuvié à bro, l'aigo<lb/>courrié en boudiflant dins li carriero; quand, tout-d'uno,<lb/>moun paire faguè soun arribado, sènso paro-plueio,<lb/>trempa, bagna coume rat-griéure.</p>
+        <p><lb/>Quand se fugué̀ seca, lou veguerian veni s'assèire au<lb/>bout de la taulo, sus uno vièlo cadiero de sause à mita<lb/>desempaiado, que nous venié de moun grand, e que<lb/>moun paire preferavo, à causo, nous disié, que sa maire<lb/>ero d'aqui que l'avié douna li braio, e, coume lis avié<lb/>toujour bén pourtado, li braio, s'ensupavo que la cadiero<lb/>P'ero pèr quicon: amavo tant ma grand, moun paire!</p>
+        <p rend="labelled"><lb/>Eh ! ben, mis enfant, nous fagué 'nsin, en s'esca-<lb/>assant sus sa princesso (es antau qu'apelavo sa cadiero),<lb/>vous ai fa ben espera, bèn chala! devès agué talènt,<lb/>parai? Mai agués pas de làgui, boutas, lis anan faire tra-<lb/>vaia, li trissadouiro. Boudiéu ! quete chaple ! Anen,<lb/>Berteto ! Soun pas cuecho aquélis arencado, que lis<lb/>esploumassen? Dau! dau ! Viedanco, coume ronssejon<lb/>bèn dins l'òli !... Dequé ! lis as enfarinado? Es pas estou-<lb/>nant que Catarinet li devourigue dis lue coume lou fai !<lb/>Ne, lou Jaque, ve, lou Glaudi! ve, lou Brisquimi! Coume<lb/>badon !... Al ! d'aquéli couquin ! crese que n'en van qui-<lb/>cha uno coume d'ome ! .. E dequ'es acò qu'es ellai, que<lb/>gargoto dins loulo? De faviòn ! e l'a deja de cebo e d'óu¬<lb/>livo sus la taulo !... Bono Maire dis ange ! Queto riboto<lb/>anan faire, mis enfant! queto papo ! queto papo ! O<lb/>mis ami de Diéu !</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Campana de Magalouna</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7350081z</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Campana de Magalouna : journal populàri que parei lou 1è e lou 15 de toutes lous meses</title>
+          <publisher>[s.n.] (Mount-Peliè)</publisher>
+          <date when="1896-10-01">1896</date>
+          <idno type="ARK">bpt6k7350081z</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7350081z</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Cinquièma annada. — No 104</fw>
+        <ab><milestone unit="column" n="2"/><lb/>Un double sou:<lb/>Zou! quau n’en vou ?</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Dau 1^e au 15 d'Otobre 1896.</ab>
+        <figure/>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/>dournal poupulan das felibres de Mount-Peliè que paret l' e lou 15 de toutes lous meses</p>
+        <ab><lb/>ABOUNAMEN:</ab>
+        <ab><lb/>Aministracioun e Redacioun<lb/>15, carrieira dau Chival-Verd, à Mount-Peliè</ab>
+        <p rend="styled"><lb/>Per las anounças e las reclamas.<lb/>S'adressà à l'Agence Fages, rue Poiterine, 4. Montpellier</p>
+        <ab><lb/>Un An.... Quaranta sous</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Lras Fèstas d’Alès</head>
+        <figure type="decoration"/>
+        <p><lb/>PSTEs letous arremarcaran qu'aqueste nu¬<lb/><lb/>mero, counsacrat enticiramen à las fèstas<lb/>felibrencas d'Alès, es escrich noun pas en<lb/>mount-pelieirenc couma lous autres, mès en<lb/>parlà de las Cevenas. Aqueste numero s'es ven-<lb/>dut en Alès, é en quatre jours se n'es enlevat cinq<lb/>mila esemplàris. Es per s'assoucià à l'oumage<lb/>rendut à Pasteur, à Florian e à l'abat de Sau-<lb/>vages, per la vila d'Alès, que la Campana de<lb/>Magalouna, unida à l'escola felibrenca qu'à soun<lb/>sèti dins la capitala cevenola, publica aqueste<lb/>numero escrich en lenga raiola. Per un cop<lb/>nostes bons letous clapassiès s'en facharan pas,<lb/>au countràri. Lou cop que vèn faren lou raconte<lb/>d'aquelas féstas e dau sucès espetacious dau<lb/>Selibre majouran Albert Arnavielle, qu'a parlat<lb/><lb/>tant en soun noum d'enfant d'Alès, que couma<lb/>representant de la Mantenença de Lengadoc e<lb/>dau Parage de Mount-Peliè. Nostes letous an<lb/>vist adejà, per la letura de l'Eclair e dau Petit<lb/>Meridional, couma noste car Arnavielle es estat<lb/>festejat per sous coumpatriotas e toutas las<lb/>noutabilitats reünidas en Alès.</p>
+        <p><lb/>Racountaren atabé tout lou sucès óutengut en<lb/>vila d'Alès per lou Roburferige latin. Aqui riren,<lb/>e, sans mai faire esperà, diguen que, enclausit<lb/>de tout ço bèu fach en Alès per lon Roburferige,<lb/>un das representants dau gouvernamen francés<lb/>qu'èroun à las fèstas aleseneas a decidat lou<lb/>gouvernamen a faire gravà, antau que lous<lb/>journals hou an anounçat, lou noum de Robo<lb/>sus lou martèl que servirà au Czar per pausà la<lb/>premièira peira dau nouvèl pont de l'Espausi-<lb/>cioun de Paris, lou pont das Czars. E couma<lb/>aquel martel es en ferre (la remarca es d'un das<lb/>mai esperitats Manjo-Tripos que demoroun au<lb/>Clapàs), aco fai en francés : Roburfer.</p>
+        <p><lb/>Pura galejada, coumprenès, car i'a dejà long-<lb/>tems que lou matable de nosta Campana a'scra¬<lb/>chat la tèsta de la serp cantada per Roumiéu.<lb/>E pamens fai mina de boulegà, quauca fes, la<lb/>p. cura lou matable.<lb/></p>
+      </div>
+      <div type="article">
+        <head><lb/>En L'OUNoU de SAUVAGE</head>
+        <lg>
+          <l><lb/>Moun grand (davans Diéu slègue !.. Oh! vrai!)</l>
+          <l><lb/>Me fasiè: — Pichot, se siès sage.</l>
+          <l><lb/>Aqueste vèspre, te dirai</l>
+          <l><lb/>Quicon de Moussu de Sauvage.</l>
+        </lg>
+        <lg>
+          <l><lb/>O lon bon tems qu'un grand nous trai</l>
+          <l><lb/>Quauco sourneto en viel lengage !...</l>
+          <l><lb/>Demandas s'alor ère gal!</l>
+          <l><lb/>Acò vouliè mièl qu'un image.</l>
+        </lg>
+        <lg>
+          <l><lb/>També vène te saluda,</l>
+          <l><lb/>Bon curat, pasta de bounta</l>
+          <l><lb/>E de jouinesso e de genio:</l>
+        </lg>
+        <lg>
+          <l><lb/>Tous reprouvèrbis cevenous,</l>
+          <l><lb/>Ples d'uno amistouso irounio.</l>
+          <l><lb/>Soun fres coumo de roussignous.</l>
+        </lg>
+        <p rend="styled"><lb/>US PELIBRE RAOU.</p>
+        <figure/>
+        <p><lb/> tout segnou. tout ounou. La premièiro<lb/> capelado dau Cascavel cevenon deviè,<lb/>fourçadamen, éstre per lou bon abat de<lb/>Sauvage. Lous dous autres eròs de nostos fèstos<lb/>alesencos podou pas s'en saupre mau, car eles<lb/>an prou sa grando part de glòrio franceso, per<lb/><lb/>laissa libres de festeja lou mai que pourren<lb/>aquel que, en counsignant dins soun diciounàri<lb/>lous mots de la lengo que foço cresièu morto,<lb/>re en nourriguent l'amo e l'esprit de touto uno<lb/>generaciéu embé la douço flionsoufio d'uno<lb/>rambaiado de reprouvèrbis terrenaus, s'amerito<lb/>lou titre de grand precursou dau Felibrige, dau<lb/>Felibrige vengu à soun ouro per faire reprene<lb/>au Miejour counscienço de ço qu'es esta, de ço<lb/>qu'es e de ço que sara.</p>
+        <p><lb/>Lou noum de Sauvages es mai qu'uno glòrio<lb/>loucalo. L'abat de Sauvages éro el-mème un<lb/>savent pas de tiro-t'en lai, pièi-que s'atrouvavo<lb/>en raport embé las premièiros ilustraciéus sabe-<lb/>rudos de soun tems. Mès dequé dire de soun<lb/>fraire lou medeci, proufessou à l'Universita de<lb/>Mount-Peliè, connegu jusquos à iuei souto lou<lb/>noum de grand Sauvages? Soun parent, Moussu<lb/>lou douton Grasset, lou proufessou eminent de<lb/>Mount-Peliè, a di quau èro dins un libre que<lb/>ven de publica.</p>
+        <p><lb/>L'abat e lou medeci de Sauvages, glòrios bes-<lb/>sounos ! A Moussu l'abat de Rafèlis de Broves,<lb/>qu'a tant escri per faire mièl couneisse e aima<lb/>l'abat de Sauvages, revèn l'ounou de la journado<fw type="digitisation-artefact"><lb/>oure alicab.f/Montpellier Médterranée étroole -Médaeqe cenrle Eme </fw></p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>FXOURXAX</head>
+        <p><lb/>ο noum de Flourian en quau nosto capi¬<lb/>talo cevenolo vèn d'auboura uno estatuio<lb/>mounumentalo es trop counegu, i'a tant<lb/>de journals, aquestes darriès tems, qu'an fa la<lb/>biougrafio de l'escrivan, qu'es pas necessàri de<lb/>n'en dire mai aici sus el.</p>
+        <p><lb/>Marcaren soulamen aiço : l'amour que Flou¬<lb/>rian aviè per sa terro cevenolo e que se mani-<lb/>fèsto dins soun obro d'Estelle et Némorin, la<lb/>mai counegudo de toutos sas obros, aquel<lb/>amour fai que Flourian apartèn autant au Feli-<lb/><lb/>brige qu'à las Letros francesos. La provo n'es<lb/>que lous Felibres de Paris l'an pres per<lb/>soun patroun e que cade an van faire fèsto en<lb/>soun ounou à Scèus, ounte i'a sa toumbo. Disèn<lb/>mème, en veguent las ideios dau Felibrige-<lb/>gagna toujour nostes pais, que Flourian viéura<lb/>belèu mai un jour dins la memòrio das Mie-<lb/>journaus per sa simplo roumanso lengadouciano<lb/>d'Estello que per tout soun bagage francés.</p>
+        <p><lb/>Parieiramen, quau parlariè de nautres, feli-<lb/>bres, s'avian fa d'obros franchimandos?</p>
+        <p><lb/>Lou bon Flourian patrioto! Escontas ço que<lb/>dis vers la fin de soun libre d'Estelle et Némorin:</p>
+        <p rend="labelled"><lb/>— Ah! que ne puis-je au moins espérer que<lb/>ma dépouille mortelle sera portée dans le vallon<lb/>où, enfant, j'ai vu bondir mes agneaux ! Que ne<lb/>puis-je être certain de reposer sous le grand<lb/>alicier où les bergères du village se rassemblen<lb/>pour danser!</p>
+        <p><lb/>Aquelos lignos an touto la valou d'un testa-<lb/>men. La vilo d’Alès, lou païs dau Gardou d'Alès,<lb/>lou Coumitat Flourian que M. Emile Delfieu<lb/>n'es lou president, mièl, l'amo, an fa toutes soun<lb/>devé per l'obro de glourificaciéu de l'escrivan<lb/><lb/>dau 27 de setembre, que marcara sa bravo osco<lb/>dins las annalos de la vièio ciéutat d'Alès.</p>
+        <p><lb/>Embé l'ajudo de quauques autres bons patrio-<lb/>tos, l'obro s'es menado à soun coumplimen, e<lb/>tout efant d'Alès que vendra saluda la douço<lb/>figuro de l'abat pourra se dire :</p>
+        <ab><lb/>Raco racejo, meno menejo.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

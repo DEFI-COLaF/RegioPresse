@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136231s</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1897-12-27">1897</date>
+          <idno type="ARK">bpt6k8136231s</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136231s</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>DILUN, 27 DE DESEMBRE 1897.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>SETENCO ANNANO, Vo 252<lb/>Nautri, li bon Prouvençan<lb/>Au sufrage universau,<lb/>E faren l'aisti.</ab>
+        <ab><milestone unit="column" n="4"/><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>(Prouverot di meissounie,</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17, 27)</p>
+        <figure/>
+        <figure/>
+        <p rend="heading"><lb/>EURÉU DE REDA<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BANONCELLI<lb/>au palais dóu Roure,<lb/>EN AVIGNOUN</p>
+        <p rend="heading"><lb/>PRES OE L'ABOUNAMEN</p>
+        <figure type="table">
+          <head><lb/>Baile dou journau</head>
+        </figure>
+        <figure type="decoration"/>
+        <ab><lb/>FOLCO BE BARONCELLI</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>A nòstis Abouna</head>
+        <p rend="styled"><lb/>Fasèn assaupre en tóuti li bràvi candoulié que,<lb/>desempièi set an, an mantengu l'Aiòli de soun<lb/>abounamen fidèu, emai i nouvèus abouna, que ié<lb/><lb/>dounaren pèr estreno la tnulo setenari de<lb/>noste journalet. Aquel ensignadou, que counten-<lb/>dra l'endico de tout ço que s'es publica despièi set<lb/>an dins aquéu recuei, sara lou repertòri de nosto<lb/>rencissenço e de si proutucicun dins touto aquelo<lb/>pountannado.</p>
+        <p><lb/>La Taulo de l'Aiôli vai pareisse en janvié.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>ANFOS DAUDET</head>
+        <p><lb/>La mort d'Anfos Daudet a ravi à la Franço<lb/>lou plus gènt, lou mai ama de si roumansié<lb/>ilustre, à la Prouvènço un dis engèni li mai<lb/>empren de sa flamado, li mai galoi de soun<lb/>soulèu. Noun l'a que d'espincha la plus-part<lb/>de sis obro, li Lettres de mon Moulin, Numa<lb/>Roumestan, Le Nabab, e lou tras que celèbre<lb/>Tartarin de Tarascon, e L'Arlésienne e d'en<lb/>darrié Le Trésor d'Arlatan, pèr vèire que Prou-<lb/>vènço, mau-grat lis amarun de sa peniblo cou-<lb/>mençanço, l'avié touto sa vido treva dins la<lb/>cabesso. Es d'aquelo trevanço qu'a raia dins<lb/>si libre l'escàfi riserèu dóu prouvençau alègre<lb/>— que se galejo éu-meme emé tóuti li siéu,<lb/>pèr espanta e abriva li darnagas que l'envi-</p>
+        <p><lb/>E d'ounte avié giscla la belugo inmourtalo¬<lb/>la belugo d’amour e d’emoucioun relènto<lb/>qu’escarrabiho e qu’acalouro l'èime linde de<lb/>Daudet, tóuti li fes qu’éu toco en ribo prou-<lb/>vençalo, esmara qu'es pèr soun destin dins la<lb/>maneflarié dóu Nord? es (ço que res a di, pèr¬<lb/>co qu'acò nous apartèn), es dóu trelu de santo<lb/>Estello, dóu fougau meravih ous que, quand<lb/>Anfos Daudet prenié si quatorge o quinge an,<lb/>venié de s’abra à Font-Segugno. Daudet, tout<lb/>coume Areno, e tóuti dous ensèn, s'abariguè-<lb/>ron i cansoun, s'enantiguèron dins la joio dóu<lb/>Felibrige proumieren. E pèr éli toustèms, en<lb/>despié de Paris que lis embelinavo, a ò di<lb/>bord dóu Rose restè lou paradis perdu. N'i'a<lb/>ges de meiéu provo que lou raconte que seguis,<lb/>raconte vertadié pareigu l'a sèt an dins l'Ar¬<lb/>mana prouvençau e que se ié pòu bèn douna<lb/>pèr epigr. fo eiçò de Maurice Barrès:</p>
+        <p><lb/>Personne n'a aimé la vie comme le grand hom-<lb/>me de lettres qui vient de mourir. Quelle lumi¬<lb/>neuse gaieté, quelle grace fougueuse de la vingtiè-<lb/>me année encore toute fraiche quand il parlait<lb/>de sa jeunesse, de ses grandes journées données à<lb/><lb/>l'amitie, au soleil, à l'expansion, là-bas, avec</p>
+      </div>
+      <div type="article">
+        <ab><lb/>– Vitamen, vai nous querre un platèu argentan.</ab>
+        <ab type="head"><lb/>XA RIBOTO DE PRENCO-ØAIO</ab>
+        <figure type="decoration"/>
+        <p><lb/>Anfos Daudet, à four de plumo, dins si remémbre de<lb/>jouinesso (Lettres de mon moulin e Trente ans de Paris)<lb/>a counta quàuquis-uno de sis escavartado emé li prou-<lb/>mié felibre, à Maiano, en Bartalasso, i Baus, à Casteu-<lb/>Nòu, — dise: emé li felibre de la proumiero lèvo, que<lb/>d'aquéu tèms, de-longo, à través de Prouvenço, courrien<lb/>la patantéino, pèr lou plasé de courre e de s'escarrabiha,<lb/>subre-que-tout pèr retrempa lou Gai-Sabé nouvèu dins<lb/>lou viéi nai dóu pople. Ma, se n'en manco, a pas tout<lb/>di, e fau que léu vous conte uno galoio escapaduro que<lb/>faguerian ensèmble, la tout-aro trento an.</p>
+        <p><lb/>Daudet, d'aquelo epoco, éro secretari dóu Du de Morny;<lb/>— secretàri d'ounour, coume bèn poudès crèire, car tout-<lb/>au mai s'anavo, lou jouvènt, uno fes pèr mes, véire se<lb/>soun patroun, que presidavo lou Senat, éro galard e dins<lb/>si bono. E sa vigno de gres, qu'a douna desempiêl tant<lb/>de forti destrencho, n'ero qu'à sa proumiero fueio. Mai,<lb/>entre autri miniaturo, éu avié fa'no mignouneto poueslo<lb/>d'amour, aguènt pèr noum Les Prunes — que tout Paris<lb/>sabié de cor. E Moussu de Morny, dins un saloun, l'a-<lb/>guent ausido, s'ero fa presenta l'autour, que l'avié agrada,<lb/>e éu l'avié pres en gràci.</p>
+        <p><lb/>Senso parla de soun esprit — que levavo la paio,<lb/>coume se dis di pèiro fino. — Daudet éro poulit garçoun,<lb/>brun palineu, emé d'iue negre à ciho longo que batien,<lb/>uno barbo neissento, e 'no cabeladuro aboundouso e<lb/>fougouso que f'acatavo lou coutet. Talamen que lou Du,<lb/>chasco fes que l'autour de la cansoun di Pruno lou venié<lb/>vêire à la Chambro-Auto : «Eh! bèn, pouèto, lé fasié<lb/>(en ié toucent lou péu de soun det auturous), aquelo<lb/>pamparrugo, quouro la fasèn toumba?»</p>
+        <p rend="labelled"><lb/>— «La semano que vèn, Mounsegne ! » en se clinant<lb/>respoundié lou pouèto.</p>
+        <p><lb/>E 'm'acò, tóuti li mes, lou grand Du de Morny fasié<lb/>au pichot Daudet la memo óusservacioun, e toujour lou<lb/>poueto lé respoundié la memo causo... E lou Du toumbé<lb/>Quleu que la creniero de Daudet.</p>
+        <p><lb/>D'aquel age, fau dire, lon futur crounicaire dis Aven-<lb/>turo proudigiouso de Tartarin de Tarascoun, déja, ero un<lb/>calandre que vesié courre lou vènt : afouga per tout cou-<lb/>neisse, audacious à la gando e franc de parladuro, se<lb/>lançant à la nado dins tout ço qu'èro vido, lumiero, brut<lb/>e jolo, e demandant que peiròu rout. Avié d'argênt-viéu</p>
+        <p><lb/>Me souven d'uno sero que soupavian au Chaine-Verd<lb/>(un brave cabaret dis enviroun avignounen). Daudet,<lb/>tout-à n-un cop, ausènt vers li vesin la founfoni d'un<lb/>bal que se trouvavo en contro bas de la terrasso mounte<lb/>erian, lé sautè, se vous disiéu, de dos cano d'autour, e<lb/>toumbé, à travès li vise d'uno triho, au beu mitan di dan¬<lb/>sarello — que lou prenguèron pèr un diable.</p>
+        <p><lb/>Dóu Pont dóu Gard, un autre cop, sénso saupre nada<lb/>se cabussè au Gardoun, pèr vèire se i' avié forço aigo;<lb/>e, sènso un pescadou que l'averè 'mé sa partego, moun<lb/>paure Anfos, de tout segur, bevié lou bouloun de vounge</p>
+        <p><lb/>Un autre cop, au pont que meno d'Avignoun à l'isclo<lb/>de la Bartalasso, escalavo, aquéu moustre, sus la para-<lb/>bando primo, e ié courrènt dessus, au risque de se des-<lb/>baussa peravau dins lou Rose, cridavo, pèr espanta<lb/>Diéul que fterian au Rose lou cadabre de Bruno.<lb/>dou mareschau Bruno ! e que serve, acò, d'eisèmple,<lb/>Franchimand e Alabroge que vendran mai nous garcejal»</p>
+        <p><lb/>Dounc, un jour de setèmbre, reçaupère, à Maiano, uno<lb/>menudo letro dóu coulègo Daudet, uno d'aquéli letrouno<lb/>coume de fuclo de juvert, ben couneigudo de sis ami, e<lb/>dins laqualo me disié :</p>
+        <p rend="labelled"><lb/>« Moun Frederi, deman dimècre, partirai de Font-<lb/>Vièio pèr te veni à l'endavans enjusquo à Sant-Grabié.<lb/>Mathiéu e Grivolas nous vendran rejougne aqui pèr lou<lb/>camin de Tarascoun. Lou rendès-vous es à la begudo,<lb/>ounte t'esperan vers ll nòu ouro o nou ouro e miejo. E<lb/>'m'acò, vers Sarrasino, la bello oustesso dóu quartié,<lb/>aguent ensèn esquicha 'n age, partiren d'à pèd pêr Arle.<lb/>Manquésses pas... Toun Capeiroun-Rouge.</p>
+        <p><lb/>E, au jour di, entre vuech e nòu, à Sant Grablié nous<lb/>trouverian tóuti, au pèd de la gleiseto que gardo la<lb/>mountagno. Vers Sarrasino chiquerian uno agrioto à<lb/>l'aigo ardènt. E fai tira sus la routo blanco.</p>
+        <p rend="labelled"><lb/>— N'avèn encaro forço, au cantounlé demanderian,<lb/>pèr nous gandi à n-Arle?</p>
+        <p rend="labelled"><lb/> Quand sarés, nous respoundegue, dre de la Toumbo<lb/>de Rouland, n'aurés encaro pèr dos ouro...</p>
+        <p rend="labelled"><lb/>— Ounte es aquelo toumbo ?</p>
+        <p rend="labelled"><lb/>— Eilalin, ounte vesès uno floto de cipres, sus la<lb/>dougo dóu Vigueirat.</p>
+        <p rend="labelled"><lb/>— E aquéu Rouland?</p>
+        <p rend="labelled"><lb/>— Ero, pèr ausi dire, un famous capitàni dou tèms di<lb/>Sarrasin... Li dènt, boutas, segur, dévon pas ié faire mau.—</p>
+        <p><lb/>Salut, Rouland ! Aurian pas di, entre grata camin, de<lb/>rescountra vivènto, au mitan di gara e dis estoublo dóu<lb/>Trebon la legendo e ja glòri dóu coumpagnoun de Carle-<lb/>Magne... Mai zóu! patin patan, davalerian en Arle,<lb/>ounte l'Ome de Brounze picavo li miejour, quand, tóuti<lb/>blanc de pòusso, intrerian à la porto de la Cavalarié. E, à<lb/>l'hôtel Pinus, coume avian, vous dirai, lou vèntre à<lb/>l'espagnolo, anerian tout-d'un-tèms dina.</p>
+        <p><lb/>Nous serviguèron pas trop mau... E, sabès? quand<lb/>sias jouine, ami coume de gréu e countent d'èstre en vido,<lb/>l'a rèn coume la taulo pèr descadaula lou rire emé ll</p>
+        <p><lb/>Ta quaucarèn, tant soulamen, que nous fichimassavo.<lb/>Un garcoun en vèsto negro, la tèsto empoumadado, emé<lb/>dous favourit tau que de destaragnadou, éro à noste en-<lb/>tour de-longo, la servieto sus lou bras, que nous quitavo<lb/>pas de l'iue e, souto lou pretèste de chanja nosti sieto,<lb/>simplamen escoutavo tout ço que disian de fou.</p>
+        <p rend="labelled"><lb/>- Voulès que lou faguen parti, aquel espèci de ma¬<lb/>nefle ? digué Daudet despacienta....</p>
+        <p rend="labelled"><lb/>— Pieti, moussu!</p>
+        <p rend="labelled"><lb/>Pour de quoi mettre? lou garçoun, estreluca, lé</p>
+        <p rend="labelled"><lb/>Per lé metre un viedase! Daudet lé replique d'uno<lb/>voues retrounanto.</p>
+        <p><lb/>Lou chanjaire de sieto esperè pas soun rèsto, e dón<lb/>cop nous leisse tranquile.</p>
+        <p rend="labelled"><lb/>— Dins aquélis hôtel, ço que l'a pièi de ridicule, lou<lb/>bon Mathiéu alor faguè, es que, remarcas-lou, despièi<lb/>qu'i taulo d'oste li coumés-vouiajour an entroudu li goust<lb/>dóu Nord, que fugue en Avignoun, en Engoulèime, à<lb/>Draguignan o bèn à Brivo-la Gaiardo, vous servon au-<lb/>jour d'uei pertout li mémi plat : de broui de pastenargo,<lb/>de vedèu à l'eigreto, de rostbeef mita klue, de caulet-<lb/>fori au burre, e tant d'autri manjolo que n'an ni goust</p>
+      </div>
+    </body>
+  </text>
+</TEI>

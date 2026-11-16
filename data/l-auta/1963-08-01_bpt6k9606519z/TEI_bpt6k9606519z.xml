@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k9606519z</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1963-08-01">1963</date>
+          <idno type="ARK">bpt6k9606519z</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k9606519z</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Nouvelle Série – N° 318</fw>
+        <fw type="runningTitle"><lb/>Paraissant tous les mois, sauf en Juillet, Septembre et Octobre</fw>
+        <head><lb/>AOUT 1963</head>
+        <ab rend="continued"><milestone unit="column" n="1"/><lb/><lb/>QUE BUFO UN COP CADO MÉS</ab>
+        <ab><lb/>LES TOULOUSAINS DE TOULOUSE ARUE<lb/>ORGANE<lb/>SOCIETE<lb/><lb/>ET AMIS DU VIEUX TOULOUSE<lb/>MAΥ</ab>
+        <ab><milestone unit="column" n="2"/><lb/>Le Numéro: O,3ONF</ab>
+        <p rend="heading"><lb/>SOMMAIRE</p>
+        <figure type="table"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Cotisation 1963</head>
+        <p><lb/>Nous prions nos adhérents de bien vouloir acquitter la cotisation<lb/>de l’année : 6 NF, soit aux bureaux de notre trésorier, M. Pierre<lb/>Berdoues, parfumeur, 9, rue Rivals, soit en la versant au compte de<lb/>chèques postaux « Société des Toulousains de Toulouse », 7, rue du<lb/>May, C.C.P. 1264-68, Toulouse.</p>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="90"/>
+        <p rend="heading"><lb/>La première Prieure du Carmel de Pamiers</p>
+        <p><lb/>L’œuvre de la grande réformatrice espagnole, sainte Thérèse<lb/>d’Avila, ne s’est pas terminée à sa mort, en 1582. Elle s’est<lb/>poursuivie en France d’une manière étonnante surtout dans la<lb/>première moitié du XVII° siècle.</p>
+        <p><lb/>Le Carmel de Toulouse a été fondé par celui de Bordeaux, mais à<lb/>son tour, en 1630, Toulouse essaime à Auch. Puis, Auch fonde, en<lb/>1634, le Carmel de Montauban et, en juin 1648, celui de Pamiers.<lb/>Ces mêmes carmels seront à l’origine, l’un des fondations de<lb/>Cahors et Villefranche-de-Rouergue, dont sortiront Angers, Figeac,<lb/>Virton, Condom, etc., l’autre, Pamiers, contribue à la naissance de<lb/>Carcassonne, Moissac et Palencia, desquels viendront Grasse,<lb/>Narbonne, Lloret-de-Mar, Armentières, Echvacoïtz, Lully-le-<lb/>Paquier, etc.</p>
+        <p><lb/>A cette époque a surgi un climat favorable. Les réformatrices sont<lb/>introduites en France en 1604. Dès 1644, il y a 55 monastères. Les<lb/>encouragements viennent des plus hautes autorités, soit spirituelles<lb/>comme celle du Cardinal de Bérulle, soit temporelles comme celle de<lb/>Louis XIII qui, en personne, vient poser à Toulouse, rue du<lb/>Périgord, la première pierre de la chapelle qui subsiste encore,<lb/>désaffectée, mais merveilleuse des peintures de Despax qui la<lb/>décorent!</p>
+        <p><lb/>En général, pour ces fondations trois concours se rencontrent:<lb/>l’appel de l’autorité religieuse locale qui facilite l’établissement, la<lb/>fondatrice qui paie de sa personne et choisit les premières<lb/>religieuses, enfin la première prieure qui imprime à la maison<lb/>naissante les disciplines spirituelles de l’Ordre.</p>
+        <p><lb/>A Pamiers, l’autorité religieuse ce fut Mgr de Caulet qui reprit et<lb/>réalisa des projets conçus par son prédécesseur. La fondatrice fut<lb/>la Prieure d’Auch, Mère Marie de la Trinité, fille du Président<lb/>Sevin, vêritable sainte à miracles et également fondatrice de<lb/>plusieurs autres carmels. Quant à la première Prieure, ce fut « Mère<lb/>Marie de l’Incarnation ».</p>
+        <p><lb/>Avec le recul du temps, cette dernière disparaît un peu derrière<lb/>les physionomies restées plus célèbres de la Mère Trinité et d’une<lb/>de ses compagnes de la première heure (1), morte en odeur de</p>
+        <p rend="labelled"><lb/>(1) Outre Mère Marguerite née de Mauléon, les premières religieuses furent<lb/>les sœurs Anne de Jésus (La Rivière) et Thérèse des Saints (Druilhe) avec deux<lb/>novices, Philippe de Jésus et Isabelle d J.-C. (de Saint-Félix).<lb/>par des travées triangulaires couvertes de coupoles ovoïdes.<lb/>L’absidiole sud est la plus remarquable (5) : plan à pans coupés,<lb/>arc outrepassé d’influence « mudéjare », voûte en arc de cloître<lb/>dont les nervures imitent des câbles, chapiteaux aux délicates<lb/>sculptures. Celle du nord, de plan carré et couverte d’une voûte<lb/>d’arêtes, est plus sobre. A l’extérieur les maçonneries des deux<lb/>absidioles restent circulaires. A la croisée, la coupole sur pendentifs<lb/>a été refaite, pour porter le clocher, au XIVe siècle. Ses assises, de<lb/>plan carré à angles arrondis, semblent un compromis entre la voûte<lb/>en arc de cloître et la coupole véritable. La crypte, qui n’est que<lb/>la partie basse d’un chœur surélevé, très vaste, comprend une nef<lb/>en berceau surbaissé, deux bas-côtés en berceau plein-cintre, reliés<lb/>à la nef par des berceaux plein-cintre transversaux, un chœur voûté<lb/>d’arêtes, et une abside en cul-de-four.</p>
+        <pb facs="0012.xml"/>
+        <milestone unit="page" n="100"/>
+      </div>
+      <div type="article">
+        <p><lb/>Les murs et les fenêtres de la nef sont romans, mais les voûtes<lb/>ont été refaites, probablement au début du XVIe siècle (⁶), tout en<lb/>gardant l’aspect roman : berceau surhaussé central, berceaux plein-<lb/>cintre latéraux avec d’originales pénétrations des grandes arcades<lb/>dans les bas-côtés qui donnent des sortes de demi-voûtes d’arêtes (7).<lb/>Les colonnes cylindriques, aux chapiteaux octogones en frises<lb/>étroites, sont nettement gothiques, bien que le décor (animaux à<lb/>têtes humaines, sirènes, oiseaux) joue l’archaïsme. Des pilastres<lb/>aux angles abattus les surmontent, portant les doubleaux plein¬<lb/>cintre de la nef. Le chœur est, lui aussi, du début du XVIe siècle (8),</p>
+        <p rend="labelled"><lb/>(5) Enlart (Manuel d'Archéologie) et Brutails (Congrès Archéologique de<lb/>1901) l’ont jugée digne de leur crayon, et nous en ont laissé d’excellents dessins.</p>
+        <p rend="labelled"><lb/>(6) Opinion de Marboutin (1930), Brutails (1901) les jugeait même du<lb/>XVIIe siècle ! On les croyait d’abord purement romanes (Tholin), puis gothiques<lb/>(Barrère).</p>
+        <p><lb/>M. Paul Mesplé, L'Art roman décadent du Sud-Ouest, a étudié les survivances<lb/>romanes dans le XIIIe siècle. Nous voyons qu’à Monsempron les occitans<lb/>restaient encore fidèles à la mode de bâtir de leurs grands ancêtres en pleine<lb/>Renaissance.</p>
+        <p rend="labelled"><lb/>(7) On ne connaît pas d’exemple de telles formes à l'époque romane. Toute¬<lb/>fois, la présence dans les bas-côtés, au revers de la façade notamment, d’arcs<lb/>outrepassés analogues à ceux des absidioles, laisserait à penser que les berceaux<lb/>latéraux sont, en partie au moins, romans, et n’ont été que remaniés, au<lb/>XVIe siècle, pour les rattacher au vaisseau central.</p>
+        <p rend="labelled"><lb/>(8) Tous ces travaux, début XVIe siècle (nef, chœur, portail) s’expliquent par<lb/>les ruines laissées par la guerre de Cent Ans.<fw type="digitisation-artefact"><lb/>/<lb/></fw><lb/>mais bien dans le style de l’époque cette fois, élégante voûte<lb/>polynervée à liernes et tiercerons.</p>
+        <pb facs="0013.xml"/>
+        <milestone unit="page" n="101"/>
+      </div>
+      <div type="article">
+        <head><lb/>BONAGUIL</head>
+        <p><lb/>Les deux portails sont modernes, imitation plus ou moins heureuse<lb/>du roman. Celui de l’ouest avait jadis une magnifique décoration<lb/>Renaissance, regrettablement détruite, dont nous n’avons plus qu’un<lb/>dessin.</p>
+        <p><lb/>L'absidiole sud est aussi richement décorée à l’extérieur qu’à<lb/>l’intérieur. Toujours des arcs outrepassés « mudéjares ». A sa partie<lb/>inférieure, elle comprend un abri voûté d’arêtes, communiquant<lb/>par une petite fenêtre avec la crypte, destiné probablement aux<lb/>pèlerins qui pouvaient y accomplir leurs dévotions sans pénétrer<lb/>dans l’église, tout en restant le plus en contact possible avec les<lb/>Corps Saints (9). L’absidiole nord, moins ornée et en partie engagée<lb/>dans les maçonneries du chœur, présente les mêmes dispositions.</p>
+        <p><lb/>L’Église a été fortifiée au XVIe siècle, pendant les guerres de<lb/>religion (surélévation des murs du chœur et du clocher).</p>
+        <p><lb/>Tout contre l’église, au nord, est le château prieural, avec ses murs<lb/>romans, aux petites fenêtres plein-cintre, repercés au début du<lb/>XVIe siècle de belles fenêtres à meneaux au noble et simple<lb/>décor (10 11).</p>
+        <p><lb/>De Monsempron, par Libos, Fumel et Condat, au bord du Lot,<lb/>nous prîmes la route de Bonaguil qui s’enfonce dans les terres en<lb/>remontant une étroite vallée. Et tout d’un coup, dans un brusque<lb/>tournant, la forteresse apparut, lumineuse, sur la profondeur des<lb/>pentes boisées. Ce fut un murmure d’admiration. On descendait<lb/>quelques instants après pour commencer la montée vers le pres¬<lb/>tigieux château où Mue Coste, notre cicerone, nous attendait.</p>
+        <p><lb/>Ce n’est pas un guide ordinaire que Mne Coste ! Avec quelques<lb/>jeunes comme elle, groupés autour du poète Max Pons, animateur<lb/>de la revue « La Barbacane », elle a créé un faisceau d’amitiés agis-<lb/>santes qui a entrepris d’arrêter la ruine du château de Bonaguil,</p>
+        <p rend="labelled"><lb/>(9) Opinion de Brutails (Congrès archéologique, 1901), confirmée par Rey<lb/>(Art roman, 1945).</p>
+        <p rend="labelled"><lb/>(10) Travaux attribués au Prieur de Gontaut-Biron.</p>
+        <p rend="styled"><lb/>(11) Pour Monsempron, voir : Cassany-Mazet, Saint-Amans, Bartayrès (Société<lb/>Académique d'Agen), Tholin (Etudes sur l'Architecture religieuse de l'Agenais),<lb/>Barrère (Histoire religieuse et monumentale du Diocèse d’Agen), Enlart (Manuel<lb/>d’Archéologie), Brutails (Congrès archéologique de France, 1901), Marfooutin<lb/>(L'Eglise de Monsempron, Revue de l'Agenais, 1930).<lb/>formidable amas de pierre qui aurait résisté tout seul si, depuis<lb/>1791, les hommes ne s’étaient acharnés à le détruire. Et maintenant,<lb/>il faut recoudre, c’est-à-dire non seulement arrêter les déprédations,<lb/>mais créer le « Aide-toi, le Ciel t’aidera », base de toutes les<lb/>grandes entreprises de ce monde. Une société des « Amis de Bona-<lb/>guil » réunit toutes les bonnes volontés, stimule les pouvoirs publics<lb/>et une équipe de guides de valeur accueille les visiteurs, répand la<lb/>bonne parole et les renvoie émerveillés et transformés en autant<lb/>de propagandistes de la splendeur de Bonaguil.</p>
+        <pb facs="0014.xml"/>
+        <milestone unit="page" n="102"/>
+        <p><lb/>li Coste parle de Bonaguil, tout s’anime, tout s’éclaire.<lb/>Quand M<lb/>Cette accumulation de murailles, de tours, de remparts, de cours,<lb/>de terrasses, de fossés, d’escaliers, de souterrains, etc., dont le plan<lb/>général et les intentions semblent difficiles à saisir, tout cela soudain<lb/>s’ordonne. La première leçon a lieu à l’entrée, devant un schéma,<lb/>dont la parole aisée de notre guide, démonstrative, riche en<lb/>comparaisons de bon sens, familière et savante à la fois, fait soudain<lb/>comprendre les mobiles aussi simples dans leur principe que<lb/>complexes dans leurs applications. Puis suit la visite elle-même<lb/>où l’on va d’étonnement en étonnement. Impossible à exposer dans<lb/>le détail, M. Camboulives a bien voulu en résumer pour nous les<lb/>données essentielles.</p>
+        <p><lb/>Bonaguil est né du défi d’un puissant seigneur, Bérenger de<lb/>Roquefeuil (12) : « Par messire Jésus et tous les saincts de son<lb/>glorieux Paradis, j’élèverai un castel que ni mes vilains subjets<lb/>ne pourront prendre, ni les Anglais s’ils ont l’audace de revenir,<lb/>voire même les plus puissants soldats du Roy de France. »</p>
+        <p rend="labelled"><lb/>(12) Bonaguil (La « bonne aiguille », Agulho, en occitan, le rocher long et<lb/>mince portant le donjon), appartient d’abord aux Ratier, barons de Castelnau<lb/>(Castelnau-Montratier, 40 km S.-E. de Bonaguil, 12 km Ouest de Montpezat,<lb/>25 km N. de Montauban). Ratier Ier, dépossédé par Simon de Montfort, combat<lb/>au côté de Raymond VI dans Toulouse assiégé (1218). Son fils, Aymery, se<lb/>rétablit à Castelnau (et à Bonaguil). Cette famille finit par Ratier V dont la<lb/>sœur Hélène épouse Arnaud III de Roquefeuil et lui apporte Bonaguil (1361).<lb/>Au temps de la Croisade, Raymond II de Roquefeuil avait soutenu le Comte de<lb/>Toulouse. Excommunié, et devenu « faydit », il n’avait fait sa soumission<lb/>qu'en 1226. Le dernier des Roquefeuil (Marquis de Beaucaire) vendra, en 1761,<lb/>Bonaguil à Marguerite de Fumel, sœur du Comte Joseph de Fumel, Maréchal de<lb/>Camp, qui possédait à Toulouse l’Hôtel de Ciron-Fumel (Chambre de Commerce<lb/>actuelle). Le dernier propriétaire de Bonaguil avant la Révolution : Joseph-<lb/>Louis de Fumel, Capitaine, Page de Monsieur frère du Roi, est leur neveu, né à<lb/>Toulouse (peut-être en l’Hôtel de Fumel) en 1761.<fw type="digitisation-artefact"><lb/>bulousain</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

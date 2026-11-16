@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81362415</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1898-03-27">1898</date>
+          <idno type="ARK">bpt6k81362415</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81362415</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>VUECHENCO AARaADO, N 261</fw>
+        <ab><milestone unit="column" n="3"/><lb/>DIMENCHE, 27 DE MARS 1808.</ab>
+        <ab><milestone unit="column" n="1"/><lb/>PRES DE L'ABOUNAMEN</ab>
+        <lg>
+          <l><lb/>Nautri, li bon Prouvençau,</l>
+          <l><lb/>Au sufrage universau,</l>
+          <l><lb/>E faren Paisti.</l>
+        </lg>
+        <ab><lb/>(Prouverbi di meinoune.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17,27)</p>
+        <figure/>
+        <ab><lb/>SURĖU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI<lb/>au palais dóu Roure,</ab>
+        <figure type="table"/>
+        <ab><lb/>FOLCO DE BANONCEU</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>2</ab>
+        <ab type="head"><lb/>AVIS</ab>
+        <p rend="styled"><lb/>La Taulo di Matèri, countengudo dins l'Aioli<lb/>(1891-1897) es estado espedido em' aquest<lb/>numerò is abouna dóu journau. I' a que de la<lb/>reclama, se defauto en quaucun. D'un cop d'iue,<lb/>aqui-dintre, l'on ¡ ou se rèndre comte de l'es-<lb/>trèmo impourtanço d'aquelo publicacioun, car<lb/>ié soun entaula 2.400 article emé li noum arren-<lb/>gueira de 300 coulabouraire.</p>
+        <p rend="labelled"><lb/>— Li croumpaire au numerò se pourran<lb/>proucura aquelo Taulo vers tóuti li depousitàri<lb/>dou journau, au pres de 0 fr. 50 centime.<lb/>l'italian, de l'espagnòu e de l'aràbi, la lengo<lb/>d'O de Franço sariè soulo prouscricho dis<lb/>escolo dóu pople, sarié souspèto meme i feli-<lb/>bre de Paris ! Anen, anen, Moussu Oddo, cre-<lb/>sèn que vous aventuras. E nous farés jamai<lb/>encrèire que nòsti sòci de Paris se refuson à,<lb/>vèire un magistre d'escolo aprene nòstí drole<lb/>à legi lou prouvençau. Vous que fasès l'eloge<lb/>emé justo resoun dóu fraire Savinian,<lb/>qu’óutèn de resultat tant bèu emé si tèmo<lb/>e si versioun que dounon is enfant l’usage<lb/>courrènt di dos lengo, es-ti poussible, o fiéu<lb/>dóu Var, que noun reclamés pas emé tóuti<lb/>nous-autre l'ensignamen d’aquelo lengo que<lb/>souleto a sachu cassa de soun terraire lis en-<lb/>vasioun dóu fourestié! Eici m’es bon de</p>
+        <figure type="decoration"/>
+        <p><lb/>Dans le Var et les Bouches-du-Rhône, par<lb/>exemple, un étonnement mélé d'admiration sai-<lb/>sira ces enfants, quand on leur révélera tout un<lb/>passé d'actions héroiques, quand leur professeur<lb/>leur montrera Charles-Quint, empereur d'Alle-<lb/>magne, roi d'Espagne, dont les Etats dans les<lb/>deux mondes voyaient se lever et se coucher le<lb/>soleil, qui, ayant envahi la Provence et satisfait<lb/>sa fantaisie de se faire nommer roi d'Arles, fui<lb/>chassé, lui et son armée, jusqu'aux frontières du<lb/><lb/>Piémont, par ces paysans attachés à la glèbe<lb/>comme des serfs. Malgré leur mistre, ils avaient<lb/>puisé dans l'amour du sol natal le courage<lb/>qui fait les héros et l'amour de la liberté qui fait<lb/>les grandes nations.</p>
+        <p><lb/>E l'amour dóu sol natal, ounte l'avien pousa,<lb/>ounte l'avien begu, aquéli pèd-terrous (sa-<lb/>chènt pas un mot de francés), senoun dins sa<lb/>lengo natalo, que vuei s'óupilon e s'escrimon<lb/>à ié leva de la bouco e à ié derraba dóu cor!<lb/>E'm' acò pièi s'endignon que vague s'amous-<lb/>sant, dins lis amo di jouve, lou sentimen pa-<lb/>triau. Descausson l’aubre tout autour, ié<lb/>desabihon li racino, em' acò pièi s'estounon<lb/>que l'aubre se laisse mouri.</p>
+        <p><lb/>Eh! bèn, noun, Moussu Oddo: quinto que<lb/>fugue l'amistanço de vòsti bònis entencioun,<lb/>sian eici quàuquis-un, vivènt sus lou pais,<lb/>que nous fai ges de peno de vous respondre<lb/>eiçò: se dèu, la lengo nostro, n’intra un jour<lb/>dins lis escolo que pèr l'èstre utilisado à l'en-<lb/>signançò dóu francés, si li mèstre noun dèvon<lb/>l'ensigna elo-memo au coustat dóu francés,<lb/>coume se fai pèr lou tudesc e coume se fai<lb/>pèr l'aràbi, e, basto, se lou prouvençau noun<lb/>devié dins lis escolo servi qu'à cira li boto de<lb/>soun desdegnous rivau, autant vau que lou<lb/>laisson, coume a fa jusquo eici, viéure pèr<lb/>orto e pèr campèstre. Saubra proun derraba<lb/>sa vido — emai, coume lis erbo de sant Jan,</p>
+        <p rend="styled"><lb/>Mui de Mount-Pavoun.</p>
+      </div>
+      <div type="article">
+        <head><lb/>LOU PROUVENÇAU</head>
+        <head><lb/>DINS LIS ESCOLO</head>
+        <p><lb/>Un cop d'espalo à nosto Causo, que signalan<lb/>emé plesi, es l'estùdi qu'a pèr titre : De l'uti-<lb/>lité des idiomes du Midi pour l'enseignement de<lb/>la langue française, pèr M. Enri Oddo, qu’es<lb/>biblioutecàri-ajoun à la Chambro di Deputa<lb/>(Paris, librarié Le Soudier). Bèn qu’acò noun<lb/>responde qu'en partido à noste veso, bèn<lb/>qu'acò noun apiele qu'un escas «minimum»<lb/>de nòsti revendicacioun, es pamens juste de<lb/>ié traire, à l'autour d'aquéu travai, lou gra-<lb/>maci que s'amerito. Veici coume se duerb<lb/>Flestùdi de M. Oddo:</p>
+        <p><lb/>Cest un simple malentendu qui a fait suppo-<lb/>ser que Félibrige de Paris avait eu l'arrière-<lb/>pensée d'arriver à demander l'enseignement offi-<lb/><lb/>ciel du provençal dans toutes les écoles du Midi.<lb/>Jamais, et à aucun moment, il n'en a été<lb/>question. Ce qui est vrai, et ce qui a pu amener<lb/>une confusion dans l'esprit de ceux qui se sont<lb/>plu à répandre ce bruit, c'est que nous avons bien<lb/>souvent exprimé le vœu que, dans les écoles fré-<lb/>quentées par des enfants parlant surtout l'idiome<lb/>local, les professeurs fussent pris dans la région.<lb/>Et cela pour cette seule raison que, possédant<lb/>comme leurs élèves la connaissance de cet idiome,<lb/>is puissent se faire mieux comprendre, obtenir<lb/>des résultats meilleurs et utiliser les dialectes de<lb/>la langue d'Oc, comme une sorte de bas-latin,<lb/>pour l'enseignement de la langue nationale, sui-<lb/>vant les doctes conseils de Michel Bréal.</p>
+        <p><lb/>Talo declaracioun n'es pas sènso nous es-<lb/>touna. Coume, diàussi! Messiés li felibre de<lb/>Paris (aquéli dóu cafe Voltaire), que, tóuti lis<lb/>an, semoundon de pres is escoulan de tóuti<lb/>is escolo pèr ié faire tradurre en lengo prou-<lb/>vençalo de tros de latin, de tros de francés,<lb/>sarien adounc countràri à l'ensignanço óufi-<lb/>cialo dóu prouvençau dins lis escolo ! Coume!<lb/>quand s'autouriso, au coustat dóu francés,<lb/>l'ensignamen de l'alemand, de l'anglés, de<lb/>Davans la Mort de moun Baile</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>- Coume? sias aqui! Vous an rèn di? Sabès dounc pas<lb/>lou malur que vous arribo?</p>
+        <p rend="labelled"><lb/>- Dequé l'a.. parlas vite, dequé m'arribo mal en-</p>
+        <p rend="labelled"><lb/>— Daudet es mort !</p>
+        <p rend="labelled"><lb/>— Daudet es mort!—</p>
+        <p><lb/>Es tout ço qu'ai pouscu respondre. Dóu cop m'a sembla<lb/>que tout s'abóusounavo à moun entour, e tout en cri-<lb/>dant un crid d'un ome que sagaton, me siéu esfougassa<lb/>sus uno cadiero ounte ai ploura, souscla coume un</p>
+        <p><lb/>Pièi siéu parti tout englonti dins lou malastre, lis iue<lb/>nega de lagremo; ai pres lou camin de l'oustau de la<lb/></p>
+        <p><lb/>Oh! la marrido, la crudelo annado qu'es aquesto!<lb/>Aièr, ero ma femo, la noblo coumpagno de mi lucho,<lb/>que me quitavo per l'autre mounde, e luel es moun baile<lb/>ama, lou soul ami de mi jour, eitant dire moun paire,<lb/>que la treitasso de mort me raubo !... E li remembranço<lb/>dis ouro escoulado i douçour de soun amistanço, dem-<lb/>piei d'annado, s'acousson en bando avivado, risouliero,<lb/>revertigueto de vido, tóuti caudo d'amour : me lou fan<lb/>vèire dins soun gabinet de travai en Paris, en Champ-<lb/>Rosay, à la clarta de sa lampo coume dins li rebat dóu<lb/><lb/>soulèu ; en veituro coume en permenado dins lis andano<lb/>de soun pargue, ll belli flourimoundo, me lou requin¬<lb/>quihon tout vivènt dins ma memòri, enterin que li milo<lb/>pougnesoun de la doulour me tafuron lis os, m'esfaton<lb/>Nou pitre, me moussigon lou fege!<lb/></p>
+        <p><lb/>Oh! coume lou voulde de moun fougau en dou aumento<lb/>embé la mort de moun baile! coume me sente soul,<lb/>ancienti pèr la destinado ! coume moun beu trelus de<lb/>vido s'encrumis ! Me soubravo qu'uno counsoulacioun,</p>
+        <p><lb/>En quau parlarai aro de mi penasso de cor? quau se<lb/>dounara la peno de m'escouta ! quau me traseira li sou-<lb/>Sas que me trasié? ounte soun lis ome que coume aquéu<lb/>sabon aplica lou remèdi que counvèn à la plago? N'l'a<lb/>pus, n'l'a pas-pus Tóuti mis esperanço estacado à l'amistae<lb/>que perde, s'esvalancon ; l'aveni devèn sourne, moun<lb/><lb/>pourtau de Sant Martin s'escrafo dins li nivo, e tau qu'un<lb/>ènfant qu'a pas enca li cambo, trantaio, en plourant, pèr<lb/>camina d'uno cadiero à l'autro, tau moun esperit la-<lb/>gnous viravouio d'un ourizount à l'autre.</p>
+        <p><lb/>O Camardasso avuglo, quete es lou diéu empega que<lb/>te coumando ? Sabes dounc plus ço que fas? repeples?<lb/>Te fau d'amo, e tabases coume un ibrougnas daiaire que,<lb/>pèr pas enchapla sa daio brecado, la planto dins l'erbo<lb/>la plus tendro ! Auras dounc toujour pòu de la tirasso<lb/>que t'espero? NT'a pas proun de malurous que te re-</p>
+        <p><lb/>Perqu'emportes moun baile? Esti poussible qu'en<lb/>estènt tant vièio siegues eitant crudèlo ?... La vipèro<lb/>siblo dins l'erbo, lou lioun rugis dins lou desert, lou vent<lb/>bramo, l'uiau anóuncio lou tron, tout dins la naturo<lb/>prevèn l'ome dou malan que lou menaço, e tu, trei¬<lb/>tasso, piejo qu'un bregand que camino dins l'oumbro,<lb/>franquisses lou fougau d'uno famiho urouso e, quand<lb/>tout ris de joio, quand chascun s'aflato dóu bèn que s'es<lb/>fa dins la journado, quand l'un dis enfant garo l'abatjour<lb/>de la lampo pèr sè miés vèire en plen lume dins l'amour,<lb/>tu, jalouso de tant de bonur, t'abrives sus lou paire, e<lb/>sènso iè douna lon tèms de traire un regard, de dire<lb/>uno paraulo, un mot d'adiéu à soun oustalado, lé revès-<lb/>ses la tèsto e da ta bouco pudènto lé boufes l'orro poui-<lb/>soun que te fai viéure.<fw type="digitisation-artefact"><lb/>ource gallica.bnf.fr / Bibliothèqu</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k96056019</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1921-12-01">1921</date>
+          <idno type="ARK">bpt6k96056019</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k96056019</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><lb/>Que bufo un cop cado mes<lb/>ORGANE DE LA SOCIÉTÉ</ab>
+        <note type="handwritten"><lb/>en</note>
+        <note type="handwritten"><lb/>deende<lb/>Novembre 1921</note>
+        <ab><lb/>VELLE SERIE No 43</ab>
+        <p rend="heading"><lb/>LES TOULOUSAINS DE TOULOUSE</p>
+        <p><lb/>Ce Bulletin et les similaires sont à conserver et à relier dans la série de<lb/>L'Auta dont ils font partie intégrante.</p>
+        <figure type="decoration"/>
+        <p><lb/>Réunion générale mensuelle le 17 Décembre 1921,à 8h.30<lb/>du soir, à la Chambre de Commerce Franco-Espagnole. — Entrée :<lb/>Allées Jean-Jaurès, 3.</p>
+        <p rend="heading"><lb/>Ordre du Jour:</p>
+        <p><lb/>Modification des statuts en vue de la reconnaissance d’utilité<lb/>publique.</p>
+        <p><lb/>Causerie de M. Paul MESPLÉ:</p>
+        <list>
+          <item>Les Expositions d’Art à Toulouse</item>
+        </list>
+        <p rend="labelled"><lb/>Le Dimanche 18 Décembre, à l’Exposition d’Art Latin la So¬<lb/>ciété visitera Le Salon des Artistes Méridionaux, sous la<lb/>direction de M. J. R. de Brousse.</p>
+        <p><lb/>Rendez-vous à 10 h. du matin, au Palais des Arts, Quai de la<lb/>Daurade.</p>
+        <p rend="styled"><lb/>La présente convocation servira de carte d’entrée pourdeux per¬<lb/>sonnes, trois exceptionnellement. L’entrée payante sera abaissée,<lb/>après entente avec l'Union Latine, à 0. 50 par personne</p>
+        <figure type="decoration"/>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="183"/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>La Vie de la Société</p>
+      </div>
+      <div type="article">
+        <head><lb/>REUNIONS</head>
+        <head><lb/>26 Novembre 1921. Présidence de M. Jules Chalande.</head>
+        <p rend="labelled"><lb/>M. Chalande fait part à l’assemblée de deux évenement qui<lb/>quoique différents, nous vont, tous deux au cœur. Le premier est<lb/>l’attribution, à l’un de nos membres, M. Armand Praviel, mainte-<lb/>neur des Jeux Floraux, du prix Jean Revel décerné par la Société<lb/>des Gens de Lettres à un écrivain ayant consacré son œuvre à sa<lb/>province. Le second est la mort de l’un de nos membres d’honneur,<lb/>M. Emile Cartailhac, le savant archéologue et préhistorien dont<lb/>l’universelle réputation était une gloire pour Toulouse. En signe<lb/>de deuil, la séance est suspendue pendant quelques instants.</p>
+        <p rend="labelled"><lb/>M. Berniès fait une causerie sur l’ouvrage de M. de Gélis, main¬<lb/>teneur des Jeux Floraux:</p>
+        <ab type="head"><lb/>La Véritable Langue d’Oc.</ab>
+        <p><lb/>Deux écoles sont en présence, l’une l’Escola Occitasa, avec<lb/>Estieu et Perbosc pour chefs, préconisant une graphie inspirée des<lb/>troubadours, et l’enrichissement des dialectes par des mots puisés<lb/>dans les dialectes voisins; l’autre, dont le livre de M. de Gélis a<lb/>groupé les arguments et les objections, demandant au contraire<lb/>une ortographe se rapprochant le plus possible pour chaque<lb/>dialecte de sa prononciation phonétique et veillant jalousement à<lb/>conserver l’intégrité de chaque idiome. Les premiers voient<lb/>dans leur méthode le moyen d’arriver. A la création de<lb/>grands dialectes méridionaux (provençal, languedocien,<lb/>gascon, catalan, étc.). qui pourraient être enseignés à l’école<lb/>et sauveraient ainsi la langue, les seconds affirment que ce<lb/>procédé enleverait toute originalité à la langue d’Oc, qui devien-<lb/>drait une langue factice et sans durée. Tout en reconnaissant la<lb/>part de vérité contenue dans cette dernière objection. M. Berniès<lb/>estime que la tormation des grands dialectes principaux corres-<lb/>pond à une tropgran de vérité pour n’être pas tentée; quant à</p>
+        <pb facs="0003.xml"/>
+        <milestone unit="page" n="184"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>VISITES ET PROMENADES</head>
+        <head><lb/>A l'Hospice de la Grave.</head>
+        <p><lb/>Le Dimanche 27 Novem bre, la société dirigée par M. Chalande<lb/>a visité l'hospice de la Grave où elle a été aimablement accueillie<lb/>par M. Dedieu, controleur en chef de l'hospice.</p>
+        <p><lb/>L’hospice de la Grave fut probablement le second hôpital con¬<lb/>struit sur la rive gauche de la Garonne. Il tire son nom des<lb/>graviers où il fut édifié et en le trouve cité pour la première fois<lb/>dans une charte du Comte Raymond VI, datant de 1197. De cette<lb/>bâtisse primitive, il ne reste qu’un pan de muraille au bord du<lb/>fleuve. En 1508, en relevant les fortifications du faubourg, on<lb/>entre prit la construction du nouvel hôpital de la Grave. Terminé<lb/>en 1514, il devint l’hôpital des pestiférés. En 1515 fut bâtie la<lb/>chapelle dont les voutes en croisées d’ogive subsistent encore le<lb/>long du fleuve.</p>
+        <p><lb/>La société a visité cette chapelle dont le sol a été plusieurs fois<lb/>surélevé au cours des âges afin de la préserver du danger des<lb/>inondations devenu plus frequent par suite du relèvement de<lb/>la chaussée du Bazacle. On pénétra également dans les deux tours<lb/>demi-circulaires qui restent des anciennes murai les. On passa<lb/>devant les portraits pittoresques des donateurs et l’on arriva à la<lb/>nouvelle église en rotonde, construite de 1835 à 1844. Les intré-<lb/>l’ortographe à employer, c’est surtout, dit-il, une question de bon<lb/>goût et d’opportunité L’ortographe par trop phonétique a ses<lb/>inconvenients comme il le prouve en lisant une pièce d’un félibre<lb/>rouergat de grande valeur, M. Gustave Bessière ; en suivant fidé-<lb/>lement l’ortographe dictée par la phonétique, on ne comprend<lb/>guère ; il suffit au contraire de changer quelques lettres pour<lb/>être compris de tous les occitans.</p>
+        <p><lb/>M. Berniès termine sa causerie en émettant le vœu que des<lb/>ouvrages tels que ceux de M. de Gélis ou certains de M. Anglade<lb/>soient écrits en langue d’Oc ce qui constituerait une litterature<lb/>et une critique méridionale qui nous font défaut.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

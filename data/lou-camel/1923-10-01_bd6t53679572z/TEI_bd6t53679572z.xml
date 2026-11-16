@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Camel</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t53679572z</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Camel : risoulhé artistiqué ["puis" risoulié artistic]</title>
+          <publisher>[s.n.] (Besiès)</publisher>
+          <date when="1923-10-01">1923</date>
+          <idno type="ARK">bd6t53679572z</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t53679572z</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="article">
+        <div>
+          <pb facs="0008.xml"/>
+          <head><lb/>LATO EEVIL<lb/>NOëI SALLE<lb/></head>
+          <figure type="decoration"/>
+          <ab><lb/>HOTEL-RESTAURANT de la RENAISSANCE<lb/>Repas sur Commande<lb/>CAFE<lb/>Spécialité de Bouillabaisse<lb/>Consommations de Marques<lb/>LOUIS<lb/>BÉDARD<lb/>VALRAS-LA PLAGE (Hérault)<lb/>Consommations de 1er choix - Repas sur Commande<lb/>MISE DE TABLE-SALONS POUR L'HIVER<lb/>BouillaBaisse<lb/>MISE DE TABLE – CHAMBRES<lb/>GARAGE - AFFENAGE</ab>
+          <p rend="heading"><lb/>CAFÉ &amp; HOTEL DE LA PAIX</p>
+          <figure type="decoration"/>
+          <p rend="heading"><lb/>Marius BOUDET</p>
+          <p rend="heading"><lb/>VALRAS-LA-PLAGE (Hérault)</p>
+          <figure type="decoration"/>
+          <ab><lb/>IMPRIMERIE GÉNÉRALE<lb/>9, Avenue de Pézenas - BEZIERS - Avenue de Bédarieux, 10<lb/>TELEPHONE 5,67<lb/>TELEPHONE 5.67<lb/>TYPOGRAPHIE - LITHOGRAPHIE - RELIURE</ab>
+          <list>
+            <item>ERTICLES DE BIOEE aiLKa RktLCLaS Ba BURaA</item>
+          </list>
+          <figure type="decoration"/>
+          <ab><lb/>BRASSERIE GÉNERALE DU MIDI<lb/>BEZIERS<fw type="digitisation-artefact"><lb/>ougedaèca ocitaa</fw></ab>
+          <ab>
+            <stamp><lb/>C.I.D.O.<lb/>DEZIEBS</stamp>
+          </ab>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

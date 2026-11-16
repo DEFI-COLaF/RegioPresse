@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Campana de Magalouna</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7350069h</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Campana de Magalouna : journal populàri que parei lou 1è e lou 15 de toutes lous meses</title>
+          <publisher>[s.n.] (Mount-Peliè)</publisher>
+          <date when="1896-04-01">1896</date>
+          <idno type="ARK">bpt6k7350069h</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7350069h</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Pas qu'un sou?<lb/>Quau n'en vòu</fw>
+        <fw type="runningTitle"><lb/>Cinquièma annada. — No 92.</fw>
+        <dateline><lb/>bau 1è au 15 d'Abriéu 1896</dateline>
+        <ab><milestone unit="column" n="2"/><lb/><lb/>.Quaranta sous<lb/>Un An..<lb/></ab>
+        <figure>
+          <head><lb/>Sournal poupulant das felibres de Mount-Peliè que parei lou 1' e lou 15 de toutes lous meses</head>
+        </figure>
+        <p rend="styled"><lb/>Aministracioun e Redacioun<lb/>15, carrieira dau Chival-Verd, à ant-Pelie</p>
+        <p rend="styled"><milestone unit="column" n="3"/><lb/>Per las anounças e las reclamas,<lb/>S'adressa à l'Agence Fages, rue Poiterine. 4. Montpellier</p>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>ABOUNAMEN:</p>
+      </div>
+      <div type="article">
+        <head><lb/>A nostes Letous</head>
+        <p><lb/>Lou public sap dins quantas coundiciouns<lb/>lous Campaniès fasèn parcisse la Campana de<lb/>Magalouna. Sèn quauques uns qu'après nosta<lb/>journada, passan un parel d'ouras á travalhà<lb/>per la Campana e autras obras clapassièiras.<lb/>Fasèn l'emperau per lou brave pople de Mount-<lb/>Peliè. Per la paga demandan pas que d'agrada<lb/>au public.</p>
+        <p><lb/>Mès couma arriva mai d'una fes que sèn<lb/>óublijats de prendre un emplegat per nous<lb/>ajudà e que can lou pagà, avèn besoun de faire<lb/>d'argent. Aladoune, pregan nostes letons de<lb/>Sabounà à la Campana de Magalouna. L'abou¬<lb/><lb/>damen costà pas que quaranta soùs per an, per<lb/>tonta la França. Mès sèn fourcats d'aumentà<lb/>lon pris dan numero, e lou 15 d'Abriéu la Cam-<lb/>pana de Magalouno constarà pous sòus lon<lb/>numero.</p>
+        <p rend="styled"><lb/>Nostes letous an dounc interés à s'abouna per<lb/>un an. pioi-que l'abounamen es toujour de qua-<lb/>ranta sous.</p>
+        <p><lb/>La quatrièma paja sara clafida de gulejadas e<lb/>de sournetas.</p>
+        <p rend="labelled"><lb/>VII. — Voutà una suvencioun de 2000 franes<lb/>per la cavalcada dau dimàs de carnaval.</p>
+        <p><lb/>Vejaqui lon prougrama mount-pelieirenc<lb/>qu'aprepausan as candidats. Toutes lous candi-<lb/>dats — quanta que siègue sa coulou — que<lb/>voudran l'adouta, n'an pas qu'a nous mandà sa<lb/>consentida e campanejaren sous noums dins <lb/>Campana de Magalouna.<lb/>poupulàri e lou pus mount-pelieirenc das cafès<lb/>dau Clapas, qu'age pas agut sa reunioun ! Crese,<lb/>pamens. que lous que van béure soun sòu de<lb/>cafè à Copa-Cambas entendoun milhou que foça<lb/>counselhès as afaires de la vila ; mès veirés que<lb/>degus vendrà pas i'aprepausà de se faire pourtà<lb/>as eleciouns dau mes de mai. Aco's trop fort ! e<lb/>iéu que desempioi mai de vint ans vau chaca<lb/>jour à Copa-Cambas, vole faire de poulitica<lb/>couma lous abituats das autres cafés.</p>
+        <p><lb/>D'abord, vous farai arremareà ce qu'entende<lb/>per lou mot poulitica. Oh ! vous espanrugués<lb/>pas, Moussus lous Campaniès, ma poulitica vai<lb/>metre d'acòrdi toutes lous Mount-Pelieirenes.<lb/>S'agis de noumà de counselhes municipaus, de<lb/>conses, couma disièn nostes grands : eh ! be!<lb/>aqui-dessus, tout lou mounde déu s'entendre.<lb/>Cau noumà de Mount-Pelieirenes que fagoun<lb/>pas couma quauques counselhès que vole pas<lb/>Sire soun noum, cau noumà de counselhés que<lb/>se savoun pas prou ben parlà en francés,<lb/>parloun en patois, couma se dis.</p>
+        <p><lb/>Perdequé, siéuplèt, lous conses mount -peliei¬<lb/>rencs tratarièn pas, dins lou parlà mount-<lb/>pelieirenc, lous afaires mount-pelieirenes?</p>
+        <p><lb/>Dins aqueste siècle de demoucracia, es pas<lb/>poussible que la lenga dau pople siégue pas<lb/>emplegada dins lous afaires publies. Cresès-ti.<lb/>presemple, que lous soucialistas sarièn pas mai<lb/>forts se, eles que vènoun au counsel dins sous<lb/>abilhages d'oubriès, defendièn lous drechs das<lb/>oubriès dins lou parlà das oubriès ?</p>
+        <p><lb/>A Copa-Cambas avèn pas fourmat un coumi-<lb/>tat. mès sen dous ou tres vièls Mount-Peliei¬<lb/>renes qu'aimarian be de veire anà las causas.<lb/>couma se déu. Pouden pas coumprendre qu'una<lb/>vila couma la nostra laisse perdre ce que fai<lb/>soun ouriginalitat, e dau tems que dins lous<lb/>autres cafès se fai de poulitica, nautres parlan<lb/>das afaires de Mount-Peliè.</p>
+        <p><lb/>Avèn decidat de vous escriénre aquesta letra<lb/>per pregà la Campana de Nagalorna, qu'es lon<lb/>journal mount-pelieirenc per ecelença, de coun¬<lb/>vidà toutes lous candidats, quanta que siègue<lb/>sa coulou : rouges, verds, blancs, blus, gris ou<lb/>jaunes, à prendre l'engajamen de parlà, au<lb/>pas parlà en lenga francesa. Lous afaires de la<lb/>vila se faran pas pus man per aco, au countràri.</p>
+        <p><lb/>Vous pregan, Moussus lous Campaniès, d'a-<lb/>gradà nostes milhous sentimens clapassiès.</p>
+        <p><lb/>Papeta MicEU.</p>
+        <p><lb/>A la bona oura! aquel papeta Michèu parla<lb/>couma un libre e conma un felibre. Pioi-que<lb/>se vai faire d'eleciouns mount-pelieirencas, cau<lb/><lb/>establi un prougrama mount-pelieirenc.</p>
+        <p><lb/>Aladounc. la Campana de Magalouna apre-<lb/>pausa as candidats, — quanta que siègue sa<lb/>coulon — d'adoutà lou programa clapassiè que<lb/>n'en vejaici lou detal :</p>
+        <p rend="labelled"><lb/>I. — Lous connselhès que sauprièn pas parlà<lb/>en bon francés déuran parlà en mount-<lb/>pelieirene;</p>
+        <p rend="labelled"><lb/>II. – Creacionn d'un cours coumunau de<lb/>l'istòria de la Coumuna de Mount-Peliè:</p>
+        <p rend="labelled"><lb/>III. — Creacioun de counferenças publicas sus<lb/>la lenga e la literatura mount-pelieirencas,</p>
+        <p rend="labelled"><lb/>IV. — Faire gagnà quauques sous as oubriès de<lb/>Mount-Pelie en ié faguent faire de travalg<lb/>per apoulidi tontes lous quarties dau Clapàs</p>
+        <p rend="labelled"><lb/>V. — Establimen de l'Estitut Pasteur de Mount-<lb/>Peliè:</p>
+        <p rend="labelled"><lb/>VI. – Créacioun d'un coumitat de « las festas<lb/>monnt-pelieirencas» Aquel coumitat. coum¬<lb/>pausat das delegats das quartiès, das pre-<lb/>sidents de toutas las soucietats mount-<lb/>pelieirencas, desempioi lou Cercle de la<lb/>Loge jusqua as Cantaires dau Clapàs. <lb/><lb/>de las noutabilitats de la vila, sans distin-<lb/>cioun d'oupinioun, ourganisarà chaca an :<lb/>1° Per lou dimas de carnaval: una cavalcada<lb/>dins lou genre de las que se fasièn autras-fes<lb/>à Mount-Peliè e qu'èroun tant renoumadas:<lb/>2o Per lou mes de Mai : una batalha de flous,<lb/>ou un councours de musica.—afin de faire<lb/>veni foca mounde à Mount-Peliè e de faire<lb/>gagnà d'argent as coumerçants ;</p>
+        <ab><lb/>LOUS CAMEANIÉS.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>lon cafe Copa-Cambas. lou pus vièl, lou pus counsel, en lenga mount-pelicirenca, se savoun</ab>
+        <ab type="head"><lb/>LOUS CONSES</ab>
+        <ab><lb/>De Mount-Peliè</ab>
+        <figure type="decoration"/>
+        <p><lb/>ven recachut agnesta letra:</p>
+        <ab type="head"><lb/>MOUSSUS LOCS CAMPANIES,</ab>
+        <p><lb/>Desempioi mai de dous meses legissèn, chaca<lb/>mati. dins le Petit Méridional e la Dépéche, de<lb/>pichotas counvoucaciouns que sonn toutas redi¬<lb/>jadas d'aquesta façoun : « Les électeurs du<lb/>quartier... (aici lon noum dan quartiè), sont<lb/>priés d'assister à la réunion qui aura lieu ce soir,<lb/>á 8 heures, au cafe... (aici lou noum dan cafè),<lb/>pour choisir les candidats aux élections munici-<lb/>pales. » Couma chaca jour i'a una nouvella<lb/>reunioun dins un nouvèl cafè, i'aurà lèu qué<lb/><fw type="digitisation-artefact"><lb/>urce gallica.nf.fr/Montpellier Méditerranée Métropole -Médiathèque centrale Emile ola</fw></p>
+        <figure type="decoration"/>
+      </div>
+    </body>
+  </text>
+</TEI>

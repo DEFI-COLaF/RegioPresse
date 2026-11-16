@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Pays cévenol</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t539034944</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Pays cévenol : hebdomadaire littéraire, artistique, félibréen, mutualiste, commercial, industriel et d'annonces</title>
+          <publisher>[s.n.] (Alais)</publisher>
+          <date when="1905-01-15">1905</date>
+          <idno type="ARK">bd6t539034944</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t539034944</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0004.xml"/>
+          <ab><milestone unit="column" n="1"/><lb/>Centimes les deux<lb/>à la<lb/>Papeterie Nouvelle<lb/><lb/>Alais. — Lmprimerie J. Brabo, Square de Sauvages.<lb/>Le Directeur-Gérant: J. Brano.<lb/>lais, e</ab>
+          <p><milestone unit="column" n="2"/><lb/>VoiR Les nouVELLes CaRTes poSTaLes</p>
+          <p rend="heading"><lb/>ALA</p>
+          <ab><lb/>Tapeterie Nouvelle<lb/>Place de l'Abbaye</ab>
+          <p rend="heading"><lb/>Place de l'Abbaye</p>
+          <ab><lb/>Tout Alais court acheter<lb/>LES DEUX CARTES POSTALES ILLUSTRÉES<lb/>portant chacune trois vus d’Alais<lb/>de la<lb/>artistiquement arrangées dans les chiffres<lb/>Carte Postale Illustrée<lb/>fleuris de la nouvelle année 1905</ab>
+          <p rend="heading"><lb/>Le Salon Alaisien</p>
+          <figure type="decoration"/>
+          <ab><lb/>PaPETERIE NOUVELLV<lb/>Place de l’Abbaye, ALAIS</ab>
+          <ab><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/>Le cadeau le plus agréable à faire et à recevoir :<lb/>sr.<lb/>100 Cartes Postales Vues d’Alais<lb/>(Assorties de 100 sujets différents)<lb/> BIBLIOTHEQUE DE LECTURE PUBLIQUE<lb/>à 0 fr. 10 le volume</ab>
+          <p rend="heading"><lb/><lb/>mas<lb/><lb/><lb/>emplaire<lb/>ho<lb/>-<lb/>OL)<lb/>stal<lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/></p>
+        </div>
+        <div type="article">
+          <ab><lb/>Albums pour Cartes postales illustrées<lb/>Albums pour photographies et timbres-postes. — Porte-feuilles. – Porte-cartes<lb/>Serviettes. — Sacs à main de dames de toutes formes<lb/>Porte-mines. — Liseuses. — Porte-crayons. — Buvards de dames<lb/>Porte-musique<lb/>Encriers de luxe. — Garnitures de bureaux<lb/>Missels et Livres de messe<lb/>Calendriers perpétuels et artistiques. – Images gélatines et celluloid pour jour de l'an<lb/>Papiers à lettres en boîte de toute beauté. — Objets de fantaisie<lb/>à offrir en cadeaux<lb/>Cachets à cire ordinaires, monogrammes et de luxe — Assortiment complet<lb/>de Registres de comptabilité<lb/>Fournitures pour artistes peintres: Fusain, Crayon, Pastel, Gouache, Aquarelle<lb/>Boîtes et Pochettes de Compas<lb/>Agendas de poche et de bureau. — Almanachs Vermot et Hachette</ab>
+          <figure type="decoration"/>
+          <figure type="decoration"/>
+          <note>
+            <p rend="styled"><lb/>Na pour la légalisation de la signature ci-contre 904</p>
+          </note>
+          <fw type="quiremarks"><lb/>Maire,</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

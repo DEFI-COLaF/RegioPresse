@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Camel</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t53679587d</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Camel : risoulhé artistiqué ["puis" risoulié artistic]</title>
+          <publisher>[s.n.] (Besiès)</publisher>
+          <date when="1924-10-01">1924</date>
+          <idno type="ARK">bd6t53679587d</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t53679587d</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="article">
+        <div>
+          <pb facs="0008.xml"/>
+          <head><lb/>NOëI SALLE</head>
+          <ab><lb/>Achetez<lb/>sièges<lb/> BONAL - MEUBLES<lb/>o<lb/>Glaces<lb/>Tentures<lb/><lb/>Tapis<lb/>Maison fondée en 1874 9, Avenue Albert-!e (ancienne Avenue del'Abattoir<lb/>BEZIERS<lb/>à 200 m. de la Place de la République<lb/>CRÉATIONS<lb/>Livraison gratuite dans tout l'arrondissement par voiture automobile</ab>
+          <ab><lb/>Ateliers Electro-Mécaniques<lb/>17, rue Gayon<lb/>RÉASSORTIMENTS</ab>
+          <ab><lb/>La Société CARBONEA<lb/>CLARETON<lb/>Balustres, Perrons Extérieurs<lb/>LIBRAIRE<lb/>Téléphone 2.83<lb/>Monuments Funéraires<lb/>place du Théâtre<lb/>Vous Charbons 1er choix<lb/><lb/>A. BOULARAN<lb/>donnera Poids garanti<lb/>ŒEUVRES FELIBRÉENNES<lb/><lb/>Vient de paraitre:<lb/>Livraisons Charbons Anglais et Prançais<lb/>en sacs plombés de 50 K. net<lb/>Lou Teatre Poupulari<lb/>10. Rue Cambon<lb/>TOME<lb/>L.H.PELISSIER-RICARDOU<lb/>BEZIERS<lb/>du Félibre Emile BARTHE<lb/>35, Boul. de Verdun. Béziers</ab>
+          <figure type="decoration"/>
+          <p rend="heading"><lb/>Appareilleur-Diplomé</p>
+          <ab><lb/><lb/><lb/>10<lb/><lb/><lb/><lb/><lb/>EL<lb/>-<lb/><lb/>Coumedio mouderno en 3 ates e en berses<lb/>Del Felibre Emile BARTHE</ab>
+          <figure type="decoration"/>
+          <ab><lb/>IMPRIMERIE GENÉRALE<lb/>9, Avenue de Pézenas - BEZIERS- Avenue de Bédarieux, 10<lb/>TELEPHONE5,67<lb/>TELEPHONE 5.67<lb/>TYPOGRAPHIE - LITHOGRAPHIE - RELIURE<lb/>PAPETEREE<lb/>ARTICLES DE BUREAO<lb/>ARaRRa</ab>
+          <figure type="decoration"/>
+          <ab><lb/>BRASSERIE GÉNERALE DU MIDI<lb/><lb/>BEZIERS</ab>
+          <ab><lb/>burce gameabelDoe Medrateca occitan</ab>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

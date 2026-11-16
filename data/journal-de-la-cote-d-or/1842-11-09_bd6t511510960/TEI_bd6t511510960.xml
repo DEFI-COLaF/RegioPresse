@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t511510960</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1842-11-09">1842</date>
+          <idno type="ARK">bd6t511510960</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t511510960</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/>FEUILLE POLITIQUE, LITTÉRAIRE, COMMERCIALE INDISTRIELLE.<lb/>Paraissant les Mercredis, Vendredis et Dimqches.</ab>
+        <ab><milestone unit="column" n="4"/><lb/>18 FRANCS PAR AN, 9 francs pour 6 mois, 5 ues pour 5 mois.</ab>
+        <p rend="styled"><lb/>On s'abonne à Dijon, au Bureau, rue Verrerie, 2 bis, ou l'on reçoit toutes les communications qui peuvent intéresser le chef-lieu ou les communes<lb/>du département. — Les lettres doivent être affranchies et signées pour la garantie du rédacteur responsable.</p>
+      </div>
+      <div type="article">
+        <p><lb/>poLta p7ainte au procureur du roi, contre M. Dufaure,<lb/>imprimeur et libraire, pour avoir publié, sans sa per¬<lb/>mission, en contravention au décret du 7 germinal<lb/>an XIII, plusieurs livres d’église, notamment un Eu-<lb/>cologe, un Paroissien, le Catéchisme du diocèse et la<lb/></p>
+        <p><lb/>du roi pour l'audience correctionnelle du 21 juin, et<lb/>M. Angé, libraire ordinaire de l’évêché, s’est joint au<lb/>ministère public, comme partie civile lésée par les pu¬</p>
+        <p><lb/>plusieurs faits, correspondances et conférences qui<lb/>constituaient, suivant lui, en sa faveur, l’autorisation</p>
+        <p rend="labelled"><lb/>que des explications de Dufaure à l'audience, que dans le<lb/>courant de l'année 1839, il a publié divers livres d’église,<lb/>tels que le Catéchisme du diocèse de Versailles, la Sainte-</p>
+        <p rend="labelled"><lb/>sans la permission de l'évêque; qu'ainsi il a contrevent<lb/>aux dispositions du décret du 7 germinal an XIII (28 mars</p>
+        <p rend="labelled"><lb/>par la charte constitultionnelle ; qu'il n'accorde en effet aux<lb/>évêques qu’un droit de surveillance sur l'impression de<lb/>livres d'église, dans l'intérêt des fidèles, pour le maintien<lb/>de la foi, de la discipline et de l'unité de la liturgie; qu'il<lb/>ne résulte pas non plus du décret que lorsque l'évèque<lb/>approuvé un livre d'église, il puisse être publié par tout<lb/>imprimeur, sans son autorisation particulière; que le texte<lb/>même du décret repousse cette interprétation; en effet, i<lb/>dispose d'une manière absolue que les livres d'église ne<lb/><lb/>peuvent être imprimés ou réimprimés sans la permission</p>
+        <p rend="labelled"><lb/>Ence qui touche le delit de core naranainee<lb/>1^o A l'égard de l'Eucologe, de la Sainte-Quarantaine et</p>
+        <p rend="labelled"><lb/>vêque, de ces trois livres, ne constitue pas de la part de<lb/>Dufaure le délit de contrefaço; qu'en effet, la loi des 19 et<lb/>24 juillet 1793 n'accorde qu'aux auteurs d'écrits et ouvra-<lb/>ges, à leurs héritiers ou cessionnaires, durant l'espace de<lb/>dix ans après la mort des auteurs, la propriété de ces écrits<lb/>et ouvrages, d'où il suit que les évêques n'ont la propriété<lb/>que des ouvrages par eux composés; que le décret du <lb/>germinal an XIII n'a apporté aucune dérogation aux prin-<lb/>cipes de cette loi; que du droit de surveillance qu’il con¬<lb/>fère aux évêques sur les livres d'église, on ne saurait en<lb/>conclure qu'il leur accorde la propriété de ces livres; qu'il<lb/>n'est nullement question de cette propriété dans le décret;<lb/>qu’un droit aussi étendu ne peut résulter que d'un texte</p>
+        <p rend="labelled"><lb/>de cet évêque; que Monseigneur actuel est légataire uni-<lb/>versel de son prédécesseur; que le Catéchisme est encore<lb/>par conséquent sa propriété; qu'ainsi Dufaure, en impri-<lb/>mant le Catéchisme sans l'autorisation de l'évêque ou<lb/>d'Angé, son cessionnaire, a commis le délit de contrefa-</p>
+        <p rend="labelled"><lb/>taire des livres d'église, autres que le Catéchisme imprimé<lb/>par Dufaure, d'où il suit que ce dernier ne peut être tenu<lb/>d’aucuns dommages-intérêts envers l'évêque ni envers son<lb/>cessionnaire, pour la publication de livres sur lesquels l'é-<lb/>vêque n'avait aucun droit de propriété; qu'il ne peut pas<lb/>résulter de la publication que Dufaure a faite sans autori-<lb/>sation qu'il soit passible de dommages-intérèts envers An-<lb/>gé, qui avait obtenu de l'évèque la permission de publier<lb/>ces livres; que ces dommages ne sont dus, aux termes du<lb/>décret de l'an XIII, combinés avec la loi de 1793, qu’aux<lb/>véritabies propriétaires; qu’il n'est pas établi que toutes<lb/>les traductions de l'Eucologe, ou partie de ces traductions,</p>
+        <p rend="labelled"><lb/>débitant le Catéchisme du diocèse de Versailles, au mépris<lb/>des droits de l'évêque et de son cessionnaire sur le Caté-<lb/>chisme, a occasionné à Angé un préjudice dont il doit l'in¬<lb/>demniser; que la somme de mille francs réclamée par Angé<lb/>est exagérée, et que la somme de trois cents francs suffit<lb/><lb/>pour le dédommager de toutes les pertes qu'il peut avoir</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>son numéro du 5, à titre de renseignemens exacts et<lb/>complets, la lettre que lui a adressée un correspondant<lb/>anonyme de Beaune, pour établir que le tracé du<lb/><lb/>chemin de fer de cette ville à Châlon par Chagny doit<lb/>obtenir la préférence sur la direction par Demigny,<lb/>proposée par le conseil municipal de cette dernière<lb/>commune dans une pétition appuyée de l’avis de celui</p>
+        <p><lb/>nous n’avons garde d’affirmer avec l'assurance de<lb/>notre confrère, quoiqu’ils occupent plus de six colon¬<lb/>nes de son journal; qu’ils soient exacts, c’est ce que<lb/>nous laissons à débattre par les parties intéressées et</p>
+        <p><lb/>de l’anonyme, que quelques lignes dont nous pensons<lb/>qu'il ne s'est pas promis beaucoup de reconnaissance<lb/>de la part du conseil dont il combat la délibération.<lb/>Voici en quels termes il parle de cette honorable ad-</p>
+        <p rend="labelled"><lb/>par Demigny,<lb/>ayant plutôt un intérêt opposé, quel a donc pu être le mo-<lb/>bile du conseil municipal de Beaune? Je le dis à regret,<lb/>on chércherait vainement une cause sérieuse à cet aviss<lb/>gravement déllbéré; c'est tout simplement, et les person-<lb/>nes qui sont au courant des choses de notre ville le savent<lb/>parfaitement, un acte de complaisance qui ne peut que<lb/>compromettre la position élevée que nous voudrions voir<lb/>occupée par le conseil municipal, et qui trahit chez ses au-<lb/>teurs une grande légèreté d'esprit, peu d'aptitude pour<lb/>les affaires importantes, et cette incapacité de réflexion<lb/>qui fait accéder à un projet présenté avec vivacité par une<lb/>personne intéressée, sans en sonder les détails, sans en em-<lb/>brasser l'ensemble et en pressentir les résultats. Ainsi s'ex-</p>
+        <p rend="labelled"><lb/>du délit de contrefaçon du Catéchisme du diocèse de Ver-<lb/>sailles, du délit de publication de plusieurs livres d'église,<lb/>sans la permission de l'évêque de Versailles ; délits prévus<lb/>et punis par les articles 1^er et 2^e du décret du 7 germinal<lb/>an XIII, les articles 1^er, 2 et 5 de la loi du 19 juillet 1793,</p>
+        <p rend="labelled"><lb/>bonne et valable la saisie faite à la requête de M. le procu-<lb/>reur du roi des livres imprimés par Dufaure sans la per-<lb/>mission de l'évêque; ordonne que lesdits livres seront con¬</p>
+        <p><lb/>de Paris. Nous espérons pouvoir rendre compte de</p>
+        <p><milestone unit="column" n="5"/><lb/>7 novembre avec la solennité ordinaire. Le discours<lb/>d’usage a été prononcé par M. Legouz, avocat général.</p>
+      </div>
+      <div type="article">
+        <p><lb/>Les membres sortans du Conseil genéral de la Côte-</p>
+        <p><lb/>houx (id.<lb/>Dijon Est); Cugnotet (id. Dijon Ouest); Guillemot-Vié-<lb/>not (id. de Nolay) ; Duret (id. de Nuits); Baudot (id.<lb/>de Seurre) ; Gelez (id. de Montbard); Bordot-Godard<lb/>(id. de Vitteaux); Perriquet (id. de Fontaine-Fran¬<lb/>çaise et Mirebeau réunis); Pétot (id. d’Aignay et Re-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>embre, à hur un quart, le Depit amoureux, co-<lb/>médie en 2 actes et en vers; une ouverture à grand<lb/>orchestre; exercices de M. Casset, premier modéle des<lb/>Académies de peinture de Bordeaux; grande lutte<lb/><lb/>d'homme par M. Blanchard avec MM. les amateurs;</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>« La rentrée des classes s'est faite dans notre collég<lb/>19 du mois dernier et les jours suivans. Le nombre des<lb/><lb/>élèves internes s’etève à 63. Depuis huit ans, ce chiffre a</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>de ces réclamations multipliées contre l’union com¬<lb/>merciale avec la Belgique, de ces cris de détresse dont<lb/>le gouvernement a du être frappé et qui l'obligent à<lb/>ajourner les négociations, de cette convocation d'une<lb/>assemblée en matière d'états-généraux de l'industrie,<lb/><lb/>nous sommes loin de regarder comme perdue la cause<lb/>de l’union. Tout cela est dans l'ordre naturel des cho¬<lb/>ses, et nous serions plutôt surpris que cela n’eût pas<lb/>eu lieu. Il est dans la nature des intérêts matériels d'é-<lb/><lb/>tre prompts à s'alarmer, et il est tout simple qu’une</p>
+        <p><lb/>sincères, qui par ce motif nous émeuvent, quoiqu’el-<lb/>les ne soient point motivées, c’est que notre industrie,<lb/>qui il y a 25 ans allait de pair avec celle de la Belgi¬<lb/>que, peut la renconter une seconde fois dans la lice<lb/>sans en souffrir davantage. Nos fabricans de tissus<lb/>de coton ne peuvent raisonnablement avoir peur de<lb/>leurs émules de Belgique; car Mulhouse a déclaré ex-<lb/>pressément qu’elle ne demandait pas mieux que de<lb/>voir les barrières supprimées entre la Belgique et nous;<lb/>et du moment où notre principal centre d'industrie<lb/>cotonnière accepte la rivalité belge, qui a le droit de</p>
+        <p><lb/>missible à combattre l’union; car, si Verviers lui ins-<lb/>plus d’une fois exprimé l’effroi que lui causait la fabri-<lb/>cation française. L’industrie des toiles est, de part et<lb/>d’autre, en renouvellement par le fait de la machine<lb/>à filer: des deux côtés on est au même point. Reste<lb/>la grande industrie des fers; or, en ce qui concerne<lb/>cette fabrication nationale, la solution de la question<lb/>est dans l’amélioration des transports. Qu’on achève<lb/>le canal de la Marne au Rhin et celui du Berry, qu’on<lb/>y établisse des tarifs modérés, et nos maîtres de forges<lb/>de Champagne, du Berry et du Nivernais, par exem-<lb/><lb/>ple, seront en mesure de disputer le marché à ceux de<lb/>Belgique; de même pour les autres par de semblables</p>
+        <p><lb/>Rement bel-<lb/>ge, parfaitement rassuré d’ailleurs sur l'indépendan¬<lb/>ce de la Belgique dont il est justement jaloux, et dans<lb/>l'intérêt de ses populations, nous proposait un pacte<lb/>destiné à associer à nous la Belgique par des liens in¬<lb/>dissolubles. Il est certain qu’à ce pacte nous gagne¬<lb/><lb/>rions en même temps un nouvel essor manufacturier,<lb/>commercial et agricole, parce que les Belges ont, sous<lb/>tous les rapports, de bous exemples à nous donner<lb/>non cependant sans avoir à en recevoir de nous-mê¬<lb/>rection de l'établissement, on y comptait 4 internes seule-<lb/>ment; 3 ans après, on en comptait 65. Les choses en étaient<lb/>là, quand une mort prématurée vint frapper M. Gresley.<lb/>La perte de cet habile administrateur fut vivement sentie<lb/>des élèves, des parens et de tout l'arrondissement. On crai-<lb/>gnait pour la prospérité du collége : cependant les auto-<lb/>rités locales et les professeurs ayant réuni leurs efforts, et<lb/>M. Martin, qui était avantageusement connu, ayant été<lb/>nommé principal, les craintes furent bientôt dissipées, et,<lb/>depuis, l'établissement n'a pas cessé d'être florissant. Tout<lb/>fait espérer qu'il le sera long-temps encore. M. le Sous-<lb/>préfet, dont le zèle pour le collége ne s'est jamais démen-<lb/>ti, est venu, vendredi dernier, faire sa visite accoutumée<lb/>à toutes les classes. Il a vu avec plaisir que les bancs ne<lb/>se sont pas dégarnis; et il en a témoigné sa satisfaction à</p>
+        <p><lb/>«Outre son collége, la ville de lemur, qui c siences<lb/>5,000 ames, possède en étahlissemens de sciences</p>
+        <p rend="labelled"><lb/>sortis la plupart du pincenu des peintres les plus distincuux</p>
+        <p rend="labelled"><lb/>que jamais le surnom de petite Athènes de la Bourgogne.</p>
+        <p rend="labelled"><lb/>établissemens ci-dessus mentionnés sont dus au zèle éclai-<lb/>ré de MM. Vatout et Larribe, l'un député, l'autre sous-pré-<lb/>et matériels, ou bien, par une levée de boucliers irré-<lb/>fléchie, par une sorte d'émeute, sans prendre le temps<lb/>d’examiner si les inconvéniens de l'union étaient gra¬<lb/>vos et s’ils étaient sans remède, convenait-il de con-<lb/>traindre notre gouvernement, de vive force, à repous-<lb/>craindre de nous créer ainsi une cause d'amers regrets?<lb/>Savions-nous bien ce que nous rejetions avec violen¬<lb/>ce? Voilà ce que les conservateurs, manufacturiers<lb/>ou autres, qui se sont mis à la tête du mouvement,<lb/>eussent dû se demander à eux-mêmes. Ils n'ont voulu<lb/>rien écouter ; ils ont tranché la question sous l'empire<lb/><lb/>de préjugés et de préventions qui n’eussent pas sou¬<lb/>tenu la discussion. Qu’ils le sachent pourtant : ils ont<lb/><lb/>dessus des forces de qui que ce soit, parce que l'union<lb/>est dans l'intérêt des deux peuples, dans leurs besoins<lb/>politiques et matériels, et bon gré mal gré le flot po¬</p>
+        <figure type="decoration"/>
+        <pb facs="0002.xml"/>
+        <p><lb/>d'union continue à peser sur le gouvernement et sur<lb/>eux-mêmes. Seulement, pour nous cette circonstance<lb/>était propice), Doccasion excellente, telle que jamais<lb/>peut-être nous ne la retrouvérons. Ils ont denc assu-</p>
+        <p rend="labelled"><lb/>procès-verbal de la réunion industrielle qui a eu lieu<lb/>se 6, à dix heures du matin, dans les salons Lemarde</p>
+        <p rend="labelled"><lb/>s manutacturiers et com-</p>
+        <p rend="labelled"><lb/>pelé, en qualité de doyen-d'âge, à ouvrir la séance; il était<lb/>assisté du plus jeune des membres présens, M. Sorive, fi-<lb/>lateur de lin, déléguc de Lille, remplissant les fonctions de<lb/></p>
+        <p><lb/>président du conseil général des manufactuses, président;<lb/>Barbet, maire de Rouen, vice-président; Lefort Henry,<lb/>paésident du tribunal de commerce, scrutateur ; Delsalle,<lb/><lb/>président du tribunal et de la chambre de commerce de<lb/>Lille, id.; Avril, président de la chambre consultative de<lb/>Nevers, id; Peret-Lorel, vice-président de la chambre de<lb/>commerce d’Amiens, id.; Randoing, président du tribunal<lb/></p>
+        <p rend="labelled"><lb/>réunion, complètement étranger à la politique, M. Mimerel<lb/>a donné successivement la parole aux représentans de ton¬<lb/>tes les industries, qui ont signalé les désastreuses consé-<lb/>quences des projets d'union deuanière ou de traité de com-</p>
+        <p rend="labelled"><lb/>dant plus de trois heures, tous les renseignemens et déve-<lb/>joppemens qui ont été produits; la discussion la plus fran¬<lb/>che a été appelée sur toutes les questions, et il en résulté</p>
+        <p rend="labelled"><lb/>« forment qu'une grande famille organisée et développée<lb/>« tional; qu'ayant pour base générale l'agriculture, l'inté-<lb/>« représentent non-seulement la classe des producteurs,</p>
+        <p rend="labelled"><lb/>« traire, un mal permanent que l'industrie ne peut supporter</p>
+        <p rend="labelled"><lb/>« et recueillir tous les documens et détails statistiques qui<lb/>« elles diront la conséquence de l'abaissement des barrières</p>
+        <p rend="labelled"><lb/>« coordonner et résumer les travaux: elles devront pré¬</p>
+        <p rend="labelled"><lb/>collective aux ministres, dont le projet sera soumis à une<lb/>nouvelle réunion indiquée pour lundi prochain, à dix heures</p>
+        <p rend="labelled"><lb/>Nous extrayons du Courrier du Gard les faits en ces termes la mort de M. Target:</p>
+        <p rend="labelled"><lb/>fer du Gard. M. Teste, ministre des travaux publics, dépu-<lb/>té du Gard, enfant de ce département et pendant long-<lb/>temps l'honneur du barreau de Nîmes, posait la première<lb/>du chemin de Montpellier à Nîmes, de ce chemin qui doit<lb/>faire de Nîmes un centre d'où rayonneront trois chemins<lb/>de fer : l’un sur Avignon et Marseille, l’autre sur Montpel-</p>
+        <p rend="labelled"><lb/>bilités de la ville, s'est rendu sur l'emplacement du débar-</p>
+        <p rend="labelled"><lb/>ponne, le premier au nom du département, le second au</p>
+        <ab><milestone unit="column" n="2"/><lb/>de commerce d'Abbeville, secrétaire ; Feray, membre du de service. On a compté l'expédition de Rambouillet<lb/>nom de la ville, leurs remercîmens pour tout ce que M.</ab>
+        <p rend="labelled"><lb/>senté à M. Teste la truelle et le marteau, en prenant l'en-<lb/>gagement de le convier au 1^er mai 1844 (fête du roi), a</p>
+        <p><lb/>confionce du roi lui avait donné l'honorable mission qu'il<lb/>remplissait en ce moment; il a dit qu'il regardait comme<lb/>un jour bienheureux pour lui celui où il venait dans le pays<lb/>fer de Montpellier à Nîmes, destiné à seconder si puissam-<lb/>ment le développement de son industrie et de sa civilisa¬</p>
+        <p rend="labelled"><lb/>laissé de si magnifiques traces de leur génie et de leur puis-<lb/>qui doivent tant contribuer à la paix du monde, à la gloire<lb/>du règne de S. M. Louis-Philippe; il a terminé par ces<lb/>mots : Au nom du roi Louis-Philippe 1^er, je fonde te</p>
+        <p rend="labelled"><lb/>impressionné la foule des assistans, et qu’il serait bien</p>
+        <p rend="labelled"><lb/>géuéral Pajol, affirment qu'il est né en 1773. C'est une er-<lb/>reur; cet officier-général est né le 3 février 1770, et, par</p>
+        <p rend="labelled"><lb/>déterminé le gouvernement à lui donner un succes-<lb/>seur dans le commandement militaire de Paris. Un<lb/>journal radical a cru faire quelque chose de très-in¬<lb/>génieux, en leur rappelant que M. le maréchal Soult,<lb/>ministre de la guerre et président du conseil, est dans<lb/>sa soixante-treizième année. Mais la position n'est pas</p>
+        <p><lb/>pour les maréchaux-de-camp, et à soixante-huit ans<lb/>pour les lieutenans-généraux, à moins que ces der¬<lb/>niers n'aient commandé en chef un corps d'armée.<lb/>Quant aux maréchaux de France, il n’y a pas de re<lb/>traite pour eux. Tant qu’ils vivent, ils sont en activité<lb/>à M. le général Pajol pour le commandement en chef<lb/>d'un corps d'armée; c’est à cette circonstance que le<lb/>général Pajol, qui est âgé, non pas de soixante-huit<lb/>ans, comme on l'avait cru d’abord, mais de soixante¬<lb/>douze, a du d'être conservé sur le cadre d'activité,<lb/>tandis qu’un grand nombre d’officiers non moins dis-<lb/>tingués par leur bravoure, par leur mérite, par leurs<lb/>services, ont vu leur carrière terminée à soixante¬</p>
+        <p rend="labelled"><lb/>nance par laquelle M. le maréchal-de-camp Aupick<lb/>est nommé au commandement de la place de Paris, en<lb/>remplacement de M. le général Darriule qui est mis,</p>
+        <p rend="labelled"><lb/>la retraite M. le colonel Dulac, commandant de la 1e<lb/>légion de gendarmie, à Paris. Il y a près d’un mois<lb/>que M. le colonel Dulac a été admis à prendre sa re-<lb/>traite, et que M. Hautreux, colonel de la 7^e légion de<lb/>gendarmerie, à Tours, a été appelé à le remplacer.<lb/></p>
+        <p rend="labelled"><lb/>du traité d'union commerciale avec la Belgique une<lb/>démonstration imposante. Le 2 novembre, les prin¬<lb/>cipaux fabricans et commerçans de Reims, réunis au<lb/>nombre de 150, ont décidé, après une longue délibéra-<lb/>tión, que des délégués seraient envoyés à Paris pour<lb/>soutenir la [cause de l’union au sein de l’assembléc<lb/>convoquée pour le 5, et ont voté une lettre motivée au</p>
+        <p rend="labelled"><lb/>«Au milieu des graves embari<lb/>belge, la décision que viennent de prendre spontanément</p>
+        <p rend="labelled"><lb/>merce. L'adhésion d'une ville manufacturière aussi impor-<lb/>tante que Reims montre ce qu’il y a d'exagéré dans les alar-<lb/>mes de certaines villes qui exploitent une industrie sem-</p>
+        <p rend="labelled"><lb/>fet du Calvados est mort hier matin, vers une heure et<lb/>demie, entouré de sa famille. Jusqu’au dernier moment où<lb/>il a rendu son ame à Dieu, M. Target a librement conversé,<lb/>avec les siens, de sa mort qu'il voyait arriver sans crainte.<lb/>Les plus vifs regrets pour ceux dont il se séparait, hélas!<lb/>dont il avait le premier imploré le bienfaisant secours, n'a¬<lb/>vait cessé de veiller à son chevet: en paix avec sa con¬<lb/>nom et de nobles exemples. Le département perd en lui un</p>
+        <p><lb/>Notre-Dame. Après l'office religieux, ses restes partiront</p>
+        <p rend="labelled"><lb/>nouveau témoignage des pieux souvenirs qu’elle a conser-<lb/>vés des bienfaits de l'illustre aïeul de Mme la princesse Adé-<lb/>laïde d'Orléans, vient, sur la demande qui lui en a été<lb/>faite, de voter la concession des droits de servitude qu'elle<lb/><lb/>possède dans le parc de Châteauvillain, dépendant des do-<lb/>maines de la princesse, afin de lever tout obstacle à la<lb/>construction prochaine d’un château destiné à devenir une</p>
+        <p rend="labelled"><lb/>ment, l'abbé Olivier s'était arrêté au château de Dangu, où<lb/>il dit la messe; avant la fin de l’office, il voulut témoigner<lb/>sa satisfaction aux chantres qui l’avaient accompagné et<lb/>leur offrir son anneau à baiser. Il descendit donc de l'au-<lb/><lb/>tel, se dirigea vers l'un d’eux, et avec une grace infinie éten-<lb/>dit saintement la main. Le rustique chanteur, qui ignorait<lb/><lb/>le cérémonial, s'imagina que l'évêque, pris d'un bel accès<lb/>de popularité, venait lui faire une politesse amicale, et lui</p>
+        <p rend="labelled"><lb/>doigts hlancs et délicats du prélat, et les secouant avec une<lb/>cordiale énergie: « Merci, Monseigneur, lui dit-il d'une<lb/>voie éclatante, ça va bien, et vous?» M. Olivier, tout stu-<lb/>péfait et rouge de dépit, remonta vivement à l'autel, sans<lb/>tenter une seconde épreuve auprès des autres chantres.<lb/>Le respoct ne put, dans le premier moment, contenir l'hi¬</p>
+        <p><lb/>sises du Puy-de-Dome, et dont le pourvoi a été admis, est<lb/>parti hier matin pour Lyon où il sera jugé de nouveau,<lb/>par suite de l'arrêt de cassation qui le renvoie, pour vice</p>
+        <p><lb/>causé au petit nombre des spectateurs qui se trouvaient à<lb/>dont on ne saurait mettre en doute le courage, avait, dit-<lb/>on, manifesté quelques appréhensions relativement à son<lb/>voyage aérien, et plusieurs personnes l'engagaient à y re¬</p>
+        <p rend="labelled"><lb/>on avait négligé de retirer préalablement la corde qui re-<lb/>tenait le ballon, à sa partie supérieure, opération qui ne fut<lb/>celle tourne sur elle-même, et M. Kirsch, qui s’y tenait de-<lb/>bout, a été jeté en dehors, la tête la première. Alors le<lb/>ballon était à 30 mètres de hauteur. L’habile aéronaute<lb/>devait trouver là le terme de sa vie, et déjà un cri de dou-<lb/>leur se faisait entendre de toutes parts; mais, par un ha-<lb/>sard providentiel, la cordre où est suspendue son grappin<lb/>de sauvetage, c’est-à-dire le triple crochet qu’il jette lors-<lb/>nacelle; c'est cette corde, qui fut retenue par le grappin<lb/>à la nacelle, que l’intrépide voyageur eut la présence<lb/>d’esprit de saisir avec les deux mains, et à laquelle il resta<lb/>suspendu. Il la passa alors sous le bras, et , voulant ras-<lb/>surer la foule de l'autre main qu’il pouvait laisser libre,<lb/><lb/> ôta son chapeau et eut assez de sang-froid pour saluer la</p>
+        <p rend="labelled"><lb/>ordiuaire, et la force musculaire pouvait ne pas suffire.<lb/>L'habile aéronaute tira à lui le reste de l'a corde qui le dé¬<lb/>passait de heaucoup, et s'en fit une espèce d'étrier; alors<lb/>il eut un point d'appui, et passant devant la propriété de<lb/><lb/>M. Johnston, il jeta son chapeau, pour rassurer de nouveau<lb/>les personnes qui suivaiont avec anxiété sa périlleuse en¬</p>
+        <p rend="labelled"><lb/>«C'est dans la lande de Pessac, au bord d'un ruisse du<lb/>et près d'un moulin, qu'il fut assez heureux pour descen<lb/>eux pour descen</p>
+        <p rend="labelled"><lb/>grand nombre de familles espagnoles, dépourvues de toutes<lb/>ressources et n’étant munies de passeports que pour voyager<lb/>trer jusque dans l'intérieur de la France, où elles se livrent</p>
+        <p rend="labelled"><lb/>fois obligé d’accerder les secours de route pour retourner<lb/>en Espagne, occasionnaient des frais considérables aux dé¬</p>
+        <p rend="labelled"><lb/>nées sur la frontière pour que l'accès en fût refusé à tous<lb/>ceux de ces étrangers qui ne pourraient être considérés<lb/>comme réfugiés politiques; mais beaucoup d'entre eux<lb/>réussissent encore à la franchir et à s'introduire ainsi dans</p>
+        <p rend="labelled"><lb/>ont été de nouveau averties de repousser et de renvoyer<lb/>immédiatement en Espagne tous les individus de cette na¬<lb/>tion qui ne seraient point munis de passeports réguliers,<lb/>ou qui ne pourraient justifier de leurs moyens d'existence</p>
+      </div>
+      <div type="article">
+        <p><lb/>ils suivans sur létat de la cisation dans le<lb/>tails suivans sur l'état de la colonisation dans le </p>
+        <p><lb/>certain nombre de familles de Grasse et communes envi¬<lb/>ronnantes, qui avaient demandé à venir s'établir en Al-</p>
+        <pb facs="0003.xml"/>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>que les familles qui avaient demandé des concessions de<lb/>terre eurent fait connaître ieur résolution définitive, l'ad-<lb/>ministration dut s'occuper sans retard des moyens de les<lb/>amener en Algérie, et M. l'amiral préfet maritime à Toulon,<lb/>instruit de ces circonstances par M. le ministre de la guerre,<lb/>prescrivit au bâtiment à vapeur le Météore, qui avait une<lb/><lb/>mission pour Alger, de se rendre dans la rade d’Antibes<lb/>pour y recevoir les colons qui voudraient s’embarquer.<lb/>Cela eut lieu ainsi, et le dimanche 16 au soir, le Météore<lb/>mouillait dans le port d'Alger, amenant les émigrans qu'il</p>
+        <p rend="labelled"><lb/>directeur de l'intérieur, qui avait voulu se charger lui-<lb/>mème de leur première installation; des voitures, four-<lb/>nies par l'administration, transportaient leurs effets mobi-<lb/>liers, consistant en meubles de toufe espèce, plantes et<lb/><lb/>graines pour semences, instrumens aratoires, etc., etc. Des<lb/>baraques avaient été construites sur chacun des lots qui<lb/>leur étaient réservés ; le sort ou la convenance individuelle<lb/>ont présidé à la distribution des lots, et le soir ils étaient<lb/>tous établis sous ces abris provisoires, et en quelque sorte<lb/>chacun chez lui. Les lots de terre à cultiver sont prèts éga-<lb/>lement; un géomètre de la direction de l'intérieur est sur<lb/>les lieux, et a commencé à désigner à chacun les terres qui<lb/></p>
+        <p rend="labelled"><lb/>en présence de M. le directeur de l'intérieur est de vingt-<lb/>neuf; il y avait avec eux douze femmes et une quarantaine<lb/>d'enfans, ou plutôt de jeunes gens des deux sexes, presque<lb/>tous déja capables de travailler. Par un motif de prudence<lb/>que tout le monde comprendra, quelques-uns des cheis de<lb/>lamille avaient laissé en France leurs femmes et leurs en-<lb/>tans en bas âge ; ils les appelleront à eux lorsque les diffi¬<lb/>cultés inhérentes à une première installation auront été sur¬<lb/></p>
+        <p rend="labelled"><lb/>portance; nous avons eu plus d'une fois occasion de faire<lb/>remarquer que l'on avait plus fait pour la colonisation dans<lb/>le courant de cette année que dans les douze années qui ont<lb/>précédé. En effet, c’est de cette année que datent les vil-</p>
+        <p rend="labelled"><lb/>l'Achour, les Cheragas, Douéra, par la direction de l'inté-<lb/>rieur, qui prépare en outre ceux de Saoula et Ouled-Fayet,<lb/>dont les projets sont à peu-près terminés et vont être sou¬</p>
+        <p rend="labelled"><lb/>ci par les condamnés militaires l'établissement des villages<lb/>de Boukandoura (Saint-Ferdinand), et Staouëli: ensemble,<lb/></p>
+        <p rend="labelled"><lb/>ded-Mendil, Mahelma, Sidi Sliman, Baba-Hassen, terri-<lb/>toire de Douéra; El Hadjar, sur la rive droite de Mazafran<lb/>Douaouda, sur la rive gauche; Sidi Ferruch, village mari-<lb/></p>
+        <p rend="labelled"><lb/>entrepris en même temps. Diverses personnes annoncent<lb/>l’intention de bâtir des fermes à proximité des villages déjà</p>
+        <p rend="labelled"><lb/>qui se rattachent à l'Algérie, aucune plus que celle de la<lb/>colonisation proprement dite ne préoccupe l'attention du<lb/>gouvernement. Elle sera certainement portée devant les<lb/>Chambres à la session prochaine, et avec d’autant plus d’a¬<lb/>vantages, qu’elle s'y présentera, non pas seulement escor-<lb/>tée d’hypothèses et de raisonnemens plus ou moins spé-<lb/>cieux, mais appuyée de laits positifs et de résultats déjà</p>
+        <p rend="labelled"><lb/>après, relatifs au transport à Alger de 91 malades,<lb/>confiés par M. le lieutenant-général Bugeaud, dans sa<lb/>dernière expédition, à une escorte composée exclusi¬<lb/>vement d’indigènes. Ils sont extraits d’un rapport<lb/>adressé par l'intendant militaire de la division d'Al¬<lb/>ger au gouverneur-général, dont la noble inspiration,<lb/>ainsi justifiée, ne peut manquer d'être fertile en heu¬</p>
+        <p rend="labelled"><lb/>à monter pendant environ trois quarts d'heure une rampe<lb/>facile, puis elle a marché l'espace d'environ trois lieues et<lb/>demie sur un plateau peu accidenté. Elle a rencontré ensui-<lb/>te des coteaux faciles jusqu'au bivouac où elle s'est éta¬<lb/>blie, à six heures du soir, près d’un douar de la tribu des</p>
+        <p rend="labelled"><lb/>née; pendant la route, vers trois heures, le nommé Bosc,<lb/>brigadier du train, entré à l'ambulance la veille, pour une<lb/>fièvre intermittente, est mort d'un accès pernicieux qui<lb/>s'est manifesté après le départ. M. Seguy a placé ses che-<lb/>vaux en carré sur un mamelon, et a mis les malades au<lb/>milieu. Un marabout, frère du khalita Ben-Mahi-Eddin,<lb/>nommé récemment par M. le gouverneur-général, a don¬<lb/>né au détachement tout ce que le pays produit: du rai-<lb/>sin, du couscou, des galettes, et du mouton en abondance.<lb/>de l'orge pour les chevaux, de la paille pour les malades,<lb/>Il a placé autour du petit camp français des postes indigè¬</p>
+        <p rend="labelled"><lb/>le, couverts de leurs couvertures, n'ont pas souffert de<lb/>l'absence de tentes. M. Seguy mit sous sa tente les hommes<lb/>atteints de blessures les plus graves et les plus malades.<lb/>Le 9, la colonne est partie à six heures du matin. Avant le<lb/>départ, le brigadier Bosc a été enterré, fes habitans du<lb/>douar ont eux-mêmes creusé la fosse. Le marabout a ac-<lb/>compagné la colonne jusqu’à la tribu des Beni-Moussa;<lb/>quinze Kabyles, porteurs de pioches et d’autres outils, mar-<lb/>chaient en tête; ils ont puissamment contribué à rendre fa-<lb/>cile uu chemin qui, sans eux, eût présenté de très-grands<lb/>obstacles à la marche de nos chevaux, surtout des mulets<lb/>chargés de litières. Ils adoucissaient les pentes trop raides,M<milestone unit="column" n="3"/><lb/>coupaient les arbres qui pouvaient embarrasser le passa¬<lb/>et de la terre; tout ce travail se faisait avec rapidité et in-<lb/>telligence, sans que la marche de la colonne soit ralentie</p>
+        <p rend="labelled"><lb/>ne tarit pas en éloges sur son compte. Avant de quitter<lb/>nos malades, il leur fit encore apporter du raisin, du lait<lb/>et du couscou par les habitans de la contrée où l'on se<lb/>trouvait alors. M. Seguy offrit de l’argent aux Kabyles; ils<lb/>lui firent comprendre que c'était par ordre du marabout<lb/>et de Ben-Mahi-Eddin qu’ils donnaient ces objets. Une fois<lb/>entré sur le territoire des Beni-Moussa, le détachement n'a<lb/>pu trouver aucune aide dans le pays, mais il en a reçu des<lb/>Arabes qui l’escortaient; le maréchal-des-logis, Ben-Zeni,<lb/>des spahis irréguliers, a montré beaucoup de dévouement</p>
+        <p rend="labelled"><lb/>tures d'ambulance, les couvertures et tous les moyens d'a¬<lb/>méliorer leur position que vous aviez envoyés dans la jour¬<lb/>née. Ils trouvèrent du bouillon, des alimens convenables,<lb/>de la tisane, préparés par les infirmiers venus également<lb/>d'Alger; ils reçurent aussi les soins du chirurgien sous-<lb/>aide Vergé, que vous aviez détaché de l'hôpital de Musta-</p>
+        <p rend="labelled"><lb/>des larfaitement compris et rem-<lb/>des eoges.</p>
+      </div>
+      <div type="article">
+        <p><lb/>comme seuls authentiques, à partir du 1^er novembre<lb/>millions 494,875 habitans, répartis dans 363 arrondis-</p>
+        <p rend="labelled"><lb/>la mort du révérend Herschell, rabin ou grand-prê-<lb/>tre de la grande-synagogue. Il avait 83 ans; sa mort<lb/>a été aménée par les suites d'une ehute qu’il àvait faite<lb/>en descendant d’omnibus pour aller rendre visite à<lb/>Mme. Rothschild. Il était rabbîn de la grande-syna-<lb/>gogue depuis quarante-un ans. Malgré les dons con¬<lb/>siderables qu'il faisait, il laisse à sa famille 20,000 liv.<lb/>st. et une immense quantité de vaisselle plate qui lui<lb/>avait été donnée. Les principaux membres de la con-<lb/>grégation, et entre autres le baron Rotchschild, sir<lb/>Neuf autres sont dès-à-présent projetés pour l'année Moses Montefiore et d'autres, se sont réunis pour ré-<lb/>gler le cérémonial de ses funérailles. Jamais le convoi<lb/>d'un Juif n’aura attiré autant de monde depuis la mort</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>lation, consiste en deux tournans avec bâtimens d’ex-<lb/><lb/>ploitation, routoir, chenevière, environ 11 hectares<lb/>29 ares 83 centiares de terres labourables, et 2 hec-</p>
+        <p><lb/>11843.</p>
+        <p><lb/>jour ci-des-</p>
+        <p><lb/>priétaire, à Belleneuve, soit à MM. ROUGET, notaire</p>
+      </div>
+      <div type="article">
+        <head><lb/>UE PROUDHON,</head>
+        <p><lb/>tion, écurie, fenil, grande cour et jardin, le tout clos<lb/>de murs, situé à Dijon, faubourg St.-Nicolas, rue de</p>
+        <p><lb/>S'adresser, pour traiter, soit au SGIER, notair<lb/>exploite cet établissement, soit à M. MUGNIER, notair</p>
+        <ab type="head"><lb/>Le mardi 22 novembre 1842. à midi, en l'étude et par</ab>
+        <p><lb/>avec cour et un petit jardin; le premier corps de bâ-<lb/>timent comprend une boutique et trois pièces au rez-<lb/>de-chaussée, deux étages, mansardes, greniers et<lb/>caves; le second un magasin et 2 chambres au-dessus.</p>
+        <p><lb/>taire qui lhabite, et pour traiter, soit à lui, soit à<lb/>. MUGNIER, hotIT</p>
+        <p><lb/>à vendre, en sept lots, le dimanche 13 novembre 1842,<lb/>Benoist, aubergiste audit lieu, par le ministère de M.<lb/></p>
+        <p><lb/>de la col<lb/></p>
+        <p><lb/>tion des peupliers, il sera procédé à l’amodiation, pour<lb/>neuf années consécutives, de huit piéces de PRÉS, de<lb/>la contenance ensemble de 7 hectares, lieux dits :<lb/>Laroche-Mongraviez, aux Noues, sous Morieul, en<lb/>Rosé, aux Chantiers, Chardigot, en Fumet et au<lb/>Gravier, tous situés sur le territoire dudit Fleurey.</p>
+        <p><lb/>taire à Dijon, ou à M. Saverot, instituteur à Fleurey.</p>
+      </div>
+      <div type="article">
+        <p><lb/>midi, au<lb/>domicile du sieur Léchenet, aubergiste à Saint-Julien,<lb/><lb/>par le ministère de M. MAZEAU, notaire à Dijon, rue</p>
+        <p><lb/>adjudicataires, qui pourront prendre tous renseigne-</p>
+        <p><lb/>12,000 FRANCS à placer à fonds perde<lb/>cent, et plusieurs autres sommes de 1,000, 2,000</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>2u d'u'e fore Tuffisante par être employé comme<lb/>d'eau d'une force suffisante pour être employé comme<lb/></p>
+        <p><lb/>d’une étendue suffisaute pour recevoir des construc-<lb/>tions sur la promenade publique, très-près du centre</p>
+        <p><lb/>Le cours d'eau, divisé entre toutes ter des vivie<lb/>peut subvenir à tous les besoins, alimenter desvi</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>décalitres de blés et orges, à vendre, par le ministère<lb/>dudit notaire, le 13 novembre 1842, à neuf heures du<lb/>matin, à la métairie de Chevigny, commune de Ter¬</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <ab type="head"><lb/>Le BOIS de MONTELEPOIX</ab>
+        <p><lb/>60 centiares, en une seule pièce, est situé sur la com-<lb/>mune de Gevrey, et près de ce village; il joint du<lb/>levant, du nord et du midi les bois communaux de<lb/>Gevrey, du couchant les terres de Chambœuf et les</p>
+        <p><lb/>Dijon, rue de la Liberté, 28, ou audit M. GUÉRARD,<lb/>notaire; et pour visiter cette propriété, à M. Brocard,</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Office de M. BÉLIARD, commissaire-priseur.</head>
+        <p rend="labelled"><lb/>dix heures du matin, en la salle de vente, rue des Go-<lb/>drans, 88, par le ministère de M. BÉLIARD, commis-</p>
+        <p><lb/>bre et à dessus de bois, une belle armoire et autres<lb/>meubles, le tout en noyer; garde-robe, chaises, etc.;<lb/>2 glaces, 2 pendules, 1 piano à 5 octaves 172 en acajou;<lb/>matelas, lits de plume et autres objets; quelques<lb/>pièces en porcelaine, table de cuisine et autres, bou¬<lb/>teilles vides, 1 beau poêle en tôle, garni en cuivre, à</p>
+        <p><lb/>Six fauteuils en acajou, for<lb/>usse<lb/>as </p>
+        <p><lb/>BIBLIOTHÈQUE provenant de la succession de feu<lb/>Mr Dertholomé, à vendre aux enchères, lundi 14 no-</p>
+        <pb facs="0004.xml"/>
+      </div>
+      <div type="article">
+        <head><lb/>GARNISSANT L'HOTEL DU CHAPEAU-ROUGE,</head>
+        <head><lb/>Par le ministère de M. BÉLIARD, commissaire-pri¬</head>
+        <p><lb/>dette<lb/>à dix heures a</p>
+        <p><lb/>Les 16 et 17: Cent pièces de belle batterie de cuisine<lb/>en rosette, deux grands fourneaux de cuisine en<lb/>fonte, tourne-broche et ses accessoires, la foyère ; us-<lb/>tensiles de cuisine en fonte, table de cuisine et autres<lb/>objets ; deux poêles en tôle garnis en cuivre, dont un<lb/>disposé pour le charbon-de-terre; deux grandes chau¬<lb/>dières à lessive, en cuivre, leurs fourneaux, et autres</p>
+        <p><lb/>Porcelaine, cristaux et verrerie de table; couteaux,<lb/>et tout ce qui concerne le service de table ; trois ta¬<lb/>bles à manger, à coulisses, dont une en acajou, de 25</p>
+        <p><lb/>Les 18, 19 et 21 : Trente-six lits garnis, commodes,<lb/>secrétaires et tables de nuit à dessus ds marbre, gla-<lb/>ces de diverses grandeurs, pendules, six fauteuils,<lb/>canapés, bergères, chaises, armoires, garderobes,<lb/>tables, etc.; foyères, flambeaux, et beaucoup d'autres</p>
+        <p><lb/>Tours de lits et rideaux de croisées en mousseline<lb/>brodée et autres étoffes, courtepointes, couvertures,</p>
+        <p><lb/>Le 22 : Continuation des articles précédens et l'ar-<lb/>genterie, qui consiste en quarante-huit couverts, trois<lb/>pochons, deux grandes cuillers, cuillers à café, une<lb/>soupière, un bel huilier, une cafetière, cuillers;<lb/>punch et manches à gigots; quatre réchauds de table</p>
+        <p><lb/>Le 23, Vins: 77 hectolitres 52 litres de vin rouge<lb/>(vieux) ordinaire en fûts, 1000 à 1200 bouteilles de<lb/>vins d’extra, liqueurs, eau-de-vie et kirsch, 100 bou-</p>
+        <p><lb/>Il sera perçu 5 centimes par franc, et les acquéreurs<lb/>vembre et jours suivans, à 6 heures du soir, par le<lb/>ministère de M. BÉLIARD, commissaire-priseur, en la</p>
+        <p><lb/>La présentation des livres sera faite par M. Lamar-</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>FONDS DE BOUTIQUE DE TAILLANDIER, bien<lb/>achalandé, situé à Seurre (Côte-d’Or), à remettre à des<lb/>conditions très-avantageuses. Si l’acquéreur le désire,<lb/>on lui vendrait la maison qui est située dans un des</p>
+        <p><lb/>S'adresser au propriétaire Boyer, taillandier, rue<lb/>Royale, à Seurre, ou à Dijon, rue Jehannin, n° 47.</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>MAISON à louer, en bloc ou par partie, pour entrer<lb/>en jouissance de suite, sur le port du Canal, avec ma¬<lb/>gasin, cour, jardin et une pièce de vigne attenant à la</p>
+        <p><lb/>Saducaa, Di, res la ba<lb/>port du canal, à Dijon, près la bascute</p>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>neriennes et cancerenfuls</p>
+        <p><lb/>Demeure place St.-Jean, maison du Café du grand<lb/>Balcon.</p>
+        <p><lb/>rès-midi; et dans la soiree, de six a</p>
+      </div>
+      <div type="article">
+        <p><lb/>M. FELIX aîné, marchand-tailleur, place d'Armes,<lb/>14, a l’honneur de prévenir les habitans de cette ville,<lb/>qu’il vient d’arriver de la capitale avec un très-grand<lb/>assortiment d’habillemens confectionnés pour hommes<lb/>et pour jeunes gens, le tout dans la plus haute nou-</p>
+        <note>
+          <p rend="styled"><milestone unit="column" n="3"/><lb/>DIJON. — IMPRIMERIE DE SIMONNOT-CARION, PLACE DES DUCS-DE-BOURGOGNE.</p>
+        </note>
+      </div>
+      <div type="article">
+        <p><lb/>On a perdu une paire de LUNETTES en or , di-</p>
+        <p><lb/>Récompense si on la rapporte au bureau du journal.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/> de </head>
+        <p rend="styled"><lb/>us étrangers seront adme</p>
+        <p rend="styled"><lb/>et PETITJEAN</p>
+        <p><lb/>En exécution de trois jugemens rendus par le tribu-<lb/>nal de première instance de Dijon, les 5 août, 9 a<lb/>cembre 1841, et 10 mars 1842, enregistrés, entre:</p>
+        <p><lb/>1^o Dame Jeanne Dupuis, femme autorisée du sieur<lb/>François Thevenin, cafetier, demeuraut en ladite ville,<lb/>agissant en qualité d’héritière à bénéfice d’inventaire<lb/>de dame Jeanne Sordoillet, sa mère, décédée femme<lb/>du sieur François Dupuis, baigneur à Dijon, et ledit<lb/>sieur Thevenin pour le fait de l'autorisation, deman¬<lb/>deurs, ayant pour avoué M. Etienne MOREL, exerçant<lb/>en cette qualité près ledit tribunal, et demeurant en</p>
+        <p rend="labelled"><lb/>giment de cuirassiers, en garnison à Rambouillet, do¬<lb/>micilié à Dijon, défendeurs, ayant pour avoué M. Pin-<lb/>GAT, demeurant en ladite ville, place St.-Jean, d’autre<lb/></p>
+        <p><lb/>Il sera procédé, par le ministère de MM. GAULOT et<lb/>PETITJEAN, notaires à Dijon, le dimanche 20 novem¬<lb/>bre 1842, heure de midi, en l’étude de M. GAULOT, rue<lb/>Chabot-Charni, à l'adjudication publique, aux enchè-<lb/>res, à l'extinction des feux, et même au-dessous de<lb/>l'estimation, des immeubles ci-après désignés, savoir:</p>
+        <p><lb/>Ilest composé d'un corps de bâtiment avec une petite<lb/>cour dans laquelle est un hangar, des lieux d’aisance,<lb/>et une galerie conduisant dans les habitations, un ma¬<lb/>gasin au rez-de-chaussée, une petite cave dessous; au<lb/>premier, deux chambres à feu : l’une prend ses jours<lb/>par deux croisées donnant sur la rue, et l’autre par<lb/>une autre croisée donnant sur ladite cour, attenant<lb/>audit bâtiment, où règne sur toute sa longueur un<lb/>grenier. Son entrée est desservie par une porte co¬<lb/>chère donnant sur la rue dite faubourg Raines. Le<lb/>tout est limité du côté du levant par les bâtimens de<lb/>Mme. Legallais, de couchant par le 2e lot qui va être<lb/>désigné, de midi la rue, et de nord encore le 2e lot.</p>
+        <p><lb/>L’acquéreur de ce premier lot sera tenu de faire mu¬<lb/>rer à ses frais la porte qui communique dans le jar-<lb/>din du 2^e lot, ainsi que l'entrée de cave qui se trouve<lb/>dans ce jardin. Ce 1^er lot est estimé cinq mille cinq<lb/>cents francs, ci........................ 5,500 fr.</p>
+        <p><lb/>père, consistant au rez-de-chausséeen deux chambres<lb/>à feu et un cabinet; au premier, deux chambres avec<lb/>cheminéès, deux mansardes au-dessus, dont une est à<lb/>feu : le tout desservi par un escalier en pierre et con¬</p>
+        <p rend="labelled"><lb/>tibnle servant de bureau, seize cabinets de bains, qua¬<lb/>tre baignoires en cuivre, treize en ferblanc, et une<lb/>en bois cerclée en fer, avec les corps en plomb et ro-<lb/>binets en cuivre, un réservoir en pierre garni de plomb<lb/>une grande chaudière en rosette de la capacité de 76<lb/>hectolitres 80 litres, et deux pompes en cuivre, pour</p>
+        <p rend="labelled"><lb/>sur la rue, composé d’une chambre à feu, un cabinet.<lb/><lb/>et grenier dessus, ainsi que le tout est occupé par le</p>
+        <p rend="labelled"><lb/>bitation du sieur Dupuis père el des bains : le tout ne<lb/>formant qu’un seul pourpris joignant de levant le 1e<lb/>lot, de couchant le 3^e lot ci-apres, de midi la rivière</p>
+        <p><lb/>la croisée de la chambre haute ayant son aspect sur la</p>
+        <p><lb/>Comme il n’a rien négligé, soit pour la solidité des<lb/>coutures, soit pour le bon teint de toutes ses étoffes,<lb/>il offre pour garantie, aux acheteurs, de reprendre dans<lb/>le délai de huit jours tous les articles qui manque-<lb/>raient par le vice des coutures ainsi que par la mauvaise</p>
+      </div>
+      <div type="article">
+        <p><lb/>ne indivise avec<lb/>madame Bremont, héritière de madame la veuve Ber-<lb/>ger, située sur le finage de Dijon, près de Larrey,<lb/>lieu dit ès Georgets, d’une contenance pour la totalité<lb/>de 17 ares 14 centiares, joignant de levant le sieur<lb/>Petit, de couchant une pépinière du sieur Achery, vi-<lb/>gneron à Plombières, aboutissant de midi sur le fossé</p>
+        <p><lb/>Cette moitié estimée trois cents francs, ci... 300 fr.</p>
+        <p><lb/>S'adresser, pour tous renseignemens, soit aux nos<lb/>taires GAULOT et PETITJEAN, soit à MM. MOREL et</p>
+      </div>
+      <div type="article">
+        <p><lb/>Par exploit de Gagnerot, en date du 29 juin 1842,<lb/>enregistré, il a été, à la requête des habitans de la<lb/>commune de Barges, poursuites et diligences de leur<lb/><lb/>maire, en exercice, lesquels ont fait élection de domi¬<lb/>cile en l’étude de M. COUTURIER, avoué près le tribu¬<lb/>nal de première instance de Dijon, y demeurant, rue</p>
+        <p><lb/>le tribunal de première instance de Dijon, en son par-</p>
+        <p><lb/>D'un acte dressé au greffe dudit tribunal, le 10 juin<lb/>1842, enregistré, constatant le dépôt qui y a été fait<lb/>ledit jour par M. COUTURIER, avoué, de la copie colla¬<lb/>tionnée du contrat d’acquisition faite par les requé¬<lb/>rans d’une maison située à Barges, aisances et dépen¬<lb/>dances, moyennant la somme de 4,500 fr., sur le sieur<lb/>Jean-Baptiste Magnien, propriétaire, demeurant à Bro-<lb/>chon, suivant acte reçu COURTOIS, notaire à Gevrey,</p>
+        <p><lb/>tions de l'article 2194 du Code civil, pour parvenir à<lb/>purger les hypotheques qui peuvent exister sur l'im-</p>
+        <p><lb/>Avec déclaration à mondit sieur le procureur du roi<lb/>que les anciens propriétaires outre les vendeurs sont:<lb/>1o Le sieur François Lamarche et dame Marie Che¬<lb/>villard, sa femme, demeurans à Barges; 2° le sieur<lb/>Pierre Lalouet, propriétaire au même lieu; et, en ou¬<lb/>tre, que ceux du chef desquels il pourrait être pris<lb/>des inscriptions pour raison d’hypothèques légales<lb/>n'étant pas connus des requérans, ils feraient publier<lb/>la présente signification dans les formes prescrites par<lb/>ment a 'avis du conseil d'Etat du 1e juin 1807.<lb/>cour du 1er lot, ainsi que les portes qui conduisen<lb/>ane a lauite cour, et l'autre sur la galerie de ce me<lb/>lot. Le tout estimé treize mille francs, ci. 13,000 fr.</p>
+        <p><lb/>Il est composé d'un autre corps de bâtiment com-<lb/>posé au rez-de-chaussée de deux chambres à feu, une<lb/>petite cour qui a son entrée sur la rue, dans laquelle<lb/>se trouve un mauvais escalier en bois qui dessert deux<lb/>autres chambres à feu qui se trouvent au premier, un<lb/>jardin emplanté d’arbres fruitiers dans lequel se trou¬<lb/>vent des lieux d’aisance, ne formant pareillement<lb/>qu’un seul pourpris, joignant de levant le deuxième<lb/>lat, de couchant M. Lesage-Vullierod, de midi la ri-<lb/>vière d’Ouche, et de nord la rue sur laquelle il y a deux<lb/><lb/>portes d'entrée, l'une donnant dans la cour, et l'autre<lb/></p>
+        <p><lb/>à ses fra<lb/>un mur séparatif pour se clore avec le deuxième lot,<lb/>lequel mur suivra le même alignement de la palissade<lb/>en bois en retour d’équerre sur la rivière, et aura<lb/>deux mètres trente-trois centimètres d’élévation, com¬</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="table"/>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>Naissances. — Du 4 au 7 novembre, 2 garçons, 5<lb/>mnes.</p>
+        <p rend="labelled"><lb/>Mariages. — Du 5 novembre, Pierre LepPierre -<lb/>nuisier, et Denise Labbé, blanchisseuse. —</p>
+        <p rend="labelled"><lb/>Dècès. Du 3 novembre, Suzanne Voisot, o von<lb/><lb/>célibataire, 30 ans. Du 4, Claudine Perrussot,u</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81342953</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1883-03-25">1883</date>
+          <idno type="ARK">bpt6k81342953</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81342953</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Dous sòu lou numerò</fw>
+        <fw type="runningTitle"><lb/>Dimenche 25 de mars 1883</fw>
+        <dateline><lb/>IVo Annado — N^o LII p. 409</dateline>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>JOURNAU POUPULARI DE LITERATURO, D'ISTORI E DE SCIENCI</p>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>PAREISSENT TOUTEI LEI DIMENCA</p>
+        <note>
+          <p rend="styled"><lb/>Depausitàri majourau pèr Marsiho: M. Vincent, carriero Corneille, 3.</p>
+        </note>
+        <ab><lb/>Bouco-dòu-Rose e despartamen<lb/>7 fr.<lb/>que fan raro em'éu ..<lb/>Franço, Corso, Algerio, ..<lb/>10<lb/>Fouero Franço. . . .</ab>
+        <p><lb/>Tout ço que toco lou journau dèu<lb/>èstre manda afranqui à l'Emprimarie<lb/>Prouvençalo, 15, carrièro dou Grand-<lb/>Relògi, à-z-Ais.</p>
+        <p rend="styled"><milestone unit="column" n="3"/><lb/>Les annonces, rèclames et faits di-<lb/>vers sont reçus exclusivement à l’A-<lb/>gence Ewig rue d’Amboise-Richelieu,<lb/>9, Paris fermière de la publicité.</p>
+      </div>
+      <div type="article">
+        <head><lb/>ASSABE</head>
+        <p rend="styled"><lb/>Leis abouna soun prega de manda<lb/>soun renouvelamen sens retard. Se noun,<lb/>dre lou 1e d’abriéu li faren presenta la<lb/>biheto, aumentado de 50 centimo pèr<lb/>frès de recoubramen.</p>
+      </div>
+      <div type="article">
+        <head><lb/>PAPIE PINTA</head>
+        <head><lb/>CROUNICO</head>
+        <p><lb/>Recoumandan la souscricien au Mystère de<lb/>Saint André de M. l’abat Fazy que lou prospec-<lb/>tus èro encarta dins lou numero dou 4 de de-<lb/>sèmbre.</p>
+        <p><lb/>Près: 2 fr. 25 pèr lei souscrivèire. Lou pres<lb/>óu voulume sara aumenta uno fes en vendo.</p>
+        <p><lb/>Es dissato 31 de mars à miejo-nué, que sara<lb/>clava sènso remissien, lou councours en proso<lb/>prouvençalo, dubert pèr lou Brusc. Drè lou pre-<lb/>mié d'abriéu, la jurado que dèu terceja lei pèço<lb/>se metra à l’obro e l’amenistracien dóu journau<lb/>sara urouso de troumpeta lei noum dei counquis-<lb/>taire, en li decernissènt lei joio gagnado, e de pu-<lb/>blica lei pèço courounello.</p>
+        <p><lb/>Sout lou titre de :<lb/>noueste valènt e fegound coulabouraire Louis<lb/>Astruc se prepauso de douna uno seguènço à sei<lb/>Medaioun e à soun Album qu’an counquista tou¬<lb/>tei lei groumand de la lengo prouvençalo. Lou<lb/>Brusc se gaudis de douna à sei legèire aquelei<lb/>nouvèu retra que, osco seguro, reçaupran lou<lb/>meme apreissamen dou publi que sei devancié.<lb/>Lou premié numerò de nouesto nouvello annado<lb/>n'en dounara la premiero flouresoun.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Veici pèr vuei, l’article que legissèn dins lou<lb/>numerò de dimenche passa de la Provence artis-<lb/>tique et pittoresque:</ab>
+        <ab type="head"><lb/>BIBLIOUGRAFIO</ab>
+        <p rend="labelled"><lb/>Lei Fleurs Félibresques s'espedisson ei sous-<lb/>crivèire e s'estalouiron encò dei libraire. Sara<lb/>agradièu au Brusc de menciouna leis article dei<lb/>counfraire que voudran bèn parla d'aquéu flame<lb/>voulume que tancara dins lei letro prouvençalo.</p>
+        <p rend="labelled"><lb/>« Il y a quatre ans, M. Constant Hennion, de<lb/>Tours, nous offrait une excellente traduction du<lb/>poème provençal de MIREILLE, et nous montrait<lb/>par la finesse de sa poésie et par la fidélité de son<lb/>texte que nous avions affaireà un poète disting u<fw type="digitisation-artefact"><lb/>gallica.n./Bibliothèqu</fw></p>
+        <figure type="decoration"/>
+      </div>
+    </body>
+  </text>
+</TEI>

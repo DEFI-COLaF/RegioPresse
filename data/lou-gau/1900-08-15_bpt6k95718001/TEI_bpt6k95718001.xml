@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Gau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k95718001</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Gau : revisto mesadiero pèr li revendicacioun de la lengo prouvençalo à l'escolo, dins la cadiero e à la tribuno poupulàri : parèis lou 15 de chasque mes / secretàri dóu Gau D. Savié de Fourviero</title>
+          <publisher>[s.n.] (Tarascoun-sus-Rose)</publisher>
+          <date when="1900-08-15">1900</date>
+          <idno type="ARK">bpt6k95718001</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k95718001</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0001.xml"/>
+          <fw type="runningTitle"><lb/>QUATRENCO ANNADO</fw>
+          <dateline><lb/>15 d'AVOUST 1900</dateline>
+          <ab>
+            <stamp><lb/>vaucluse<lb/>o921<lb/>190</stamp>
+          </ab>
+          <ab><milestone unit="column" n="2"/><lb/>No 48</ab>
+          <figure/>
+          <p rend="heading"><milestone unit="column" n="1"/><lb/>PROUVENÇALO<lb/>CANTAIRE DI REVENDICACIOUN</p>
+          <ab><lb/>à l'Escolo, dins la Cadiero e à la Tribuno poupulàri</ab>
+          <figure type="decoration"/>
+          <figure type="decoration"/>
+          <figure type="decoration"/>
+          <ab><lb/>D. SAVIE DE FOCRVIEMO<lb/></ab>
+          <ab><milestone unit="column" n="3"/><lb/>La BAILE DOU GAU:<lb/>MESTN FISSETO — REININ MOUNTAUT<lb/>D. SAVIE DE FOCRVIRO</ab>
+          <p rend="heading"><lb/>AMENISTRACIOUN:</p>
+          <ab><lb/>DA 5 DE CHASQUE MES</ab>
+          <ab><lb/>ABOUNAMEN: SM</ab>
+          <ab><lb/>Marsso en Décant.</ab>
+          <figure type="decoration"/>
+          <ab><lb/>La fèsto de Santo Madaleno à Sant-Meissemin, DoN SAvá E<lb/>FOURVIERO. — La sesiho di Jo Flourau, LI BAILE DÓU « GAU. » —<lb/>Discours de Mounsen J. MAsCLE. — Moun gramaci, M. BELOUS.<lb/>— Gramaci à la Jurado, M. GiNIE. — Lou Bon Diéu dis ase,<lb/>LOU FELIBRE DE PEKTOUT. — Istòri de la lengo d'O o prouvençalo,<lb/>AMADE. — Fuietoun: Evangèli segound S. Matiéu, D. SAIE<lb/>DE FOURVIERO.</ab>
+          <figure type="decoration"/>
+          <p rend="heading"><lb/>La Fèsto de Santo Madaleno</p>
+          <ab><lb/>A SANT-MEISSEMIN</ab>
+          <figure/>
+          <ab><lb/> estado, aquelo fèso, un triounfle pèr la<lb/>Santo, un triounfle pèr nosto bello lengo<lb/>prouvençalo. Mounsegne Arnaud, l’eves¬<lb/>que deja tant poupulàri de Frejus, pòu se felicita,<lb/>dóumaci aquéu triounne es soan corer Binis ano de</ab>
+          <p rend="heading"><lb/>TAULETO<lb/>si letro pastouralo, pleno de ſiò prouvençau, avié<lb/>di à si dioucesan : Venès, lou 22 de juliet, à Sant-<lb/>Meissemin; venès e festejaren la grando Santo<lb/>Madaleno, la bello Pecairis. — E de mounde, e de<lb/>pople n’es vengu, de pertout n’es vengu. Bèn tant,<lb/>que l'Univers a pouscu dire eiçò:</p>
+        </div>
+        <div type="article">
+          <ab><lb/>« Saint-Maximin a vu se dérouler, sous les voûtes splen¬<lb/>dides de sa basilique et le long de ses rues parées de<lb/>verdure et de bannières, des pompes religieuses du plus<lb/>merveilleux effet, devant une foule de spectateurs évaluée<lb/>« dix mille.»</ab>
+          <ab><lb/>Davans aquéu pople de nosto terro, la lengo<lb/>prouvençalo, certo, èro bèn de sesoun; e, coume<lb/>lou disié un di catau dóu clergié d'Ais, degun aurié<lb/>coumprés que se lausèsse Santo Madaleno autra¬<lb/>men qu’en prouvençau. Peréu Mounsegne Arnaud<lb/>avié óuficialamen counvida un de si prèire, noste<lb/>ami Espariat, pèr pourta la paraulo.</ab>
+          <ab><lb/>Souce gallica../Biceque nadendre de rune</ab>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

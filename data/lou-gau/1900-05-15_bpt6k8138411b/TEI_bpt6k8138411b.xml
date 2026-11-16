@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Gau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8138411b</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Gau : revisto mesadiero pèr li revendicacioun de la lengo prouvençalo à l'escolo, dins la cadiero e à la tribuno poupulàri : parèis lou 15 de chasque mes / secretàri dóu Gau D. Savié de Fourviero</title>
+          <publisher>[s.n.] (Tarascoun-sus-Rose)</publisher>
+          <date when="1900-05-15">1900</date>
+          <idno type="ARK">bpt6k8138411b</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8138411b</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0001.xml"/>
+          <dateline><lb/>15 de MAI 1900</dateline>
+          <ab><milestone unit="column" n="1"/><lb/>QUATRENÇO ANNADO</ab>
+          <fw type="numbering">N 4</fw>
+          <figure/>
+          <p rend="heading"><lb/>CANTAIRE DI REVENDICACIOUN<lb/>PROUVENÇALO</p>
+          <p rend="heading"><milestone unit="column" n="2"/><lb/>à l'Escolo, dins la Cadiero e à la Tribuno poupulàri</p>
+          <ab><milestone unit="column" n="3"/><lb/>LI BAILE DOU GAU:<lb/>TrESTE EISSETO — REINIÉ MOUNTAUT<lb/>D. SAvIK DE FOCKVIKRO</ab>
+          <p rend="heading"><lb/>AMENISTRACIOUN:</p>
+          <ab><lb/>PARÈIS LOU 15 DE CHASQUE MES</ab>
+          <lg>
+            <l><lb/>D. SAVIN DE FOuRVIENO</l>
+          </lg>
+          <ab><lb/>ABGCMAMEN: a FRANC PER AN</ab>
+          <p rend="styled"><lb/>Marsano en Déufinat.</p>
+          <lg>
+            <l><lb/>Lis Eleicioun di Conse, A. BEarIÉ. — Lis Ouresoun poupulàri,</l>
+            <l><lb/>E. AaSAUD.— Qu'est-ce que tu barrules? LOU FELIBRE DE PERTOUT.</l>
+            <l><lb/>— LoU Councours di Patrioto, LOU SECRETAR DE LA JURADO. —</l>
+            <l><lb/>— Pensado à l'aubo dóu siècle vinten, BoUNET, l'einat. — Pichoto</l>
+            <l><lb/>istòri de la Lengo d'O, AMADIÉU. — Crounico. — Fuietoun:</l>
+            <l><lb/>L'Erangèli segound Sant Matiéu, D. SAVIE DE FOURVIERO.</l>
+          </lg>
+          <figure type="decoration"/>
+          <p rend="heading"><lb/>Eis Eleicioun di Conse</p>
+          <figure/>
+          <p><lb/>'ABORD que sian aro au tèms dis elei-<lb/>cioun, d’abord que dins tóuti li vilo e<lb/>vilage de Franço e de Prouvènço, li<lb/>municipe van faire pèu novo, crese qu’agradariéu<lb/>proun i legèire dóu Gau en ié countant coume se<lb/>fasien lis eleicioun di Conse, qu'antan menavon</p>
+          <p rend="heading"><lb/>TAULETO<lb/>T'araire e tenien l'estevo drecho dins nosto bello<lb/>terro de Prouvènço!</p>
+        </div>
+        <div type="article">
+          <p><lb/>I'avié proun causo à redire sus l'amenistracioun<lb/>d'aquéli Conse; mai pamens, fau metre lou dre<lb/>mounte es, degaiavon pas tout coume nòsti muni¬<lb/>cipe de vuei. Siéu segur que se Mèste Roumiéu<lb/>avié viscu d'aquéu tèms, aurié pas risca de dire:</p>
+          <p><lb/>Nani, l'aurié pas di acò-d'aqui!... E la provo, es<lb/>que nòsti paire avien mai de bon sèn que nautre.<lb/>Ausissès coume se n’en prenien:</p>
+          <p><lb/>D’aquéu tèms, lou sufrage universau, que n’en<lb/>fan uno tant bello causo vuei, e que pamens — la<lb/>filousoufio nous l'ensigno souvènti-fes — es pa<lb/>'no encauso sufisènto pèr prouva que la verita,<lb/>lou dre e la justiço soun em' éu, mau-grat lou Vox<lb/>populi, vox Dei! lou sufrage universau, dise, èro</p>
+          <ab><lb/>«De la femello n'an fa 'n masele:<lb/>Vuei la coumuno es un coumun!<lb/>Zóu! que s'escouben p.<fw type="digitisation-artefact"><lb/>ce gallica.bn.f/ Bibliothèque nationale de France</fw></ab>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

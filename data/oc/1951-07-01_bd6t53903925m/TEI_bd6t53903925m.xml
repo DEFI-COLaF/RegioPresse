@@ -58,7 +58,7 @@
       </appInfo>
     </encodingDesc>
     <revisionDesc>
-      <change when="2026-11-13" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -110,9 +110,9 @@
         <p><lb/>D’aqui qu’es estat necit de fargar l’unitat de nòu.</p>
         <p><lb/>Aquò podiá pas èstre fach qu’en luchant dins<lb/>doas direccions :</p>
         <p rend="labelled"><lb/>— d'un costat contra la puresa occitanista<lb/>escrèta;</p>
+        <p rend="labelled"><lb/>— de l'autre contra lis esforç que s’alunchavan<lb/>tròp de la pensada occitana.</p>
         <p rend="labelled"><lb/>..Faliá enfins, pèr que l’unitat siá vertadiera, que<lb/>lo bilinguisme siá acceptat dins la vida costumièra<lb/>de l’I.E.O... Lo bilinguisme es la condicion actuala<lb/>de nòstra vida. Podem obrar pèr afavorir de mai<lb/>en mai l'Occitan, mai ara fau reconéisser que<lb/>l'equilibre es dins lo bilinguisme : l’usatge de l'oc-</p>
-        <p rend="labelled"><milestone unit="column" n="1"/><lb/>— de l'autre contra lis esforç que s’alunchavan<lb/>tròp de la pensada occitana.</p>
-        <ab><lb/>2<lb/>citan sèrva a nòstra pensada son biais renaissen-<lb/>tista, que tanca pas jamai d'èstre en perilh, e<lb/>l’usatge dau francés nos garda de çò que sonarai<lb/>l'amonjament, es a dire l'oblit de la vida dins una<lb/>clastra occitana.</ab>
+        <ab><milestone unit="column" n="1"/><lb/>2<lb/>citan sèrva a nòstra pensada son biais renaissen-<lb/>tista, que tanca pas jamai d'èstre en perilh, e<lb/>l’usatge dau francés nos garda de çò que sonarai<lb/>l'amonjament, es a dire l'oblit de la vida dins una<lb/>clastra occitana.</ab>
         <pb facs="0005.xml"/>
         <p rend="styled"><lb/>Puèi ven l'estudi de l'accion occitana que va dins<lb/>tres direccions :</p>
         <p rend="labelled"><lb/>— La vida intellectuala dau païs : lo fach de<lb/>pensar la vida intellectuala nascuda sus nòstre<lb/>territòri es nòstra mession la mai evidenta...<lb/>D'aquí tres accions : criticar, ajudar, crear... Una<lb/>critica imparciala de tota activitat culturala d'en<lb/>cò nòstre serà nòstra primiera victoria sus nôstre<lb/>isolament... La consciéncia occitana existís enga-<lb/>biada, silenciosa, mai existis dins tot artista, tot<lb/>pensaire occitan. Devem adonc afavorir una presa<lb/>de consciéncia. Devèm ajudar... Es benlèu un para-<lb/>dòx, mai la literatura de nòstra renaissènça me<lb/>sèmbla, de còps que i a, desrasigada. En se rasigant<lb/>dins la tèrra-maire, dins li valors mai tradicionalas<lb/>d'Occitanià, butava pas de racinatges dins la vida<lb/>d'Occitania. Convén ara de rasigar de pertot.</p>
@@ -193,16 +193,6 @@
           <l><lb/>com s'esmerça sa riquesa.</l>
         </lg>
         <lg>
-          <l><lb/>A la torre d’en Gantera</l>
-          <l><lb/>hi canten els trobadors,</l>
-          <l><lb/>pàl.lida veu que s’ou d’esma,</l>
-          <l><lb/>penetra an mi com el sol</l>
-          <l><lb/>penetra ..i jo no m'adoni</l>
-          <l><lb/>que és veu de picapedrers,</l>
-          <l><lb/>no canten sino que parlen</l>
-          <l><lb/>parlen i canten ensembs</l>
-        </lg>
-        <lg>
           <l><lb/>N'hi ha de somnis encastats</l>
           <l><lb/>en cada pedra posada</l>
           <l><lb/>que les gratlles esbocinen</l>
@@ -212,7 +202,19 @@
           <l><lb/>qu’ha tret l’esma d’eixes pedres</l>
           <l><lb/>grogues com un testimoni.</l>
         </lg>
+        <lg>
+          <l><lb/>A la torre d’en Gantera</l>
+          <l><lb/>hi canten els trobadors,</l>
+          <l><lb/>pàl.lida veu que s’ou d’esma,</l>
+          <l><lb/>penetra an mi com el sol</l>
+          <l><lb/>penetra ..i jo no m'adoni</l>
+          <l><lb/>que és veu de picapedrers,</l>
+          <l><lb/>no canten sino que parlen</l>
+          <l><lb/>parlen i canten ensembs</l>
+        </lg>
         <pb facs="0009.xml"/>
+      </div>
+      <div type="article">
         <lg>
           <l><lb/>Súi el pedregós calvari</l>
           <l><lb/>d'una Ilengua que recula</l>
@@ -222,8 +224,6 @@
           <l><lb/>no mes sap que viu encara</l>
           <l><lb/>quan s’abandona a la mort.</l>
         </lg>
-      </div>
-      <div type="article">
         <lg>
           <l><lb/>Auda negra d’aigues negres</l>
           <l><lb/>gota i gota de neu fosa</l>
@@ -250,10 +250,10 @@
           <l><lb/>sendes carnals ón la sang</l>
           <l><lb/>recull la fe entossudida.</l>
         </lg>
-        <ab><milestone unit="column" n="1"/><lb/>Carcassona 19 de mars 1951.</ab>
-        <p rend="heading"><lb/>ENTRE MIG DE TOTES LES TERRES...</p>
+        <ab><lb/>Carcassona 19 de mars 1951.</ab>
       </div>
       <div type="article">
+        <head><lb/>ENTRE MIG DE TOTES LES TERRES...</head>
         <lg>
           <l><lb/>Entre mig de totes les terres,</l>
           <l><lb/>tu el meu païs, ets com un niu d’ocells,</l>
@@ -298,6 +298,9 @@
           <l><lb/>On es Paris</l>
         </lg>
         <list>
+          <item>on palpita a viu un cor de millions d’homes, tibant la pel del silenci</item>
+        </list>
+        <list>
           <item>an la gargamella del mon</item>
         </list>
         <lg>
@@ -316,10 +319,7 @@
           <l><lb/>com una espiga de froment</l>
           <l><lb/>pel cami del nostre afany.</l>
         </lg>
-        <list>
-          <item>on palpita a viu un cor de millions d’homes, tibant la pel del silenci</item>
-        </list>
-        <ab><milestone unit="column" n="1"/><lb/>J.-P. CERDA</ab>
+        <ab><lb/>J.-P. CERDA</ab>
         <pb facs="0011.xml"/>
         <ab><milestone unit="column" n="1"/><lb/>LA DESCOCONADA</ab>
       </div>
@@ -487,6 +487,7 @@
       </div>
       <div type="article">
         <head><lb/>AU CERCAIRE DE BENAURANCA</head>
+        <head><lb/>A Enric Espieux.</head>
         <lg>
           <l><lb/>Tu, cercaire de benaurança,</l>
           <l><lb/>maucorat de ta quista vana,</l>
@@ -523,7 +524,7 @@
           <l><lb/>t'enclausa et mond en un moment</l>
           <l><lb/>d'eucaristia pregondor.</l>
         </lg>
-        <p rend="heading"><milestone unit="column" n="1"/><lb/>A Enric Espieux.<milestone unit="page" n="21"/></p>
+        <milestone unit="page" n="21"/>
         <pb facs="0024.xml"/>
         <p rend="heading"><milestone unit="column" n="2"/><lb/>GOI DE MAI</p>
         <p rend="heading"><lb/>A Ismaël Girard.</p>

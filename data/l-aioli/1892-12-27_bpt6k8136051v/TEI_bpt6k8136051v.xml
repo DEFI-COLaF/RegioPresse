@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136051v</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1892-12-27">1892</date>
+          <idno type="ARK">bpt6k8136051v</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136051v</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>DIMARS 27 DE DESED0</fw>
+        <fw type="runningTitle"><lb/>SEGOUNDO ANNADO, No 7</fw>
+        <ab><milestone unit="column" n="3"/><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Prouverbi de mejssae</ab>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren per l'oli</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17, 27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI,<lb/>au palais dou Roure,</ab>
+        <ab><lb/>Baile dou journau:<lb/>FOLCO DE BARONCELLI.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>PRIMO DE “L'AIOLI</head>
+        <p rend="styled"><lb/>A la demando d'uno bono partido de<lb/>nôstia abouna nosto primo pèr 1893<lb/><lb/>sara uno grando e bello foutougrafio<lb/>facho pèr l'artisto avignounenco de<lb/>renoum, Madamo Chabrier de La-<lb/>fongt, e representant</p>
+        <ab type="head"><lb/>L'OUSTAU de FREDeRI MISTRAL à MaIANO</ab>
+        <p rend="styled"><lb/>emé pèr davans un group de persou-<lb/>nage ounte se vèi lou Mèstre em' un<lb/>roudelet de dono e de poulidi chato,<lb/>vestido à la prouvençalo. Tóuti nós-<lb/>tis abouna vièi o nouvèu recaupran<lb/>aquelo primo dins la segoundo quinge¬<lb/>nado de Janvié, tre qu'auren fa en-<lb/>quelssa nôsti quitanço, ço qu'aura llo<lb/>dins la proumiero quingenado dou<lb/>meme mes.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>La CassO de La Petouso</head>
+        <p><lb/>Es lou cop, vuei, de parla d'uno poulido<lb/>coustumo qu’avié liò autre-tèms, i fèsto<lb/>de Calèndo, dins forço endré de la Prouvènço,<lb/>dóu Coumtat Veneissin, dóu Dóufinat e dou<lb/>Lengadò: la casso de la Petouso.</p>
+        <p><lb/>La petouso (qu'en francés se noumo troglo-<lb/>dyte) èro óuferto en presènt au priéu de la<lb/>parròqui o, s'amas miés, au curat, pèr la joui-<lb/>nesso di vilage. Ero la representacioun, acò,<lb/>de l'ancian dèime que se pagavo à la glèiso<lb/>o, quau saup? un restant de la religioun di<lb/>Druido. Lou curat estrenavo aquéu que l'adu-<lb/>sié l’auceloun simbouli. Li gènt d'Entre-Aigo,<lb/>ounte long-tèms s’es mantengu aquel usage,<lb/>soun encaro apela, amor d'acò, li petousié.</p>
+        <p><lb/>Aquéu que prenié la petouso, lou noumavon<lb/>abat o rei de la vaqueto (qu'es un di noum<lb/>d'aquel aucèu) e devenié priéu dou jouvènt.</p>
+        <p><lb/>A Carcassouno, aquelo festo se fasié lou<lb/>proumié dimenche de desèmbre e se cassavo<lb/>lou reiatou, que nouman nautre rei-petit (en<lb/>francés roitelet, e que souvènti-fes counfoun¬<lb/>don emé la petouso.</p>
+        <p><lb/>Mai anan leissa la paraulo à M. J. Béguin<lb/>que, dins Lou Cacho-fiò de 1887, a depinta pèr<lb/>lou menut nosto casso de la petouso, talo<lb/>que se fasié, l'a pas tant de tèms, à Mirabèu:</p>
+        <p><lb/>Vous vau counta, iuei, la gènto casso de la petouso<lb/>que se fai à Mirabéu-sus-Durenço, lou béu jeur de Nouvé.<lb/>D'ounte vèn aquel us? noun sai. De la reino Jano, nTa</p>
+        <p><lb/>Vaqui la messo finido, e flin! e flan !.. parton mai.<lb/>Viróutejon uno passado dins lou vilage en bevènt un chi-<lb/>quet de tèms en tèms, porton la petouso à la clastro e<lb/>la trason à moussu lon curat que lé baio dous escut pèr<lb/>se regala. De-fes, lou bon prèire pren la bestiolo dins<lb/>si man, e, lé dounant un poutounet, ié dis: A l'an que<lb/>vèn! — e la mando semena de chidiriti! D'autri fes, la<lb/>met à l'âsti, à coustat d'un gabre, e dis en risênt : «Cou-<lb/>me soun carivènd aquéli drole ! arregardas un pau, me<lb/>fan paga aquelo petouleto dos fes autant qu'uno</p>
+        <p><lb/>Mai, sant ome, perqué la prenès? — Perqué ? pèr-ço-que<lb/>se prenié pas e se gardavo pas la petouso, sarié plus<lb/>jourssênt d'un jardin qu'es à soun us à-n-aquelo coundi-</p>
+        <p><lb/>Tant se capito, de-fes, que lou tresen cop de la messo<lb/>sono e que tóuti li petouso soun encaro pèr orto escam-<lb/>pant si gai chidiriti! e la jouvènço, touto espeloufido,<lb/><lb/>s'entourno tèsto-souto. l'a pas de que rire, anas ! Garo à<lb/>la chamado ! garo i patouioun ! Li coutihoun van ié faire<lb/>vèire s'es poussible d'avé tant pau de gaubi. Chato, caa.<lb/>touno e chatarasso, alestisson d'escoundoun de panou-<lb/>cho fretado au quiéu de la sartan, e, cauto-cauto, ajon-<lb/>gnon li jouvênt e ié freton li gauto. N'an lou dre jusquo à</p>
+        <p><lb/>La petouso es pas sauvo pèr acò.</p>
+        <p><lb/>L'endeman, festo de sant Estève, lis ome marida parton,<lb/>à la primo aubo, pèr repara l'ounour di braio e recampa<lb/>lou respet que l'es degu, — pèr davera un Rêi. peréu, e<lb/>dous escut. Se se capito que revèngon mai sènso, tour-<lb/>na-mai li pataras soun pèr l'èr, mai chanjon de man. Es<lb/><lb/>li femo que n'en jogon, elou fan encaro miés que li</p>
+        <p><lb/>M'es esta di que, de-fes, quand li jouvênt e lis ome fa<lb/>avien tourna sènso petouso, li véuse, à soun tour, s'e-<lb/>ron mes en casso e avien aganta... la man de quàuqui<lb/>véuso que venien ié sabouna lou mourre.</p>
+        <p><lb/>Prouvenço! Prouvènço! Que fas dis us de ti reire,<lb/>qu'an tant fa rire, e que te dounarien encaro tant de joio<lb/>puro e de gau innoucento?</p>
+        <p><lb/>Co que vous ai counta n'es plus, ai las ! qu'un souveni<lb/>que s'aliuencho deja dins la niue dóu passat. Vaqui bèn<lb/>dès an que la jouvènço vèn plus à la messo e pren plus<lb/>de petouso. Aro casson la lignoto e la cigalo ela preno</p>
+        <lg>
+          <l><lb/>Tau jour Nadau,</l>
+          <l><lb/>Jour de l'An tau.</l>
+        </lg>
+        <p><lb/>Couneissès ben la petouso, aquéu pichot auceu pas<lb/>plus gros qu'un tavan, tant boulegoun e tant agradiéu,<lb/>que, quand tout es amudi dóu fre e rege dóu gèu, nous<lb/>fai entendre encaro soun gai chidiriti ! Per pau que agués<lb/>mes lou pèd foro vilo, l'aurés vist sauteja dins li rou¬<lb/>mese e li sebisso, s'encauna dins un vièi pèd de sause o<lb/>ben un trau de muraio, o voulastreja sèns cregnénço<lb/>tout á l'entour de vous. Vaqui la bestiolo que casson, per<lb/>Calendo, à Mirabéu.</p>
+        <p><lb/>Tre que l'aubo paréis, touti li jouvênt soun pèr orto<lb/> davalon vitamen vers li vau e valoun que trévo<lb/>la petouso. Vès-l'aqui, zóu : oh ! coume landon ! Touti<lb/>volon éstre réi, car es Rei de la Petouso aquéu que<lb/>l'aganto. Soun dous, tres, quatre que mandon la man<lb/>us la paureto e que, pèr l'avera, se buton, se caucigon,<lb/>e passon dessus, e souvènt barrulon en susant à través<lb/><lb/>lou roumias, jusquo dins l'aigo dóu valat, en s'estrassant<lb/>li braio, de-fes la pèu, prenènt un ban gaire agradiéu e<lb/>s'aparant coume podon di cacalas e di galejado dóu résto</p>
+        <p><lb/>E la petouso? La petouso a bèn fa de camin. Es tant<lb/>pichoto que, quand cresés de la teni esquiho coume un<lb/>glari, e... chidiriti !courre, darrié!</p>
+        <p><lb/>Fau se remembra que dèu s'aganta rèn qu'emé la man,<lb/>senso ges d'engen. Fau la prendre e la garda vivo. S'es<lb/>morto o endecado escassamen, comto pas e vau plus</p>
+        <p><lb/>La pauro bestiouleto s'envolo gaire sus li gros aubre,<lb/>ai s'escound e s'encafourno dins ll baragno, ll bouis¬<lb/>soun espinous, li trau de ro o de paret, li mato de<lb/>tousco, de rouganéu e de lentiscle, souto li panicant, li<lb/>clot d'éurre. Mai la chourmo alabro, esglariado, que<lb/>crido, ris, courre, sauto e farfouio de pertout, la secuto<lb/>de-longo, la pren de-cantèu, se partis en dos o tres<lb/>bando e l'envertouio de tout caire Pau à pau lou céucle<lb/>se sarro, se sarro : pòu plus escapa. Mai, pst! chidíriti!<lb/>Vaqui qu'a passa per dessus e s'envolo bèn liuen.</p>
+        <p><lb/>De-fes, s'escound tant bèn que la veson plus. D'autri<lb/>fes se n'en capito dos o tres au meme rode: li perse-<lb/>guisson tóuti c... n'aganton ges.</p>
+        <p><lb/>Quand la de neu, que fai gros fre, lou paure fifi, en-<lb/>redi c anequeli, es leu las e se laisso leu prendre. Mai se<lb/>lou tèms es siau, se pòu pitouleja 'n pau de graniho<lb/>p quauqui vermenoun, se, subre-tout, un rai de souleu<lb/>lou reviscoulo, s'envolo liuen e s'enchau gaire di cas-</p>
+        <p><lb/>Alègre! alègre! que lou soulèu luse despièi mai<lb/>d'uno ouro ! zóu ! que la messo vai souna e que la casso<lb/>sara finido ! zóu ! que bèn leu faudrié se recampa sènso<lb/>petouso. E vague, tourna-mai de se desalena, de susa en<lb/>trepant dins la nèu, de furna li ribo ; de mai s'estrassa<lb/>i roumias, de s'enfanga dins li cros eigassous, de sauta<lb/>de valat, d'escala li colo e de davala roco e paret.</p>
+        <p><lb/>Mai vaqui Pelegrin que danso senso tambourin... Vivo<lb/>lou Rêl de la Petouso ! N'en tén uno. Leu s'entournon,<lb/>chanjon si vèsti e s'alestisson pèr ana à la grand messo,<lb/>coume de bon crestian.</p>
+        <p><lb/>Eflin ! e flan !... e flin e flin e fan !... lou tambour e<lb/>lou fifre passon davans. Lou Rèi de la Petouso, fièr<lb/>coume Leissandre á Bal llouno, pimpara de soun plus bel<lb/>abihage, porto uno longo cano touto enribanado e en-<lb/><lb/>foucado, e au daut, ben au bout, dins un galant nis, la<lb/>pauro petouso ben delicadamen estacado. Darrié, ven<lb/>touto la jouvènço arrengueirado. Van à la messo La cano<lb/>enribanado s'arrambo á la taulo santo, ben au mitan, e<lb/>lou Réi résto aqui pèr garda la petouso)</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>UN LIBRE D'ESTRENO</p>
+        <p><lb/>Sian d'un pais ounte l'a de tout. Nosti plano an de blad,<lb/>d'óulivo, de tapeno. Nòsti colo an de roure, de pinatèu e<lb/>de ciprés. Nòstis estang e nosto Mar an de touto meno<lb/>de peis e, dintre li barri di vilo, la man d'ome coumplis<lb/>tout ço qu'es de besoun à l'ome pèr béure e pèr manja,<lb/>pèr se vesti, pèr s'amoubla e finalamen viéure urous.<lb/>Lis oubrié de La Cióutat e de Touloun nous fan tóuti li<lb/>mecanico que podon servi á multiplica li forço de l'Uma-<lb/>nita. Li veissèu de Marsiho, de Ceto, van querre au founs<lb/>dis Indo e di Califournié tout co qu'es lou lussi e li beloio<lb/>de la vido. Avèn de carboun e de fèrri. Avèn tout ço<lb/>qu'es necite à l'eisistènci d'un grand pople. Que nous<lb/>manco pamens, que sian coume acò tant agroumouli e<lb/><lb/>petachous? Es pas lou noble sang di raço glouriouso<lb/>e forto. Es pas lou cor. Es pas l'envanc. Vous dirai sim-</p>
+        <ab><lb/>/</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

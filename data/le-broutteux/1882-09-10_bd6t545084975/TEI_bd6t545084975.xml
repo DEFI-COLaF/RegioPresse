@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t545084975</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1882-09-10">1882</date>
+          <idno type="ARK">bd6t545084975</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t545084975</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Numéro 7. (1e ANNÉE)</fw>
+        <fw type="runningTitle"><lb/>Un Numéro: 10 centimes</fw>
+        <dateline><lb/>DIMANCHIE 10 SEPTEMBRE 1882.</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>ANNONCES<lb/>La ligne ord. 20 centimes<lb/>Réclame (la ligne) 1 franc<lb/>on traite à forfait.</ab>
+        <figure/>
+        <figure type="table"/>
+        <p rend="heading"><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING</p>
+        <p rend="styled"><lb/>En vente à l'imprimerie FRÈRE-GLORIEUX, rue de Lille, 20, et chez M. Jules WATTEEUW Grand Place,</p>
+      </div>
+      <div type="article">
+        <head><lb/>AVIS.</head>
+        <p><lb/>Nous ne savons comment remercier les<lb/>nombreux amis qui nous envoient des notes<lb/>en collaboration.</p>
+        <p><lb/>C'est toujours, avec plaisir, que nous re-<lb/>cevons ces communications, que nous gar¬<lb/>dons avec soin.</p>
+        <p><lb/>Qu'on nous pardonne si nous ne les repro-<lb/>duisons pas toutes, la chose nous est impos-<lb/>sible, car depuis l'apparition de notre petit<lb/>Sournal-Pasquille, nous avons reçu près de<lb/>300 lettres.</p>
+        <p><lb/>Tot oùtard elles auront leur tour mais,<lb/>en attendant, nous disons encore une fois<lb/>MERC</p>
+        <ab><lb/>FRERE-GLORIEUX.</ab>
+        <lg>
+          <l><lb/>In sue comme inne haridelle.</l>
+          <l><lb/>Au profit de l'z'amateurs</l>
+          <l><lb/>Au profit de l'z'amateurs</l>
+        </lg>
+        <ab type="head"><lb/>DEUXIEME COUPLET.</ab>
+        <lg>
+          <l><lb/>Mais pouquo s'donner tant d'peine?</l>
+          <l><lb/>Attraper n'courtress' d'haleine ?</l>
+          <l><lb/>Tchan l'baudet gagne s'n'avoine</l>
+          <l><lb/>X n'a nin pus d'imbarras.</l>
+          <l><lb/>Va! l'pus court et l'pus sache.</l>
+          <l><lb/>Sh'est d'ovrer sin perd' corache.</l>
+          <l><lb/>Tehan qu'in est seur de s'n'ovrache,</l>
+          <l><lb/>Faut nin s'abachi si bas</l>
+          <l><lb/>Faut nin s'abachi si bas.</l>
+        </lg>
+        <ab type="head"><lb/>TROISIEME COUPLET.</ab>
+        <lg>
+          <l><lb/>In auteur a méchante grace,</l>
+          <l><lb/>Et j'dis qui n'est qu'in bonasse</l>
+          <l><lb/>De s'motto à ge'nux vin s'Preface.</l>
+          <l><lb/>Pou v'nir vus d'mander pardon.</l>
+          <l><lb/>Et d'vant queminchi à l'lire</l>
+          <l><lb/>vla qu'vus s'apprètez à rire:</l>
+          <l><lb/>Et j'vos d'jà qu'vus allez dire</l>
+          <l><lb/>Qu'y a l'air d'in cornichon</l>
+          <l><lb/>Qu'y a l'air d'in cornichon</l>
+        </lg>
+        <ab type="head"><lb/>QUATRIÈME COUPLET.</ab>
+        <lg>
+          <l><lb/>J'plains d'tus min tcheur les conf́rères</l>
+          <l><lb/>Qui mouttent ainsi leu misère ;</l>
+          <l><lb/>Y arottent l'bon sins de s'taire,</l>
+          <l><lb/>In n’les traitro nin ainsi;</l>
+          <l><lb/>putòt qu' d'attraper d'z'erproches,</l>
+          <l><lb/>Et altos l'nom d'anicroches,</l>
+          <l><lb/>Wardons tertus vin nou poche</l>
+          <l><lb/>L'brouett' de c'limereu chi</l>
+          <l><lb/>L'brouette de c'limereu chi.</l>
+          <l><lb/>ch'est tu.</l>
+        </lg>
+        <p><lb/>Eh bé! quoqu' vus z'en dites? ch'est pe<lb/>inne belte petite tchanterie? soyl saches ter-<lb/>tus, vus n'd'arez acore des pus belles, et cha<lb/>Tera plaiji à l'foultitude d'lijeux de l'brouette.<lb/>J'dis l'foultitude, à forche qui n'd'a, et même<lb/>qui a des gins qui n'veul'tent po croire qu’in<lb/>n'd'imprime autant par semaine. Aussi,<lb/>avant z’hiir, y a passé in contrôleurau bureu<lb/>du broutteux, y a compté, racompté, et y a<lb/>couru invo inveuc in nez! mais in nez!</p>
+        <p><lb/>ch'est ben fait </p>
+        <ab><lb/>JULES WATTEEUW.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Tourco, 8 Septimbe 1882.</head>
+        <figure type="decoration"/>
+        <p><lb/>Pou faire comme devrottent faire les bons<lb/>boulingis, y fauro mette l'septime à l'demi<lb/>douzaine: Ch'est pou cha qu'in n'da défourné<lb/>acore inne cheull fos chi: v'la toudis l'septime<lb/>brouette.</p>
+        <p><lb/>Espéronsqu'nous irons acore lommin essin,<lb/>si plait à Di.</p>
+        <p><lb/>Mais, je n'sais po si j'ai vu bénièche, j'n'ai<lb/>jomais été si djaiqu'au jour d'aujord'hu, vous<lb/>dire pouquo? J'nin sais po. J'vas toudis<lb/>qu’minchi pa vous tchanter in p'tit couplet.<lb/><lb/>J'ai treuver cha vin in vi armonaque du temps<lb/>passé.</p>
+        <p><lb/>Silence, au broutteux:</p>
+        <ab type="head"><lb/>TCHANCHON.</ab>
+        <ab type="head"><lb/>AIR: Un jour le bon frère Etienne.</ab>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>PREMIER COUPLET.</ab>
+        <lg>
+          <l><lb/>in a souvent ma à s’tète,</l>
+          <l><lb/>Tchan qu'in pinsse à nou brouette.</l>
+          <l><lb/>Qui faut faire johette</l>
+          <l><lb/>Pou amorcer les lecteurs ;</l>
+          <l><lb/>In s'met chonq jours in tutelle</l>
+          <l><lb/>An tourminte s'pauf cher velle,</l>
+        </lg>
+        <p><milestone unit="column" n="3"/><lb/>Wetti inne fos chi, l'belle lette que l'brout-<lb/>teux a erchue d'Desrousseaux l'chansonni<lb/>d'Lille.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Mon cher confrère,</head>
+        <figure type="decoration"/>
+        <dateline><lb/>Lille, le 27 Août 1882.</dateline>
+        <p><lb/>Vous m'avez envoyé les numéros 1 et 4 du<lb/>journal: Le Broutteux.</p>
+        <p><lb/>Je les ai lus et me suis fait, comme on dit<lb/>une pinte de bon sang, ce qui m'a donné le<lb/>plus vif désir de lire les autres.</p>
+        <p><lb/>Il est impossible, en effet, de mettre dans<lb/>un écrit de ce genre, plus de gaité, de verve<lb/>et de vis comica qu'il ne s'en trouve dans<lb/>votre feuille.</p>
+        <p><lb/>On voit qu'avant d'écrire en prose vous<lb/>vous étes exercé à faire la chanson, qui est<lb/>de toutes les formes de la poésie celle qui<lb/>exige au plus haut point toutes ces qualités.</p>
+        <p><lb/>Je vous prie donc, cher confrère, de me<lb/>compter au nombre de vos abonnés et de<lb/>m'envoyer le plus tôt qu'il vous sera possible<lb/>les numéros qui manquent à ma collection,<lb/>y compris l'unique numéro paru sous le titre<lb/>de: La Brouette.</p>
+        <p><lb/>Recevez, je vous prie, mes salutations af-<lb/>fectueuses et confraternelles.</p>
+        <ab><lb/>A. DESROUSSEAUX.</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>FIL TÉLÉGRAPHIQUE SPÉCIAL<lb/>DU BROUTTEUX.<lb/>Port Caique, 1 Sept. 1882.<ab><lb/>Agence à raques</ab></ab>
+        <figure/>
+        <p><lb/>In convo d'tros chints mules a été attatchi<lb/>pa des Bedouins.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

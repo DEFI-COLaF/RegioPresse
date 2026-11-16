@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136163d</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1896-02-07">1896</date>
+          <idno type="ARK">bpt6k8136163d</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136163d</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>SIEISENCO ANNADO. No 184.</fw>
+        <fw type="runningTitle"><lb/>DIVENDRE, 7 DE FEBRIE 1896.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>PRES DE L'ABOUNAMEN</ab>
+        <lg>
+          <l><lb/>Nautri, li bon Prouvençau,</l>
+          <l><lb/>Au sufrage universau,</l>
+          <l><lb/>Voutaren pèr P'ôli</l>
+          <l><lb/>E faren laiôli.</l>
+        </lg>
+        <ab><milestone unit="column" n="3"/><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.<lb/>(Prouverbi de melssounie.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PÈR MES (7,17,27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI<lb/>au palais dóu Roure,<lb/>EN AVIGNOUN</ab>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>Baile dóu journau:<lb/>FOLCO DE BARONGELLN</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>TAN, PATANTAN</head>
+        <head><lb/>SUS L'ER CATALAN DÓU " NOY DE LA MARE"</head>
+        <p rend="labelled"><lb/>(Que Bizet aproufiche dins l'Arlésienne.)</p>
+        <ab><lb/>Que dou-na - ren au chat de l'ousta-<lb/>lado? Que dou- na - ren pèr que dorme l'en-<lb/><lb/>fant? De noste en-dré fau lé dou - na 'no<lb/><lb/>bailo Pèr l'a-ba - ri 'mé'n la de pa - 1 -<lb/>san. Tan, pa-tan- tan, que li fl-go soun<lb/></ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>verdo !Tan, patantan, mai s'amadu- ra - ran.<lb/>– Que dounaren au chat de l'oustalado 9<lb/>Que dounaren. pèr que dorme l'enfant?<lb/>– De noste endré fau lé douna 'no bailo,<lb/>Pèr l'abari 'mé 'n la de paisan.<lb/>— Tan, patantan, que li figo soun verdo !<lb/>— Tan, patantan, mai s’amaduraran.<lb/>— Que dounaren au chat de l'oustalado ?<lb/>Que dounaren que posque i'agrada ?<lb/>— Dounen-jé lèa quauqui bèlli sourneto:<lb/>Proun, emai mai, la bailo n'en saubra.<lb/>— Tan, patantan, que li figo soun verdo !<lb/>— Tan, patantan, mai s'amaduraran.</ab>
+        <list>
+          <item>— Que dounaren au chat de loustalado ? Que dounaren, pèr que noun ploure tant ? — Dounen-ié lèu nòsti cansoun tant douço, Qu'au-mai soun vièio, au-mai bono saran. —Tan, patantan, que li figo soun verdo ! — Tan, patantan, mai s'amaduraran.</item>
+        </list>
+        <list>
+          <item>— Que dounaren au chat de l'eustalado ? Que dounaren lou jour dóu batejat ? — Dounen-ié 'n noum di sant de nosto terró, Noum que si grand agon deja pourta. — Tan, patantan, que li figo soun verdo ! — Tan, patantan, mai s'amaduraran.</item>
+        </list>
+        <list>
+          <item>— Que dounaren au chat de l'oustalado ? Que dounaren de bèu pèr f'ensigna ? — Dounen-jé li preguiero de sa mar D'autre lengage n'en sache pas cap. — Tan, patantan, que li figo soun verdo ! — Tan, patantan, mai s’amaduraran.</item>
+        </list>
+        <lg>
+          <l><lb/>— Que n'en faren, dou chat de l'oustalado ?</l>
+          <l><lb/>Que n'en faren, un cop que sara grand?</l>
+          <l><lb/>— Un prouvençau amourous de sa lengo,</l>
+          <l><lb/>Que la patrio bouie dins soun sang.</l>
+          <l><lb/>— Tan, patantan, que li figo soun verdo!</l>
+          <l><lb/>— Tan, patantan, mai s'amaduraran.</l>
+        </lg>
+        <p rend="labelled"><lb/>Revira dóu catalan de Francés Matheu pèr</p>
+      </div>
+      <div type="article">
+        <head><lb/>1 PÄURI VIEI</head>
+        <lg>
+          <l><lb/>Bràvi vièi, qu'en Febrié cregnès d'aganta mau,</l>
+          <l><lb/>Voulès vous regimba contro l'orro Camardo ?</l>
+          <l><lb/>De Roco-Fino, zóu ! bevès lou vin papau,</l>
+          <l><lb/>E pèr vous courseja sara toujour panardo.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Arle, 22 de janvie 1600.</ab>
+        <ab type="head"><lb/>Epitalàmi</ab>
+        <p rend="styled"><lb/>sus lou maridage de Na Mario Girard, réino di felibre,<lb/>emé lou pouèto J. Gasquet, d'Ais.</p>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Vers nosto génto réino, urous, Imen davalo</l>
+          <l><lb/>E, majestousamen, set cop batent dis alo,</l>
+          <l><lb/>le sourris mai que beu, trefoulissent d'amour.</l>
+        </lg>
+        <lg>
+          <l><lb/>Tant-leu dóu velet blanc la Novio s'encapello,</l>
+          <l><lb/>s</l>
+          <l><lb/>Agarris lou jouvènt que tendramen barbelo</l>
+          <l><lb/>E, dins la pas de Diéu, vers la santo capello,</l>
+          <l><lb/>Souto un vou d'angeloun, s'adraion tóuti dous.</l>
+        </lg>
+        <lg>
+          <l><lb/>Dis Aupiho à la Crau, s'entènd brusi dins l'aire,</l>
+          <l><lb/>En aubado e refrin, l'armounious acord</l>
+          <l><lb/>Qu'en glori de sa fiho espandiguè lou paire,</l>
+          <l><lb/>Quouro, dins un desbord, la digno e bono ma</l>
+          <l><lb/>Trasènt soun fru beni l'empligué de soun cotr</l>
+        </lg>
+        <lg>
+          <l><lb/>E li gal ventoulet, lou Rose e la Durenço,</l>
+          <l><lb/>Vesént que l'auceliho, urouso de canta,</l>
+          <l><lb/>Glourifico la Novio flustro en sa jouvènço,</l>
+          <l><lb/>Grandissent l'estrambord de touto la Prouvènço,</l>
+          <l><lb/>Saludon la viergeto en sa puro beuta !</l>
+        </lg>
+        <lg>
+          <l><lb/>Ansin, divesso bello e rèino en Felibrige,</l>
+          <l><lb/>Empuro dins moun cor tant dous e gai foulige</l>
+          <l><lb/>Qu'en ausissènt lou tron peteja dins l'aurige,</l>
+          <l><lb/>Diriéu qu'en soun ounour la naturo s'esmou.</l>
+        </lg>
+        <lg>
+          <l><lb/>En ! sian-ti bèn segur que la terro endrudido,</l>
+          <l><lb/>Amigo dóu verai, rebufant ço qu'es fum,</l>
+          <l><lb/>Noun ressente sa part de la joio candido</l>
+          <l><lb/>Esbléugissento alor, divino en soun perfun</l>
+        </lg>
+        <lg>
+          <l><lb/>Imen, as counsacra nosto reino idealo!</l>
+          <l><lb/>En ensertant soun amo à l'amour lou mai pur</l>
+          <l><lb/>As coumpli dins toun obro uno obro majouralo;</l>
+          <l><lb/>Adounc, pos tourna-mai, sèt cop batènt dis alo,</l>
+          <l><lb/>Vertouia de cremour, t'enaura dins l'azur!</l>
+        </lg>
+        <p><lb/>Carpent́raa, B de jarie de iMNS. ROUMIÉ MAnCELIN.</p>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>A Na Mario GIRARD eAJ. GASQUET</ab>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Jouino réino subre-poulido</l>
+          <l><lb/>E jouine troubaire d'elèi,</l>
+          <l><lb/>Touti li bonur de la vido;</l>
+          <l><lb/>Pèr ben li canta, vivès-lèi</l>
+        </lg>
+        <p><lb/>Avignoun, 21 de janvié 1s0d.</p>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>A A REINO</ab>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Reino dóu Felibrige e réino de Beuta,</l>
+          <l><lb/>Di verd jardin de Sant-Roumlé la meraviho,</l>
+          <l><lb/>Noun poudias faire mens que de vous marida</l>
+          <l><lb/>fernis de la Pouesto !</l>
+        </lg>
+        <p rend="heading"><lb/>EinvIJ. GASQUETOM. GIRARD</p>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Muso deis alo d'or, muso dóu Fellbrige,</l>
+          <l><lb/>Pauso ta blanco man sus lei nòvi encanta,</l>
+          <l><lb/>Douno-li lou bonur, e que, luen deis aurige</l>
+          <l><lb/>Souto sa vido ensen lel téngues assousta !</l>
+        </lg>
+        <p><lb/>A-E-AIS, 2 janvie 66.</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>BRINDE EI NOVI</p>
+        <figure type="decoration"/>
+        <p><lb/>ar on ubie ben-astra, léu poueru aque<lb/>brinde amistous</p>
+        <p><lb/>Longo-mal l'astre dou jour camine, bellas, subre</p>
+        <p><lb/>De pas, santa, benuranço, Diéu vous coumoule!<lb/>Que dei grand valènt de la Causo lou terradou sacra</p>
+        <p><lb/>mounte vuei plantas voueste aubre nouviau vous lou<lb/>rènde pourtadis, e que, P'an que vèn, En Sextius-Roumié,<lb/>vo bèn Na Rouma-Sextia, tóutei saluden en voueste nis-<lb/>toun un felibre nouvèu</p>
+        <p><lb/>Urous amí, à vous ! án-éu!</p>
+        <p><lb/> de janris ms</p>
+      </div>
+      <div type="article">
+        <head><lb/>A LA RÈINO Dóu FELIBRIGE</head>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>NA MARIO GIRARD</ab>
+        <lg>
+          <l><lb/>qu'à vosto courouno em'à vosti dauréto,</l>
+          <l><lb/>O Reino, l'arangié vén mescla vuei sa flour,</l>
+          <l><lb/>Di vot que fan pèr vous li cantaire d'amour.</l>
+          <l><lb/>Car n'es rèn de proun dous ni de proun pur, madamo,</l>
+          <l><lb/>Pèr vesti dignamen li souvêt de chascur</l>
+          <l><lb/>Que li pantai d'azur que bressèron vosto amo</l>
+          <l><lb/>Se dis que l'arangié 'mé touto sa garbie</l>
+          <l><lb/>Embaumant vòsti vot de sa douço senton</l>
+          <l><lb/>Es de voste pais uno casto preguiero</l>
+          <l><lb/>S'aubourant coume un niéu davans lou Diéu d'amour.</l>
+          <l><lb/>Que lou prègue pèr vous, o Reino ben-amado,</l>
+          <l><lb/>E demande que vous avengue aquéu bonur</l>
+          <l><lb/>Que veguerias antan, quand dins la niue 'stelado</l>
+          <l><lb/>Vous bressavo plan-plan un pantal caste e pur!</l>
+        </lg>
+        <p rend="styled"><lb/>AAa, n do janrie 1.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/> 2 d janne ec,</ab>
+        <ab type="head"><lb/>Et plus bèu nóvi dòu mounde</ab>
+        <ab type="head"><lb/>A la Reino dou Felibrige.</ab>
+        <lg>
+          <l><lb/>En pregant lou bouen Diéu, qu'encuei te rende fremo,</l>
+          <l><lb/>Dedins lou gourbelin de tei léurèio d'or</l>
+          <l><lb/>Adus., bello rèino — ai pas d'autre tresor —</l>
+          <l><lb/>Pèr mestreja ta vido e toun bèn e toun cor</l>
+          <l><lb/>Dins la barco dei flour anas pesca d'acord</l>
+          <l><lb/>La belugo escoundudo ounte dins lou ceu cremo.</l>
+          <l><lb/>Que vous esquile pas coume uno fino anguiero :</l>
+          <l><lb/>Quand avès un tresor, fau lou teni rejoun</l>
+          <l><lb/>Lou sarra de nou clau quanco-fes n'es besoun.</l>
+          <l><lb/>E vogue lou Segnour, escoutant ma pregulero,</l>
+          <l><lb/>Esvarta pèr toujour la chavano e lou fèu</l>
+          <l><lb/>Que pourrien se mescla 'mé ta luno de meu.</l>
+        </lg>
+        <ab><lb/>LAzARINO DE MANOSce</ab>
+        <lg>
+          <l><lb/>E tu, pichot, que lou bouen</l>
+          <l><lb/>En neissent, frustè de soun a</l>
+          <l><lb/>Gardo-lou bén, e de P'azur</l>
+          <l><lb/>Laisses pas toumba ta cigalo.</l>
+        </lg>
+        <ab><lb/>òuee</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

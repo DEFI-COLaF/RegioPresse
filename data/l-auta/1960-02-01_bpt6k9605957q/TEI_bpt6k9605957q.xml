@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k9605957q</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1960-02-01">1960</date>
+          <idno type="ARK">bpt6k9605957q</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k9605957q</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0008.xml"/>
+        <milestone unit="page" n="24"/>
+        <ab><lb/>(57) Le Dessin toulousain, 1953, p. 19.<lb/>« Mr. Geruais (53), Sculpteurs : Le Noble Colombe du Lys » (54)<lb/>peintre.</ab>
+        <p><lb/>Cette réunion est mêlée et Pader a rédigé comme un journaliste<lb/>pressé qui tient à n’oublier personne ni parmi ses prédécesseurs, ni<lb/>parmi ses contemporains, même pas son rival, Antoine Durand<lb/>dont deux ans plus tard il obtiendra de partager la charge de Pein¬<lb/>tre de la Ville (55). Dans son poème didactique de La Peinture Par-<lb/>lante il avait déjà loué Jean Chalette, mais avec quelques réserves.<lb/>Au fils qui souffre mal les contraintes de la Proportion, le père<lb/>répond:</p>
+        <lg>
+          <l><lb/>le parlois comme toy lors que i'estois moins sage</l>
+          <l><lb/>Et quand sous le Troyen i'escoulois mon ieusn’âge,</l>
+          <l><lb/>l’entends le sieur Chalette admirable aux portraicts,</l>
+          <l><lb/>Et qui pour les petits redoubla ses attraicts;</l>
+          <l><lb/>Mais ie changea de nôte au moment que le Tibre</l>
+          <l><lb/>Fit changer ma Manière et ma façon de vivre (56).</l>
+        </lg>
+        <p><lb/>Il n’aurait su mieux dire que son premier maître n’était qu’un<lb/>portraitiste, spécialité péjorative dans le langage des ateliers du<lb/>temps, et que lui-même n’avait appris le grand genre, c’est-à-dire<lb/>la peinture d’histoire que dans l’atelier romain de Nicolo Tornioli.<lb/>Ce trait est léger en regard du soin qu’il a pris de placer dans le<lb/>palais de Neptune les célébrités languedociennes parmi les gloires<lb/>européennes des maîtres de Florence, de Bologne, de Naples, de<lb/>Venise et de Rome. Hilaire Pader, Peintre et Poète — il signait<lb/>volontiers H.P.P.P. — qui naquit et mourut dans la même maison<lb/>de la rue Peyrolières, aujourd’hui 30, rue Gambetta (57), était Tou-<lb/>lousain de naissance et de cœur.</p>
+        <ab><lb/>Robert MESURET.</ab>
+        <p rend="labelled"><lb/>(53) Gervais Drouet, qui donnera en 1670 la Lapidation de saint Etienne au<lb/>rétable du maître autel de l’église métropolitaine (cf. R. REY, La Cathédrale de<lb/>Toulouse, Paris, 1929, p. 89).</p>
+        <p rend="labelled"><lb/>(54) François de Colombe du Lys, peintre du Capitole en 1644 (cf. Les<lb/>Miniaturistes, pp. 121-125).</p>
+        <note>
+          <p rend="structured"><lb/>(55) Les Miniaturistes du Capitole, pp. 40-41, nos LXXVI-LXXX, pp. 51-52,<lb/>no 28.</p>
+        </note>
+        <p rend="labelled"><lb/>(56) La Peinture parlante de H. Pader P.P. Tolose, Arnaud Colomiez, 1653,<lb/>p. 9 (Bibliothèque Municipale Rés. XXVIII, 35). Nous devons beaucoup de<lb/>remerciements à M. Caillet, Conservateur en Chef de la Bibliothèque Municipale<lb/>où nous avons trouvé la plupart des ouvrages cités dans les notes de cet article.<fw type="digitisation-artefact"><lb/>rallican./AssociationeToulousans </fw></p>
+        <pb facs="0009.xml"/>
+        <milestone unit="page" n="25"/>
+      </div>
+      <div type="article">
+        <head><lb/>Le sculpteur François Lucas et la démolition</head>
+        <head><lb/>des tours du château de Saint-Elix</head>
+        <p><lb/>Dans le compte rendu de notre visite des acquisitions nouvelles<lb/>de la Bibliothèque Municipale, paru dans l’Auta de mai-juin 1959,<lb/>nous signalions « une lettre du sculpteur François Lucas au baron<lb/>de Saint-Elix l’incitant à prendre les inconvénients de la Révolution<lb/>avec philosophie et lui donnant de bons conseils sur la démolition,<lb/>jugée inévitable, des tours de son château de Saint-Elix ».</p>
+        <p><lb/>Notre ami M. Maurice Caillet, Conservateur de la Bibliothèque<lb/>Municipale, a bien voulu — et nous l’en remercions vivement —<lb/>nous faire parvenir la copie exacte de ce document, pittoresque par<lb/>son style et son orthographe, mais combien lamentable par l’éven-<lb/>tualité envisagée de détruire les quatre tours de ce beau château<lb/>pour satisfaire aux doctrines de l’égalité révolutionnaire. En fait,<lb/>Ledesmé, ci-devant baron de Saint-Elix, se borna à abattre les<lb/>poivrières de deux de ses tours et s’en tint là. Un incendie désas-<lb/>treux devait, il y a quelque dix ans, porter une atteinte nouvelle<lb/>à la noble demeure. Les Pouvoirs publics qui, par une réquisition<lb/>inconsidérée, ont causé ce malheur, se devraient de le réparer avant<lb/>qu’il soit trop tard.</p>
+        <p rend="styled"><lb/>Toulouse, le 13 nivose, l'an 2 de la République française une,<lb/>indivisible (2 janvier 1794).</p>
+        <p rend="styled"><lb/>Citoyen, non sans doute si j'étois comme vous, non jamais je ne<lb/>prendrois le parti que vous vous proposés de prendre. Car je croirois<lb/>que la démolition des tours et de la charpente suffiroit pour combler<lb/>les fossés et payer cette dépense. Enfin, Citoyen, puisque vous me<lb/>consultés, voici mon projet : je scay que vos murailles seront diffi¬<lb/>ciles à abattre, veu les mortiers ecellents, mais poici mon avis :</p>
+        <p><lb/>Votre maison est quarrée; elle a 4 tours aus quatre angles, je<lb/>démolirois le long de la maison a 4 pans largeur la muraille des<lb/>tours, alors, lorsque le tours seroint isolées, avec des pétards je les<lb/>ferois sauter par morceaux, et tous ces morceaux grands et forts<lb/>roulleront dans les fossés : j'abattrois les murs des entours du fossé<lb/>et vous en veueeries le comblement; alors il vous resteroit le corps<lb/>du milieu qui vous suffiroit; vous fermeries les portes qui condui¬<lb/>sent aux tours, et la maison seroit quarrée; la dépense seroit encore<lb/>de la couvrir; je sens bien que voila bien de la dépense, mais la</p>
+        <pb facs="0010.xml"/>
+        <milestone unit="page" n="26"/>
+        <ab><lb/>au citoyen<lb/>Jean-Charles Lesdesmé<lb/>logé rue St.Florentin, n° 6.Paris.<lb/>vente de tout ce qui est dans les tours, tout le plomb, le fer et beau-<lb/>coup de materiaux, bois ou tuiles, feroient de l’argent; voici figu-<lb/>rativement ce que l'on demoliroit, tous les endroits marqués d'une<lb/>croix; enfin, si une fois tous les planchers sont otés des tours, et<lb/>qu’elles soient détachées du chateau avec de la poudre, vous feriez<lb/>aller en éclats tout ce que vous voudres sans aucune crainte.</ab>
+        <p><lb/>Il mes reste à vous consoler sur cela; je prends bien de part à ce<lb/>qui vous intéresse; l’amitié qui nous lie depuis longtemps me fait<lb/>sentir, ainsi qu’à vous, combien cette perte est considérable, mais,<lb/>dans un temps de révolution, il faut prendre son parti; heureuse-<lb/>ment vous etes patriote, et vous faires ce sacrifice pour la Nation;<lb/>d'ailleurs vous n'aves point de postérité, et c'est un moindre domage.</p>
+        <p><lb/>A l'égard de votre plan pour vous faire un logement aux écuries<lb/>je l'aprouve bien; c'est de quoy vous faire un appartement très<lb/>considérable et vous aves la cour à coté pour toute la maison, cui¬<lb/>sine, etc...</p>
+        <p><lb/>Il faudroit cependant, pour plus grande salubrité, faire un plan-<lb/>cher partout à 6 pans d'élévation, et vous fairies des pérrons aux<lb/>portes avec les vieilles pierres : l'on placeroit la statue à l'entrée,<lb/>car vous entreries par le milieu, et vous auries d’un coté un bel<lb/>appartement double, et de l'autre quelques chambres, le salon à<lb/>manger, la cuisine et, en entre-sol, le logement des domestiques, si<lb/>vous vouliez absolument.</p>
+        <p><lb/>Je termine mon épitre en vous souhaitant et à la citoyenne Les-<lb/>desmé beaucoub de santé et un prompt retour dans notre dépar-<lb/>tement; ce sont les veux de ma famille.</p>
+        <p><lb/>Bien des choses, d’amitiés et à la citoyenne Daimar de la part de<lb/>ma belle-seur et de toute la famille.<lb/>Je suis entièrement, citoyen, votre serviteur</p>
+        <p rend="styled"><lb/>le républicain Lucas</p>
+        <p><lb/>Un plan schématique complète, en marge, la lettre de Lucas.<lb/>La statue à laquelle il est fait allusion était celle de Ledesmé lui¬<lb/>même, œuvre de Lucas. Disparue en 1925, elle est connue par une<lb/>photographie qui a figuré à l’exposition Lucas, au Musée des Augus¬<lb/>tins, en 1958 (N° 40 du catalogue).</p>
+        <p><lb/>Bibliothèque Municipale de Toulouse, MS, nouvelles acquisitions.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

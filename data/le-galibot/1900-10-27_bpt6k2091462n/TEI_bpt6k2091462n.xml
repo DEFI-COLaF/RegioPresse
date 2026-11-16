@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Galibot</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k2091462n</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Galibot : journal humoristique et littéraire de la région minière rédigé en français et en patois du Nord</title>
+          <publisher>[s.n.] (Denain)</publisher>
+          <date when="1900-10-27">1900</date>
+          <idno type="ARK">bpt6k2091462n</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k2091462n</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="mmm">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/>ABONNEMENTS: 1 fr. 50 par an.</ab>
+        <note type="handwritten"><lb/>dens Cal</note>
+        <note type="handwritten"><lb/>Denain l~ 27 Oetoly 1900 Emil Dietor</note>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>Année.<lb/>N.9<lb/>Du 2 10900 No 5C.</p>
+        <p rend="heading"><lb/>dב<lb/></p>
+        <p rend="heading"><lb/>Journal humoristique et Littéraire (Rédigé en Français et en Patois)<lb/> ÉGION MINIERE ET MÉTALLURGIQUE DU NORD.</p>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="3"/><lb/>AdministratiOn:<lb/>à l'Imprimerie -Papeterie E. VINSTOCK<lb/>4, rue de la Station, 4,<lb/>à DENAIN (Nord.)</ab>
+        <ab><lb/>Directeur: E. VINSTOCK<lb/>4, rue de la Station, 4.<lb/>DENAIN (Nord.)</ab>
+        <p rend="styled"><lb/>Les manuscrits ne sont pas rendus.<lb/>La reproduction des articles inédits est<lb/>interdite à moins d’autorisation.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>joune pane,fn e</ab>
+        <ab type="head"><lb/>Les Merveilles de la Poste</ab>
+        <p><lb/>Eune jonne et timide paysanne,<lb/>gentille comme un cœur. fraiche com¬<lb/>me eune pionne, s'présinte au guichet<lb/>du bureau d'poste.</p>
+        <p><lb/>Toc! toc!</p>
+        <p><lb/>In dirot un tiot osiau qui buque à<lb/>l'porte avec ess bec pou qu’on li don-<lb/>ne des miettes ed pain.</p>
+        <p><lb/>Un imployé, l'sourire su les lèvrés,<lb/>— n'riez pas : cha arrive des fos !<lb/>— i s'impresse ed vénir ouvrir el'<lb/>trappe, et, in veyant eune si bielle<lb/>jonne fille d'vant li, i fait un visage<lb/>incor pus gracieux.</p>
+        <p rend="labelled"><lb/>— Quoiss' qu’i vous faut, Mam’zel-<lb/>e</p>
+        <p rend="labelled"><lb/>— J' viens pou toucher un mandat,<lb/>m' sieu... T'nez: lé v'là!</p>
+        <p><lb/>Les formalités remplies, l'imployé<lb/>i donne deux pièces ed chinq francs<lb/>à l' jonne fille in li disant :</p>
+        <p rend="labelled"><lb/>— Mais, mam'zelle, vous n’avez<lb/>donc pas li chu qu’i a d'écrit su l'tiot<lb/>morciau d' papier collé su l' mandat?</p>
+        <p rend="labelled"><lb/>— Non, monsieur, qu’all' répond<lb/>l'jonne demoiselle in rougissant, j'n'ai<lb/>rien vu du tout. Ch’est m' ma tante<lb/>qu'all' m'invo dix francs pou m'fiète,<lb/>et j'étos mème étonnée d'n'avoir<lb/>point vu d'lettre dins l'inv' loppe...</p>
+        <p rend="labelled"><lb/>— Ah bin, t'nez, lisez chu qu’in<lb/>vous écrit : « J' t'invo dix francs avec<lb/>mille baises. " J' vous ai payé les dix<lb/>francs ; j' vas maint' nant vous payer<lb/>l'reste d' chu qui vous est dù, Vous<lb/>n'avez qu'à v' nir dins l'bureau ; j'vas<lb/>vous ouver' el porte. J'aros trop<lb/>peur qué vous réclamerottes pus tard<lb/>chu qu'in n' vous arot pas donné<lb/>aujourd'hui.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>I pleuvot à digue et dague<lb/>Ani o d u</ab>
+        <ab type="head"><lb/>Mal intinte</ab>
+        <p><lb/>Un p' tiot gamin, paraissant avoir<lb/>eune douzaine d'année, vètu d’eune<lb/>pélérine avec el capuchon rabattu su<lb/>ses yeux pou éviter l'pleuve, rintre dins<lb/>les bureaux des mines d’eune com¬<lb/>mune ichi tont près.</p>
+        <p><lb/>Là, s'adressant à un employé, l'in¬<lb/>fant dit comme cha.</p>
+        <p rend="labelled"><lb/>— Faut point d'galibot?</p>
+        <p rend="labelled"><lb/>— Des galibots, m'fieu, répond<lb/>l'imployé, à m' mode qué si fait qu'il<lb/>in faut... Va-t' in parler à l’ingénieur,<lb/>là, dins l’aute champe.</p>
+        <p><lb/>L'gamin s’in va trouver l'ingénieur<lb/>et répète cor:</p>
+        <p rend="labelled"><lb/>— Faut pas d'galibot?</p>
+        <p rend="labelled"><lb/>— Queul âche que t'as, m' camara¬<lb/>te ? li d'mande l'ingénieur.</p>
+        <p rend="labelled"><lb/>— J'ai douze ans et d' mi, monsieur.</p>
+        <p rend="labelled"><lb/>— Eh bin! si ch’est cha. jé n’peux<lb/>point t'imbaucher à ch't'heure ; i<lb/>faut cor six mois pou ti peuvoir être<lb/>galibot.</p>
+        <p rend="labelled"><lb/>– Be! ch n'est point cha, répond<lb/>l’innochint in hochant s’pélérine et in<lb/>noutrant un paquet d'journaux :<lb/>j'vinds l' journal el « Galibot »!<lb/>elle sé jette dins les bras du malin et<lb/>joyeux imployé, qui l'imbrasse à bou-<lb/>che qué-veux-tu..., in veux-tu? in<lb/>v'là core!</p>
+        <p><lb/>Rintrée à s' maison, l' bielle Fan-<lb/>ny, incore toute estoquee par l'émo¬<lb/>tion et l'contint' mint, alle dit à<lb/>s' mèré ; — Aman, ch'est eune fin<lb/>merveilleusse invintion qu'là poste...<lb/>In paie tout comptant, — mème les<lb/>baises!</p>
+        <ab><lb/>J.L<lb/>d'suite, r' prind l'ingénieur...</ab>
+        <p><lb/>Habile, donne-m'in chi un numéro...<lb/>Justémint j'allos l'invoyer quère!</p>
+        <ab><lb/>J. MOUSSERON.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Conte du temps passé</head>
+        <p rend="labelled"><lb/>(Suite)</p>
+        <p rend="labelled"><lb/>— Mais, camarate, li dit l'Saint, in<lb/>vous a cor donné hier.</p>
+        <p rend="labelled"><lb/>Bé, veus m'avez eu jolimint, saint<lb/>Pierre ! J'ai eu biau crier : l'nappe n'a<lb/>rien donné.,.</p>
+        <p rend="labelled"><lb/>— Tenez, j'vas vous rinte eune poule,<lb/>vous n'arez qu'à li dire:</p>
+        <p rend="labelled"><lb/>« Poule, pondez!» et vous m'in direz<lb/>des nouvelles.</p>
+        <p><lb/>In rallant, grand-père Azal r' passe oor<lb/>pa l'maison Caroline, et va mettre es'<lb/>poule au poulier, pou l'erprinte pu tard, in<lb/>racontant à Caroline chu qué Saint-Pierre<lb/>li avot dit.</p>
+        <p><lb/>Aussi vite parti, Caroline court quère<lb/>eune poule parelle à l' nouvelle, et crie à<lb/>l' poule Azal: «Poule, pondez!» Alors<lb/>el poule alle se met à pondre des pièches<lb/>d'or qué cha n'in finissot pus.</p>
+        <p><lb/>Grandpère pasie un momint après, et<lb/>in li rind cune poule parelle à l' sienne.<lb/>Arrivé à s'maison, i met l'poule sus l'tapa<lb/>et li cie; «Poule, pondez!»</p>
+        <p><lb/>Oh ! suite, l' poule s'occupot autant de<lb/>c' qu'in li disot qu'de s' premier bib'ron.</p>
+        <p><lb/>Azal va cor trouver saint Pierre et li<lb/>d'mand s'i s' mo que ed' li.</p>
+        <p rend="labelled"><lb/>—. Tenez, dit Saint- Pierre, v'là un bâton.<lb/>Vous n'arez qu’à dire: Bâton, donnez !....<lb/>Vous verrez equ'l arriv'ra.</p>
+        <p><lb/>In rallant, grand-père Azal rintre cor<lb/>toudis à l' maison Caroline, met là s'bàton<lb/>in gage et li raconte chu qu' li a dit Saint-<lb/>Pierre.</p>
+        <p><lb/>Caroline n' fait ni eune ni deux. Aussitôt<lb/>Azal parti, alle sé met à crier; Bâton,<lb/>donnez !...</p>
+        <ab><lb/>Source gallican.f/Bibliotèque naionale de France</ab>
+        <pb facs="0002.xml"/>
+        <p><lb/>Vilà bin l' bâton qu'i s'met à randouil-<lb/>ler sin s'dos à li démolir les épaules!</p>
+        <p><lb/>S' n'homme, qui étot accouru tell'mint<lb/>qu'é s'femme criot, aĩo!», n' savot point<lb/>arréter l'bâton, qui tapot d' pus belle<lb/>quand grand' père Azal est arrivé.<lb/></p>
+        <p rend="labelled"><lb/>— Ah : canalle!... qu'i dit, te v' là<lb/>prise c' cop-chi ? tant qu' té n' m'auras<lb/>point rindu m' nappe et pis m' poule,<lb/>l' bâton t' caress'ra les reins.</p>
+        <p><lb/>In deux s' condes, Caroline li a rindu ses<lb/>affaires.</p>
+        <p><lb/>Tout d' pus c'temps là, Grand'père Azal<lb/>est l' pus rich' du villache... Mais v'là bin<lb/>cinquante ans qu'il est mort.</p>
+        <ab><lb/>A. SDECŒUR.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>REFRAIn</head>
+        <lg>
+          <l><lb/>Dans l'Eden, notre père Adam,</l>
+          <l><lb/>Avec Eva, sa ménagère,</l>
+          <l><lb/>Vivait heureux... Quoi d'étonnant?</l>
+          <l><lb/>Il n'avait point de belle-mère.</l>
+        </lg>
+        <ab><lb/>L.G.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Multiplication des «pains»</head>
+        <p><lb/>In r' prochot à Batisse ed faire passer<lb/>les piques et les poques à s'femme.</p>
+        <p rend="labelled"><lb/>— Vous dévrottes rougir, li disot un<lb/>vieux brave homme qui volot l'armoutrer.<lb/>Pourquoi qu'vous buquez sur vo femme?<lb/>Vous devez savoir qu'avec el loi du ma¬<lb/>riache, vous et vo femme n' vous faites<lb/>qu'un.<lb/>— Oui, dit Batisse, mais si te vénos</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>acouter souvint derrière em' porte, té cro¬<lb/>ros qu'nous sommes d' pus d'un chint.</p>
+        <ab><lb/>O.-M. NIBUS.<lb/>tout' s mes anciennes maitreses qui sont<lb/>venues m' faire leurs adieux.</ab>
+        <p rend="labelled"><lb/>— Eh bin !t' n'as pas été fort malin !<lb/>Si te m' l'aros dit, j'aros averti tous ceux<lb/>qui ont été mes amoureux. I nous arottent<lb/>apporté chacun eune séquo! aussi, et nous<lb/>arottes cu à boire et à manger jusqu'à les<lb/>Pâques.</p>
+        <ab><lb/>A. SDECOUR.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>CONTES<lb/>du Pays Noir</head>
+      </div>
+      <div type="article">
+        <head><lb/>Feuilleton du GALIBOT. — No 4</head>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>I (Suite)</ab>
+        <ab type="head"><lb/>Le Pacte Infernal</ab>
+        <p><lb/>Quentin du Mont-de-Sable est -heureux<lb/>comme un dieu -. Il remarque que le char¬<lb/>bon tombe en plus grande quantité quand<lb/>il lit plus vite. Il serait bien tenté de par-<lb/>courir le «Petit Albert » à toute vitesse...<lb/>Mais que se passerait-il, si jamais il se<lb/>trompait? Il reste prudent et ne s'emballe<lb/>pas</p>
+        <p><lb/>Voici donc mons Quentin qui gagne<lb/>beaucoup d'argent. Les hercheurs n'ont<lb/>qu'à venir, une fois Quentin parti, char¬<lb/>ger les innombrables gaillettes qu'il a<lb/>Cétacl ées de la veine, Comme il n'y ava't<lb/>pas alors de treuils et de plans inclinés, les<lb/>pauvres bonshommes en avaient « plein<lb/>leurs bottes» pour tirer, au moyen de leurs<lb/>bricoles et de leurs bretelles, les «bar-<lb/>rous», — les berlines, — qui débordaient<lb/>de charbon. Quentin s'est aperçu que ses<lb/>camarades ont peur de lui.</p>
+        <p><lb/>Il en est peu géné; mais que lui im-<lb/>porte? Il touche de grosses journées, — et<lb/>c'est le principal. Chaque quainzaine, on<lb/>lui paie des sommes relativement élevées<lb/>pour avoir opéré !'abattage de tant ou tant<lb/>de mêtres de veine.</p>
+        <p><lb/>Au début, Quentin a été questionné par<lb/>plusieurs de ses camarades, qui se sont<lb/>étonnés de ne jamais remarquer de traces<lb/>d'usure tur son pic on sur sa a rivelaine».<lb/>Dans les premiers temps, pour détourner<lb/>leurs soupçons, il s'est encore un peu ser-<lb/>vi de ses outils. Maintenant qu'il est à la<lb/>té̂te d'une petite fortune, il se moque un<lb/>peu des appréc'ations qu'on pourra faire<lb/>sur lui. Il ne se cert plus jamais de ses<lb/>outils.</p>
+        <p><lb/>Ceux qui l'ont guetté en sont revenus<lb/>effrayés. Ils ont raconté qu'ils ont vu<lb/>Quentin assis sur un bloc de mine et<lb/>lisant gravement un livre de sorcier ; le<lb/>charbon tombait seul, et la galerie se creu-<lb/>sait sans l'aide d'aucun outil.</p>
+        <p><lb/>Mais une telle situation ne pouvait pas<lb/>durer toujours. Le diable, qui n'était autre<lb/>que l'inconnu rencontré par Quentin,<lb/>guettait sa proie, — et tout cela devait<lb/>finir mal.</p>
+        <p><lb/>Un jour, Quentin, grisé par ses succès,<lb/>eut l'idée de voir ce qui se passerait, s'il se<lb/>trompait dans sa lecture. Il commit une<lb/>faute. Un énorme bloc se détacha, et Quen¬<lb/>tin, «estomaqué », n'cût que le temps de<lb/>bondir en arrière. Un sourd grondement,<lb/>pareil à un coup de grisou, avait retenti.</p>
+        <p><lb/>A partir de ce moment, Quentin aurait<lb/>dû comprendre qu'il était peut-être temps<lb/>de cesser la vie qu'il menait. Il parait<lb/>même qu'il fut sur le point de brûler le<lb/>livre mystérieux et de rompre toutes rela-<lb/> prit du Diable. Mais ce fut</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>UN BON MARIACHE</head>
+        <p><lb/>Quand Batisse a eu m'né cune vie d'tous<lb/>les diapes, i s'a décidé, tout d'même, à<lb/>s'marier avec el fille d'un marchand<lb/>d'pourcheaux.</p>
+        <p><lb/>I faut vous dire qué l' gaillard avo cu<lb/>pas mal ed maitresses, et vous veyez d'ichi<lb/>l'visache qu'all' s'ont fait in apperdant<lb/>l'mariache ed d'leu n'ancien galant.</p>
+        <p><lb/>Malgré cha, les diverses cérémonies du<lb/>mariache s'étotent fort bin passées. L' lin¬<lb/>d' main, Batisse i s' liève, s' femme aussi.</p>
+        <p><lb/>I n'étotent point cor dins l'euisine, que<lb/>vl'à eune ribambelle ed' filles qui rintrent,<lb/>l'eune avec un pagnon, l'autre avec des<lb/>oflettes, cune troisième avec du gambon,<lb/>etc.</p>
+        <p><lb/>In veyant tout's ces femmes là, l' femme<lb/>Batisse s'arsaque dins l' plache d'à côté et<lb/>n'ervient qué quand alles sont d'allées ter-<lb/>toutes.</p>
+        <p rend="labelled"><lb/>— Mais, qu'alle dit à s' n'homme,<lb/>qu'est-ce que toutes ces femmes là sont<lb/>v' nues faire ichi ?</p>
+        <p rend="labelled"><lb/>— Eh bin ! répond Baptisse, ch' est</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Prévenance</head>
+        <figure type="decoration"/>
+        <p><lb/>A rhôtel.</p>
+        <p><lb/>L' garchon va réveiller un voyageur.</p>
+        <p rend="labelled"><lb/>— N'est-ce point vous, monsieur, qui<lb/>avo r'commande d'vous ſuir el' ver à temps<lb/>pou prindre el train d'six heures?</p>
+        <p rend="labelled"><lb/>-- Si fait...</p>
+        <p rend="labelled"><lb/>— Fh bin! vous pouvez r'piquer un<lb/>somme : el train est parti.</p>
+        <ab><lb/>VATIN (Dieppe).</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>CONSOLATION</head>
+        <p><lb/>L' semaine passée, in a interré un nom¬<lb/>mé Baudébleu. Su l' corbillard qui l' mène<lb/>au cimetière, in avot mis eune grande<lb/><lb/>couronne avec s' n'initiale B in fleurs natu-<lb/>relles.<lb/></p>
+        <p><lb/>Vert-dé-gris vient à passer:</p>
+        <p rend="labelled"><lb/>— Oh ! qu'i dit, ch' n'est pas incore<lb/>m'tour à morir ; in est seulemint à l'lettre<lb/></p>
+        <ab><lb/>J. BARETTE.<fw type="digitisation-artefact"><lb/>Soaree gamedDn Dinoteque natonale de France</fw><lb/>Ch' étot chou qué j' voulos ; j' m'assis au ccin du feu<lb/>Et, tout naturell' mint, Cath' rin' va à s'castrole.</ab>
+        <pb facs="0003.xml"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Monolegue pour mon petit ami André LILAS.</head>
+        <lg>
+          <l><lb/>Vos avez peut-êt' bin connu beaucop d' ménaches :</l>
+          <l><lb/>Des femm' s bochutt's marié's aveuqu' des homm's boiteux,</l>
+          <l><lb/>Des cheux dus' qué' les femm's sont jeun's et les hommes vieux.</l>
+          <l><lb/>Mais, jusqu'à cht' heur, pour mi, l' pus biau des mariaches,</l>
+          <l><lb/>C'hest l' mariach' qu'a fait, — i ara bintôt deux ans,</l>
+          <l><lb/>L' dernier des tros garchons qu'ont eus Fifine et l' Tisse,</l>
+          <l><lb/>— L'homm', ch'est un bon infant, comme cun' espèc' d'artisse.</l>
+          <l><lb/>Pas fier, pus serviçab' qu'el roi des complaisants:</l>
+        </lg>
+        <lg>
+          <l><lb/>Quand j' l'ai connu, i-étot écrivain à l'usine —</l>
+          <l><lb/>Quant à l' femm', je n' voudros point chi vos raconter</l>
+          <l><lb/>Sin portrait : vos dirott's que j'sus un affronté,</l>
+          <l><lb/>I faudrot tant cacher pou dire es' piau si fine,</l>
+        </lg>
+        <lg>
+          <l><lb/>Ses grands yeux noirs brillants, ses dints et ses biaux ch'veux,</l>
+          <l><lb/>Et s' talle, — et ses p' tits pieds, — et s' bouque — et sin corsache,</l>
+          <l><lb/>Et, — chos' qui n' gâte rien, .. si sache !...</l>
+          <l><lb/>Mais, j' vas m' tair, passqué vos dallez n' d'étre amoureux.</l>
+          <l><lb/>Et v'Pà-t-i point qu' l'aut' jour, i circule cun' nouvielle,</l>
+          <l><lb/>Disant qu'min comarat' n'étot point marié!</l>
+          <l><lb/>Berdouf! On arot dit qu'min cœur étot coicié!</l>
+          <l><lb/>Et j'minquiète! Je m'informe ! Et j' cache ! Et j' m'infoufièle !..</l>
+          <l><lb/>Et, quand j'ai tout r' tourné, on m'apprind qu' cheull' rimeur</l>
+          <l><lb/>Vient in drot qu' min d' Cath' rin' Tapette, — cun' mauvais' lanque-</l>
+          <l><lb/>Voisine ed' mes amis, et l'cœeur si noir que d' l'enc' e !</l>
+          <l><lb/>(Peut-êtr' bin parc' qu'ell' fait d'eun' caf tièr, sin bonheur !).</l>
+        </lg>
+        <list>
+          <item>J' m'in vas trouver cheull' femme'. «— Bonjour, que j'dis, Cath'rine! .— Bonjour, em' ſieu, bonjour ! Vos s' perdez, par ichi ?</item>
+        </list>
+        <list>
+          <item>« — Savez-vous bin, Cath'rin', qu’on vient d' m'in dire eun' drôle « Pindant qué j'buvos m' pinte? —Eh! quoi ch'qué ch'est donc em'fieu?</item>
+        </list>
+        <lg>
+          <l><lb/>«— Duch'qué ch'est qu'vos avez donc été à l'école ?»</l>
+          <l><lb/>Qué j' réponds in riant et donnant à min r' gard</l>
+          <l><lb/>Tout chou qu' j'étos capab' ed' li donner d'finard:</l>
+        </lg>
+        <list>
+          <item>«On m'apprind qu' vos voisins sont mariés à l' colle !...</item>
+        </list>
+        <list>
+          <item>« — Ah! quuall' mé dit ! — Chest tout cha d' neuf, qué vous savez ?.. « l gna longtemps qu' je l' sais, m' n'infant : ch'est un vieux conte: « Bin sûr qu'i sont collés! Et mêm' que ch' est eun' honte « Que d'ete obligés d' vivr' tout près d' ches mal élèvés !...</item>
+        </list>
+        <list>
+          <item>« — Mais, tiess' qui vos a dit, Cath'rine, cheull' biell' histoire?</item>
+        </list>
+        <list>
+          <item>« — Mi, j'ai l'œil, — et la bonne, » qu'all' mé répond grav'mint,</item>
+        </list>
+        <list>
+          <item>« Mi, j'ai d's aut's preuv's qué cha !... Et d'abord, monsieur l'Maire « Et puis Monsieur l'Curé y arot' nt passé, garchon,</item>
+        </list>
+        <list>
+          <item>«Non, Zeph! Non, croyez in Cath' rine: all' n'est point sotte,</item>
+        </list>
+        <list>
+          <item>«Tout ch'bel amour, ches baiss's, cha n'est point naturel ?</item>
+        </list>
+        <ab><lb/>Un ex-eph.</ab>
+        <ab><milestone unit="column" n="1"/><lb/>L' vrai bonheur n'est point vraisemblable !<lb/>« Des cheuss' qui m'ont trompé, Zeph, i n' d’a point gramint<lb/>«Et j' sus au courant d'tout chou qui s' fait : ch' est notoire! —<lb/>«— Allons, Cath'rin' tout cha, cha n'est qu'un racontar,<lb/>« Puisqué mi, qué j' sus chi, j'ai dansé à l'artrouve !...<lb/>« — A l'artrouv' des visins !... Mais, Zeph, quoss qué cha prouve?<lb/>« Si z'ont fait eune artrouv', ch' a té l'artrouv' d'hasard!<lb/>« I n'y arot point tant d'joi' ni d' gaîté dins l' maison!<lb/>« Cha vos fait suer, vraimint! Cha s'dorlote ! Ah ! ma mère!<lb/>« Ch'est ; M' petit fieu » ! par chi et « m' biau chéri! » «m' n'amour!»<lb/>« Et des gross's baiss's qui claqu'nt, des baiss's et des rabaisses,<lb/>« Des jeux d'infant, des rir's, des canchons, des caresses,<lb/>« Et, tous ches bètis's-là, par nuit tout comm' par jour !<lb/>« Cor pus fort ! Aussi vrai qui n’y a qu’un Dieu au ciel,<lb/>« — Non, non ! Cath' rine !... Tout d'même, hein! comme i rafraichit!<lb/>« Jamais i n' d'a eu un qui-a dit « chameau à l'aut'e !»<lb/>«— Beh ! rintrez un momint! Vos s' cauff rez à l'cuisine!»<lb/>Fives-Lille, 15 octotre 1900,<lb/>plus fort que lui : il ne sut pas résister<lb/>au désir d’accroître le magot qu'il ramas¬<lb/>sait si facilement.</ab>
+      </div>
+      <div type="article">
+        <p><lb/>Cependant, malgré toutes les précau-<lb/>tions qu'il prenait pour ne plus se tromper,<lb/>il avait moins d'assurance en lui-même.<lb/>La crainte du danger l'effrayait continuel-<lb/>jement, et il était devenu plus sombre et<lb/>plus cachottier que d'habitude.</p>
+        <p><lb/>Une fois, il se trompa encore en lisant,<lb/>tourna une page en trop et fut complète.<lb/>ment« enfroufiellé, » embrouillé, dans sa<lb/>lecture. Un éboulement formidable se pro¬<lb/>duisit, et Quentin fut écrasé par les blocs<lb/>qui se détachèrent avec fracas. Le diabie<lb/>avait pris son âme!</p>
+        <p><lb/>Sa disparition fit naitre bien des ré¬<lb/>flexions. Tout le monde se dit alors que<lb/>Quentin aurait mieux fait de se contenter<lb/>de sa journée de travailleur, plutôt que de<lb/>rechercher la richesse par des moyens con-<lb/>traires aux lois du labeur et bien faits aussi<lb/>pour scandaliser les ouvriers dont toute<lb/>la fortune consiste dans leur courage.</p>
+        <p><milestone unit="column" n="2"/><lb/>On rechercha chez lui l'argent qu'il avait<lb/>dû mettre de côté, et l'on ne retrouva<lb/>qu’un tas de ſcuilles sèches, — de longues<lb/>feuilles de saule, — dans un sac déformé<lb/>cependant par le poids des écus qui ne<lb/>s'y trouvaient plus.</p>
+        <p><lb/>Et si l'on veut bien réfléchir aux peines<lb/>des travailleurs, ajouta sérieusement le<lb/>père Nuel, on peut conclure que les fortu¬<lb/>nes injustement gagnées devraient tou-<lb/>jours se changer, pour punit leur posses-<lb/>seurs, en de misc̀rables feuilles sèches qu'un<lb/>simple coup de vent peut détruire.</p>
+      </div>
+      <div type="article">
+        <head><lb/>La Pie et le Corbeau</head>
+        <figure type="decoration"/>
+        <p><lb/>Pendant les jours de forte pluie, le jeune<lb/>Dodore, tout joyeux, se mettait à la fenêtre<lb/>et ne cessait de rire en contemplant le<lb/>spectacle intéressant que le coron lui offrait.<lb/>Par suite de l'insuffisance d'écoulement<lb/>des caux, une partie de la cité minière se<lb/>trouvait complètement inondée. Dans la<lb/>rue principale, située dans un bas-fond as-<milestone unit="column" n="3"/><lb/>sez prononcé, la nappe liquide était tel<lb/>lement profonde que des gamins auda.<lb/>cieux y nagcaient véritablenient. Ils ne<lb/>manquaient pas d’y faire force grima-<lb/>ces et cortorsions qui ravissaient Dodore.</p>
+        <p><lb/>Cette crue inattendue, venue en torrents<lb/>rapides qui dévalaient de toutes les chaus¬<lb/>sées avoisinantes, emplissait d'eaules caves<lb/>du coron et les rendait impraticables pour<lb/>quelques jours. Les ouvriers des usines<lb/>faisaient mille détours pour essayer d’es¬<lb/>quiver le courant : ils rencontraient à<lb/>chaque moment une petite rivière qui leur<lb/>barrait le passage. Alors, en désespoir de<lb/>cause, ils prenaient leurs élans, et, comme<lb/>Sis présumaient souvent trop de leurs for¬<lb/>ces, ils sautaient en plein dans la boue et<lb/>s'éloignaient tout éclaboussés, — mais<lb/>de bonne humeur quand même. A cha¬<lb/>que maladresse dont il était témoin, Do¬<lb/>dore éclatait de rire comme un bienheu¬<lb/>reux. D'autres passants, assez philoso-<lb/>phes, après avoir défait leurs souliers,<lb/>qu'ils tenaient à la main, s’en allaient bra-<lb/>vement, les pieds nus, leur pantalon re-<lb/>troussé, dans les rues de la moderne cité<lb/>lacustre.</p>
+        <ab><lb/>J. LILAS</ab>
+        <p><lb/>Tous droits réservés.</p>
+        <ab><lb/>[A suire].</ab>
+        <ab><lb/>Sou ali.f/Bibliee e e Frace</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

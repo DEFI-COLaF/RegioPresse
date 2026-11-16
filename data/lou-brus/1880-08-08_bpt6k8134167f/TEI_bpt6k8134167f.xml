@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8134167f</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1880-08-08">1880</date>
+          <idno type="ARK">bpt6k8134167f</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8134167f</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Dous Sòu lou Numero</fw>
+        <fw type="runningTitle"><lb/>Dimenche, 8 d'Aoust 1980.</fw>
+        <dateline><lb/>II Annado. — No 36</dateline>
+        <ab><milestone unit="column" n="3"/><lb/>Lu</ab>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>JOURNAU POUPULARI DE LITERATURO, D'ISTORI E DE SCIENCI<lb/>PAREISSENT TOUTEI LEI QUINGENADO</p>
+        <p rend="styled"><lb/>Se vènde pertout. Depausitàri majourau pèr Marsiho: H. BLANCARD, 6, carriero dei Recoulèto, 6.</p>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Tout ço que toco lou journau dèu</l>
+          <l><lb/>èstre manda afranqui à l'Empremarté</l>
+          <l><lb/>Prouvençalo, 15, carrièro dóu Grand-</l>
+          <l><lb/>Relògi, à-z-Ais.</l>
+        </lg>
+        <p><lb/>Lei plé noun afranqu saran refusa.<lb/>Leis article noun inser saran pas<lb/>rendu.</p>
+        <lg>
+          <l><lb/>Abounamen:</l>
+          <l><lb/>3 dr. e mié pèr an pèr touto la Franço.</l>
+          <l><lb/>ssuero Franço, lou port en subre, co</l>
+          <l><lb/>que revèn à 5 fr.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>TAULETO</head>
+        <p rend="structured"><lb/>Passo-TEMS. — L'Eiretàgi. — Un Bastidan.<lb/>POURSIO. — La caniculo - M. Bourrelly.— Par¬<lb/>tenço e retour - V. Garcin. — Segos et bata-<lb/>aous - P. Gourdou. — Lou leva dou soulèu,<lb/>d'en pleno mar - E. Jouveau.</p>
+        <p rend="structured"><lb/>RSMEMBRANÇO. — Dóu 8 au 21 d'Avoust - L.A.<lb/>Gardaire.</p>
+        <p rend="labelled"><lb/>GCOUNICO. — Felibrejado à Ville-d'Auvray.</p>
+        <p rend="labelled"><lb/>SNC. — Noum propre.</p>
+        <p rend="labelled"><lb/>FaETOUN. — Pèire de Prouvènço e la bello Ma-<lb/>galouno. — La bourrido dei Diéu.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>UN BASTIDAN</head>
+        <head><lb/>PASSO-TEMS</head>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>L'EIRETAGI</ab>
+        <p><lb/>Cite, la freisado, avié espousa un ibrougnasso<lb/>que, coumo l'enterro-mouert d'Aguio, se couchavo<lb/>ese levavo ubria. Ero, tout lou franc diéu dóu jou,<lb/>&amp; de la nue, de scèno, de batarié, à vous estrementi<lb/>l'oustau. L'ome, dins sa ràbi bestialo, mandavo<lb/>pér la testo de sa fremo tout ço que li toumbavo<lb/>souto la man e un bèu jour, o pus lèu un marrit<lb/>jour, car siguè un moumen pèn malurous pèr la<lb/>peuro Citè ! un còp de treissoun que recebé en<lb/>pleno facho, li jité un uei defouero.</p>
+        <p><lb/>enesès qu'aco faguè metre d'aigo dins soun vin<lb/>à noueste pau-vòu? Pesqui pas! Aquelo vido dure<lb/>finqu'à tant que l'ome aguèsse plus rèn per béure<lb/>e que la Camardo un jour venguèsse lou rebaia,<lb/>laissant sa fremo nuso e cruso sus la paiho.</p>
+        <p><lb/>La pauro vèuso siguè lèu counsoulado e, au bon,<lb/>de quauque tèms, un óubrié de la vesinanço, aba-<lb/>rous, travaiadou e que fasié bèn soun pichot trin,<lb/>s'avancè pèr faire plan.</p>
+        <p><lb/>Citè, que lou couneissiè de longo toco, se fague.<lb/>gaire prega e leis acordo siguèron proun lèu facho.</p>
+        <p><lb/>Quand siguè questien deis afaire d'interès:</p>
+        <p rend="labelled"><lb/>— Pamens, diguè lou fringaire, voueste omes<lb/>vous a proun laissa aperaquito quaucar'n?</p>
+        <p rend="labelled"><lb/>— Que voulès que m'ague laissa, un ibrongnas<lb/>coumo l'avès couneissu ? Ma laissa qu'un uei pèr<lb/>ploura</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>POUES10</p>
+        <p rend="heading"><lb/>LA CANICULO<fw type="digitisation-artefact"><lb/>egallic.nf./Bibliotèques d Marseie</fw></p>
+        <lg>
+          <l><lb/>Sabi pas s'es la caniculo</l>
+          <l><lb/>Que me pico sus lou cocò;</l>
+          <l><lb/>Lei de Dieu! ço que me canuld</l>
+          <l><lb/>Es d'e tre encala coume aco.</l>
+        </lg>
+        <lg>
+          <l><lb/>Entre lou pount e la virgulo,</l>
+          <l><lb/>Au mitan de mei dous Jaco,</l>
+          <l><lb/>Sus lou papié la man reculo,</l>
+          <l><lb/>Ma tèsto es dins lou statu quo.</l>
+        </lg>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="2"/>
+        <fw type="runningTitle"><lb/>LOU BRUSC</fw>
+        <lg>
+          <l><lb/>Ai bel a faire, bel a dire</l>
+          <l><lb/>E siéu oublija de n'en rire,</l>
+          <l><lb/>De m'escoundre sout lou bounet;</l>
+        </lg>
+        <lg>
+          <l><lb/>Viri, reviri de tout caire</l>
+          <l><lb/>E vuei li apas mouien de faire</l>
+          <l><lb/>Sucamen un marri sounet.</l>
+        </lg>
+        <ab><milestone unit="column" n="2"/><lb/>MariuS BUURRELLY.</ab>
+        <lg>
+          <l><lb/>Marsiho, fou 30 de juliet 1880.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>PARTENÇO E RETOUR</head>
+        <lg>
+          <l><lb/>La nèu avié blanchi lou trecou di mountagno;</l>
+          <l><lb/>Lis aubre desrama cracavon sout lou vent;</l>
+          <l><lb/>T'avié res en camin, e dedins la campagno,</l>
+          <l><lb/>Soul, quauqui travaiaire afrountavon lou tèms.</l>
+          <l><lb/>Mauguat lou vent, la fre, dous enfant dóu vilage</l>
+          <l><lb/>Pregavon à geinoun près d'uno vlèio crous,</l>
+          <l><lb/>Demandavon à Dieu la forço e lou courage</l>
+          <l><lb/>De pousqué se quita pèr èstre un jour urous.</l>
+        </lg>
+        <lg>
+          <l><lb/>Souto lou relisset d'aquéu vlèi edifice,</l>
+          <l><lb/>Se diguèron adiéu, mai pas senso ploura.</l>
+          <l><lb/>Lou soulèu que d'amount vesié lou sacrifice,</l>
+          <l><lb/>De si rai palinèu venié lis esclara.</l>
+          <l><lb/>le restavo pamens pèr amendri si peno,</l>
+          <l><lb/>L'espèr en l'aveni que dins l'amo grandis</l>
+          <l><lb/>Quand t'amour, à vint an, sout nosti pèd sameno</l>
+          <l><lb/>De pougnado de flour, de fleur de paradis!</l>
+        </lg>
+        <lg>
+          <l><lb/>[tello</l>
+          <l><lb/>Noste paure counscrit caminavo à grand pas.</l>
+          <l><lb/>Emé soun moncadou secavo si parpello,</l>
+          <l><lb/>E semprè regardavo alin de-vers soun mas,</l>
+          <l><lb/>Escoutant lou trignoun de si caro campano</l>
+          <l><lb/>Que lou jour e la niue counvidon li crestian</l>
+          <l><lb/>A prega lou bon Diéu que nous dounè la mano,</l>
+          <l><lb/>Que nous douno de blad pèr faire de bon pan.</l>
+        </lg>
+        <lg>
+          <l><lb/>Quand la niue despleguè soun mantèu plen d’es-</l>
+        </lg>
+        <lg>
+          <l><lb/>Quand la guerro esclaté, lou sóudard de Prou¬</l>
+          <l><lb/>[venço</l>
+          <l><lb/>Escrigue que partié pèr desfendre Beufort!</l>
+          <l><lb/>Au vilage, disien : Veira plus la Duranço!...</l>
+          <l><lb/>— Quant coumtant senso l'oste aven ben souven:</l>
+          <l><lb/>[t.</l>
+          <l><lb/>Escriguè que partié, piei, plus ges de nouvello.</l>
+          <l><lb/>E pamens l'on vesié reveni lou bèu tèms!</l>
+          <l><lb/>Sout li tèule adeja li gentis iroundello</l>
+          <l><lb/>En bastissen si nis can'avon lou printèms.</l>
+        </lg>
+        <lg>
+          <l><lb/>Un dimenche au matin que l'aureto alenavo,</l>
+          <l><lb/>Que lou cèu èro clar coume l'aigo dóu riéu,</l>
+          <l><lb/>De-vers la vieio crous la chato caminavo</l>
+          <l><lb/>En disent: Vendras pas? Pamens, sian à l'estieu?</l>
+          <l><lb/>Mai lon bonur enfin courouné la paureto:</l>
+          <l><lb/>Un sóudard brouda d'or e la crous au cousta</l>
+          <l><lb/>Arribé quatecant: jouvent e chatouneto</l>
+          <l><lb/>Se retrouvèron mai ounte s'eron quita.</l>
+        </lg>
+        <ab><lb/>V. GaRCIK.</ab>
+        <p rend="styled"><lb/>Avignoun, 1880.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>No 3. FUEIETOUN DOU BRUSC.</head>
+        <head><lb/>PEIRE DE PROUVENÇO</head>
+        <head><lb/>LA BELLO MAGALOUNO</head>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>Sire Pèire, li diguè, cade àgi a sei devé; dre de vuer,<lb/>n’en avès de serious a coumpli. Vous sias bèn assourti<lb/>d'aquèlei de prince et de dameisèn. Tout-bèu-just recaupu<lb/>dins l'ordre de chivalarié, lei rampau de la vitòri e de<lb/>l'ounour vous soun degu ; mai enca que l'entre-signe d'a-<lb/>quilei que deves counquista à la longo. I'oustau pairenau<lb/>ounte moularias lèu souto lou fais de caresso trop donço.<lb/>d'aro-en-la fa plus pèr vous. Lei grands asard beliquous,<lb/>leis amistadouso fourtuno d'amour veus esperon. Vous<lb/>souvèn pas d'avé ausi atèr un chivalié italian vanta la<lb/>valènço e la courtesèo que regnon dius la court de Naple,<lb/>coumo de l'agradanço senso purièro de la bello Magalouno,<lb/>eiretiero d'aqueu bèu reiaume, quouro sara mouart soun<lb/>paire, lou bouen rèi Magaloun ? Lei mai valènt e mai ilus-<lb/>tre prince d'Uropo, trabaion de longo pèr se rendre digne<lb/>Se la man d'aquelo princesso adourablo. Es d'aquelo court<lb/><lb/>que voueste viel devot voudrié vous vèirè prendre lou camin.<lb/>Es aqui, que, triounflant del rivau lei mai ardid, o lei mai<lb/>amistous pourés dignamen vous faire valé, ben mai enea<lb/>qu'à la court de vouestre palre. La bello Magalouno es uno<lb/>counquisto preciouso, que dèu tenta lou couer de tout<lb/>valènt gentilome. Beleu en escounden pèr quanque tèms<lb/>vouesto auto naissènco e en fent vèire e ressourti que lei<lb/>doun naturau que vous paron, belèu atrouvarés l'estè pèr<lb/>vous n'en faire ama. Counquisto deficilo, mais osco seguro,<lb/>glourieu.....</p>
+        <p rend="labelled"><lb/>— Ah! moun brave Castelan. s'escridè lou prince en<lb/>embrassant lou vièi chivalie pèr la boueno idèlo que li<lb/>boufavo, voueli quatecant segui vouestei counsèn ! Avès<lb/>resoun : me senti naissu pèr lei grandeis aventuro, pèr lei<lb/>fourtuno merevi houso. Esperàvi que lou moumen d'estre<lb/>adouba chivalié pèr me mettrè de partènço. Mais sabieu<lb/>panca de que caire, en que cantoun dou mounde, duviéu<lb/>me rendre..... l'encantaire retra qu'es esta fa cènt fès d'a-<lb/>ans ièu de la princesso Magalouno, èro de sempièi long-<lb/>tèms estampa dins moun couers en letre de fué. M'avès</p>
+        <figure type="decoration"/>
+      </div>
+    </body>
+  </text>
+</TEI>

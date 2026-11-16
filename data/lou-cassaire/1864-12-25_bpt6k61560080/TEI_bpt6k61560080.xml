@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Cassaïre</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k61560080</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Cassaïre : eis bouèneis pèços prouvençalos et à tout escrit francès sur la Prouvençou / [dir. Marius Feraud]</title>
+          <publisher>M. Feraud (Marseille)</publisher>
+          <date when="1864-12-25">1864</date>
+          <idno type="ARK">bpt6k61560080</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k61560080</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>TROISIEME ANNEE.</fw>
+        <ab>
+          <stamp><lb/>PÖT L GAU<lb/>pucles du<lb/>1864</stamp>
+        </ab>
+        <fw type="numbering">(Nº 156)</fw>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="1"/><lb/>FEUILLETON DU CASSAIRE.</ab>
+        <p rend="heading"><lb/>Eis bouèneis Pèços prouvençalos et à tout Escrit francès sur la Prouvenço.</p>
+        <p rend="heading"><lb/>Honoré de la haute approbation de S. A. I. le Prince Louis-Lucien BONAPARTE.</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>PARAISSANT TOUS LES SAMEDIS AU SOIR.</p>
+        <figure type="table">
+          <head><lb/>ARONNENENT:</head>
+        </figure>
+        <ab><lb/>PRIX DU NUMÉRO :<lb/>Pour Marseille, 10 centimes.<lb/>Hors Marseille, 15 centimes.<lb/><lb/>Les manuscrits de <lb/>paeus</ab>
+        <ab><lb/>On s'abonne à Marseille,<lb/>Chez M. FERAUD, libraire-éditeur,<lb/>Quai du Port, 32.<lb/>Sanue, 8, à Alge.Rverté-<lb/>gae, ue ao Banque, 8, à Alger.</ab>
+        <ab><lb/>B.-du-Rhône et Départem'Autres Départements<lb/>limitrophes<lb/>et l'Algérie<lb/>Un an 5 fr. Six mois 2 50. Un an 6 f. Six mois 8f.<lb/>On ne s'abonne pas pour moins de sia mois.</ab>
+        <note>
+          <p rend="labelled"><lb/>Pour les Abonnements et Commandes au-dessus de 1 fr., adresser la somme en un bon de poste; au-dessous de 1 fr., en timbres-poste. (Aff.)</p>
+        </note>
+      </div>
+      <div type="article">
+        <ab><lb/>CONTE.</ab>
+        <ab type="head"><lb/>PebROuN<lb/>de son âge. C'est bien possible: On attrape quelquefois le mal que<lb/>l'on voudrait guérir.</ab>
+        <lg>
+          <l><lb/>Dedins lou terrouar de Marsilho,</l>
+          <l><lb/>Un richas en qu dient Cassilho;</l>
+          <l><lb/>Homme sagi que de renoum.</l>
+          <l><lb/>Un dematin que ploouviet ferme</l>
+          <l><lb/>De soun ben reculet lou terme</l>
+          <l><lb/>Dins aqueou de meste Pebroun,</l>
+          <l><lb/>Qu'en si traubant d'houro per horto,</l>
+          <l><lb/>Lou vesent agir de la sorto,</l>
+          <l><lb/>S'approuchet per s'en assurar.</l>
+          <l><lb/>Dis au bourgeois: — Perdez la testo</l>
+        </lg>
+        <lg>
+          <l><lb/>Se fez ensin, adounc mi resto</l>
+          <l><lb/>Pas mais que leis hueils per plourar! —</l>
+          <l><lb/>En cresent boueno soun affaire,</l>
+          <l><lb/>Lou mandet querre au tribunau,</l>
+          <l><lb/>Mais fauto d’un bouen pleidegeaire,</l>
+          <l><lb/>Perdet soun proucès, lou gournau!</l>
+          <l><lb/>Relourno inquiet à sa bastido</l>
+          <l><lb/>En diant toueis leis trouns que sabiet.</l>
+          <l><lb/>Rescontro soun ami Placido</l>
+          <l><lb/>Que li demando ce qu'aviet.</l>
+          <l><lb/>Quant l'a racountat soun affaire,</l>
+          <l><lb/>Lou couleguo gaire endourmit</l>
+          <l><lb/>Li dis: — Sabes ce que faut faire?</l>
+          <l><lb/>Vau ti parlar coumo un amic:</l>
+          <l><lb/>Deman matin filo à Marsilho,</l>
+          <l><lb/>Intro dins un sarrail d'amour,</l>
+        </lg>
+        <p><lb/>On est prié de pas verser un pleur sur sa tombe ; il n'a jamais<lb/>aimé les grimaciers.</p>
+        <p><lb/>Quelques-uns riront en apprenant son déménagement ; mais il<lb/>prévient d'avance ces personnes charitables qu'il se moque par-<lb/>faitement d’elles.</p>
+        <ab><lb/>On part pour la campagne.</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p><lb/>Le journal le Cassaire a la douleur de vous faire part de la<lb/>perte irréparable que vous allez faire en sa personne. Il n’est pas<lb/>décidé à vérifter les prophéties de M. Mathieu de la Drôme pour<lb/>l’année 1865, et il tient essentiellement à se faire enterrer avant<lb/>le premier janvier prochain, afin de ne pas se conformer à l’usage<lb/>absurde qui consisto à souhaiter la bonne année à bien des gens<lb/>qu'il voudrait voir à tous les diables. Il a succombé à une mala-<lb/>die qui a eu, comme bien d’autres, le secret de dérouter la fa¬<lb/>culté. Il croit qu'une attaque de felibrisme l'a emporté à la fleur</p>
+        <figure type="decoration"/>
+        <figure/>
+        <figure/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>TESTAMENT DU CASSAIRE.</head>
+        <p><lb/>Ceci est mon testament;</p>
+        <p><lb/>Un auteur a dit: « En province, l'homme de lettres existe, mais<lb/>« sa profession n’existe pas, c’est-à-dire que, par là, personne,<lb/>« à l’exception du journaliste politique, ne vit de sa plume.»<lb/>C'est pour ne pas avoir médité ces paroles tristes mais malheu-<fw type="digitisation-artefact"><lb/>Seuree gumotèque nationale de</fw></p>
+        <pb facs="0011.xml"/>
+        <ab><lb/>ב<lb/><lb/></ab>
+        <ab><lb/>ב<lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/></ab>
+        <ab><lb/>So/B Fe</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

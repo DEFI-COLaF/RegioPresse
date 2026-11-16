@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Progrès de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k18614117</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Progrès de la Côte-d'Or : journal politique... ["puis" journal républicain quotidien]</title>
+          <publisher>[s.n.] (Dijon)</publisher>
+          <date when="1874-11-23">1874</date>
+          <idno type="ARK">bpt6k18614117</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k18614117</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Sixième Année. — N: 275 15 C<lb/>BUREAUX, 39, RUE AMIRAL-ROUSSIN, 39 15 C</fw>
+        <fw type="runningTitle"><lb/>Lundi 23 Novembre 1874</fw>
+        <figure type="table"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>de la Côte-d’Or</p>
+        <p rend="heading"><lb/>PARAISSANT TOUS LES JOURS, EXCEPTÉ LE DIMANCHE</p>
+        <ab><milestone unit="column" n="1"/><lb/>ABONNEMENTS, ANNONOBS<lb/>S'adresser au ǵrant, rue Amiral Rousío, 39. A Dijon</ab>
+        <p rend="styled"><lb/>POUR TOUT CE QUI CONCERNE LA REDACTION</p>
+        <ab><milestone unit="column" n="3"/><lb/>e d c </ab>
+      </div>
+      <div type="article">
+        <p><lb/>La démnocratie dijcenaise a rem¬<lb/>porté hier une grande victoire: la<lb/>liste républicaine a passé tout entière</p>
+        <p><lb/>Cest en vain que les coalisés légi-<lb/>timistes, orléanistes, bonapartistes,<lb/>réunissant toutes leurs forces sur les<lb/>oms les mieux choisis et les plus ho¬<lb/>norables de leurs chefs, ont tenté la<lb/>lutto: tous les candidats de la liste<lb/>monarchique sont restés sur le car-</p>
+        <p><lb/>nos elus,<lb/>M. Enfert, obtenait 5,098 suffrages,<lb/>e premier de la liste monarchique<lb/>n’en réunissait que 2,119 C'est donc<lb/>ne majorité do 3,000 voix en faveur</p>
+        <p><lb/>Ce magnifique résultat est du à l'en-<lb/>tente et à l'union de tous nos amis qui<lb/>avaient à cœeur d'affirmer par une ma-<lb/>mifestation imposante los sentiments</p>
+        <p><lb/>Ni les injures, ni les outrages, ni<lb/>diffamations de tous genres n'avaient<lb/>été épargnés à certains de nos amis.<lb/>Le scrutin les a bien vengés. Ceux qu<lb/>ont été le plus vivement calomniés<lb/>par la presse de réaction ont été élus</p>
+        <p><lb/>On remarquera aussi dans quels<lb/>rangs viennent MM. Perdrix et Tain-<lb/>turier, le maire et l'adjoint révoqués<lb/>par l'ordre moral, à cause de leurs<lb/>opinions républicaines. Le maire et<lb/>l'adjoint imposés profiteront-ils de l'a¬<lb/>vertiffragentque vient de leur donner</p>
+        <p><lb/>Nous aurons à revenir sur notre vic-<lb/>toire d'hier. Mais nous tenons<lb/>préciser de suite la signification; ce<lb/>ote a été non-sculement une énergi-<lb/>ne revendication des libertés munici-<lb/>pales que la dernière loi des maires<lb/>nous a enlevées, mais encore une<lb/>grande manifestation républicaine.</p>
+        <p><lb/>Nos adversaires, malgré toutes les<lb/>élections républicaines faités depuis le<lb/>30 avril 1871, prétendaient que le<lb/>pays veut la monarchie et repousse la<lb/>République. La rude défaite qu'ils<lb/>ont subie hier leur ouvrira-t-elle les<lb/>yeux et comprendront-ils enfin que le<lb/>gouvernement républicain est celui que<lb/>ne saurait décormais ete dice<lb/></p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Peuilleton du Progrès de la Côte d'Or</head>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>Dernière pensée de Hoche</ab>
+        <ab type="head"><lb/>NE v </ab>
+        <p rend="labelled"><lb/>Eiward! ditla moro </p>
+        <p rend="labelled"><lb/>e n la serrant<lb/>sse<lb/>uis toujours auprès de tol, avec tol, chere</p>
+        <p><lb/>n qu tombalent<lb/></p>
+        <p><lb/>La jeune mére se leva pour obéir, et la</p>
+        <p rend="labelled"><lb/> iavies,a colte sne.</p>
+        <p rend="labelled"><lb/>tour! mormura le ve; jo ne vo<lb/>rran-</p>
+        <p><lb/>acherait-i ces modd<lb/>sans dou<lb/></p>
+        <p><lb/><lb/>die heur<lb/></p>
+        <p rend="labelled"><lb/>aussi la bienvenue au cottage de</p>
+        <p><lb/>Dn entendit bientôt, sur le paré de la</p>
+        <p><lb/>comte fi cette remarque </p>
+        <p><lb/>alerte de Tancre</p>
+        <p><lb/>frooro</p>
+        <p rend="labelled"><lb/>òrissement, non, yons ne perdrez pas vo-<lb/></p>
+        <p><lb/>re<lb/></p>
+        <p rend="labelled"><lb/><lb/>e; n'est-ca pas, cosi</p>
+        <p rend="labelled"><lb/>ai Parrive à ten</p>
+        <p rend="labelled"><lb/>Na nl demanda-t-il en Tembras-<lb/>sant, mais qu'y a-t-it donc, pette e<lb/>gee </p>
+        <p rend="labelled"><lb/>trop de nous trois et d'eux pour avoir ral¬</p>
+        <p><lb/><lb/>cherchez dans les keepseakes anglats<lb/>des types qui vous en résumera lidéa<lb/>Jarais vous n'imaginerez rien d'ansi<lb/><lb/>i-s<lb/>pauvres frères dTrlande. Comment <lb/>mande à Cornelia, je suis certain que<lb/>nentira pas à sa conscience pourte</p>
+        <p><lb/>Chodsie comme arbitre par les deux par¬<lb/>caructère, cette fols oncore elle érita</p>
+        <p rend="labelled"><lb/>al van<lb/></p>
+        <p rend="labelled"><lb/>  de diacatet<lb/><lb/>ga u Re</p>
+        <p rend="labelled"><lb/>contre son roi ! Mala de quol te plains-tu!</p>
+        <p rend="labelled"><lb/>eêtro utiie aux aut<lb/>répondit.. Rlen pour mol, tout pour nos</p>
+        <p rend="styled"><lb/> iule au procnaa nero</p>
+      </div>
+      <div type="article">
+        <head><lb/>MM. CHAUFFOUR &amp; WENOLING</head>
+        <p><lb/>Notre candidature n'avait d'autre signi<lb/>fication qu'un hommage rendu et<lb/>mparque de sympathie donnés à notre chère<lb/>Alsace: les électeurs ont voula conférer le<lb/>droit de cité et leor titro d'adoption à<lb/>cux qui ont cherché dans la ville hospita¬<lb/>lière de Dijon, un refage et la sauvegarde<lb/>de leur nationalité: qu'ils en solent re¬</p>
+        <p><lb/> incnes ent<lb/>servi à cette généreuse manifestation, nous<lb/>comprenons toute l'étendue des devoirs que<lb/>notre mandat nous impose: nous appor-<lb/>terons à les remplir le zèle que nous in¬<lb/>spirent à la fois notre conscience, notre<lb/>gratitude pour nos nouveaux concitoyens<lb/>et notre dévouement a la Répablique.</p>
+        <ab><lb/>L. CHAUPPOUR. — WENDLINO.</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>Elections municipales de Dijon<lb/>a diect</ab>
+        <figure type="table"/>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>ElEcrioNS MosicirALES DE MosTaARO</p>
+        <p><lb/>Iiste républicaine est victorionse sur<lb/>to a cdds son éu</p>
+        <p><lb/>a le<lb/>Hotn répablicalas sont étus a na<lb/>de ta</p>
+        <p><lb/>Ba <lb/>»Gallottage poor deux nomi Soccès cor-</p>
+        <ab type="head"><lb/>ÉLECTIONS HUNICIPALES D'AUXONNE</ab>
+        <p><lb/> dedcs do</p>
+        <figure type="table"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="table"/>
+        <figure type="table"/>
+      </div>
+      <div type="article">
+        <p><lb/>set (Antoine), entrep. de serrurerie,</p>
+        <figure type="table"/>
+        <p><lb/>Dede à la derniere heore, qei éalt sem</p>
+        <p><lb/>mier des elus de la lete repable</p>
+      </div>
+      <div type="article">
+        <head><lb/>Blections municipales d'Are-sur-Tille</head>
+        <figure type="table"/>
+      </div>
+      <div type="article">
+        <head><lb/>ET MAIRKS NOMMES PAR LE POUVOIR</head>
+        <p><lb/>An moment où toutes les communes de</p>
+        <p><lb/>pas 500 habitants; il</p>
+        <p><lb/>ésppointement de la réaction est</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>nrécrit de Gevrey Chambertin</p>
+        <ab><lb/>Soucea./Bieenan e Frae</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Campana de Magalouna</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7350319n</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Campana de Magalouna : journal populàri que parei lou 1è e lou 15 de toutes lous meses</title>
+          <publisher>[s.n.] (Mount-Peliè)</publisher>
+          <date when="1927-07-15">1927</date>
+          <idno type="ARK">bpt6k7350319n</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7350319n</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>Dins aqueste Numerot: Crounica sus las Doumais ellas qu’an passat lou Bachot, per l'Escoutaire.<lb/>SERMOUN EN LENGA D’OC per M. l’Abat Chazot. — LA DOTA D’AUVERGNA, per P. C.</ab>
+        <fw type="numbering">*5 sous</fw>
+        <fw type="numbering">8 pajas </fw>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>LA BOULHABAISSA, per Charlou de l'U. — MADAMA CHICA-CHACA.<lb/>LOU SIÈGE DE CADAROUSSA,</p>
+        <figure/>
+        <p rend="heading"><lb/>Journal poupulàri de Mount-Peliè</p>
+        <p rend="styled"><lb/>Per s'abounà mandà 3 fr. 50 à M. F. Dezeuze: Chèques-Poustals No 583, Mount-Peliè. — R. C. Mount-Peliè No 1089.</p>
+        <ab><lb/>Aministracioun e Redacioun<lb/>,Carrieira de l’Agulharie, 27<lb/>Papetarie F DEZEUZE</ab>
+        <ab><lb/>Abounament: 3 fr. 50 par an<lb/>Respounden pas à las demandas d'abounament que soune<lb/>pas acoumpagnadas dan mountant</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Annada XXXVIII. N. 372</ab>
+        <ab><lb/>15 de Julhet 1927</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>laissèt anà à dire au candidat que poudiè lous Camemberts qu'an enveja de faire sas</ab>
+        <ab type="head"><lb/>Crounica de la Campana</ab>
+        <p><lb/>Moun viel amic qu’es pensiounàri à l'otel<lb/>Magalouna me dis qu'aquesta passa, las<lb/>taulas dau restaurant sembloun de gabias<lb/>de marchands de passerounets.</p>
+        <p><lb/>Apignaladas davans la napa blanca, de<lb/>cloucadas de doumaiseletas dessoublidoun<lb/>de béure e de manjà per babilhà de cè que<lb/>las tafura.</p>
+        <p><lb/>Afairadas couma de rouquiès dins un<lb/>aubrat de figas maduras ou couma de<lb/>balestriès sus lou pount de fugi l'iver,<lb/>piéutoun, cridoun, jiscloun e vejaqui ço que<lb/>disoun :</p>
+        <p rend="labelled"><lb/>– Lucie est-reçue....</p>
+        <p rend="labelled"><lb/>— Alice est admissible...</p>
+        <p rend="labelled"><lb/>— Odette est recalée...</p>
+        <p rend="labelled"><lb/>— Le prof. d'Espagnol est gentil.,.</p>
+        <p rend="labelled"><lb/>– Le prof. d'histoire est terrible... il colle<lb/>tout le monde sur la Constituante...</p>
+        <p rend="labelled"><lb/>— Méfiez-vous du prof. de chimie ; il est<lb/>joli, il est gentil, il vous remercie, puis.<lb/>pin ! pan ! il vous marque un zéro?</p>
+        <p rend="labelled"><lb/>— Quelle horreur!</p>
+        <p rend="labelled"><lb/>Voui, ma chère!</p>
+        <p><lb/>O baccalaureat ! que de susadas, que de<lb/>laguis, que de larmetas costes à las pauras<lb/>pichotas qu’an de besoun de toun pergamni,<lb/>siègue per countentà l'ourgul de sas fami-<lb/>lhas, siègue per ie servi de bilheta d'intrada<lb/>à la granda grepia de las aministraciouns.</p>
+        <p><lb/>E de l'autre coustat de la taula, o bacca-<lb/>lauréat ! que d'ouras grèvas, assucantas<lb/>empauses as esaminatous. mens pagats e<lb/>de fossa, per aquela besougna delicada e<lb/>penibla qu'un porta-fais de Ceta per des-<lb/>cargà un bastiment ple de bòi de Nord.</p>
+        <p><lb/>Encara quand an la crespina de toumbà<lb/>sus un merle que sap siblà, ou quauca<lb/>Madama Angot que debuta, podoun passà<lb/>quaucas minutas agradousas. Mès de fes,<lb/>dèch ou douge bourriscous ou saumetas se<lb/>seguissoun, pus sots lous uns que lous<lb/>autres, e l'esculloun de bestiassadas dignas<lb/>das cinemàs americans : presemple..</p>
+        <p rend="labelled"><lb/>— Que Bonaparta èra lou cougnat de<lb/>Louis XIV...</p>
+        <p rend="labelled"><lb/>— Que Lafavette s'es illustrat en levant<lb/>de grands magasins de modas...</p>
+        <p rend="labelled"><lb/>– Que l'acida azotica es tirat de las petas<lb/>d'ase, ço qu’esplica soun noum... asinune<lb/>asus, asotus.</p>
+        <p><lb/>On coumprend alors que sous nervis se<lb/>tiboun couma de cordas de viouloun, que se<lb/>rebissinoun e que ie vèngue quaucas parau¬<lb/>las de proumtituda couma aquel que se<lb/>pas sourti dous mots.</p>
+        <p rend="labelled"><lb/>— Ai fantasiè de mandà querre dos lièu¬<lb/>ras de civada, per veire se doubrirés la<lb/>maissa.</p>
+        <p rend="labelled"><lb/>— Fasès-ne pourtà quatre, moussu l'esami¬<lb/>natou, que tugaren lou verme ensemble ! ie<lb/>respoundèt dau tac au tac lou candidat<lb/>desenclausit.</p>
+        <p><lb/>Lou proufessou ravit de la rebecada ie<lb/>marquèt una bona nota.</p>
+        <p><lb/>E ma fé ! n'èra pas raubada</p>
+        <p><lb/>Toutas aquelas pichotas se bailoun d'an¬<lb/>nadas de laguis e d'estudias repoufantas<lb/>per counquistà de situaciouns sans voudre<lb/>s'avisà que poudrièn gagnà sa vida sans se<lb/>negà la closca dins lou jus de tant de papa-<lb/>fards.</p>
+        <p><lb/>S'èra pas lou prejnjat que mes la casta de<lb/>las emplegadas dau Goubernament au<lb/>dessus de la marchandas à la Plaça, disès¬<lb/>me quanta vida es preferabla entre l'enga¬<lb/>biage d'una poustièira e la libertat d'una<lb/>froumajaira ou d'una charcutièira ?</p>
+        <p><lb/>La vesès quilhada sus soun tauliè, couma<lb/>una madona sus l'autar, la galharda barouna<lb/>das Rocaforts ? Tout, à soun entour sentis,<lb/>qu’embauma, vous remés d’aploumb s'abès<lb/>mau d’estoumac. Lou Layola susurleja, lou<lb/>Grièra, couma Argus as cent iols, survelha</p>
+        <ab><lb/>ource gallica.bnf.fr/ Montpellier Méditerranée Métropole - Médiathèque centrale Emile Zola</ab>
+        <pb facs="0002.xml"/>
+        <fw type="runningTitle"><lb/>LA CAMPANA DE MAGALOUNA</fw>
+        <ab><milestone unit="column" n="1"/><lb/>LAMOUROUX Freres, Pharmaciens<lb/>5.70<lb/></ab>
+        <p rend="heading"><lb/>GRANDE PHARMACIE MONTPELLIÉRAINE</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>G. LAMOUROUXO</p>
+        <p rend="heading"><lb/>F. LAMOUROUXO</p>
+        <lg>
+          <l><lb/>Pharmacien-Spécialiste</l>
+          <l><lb/>Chimiste-Expert près les Tribunaux</l>
+          <l><lb/>Ex-Préparateur des Hôpitaux Civils et Militaires</l>
+        </lg>
+        <lg>
+          <l><lb/>Docteur en Médecine, Docteur en Pharmacie</l>
+          <l><lb/>Ex-Chef de Travaux pratiques à la Faculté de Pharmacie</l>
+          <l><lb/>Université de Montpellier</l>
+          <l><lb/>Ex-Professeur à l'Ecole Supérieure de Commerce</l>
+          <l><lb/>Lauréat 1e Prix de Chimie de la Faculté de Pharmacie</l>
+        </lg>
+        <quote><lb/>Lauréat de plusieurs Concours</quote>
+        <p rend="heading"><lb/>Place de la Comédie. — MONTPELLIER<lb/>R. C. 4153<lb/>Grande Pharmacie à Prix très réduits. — Vendant le Meilleur Marché du Monde<lb/>RABAIS CONSIDÉRABLE EXPÉDITION BANLIEUE, ÉTRANGER</p>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>caravanas: aquel pigre de froumage de Brie<lb/>dourmis aloungat sus sa palha e lou frou-<lb/>mage de las Oulandas es tout rouge de ver¬<lb/>gougna per-dequé se souvèn que l'an<lb/>fardat à una epoca emé de misca-masca de<lb/>Galargues.</p>
+        <p><lb/>Vous esplicarai aco en tres mots. Lous<lb/>Garlagòus amassaboun d'erba de maurella,<lb/>n'en fasièn un jàs ; metièn un jàs de fumiè<lb/>per dessus e de pelhots entre-mitan. Aqui<lb/>dessus, parlant per respét, touta la familha<lb/>papeta, mameta, paire, maire, manidas e<lb/>pichots, anaboun faire pipi. Se fasiè de<lb/>reaciouns chimicas que lous savants espli¬<lb/>coun emé d'algèbres coumplicats e lous<lb/>pelhots finissièn per èstre embeguts d’una<lb/>coulou miéu-grana founçada que nostes<lb/>coumpatriotas mandaboun as Païses-Basses<lb/>per pintrà lous froumages de tèsta de mort<lb/>e en Angleterra der coulourà lous vis trop<lb/>blancs e las counfituras de grousèia.</p>
+        <p><lb/>Se voulès pas me creire legissès toutes<lb/>lous detals d'aquel coumerce estraourdinàri<lb/>dins lou libre d'Arduin-Dumazet. (Voyages<lb/>en France, 37e Série, Le Golfe du Lion, page<lb/>115 et s.)</p>
+        <p><lb/>E las charcutièiras?</p>
+        <p><lb/>Quanta bella destinnada! quanta planeta<lb/>per una fenna de goust:</p>
+        <p><lb/>O remplegadas, o fricandèus ! aurelhas à<lb/>la jaladèia e saucissots à l'al ! que de bonurs<lb/>abès precurat à l'umanitat soufrenta e ape-<lb/>tissada! Quante tablèu de Rafaël a fach<lb/>jamai autant plesi qu'una marrana de cerve-<lb/>lat !... e dire que n'an pas fach un sant<lb/>nimai un celèbre dau qu’enventèt aquela<lb/>tant bona causa !... Quanta trajedia de Cor¬<lb/>neille pot se coumparà à una gaudada de<lb/>manouls à la pouma d'amour quand arribàs,<lb/>en ibèr, à la cabana, après cinq ouras de<lb/>cassa dins lous apalusses ?</p>
+        <p><lb/>S'ère jouina filha, bachelièira e douada de<lb/>l'amour dau bèu me metrièi marchanda de<lb/>charcutariè!</p>
+        <ab type="head"><lb/>*</ab>
+        <p><lb/>E gagnariei prou per me pagà ço</p>
+      </div>
+      <div type="article">
+        <ab><lb/>qu'embelis la vida segound las idèias à la<lb/>moda :<lb/>**</ab>
+        <p><lb/>1o Una citroën;</p>
+        <p rend="labelled"><lb/>2° Un bel omenet, grand. mince, rasat de<lb/>frés chaca mati, qu'auriè pas res à faire que<lb/>lous lièchs, la vaissella, la bugada e faire<lb/>tetà lous pichots;</p>
+        <p rend="labelled"><lb/>3o Un poste de T. S. F. ;</p>
+        <p rend="labelled"><lb/>4o Un saloun prou grandet per dansà lou<lb/>Charlestoun en familha;</p>
+        <p rend="labelled"><lb/>5o Un Pathé-Baby-Cinema;</p>
+        <p rend="labelled"><lb/>6o Una cava garnida de boutelhas d'Evian,<lb/>de Vittel, de Vlchy, de Villacabras e<lb/>d'Hunyadi-Janos;</p>
+        <p rend="labelled"><lb/>7º De toupinets de rouge per las boucas<lb/>e de toundusas per rasà lou coupet e lou<lb/>dejout das brasses.</p>
+        <ab type="head"><lb/>*</ab>
+        <p><lb/>Coumparat a-n-aquel luxe que permés un<lb/>tauliè à la Plaça, dequ'es que sount lous<lb/>magrièules avantages, las estiquidas cou¬<lb/>mouditats de vida que precuroun lous<lb/>baccalaureats ?</p>
+        <p><lb/>E dire que dou mai anan dou mai l'a de<lb/>candidatas!</p>
+        <ab type="head"><lb/>* **</ab>
+        <p><lb/>E d'aquel tems, pas pus de bonas, pas pus<lb/>de fennas de cambra. pas pus de doumesticas.</p>
+        <p><lb/>Aqui una autre mestiè que gagna!</p>
+        <p><lb/>Una loumesticota que sap se resounà<lb/>gagna tres cents francs per més e nourrida.<lb/>S'abilha milhou que Madama. Sourtis chaca<lb/>jour après soupà. Lous jours pars vai au<lb/>Cinemà, lous jours impars frecanta soun<lb/>canàri, lou dimenche vai à Palavàs. A sa<lb/>cambra à part emé un piano. L'auto das<lb/>patrouns ie costa pas res perdequé lou<lb/>caufur la caufa, e quand van à Paris ou à<lb/>las aigas, es en segoundas que fai lou<lb/>trajet.</p>
+        <p><lb/>S'es pas degavalhèira se ramassa un<lb/>boussicot, espousa lou varlet de cambra,<lb/>crompoun una espiçariè, una charcutariè,<lb/>una froumajariè e fan fourtuna.</p>
+        <p><lb/>Disès-me quante baccalaureat a fach<lb/>jamai fourtuna?</p>
+        <p><lb/>l'a pas que dos oumbras au tablèu.</p>
+        <p><lb/>Quand, sans baccalaureats, charcutiès ou<lb/>froumajaires an arroundit un gros magot.<lb/>voloun mort e fol que sas filhas siègoun<lb/>bachelièiras.</p>
+        <p><lb/>E d'un autre coustat, dins aquel mestiè<lb/>de doumestica l'a quicon que pesa, que<lb/>pesa....</p>
+        <p><lb/>Dequ'es aco que pesa tant?</p>
+        <p><lb/>Hou abès belèu vist dins una caricatura.</p>
+        <p><lb/>Un terrassiè fai una tranchada, carga sa<lb/>pala de terra grassa, trempa, pesuda couma<lb/>un ase mort, e zou ! issa ! la monta d'en-bàs<lb/>sus lou rebord.<lb/></p>
+        <p><lb/>Un larbin se pencha e ie dis en lou<lb/>planiguent:</p>
+        <p rend="labelled"><lb/>— Eh! Eh! coulèga, aco me fai l'efèt de<lb/>bougrament pesà!</p>
+        <p rend="labelled"><lb/>— Ten fagues pas, rebèca l'ome de pena,<lb/>pesa pas tant qu'un pot de cambra.</p>
+        <ab><lb/>L'ESCOUTAÏRE.<fw type="digitisation-artefact"><lb/>Source gallica.bnf.fr/Montpellier Méditerranée Métropole - Médiathèque centrale Emile Zola</fw></ab>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>CROuNICA DE LA ROCA</p>
+        <p rend="heading"><lb/>(PER L'EMITA DE COUMBA-CAPÈL)</p>
+        <figure type="decoration"/>
+        <p><lb/>Augustin Bonnet lou sarralhè de noste<lb/>village, vèn de mouri à sètanta-quatre ans.</p>
+        <p><lb/>Lous félibres perdou en el un amiratou,<lb/>nosta "Campana" soun mithou amic, è la</p>
+        <p><lb/>Roca un brave efant,</p>
+        <p><lb/>Quau dirà, as que nous seguissoun dins<lb/>la vida, las qualitats d’aquel bon ome que<lb/>dins soun traval fasiè ço que vouliè de<lb/>sous dechts e que rendiè à toutes força e<lb/>força bons service? Ara, quand passaren<lb/>davans soun oustalet, davans sa porta<lb/>que jour e niochs èra douberta couma es<lb/>douberta la porta de l’oustau del Bon<lb/>Diéu, nous souvendren que dins sa bou-<lb/>tiga à las muralhas negras couma lou<lb/>carbou qu'alucava lou gros bufjet de sa<lb/>forja, avèn parlat en d’el, das pouètas de<lb/>nostra França, mès mai que mai das<lb/>pouètas de noste poulit Mièjour. Oi,<lb/>Gustinet, couma lou sounavian aici à la<lb/>Roca, aimava lous pouètas, aimava nosta<lb/>gleiseta.</p>
+        <p><lb/>Ara l'entendren pas pus lou dimenche<lb/>cantà à la messa, de soun banc de margu¬<lb/>lhè, las louangas del bon Diéu ; lou veiren<lb/>pas pus passà de cadièira en cadièira<lb/>per quetà per las amas. Mès, d'amount<lb/>pregarà per nautres lou Bon Diéu qu'a<lb/>tant aimat.</p>
+        <p><lb/>Es passat en faguent lou bé, e iéu que<lb/>mai qu’un autre l'ai counougut, voudrièi<lb/>qu'à chaca printems toutas las flouretas de<lb/>nostas garrigas, poaguèssou veni sus sa<lb/>toumba per ié dire : Siés estat ben brave,<lb/>nous as cantat, nous as aimat touta ta<lb/>vida, ara t'oublidan pas.</p>
+        <ab><lb/>L'ERMITA DE COUMBA-CAPEL</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

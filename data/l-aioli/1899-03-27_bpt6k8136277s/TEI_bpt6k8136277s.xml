@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136277s</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1899-03-27">1899</date>
+          <idno type="ARK">bpt6k8136277s</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136277s</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>NOUVENCO ANNADO, No 297</fw>
+        <ab><milestone unit="column" n="3"/><lb/>DILUN, 27 DE MARS 1899.</ab>
+        <ab><milestone unit="column" n="1"/><lb/><lb/>PREs DE L'aBOUNAMEN<lb/></ab>
+        <ab><lb/>(Prouvere di mensounie)</ab>
+        <lg>
+          <l><lb/>Nautri, li bon Prouvençau,</l>
+          <l><lb/>Au sufrage universau,</l>
+          <l><lb/>Voutaren pèr loli</l>
+          <l><lb/>E faren Paiöli.</l>
+        </lg>
+        <ab><lb/>F. MISTRAL.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17,27)</p>
+        <figure/>
+        <ab><lb/>SUREU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FoLcO DE BAnONCELLI<lb/>au palais dóu Roure<lb/>EN AVIGNOUN<lb/></ab>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <ab><lb/>Baile dóu journau<lb/>FoLCO DE BARONCELLI</ab>
+      </div>
+      <div type="article">
+        <head><lb/>BRÈINO E SCULEIADO</head>
+        <head><lb/>Li plagnitudo d'un Paune</head>
+        <lg>
+          <l><lb/>Aquéu vèspre que li luserno</l>
+          <l><lb/>Quincavon pas souto lou vent,</l>
+          <l><lb/>E que dins li vege e li verno</l>
+          <l><lb/>Tout ero amudi, t'ensouvèn ?</l>
+        </lg>
+        <lg>
+          <l><lb/>Aquéu vèspre que dins li lono</l>
+          <l><lb/>Li ninfèio se passissien,</l>
+          <l><lb/>Qu'i bord de riau li courbo-dono</l>
+          <l><lb/>Emé ls ile gemissien,</l>
+        </lg>
+        <lg>
+          <l><lb/>Tensouvèn-ti, ma bello, oh digo,</l>
+          <l><lb/>Tensouvèn-ti de tout acò,</l>
+          <l><lb/>E peréu dóu plang di bedigo</l>
+          <l><lb/>Qu'alin esmouvié lis ecò ?</l>
+        </lg>
+        <lg>
+          <l><lb/>Ah! pèr iéu, talo recourdanço</l>
+          <l><lb/>De-countuni m'es un tourment,</l>
+          <l><lb/>E la vesioun d'aquéu sèr danso</l>
+          <l><lb/>Dins ma memento, eternamen.</l>
+        </lg>
+        <lg>
+          <l><lb/>Lou Faune que sus nosto routo</l>
+          <l><lb/>Rescountravian tout magagna,</l>
+          <l><lb/>Car eu ovié 'no bano routo</l>
+          <l><lb/>E lou péu tout escaragna,</l>
+        </lg>
+        <lg>
+          <l><lb/>Ero encauso que la Naturo,</l>
+          <l><lb/>Dins soun pantai de l'embruni,</l>
+          <l><lb/>Tant 'tristo èro sus sis auturo</l>
+          <l><lb/>E dins si raloun ensourni.</l>
+        </lg>
+        <lg>
+          <l><lb/>Lou Faune qu'emé Margarido,</l>
+          <l><lb/>Moun amigueto de toui tèms,</l>
+          <l><lb/>Dins li canerivo flourido</l>
+          <l><lb/>Veguerian un sèr de printèms,</l>
+        </lg>
+        <lg>
+          <l><lb/>De si valengo abouscatido</l>
+          <l><lb/>Coucha pèr l'encèndi e lou fum</l>
+          <l><lb/>Pèr sauva soun antico vido,</l>
+          <l><lb/>Sèro enfugi vers li palun:</l>
+        </lg>
+        <lg>
+          <l><lb/>E disié dins sa grand tristesso:</l>
+          <l><lb/>« Aro, ai! las! qu dounc entendra</l>
+          <l><lb/>Ma pahuto, divino oustesso,</l>
+          <l><lb/>E ma jourest qu me rendra!</l>
+        </lg>
+        <lg>
+          <l><lb/>E vous, divinita sublimo</l>
+          <l><lb/>Di sourgènt linde e di blacas,</l>
+          <l><lb/>Vous pèr qu Jupiter trelimo</l>
+          <l><lb/>Sus soun Oulimpe de roucas,</l>
+        </lg>
+        <lg>
+          <l><lb/>Ninfo à la car ennevassado,</l>
+          <l><lb/>Qu me rendra vosto belour,</l>
+          <l><lb/>Iant de jes tengudo enliassado</l>
+          <l><lb/>Au bord di font, subre li pour,</l>
+        </lg>
+      </div>
+      <div type="article">
+        <ab><lb/>naire e avaras, lé donnavo pu souvènt de cop de bas. eicò-d'eici: «Retourno sus il pas ! cercaras u lagremo<lb/>Marsiho.</ab>
+        <ab type="head"><lb/>LI GALIAETO DE BIDOCNET</ab>
+        <ab type="head"><lb/>- CONTE -</ab>
+        <figure type="decoration"/>
+        <p><lb/>ME sa co bèn doublado de chasque constat de plumo<lb/>E rousso, si piauto garnido enjusquoen basque l'aurias<lb/>dicho embraiado, sis alo blanco coume la néu emé sus lou<lb/>còu unpichot rode de plumo negro qu'aurias di uno poun-<lb/>cho coume n'en cargon nòsui prouvençaleto, emé soun<lb/>pepu negrineo, sa crespo e ai dos pendeloto cremesino,<lb/>em' un pichot mousseu de veto blanco à si gaugno, ah !<lb/>qu'èro poulideto aquelo galino ! Faroto coume un gau,<lb/>anavo e venie tout lou jour á travès lis espigau verdejant<lb/>qu'èron atoucant dou mas. Fasié la casso is angrolo, i<lb/>grihet, à la vermenudo, i toro, basto! en tout aquelo<lb/>sequélo de manjaire que vénon giéuja ll recordo di palsan.<lb/>Mai tre que lu soulèu trecouiavo, s'ausissie un pichot<lb/>siblet que rampelavo e, zóu, la vesias que S'enfusavo dins<lb/>la draio e venie s'estren a dins uno bori duberto. Uno vièio<lb/>to nto froumido venie barra la porto e fin qu'à l'aubo re¬<lb/>vesian pius la galineto.</p>
+        <p><lb/>Quau ero aquelo vièio?... D'ounte venié ?.. Dequé<lb/>fasie?... Degun dins l'endré aurié pouscu vous tou<lb/>dire. N'l'avié que disien qu'èro uno viéio masco. D'autre<lb/>qu'èro la rềire neboudo de Charle Des. D'autre,.. d'au-<lb/>tre..., jamai acabariéu, car cadun avié soun avejaire.<lb/>Pamens se l'avias demanda i coudeter dou camin, à l'au¬<lb/>reto que passavo empouitant em' elo li paraulo que la<lb/>vièio mastegavo tout lou jour, aurias pouscu saupre co<lb/>que me canté la galincio, sus la liaço uou marcat d'Arie,<lb/>ounte l'avien aducho quand la viélo mourigue..</p>
+        <figure type="decoration"/>
+        <p><lb/>Uno fes f'avié dins un mas de Camargo un brave jou-<lb/>vènt que rusticavo dur, dourmié gaite, emai arribavo<lb/>pas à countenta soun boutréu de méstre. Aqueste, re¬<lb/>toun que de tros de pan. Avié de-longo la tavello à la<lb/>man; si barjo desgrunavon, despié l'aubo enjusquo à<lb/>jour tali, un capelet de mau á faire abousouna li muraio<lb/>de la grand giéiso.</p>
+        <lg>
+          <l><lb/>Vidoun, Vidau,</l>
+          <l><lb/>Segound la vido</l>
+          <l><lb/>Lou journau.</l>
+        </lg>
+        <p><lb/>Aquéu paure jouvênt, que ié disien Bidounet, n'avié<lb/>plus que sa maite que restavo ben liuen d'aqui e qu'ero<lb/><lb/>sourdo coume un esclop Pas mejan de s'ana plagne a-n-<lb/>elo ; tamben demouravo en aqueu mas sénso bousca<lb/>d'autro plaço. l'avié tres an que trimavo ansin coume<lb/>uno bésti, gagnant ien que sa vido coume li chin, car<lb/><lb/>avie pou que lou tuièsse se lé demandavo d'argent, tant<lb/>lou couneissie rute e brutau. Arribe meme qu'un jour<lb/>moun pelot regignous agante enca mai la moustardo e<lb/>enbandigue noste jouine ráfi. — « le devié rèn, ero un<lb/>feimantas, un gaisapian, un curo biasso, un rampelin, un<lb/>voulur, que lou tron l'empourtèsse! » — Es ansin que<lb/>parie au paure jouvent. Pamens en lou vesént que plou¬<lb/>ravo coume un entant, counsemiguè à lébaia uno avous¬<lb/>tenco sabès, es lou noum que se baio i galineto de la<lb/>couvado d'avoust, per pagamen de si tres an de travai.</p>
+        <p><lb/>Vaqui doune moun Leu e bruve Bidounet que s'envai<lb/>per disio e per camm, emne sa galineto souio lou bras,<lb/>que tens-en-tems le cascaiavo: « Deque ploures, bedi-<lb/>gus? Tant que m'aurus, surus urous.»</p>
+        <figure type="decoration"/>
+        <p><lb/>Plouravo, lou paure drole, car se disié: «Dequé vau<lb/>faire tout souiet?... N'ai plus que de m'ana garça au<lb/>Rose!.. Ma maire pòu pas se nourri elo, a pas pouscu<lb/><lb/>m'abari ; adounc es coume s'ero morto." Quand agué<lb/>ansin camna beleu dos ouro, s'asseté sus la tepo au pèd<lb/>d'un óume ecountuniè de ploura... E vaqui que si la¬<lb/>gremo en toumbant sus la terto abrasado e secarouso,<lb/>coume soun mèstre, anéron bagna lou pèd d'uno erbiho<lb/>que creissié aqui escoundudo dins lou margai. En sen¬<lb/>tent lou trescun, aquesto durbiguè si bouqueto, badaiè,<lb/>se fretè lis iue e, coume se venie de se dereviba, s'estirè.<lb/>S'estiré talamen que vengué naseja souto lou bè de la<lb/>galineto.</p>
+        <p><lb/>Pecaire, aquelo n'èro pas estado arribado de tout lou<lb/>jour e, sentènt qu'avié fam, n'en faguè ni uno ni dos,<lb/>culigue d'un cop de bé 'mé touto la mato la «floureto di<lb/>lagremo » e l'eniourgounè dins soun papa.</p>
+        <p><lb/>Dins aquéu téms Bidounet, las de ploura e aclapa pèr<lb/>la fauigo e la calour, s'èro endourmi souto l'óume. Pan¬<lb/>taiavo (o trularié de la naturo!) qu'ero réi, qu'avié de<lb/>serviciau e de servicialo, qu'anavo á la casso, qu'èro<lb/>urous, que touti éron countent d'éu, e que la chato dóu<lb/>réi de la Vesinanço s'anavo marida 'm' éu....</p>
+        <figure type="decoration"/>
+        <p><lb/>Ai! las! quand se derevihé, n'èro pas rei, l'endour-<lb/>sado que i'avie maca li costo lé lou disié miés que res.<lb/>A coustat d'éu n'avié pèr serviciau e servicialo que sa<lb/>pichoto galineto, gènto e courouso que-noun-sai, mai<lb/>que lou counsoulavo qu'emé de cascaiejage.<lb/></p>
+        <p><lb/>Pamens en s'aubourant s'avisè que sa galineto venié<lb/>de taire un iou!</p>
+        <p rend="labelled"><lb/>— «Acò pòu pas miés ana, se diauè ; (quand sias<lb/>jouine, emai sigués un pau tristas, oublidas pas qu'avès<lb/>fam), n'ai ges de pau ! mai es egau lou vau béure, sara<lb/>toujour quicon.» — Sourtiguè soun coutèu, e s'aprestè à<lb/>durti l'iòu Tre que l'agué 'n pau fendascia, ie pausé si<lb/>labro, mai aguè beu á lou poutouna, ni claro ni rousset<lb/>venguèron us sa lengo!</p>
+        <p rend="labelled"><lb/>«Sabre de bos ! que mistèri es acò! faguè moun<lb/>Bidounet ! Sarié-ui un iòu d'uno autro meno, eiçò?» — E<lb/>pan! l'escrache dins si man.. Dequé l'atroubé dedins?..<lb/>Devinas... Un pichot mousseu de papié mounte ero escri<lb/>E vous autri, bèsti superbo<lb/>Di rancaredo e di bos mouis,<lb/>Qu'à moun entour venias, sus l'erbo.<lb/>Entèndre moun ffre de bouis,</p>
+        <lg>
+          <l><lb/>Qu merendra vosto alegranço</l>
+          <l><lb/>E. pèr iéu, vosto amiracioun ?</l>
+          <l><lb/>Ah ! me soubro que remembranço,</l>
+          <l><lb/>Mourimen e desoulacioun!»</l>
+        </lg>
+        <lg>
+          <l><lb/>Ansin lou paure, dins la prado,</l>
+          <l><lb/>Si plagnitudo glatissié</l>
+          <l><lb/>E tout, dins aquelo vesprado</l>
+          <l><lb/>A si malur coumpatissié.</l>
+        </lg>
+        <lg>
+          <l><lb/>Tambèn, aquéu sèr, bèsti e planto</l>
+          <l><lb/>Mutavon pas souto lou vènt,</l>
+          <l><lb/>E Margarido moun amanto</l>
+          <l><lb/>M'a segura que s'ensouvèn.</l>
+        </lg>
+        <ab><lb/>Louis Roux.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

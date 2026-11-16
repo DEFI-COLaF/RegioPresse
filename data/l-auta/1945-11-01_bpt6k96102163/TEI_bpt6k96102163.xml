@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k96102163</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1945-11-01">1945</date>
+          <idno type="ARK">bpt6k96102163</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k96102163</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0008.xml"/>
+          <milestone unit="page" n="96"/>
+        </div>
+        <div type="article">
+          <ab rend="continued"><lb/>enquête étendue tant aux diverses régions de la France qu'à l'étran-<lb/>ger.</ab>
+          <p><lb/>Il paraîtrait que dans certain pays d’Europe ,le cheval-jupon<lb/>aurait joué un rôle de magie bienfaisante et certains auteurs ver-<lb/>raient en lui le souvenir d’une divinité agraire. M. Van Gennep,<lb/>lui, se contente d’y voir une parodie des anciens tournois et il<lb/>conclut : « Le cheval-jupon est une invention nettement europé-<lb/>enne occidentale, qui s’est faite peut-être d’abord en frovence on<lb/>en Espagne, ou indépendamment dans ces deux régions, et chez les<lb/>Basques et en Angleterre, et ceci vers la fin du moyen-âge et aux<lb/>débuts de la Renaissance, pas antérieurement ni ailleurs ». Le<lb/>savant folkloriste demande en outre qu’on veuille bien lui commu-<lb/>niquer tous les renseignements qu’on pourrait posséder sur la<lb/>question.</p>
+          <p><lb/>Ajoutons qu’en ce qui concerne Toulouse, M. Van Gennep se<lb/>borne à indiquer que des chevaux jupons ont pu y être utilisés<lb/>autrefois. La formule est prudente êt vague. Quelqu’un pourrait-il<lb/>aider à la préciser</p>
+          <ab><lb/>P. M.</ab>
+          <figure type="decoration"/>
+          <p rend="labelled"><milestone unit="column" n="1"/><lb/>2286.<lb/>Dr. LAURENTIE, à Miélan (Gers), présenté par le Dr. Trouette.<lb/>et M. Laviguerie.<lb/>M. ANDRÉ COSTES, à Cintegabelle, présenté par MIle Laffitte<lb/>2287.<lb/>et M. Jacotin de Rosières.<lb/>BARÈs, instituteur, 60 avenue de Lasbordes, présenté par M.<lb/>2288.<lb/>Damien Garrigue et Mme Barrère.<lb/>2289.<lb/>M. PIERRE MENET, comptable, 17 rue Caffarelli, présenté<lb/>par MM. Délieux et Mesplé.<lb/>M. LATAPIE, anthropologiste, à Labastide-Saint-Pierre (T. et<lb/>2290.<lb/>G.), présenté par MM. Cambedouzou et J. R. de Brousse.<lb/>M. HENRI VARLET, ingénieur en chef du Canal du Midi,<lb/>2291.<lb/>Port Saint-Etienne, présenté par MM. P. de Gorsse et<lb/>R. Mesuret.<lb/>M. PIERRE LACAE, Chef de Bureau au Canal du Midi, 2 Port<lb/>2292.<lb/>Saint-Etienne, présenté par MM. P. de Gorsse et R. Me-<lb/>suret.</p>
+          <p rend="heading"><lb/>Nouveaux Adhérents<fw type="digitisation-artefact"><lb/>ca.bnf.fr / Association des Toulousains de Toulouse</fw></p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

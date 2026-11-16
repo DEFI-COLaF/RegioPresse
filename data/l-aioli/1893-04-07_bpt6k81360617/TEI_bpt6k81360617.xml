@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81360617</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1893-04-07">1893</date>
+          <idno type="ARK">bpt6k81360617</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81360617</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>TRESENCO ANNADO, No 82.</fw>
+        <fw type="runningTitle"><lb/>DIVENDRE 7 D'A BRIEU 1893</fw>
+        <ab><milestone unit="column" n="2"/><lb/>E faren l'aidli.<lb/>Braves amics de la broutigno,<lb/>Canten Bacus amai soun chre<lb/>E derraben jamai la vigno,<lb/>Que nous fa béure de boun tuc:<lb/>Vivo la vigno<lb/>E la broutigno,<lb/>Beguen al vielh Bacus!</ab>
+        <lg>
+          <l><lb/>Nàutri, li bon Prouvençau,</l>
+        </lg>
+        <lg>
+          <l><lb/>Au sufrage universau,</l>
+          <l><lb/>Voutaren pèr l'ôli</l>
+        </lg>
+        <ab><milestone unit="column" n="3"/><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.<lb/>Prouverbi di meissounier</ab>
+        <ab><milestone unit="column" n="1"/><lb/>F. MISTRAL.</ab>
+        <p rend="heading"><lb/>QUE VAI CREMANT TRES FES PER MES (7. 17, 27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <ab><lb/>BURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI,<lb/>au palais dôu Roure,<lb/>EN AVIGNOUN</ab>
+        <figure type="table"/>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN</p>
+        <ab><lb/>Baile dóu journau:<lb/>FOLCO DE BARONCELLI.</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>A Diéu se reccumanda<lb/>Prouverbl (Lou Treaor dsu Feibrige).<lb/>Que lou matrasson trop, pecaire !<lb/>Un clerc sacrestan n'es toumba jalous.<lb/>La chato li mostro au galant en aio<lb/>Que se treboulo e que trantraio:<lb/>Lusis soulamen eila vers l'autar.<lb/>Alor es morto la chatouno;<lb/>Li rai dóu matin alor soun intra.</ab>
+        <ab type="head"><lb/>LOu DIABLE Dóu BENECHIÉ</ab>
+        <ab><lb/>LEGENDO AVIGNOUNENCO.</ab>
+        <figure type="decoration"/>
+        <ab><lb/>Au capitani Pilate.</ab>
+        <lg>
+          <l><lb/>Dins la gleiso sourno es darrié la porto;</l>
+          <l><lb/>l'a milo an pèr lou mens que porto,</l>
+          <l><lb/>Giblant sis esquino, un grand benechié.</l>
+          <l><lb/>La pèiro l'enclaus e i'esquicho l'amo;</l>
+          <l><lb/>Eu, lou jour fougno e, la niue, bramo,</l>
+          <l><lb/>Que n'esmou la biso i trau dóu clouchié.</l>
+        </lg>
+        <lg>
+          <l><lb/>Li gent de pertout, dempiei milo annado,</l>
+          <l><lb/>Pèr i'espousca d'aigo-signado,</l>
+          <l><lb/>Is ouro d'óufice espèron soun tour.</l>
+          <l><lb/>A chasque degout la pèiro cracino;</l>
+          <l><lb/>Lou maudi fai doulènto mino,</l>
+          <l><lb/>Sus si gauto blavo a coume de plour.</l>
+        </lg>
+        <lg>
+          <l><lb/>Ansin à Sant-Ru, sus terro papalo,</l>
+          <l><lb/>Un diable clino sis espalo,</l>
+          <l><lb/>Se mourtificant sout lou fouit de Diéu.</l>
+          <l><lb/>Li clerc dóu moustié n’en jogon risèire,</l>
+          <l><lb/>L'aspergisson qu'es pas de crèire;</l>
+          <l><lb/>l'an gausi li bano, au paure catiéu.</l>
+        </lg>
+        <lg>
+          <l><lb/>Pamens uno chato, en vesènt si lagno,</l>
+          <l><lb/>Lou plang e jamai l'escaragno;</l>
+          <l><lb/>Fai, sèns lou maca, soun signe de crous.</l>
+          <l><lb/>Beleu ten rancuro en de secutaire</l>
+        </lg>
+        <lg>
+          <l><lb/>Ras dóu benechié, de-fes, éu s'aplanto,</l>
+          <l><lb/>Gadouio l'aigo regisclanto,</l>
+          <l><lb/>A la jouvo pièi vòu pourgi la man.</l>
+          <l><lb/>De poussa pu liuen l'envejo dóu drole,</l>
+          <l><lb/>Lou dana sarié dins soun role ;</l>
+          <l><lb/>Remando crentous l'óubrage à deman.</l>
+        </lg>
+        <lg>
+          <l><lb/>Deman, chasque jour, s'elo vèn encaro,</l>
+          <l><lb/>Podon lis autre sus la caro</l>
+          <l><lb/>Fouissa lou paciènt: moun Diéu, que i'enchau!</l>
+          <l><lb/>S'enferouno plus i preguiero santo;</l>
+          <l><lb/>Elo n'en dis, elo n’en canto.</l>
+          <l><lb/>La faci dóu diable a pres un èr siau.</l>
+        </lg>
+        <lg>
+          <l><lb/>Un vèspre, lou clerc es d'imour galoio,</l>
+          <l><lb/>Se sarro d'elo, sèmblo en voio,</l>
+          <l><lb/>E n'a de roujour, — dis qu'èi lou couchant.</l>
+          <l><lb/>Ai ! que soufris l'autre e quento obro duro!</l>
+          <l><lb/>Pèr devé, lou tento, l'empuro...</l>
+          <l><lb/>Ai! lis iue dóu diable an un er meichant !</l>
+        </lg>
+        <p rend="styled"><lb/>« N'ames qu'éu! - ié dis, - l'agrado? es tant bèu!<lb/>« Dorme à soun coustat, vau lava soun mourre...»</p>
+        <list>
+          <item>Lèu, tres cop, lou ginglo, e de courre; Ris, empestelant l'estrange pareu.</item>
+        </list>
+        <p rend="styled"><lb/>Elo noun l'entènd que barro la glèiso;<lb/>Proumié pènso au dana, l'amèiso,<lb/>Se sent pas souleto e saup pas qu’ei tard;<lb/>'Mé soun faudau fin lou freto e l'eissugo.<lb/>— Tout s'entenèbro ; uno belugo</p>
+        <lg>
+          <l><lb/>Descènd un blesin, la niue sara frejo.</l>
+          <l><lb/>La mignoto aqui tremoulejo,</l>
+          <l><lb/>A coumprés, e crido e si crid soun rau;</l>
+          <l><lb/>Sus li bard jala s'es agrouvassado,</l>
+          <l><lb/>S'enfebro, mesclo si pensado,</l>
+          <l><lb/>Prègo lou bon Diéu - e lou diable un pau.</l>
+          <l><lb/>Au jour prim, lou clerc revèn cauto-cauto;</l>
+          <l><lb/>S'estouno : « Jèsu, qu'es malauto !</l>
+          <l><lb/>E Satan, front clin, parèis la viha !</l>
+          <l><lb/>S'en pren lou cafard au pale demòni</l>
+          <l><lb/>Qu' em' elo partejant l'angòni,</l>
+          <l><lb/>A d'un benurous l'er estasia.</l>
+        </lg>
+        <lg>
+          <l><lb/>« Es tu, clamo ansin, tu, bèstio marrido,</l>
+          <l><lb/>«Qu'as au sabat begu sa vido!</l>
+          <l><lb/>" Garo l'aspersoun sus toun laid retra!»</l>
+          <l><lb/>La pèiro s'esgrueio i cop que ié douno.</l>
+        </lg>
+        <lg>
+          <l><lb/>Lou traite arregardo amount dins li flamo;</l>
+          <l><lb/>Just, amount s'envolon dos amo.</l>
+          <l><lb/>Eu n'es afouli, fai lou poung au Crist,</l>
+          <l><lb/>Cracho i Santi-Font, estrasso sa raubo,</l>
+          <l><lb/>Part fugissènt lou clar de l'aubo,</l>
+          <l><lb/>S'encour vers lou Rose, e pièi l'an plus vist.</l>
+          <l><lb/>Un diable, à Sant-Ru, dins la pèiro rèsto;</l>
+          <l><lb/>Mai, vès-lou, noun a memo tèsto:</l>
+          <l><lb/>«Iuei, es tout lou clerc », - dison au moustié.</l>
+          <l><lb/>A-n-aquelo glèiso, es darrié la porto,</l>
+          <l><lb/>E, giblant sis esquino, éu porto</l>
+          <l><lb/>Per milo an au-mens lou grand benechié.</l>
+        </lg>
+        <ab><lb/>A. MOUZIN.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>JUNIOR SANS</head>
+        <p><lb/>Bezlés se trovo uno di vilo qu'an lou mai ajuda au<lb/>sauvamen de nosto lengo. Aqui se mantèn uno raço —<lb/>que, d'un biais o de l'autre, sachè toujour defèndre sa<lb/>naciounalita: emé l'espaso, quand poudien si Ramoun<lb/>Trencavèu coumbatre pèr l'independènci ; emé la lengo,<lb/>quand lou tèms aguè avali tout lou rèsto. De tóuti li<lb/>soucieta academico dóu Miejour, aquelo de Beziés es<lb/>censa la souleto que, despièi cinquanto an, decernigue<lb/>(en deforo e avans lou Felibrige) un rampau annadié à<lb/>noste Gai Sabé. La Soucieta Arqueoulougico fuguè tou-<lb/>jour à Beziés un nis de roumanisto ardènt. E lé pensa.<lb/>vian bén un pau, quand uno fes, lou vèire plen de vin de<lb/>Bachelèri, disian à Brunoun Azais:</p>
+        <lg>
+          <l><lb/>A la santa de l'Acadèmi</l>
+          <l><lb/>De toun Beziés, ounte d'arquèmi</l>
+          <l><lb/>Se parlo pau, ni d'alemand,</l>
+          <l><lb/>Ni de sanscrit, ni de birman,</l>
+          <l><lb/>Mai bravamen de la vendémi</l>
+          <l><lb/>E di cansoun en vers rouman.</l>
+        </lg>
+        <p><lb/>Lou majourau Junior Sans es d'aquelo gaio coumpagno.<lb/>Ancian teissié de soun mestié, nous adus au-jour-d'uei<lb/>UN MOULOU DE TELADOS, qu'es lou titre dóu libre de vers<lb/>lengadoucian que ven tout fres de metre en bando (320<lb/>pajo in-18, Beziés, empremarié Sapte).</p>
+        <p><lb/>Eici, de bèn se manco que fuguen dins li neblo ni<lb/>dins l'azur escalugant. Sian á̀ plan-pêd e dins li vigno:</p>
+        <p><lb/>la dóu rèsto qu'a vêire li titoulet di pèço de Mèste<lb/>Junior pèr counèisse qu'acò 's de telo de meinage, pas<lb/>plus marrido per acò: Satiro sul prougrès, E tourna-mai<lb/>las fennos, Brinde pourtat al dinna que dounèt Moussu<lb/>pourquiè, La cansou del mouli de l'oli, Gramecis à l'amic<lb/><lb/>Giscard que m'a mandat dous fasquets de boun muscat,<lb/>etc. Es bounamen la vido quoutidiano d'un brave ome<lb/>que se destrais à l'enlusi dins lou paria de soun Beziés.<lb/>Ah ! tamben, n'óublido rèn de soun poupulari Bezlés, ni<lb/>Pepezu, ni lou Camèu, ni lou Chivalet, ni li Triho, ni<lb/>Injalbert l'estatuaire ni lou canalisto Riquet.</p>
+        <lg>
+          <l><lb/>Al grand Riquet,</l>
+          <l><lb/>Trelhos e Chivalet,</l>
+          <l><lb/>Dansen à sa memorio;</l>
+          <l><lb/>Al grand Riquet,</l>
+          <l><lb/>Trelhos e Chivalet,</l>
+          <l><lb/>Lou festen un pauquet.</l>
+          <l><lb/>Qu'èro pas un pauruc,</l>
+          <l><lb/>Grand guerrié, dis l'istòrio,</l>
+          <l><lb/>Soustenguet mas Tu</l>
+          <l><lb/>Soustenguêt mai d</l>
+          <l><lb/>Lou Chivalet,</l>
+          <l><lb/>Ardit, degourdidet,</l>
+          <l><lb/>Ambé sa cambo lèsto,</l>
+          <l><lb/>Lou Chivalet,</l>
+          <l><lb/>Ardit, degourdidet,</l>
+          <l><lb/>El vous tèn de dansat</l>
+          <l><lb/>Pèr rejoul la festo;</l>
+          <l><lb/>El vous tèn de dansat,</l>
+          <l><lb/>N'es jamai alassat.</l>
+        </lg>
+        <p><lb/>An, basto, l'a tout-plen aqui de galànti causo, l'a de<lb/>tout, meme aquest counseu Al pouèto avignounene Alèssis</p>
+        <lg>
+          <l><lb/>Dounc, raissejes pas mai; crèi-me, fai-te felibre;</l>
+          <l><lb/>Guéito, es gros lou moulou que canto en francimand...</l>
+          <l><lb/>Anen, zou! car lou jour qu'escullaras un libre,</l>
+          <l><lb/>Auren un réi de mai dins lou parla rouman.</l>
+        </lg>
+        <p><lb/>E Mouzin, regardas ll causo, fai pas desdire Junior<lb/>Sans; car, sèns coumta La felibresso, grand dramo prou-<lb/>vençau que buto à l'acabado, éu vuel galardamen s'es-<lb/>treno dins L'Alòli emé soun Diable din henechis</p>
+        <ab><lb/>5orce gallca.fr/Bibliotèques de Maseile</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

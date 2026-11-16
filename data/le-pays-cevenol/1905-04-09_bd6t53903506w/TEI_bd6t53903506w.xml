@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Pays cévenol</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t53903506w</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Pays cévenol : hebdomadaire littéraire, artistique, félibréen, mutualiste, commercial, industriel et d'annonces</title>
+          <publisher>[s.n.] (Alais)</publisher>
+          <date when="1905-04-09">1905</date>
+          <idno type="ARK">bd6t53903506w</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t53903506w</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <head><lb/>Etude de M Emile CAUMEL.</head>
+        <ab><milestone unit="column" n="1"/><lb/>Avoué à Alais, rue de Beausset, 1.</ab>
+        <figure type="decoration"/>
+        <ab><lb/>Sur Surenchère</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>a SUITE DE LICITATION</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>Immeubles à St-Nazaire-des-Gardies, canton de Sauve</p>
+        <p rend="styled"><lb/>Adjudication fixée à l'audience des criées que tiendra le Tribunal civil d'Alais, séant en cette ville, au Palais<lb/>de Justice le Mercredi trois Mai mil neuf cent cinq, à neuf heures du matin.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>CAUMEL.</ab>
+        <p><lb/>ion<lb/><lb/>dix-neuf janvie¬<lb/>cent<lb/>il ne<lb/> enrégistré et expédié<lb/><lb/></p>
+        <p><lb/>Aux requêtes<lb/>oursuites<lb/> ci-<lb/>pion GRAL,<lb/>demeuran<lb/>Alais, agis-<lb/>er du sieur Paui Nico¬<lb/>ette qualité exerçant<lb/><lb/>BARNOUIN, d<lb/><lb/>Tribuna<lb/>meurant, est constitue</p>
+        <p><lb/>En présence de:</p>
+        <p rend="labelled"><lb/>Julion NICOLAS, em-<lb/></p>
+        <p rend="styled"><lb/><lb/>LAS<lb/>c<lb/>1AS,tous deux demeuran<lb/><lb/>mrant rue d'v<lb/>voué,<lb/>jemeuran rue d'avéjan<lb/></p>
+        <p><lb/>2 Paul NICOLAS, an<lb/><lb/>ſ<lb/>emeuran<lb/>Paris, défailant.</p>
+        <p><lb/>a éteuprocédé a la venste<lb/>ormant<lb/>premier lot<lb/>ux de<lb/>Antoino-E<lb/>NIOOLAS,<lb/>communauté ayant<lb/>pu exister<lb/>adélaïde-Louise<lb/>NICOLAS,<lb/></p>
+        <ab type="head"><lb/>DÉSIGNATION<lb/>et<lb/>pendan<lb/><lb/>munaute NICOLAS<lb/>NOUIN, avoué, pour lere<lb/>dudit M Bi<lb/>son ami élu<lb/>conts francs - oure les<lb/>cents francs, outre les<lb/><lb/>charges</ab>
+        <ab type="head"><lb/>IMMBUBLES SURENCHÉRIS</ab>
+        <p rend="styled"><lb/>(1)</p>
+        <p><lb/>azaire de<lb/>Gardies<lb/><lb/>i<lb/>du vigar<lb/>tement du Gard et consis-</p>
+        <p><lb/><lb/><lb/>dudit mois<lb/>mars, enre<lb/>sieur<lb/>Adrien<lb/>OHAUVET, ex<lb/>tituant M Emite CAUMER<lb/>pour son<lb/>résente<lb/>d<lb/>mier 1o.<lb/>dudi<lb/>outre les<lb/><lb/>charge</p>
+        <p><lb/>vingt nau section<lb/>A, numéros<lb/><lb/>esant<lb/>des-Gardies.<lb/>au lier<lb/>it « M<lb/>Paroprté en nature de bois<lb/>ers, páture, portée<lb/><lb/><lb/>e la di<lb/>commune,<lb/>contenance en super¬<lb/>ept hectares<lb/> ne co<lb/>rante a<lb/><lb/>s en<lb/>coté, Arna<lb/>Draihe et Julien</p>
+        <p><lb/>s os urm<lb/>MBARNOUIN, Avoé en<lb/>bursui<lb/>vant et d'adjudicataire<lb/>M FESOUET,<lb/>avoué colicitant,<lb/><lb/><lb/>surenchère<lb/>adjudi-<lb/>ur la mise à prix en</p>
+        <p><lb/>t les clauses et conditons<lb/>Henri BARNOUIN<lb/>A<lb/>Pribunal<lb/><lb/>rétendants<lb/>où ton<lb/><lb/>en prendre connaissa<lb/>l'adjudication de<lb/>l'immeu-<lb/>ble ci-dessus désigne<lb/>l'audience des criées du dit<lb/>Tribunal du mercredi vingt-<lb/>neuf mars mil neuf cent cinq-</p>
+        <p><lb/>En conséquence, il est annon¬<lb/>e l'adjudication<lb/>immeubl<lb/>ci-de<lb/>sus dési<lb/><lb/>t<lb/>des cri<lb/>evl<lb/>tiend<lb/>séant en cette<lb/>Mr-<lb/><lb/>credi trois Mai mi<lb/>rcent cinq, a neuf heures du<lb/>matin, en un seul lot,<lb/>de culant de<lb/>cents francs<lb/>ehere<lb/>ges, ci.</p>
+        <p><lb/>m UME, avoú con<lb/><lb/>2</p>
+        <p><lb/>enchérisseu<lb/><lb/>premier avril,<lb/></p>
+        <ab><lb/>avoué signé.</ab>
+        <p><lb/><lb/>einq</p>
+        <p><lb/>Follo 61 : Case 13.</p>
+        <ab><lb/>A. LORTAL.<lb/>receveur, signe</ab>
+        <p rend="dateline"><lb/>Alais. — Imprimerie J. BRABO</p>
+        <ab><lb/>1</ab>
+        <ab><lb/>Communions<lb/>MISSELS avec initiales en métal doré, depuis 1 fr. 60. — IMAGES imprimées<lb/>gratuitement en souvenirs, depuis 0 fr. 10<lb/>CHAPELETS en argent, depuis 3 fr.; en acier inoxydable, depuis O fr. 50<lb/>Le plus frais assortiment<lb/>Tapelerie Nouvelle, place de l’Abbaye</ab>
+        <note>
+          <p rend="styled"><lb/>Alais. — Imprimerie J. Brabo, Square de Sauvages.<lb/>0<lb/>lais, 10<lb/>lo Maire,<lb/></p>
+        </note>
+        <ab><milestone unit="column" n="3"/><lb/>Le Directeur- Gerant : J. Brano.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

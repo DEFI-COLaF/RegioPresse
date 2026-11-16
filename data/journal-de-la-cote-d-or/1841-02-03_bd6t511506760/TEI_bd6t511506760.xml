@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t511506760</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1841-02-03">1841</date>
+          <idno type="ARK">bd6t511506760</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t511506760</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/>Paraissant les Mercredis, Vendredis et Dimanches</ab>
+        <p rend="heading"><milestone unit="column" n="4"/><lb/>FEUILLE POLITIQUE, LITTÉRAIRE, COMMERCIALE ETEINDUSTRIELLE,</p>
+        <ab><lb/>18 FRANCS PAR AN, 9 francs pour 6 mois, 5 francs pour 3 mois.</ab>
+        <p rend="styled"><lb/>On s’abonne à Dijon, au Bureau, rue Verrerie, 2 bis, près la place aux Fruits, où l'on reçoit toutes les communications qui peuvent intéresser<lb/>le chef-lieu ou les communes du département.<lb/>- Les lettres doivent être affranchies et signées pour la garantie du rédacteur responsable.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>neation<lb/>aris</head>
+        <p><lb/>hJames matière pnc té uteectadeé pluel̀ f des partif-<lb/>cations dont il s'agit d'entourer Paris : jamais question<lb/>ne fut discatée avec plus d’ampleur, ni développée<lb/>avec plus de soin sous toutes ses faces, excepté toute¬<lb/>fois sous le point de vue principal qu’aucun orateur<lb/>n’a eu le courage de découvrir avec netteté, et qu’on<lb/>a mieux aimé laisser dans les ténèbres d’un avenir en¬<lb/>tièrement incertain que de l'éclairer par les lumières<lb/>qu'on pouvait puiser dans l'expérience des révolu-</p>
+        <p><lb/>rêter l'ennemi, si une guerre d'invasion l'amenait sous<lb/>ses murs, après avoir battu nos armées en rase cam-<lb/><lb/>pagne; événement affreux à prévenir, mais dont per-</p>
+        <p><lb/>se faire question; et pourtant sur cette thèse de théo-<lb/>rie stratégique, la dissidence s'est dessinée par les</p>
+        <p><lb/>rage du soldat qui comptera sur une retraite sûre en<lb/>cas de défaite, et qui n’ira plus au feu avec cette intré¬<lb/>pidité que donne la nobie résolution de vaincre ou de<lb/>périr. C'est exposer la capitale aux horreurs d’un<lb/>siége, la disette, l’incendie, la fureur d’un assaut, le<lb/>pillage, les émeutes intestines au sein d'une population<lb/>de plus d'un million d'ames, dont une grande partie<lb/>n’offre aucune garantie de patriotisme ni de moralité<lb/>et serait l’instrument de tous les genres de désordre,<lb/>guidée par d’audacieux tribuns qui ne manqueraient</p>
+        <p><lb/>fortunes mobilières, exposer les richesses des arts,</p>
+        <p><lb/>et tous les monumens qui sont ' gloire de la France.</p>
+        <p><lb/>outer<lb/>que si la capitale reste ouverte et sans défense. Si<lb/>notre armée est vaincue, n’ayant pas de retraite assu-<lb/>rée pour se reformer, elle se débandera; l'ennemi<lb/>arrivera à Paris sans obstacle, s’emparera de toutes<lb/>nos richesses nationales, pillera le trésor, écrasera la<lb/>ville de réquisitions et de contributions, renversera le<lb/><lb/>gouvernement, nous imposera un prétendant de son<lb/>choix, et nous laissera sous le despotisme, après<lb/>nous avoir ruinés et anéanti à jamais peut-être la<lb/>puissance de la nation. Fortifions done Paris! rendons-<lb/>le imprenable, comme le disait Vauban, et jamais on<lb/>n'en fera le siège, ou si l'ennemi ose l'entreprendre,<lb/><lb/>il y échouera et la Franee sera sauvée. Fortifions Pa-</p>
+        <p><lb/>la dissidence est donc fortement tranchée. Est-elle<lb/>moins vive, moins complette sur le système d’exécu-<lb/>tion qui devrait obtenir la préférence dans le cas où<lb/>le principe serait adopté? Qu'on en juge par la contra¬<lb/>diction acharnée des discours sans fin prononcés à ce<lb/></p>
+        <p><lb/>distance qui ne puisse devenir menaçante pour Paris,<lb/>et liés entre eux par le croisement de leurs feux qui</p>
+        <p><lb/>l'appui du mur d'octroi, dont on augmenterait la force</p>
+        <p><lb/>rait seul pour mettre Paris à l'abri d'une attaque, et</p>
+        <p><lb/>sans se confier au mur d'octroi; et ils prétendent que<lb/>la ville ne peut être solidement défendue que par une</p>
+        <p><lb/>ale<lb/>projet de loi, concerté entre le ministère et la com-<lb/>efficace de défense, la réunion de l'enceinte continue</p>
+        <p><lb/>chambre qui avoue<lb/>d'y rien comprendre, on concevrait cette foule d'avis<lb/>d'une bizarre contradiction: mais la division est entre<lb/>les hommes de l'art, entre les plus habiles ingénieurs<lb/>et les plus illustres généraux d'armée, entre les com¬<lb/>Danscecontit dopinions, 'autorites et d'argumens</p>
+      </div>
+      <div type="article">
+        <p><lb/>Cette Société, qui compte déja une année d'existen-<lb/>mant concert dont le succès doit garantir la prospérité<lb/>de son avenir. L’orchestre, composé d’amateurs dis¬<lb/>tingués, a exécuté tous les morceaux d’ensemble do<lb/>programme avec une précision remarquable, et sur¬<lb/>tout avec un goût qui témoigne du soin qu’ont mis les<lb/>exécutans à étudier l'effet des instrumens bruyans<lb/>dont ils se servent exclusivement et à en proportion-<lb/>ner les sons à l’étendue de la salle, en les modérant<lb/>avec un tact parfait. C’est là un résultat qui a dû coû-<lb/>ter un long et difficile travail, couronné d’un succès<lb/>complet, car jamais symphonie n'a plus agréablement<lb/>flatté l'oreille que cette harmonie tempérée si habi-</p>
+        <p><lb/>ont été juste,ment applaudis, mais le secontd surtout,<lb/>qui a fait le plus grand honneur au talent d’un mili¬<lb/>taire dont nous regrettons de ne pouvoir citer le nom<lb/>que le programme nous a laissé ignorer. L’harmoni¬<lb/>phon de M. Pâris a aussi pleinement justifié la répu¬<lb/>tation de l'inventeur et l'habileté de l’artiste sous le</p>
+        <p><lb/>faible et s'est ressenti de l'influence de la saison. C’est</p>
+        <p><lb/>subi la contagion atmosphérique. Ces deux jeunes<lb/>cantatrices ont pu déployer toutes les ressources de<lb/>leur voix et se disputer avec un égal avantage la palme<lb/>du chant et les honneurs de la soirée qui leur étaient<lb/>réservés. Si le professeur n’a pas éprouvé moins d’em¬<lb/>barras que le berger Paris entre les deux rivales, dans<lb/>le duo de Tancrède, nous avouons que nous sommes à<lb/>peu près dans la même situation; cependant, si l'on<lb/>nous demandait notre opinion, nous dirions que la<lb/>voix de Mlle Moisson est remarquable par sa force et<lb/>son étendue; qu'elle semble faite pour les grandes<lb/>partitions où elle domine en souveraine, et que la mu¬<lb/>sique n’a pas pour elle de difficultés insurmontables:<lb/>mais, avec moins d’éclat, la voix de Mlle Seguin<lb/>plus de suavité, de pénétration, de facilité et d'expres-<lb/>sion; l’une part du gosier, l’autre du cœur. La cavati¬<lb/>ne de Robert a été ce qu’on appelle enlevée par Mlle<lb/>Moisson; mais la délicieuse romance de Mlle Loïsa<lb/>Puget a été soupirée avec un charme indicible par Mu<lb/>nous préférons l'Idylle¬<lb/>s'entre-détruisent, je dirai avec M. Guizot, et<lb/>« d'avis personnel sur la question d'exécution, je ne<lb/>« me sens pas en état d’en avoir un. A Dieu ne plaise<lb/>que je me donne le ridicule de discuter militaire-</p>
+        <figure type="decoration"/>
+        <p><lb/>qu’une question d'où peut dépendre le sort de la patrie<lb/>va être jugée à l’aveuglette et au hasard, puisque la<lb/>science n'a pu la tirer au clair, ni donner à sa solution</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>de la reprise du Naufrage de la Méduse, drame en<lb/>actes et à spectacle; décors de M. Piget; machine de</p>
+      </div>
+      <div type="article">
+        <p><lb/>d'Dr en faveur des pays inondés, et que nous avons<lb/>publiées avec soin, nous n'avons pas trouvé le nom<lb/>de la commune de COULMIER-LE-SEC : aucune cepen¬<lb/>dant n’était plus digne d’une mention honorable. M. le<lb/>maire, l'un des administrateurs les plus distingués du<lb/>département, M. le desservant qui met la charité au rang<lb/>des premiers devoirs de son ministère, et M. l'Ins-<lb/>tituteur qui les a secondés avec le zèle le plus loua-<lb/>ble, ont réuni leurs soins pour recueillir les dons do<lb/>la bienfaisance des habitans ; et le 10 décembre, M.<lb/>le maire a fait un envoi à la préfecture, de nippes,</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="structured"><lb/>teaux chargés de bouteilles vides, renant de Givors,<lb/>allant à Paris. — 2 radeaux, venant de Besançon restant à<lb/>Dijon. — 6 bateaux chargés de vin venant de Mâcon, allant<lb/>à Parir. — 2 bateaux chargés de pavés, venant de Vande-<lb/>nesse, allant à Seurre.— 3 bateaux chargés de plâtre venant<lb/>dePont-de-Pany, déchargés à Dijon.— 3 bateaux chargés de<lb/>bois de charme et de hêtre pour faire du vinaigre, venant de<lb/>Labussière, allant à Pouilly-sur-Saône. — 9 bateaux char¬<lb/>gés de charbon de terre; 2 venant de Givors et 7 venant<lb/>de Pont-d’Ouche, déchargés à Dijon, et 1 allant à Longe-<lb/>cour. — 1 bateau chargé de pierres à ciment hydraulique,<lb/>Seurre. — 7 bateaux chargés de moëllons, venant de Ve-<lb/>lars et Plombières, allant à Bretenières, Longecour, Bra-<lb/>zey et à Saint-Jean-de-Losne.– 5 bateaux chargés de fer et<lb/>fonte, de marchandises de toute espèce, teinture, fer laminé,<lb/>huile, acier fondu, clous, blanc, zinc, plomb, cuivre.<lb/>bateau chargé de pierre de taille, venant de Plombières,<lb/>allant à Seurre. — 2 bateaux chargés de blé, farine, orge,<lb/>seigie, fèves, avoine et son, chargés à Dijon, allant à Lyon,</p>
+        <p rend="labelled"><lb/>Givors. — 6 bateaux vides, venant de Brazey, Longecour<lb/>et Bretenière, allant à Plombières, Velars et Pont-d'Ou-</p>
+      </div>
+      <div type="article">
+        <p><lb/>On lit dans le Journal des Villes et des Campa-<lb/>ete a(deus28 de Lyo), où il est dit:l prétend lui avoir</p>
+        <p rend="labelled"><lb/>grettent que les droits des chapitres ne soient pas mieux<lb/>reconnus dans l'état présent des choses en France. Cet<lb/>publi des prérogatives des chapitres date de l'époque où le<lb/>gouvernement crut pouvoir donner lui-même des statuts<lb/>aux chapitres. Un journal citait dernièrement ces préten-<lb/>dus statuts, pour prouver que les évèques peuvent tout</p>
+        <p rend="labelled"><lb/>tuts. Les évêques et les chapitres respectifs se sont entendus<lb/>pour en dresser d'autres, qu'on a soumis à l'approbation<lb/>deu saino-sege. Nou a vsa si que, dans d'autres dio-<lb/>seignement ne nous avait été dresse à cet égard.</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="7"/><lb/>Nous sommes heureux de pouvoir réparer une par eux-mêmes se soutiennent l'un pa Pautre? S'il ari</ab>
+        <p><lb/>L'ordre du jour est la suite de la délibération sur le </p>
+        <p><lb/><lb/>chise, je suis incapable de suivre l'habile général, ancien<lb/>na<lb/>ministre de la guerre, dans les détails stratégiques qu’il a<lb/>apportés hier à cette tribune, pour justifier son amende-<lb/>ment; mais, du môins, je puis le comprendre dans son</p>
+        <p><lb/>ceinte continue. C'est l'interdiction à la loi de constituer<lb/>Paris place forte, Paris ville de guerre. Eh bien! Paris place<lb/>forte, Paris ville de guerre, Paris investi par une enceinte<lb/>de vingt-cinq lieues de tour, entourée de bastions, muni<lb/>de canons, avec la garnison nécessaire, c'est précisément<lb/>là ce que nous combattons et ce que nous n'avons cessé de</p>
+        <p><lb/>Après avoir nié de nouveau les témoignages de<lb/>Vauban et de Napoléon, en opposant pour celui-ci le<lb/>mémorial de Sainte-Héléne aux mémoires qu'on lui at-<lb/>tribue, M. de Lamartine invoque contre le projet l'opi-<lb/>nion de Carnot et celle de Bernadotte, puis il ajoute:</p>
+        <p><lb/>les écrits élémentaires sur cette question que des forts dé¬<lb/>tachés, isolés les uns des autres et pouvant être un à un<lb/>l'objet d'une attaque immense de la part d'une armée<lb/>étrangère qui, quoi qu'on en dise, amènerait facilement<lb/>par toutes vos routes l'artillerie nécessaire, que ces forts<lb/>pouvaient tomber à un jour donné, et qu'à l'instant où'ils<lb/>tomberaient, rien n'empêcherait l'ennemi d'arriver à len-<lb/>ceinte. Il a été démontré aussi que l'enceinte continue était<lb/>insuffisante pour résister à une attaque en règie de l'artíi¬</p>
+        <p><lb/>reux-memes se soutiennen un par 'autre S'il ariait<lb/>jamais que vos armées, étant détruites derrière vos deux<lb/>ou trois premières lignes de frontières, que vos armées<lb/>battant en retraite sur Paris, dispersées, démoralisées,<lb/>vinssent y chercher un refuge, et que 4 ou 500,000 hom¬<lb/>mes s'avançassent par tous les rayons sur Paris, séparas-<lb/>sent la capitale des départemens, il est malheureusement<lb/>trop évident pour nous que cette défense, bornée à un nom-<lb/><lb/>bre de jours prescrits, où Paris seul, séparé de ses mem-<lb/>bres, aurait à lutter contre les forces rénnies d’une coali¬<lb/>tion, surtout avec l'immense population qu'elle a dans ses<lb/>murs, avec une population qui rendrait sa défense, ainsi<lb/>que le disait M. le maréchal Soult, cent fois plus difficile<lb/>que la défense d'une place de guerre ordinaire; il est évi-<lb/>dent que Paris ne pourrait suffire à la tâche terrible que</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <pb facs="0002.xml"/>
+        <figure type="decoration"/>
+        <p><lb/>que les partis les plus désespérés, les passions les plus<lb/>violentes viendraient s’emparer du pays, prêtes à le déchi¬<lb/>rer comme une proie. Je dirai au parti conservateur, à ce<lb/>parti auquel j'appartiens, je dirai au ministère auquel j'ai<lb/>donné et auquel, malgré un dissentiment passager, je se-<lb/>rai heureux de continuer mon concours, je leur dirai: De-<lb/>puis quelques jours on vous adjure de nous réunir en un<lb/>faisceau pour un grand acte patriotique. Si ces adjurations<lb/>venaient d'hommes qui nous diraient: Nous vous appor-<lb/><lb/>tons notre vote, confondons nos vœux en un seul faisceau,<lb/>peut-être pourraient-elles nous toucher ; mais tels ne sont<lb/>pas ces hommes qui nous adjurent; car cette loi qu'ils vous<lb/>demandent, c'est leur bill d'indemnité, que dis-je? c'est</p>
+        <p><lb/>d'indemnit́ pour une pensée qui n'est pas née du sein de<lb/>la majorité; réfléchissez-y, donnez de la lumière et de l'air<lb/>à votre pensée, songez que ce projet vous fut présenté ici<lb/>par vos adversaires politiques, et qu'il est soutenu en de-</p>
+        <p><lb/>asouers contre l'amendement du général schneider, et i</p>
+        <p><lb/>ment, ctairement ; il ne faut pas, qu'a 'ombre de cet amen-<lb/>dement, toutes les opinions mitoyennes, toutes les opi-<lb/>nions isolées, excentriques, qui existent toujours dans une<lb/>grande assemblée, toutes les opinions défectionnaires de<lb/>tous les partis, détournées de leur voie et qui ne se clas-<lb/><lb/>sent pas, viennent se réunir à l'ombre d'un amendement<lb/>trompeur, et glanant des voix tantôt à un système et tan-<lb/>tôt à un autre, composer une majorité factice qui, en défi-<lb/>nitive, après avoir voté l'amendement, se retrouverait pour</p>
+        <p rend="labelled"><lb/>sentimens qui ont toujours agi avec puissance sur les es-<lb/>prits attachés à leur patrie: l'amour de la nationalité, l'a</p>
+        <p><lb/>trois semaines, à une armée, et qu'une armée marchant<lb/>sur Paris, ne puisse y arriver qu’après de nombreux com-<lb/>bats. Pour cela le camp retranché suffit. Mais les citadelles!<lb/>elles n’ont jamais eu pour but que de maintenir les villes <lb/>on ne bombardera pas Paris, sans doute, on s'emparera<lb/>des portes, qui seront fortifiées, d’un accès difficile, mu-<lb/>nies de postes considérables. Paris se trouvera renfermé<lb/>dans l'enceinte sans pouvoir en sortir, sans recevoir de vi-</p>
+        <p><lb/>ment est disposé à l'attaquer. Faites manœuvrer là-dessus<lb/>les partis, ils envenimeront la situation du gouvernement,</p>
+        <p rend="labelled"><lb/>ne doit pas exister; vous jetterez la perturbation dans la<lb/>population, et vous donnerez au prince une trop haute idée</p>
+        <p><lb/>s'emparer d'un fort ; ils pourront y parvenir, et alors on</p>
+        <p><lb/>pas être sûr, et alors tout serait perdu; il en résulterait</p>
+        <p><lb/>raient qu’altérer nos institutions et troubler la marche na-<lb/>turelle des choses, je vote pour l'amendement, qui a du<lb/>moins pour effet de diminuer les dangers du projet de loi.</p>
+        <p rend="labelled"><lb/>ceindre Paris d’une ceinture de forts détachés; et comme<lb/>si la liberté n’avait rien à craindre de ces forts, comme s’ils<lb/>ne portaient pas ombrage à cette liberté, comme si les sen-<lb/>tinelles de ces libertés ne devaient pas être éveillés sans<lb/>cesse par la crainte d’un bombardement possible à la dis-<lb/>tance de ces forts, il semble que ce projet de forts détachés<lb/>ceux-là mêmes qui nous ont aidé à les repousser en 1833.</p>
+        <p><lb/>situation politique, nos mœeurs, notre passé nous font de la</p>
+        <p><lb/>puissantes, sans doute; mais, si vous avez la conviction<lb/>que l'élément capital de la défense nationale est la fortifi¬<lb/>cation de Paris, vous ne devez pas vous arrêter à ces exem-<lb/>ples; et quand je dis que la fortification de Paris est le<lb/>principal élément de la défense nationale, j'ajoute que nous<lb/>ne voulons en négliger aucun, ni l’armée active, ni la gar-<lb/>de nationale mobile, ni la réserve, ni les places frontières;<lb/><lb/>les élémens de la défense nationale, nous les voulons tous<lb/>réunis, mais nous disons que la fortification de Paris leur</p>
+        <p><lb/>qu'il sera possible nos institutions, c'est prendre de nou-<lb/>veaux engagemens envers la liberté. Rappelez-vous que<lb/>les forts organisés assurent la liberté et tournent tôt ou tard</p>
+        <p rend="labelled"><lb/>ourfa</p>
+        <p><lb/>Comme l'honorable préopinant, je u pore fais<lb/>à la France que Paris soit fortifié; mais l'enceinte continue<lb/>est-elle nécessaire? Voilà la question à examiner. Pour mon<lb/>compte, je pense que l'enceinte continue est inutile, et</p>
+        <p><lb/>à l'avis de la commission générale de défense du royaume,<lb/>qui se prononce fortement contre l'enceinte continue et le</p>
+        <p><lb/>voix, décida qu’elle se rattachait aux anciens avis des con-<lb/>seils antérieurs, c'est-à-dire à une disposition des forts dé-<lb/>tachés avec le mur d'octroi actuel, consolidé, rectifié et<lb/>pourvu des moyens de défense, afin de former une enceinte</p>
+        <p><lb/>mendemen de M. Schneider reproduisait le projet de 1833,<lb/>sauf la distance; mais qui ne voit qu’en pareille matière la<lb/>question de la distance est précisément la question capi¬</p>
+        <p><lb/>riere une muraille ; ne disons plus, et surtout ne disons<lb/>plus en présence de l'Europe, que le salut de la France est<lb/>dans cette muraille, et que tout serait compromis et perdu<lb/>si la loi, par une fatalité que l'on redoute, venait à être re-</p>
+        <p rend="labelled"><lb/>Paris.</p>
+        <p rend="labelled"><lb/>pli. Nous nous bornons à faire connaître sa conclusion ainsi</p>
+        <p rend="labelled"><lb/>struire le fort du mont valérien, pour former un dépot<lb/>d’artillerie et de munitions, j'y consens. Si on proposait un<lb/>amendement qui ajoutât la construction d'une place forte à<lb/>Saint-Denis et à Charenton, je voterais encore dans ce sens<lb/>mais je me croirai obligé de voter contre toute ligne de forts</p>
+        <p rend="labelled"><lb/>vement que Paris soit à l'abri des invasions ennemies, et<lb/>c'est ce qui me détermine à venir appuyer l'amendement</p>
+        <p><lb/>commission, la différence consiste dans le degré d'utilité,</p>
+        <p><lb/>ment cette enceinte est superflue, mais qu'elle présenterait</p>
+        <p rend="labelled"><lb/>qu’un bon système de défense vaut mieux que deux sys¬<lb/>tèmes médiocres et surtout mal défendus ; l'enceinte serait<lb/>à mon avis plus dangereuse qu’utile. Quand les troupes<lb/>placées dans le camp retranché sauront qu'il n'y a rien der-<lb/>rière elles qui puisse leur servir d'abri, elles défendront le</p>
+        <p><lb/>moyens de créer un rempart inexpugnable, je voterais pour<lb/>l'adoption, quoi qu'il en pût coûter; mais je ne veux pas<lb/>qu'on dépense des sommes énormes pour faire un ouvrage<lb/>inutile et dangereux: on demande 75 millions pour l'en-<lb/>ceinte; mais on ne dit pas un mot des dépenses immenses<lb/>qu’occasionnerait cette mesure; ainsi, le devis seul de l'ar-<lb/>tillerie se monte à 43 millions, et il n'en est pas dit un mot</p>
+        <p><lb/>encore pourvu que d'une manière insuffisante à la défense<lb/>de Paris. Je ne vois dans la proposition que vous fait la com¬<lb/>mission qu’une transaction entre deux systèmes. A ceur<lb/>qui veulent l'enceinte continue on accorde les forts détachés;<lb/>on impose l'enceinte continue. Pour ma part, je ne saurais<lb/><lb/>appuyer une transaction qui est de nature à entrainer mon</p>
+        <p rend="labelled"><lb/>détachés, n'est-ce pas? Eh bien! avec ces forts que vous<lb/>proposez, situés à 4,000 mètres, toute défense est impos-</p>
+        <p><lb/>pour lutter contre des forts détachés ? lui faut cinquante<lb/>pièces de canon; maintenant savez-vous combien il faut de</p>
+        <p><lb/>lui 500 ou 400 bouches à feu si vous voulez, vous changez<lb/>tout-à-fait le système de la guerre; l'ennemi ne peut plus<lb/>passer la frontière, ne peut plus pénétrer au centre de la<lb/>France avant d’avoir enlevé toutes les places fortes qui gar-<lb/>nissent la frontière ; je vous défie de passer devant Lille<lb/>devant Valenciennes, avec une artillerie de 300 bouches à<lb/>feu qui exige 60,000 chevaux, c’est-à-dire autant, et plus<lb/>peut-être que n'en possède l'artillerie la plus considérable</p>
+        <p><lb/>néral Schneider serait impraticable. Il demande que les forts<lb/>avancés ne soient pas rapprochés à moins de 4,000 mètres<lb/>du mur d'octroi. Il exclurait ainsi tous les points fortifiables</p>
+        <p><lb/>ché, lorsque vous serez obligés d'en exclure tout le cours</p>
+        <p><lb/>de la commission de 1836, qui était appelée à départager<lb/>l'avis de la commission de 1818, et l'avis du comité des for-<lb/>tifications de 1821.Ce plan est la combinaison de deux sys-</p>
+        <p><lb/>lence de ces deux systèmes réunis, elle repousse avec force</p>
+        <p><milestone unit="column" n="2"/><lb/> projet de loi relatif aux fortifications de<lb/>adu projet de loi relatif aux fortifications de</p>
+        <p><lb/>M. le général Schneider a de nouveau soutenu son<lb/>mendemen</p>
+        <p><lb/>Roi, a donné à la chambre quelques renseignemens</p>
+        <p><lb/>la guerre, a confirmé toutes ses déclarations précé-<lb/>dentes et amaintenu, avec la loyauté et l’autorité de sa</p>
+        <p><lb/>quant sur la question de simultanéité, Thonorable<lb/>orateur a dit, au nom de la commission, que ce n’é<lb/>tait point là une question capitale, dont pût dépen¬</p>
+        <p><lb/>qu’il avait dit précédemment sur la nécessité d'assu-<lb/>rer la défense de Paris et de lui assurer le système de<lb/>défense le plus efficace. Il a exposé comment, sur la<lb/>question d’exécution, des différences de conviction<lb/>pouvaient exister dans les diverses opinions politiques.<lb/>Il a terminé en maintenant le projet de loi, comme<lb/>présentant le moyen de défense le plus efficace, le plus</p>
+        <p><lb/>s contre diverses assertions de lho</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>le Lo xinise éèvie qu i 'ont éter ede lécs les puhalons<lb/>pables dans la dernière révolte que nous avons an-<lb/>noncée. Ces soixante jeunes gens ont été gardés, jus-<lb/>qu’au moment de leur départ de Châlons, dans un des</p>
+        <p rend="labelled"><lb/>une bande d’hommes armés, ayant la figure noircie.<lb/>a enfoncé la porte d’Etienne Jan, laboureur, âgé da<lb/>soixante-deux ans, au village de Tréhouet, commune<lb/>de Mogon, arrondissement de Ploërmel (Morbihan)<lb/>Des onze individus qui la composaient, sept avaient<lb/>des fusils de munition, les autres portaient des bâtons<lb/>Après s’être emparés de la personne du sieur Jan, ils<lb/>lui demandèrent de l’argent; le malheureux vieillare<lb/>ayant répondu qu’il n’en avait pas, ils le maltraitè¬<lb/>rent, en lui disant: « Tu ne veux donc pas souteni<lb/>l’armée royale : tu es bien couché dans ton lit pendan<lb/>ensuite hors de sa demeure pour le jeter dans la riviè-¬<lb/>rent cruellement de nouveau et le ramenèrent chez lui.<lb/>sonne de Marie Audrain, âgée de trente-quatre ans, do-<lb/>Ils se firent servir à boire et à manger, et s'emparè</p>
+        <p><lb/>coups de crosse de fusil, fouillèrent les armoires et<lb/>neur. Ils ne quittèrent leurs victimes que vers les sis<lb/>heures du matin, laissant Etienne Jan et sa belle-sœur</p>
+        <p rend="labelled"><lb/>le procureur du roi de Ploërmel et M. le lieutenant de</p>
+        <p rend="labelled"><lb/>dans l’attentat de Darmès. Cette extradition, accordée<lb/><lb/>sans difficulté par le conseil-d’état de Neuchâtel, a causé en</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <pb facs="0003.xml"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>jours</ab>
+        <p><lb/>au milieu de la salle des contérences, un député lui ma-<lb/>nifestait la crainte qu’on avait généralement de le voir<lb/>ajourner toute expédition en Afrique pour mettre à exé-<lb/>cution le plan d’occupation restreinte. On ajoute que M.<lb/>Sugeaud aurait seulement répondu : «J'ai une revanche à<lb/>prendre sur Abd-el-Kader, et il faut avant tout qu'il soit</p>
+        <p rend="labelled"><lb/>d'Anetere ̀ Paris, a eire replace pr ord Clarendon.</p>
+        <p><lb/>du cabinet Melbourne qui était disposée à faire quelques<lb/>concessions à la France, afin de maintenir la bonne har¬<lb/>monie entre les deux puissances. Par suite de la mort de<lb/>lord Holland, lord Clarendon était resté seul pour soutenir</p>
+        <p rend="labelled"><lb/>cations, on continue avec activité à travailler aux forts dé¬<lb/>tachés. Mais il parait que les travaux de l'enceinte ne sont<lb/></p>
+      </div>
+      <div type="article">
+        <p><lb/>en avant ; un incident nouveau est même venu la compli-<lb/>quer encore. Ibrahim-Pacha a complètement battu, aux<lb/>environs de Damas, un parti de montagnards; ses soldats<lb/>ont massacré les fuyards jusqu'au dernier. Tel est le texte<lb/>officiel de la communication faite par la Porte aux légations<lb/>des puissances alliés, on ajoute tout bas, que le corps bat-<lb/>tu par Ibrahim était l'avant-garde du pacha turc envoyé<lb/>par la Porte pour prendre le gouvernement de Damas. La<lb/>gravité de cette nouvelle serait immense si elle vient à se</p>
+        <p><lb/>teurs de la réponse du grand-visir à Méhémet-Alia eu lieu,<lb/>il y a trois jours, sur le bateau à vapeur ottoman l'Uska-<lb/>dar. La Porte pouvait terminer le différend en accordant<lb/>résolument cette hérédité de l'Egyple promise par la note<lb/>de lord Palmerston. La réponse de la Porte, si elle n'est<lb/>pas accompagnée, comme quelques-uns le prétendent, d’un<lb/>firman secret qui concéde tout bas ce qu'elle semble refu-<lb/>ser tout haut, serait une rouerie du cabinet britannique.<lb/>le point de se marier à la fille du prince du Liban. Cet évé-</p>
+        <p rend="labelled"><lb/>Léonidas des nouvelles de Constantinople du 8, de Smyrne<lb/>du 10, et d’Egypte du 6. Une lettre particulière de<lb/>Constantinople du 8 porte que le sultan avait accordé le<lb/>pardon au pacha d'Egypte, et que tout paraissait arrangé.<lb/>Le Tairis-Bahris, arrivé à Constantinople le 8 au matin,<lb/>y avait apporté l’étrange nouvelle qu’Ibrahim-Pacha avait<lb/><lb/>décapité de sa propre main Zekerta-Pacha. On ajoutait<lb/>peu de foi à cette nouvelle évidemment répandue pour</p>
+        <p rend="labelled"><lb/>il se trouve à la tête de 70,000 hommes, dont la moitié</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>laccès de la personue du roi à des gens mal inlentionnés</ab>
+        <p><lb/>nale, l'épée nue à la main, monté sur son cheval de ba-<lb/>taille, au milieu des huit bataillons de la milice citoyenne.<lb/>Il a prononcé d'une voie de stentor une allocution qu’il a<lb/>fait suivre des cris de vive l'indépendance nationale! vive<lb/>la Constitution! vive la liberté. La garde nationale a ré-<lb/>pondu par les cris : Vive le général Espartero ! vive la li-</p>
+        <p><lb/>lieu ces jours derniers. Mais les électeurs montrent peu de<lb/>zèle. Ils ne sont pas nombreux, et ils n’ont pas pu parve-<lb/>nir encore à s'entendre sur la liste de leurs candidtas. On<lb/>désigne parmi les candidats du progrès MM. Corradi, Be-<lb/>roqui, Nocedal et Mendizabal qui a été désigné à la majorité</p>
+        <p><lb/>cipales rues de la capitale est très-suivi. On remarque<lb/>et d'autresh qui as de ce elt a l'op hon carlirtes. modérés</p>
+        <figure type="decoration"/>
+        <p><lb/>Les lettres de Saint-Pétersbourg mandent que vers<lb/>les premiers jours du printemps, la garde impériale s'é-<lb/>branlera pour aller prendre des cantonnemens sur les<lb/>bords de la Baltique. On ne croit cependant pas probable<lb/>que si les événemens obligeaient à employer ces troupes<lb/>dans l'ouest de l'Europe, elles continuassent leur route par<lb/>terre. On pense au contraire que la flotte de Cronstadt se¬<lb/>rait destinée à transporter ces troupes d'élite sur tel ou<lb/>tel point de la Baltique ou de la mer du Nord. Il va sans<lb/>dire que ces mesures, pas plus que les armemens considé¬<lb/>rables de nos voisins de l'Ouest et alliés, ne sont prises<lb/>dans l'intention de commencer la guerre, mais bien pour<lb/>la repousser dans le cas où elle deviendrait inévitable. Ces<lb/>mesures font pressentir du reste, que si cette circonstance<lb/>malheureuse vient à se vérifier, la Russie veut aussi se<lb/>trouver prête à se porter là où l'appellent la foi qu'elle doit<lb/>à ses alliés, sa propre sûreté, et avant tout l'intérêt de la</p>
+        <p rend="labelled"><lb/>billets d'invitation pour le grand bal donné aux Tuileries,<lb/>mercredi dernier, avaient été fabriqués en vue de procurer<lb/>qui auraient pu attenter à ses jo<lb/>temps, prit des mesures pour interdire l'entrée du bal aux</p>
+      </div>
+      <div type="article">
+        <p><lb/>assignée devant le juge de paix par M. Robillon, son maître,<lb/>ce vieillard caduc que vous voyez trembler dans un coin.<lb/>Mlle Marguerite, car il faut bien vous apprendre le non<lb/>de la défenderesse, le regarde avec un superbe mépris;</p>
+        <p rend="labelled"><lb/>ma perte... elle aura tant fait que je me marierai... si je</p>
+        <p rend="labelled"><lb/>,</p>
+        <p rend="labelled"><lb/>le monde une femme qui, pendant six mois, a fait mon<lb/>pot-au-feu et repassé mes faux-cols; mais elle m'a trahi...<lb/>elle a abusé de ma confiance! je ne lui donnais pas vingt</p>
+        <p rend="labelled"><lb/>votre barraque, une vraie cassine; on ne peut jamais</p>
+        <p rend="labelled"><lb/>Robillon. — Vous ne vous en faisiez pourtant d<lb/>de recevoir: je dirai même que vous avez commis des</p>
+        <p rend="labelled"><lb/>Robillon.— Figurez-vous, monsieur le juge, que depuis<lb/><lb/>long-temps mon portier me disait: Monsieur Robillon, ce<lb/>n'est pas une servante que vous avez! c'est une ivrognesse,<lb/>une bacchante, une bouteille de 316 mal bouchée...<lb/>Tiens, répondis-je à ce concierge, Marguerite a donc<lb/>des cousins? — Oh ! et elle les traite bien, monsieur; elle<lb/>leur fait porter votre linge et vos z'hardes; elle fait danser<lb/>l'anse du panier que ça fait peine à voir, et puis ils font des<lb/>horreurs quand vous n'y êtes pas..., que même ma femme<lb/>les a vus par le trou de la serrure... — Votre épouse les<lb/>a vus! concierge, prenez cette pièce de soixante-quinze cen¬<lb/>times; mes bienfaits vous suivront, mais ne divulgez pas <lb/>ma servante que je suis rentré... Là-dessus je remonte.<lb/>Il y a dans mon salon un portrait de famille, mon bisaïeul<lb/>un des hommes les plus grands de son temps : il était<lb/>tambour-major dans les gardes-françaises... je lui coupe<lb/>la tête proprement et je me colle à sa place, de manière à</p>
+        <p rend="labelled"><lb/>homme de surprendre les secrets du sexe !.. Enfin, si je</p>
+        <p rend="labelled"><lb/>préhensibles; je les ai vues de mes yeux... Imaginez-vous<lb/>que j'étais à peine posté dernière le tableau que je vois ma<lb/>cuisinière qui arrive avec des choses étranges, un panier<lb/>de vin et un caporal d'infanterie légère... Là v'là qu'elle<lb/>pose la première, et elle prend la seconde dans ses bras<lb/>elle se met à embrasser ce militaire nonobstant ses mous¬<lb/>taches... Je ne lui donne pourtant pas deux cents francs, la</p>
+        <p rend="labelled"><lb/>prasse, c'est simple. Tout le monde ne peut pas étre enfant</p>
+        <p rend="labelled"><lb/>vous me peinez, vous me peinez d'autant plus que vous<lb/>faites erreur... J'ai eu dans les temps un père et une mère<lb/>qui m’ont donné dès ma plus tendre enfance des taloches<lb/>et une morale solides... Je dis seulement que vous avez<lb/>tort de vous livrer à la troupe de ligne surtout dans l'exer-<lb/>cice de vos fonctions. Si c’était tout encore? mais dès que<lb/>le caporal a été assis, elle lui a débouché une bouteille et<lb/>elle lui a fait manger la moitié d'une oie froide... Il m'a<lb/>paru que ce guerrier ne professait aucun dégoût pour ce<lb/>volatille... Toutefois je dois avouer qu'il ne mangea pas les</p>
+        <p rend="labelled"><lb/>tours de bâton du métier... J'ai une de mes payses qui<lb/>voit un tambour de la garde nationale... Cet être a un faible<lb/><lb/>pour le bouillon, eh bien ! elle lui en donne deux par jour...</p>
+        <p rend="labelled"><lb/>Mlle Marguerite. - C'te bêtise... Un verre d'eau à la</p>
+        <p rend="labelled"><lb/>votre soldat, mais c'est votre compte qui était drôle. Elle</p>
+        <p><lb/>Deux livres de boeuf à dix sous, ça passera pour de lu<lb/>culotte... marqué 14 sous la livre; ça sera plus dûr... mais</p>
+        <p><lb/>n'en prends que pour deux sous, mais le vieux rat n'y pren¬</p>
+        <p><lb/>Une livre de chandelles. J'en avais de reste, mais c'est</p>
+        <p><lb/>larguerite compte tous ses articles</p>
+        <p rend="labelled"><lb/>Mlle Marguerite. - Ça se fait partout... ça... c'est les<lb/>profits du papier, sans ça il n'y aurait pas de l'eau à boire</p>
+        <p rend="labelled"><lb/>vin, de me soustraire mon argent; et mes calçons que vous<lb/>avez donnés à ce militaire?... Etait-ce encore l'anse du<lb/>panier? Croyez-vous que je sois assez riche pour fournir<lb/>également ce caporal de chaussettes?... Me croyez-vous<lb/>subventionné à cet effet par le gouvernement? Je demande<lb/>qu'on vous fasse payer 20 francs pour les objets et deniers</p>
+        <p><lb/>Le juge condamne Marguerite à restituer les 20 francs CHAPPAU.<lb/>réclamés, et autorise son ancien maître à les retenir sur ses</p>
+        <p rend="labelled"><lb/>n<lb/>une autre... des bonnes, et puis cachez-vous derrièrel<lb/>tableau, elles vous feront la queue tout de même, vous le</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p><lb/>Une SOMME de 3,000 fr. à placer à fonds perdu<lb/>avec hypothèque sur des biens sis dans l'arrondisse-<lb/>ment de Dijon, et plusieurs autres SOMMES depuis<lb/>1,000 jusqu’à 20,000 fr. à placer à terme et par hypo¬</p>
+      </div>
+      <div type="article">
+        <p><lb/>erce, On préfererait un restaure<lb/>merce. On préférerait un restaurant.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Etude dLACE CUPALAL DE STICE, re 5 DIJOn.</head>
+        <p><lb/>Cet établissement, dont la clientelle est excellente,<lb/>est tenu, depuis sa création, par M. Baudier, qui en</p>
+        <p><lb/>Sur une partie de la cour, qui est très-spacieuse et<lb/>dont l'entrée est sur la rue, on pourrait élever avec<lb/>avantage des constructions qui seraient très-propre<lb/>au commerce en raison de la proximité du Canal et de</p>
+        <p><lb/>L'acquéreur pourrait entrer tres-prochainement en</p>
+        <p><lb/>De très-grandes facilités seront accordées pour les</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>UE DES BONS ENFANS,</head>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>Située à Dijon, faubourg Saint-Nicolas, rue Sainte-</ab>
+        <p><lb/>dune ecurvie, dun fenis</p>
+        <p><lb/>L'acquéreur aura de grandes facilités pour les paie-</p>
+        <p><lb/>auresser, pour tous , rue Poissonnerie</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>e, et CIEVALIER, notaire à Dis</head>
+        <p><lb/>deit u à ior,is endr-définti vnnt et sns temise,<lb/>en gros et en détail, à Arnay-le-Duc, le lundi 15 <lb/>vrier 1841, à onze heures du matin, en l’étude de M.<lb/>DÉSERT, notaire audit Arnay, par son ministère, et</p>
+        <p><lb/>les renseignemens possibles, au propriétaire M. Es.</p>
+        <p><lb/>On pourra s’adresser également, pour tous rensei-<lb/>gnemens, auxdits Notaires; et, pour traiter de gré¬<lb/>gré avant le jour fixé pour l’adjudication, soit à M.<lb/>BORDET, avocat, rue Berbisey, n° 6, soit au proprié-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Etude de M. CHAPPAU, notaire à L'Etang</head>
+        <p><lb/>cnges, au domicile du sieur Gabriel Rage,<lb/>ma</p>
+        <p><lb/>meublos meublans, ustensiles de cuisine, ble, otge<lb/>pommes-de-terre, voitures montées sur essieux en fer,<lb/>foin, paille, chevaux, vaches, vin, cuves, tonneaux</p>
+        <p><lb/>On demande à emprunter sur hypothèque deux</p>
+        <p><lb/>Pour tous renseignemens, s'adresser audit notaire</p>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>Journal de la Côte-d'Or.</fw>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>Elle se compose de vastes bâtimens, belles granges</ab>
+        <ab type="head"><lb/>Etude de M. MAIRET, notaire à Genlis.</ab>
+        <ab type="head"><lb/>A VENDRE AUX ENCHÈRES,</ab>
+        <p><lb/>Le dimanche 7 février 1841, à midi, chez le sieur<lb/>Nusbaum, cafetier, audit Rouvres, par-devant M.<lb/>Cette Maison, construite en pierre, couverte en tui-</p>
+        <p><lb/>ir </p>
+        <p><lb/>Elle sera divisée en plusieurs lots, si les acquéreurs</p>
+        <p><lb/>S'adresser, pour tous renseignemens, audit notaire</p>
+      </div>
+      <div type="article">
+        <head><lb/>Office de M. BÉLIARD, commissaire-priseur,</head>
+        <p rend="labelled"><lb/>MOBILIER, à vendre aux enchères, jeudi 4 février,<lb/>dix heures du matin, rue Chancelier-l’Hôpital,<lb/>côté de la caserne, en vertu d’ordonnance après décès<lb/>de M. le chef de bataillon du génie Perruchot, par le<lb/>ministère de M. BÉLIARD, commissaire-priseur.</p>
+        <p><lb/>Meuble complet de chambre à coucher en bois de<lb/>noyer verni (marbre Sainte-Anne), un fort beau ma¬<lb/>telas élastique, guéridon, table, chaises, fauteuils<lb/>glaces, une pendule et autres objets ; ustensiles de mé-</p>
+        <p><lb/>se de ménage; hardes et linge à<lb/>usage d’homme, deux manteaux en drap</p>
+        <p><lb/>Vin rouge en fût et en bouteilles, bouteilles vides,</p>
+        <p><lb/>Quatre couverts en argent; une montre, plusieurs<lb/>bagues, boutons et épingles en or ; une épée et une<lb/>paire d'épaulettes de chef de bataillon, neuves</p>
+        <p><lb/>Ces derniers objets seront exposés au domicile du<lb/>commissaire-priseur, rue Musette, no 36, de midi à<lb/>quatre heures, jusqu’au jour de la vente.<lb/></p>
+        <p><lb/>Garnitures d’alcôve et de deux croisées en mousse<lb/>line blanche et coton jaune; un lit de repos et un pecit</p>
+        <p rend="labelled"><lb/>Nota. Les objets qui coms us ou en tr̀sn<lb/>meubles que garde-robe, sont neufs ou en très-b</p>
+        <p rend="labelled"><lb/>VENTE MOBILIÈRE après décès et au domicile<lb/>de M. l'abbé Vétu, qui était curé à Talant, mardi 9<lb/>février, à dix heures du matin, par le ministère de M.</p>
+        <p rend="labelled"><lb/>Meubles: Lits garnis de bonnes couches, pendule,<lb/>trumeau, horloge et autres objets; vaisselle, usten-</p>
+        <p><lb/>Tours de lit, rideaux, draps, linge de table et de<lb/>ménage, hardes et linge à usage d’homme:<lb/></p>
+        <p><lb/>25 hectolitres de vin rouge, des récoltes de 1838,<lb/>39 et 40, en fûts, bois à brûler, etc., etc.</p>
+        <p><lb/>Il sera perçu 5 centimes par franc.</p>
+        <p><lb/>LIARD, commissaire-priseur, rue Musette, no 36.</p>
+      </div>
+      <div type="article">
+        <head><lb/>MINES.ISTREMENT ET DES<lb/>NES</head>
+        <p rend="styled"><lb/>a l'ancienne<lb/>attr<lb/>Chartreuse de Dijon, appartenant au département.</p>
+        <p><lb/>Merdredi 10 février 1841, à une heure après midi<lb/>dans l'enceinte de l'ancienne Chartreuse de Dijon, il<lb/><lb/>sera procédé par le Receveur des domaines à Dijon,</p>
+        <p><lb/>l'adjudication publique et aux enchères, 1^o de<lb/>152 arbres de diverses essences à abattre, dont 42<lb/>peupliers de un mètre vingt centimètres à un mêtre<lb/>soixante centimètres de circonférence; 2^o de la tonte</p>
+        <p><lb/>vidange entiére aur<lb/>lieu le 15 mars 1841, au plus tard.<lb/></p>
+        <p><lb/>Le prix sera payé dans les trois mois.</p>
+        <p><lb/>Les adjudicataires fourniront immédiatement une<lb/>caution reconnue solvable, et ils seront chargés de<lb/>payer comptant tous les frais occasionnés par la vente.</p>
+        <p><lb/>On pourra prendre connaissance du cahier des<lb/>charges au bureau du Receveur des domaines, rue</p>
+        <p rend="styled"><lb/>Le Réceveur des domaines, BOUAULT. (1-2)</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p rend="structured"><lb/>A louer, ensemble ou séparément, une BOUTIQUE¬<lb/>CHAMBRES, CAVE et GRENIER, rue de l'Ecole-de,<lb/>Droit, n^o 55. S'adresser à M. BARTET, même rue,</p>
+        <figure type="decoration"/>
+        <p><lb/>Les personnes qui voudront se procurer des DÉGUI¬<lb/>SEMENS de carnaval, pourront s’adresser à Mlle. Du¬<lb/>NAC, qui les leur louera à des prix modérés, à la<lb/>Reine des Fleurs, rue Saint-Pierre, n^o 6, au premier.</p>
+        <note>
+          <p rend="styled"><milestone unit="column" n="2"/><lb/>,</p>
+        </note>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>LE CORRESPONDANT DES PROVINCES,</p>
+      </div>
+      <div type="article">
+        <p><lb/>Paris, centre des arts, de l'industrie et du commerce, des richesses et des lumières, est pour ainsi dire le Paradis<lb/>terrestre aux yeux des jeunes gens qui ont une louable ambition, et qui sentent en eux le désir et les moyens de s'éle-<lb/>ver soit par leurs talens, soit par leur travail. Paris est aussi le lieu où viennent souvent chercher un meilleur sort les<lb/>personnes à qui la fortune n'a point souri dans leur pays. Mais qu'arrive-t-il le plus souvent ? C'est que les espérances<lb/><lb/>des uns et des autres sont cruellement déçues. Ils sont venus se jeter dans le gouffre de cette ville immense sans s'être<lb/>avant leur départ assuré un emploi : ils le cherchent long-temps, ils le cherchent envain, et cependant ils ont dépensé</p>
+        <p><lb/>Combien ne voyons-nous pas tous les jours de jeunes gens qui faisaient l'espoir et l'orgueil de leurs honnètes parens,<lb/>et qui, étant venus à la grande ville avec des rêves brillans de prospérité et de fortune, et y avoir inutilement cher-<lb/>ché la place qui leur convient, sont devenus pour leurs familles une cause de ruine et parfois de déshonneur: car le<lb/>désœuvrement, faute d'occupation, les a livrés aux plaisirs et à la débauche. Et des hommes même d'un âge mur,<lb/>qui, après avoir rassemblé toutes leurs économies, ou sauvé avec peine de leurs provinces quelques débris de fortune,<lb/>avec lesquels ils comptaient pouvoir se créer à Paris des moyens d'existence, combien n'en voyons-nous pas aussi y<lb/>absorber toutes leurs ressources avant d'avoir pu se caser : alors il ne leur reste plus que le désespoir !...</p>
+        <p><lb/>Pour les jeunes personnes, le danger de venir à Paris sans y avoir un emploi trouvé et assuré d'avance, est encore<lb/>plus imminent. Elles avaient cru que des lettres de recommandation auprès de quelques personnages puissans ou de<lb/>quelques amis de leurs familles, suffiraient pour leur faire obtenir les places qu'elles désirent. Eh bien! les gens à qui<lb/>elles étaient adressées les reçoivent poliment sans doute, leur promettent beancoup; mais en général c'est tout ce<lb/>qu'ils font et même ce qu'ils peuvent faire. Après avoir long-temps attendu, et avoir épuisé leurs ressources, ces pau¬<lb/>vres jeunes filles se trouvent placées entre la misère et l'infamie: alors, chose bien triste! obligées d'opter entre ces<lb/>deux abîmes, la prostitution les inscrit le plus souvent parmi ses victimes</p>
+        <p><lb/>Le mal que nous signalons est sans doute bien grand, puisqu'il est incalculable le nombre des personnes dont tous<lb/>les ans il compromet ou perd à jamais l'avenir. Remédier à ce mal, c'est donc rendre à la société un immense service.<lb/>C'est ce qu'ont fait MM. Mondon et Lebref en établissant une vaste administration, qui dans la capitale les met en rap-<lb/>port avec les plus fortes et les meilleures maisons de tous les commerces et de toutes les industries, avec les maisons<lb/>tion un grand nombre de places et d'emplois de tous genres.</p>
+        <p rend="styled"><lb/>de commis de magasin, de commis voyageurs, de commis aux écritures, de garçons de recettes, de domestique<lb/>de concierges, d'apprentis et ouvriers pour toutes les professions, etc.</p>
+        <p rend="styled"><lb/>POUR LES FEMMEs, les places d'institutrices, de dames de compagnie, de femmes de comptoir, de demoiselles de<lb/>boutique pour modes, nouveautés, merceries, etc., de femmes de chambre, de cuisinières, etc.</p>
+        <p><lb/>CONDITIONS. Les demandes faites à MM. Mondon et Lebref devront indiquer le genre d'emploi ou de places que l'on<lb/><lb/>désire, le degré d'instruction de la personne, son âge, le prix qu'elle veut gagner, les certificats ou les garanties de<lb/>probité qu'elle pourra présenter à son arrivée. Ces demandes devront être accompagnées d'un mandat de 10 fr., payable<lb/>comptant, soit à la posté, soit aux messageries, soit chez un banquier, ou dans quelque ma ison de Paris. Cette somme<lb/>paraîtra sans doute peu élevée, si l'on réfléchit aux frais considérables que nécessite à MM. Mondon Lebref la publicité,<lb/>et les nombreux employés qu'ils occupent pour courses et démarches dans les maisons où ils font les placemens. Ils<lb/>s'engagent en outre à fournir pendant un an des emplois aux personnes qui ne seraient point satisfaites des premiers<lb/>qu'ils leur auraient procurés. Pour ce, elles devront la première année une somme de 2 fr. pour 100 sur leurs<lb/>appointemens, laquelle somme sera payable par trimestre.</p>
+        <p><lb/>sitot qu'is l'ont assuré, ils en instruisent par e<lb/>lettre le demandeur, qui peut alors venir à Paris avec toute sécurité.</p>
+        <p><lb/>Ces Messieurs sont convaincus que les pères de famille sages et expérimentés comprendront, eux surtont, ainsi que<lb/>toutes les personnes qui connaissent le monde, les immenses avantages et les précieuses garanties qu'offre leur admi-<lb/>nistration, qui est toute paternelle, morale, phitantropique, et entièrement dans l'intérèt des familles et des</p>
+        <p><lb/>action que medresn ce<lb/>mieux ils n'aiment en faire le dépôt au greffe où il leur</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p><lb/>Parmi les créanciers connus, le plus éloigné rési-<lb/>dant à Lille (Nord), M. le juge-commissaire a fixé<lb/>l’ouverture du procès-verbal de la vèrification des<lb/>créances au mardi 2 mars prochain, à midi, dans la<lb/>salle des audiences du tribunal de commerce de Nuits.</p>
+        <ab><lb/>Le greffier, Eugène JACQUINOT.</ab>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>M. GANÉE et COMPAGNIE préviennent MM. les<lb/>voyageurs qu’ils viennent de monter une nouvelle voi¬<lb/>ture qui partira le 1^er février, à cinq heures du matin,<lb/>de Dijon à Seurre et retour, tous les jours.</p>
+        <p><lb/>Elle partira de Seurre à une heure après midi.—<lb/>Leurs bureaux sont, à Dijon, chez M. GANÉE, place<lb/>Morimont ; à Saint-Jean-de-Losne, chez M. RIGOLIER,<lb/>Hôtel du Cerf; à Seurre, chez M. FERTEY, entrepre-</p>
+        <p><lb/>Le prix des places et du transport des marchandises</p>
+      </div>
+      <div type="article">
+        <ab><lb/>dun bordereau des sommes par eux reclames, inon nn Reacien responaabe</ab>
+        <figure type="decoration"/>
+        <p><lb/>MM. les créanciers présumés des mariés Duvollet-<lb/>Brugnot, imprimeurs, demeurant à Dijon, sont invi-<lb/>tés à se présenter à l'assemblée qui aura lieu en la salle<lb/>du conseil du tribunal de commerce de Dijon, le mar¬<lb/>di 9 février 1841, heure de midi, par-devant M. le<lb/>juge-commissaire de la faillite desdits mariés Duvollet,<lb/>pour donner leur avis, s’ils le jugent à propos, tant<lb/>sur la composition de l'état des créanciers que sur la<lb/>nomination des nouveaux syndics, qui doit être faite<lb/>par le tribunal, à vue du procès-verbal que M. le<lb/>commissaire dressera des dires et observations des<lb/>Le juge-commissaire à la faillite,</p>
+        <p rend="styled"><lb/>er du tribunal, à la ditigence duquel se fait</p>
+        <p rend="labelled"><lb/>-MM. les créanciers de la faillite de Mme. Jeanne<lb/>Gaudillet, veuve Gros, marchande d'étoffes, à Nuits,<lb/>département de la Côte-d'Or, sont invités, en confor¬<lb/>mité de l'art. 492 du Code de commerce, à se présen-<lb/>ter en personne ou par fondés de pouvoirs, dans le<lb/>delai de vingt-jours, à partir de la présente insertion,<lb/>à M. Misserey fils, propriétaire audit lieu, syndic de<lb/>la faillite, pour lui remettre leurs titres, accompagnés</p>
+        <p rend="heading"><milestone unit="column" n="4"/><lb/>PAR MM. MONDON ET LEBREF,</p>
+        <p rend="styled"><lb/>ASSURANT D'AVANCE DES EMPLOIS AUX PERSONNES QUI DÉSIRENT EN TROUVER A PARIS.</p>
+        <p rend="heading"><milestone unit="column" n="5"/><lb/>ADMINISTRATION SPECIALE</p>
+      </div>
+      <div type="article">
+        <head><lb/>MARCHÉ DE DIJON. — DU 30 JANVIER 1841.</head>
+        <figure type="table"/>
+        <p><lb/>Foin nouveau.............. 112 00 129 11 146 00<lb/>Paille nouvelle.............. 70 00 82 25 90 00</p>
+        <figure type="decoration"/>
+        <p rend="structured"><milestone unit="column" n="6"/><lb/>Naissances. Du 28 au 31 janvier, 1 garçon, 6 filles,<lb/>Décès. Du 28 janvier, Anne Gueton, salariée, céliba-<lb/>taire, 21 ans.— Du 30, Jacques Bessières, soldat au<lb/>74e de ligne, 21 ans. — Du 31, Elisabeth Bizouard,<lb/>veuve de Jean-Benigne Vidal, chaudronnier, 79 ans.<lb/>-Du 1er février, Anne Maitre, veuve Malard, 77 ans.</p>
+        <ab>
+          <stamp><lb/>- Claudine Chalopet, veuve d'Edme Viard, peintre.</stamp>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

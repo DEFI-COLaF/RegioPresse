@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54503424q</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Vaclette : journal humoristique, drôlatique, excentrique, non politique, rédigé en patois de Lille</title>
+          <publisher>[s.n.] (Lille)</publisher>
+          <date when="1899-09-03">1899</date>
+          <idno type="ARK">bd6t54503424q</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54503424q</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>9me Année. — No 422.</fw>
+        <fw type="runningTitle"><lb/>Le Numéro : 5 Centimes.</fw>
+        <ab><milestone unit="column" n="3"/><lb/>Dimanche 3 Septembre 1899.</ab>
+        <ab><milestone unit="column" n="1"/><lb/>xes Départements : 3 fr. &amp; 1 fr. 50</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>humoi<lb/>ourna<lb/>ARTISΤIQUE<lb/>EXCENTRIOUE, NON POLIYIQUE<lb/>Rédigé en Patois de Lille<lb/>BiBEN<lb/>DIRECTEUR:JEAN<lb/>ABONNEMENTS</ab>
+        <figure>
+          <p><milestone unit="column" n="2"/><lb/>L'ABONNEMENT SE PAIE D'AVANCE</p>
+        </figure>
+        <p><lb/>Aucun article personnel, immoral ou politique n'est inséré.</p>
+        <ab><lb/>ADMINISTRATION<lb/>3 Rue des Brigittine, 3(ed)</ab>
+      </div>
+      <div type="article">
+        <head><lb/>PREMIÈRE COMMUNION<lb/>L'LIVRE D</head>
+        <p><lb/>ins un p'tit cabaret tout près de l' gare,<lb/><lb/>tros chochons sont installés à eun' ta-<lb/>ble : ch'est d'abord un gros jeune homme<lb/><lb/>que nous appell'rons Dodophe, un p tit<lb/>noir qui a servi dins les chasseurs et un dintiste<lb/>qui a un nom d'anarchiste. L' gros Dodophe est<lb/>tout sombre, pindant que l's autes dij'nt des bla-<lb/>gues, li, il a l'air de réfléchir.</p>
+        <p rend="labelled"><lb/>— Quoich' que t'as, dit tout d'un cop l' petit<lb/>noir, t'as l'air triste comme un bonnet d' nuit ?</p>
+        <p rend="labelled"><lb/>— Je r'marque cha aussi, ajoute l' dintiste.<lb/>T' n'es point malate, quèqu'fos ?</p>
+        <p rend="labelled"><lb/>— Non, répond l'aute, seul'mint, n'y-a un n'<lb/>séquoi qui m'imbête..</p>
+        <p rend="labelled"><lb/>— Qui t'imbête !.. s'écrient insonne les deux<lb/>autes ; dis nous cha.</p>
+        <p rend="labelled"><lb/>— V'là, dit l'gros : Comme vous l' savez, j'<lb/>sus l' parrain de m' sœur qu'elle a onze ans et<lb/>dot faire s' communion ch' l'ainnée.</p>
+        <p rend="labelled"><lb/>— Eh ben ! Et ch’est cha qui t'imbête ?</p>
+        <p rend="labelled"><lb/>— Laichez-me continuer. Donc, m' mère elle<lb/>m'a dit tantôt : «Te sais, garchon, qu' t’as des<lb/>d'voirs à rimplir invers t' filleule, te dos h faire<lb/>un ca leau pou' s' communion et, comme ch'est<lb/>lhabitude, in qualité d' parrain, te dos d'abord<lb/>li donner sin live d' messe. »</p>
+        <p rend="labelled"><lb/>— Et ch'est cha qui t'imbête, répond l' chas-<lb/>seur?</p>
+        <p rend="labelled"><lb/>— Awi, dit l' gros, parce qu'in ch' momint<lb/>ichi min porte-monnaie il est plat comme eun'<lb/>couque-baque, in un mot, j' n'ai point d' sous.</p>
+        <p rend="labelled"><lb/>— J'ai t'n affaire, s'ècrie l' dintiste.</p>
+        <p rend="labelled"><lb/>— Cha n' coûte point quer, ajoute l' chasseur,<lb/>n'y-a des lives d' messe d'puis six sous.</p>
+        <p rend="labelled"><lb/>— Awi, mais je n' peux point donner cha à<lb/>m' sœur, elle me f'rot affront et m' mère aussi.</p>
+        <p rend="labelled"><lb/>— J'ai t'n affaire, répète eun' deuxième fos<lb/>l' dintiste, j'ai un live d' communion, ch'ti de<lb/>m' fille, qui vaut vingt francs, je n' sais point si<lb/><lb/>elle l'a ouvert.</p>
+        <p rend="labelled"><lb/>* Et vous l' céderiez, dit Dodophe ?</p>
+        <p rend="labelled"><lb/>— Te l' céder, répond l'aute in inflant s' voisse,<lb/>jamais d' la vie ! J' te l' prêt'rai. J' peux mème<lb/>prèter l' robe blanque, eun' robe comme i' n'<lb/>n'ara point eun' parelle dins l' villache.</p>
+        <p rend="labelled"><lb/>— Mais on n’a point b’soin d' robe, dit<lb/>l'aute in rougissant de ch' l'offre, on a l' moyen<lb/>de n' n'acater eune,</p>
+        <p rend="labelled"><lb/>— Cha n' fait rien, j' prêt'rai l' robe, ajoute<lb/>l' dintiste, t'aras même les sorlets.</p>
+        <p rend="labelled"><lb/>— Mais on n’a point b'soin d' sorlets.</p>
+        <p rend="labelled"><lb/>— Si i' li faut des bas, un voile, eun' couronne.<lb/>Tiens ! Au fait, j' vas tout t' prêter, j' ferai un<lb/>paquet....</p>
+        <p rend="labelled"><lb/>— Jamais d' la vie, s'écrie Dodophe, mes<lb/>parints n' sont point dins l' pégrenne à ch' point<lb/>là. Et puis, parie pus bas, j' t'in prie.</p>
+        <p rend="labelled"><lb/>— Quoi ! Parler pus bas, s'écrie l' dintiste<lb/>comme s'il allot arracher eun' dint à la foire, mais<lb/>tout l' monde peut savoir que j'te prête cha, t'<lb/>sœur elle porra salir les objets comme si cha s'rot<lb/>à elle, n'y-a personne qui l' sara, ch'est à mi, te<lb/>sais et si j' te prête chés objets, ch'est d' bon<lb/>cœur.<lb/></p>
+        <p rend="labelled"><lb/>— Je l' sais, répond Dodophe que les comptes<lb/><lb/>queminchott'nt à énerver, mais j' te répète que<lb/>mes parints n'ont b'soin de rien, m' sœur elle<lb/>ara tout ch' qu'elle a b'soin.<lb/></p>
+        <p rend="labelled"><lb/>— Ch'est possible, s'écrie incore l' dintiste,<lb/>mais ell' n' s'ra jamais si bien qu'avé les habits<lb/>de m' fille. Te porras même m' les rinde sales.<lb/>Nette si j' sus-t-un bon garchon.</p>
+        <p rend="labelled"><lb/>— Acoute, dit Dodophe, in s' levant d’un bond<lb/>et in s' mettant dins eun' colère épouvintable, si<lb/>te n' te tais point j' te colle un marron.</p>
+        <p><lb/>L'dintiste, interloqué d'eun' parelle sortie, li<lb/>qui offrot tout cha d' bon cœur, restot l' bouque<lb/>ouverte d'vant sin chochon.</p>
+        <p><lb/>Alors, l' chasseur qui, d’puis un moumint n’<lb/>dijot pus rien, i' prind l' parole d' cheull' façon ;</p>
+        <p rend="labelled"><lb/>— N' te mets point in colère, t'as parlé d'un<lb/>live d' messe, j' vas t' donner eune idée.</p>
+        <p rend="labelled"><lb/>— Vas-y, dit l' gros, in j'tant un mauvais<lb/>œeul su' l' dintiste qui n'osot pusouvrir s' bouque.</p>
+        <p rend="labelled"><lb/>— Eh ben ! puisque l' chochon offre un live<lb/>d' messe, prinds-le, l' peut toudis bien te l' prè-<lb/>ter pou' tros quat' semaines....</p>
+        <p rend="labelled"><lb/>— Six mos si' i' veut, répond l' dintiste, in<lb/>uant avec sin verre.<lb/></p>
+        <p rend="labelled"><lb/>— Donc, v'là m'n idée, ajoute l' chasseur,<lb/>te vas dire à t' sœur, in li offrant l' livre :<lb/>Tiens ! petite, v'là un live d' valeur. j' te l' donne<lb/>pour que te n' n'euch's du soin ; t' mère, tin père,<lb/>tout l' monde verra ch' live et li' r'quemindra de<lb/>n' s'in servir que l'jour de s' communion, t'ajou-<lb/>t'ras qu'après elle dot l' mette bien d' côté et l'<lb/>conserver pou' sin mariache.</p>
+        <p rend="labelled"><lb/>— Awi, mais si ch' n'est point à mi, répond l'<lb/>gros.</p>
+        <p rend="labelled"><lb/>— Attinds, réplique l' chasseur. Sitôt l'céré-<lb/>monie, elle le mettra bien d' côté, elle le r'vettra<lb/>d' timps in temps pindant quèqu's semaines et<lb/>après...</p>
+        <p rend="labelled"><lb/>— Après?</p>
+        <p rend="labelled"><lb/>— Un biau jour, te l' le r'prindras, te l' rin-<lb/>dras au dintiste, l' tour s'ra jué, sit' sœur elle<lb/>cache après, ni vu, ni connu j' t'imbroulle, ell'<lb/>n'os'ra même point t' dire qu'elle l'a perdu.</p>
+        <p><lb/>Faut croire que cheull' combinaison a plu au<lb/>gros Dodophe, car l' même soir, i' partot avé l'<lb/>live sous sin bras et l'semaine passée l' l' rindot<lb/>à sin chochon.</p>
+        <p><lb/>Tant qu'à l' jeune fille, à moins que l' Vaclette<lb/>li qué sous les yeux, elle peut cacher longtemps<lb/>après l' souv'nir de sin parrain, il eseeanes<lb/>mains.</p>
+        <ab><lb/>Jean BABENNE.</ab>
+        <p><lb/>V'ia l' mos des grand's manccuvr's, allons, in tnue d'cam-<lb/>Et marchez l' sac au dos, sans « caler ». brav's troupiers,<lb/>pagne,<lb/>Ch' n'est pas l' moumint d' bâtir des catiaux in Espagne<lb/><lb/>Mais d' pinser à les russ's (1) pour s'inv'lopper les pieds.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>«— SEPTEMBRE —,<lb/>1. MAREELS.</ab>
+        <p><lb/>(1) Banies de tolles appelées chanstettes rusees.</p>
+        <pb facs="0002.xml"/>
+      </div>
+      <div type="article">
+        <head><lb/>Les Aventures de Cascanbois</head>
+        <head><lb/>LA LEÇON D'ASTRONOMIE</head>
+        <p><lb/>Un zour, le roi il dit à moi comme ça : Cascanbois,<lb/>vous qu' te connais tout, te voudrais pas un fois<lb/><lb/>expliquer à moi l'astronomie, c'est un çose que ze<lb/>comprends pas fort bien; on parle de Saturne, de<lb/>d'Uranus et de toutes sortes de çoses que ze comprends<lb/>rien du tout ; z'ai l'air bête, quand c' qu'il vient ici des<lb/>savants plus instruits qu' moi.</p>
+        <p rend="labelled"><lb/>— Et alors, que z' dis?</p>
+        <p rend="labelled"><lb/>— Alors, dit-il, ze voudrais que te donnes à moi une</p>
+        <p rend="labelled"><lb/>— Ze veux bien, que z'ai répondu et pour que te<lb/>comprends bien, z' vas vous démontrer ça avec des<lb/>personnaces vivants ; si qu' te veux app'lertous les zens<lb/>de votre entouraze et les réunir dans l' grande saĩon<lb/>d'honneur, z' te vais faire l' démonstration.</p>
+        <p><lb/>Sur ces belles paroles, le roi il a fait app'ler tous les<lb/>ministres, l's ambassadeurs, l' reine et les mad'miselles<lb/>d'honneur que c’était une bouquet d'fleurs.<lb/></p>
+        <p><lb/>Alors, ze commence m' démonstration de l' façon<lb/>que z' vais t'expliquer. Z dis à l'ministre de l' zustice:<lb/>Toi, te s'ras la Balance, à l' ministre d' la Guerre, te</p>
+        <p><lb/>- Et moi, dit le roi, quoiç que z' vais étre? Un</p>
+        <p rend="labelled"><lb/>— Autends un minute, que z' dis. Ze mets dans un<lb/>coin l' ministre d'l'Intérieur et z'dis à lui: Toi, te<lb/>s'ras le Scorpion, l' ministre de l' Commerce il était les<lb/>poissons et l' ministre des cemins d'fer il était l'écrevisse.</p>
+        <p rend="labelled"><lb/>— Mais moi, dit l' reine, quoiç que z' vas être ? Un</p>
+        <p rend="labelled"><lb/>— Et moi, dit le roi ? Z' vas être aussi un mouce à</p>
+        <p rend="labelled"><lb/>— Attends un minute, que z' réponds, on place pas<lb/>des planètes comme ça comme on place des emplâtres<lb/>sur vous quand c' que vous avez des clous quelque<lb/>–Etze me mets à calculer dans mon tête pour donner au</p>
+        <p rend="labelled"><lb/>roi et à l' reine un place digne d' leur rang. Tout d'un<lb/>coup, il vient une idée, mais une idée comme te peux<lb/>pas supposer. Z' dis à l' reine : Vous te s'ras la lune et<lb/>le roi... Eh bien! Il sera l'étoile à queue.<lb/></p>
+        <p rend="labelled"><lb/>— Ze veux pas ! Ze veux pas, dit le roi, mon femme<lb/>elle doit étre autre çose que la lune, l' reine de l'Belzique<lb/>elle doit être au moins un constellation.</p>
+        <p rend="labelled"><lb/>— Constellation ! Que ze pense... pot d' fer blanc!<lb/>Il faut donc donner à l' reine l' nom d'une constellation<lb/>importante. Et z' réflécis longtemps. Si qu' te veux, que</p>
+        <p><lb/>z dis tout d'un coup, z' vais te donner l' nom de<lb/>l' constellation l' plus importante que z' connais. Te</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>FEUILLETON DE « LA VACLETTE»</head>
+        <head><lb/>LES JALOUX</head>
+        <p rend="styled"><lb/>Pièce cocasse en un acte en patois de Lille</p>
+        <ab type="head"><lb/>MÉRANTINE (montrant les cartes)</ab>
+        <p><lb/>Tiens! r'vette un peu ichi cheull' madaime de<lb/>cœur... eh ben ! cha veut dire qu'eun' femme ell'<lb/>s'intéresse à ti, et comme elle se trouve rinversée<lb/>dins l' ju, cha veut dire que ch'est eun' gripette et<lb/>qui fant t'in méfier... As de pique, peines et<lb/>larmes,... mauvaise rinconte ; dich' de carreau,<lb/>grande route, chin qui veut dire que t'as l'intintion<lb/>d' faire un voyache pour... Valet d' cœur, un<lb/>jeune homme à marier...</p>
+        <ab type="head"><lb/>ANGELE (essuyant une larme.)</ab>
+        <p><lb/>Mais ch'est bien cha, Mérantine, j'avos promis<lb/>à Jean d’aller le r'trouver dimanche in quat'<lb/>semaines à Maubeuge, uch' qui dot aller<lb/>d'main in huit faire ses 28 jours... Vos cartes<lb/>n' mint'nt point. (elle soupire) Mais qui qu' cha<lb/>peut bien ête cheull' femme que vous veyez dins<lb/>les cartes et qui s'intéresse àmi.</p>
+        <p><lb/>Attinds, fillette, laich'-me bien vétier les cartes<lb/>et j' trouv'rai peut'-ête chin qu'te caches. (Angèle<lb/>quitte la lable et va voir l'enfant dans son berceau.)</p>
+        <p><lb/>J' viens d'avoir eune idée d' vingeance point du<lb/>tout ordinaire, j' vas li dire que cheull' mauvaisse<lb/>femme in question ch'est tout bonn'mint la grande<lb/>Senriette, comme cha ell' disput'ra avec et mi,<lb/><lb/>j'in s'rai pour rien dins tout cha, et j' s'rai vingée,<lb/>(après une pause) ; ch' n'est p't-ête point bien,<lb/>chin que j' vas faire, mais tant pire ! Après tout,<lb/><lb/>j'ai bien l' drot d'ête jalousse de m'n homme,<lb/>ch’est à mi et je n' définds qu' min bien. (à Angèle)<lb/>Acoute, ma fille, j' viens d' trouver chin qu' te<lb/>volos savoir, (elle lui montre les cartes) te vos<lb/>ichi ch' siept de cœur à côté d' madaime... eh hen !<lb/>cha veut dire qu'elle est in train de t' cacher des<lb/><lb/>poux à l' tiête et qu'il est temps qu' te li mets-ch'<lb/>des bâtons dins les roues, si te n' veux point qu'elle</p>
+        <ab type="head"><lb/>ANGÉLE (avec impatience)<lb/></ab>
+        <p><lb/>Mon Dieu, Seigneur ! Quoich' quej' vas dev'nir,<lb/>si seul'mint vous porrites m' dire qui qu'ch'est<lb/>cheull' particulière-là.</p>
+        <ab type="head"><lb/>MÉRANTINE (en riant)</ab>
+        <p><lb/>Ah! te comprinds, ma fille, comm' ch'est d's<lb/>affair's qui n' me r'vett'nt point, alors je n' sus<lb/>point eun' femme à dire du ma' d'quéqu'un, te.</p>
+        <p><lb/>Dit's tout d' même, Mérantine, vous n' pover<lb/>point me r'fuser cha, énon, mi, l' marraine d'vot<lb/>nioche ! T'nez! ch'est au nom de ch' petit gin que</p>
+        <p><lb/>Comme l'es sott' tout d' même de n' point vir pus<lb/>clair que cha! Quoi! te n' devines point qui qu<lb/>ch'est ? t' n'as point d' dout's su' personne !</p>
+        <p><lb/>Mais point du tout, parole d'honneur !</p>
+        <p><lb/>Alors, ch'est qu' t'as tes yeux qui chirottent<lb/>pou' n' point vir que l' grande Hepriette <lb/>n'arrête point d' z'yeuter tin bon-ami, on vot bien</p>
+      </div>
+      <div type="article">
+        <head><lb/>Les pinsées d'un vieux babenneux</head>
+        <p><lb/>Dins un atelier de r'torderie du quartier Saint-<lb/>Sauveur eun' dijaine de grands-pères et grands-<lb/>mères sont in train d' babenner, assis d'vant leu'<lb/>cariot plaché autour du molio à r'tordre. Tout in<lb/>ouvrant, chacun à l’air de busier. A quoi, j' me l'<lb/>demainde. Los uns paraichent soucieux ; su l' visa-<lb/>che des autes, on vot d' timps in temps apparaite<lb/>un sourire, chin qui indique que malgré leu peu d'<lb/>mémoire, chés vieux-!à ont incore de l' souv'nance.</p>
+        <p><lb/>Vraimint, pour un amateur d'études, ch'est fin cu-<lb/>rieux à vir. Ichi ch'est eun' femme qu'elle s'arrête<lb/>d’ouvrer pou' prinde eun' prisse, là ch’est un<lb/>homme qui boutre s' pipe, pour in griller eune,<lb/>comme i' dit ; tout dins l coin, ch'est un aute, qui<lb/>est resté comme in extase in plachant s'n échet su'<lb/>l'étuplène. Ah ! mais ch ti-là par eximple, i' fait pus<lb/>d' bruit li tout seu' qu' tous les aut's insonne, car il<lb/>a pour habitude de parler tout haut quand i' s' fait</p>
+        <p><lb/>Mais faijons silence et acoutons chin qui raconte:</p>
+        <lg>
+          <l><lb/>In pinsant au temps de m' jeunesse</l>
+          <l><lb/>Ah ! combien d' fos qu' j'ai répété :</l>
+          <l><lb/>Chétot l' gaite</l>
+        </lg>
+        <lg>
+          <l><lb/>A ch't heure, in veyant chin qui s' passe,</l>
+          <l><lb/>l' soupire et d'vant l' réalite</l>
+          <l><lb/>J' mécrie : « Hélast d'tij' cros qu'on s' lasse,</l>
+        </lg>
+        <lg>
+          <l><lb/>Je m' souviens, qu'ouvrant in boutique,</l>
+          <l><lb/>J'n'étos point incore asthmatique,</l>
+        </lg>
+        <lg>
+          <l><lb/>A ch't heure, étant pir qu'in galére</l>
+          <l><lb/>Quand l' soir vient, je m' sins ee</l>
+          <l><lb/>Comm'tl diminue mén salaire,</l>
+        </lg>
+        <lg>
+          <l><lb/>A vingt ans, comm' tous cheuss' de m'n âche,</l>
+          <l><lb/>Pour rigoler, j'ai fréquente</l>
+          <l><lb/>In toute honneur, pus d'eun' fll' sache,</l>
+        </lg>
+        <lg>
+          <l><lb/>A ch' t heure, ont n'teu' fait qu' des ferdaines,</l>
+          <l><lb/>On l's imbapravs pou trint -six s'maines,</l>
+        </lg>
+        <lg>
+          <l><lb/>Quand un homme s' mêlot d'prind' femme,</l>
+          <l><lb/>P'assure in tout' sincérité</l>
+          <l><lb/>Qu' ch'est qui l'aimot puqu' que li même,</l>
+        </lg>
+        <p rend="labelled"><lb/>— Eh bien ! Que z'azoute, te seras la Grande Ourse<lb/>La reine a étécontente, mais, après l' leçon, le roi il<lb/>la venu me trouver en particulier et il a dit à moi:</p>
+        <p rend="labelled"><lb/>— Dis un fois aux astronomes qu'il fautçanzer l' nom<lb/>de l' constellation de l' Grande Ourse, si l' constellation<lb/>elle plait à elle, l' nom il plait pas à moi.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>DROLERIES</head>
+        <p rend="labelled"><lb/>— Quand qu' ch'est qu'un qu'va a l'air d'avoir</p>
+        <p rend="labelled"><lb/>— En ben !Ch'est quand l' rinte chez l' maré-<lb/>chal, puisqu’il est à ferrer.</p>
+        <p><lb/>A la chambrée, quèqu's ainciens du 28e dij'nt a un<lb/>bleu qu' ch'est li qui dot astiquer l' percolateur tous<lb/>les matins, et qu' ch'est l'ordre du major.</p>
+        <p><lb/>Ch'ti-chi rédléchit un moumint, puis eune idée<lb/>passant dins s' tiête, i' répond : Ah cha ! mais il<lb/>est bien vieux, ch' père Colateur, qui n' sait pus<lb/>s'astiquer li-mème : Pourquoi qu'on n' li donne<lb/>point s' retraite ? Peut-être bien qu'i n' l'a point<lb/>d'maindée, alors, ch' n'est point un père sage.</p>
+        <figure type="decoration"/>
+        <p><lb/>In parlant d' père, je m' rappelle d'eune histoire<lb/>qui s' passot à Rennes in 1875, au 41e de ligne,<lb/>uch' que j'étos in garnison.</p>
+        <p><lb/>Comme un effet du malheur, on avot invoyé in<lb/>Bretagne, eun' quantité d' paysans du Nord qui<lb/>savott'nt ni lire ni écrire et dont l' richesse d'lan<lb/>gache n’avot jamais dépassé l' patois d' lou' villache-</p>
+        <p><lb/>Un jour, l' fourrier aiant b'soin d'un homme pour<lb/>faire eun' course in ville avec li, appelle un nomme<lb/>Blondeau qui étot dins l' cambrée et li dit:</p>
+        <lg>
+          <l><lb/>Dins chaqu' tapis, buvant l' canette,</l>
+          <l><lb/>U chacun cantot s' canchonnette,</l>
+          <l><lb/>A ch't' heure on aim' mieux boire à l' chope,</l>
+          <l><lb/>D'vant un comptoir, on s'tient planté,</l>
+          <l><lb/>Souvint pus silincieux qu'eun' taupe.</l>
+        </lg>
+        <lg>
+          <l><lb/>A ch't heur', on vot les différinces :</l>
+          <l><lb/>pein' si l' mariache est fiête</l>
+          <l><lb/>Qu'on s'disput qu'on s' bat comm' des rinces,</l>
+        </lg>
+        <lg>
+          <l><lb/>Dins l' temps, à l'gazett pol,</l>
+          <l><lb/>Qu’on n' trouvot point inquan,zte,</l>
+          <l><lb/>On préférot l'humoristique,</l>
+        </lg>
+        <lg>
+          <l><lb/>A ch't heur dins no' vill' tout cha cange</l>
+          <l><lb/>Comm' dins toute aute localité</l>
+          <l><lb/>Ch'est un' n' séquoi que j' trouve étrange,</l>
+        </lg>
+        <lg>
+          <l><lb/>A chés souv'nirs, j' dijos : J' min fiche,</l>
+          <l><lb/>Quand j'étos gros, qu' j'avos l' santé</l>
+          <l><lb/>N'étant point plat comme eune affiché,</l>
+        </lg>
+        <lg>
+          <l><lb/>A ch't heure, à bien m' porter, je r'nonce,</l>
+          <l><lb/>Je m' sins quère in débilite</l>
+          <l><lb/>Et j' cros mêm' qu'in tierre j' m'infonce..</l>
+        </lg>
+        <p><lb/>Et tout in soupirant, i' r'pernot sin coron et se<lb/>r'mettot à babenner d' pus bielle.</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <pb facs="0003.xml"/>
+        <p rend="labelled"><lb/>— Blondeau, mettez-vous en tenue, descendez<lb/>et attendez-moi en bas, près du pérístyle.</p>
+        <p><lb/>L'aut' s'habille, deschind, arrive dins l' cour,<lb/>r'vette à droite et à gauche et il aperchot un coma-<lb/>rate qui v'not d'aller laver s' quemiche.</p>
+        <p rend="labelled"><lb/>— Eh ! li crie Blondeau, te connos l' père Istil,</p>
+        <p rend="labelled"><lb/>— Istil, dit l'aute, attinds an peu !... Ah ! J'y<lb/>suis, ch'est l' tambour de l' quaterième, ch'ti qui a<lb/>tros brisques, monte au trosième étache, te l' verras<lb/>là in train d’astiquer sin tambour.</p>
+        <p><lb/>Faut vous dire qu'in ch' temps-là i n' étot point<lb/>rare de vir des soldats d' quarante-chinq et même<lb/>chinquante ans, les vieux grognards, quoi. Istil</p>
+        <p><lb/>Min Blondeau monte, vot l' vieux tambour assis<lb/>su'sin lit et in train d'astiquer sin instrumint, i's’</p>
+        <p rend="labelled"><lb/>— Qu'est... ce... que tu fais ici, dit l'tambour<lb/>qui étot Gascon, au bout d’un quart d’heure que</p>
+        <p rend="labelled"><lb/>— L' fourrier de l' deuxième m'a dit de v'nir m'<lb/>poser à côté du pére Istil in l'attindant, mais vrai-<lb/>mint, i' n' vient point trop vite.</p>
+        <p rend="labelled"><lb/>Je n'ai rien à faire avec... que... le fourrier de<lb/>la deuxièmè, s’écrie l' tambour et puis, bougre de<lb/>pierrot, je te défends de m'appe...ler père Istil.</p>
+        <p><lb/>L'auto n'y comprenot pus rien, il a fallu l' menacer<lb/>de l' couverte pou l'faire partir.</p>
+        <p><lb/>Pindant ch temps-là, l' fourrier, s'impatientot<lb/>sous l' péristyle de l' caserne in attindant Blondeau,<lb/>aussi, quand ch'ti-chi a r'deschindu, l' caporal de<lb/>s'maine s'impressot de l' faire déshabiller et de l'</p>
+        <p><lb/>Blondeau a fait deux jours, doublés et redoublés,<lb/>total huit jours et si cha vient bien, malgré qu' cha<lb/>s'a passé n'y-a vingt-chinq ans, i' n' sait point<lb/>incore pourquoi ; il in veut p't-ête toudis au père</p>
+        <p><lb/>Pou' finir, l' comble d' l'avarice : Vous n' le savez<lb/>point ? Eh ben ! Ch'est de r'vettier au-d'sus d'ses<lb/>leunettes pou n' point user les verres.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Chronique Tartagroborrienne</head>
+        <p><lb/>Au lind'main de l' grande assemblée qui avot eu<lb/>lien su'l' grande Place de Tartagroborr et à l'quelle<lb/>avot assisté toute l' population, humine, qu'valine,<lb/>porcine, bovine, canine, ovine, et un tas d'aut's<lb/>séquois in ine (Voir le n° 416) l' vielle qu’minchot<lb/>à donner ses consultations. L' porte d' sin cabinet<lb/><lb/>étot à peine ouverte qu’elle r'chevot l' visite de<lb/>l' femme à Clachiron s' plaignant d' ses d'mi graines<lb/>qu' t'es incore jeune, va! l'amour elle est avule,<lb/>on a bien raison de l' dire; te sais, fille, j' te dis cha<lb/>intre nous, mais cha n' me r'vette point, je n' sus<lb/>point eun' femme a m'occuper des affair's des<lb/><lb/>autes, chin qui brûle pour un aute n' brûle point</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Quoich' que vous dites, Mérantine? Cha s'rot<lb/>l femme de Batisse qu'elle me f'rot ch' tour-là !</p>
+        <ab type="head"><lb/>MERANTINE (donnant une prise à Angéle)</ab>
+        <p><lb/>Cha t'étonne, cha, hein! ch ben! point mi, et<lb/>du reste, in v'là bien incore eun' preuve convain-<lb/>cante, pourquoi ch' que Jean, au lieu d’ète ichi<lb/>avec ti, comme ch'est sin d'voir de l' faire, il est<lb/>au cabaret avec cheull' bielle in cuisse. Quoich'<lb/>qui fait in ch' moumint? Mais cha saute aux yeux,</p>
+        <p><lb/>Vous avez raison, cha n' peut point ête autermint,<lb/>et cha n' peut point non pus s' passer comme cha,</p>
+        <p><lb/>Acoute, Angèle n' fais point attintion si j' m'in<lb/>d' cheulle à Vacquivèle souffrant d' ses évralgiques,<lb/>d' Bonn’candelle, qui v'not d'ête pris subitmint<lb/><lb/>d' coliques, du qu'va à Dubocourt, qui s' trouvot<lb/><lb/>dins l'impossibilité de s' soulager et l' dernière étot<lb/>madaime Gratmildo qu'elle avot du ma dins ses<lb/>reins. Chinq visites pou' l' promier jour, ch'étot biau<lb/>énon? Aussi, ch'est avec impress mint, que cheull'<lb/>nouviell' méd'. méd'cine, les auscultot l'un après<lb/>l'aute. A l' première, elle li plachot un boyau d' cat<lb/>autour du cou, avé recommiadation de n' l'ôter<lb/><lb/>qu'après s' mort ; à l' deuxième ell' plachot à un dogt<lb/>de l' main du côté du ma, eun' bague électrisée in<lb/>cuivre d' six sous, qu'elle avot acaté par douzaines<lb/>l' velle au marqué d' Wazemmes ; au trosième, elle li<lb/>a ordonné des cataplasses à mett' su' sin vinte tout<lb/>caud in farine de lin. Au qu'va quèquis frott'mints,<lb/>au moven d'un gros poreau avé l' tiête findue in quate,<lb/>in d'sous de s' queue, a suffi pour li in laicher<lb/>écapper d' quoi rimplir un tonniau d' bernatier et<lb/>infin pour madaime Gratmildo, l vieille à fait craquer<lb/>quèqu’s croques d' saurets inter deux linches, et li<lb/>aiant appliqué su' les reins, au bout d’un quart</p>
+        <p><lb/>J'ose espérer qu'ell ne s'in tiendra point là, car i'<lb/>n'est point à croire tous les r mèdes et les bonnes<lb/>r'cettes que cheull' femme là connot. Du reste,<lb/>s' renommáe est déjà faite, cheux délivres dins<lb/>l' première journée afant donné les meilleurs résultats.</p>
+        <p><lb/>N'allez point croire pourcha, vous savez, qu' ch'est<lb/>pour ell e in tirer profit? Non ! n' volant point qu'on<lb/>l' faiche rpasser pour eun' rebouteusse, elle a décidé<lb/>d'donne toudis sos consultations gratuites, trouvant<lb/>in mème temps qu' ch'est l' seul moyen d'éviter<lb/>d'avoir des démélées avé dame justice, pour exereice</p>
+        <p><lb/>Ah ! mais ch'est qu'elle est ficelle, la vielle, n'y-a<lb/>point d' danger allez, qu'elle se compromette. Pour<lb/>eun' cassure, eun' foulure, un bras ou cun' gampe<lb/>copée, qu'ell' raccomodecomme de l' fafence, elle ne<lb/>fait payer qu' tout juste chin qu' cha li a coûté pour<lb/>faire l'graisse et incore, après guérison Ainsi in<lb/>ch' moumint, elle a intrepris d' faire disparattre<lb/>l' boche à Gratmildo, su' l' demainde de ch' sympa-<lb/>thique conseiller municipal, in frottant tous les<lb/>matins avec un baume de s' composition: eh ben!<lb/><lb/>j' suis à peu près certain qu'elle le guérira, puisqu'elle<lb/>li a promis et qu' cha n' li r'viendra point pus quer<lb/>qu’eun visite d' méd'cin ordinaire, énon.</p>
+        <p><lb/>Et à ch' t'heure, quoich' qu'i's vont dire, ma pinse,<lb/>l' méd'cin, l'vétérinaire et l' pharmacien ? Pour sur<lb/>que l'un d' ches juate matias, i's quitt'ront l' localité<lb/>in important leus bagaches pour aller cacher fortune<lb/>ailleurs. Ch'est chin que j' souhate d' tout min cœur,<lb/>puisque a présint on peut s' passer d'eusse à</p>
+        <p rend="styled"><lb/> qundes renen nements u aoirent au ps ard, lo merero<lb/><lb/><lb/>vas deux minutes, te sais, ch'est pou' l' femme<lb/>d'ichi au-d'sus qu'elle m'a d'mandé qu' je r'vette<lb/>à sin fu pindant qu'elle allot faire sescommissions,<lb/>pindant ch' temps là, brai un p'tit peu, cha t' f'ra<lb/>du bien, (à part) j' vas aller vir chin qu' min<lb/>bonbien qui fait au cabaret. Ouf (elle sort.)</p>
+        <figure type="decoration"/>
+        <p><lb/>Faut-i' tout d'même que les gins sottent canall's<lb/>pour m'arringer comme cha, mi qu' j'avos tant d'<lb/>confiance à li et ête trompée d' la sorte, non, ch'<lb/>n'est point bien et l' bon Dieu l' punira. Et dir'<lb/>que v'là point pus d' huit jours, dins les Dondaines<lb/>incore l' m' jurot d' n'aimer jamais eune aute que<lb/>mi, vous veyez chin qu' ch'est d'ète trop confiante.<lb/>(elle écoute à la porte) J'intinds quelqu'un monter,<lb/>comme cha porrotquèqu'fos ête li j'vas m' mucher,<lb/>qui ch' qui sait, cha s'ra p't-ête l' moyen d' savoir<lb/>quéqu' cosse (elle se cache derrière le rideau d'une</p>
+        <ab type="head"><lb/>MÉRANTINE (entrant précipitamment)</ab>
+        <p><lb/>Tiens ! l'ojeau est involé tant pire elle est proba-<lb/>belmint partie vir après Jean, j' n'ai pus l' temps<lb/>d' m'occuper d'elle, j'intinds quelqu'un monter, cha<lb/>dot ête m'n homme, in m' muchant et in acoutant<lb/>chin qui va dire j' sarai peut-ète un n' séquoi. Mon<lb/>Dieu! Seigneur ! quoich' qui faut tout faire pour<lb/>chés capons d'hommes ! (elle se cache derrière les<lb/>rideaux de la fenêtre de gauche).</p>
+        <p><lb/>A ch' t'heure ! n'y-a personne ichil quoich' que<lb/>cha veut dire, cha (après une pause) Je n' sais<lb/>vraimint point si Angèle a mingé des pos qui<lb/>n'avottent point volu cuire, mais dins tous les cas,<lb/>elle me les fait jolimint froides in ch' moumint ichi,<lb/>quoich' que cha veut dire, cha ?</p>
+        <p><lb/>ANGBLE (dépassant la tête du rideau et parlant bas)</p>
+        <p><lb/>Cha ch'est avoir du toupet, hein ! croyez-vous</p>
+        <p><lb/>Ch' n'est point m'n homme ! cha! i n' ven'ra<lb/>point énon, il est trop bien à côté d' cheull'<lb/>bielle Ménesse ah ! si j' porros faire à m' mote t</p>
+      </div>
+      <div type="article">
+        <head><lb/>PUS D'PEUR QUE D'MA</head>
+        <lg>
+          <l><lb/>Et quoiqu' point pus épais qu'eun' latte.</l>
+          <l><lb/>J'ai de l' forch', du cœur, du sang-frod,</l>
+          <l><lb/>Gramint puqu', va, qu'on n' le pins rot ».</l>
+          <l><lb/>V'là chin qu'un soir de cheull' semaine,</l>
+          <l><lb/>Là d’sus, bien duch mint, j'ouvre m' porte,</l>
+          <l><lb/>Que m femm n'intind' point l' moindre bruit,</l>
+          <l><lb/>Et comme ell ne prind point d'le</l>
+          <l><lb/>Quand ell' se met au lit l' premieres.</l>
+          <l><lb/>A I ramp, sans candell' ni bonge</l>
+          <l><lb/>Mais quoiqu' cha, à forch d'éne</l>
+          <l><lb/>Tout dun cop ria qu l'attran es</l>
+          <l><lb/>In intindant d' sous mes cauchettes</l>
+          <l><lb/>J' tat' mes deux gamp's, mes bras, min vinte,</l>
+          <l><lb/>N' sintant point d' ma j' couros tout </l>
+          <l><lb/>Comme avant eu l' diable à m' poursuite</l>
+          <l><lb/>Querre eune alleumett que j' ca</l>
+          <l><lb/>Mais la. j'suis bien forché d'vous l' dire,</l>
+          <l><lb/>in ne poini pus mu mpéc pearua d rire,</l>
+        </lg>
+      </div>
+      <div type="article">
+        <p><lb/>Si vous trouviez par hasard, un pal'tot gris marron,<lb/>avec un coude à courant d'air et avec des traces de<lb/>postillons su' les r'vers, vous m' frit's bien plaisi in<lb/>me l' rapportant: ch'est l' veste à min comarate<lb/>Nochère. Vous d'vez l' connotte, d’ailleurs, un p’tit<lb/>noir, tout comme l’s autes, qui a l' manie d' faire un<lb/>p'tit clin d'œul tous les tros s'condes in vous parlant.<lb/>Eh ben. Nochère, ch' pauv' Nochère il a perdu sin<lb/>pal'tot des dimanches neuf, ou presque neuf.</p>
+        <p><lb/>Ch'est arrivé assez drôl'mint. Après avoir jué<lb/>lundi à l'fléchette jusqu'à onze heures du soir avec<lb/>des capenouls qui inl'vottent les pointes des flêches<lb/>quand ch'étot à sin tour de juer, Nochère a fini pa'<lb/>n' pus ête d' bonne humeur parȩ' que chétot li qui<lb/></p>
+        <p><lb/>Tout d' même, à la fin, comme il avot gaingné<lb/>eune tournée, et qu'il étot allé à l' cour avant de</p>
+      </div>
+    </body>
+  </text>
+</TEI>

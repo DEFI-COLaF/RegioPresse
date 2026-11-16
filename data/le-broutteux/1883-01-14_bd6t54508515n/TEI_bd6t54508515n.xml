@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508515n</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1883-01-14">1883</date>
+          <idno type="ARK">bd6t54508515n</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508515n</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>Numéro 25. (2m)</ab>
+        <ab><milestone unit="column" n="2"/><lb/>Un Numéro: 10 cohemmes</ab>
+        <ab><milestone unit="column" n="3"/><lb/>DIMANCHE 14 JANVIER 1883.</ab>
+        <ab><lb/>y a des bétises<lb/>payables d'avance<lb/>qu'an homme d'esprit<lb/>3mois fr-50<lb/><lb/>acheterait.<lb/>3-00<lb/>Etranger, port en sus.<lb/>VOISENON</ab>
+        <p rend="dateline"><lb/>ABONNEMENTS:</p>
+        <p rend="styled"><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING<lb/>En vente à l'imprimerie PRÈRE-GLORIEUX, rue de Lille, 20, et chez M. Jules WATTEEUW, Rédacteur, Grand' Place,</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Et l'patron qui répondot:<lb/>vous dire que s'vie a été erprodute pa les<lb/>pus grands artistes du monte.</ab>
+        <p><lb/>Autant d'z'écrivains qu'des peintes qui<lb/>z’ont erprésenté l’Tentation.</p>
+        <p><lb/>Tchan qu’in attind des noms comme<lb/>Le Tintoret, Paul Véronèse, Martin de<lb/>Vos, Breughel, Callot, Teniers, etc.; vus<lb/>veyi que ch'n’est po pou rire, et qu’cha-<lb/>que tableu, ch'étot in ché-d’œuf!</p>
+        <p><lb/>Et tchi qui n’se souvint po de l'barraque<lb/>St-Antoine? tchan qu’in étot afant, tcheu<lb/>bonheur! tcheu plaiji! tchan qu’in povo<lb/>aller vir brûler l’tcheu du pourcheu !</p>
+        <p><lb/>Tchi qui n’se rappelle po l’famille d’Al-<lb/>binos qui avot sus l'devant de l'barraque,<lb/>tchan qu’in faijot l’parate?</p>
+        <p><lb/>L'père, l'mère et l'z'afants y avottent<lb/>tertus d’z’is rouches et des ch'veux comme<lb/>d'z'étoupes, in aro dit inne famille de la-<lb/>pins blancs!</p>
+        <p><lb/>Tcheu boussées pou rintrer et printe<lb/>s’plache! tcheus éclats d'rires, tchan qu’in<lb/>veyot arriver St-Antoine inveuc sin co-<lb/>pagnon et les diables danser a l'intour,<lb/>in tchantant:<lb/></p>
+        <lg>
+          <l><lb/>Tirons le par le cordon,</l>
+          <l><lb/>Faisons le danser en rond.</l>
+        </lg>
+        <p><lb/>Messleurs les démons, laissez moi donc.</p>
+        <p><lb/>Non tu dansoras, tu chanteras, tu danseras.</p>
+        <p><lb/>Et tchan qu’in veyot brûler s’tcheu! et<lb/>Si-Antoine monter au ciel, auson de l’cla-<lb/>rinette.</p>
+        <p><lb/>Du qui est c'temps la?</p>
+        <p><lb/>Y estlong d'nous auttes, pasquech'n'est<lb/>pus d'nou temps, et d'in aute côté, y est<lb/>près, pasqu'in vot acor l'même jeu tous<lb/>les jours, sinon qu'a l'plache d'ête wetteux,<lb/>in est jeueux.</p>
+        <p><lb/>Est-ce que l'monte ch'n'est po in grand<lb/>Wetti in politique:</p>
+        <p><lb/>Comben d'gins qui apparaîtent sus la<lb/>scène, boussés pa d'z'auttes qui tchan-<lb/>tent à leu bénéfice:</p>
+        <lg>
+          <l><lb/>Tirons lo par le cordon,</l>
+          <l><lb/>Faisons le danser en rond.</l>
+        </lg>
+        <p><lb/>Et tout d’inne in cœup, in laiche aller<lb/>l’bonhomme qui s’in va tcher vin les cou-<lb/>lisses, (du qui aro mi fait de n'jomais<lb/>vidi).</p>
+        <p><lb/>Et in finance, in commerce, in banque:</p>
+        <p><lb/>Comben qu'vus in veyi qui z’ont leu<lb/>tour aussi, et, tchan qui qu’minch’tent à<lb/>vir clair, y dittent:</p>
+        <p><lb/>Messieurs les démons, laissez-moi donc.</p>
+        <p><lb/>Et l'z'auttes qui les tinn'tent pa les cor-<lb/>deus de l’bourse, y dittent:</p>
+        <p><lb/>Non tu chanteras, tu paieras, tu dansoras.</p>
+        <p><lb/>Et tchan que l'saclet est vud, l'aute y<lb/>fait padaff vin l’coulisse.... ployi in deux<lb/>comme inne marionnette.</p>
+        <p><lb/>Vus veyi ben, qu’chin qu'in a dit ch’est<lb/>la vérité, qu’les z'hommes ch’étot des<lb/>grands afants.</p>
+        <p><lb/>La preuf: est-ce qu'in amuse po in afant<lb/><lb/>avec in rin? in p'tit garchon inveuc in<lb/>morceu d'beu, d'fer; inne petite fille in-<lb/>veuc des berlouffes, des rubans, et pus<lb/>tard, est-ce que l’homme n’est po fin fir<lb/>de n'd'avoir in p'tit morceu à s'boutonnire?</p>
+        <p><lb/>Grands afants! grands afants !</p>
+        <p><lb/>Ermarquez ben, que l'broutteux n'dit<lb/>po cha pour invenimer les gins, les uns<lb/>çonter les z'auttes, in jue tertus in rôle<lb/>sus c’monte, bon ou méchant, et l’brout-<lb/>teux est in grand afant comme l’z’auttes,<lb/>mais cha n'dot po l'impèchi d'rinconter<lb/>sin p'tit conte sus Saint-Antoine.</p>
+        <p><lb/>est nin vrai?</p>
+        <ab><lb/>JULES WATTEEUW.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>SAINT-ANTOINE.</head>
+        <head><lb/>Messieurs les démons, laissez-moi donc.</head>
+        <p><lb/>Vu que l'jour St-Antoine rapproche,<lb/>l'broutteux n’peut quasimint po faire au¬<lb/>termint que d'rappeler à ses lijeux l'grand<lb/>Saint qui l'z'a tant fait rire, tchan qui z'é-<lb/>tottent afants!</p>
+        <p><lb/>Mais du premir abord, j'in profite pou<lb/>présinter mes souhaits à les Chertutis.</p>
+        <p><lb/>Boinne chance, et gramint d'ducasses<lb/>à pireuts que j’leu souhaite.</p>
+        <p><lb/>In n'a po b'son de d'mander pouquo<lb/>qu’ces gins y font leu fête l'jour St-An-<lb/>Roine: in sait ben qu'ch'est à cause de sin<lb/>copagnon.</p>
+        <p rend="styled"><lb/>Ch'est ben drôle cha, y a des gins qui<lb/>dittent, d’tcheusir justemint in pourcheu<lb/>pou s' compagnie.</p>
+        <p><lb/>Ch'n'est po si drôle que cha, pusque<lb/>Qar attinde dire, cheull' bête ill' avot été<lb/>djérie pa St-Antoine, et ill' ne volot pus<lb/>Atchitter par erconnaîssance, ch'est beu<lb/>pour in pourcheu! y n'd’a gramint qu’in<lb/>n'peut po in dire autant d'eusses, au jour<lb/>d'aujord'hu.</p>
+        <p><lb/>Et pus, est-ce qui n'a po d'z'indrots,<lb/>nême in France, du qu’les pourcheux y<lb/>icheurtent vin les majons et qui font<lb/>Louiache inveuc les gins, tertus insonne?<lb/>Et pus, est-ce que vous n’se rappelez<lb/>po, qu'l'histoire ill' parle d'in garchon à<lb/>Louis le gros, in 1131, qui a été tué par<lb/><lb/>in pourcheu, qui s'a j'té vin les djampes<lb/>sin gu’veu? A c’momint la, les pour-<lb/>cheux y pourmenottent à Paris vin les<lb/>ues, prope l'même que les gins, po pus<lb/>d'comptes que cha.</p>
+        <p><lb/>Ah! mais du cœup, in n’a pus povu les<lb/>laichi courir sans leu z'atatchi inne son-<lb/>nette à l'intour du cu.</p>
+        <p><lb/>Vus coperdez?</p>
+        <p rend="labelled"><lb/>Infin, pour in ervenir au Patron, y faut théâte d'marionnettes?</p>
+      </div>
+    </body>
+  </text>
+</TEI>

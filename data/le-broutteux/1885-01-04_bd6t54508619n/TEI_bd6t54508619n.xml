@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508619n</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1885-01-04">1885</date>
+          <idno type="ARK">bd6t54508619n</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508619n</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0003.xml"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p><milestone unit="column" n="1"/><lb/>Desrousseaux, l'chansonnier populaire,<lb/>l'auteur du P'tit Quinquin et d'tous des<lb/>beaux saquos essin, qu’in n’obliera jomais,<lb/>vint d'ête décoré d'la Légion d'honneur.<lb/><lb/>Ses compatriotes sont d’inne jo sans pa-<lb/>relle, cha s’comprind. L’Broutteux in ap-<lb/>prenant l'nouvelle a invoï au chansonnier<lb/>cheulle dépêche:</p>
+        <lg>
+          <l><lb/>L'Broutteux y vot avec bonheur,</l>
+          <l><lb/>Décoré d’la Légion d'honneur,</l>
+          <l><lb/>Nou grand chaasonnier populaire</l>
+          <l><lb/>Viv' Desrousseaux légionnaire!</l>
+        </lg>
+        <p><lb/>V'là chi inne de ses deruires pasquilles<lb/>parue vin l'Vo volume, en vente chez tous</p>
+      </div>
+      <div type="article">
+        <ab><lb/>A mon Ami et Maître A. DESROUSSEAUX.<lb/>Hier, in lijant l'Echo, j'ai vu eunn' bonn' nouvielle<lb/>Qu'pour l'premier Janvier dins la Legion d'honneur<lb/>Vous alliez printe eunn' plache, et surtout point<lb/>Au mitan des savants et d'chouss'qui ont du cœeur.<lb/>Au nom des vrais Lillos Boul d'Fil vous compliminte<lb/>Et du profond d'sin cœur, souhaite infin d'vous vir<lb/>Bien portant et joyeux, avec tros mill' francs d'rinte<lb/>Bercher l'Petit Quinquin qui n'dot jamais morir.</ab>
+        <ab type="head"><lb/>LE PANORAMA</ab>
+        <ab type="head"><lb/>DE LA BATAILLE DE BAPAUME</ab>
+        <lg>
+          <l><lb/>Non, j' n'ai jamais rien vu qui m'a</l>
+          <l><lb/>Tant r'mué que ch' Panorama.</l>
+          <l><lb/>J' n'in r'viens point, j'in perdrai m'caboche</l>
+          <l><lb/>J'ai vu là, sans leunett' d’approche,</l>
+          <l><lb/>Tout Bapaume, Avesne', Ervillers,</l>
+          <l><lb/>Achiet-l'-Grand, Tilloy, Biefvillers;</l>
+          <l><lb/>Pus lon, Mory, biau p'tit villache</l>
+          <l><lb/>Qu' j'ai parcouru dins min jeune ache,</l>
+          <l><lb/>Et d'aut's indrots, qu' j'avos point vus</l>
+          <l><lb/>D'puis fort longtemps et qu' j'ai r'connus,</l>
+          <l><lb/>Quoiq' de l'neige y rimplache d' l'hierbe.</l>
+        </lg>
+        <lg>
+          <l><lb/>J'ai vu là l' général Faidherbe</l>
+          <l><lb/>In avant de s’n état-major,</l>
+          <l><lb/>Et, d'vant mes yeux, il est incor.</l>
+          <l><lb/>I parait tout aussi tranquille,</l>
+          <l><lb/>Qu'eun' fillette infilant s’n aiwille.</l>
+          <l><lb/>Et pourtant, dins l' cœur, à ch' moumint,</l>
+          <l><lb/>Il avo' un grand contint'mint,</l>
+          <l><lb/>Puisqu'i v'not d'donner à la France</l>
+          <l><lb/>Eun' preuy' de savoir et d' vaillance,</l>
+          <l><lb/>In r'poussant d' Bapaum' les Prussiens....</l>
+        </lg>
+        <lg>
+          <l><lb/>Chés All'mands, nos enn'mi' anciens,</l>
+          <l><lb/>N'ont point là, du tout, l'air à l'noce,</l>
+          <l><lb/>Et, vraimint, n'ont pus rien d'féroce.</l>
+          <l><lb/>J'in vos donnant des cops d' fusil,</l>
+          <l><lb/>Mais l' pus grand nombre a l' déplaisi,</l>
+          <l><lb/>Ch'est à croir', du moins, d' batte in r'traite,</l>
+          <l><lb/>Sans musiq', tambour, ni trompette</l>
+        </lg>
+        <lg>
+          <l><lb/>Et Von Gœben, leu général,</l>
+          <l><lb/>N'a point non pus l'air d'ete au bal ;</l>
+          <l><lb/>On vot facil'mint qu'i marronne...</l>
+          <l><lb/>Tout près d' li, su' l' route de Péronne,</l>
+          <l><lb/>On r'marque un tableau désolant :</l>
+          <l><lb/>Des blessé' au r'gard suppliant,</l>
+          <l><lb/>Sont intassés sur eun' carette...</l>
+          <l><lb/>Ch'est des Prussiens !... Quand on les r'vette,</l>
+          <l><lb/>On n' vol qu' des homm', on s’attendrit,</l>
+          <l><lb/>Chacun détourne s' vue et dit :</l>
+          <l><lb/>« Ah ! queull' triste affair' que la guerre ! </l>
+          <l><lb/>Mi, quand j' pinse qu' personn'n'espère</l>
+          <l><lb/>Qu'un jour on s’in débarrass'ra,</l>
+          <l><lb/>Qu'au lieu de s' morde, on s'imbrass'ra</l>
+          <l><lb/>Je r'pousse m' pinsée au pus vite,</l>
+          <l><lb/>Pour calmer min cœur qui s’agite.</l>
+        </lg>
+        <lg>
+          <l><lb/>Mais r'parlons du Panorama.</l>
+          <l><lb/>Il faut bien vous dir' qu’on vot là</l>
+          <l><lb/>Des vrai's masons, des vrai's fabriques</l>
+          <l><lb/>Faites d' mortier, d' chimin' et d' briques,</l>
+          <l><lb/>Des vrais abres, des vrais caissons,</l>
+          <l><lb/>Des vrais casques, fusils, canons,</l>
+          <l><lb/>Et qu' chés mêm’s séquoi' in peinture,</l>
+          <l><lb/>Sont si bien rindus, si nature,</l>
+          <l><lb/>Qu’on n'peut distinguer l' vrai du faux.</l>
+          <l><lb/>Ch'est vous dir' qu'i n'y a point d' défauts.</l>
+          <l><lb/>On vot l' fourbou d' Arras qui brûle:</l>
+          <l><lb/>Eh ben ! qu'on m' traite d'vieux crédule,</l>
+          <l><lb/>Et d' vieux balou ! pour un moumint,</l>
+          <l><lb/>J'ai pinsé qu' cha brûlot vraimint.</l>
+          <l><lb/>Et l' beffro d' Bapaum' ! queull' mervelle !</l>
+          <l><lb/>On raconte ch'l histoir' fort bielle,</l>
+          <l><lb/>Qu'un corbeau, volant s' délasser,</l>
+          <l><lb/>A tenté six fos d's'y r'poser.</l>
+        </lg>
+        <lg>
+          <l><lb/>Infin, ch'est eun' cosse admirable,</l>
+          <l><lb/>Et sur tout point incomparable.</l>
+          <l><lb/>Chacun l' pinse, un chacun l' dira</l>
+          <l><lb/>Et personne n' s'in dédira.</l>
+          <l><lb/>A Dumarescq, Armand, l’artiste</l>
+          <l><lb/>Qui nous a fait ch' tableau fort triste,</l>
+          <l><lb/>Mais tout aussi glorieux, sûr'mint,</l>
+          <l><lb/>J'invoie un grand grand complimint.</l>
+        </lg>
+        <ab><lb/>A. DESROUSSEAUX.</ab>
+        <p><lb/>Wetti inne fos l'petit complimint<lb/>qu’Bout d'Fil a tiré in l'honneur du</p>
+        <ab><lb/>VicTOR AUBERT.</ab>
+        <figure type="decoration"/>
+        <p><lb/>Adan, ill' le condut à les tchampes de<lb/>l’z'afants, in li dijant tout chin qui li faura<lb/>faire tous les jours in s'eveyant.</p>
+        <p><lb/>V'la qu'in déchind in bas, à l'tchusine,<lb/>Madame erqueminche à li moutrer s’vais-<lb/>selle, s'n'arginterie, ses plaches et ses<lb/>salons et finit pa li dire :</p>
+        <p rend="labelled"><lb/>— Vous savez, ma fille, je ne crie pas,<lb/>ce n'est pas mon habitude, mais je n'aime<lb/>pas que l’on me fasse des observations,<lb/>ni qu'on me réponde qu'en j'en fais.</p>
+        <p><lb/>Veyant qu’Pélagie n’li répondot po,<lb/>Madame, ill' se dit in elle même : en<lb/>voila une, ici, qui n'a pas l'air de s’effa-<lb/>roucher trop vite, je crois qu'elle fera</p>
+        <p rend="labelled"><lb/>— Maintenant, ma fille, qu'ill' dit à<lb/>Pélagie, vous allez laver les vitres de la<lb/>salle à manger, frotter les boiseries, cirer<lb/>le parquet et laver le vestibule.</p>
+        <p rend="labelled"><lb/>— Et vous Madame, ill' dit Pélagie,<lb/>quoqu'ché qu'vous f'rez pindant c'temps</p>
+      </div>
+      <div type="article">
+        <head><lb/>L'GINDARME TUÉ DEUX FoS</head>
+        <p><lb/>In gindarme, qui avot inne commission<lb/>à faire du côté d'Douai, s’imbarque in beau<lb/>jour sus l’quemin d’fer. Y arot gramint mi<lb/>fait d’monter sus sin gu’veu, faut croire,<lb/>nu qu’arrivé à in certain endrot, l’locomo-<lb/>tiffe a déraillé et min gendarmey a attrapé<lb/>inne telle machuque qui n’d’a moru.</p>
+        <p><lb/>In a fait l'nécessaire pou l'interrer,<lb/>comme de jusse et l'jour de l’interremint<lb/>l'gindarme étot porté pa quatte d'ses<lb/>comarates et acor d'z'autes pou li rinde<lb/>l'z'honneurs militaires.</p>
+        <p><lb/>Comme in fait toudis, chaque gindarme<lb/>est arrivé et a tiré in cœeup d'carabine vin</p>
+      </div>
+      <div type="article">
+        <p><lb/>In n'd'in vot alfos qui z'ont toudis l'air<lb/>de rire des gins et qui pins’tent que tout<lb/>leu z'ai permis. Monci Vandeprousse y<lb/>avot in gardini à s’campane qui s’appélot<lb/>Ladislas, mais malgré ses vingt-deux ans<lb/>passés, l’barbe mantcho à l'appel sus<lb/>s’fidjure; y n’d’avot po in poil, si ben<lb/>qu’Monci Vandeprousse l’faijot toudis<lb/>aller ; in li d’mandant comben qui payot<lb/>sin barbi, si ch'étot à l'piche ou ben au<lb/>mos, tout d’z'affaires essin. In dijant cha,<lb/>Monci Vandeprousse y caressot s’barbe<lb/>pasqu’y n’d’avot inne grande rousse qui li<lb/>pindot qu'a s’potraine.</p>
+        <p><lb/>Ladislas y n'répondot po tchan qu'sin<lb/>patron l’faijot aller essin, mais y dijot<lb/>toudis in li même; j't’arai in jour ou<lb/>l'aute, vas, copagnon.</p>
+        <p><lb/>Comme de fut faite ; in jour que Monci<lb/>Vandeprousse y avot donné in grand dîner<lb/>et qui s'pourmenot vin l'gardin inveuc ses<lb/>invités, y leu dit:</p>
+        <p rend="labelled"><lb/>— Tenez, je vais vous faire rire de bon<lb/>cœur avec mon jardinier, c’est un fort bon<lb/>garçon, un ouvrier comme on en voit<lb/><lb/>peu, mais chose singulière il a 22 ans et<lb/>pas d’barbe au menton, une vraie figure<lb/>de fille, quoi. Ah! le voila justemint<lb/>Ladislas! Ladislas! écoute un peu mon</p>
+        <p rend="labelled"><lb/>— Me v'la Monci.</p>
+        <p rend="labelled"><lb/>— Quel âge as tu, Ladislas?</p>
+        <p rend="labelled"><lb/>— Mi, Monci? bé, sans votte respect,<lb/>j'arai 23 ans à l'rassisse de l'ducasse.</p>
+        <p rend="labelled"><lb/>— Comment bientôt 23 ans! et com-<lb/>ment se fait il que tu n'aies pas de bar-<lb/>bes, à ton âge?</p>
+        <p rend="labelled"><lb/>— Bé, Monci, si vus volez, j'vous dirai<lb/>pouquo, y dit Ladislas in wettant l’barbe<lb/>rousse de sin patron.</p>
+        <p rend="labelled"><lb/>— Et bien, dis un peu pourquoi,</p>
+        <p rend="labelled"><lb/>— Eh bé, Monci, ch'est qu'j'ai arrivé<lb/>malheurusemint trop tard à l’distribution<lb/>des barbes, y n’in restot pus foque des<lb/>rousses, et j'n'd'ai po volu, j'aime mi m'in</p>
+        <p><lb/>Et l'patron a jotchi. inveuc s'bouque<lb/>Ouais, mais, inne boinne grand’mère<lb/>qu'ill' étot la, ill' se met à crii :</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>— Ebé, au monde! quoqu’ché qui vont<lb/>acor faire passer à c’malhureux? y n’a nin<lb/>été assez abîmé sus l’quemin d'fer, y faut<lb/>l'tuer acor inne fos?</p>
+      </div>
+      <div type="article">
+        <head><lb/>BELLE-MÈRE PERDUE</head>
+        <p><lb/>Il a été perdu, entre Lille, Roubaix et Ise-<lb/>ghem (Belgique), une belle-mère, âgée de 60<lb/>ans, qui en parait 35 à peine. Signes particu-<lb/>liers : Parle trop souvent d'elle et est accom-<lb/>pagnée d'une voiture de déménagements qui<lb/><lb/>ne la quitte jamais.</p>
+        <p><lb/>Ses gendres presque désolés supplient les<lb/>personnes qui pourraient donner quelques<lb/>renseignements de les adresser au bureau du</p>
+        <pb facs="0004.xml"/>
+      </div>
+      <div type="article">
+        <head><lb/>LE TEINTURIER-DÉGRAISSEUR</head>
+        <lg>
+          <l><lb/>Qui ressascite le vieux vêtement,</l>
+          <l><lb/>Sur v'lours, sur soie, j'opère avec aisance,</l>
+          <l><lb/>Je traite tout avec succes vraiment,</l>
+          <l><lb/>Je vous l'assure vous pouvez sans crainte,</l>
+          <l><lb/>Me confier votre plus bel Elbœuf,</l>
+          <l><lb/>Enfin du vieux, je vous ferai du neuf.</l>
+        </lg>
+        <lg>
+          <l><lb/>Toujours de premiere fraicheur,</l>
+        </lg>
+        <lg>
+          <l><lb/>De son travail, on est fier, je l'approuve,</l>
+          <l><lb/>Certes, chacun fait valoir son métier,</l>
+          <l><lb/>Mais voulez-vous savoir comment on prouve,</l>
+          <l><lb/>Que l'on est plus ou moins bon teinturier?</l>
+          <l><lb/>On prouve surtout que l'on sait bien teindre,</l>
+          <l><lb/>En cherchant à faire sa position,</l>
+          <l><lb/>Et, lorsqu'on sait arriver à l'atteindre,</l>
+        </lg>
+        <lg>
+          <l><lb/>Sur tous les tons et dans toutes les gammes,</l>
+          <l><lb/>De jolies fleurs, toujours nous appliquons,</l>
+          <l><lb/>Nos impressions, à vos robes Mesdames,</l>
+          <l><lb/>Avec bonheur nous les communiquons,</l>
+          <l><lb/>Comm' teinturier jamais je ne me gobe,</l>
+          <l><lb/>Mais entre nous, cependant, je prétends,</l>
+          <l><lb/>Que la dame qui me remet sa robe,</l>
+          <l><lb/>En la portant, aura toujours vingt ans.</l>
+        </lg>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Il est toujours des betises à dire.</l>
+          <l><lb/>Pourtant je vais ce ser de plaisanter,</l>
+          <l><lb/>On peut très bien avoir le mot pour rire,</l>
+          <l><lb/>Sans oublier de se recommander,</l>
+          <l><lb/>Si vous voulez être proprement mis,</l>
+          <l><lb/>Adressez-vous tous au Grand-Saint-Maurice.</l>
+          <l><lb/>Et vous serez de suite et bien servis.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>SOLUTION Du PROBLÈME</head>
+        <figure type="table"/>
+        <p><lb/>Sti qu’in ly a promis chin qui avo d'mandé y<lb/>y a 4 ans, au F. B., à Roubaix. — S'ti qui a<lb/>pindu, in tchin pa l'queue à l'sonnette de l'mar¬<lb/>chande d'images près d'l'église des Pères, à<lb/>Roubaix. —L'petite rousse du d'but de l'rue<lb/>du Haze, qui a tout peurdu ses marpes à Louis.<lb/>— Fifile Ninnin souhaite la bonne année à son<lb/>coco d’en haut Bœufs-Niais. — Marie, Fer-<lb/>mand et Jules. — Un Lezennois qui dit toudis<lb/>qu'Zelie l'avot pas dit, quand elle l'avot dit à<lb/>Hinri, mardi derni avec Léocadie, au P’tit<lb/>Paradis. — Les bonbons que Charles a donné<lb/>étaient bons, mais il n’en avait pas beaucoup.<lb/>— Anna L... ne veut plus demander parce<lb/>qu’il est jaloux. — Mathilde aime bien Albert</p>
+        <p><lb/>Imprunere FRERE-GLORIEGA.</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>à lunette. — Le gros Gustave qui prend le ne donne plus signe de vie à ses amis de<lb/>train pour Haubourdin sans dire au revoir à<lb/>ses amis et amisses. — Celle qui dit à son ami<lb/>qu’il n'aime pas de donner le bras. — Et si<lb/>j'diro qu'j'ai du ma à min pid (poutuum). —<lb/>L’offestre. — Un caporal qui dit comme le<lb/>sergent : une bouteille cha fait rien. — Jean¬<lb/>Pierre-Paul-Nicolas Toutseul, de Roubaix.—<lb/>Un habitué du Tir National, à Roubaix. — La<lb/>beusse, ah non, la busse. — Jules a cassé les<lb/>jarretières de Clémentine. — Les deux meil-<lb/>leurs petits clients de Romaine et d'Achille,<lb/>marchand de pommes de terre frites au coin<lb/>de l'estaminet du Sans-Souci, à Roubaix. —<lb/>Adolphe, le sans cheveux, qui a perdu sin<lb/>baudet in allant tcheur des rapes. — Un nou-<lb/>veau établi qui verse 444 chopes su tros heu-<lb/>res sans s'mette à manche de qu'miche. —<lb/>L’pus grand criard du quarti qui a gagni<lb/>s'partie d'jille pou 26 cardonnettes avec Hor-<lb/>tense, l’boteux n’da mingi. — Sti qui n'a nin<lb/>réussi à poser l'lanterne a mou Moïse, l'jour<lb/>de l'ducasse à pirauts. — Les habitués de l'es-<lb/>taminet des Terrassiers, à Roubaix. — La<lb/>vendeuse de schopes de la rue Jeanne-Mail-<lb/>lotte, à Lille, souhaite une bonne année à celui<lb/>qu’il l'a mise sur le Broutteux. — Un domesti-<lb/>que de l'clef d'Hollande, que quand y a quel¬<lb/>qu'un qui d'mande s'n'age, y dit toudis qui a<lb/>25 ans. — Lonez K Stelin et laine Beuble. —<lb/>L'garchon du p'tit 2 B, Brun-Pain, Tourcoing.<lb/>— L'garchon Jean qui va pou li raser ses<lb/>clients et qui obli ses rasos. — Un lecteur as¬<lb/>sidu du Broutteux qui a battu au jeu de boule<lb/>à Mouveaux.— L'Marianne de l'Croix d'Bocq.<lb/>— Napaud, l'poète du marqué au fil de lin,<lb/>Lille. — Eh lit ! l'coq'leux de l'rue St-Eloi à<lb/>Lille. — Philomène, tout près du Rosigno,<lb/>qu’elle vo si volonti s’fille Celina. — Trinette,<lb/>le petit garçon à sa mamère.— Un bon client<lb/>du Café de l'Europe, boulevard Vauban, à<lb/>Lille, avec sin copagnon.— L'gros marchand<lb/>d’toubac et sin Kincsazor, l’marchand d’chu-<lb/>que. — Cho Cardon, horloger, se charge des<lb/>réparations, demeurant aux maisons Ducha.<lb/>telet.— La petite demoiselle de chez Trinette,<lb/>à Dieppe. — Mon onc vais nars deux lots elle<lb/>2 villes ha! Lannoy, ki doigt dont nez 16 haies<lb/>trainent à ses nœuds vœux et niaises. — S'ti<lb/>qui lit toudis les garlousettes du Broutteux à<lb/>l’tiotte métchenne Delphine. — Eugène De¬<lb/>loffre, fils du facteur-boitier des postes, Bous-<lb/>becques. — Un ancien habitant 2 N. — Un<lb/>monsieur qui gêne au Tir National, à Rou¬<lb/>paix. — In brasseu des invirons qui n'est po<lb/>gourmeur de bire. — Louis qui a Marie de la<lb/>Maison de Ville, gravé dans son cœur. — 4<lb/>copagnons d’un bureu, dont un marjolain, un<lb/>républicain, un nain transigeant et in garchon¬<lb/>nal. — Le beau Clotaire qui a été printe in<lb/>bain d'pids dans la grande Becque de la Vi-<lb/>gnette, Linselles. — Pierre et Marie qui ont<lb/>été chercher la Lilloise à la gare de Roubaix.<lb/>— Julia Lerouge, élève de la 1ro classe des<lb/>filles de la Sagesse de Ste-Elisabeth. —V<lb/>n'faut pas l’poché, savez. — Un imploï d'la<lb/>gare d'Lanno qui vole toudis un crayon à deux<lb/>sus. — Un garçon boulanger de Roubaix, qui<lb/>a porté des coquilles à go clients et qui a reçu<lb/>29 sous pour son pourboire. — L'copagnon<lb/>Etienne qui n'est po v'nu au monde d’sous<lb/>l'poche d'un lapin. — Sisoixante-sixsangsus-<lb/>sontsursessourcilsanssucersonsangcessoixante¬<lb/>sixsangsuesserontsanssuccès. — Petit roux ac-<lb/>compagné de la fille du cabaret sans horloge,<lb/>Mont-a-Leux. — In bourleu-pinchonneux qui<lb/>a laichi querver sin pu bon pinchon, eu d'cha¬<lb/>grin y s’a fait tchitte de tout. — Paffiou, qui<lb/>France. — Une névralgie subitement guérie<lb/>per la présence d'un étranger, Annappes. —<lb/>Mes plus hautes sympathies et mes meilleurs<lb/>souhaits à celle qui souffre d’un mal de dents.<lb/>— Un mastroquet qui va vendre sa bière à 4<lb/>sous la cannette.— Les archers du Lion-Blanc<lb/>qui ont été tout brigi à Mouscron, jour du<lb/>Toussaint. — Celui qui a attrapé un coup de<lb/>bouteille à Célina, de la maison V. L. et A. D.,<lb/>de Roubaix.— Bionne innée Paffiou, Tournai.<lb/>— Un cousin à Rigaubert qui va aller à neu-<lb/><lb/>ches. — Lamissée contrariée d'avoir roulé en<lb/>brouette. — Un mendiant qui mange de la<lb/>tarte à pronne tous les jours. — Les deux ni-<lb/>gauds de la rue Decrême, qui aiment les grin¬<lb/>ques. — Louis l'bourleu qu'in l'appelle Pi-<lb/>rouette.— Rigaubert et Mitche et les invités.<lb/>— Le franc-tireur qui crio comme un aveule<lb/>qui avait perdu son bâton, ainsi qui mervoio<lb/>d'avoir été sus l'Broutteux y a tros s'maines.—<lb/>Le plus sévère de l'harmonie de Lys-les-Lan-<lb/>noy. — Un ancien porteu de sacquelets de<lb/>Lezennes. — L’er pas ceus dé té min nid kel a<lb/>trouvé l'solution d'in l'manche d'inne queue<lb/>miche l'a à son hé mable voie zin ?— Inne des<lb/>huit minteusses de l'impasse des Arts de l'rue<lb/>d'Lille, Roubaix. — Daniel et sin camarade<lb/>qui ont tout sali leu belles marronnes in jeuant<lb/>à cartes. — Une connaissance au garchon<lb/>Monci Antoine de Roncq, à Baisieux. — In<lb/>qui a fait tout sin possible pour impechi sin<lb/>copagnon Florimond de s’marier. — Un ex-<lb/>habitué du cabaret du Quai, qui a été forchi<lb/>d'faire 2 treus à sin capeu pou l'y l'mette. —<lb/>Une demoiselle de magasin d'un grand éta-<lb/>blissement de Roubaix. — Le garçon du ca¬<lb/>paret de l’tru à côté du cabaret du tro.<lb/></ab>
+        <p><lb/>Y n'd'a qui z’ont invoi leus solution trop<lb/>tard; inne fos qui est lundi au diner in n'les</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Tcheulle ersemblance qui a inter in<lb/>gendarme et in rouleau d’papi d’tapisse-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>Le cinquième volume vient do paraître</ab>
+        <ab type="head"><lb/>CHANSONS &amp; PASQUILLES</ab>
+        <p><lb/>Ouvrage complet : 5 volumes avec une notice sur<lb/>l'orthographe du patois, un vocabulaire et la nota-</p>
+        <p><lb/>hent:2 fr. 50 (par</p>
+        <p><lb/>Tout acheteur de l'ouvrage complet reçoit en<lb/>prime un magnifique portrait de l'auteur, sur bris¬<lb/>tot, avec encadromént artistique représentant des</p>
+        <p><lb/>Les tomes 2, 3, 4 et 5 se vendent par livraison</p>
+        <p><lb/>La chanson dite du P'tet-Quinquin, avec l'air<lb/>noté, un accompagnement de piano et une gravure,<lb/>se vend 25 cent. (45 cont. par la poste.</p>
+        <p><lb/>mars-Glélée, 48, et chez tous les librairen</p>
+      </div>
+      <div type="article">
+        <ab><lb/>de 9 h. à midi et de 1 h. à 4 h. par M. DEUX, méde-<lb/>cin-pharmacion, ex ier interne des hôp., 3 fois<lb/>ier lauréat de l'Ecole de Médecine, (Méd. d'Or et<lb/>d’Argent). Rhumes, Bronchites, Asthme et<lb/>Phthisie, Maladies secrètes (contagieuses), les plus<lb/>invétérées, Dartres, Ulcères, Bcsémas sont tou-<lb/>jours guéris par son traitemént. — Application de<lb/>bandages extraction et plombage des dents, expul¬<lb/>sion complète et garantie du Ver solitaise, à Rou¬<lb/>baix (Nord) Visites pour Roubaix, Tourcoing et<lb/>Lillo. traitement par correspondance.</ab>
+        <ab type="head"><lb/>CONSULTATIONS GRATUITES</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

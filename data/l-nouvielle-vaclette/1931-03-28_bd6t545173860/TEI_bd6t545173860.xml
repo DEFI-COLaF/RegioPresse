@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Nouvielle Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t545173860</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Nouvielle Vaclette : journal patoisant humoristique, non politique / avec la collaboration du Caveau lillois</title>
+          <publisher>[s. n.] (Lille)</publisher>
+          <date when="1931-03-28">1931</date>
+          <idno type="ARK">bd6t545173860</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t545173860</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>ANNÉE. — N° 317</fw>
+        <fw type="runningTitle"><lb/>L'abonnement se paie d'Avance</fw>
+        <fw type="runningTitle"><lb/>0.28 LE NUMÉRO</fw>
+        <fw type="runningTitle"><lb/>Samedi 28 Mars 1931.</fw>
+        <ab><milestone unit="column" n="2"/><lb/>REDACTION<lb/>Siège: 1, Rue de la Monnaie<lb/>ABONNEMRET<lb/>69, Rue Saint-Sauveur</ab>
+        <figure/>
+        <p rend="heading"><lb/>jourNal patoisant-hu<lb/>ORIST<lb/>NON PoLITIQUE</p>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>ANEC LA COLLABORATION</p>
+        <ab><lb/>R. du C. Lille 48.610</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Gérant : MAREELS Isidore</ab>
+        <ab><lb/>Chéques Postaux 37.182</ab>
+        <ab><lb/>Franco un am, 18.50</ab>
+        <p rend="heading"><lb/>Amateurs de Canchons Patoises</p>
+        <ab><lb/>la lilloise<lb/>Chanson de H. FOURNIER<lb/>(Paroles et Musique de l'auteur)<lb/>L' NOUVIAU BOULEVARD<lb/>Chanson de Ch. LAURENT<lb/>ou: Je pense à vous quand je m'éveille</ab>
+        <p rend="styled"><lb/>Vous trouvrez dins ch' liméro :<lb/>L'INFANT TROUVÉ<lb/>Résie de Ch. DELACROIX (Voir Avisse ci-dessous)</p>
+      </div>
+      <div type="article">
+        <head><lb/>AVISSE</head>
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>Contrair minl à l'tradition qui veut que l'<lb/>Nouviell' Vaclette n' publie qu' des histoires<lb/><lb/>gaies et drôlatiques, nous donnons, in deuxièm<lb/>pache, eun' biell' poésie du chochon Ch.<lb/>Delacroix intitulée l'Infant trouvé; p’lit drame<lb/>amilial.</p>
+        <p><lb/>Nos lecteurs apprécieront ch'l œuvre à s<lb/>baleur et nous saront gré d'avoir, pour eun'<lb/>los, dérogé à l' coutume."<lb/>N.v.</p>
+      </div>
+      <div type="article">
+        <p><lb/>ous veyez d’ichi l' tiêt' du méridional garde<lb/>epublicain, énom.<lb/>BBenot</p>
+      </div>
+      <div type="article">
+        <head><lb/>AUX DERNIÈR'S GRÈVES</head>
+        <p rend="labelled"><lb/>D'un groupe d' grévistes, stationnant tout<lb/>près de l' Plach' Trévisse, des cris d' morts à<lb/>Padress' des gardes républicains s'écappottent<lb/>d'eun poitrine.</p>
+        <p><lb/>Aussitôt, un garde s' précipite au mitan du<lb/>groupe et impoinne un loustic pa' l' collet.</p>
+        <p><lb/>Ch ti chis' débat aussitôt, comme un diable<lb/>dins un bénitier, mais chinq six aut's gardes<lb/>républicains courtent prêtent main-forte et on<lb/>mmène l' type au commissariat.</p>
+        <p><lb/>L' garde qui avait fait l'arrestation explique,<lb/><lb/>commissaire que ch' gréviste avot crié à<lb/>pleins poumons:</p>
+        <p><lb/>(A bas les flics » et « morts au v..... »</p>
+        <p><lb/>commissaire qui r'vettiot machinal'mint l'<lb/>pauf bougue qui n'bougeot pus d'eun' semelle<lb/>amblot l' reconnait pour un paisible habitant<lb/>quartier, dijot au garde :</p>
+        <p rend="labelled"><lb/>Mais m'n ami, vous n' se trompez point?</p>
+        <p rend="labelled"><lb/>Nin non, nin non, qu' je n' me trom' point,<lb/><lb/>répliquot l' garde, j l'ai vu d'mes propeurs<lb/>yeux ouvrir s' bouque et pousser les cris....</p>
+        <p rend="labelled"><lb/>Nous allons vir, mais je n' cros point qu'<lb/>noch' li et j' vas l'interroger tout d' suite,<lb/>ui répondot tout in souriant l' commissaire.</p>
+        <p><lb/> effet, ch' n'étot point ch' malheureux qui<lb/>pus pousser chés cris séditieux, car ch'étot<lb/>sourd-muet du quartier et ch'étot pasqu’i' n’<lb/><lb/>point pourquoi qu'on l'arrêtot qu’i' s'avot<lb/>pattu comme un biau Diable.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>heure d' puqué dins min lit ; t'aros dit qu' j'avos</ab>
+        <ab type="head"><lb/>A L'RÉDACTION</ab>
+        <p><lb/>Not' collaborateur J' minjamais, invoyé in<lb/>inquête, nous a ram’né sin rapport su' ch'<lb/>l'affaire d' rivalité d' quiens mis in route par<lb/>Jean Lève.</p>
+        <p><lb/>Ch' ti là, quand il in f'ra eun' bonne, on porra<lb/>l' graver, car cha s'ra eun' pièch' rare. I'a d'jà<lb/>eu un duel, i' a volu soul'ver (quand on s’appell'<lb/>Jean Lève, énon) les Collaborateurs à caus des<lb/>appoint'mints, infin, i' fait les quat' chints cops.</p>
+        <p><lb/>I' abuss' de l' bonté d' nous gérant et puis, i'<lb/>s' fie qu'i' est p'tit, qu'on n'os'rot point l' tou-<lb/>cher, sans cha.....</p>
+        <p><lb/>Bref à cha ; J'minjamais estallé trouvé Fleury<lb/>l' Brimbeux pour li d’mainder raison des paroles<lb/>qu'il avot dit à Jean Lève, su' l' dactylo d' l'<lb/>Nouvielle Vaclette, Mam'zelle Zoé Tapafaux</p>
+        <p><lb/>Fleury, qui suit un régime sévère pour li<lb/>maigrir, v'not justemint d' minger chinq tartines<lb/>huit peun’s d' tierre un sauret, un quart de brie<lb/>et eun' chope de vin rouche.</p>
+        <p><lb/>Comme i' fallot s’y attinte, l' Brimbeux a<lb/>protesté d' tout sin poisse, conte l'artique d'<lb/>Jean Lève, dijant qu' ch’étot eun' mintirie,<lb/>qu'i' n’avot jamais dit cha, et qu' sin quien<lb/>n’étot point dresché à faire des séquois parels.</p>
+        <p><lb/>Te sais, li dijot, J'minjamais, réfléchis bien à<lb/>ch' que te dis ; in affirmant que ch' l’histoire<lb/>n’est point vraie, te noirchis l' réputation des<lb/><lb/>Collaborateurs de l' Nouvielle Vaclette. Te<lb/><lb/>risques d' les fair' passer pour minteux, ou tout<lb/>au moins, qu’il in existe un parmi eusses.</p>
+        <p><lb/>Tout d' même répondot l' Brimbeux, te n' vas<lb/>point m' faire dir' chin que j' n’ai point dit. Te<lb/>comprinds, pour li montrer qu'i' uèfe, qu'i' four-<lb/>nit de l' copie, Jean Lève i'ara invinté eun'<lb/>histoire à s' façon.<lb/></p>
+        <p><lb/>Comm' la Madelon. Alors, tin quien ne r'con¬<lb/>duit point les clients.</p>
+        <p><lb/>Si i' r'conduit les clients, mais point comm'<lb/>l'a dit Jean Lève. Te veux essayer d' sortir, i'<lb/>va te r'conduire, te verras,</p>
+        <p><lb/>Nin non, j' te r'mercie ; j' veux bien faire m'<lb/>n'inquête pou' l' journal, mais je n' tiens point<lb/>à taquer m' maronne ; ch' n’est point l'Adminis-<lb/>tration qui l' paiera.</p>
+        <p><lb/>La d'ssus, les deux chochons buvott'nt chacun<lb/>un verr' d'iau, l'un de l' source d' Vittel. l'aute<lb/>de l' source d' Wambrechies. (Vous d'vinez l'<lb/>quel.)</p>
+        <p><lb/>J'minjamais s' dirigeot insuite jusqu'à l' mason<lb/>d' Jean Lève. l' étot à peu près dij' heures et<lb/>d’mie du matin, et l' chochon v’not juste de s'<lb/>lever.</p>
+        <p><lb/>S' doutant de l' raison de l' visite de J'min-<lb/>jamais, i' dijot tout bas à s' femme, (mais haut<lb/>assez pou' qu' l'orelle fine de J'minjamais l'in-<lb/>tinde):</p>
+        <p rend="labelled"><lb/>J'aros su, Mamarthe, j'aros resté eun' demie<lb/>des sinapisses à min coté, qu' ch'étot défindu d'<lb/>monter, j' sus sur que cha arot prist</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>— D' quoi P Les sinapisses ?</p>
+        <p><lb/>—Non, l' bonimint,</p>
+        <p><lb/>Puis, s'adreschant à J'minjamais:</p>
+        <p rend="labelled"><lb/>— Et alors vieux, cha va ? Queull' bonn'<lb/>nouvielle de t' vir par ichi ; t'as été au Convoi.</p>
+        <p rend="labelled"><lb/>— Cha non, te sais bien qu' ch’est ti l'délégué<lb/>aux intierr'mints et je n' vodros point aller sur<lb/>tes brisées ; j' sus v'nu t'demander, de l' part du<lb/>Gérant, d’s explications au sujet de t'n artique<lb/>"A bas Tom" paru dins l' liméro 315. Quoich"<lb/>qu’i' n’y à d' vrai, là d' dins?</p>
+        <p rend="labelled"><lb/>Quoi, qu'est-ch' qu'i' n'y à d' vrai ! In v'là<lb/>eun' question ! Queul intérêt qu' j'aros à mintir?</p>
+        <p rend="labelled"><lb/>— Je n' sais point mi, maisl Brimbeux prétind<lb/>qu'i' n’y a point un mot d' vrai, qu'i' n’a rien dit<lb/>de l' dactylo, qu’i' n’a point davantache blaguer<lb/>du grand Tom à Gradubide et qu' sin quien a<lb/>pus d' civilité qu' cha.</p>
+        <p rend="labelled"><lb/>— Et ben, ch' ti là, il in a un d' toupet ; si te<lb/>veux on va aller l' trouver insonne. Tiens, vette<lb/>v"là l' patalon qu' j'avos ch' jourlà, tiens, sins le</p>
+        <p><lb/>In eflet, l' patalon à Jean Lève i'a eun' drol'<lb/>d'odeur qu'on n' sarot point définir, mais qu'i'<lb/>n'a point l'air de v'nir d'un quien.</p>
+        <p><lb/>Là d'ssus, J'minjamais quittot Jean Lève et<lb/>s’in allot à l' rinconte d' Gradubide.</p>
+        <p><lb/>l' trouvot ch' dernier au Téléphone, plach' des<lb/>Reignaux, attablé d'vant un d'mi de l' bière d'<lb/>l'Av'nir, boisson préférée des Collaborateurs et<lb/>d' gramint d' lijeux, j'in sus sur.</p>
+        <p rend="labelled"><lb/>-Tiens, v'là J'minjamais, qu'i' s'écrie, te fais<lb/>comme mi ?</p>
+        <p rend="labelled"><lb/>- N' fais point attintion répond J'minjamais,<lb/>j' sus grippé; j' vas boire un p'tit rhum.</p>
+        <p rend="labelled"><lb/>— T'es grippé; bos de l' bière, comme mi, cha<lb/>s' pass'ra ; ch'est frod quand cha passe, mais<lb/>après, cha récauffe. Vette, mi, je n' bos rien<lb/><lb/>aut' cosse et j' sus bati comme un mur.</p>
+        <p rend="labelled"><lb/>— In eflet, on vot les briqu’s qui dépassent.<lb/>Mais i' n' s'agit point d' cha : j' sus çargé pa'<lb/>Gérant d'faire eune inquète su' l'artique d' Jean<lb/>Lève, “A bas Tom” quoich' que t'in dis ?</p>
+        <p><lb/>J'in dis que l' Brimbeux a exagéré les qualités<lb/>d' min quien; i' fait gramint d' séquois qui sont<lb/>énumérées dins ch' P'artique, mais i' à erreur<lb/>pou' d' certaines. Ainsiin ch' quis'agit d' tourner<lb/>l' café, ch' n’est point cha, i'à eun' fos r'tourné<lb/>l' molin qui étot plein d' café, pou' l' question d'<lb/>touiller l' soup' pou' n' point qu’ell' brule, avec<lb/>li, ch'est inutile, pasqu'i' sarot tortiller la mitan<lb/>de l' marmite avant que l' soup' sot cuite. Pour<lb/>tijonner au fu, là, i' à aussi confasion. Comme<lb/>li a eun' biell' largue queue, qu'i' fait conti¬<lb/>nuel'mint aller d' gauche à droite, quand m’<lb/>femme elle veut avoir du grand fu, ell' plache<lb/>min Tom d'vant l' cuisinière, sin derrière du<lb/>coté du tro qu'i' n'y a au d'ssus du tiro, et l'<lb/>grand vint produit pa' s' queue active l' fu in un<lb/>clin d'œul.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

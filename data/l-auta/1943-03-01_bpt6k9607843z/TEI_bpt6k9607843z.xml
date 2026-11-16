@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Auta</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k9607843z</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Auta : que bufo un cop cado més : organe de la société les Toulousains de Toulouse et amis du vieux Toulouse / gérant P. Mesplé</title>
+          <publisher>[s.n.] (Toulouse)</publisher>
+          <date when="1943-03-01">1943</date>
+          <idno type="ARK">bpt6k9607843z</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k9607843z</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Nouvelle Série – N. 140</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Mars 1943<lb/><lb/>SOCIETE</ab>
+        <p rend="styled"><lb/>Paraissant tous les mois, sauf en Juillet, Septembre et Octobre</p>
+        <p rend="heading"><lb/>RII<lb/>QUE BUFO UN COP CADO MÉS</p>
+        <ab><lb/>LES TOULOUSAINS DE TOULOUSE<lb/>6. RUE<lb/>SAINT<lb/>ET AMIS DU VIEUX TOULOUSE<lb/>JEAN</ab>
+      </div>
+      <div type="article">
+        <head><lb/>SOMMAIRE</head>
+        <ab><lb/>NOUVEAUX ADHÉRENTS.<lb/>LE POÈTE GUILLAUME DE SALLUSTE DU BARTAS A TOULOUSE EN L583<lb/>(RAYMOND CORRAZE).......<lb/>35<lb/>LA VIE TOULOUSAINE........<lb/>38<lb/>..<lb/>LA VIE DE LA SOCIÉTÉ : A L’HOSPICE SAINT-JOSEPII DE LA GRAVE. —<lb/>LE CENTRE DE TRANSFUSION SANGUINE (DOCTEUR STILLMUNKÈS).<lb/>L’HOSPICE SAINT-JOSEPH DE LA GRAVE (DOCTEUR HENRI NUX) 40</ab>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>Samedi 27 Mars à 17 heures, Visite de la Maison<lb/>des Etudiants et des restes du Couvent des Cordeliers, sous la direc-<lb/>tion de M. Bigorre, président de l’Association des Etudiants, et de<lb/>M. Pierre de Gorsse, Inspecteur régional des Sites et Monuments<lb/>naturels.</p>
+        <p><lb/>Rendez-vous à la Maison des Etudiants, rue des Lois, no 15.<fw type="digitisation-artefact"><lb/>gallica.bnf.fr / Association des Toulousains</fw></p>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="34"/>
+        <p rend="heading"><lb/>Nouveaux Adhérents</p>
+        <figure type="decoration"/>
+        <ab><lb/>2001. M. Pierre MIROUZE, 24, rue des Arts. Présenté par MM. Mi¬<lb/>rouze et Stiéber.<lb/>2002. Mme SENTENAC, 256, rue des Fontaines. Présentée par Mme Re-<lb/>née Ducap et M. Masson.<lb/>2004. M. Isidere MILOT, rue Fieux. Présenté par MM. Maurice Alet<lb/>et Fernand Stieber.<lb/>2005.<lb/>PLANTIER, 38, rue Sainte-Philomène. Présentée par<lb/><lb/>Mne Hélène Carrière et M. Stieber,<lb/>M. Charles VI.LAS, chirurgien dentiste, 51, rue d’Alsace-Lor-<lb/>2007.<lb/>raine. Présenté par le Docteur Nux et M. Mesplé.<lb/>2008.<lb/>Mme Henri DE DARASSUS, 3. rue Maletache. Présentée par<lb/>M. Charles Dupont et Mne G. Dupont.<lb/>2009<lb/>M. Marcel BONNET, notaire, 13, rue Peyras. Présenté par le<lb/>Docteur Nux et M. J.-R. de Brousse.<lb/>2010. M. Louis GAUBE, 49, rue Riquet. Présenté par MM. J.-R.<lb/>de Brousse et Mesplé.</ab>
+        <p rend="labelled"><lb/>2003, Comtesse R. DE MARLIAVE, villa Bellevue, route de Lombez.<lb/>à Lardenne. Présentée par Mme<lb/>Corraze.</p>
+        <p rend="labelled"><lb/>2006. M. Henry DELFAU, délégué départemental des Beaux-Arts<lb/>pour la Protection des Sites, 30, rue des Carmes, à Montau¬<lb/>tauban. Présenté par M. le Professeur Hlenri Caubet et<lb/>M. Pierre de Gorsse.</p>
+        <p rend="styled"><lb/>Membre donateur : M. BABONNEAU.</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>Cotisations 1943</p>
+        <p rend="styled"><lb/>Pour permettre aux retardataires de se libérer, M. Stiéber, tré-<lb/>sorier, informe les Sociétaires qui n'ont pas encore payé leur coti-<lb/>sation (15 france minimum) que la date de la mise en recouvre-<lb/>ment des cousations non payées est etardée jusq au 15 avrit.<fw type="digitisation-artefact"><lb/>allia.bnfr/Association de Toulous</fw><lb/>effectuées sur les ordres des Docteurs Labbé et Tibaudeau pour des<lb/>soldats blessés au siège de Mazères, soit en 1569. (Les feuilles son<lb/>visées par Labbé.)</p>
+        <pb facs="0012.xml"/>
+        <milestone unit="page" n="4"/>
+        <p><lb/>La peste ne devait reparaître qu’au siècle suivant, surtout de<lb/>1629 à 32 et 1651-52. L’hôpital ne répondait plus umquement à sa<lb/>destination primitive. On y enfermait aussi, par ordre du Parle-<lb/>ment, qui confirmait les sentences des capitouls, les filles de mau¬<lb/>vaise vic.</p>
+        <p><lb/>C’est en ce lieu que se terminaient les exécutions des entremet-<lb/>teuses. Barthés nous en donne plusieurs fois le détail dans ses<lb/>Heures perdues.</p>
+        <p><lb/>Après avoir fait amende honorable à saint Etienne, nue en che-<lb/>mise, la hart au col, tenue par le bourreau et coiffée d’un casque<lb/>emplumé garni de grelots, un mantelet sur les épaules également<lb/>emplumé et montée sur une ânesse, le visage tourné du côté de la<lb/>queue, escortée de tout le guet, le valet du bourreau tenant l’ânesse<lb/>par le licol, un écriteau devant et derrière mentionnant sa « qua-<lb/>lité », la femme était promenée en ville. On la conduisait ensuite<lb/>sur la pile du Pont-Vieux cù on l’enfermait dans une cage que le<lb/>bourreau faisait plonger trois fois dans le fleuve. En juin 1749,<lb/>l’opération fut très longue vu l’embarras où se trouvait le bourreau<lb/>avec son peu de monde; ne pouvant en aucune façon faire jouer la<lb/>bascule qu’on avait montée à neuf ce jour-là, la cage ne pouvait ni<lb/>s’élever ni s’enfoncer, ce qui dura plus de trois heures. Plus de dix<lb/>mille personnes assistaient à ce spectacle.</p>
+        <p><lb/>L’internement à la Grave, souvent à vie, terminait l’exécution.<lb/>C’est au xVIIe siècle que des émules toulousains de saint Vincent<lb/>de Paul, le prêtre Arnaud Baric, l’abbé de Ciron et Mme<lb/>organisèrent l’assistance aux pauvres. Les plus connues de ces orga¬<lb/>nisations furent : l’ « œuvre du bouillon des pauvres de la paroisse<lb/>Saint-Etienne », la « Société des Dames Visiteuses », la « Confré-<lb/>rie de Saint-Joseph » qui coordonnait les efforts inspirés surtout par<lb/>la Compagnie du Saint Sacrement et favorisés par l’archevêque de<lb/>Montchal. Ainsi naquit l’idée de l’aumône générale et de la créa-<lb/>tion d’un hospice pour les innombrables miséreux qui encom¬<lb/>braient les églises et les rues de Toulouse afin de les réunir, de les<lb/>soigner, de les instruire et de relever leur niveau moral en faisant<lb/>travailler les plus jeunes et les plus aptes.</p>
+        <p><lb/>Pour cela, on décida de transformer l’hôpital des Pestiférés, ou<lb/>Saint-Sébastien, en hospice général, semblable à celui de Paris.</p>
+        <pb facs="0013.xml"/>
+        <milestone unit="page" n="45"/>
+        <p rend="labelled"><lb/>Le 26 mars 1647, les capitouls adopièrent la proposition d'Ai-<lb/>naud Baric et affectèrent les deux hôpitaux de la Grave au logement<lb/>des mendiants. Le 7 juillet de la même année, l’hôpital est établi<lb/>sous les nom et vocable de saint Joseph.</p>
+        <p><lb/>Une bulle du pape Innocent X, en janvier 1652, des lettres<lb/>patentes de Louis XIV en octobre 1658, confirmèrent l’établissement.<lb/>Le 4 avril 1660, les capitouls le cédèrent aux directeurs, c’est-à¬<lb/>dire au Conseil des Affaires, analogue à celui de l’Hôtel-Dieu.</p>
+        <p><lb/>Les nouveaux bâtiments de l’hôpital général s’élevèrent en 1661<lb/>et furent complétés en 1684 par le corps du midi et la reconstruc-<lb/>tion de l’église. Un incendie détruisit en partie le nouvel établisse-<lb/>ment le 2 décembre 1687 et en 1690 on suspendit les travaux neuis<lb/>jusqu'à nouvel ordre. C'est que l'hospice de la Grave ne pouvait<lb/>suffire aux frais énormes d’aménagement des locaux et d’hospitali-<lb/>sation; il était couvert de dettes. Des générosités privées, surtout<lb/>au siècle suivant, lui permirent cependant de subsister. C’est ainsi<lb/>que Toulouse, sous Louis XIV, fut à peu près débarrassée du fleau<lb/>de la mendicité qui avait sévi sous Henri IV et Louis XIII.</p>
+        <p><lb/>A la fin du xvIII siècle, l’hospice de la Grave était encore<lb/>en proie à des difficultés financières telles qu’en 1790 le club des<lb/>Jacobins lui accorda une subvention de 10.500 francs.</p>
+        <p><lb/>C’est à cette époque que se place l’annexion du couvent des Dames<lb/>de la Porte. Cet établissement était à l’origine occupé par des reli¬<lb/>gieuses de Saint-Benoît qui le quittèrent pour s’établir à l’églis de<lb/>Saint-Rome en 1325. Le Prieur de la Daurade le céda, en 1464, aux<lb/>religieuses du Tiers-Ordre de Saint-François qui n’avaient d’autres<lb/>ressources que le travail de leurs mains et la charité des fidères.<lb/>Ce nom de couvent des Clarisses de la Porte venait de son voisinage<lb/>avec la Porte de l'Isle et servait à le différencier du couvent des<lb/>Dames de Sainte-Claire du Salin. Avant 1789, il avait éte déjà<lb/>question de l’annexion du couvent à l’hospice de la Grave. Elle fut<lb/>de nouvau demandée à la fin de 1791 ou au début de 92, puisqu’à<lb/>cette époque on voit une pétition d’habitants de Saint-Cyprien revê-<lb/>tue de 189 signatures, réclamer le maintien de cet établissement.<lb/>Une nouvelle demande de réunion est faite au département le<lb/>1er juin 1793 : un devis et un rapport sont établis par les ingénieurs<lb/>Virebent et Courtalac en prairial an IV; puis, l’année suivante (fri-<lb/>maire an V), par l’ingénieur Laupiès. Cette fois, il s’agissait non plus<lb/>d’un bien religieux disponible mais d’un hôpital militaire à désaf-<lb/>fecter, l’hôpital Christophe-Colomb, ce qui n’alla pas sans quelques<lb/>difficultés bien que l’autorité militairé eût abandonné les locaux.<lb/>Tout paraît terminé vers la fin de Messidor an V. En effet, à la suite<lb/>d’une pétition des habitants des 2e, 9e et 10e sections demandant<lb/>la date de la concession du local connu sous le nom de couvent des<lb/>religieuses de la Porte ainsi que du genre de service auquel il est<lb/>employé, la Commission des Hospices civils répond; à la date du<lb/>6 Thermidor an VIII (25 juillet 1800) qu’elle jouit du local en vertu<lb/>d’un arrêté du Département du 4 Prairial an V qui en fait conces-<lb/>sion aux hospices moyennant la somme de 2.000 francs par année<lb/>de loyer. L’usage de ces bâtiments fut acordé à la Commission en<lb/>conséquence du nombre des mendiants qui étaient entasses, faute<lb/>de place, non seulement dans les quartiers, mais encore dans les<lb/>galetas et les combles de l’hospice de Bienfaisance. Si la Commis-<lb/>sion avait eu les moyens convenables pour fairé les réparations,<lb/>depuis longtemps elle aurait exécuté ce plan d’agrandissement indis-<lb/>pensable pour séparer les individus dont la communication est<lb/>d’autant plus funeste que la contagion se gagne et va souvent atta-<lb/>quer ceux qui n’avaient d’autre mal que le dénûment absolu le<lb/>ressources. Les locaux, en attendant une destination plus favorable,<lb/>sont occupés par les filles orphelines réunies à l’hospice de Bien¬<lb/>faisance. L’on y traite aussi les individus atteints de démence. Enfin<lb/>le local réclamé par les pétitionnaires ne peut, en aucun cas, servir<lb/>de temple au culte catholique sans détruire un plancher immense<lb/>qui divise transversalement l'ancienne église et qui fut construit<lb/>pour utiliser ce local et former deux salles à l’usage des militaires<lb/>malades.</p>
+        <pb facs="0014.xml"/>
+        <milestone unit="page" n="46"/>
+        <p><lb/>Il y a quelques années, on pouvait encore voir des cellules sem-<lb/>blabies à des prisons dans lesquelles on enfermait les fous qui<lb/>étaient soumis à des conditions d’hygiène et de confort des plua<lb/>précaires. On les appelait les cabanons d’Esquirol. Ce fut lui, en<lb/>effet, qui appliqua dans les hospices de France les principes de son<lb/>maître Pinel (autre gloire méridionale) qui préconisait le système<lb/>de la douceur vis-à-vis des aliénés au lieu de la force et de la mise<lb/>aux fers jusqu’alors employés. Il est inutile d’ajouter que ces caba¬<lb/>nons qui existaient naguère encore étaient désaffectés depuis très<lb/>longtemps.</p>
+        <p rend="labelled"><lb/>Au XIXe siècle, les bâtiments sont agrandis ou restaurés. Cer-<lb/>tains portent une date commémorative Ainsi nous voyons dans la<lb/>cour Sami-Joseph les inscriptions suivantes:</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">A Muvra</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k13308593</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>A Muvra : bulletin régionaliste de l'île de Corse ["puis" ghiurnale di e pieve di Corsica "puis" giurnale di e pieve di Corsica] / dir. Pierre Rocca</title>
+          <publisher>[s.n.] (Paris)</publisher>
+          <date when="1927-12-20">1927</date>
+          <idno type="ARK">bpt6k13308593</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k13308593</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="cos">corse</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="2"/><lb/>GIURNALE DI E PIEVE BI GCReCA</ab>
+        <ab><lb/>puleghia di jente in seguitu di vatoghiu, c'è a dinamita e, a<lb/>an struggle for life resuli im¬fiume biotu, a calcina e u patel-<lb/>pussibule da l'incuria d'un gu¬ lu cu d'altri toschi più putenti<lb/>tre macchie imbalsamate e i zine, ma, a libra o u chilò ap<lb/>nostri fiumi di cristallu, zuffi parinanu quantunque l'aftare,<lb/>Eu giurnalista di « Bastia Jour-nostre riverenze e e nostre prutesta<lb/>nu e delizie eu dolce passatem¬pastu di u jornu, ancu per avè<lb/>pu d'i sebbiati corsi ch'avianu cume vicinu di tavula un agen<lb/>a ferma bona vuluntà o u fur-te qualunque di a legge, ancu<lb/>lu paga salitu, gira e sette noi, cunoscenu cume noi i de-<lb/>cu, scalzu e strappellatu senz a sterpazione cuntinua tran-<lb/>una coda, l'espertu cappiaghiu quillamente cume s'ella fussi<lb/>revetus de leur uniforme, con-farniente ben pagatu, cunti¬<lb/>formément... ecc...ecc... l'im¬nuanu a culpevule penciulata.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>38, Corsu Grandval 38. – AIACCIU</ab>
+        <figure type="table"/>
+        <ab><lb/>Direttore: Petru ROCCA</ab>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>Sterpamentu</p>
+        <ab><lb/>e Penciula Amministrativa</ab>
+        <p><lb/>vernu solu culpevule, ci fer- e più raffinati.<lb/>mavanu, in più di e bellezze</p>
+        <p><lb/>Merule, torduli, trizzine e<lb/>culleghia, per falli gode di a palatichi fini.</p>
+        <p><lb/>face un girettu bi quotidianu auturizzata.<lb/>fin la so tesa, tranquillamente,</p>
+        <p rend="styled"><lb/>punenti carabinieri,li lentà un<lb/>ponsouar bragadié!... e passa.</p>
+        <p><lb/>diurigalu di a mezza duzzina<lb/>per l'arrostu incappia u nostru<lb/>cappiaghiu, ma si ne tira a bon<lb/>contu, mandendu più luntanu</p>
+        <p><lb/>chi cuncerna l'abitanti di e</p>
+        <p><lb/>Mentre chi l'amatore di a<lb/>pesca a u lumbricu o a' mosca<lb/>arificiale adopra in vanu tut-<lb/>tii so ardigni e a so stuzia, e ris-<lb/>pettendu a chiusura cume una<lb/>vera quaresima, i pettinadori<lb/>chiughe e grandi. Un piattanu<lb/>gui a eta </p>
+      </div>
+      <div type="article">
+        <ab><lb/>Journal » si stupisce che i France¬ francesi, vivu cume mortu, è statu<lb/>persona chi stà in Bastia averebbe l'hanu sempre chiamatu «le Cor-<lb/>gassi in varii acconti, ha rispostu chi pava, si ne sò abbanstanza burlati<lb/>un facia mica simili negozi cun stra¬ di u sò accentu ìtalianu ! L'avianu<lb/>di Grazia 1927, l'impiegatu di a cur¬ cume fratelli,e contiuemu a rive<lb/>ruetitu e quella truta cu' limo-Bastia una sottu-prefettura, sede di</ab>
+        <p><lb/>In un articulu «Note Brèves cum-ne è natu in Corsica.<lb/>parsu u 27 Novembre 1927, «Bastia<lb/>In la nostr'isula chi si spu- u torbidu e u nassinu a u cu¬ si cunoscanu male a Geografia, e ra- sempre cunsideratu cume un cor-<lb/>conta a l'appoghiu u fattu segente: su, mai cume un francese.</p>
+        <p><lb/>Una casa di Parigi, a a quale una<lb/>cumandatu un cannucchiale da pa-</p>
+        <p><lb/>averebbe fattu una cumanda di al<lb/>tri articuli, e a detta casa averebbe</p>
+        <p><lb/>rispundenza cummerciale diuna ca¬ rirli umilmente.....<lb/>sa Parigina un sappia mica chi a<lb/>Corsica è un dipartimentu francese,<lb/>di u quale, Ajacciu è u capu locu e<lb/>Cuvernu Militare e di una Cor¬<lb/>n'ha mai intesu parlà di Napoleone<lb/>e chi ellu o ella si figura prubabil-<lb/>un suspetta mancu l'esistenza di un<lb/>A videmu e a tucchemu; cu/dipartimentu chi ha datua a Francia<lb/>un imperatore, marescialli, genera¬<lb/>li, capi di armata e, cosa che un pa-</p>
+        <p><lb/>Sò sicuru chi questa casa, cume</p>
+        <p><lb/>Perchè un francese, un veru fran-eoc<lb/>deratu e un cunsidererà mai un cor- M.R. — Corizzi — L. A. Canasi -</p>
+        <p><lb/>A casa di Parigi chi vende i can- Ranfia — Vespa.<lb/>nucchiali sà benissimuchi Napoleo-</p>
+        <figure type="decoration"/>
+        <p><lb/>Quì un si parla più di u ri-<lb/>naturali e u dolce clima, e nos- galu per duzzine o mezze duz- nieri.<lb/>di u più riccu e squisitu salva¬ e, ancu e rete catturate sò rese fattu a stessa risposta, cun una fran</p>
+        <p><lb/>Tuttu què face ch'in li nostri<lb/>pernici, trute e anguille, facia- hotel, pudete dumandà ad ogni nal» scrive a stu prupositu:<lb/>tunatu benessere per un sulcà in tempu di caccia o pesca prui-<lb/>l'onde e un girà i quattru scorni bita, quellu merlacchione ar¬<lb/>culu di l'ultimu sterpamentu,d'acellame senza traccia diteri-<lb/>sottu l'occhj di certi magna¬ ta di piombu e panere di pes-<lb/>brenna chi un dolce e culpevu¬ ciu picchiulatu, imbarcanu per mente chi Napoleone è natu in Ci-<lb/>le farniente ben pagatu bar¬ d'altri lucali, a cunsulà d'altri na. Cosa pensà di un francese chi</p>
+        <p><lb/>Mentre chi u francu ma pocu nuscimu i delinquenti, cunus-<lb/>astutu cacciadore, armatu d'un cimu l'incettaghi, i puteri in- riginu unn'ha mica u dirittu di ignu,<lb/>fucile e d’un scartafacciu ch'el¬ caricati vedenu e toccanu cume rà...u nostru Prufettu di Pulizia.»..<lb/>chiappelle e si ne rientre mac- linquenti e i ponu chiappà, e Journal», chi questa casa un sà mi-</p>
+        <p><lb/>Si sente ogni tantu chi quella<lb/>e passa a sera avanti notte da¬vaccina o quella rucchiata di tutte quelle di Francia, cunosce be-<lb/>vanti a giandarmeria cu a so pecure sò state abbelepate be- nissimu a Geografia di a Rrancia<lb/>sacchetta imbuffata a crepera jendu in qualchi fiume, si sente Cuntinentale, di a Guinea, diu Su-<lb/>dipizzichigialleedipedirosse. ancu chi qualchi persona ha<lb/>Suvente, 'ssu nostru nimicu avutu per listessu mutivu serii<lb/>di a fatica, lascià pendigà da' sintomi d'attuscatura e.. i sgiò<lb/>bocca di a sacchetta un capu incaricati di fà rispettà legge e<lb/>arecchj longu, e,scuntrendu... bene publicu, in lu so dolce cese ben intesu, unn'ha mai cunsi-</p>
+        <figure type="decoration"/>
+        <figure/>
+      </div>
+      <div type="article">
+        <ab><lb/>Puesiee Articuli d'i principali Iurita mettia un pocu di gioia tris¬<lb/>chini — Ghjlormu — Prete Guglielmi in quell'ombra ottusa. E cusi, in la</ab>
+        <p><lb/>Cume un filu di paternostri, u più<lb/>luntanu purghiendu l'acqua a upiù<lb/>bicinu, e l’altru a quill'altru, i mu-<lb/>lini di u Vergalu Maestru, sputen-<lb/>du acqua furiosa, stavanu ciatti in<lb/>le castagnete ch'avianu lampatu un<lb/>cuvertoghiu rughjnosu a u pede<lb/>de quelli scrucchioni ranficati, o a<lb/>u pede di u vergalu sciumacciulen-<lb/>te. Tandu, macinavanu più ferina<lb/>ch'ell'un ne sbarca oghie da i cata-</p>
+        <p><lb/>Avà, chi pietà, quassu! Sò culla¬<lb/>tu a bedeli e unn'aghiu trovu ca e<lb/>so petre ammuntulate e cuperte<lb/>d’un mantellone verde, beru pilone<lb/>cirnese chi piatta e lacrime di 'sse</p>
+        <p><lb/>Mi sò divertitu a guerdallu, 'ssu pi-¬<lb/>lone nostrale, e a coglie i nomi di<lb/>tutte quelle piante, splendore di'<lb/>jorni di cudrura. Aghiu vistu u<lb/>jcaru cu quelle frundoni verdi e<lb/>narbicute, cu e radiche di u quale<lb/>e nostre donne antiche facianu u<lb/>sugu pè stirà e camisgie, u filettellu<lb/>tuttu pilosu, u pan purcinu chi<lb/>guarisce i cionchi, l'erbucciulu chi<lb/>pampanutaue erba buina cusi<lb/>oliose, l'ellara abbracciendu 'sse<lb/>petrancule d'i muri sfalati, e strin-<lb/>ghiendule tantu da paura ch'ell'un</p>
+        <p><lb/>In quà e in là, una pratalina cu¬<lb/>ta in 'ssa verdura chi l’ombra di<lb/>P'elpali scagliosi e buccaluti facia</p>
+        <p><lb/>Uni di'ssi fiuretti, orgogliu diu<lb/>ruccia di u mulinaghiu, avà tutta<lb/>miò mente piena d'i ricordi di u<lb/>mischina e dura di quelli mulinaghi,<lb/>e ancu di tante storie di strigoni e<lb/>fulletti chi, tandu più che oghie in<lb/>un seculu senza puesia, empjanu a<lb/>notte, i circondi di u paese e </p>
+        <p><lb/>Di seratinata, zia Cinarchese di<lb/>Scolca falò a l'Ungaru, mulinaghiu<lb/>di Pugiacca, u so granu da macinà.<lb/>Ne vulia prestu a ferina, ch'un ne</p>
+        <p rend="labelled"><lb/>A povara vecchia un ne durmi<lb/>jornu, s'alzò, ed eccula falendu a u<lb/>a funtana a Trave, li parse di vede<lb/>un ballu rittu in una chiusella. In-</p>
+        <p rend="labelled"><lb/>a st'ora? murmuginò. Ch'elli un si<lb/>ne tecchinu mai più!...e pigliò ghiò</p>
+        <p><lb/>A zia vecchia un s'abbide mancu<lb/>chi, malgradu i giri e i rigiri d'i bal-<lb/>larini, un si sentia un zittu. Era un<lb/>ballu propriu stranu, senza sonu.</p>
+        <p><lb/>U vergalu mughiava, e a luna<lb/>sperghia sopr'a tutt'a valle cume<lb/>I nostri veri amici un sò un mantellu di seta fine chi cascava<lb/>spampillendu nant'a e fronde d'ar-<lb/>mughiu gattivu di quell'ombrione<lb/>e a dulcezza serena di quella nutta-</p>
+        <p rend="heading"><lb/>Nota Brevissima</p>
+        <p><lb/>Tutti i storici, antichi e muderni,<lb/>se», « l'Italien. » Quand'ellu cam-<lb/>ancudatu u sopranomedi « La pail<lb/>Un pocu più tardi, un altru corsu le au ne », a causa di a so manera<lb/>stessa di pronunzià u so nome «Na-</p>
+        <p><lb/>Cunstatemu una volta di più chi<lb/>i Signori Francesi, malgradu tutte e<lb/>zione di attacamentu e d'affezione,<lb/>«Pare inammissibile chi nell'annu unn'hannu mai vulsutu cunsideracch</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>cia. Ma unn'è sola. E longa a cum¬ daccioni — Ciaffu — Cossu — A. F.<lb/>danu e di l’altre culonie francese. U Sampetracciu — Sebbiu — Simonu<lb/>Però un cunosce mica a Corsica di li Lecci — Simonu di San Jorghiu<lb/>e Manifestazione —Raconti —Fo¬da u penseru. Quandu li parse<lb/>Canzone cu musica — Induvinelle mulinu per'ssi petricaghi. Ghiunta</ab>
+        <p rend="styled"><lb/>Pueti e Scrittori dialettali:</p>
+        <p rend="structured"><lb/>Altore — Anatra — Appinzapalu-<lb/>E chiaru, caru cullega di «Bastia Alessandri di Chidazzu — G. L. Alberti<lb/>U Babbuziu — Belmonte — L. A.<lb/>cachi a Corsica face parte dia Fran¬ Canasi —U Cervu d'Ascu — G.P. Co. nostru auturnu, era natu in la ceme<lb/>pagnia di i francesi chi un la sanu Filippini — P. Graziani — P. Giovac. scurticata e sfundata, raggiu di lume<lb/>P. Manfredi — Minicale — V. Morac-passatu, sorse u ramaricu di a vita<lb/>chini — Olivieri — L'Orsu d'Orezza–<lb/>Pampasgiolu — Paoli di Taglio — P.<lb/>di C. — Petru di Niolu — Pianura</p>
+        <p rend="labelled"><lb/>U Strampalatu — A. G. Terrazzoni</p>
+        <p rend="labelled"><lb/>Tristani —U Vecciu Sindacu ecc..<lb/></p>
+        <p rend="styled"><lb/>Disegni di: Kyrn — Geronimi-<lb/>Riffiari – Solacroup – Urticula–</p>
+        <p rend="styled"><lb/>Fotografie e riproduzione di vec¬</p>
+        <p rend="structured"><lb/>Calindariu — Note storiche, ar¬ pronta.<lb/>cheologiche, agricole – Discorsi<lb/>le — Stalbatoghi — Cummedie-<lb/>-Folklore (pruverbj, detti di paesi,<lb/>minacce, ghjasteme, motti per l'a-<lb/>nimali, sciogli-lingua, Filastrocche, quant'a me Vulpaghiacci ballavanu.</p>
+        <p rend="labelled"><lb/>rordine d'arrivu ds'u</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>micca quelli chi ci contanu gentu di lolivi. Chi cuntrastu tra u<lb/>chiacchiare ma quelli chi ci<lb/>mandanu u so abbunamentu. ta limpida e cha</p>
+      </div>
+      <div type="article">
+        <ab><lb/>ouce gallca.n.fr/Bibliotèque municipaeesa</ab>
+        <pb facs="0002.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/>Rusina —?? (Face un gestu ver- riuccia fin'a l'usciu)– Vai e chia-<lb/>Ghiannone — Alò, chi tuttu sia che l'altre quandu a capruna lé pas<lb/>Rusina — Cume, o bà, mi lesciate un possu, un possu fà altrimente!</ab>
+        <ab><milestone unit="column" n="1"/><lb/>fulletti, chi oghie èlu terzu jornu di plus terribles, il souhaite substituer</ab>
+        <p><lb/>catagnu neru e paria propriu un<lb/>strigone orridu cu e so duie boc-<lb/>che chi zirlavanu una saliva arrab</p>
+        <p rend="labelled"><lb/>te? Cum'averaghiu fattu? Furtuna<lb/>chi aghiu trovu jente... Vulpa¬</p>
+        <p rend="labelled"><lb/>Seranu stati piuttostu i strigoni o i que provoquer des guerres de plus e</p>
+        <p rend="labelled"><lb/>chietta, chi avà un ci serà più stri¬liberté et la pai</p>
+        <p rend="labelled"><lb/>ti sempre stu tizzone incesu, ghiè<lb/>sempre bughiu. Si tu trovi a nimu,</p>
+        <p><lb/>ballarini si ne falavanu empiendu</p>
+        <p><lb/>vecchia cappiò a prugantula di</p>
+        <p><lb/>chia cu a so ferina. Si misse subitu<lb/>levame. U zenu un finia mai, e un-<lb/>n'è mai finitu. Fin ch'ella campò,<lb/>zia Cinarchese unn’ebbe bisogne</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p><lb/>visoriu per unn'assuciazione d'i pueti</p>
+        <p><lb/>d'ajutalli pè a publicazione di e so</p>
+        <p><lb/>mente. Scrive a Gniannetiu Notini,</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>nanimita d'i presenti, l'ordine did<lb/>jornu chi no' publichemu qui sottu.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>b'aspettavamu. (Porghie una sedia) gattata, choyata cum'ella pò esse<lb/>Mirà, senza manere, o Natà, accumu- stata fin quì in casa vostra, vi ne ris-<lb/>ciata) — Eh! Lasciatemi macaru fà sa. Serete a maitressa di a casa, fere-<lb/>i miò duveri inpersu madamicella! te e disferete, un vi mancherà pane,<lb/>complète en ce qui concerne sa propre di dumandà a babbu nanzu a me, e<lb/>per boi e per me, ma, vurrìa riflette che per l'annoiu ch'elle vi darlanu.<lb/>cosa ch'è pè a vita e chi voi inten¬miò figliola, magnatine tranquilla</ab>
+        <p rend="styled"><lb/>Marseglia, rientre a u paese, duve, a<lb/>mamma Filumena, vana quant' ed ellu,<lb/>intreccia un matrimoniu cu Rusina di<lb/>Jannone, pruprictariu impazzitu pèu</p>
+        <p rend="styled"><lb/>Tuttu è cumbinatu fra i parenti. Ru-<lb/>sina, sola, un ne sà niente. Natale, fie¬<lb/>ru,annuncia a nutizia a un certu Pas. gliate a male per vedela cusi, è a<lb/>quale (cumpagnu di Saveriu, u veru giuventù chi a vole! Ma rispondu<lb/>amicu di Rusina) in lu caffe di Mariue-<lb/>cia, cu a quale s'innumica a causa di Rusina serà a vostra.</p>
+        <p rend="styled"><lb/>Pasqualé e Saveriu, corre ad avisà a su u babbu).</p>
+        <p rend="styled"><lb/>figliola u matrimoniu cu Zuccone, e<lb/>l'annuncia a so visita. Rusina si di-</p>
+        <p><lb/>(S'avanza cu a manu tesa persu<lb/>Rusina capi calata) Madamicella,<lb/>vi rappresentu i miò più umbuli Permettite ch’io vi basgi a manu.<lb/>rispetti. Cuntentissimu di vedevi in</p>
+        <p rend="labelled"><lb/>di pudenne di altrettantu per boi...</p>
+        <p><lb/>contu, o Natà, d'esse in casa vostra. a difficile? Una manu poi...</p>
+        <p><lb/>na) –Merci,mansiù Ghiannone. (A<lb/>pocu.... un pocu... tutta chosa?....</p>
+        <p rend="labelled"><lb/>dete ? Eppò dinò un pocu assaltata.</p>
+        <p rend="labelled"><lb/>prestu! (Azzighendusi un pocu so¬<lb/>pr'a sedia) Enfin, madamicella Ru-<lb/>sina, eccumi quì per dumandabbi in<lb/>matrimoniu. Site quella chi... chi...<lb/>chi riempite tutt'e cundizioni per es-<lb/>se a sposa d’un impiegatu, e un sſi-<lb/>gurà micca a fiancu ad ellu in una</p>
+        <p rend="labelled"><lb/>Rusina — Siate ringraziatu pè u allora?</p>
+        <p rend="labelled"><lb/>cunsentu di u vostru papa, e mi<lb/>credu l'omu attu a rendevi felice...</p>
+        <p rend="labelled"><lb/>un possu che ringrazianne dinò a<lb/>Les décisions sont prises à la vostra mamma tantu appenserata<lb/>l'oppression déchainée par le gouver¬<lb/>nement francais en contradiction ave<lb/>de principe des nationalités solonnelle<lb/>ment proclamé par le Traité de Ver¬<lb/>sailles et le pacte constitutif de la So. lora. Stattine in pace.</p>
+        <figure type="decoration"/>
+        <p><lb/>plication illégalement étendue d'unc</p>
+        <p><lb/>vernement français qui, n'osant et ne<lb/>pouvant interdire l'exposé d'une doc<lb/>trine, s’efforce par des confusions de<lb/>loyales, de déshonorer les Autonomis<lb/>tes, les met hors la loi commune, leur<lb/>supprime tout moyen de défendre le<lb/>candidatures de leur Parti aux élec-<lb/>tions prochaines et leur rend impossi-<lb/>de loercice normal de leurs droit</p>
+        <p rend="labelled"><lb/><lb/>des Minorités Nationales de<lb/>France, dont le siège est provisoire-</p>
+        <p rend="labelled"><lb/>se réclame est basée: sur le droit des<lb/>Oh! la sciagurata! Mezzanot¬ peuples de disposer d'eux-mémes et sur</p>
+        <p><lb/>ce, rendus caducs par la croissante in-<lb/>terdépendance économique du monde<lb/>Vulpaghiacci?... Site tonta ? et dont les antagonismes ne peuvent<lb/>une Fédération de peuples, où chaque<lb/>nationalité pourra déterminer son pro-<lb/>pre statut politique et poursuivre son<lb/>développement culturel, selon ses tra<lb/>E cusi, l'Ungheru ebbe cumpa- ditions et ses tendances, mais dont l'u-<lb/>suppression des douanes et la pratique<lb/>du libre échange, cette concoption lui<lb/>paraissant la seule qui puisse donne<lb/>aux peuples les deux liens essentiels: la</p>
+        <p rend="labelled"><lb/>M. N. F. toutes les organisations repré¬<lb/>sentant des minorités nationales oppri-<lb/>mées par l'Etat Français, dans leur lan-<lb/>gue, leurs traditions raciales ou leurs<lb/>interêts, qui déclareront approuver la<lb/>doctrine exposée à l’article II, lorsqu’il<lb/>aura été reconnu par le Conseil qu'el<lb/>des s'en sont inspirées dans leur activité</p>
+        <p rend="labelled"><lb/>déclarent n'avoir aucune animosité?<lb/>l'égard du peuplefrançais et combattre<lb/><lb/>seulement une formule étatique suran¬<lb/>née, oppressive et dangereuse pour la<lb/>paix. Formule d'ailleurs commune a</p>
+        <p rend="labelled"><lb/>délégués des organisations représen-<lb/>nt les minorités nationales, à raison,<lb/>bre des organisations qui la représente</p>
+        <p rend="labelled"><lb/>ontlièu tous les 3 mois au moins. Des ré<lb/>lieu si les évènements le rendent né</p>
+        <p rend="labelled"><lb/>Secrétaire Général, élu à la majorité<lb/>des voix pour une période de un an,et</p>
+        <p rend="labelled"><lb/>sations adhérentes de confronter leurs<lb/>informations et leurs méthodes, de s'é<lb/>pauler réciproquement, et, en particu-<lb/>lier, d'accroître leur action sur l'op<lb/>nion publique, par des manifestation<lb/>servant, bien entendu, une autonomie</p>
+        <p rend="labelled"><lb/>une durée illimitée. Il ne pourra être prima di prununziammi sopr'a qual<lb/>adhérentes étant représentées.</p>
+        <p><lb/>rités Nationales de Brance, qui<lb/>groupe les Partis Autonomistes d'Al<lb/>Peuples de disposer d'eux-mêmes et sur</p>
+        <p><lb/>pour examiner les récents évènements</p>
+        <p><lb/>parce qu'imprimés en Allemand alors<lb/>que l’Allemand, langue des 85 0/o de la<lb/>population Alsacienne et Lorraine<lb/>doit être considéré comme la langue<lb/>du pays, et qu'au surplus, la plupart des<lb/>autres journaux continuent à paraître<lb/>en Allemand (notamment un journa</p>
+        <p><lb/>publier trois nu en dialecte Alsacien, et<lb/>la Warrheit un no en Français, ce<lb/>n° ont été saisis préventivement, bien<lb/>que la loi du 22 Juillet 1895 ne leur fûr</p>
+        <p><lb/>tuent une manifestation nouvelle d</p>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>I Successi di Zuccone</p>
+        <note>
+          <p rend="styled"><lb/>(Cummedia in 4 atti di U Sampetracciu)</p>
+        </note>
+        <p><lb/>raggiò, o Rusi ! Alò, bia, rispondi</p>
+        <p><lb/> padrone, o bà ; a v'aghiu diggià</p>
+        <p><lb/>per ella: è un affar' fattu, simu intesi,</p>
+        <p rend="labelled"><lb/>pale di ripetela? (Cambia tonu) Ma<lb/>eh! o Natà, un siate po' cume una<lb/>manata d'i mariti d'oghie chi face-<lb/>nu passà una vita chi mi ne sò eiu</p>
+        <p rend="labelled"><lb/>ne, cuntate puru sopr'a me, perques¬<lb/>sa. A vostra figliola serà cherita,<lb/>pondu! (A Rusina) Madamicella,<lb/>Natale (sticchitu, si dà un'allis-mi vantu di fà di voi una donna oro¬<lb/>vestiture nè divertimenti, ghiuru e<lb/>pesu a manu davanti a vostru babbu. quantunque !... Tamanta pena ch'io</p>
+        <p rend="labelled"><lb/>Approvu i vostri bon sintimenti. un mi scordi di u più primurosu?<lb/>Rusina (intiera)– Cuntentissima Ma unn'è necessariu pè u mumentu.. (Và in camera e rivene cu' ritrat-</p>
+        <p rend="labelled"><lb/>Ghiannone — Aiò, pusemu. Fate sì, è o unn'è ?... Chi bale di fà tantu mà !... A miò povera mamma, a ciò</p>
+        <p rend="styled"><lb/>basgia Zuccone) A videte, o Natà, (U ribasgia e l'alloca in unu d'i<lb/>Rusina) Madamicella, mi parite un è l'omuzione. Persona assaltata un pacchetti. Posa un munent,</p>
+        <p><lb/>Ghiannone — E zitella, un la vi¬ pè u megliu e cu a vuluntà di Diu!</p>
+        <p rend="labelled"><lb/>scusate, cara fiansata (mi permettu<lb/>di chiamabbi cusi), scusate s’io m'ar¬primu passu ?... Essemi offerta, tale<lb/>rubbu a bostru babbu per purtam-<lb/>milu a magnà cu noi. Averebbi tantu ce! Echi fa? Comu sorte d’un im-<lb/>bramatu d'avè dinò a boi accantu picciu simile?... Spusà a Zuccone?<lb/>comment dirai-je, a sola di u paese ma postu chi bostru babbu s'è op¬ Ih! Mamma, mamma, nanzu una</p>
+        <p rend="labelled"><lb/>Natale — Ah! Mi feriste tantu donu! O mà, perdonu !....</p>
+        <p rend="labelled"><lb/>Rusina — Nò, nò, babbu ha rag- e piegne)</p>
+        <p rend="labelled"><lb/>cu,e i raggiunamenti serebbenu po¬<lb/>cu interessanti per boi: pezze, man-<lb/>ghiaria, imbitu,messa ecc..ecc..tutte<lb/>bricolle da un mischiabbici, niente</p>
+        <p rend="labelled"><lb/>facci un bon caffè chi noi veneremu<lb/>Natale — Eh! bon sang! Un mi a pigliacci tutt'in famiglia. Bà be</p>
+        <p rend="labelled"><lb/>dia una voce a to ziu Michele, di Tinta di te?... Un trovi altru mez<lb/>venuta, e arricaccilu quì cu noi? È zu per scusatti di a to bella prova</p>
+        <p rend="labelled"><lb/>n'imbitate nè dite nulla a nimu. Un</p>
+        <p rend="styled"><lb/>poghia au tavulinu sbucciendu a</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="4"/><lb/>Rusina — No, no. Pè stasera un- imbitammiautomatrimoniu, forsed</ab>
+        <p rend="styled"><lb/>la, intercallendu di suspiri e scla-<lb/>mazioni, mumenti di riflessione</p>
+        <p rend="labelled"><lb/>l'aghiu da fà !... O Signore, perdu-<lb/>natemi! (Riſtete e si ripiglia) Che,<lb/>Ghiannone — Infine po’... O Ru- tu di a mamma. U basgia) O mà, o<lb/>ch'ella ne jugne a to Rusina! Per-<lb/>(Rusina tende a manu ch'ellu donami, perdonami, e prega per me<lb/>sata pè u ciarbellu? Povera' me!<lb/>(S'alza) Peghiu, a miò sorte! Sera-<lb/>ghiu cunusciuta cume avè fattu<lb/>una poca di bonu?... C'è da scimis-</p>
+        <p rend="labelled"><lb/>riuccia) — Ohimé! Sò propriu nata</p>
+        <p rend="styled"><lb/>bracciu) — Brava, cumpagna! Ti</p>
+        <p rend="labelled"><lb/>Ghiannone — O Natà, un la vi pi¬miò accoppiu?... Vai e dì a Saveriu<lb/>ch'ellu venga subitu qui senza per-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <pb facs="0003.xml"/>
+        <figure/>
+        <figure/>
+      </div>
+      <div type="article">
+        <head><lb/>Sole di Vaghime</head>
+        <p><lb/>Simonu di San Jorghiu.</p>
+        <figure type="decoration"/>
+        <p><lb/>nu a beghia in una casa di Bas-</p>
+        <p><lb/>cantà e bellezze, e cuminciò<lb/>h'ellu ripetissi molte e pie¬</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>le facciate dei palazzi, nei frontoni di questo a lui venisse molestia.<lb/>to, insomma, da per tutto, ed è il ai Côrsì, che li persuade a ostanta¬ soglia, il Boswell riscotendosi dis-guardava il signor Giacomo; quando<lb/>Dio quattrino. Quanto alla Fran¬re maggiore stato di quello che ve-<lb/>cia la cosa è diversa, e ognuno lo ramente possiedano, mentre adesso<lb/>polo continua ed essere la trinita: opposto, mostrandosi di gran lun¬<lb/>quando i bisogni del corpo abbaia¬da essere quello che abita qui den¬<lb/>libertà, fraternità. uguaglianza..! ga più disagiati di quella che fosse¬ no, l'anima tace paurosa: dove poi tro; e'pare che tema l'assalto non di<lb/>va precorso nella camera, e con la la scalata di centomila diavoli ?Ido¬<lb/>accorgersene, o almeno senza dar- tanto più difficilmente si fermano</ab>
+        <ab type="head"><lb/>PASQUALE PAOLI<lb/>La Rotta di Pontenuovo</ab>
+        <p><lb/>le virtù le quali si propongono a<lb/>po la sama, o patria, non sono<lb/>a di consumo: cosedi lusso sco-<lb/>adei trovati di Galileo, domando<lb/>ento fruttavano per cento d'inte-<lb/>ion troverebbe più scritto</p>
+        <p rend="labelled"><lb/>dumandu tre, quantu ti ne fer-</p>
+        <p rend="labelled"><lb/>ne duman-<lb/></p>
+        <p><lb/>ejuun vi ned macche<lb/>Mà eju un vi ne de mancion</p>
+        <p><lb/>U maestru: —Totd, ottue prisenti.</p>
+        <p><lb/><lb/>punemu che ti dia òttu<lb/><lb/><lb/>ce soldi in d'a stacca?</p>
+        <p><lb/>Soldi, perchè ms<lb/>ag mi n'ha diggià datu trè</p>
+        <p><lb/>fa, ci volse a passà in cristu</p>
+        <p><lb/>e l'altr'a muzzicone, li disse</p>
+        <p rend="labelled"><lb/>proto sera ea prima M<lb/>gla.</p>
+        <p rend="labelled"><lb/>da avè vintine di strofe? Gra-</p>
+        <p rend="labelled"><lb/>c trenta strofe Un giurnale</p>
+        <p><lb/>per ralmada<lb/>itiau diA Muvra–n80-din 20-4227 to; no, davvero, perchè il Dio è tito prima, cioè l'assenza delfratel- lito nel latte, e recandosele al naso veruno se togli Licurgo.<lb/>bello e trovato ed il suo nome si lo Mariano, e notò eziandio la mi¬ come per prendere tabacco, escam-<lb/>legge sul fastigio del basiliche, nel- serrima imbandigione; non già che biando la scatola col bicchiere ac-<lb/>dei tribunali, in carcere, in botte¬che avvezzo dalla infanzia alla fru¬ lora Altobello giudicò conveniente<lb/>ga, in sagrestia, alla taverna, al bor¬ galità, e soldato, si sapova adatta¬ accompagnarlo nella sua stanza. <lb/>ACONTOCORSODEISECOLO dello, in faccia ad ogni uomo se- re, bensì se ne crucciava per l'ospi¬ quivi laciarlo in balia dei suoi pen- so in paradiso.<lb/>gnato tra ciglio e ciglio, da per tut¬te, edanco per la superbia naturale sieri: arrivati che furono sopra la<lb/>sa: quivi Dio tutelare del gran po¬ vedeva cascare la madre nel vizio nell'ordinario andamento della vita,<lb/>Tornando Altobello a casa in ro; però a cavarlo ben tosto di pe¬questa sia tocca dal fuoco celeste,<lb/>compagnia del signor Giacomo, na valse l'osservazione, che il si¬ ella si strascina dietro il corpo qua¬<lb/>egli si accorse dal non rispondere gnor Giacomo continuava nel suo si schiavo al trionfo.Il bisogno che<lb/>nisato meritemente delle buona di costui a parecchie proposizioni, stato di estasi, non badando, nè cu- si pasce di pane forza è che taccia esclamò Francesca Domenica, co<lb/>tonomia Quento non può ridursi o rispondervi a vanvera; che il suo rando quanto gli cascava dinanzi davanti il bisogno che si nutrisce me potete dire questò?<lb/>stuma i fanciulli; egli entrò senza quanto più sono pesi a smovere, sollecitudine solita alle buone mas- latri! Voi non sapete come si ado¬<lb/>punto insanabile furono segni tuffa-<lb/>he del tempio: Deo igno-multo dell'animo non aveva avver-re le dita nella scodella del pan bol-a cui paragonarlo, e negli antichi a</p>
+        <figure type="decoration"/>
+        <p><lb/>noneta ai di postri si giudica in¬spirito galoppava in rimote contra¬ agli occhi; singolare qualità di ques-di preghiera<lb/>per lo meno pessimo. Un de; si rimase pertanto in silenzio, te nature settentrionali, che come j<lb/>ichiere, udendo narrare mirabi- e lo condusse per mano come si co¬ sassi posti su la cresta dei colli.<lb/>all'anno. Oh! se l'apostolodel- ne segno, come del pari si assise una volta abbiano preso il ruzzolo<lb/>genti tornasse a pellegrinare nel alla mensa. Altobello allora notò ne. Di questo divagamento in que<lb/>cosa, alla quale a cagione del tu¬<lb/>costarla alla bocca per bevere; al-</p>
+        <p><lb/>saie gli andava indicando:</p>
+        <p rend="labelled"><lb/>– Veda, ecco qui il suo cavasti-</p>
+        <p rend="labelled"><lb/>Nei tempi moderni non saprei</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>— No signore, egli è modernissi¬<lb/>mo, me lo riportò l'altra settimana<lb/>maestro Nottola; se le farà bisogno<lb/>qui troverà il suo vaso da notte:</p>
+        <p rend="labelled"><lb/>—Degno proprio di essere mes-</p>
+        <p rend="labelled"><lb/>Francesca Domenica trasecolata<lb/>questi scosso il capo si volse attor-<lb/>—Signor Alando, egli è certo che no gli occhi consapevoli, e favellò:</p>
+        <p rend="labelled"><lb/>— Gran peccatore in ſede mia ha<lb/>un diavolo, bensì di una legione di</p>
+        <p rend="labelled"><lb/>O signore! tutta scandalezzata</p>
+        <p rend="labelled"><lb/>—E chiara; a che tanto presidio<lb/>Però Francesca Domenica lo ave- di santi in fortezza se non temeste<lb/>ra, nè come si prega Dio.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Cronaca Aiaccina</head>
+        <p><lb/>Elettricità — In vista di prossima<lb/>installazione di luce e forza elettrica,<lb/>simu stati diggià pregati di dà<lb/>no' cunsentariamu ad impiegà</p>
+        <p><lb/>S'ella fussi, (un ci vole ancu a mus<lb/>trassi tantu ottimisti) s'ella fussi (e un<lb/>serìa micca troppu prestu), sarlamu<lb/>pronti a dà, ancu spendendu i nostri<lb/>soldi, un evviva a i signori di a Sucie-<lb/>tà di l'Industrie Riunite.</p>
+        <p rend="labelled"><lb/>Battelli — El'annata di e visite.<lb/>Dopu i battelloni di e flotte inglese<lb/>francese, u nostru golfu ha vistu ancu-<lb/>rassi in le so acque una furmidevule<lb/>nave di guerra americana, di novd<lb/>mudellu. I marinari americani s'hanu<lb/>gosu a più pudè durante quattru<lb/>orni, a vista d'i nostri ludati</p>
+        <p rend="labelled"><lb/>Assuciazione - Lasita jorni<lb/>di culuniali in riposu, riunir, joni<lb/>ha prucedutu a'furmazione<lb/>scagnu. Un'ottantina d'aderenti eranu</p>
+        <p><lb/>Lughiamenti — U scandalu du-<lb/>ra e piglia forza. Certi pruprietarii cu-<lb/>husciuti dumandanu senza russore un<lb/>criscimentu tale, chi u prezzu d'i<lb/>lughiamenti arriva a francà u 1000 pet<lb/>100 di quellu d'avanti guerra. Più for¬<lb/>te: pudemu certificà chi certe di 'sse<lb/>U maestru:— Cumu, quin- sanguette imponenu cume cundizione<lb/>a novi lucatarii, avanti di rimetteli<lb/>chiavi, u pagamentu di somme spru<lb/>pusitate in più diu prezzu di a pighio-</p>
+        <p><lb/>Curaggiu, s'ella vi dura! E voi di-<lb/>nò, o quelli chi site pagati pè u ris¬<lb/>pettu di a legge, durmite ch'è u vos-</p>
+        <p><lb/>Circulu —U circulu diu cantu de<lb/>a piazza di u Diamante dà riprisenta-<lb/>zioni continue dipoi una misata cun<lb/>affluenza numerosa di jente, zitelli so<lb/>pratuttu. Un cavallu grisgiu è stupen<lb/>du in li so jochi e induvine. Cipolla ri-</p>
+        <p rend="labelled"><lb/>Elezzioni - Per l'elezzioni con-<lb/>sulare di l'11 scorsu, duie liste s.<lb/>truvavanu in prisenza per e piaz-<lb/>ze vacanti. Ste duie liste eranu e</p>
+        <p><lb/>2o I sgiò Bandecchi, Fieschi Villano-<lb/>va, Gambarelli, Gatto e Noaro.</p>
+        <p><lb/>A prima lista, l'eletta, ha ottenutu</p>
+        <p><lb/>u Tribunale di Cummerciu,u<lb/>Orsoni è statu rielettu presidente</p>
+        <p><lb/>Sò stati eletti in seguitu, ghiudici ti-ri, 57 ann<lb/>tulari: Benedetti speziale, 268 voti,<lb/>Lorenzu Lanzi, 265: ghiudice supple- tone,57 anni<lb/>ente: Pasquale Nicolai cu 268 voti.</p>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="2"/><lb/> volume di 64 pagine<lb/>Prezzu in stamparia: 8 franchi.</ab>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>RIENTRENDU DA I CAMPp</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>gien landru</ab>
+        <ab type="head"><lb/>NUTIZIE DI CORSICA</ab>
+        <p rend="labelled"><lb/>Morte d mdasPasquis Boldrin, </p>
+        <p rend="labelled"><lb/>Morte di madama veduva Maddalena San-</p>
+        <p rend="labelled"><lb/>Morte di u agid Ghiuvan Lorenru Pan¬</p>
+        <p rend="labelled"><lb/>tucicu madniclla Den pina Maria e</p>
+        <p rend="labelled"><lb/>— Morte di madama veduva Santandrea.</p>
+        <p><lb/>Bastia — Matrimoniu di madamicella An-<lb/>Mozzachiodi cu u sgid Bernardn Germani.</p>
+        <p rend="labelled"><lb/>Juvan Battista Simoni, 66 anni</p>
+        <p rend="labelled"><lb/>Morte di u sgiò Ghiuvan Luiggi Gilormi-</p>
+        <p rend="labelled"><lb/>forte di u sgiò Ghigliermini suvan'An¬ d'Ajacciu. Cunduglianze</p>
+        <p rend="labelled"><lb/>Calenzana — Morte, a Bliskatel (Alema-<lb/>gna), di madama Flora Ceccaldi, 26 anni.</p>
+        <p rend="labelled"><lb/>Matrimoniu di madamicella Anna Cosi-</p>
+        <p rend="labelled"><lb/>Calvi — Matrimoniu, Augasu</p>
+        <p rend="labelled"><lb/>Morte di madama Maria Rosa Davin, ve les libraires.</p>
+        <p rend="labelled"><lb/>Bvisa — Matrimoniu di madamicella Ma-<lb/>ria Anto</p>
+        <p rend="labelled"><lb/>Letia San Roceu -Morte d madamicel-</p>
+        <p rend="labelled"><lb/>Morte di madamicella Juvanna Arrighi,</p>
+        <p><lb/>—Morte di Madama Catalina Arrighi.</p>
+        <p><lb/>unficellu — Morte di modama Vittoria<lb/></p>
+        <p><lb/>a Martion css Bartol cu i a</p>
+        <p rend="labelled"><lb/>ni, ttu are disgid Simone Co-<lb/>, dettu Raganelu</p>
+        <p><lb/>tone Ghip</p>
+        <p rend="labelled"><lb/>Riventosa — Morte di madamicella Maria<lb/>osa Ristori, 68 anni.</p>
+        <p rend="labelled"><lb/>eduva Lende Cmri, c n Codosis</p>
+        <p rend="labelled"><lb/>Morte di madama Juvanna Bernardini,<lb/>Morte di u culinnellu Napuleone, Vittoriu, en Morelli, 20 anni. Dumeni-</p>
+        <p><lb/>Siscu — Morte di u sgiò Andria Santoni.</p>
+        <p><lb/>Vicu — Morte accidentale di u cunduttore<lb/>forte di madama Agnula Francesca Ma-d'automobile pustale Simone Battestini, 50 an<lb/>a u locu dettu «Tiraloja», a 13 chilomitri<fw type="digitisation-artefact"><lb/>rce gueampepale Fesch (Ajacc</fw></p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>TERRE DE CORSE</head>
+        <p rend="labelled"><lb/>par M.J. B. MARCAGGI est le livre<lb/>ses voudront posséder dans leur biblio¬<lb/>thèque. Un vol. in 16 illustré. Prix: 10<lb/>Morte, in Marseglia, di madama Madda- francs chez ROMBALDI, éditeur, 48,<lb/>Cours Napoléon, Ajaccio, et chez tous</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <ab><lb/>Aiacciu — Stamparia di A Muvra<lb/>U Direttore-Gerente: Petru ROCCA</ab>
+      </div>
+      <div type="article">
+        <pb facs="0004.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>Saveriu (Ha capitu, e corre a pi¬ bi chi a miò figliola unn'è micca<lb/>Rusina — T'aghiu burlatu qual- chi boi pensassite ch'abbia sceltu<lb/>Rusina — O quessa o piglià a ciò ch'ella pussede. Eiu, un tengu<lb/>Saveriu(dolcemente)—A miò Ru¬ cause di gattive unioni. Eccu, mira<lb/>Rusina — lé. Lasciatemi piglià u raculi, ma... una trentina di mila</ab>
+        <lg>
+          <l><lb/>eccovi, ormai, soggettie prigionier</l>
+          <l><lb/>quanto è grande il poter: indi fremete.</l>
+        </lg>
+        <lg>
+          <l><lb/>andate, ad incentrar vostro destino:</l>
+          <l><lb/>fra poco seguirà il vostro cammino</l>
+        </lg>
+        <p><lb/>miraglio Hood: a Bastia sotto quello di Nelso</p>
+        <p><lb/> o recolar ld 18 tebraio 1814, pr 1c<lb/>egati nella fortezza della Cittadella di dette<lb/>tutto il 17 febbralo 1814; e quindi impro <lb/>amente liberati il 18 aprile. Da una memorie</p>
+        <p><lb/>fugiòa Londra, dove mori, a 82 anni, nel 180.</p>
+        <ab><lb/>a dar col brando il sanquinose assalto.<lb/>non mento,<lb/>senza strepito alcun al grancimento<lb/>giungele scale adappoggiare al forte<lb/>pur credesi maggior, poichè, respint<lb/>credendo nel fuggir trovar lo scampo<lb/>fin Sanfrancesco, ove credean saivarsi<lb/>dagli anglo corsi ben guai dati a vista,<lb/>Se Paolinon da voi deriso consenso<lb/>in tante guise chespiegar non penso,<lb/>ridussero ad un sol, che pur s'ottenne</ab>
+        <list>
+          <item>qualunque siate, al posto, difensori</item>
+        </list>
+        <lg>
+          <l><lb/>ticte in confusion, siete inscompiglio.</l>
+        </lg>
+        <p rend="structured"><lb/>del tamburo che ognun chiama a consi<lb/>lorto eun po'ragione tutti e due.</p>
+        <lg>
+          <l><lb/>al britanno</l>
+          <l><lb/>Prl'uno con progetti, or l'altromesso</l>
+        </lg>
+        <lg>
+          <l><lb/>uoa</l>
+          <l><lb/>chesembra un Mongibello aispettatore.</l>
+        </lg>
+        <lg>
+          <l><lb/>qual de Grecia il cantor, fossi diletto,</l>
+          <l><lb/>che racchiuso mi sta e mi bolle in petto</l>
+          <l><lb/>dar chiare prove in ben tessuti accenti.</l>
+        </lg>
+        <lg>
+          <l><lb/>fu il mille settecento, anno corrente,</l>
+          <l><lb/>che giunse in questi mari Anglia pa</l>
+        </lg>
+        <lg>
+          <l><lb/>recorno a S. Fiorenzo ed a Bastia (2)</l>
+          <l><lb/>che ben presto di lor furon padroni (3).</l>
+          <l><lb/>versu la spiaggia, ove su duro scoglio,</l>
+          <l><lb/>cinto, Calvi si sta pieno P.010</l>
+          <l><lb/>al più ostinato assedio in mare e in teri</l>
+          <l><lb/>entro questiacque corseggiando vanno</l>
+          <l><lb/>sull'ancora. del porto al blocco stanno:</l>
+          <l><lb/>navi e disbarcar la truppa inglese:</l>
+          <l><lb/>per formar batterie, per far steccati.</l>
+          <l><lb/>si fanno le trincere a mano a mano</l>
+          <l><lb/>(del Monagesco, dico, e del Muzzello)</l>
+          <l><lb/>ciò che farli saprà il corso-brittano.</l>
+          <l><lb/>ia di morte,</l>
+          <l><lb/>per far bravure, un di, fuor delle porte:</l>
+          <l><lb/>con danno, disonor, vergogna c scorno.</l>
+          <l><lb/>seu dalle trincere nuove,dlio,</l>
+          <l><lb/>ch'eran divise in sette, poste intorno,</l>
+          <l><lb/>uzgir di notte e abbandonare il posto</l>
+          <l><lb/>le batterie che in questo luogo ein quell</l>
+        </lg>
+        <p rend="styled"><lb/>di cannonate e bombe un mormorio.</p>
+        <ab type="head"><lb/>il vecchio Sanfrancesco (5), enulla vale</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>E statu custituitu un cumitatu pru<lb/>visoriu per unn assuciazione d'i pueti</p>
+        <p><lb/>Questa si prupone d'esse un veru<lb/>ligame fra tutti l'anfarti isulani,<lb/>d'ajutalli pè a publicazione di e so</p>
+        <p><lb/>mente. Serive a Gniannettu Notini.<lb/>secretariu pruvisorin, in San Petru<lb/>di Venacu, sede di l'assuciazione.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>piacere a morie di Madama vedu-<lb/>va Juvanna Andrei, nata Pietri,</p>
+        <p><lb/>nostre più attristite cunduglianze.</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>kroppo benigno, il vincitor v'ascolta. li Lecci — Simonu di San Jorghiu¬</ab>
+        <p rend="styled"><lb/>Puesiee Articuli d'i principali<lb/>Pueti e Scrittori dialettali:</p>
+        <p rend="structured"><lb/>Acquaviva–G.L. Alberti–Alessan<lb/>dri di Chidazzu — Altore — Anatra–<lb/>Appinzapalu — U Babbuziu —Belmon-<lb/>G.P.Codaccioni-Ciaffu– Cossu–A<lb/>F.Filippini — P.Graziani — P.Giovac-<lb/>chini — Ghjlormu — Prete Guglielmi<lb/>con lalor vita, un di, forse, quel danno. P. Manfredi — Minicale — V. Morac-<lb/>chini — Olivieri — Orsini — L'Orsu d<lb/>Orezza—Pampasgiolu— Paoli di Ta-<lb/>glio —P. di C.— Petru di Niolu—Pia-<lb/>nura — U Rimitu di Santa Restituta —<lb/>USampetracciu–Sebbiu–Simonu di<lb/>U Strampalatu — A. G. Terrazzoni<lb/>convenne Tristani–U Vecciu Sindacu ecc..ecc.</p>
+        <p rend="styled"><lb/>Disegni di: Kyrn — Geronimi-<lb/>M. R. — Corizzi — L. A. Canasi-<lb/>Riffiari — Solacroup — Urticula —</p>
+        <p><lb/>Calindariu — Note storiche, ar¬<lb/>cheologiche, agricole – Discorsi<lb/>e Manifestazione — Raconti — Fo<lb/>le — Stalbatoghi — Cummedie-<lb/>Canzone cu musica — Induvinelle<lb/>Folklore (pruverbj, detti di paesi,<lb/>minacce, ghjasteme, motti per l'a<lb/>nimali, sciogli-lingua, ſilastrocche,</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>I Successi di Zuccone</p>
+        <ab><lb/>(Cummedia in 4 atti diU Sampetracciu)</ab>
+        <p rend="labelled"><lb/>ponde, poi? (entre in le camere)<lb/>bella, bella! Unn'è mancu in casa</p>
+        <p rend="styled"><lb/>Natale Zuccone. impiegatellu in<lb/>Marseglia, rientre a u paese, duve,<lb/>mamma Filumena, vana quant ed elle<lb/>intreccia un matrimoniu eu Rusina a<lb/>Jannone, pruprictariu impazzitu pè il</p>
+        <p rend="styled"><lb/>Tuttu è cumbinatu fra i parenti. Ru¬<lb/>sina, sola, un ne sà niente. Natale, fie<lb/>ru, annuneia a nutizia a un certu Pas- cumu sò scemu!... Un capite ? Vo<lb/>quale (cumpagnu di Saveriu. " veru rà cumparisce... cullora serà anda<lb/>amicu di Rusina) in lu caffe di Mariue<lb/>cia, cu a quale s'innumica a causa di tellu per offre cu u caffé.</p>
+        <p rend="labelled"><lb/>qui bicinu a cumprà qualchi biscut</p>
+        <p rend="labelled"><lb/>le d'oghie! Un pensanu che a spen<lb/>de soldi. Unn'eramu micca ſrester<lb/>surru! A cosa chi... spese un ci ne</p>
+        <p rend="styled"><lb/>Mariuceia, dopu cunsultatasi cu<lb/>Pasquale e Saveriu, corre ad avisà à</p>
+        <p rend="styled"><lb/>Ghiannone rientrendu, prupone d' per avè bisognu di mettesi in sus<lb/>figliola u matrimoniu cu Zuccone, e<lb/>l'annuncia a so visita. Rusina si di- serà abbastanza?</p>
+        <p rend="styled"><lb/>Dopu riſtessu, Rusina, piuttostu che<lb/>di mettesiu cappin au collu, dicide di<lb/>scappà cu Saveriu e questu arriva in</p>
+        <p><lb/>Vi juveranu, si bo' l'avete: u temps</p>
+        <p rend="styled"><lb/>Rusina (c'un surrisu tristu)-<lb/>lé, mi: (Mostra i pacchetti) u pre¬ pe spendé, o ma!</p>
+        <p><lb/>Natale Campassimu puru noi</p>
+        <p rend="labelled"><lb/>Ghiannone — Eppò tengu a dib-</p>
+        <p rend="styled"><lb/>glialli a manu) — Eppò stai tantu sopr'a teghia lavata!</p>
+        <p rend="labelled"><lb/>Saveriu (fendun gestudi a scap-</p>
+        <p rend="labelled"><lb/>Ghiannone — No, manc'appena,<lb/>Ma è troppu justa chi boi sappiate<lb/>micca a ſà e piattatelle ; sò sempre</p>
+        <p rend="labelled"><lb/>Saveriu — Hai raggiò, o Pasquà<lb/>(A Rusina) Chi strada si piglia,</p>
+        <p rend="labelled"><lb/>Filumena — Madonna, u miò fi-<lb/>gliolu ! Lascialu parlà, a to soceru,<lb/>postu ch'ellu vole in assolutissimr<lb/>conti metteti a u currente ! Infatti<lb/>ha raggiò. Oghic è oghie, e dumane<lb/>è dumane. Un dici cume me, tn, o</p>
+        <p rend="labelled"><lb/>Rusina — Dunde tu boli. Avà si</p>
+        <p rend="labelled"><lb/>Saveriu (pigliendula dilicata-<lb/>mente pè a taglia) - E di chi a un<lb/>certu mumentu aghiu dubitatu di</p>
+        <p rend="labelled"><lb/>Pasquale — Eccu! Avà s'asseri-tutti; bi stò a sente.<lb/>neghianu! Aiò, aiò! Averete tuttu<lb/>u tempu pè e vostre manerette ! Si ch'è a u sole a sapete cume me; cu-</p>
+        <p rend="labelled"><lb/>me danaru... unn’avemu micca mi-</p>
+        <p rend="labelled"><lb/>miò mantellu. (passa da culandi e franchi...<lb/>rivenc) O bà, obà, perdonu! (s'ap-<lb/>poghia a Saveriu, suspirendu)<lb/>Aghiu peura ch'ell'un possa resiste<lb/>a tamanta pena. Tintu babbu ! Tin-pu incurretta!<lb/>tu vecchiu ch'io lasciu solu sbandu-</p>
+        <p rend="labelled"><lb/>Natale — Alò bia, oma, site trop-</p>
+        <p rend="labelled"><lb/>ha raggiò; i patti chiari facenu l'a-</p>
+        <p><lb/>Saveriu –S'abbiderà più tardi, e..mici cari.</p>
+        <p rend="labelled"><lb/>Pasquale — E ci sterà anch'ellu<lb/>cume tutti! Aiò! ripetu, finimu 'sse serà chi madamicella Rusina tarda<lb/>lagrime quand'ell'è piuttostu tempu tantu ?</p>
+        <p rend="labelled"><lb/>l'affare! S'io m'affaccassi? Infine,</p>
+        <p rend="labelled"><lb/>Pasquale - le, lé, ti capiscu, una cummedia! (Sorte)</p>
+        <p rend="labelled"><lb/>un lasci spiegà tuttu, u miò figliolus<lb/>ma a robba unn'è da disprezzà, sai</p>
+        <p rend="labelled"><lb/>(Sente un rumore luntann) Ih !<lb/>per lu crispiu! Avà c'è a jente ! Sur¬ Hai tortu. A donna è bell'e bona</p>
+        <p><lb/>falli capisce ch'ellu cumbene di ver<lb/>desili, tantu, cusi, rapportanu poc<lb/>e nulla, e noi non più un li pudem</p>
+        <p rend="styled"><lb/>(Entrendu unu appressu P'altru.)</p>
+        <p rend="labelled"><lb/>Ghiannone — Entrate; entrate e face una bella somma ch'omu piar<lb/>accumudatevi. (Dà e pusate) Accu¬ za a interessi, e ci n'andemu tutti<lb/>Fotografie e riproduzione di vec-mudatevi senza ſà tante storie, tan¬ Marseglia a ſa un focu solu.</p>
+        <p rend="labelled"><lb/>troppu ! Un parlà di cusciotti capril<lb/>tini quande a capra unn'è ancu</p>
+        <p rend="labelled"><lb/>Ghiannone — Un serà tantu lun-<lb/>tanu! A v'aghiu detta tante volte,<lb/>tanto timica... (Và a l'usciu di q<lb/>camera) O Rusì ! Aiò, c’è ghiente</p>
+        <p rend="labelled"><lb/>Natale — Lasciatela, lasciatela<lb/>Serà in train di ſa tualetta. Ça ce<lb/>comprend, e donne ; sempre amanti</p>
+        <p rend="labelled"><lb/>maipiù! (ripiglia i calculi) A cas<lb/>un si vende, ma si pò appighiuns<lb/>e a un bon prezzu, chi, e case sò sca</p>
+        <p><lb/>Ghiannone — Ah, innò! Per ques-<lb/>sa, unn'è u lussu chi ascimisce. (Va)<lb/>a laltr'uscin) O Rusi, o Rusi! Alò,<lb/>unn’è mancu troppu bè, 'ssa mane,</p>
+        <p rend="labelled"><lb/>Ghiannone, un ci vole po' mancu a</p>
+        <pb facs="0005.xml"/>
+      </div>
+      <div type="article">
+        <head><lb/>EGLIDFISINET</head>
+        <p><lb/>Noi, cututta a stampa di l'isula,<lb/>orta parolla d'i nostri cumpatriot-<lb/>e ancu di molti strangeri chia¬<lb/>nati a fà viaghi da quì a u cunti¬<lb/>ante e vice vorsa, avomu picchia<lb/>e ripicchiatu molte volte sopr'à<lb/>disavantaghiu di l'arrivu troppu<lb/>cstinale d’i nostri battelli in lu<lb/>rtu bugghiu tenebru di a nostra<lb/>ità duve tuttu è chiosu, e duve u<lb/>s aggiere a face pocu bella, so-</p>
+        <p><lb/>Fraissinet, di bon'arecchia per<lb/>altri più putenti cunsigli, un tro<lb/>a niente di megliu a fa, per dà<lb/>apu a e lagnanze d'i mai cuntenti<lb/>sccalaghj, che d'avanzà dinò di<lb/>duie orette a partenza di u battel-<lb/>n di Nizza, "’ quale, per cunsequen¬<lb/>a entrerà in portu d'Ajacciu a</p>
+        <p><lb/>In pa amentu di stu megliu,u<lb/>ussaggiere di prima classe paga-<lb/>a 10 franchi in più, 7 quellu di<lb/>sconda, e 5 quella di terza, costu<lb/>i u pastu in più, pastu resu obli-¬<lb/>gatoriu da u scandalosu cambia</p>
+        <p><lb/>Vulemu, in assolutissimi conti,<lb/>nghie a sapè u mutivu d'una si-<lb/>mile rinfacciata, o, s'el 'è statu un<lb/>ordine, da duv'ell'è partutu, Postu<lb/>thi tuttu ciò chi ci guverna o ci<lb/>tarve a paga, s'ha messu a pannel-<lb/>laa locchj, trattenduci da munto-<lb/>di lanuti, da muntoni s'intisgie-</p>
+        <p><lb/>A ede chii Corsi </p>
+      </div>
+      <div type="article">
+        <p><lb/>Cirallegremu dia nomina, cume<lb/>ntaru, di u nostru caru fratellu di<lb/>ledee cullaburatore, Mattei Torre,<lb/>(Matteu Cirnensi) autore di Que<lb/>veut La Corse, Una Falata in lu<lb/>Melstrom, e di l’Intrucciuli e Cus-<lb/>pogliule, esciuti da a stamparia di</p>
+        <p><lb/>Astu nostru distintu autore, difen-<lb/>tore di l'Idea corsa, e omu da be-<lb/>e e nostre più sincere felicitazio-</p>
+      </div>
+      <div type="article">
+        <p><lb/>Quelli chi ricevenu A MUVRA<lb/>ch'un si volenu micca abbunà,<lb/>mn'hanu caa ricusalla a u pidone.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>TERRE DE CORSE</head>
+        <p rend="styled"><lb/>M.J.B. MARCAGGI est le livre<lb/>se par excellence que tous les Cor¬<lb/>voudront posséder dans leur biblio¬<lb/>que. Un vol, in 16 illustré. Prix: 10<lb/>pnes chez ROMBALDI, éditeur, 48<lb/>s Napoléon, Ajaccio. et chez tous</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>perto il tuo santo tabernacolo tu mi altre, che incominciano a guastare to la sola avarizia. Quanto ho soffer¬trai giovanc e zitella, una ispirazio¬<lb/>bava, e nonostante ciò io fingeva reso la mia dote. — E'sembra non<lb/>chè una mattina mi disse, che non come tocco da accidente; edio pre¬<lb/>mi presso i miei parenti; risposi lasciasse abitare il piano terreno<lb/>ti dei poveri disperati, nè di op¬ rirei di vergogna se qualcheduno di, si svellava i capelli, Dio e i suoi sul chioso degli olivi che mi lasciò<lb/>bello al fianco della madre prese a altrimenti chiudo la bocca, e non rifiniva affermare, che la casa era certo tutto questo non ſa spesa gras-<lb/>sua, averla comprata da te, tu non sa, ma mi contento; solo con ques¬<lb/>mo? In campagna? Come accada) sono tranquillo quanto posso esse-<lb/>, ,<lb/> ieei cos</ab>
+        <ab><lb/>PASQUALE PAOLI<lb/>La Rotia di Ponienuovo<lb/>CONTOCORSODELSECOL.O</ab>
+        <p><lb/>volte, e bisbigliando nell'orecchio fra queste.<lb/>al suo figliuolo disse;</p>
+        <p rend="labelled"><lb/>-Altobello, io temo forte che il questo flagello?<lb/>sole abbia offeso il cervello di ques¬</p>
+        <figure type="decoration"/>
+        <p><lb/>ui di un salto il signor Giaco-<lb/>ssare la sua bella coperta di ca¬<lb/>nfio nero a foriami amaranti, che pressori nè di oppressi.<lb/>o l'ultimo parto non aveva più<lb/>sa ſuori; dove piegate le ginoc¬<lb/>giunte le mani in atto d'i¬ dirle con voce sommessa:<lb/>dabile compunzione esclamò:</p>
+        <p rend="labelled"><lb/>Di Mariano che n'è? È infer¬<lb/>che io non l'abbia anco visto?</p>
+        <p><lb/>Dio onnipotente, in ogni ope-<lb/>della tua creazione ti benedico, e<lb/>miro; quando poi mi mostri<lb/>tuore di uomo illuminato da in-<lb/>sitinu diA Muvra - n.81- diu 14-28 tutta la effusione dell'anima mia, che incominciano dal corpo, e ne vinta, ed ora che ci ha messo il ni- cuore nel pensierodi dovere uscire<lb/>impercciochè allora io creda che a- discacciano l'anima; ce ne ha delle dio, temo che non ci abbia partori¬<lb/>renda degno di contemplarti a fac¬ lanima per distruggere anco il cor¬to! Ogni giorno mi erano contati i ne mi suggeri queste parole: —Non<lb/>po, e sono le peggiori; il tuo fratel¬bocconi, ogni momento mi ributta¬ v'inquietate, Mariano, io me ne an¬<lb/>Francesca Domenica si segnò tie lo vive travagliato dalla pessima va in faccia il tozzo di pane che ci- drò, ma non prima che mi abbiate<lb/>– Misero lui! e come si chiama non capire per evitare scandali, fin¬ ci avesse avvertito, perchè rimase<lb/>–Senti, tanto tarcetelo non si poteva sopportare la spesa di man¬ valendomi del suo sbigottimento<lb/>to povero Inglese, ed ei ne sia di- può, e forse ho mal fatto a differire tenermi; onde pensassi a ricoverar¬gli proposi si tenesse la dote, mi<lb/>Ah ! mamma mia, piacesse a ah! iu solo mi ritrai il tuo povero che la casa apparteneva metà a te, della casa; al mio mantenimento<lb/>lo sapesse; egli mi ha cacciato di santi peggio di un turco bestemmia¬la zia Bartolommea a mezzo col cu-<lb/>Chiusa la porta, e seduto Alto- casa... Chetati! non dare in furore; va, e in mezzo alle bestemmie non gino Bastiano, un po'lavorando<lb/>— Continuate, mamma mia; io averci a fare più nulla. Possibile, to signore in casa non so a qual<lb/>Altobello, che tu abbia venduto la santo votarmi, perchè quanto a da¬<lb/>Andate innanzi, mamma.. 0 cini.</p>
+        <p rend="labelled"><lb/>fin qui, e tu mi pari giovane savio..<lb/>Dio che di questi matti possedesse padre. Accostati, che nessuno ci e che se non mi voleva sul suo sa¬ avrei provveduto da me.<lb/>molti il mondo, come pur troppo ne senta; Mariano è preso dalla più fe¬ rei rimasta sul tuo. Io non ho visto<lb/>balzò sul letto con terrore di ha pochi, che adesso non si trove- roce avarizia, che vi sia mai vista mai bestia aruffata come Mariano a<lb/>acesca Domenica che vedeva rebbe più il seme dei ricchi insolen- al mondo; accostatiançora, chè mo¬ queste parole: urlava nestaue i pie</p>
+        <p rend="labelled"><lb/>re udendo tali enormità.<lb/>– Il suo angiolo custode ed io ab¬</p>
+        <p rend="labelled"><lb/>biamo tentato il possibile per sal-<lb/>vecchia e madre dalla case dove en-</p>
+        <p rend="labelled"><lb/>-E adesso come fate a campar-</p>
+        <p rend="labelled"><lb/>Alla meglio, figliuolo; un po-<lb/>nari sono più povera dei cappuc-</p>
+        <p rend="labelled"><lb/> Allora sentendomi strappare il</p>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>A A Muvra e i Muvristi</p>
+      </div>
+      <div type="article">
+        <p><lb/>di rende a so vita u più aggra¬</p>
+        <p><lb/>recta, piciore di prim ordi¬<lb/>e so stonde, pueta satiricu,</p>
+        <p><lb/>lone inzuffitu di vere corne,<lb/>s'incuntrò cu dui giandarmi a</p>
+        <p rend="labelled"><lb/>che mouchoir? (Cridianu ch'el-<lb/>lu vultassi da' pesca a e ma¬</p>
+        <p rend="labelled"><lb/>o</p>
+        <p rend="labelled"><lb/>utte, quessa</p>
+        <p rend="labelled"><lb/>m'arrestite e bulè buligammi</p>
+        <p><lb/>nissunu diu paese un bolse<lb/>a ziu Juvan Simone, l'altru</p>
+        <p><lb/>re, rossu cume un piverone, da</p>
+        <p rend="labelled"><lb/>homme devant vous, e dresser<lb/>prochès verbal comme quoi il</p>
+        <p rend="labelled"><lb/>puru, disse mallziosamente ziu</p>
+      </div>
+      <div type="article">
+        <head><lb/>NUTIZIE DI CORSICA</head>
+        <p rend="labelled"><lb/>Morte du sgio Don Anghiulu Simongio-</p>
+        <p rend="labelled"><lb/>Arru —Morte diu sgio Francescu Colonna</p>
+        <p rend="labelled"><lb/>Bastia — Matrimoniu di madamiceila Ma<lb/>ria Camella Astima cu n Duttore Curlu Zucca-</p>
+        <p rend="labelled"><lb/>Arrestazione d'i dui comalli Paulu Juvans<lb/>Gennari e Antone Baronti, l'ultimu, interdettu<lb/>di suggiornu, per colpi di rivoivaru e viuler</p>
+        <p><lb/>Bonifaziu — Morte di madamicella Niculet-<lb/>ta Orecchioni.</p>
+        <p><lb/>Calenzana — Morte di madamicella Mad-<lb/>detena Guldoni, 40 an</p>
+        <p rend="labelled"><lb/>Calvi — Matrimoniu di madamicella Moria<lb/>Juvanna Orsini cu u aglo Dumenueu Cardi.</p>
+        <p rend="labelled"><lb/>Campile — Matrimoniu di madamicelle<lb/>Fanstina Giorgetti cu u agio Ghiuvanni Viti-</p>
+        <p rend="labelled"><lb/>Cauru — Dumenicu Benielli, 24 ann<lb/>statu feritu eu tre colpi di rivolvaru da No<lb/><lb/></p>
+        <p rend="labelled"><lb/><lb/><lb/>Matrimoniu di madamicella Barba Maria<lb/>Battini cu u sott'ufficiale Petru Paulu Deluca</p>
+        <p><lb/>muri — Morte di madama Pietri, stitutrice<lb/> posu.</p>
+        <p rend="labelled"><lb/>slia, ama Larar, onte Nori, danni</p>
+        <p><lb/>hiyvani Gicomon,omin </p>
+        <p rend="labelled"><lb/>nicoa Maria Juvanna Giustinl, d<lb/><lb/></p>
+        <p><lb/>Sartè—Morte diu sgiò Ageniu Cotoni,<lb/></p>
+        <p rend="labelled"><lb/>DDo<lb/><lb/></p>
+        <p rend="labelled"><lb/>enacu - Morte di modamiclla Damoni. Pasquale Paoli, ritrattu<lb/>ca olivesi.</p>
+        <p><lb/>Vivariu —Morte di u sgio Petru Martini,</p>
+        <lg>
+          <l><lb/>Catalina, la me pipa,</l>
+          <l><lb/>Era dolce, bona e sana;</l>
+        </lg>
+        <figure/>
+        <lg>
+          <l><lb/>E, chi senza più ritardu,</l>
+        </lg>
+        <ab><milestone unit="column" n="3"/><lb/>urce gallica.bnf.fr/ Bibliothèque municipale Fese.</ab>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="4"/><lb/>Ajacciu — Morte di madamicella Maria TOURISTIQUE, rivista di vulga-</ab>
+        <p><lb/>humeru di Natale di a CORSE<lb/>rizazione di e bellezze e curiusità tu¬<lb/>ristiche, artistiche e istoriche di a<lb/>Corsica, è statu quist'annu ben rius-<lb/>citu, realizzendu un veru sforzu da</p>
+        <p><lb/>'Ssu fasciculu di 60 pagine, c'un<lb/>Morte di madama Severini Abbatuci, in summariu riccu e sceltu e cun varie<lb/>illustrazione, è degnu di figurà in</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>1 volume di 64 pagine<lb/>Prezzu in stamparia: 3 franchi.</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>Canzone di A MUVRA</p>
+        <p><lb/>Pipa.— A Zilimbrina.— U Lamentu<lb/>diu Trenu.— U Merri Pastore.— La-<lb/>menti di Fasgiana.— Cursichella, di<lb/>Petru Rocca.— Bell'Alacciu, di Mais-<lb/>trale.— Lamentu di u Banditu, di Mais-</p>
+        <p rend="heading"><lb/>Stampe di A Muvra</p>
+        <ab><lb/>Pasquale Paoli, ritrattu di</ab>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>ov,in , jaciu, diu agio Don Agnula Aiacciu - Stamparia di A Muora.<lb/>Zilia -Morte dl usindacu Stetann Andrea U Direttore-Gorente: Petru ROCCA</p>
+        <p rend="heading"><lb/>occhju ad occhju</p>
+        <pb facs="0006.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>Äntica Cara CAMPI, fundata in 1o185<lb/>Lighjte<lb/>Fate leghje<lb/>A Baretta Misgia<lb/>Rivista Pupulare Corsa<lb/>Esce ogni dui mesi sopr'a 24 pagine</ab>
+        <ab><milestone unit="column" n="3"/><lb/>avoir toujours des produits alimen<lb/>VOULEZ-VOUS<lb/>taires très frais, de tout premier<lb/>choix, et bien meilleur marché que partout ailleurs?</ab>
+        <ab><milestone unit="column" n="2"/><lb/>MODE<lb/>Santa<lb/>22 Corsu Napulione<lb/>Ajacciu</ab>
+        <figure/>
+        <ab><lb/>Faites vos achals à la<lb/>Grande Epicerie COSTA ET NEGRI<lb/>Boulevard Roi Jérome</ab>
+        <p rend="heading"><lb/>Libraria di A MUVRA</p>
+        <ab><lb/>Vous réaliserez ainsi chaque mois une économie<lb/>très sensible pour votre budget<lb/>Livraisons à domicile</ab>
+        <ab><lb/>Grande Fabrica di Mobili<lb/>BER CORICIN<lb/>cdi Venaeu (Corsica)<lb/>Generi semplici e di Lussu<lb/>Legni sceli<lb/>Noce, Castagan, Laricciu<lb/>Apertur sopracun<lb/>sopr'a cumanda<lb/>ofita di pagainen</ab>
+        <ab><lb/>ULTIME PUBLICAZIONE</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>Carlotti (D): – Manualettu di Parlata<lb/>Corsa. A prima grammatica dialettale<lb/>corsa publicata. Cunteno c regule di a<lb/>pariata cismuntana, i vol. 80 p.<lb/>Codaccioni (G. P.) – Canzone. Raccolta<lb/>dli e più populare puesie di l'anfarte di<lb/>Proprianu (Satare, Lamenti, Canzone<lb/>pulitiche ecc..) c'un introitu di U<lb/>Sampetracciu. 1 vol. in-8 di 96 pa-<lb/>gine.<lb/>Fioi e Spine, Puesie vorie c'un </ab>
+        <p rend="labelled"><lb/>Maistrale: A Cumuna di Parapiglia.<lb/><lb/>Cummedia in 4 atti, satara<lb/>maliziosa di u favuritismu e di a puli¬<lb/>ticaccia. 1 vol. in-8 di 100 pagine. 5</p>
+        <p rend="structured"><lb/><lb/>Cettare a Lumbrigone. Cronaca sati-<lb/>rica d'ogni evenimentu e custume corsi,<lb/>attempu documentu preziosu e miniera<lb/>di scaccani. i vol. di 220 pagine. 10</p>
+        <p rend="labelled"><lb/>E Canzone di Maistrale. I album di<lb/>lussu, grande formatu. Cuntene: Addiu<lb/>di u Cuscrittu, Cansona diu Cuceu, Si<lb/>rinalu a i Sposi, Ninni-Nanna, Lamentu<lb/>di Mucrella, Conzona di u contra Parti¬<lb/>iu. Parole, musica e accumpagnamentu<lb/>0<lb/>pè u fortepianu.</p>
+        <p rend="structured"><lb/>Matten Cirnensi (Mattei Torre): Que<lb/>veut la Corse! Tutti punti di<lb/>"Quistione corsa". Difesa e illustrazio-<lb/>ne di u Cursismu. 1 vol. 64 p.</p>
+        <p rend="structured"><lb/>Paoli di Taglio: Risa e Pianti. Sunettie<lb/>Pocsie varic c'un introitu di Maistrale<lb/>(Cuntene u Lamentu di u Castagnu s<lb/>u Corsu). 1 Nol. in 8 di 112 p.</p>
+        <p rend="labelled"><lb/>U Sampetracciu (Ghiannettu Notini.)<lb/>Rime (Puesie varie, Strufulette, Punte<lb/>di Minutu Grossu, Canzone, Induvinel-<lb/>le). L'essenza di u più puru spirtu corsu<lb/>in le sò più originale manifestazione; à<lb/>schietta delicatexza di u pueta unita a<lb/>severità di u moralista e a u savore di<lb/>contatore di stalbatoghj. C'un introito<lb/>di Petru Rocca. 1 vol. di 160 pagi-</p>
+        <ab><lb/>Dumandate n listime di nostre publicatione</ab>
+        <figure/>
+        <ab><lb/>Cuntene : Puesie – Canzone — Voceri – Lamenti — Stalbatoghj – Raconti—<lb/>Fole – Strufulette – Disegni – Musica ecc...</ab>
+        <ab><lb/>Abbunamenti : Corsica 7 franchi – Francia 8 franchi — Esteru 12 franchi.<lb/>Amistrarion , Con rndo Actu</ab>
+        <ab><lb/>Strumenti Musicall d'ogni Genere<lb/>V. Muracciole<lb/>Prufessore di Musica e Viulinu<lb/><lb/><lb/>Viulini, Manduline, Urganeti, Fono<lb/>Piano, Banjo, Ja.. cc.<lb/>Catalogu grafisi, sopr'a cumanda</ab>
+        <ab><lb/>Contru a Vita Cara!<lb/>CALZE E CALZETTE<lb/>«Inusable Mail Acier"<lb/>filu puru<lb/>Eleganza, Solidita<lb/>Mm Pasqualini<lb/>El Arrouch Custantina<lb/>(Algeria)</ab>
+        <ab><lb/>Andate a vestevi duve<lb/>DI FABIO<lb/>12 Corsu Napulione<lb/>Pè n"chie", e Stofe scelte,<lb/> prezzi raggiunevuli.</ab>
+        <ab><lb/>Fabrica d'Articuli Orezzinchi<lb/>10. F. PIAZzoLi<lb/>Valle d'Orernra, per Piedicioce (Corsica)<lb/>soopa d pria qu<lb/>Scopa di prima qual<lb/>Calamari, Porta penna, Taglia carta<lb/>Articuli di Tavula<lb/>riereh -Sao<lb/><lb/>Assurtimentu di scatule sculturate<lb/>per tabacco, polvera di riso,.. ecc... ecc..<lb/>Loe ses comanda in eze, d, o</ab>
+        <ab><lb/>Stamparia di<lb/>A MUVRA<lb/>Lettere - Fatture - Carte<lb/>Biglietti — Memoranda–<lb/>Affissi — Libri — Giurnali<lb/>.<lb/>Prestu fattu<lb/>e a bon pattu<lb/>cunsultateci e dumandate-<lb/>i nostri prezzi</ab>
+        <ab><lb/>Un Numaru : Vinti Soldi</ab>
+        <ab><lb/>A LiBRARIA Di A MUVRA<lb/>compra:<lb/>VECCHJ MANUSCRITTI – INCUNABULI – EDIZIONE<lb/>INTERESSANTE — VECCHJE STAMPE ecc...<lb/>Un mancate di scriveci prima di<lb/>vende ad altri.</ab>
+        <ab><lb/>Antichità Corse<lb/>Francescu PIETRI<lb/>8, Corsu Grandoal – Aiacciu<lb/>Cispre, Stili, Pistole, Fianchine, Stampe<lb/>Platti e Tazze cu i proverb corsi<lb/>Zucche cu sugetti locali</ab>
+        <ab><lb/>Casa RICCI<lb/>38, Corsu Napulione,38<lb/>-Aiacciu-<lb/>RICORDI AIACCINI<lb/>ARTICULI RELIGIOSI — CURONE</ab>
+        <ab><lb/>Tomasi<lb/>Folografu<lb/>Aiacciu=Bastia</ab>
+        <ab><lb/>Purniture pa l'industria<lb/>Casa LEONZi<lb/>54, Corsu Napuliò.—AIACCIU<lb/>Farri — Acciaghj— Chincsgliaa<lb/>Culori –Prudutti chimichi–Vetr<lb/>Sarrature – Chiodi –Stacchette<lb/>Piomb–Drugheria<lb/>Attrazzi e Strumentid'Agricultura:<fw type="digitisation-artefact"><lb/>ou/̀ (A)</fw></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

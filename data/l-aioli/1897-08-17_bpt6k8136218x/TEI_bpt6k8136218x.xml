@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136218x</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1897-08-17">1897</date>
+          <idno type="ARK">bpt6k8136218x</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136218x</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>SETENCO ANNADO, No 239.</fw>
+        <fw type="runningTitle"><lb/>DIMARS, 17 D'AVOUST 1897.</fw>
+        <dateline><lb/>(Prouveroi di métncounte,</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>PRES DE EQUNAMEN</ab>
+        <lg>
+          <l><lb/>Nautri, li bon Prouvençau,</l>
+          <l><lb/>Au sufrage universau,</l>
+          <l><lb/>Voutaren pèr l'òli</l>
+          <l><lb/>E faren l'aidli.</l>
+        </lg>
+        <figure type="table"/>
+        <ab><milestone unit="column" n="3"/><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.</ab>
+        <ab><lb/>F. MISTRAL.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PÈR MES (7, 17,27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <ab><lb/>BURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>ver<lb/>FOLCO DE BARONCELLI<lb/>au palais dóu Roure,<lb/>EN AVIONOUN</ab>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <ab><lb/>Baile dou journau<lb/>FOLCÒ DE BARONCELLI</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>SANTO ESTELLO DE SISTEROUN</head>
+        <ab><lb/>DISCOURS DOU CAPOULIE</ab>
+        <p rend="styled"><lb/>d'aroust 1</p>
+        <ab type="head"><lb/>MESSIES E GAI COUNFRAIRE,</ab>
+        <p><lb/>Nous vaqui subre la mountagno! Es eici<lb/>qu'alenon sèmpre li quatre vènt de la Liberta.<lb/>Es d'eici que vole crida nòsti revendicacioun<lb/>patrioutico e naciounalo.</p>
+        <p><lb/>Qu’apreparon si foundo, aquéli que man¬<lb/>don la pèiro e qu'escoundon lou bras ; sian eici<lb/>pèr lou coumbat !</p>
+        <p><lb/>Nautri li pacifi, que demandavian qu'à ven-<lb/>demia nòsti rasin quand l'autouno se vestissié<lb/>d'or, e d'óuliva quand li proumiéri nèu argen-<lb/>tavon li cimo dóu Ventour, vès-aqui que d'ei-<lb/>lamount nous an crida la guerro, e nous an<lb/>di qu'erian de revóuta, qu'avian vira lou cou-<lb/>tèu contro la maire Patrio, e que falié nous<lb/>abouli ! Aièr encaro legissian atupi aquesto<lb/>acoussado:</p>
+        <ab type="head"><lb/>«Le peril félibrigien !»</ab>
+        <p><lb/>E tout acò pèr-ço-que, l'estiéu passa, de<lb/>bràvi gènt que s'óucupon de l'estrucioun dóu<lb/>pople, entre dos batudo, leissèron si garbo<lb/>sus l'iero pèr parla 'n pau, entre éli, de la re-<lb/>neissènço de noto lengo prouvençalo.</p>
+        <p><lb/>Es verai, aguèron bessai tort d'apela soun<lb/>acampado, Un coungrès! S'avien tout simpla-<lb/>men, coume à l’acoustumado, apela acò uno<lb/>sesiho, tout se sarié passa la memo causo, li<lb/>mémi discours se sarien prounouncia, li mémi<lb/>moucioun se sarien facho e adóutado e degun<lb/>aurié proutesta. Mai un coungrès, de felibre<lb/>que tènon un coungrès, acò poudié pas èstre !<lb/>Subran quauqui duri tèsto travaièron, e, coun¬<lb/>gressisto o noun, fuguerian agounisa, acla-<lb/>pouira de soutiso e d'abouminacioun. Rare<lb/>fuguèron lis ome sage e de proun d’esperit<lb/>que discutiguèron leialamen la decisioun dou<lb/>coungrès.</p>
+        <p><lb/>E tout lou crime èro d'agué adóuta aquesto<lb/>moucioun:</p>
+        <p rend="styled"><lb/>Dins lis escolo dóu Miejour, l'estudi de la lengo<lb/>franceso se fara pèr lou biais e la coumparesoun<lb/>de la lengo prouvençalo.</p>
+        <p><lb/>Acò sufisié, parèis, pèr boulouversa lou<lb/>mounde, la lengo franceso èro dóu cop abou-<lb/>lido ! li frountiero de la Franço èron duberto<lb/>à l'estrangié. Erian tóuti perdu!... E quau<lb/>aurié fa aquel espetacle? Li felibre! Le péril<lb/>felibrigien!</p>
+        <p><lb/>Li dessena que nous acuson ansin, sabon<lb/>pas que lou lengage es l'amo dou terraire dou<lb/>pople qu'abaris, qu'es la terro qu'enfanto la<lb/>lengo, qu'es lou lum de l'azur, qu'es la coulour<lb/>di champ e dis aubre e di mountagno, que fan<lb/>li mot armounious, linde, dindant e moula<lb/>que diran la pouesio d'aquelo naturo nourri-<lb/><lb/>guiero ? Sabon dounc pas que, se n’en venian<lb/>a-n-uno lengo unenco, universalo, davalarian<lb/>au rèng de la bèsti ?</p>
+        <p><lb/>l'a que lou bestiàri que manjo à ras de sòu<lb/>qu'a uno lengo unenco e pèr tóuti li pais de la<lb/>terro ; pèr-ço-que lou bestiàri noun viéu pèr<lb/>l'esperit, mai tèn que pèr soun vèntre ! Lis<lb/>ase bramon à Paris coume à Loundre, li chin<lb/>japon à Marsiho coume à Chicago, e li car-<lb/>delino canton sus lis auriolo de la Crau<lb/>coume sus li petelin dou Partenoun</p>
+        <p><lb/>L'ome que parlarié plus la lengo de la terro<lb/>siéuno, aurié plus sa pensado siéuno, aurié<lb/>plus sa voulounta, soun patrioutisme siéu.</p>
+        <p><lb/>E es à l'ome dóu Miejour, es à-n-aquéu po-<lb/>ple, es à-n-aquelo raço majouro e soubeirano<lb/>que l'a douna Mirèio, que volon ié gara soun<lb/>lengage d'amour, de pouesio! Es aquelo flour<lb/>de l’umanita que volon derraba! Es aquéu-<lb/>jardin de la Franço que volon devasta! Es<lb/>au cor de la nacioun que volon planta lou<lb/>coutèu! Car l'óubliden pas: se lou front de la<lb/>Franço es à Paris, lou cor es eici. E es dóu<lb/>cor que mounto lou sang que reviscoulo, e la<lb/>generousita, e l'amour, e la poueslo qu'au-<lb/>bouron l'ome enjusquo à Diéu.</p>
+        <p><lb/>Es dounc avugle o voulountarimen traite à<lb/>la Patrio, traite à la Nacioun, traite à la<lb/>Franço, aquéu que vòu nous gara noste dre<lb/>de parla prouvençau. Pèr-ço-que nous garo<lb/>ansin l'espaso que gardè toustèms piéucello<lb/>nòsti frountiero miejournalo, que luchè tous-<lb/>tèms contro li gouvèr despouti que nous adu-<lb/>sien lis envahissèire barbare dóu Nord. Li<lb/>Téutoun passèron li cadeno di Vosge, mai<lb/>noun passèron lou riban dis Aupiho! l’a dous<lb/>milo an d’acò, e nòstis araire bourroulon en-<lb/>caro lis os dóu German.</p>
+        <p><lb/>Es pèr noste lengage e l'estacamen à nosto<lb/>terro qu'avèn garda pur noste sang latin, qu'es<lb/>coume la sabo de vido que rejouvenis lou<lb/>mounde e fai flouri lis art, e douno à l'ome sa<lb/>fierta e l'empuro l'amour de la liberta.</p>
+        <p><lb/>Es pèr sa lengo que nosto raço a mantengu<lb/>nou recaliéu di revendicacioun de l'ome<lb/>dins si dre naturau ; e quand la negro niue<lb/>dóu Mejan-Age espandissié soun alo pelado<lb/>e oungludo sus la terro de Franço, la raço<lb/>miejournalo esbarlugavo lou mounde emé si<lb/>troubadou. Es alor que li republico d'Arle,</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>8 d'avoust de 1897.</ab>
+        <ab type="head"><lb/>A MOULIERO</ab>
+        <lg>
+          <l><lb/>PER LI PÉSTO E A PREPAUS DÓU MOUNUMEN</l>
+          <l><lb/>QUE SE I'ES FA EN CIÉUTA DE PEZENAS</l>
+        </lg>
+        <lg>
+          <l><lb/>Dins noste gai Miejour ounte, cercant remèdi</l>
+          <l><lb/>A ta malancounié, flouriguè ta coumèdi,</l>
+          <l><lb/>Emé, pèr intermèdi,</l>
+          <l><lb/>Dins lou Miejour te saludan</l>
+        </lg>
+        <lg>
+          <l><lb/>Avignoun, Mount-Pelié, Pezenas, coume antan</l>
+        </lg>
+        <lg>
+          <l><lb/>Noste inmourtau counciéutadan.</l>
+        </lg>
+        <ab type="head"><lb/>F. Mistral.</ab>
+        <p><lb/>Soun esta di, aquéli vers, pèr lou majourau Arna¬<lb/>vielle, à la sesiho literàri qu'a segui l'inaguracioun dón<lb/>buste de Mouliero.</p>
+        <p><lb/>Au mounumen de Pezenas l'escultour Injalbert a re-<lb/>presenta, souto lou buste de Mouliero, un faune rica-<lb/>naire em' uno Pezenassenco que porge un rampau au<lb/>grand ome. Aquelo Pezenassenco es aquelo Luceto que<lb/>Mouliero, dins soun Monsieur de Pourceaugnac, a messo<lb/>en sceno au segound ate dins soun parla de Lengadò.<lb/>Veici dóu résto aquelo sceno.</p>
+        <ab type="head"><lb/>MONSIEUR DE POURCEACGNAC, ORONTE, LUCETTE</ab>
+        <p rend="styled"><lb/>LUCETTE, contrefaisant une languedocienne.</p>
+        <p><lb/>Ah! tu sios aici, e à la fl léu te tròbi, après abé fait<lb/>tant de passes... Podes-tu, scelerat, podes-tu sousteni<lb/>ma bisto!</p>
+        <ab type="head"><lb/>MONSIEUR DE POURCEAUGNAC</ab>
+        <lg>
+          <l><lb/>Qu'est-ce que veut cette femme-là?</l>
+        </lg>
+        <ab type="head"><lb/>LUCETTE</ab>
+        <p><lb/>Que te boli, infame ! tu fas semblant de noume pas,<lb/>counouisse, e nou rougisses pas, impudent que tu sios,<lb/>tu ne rougisses pas de me béire? (à Oronte) Nou sabi<lb/>pas, moussur, s'acò 's bous dount m'an die que conne<lb/>d'Avignoun, de Sisteroun e de Marsiho « arre-<lb/>sounavon l'emperaire ». Es alor que i'avié:</p>
+        <lg>
+          <l><lb/>... De conse e de bon ciéutadin</l>
+          <l><lb/>Que, quand sention lou dre dedins,</l>
+          <l><lb/>Sabien loissa lou rèi deforo!</l>
+        </lg>
+        <p><lb/>E es aquéu pople, es aquelo raço qus vou-<lb/>drien abouli davans lou barbare que nous<lb/>seluco?<lb/></p>
+        <p><lb/>Eh ! bèn, degun l'enrascassira, aquelo raço<lb/>miejournalo, degun ié garara sa paraulo qu'es<lb/>soun espaso esbléugissènto, car sabèn qu'en-<lb/>Sin l’esperit doumto la matèri, e sabèn que<lb/>nòsti fraire li Cigalié e li Felibre de Paris sa-<lb/>ran emé nautre au coumbat, se jamai lis ome<lb/>espés que renon fasien tant que de manda li<lb/>dènt! Saren ensèn tóuti lis ome fidèu à la<lb/>terro nadalo ; a-n aquelo ouro se destriaran<lb/>plus li partit ; blu, blanc e rouge, uni coume li<lb/>tres coulour dóu drapèu, apararen nosto lengo<lb/>d'O, autant franceso que sa sorre latino, la<lb/>lengo d'Oui.</p>
+        <p><lb/>E noste crid sara: Vivo la Nacioun!</p>
+        <ab><lb/>Felis Gras.<fw type="digitisation-artefact"><lb/>purce gallica.bnf.fr / Bibliothèqu</fw></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81342152</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1881-12-04">1881</date>
+          <idno type="ARK">bpt6k81342152</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81342152</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Dimenche, 4 de Decre 1881.<lb/>Dous sòu lou numerò</fw>
+        <fw type="runningTitle"><lb/>I. Annado — No XXXVI p. 281</fw>
+        <head><lb/>JOURNAU POUPULARI DE LITERATURO, D'ISTORI E DE SCIENCI<lb/>PAREISSENT TOUTEI LEI DIMENCHE</head>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/>Depausitàri majourau pèr Marsiho : H. Blancard, 6 carriero dei Recoulèto, 6,</p>
+        <p rend="styled"><milestone unit="column" n="2"/><lb/>Tout ço que toco lou journan dèu<lb/>lèstre manda afranqui à l'Empremarié<lb/><lb/>Pronvencalo, 15, carrièro dou Grand-<lb/>Relògi, à-z-Ais.</p>
+        <p><lb/>Abounamen:<lb/>SÈT tranc pèr an pèr touto la Franço.<lb/>Fouero Franço, lou port en subre, co<lb/>que reven à DES fr.</p>
+      </div>
+      <div type="article">
+        <head><lb/>TAULETO</head>
+        <ab><lb/>Li Pastre e lis Ange - Lou felibre de Baudo,<lb/>CROUNICO. — Lei councours literàri de Fourcau-<lb/>quié.</ab>
+        <p rend="structured"><lb/>PASSO-TÈMS. — Lei negre - Pistachié.</p>
+        <list>
+          <item>POUESIO. — Flour e chato - A Fernand. —</item>
+        </list>
+        <p><lb/>Au felibre majourau J.- B. Gaut - FDellile.</p>
+        <p rend="structured"><lb/>VARIETA LITERARI — La Rascladouiro-L. Astruc</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>PASSO-TEMS</head>
+        <head><lb/>LEI NEGRE</head>
+        <p><lb/>En passant sus lou port de Marsiho, un pi-<lb/>choun vi decendre d'un bastimen un grand ne-<lb/>gre que risié tout en fènt vèire dous rang de dènt<lb/>pu blanco que d'evòri.</p>
+        <p><lb/>E lèu demando à soun einè que lou tenié pèr<lb/>la man:</p>
+        <p rend="labelled"><lb/>— Digo mi, Goustin, lei negre si lavon la figuro<lb/>tóuti lei matin?</p>
+        <p rend="labelled"><lb/>— Segur, si lavon coumo nous autre.</p>
+        <p rend="labelled"><lb/>— Alor coumo va que soun toujour negre ?</p>
+        <p rend="labelled"><lb/>— Que sies cauvasso, moun paure Bibi, vies<lb/>pa que si lavon emé de saboun negre per que si<lb/>vigue pa !</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Esbrihaudon lis iue. Mai de soun jougne prim<lb/>S'escapo en s'enaurant dins lis auti planuro<lb/>Un dous perfum qu’embaumo, uno boufado puro<lb/>Que ressemblo a l'aflat virgtnau dóu matin.</ab>
+        <ab type="head"><lb/>POUESIO</ab>
+        <ab type="head"><lb/>FLOUR E CHATO</ab>
+        <ab type="head"><lb/>PROUNIERO FLOUR</ab>
+        <ab type="head"><lb/>LA ROSO</ab>
+        <ab type="head"><lb/>A moun bon fraire Louis Antoine</ab>
+        <lg>
+          <l><lb/>S'estalouiro ufanouso au mitan di jardin.</l>
+          <l><lb/>La roso, la flour qu'a tant richo atrencaduro;</l>
+          <l><lb/>Li pourpàli coulour, pèr la dono naturo</l>
+          <l><lb/>Sus sa raubo jitado, em'un gaubi divin,</l>
+        </lg>
+        <lg>
+          <l><lb/>Tout es doun reûni dins uno flour tantgento</l>
+          <l><lb/>E cadun la vesent charmanto, trelusento,</l>
+          <l><lb/>Vóu admira soun viesti, e senti soun alen.</l>
+        </lg>
+        <lg>
+          <l><lb/>Oh! la culisses pas aquelo bono mino,</l>
+          <l><lb/>Vo ben, 'me precaucioun, prenes la mi jouvent:</l>
+          <l><lb/>Car vosti dét pourrien senti sa duro espino!</l>
+        </lg>
+        <ab type="head"><lb/>GOUTOUNO</ab>
+        <lg>
+          <l><lb/>Mis ami, va sabès, Jan adoro Goutouno;</l>
+          <l><lb/>Parai, la couneissès tóuti! questo chatounoI</l>
+          <l><lb/>Sabès qu'a des-vuech an, lou pu couquin mour-</l>
+          <l><lb/>Que se posquebuba dins noste vilajoun. [roun</l>
+        </lg>
+        <p><lb/>Les annonces, réclames et faits di-<lb/>vers sout reçus exclusivement à le<lb/>Société Anonyme de publicité, 52 rue<lb/>d'Aboukir, termière de la publicité.</p>
+        <ab><lb/>PISTACHIE.<fw type="digitisation-artefact"><lb/>gallica.bnf.fr / Bil<lb/>pliothèques de Marse<lb/></fw></ab>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="282"/>
+        <fw type="runningTitle"><lb/>LOU BRUSC</fw>
+        <lg>
+          <l><lb/>Mai Goutouno amo Jan? La chato poulidouno</l>
+          <l><lb/>Que saup d’un galantbiai se rendre charmantouno,</l>
+          <l><lb/>La fiho dóu Cresus de tout noste cantoun</l>
+          <l><lb/>Pou pas se marida 'm'aquéu lai Janetoun.</l>
+        </lg>
+        <lg>
+          <l><lb/>Un vèspre que Goutouno à l'oustau retornavo,</l>
+          <l><lb/>Lou calignaire, urous, de vèire que marchavo</l>
+          <l><lb/>Soulo dins un draióu, vougu èn'en proufita,</l>
+        </lg>
+        <lg>
+          <l><lb/>Venguè devers la chato, e pèr se countenta</l>
+          <l><lb/>Ié raubèquauqui bai, pièi...—pièi trasè dins l’aire</l>
+          <l><lb/>Un crid plagnènt: Goutouno avié mordu lou laire!</l>
+        </lg>
+        <p><lb/>Marsiho, 28 novembre 1881.</p>
+        <ab><lb/>H. Fernand ANTOINE.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>FRANCES DELILLE.</head>
+        <p rend="styled"><lb/>AU FELIBRE MAJOURAU, EN J.-B. GAUT<lb/>Que venié de me manda si sounet sus «LEI SET<lb/>PECAT CAPITAU» em'aquesto deviso:</p>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Au cantaire dei Martegau</l>
+          <l><lb/>Mando sei set pecat, lou gau.</l>
+        </lg>
+        <ab><lb/>J.-B. Gaut</ab>
+        <lg>
+          <l><lb/>Gramaci, brave moussu Gaut!</l>
+          <l><lb/>Vous dirai que me fai grand gau</l>
+          <l><lb/>Qu’au cantaire di Martegan</l>
+          <l><lb/>Mandè sei set pecat, lou gau.</l>
+          <l><lb/>De perdoun, boutas, ie n’en fau,</l>
+          <l><lb/>Car de mourtau e de veniau,</l>
+          <l><lb/>De nanet e de capitau,</l>
+          <l><lb/>De pichotet, de majourau,</l>
+          <l><lb/>Quant n’a fa ? Diéu soulet lou saup.</l>
+          <l><lb/>Ansin, dóu suplice infernau,</l>
+          <l><lb/>Pèr l'eisènta, paure malaut,</l>
+          <l><lb/>Sus si fauto, patin-patau,</l>
+          <l><lb/>Clucant lis iue, e d’un cor siau,</l>
+          <l><lb/>Barras lèu, lèu, lou pourtissau,</l>
+          <l><lb/>Pèr qu’un jour, aperamoundaut,</l>
+          <l><lb/>Emé Roumaniho e Mistrau,</l>
+          <l><lb/>Mathiéu Ansèume e moussu Gaut,</l>
+          <l><lb/>Anfos Tavan, Francés Vidau,</l>
+          <l><lb/>Verdot, de Pèire aguent li clau,</l>
+          <l><lb/>Manjèn ensèn de perdigau,</l>
+          <l><lb/>Emé de figo senso sau.</l>
+        </lg>
+        <lg>
+          <l><lb/>Paris, lou 9 de nouvèmbre 1881.</l>
+        </lg>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>RACONTE<lb/>Subre li ronto soulitàri<lb/>S'entendie lou trantran d'un carri<lb/>O bèn lou japadis d'un chin....<lb/>Ouro soulenno ! ouro predestinado,<lb/>Dempièl quatre mito an ères la desirado<lb/>Car sus la terro e dins lou cèu,</ab>
+        <ab type="head"><lb/>LI PASTRE E LIS ANGE</ab>
+        <p rend="labelled"><lb/>(CANTATO NADALENCO)</p>
+        <lg>
+          <l><lb/>I febli clarour de la luno,</l>
+          <l><lb/>Agouloupa dins si mantèu,</l>
+          <l><lb/>Caminavon li pastourèu;</l>
+          <l><lb/>E dins li vabre sourne e sus li colo bruno,</l>
+          <l><lb/>Quouro à la fes e quouro uno pèr uno,</l>
+          <l><lb/>s'entendié dindina li pico di troupèu....</l>
+          <l><lb/>De l'estelan l'inmènso multitudo</l>
+          <l><lb/>Mountant de l'ourizount vounte sèmblo escoundudo,</l>
+          <l><lb/>Dou fiermamen dou cèu clafissié l'estendudo.</l>
+          <l><lb/>Quàuqui fiò lun en liun lusissien... Peralin</l>
+        </lg>
+        <lg>
+          <l><lb/>A Betelen quand fuguères sounado,</l>
+          <l><lb/>Touto la creacioun faguè soun jubilèu ! (1)</l>
+        </lg>
+        <ab type="head"><lb/>ON PASTRIHOUN</ab>
+        <lg>
+          <l><lb/>Que bon vent boufo dius la baumo!</l>
+          <l><lb/>Sus li mountagno sènt qu'embaumo!,.</l>
+          <l><lb/>Mai de-qu'esproves o moan cor?</l>
+          <l><lb/>De qu'ause ?. oh! la douço musico!</l>
+          <l><lb/>Coume Jacob, dis Angelico</l>
+          <l><lb/>Ausirièu-ti lis arpo d'or?</l>
+          <l><lb/>l'a mai-que-mai dins lis estello...</l>
+          <l><lb/>Regardo,. escouto... en ribanbello</l>
+          <l><lb/>Ve-lèi oh ! ve-lèi davala !..</l>
+          <l><lb/>Belèu i planuro estelado</l>
+          <l><lb/>Es un vòu d'amo benurado</l>
+          <l><lb/>Qu'au Paradis vai s'envoula. (2)</l>
+        </lg>
+        <ab type="head"><lb/>CoR</ab>
+        <lg>
+          <l><lb/>Pastoureu, escouten l'aubado:</l>
+          <l><lb/>Es un vou d'amo benurado</l>
+          <l><lb/>Qu'au Paradis vai s'envoula.</l>
+        </lg>
+        <lg>
+          <l><lb/>Vai, jouvènt, laisso tis estello:</l>
+          <l><lb/>Alin uno clarta nouvello,</l>
+          <l><lb/>Coume jamai n'as vist en-liò,</l>
+          <l><lb/>De-vers Ebroun trais si belugo ; (3)</l>
+        </lg>
+        <ab type="head"><lb/>UN VIEI PASTRE</ab>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>(1) Au dire di saberu de l'astrounoumio N. S. nasque<lb/>souto la grando counjouncioun de quàsi tóuti ll planeto,<lb/>dins lou signe di Peissoun. A n-aquel istant tout lou sis-<lb/>tèmo di planeto coumençavo de celebra sa grando annado<lb/>ubilàri (V. Dóutour Sepp. Vic de N. S. 3me part. chap. 22.)<lb/></p>
+        <p rend="labelled"><lb/>(2) Alusioun à la cresènço poupulàri sus lis estello filanto:<lb/>tre qu'uno estello se vèi fusa dins l'ér, « tè, se dison li gènt,<lb/>vaqui 'no amo de mai en paradis.»</p>
+        <p rend="labelled"><lb/>(3) La caverno ounte la Vierge entanté lou feu de Dieu<lb/>se capitavo sus la routo d'Ebroun.<fw type="digitisation-artefact"><lb/>in./Bilèque e<lb/>e</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

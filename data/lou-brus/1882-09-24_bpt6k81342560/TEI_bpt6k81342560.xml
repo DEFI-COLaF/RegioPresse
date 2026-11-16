@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81342560</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1882-09-24">1882</date>
+          <idno type="ARK">bpt6k81342560</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81342560</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Dimenche 24 de Setèmbre 1882<lb/>Dous sòu lou numero</fw>
+        <ab><milestone unit="column" n="2"/><lb/>VI I 201<lb/>MISES EN VERS FRANÇAIS<lb/>Constant HENNION<lb/>CSOUNICO. — Lei nouvéus estatut de l'Acadèmi<lb/>d'Ais — Flour e chato e la prefaci de V. Ber-<lb/>nard. — Lo Gay Saber</ab>
+        <ab><milestone unit="column" n="3"/><lb/>IVo Annado —</ab>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>JOURNAU POUPULARI DE LITERATURO, D'ISTORI E DE SCIENCI</p>
+        <p rend="heading"><lb/>PAREISSENT TOUTRI LEI DIMENCHE</p>
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>Depausitàri majourau pèr Marsiho<lb/>M. Vincent, carriero Corneille, 3.</p>
+        <ab><lb/>Tout ço que toco lou journan deu<lb/>estre manda atranqui à l'Emprimarié<lb/><lb/>Prouvençalo, 15, carrièro dóu Grand-<lb/>Relògi, à-z-Ais.<lb/></ab>
+        <p><lb/>Les anuonces, recl mes et taits di-<lb/>vers sont recus euclusivement à l'A-<lb/>gence Ewig rue d'Umbois-—Richelieu,<lb/>9. Piris fermiera de la nublicite</p>
+        <figure type="table">
+          <head><lb/>Abounamen ;</head>
+        </figure>
+        <ab><lb/>sr franc pèr an pèr touto la Franço.<lb/>Fouero Franço. lou port en subre, co<lb/>que revèn à DEA franc.</ab>
+        <p rend="heading"><lb/>FLEURS FELIBRESQUES<lb/>POESIES PROVENGSLES ET LANGUBDOCIENNES<lb/>MODERNES</p>
+        <p rend="heading"><lb/>tirées des œuvres des félibres.</p>
+        <ab><lb/>Maition avec texte en reganl. notices littérairas. notes, et<lb/>un fort volume formatin-16 de plus de 500 pages.<lb/>Prix; franco pour les souscripteurs : 3,50<lb/>Le Volume, qui va paraitre incessamment.<lb/>sern côté 5 francs en librairie.</ab>
+        <ab><lb/>THEATRE DE JEAN DE CABANES<lb/>Tome ll (Scetion Littéraire)<lb/>DE LA<lb/>GRANDE BIBLIOTHEQUE PROVENÇALE<lb/>Directeur ALBERT SAVINE</ab>
+        <ab><lb/>TAULETO<lb/>Passo-TiMS. — Lou tablèu à l'oli — Pistachié<lb/>PoUEsiO — Trento-un, trento-dous... - M. Bour-<lb/>relly. — Moun Estello - E Bouvet. — La ba-<lb/>testo - V. Bernard.</ab>
+        <p rend="labelled"><lb/>TEATRE PROUVENÇAU. — Nicola lou Camarguen.<lb/>J. Sourbie</p>
+        <list>
+          <item>FSKIETOUN — L'anèu dóu rèi — F. d'E.</item>
+        </list>
+      </div>
+      <div type="article">
+        <head><lb/>PASSO-TEMS</head>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>LOU TABLÉU A L'OLI</ab>
+        <p><lb/>Méste Simoun èro un barbejaire de la plaço de<lb/>Lenche que manejavo em'antant de gàubi lou<lb/>pincéu à barbo que lou pincen à coulour, quand<lb/>si servisslé pas dou meme pèr tout faire. Estent<lb/>qu'ero foueço renouma pèr pinta de pavaioun,<lb/>tant l'arribevo de faire la barbo à sei pratico em'<lb/>à Sant Jirome vo à Sant Cristòu. Vous parli pas<lb/>de Santo Birbo qu'avié representa su milo pa-<lb/>vaioun e qu'èro sa patroino favourido; ni mai de<lb/>touti li Sant-Laurent su la gribo, lei Sant Pèire<lb/>emé lou gau e lei Sant Jan emé lou móutoun qu'a¬<lb/>vié pinta de man de mèstre.</p>
+        <p><lb/>Mèste Simoun s'èro fa 'no talo reputacien.<lb/>qu'un bèu jour viguè veni dins sa boutigo un<lb/>quarchand d'òli de l'Evescat que s'èro mes dins la<lb/><lb/>tèsto de si fa faire soun pourtret à l'ôli. Bèn que<lb/>noueste artisto aguesse jamai pinta qu'à la fresco,<lb/>si faguè pas tira l'auriho, agantè sei pincèn emé<lb/>de pinturo à l'oli, faguè pausa soun ome dins un<lb/>fantuei, e si meté bravamen à l'obro.</p>
+        <p><lb/>Eiçò durè tres mes de tèms, que chasque jour<lb/>lou marchand venié pessa sei doues ouro enco<lb/>dóu pintre barbejaire.</p>
+        <p><lb/>Finalamen lou tablèu estènt acaba, e la ressem-<lb/>blanço /rapanto, n'en venguèron à parla dóu pres.</p>
+        <p rend="labelled"><lb/>— 'Es 300 franc, faguè mèste Simoun.</p>
+        <p rend="heading"><lb/>PAR<fw type="digitisation-artefact"><lb/>le<lb/>ce gallica.bnf.fr / Bibliothèques de Mars</fw></p>
+        <figure type="decoration"/>
+      </div>
+    </body>
+  </text>
+</TEI>

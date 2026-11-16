@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Gau</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8138390m</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Gau : revisto mesadiero pèr li revendicacioun de la lengo prouvençalo à l'escolo, dins la cadiero e à la tribuno poupulàri : parèis lou 15 de chasque mes / secretàri dóu Gau D. Savié de Fourviero</title>
+          <publisher>[s.n.] (Tarascoun-sus-Rose)</publisher>
+          <date when="1898-09-15">1898</date>
+          <idno type="ARK">bpt6k8138390m</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8138390m</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0008.xml"/>
+        <fw type="runningTitle"><lb/>LOU GAU.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>Vous. . . . . . 636 11 10 Digno . . . . . 3 39 10 46<lb/>De Vòus à Manosco, Ais,<lb/>Marsiho e Avignoux <lb/>seco seco<lb/>339<lb/>8 o5 Vous. . . . .<lb/>158<lb/>814<lb/>9 00 Manosco.. . . 353<lb/>6361038<lb/>1 28 Marsiho. . . . 8 04 12 06<lb/><lb/>1 48 Avignoun..<lb/>D'Avignoun e d'At à Vòus De Vòus à-n-Ate Avignoun<lb/></ab>
+      </div>
+      <div type="article">
+        <ab><lb/>A 10 ouro, Vin d'ounour à la coumuno<lb/>A 10 ouro e miejo, Messo accoumpagnado<lb/>d'èr dóu pais<lb/>A 6 OURO, FARANDOULO</ab>
+        <ab type="head"><lb/>PROUGRAMO</ab>
+        <ab type="head"><lb/>Fèsto Prouvençalo de Vòus<lb/>25 de Setèmbre</ab>
+        <figure type="decoration"/>
+        <p><lb/>Lou de matin, à 9 ouro e 20, se recebra en garo de Vous<lb/>LI FELIBRE, LI DAMO, LI SABÈNT E LI LETRU<lb/>Intrado dins Vòus en musico, Dansaire e Tambourin</p>
+        <ab><lb/>SERMOUN DOU R. P. SAVIE DE FOURVIERO</ab>
+        <ab type="head"><lb/>A 2 ouro, Acampado patrioutico</ab>
+        <p><lb/>Ounte nòsti tradicioun, nòstis usage, nosto obro,<lb/>nòsti revendicacioun, noste aveni saran enaura pèr<lb/>MM. de Berlu-Perussis, Plauchud, V. Liéutaud,<lb/>A. Honde. L. Mourèu, J. Carrère, C. Maurras,<lb/>de Bono-Corso, Guilibert, e uno tiero de valènt<lb/>prouvençau de la costo pleno.</p>
+        <ab><lb/>A 4 curo Descargo d'artiharié</ab>
+        <ab type="head"><lb/>CANT DÓU PAÏSAN PROUVENÇAU</ab>
+        <p rend="styled"><lb/>Touti li musico e fanfaro de l'encountrado</p>
+        <p><lb/>A 7 ouro, Fiò d'artifice — Fiò de joio subre lou baus de<lb/>Vòus — Pegoulado e sautarié publico.</p>
+        <ab type="head"><lb/>li A Qu'un vous!</ab>
+        <ab type="head"><lb/>Bouen Prouvençau, acampas-voui-li!</ab>
+        <p rend="styled"><lb/>Au moumen que s'estampo aquest numerò, la predicacioun<lb/>prouvençalo vai soun trin: M. Richaud, óumournié dóu<lb/>licèu de Digno, predico à N.-D. de Lourdo; M. de Terris.<lb/>à N.-D. de Lumiero; M. Espariat, à Four-Cauquié;<lb/>P. Savié, en Eirago; e M. Fructus douno à Crihoun uno.<lb/>óutavo de predicanço dins nosto bello longo maire. Zou!<lb/>que n'i'aguel Es espesso la meissoun e soun clar li pres-<lb/>fachié.</p>
+        <p rend="labelled"><lb/>2... Après une éloquente péroraison où le P. Xavier regrette que<lb/>les pèlerins ne puissent plus vonir en procession au sanctuaire du<lb/>Groseau, la foule s'est levee et le cortége compact, immense, prècède<lb/>la sainte Réserve. Des cantiques enthousiastes éclatent de toute,<lb/><lb/>part. Oh! P'inoubliable spectacle, quand ce peuple saintement êmu<lb/>est entrè dans l'église aux cris de: Vivo Nosto-Damo! Et quand<lb/>la foule entière a entonné le refrain populaire: O Mario, la patrio,<lb/>l'assoustaras....! comme on sentait la foi revivre de l'ardeur des<lb/>ancièns jours!»</p>
+        <ab><lb/>EPICERIE CENTRALE<lb/>AVIGNON - Place Carnot - AVIGNOn<lb/>Maison de Confiance fondée en 1876<lb/>Demi-gros et détail - Marchandises de 1er choix<lb/>Fournitures spéciales d'hòtels, restaurants<lb/>Communautés rellgleuses, Pensionnats, Maisons bourgeoises, etc.<lb/>ÉXPÉDITION francO D'EMBALLAGE<lb/>Envoi du prix-courant général sur demande</ab>
+        <note>
+          <p rend="styled"><lb/>Les Editeurs-gérants: Aubanel Prêres.</p>
+        </note>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>MARCHO DI TRIN</p>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <figure type="table">
+          <head><lb/>D'Avignoun, de Marsiho<lb/>d'Ais, de Manosco à Vous</head>
+        </figure>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <ab><lb/>u vou de bon saboun?<lb/>Auguste ROUIT<lb/>SABOUN BLANC<lb/>SABOUN BLANC<lb/>MARSiHO<lb/>superiour<lb/>estra-bon e pur<lb/>2, balouard de la Courdarié."<lb/><fw type="digitisation-artefact"><lb/>ource gallica.bnf.fr / Bibliothèque nationale</fw></ab>
+        <figure/>
+        <figure type="table"/>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <p rend="styled"><milestone unit="column" n="3"/><lb/>LA BAIO</p>
+        <note>
+          <p rend="styled"><lb/>Avignoun. — Li Fraire Aubanel, empreméire.</p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t51150969w</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1842-01-07">1842</date>
+          <idno type="ARK">bd6t51150969w</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t51150969w</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/>PR 18 FRANCS PAR AN, 9 francs pour 6 mois, 5 francs pour 3 mois.</ab>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>REUILLE POLITIQUE, LITTÉRAIRE, COMMERCIALE ETAINDISIRAELLE.</p>
+        <p rend="heading"><lb/>Paraissant les Mercredis, Vendredis et Dimanches</p>
+        <p rend="styled"><lb/>On s'abonne à Dijon, au Bureau, rue Verrerie, 2 bis, où l'on reçoit toutes les communications qui peuvent intéresser le chef-lieu ou les communes<lb/>du département. — Les lettres doivent être affranchies et signées pour la garantie du rédacteur responsable.<lb/>venance. Il paraît du reste que les observations gé¬<lb/>nérales que je m’étais condamné à publier ont un re¬<lb/>tentissement fondé. En m’élevant, comme il convenait,<lb/>contre la clandestinité de la prétendue autorisation de<lb/>M. Orfila, à l'époque de la création de l'école, je per¬<lb/>sistais alors à déclarer que ce qui déconsidère ce<lb/>nouvel établissement, ce qui doit le frapper même de<lb/>déchéance, c’étaient de mauvais arrangemens, ces<lb/>combinaisons de complaisance, ces sortes de tours de<lb/>passe-passe ou de maître Gonin, et tout cela pour<lb/>s’assurer les avantages d’une prépondérance illimitée;<lb/>c’était enfin, et ceci est odieux, l’exclusion injuste de<lb/>certains docteurs, et entre autres de l’ancien pro¬<lb/>fesseur que l'on maintint directeur de l’école, tant<lb/>qu'aucune rétribution n'était affectée à ce poste. Au-<lb/>jourd'hui, quelques émolumens se tirent de l'emploi<lb/>de professeur, l'homme de bien et le savant modeste<lb/>en même temps est jugé trop vieux; il n’a plus qu’un<lb/>bon vouloir sans la force nécessaire pour soutenir la<lb/>charge, il gêne, enfin il est de trop pour avoir sa part<lb/>des bénéfices. Est-ce ainsi, grand Dieu ! que l’on ma¬<lb/>nifeste le respect pour des droits sacrés et la recon-<lb/>naissance pour de longs services, à Dijon où l’on so<lb/>fait un devoir et un mérite de consacrer en toute oc¬<lb/>casion le souvenir des hommes de bien et des savans!</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p><lb/>révoltans toutes les convenances que l’usage fait reli¬</p>
+        <p><lb/>tre le droit commun, se trouve également contraire<lb/>aux intérêts des familles. Quelles garanties pour ces<lb/>dernières dans le point qui touche l'éducation des<lb/>jeunes gens ? Comparez, au surplus, les écoles médi¬<lb/>cales établies dans les villes les plus rapprochées de<lb/>Dijon, et vous verrez si le personnel des professeurs<lb/>a motivé la moindre récrimination. Il est déplorable<lb/>de reconnaître que la direction d’un établissement<lb/>aussi utile est mise ici à la discrétion d’une coterie dont<lb/>l’esprit ne nous prouve que trop déjà les dispositions<lb/><lb/>arbitraires..... Puissé-je voir que ce n’est pas en vain<lb/>que j’en appelle de nouveau à la raison de ceux de mes<lb/>confrères de Dijon qui sont étrangers à toutes les</p>
+      </div>
+      <div type="article">
+        <head><lb/>resse coalis</head>
+        <p><lb/>expier sa gloire et la punir de ses malheurs, en lui<lb/>imposant la restauration, elle fit précéder l'invasion</p>
+        <p><lb/>térieur s’en sont emparés pour dénoncer au gouver-<lb/>nement, aux chambres et à tout le pays, la guerre<lb/>d’extermination que leur coalition a résolue contre<lb/>les pouvoirs de l’Etat et les institutions nationales.<lb/>Cette odieuse analogie doit soulever d’indignation les</p>
+        <p><lb/>aient parlé le langage hautain d’une déclaration so¬<lb/>lennelle de leurs projets hostiles, cela se conçoit et<lb/>ne manque pas de convenance, quelque humiliant<lb/>naux qui se sont mis à la tête de la nouvelle coalition<lb/>aient usurpé pour leur diatribe ce titre ambitieux<lb/>sans autres armes pour le soutenir que les seize plu¬<lb/>mes de leurs rédacteurs, cela frise de trop près le ri¬</p>
+        <p><lb/>mandons pas non plus avec trop d’exigence à ces nou-<lb/>veaux fédérés en vertu de quel article de la Charte<lb/>ils se constituent en corps délibérant: on sait bien<lb/>que la Charte est le moindre souci de ces redoutables<lb/>puissances. Supposons donc qu’ils sont dans leur droit,<lb/>comme les Débats n’ont pas honte de le reconnaître,</p>
+        <p><lb/>tiaires il y avait quatre légitimistes, la France, la<lb/>Quotidienne, la Gazette de France, la Mode; deux<lb/>ignobles feuilles indignes de se mêler à une discussion<lb/>sérieuse, le Corsaire, le Charivari; deux organes du<lb/>du Peuple; cinq journaux de la gauche, le Commerce,<lb/>la Patrie, le Siecle, le Temps, le Courrier-Français,<lb/>tous organes de quelques factions, ou du prince Louis,<lb/>ou de M. Thiers, ou de M. Barrot, et enfin trois pu¬<lb/><lb/>blications entièrement ignorées dans le monde politi¬</p>
+        <p><lb/>la restauration, de la démagogie, du communisme, des<lb/>prétendans de Goritz et de Ham, de l’ambition effré¬<lb/>plus furieux antagonistes de notre révolutiou, qui se<lb/><lb/>proclame l’égide de nos libertés! Quoi de plus cynique<lb/>et de plus hideux! Que l’on cherche dans cette tourbe<lb/>des institutions nationales, des pouvoirs constitution-<lb/>nels, des lois gardiennes de l’ordre social : je défie<lb/>qu’on en trouve un seul. Voilà cependant les hommes<lb/>qui se présentent comme les défenseurs de l'opinion<lb/>veloppent leurs théories anarchiques. Nous lisons à la<lb/>.</p>
+        <p><lb/>Le1<lb/>espect pour l'ordre légal, à aucune époque elle n'ade</p>
+        <p><lb/>les véritables amis de la patrie, du respect que portent<lb/>la Mode, le Charivari, le Corsaire, le National, le<lb/>plus audacieusement ennemis de cet ordre dont ils pro-<lb/>fanent le nom sacré, sans vouloir excepter ceux qui,<lb/>moins connus, ne sont pas moins coupables. Peut-on</p>
+      </div>
+      <div type="article">
+        <p><lb/>à la position où je me trouvais engagé, il y a quelques<lb/>semaines, sur le même sujet. Le mal que je déplorais<lb/>et que signale cette feuille de nouveau, est aujour¬<lb/>d'hui consommé. Ce n’est pas que je veuille attaquer<lb/><lb/>la dernière nomination; je mets de côté les motifs<lb/>fartile de ce journal, et que je ne partage pas par</p>
+      </div>
+      <div type="article">
+        <p><lb/>Le Conseil municipal de Dijon vient de décider<lb/>théâtre en 1842. Nous nous abstenons de toutes ré¬<lb/>flexions à cet égard, attendu qu’à blanchir la tête</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>« Par suite de l'incendie qui a eu lieu à l'usine à gaz, le<lb/>3 décembre dernier, les fourneaux ont tellement souffer:<lb/>e<lb/>que depuis cette époque deux ont manqué et qu'il n'en reste<lb/>qu’un en activité, ce qui m’oblige à faire restreindre le vo¬<lb/>lume de flamme des papillons des lanternes de ville, et de<lb/>les faire éteindre à onze heures au lieu de minuit. Cepen-<lb/>dant je crois que cela ne se prolongera que jusqu'au 7 cou¬</p>
+        <p rend="labelled"><lb/>J'ose espérer que le public bienveillant de<lb/>nécessité et le prie de croire à ma gratitude.eer àcette<lb/>et sucre; — 8 radeaux ou trains de bois de sapin, venant<lb/>d'Huningue et Besançon, allant à Dijon et Paris; — un ba-<lb/>teau chargé de briques, venant de Pouilly-sur-Saône, dé¬<lb/>chargé à Dijon; — 5 bateaux chargés de pierres à plâtre,<lb/>venant de Pont-de-Pany, déchargés à Dijon; — 8 bateaux<lb/>chargés de fers et fontes, chargés à Dijon, allant à Lyon;—<lb/>4 bateaux chargés de ciment hydraulique et pouzzolane,<lb/>venant de Pouilly-en-Auxois, allant à Châlon, Mâcon, Lyon<lb/>et dans toute l'Alsace; — 1 bateau chargé de pains de na-<lb/>vette, chargé à Dijon, allant à Lyon; — 2 bateaux char-<lb/><lb/>gés de foin, venant de Pouilly-en-Auxois, déchargés à<lb/>Dijon; — 5 bateaux chargés de planches de sapin, ve-<lb/>nant de Besançon, déchargés à Dijon;—1 bateau chargé de<lb/>Dijon; — 1 bateau chargé de mélasse, venant de Paris,<lb/>allant à Lyon et dans le Midi; — 3 bascules de poissons ,<lb/>venant de Seurre, une déchargée sur le port de Dijon, 2<lb/>allant à Vandenesse pour empoissonner; — 3 bateaux<lb/>1 bateau chargé de pierres de taille à Dijon, allant à St.-<lb/>Jean-de-Losne; — 5 bateaux de ſûts vides, venant de Pa-<lb/>ris, allant à Mâcon; — 75 bateaux vides, venant de la<lb/>Saône, allant à Dijon, Plombières, Velars, Fleurey et<lb/>Pont-d'Ouche; — 266 bateaux et radeaux formant un</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p><lb/>La majorité constitutionnelle vient<lb/>se <lb/>noncer avec la même résolution et la même fermeté<lb/>que dans le vote pour la présidence et les vice-prési-<lb/>dences. Tous les neuf commissaires appartiennent au<lb/>parti conservateur. Deux seulement ont été nommés<lb/>au deuxième tour de scrutin; sur près de 330 votans,<lb/>le parti constitutionnel a réuni 195 voix environ, et<lb/></p>
+        <p rend="labelled"><lb/>1er Bureau. — M. Hippolyte Passy a obtenu 24 voix sur<lb/>36. Le principal candidat de l'Opposition, M. Berville, a</p>
+        <p rend="labelled"><lb/>nommé par 22 voix; 9 se sont portées sur M. de Tracy;</p>
+        <p rend="labelled"><lb/>efebvre a obtenu 25 voix;<lb/>q<lb/>son concurrent, M. Moreau (de la Seine), n’en a eu que 9.</p>
+        <p rend="labelled"><lb/>été données à M. Léon de Maleville, candidat de l'Opposi-</p>
+        <p rend="labelled"><lb/>t, lui a donné 19 <lb/>L'Opposition, qui portait M. Rivet, lui a donné 19 vola.</p>
+        <p><lb/>MM. H. Passy, B. Delessert, Lacave-Laplagne, Muret<lb/>de Bord, Dupin, Dumon, Jacques Lefebvre, Fould',</p>
+        <p rend="labelled"><lb/>ot, pour deliberer su a conduite a tenir pen</p>
+        <p rend="labelled"><lb/>composée de M. le duc De Cazes, président; MM. le comte<lb/>de Gasparin, le baron Charles Dupin, de la Pinsonnière,<lb/>pairs ; Dumont (Lot-et-Garonne), de Tocqueville, Jouffroy,<lb/>Félix Réal, de Corcelles, Darblay, Gustave de Beaumont,<lb/>Laurence, députés; Filiau de Saint-Hilaire, conseiller<lb/>d'Etat, directeur des colonies; de Bellonet, maréchal de<lb/>camp du génie, Linguet, maitre des requêtes, secrétaire.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>dans le Nord; — 36 baleaux chargés de blé, farine, orge-<lb/>seigle et son, venant de Tonnerre, St.-Florentin, Pont-<lb/><lb/>Royal, Montbard, Plombières et Dijon, allant à Lyon et<lb/>dans le midi de la France; — 29 bateaux chargés de houille<lb/><lb/>ou charbon de terre, venant d'Epinac, allant à Dijon, Lon¬<lb/>gecour, St.-Jean-de-Losne, Mulhouse, et dans toute l’Al¬<lb/>sace; — 10 bateaux chargés de bois à brûler, venant de<lb/>Gissey-sur-Ouche et Labussière, déchargés à Dijon et al¬<lb/>lant à Pouilly-sur-Saône, et de Brazey, déchargés aussi<lb/>à Dijon; — 26 bateaux chargés de moëllons et pierres mu¬<lb/>reuses, venant de Fleurey, Velars, Plombières et Dijon,<lb/>allant le long du Canal et en Saône; — 4 bateaux chargés<lb/>de pierres à chaux hydraulique, venant de Pouilly-en-Au¬<lb/>xois, allant à St.-Jean-de-Losne; — 15 bateaux chargés<lb/>de marchandises diverses, telles que teinture de toute es-<lb/>pèce, bois d’Inde, arsenic, cuivre, plomb, zinc,<lb/>acier, couperose, bois d'acajou, blanc, oere, indigo<lb/></p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Le Moniteur continue les publicatio gr. P'arche<lb/>raqgu seeu o n. g. ace</p>
+        <p rend="labelled"><lb/>sons pas seulement à de hautes convenances, nous venons<lb/>lui apporter l'expression de ce profond respect pour la puis¬<lb/>sance royale, si clairement recommandé par les enseigne-<lb/>mens du christianisme. C'est un devoir qu'il a consacré,<lb/>en même temps qu’il déposait dans le cœur de nos ancêtres</p>
+        <p rend="labelled"><lb/>nécessaire à ceux qui lui sont dévoués et qui en ont la vé-<lb/>ritable intelligence, d'honorer le pouvoir et de professer<lb/>hautement leur soumission aux lois. Le clergé de Paris est<lb/>convaincu, comme tous les hommes éclairés, que la paix</p>
+        <pb facs="0002.xml"/>
+        <p rend="labelled"><lb/>ainsi que les vœux sincères que nous formons pour son</p>
+        <p rend="labelled"><lb/>et que je continuerai tant qu’il y aura vie en moi, pour<lb/>que la religion soit honorée, vénérée et chérie, et pour que<lb/>le clergé trouve sous mon gouvernement l'appui et la po¬<lb/>sition dont il a besoin pour faire tout le bien que j'attends<lb/>de lui dans l'intérêt de la France et de l'Eglise. C’est en<lb/>prêchant les sages maximes que vous venez de rappeler, que<lb/>nous pouvons espérer de calmer les passions, de rallier les<lb/>esprits, et d'inspirer à tous cette confiance que le clergé,<lb/>par son respect pour la puissance royale, par son dévoue-<lb/>ment à nos institutions, contribuera à la tranquillité et au<lb/>bonheur de notre commune patrie. Tels sont les vœux que<lb/><lb/>je forme, et je m’unis à vous pour rendre graces à Dieu de<lb/>la protection toute spéciale dont il couvre la France, et qui</p>
+        <p><lb/>de cassation; M. Barthe, premier président de la cour<lb/>des comptes; M. le ministre de l’instruction publique,<lb/>au nom de l'Université de France; M. le baron Sé¬<lb/><lb/>guier, premier président de la cour royale de Paris;<lb/>M. le baron de Barante, au nom de l'Institut, ont suc-</p>
+        <ab type="head"><lb/>Discours de M. le baron séguier, premier président de la</ab>
+        <p><lb/>jesté le tribut de nos hommages, nous retrouvons toujours<lb/>des expressions faciles. Le cœur n’a qu’un langage, qui,<lb/>comme celui de la vérité, ne s'use pas. Nous redirons donc<lb/>nos vœux accoutumés pour la conservation du roi; ils<lb/>n'ont été que trop souvent opportuns ; puissent-ils devenir<lb/>superflus! Une main invisible, Sire, vous a fait asseoir<lb/>sur le trône, et depuis douze ans elle n’a cessé de vous<lb/>couvrir; elle s'est récemment étendue sur vos fils; elle<lb/>protège la monarchie. Les coups redoublés des méchans ne<lb/>servent qu'à relever la grandeur d'ame d'une famille au¬<lb/>guste, qu’à faire ressortir le besoin de son salut pour le</p>
+        <p><lb/>ble bonté désarmera le crime? Sonhaitons du moins que la<lb/>loi parvienne à rompre des traces ténébreuses, à briser des<lb/>pactes impies ; souhaitons que la prudence humaine ré¬<lb/>ponde aux avis de la Providence! Votre Majeste ne doute<lb/>pas de la vigilance de la Cour royale, dont les devoirs, me¬<lb/>surés pour les temps ordinaires, ne sauraient faillir dans<lb/>des circonstances graves. L’antique fidélité de la magistra-<lb/>ture française vit toujours. Jadis nos rois se sont plu à se<lb/>reposer sur la justice, et la nation a grandi sous cette sainte<lb/>pensée. De là, Sire, le sentiment profond qui caractérise<lb/>la justice dans notre patrie, celui que nos prédécesseurs<lb/>nous ont transmis, celui que nous enseignons à nos enfans,</p>
+        <p rend="labelled"><lb/>comme le vôtre, part du cœur ; et c'est avec bonheur que<lb/>j'y retrouve les traditions de cette antique magistrature<lb/>qui, pendant tant de siècles, a confondu dans le même<lb/>amour les prérogatives de la royauté et les libertés de la<lb/>confiance qu’elle inspire, et par la force qu’elle doit donner<lb/><lb/>sectes perverses qui travaillent à saper la société jusque</p>
+        <p rend="labelled"><lb/>malheurs. Menacée au-dehors, menacée au-dedans, avec<lb/>l'aide de la Providence, et graces à la persévérance de vo¬<lb/>tre sagesse, elle a triomphé de tous les périls; sa liberté,<lb/>son honneur, sa prospérité, confiés à vos royales mains<lb/>dans les circonstances les plus difficiles, après onze années</p>
+        <p rend="labelled"><lb/>pour la conservation d’une vie si utile à la patrie. La pru-<lb/>dence et la fermeté de vos résolutions, la magnanimité de<lb/>votre cœur, votre sentiment si profond des devoirs qu'im-<lb/>pose la Couronne, inspirent au pays la sécurité la plus en¬<lb/>tière; et en voyant à vos côtés ces nobles princes, qui ai-<lb/>ment la France et qui l'ont si courageusement servie, les</p>
+        <p rend="labelled"><lb/>des sentimens du conseil d’Etat. Il est heureux de venir, le<lb/>premier parmi les corps de l’Etat, offrir son hommage à<lb/>l’auguste famille qui vous entoure. Puisse le ciel accueillir<lb/>ם<lb/>nos vœux! Puissent notre dévouement fidèle, notre res-<lb/>pect et notre reconnaissance être agréables au cœur de<lb/>Votre Majesté et adoucir pour elle les amertumes de la<lb/></p>
+        <p rend="labelled"><lb/>faits, que de vous entendre, au nom du conseil d'Etat, pré¬<lb/>senter mon règne comme ayant préservé le pays des mal¬<lb/>heurs qui le menaçaient. Ce fut dans cet espoir que je me<lb/>dévouai à la tâche redoutable de calmer l’ouragan qui s’é¬<lb/>levait autour de nous. Mais si je jouis avec vous de voir que<lb/>en plus nos institutions, je sens que, pour compléter cette<lb/>œuvre, il faut que les dépositaires de l'autorité des lois aient<lb/>le courage de leur conscience; qu’ils ne reculent pas de-<lb/>vant des dangers chimériques, et ne se laissent point en-<lb/>trainer par l'appât d'une vaine popularité; il faut que les<lb/>lois soient exécutées avec une équitable fermeté, de ma-<lb/>nière à les rendre protectrices pour tous, oppressives pour</p>
+      </div>
+      <div type="article">
+        <p><lb/>officiers d'ordonnance, et ceux des princes de la famille</p>
+        <p><lb/>ont reçu successivement, dans la salle du Tròne, les gran¬<lb/>des députations de la Chambre des Pairs et de la Chambre<lb/>des Députés, les députations de la Cour de cassation et de<lb/>l'instruction publique, la députation de la Cour royale de<lb/>Paris, l'Institut de France, M. le préfet de la Seine, M. le<lb/>corps municipal de la ville de Paris, MM. les sous-préfets<lb/>du tribunal de première instance et du tribunal de com-<lb/>bre de commerce de Paris, M. le ministre du commerce<lb/>et les trois conseils généraux de l'agriculture, du commerce<lb/>des ponts et chaussées et des mines; MM. les fonctionnaires<lb/>royal de France, les consistoires de l'Eglise réformée et de<lb/>la confession d’Augsbourg, le consistoire central des israé¬<lb/>lites, le conseil des délégués des colonies, la Chambre des<lb/>notaires de Paris, la Chambre syndicale des agens de<lb/>change, la Chambre des commissaires-priseurs, la Cham-<lb/>bre syndicale des courtiers de commerce et la Société</p>
+        <p rend="labelled"><lb/>préfecture de Seine-et-Oise, les corps municipaux de Ver¬<lb/>sailles et autres villes et communes du département, MM.<lb/>les officiers généraux supérieurs et autres qui ne font point<lb/>partie de la garnison de Paris, et M.M. les fonctionnaires ci-</p>
+        <p><lb/>ficiers des gardes nationales de Versailles et autres villes et<lb/>communes du département de Seine-et-Oise, M. le maré¬<lb/>chal comte Gérard, et l'état-major général des gardes na-<lb/>tionales du département de la Seine, MM. les officiers des<lb/>légions de la banlieue et de Paris, MM. les officiers compo-<lb/>états-majors de la division et de la place, MM. les officiers<lb/>des différens corps et régimens de la garnison de Paris, el<lb/><lb/>MM. les généraux et officiers supérieurs du département de</p>
+        <p rend="labelled"><lb/>le ministre de Russie, lors de la présentation au roi du<lb/>cause d’indisposition. Mais, ce qui n’est pas moins surpre-<lb/>nant, c'est qu'aucun membre de l'ambassade ne l'a rem-<lb/>placé, et qu'aucun sujet russe n'a demandé à être présenté<lb/>leurs fonctions, tandis que la seconde ne les soutient<lb/>presque dans aucun cas. C’est là une singulière façon de</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>France contre l'arrêt rendu contre un journaliste, le duc<lb/>de la Victoire, c’est-à-dire le protégé de cette même<lb/>presse, suspend par un décret la liberté de la presse es-<lb/>pagnole, en autorisant et invitant même les chefs politiques<lb/>à arrêter «la circulation de tout journal, feuille volante<lb/>« ou écrit dans lesquels on attaquerait la constitution du<lb/>« royaume, ou qui contiendrait une excitation à la réali-</p>
+        <p><lb/>Qu'en pensent le National, le Journal du Peuple,</p>
+        <ab><lb/>(Courrier de l'Aini,</ab>
+        <p rend="labelled"><lb/>le cours de l'année qui finit commence à se ralentir depuis<lb/>quelques jours. La cause de ce temps d’arrêt se trouve<lb/>naturellement dans l'immense quantité d’étoffes qui a été<lb/>fabriquée et qui n'a pu s'écouler aussi promptement qu'elle<lb/>a été produite. Elle est également dans la diminution des<lb/>envois expédiés en Amérique, où nos produits sont frappés<lb/>à l'entrée d’un droit de 20 pour 100. Néanmoins ce ralen-<lb/>tissement est peu sensible, et tout fait espérer que nos</p>
+        <p rend="labelled"><lb/>a été plaidée, le 27, devant la Cour royale de Pau, cham-</p>
+        <p><lb/>Gasc et Roaldès à 100 fr. d’amende, pour avoir continué<lb/>d'exercer les fonctions de maire et d'adjoints, après avoir<lb/>reçu communication officielle de la désignation de leurs<lb/></p>
+        <p><lb/>puis onze heures du matin jusqu’après quatre heures du<lb/>soir. Elle s'est alors séparée sans avoir rendu son arrêt, et<lb/>ne s'est réunie pour le prononcer que le lendemain 28, à</p>
+        <p rend="labelled"><lb/>damné à un mois de prison et 500 fr. d'amende M. Gau-<lb/>gain, rédacteur en chef et gérant du Pilote du Calvados,<lb/>prévenu d'avoir inséré dans les colonnes de ce journal un<lb/>compte-rendu de la délibération intérieure de la Cour des</p>
+        <p rend="labelled"><lb/>de Léautaud vient de faire vendre les diamans restés au tri¬<lb/>bunal de Tulle, pour le prix en être distribué entre les</p>
+        <p rend="labelled"><lb/>Joinville au grade de contre-amiral, a été signée, il y a peu<lb/>de jours, et que l’on attend son arrivée en France pour la</p>
+        <p><lb/>Le prince est attendu sous peu de jours à Eou lui es<lb/>ordres ont été envoyés à M. l'amiral Baudin pour lui acs</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>«Sire, recevez avec votre bonté accoutumée l'expression des puissances étrangères étaient accrédités auprès de ce</ab>
+        <p><lb/>La difficulté que M. de Salvandy a v ce a la reine, est<lb/>de la présentation de ses lettres de créance à la reine, ese</p>
+        <p><lb/>reine, en présence du régent. La difficulté, la voici : c’est<lb/>que le cabinet espagnol exige que l’ambassadeur de Fran¬<lb/>présentant du roi des Français, remette ses lettres de cré-<lb/>dit, non à la reine en son palais, mais au régent dans son<lb/>hôtel. De cette façon, ce ne serait plus auprès de la reine<lb/>d’Espagne que l'ambassadeur de France serait accrédité,</p>
+        <p><lb/>monarque, et non auprès du duc d’Orléans, régent de</p>
+        <p><lb/>au rétablissement des relations intimes et amicales qui doi¬<lb/>vent exister, dans leur intérêt commun, entre la France et<lb/>l'Espagne. On reconnait là l'influence anglaise qui agit à<lb/>Judice de la France, d'autres agens à Constantinople, en</p>
+        <p><lb/>dant la nation française. Il y a cette différence entre la<lb/>presse anglaise et la nôtre que la première donne unani¬</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>Boussole et l'Embuscade, qui étaient en partance depuis<lb/>si long-temps. Ces bâtimens ont mis immédiatement après<lb/>à la voile. Quoique l'on ait dit qu'ils devaient aller à la<lb/><lb/>Nouvelle-Zélande, il est certain que dans le public on ne</p>
+        <p rend="labelled"><lb/>capitaine de vaisseau, est parti le 27 pour Philippeville avec<lb/>le 2^e hataillon, l'état-major et la musique du 19e léger.<lb/>Le 1^er bataillon de ce régiment est déjà en mer et peut-être</p>
+        <p rend="labelled"><lb/>«Le vaisseau l'Alger, commandé par M. Tavenet, capi-<lb/>laine de vaisseau, est parti pour Alger avec 12 officiers,<lb/>P<lb/>680 hommes du 24e de ligne, 221 du 48^e et 150 du 2^e du</p>
+        <p rend="labelled"><lb/>pulation. On a bientôt appris que c’était la corvette l'Em-<lb/>buscade qui, en mettant à la voile, s’était échouée sous le</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p><lb/>viennent d'être arrêtés le 31 décembre, et qui établissent<lb/>son bilan exact et complet à cette époque, donnent les ré-<lb/>sultats suivans des opérations de cette caisse pendant</p>
+        <p><lb/>pitalisés a a n de dée bre,</p>
+        <p><lb/>Elle a remboursé celle de 26 millions 91<lb/>L'accroissement dans l'année a donc étée</p>
+        <p><lb/>plans et cartes, 143; — musique, 428. — En tout, 8,036</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>rture des corter, où laace n'aurait pas été nettement<lb/>rture des corte, ù pce n'aurait pas été nettement</p>
+        <pb facs="0003.xml"/>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="2"/><lb/>régence d'Espartero, les ambassadeurs de France étaient<lb/>de sa double dignité de reine et de mère de la reine ré-<lb/>redoublé les politesses et les complimens vis-à-vis d’une<lb/>gouvernement français soutiendra en conséquence son am-<lb/>bassadeur dans sa résistance aux prétentions émises par<lb/>du souverain de jure et de facto, au lieu d'être simplement<lb/>le représentant de sa souveraine pendant sa minorité. La<lb/>Dignité de la prérogative de la royauté a éte défendue par<lb/>1<lb/>M. de Salvandy, et sa conduite a reçu l'approbation du roi<lb/>breux commentaires, et même à la publication d’articles<lb/>d'agrément, et n'a pas l'importance qu'on a cherché à lu<lb/>donner. M. de Salvandy sera de retour à Madrid le 27 au</ab>
+        <p rend="labelled"><lb/>deur de France, rapporté un grand nombre de précé¬</p>
+        <p rend="labelled"><lb/>une circulaire enjoignant de présenter, pendant la minorité<lb/>diplomatique entier protesta contre cette mesure. M. de<lb/>Pontois demanda des instructions au gouvernement fran¬<lb/>successeur de M. de Pontois. Le roi des Français insista<lb/>pour qu’on suivît la marche régulière. Le gouvernement<lb/>brésillien céda devant la fermeté du cabinet français, et les<lb/>lettres de créance furent présentées à l'empereur en per-<lb/>sonne. En un mot, ce ne peut être que dans le cas où le<lb/>de recevoir un ambassadeur, que des exceptions doivent<lb/>avoir lieu, comme cela est arrivé ici au temps de Geor-</p>
+        <p rend="labelled"><lb/>l'infante ont été reçus par les députations des deux chambres.<lb/>gauche et le régent à sa droite, une marche plus bas que</p>
+        <p rend="labelled"><lb/>remis au régent, et celui-ci en a donné lecture; en voici les</p>
+        <p rend="labelled"><lb/>honneur d’exercer, pendant sa minorité, l’autorité royale<lb/>m'inspirent la confiance que le trône constitutionnel s'affer-<lb/>bonheur et la prospérité de la patrie seront l'objet de vos</p>
+        <p rend="labelled"><lb/>des liens de cette harmonie et de cette bonne intelligence<lb/>démarche nous regardent sans hostilité, s'informent avec<lb/>soin de notre situation politique, et comme elle se conso¬<lb/>lide, le jour n'est pas loin, à mon avis, où la raison triom-</p>
+        <p rend="labelled"><lb/>née, et le gouvernement français a vu avec peine la vio¬<lb/><lb/><lb/>lation du territoire des Aldudes. Désirant écarter les causes<lb/>le gouvernement de S. M. suit la négociation d’un traité<lb/>avec celui de S. M. le roi des Français, qui a présenté un<lb/>projet auquel on a répondu par un autre qui est basé sur<lb/><lb/>des principes différens. Je vous donnerai connaissance en<lb/>temps opportun de la résolution définitive qui aura été</p>
+        <p rend="labelled"><lb/>/roublé le repos public et obligé le gouvernement à pro¬<lb/>céder avec énergie et activité pour l'étouffer dans son ori-<lb/>gine. La constitution a été menacée, ainsi que la vie pré-<lb/><lb/>par une conjuration à main armée. Mais la Providence a fa-<lb/>vorisé les efforts des Espagnols fidèles pour sauver ces chers<lb/>disposer ont été employés utilement pour la répression<lb/><lb/>les principaux coupables dont les tentatives criminelles se<lb/>sont brisées en moins d'un mois contre l'attitude ferme de<lb/>la nation et l'énergie du gouvernement. La vindicte publi-<lb/>que, une fois satisfaite, le gouvernement a pensé qu’il de-<lb/>vait user de clémence et a fait grace de la vie à plusieurs</p>
+        <p rend="labelled"><lb/>de confiance, ont forcé le gouvernement à mettre en état<lb/>de siége cette riche et populeuse cité. Cette mesure, qui</p>
+      </div>
+      <div type="article">
+        <p><lb/>rains du prince de Galles; cette invitation était parfaitement<lb/>rédigée en langue allemande dans une lettre autographe<lb/>qui prouve que la reine d’Angleterre est familiarisée avec<lb/>cette langue. On lit le passage suivant dans cette lettre:<lb/>«Je regarderai comme de favorable augure pour le bon¬<lb/>(heur de mon enfant que S. M. et mon bien-aimé cousin<lb/>n’avait pour objet que d'éviter l'effusion du sang, n'a pro¬<lb/>duit ni violence ni châtiment, car les peines ne doivent<lb/>être infligées que d’après les lois. Les tribunaux instruisent<lb/>les causes qu’ils devront juger, avec le zèle que réclame<lb/>la prompte et bonne administration de la justice. Après ces<lb/>événemens, la tranquillité a été rendue à toute la monar¬<lb/>chie par le triomphe des lois, et toute cause de nouveaux<lb/>désordres a disparu. La brave armée et la vaillante milice<lb/>nationale ont loyalement défendu la constitution et les lois,<lb/>et la patrie se montre reconnaissante de leurs éclatans ser-</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>à la nation conserve l'organisation qui lui a été donnée au<lb/>mois d’août dernier. Elle est régulièrement pourvue, et le<lb/>gouvernement lui donne la préférence qu'elle mérite. Son<lb/>moral et sa discipline se maintiennent en un état satisfai-<lb/>sant, et sa fidélité et son patriotisme garantissent l'obéis-</p>
+        <p rend="labelled"><lb/>deront pas à réformer les Codes que l'on prépare avec zèle</p>
+        <p rend="labelled"><lb/>ver la propriété, et ses avantages s'étendent à tous ceux<lb/>auxquels lanature etles obligations civiles donnent le droit</p>
+        <p rend="labelled"><lb/>vernement emploie tous ses efforts pour que les obligations<lb/>religieuses qu’elle contient en faveur de la nation et de l'é¬<lb/>glise soient remplies intégralement. On travaille assidu¬<lb/>ment à la statistique du clergé, et déjà on a obtenu des ré¬<lb/>sultats importans pour mener à fin une œeuvre aussi neuve</p>
+        <p rend="labelled"><lb/>moralité et la régularité dans l'administration des finances<lb/>publiques, et il est fermement résolu à poursuivre la frau¬<lb/>de. L’augmentation qu’ont éprouvée les rentes de l'Etat et<lb/>le décret de centralisation ont permis de remplir les obli-<lb/>gations avec plus de ponctualité que dans les années anté-</p>
+        <p rend="labelled"><lb/>et l'honneur de la nation, était rêduite au plus grand abais-<lb/>ne la santé et la vie aux Etats, la paie régulièrement et fait<lb/>immenses. Plusieurs bâtimens de diverses forces ont été<lb/>mis en état de rendre des services importans. On en équi-<lb/>pe et on en arme d'autres qui pourront visiter les côtes des<lb/>possessions coloniales quand les circonstances l'exigeront</p>
+        <p rend="labelled"><lb/>mettant en harmonie avec la constitution de l'Etat la loi<lb/>nement à présenter aux cortès les projets de loi d'organi-<lb/>sation et des attributions des municipalités, des députations</p>
+        <p rend="labelled"><lb/>liberté de la presse tendant à supprimer des abus et à ré¬<lb/>on calomnie par calcul et l'on conspire pour des intérèts</p>
+        <p rend="labelled"><lb/>nation et à la foi publique, le gouvernement a cru devoir<lb/>présenter un projet de loi pour modifier les fueros des</p>
+        <p rend="labelled"><lb/>de territoire qui corrige les défauts signalés par l’expé¬<lb/>rience dans la division actuelle; à cet effet, il vous sera</p>
+        <p rend="labelled"><lb/>ganisation des tribunaux et de la magistrature, et un autre<lb/>sur l'inamovibilité et la responsabilité des magistrats et des</p>
+        <p rend="labelled"><lb/>nation vous contemple: les espérances se fondent sur votre<lb/>droiture et votre patriotisme: votre mission est grande et<lb/>régénératrice et le livre d’immortalité vous réserve une<lb/>page d’or. Comptez sur mes efforts et sur le cœur franc<lb/>d’un soldat qui a toujours combattu pour la liberté et la<lb/>gloire de sa patrie. N'oubliez pas que des factions aussi<lb/>impuissantes que criminelles prétendent dans leur délire<lb/>combattre la constitution et le trône pour discréditer la<lb/>sainte cause que nous défendons et exciter l'Europe contre<lb/><lb/>nous. Resserrons les liens d’une union sincère et consoli-<lb/>dons le trône constitutionnel d’une jeune reine dont le nom<lb/>magique a toujours vaincu les ennemis de la liberté. Je<lb/>n'ambitionne rien, ma vie appartient à mon pays, et la<lb/>gloire de le servir avec loyauté forme mon patriotisme. Que<lb/>l'indépendance nationale et le gouvernement formé par le<lb/>vœu des peuples soient le programme de notre fidélité et<lb/><lb/>le point de départ pour diriger les travaux législatifs vers<lb/>la consolidation d’un gouvernement fort et juste, qui, ré-<lb/>sistant aux embûches de factions ambitieuses, assure pour</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>publier, pour le mois de novembre, le relevé de la prod uc-<lb/>tion en France du sucre de betterave. Elle a été, pend ant<milestone unit="column" n="4"/><lb/>réunie aux 3 millions 196,000 kilog, tabriqués pendant<lb/>les mois de septembre et d’octobre, donne pour les trois<lb/>premiers mois de la campagne 1841-42, 8 millions 366,<lb/>mille kilog., c’est-à-dire près du tiers de ce qui a été pro¬<lb/>duit pendant toute la dernière campagne. Dans le cours de<lb/>ces trois derniers mois, 4 millions 410,000 klog. sont en-<lb/>trés dans la consommation, et il reste actuellement en ma-<lb/>gasin, y compris le reliquat qui s'y trouvait au 31 août;<lb/>8 millions 533,000 kilog. Comme on le voit, malgré les<lb/>menaces suspendues sur sa fabrication, l'industrie du su-<lb/>cre indigène ne s’est nullement ralentie en France, et l'ac-<lb/>tivité qu’elle déploie, les ressources qu'elle possède en<lb/>elle-même méritent, quelque parti qu'on prenne dans la<lb/></p>
+        <p><lb/>crerie de betterave, la production officielle de chacune des</p>
+      </div>
+      <div type="article">
+        <figure type="table"/>
+        <p><lb/>ions de kilog. ; or la consommation du sucre colonial, pen-<lb/>dant le même laps de temps, ayant été de 240 millions de<lb/>kilog., il suit de là que le sucre de betterave est entré, de-<lb/>puis 1838, pour près d’un tiers dans l'ensemble de la con-<lb/>sommation française. Si maintenant on divise cet ensemble<lb/>par la population, on trouve que la consommation par tête.<lb/>en tenant compte des faibles quantités de sucre étranger<lb/>qui restent dans le pays ; comme de la production indigène<lb/>qui échappe à l’action du fisc, est chez nous de 3.5 kilog.<lb/>Ce n'est que le tiers à peu près de ce qui se consomme en</p>
+        <p rend="labelled"><lb/>pendant plusieurs séances à une enquête sur la mort de huit<lb/>individus qui ont été tués par un affreux accident survenu</p>
+        <p><lb/>de paniers de poissons et d'autres marchandises, était<lb/>parti le 24 décembre. Seize voyageurs seulement se trou-<lb/>ב<lb/>vaient dans les wagons intermédiaires entre le tender et les<lb/>chariots de denrées ; c’étaient la plupart des ouvriers ma-<lb/>çons profitant de l'interruption des travaux pour aller fêter<lb/></p>
+        <p><lb/>sablonneux et peu compacte, la locomotive et le tender fu¬<lb/>rent arrêtés, et les voyageurs furent blessés plus ou moins<lb/>grièvement au milieu des débris de leurs wagons écrasés</p>
+        <p><lb/>mort acidentette, et cependant infigé à la compagnie du<lb/>chemin de fer un deodand de 1,000 liv. st. (250,000 fr.),<lb/>pour tenir lieu de la confiscation des locomotives, tender</p>
+        <p rend="labelled"><lb/>terremens dans la ville de Londres, du 15 décembre 1840<lb/>au 14 décembre 1841, que le nombre des enfans du sexe<lb/>masculin baptisés a été de 7,505, celui des enfans du sexe<lb/>féminin de 7,629; en tout 15,134. Il a été enterré 7,193<lb/>tout 14,599.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>baisse assez sensible. Bien que la situation générale ait été<lb/>exposée dans le discours du Trône de la manière la plus<lb/>rassurante, la Bourse paraît s'être particulièrement pré¬<lb/>occupée des nécessités financières indiquées dans ce docu¬<lb/>ment. En outre la réponse des primes s’étant faite en baisse,<lb/>les rentes dont la prime a été abandonnée sont venues pe¬<lb/>ser sur le marché et ont déterminé, vendredi, une nou-</p>
+        <p><lb/>ment à 78 fr. 70 c., dernier cours, bien qu'on ait cité des<lb/><lb/>achats importans, déterminés par la disproportion exis¬<lb/>tante entre le cours de cet valeur et celui de la renta</p>
+        <p><lb/>à 116 fr. 75 c., il a fermé à 116 fr. 55., après avoir eu le</p>
+      </div>
+      <div type="article">
+        <p><lb/>i Pour guérir promptement les maladies de poitrine,<lb/>PECTORALE de Georgé, pharmacien d'Epinal (Vos-<lb/><lb/>ges). Elle se vend moitié moins que toutes les autres,<lb/>et on en trouve dans toutes les meilleures pharmacies<lb/>de Dijon, et chez M. Béraud-Gaillard, droguiste, rue</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>deSitué sur la rivière de la Vouge, dans le village<lb/>Dijon, et à un myriamètre trois kilomètres de cette<lb/>e, doux battoirs, l'un à blé, l'autre à écerce;</ab>
+        <p rend="styled"><lb/>Le dimanche 30 janvier 1842, heure de midi, en l'etve<lb/>et par le ministère de M. MAZEAU, notaire à Dijoa</p>
+        <ab type="head"><lb/>APPELÉ LE MOULIN CIVRY OU LE MOULIN DES BATTOIRS</ab>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>Journal de la Côte-d'Or.</fw>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>1^o En bâtimens de fermier, granges, écuries, cours,<lb/> und seul et même vouireris. propriété, au meunier</ab>
+        <ab type="head"><lb/>RDE CHABOT-CHAS</ab>
+        <ab type="head"><lb/>Situé sur le Anage de Flavignerot et leux</ab>
+        <ab type="head"><lb/>En l'étude et par</ab>
+        <p><lb/>2^° Soixante-treize hectares vingt-cinq ares soixante-<lb/>treize centiares de terres labourables;</p>
+        <p rend="labelled"><lb/>3o Et environ six hectares quatre-vingt-six ares de</p>
+        <p><lb/>ouissance aura lieu le 23 avril s<lb/>pour les terres en sombres et les prés, et après les<lb/>coltes de la même année pour le surplus.</p>
+        <p><lb/>S'adresser, pour visiter le domaine, au fermier qui<lb/>le cultive actuellement, et pour les renseignemens<lb/>soit à M. Humbert, propriétaire à Dijon, soit à M. La¬<lb/>rni de plus de 200 peu¬<lb/>pliers, habitation pour le meunier, logement de maître,<lb/>vastes greniers, chambre à four, grange, écurie, toits¬<lb/>à-porcs, gelinière, grande cour, verger, routtoirs<lb/>et une pièce de terre de 41 ares 42 centiares: le tout</p>
+        <p><lb/>qui l'habite, et 15 jours avant celui fixé pour la déli-<lb/>vrance, à M. Deligny, propriétaire qui s’y trouvera<lb/>cette époque, et avec lequel on pourra traiter s'il y</p>
+        <p><lb/>Et pour connaître les conditions, audit notaire<lb/>MAZEAU, à Dijon, qui a le pouvoir de vendre de gré<lb/> gré, avant le jour de la délivrance.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Étude de M. MUGNIEN, notaire a Dijon.</head>
+        <p rend="styled"><lb/><lb/>li, en l'étude de M.<lb/>GNJER, nota</p>
+        <p><lb/>Cette maison, dans laquelle était établie une au-<lb/>berge, occupe une position favorable à ce genre de<lb/>commerce. Elle joint de couchant la route de St.-Jean¬<lb/>de-Losne, de levant et de midi la voie commune, et de</p>
+        <p><lb/>Elle est composée de deux chambres au r^e<lb/>chaussée, cabinet et cellier, grange, écurie, toit-</p>
+        <p><lb/>Si l'acquéreur le désire, on lui remettra un fonds de</p>
+        <p><lb/>Toutes facilités seront données à l’acquéreur pour</p>
+        <p><lb/>s'ahite, e,pourles cditions de la vent audi</p>
+        <p rend="heading"><lb/>Etude de M. SERRIGNY. FOREY. notaire à</p>
+        <p><lb/>Composé de 31 hectares 78 ares de terres et prés, en<lb/>neuf pièces, dont une de la contenance de 25 hectares<lb/>92 ares, à vendre, en bloc ou par lots, à des conditions</p>
+        <p><lb/>S’adresser, pour tous renseignemens, audit notaire<lb/>SERRIGNY, chargé de la vente de plusieurs autres do-<lb/>maines sis dans le canton de Seurre, susceptibles d’ê¬<lb/>tre vendus en détail avantageusement.</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Situé sur Godans, St.-Mémin, Fontette et lieux voisins,<lb/>Il sera accordé des facilités pour les paiemens.</ab>
+        <ab type="head"><lb/>Etude de M. PIOGEY, notaire à Sombernon.</ab>
+        <p><lb/>chaleur, au domicile de M. Briottet, aubergiste,<lb/>le ministère de M. PIOGEY, notaire à Sombernon.</p>
+        <p><lb/>Ce domaine consiste en bâtimens, terres, prés, ver-<lb/>ger et chenevière; aisances et dépendances.</p>
+        <p><lb/>S’adresser, pour tous renseignemens, au notaire</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>Etude de M. CLAIRIN, notaire à Genlis.</ab>
+        <p rend="labelled"><lb/>Beau DOMAINE, d’un très-bon revenu, à vendre<lb/><lb/>Il se compose de 27 hectares de terres </p>
+        <p><lb/>S'adresser, pour traiter, à M. CLAIRIN, notaire à</p>
+        <p><lb/>La vente du mobilier dépendant cecsion<lb/>bénéficiaire de M. Pierre Dugier, a éte remse au </p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>Sur Bousselange, canton de Seurre,</p>
+        <note>
+          <p rend="styled"><milestone unit="column" n="3"/><lb/>DIJON. — IMPRIMERIE DE SLMONNOT-CARION, PRES LA PLACE DES DUCS DE BOURGOGNE.</p>
+        </note>
+      </div>
+      <div type="article">
+        <head><lb/>office du greffer du canton (est),</head>
+        <p rend="labelled"><lb/>MOBILIER dépendant de l’actif de la faillite du sieur<lb/>Hiltbrunner, qui était négociant et meunier au moulin<lb/>de Haute-Rive, commune de Bretigny, à vendre aux<lb/>enchères, le dimanche 16 janvier et jours suivans, à la<lb/><lb/>requête de M. Chaillot, capitaine en retraite, syndic</p>
+        <p><lb/>eubles meublans, linge,<lb/>train de culture, cabriolet de voyage, un cheval de<lb/>carriole, tisses de blé, d’orge et d’avoine, vins en cer¬<lb/>cle, bois de construction, ferraille, etc.</p>
+        <p><lb/>Le no prochain du journal donnera le détail et l'or¬</p>
+      </div>
+      <div type="article">
+        <head><lb/>DT, commissaire-<lb/>sr à Dijon.</head>
+        <p rend="labelled"><lb/>BIBLIOTHÈQUE à vendre aux enchères, en la<lb/>salle de vente, rue des Godrans, n° 88, à Dijon, le lun¬<lb/>di 10 janvier 1842, et jours suivans, heure de six du<lb/>soir, par le ministère de M. Devillebichot, commissaire-</p>
+        <p><lb/>Cette bibliothèque consiste en bons ouvrages de<lb/>sciences, histoires, voyages, arts, littérature, etc.</p>
+        <p><lb/>Très-belles gravures encadrées, d’après Raphaël,<lb/>Greuze, Horace Vernet, etc. On mettra aussi en<lb/>vente quelques jolis objets en porcelaine dorée, d’au-</p>
+        <p><lb/>Les acquéreurs paieront 5 centimes par franc.</p>
+        <ab><lb/>3<lb/></ab>
+        <p rend="labelled"><lb/>VENTEMOBLIÈRE en la salle de ventes, rue des<lb/>Godrans, no 88, à Dijon, le lundi 10 janvier 1842, heu¬<lb/>re de dix du matin, par le ministère de M. DEVILLE-</p>
+        <p><lb/>Cette vente consiste en un beau billard en noyer et<lb/>ses accessoires, tables rondes en marbre, chaises,<lb/>quinquets en cuivre, poêle en faïence, bois de lit, ma¬<lb/>telas, fourneau portatif, forge de serrurier, enclume,</p>
+      </div>
+      <div type="article">
+        <head><lb/>Orne de M. BÉLIRREM<lb/>A DIJON, RUE MaSETIE, 60.</head>
+        <p><lb/>Le samedi 8 janvier 1842, heure de midi, faubourg<lb/>Raines, près les bains Dupuis, il sera définitivement<lb/>procédé par le ministère de M. BÉLIARD, commissaire-<lb/>priseur, à la vente aux enchères et au comptant de<lb/>TROIS VOITURES, provenant de l’entreprise des<lb/>messageries Colnet et C^e de Dijon à Châlon-sur-Saône.</p>
+        <p><lb/>1° Une voiture à coupé de 3 places, intérieur et ro¬<lb/>tonde de 6 chaque, banquette sur l'impériale;</p>
+        <p rend="labelled"><lb/>2° Deux voitures à coupé de 3 places, intérieur de 6</p>
+        <p><lb/>s’adresser, pour voir lesdites voitures, à M. Martel,</p>
+        <p><lb/>MEUBLE de salon à vendre à l’amiable. S’adresser<lb/>à M. Béliard, commissaire-priseur, rue Musette, no 36.</p>
+        <p><lb/>Ce meuble se compose d’un canapé et 6 fauteils ; il</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>1o Une Maison neuve, sise rue Chancelier-l’Hôpital,</p>
+        <p rend="labelled"><lb/><lb/>3° Une Vigne, près le clos Mouillon et le jardin de<lb/>Sol. S'adresser, pour les conditions, à M. VINCENT</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><milestone unit="column" n="4"/><lb/>VIN blanc fin, vieux, de la bonne côte Châlonnaise, à<lb/>vendre, à 1 fr. 20 c. la bouteille, rue des Novices, 20.<lb/>Ce vin peut être servi à l’extraordinaire.<lb/>tement ses marchandises. Sa vente se compose de pen¬<lb/><lb/>dules de salon, marbre et bronze, idem pour bureau<lb/>et cabinet; et trois grandes glaces, une table à thé,<lb/>un fort tournebroche pour hôtel, deux petites con¬</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>LUZERNE, POMMES DE TERRE, VIN ROUGE d'Or-<lb/>dinaire et bon vin blanc des Petites-Roches, à vendre.</p>
+        <p><lb/>S’adresser à M. LORY, rue Jehannin, no 32.</p>
+      </div>
+      <div type="article">
+        <head><lb/>LE SIEUR CULLARD, HORLOGER,</head>
+        <p><lb/>Prévient le public qu'il continue sa vente ae<lb/>ment, à des prix très-modérés, afin d'écouler proe¬</p>
+      </div>
+      <div type="article">
+        <ab><lb/>NOTA. On ne doit avoir confiance qu’aux boites portant l’étiquette et la signature Georgé.<lb/>Synonor-CAntON, nédacteur responsable.</ab>
+        <ab type="head"><lb/>De Réglisse à la Gomme de GEORGÉ, Pharmacien à Epinal (Vosges.)</ab>
+        <p><lb/>Cette Pâte, recommandée par tous les médecins, guérit les RHUMES, TOUX, CATARRHES, ASTHMES, COQUE-<lb/>LUCHES, ENROUEMENS et autres maladies de POITRINE. La vogue immense dont elle jouit est la preuve de son<lb/>efficacité. BOITES DE 60 C. ET 1 FR. 20 C. avec le Prospectus. Dépôt dans toutes les meilleures pharmacies de Dijon,<lb/><lb/>et chez M. Béraud-Gaillard, rue Charrue, no 14;</p>
+        <lg>
+          <l><lb/>Auxonne, Voituret,</l>
+        </lg>
+        <p rend="styled"><lb/>Les Dépôts viennent de recevoir un envoi qui peut suffire à toutes les demandes.</p>
+        <ab type="head"><lb/>PATE PECTORALE</ab>
+        <lg>
+          <l><lb/>Dole, Jobard-Am</l>
+          <l><lb/>Arnay-le-Duc, Lave,</l>
+        </lg>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>M. FÉLIX ainé, marchand tailleur de Paris, a l'tSu¬<lb/>neur de prévenir le public qu'il a fait sur ses m¬<lb/>chandises un grand rabais pour cause de départ.</p>
+        <p><lb/>Il est déballé place d'Armes, n^o 13, café Gauthiot.</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="5"/><lb/>INSTITUT ORTHOPÉDIQUE,</p>
+        <p rend="heading"><lb/>a caille et des membre</p>
+        <p rend="heading"><lb/>MAISON DE SANTÉ,</p>
+        <p rend="styled"><lb/>Rue Ruelle-aux-Prêtres, 1, pour toutes les malo is<lb/>médicales et chirurgicales, dirigés par MM. Dom</p>
+        <p><lb/>On trouvera toujours dans ces établissemens soins</p>
+        <p><lb/><lb/>continue de se transporter au dehors, soit commem</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>Un JEUNE HOMME de bonne famille et ayant reçu<lb/>de l'instruction, connaissant la tenue des livres en<lb/>partie double, désire trouver un emploi de régisseur<lb/>ou de teneur de livres, ou même de commis dans un<lb/><lb/>magasin. S'adresser chez M. Noëllat père, rue des</p>
+        <figure type="decoration"/>
+        <p><lb/>Le maire de Pouilly-sur-Vingeanne prévient les ha¬<lb/>bitans de ladite commune, et spécialement Mme. veuve<lb/>Jean Chateau, MM. Jean Gribelin, Patey (Nicolas-<lb/>Philippe), et autres héritiers Jean Chateau, parties<lb/><lb/>intéressées, que le plan parcellaire des terrains à oc-<lb/>cuper par la route départementale no 8, audit Pouilly,<lb/>sera déposé à la mairie de cette commune, depuis le 15<lb/>jusqu’au 25 du présent mois de janvier inclusivement.</p>
+        <p><lb/>Ils sont invités à en prendre connaissance, et àfaire</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>ANNONCES JUDICIAIRES.</head>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p><lb/>Le tribunal de commerce de Dijon, par jugement du<lb/>31 décembre 1841, a, sur la notorièté publique, et l'a¬<lb/>vis donné par M. le juge de paix du canton (est) de<lb/>cette ville, déclaré en faillite le sieur Pozzi, vitrier,<lb/>demeurant au faubourg St.-Pierre, rue d’Auxonne à<lb/>Dijon, et fait remonter l'ouverture de cette faillite au</p>
+        <p><lb/>Par le même jugement M. Bavelier jeune, juge sup-<lb/>pléant audit tribunal, a été nommé commissaire, et M.<lb/><lb/>Béraud-Gaillard, négociant à Dijon, créancier présu¬<lb/>né du failli, a été nommé syndic provisoire.</p>
+        <p rend="labelled"><lb/>Par jugement du tribunal de commerce de Dijon<lb/>du 31 décembre 1841, le sieur François Bernardot,<lb/>plâtrier, et dame Jeanne Gottching, son épouse, mo¬<lb/>diste, domicilies ensemble à Dijon, ont été, sur leur<lb/>déclaration de cessation de paiemens, déclarés en<lb/>faillite, dont l’ouverture a été fixée au 27 février 1840.</p>
+        <p><lb/>M. Thomas Guilbert, juge au tribunal de commerce,<lb/>a été nommé commissaire, et M. Badet ainé, né-<lb/>gociant sur le port du Canal à Dijon, a été nommé<lb/>syndic provisoire comme créancier présumé des ma-</p>
+      </div>
+    </body>
+  </text>
+</TEI>

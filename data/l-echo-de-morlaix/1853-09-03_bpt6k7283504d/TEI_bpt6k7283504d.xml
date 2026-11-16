@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Écho de Morlaix</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7283504d</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Écho de Morlaix : feuille d'annonces : journal politique</title>
+          <publisher>V. Guilmer (Morlaix)</publisher>
+          <date when="1853-09-03">1853</date>
+          <idno type="ARK">bpt6k7283504d</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7283504d</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="bre">breton</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>QUINZIEME ANNEE.</fw>
+        <fw type="runningTitle"><lb/>SAMEDI 3 SEPTEMBRE (S</fw>
+        <head><lb/>FEUILLE D'ANNON</head>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/>¶ Ce Sournal publie tes Tenten, len Annoncen judteiniren. administratiren. commereinlen. Metérniren. indentrielten.</p>
+        <ab><milestone unit="column" n="2"/><lb/>arirelen, et les Avis divers.</ab>
+        <p rend="styled"><lb/>L'Eehe paralt le samedi de chaque semsine — Le prix de l'abennement pour une annte, est de 10 fr. pour Morlaix, e' de 11 fr. 50 c. par la peste,<lb/>Les leutres, les paquets et Porgent<lb/>denseni eite pdresses france, au Bureau du Journal, chez V. Griusa, Imprimeur-Libraire, à Morlsis, Finisfère ). — On s'abonne et on recoit les annences peur noire jeurnal, e Purie, ru<lb/>Netre Dame des Pieteires, 23, a l'Office correspondence Lesoiivar et<lb/>les Libraires et chez les Directeurs des pestes. — Prix dinsertion : 23 centimes la ligue</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Défant d'éclairage d'un chantier, la nuit. 1 à 1 fr.<lb/>Achat de heurre hors du marché. 2 a 1 fr.<lb/>Jet d'eau par les fenètres. 2 à 1 fr.<lb/>Les lundi, mardi, mercredi, jeudi et vendredi sui-<lb/>vanis, séances.</ab>
+        <ab type="head"><lb/>AVIS ET PAITS DIVERS.</ab>
+        <p rend="styled"><lb/>— Extrait des condamnations prononcées par le tribu¬<lb/>nal de simple police de Morlaix, le 26 Aout 1833.</p>
+        <p><lb/>Chiens non muselés, errant sur la voie publique.<lb/>4 condamnations à 1 fr. d'amende.</p>
+        <p><lb/>Matières fécales dans des cours. 2 à 1 fr.</p>
+        <p><lb/>Tapage nocturne et injurieux, 5. 1 à 11 fr. et 5 jours<lb/>de prison et 4 à 2 fr. et 1 jour de prison.</p>
+        <p><lb/>Défaut d'inscription des voyageurs. 2 à 6 fr.</p>
+        <p><lb/>Conducteurs montés dans leur voiture pour la con¬<lb/>duire. 4. 1 à 6 fr. et 3 à 3 fr.</p>
+        <p><lb/>Voitures abandonnées. 2. 1 à 6 fr. et 2 à 3 fr.</p>
+        <ab><lb/>Lx Commissaire de Police, MORIN.</ab>
+        <p rend="labelled"><lb/>— Un arrété de M. le Préfet du Finistère, en date<lb/>du 20 août dernier, fixe l'époque de l'ouverture de la<lb/>chasse, dans ce département, au 10 septembre courant.</p>
+        <p rend="labelled"><lb/>— Un dècret impèrial, du 4 juillet dernier, a licencié<lb/>le bataillon des ouvriers d'administration et a prescrit<lb/>la réorganisation de ce corps en sept compagnies.</p>
+        <p><lb/>L'effectif de chacune de ces compagnies se trouvant<lb/>de beaucoup dépassè, M. le ministre de la guerre a<lb/>décidé, le 13 août dernier, que les engagements vo-<lb/>lontaires et les devancemenis de mise en activitè ne<lb/>seraient pas reçus pour lesdites compagnies.</p>
+        <p><lb/>Les jeunes soldais de la classe de 1832 de ce dépar-<lb/>tement, affectés au bataillon d'ouvriers d'administra-<lb/>tion, seront répartis dans les corps d'infanterie.</p>
+        <p rend="labelled"><lb/>— Le 11me congrès agricole des cinq départements<lb/>de la Bretagne, s'ouvrira à Vannes le 25 septembre<lb/>1853. Le programme est ainsi fixé:</p>
+        <p><lb/>Le dimanche 25 septembre, ouverture du congrès,<lb/>formation du bureau et composition des commissions.<lb/>— Ouverture de l'exposition des instruments et des<lb/>produits agricoles végétaux.</p>
+        <p><lb/>Le vendredi, à neuf heures du matin, concours de<lb/>charrues.</p>
+        <p><lb/>Le samedi, à neuf heures du matin, exposition et<lb/>concours d'animaux; — le mème jour, clôture de l'ex-<lb/>position des instruments et des produits végétaux.</p>
+        <p><lb/>Le dimanche 2 octobre, distribution solennelle des<lb/>prix et clòture du congrès.</p>
+        <p><lb/>Les animaux, les produits végétaux, les instrumenis<lb/>et machines qui seront présentés aux concours de l'As-<lb/>sociation Bretonne, pourront être envoyès de toutes<lb/>les parties de la Bretagne.</p>
+        <p><lb/>Les charrues pourront pareillement venir de toutes<lb/>les parties de la Bretagne.</p>
+        <p><lb/>Il est de mème fait appel, pour la prèsentation des<lb/>registres d'expérimentation agricole, aux agriculteurs<lb/>de nos cinq départements.</p>
+        <p><lb/>Voir, pour plus de renseignements, le programme<lb/>affiché dans les communes.</p>
+        <p rend="labelled"><lb/>— Le conseil municipal de Brest vient d'adopter les<lb/>propositions du ministre des travaux publics relative-<lb/>ment au projet d'établir un pont entre Brest et Recou-<lb/>vrance. La ville mel à la disposition du gouvernement<lb/>la somme de 700,000 fr. pour sa participation dans les<lb/>frais de construction du pont sur la Penfeld et le pro¬<lb/>longement de la route impériale numèro 12 jusqu'à<lb/>Recouvrance, l'Elat restant chargè de recouvrir le<lb/>complèment des dépenses, estimé 1,400,000 fr.</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>— M. le préfet des Côtes-du-Nord a fixé, par un<lb/>arrêtè en date du 21 août, P'ouverture de la chasse,<lb/>à tir et à courre, dans le département, au 15 septembre</p>
+        <p rend="labelled"><lb/>— Il parait positif que, dans quelques semaines,<lb/>Rennes aura son télègraphe électrique. Les poteaux<lb/>et les fils sont prêts, il ne reste plus qu'à les poser.</p>
+        <p rend="labelled"><lb/>- On lit dans le Commerce Breton:</p>
+        <p rend="labelled"><lb/>"Samedi, des milliers de spectateurs s'étaient ren-<lb/>dus dans la petite grève, près des chantiers de con¬<lb/>struction, pour voir lancer le magnifique elipper<lb/>Notre-Dime-des-l'ictoires. Le pays avait réellement<lb/>un air de fête, les navires environnants étaient en-<lb/>combrès de monde; des estrades avaient été établies<lb/>sur les quais, et chacun était envieux d'assister au<lb/>lancement du plus grand navire de commerce qui<lb/>soit sorti de Saint-Malo; mais après deux heures de<lb/>fravail il a fallu renoncer à l'opération pour ce mo-<lb/>ment, le clipper étant resté obstinément immobile<lb/>sur la coulisse qui doit le conduire á la mer.</p>
+        <p rend="labelled"><lb/>" Il a étè reconnu que le terrain de la cale de con¬<lb/>struction s'était affaisse dans une partie. On a travaille<lb/>toute la nuit de samedi à dimanche pour rémédier à<lb/>cet obstale.<lb/></p>
+        <p rend="labelled"><lb/>"Dimanche soir, malgré une pluie battante, la<lb/>foule s'est portèe de nouveau autour du navire, et<lb/>quand on l'a vu prendre sa course vers la mer, des<lb/>applaudissements se sont fait entendre de toutes parts.<lb/>Mais tout-à-coup le clipper s'est arrêtè avant d'avoir<lb/>parcouru la moitié de sa carrière, et malgrè tous les<lb/>efforts, malgré le remorquage du steamer Rose, il a<lb/>fallu renoncer à terminer l'opération dimanche; elle<lb/>ne pourra être reprise, à cause de la marée, que dans<lb/>les premiers jours de septembre.</p>
+        <p rend="labelled"><lb/>« Heureusement le clipper Notre-Dame-des-Victoires<lb/>n'a nullement souffert de cette opèration: il est aussi<lb/>en súreté que s'il n'avait pas commencé à descendre<lb/>vers la mer.</p>
+        <p rend="labelled"><lb/>— La comète qui a été apeŗue le 19 août, à huit<lb/>heures seize minutes du soir, dans plusieurs contrées<lb/>de l'Europe à la fois, se trouve en ce moment près de<lb/>la constellation du Lion, au pied de la grande Ourse,<lb/>sur une ligne partant de l'étoile N et allant rejoindre<lb/>la magnifique étoile areturus du Bouvier. Elle sera<lb/>visible jusqu'au 7 septembre courant, et pendant cinq<lb/>heures environ après le coucher du soleil. Sa queue,<lb/>qui dès le principe était pale et peu apparente, de-<lb/>vient chaque nuit plus visible et plus lumineuse.</p>
+        <p><lb/>La venue de cette comète a été instantanée, comme<lb/>celle qui apparut si soudainement au mois de mars<lb/>1843; mais ses élè́ments provisoires ont quelque ana¬<lb/>logie avec ceux de la célèbre comète de Lexell, de¬<lb/>converte en 1710, qui a passè entre les satellites de<lb/>Jupiter sans occasionner le plus lèger trouble dans<lb/>leurs mouvements, et s'est approchée de la terre jus-<lb/>qu'à la distance de 600,000 lieues.</p>
+        <p><lb/>Sans pouvoir l'eriger en loi, on a remarqué que la<lb/>prèsence des comètes concourait presque toujours avec<lb/>des modifications dans l'état de l'atmosphère; le plus<lb/>ordinairement ces modifications consistent dans une<lb/>augmentation de chaleur, comme cela a eu lieu lors<lb/>de la comète de 1680, qui ne doit revenir que dans<lb/>88 siècles, ou lors de la célèbre comète de 1811, dont<lb/>notre génération a conservè le souvenir.</p>
+        <ab><lb/>(Echo de Chateautin.)</ab>
+        <p><lb/>Mais il arrive quelquefois que le phènomène con¬<lb/>traire se produit : ainsi, la comète de 1729 a amené<lb/>un étè pluvieux et une grande intempèrie elimatèrique.<lb/>La comète de 1853 semble, jusqu'à ce moment, avoir<lb/>produit les mèmes résultats el parait concourir avec<lb/>des perturhations atmosphériques très violentes.</p>
+        <p rend="labelled"><lb/> Dans une nole adreseée au Phare de la Manche,<lb/>M. Em. Liais, de Cherbourg, donne son opinion sur<lb/>la comète qui brille en ce moment dans le ciel. Il<lb/>estime qu'elle est la même que celle que l'on vit en<lb/>1556, celle qui eflraya tellement Charles-Quint, celle<lb/>qui, en 105, 683, 975 et 1261, répandit la terreur<lb/>dans toute l'Europe et fut observée en Chine. Lorsque<lb/>nous l'aurons perdue de vue dans quelques jours,<lb/>elle continuera sa route dans l'espace pendant pres<lb/>de trois siècles, en s'éloignant de 3 milliards 400 mil-<lb/>lions de lieues du soleil, et ne se montrera plus aux<lb/>habitanís de notre globe que vers l'an 2150.</p>
+        <p rend="labelled"><lb/>— Hier au soir, 10,000 personnes placées sur 3 et<lb/>4 rangs, bordaient les parapets du pont au Change,<lb/>du pont d'Arcole et des quais des deux rives de la<lb/>Seine, pour regarder travailler, à 8 heures du soir.<lb/>par une nuit des plus obscures, plusieurs centaines<lb/>d'ouvriers, dans l'inextricable échafaudage du Pont-<lb/>Notre-Dame, qui doit être reconstruit pour le 1er dé-<lb/>cembre prochain et livré à la circulation le 2.— II.<lb/>est venu à l'idée d'un physicien d'organiser une bat-<lb/>terie électrique au moyen de pois de grès. Sa pile<lb/>établie, il l'a placée sur un des échafaudages du pont.<lb/><lb/>devant la tour de la machine hydraulique; et ainsi<lb/>placée, aidée d'un réflecteur, elle projète sur le chan-<lb/>tier des travailleurs une masse de clarté tellement<lb/>vive que ces ouvriers continuent leurs travaux avec<lb/>autant d'aisance qu'en plein midi. Ainsi, plus d'Inter¬<lb/>ruption dans le travail. Les jours sont doublès. Il y<lb/>aura des ouvriers pour travailler 12 heures à la lu¬<lb/>mière du soleil, et les autres 12 heures à la lumière<lb/>électrique. La rue de Rivoli, les quais, les boulevards<lb/>du centre doivent être, dit-on, prochainement illu-<lb/>minés par la belle lumière électrique.</p>
+        <p rend="styled"><lb/>(Correspondance de la Foi Bretonne.)</p>
+        <p rend="labelled"><lb/>— Dans la nuit de lundi à mardi, le tonnerre est<lb/>tombè sur des meules de blè, dans une métairie si-<lb/>tuée auprès de Montaigu (Vendée) ; 500 gerbes ont<lb/>été la proie des flammes, et une charrette chargée de<lb/>froment qui se trouvait dans l'aire, a été également<lb/>consumée avec son chargement.</p>
+        <p rend="labelled"><lb/>— On lit dans le Maine :</p>
+        <p rend="labelled"><lb/>«Lundi matin, après le terrible orage qui avait eu<lb/>lieu dans la nuit, M. l'abbé Juanneau, curé de Fa¬<lb/>tines, était allé dans son jardin pour relever une ruche<lb/>que la tempête avait renversée. A peine avait-il touché<lb/>á la ruche, que les abeilles furieuses se sont prèci-<lb/>pitées sur lui avec une telle violence que la mort de<lb/><lb/>cet ecclésiastique a été instantanée.<fw type="digitisation-artefact"><lb/>poue l./Bilèene eFr</fw></p>
+        <pb facs="0002.xml"/>
+        <p rend="labelled"><lb/>ville: un malheureux palefrenier qui seignait des che¬<lb/>vaux atteints de la morve, est mort de cette affreuse</p>
+        <p rend="labelled"><lb/>homme, et, par une grande fatalitè, tous trois se<lb/>sont legèrement coupés pendant cette opération. Une<lb/>cautèrisation très prompie a prèvenu les dangers de</p>
+        <p rend="labelled"><lb/>ce nom, vient de mourir; il laisse à sa fille, maric̀e<lb/>tune qu'on éraloe à cinq millions de francs.</p>
+        <p rend="labelled"><lb/>sciences et aris de Valenciennes, il a étè déposé sur<lb/>le bureau une énorme molaire trouvée dans les allu¬<lb/>vions de Villerspol. D'après les explications données,<lb/>cette dent appartient à Celephas primogeniua, vulgai¬<lb/>rement appelé Mammonth. La couleur semble indiquer<lb/>un long séjour dans un sol bourbeux, et son parfait<lb/>état de conservation prouve qu'elle n'a pas étè hallotée<lb/>par les eaux. On pourrait donc espèrer de trouver à<lb/>peu de distance des débris analogues. Les Mammouths<lb/>vivaient dans ces contrèes, et le dernier cataclysme<lb/>qui les a détruits a généraiement accumule leurs osse-<lb/>ments dans les dépôts caillouteux des grandes vallèes.<lb/>On trouve, non loin de Valenciennes, de ces aggio¬<lb/>mérations de grands mammifères de toute espèce. Il<lb/>est beaucoup plus rare de trouver ces debris dans les<lb/>petits vallons supérieurs. Cest ce qui donne plus d'in¬<lb/>térêt à celui de Villerspol et ce qui doit engager á con¬</p>
+        <p rend="labelled"><lb/>marine et des colonies pour examiner et faire fonc-<lb/>tionner la machine à air chaud de M. Eriesson, depo¬<lb/>sée dans les ateliers de MM. Mazeline, est arrivée au<lb/>Havre et a commencè hier ses expériences. M. Paris,<lb/>officier de marine, qui a fait une étude spéciale des<lb/>machines à vapeur, est président de cette commission.»</p>
+        <p rend="labelled"><lb/>de mer, à Paris, devient sérieux. L'entrepreneur a<lb/>reçu sa concession. On va commencer les travaux pour</p>
+        <p rend="labelled"><lb/>une nouvelle rose, que l'Union de la Sarthe signale<lb/>en ces termes a l'attention des amateurs : « Ce rosier<lb/>est une hybride remontante, portant une fleur de la<lb/>nuance lilas-ardoisé, nuance qui n'avait point étè re-<lb/>marquée jusqu'à ce jour. Les roses que produit en<lb/>abondance cette plante si mèritante, ne sont pas seu-<lb/>lement remarquables par un coloris nouvean, toul-à¬<lb/><lb/>fait inconnu, elles sont très vigoureuses, ont la forme<lb/>la plos régulière, atteignent 10 centimètres de dia-<lb/>mètre dans leur développement et se perfectionnent<lb/>encore par la greffe sur églantier. Ce rosier, qui va<lb/>prendre place avec une dénomination nouvelle, est<lb/>un semis de 1850 et provient du Géant des Batailles;</p>
+        <p rend="labelled"><lb/>trouver le moyen d'appliquer le daguerréotype au bois.<lb/>Nous avons admiré des portraits et des points de vue<lb/>obienus par ce nouveau procèdè, qui va faire faire des<lb/>pas immenses à la gravure sur bois. La manière d'o¬<lb/>pèrer est bien simplifiée, et en quelques secondes<lb/>M. Langton obtient des résultats surprenants. Tous les<lb/>panneaux, boites, tables, meubles, peuvent aujour-<lb/>d'hui être ornés de copies d'ouvrages d'art, par le<lb/>moyen de cette découverte, qui est destinée, nous</p>
+        <p rend="labelled"><lb/>tention au pafais de cristal de New-York, se trouve<lb/>un coffre de grandeur ordinaire, qui contient une<lb/>maison pour loger une personne, un sofa, un lit et<lb/>un gaban. Tous ces objeis sont en gomme élastique.<lb/>La maison se compose de quatre murs el d'un toit, de<lb/>sorte qu'il ne faut que quaire batons pour la soutenir.<lb/>-<lb/>Le sofa et le lit se gonflent d'air au moyen d'un souf¬<lb/>le gaban se convertit en un petit bateau qui va par¬<lb/>une riviere. et rd du p</p>
+        <p rend="labelled"><lb/>Texposition uniterselle décrétée pour 1855 s'étève avec<lb/>amez de rapiditè pour que l'on puisse juzer dès aujour¬<lb/>d'hui de l'importance de cet édifice, qui sera f'un des<lb/>plus grands monuments modernes connus, et dont les<lb/>vastes consiructions se développeront sur un espace<lb/>de terrain d'une étendue de près de 37,000 meires.<lb/>Daprès les plans conqus par M. Viel, son architecte,<lb/>le Palais de Findustrie se composera d'une immense<lb/>salle de 192 mètres de long sur 118 mêtres de large.<lb/>Elle sera entourée d'une double galerie à deux étages<lb/>dune largeur de 21 mètres. La longueur totale de<lb/>rédifiee sera de 231 mètres sur 108 de largeur; la hau¬<lb/>teur sera de 33 metres. Ou y entrera par quatre grandes<lb/>portes qui s'ouvriront dans les axes des facades: quatre<lb/>autres entrées accessoires seront ménagées dans les<lb/>pasillons des angles. Toute la couverture du monument<lb/>sera supportée par des colonnes en fonte très- lègères,<lb/>de telle sorte que fon pourra embraser d'un seul</p>
+        <p><lb/>premier étage, est construit en pierres de taille et sera<lb/>perce d'arcades au nombre de 360. Ce mur circutaire<lb/>sera flanquè de six pavillons monumentaus. Le plus<lb/>important, destiné à l'administration et aux grands<lb/>salons de réception, doit faire face à l'avenue des<lb/>Champs-Elysées; il aura 1,360 mètres de surface.<lb/>Vient ensuite le pavillon destiné aux bureaux du<lb/>contrôle et dans l'intericur duquel seront pratiques<lb/>deus escaliers pour artiser aux galeries d'exposition<lb/>du !e étage. L'étendue superficielle occupee par ce<lb/>pavillon sera de 517 metres. A l'extrèmite des galeries<lb/>formant les bas-côfes de la grande salle se trouveront<lb/>les quatre pavillons dans lesquels seront ménagèes les<lb/>entrées accessoires et qui contiendront, en outre des<lb/>vestiaires, des grands escaliers de pierte donnant<lb/><lb/>issue aux galeriea du 1"étage. Chacun de ces parillons</p>
+        <p><lb/>grande richesse. La facade principale sur les Champs-<lb/>Elysees se composera d'une suite d'arcades coupées<lb/>au milieu par le batiment de l'administration et dont<lb/>P'are immense sera sormontè d'un fronton dans le<lb/>tympan duquel seront sculptés des attributs relatifs à<lb/>l'industrie et aux beaux aris. Aux angles du fronton<lb/>seront placés deux groupes représentant les arts et<lb/>l'agriculture, le commetce et l'industrie. Tout au pour¬<lb/>tour du monument ainsi que dans les frises seront<lb/>gravés, de mème que sur l'are de-triomphe, les noms<lb/>des hommes qui se sont rendus recommandables dans<lb/>f'industrie ou dans les arts. Sur la façade du pavitton<lb/>principal, seront sculptès en demi-relief dans des mé-<lb/>daillons, les bustes d'hommes célèbres à des titres</p>
+        <p><lb/>lons, sera également mise en harmonie avec fensemble<lb/>de f'édifice, on a évalue à 20,000 le nombre des per¬<lb/>sonnes qui pourtont lors des grandes solennités indus.<lb/>trielles, visiter le Palais de l'industrie et se mouvoir<lb/>avec la plus grande facilitè dans les pavillons, les<lb/>galeries supèrieures et dans cette grande salle qui sera<lb/>sans doute la plus vaste que l'on puisse rencontrer en</p>
+        <p rend="labelled"><lb/>de poisson et de le mettre à l'abri des accidenis qui<lb/>en détruisent ordinairement une si grande quantite.<lb/>Les pécheurs recueillent avec soin sur les bords et à<lb/>ja surface de l'eau ces masses gélatineuses qui con-<lb/><lb/>tiennent le frai de poisson. Après qu'ils s'en sont pro¬<lb/>curé une quantité convenable, ils en remplissent des<lb/>coquilles d'cufs de poule qu'ils ont vidées d'avance,<lb/>ils en ferment l'ouverture et les mettent sous un oiseau<lb/>qui couve. Lorsqu'un certain nombre de jours s'estécou¬<lb/>lé, ils laissent la coquille des cufs dans de l'eau chauffèe<lb/>au soleil, le fretin est alors éclos, et on le garde dans<lb/>de l'eau fraiche jusqu'à ce qu'il soit assez fort pour<lb/>être mis dans un étang avec les gros poissons. La vente<lb/>du frai, en raison de cet usage, forme une branche</p>
+        <p rend="labelled"><lb/>Bonn, des échantillons de papier et de carton fabriques<lb/>avec le bois de l'épicéa; le procèdè est encore secret,<lb/>mais néanmoins voici quelques détails relatifs à cette</p>
+      </div>
+      <div type="article">
+        <p><lb/>marne comme litlère. Il me semble résulter, de l'en-<lb/>semble des observations émises jusqu'à ce jour, que la<lb/>question est encore douteuse. Or, monsieur, vous con-<lb/>des marteaux, puis blanchi au chlere et mis en cuve<lb/>et travaillé comme la pîte ordinaire, soit tont seul,<lb/>soit mèlangé avec la pate de chiffons. I1 fant choisir<lb/>de bois des trones n'ayant pas dépasse l'age de quatre¬<lb/>vingis a cent ans; le bois plus vicux est trop resistant<lb/>et trop résineux. La presence d'une certaine quantité<lb/>de résine rend le collage superflu. La quafite de ce<lb/>papier d'épicea est celle du papier de chiffons, tant</p>
+        <p rend="labelled"><lb/>dans en journal le moyen suivant pour conserver le<lb/>lait frais pendant plusieurs années. Nous le publions<lb/>à cause de sa simplicitè et en même temps à cause de<lb/></p>
+        <p rend="labelled"><lb/>qu'on pionge. pendant un quart d'heure, dans de leau<lb/>bocillante, peut être consertè pendant plusieurs an-</p>
+        <p><lb/>lement adoptè en Angleterre, et, par une bizarrerie<lb/>inconcevable, à peine connu en Prance, ou il a été</p>
+        <p rend="labelled"><lb/>la machine à coudre, se trouve actuellement exposée<lb/>à Berlin, où elle cause beaucoup de sensation et où<lb/>cette découverte, des artisans ne seront plus obligés,<lb/>de passer 14 heures et plus dans la position la plus<lb/>génante et la plus nuisible à la sante. On devrait eroire,<lb/>au premier instant, que celte invention serait reque,<lb/>avec enthousiasme; il n'en est rien, et des milliers d'ou-<lb/>vriers iremblent deja de se voir enlever par la leur<lb/>pain quotidien. La societe des artisans a Berfin a nom-<lb/>mé une commission pour examiner la machine, et le<lb/>rapport qu'elle vient de faire doit tranquilliser beaueoup<lb/>de gens intéresses dans la question. I1 résulte de ee<lb/>capport que l'application de la machine à coudre est<lb/>fort restreinte. Les tailleurs pour hommes ne pourront<lb/>l'employer que dans fort peu de cas, et, pour les cou¬<lb/>turières, elle est tout-a-fait inutile. Les gantiers s'en<lb/>serviront avec sueces dans quelques travans qui exigent<lb/>de la finesse; les selliers pourront en faire usage, mais<lb/>non les cordonniers. En somme, la commission déclare<lb/>que cette iavention a sans doute du mérite, qu'elle<lb/>sera dans certaines occasions appliquèe avee succès,<lb/>mais qu'elle n'esi pas capable de causer du tort aux<lb/>artisans. Nous ignorons si la nouvelle machine a de<lb/>Sanalogie avec celles qui sont emplotées depuis long¬</p>
+        <p rend="labelled"><lb/>errant dans les rues de Paris un individu a mine sus¬<lb/>pecte et dont les traits ne leur semblaient pas inconnus.<lb/>L'un d'eux le fouilla et trouva sur lui deux tabatières</p>
+        <p><lb/>rune est du tahac, dans l'autre, une composition avec<lb/>laquelle on fait dormir les gens sans qu'ils en aient envie.<lb/>Ainsi, j'entre dans la boutique d'un changeur de mon¬<lb/>naie quand il est seut, je prends, en lui partant de<lb/>change, une prise de mon tabac; puis, je serre ma ta¬<lb/>batière dans la poche de mon paletot, et prends l'autre<lb/>vivement, en lui disant; tiens! pardon! moi qui ne</p>
+        <p><lb/>rindex dans la boite et s'endort du sommeil du juste;<lb/>il ronfte comme une contre-basse, et je mets la main<lb/>sur une pile de pièces de cent sous. Vous voyez que<lb/>d'est bien honnete, je ne prends que ce qui est neces¬<lb/>saire à mes besoins journaliers, vous devriez me laisser<lb/><lb/>une industrie qui, en défiaitive, ne ruine personne,</p>
+        <p><lb/>leur nature peu sensibles aux calembourgs et aux jeux<lb/>de mains, et l'homme aux tabatiàres a étè achever la<fw type="digitisation-artefact"><lb/>ource gallica.bnf.fr/Bibliothèque nationale de</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

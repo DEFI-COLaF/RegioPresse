@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Idèio prouvençalo</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8134098n</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Idèio prouvençalo : journal mensuel littéraire franco-provençal ["puis" journal franco-provençal, littéraire, régionaliste]</title>
+          <publisher>[s.n.] (Marseille)</publisher>
+          <date when="1901-11-01">1901</date>
+          <idno type="ARK">bpt6k8134098n</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8134098n</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0002.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/>vougu saupre perqué aquelei moussu nous an cuou dei braio uno farfelico que prengué<lb/>avien sènso façoun vira l'esquino. Siéu anado pa; uno autro, pa pu lèu abrado, — bouon-<lb/>de garapachoun à la Garo. Fau dire co que souar, vesin! — lou vent li l'amouessé. N'en<lb/>lei Marsiheso an pa l'er de li douna man de «Fouh!s un còup de vent li l'amouesso mai.<lb/>belle, perquoi mon collègue Lanne... sent des avanço la pipo, mai... ah vouat ! semblavo<lb/>Es de fet que s'ai fa pacho em'èn, ai tengu cuou e beléu abrarai... » Fa mié-tour, freto</ab>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>a</ab>
+        <ab type="head"><lb/>Iimi la mar</ab>
+        <lg>
+          <l><lb/>quand, su la mar, viéu fila lei tartano</l>
+          <l><lb/>Que d'en Bouc à Cassis van tendre seis aret;</l>
+          <l><lb/>Lei batéu que s'en van set jour de la semano</l>
+          <l><lb/>Dou Levant au Pounent, de l'Ubat à l'Adret.</l>
+        </lg>
+        <lg>
+          <l><lb/>Aimi quand, su la mar, lou gabian, pèr la casso,</l>
+          <l><lb/>A quita sei roucas en jitant soun cris fer !</l>
+          <l><lb/>Aimi quand raso l'aigo emè sa testo basso,</l>
+          <l><lb/>Pèr aganta lou péi que s'en ven rasa l'er.</l>
+        </lg>
+        <lg>
+          <l><lb/>Aimi quand su la ribo, à l'oumbro d'uno roco.</l>
+          <l><lb/>Fan bouibi, ben pebra, su tres peiro, lei pèi.</l>
+          <l><lb/>De boumian, ben segur, aurien pa l'er tant broco</l>
+          <l><lb/>Que nouestei pescadou, countent coumo de réi.</l>
+        </lg>
+        <lg>
+          <l><lb/>Aimi lei cabanoun d'Endoume à Mourepiano,</l>
+          <l><lb/>Lou flame boueiabaisso e l'aioli ben dur;</l>
+          <l><lb/>Aquèu vin que nous fa peidre la tramountano,</l>
+          <l><lb/>Lou pichoun Sant-Henri de vieihugi madur.</l>
+        </lg>
+        <lg>
+          <l><lb/>Aimi quand la cansoun, lou souar, ei Pelro plato</l>
+          <l><lb/>Roumpe de sei acord lou silenci dei nué;</l>
+          <l><lb/>De touti lei fanau alor lou lum esclato,</l>
+          <l><lb/>Su l'oigo vias sei rai coumo un draiòu de fué.</l>
+        </lg>
+        <lg>
+          <l><lb/>Souto vélo aimi ben, dins un souar plen d'estello,</l>
+          <l><lb/>Veire dous amourous, su la vaguo bressa;</l>
+          <l><lb/>Lon murmur de la mar à sei prepaus si melo</l>
+          <l><lb/>Quand si redien touei dous sei pantsi caressa.</l>
+        </lg>
+        <lg>
+          <l><lb/>Quand lou soulen de jun fa la mar calourento,</l>
+          <l><lb/>Aimi pica de testo ounte la foueço found.</l>
+          <l><lb/>Que vagon au Prado lei fiheto doulento.!</l>
+          <l><lb/>A nautrei la grand' mar e la sablo ei pichoun.</l>
+        </lg>
+        <lg>
+          <l><lb/>Dien que Naple es pu beu! T'an jamai vist. Marsiho!</l>
+          <l><lb/>De Mejan au Port-Viei. dóu Port-Viei à Sourmiéu.</l>
+          <l><lb/>Ges de tant bello mar a mai de merevilo.</l>
+          <l><lb/>Toun cicle es toujour blu quand pertout l'a de niéu.</l>
+        </lg>
+        <ab><lb/>Peire GAY.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>n'es : Se lei Marsihés agradon pa à Valdeck, freto uno tresenco, e, coumo vènt pèr abra :<lb/>couar, e es emé foueço graci que m'a counfisa Urousamen qu'ero d'alumeto de la regio !...<lb/>nages plus loin. Mais silence ! n'en parle pas d'uno que repepiavo. Puei, si ravisé : « Que<lb/>ma lingo : souidamen m'a fa mounta lou sant. mai uno farfelico e aquest còup ruississe à<lb/>just aquèu que si plagnié de n'autrei, nous dré en fènt de fum. E marcho que marcharas.<lb/>veni fa bouqueto lou jour mounte nouestei Regardavo puei un pau sa sebo d'argent. Si<lb/>bravei sourdat s'entournavon de la Chino. E, languissié d'arriba. Quouro agué camina en-<lb/>passo que t'ai vist, lou tèmp de debana sa frejo sin pròchi de tres quart d'ouro, vigué un clou-</ab>
+        <ab type="head"><lb/>Fin qu'à la pouarto</ab>
+        <p><lb/>La Franço, l'a d'acò uno mesado, resclan-<lb/>tissié de cris patrioutique. Per chanja éro<lb/>encaro lou Nord qu'avié encapa; es de creire<lb/>que lei Marsihés sian tonti de gus, de barrato<lb/>vo de macho-mourre! bord que lou'gros grun<lb/>nous vèn pa veire.</p>
+        <p><lb/>Entandòumen, uno passado avant, lei Pari-<lb/>sien avien fa lou semblant de nous manda sei<lb/>menistre: mai aquestei, qu'aimon mies tout<lb/>que la mita, nous an juega lou ped de pouar<lb/>e soun ana... fin qu'à la Ciénta!</p>
+        <p><lb/>Qu saup se lou viàgi s'es ſa emé vo sènso<lb/>banasto?...</p>
+        <p><lb/>en pur franciot soun pichoun secret:</p>
+        <p rend="labelled"><lb/>an moins; et surtout point de langue!... »</p>
+        <p rend="labelled"><lb/>— Oh ! siegues tranquile, moun bèu...</p>
+        <p><lb/>Sufren de veire aquèu barjemau de Lanessan,</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>miu</head>
+        <p><lb/>Coumprenes bèn que li disien Marius; mai<lb/>tout lou mounde lou souenavo Mius, e mume<lb/>senso prounounça l's : Miu, tout court. Ensin,<lb/>soun noum avié ni couele ni coué. Mai Miu<lb/>s'en foutié pa mau. Vous souvenès de moun<lb/>Jijé? E bèn Miu èro enca pu jòbi que Jijé!<lb/>Quinto espessòri, meis ami ! Paure Miu, avié<lb/>jamai sourti de soun trau. E ni mai soun paire<lb/>ni sa maire, ni tonti sei reire. Per eu, darrié<lb/>lei mountagno qu'eron per alin luncho d'un<lb/>caire e lei conelo qu'eron de l'autre caire l'a-<lb/>vié hessai plu rèn.</p>
+        <p rend="labelled"><lb/>es ben lou bouenur vrai qu'a di Sainte-Beuve,<lb/>aqui l'avié de segur uno famiho urouso de</p>
+        <p rend="labelled"><lb/>«Naltre, vivre et mourir dans la même maison!</p>
+        <p><lb/>Un jour, pamens, prengué envejo à Miu<lb/>d'ana faire un tour fin qu'au Lu, qu'es un vi¬<lb/>làgi vesin. Coumo sabié pa lou camin pèr<lb/>l'ana, l'avien di : « Vé, Miu, as qu'à faire tira<lb/>dré en sourtént de la carriero de la Republico.<lb/>Quouro auras camina uno ouro e miejo, tout<lb/>lou mai, saras au Lu. » Bessai, ai oublida de<lb/>vous dire que restavo à Gounfaroun.</p>
+        <p><lb/>Adounc garço lou camp, un dimenche de<lb/>grand matin, e mangra bonfesse un mistrau<lb/>à derraba la coué eis ai de tout lou Var, s'èro<lb/>di que partirié, partié.</p>
+        <p><lb/>Quand agué fa tres quart d'ouro de camin,<lb/>li prengué envejo d'abra la pipo, e, après<lb/>Tambén, su d'aquelo marrido maniero, ai l'avé bourrado dins d'aquelo intencien, freto<lb/>Alor fa peta un tron de padisqui e n'alumo<lb/>« Nous entrons point dans ton pays, ma enca uno; 'mé lei doues man li fa 'n abri,<lb/>marrides odeurs dans les cantoins; y craint' fa esprè : un còup de mistralas l'embalo lou dans ses hilarants récits; Fayard, romancier<lb/>da peste ; nous préferons porter nos person- capèu e li l'amouesso mai. Vous respouendi très justement remarqué; Tournon, chanteur<lb/>siéu darnagas! si digué alor Miu, pardi lou<lb/>mistrau mi pico su lei brego, li vau vira lon<lb/>abra la pipo. Moun Miu countent fa mai tira<lb/>petado e de menistre à Marsiho n'avié pa mai<lb/>que su la man!...</p>
+        <p><lb/>E bèn tendrai ma lingo se fau; mai, emé<lb/>la plumo, mancarai pa de faire assaupre à<lb/>routl lei Marsihes perqué lei menistre an gar-<lb/>ça lou camp :</p>
+        <p><lb/>Si saup que sian pa coulègo emé lei Parisien<lb/>es pèr acò qu'aquelei marrias nous avien<lb/>anouncia la pesto dins nouesto vilo; mai, elo<lb/>tamben a fa coumo lei menistre, es restado à</p>
+        <p><lb/>E bèn, messies lei Parisien, s'avès de me-<lb/>nistre gardas lei, barra l'estable, voueli dire<lb/>la pouarto emé la tanco! Aro se de fes n'avias<lb/>de soubro, mandas nous lei lou mes que vèn,<lb/>pèr aquito à Nouvè, que sera lou moumen su<lb/>leis Aleio mounte lei santibelli si chabisson.</p>
+        <ab><lb/>FERNANDO LONCLE.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Notre Soirée-Concert</head>
+        <head><lb/>DU 5 OCTOBRE 1901</head>
+        <p><lb/>Cest le Samedi 5 octobre dernier, que notre<lb/>Société l'«ldèio Prouvençalo. donnait, dans la<lb/>salle des fêtes de la Brasserie Marseillaise,<lb/>allées des Capucines, décorée pour la circon-<lb/>stance avec beaucoup de goût par les soins<lb/>de M. Sauvaire, sa grande Soirée-Concert.</p>
+        <p><lb/>Cette belle fête de famille, la deuxième de<lb/>cette année, a obtenu un plein succes.</p>
+        <p><lb/>L'assistance nombreuse autant que choisie,<lb/>qui avait répondu à l'aimable invitation de la<lb/>tommission des Beaux-Arts, a eu lieu d'être<lb/>largement satisfaite par l'audition des diffé-<lb/>rents interprètes, quelques uns “di primo<lb/>cartello" qui se sont produits au cours de ce<lb/>brillant concert.</p>
+        <p><lb/>A 9 h. 12, M. Orsoni, régisseur, annonce:</p>
+        <p rend="labelled"><lb/>M** Urbain Mô, qui dit avec une grâce,<lb/>clarmante un très joli «Avant-Propos» en<lb/>vers (reproduit en entier d'autre part) dû à la<lb/>plume de son époux, notre distingué cama-</p>
+        <p><lb/>Se font applaudir successivement: MM. A.<lb/>Richier, le populaire chanteur-poète proven-<lb/>çal, dans ses créations comiques; Gil Thor,<lb/>romancier des salons toulousains; Gérard,<lb/><lb/>romancier ; Madoni, monologuiste ; Carl An-<lb/>dré, dans son répertoire; Gautier, romancier.<lb/>Mu Yvonne Capponi, jeune prodige de 12 ans<lb/>déclamant aussi bien qu'elle joue du piano ;<lb/>M. Lionnel, comique, et enfin MM. Bérand et<lb/>Thibaud, deux virtuoses de l'archet, recueil-<lb/>lent des bravos mérités en exécutant un mor-<lb/>ceau pour 2 violons : "Fantaisie d'Ancha",<lb/>avec accompagnement de piano par le maes-<lb/>tro-compositeur M. Badet.</p>
+        <p><lb/>Après un arrêt de 5 minutes, la 2me partie<lb/>'égrène et tour à tour viennent tenir nos<lb/>invités sous le charme de leur voix et de leur<lb/>diction : MM. Jean Flor, l'exquis chanteur à<lb/>la mode; Loncle, le tant fêté monologuiste<lb/>comique, et pour clôturer, notre secrétaire,<lb/>M. Léon Coste, nous régale d'une série de<lb/>projections (vues de Provence) très réussies</p>
+        <p><lb/>Il était minuit et demi. quand le Président<lb/>est venu remercier le public et annoncer deux<lb/>conférences, l'une de M. Fanton sur le rôle des<lb/>femmes dans l'histoire de Marseille, et l'antre<lb/>par M. Galicier sur «Lazarine de Manosque».</p>
+        <p><lb/>Nous en fixons les dates d'autre part.</p>
+        <ab><lb/>LE RÉGISE<lb/>chié, puei lei tèule dei pu aut oustau. puei<lb/>l'alèio de platano qu'èro à l'intrado dóu vilàgi.</ab>
+        <p rend="labelled"><lb/>«Ah! pèr eisemple, fa Miu, aquelo empego!<lb/>Semblo pa verni coumo lou Lu ressemblo à<lb/>Gounfaroun? Es tout la mumo cavo : lei mu-<lb/>meis aubre, lei mumeis oustan, lou mume gau<lb/>su lou mume clouchié! Aquelo empego! Ah!<lb/>pèr eisemple!...»</p>
+        <p><lb/>Resté aplanta candi, sàbipa quant de tèmp,<lb/>en disent delongo: « Aquelo empego! Aquelo<lb/>empego !... » Li coumprenié plu rèn.</p>
+        <p><lb/>E bèn, que vous disiéu?</p>
+        <p><lb/>Ero talamen pu cou...doun que Jijé que,<lb/>coumo l'avien di de... toujour fila dré! cresié<lb/>pa que si duguesse revira quand mume agues-<lb/>se fa mié-tour pèr abra sa pipo. E si doutant<lb/>pa qu'avié camina dóu caire qu'èro vengu,<lb/>èr» mai que ravi de veire coumo lou Lu res-<lb/>semblavo à Gounfaroun!</p>
+        <p><lb/>Es mouart à nouananto an senso jamai avé<lb/>ben pouscu va coumprendre. Paure Miu!</p>
+        <ab><lb/>C. POUPON.<fw type="digitisation-artefact"><lb/>purce game/Bibliotèqu</fw></ab>
+        <pb facs="0003.xml"/>
+        <ab><milestone unit="column" n="2"/><lb/>d'aquelei bravei Marsiheso, frumo d'oustan, à escriéure de cansouneto agradiéuvo que fa-<lb/>que fasié gau de veire. La pauro avié ges de Avèn publica eicito dins lou numero d'avoust<lb/>carriero de la Pas. 11 ~M<lb/>lituro, soun ome ni mai; éro lou temp mounte uno cansoun, la darniéro qu'a coumpousado.</ab>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>charai, bord que lou tèmp lampo, que la vido fasié la mino la pauro, avié quasimen jamai<lb/>oudoun, pa tant de pessu-menu e prenen lei tant luen. Pamens, un jour si decidé e noues-<lb/>vié bèn lou pourta à sant Peire, que de segur tancado de contro lou fenestroun dóu vagoun<lb/>quei baioco e que lou sacristan avié òublida La tombe où dorment ceux qu'ils choyaient au¬</ab>
+        <ab type="head"><lb/>Reguinèu</ab>
+        <figure type="decoration"/>
+        <p><lb/>Vau vous n'en dire v'uno, mai mi despa-<lb/>es pa tròup longo e que lei gént sou pressa<lb/>camin d’escourcho.</p>
+        <p><lb/>Aquéu jour. lou peissounié Reguinèu qu'a¬<lb/>viè uno bello coucardo, si digué que lou pèi lei bandisse fouero vilo.<lb/>que soubravo dins soun gourbin, après agué<lb/>fa sa tournado (n'avié bessai uno liéuro) du-<lb/>lou li croumparié.</p>
+        <p><lb/>(Ce qu'es, pamens, dei gent encigala.)</p>
+        <p><lb/>Arriba à la gleiso, davant lou retra dóu<lb/>sant, Reguinèu li dis : « Moun sant patroun,<lb/>veniéu veire se voudrias pa de moun pèi qu'es<lb/>fres coumo l'uei?... »</p>
+        <p><lb/>Lou vent que s'entraucavo pèr lei vitrau<lb/>rout, fasié jingoula lou retra e li dounavo un<lb/>semblant de vido. Reguinèu enfeta d'acò refa<lb/>quauquei còup sa questien, e toujour la tèlo<lb/>pintado jingoulavo em'un èr trufarèu. A la fin,<lb/>noueste pèissonnié despacienta mounto à-n-<lb/>uno escalo qu'èro just aquit, e gangassant lou<lb/>poung davant la santo imagi, si mete a des-<lb/>parla, escupissént de magagno Mai fa tant<lb/>de brassejado, qu'un clavèu an bord dóu cadre,<lb/>l'escruviho la man; alor Reguinèu de mai en<lb/>mai endemounia, crido : « Ah! li vas emé lei<lb/>dent? Espero... »</p>
+        <p><lb/>E devalo de l'escalo. mancant de si debaus-<lb/>sa, pren au sòu uno pougnado de frachan (la<lb/>pauro gleiso es tant escrancado!) e zóu! su</p>
+        <p><lb/>Un troué de frachan, en toumbant, va pica<lb/>su d'uno sieto d'estan, mounte l'avié quau-<lb/>su lou releisset de l'auta; acò fagué que s'au-<lb/><lb/>sissé un din-din agradiéu. Reguineu aganto<lb/>la mounedo, dis soun gramaci au sant, au<lb/>brave sant, au sant pietadous, e s'en va tout<lb/>galoi, en boutant en plaço, dins la sieto, sa<lb/>liéuro de peissoun.</p>
+        <ab><lb/>JANET LOU PANTAIHAIRE.<lb/>lei gènt maugra sieguesson simplas avien<lb/>mai de couar que vuei.</ab>
+        <p><lb/>Un jour soun ome li digué : « Fau que ti<lb/>meni à Auruou pèr ana veire lou coumpaire,<lb/>que nous dis de longo de l'ana. » Mai, elo,<lb/>sorti lou pouartau d'Ais e voulié pa s'alarga<lb/>tei dous viei en brasseto caminon dever la<lb/>garo, s'embarcon e, dins un vira d'uei, lou trin</p>
+        <p><lb/>La vielo n'èro esglariado d'aquèu bourùgi e<lb/><lb/>maugra aguesse un pau lou treboulun s'èro<lb/>e badavo coumo un limber de veire passa da-<lb/>vant seis uei tant de pradarié, de valounado<lb/>e d'aubre gigant, que fujissien coumo de</p>
+        <p><lb/>L'avié bessai uno vouto de miech-ouro que<lb/>lou trin lampavo, que la pauro vieio touto es-<lb/>mougudo si reviro dever soun ome e li dis :</p>
+        <p><lb/>Mai desempuel que caminan tant vite, sian<lb/>pa'ncaro arriba?... Ralamen auriéu jamai<lb/>cresu que sieguesse tant grando la Franço!...</p>
+        <ab><lb/>A. GIRAUD.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <lg>
+          <l><lb/>Perfes pantaihi, paure mastre,</l>
+          <l><lb/>De prouficha que siéu jouvent</l>
+          <l><lb/>Per m'en ana lou pèu au vent,</l>
+          <l><lb/>Quand lou ciele s'emplisse d'astre.</l>
+        </lg>
+        <lg>
+          <l><lb/>Viéure de la vido dei pastre,</l>
+          <l><lb/>Alin dins lei pàti craven;</l>
+          <l><lb/>Lun dei vilasso ounte buven</l>
+          <l><lb/>A ràgi lou fué dou malastre.</l>
+        </lg>
+        <lg>
+          <l><lb/>Puei, ben plega dintre uno pargo,</l>
+          <l><lb/>M'endourmi quouro lou mistrau</l>
+          <l><lb/>Qu'embrigo tout ce que lou nargo</l>
+        </lg>
+        <lg>
+          <l><lb/>Canto à travès l'inmenso Crau</l>
+          <l><lb/>Sa sintouniè, d'uno vouas largo</l>
+          <l><lb/>Que si mesclo au brama dei brau.</l>
+        </lg>
+        <ab><lb/>Ant. CONIO.</ab>
+        <p><lb/>Per lou proumié coup la mouart veu de pica<lb/>dins lei reng de l'«Ièio Prouvençalo».</p>
+        <p><lb/>Noueste ami A.-J. RIMBAUD a rendu à<lb/>Diéu soun amo de troubaire, lou 8 dóu mes<lb/>passa, après uno malautié longoe doulouroué;</p>
+        <p><lb/>Ero de soun mestié patroun tounelié e sei gna la boutibo de rhoum.<lb/>lesi de bouen travaladou, èu, leis emplegavo</p>
+        <p><lb/>Ome de bèn, es regreta de tout lou mounde.</p>
+        <p rend="heading"><lb/>Lou viagi de ma grand</p>
+        <p><lb/>Ma grand qu'avié unei setanto an, ero uno<lb/>d'aquelei que pourtavon enca lei coueifo à ca¬ sien lou regàli de seis ami.<lb/>noun emé lou coutihoun pica, tant coarous,</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Ils aiment à fleurir ou tapisser de lerres</ab>
+        <ab type="head"><lb/>FLEURS DE NÉCROPOLE</ab>
+        <ab type="head"><lb/>Le Culte des Morts</ab>
+        <lg>
+          <l><lb/>Les cœeurs grands n'ont pas peur d'aller au ci-</l>
+          <l><lb/>Ne craignent pas de voir des cercueils et des croix:</l>
+          <l><lb/>Ils n'ont pas peur d'entendre et d'écouter les voix</l>
+          <l><lb/>Des morts qu'ils ont aimés geindre à travers les</l>
+        </lg>
+        <lg>
+          <l><lb/>L'arroser d'eau souvent, et de pleurs quelquefois</l>
+          <l><lb/>En joignant aux regrets quelques douces prières.</l>
+        </lg>
+        <lg>
+          <l><lb/>Car la feuille ou la fleur, la branche ou les épines.</l>
+          <l><lb/>Ont pris un peu de' vie aux morts par leurs raci-</l>
+          <l><lb/>Et quelque chose d'eux semble les animer. [nes éicito après </l>
+        </lg>
+        <p><lb/>Un pen de leur amour flotte dans leurs aromes...<lb/>Les tiges à leur cendre ont pris quelques atomes;<lb/>Soigner les fleurs des morts c'est un peu les aimer!</p>
+        <ab><lb/>Joseph CHEVALIER.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>avisés que le siège de la<lb/>Socièté l«ldeio Prouvençalos est situé:</p>
+        <ab type="head"><lb/>GRANDE BRASSERIE COLBERT</ab>
+        <list>
+          <item>9, rue Colbert, 9, au 1e étage.</item>
+        </list>
+        <p><lb/>Les réunions y auront lieu tous les Dimanches<lb/>matins à 9 h. et les réunions de famille, avec<lb/>apéritif-concert, également tous les Dimanches<lb/>après midi, de 4 à 8 heures. La fixation de ces<lb/>réunions au Dimanche nous permet de compter<lb/>r la plus grande assiduite</p>
+        <p><lb/>Tous les mardis, réunions du Conseil.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Grande Castagnado</head>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>CONFÉRENCES. — Mardi, 5 novem-<lb/>bre, à 9 h. du soir, conférence par M. Cl.<lb/>Galicier, sur «Lazarine de Manosque", et<lb/>mardi, 19 novembre, à 9 h. du s. conféren-<lb/>ce "Du rôle des femmes dans l'histoire de<lb/>Marseille", par M. Fanton. Ces deux con-<lb/>férences seront faites à la Brasserie Pho-<lb/>céenne, 12, rue Curiol.</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>“Rara avis“. — Le dimanche 10 no-<lb/>vembre, à 3 h. après midi. dans le local de<lb/>la Société (Brasserie Colbert) 9, rue Col-<lb/>bert, au 1er étage:</p>
+        <p><lb/>suivie d'un concert de famille. Les sous-<lb/>criptions (1 fr. pour les messieurs, 0 fr. 50<lb/>pour les dames) sont reçues au siège de la</p>
+        <figure type="decoration"/>
+        <p><lb/>LA VIE PUBLIQUE — A tître d'artiste et de<lb/>Marseillais, nous félicitons chaudement notre<lb/>confrère Emile Fabre pour son beau triomphe<lb/>théâtral: «la Vie publique». C'est la consécration<lb/>légitime de douze ans de labeurs acharnès.</p>
+        <p><lb/>M. Emile Fabre n'a pas courtisé la Gloire avec<lb/>des intrigues. Il a haussé sa taille á la hauteur<lb/>de son épaule et l'a mordue brutalement á plei-<lb/>nes lèvres. II ne doit rien à rien ni à personne.</p>
+        <p><lb/>Cet ouvrage luxueusement édité comble une<lb/>lacune dans la littérature provençale. C'est<lb/>une sorte d'anthologie des poètes provençaux<lb/>et des œeuvres parues en 1900.</p>
+        <p><lb/>Nous félicitons sincèrement M. Edmond Le-<lb/>fevre, l'auteur de ce très beau travail. Nons<lb/>reviendrons, du reste, sur cette œuvre qui<lb/>n'est que le commencement d'une série,<lb/>Dins cade coublet si devinavo soun adiéu à la</p>
+        <p><lb/>Pregan sa famiho de reçubre en d'aquelo<lb/>tristo òucasien lei regret de touti lei sòci de<lb/>l'«Ideio Prouvençalo»,</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>Vo pér caire, vo au mitan.<lb/>Aro per moun entié, au mai la cavo es fouarto:</ab>
+        <ab type="head"><lb/>MOT DEVESSA</ab>
+        <figure type="decoration"/>
+        <p><lb/>Lei devinaire duvon atrouva lei dous mot<lb/>que nantrei n'aven enmescla lei letro coumo</p>
+        <ab type="head"><lb/>REBIRATOU MESSIRHA</ab>
+        <p><lb/>Lei mot devessa dins lon dernié numero</p>
+        <ab type="head"><lb/>FREDERI MISTRAU</ab>
+        <ab type="head"><lb/>CHARRADO</ab>
+        <lg>
+          <l><lb/>Moun un qu'aimo la Franço e la Franço aimo tant.</l>
+          <l><lb/>Es un peis fin tombèn en qu fan foueço festo;</l>
+          <l><lb/>Pa mau de gént si fan moun segoun su la testo</l>
+        </lg>
+        <p><lb/>Mies poudrès sarra vouesto pouarto.</p>
+        <p><lb/>o enco de M<lb/>A. Giraud, 83, Grande-rue Marengo.</p>
+        <p><lb/>La soulucien de la darniero charrado es</p>
+        <ab><lb/>MAR—L'US</ab>
+        <p><lb/>An tout devina: Mi souenes, Coucho-vesti,<lb/>Un Targaire, Fino la man pignado. Lei Cam-<lb/>pagnard de la Bastido «Felicitao à Sant-<lb/>Loup, Lou petadou de ma Janeto, un Sant-<lb/>Janen. Titin de la Blancardo, Chouaso é soun<lb/>cagonis, Marie de Loriol (Drôme).</p>
+        <p><lb/>Au tiragi au sort dei devinaire dei darnié<lb/>proubleme, es un Sant-Janen qu’a aan lou<lb/>proumié pres : uno boutiho de Pernod. Lei<lb/>campaguard' de la bastido "Felicita" an ga-</p>
+        <p><lb/>En fin decembre si fara mai un tiragi ounte<lb/>lei devinaire pourran gagna un flame cachin-</p>
+        <p rend="labelled"><lb/>Impreman</p>
+        <note>
+          <p rend="labelled"><lb/>Admmistrateur-Gerant: iu Orsom.</p>
+        </note>
+        <pb facs="0004.xml"/>
+        <ab><lb/>MAISON SOCIALE<lb/>HEZ-VOU</ab>
+        <p rend="heading"><lb/>MAISON DE CONFIANCE:</p>
+        <p rend="heading"><lb/>J. JOURDAN — Fabrique de Balais - Spécialité de Brosses pour Tontes Industries - 5. Cité des Platanes. 5</p>
+        <p rend="styled"><lb/>MANUFACTURE DE BOITES METALLIQUES<lb/>SPÉCIALITÉ D'ESTAGNONS BLANCS ou ILLUSTRÉS<lb/>Pour Huiles, Essences et autres Liquides</p>
+        <ab><lb/>PHARMACIE NOUVELLE DES QUATRE CHEMINS<lb/>4, Avenue de la Blancarde, 4<lb/>Vin de Quinquina..... le lit. 2»<lb/>Pepto-fer Jaillet..... le fl. 315<lb/>Vin de Peptone...... » 4<lb/>Sedlitz Ch. Chanteaud.. » 2<lb/>Kola granulé........ le fl. 2 25<lb/>Sedlitz Gust. Chanteaud. » 1 50<lb/>Glycéro-ph. granulé... » 2 25 Sirop Salsepareille iod. le lit. 5 »<lb/>GRAND RABAIS SUR TOUTES LES SPECIALITÉs</ab>
+        <ab><lb/>BOITES AGRAFÉES POUR BISCUITS<lb/>BOITES A PERMETURE HERMÉTIQUE POUR COULEURS<lb/>Bidons (système déposé) pour expéditions par colis postaux</ab>
+        <ab><lb/>JORT<lb/>TAILLAN &amp; Fils<lb/>BREVETÉS S. G. D. G. EN FRANCE ET A L’ÉTRANGER<lb/>21-23, Rue Peirier et Rue St-Suffren, 30-32. — MARSEILLE<lb/>TELÉPHONE 736</ab>
+        <p rend="styled"><lb/>Erécution scrupuleuse et à prix réduits des ordonnances de MM. les Médecins</p>
+        <p rend="heading"><lb/>MAISON RECOMMANDÉE</p>
+        <ab><lb/>MEUBLES, CHAUSSURES, CHAPELLERIE,<lb/>BONNETERIE, FANTAISIE, BIJOUTERIE, MACHINES A COUDRE,<lb/>PARAPLUIES, ETC.<lb/>E. BRUSTY<lb/>4, Rue Villeneuve, 4 — LA CIOTAT<lb/>Vente au Comptant et aver Pacilités de Paiement</ab>
+        <ab><lb/>FABRIQUE DE SCOURTINS POUR HUILERIES<lb/>Spécialité de Crins Frisés et Peignés<lb/>Ancienne Maison F. BLANC et P. BÉSIO<lb/>P. BÉSIO &amp; PIERRE<lb/>Successeurs<lb/>Boulevard Saint-Jean (à LA CAPELETTE)</ab>
+        <ab><lb/>CHARBONS DU PHÉNIX<lb/>AGCLOVERÉ DE CIARBOI DE BOIS EN DOILES ET BRIQUETTES<lb/>Pour la CUISINE et le CHAUFFAGE DOMESTIQUES<lb/>offrant 50 0/0 d'économie<lb/>SPÉCIALITÉ DE BRIQUETTES<lb/>EN GRIGNONS D'OLIVES<lb/>POUR LE CHAUFFAGE DES APPARTEMENTS<lb/>Félix BRET<lb/>USINE et BUREAU : 56, Bonlevard Saint-Jean et 161, Avenne de la Capelette<lb/>BOITES POUR LES COMMANDES :<lb/>M. J.-E. ORSONI, 20, Rue Nationale (Maison Tondina).<lb/>M. AUDOARD, Débit de Tabac, angle cours St-Louis et rue de Rome.</ab>
+        <figure/>
+        <figure/>
+        <ab><lb/>S-JAMES</ab>
+        <figure/>
+        <ab><lb/>QUINCAILLERIE PARISIENNE<lb/>19, Boulovard de la Magdeleine, 19<lb/>A DEUX PAS DES RÉPORMÉS<lb/>Maison de Confiance - Articles Garantis<lb/>MÉNAGE — CHIAUPPAGE — LAJIPES<lb/>SPECIALITE<lb/>de Poêles au Pétrole, de Fourneaux. de Douches.<lb/>de Batteries de Cuisine émail<lb/>GRANDE DOUCHE DÉMONTABLE<lb/>Creée par la MAISOS (voir la gravore)<lb/>et tous les Systèmes approuvés par les Docteurs<lb/>BON pour i Glace prime remboursant deux fois<lb/>LA VALEUR DU JOURNAL.<lb/></ab>
+        <ab><lb/>LITERIE DU MIDI<lb/>F. BESTOSO<lb/>32, Carrièro de la Républico, 82<lb/>TOUT CE QU'AREGARDO LOU COUCHAGI<lb/>MEDAIO D'OR PARIS 1900<lb/>CRIN, DUVET, LANO DE MATALAS, ETA.</ab>
+        <ab><lb/>Grando Fabrico de Soumié<lb/>REPARACIEN DE SOUMIE EN TOUT GENRO<lb/>ESPECIALITA DE LIÉ EN FERRI E EN BOUES</ab>
+        <ab><lb/>Photographie G. OUVIERE — 3 et 5, Rue de la Darse<fw type="digitisation-artefact"><lb/>i.f/</fw></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81361991</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1897-02-07">1897</date>
+          <idno type="ARK">bpt6k81361991</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81361991</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0001.xml"/>
+          <fw type="runningTitle"><lb/>SETENCO ANNADO, No 220</fw>
+          <dateline><lb/>DIMENCHE, 7 DE FEBRIÉ 1807.</dateline>
+          <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouveņau,<lb/>Au sufrage universau,<lb/>Voutaren pèr l'oli</ab>
+          <ab><milestone unit="column" n="3"/><lb/>(Prouverbi di meissounie).</ab>
+          <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17,27)</p>
+          <figure/>
+          <figure type="decoration"/>
+          <p rend="heading"><lb/>PRES DE L'ABOUNAMEN</p>
+          <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCÒ DE BARONCELLI<lb/>au palais dóu Roure,<lb/>EN AVIGNOUN</ab>
+          <figure type="table"/>
+          <figure type="decoration"/>
+          <ab><lb/>Baile dou journau:<lb/>FOLCO DE BARONCELEF</ab>
+          <figure type="decoration"/>
+          <figure type="decoration"/>
+        </div>
+        <div type="article">
+          <p><lb/>Dins soun darrier articie, publica dins l'Aiòli, sus la<lb/>destrucioun di barri d'Antibo, Pêire Devoluy disié:<lb/>« Pantaie dóu tiatre ounte dansè lou pichot Septen-<lb/>trioun ». Nous remèmbro, acò, la pèço de l'ilustre felibre<lb/>Guihen Bonaparte-Wyse sus lou pichot dansaire que,<lb/>despiêi dous milo an, se legis en Antibo, pecaire, soun<lb/>ב</p>
+        </div>
+      </div>
+      <div type="article">
+        <ab><lb/>Au tiatre d'Antibo ellaba.<lb/>Hótel Rellevue, Cap d'Antibo,</ab>
+        <ab type="head"><lb/>SEPTENTRIOUN</ab>
+        <figure type="decoration"/>
+        <ab><lb/>Dóu pichot septentrioun,<lb/>PVERI SEPTENTRI<lb/>ONIS ANNORVM XII QVI<lb/>Qu'en Antibo nux tou tiatre<lb/>ANTIPOLI IN THEATRO<lb/>BIDVO SALTAVIT ET PLA<lb/>Dansè quatre fes</ab>
+        <lg>
+          <l><lb/>«Lou grand jour que sara » dis lou paire à la maire,</l>
+          <l><lb/>« Pèr noste poulit enfantoun !...</l>
+          <l><lb/>S'acampara, parèis, de bèn liuen, de tout caire,</l>
+          <l><lb/>Di vilo, di mount, di valoun,</l>
+          <l><lb/>De sóudard, de bourgés, de damo, de pescaire,</l>
+          <l><lb/>Pèr bela lou debut de toun charmant Balaire,</l>
+          <l><lb/>De toun pichot Septentrioun! »</l>
+        </lg>
+        <lg>
+          <l><lb/>«Baise man au Soulèu » dis la sourreto au fraire,</l>
+          <l><lb/>« E durbirai lou fenestroun,</l>
+          <l><lb/>Car vole qu'Apouloun, de si raiado, esclaire</l>
+          <l><lb/>Noste fraire Septentrioun,</l>
+          <l><lb/>Qu'entre si floto d'or, amata dins soun caire</l>
+          <l><lb/>Dedins soun lié d'enfant près dóu lié de soun paire,</l>
+          <l><lb/>Soumiho d'un nené prefound!»</l>
+        </lg>
+        <lg>
+          <l><lb/>— « Reviho-te, Trioun !» lou fraire e la sourreto</l>
+          <l><lb/>Van s'escridant afeciouna,</l>
+          <l><lb/>« Reviho-te, mignot, de ti vesioun douceto:</l>
+          <l><lb/>Lou grand jour vèn de pouncheja:</l>
+          <l><lb/>Nous veici, pèr ajudo á faire ta teleto;</l>
+          <l><lb/>Tè, ti braio de sedo, e tè, ti sandaleto!</l>
+          <l><lb/>Voulèn, gènt fraire, t'assiéuna.»</l>
+        </lg>
+        <lg>
+          <l><lb/>E lou pichot parèu, de si tèndri maneto,</l>
+          <l><lb/>Septentrioun an alisca;</l>
+          <l><lb/>A si blanquis espalo an estaca d'aleto,</l>
+          <l><lb/>Un arc à sa man an baia;</l>
+          <l><lb/>E lou fraire, e la sorre, e paire, emai meireto,</l>
+          <l><lb/>Menon soun Cupidoun, noun sènso poutouneto,</l>
+        </lg>
+        <lg>
+          <l><lb/>En faci de la mar e di nivóusi cimo,</l>
+          <l><lb/>Au tiatre qu’es plen de trelus,</l>
+          <l><lb/>Se jogo au grand soulèu la bello pantoumimo (1)</l>
+          <l><lb/>Dis amour de Mars e Venus;</l>
+          <l><lb/>E d'artisto famous, que meme Roumo estimo,</l>
+          <l><lb/>Dison tout co que fau, sèns paraulo ni rimo,</l>
+          <l><lb/>Au pople qu'adoro lou nus.</l>
+        </lg>
+        <p rend="labelled"><lb/>(1) Au coumençamen de l'Empori rouman, la Pantoumimo,<lb/>co que vuci noumon« Lou balet», ero en grand estimo. Veire<lb/>Fassai de Lucian à-n-aqangen</p>
+        <lg>
+          <l><lb/>Mai, lou galant pichot sautejo emé tant d'amo</l>
+          <l><lb/>E tant d'abandoun bouleguet,</l>
+          <l><lb/>Que lou Prouconse aprovo, e li lusènti damo</l>
+          <l><lb/>Zounzounon: « Oh! qu'es poulidet !»</l>
+          <l><lb/>Lou pople antiboulen d'un long acord l'aclamo</l>
+          <l><lb/>«Lou mai beu dis Amour que dardaion la flamo,»</l>
+          <l><lb/>E lou porton au bout di det.</l>
+        </lg>
+        <lg>
+          <l><lb/>La lausenjo, oh ! qu'es vano! e meme li courouno,</l>
+          <l><lb/>Après tout, qu'an pau de valour!</l>
+          <l><lb/>Encaro un jour de fèsto ! encaro di chatouno</l>
+          <l><lb/>Li dóuci paraulo e li flour!</l>
+          <l><lb/>Mai, las! lou cinquen jour, mau-grat li caranchouno,</l>
+          <l><lb/>Li picamen de man, e l'aflat di poutouno,.</l>
+          <l><lb/>Lou pichot n'es pas de retour !...</l>
+        </lg>
+        <lg>
+          <l><lb/>Car, mau-grat que sigués darut o bèn abile,</l>
+          <l><lb/>La Mort es un moustre feroun;</l>
+          <l><lb/>La Mort es uno serp, un negre croucoudile</l>
+          <l><lb/>Que souto li sagno s'escound !...</l>
+          <l><lb/>E vaqui sus soun lié, coucha blanc e tranquile,</l>
+          <l><lb/>Au mitan de bèus ile, e mai blanc qu'un bel ile,</l>
+          <l><lb/>Lou poulidet Septentrioun!</l>
+        </lg>
+        <ab><lb/>15 febr. 1878. Willlam Bonaparte Wyse.</ab>
+        <p><lb/>En responso e au sujet di proutestacioun de l'Aiòli<lb/>contro l'espóutimen di vieii paret d'Autibo, M. lou Me-<lb/>nistre di Bèus-Art a bèn vougu escriéure à Frederi Mis-<lb/>tral la letro que seguis:</p>
+        <ab type="head"><lb/>RÉPUBLIOUE FRANCAISE</ab>
+        <p rend="dateline"><lb/>Palais Royal, le 27 janvier 1897.</p>
+        <p rend="styled"><lb/>Monsicur et très honoré Maitre,</p>
+        <p><lb/>Vous avez bien voulu appeler mon attention sur les<lb/>conditions dans lesquelles se poursuit la démolition<lb/>des murailles d'Antibes et solliciter mon administra-<lb/>tion d'intervenir pour sauver les débris antiques qui<lb/>pourraient être mis à découvert au cours de ces<lb/></p>
+        <p><lb/>Je m'empresse de vous faire connaitre que j'ai invité<lb/>Monsieur l'architecte Revoil à se rendre d'urgence sur<lb/>place et à examiner, d'accord avec les autorités loca<lb/>les, s'il serait possible de substituer aux procédés em-<lb/>ployés jusqu'ici des mesures de méthode qui permet-<lb/>traient d'assurer la conservation des fragments inté-</p>
+        <p><lb/>Agréez, Monsieur, l'assurance de ma considération<lb/>la plus distinquée et de mon respectueux devouement.</p>
+        <ab><lb/>Le Directeur des Beaux-Arts,</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>A VENDRE</head>
+        <head><lb/>Pavoun blanc de Camargo</head>
+        <p><lb/>freiau, pountificau, qu'au tèms di papo,<lb/>passejavon, unfanous, dins li jardin meravihous dóu Palais<lb/>&amp;' Avignoun ese quihavon à la cimo di tourre e di merlet<lb/><lb/>pèr regarda, tout en fasent la rodo, emé si co de velout<lb/>frapa coume li viei riban dis Arlatenco, li farandoulo de<lb/>nanet se desplegant pèr li carriere</p>
+        <p><lb/>S'adreissa au huréu de l'A.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Ab hic et ab hoc</head>
+        <lg>
+          <l><lb/>Plòu, plòu à siho</l>
+          <l><lb/>Sus lou port de Marsiho:</l>
+          <l><lb/>Se Marsiho lou sabiè,</l>
+          <l><lb/>Tout lou mounde courreirié :</l>
+        </lg>
+        <ab><lb/>A la forço de courre,</ab>
+        <p><lb/>Tóuti sabon aujour-d'uei que la lengo prouvençalo,<lb/>aquelo di Troubadou, fai partido de l'aut ensignamen<lb/>letru, à l'Escolo di Charto de Paris, i faculta de-z-Ais, de<lb/>Mount-Pellé, de Toulouso, e dins forço Universita d'A¬<lb/>lemagno, d'Itali, de Suedo e d'Americo.</p>
+        <p><lb/>A.z-Als, M. Constans, carga dóu cours de prouvençau,<lb/>noun soulamen esplico la literaturo anciano, mai dins<lb/>soun cours rend comte, quand l'óucasioun lou vòù, dis<lb/>obro remarcablo que podon espeli dins lou prouvençau<lb/>mouderne. E pèr avé sa part d'aquel ensignamen, la vilo<lb/>de Marsiho avié, l'a quàuquis an, acourda 600 fr. au<lb/>proufessour óuficiau pèr que venguèsse faire lou meme</p>
+        <p><lb/>Aco di, veicitout beu co que ven de se passa au Counsèu<lb/>Municipau de la vilo de Marsiho. Leissaren la paraulo<lb/>au Petit Provençal du 23 janvié:</p>
+        <ab type="head"><lb/>Féllbrige Municipal</ab>
+        <p><lb/>On passe au chapitre des Beaux-Arts. Le premier crédit<lb/>inscrit — 600 francs affectés à un cours de langue provençale<lb/>profersé à la Faculté des Sciences - provoque une discussion<lb/>assez plaisante et assez originale entre fervents et détrac-<lb/>teurs de notre langue locale.</p>
+        <p><lb/>M. Bertas, adjoint aux Beaux-Arts, demande la suppres¬<lb/>sion du crédit, à la condition que ce conrs sera remplacé par<lb/>un cours communal de langue marseillaise.</p>
+        <p><lb/>M. Dechavanne s'étonne que le Conseil, qui a inscrit<lb/>d'autre part dans le budget un crédit pour la diffusion de la<lb/>langue française dans les colonies. inscrive un crédit de<lb/>60) francs pour un cours de patois provençal.</p>
+        <p><lb/>Ce mot de patois fait sauter M. Bertas, qui prend vive-<lb/>ment la défense de la langue provençale a la plus jolle des<lb/>langues françaises ».</p>
+        <p rend="labelled"><lb/>M. Rnoulx assure également que la langue provençale<lb/>est la plus belle langue du monde</p>
+        <p><lb/>Mais elle a moins d'attrait pour M. Michel, qui déclare<lb/>tout bonnement que, au moment où toutes les régions, tou¬<lb/>tes les communes font des efforts pour démolir leurs dialectes<lb/>spéciaux et ne laisser subsister que la langue française seule,<lb/>il ne lui parait pas opportun de travailler au progrès du<lb/>dialecte provençal, qui n'est fait que pour tronquer l'esprit</p>
+        <p><lb/>M. Bertas reprend alors son plaidoyer. Il dit que pour lui il<lb/>ne serait pas inutile. pour les progrès même de la langue fran-<lb/>caise, d'introduire dans les écoles l'enseignement du pro¬<lb/>vençal, que l'on a appelé le « latin des pauvres».</p>
+        <p rend="labelled"><lb/>M. Michel se plaint alors que le provençal donne l'assent.<lb/>L'assent est défendu par MM. Raoulx et Salvan, qui ne le<lb/>trouvent nullement désagréable et qui demandent le maintien<lb/>M. Bertas explique alors que, s'il prie le Conseil de sup-</p>
+        <p rend="labelled"><lb/>primer le crédit, c'est que la langue enseignée à la Faculté<lb/>des Sciences est une langue sans sexe n'ayant rien de com.<lb/>mun avec langue marseillaise, la langue de Gelu et de Chei-<lb/>lan. Mais le crèdit sera rétabli pour l'enseignement de cette<lb/>dernière langue dans les écoles communales.</p>
+        <p><lb/>La suppression du crédit de 600 fr., misé aux voix, est adop-<lb/>ee, malgré une nouvelle protestation de M. Salvan.</p>
+        <p><lb/>Rèn à-n-ajusta, parai? á-n-aquéu comte-rendu. Lou<lb/>prat parlo, coume dison ll segaire en vesent l'erbo. Sou-<lb/>lamen trouvas pas qu'aquéu chaplachòu rimo gaire emé<lb/>lou crid, lou famous crid di counquistaire marsibés:<lb/>Universita prouvençalo ! prouvençalo, perqué ? dóu mon-<lb/>men que Marsiho vòu resta «terro ajacento».<fw type="digitisation-artefact"><lb/>ource gallica.n.f/Bibliotèques e</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

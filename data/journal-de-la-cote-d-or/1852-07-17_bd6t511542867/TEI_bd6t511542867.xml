@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t511542867</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1852-07-17">1852</date>
+          <idno type="ARK">bd6t511542867</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t511542867</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>Journal de la Côte-d'Or.</fw>
+        <ab><milestone unit="column" n="2"/><lb/>S'adresser, pour visiter ces propriétés, à min, et de couchant sur le chemin de Ruffey.<lb/>Situé à Beire (canton de Genlis), composé: Le dimanche 29 août 1852, à midi, en l'étude,</ab>
+        <p><lb/>70 ares 25 centiares sur le territoirede Di-<lb/>jon, lieu dit ès Paillottes, joignant de nord le<lb/>sieur Berthet, de midi M. Fouillard, de levant<lb/>aboutissant sur M. Lardilion et sur un che-</p>
+        <p><lb/>Il sera accordé les plus grandes facilités</p>
+        <p><lb/>S'adresser, pour visiter les propriétés, à<lb/>madame veuve Boittier, place St-Jean; et, pour<lb/>tous autres renseignements et prendre con-<lb/>naissance du cahier des charges, à Mo Vais¬</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>Situé à Dijon, faubourg Rennes, avec le</ab>
+        <ab type="head"><lb/>Etude de Mo PETITJEAN, notaire à Dijon,</ab>
+        <ab type="head"><lb/>DES BAINS DU BELVEDER,</ab>
+        <p><lb/>S'adresser, pour trater et rensigMe <lb/>soit à Mme Collot, audit hôtel, soit ́ Me p<lb/></p>
+        <p rend="labelled"><lb/>4o Et de 21 ares 42 centiares de terres la-<lb/>bourables ; dans cette pièce de terre il<lb/>existe une carrière en voie d'exploita-</p>
+        <p><lb/>M. François Mazoillier, chez M. Genty, pro¬<lb/>priétaire, au bas de Talant; et, pourtous autres<lb/>renseignements, à Me Gallois, notaire à Di¬<lb/>jon, avec lequel on pourra traiter avant l'ae-</p>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>MONDEL, notaire à Dijon,</p>
+        <p><lb/>1o D'une jolie maison de maitre, de cons-</p>
+        <p><lb/>Cette propriété sera très-rapprochée de Di-<lb/>jon, par l'établissement du chemin de fer de<lb/>Besançon, et sa proximité avec les stations de</p>
+        <p><lb/>La maison conviendrait parfaitement com-</p>
+        <p><lb/>S'adresser, pour tous rensei, soit <lb/>pour traiter, soit audit M^e Blonde, solt a e<lb/></p>
+      </div>
+      <div type="article">
+        <ab><lb/>pendances, joignant de tous cotés M. Trous- Le samedi 24 juillet 1852, a midi, à Dijon, en</ab>
+        <ab type="head"><lb/> Saint-Jean, no 5</ab>
+        <ab type="head"><lb/>Aux enché̀res publiques et à l'ex-</ab>
+        <p><lb/>Le dimanche 18 juillet 1852, à midi, à Dijon,<lb/>en P'étude de M^o Vaissier et par son minis-</p>
+        <p><lb/>La maison, située rue Turgot, ne 24 et 26,<lb/>se compose au rez-de-chaussée de deux ma-<lb/>gasins, chambres à la suite, cour, hangars,<lb/><lb/>ateliers à la suite, cinq pièces audeuxième é-<lb/>tage, deux caves dessous, greniers dessus<lb/>pompe, chaudière á lessive, aisances et dé-</p>
+        <ab><lb/>NoUVELLES MESSAGERIES EN POSTE,<lb/>A Paræ aÉDURF.<lb/>DIJON, POUILLY-EN-AUXOIS.<lb/>Départs de Dijon à 5 heures du soir, et de Pouilly à 5 heures du matin.<lb/>OUILLN, M. bireton, hoel Pos<lb/>A POUILLY, M. Breton, hôtel de Pos</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>Préparé par FAYARD et BLAYN, pharmaciens á Paris.</ab>
+        <ab type="head"><lb/>PAPIER FAYARD ET BLAYN,</ab>
+        <p><lb/>Le seul qui guérisse les rhumatismes, douleurs de goutte, lumbagos, maux de<lb/>reins et irritations de poitrine, brûlures, engelures, cor et œils-de-perdrix.</p>
+        <p><lb/>pes<lb/>dits chimiques du commerce, qui en diſſèrent essentiellement par la composition et<lb/>les propriétés. On doit donc refuser formellement tous roulcaux qui ne porteraient<lb/>pas les signatures FAYARD et BLAYN. Prix : 1 et 2 L.—Dépôt aux pharmacies de MM.:<lb/>à Dijon, Dadant, Rolland; à Auxonne, Marion, Voituret; à Semur, Chinet.</p>
+      </div>
+      <div type="article">
+        <head><lb/>AVAS AUE DAMES.</head>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>BRUNET, rue Porte-douche, 70,</ab>
+        <p><lb/>A lhonneur d'informer les DAMES de Dijon qu'il vient d'établir un atelier propre à im¬<lb/>primer toute sorte de dessins sur mousseline à l'usage des DAMES, pour le travail en brode-<lb/>tie : procédé bleu, noir et blanc pour sous-tacher. Il s'eflorcera de reproduire, avec toute<lb/>a netteté qu’exige Poriginal, les dessins au plumetis et anglais.— On trouvera un gran¬<lb/>choix de piqûres nouvelles tirées de tous les journaux de Paris, un grand assortiment d'é-<lb/>chantillons de garnitures et entre deux, cols, guimpes, manches pagodes et autres fonds de<lb/>bonnets, mouchoirs de poche, etc.: le tout à des prix très-modérés; garnitures, depuis un cen¬<lb/>timètre de hauteur jusqu'à dix, proportionnées aux prix, de 10 centimes à 30 le mètre, et<lb/>se payent au-dessus progressivement selon la hau</p>
+        <p><lb/>,</p>
+        <p rend="heading"><lb/>Sommes de 50, 1,00, 2,00 f. etau. dessus</p>
+        <p><lb/>Au milieu duquel se trouve l'usine, et qui a<lb/>son entrée principale sur la route nationale. Ce<lb/>clos, de la contenance de 6 hectares 83 ares 14<lb/>centiares, est en nature dejardin, pré, vigne</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Située au-dessus de Larrey, aux Mares-d'Or,<lb/>aux enchères publiques et à l'extinction des<lb/>feux, par le ministère dudit Me Vaissier.</ab>
+        <p><lb/>La première, située impasse St-Michel,no 4,<lb/>occupée en partie par. Mme veuve Noěllat<lb/>d'an revenu de 2,612 fr., se compose de plu-<lb/>sieurs logements au rez-de-chaussée,premier<lb/>et second étage, caves dessous, greniers des-<lb/>sus, grande et petite cour, aisances et dépen-</p>
+        <p><lb/>La deuxième, sise rue de Cray, n^o 10, d'un<lb/>revenu de 1,100 f., se compose de deux corps de<lb/>logis, vastes hangars, écurie, chantier, jardin,</p>
+        <p><lb/>La vigne, située aux Mares-d'Or, esten plein<lb/>rappori, et d'une contenance de 34 ares 28</p>
+        <p><lb/>Il sera accordé les plus grandes facilités<lb/>S'adresser, pour visiter les propriétés,à</p>
+        <p><lb/>messieurs Quignard fils, rue de Gray, no 10,<lb/>Dufouer, charpentier, près la Belle-Etollé; et<lb/>De Vaissier, notaire, dépositaire du cahier des</p>
+        <p><lb/>L'amodiataire entrera en jouissance le 21</p>
+        <p><lb/>S'adresser, pour tous renseigoements, soit<lb/>à M. Pommey-Déresse, propriétaire à Dijon,<lb/>rue du Refuge, no 3, soit à M^o Mugnier, no-</p>
+        <p rend="heading"><lb/>Située à Dijon, rue de l'Ecole-de-Droit,</p>
+        <p><lb/>Le landi 26 juillet 1852, à midi, en l'étude et<lb/>par le ministère de Me Mugnier, notaire à</p>
+        <p><lb/>Cette maison est composée au rez-de-chaus-<lb/>sée d'une boutique, avec chambre et cuisine,<lb/>à la suite, premier et deuxième étages, man-<lb/>sardes et grenier, cave, cour, puits, aisances</p>
+        <p><lb/>Les acquéreurs auront de grandes facilités</p>
+        <p><lb/>S'adresser, pour voir cette maison, à M.<lb/>Gulimat, horloger, rue de l'Ecole-de-Droit,<lb/>no 38; et, pour tous renseiguements, audit<lb/></p>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>óit, et Can-</p>
+        <ab type="head"><lb/>A VENDRE DEFINITIVEMENT</ab>
+        <p rend="structured"><lb/>Sur la mise à prix de 12,000 f.,</p>
+        <p rend="labelled"><lb/>Lejeudi 29 juillet 1832, à midi, en l'étude et<lb/>par le ministère de M^o Mugnier, notaire à</p>
+        <p><lb/>de Buf-<lb/>fon et de la rue Chancelier-Lhôpital, est com-<lb/>posée de deux corps de bâtiments, compre-<lb/>nant sept pièces à feu, avec cabinets, mansar-<lb/>des, pelite cour, puits, deux beaux greniers,</p>
+        <p><lb/>L'acquéreur entrera en jouissance le jour<lb/>de la vente, et aura de grandes facilités pour</p>
+        <p><lb/>S'adresser, pour visiter cette maison, a M.<lb/>Dechaux, garde du génie, rue Chancelier,<lb/>Lhôpital, n^o 6; et, pour tous renscignements,</p>
+        <p><lb/>Capitaux de toute importance à placer sur</p>
+        <p><lb/>Cette usine, située sur un très-bon cours<lb/>d'eau, à quelques mètres de la gare du<lb/>se trouve en parfait état de roulement.</p>
+        <p><lb/>Elle est composée de cinq paires de mienles<lb/>montées à l'anglaise avec bluteries et net-</p>
+        <p><lb/>De bâtiments d'habitation et d'exploitation,</p>
+        <p rend="heading"><lb/>Riude de M^o NUGNIER, notaire à Dijon.</p>
+        <ab><lb/>Appelé le Moulin- Neuf, situé à Di-<lb/>jon, près la gare du chemin de fer de<lb/>l'étude et par le ministère de Me Mugnier</ab>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>seur a Dijon, rue des </p>
+        <p rend="structured"><lb/>Rue Berbisey, no 85, à Dijon, le lundi 19 juil-<lb/>let 1852, à 11 heures du matin, par le mi-<lb/>nistère de M. Lombard, commissaire-pri-</p>
+        <p><lb/>la salle des commissaires-priseurs, sise<lb/>place d'Armes, n^o 10, à Dijon, le mardi 20<lb/>juillet 1852, à 11 heures du matin, par le</p>
+        <p><lb/>Bois de lit, commode, table de nuit, et au-<lb/>tres meubles en noyer, sommier élastique,<lb/>deux matelas, deux lits de plume, couver-<lb/>tures, glaces, tables, chaises, armoire, poêle<lb/>économique en fonte, et divers ustensiles de</p>
+        <p><lb/>Cette vente ayant lieu pour cause de dé-<lb/>part, le prix en sera payé comptant, sans</p>
+        <ab><lb/>Vente mobilière,<lb/>Après décès de M. Jean-Baptiste Lavier, La Rédacteur-gérant, J. B.-Is. VINCENT.</ab>
+        <note>
+          <p rend="styled"><lb/>OLJON, TMPRIMBRIE DE DOUILLIER. RUE DES CODRANS, AI.</p>
+        </note>
+      </div>
+      <div type="article">
+        <p><lb/>Le fournisseur des traverses pour le che-<lb/>min de fer de Chalon à Lyon donne avis qu'l<lb/>vient d'établir un bureau à Chalon-sur-Sas-<lb/>quel on pourra traiter même ovant le jour</p>
+      </div>
+      <div type="article">
+        <p><lb/>S'adresser à M. Brullé, professeur, méme<lb/>qui était propriétaire aubergiste, rue Guillau.<lb/>me, 18, à Dijon, le lundi 19 juillet 1852, hen-<lb/>re de midi, par le ministère de MM. Beau-<lb/>bois et Devillebichot, commissaires-pri-</p>
+        <p><lb/>Cette vente consiste en: sept lis complets,<lb/>garuis de bonnes couches: glaces, commodes,<lb/>secrétaires, buffet, linge de lil et de ménage,<lb/>tables, chaises, poéle, ustensiles de cuisine</p>
+        <p><lb/>Deux bons chevaux, harnais, et deux es-</p>
+      </div>
+      <div type="article">
+        <head><lb/>Beau et vaste hangar. — S'adresser à M.P.</head>
+        <p><lb/>A VENDRE DE SUITE pour cause de<lb/></p>
+      </div>
+      <div type="article">
+        <head><lb/>MAGASIN D'ÉPICERIE</head>
+        <p><lb/>Situé dans le quartier le plus commerçant &amp;e<lb/>seront remises au prix de facture, et les<lb/></p>
+      </div>
+      <div type="article">
+        <p><lb/>BERRYER et GENTILINI, rue des Ge-<lb/>drans, no 94 ; la première porte cochère près ke<lb/>Coin-du-Miroir, à Dijon; flature de laines !̀<lb/><lb/>açon, échange de laines en toisons pour laines</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>jouissance de suite, rue St-Philibert, no 31,<lb/>une boutique propre a toute espèce de com-</p>
+        <p><lb/>S'adresser à M. Destoi, architecte, meme</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>ETTRE, pour cause de santé, ea<lb/>MAGASIN de marchand de meubles fripier,<lb/>situé dans un des quartiers de la ville les plos<lb/>convenables pour ce commerce. —S'adresser<lb/></p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t511542778</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1852-06-26">1852</date>
+          <idno type="ARK">bd6t511542778</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t511542778</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>Journal de la Côte-d'Or.</fw>
+        <ab><milestone unit="column" n="2"/><lb/>Meublé, avec droit à la promenade dans le<lb/>Préparé par BAYARD et BLAYN, pharmaciens à Paris.</ab>
+        <p><milestone unit="column" n="1"/><lb/>S'adresser, pour tous renseignements,<lb/>M^o Gleize, avoué, ou à 3^e Henri Chaflotte,</p>
+        <p rend="heading"><lb/>Ende de placo des corde<lb/>place des Cordeliers,</p>
+        <p><lb/>i,e, ́Bnde<lb/>̀ D, St-Jean, u à Me Blondel,</p>
+        <p rend="heading"><lb/>En très-bon étot, située a Dijon, rue Vanne-</p>
+        <p rend="styled"><lb/>S'adresser à Me Blondel, notaire, place des</p>
+      </div>
+      <div type="article">
+        <head><lb/>Lude de rue des Bons Enfan</head>
+        <p rend="styled"><lb/>Située à Dijon, rue St-Philibert, 11, ancien-</p>
+        <p><lb/>Le dimanche 4 juillet 1852, à midi, en l'és<lb/>et par le ministère de Me Malteste, no</p>
+        <p><lb/>Cette maison, en bon état, se compose de<lb/>deux chambres au rez-de-chaussée, grenier<lb/>et terrasse dessus, avec jardin devant et un<lb/>hangar au couchant, cave sous les bâtimentś<lb/>de M. Andréis, et droit commun au treige,<lb/>sous la maison Andréis, à la grande cour et</p>
+        <p><lb/>L'acquéreur entrera en jouissance de sui-</p>
+        <p><lb/>S'adresser, pour la visiter, à M. Rousseau,<lb/>serrurier sur le Pont-Arnaud, rue Porte-d'Ou-<lb/>che; et, pour tous autres renseignements, au<lb/>notaire Malteste, avec lequel on pourra trai-<lb/>ter de gré à gré avant lejour fixé pour la ven¬<lb/></p>
+      </div>
+      <div type="article">
+        <head><lb/>Btude de Di.e PETITJEAN, notaire à Dijon,</head>
+        <p><lb/>Se composant au rez-de-chaussée d'une gran-<lb/>de salle servant de café, une chambre et un</p>
+        <p><lb/>Au 1er étage, une chambre donnant sur la<lb/>rue avec terrasse, qui peut facilement être con-<lb/>vertie en une chambreà la suite, une chambre<lb/>et une cuisine, deux greniers au-dessus, avec</p>
+        <p><lb/>S'adresser, pour voir les lieux, à mada me<lb/>veuve Pauroy; et, pour les conditions, auuie</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Bude de M- VIRELY, notaire à Dijon, rue<lb/>Le samedi jullet 185, à midi, en létude et challons, de 68 ares. Mise a prix, 2300 f.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>AVRS AU8 DAMES.</head>
+        <head><lb/>BRUNET, rue Porte-d'ouche, 70,</head>
+        <p><lb/>A l'honneur d'informer les DAMES de Dijon qu'il vient d'établir un atelier propre à il<lb/>primer toute sorte de dessins sur mousseline à l'usage des DAMBS, pour le travail en brode-<lb/>ie : procédé bleu, noir et blanc pour sous-tacher. Il s'eflorcera de reproduire, avec tout<lb/>la netteté qu’exige l'original, les dessins au plumetis et anglais. — On trouvera un gran<lb/>choix de piqûres nouvelles tirées de tous les journaux de Paris, un grand assortiment d'e<lb/>hantillons de garnitores et entre deux, cols, guimpes, manches pagodes et autres fonds de<lb/><lb/>bonnets, mouchoirs de poche, etc.: le tout à des prix très-modérés; garnitures, depuis un cen-<lb/>timètre de hauteur jusqu'à dix, proportionnées aux prix, de 10 centimes à 30 le mètre, et<lb/>se payent au-dessus progressivement selon la haute</p>
+        <p><lb/>ons, prillantés, colon a broder, taffetas gommé, illes: le tout en bonne qualité.<lb/>jaconas, brillantés, colon à broder, taffetas gommé, aiguilles : le tout en bonne qualité</p>
+        <p rend="heading"><lb/>PAPIER FAYARD ET BLAYN,</p>
+        <p><lb/>Le seul qui guérisse les rhumatismes, douleurs de goutte, lumbagos, maux de<lb/>reins et irritations de poitrine, brûlures, engelures, cors et œils-de-perdrix.</p>
+        <p><lb/>NOTA. C'est à tort que l'on confond le papier FAYARD et BLAYN avec les papiers<lb/>dits chimiques du commerce, qui en diffèrent essentiellement par la composition et<lb/>les propriétés. On doit donc refuser formellement tous roulcaux qui ne porteraient<lb/>pas les signatures FAYAnD et BLAYN. Prix : 1 et 2 f.—Dépôt aux pharmacies de MM.<lb/>à Dijon, Badant, Rolland; à Auxonne, Marion, Voituret; à Semur, Chinet.</p>
+        <p><lb/>No 13 de l'aménagement, située sur la com-<lb/>mune de Curley, lieux dits Gros et Petits-<lb/>Chénes, appartenant à M. Chanut, et de la</p>
+        <p><lb/>S'adresser, pour voir la coupe, au sieur<lb/>Brocard, garde à Chambœuf; et, pour les con<lb/>ditions, soit à M. Moreau-Dornau, ancien géo-<lb/>mètre à Dijon, soit à Me Virely, notaire en la-</p>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>Eeude de M^o DURANDEAU, notaire à Dijon,</p>
+        <p rend="labelled"><lb/>Le dimanche 18 juillet 1852, à midi, à Bin-<lb/>ges, canton de Pontailler, en la demeure de<lb/>M. Delande, aubergiste, par le ministère<lb/><lb/>dudit Me Durandeau, en un ou deux lots,</p>
+        <p rend="labelled"><lb/>Situé à Binges, lieu dit en la Mare, de<lb/>la contenance de 2 hectares 87 ares 20<lb/>centiares, joignant de levantun chemin, de<lb/><lb/>couchant Rouillé et Bougré, de nord un</p>
+        <p><lb/>Ce pré est entouré et traversé par des fos-<lb/>es, et bordé de nombreux peupliers et sau-<lb/><lb/><lb/></p>
+        <p><lb/>Le dimanche 4 juillet 1852, à midi, en l'étu-<lb/>de et par le ministère de Mo Durandeau</p>
+        <p rend="labelled"><lb/>9^o lot. Une pièce de vigne, lieu dit aux B-<lb/>challlons, de 68 ares. Mise à prix, 2,500 f.</p>
+        <p><lb/>canal, au coin du pont de Larrey et du che<lb/>min de Corcelles, consistant en deux bâti-<lb/>ments d'habitation, plusieurs magasins, cour.<lb/>jardin et terrain à bâtir; le tout clos de murs<lb/>et d'une contenance d'environ 34 ares 50 cen-<lb/>Voir les affiches pour la désignation détail-</p>
+        <p><lb/>lée. On entrera en jouissance de suite, et il se-</p>
+        <p><lb/>Anne, dans la maison; et, pour les conditions<lb/>de la vente, à Me Durandeau, notaire, dépo¬<lb/>sitaire du cahier des charges, et à Me Morel,</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Etude de M^o LECRAND, notaire à Chau-</ab>
+        <p rend="styled"><lb/>Etude de M^e DELORSIE, notaire à Saulx- le-</p>
+        <p><lb/>A Courtivron, au domicile de M. Renard-Co-<lb/>quel, aubergiste, par le ministère de Mo De-<lb/>lorme, le dimanche 11 juillet 1852, heure</p>
+        <p><lb/>Situé à Coutivron, établi par le sieur Renaud,<lb/>tamment des meules, les huches à cylin-<lb/>dres, les transmissions en fer et fonte, les<lb/>pois en fer, les pignons en fer, tout l'assor-</p>
+        <p><lb/>On pourra traiter avant le jour fixé pour la</p>
+        <p><lb/>S'adresser, pour les renseignements, audit<lb/>reurs solvables, et il sera perçu 5 centimes par</p>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>Avec PRÉS et TERRES LABOU-</p>
+        <ab><lb/>En Pétude de M^e Legrand, notaire à Chau-<lb/>Sur la mise à prix de 110,000 fr., outre le</ab>
+        <p><lb/>Cette propriété consiste, outre le château a-</p>
+        <p><lb/>10 hectares de pré produisant 50,000 kilo-<lb/>22 nectares 1 ares 70 centiares de terre de</p>
+        <p><lb/>Le tout d'un seul tenant, traversé par les</p>
+        <p><lb/>taire; et à Dancevoir, à M. de Froment, pro-<lb/>priétaire, et à Mo Rigollot, notaire, également</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Dépendant de la faillite de M. Jossine?</ab>
+        <p><lb/>din d'agrément et de produl, grandsclos planté<lb/>de vigne, bâtiments d'exploitation contenant<lb/>logement de vigneron et de jardinier, pressoir,<lb/>caves, granges, écuries, basse cour, alsances<lb/>et dépendances; 17 foudres et 8 cuves; le tou<lb/>d'un scul tenani,situé en la Montagne-Ste-An-<lb/>ne, à 3 kilomètres de Dijon, dans une fort<lb/>belle position, et d'une contenance de a hec-</p>
+        <p rend="labelled"><lb/>2e lot. Une pièce de cerisiers et framboi-<lb/><lb/>siers et vignes, située au hameau de Ste-Anne,<lb/>de 21 ares 80 centiares. Mise à prix, 500 f.</p>
+        <p rend="labelled"><lb/>3o lo1.—Une pièce de vigne close de murs,<lb/>en la Combe-St-Joseph, de 1 hectare 25 ares</p>
+        <p rend="labelled"><lb/>4o lot. — Une pièce de vigne, close de<lb/>7 ce,tires. Mis aus des Baux, de 3,00f</p>
+        <p rend="labelled"><lb/>5o lot. Une pièce de vigne de mu<lb/>lieu dit en Montreuil, de 22 aes</p>
+        <p rend="labelled"><lb/>6o lot. Une pièce de vigne close de murs,<lb/>lieu dit au-dessus de la Montagne, de 26 ares</p>
+        <p rend="labelled"><lb/>7o loi. Une pièce de terre, lieu dit en la<lb/>Trouhaude, de 59 ares 40 centiares. Mise à</p>
+      </div>
+      <div type="article">
+        <head><lb/>Office de M. LOMBARD, commissaire-pri-</head>
+        <head><lb/>ie, Mme veuve de</head>
+        <p><lb/>En vertu d'ordonnance, rue St-Philiberi,no 38<lb/>à Dijon, le lundi 28 juin 1852, à 11 heures<lb/>du matin, par le ministère de M. Lombard,</p>
+        <p><lb/>bois de fit, tables à jouer, console, table à<lb/>thé, canapé, fauteuils, chaises, armoires : le</p>
+        <p><lb/>Pauteuils, table anglaise et autres meubles<lb/>en acajou; deux belles glaces fratchement en-<lb/>cadrées; deux pendules à sujel; candélabres;<lb/>flambeaux; tapis d'appartement; linge de ta-<lb/>ble et de ménage; très-beaux vêtements de<lb/>femme; quatre châles tapis; mantelets en ve-</p>
+        <p><lb/>Matelas, lits de plume, couvertures, édre-<lb/>dons. rideaux de croisée, etc.; batterie de<lb/>Plusieurs bonnes peintures, gravu-</p>
+        <p><lb/>Bien encadrées; garnitures de cheminée;<lb/>porcelaines; cristaux; argenterie et bijoux; 12<lb/>couverts et 6 cuillers à café à filets; un cou-<lb/>vert uni; une cuiller à sucre; une tabatière; u-<lb/>ne montre en or; deux pendants d'orcille en<lb/>diamant; une cassolette; plusieurs médaillons</p>
+        <p><lb/>Il sera accordé 3 mois de termeaux acqué- Le Rédacteur-górant, J. B.-Is. VINCENT</p>
+        <note>
+          <p><lb/>DLON, IMPRRMERIE DE DOVILLIER. RUE, OES CODRANS, 1.</p>
+        </note>
+      </div>
+      <div type="article">
+        <p><lb/>vie, de rentes sar l'Etat, de viagers, d'usa-<lb/>fruits, d'actions industrielles et autres valeurs<lb/>de bourse, désireux de vendre leurs titres,<lb/>peuvent s’adresser à M. Devillebichot, rue du</p>
+      </div>
+      <div type="article">
+        <head><lb/>DiJon a VichY,</head>
+        <p><lb/>Départ de Dijon à 6 heures 25 minutes du</p>
+        <p><lb/>A DIJON, messageries nationales et géné-<lb/>rales<lb/></p>
+        <p rend="labelled"><lb/>ABEAUNE, chez M. Brenet, maitre de pos-<lb/></p>
+        <p rend="labelled"><lb/>A AUTUN, chez M. Bazin, maitre de pos-<lb/></p>
+        <p><lb/>AVICHY, messageries nationales et géné-</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>MACASIN DE LINGERIE, situé dans un</ab>
+        <p rend="labelled"><lb/>des beaux quartiers de la ville, pourvu d'une<lb/>bonne clientèle, à remettre pour cause de san¬</p>
+      </div>
+      <div type="article">
+        <p><lb/>mier, ou chez M. Raillard, huissier, rue Vau-</p>
+      </div>
+      <div type="article">
+        <head><lb/>MAGASIN D'ÉPICERIE</head>
+        <p><lb/>Situé dans le quartier le plus commerçant de<lb/>la ville de Dijon. Toutes les marchandises<lb/>seront' remises au prix de facture, et les<lb/>plus grandes facilités serontaccordées pour<lb/></p>
+      </div>
+      <div type="article">
+        <p><lb/>drans, no 94 ; la première porte cochère pres2<lb/>Coin-du-Miroir, à Dijon; filature de laines?<lb/>façon, échange de laines en toisons pour laines</p>
+        <p rend="labelled"><lb/>l'Ecole-de-Droit, no 37, deux jeunés che-<lb/>vaux parfaitement dressés et 2 voitures à 4</p>
+        <p rend="labelled"><lb/>APOPRESSOTR ar— S'adr<lb/>GRAND PRESSOIR à a —S'ae</p>
+      </div>
+    </body>
+  </text>
+</TEI>

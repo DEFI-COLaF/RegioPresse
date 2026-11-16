@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54503073t</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Vaclette : journal humoristique, drôlatique, excentrique, non politique, rédigé en patois de Lille</title>
+          <publisher>[s.n.] (Lille)</publisher>
+          <date when="1892-08-21">1892</date>
+          <idno type="ARK">bd6t54503073t</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54503073t</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>N^o 55. — 5 centimes le numéro.</fw>
+        <dateline><lb/>Dimanche 21 Août 1892.— 2me annés.</dateline>
+        <figure/>
+        <ab><milestone unit="column" n="1"/><lb/>: T , 250, s, 125.- Aatrs d́partets 3 150</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>AUX LILLOS</head>
+        <p><lb/>ignon s'in a mété, nos bray's Orphéonisses,<lb/>rand concours de Reims, n'ont point eu d' premier prix.<lb/>on a appris cha, j'ai vu des gins tout trisses,<lb/>in plaigeant leu sort : Cha nous a bien surpris.<lb/>pourtant brav's Lillos, malgré cha Lille est fière,<lb/>lab des Vingt, dins l' mém ville, in premièr division<lb/>tros premiers prio. ornant d'un cop s' bannièr<lb/>piaux feurons d'honneur grâce à s'bonn direction.</p>
+        <ab><lb/>F. DRUMEZ.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Aux Vainqueurs de Reims!..</head>
+        <head><lb/>Au club des Vingt, Hommage à Bacqueville</head>
+        <lg>
+          <l><lb/> Bacqueville, Bravo, et Bravo pou t's artistes</l>
+          <l><lb/>remière sortie prouve bien, aux Lillos t' vraie valeur</l>
+          <l><lb/>r'à vingt-deux tes bons instrumentistes</l>
+          <l><lb/>n'étant</l>
+          <l><lb/>manimité ! ont gagné l' prio dhonneur</l>
+          <l><lb/>est l' cœur in joie que l' journal de l Vaclette</l>
+          <l><lb/>Hollain l' premier, suivi d' ses Rédacteura</l>
+        </lg>
+        <ab><lb/>BOUT D' FIL.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>A l' Chorale Lilloise</head>
+        <head><lb/>Victoriouse à Paris, 11 Août 1892.</head>
+        <lg>
+          <l><lb/>Chorale Lilloise, à ses sociétaires</l>
+          <l><lb/>fieux chochon, l'ami Vitercal</l>
+          <l><lb/>citations, méritées, sincere</l>
+          <l><lb/>sans égu</l>
+          <l><lb/>n' biau succe</l>
+          <l><lb/>nu vrai Talent d' leu chef énergique</l>
+          <l><lb/>ncore</l>
+          <l><lb/>un' fos les Litlos vainque</l>
+          <l><lb/> brav's infants, du fond de m' boutique</l>
+          <l><lb/>:viv'nt La Chorate, et les Saint-Sauveur.</l>
+        </lg>
+        <ab><lb/>BOUT D' FIL.</ab>
+        <p><lb/>Mercredi passé, dins l' buvette d'Jean Babenne,<lb/>un filtier lijot la feulle et racontot à sin comarate,<lb/>que l'choléra étot in Perse,</p>
+        <p rend="labelled"><lb/>— Quoi ! in perce! — répond l'aute — je n' savos<lb/>point qu' cha s' mettot in perce, mi, comme de<lb/>l' bière in tonniaux. Ouff !</p>
+        <figure type="decoration"/>
+        <p><lb/>Jeudi, un coureur à pied d'Lille à Lens réclamot<lb/>qu'il avot vu d' ses comarates courir avec des sacs<lb/>de l'est et in j'ter au long de l' route. P'd'mande<lb/>qu'on supprime cheull' frande, et l'dijot aussi qui<lb/>n'a rien d'étonnant qu' l'homme-carrette allot aussi<lb/>vite : il avot eun carette huilée (Willay).</p>
+        <p><lb/>Que des trucs, hein ! parc' que Willay avot prêté<lb/>s' carrette.</p>
+        <figure type="decoration"/>
+        <p><lb/>Vinderdi, Eun' dépêche nous a annoncé que<lb/>l' Société d'Gymnastique La Vie d'Anche d'Gui-<lb/>maufmol, (in Belgique). avot rimporté l'premier<lb/>prix d' lecture à vue. —V'là un biau succés pour eun'<lb/>société naissante — et on peut dire un Baudet bu.</p>
+        <figure type="decoration"/>
+        <p><lb/>Sam'di, in rimpailleux d'cayères a présinté au<lb/>directeur de l'Hippodrome un nouviau système<lb/>d'aération pour impêcher les grand's caleurs dins<lb/>ch' chirque, parc' que, non seul mint ch'est bon pou'<lb/>l' santé, mais cha impêche aussi d' faire fondre les<lb/>couleurs que les artisses ont su' leu' figure, chin qui<lb/>s' vot bien souvint, à tous momi it on vot l'écuyer<lb/>ou l'Lcuyère déteint; bonn' invintion; d' mieux in<lb/>mieux.</p>
+        <ab><lb/>Pour César Latulupe:</ab>
+        <ab><lb/>AuGUSTE LABBE.</ab>
+        <p rend="heading"><lb/>AAXKCAMX</p>
+      </div>
+      <div type="article">
+        <head><lb/>Chronique de l'Semaine</head>
+        <figure type="decoration"/>
+        <p><lb/>Lundi, des Lillos à Paris nous ont écrit qu'i' n'ont<lb/>int pu dormir pour les punaches ; i's in étott'nt<lb/>plés. —- N'y-in a même qui ont dù dormir sur<lb/>banes.</p>
+        <p><lb/>comprinds qu' ch'est dur de dormir dins un lit<lb/>marche tout seu', mais j' cros qu' ch'est incore<lb/>en pis sans lit.</p>
+        <figure type="decoration"/>
+        <p><lb/>Mardi, un balyeux d' rue faijot dire à s'boutique<lb/>i n' povot point ouvrer parc' qu'il avot la goutte,<lb/>une heure après, pus d' 40 balyeux accourott'nt à<lb/>mason ; vous d' vinez pourquoi, hein ? Is' avott'nt<lb/>mpris qu'il avot d'la goutte à boire — au lieu de<lb/><lb/>maladie qu'on appell' comm' chas<lb/>ep</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Pausse joie d'un commissaire</head>
+        <head><lb/>DU CENTENAIRE</head>
+        <head><lb/>Hommage à mes Collègues</head>
+        <p><lb/>J' sonne; l' bonne, sans cérémonie, m'onvre l'<lb/>porte, vette min sa' et crie après s' dame, in ai d'ar-<lb/>ringer ses ch'veux (chin qu' je n' peue pus faire<lb/>malheureus mint pour mi), et m lil: Menheir,<lb/>madame i fait son tête, et i va descente suis-tu,<lb/>prends un cèze et mett vous pat'lon avc son viande<lb/>dedans sur la canne à pets de ma ptro Madame<lb/>i' s'ra contente de voutt' visite, save vous car il<lb/>attend après toi pou' de doupes. Dononti rapiau;<lb/>le poil<lb/>ah! Non de zo comme t sert voutt' caau.<lb/>n tiête.<lb/>de ton ceveux il est dedans, et i' a</p>
+        <p><lb/>Après l'petit discours de cheulf e que,<lb/>j'm'assis. comme de juste. sur un<lb/>ul in<lb/>dijant in mi-même : V'la des gin<lb/></p>
+        <p><lb/>i' n’y ára gras pou' m' quête, car j' sus-t-attindu.</p>
+        <p><lb/>Tout d'un cop, madame fait s'n intrée dins l' salle<lb/>(fort prope) uch' que j'étos, et m' dit in avinchant<lb/>s' main gauche l' pus près d' sin cœur :</p>
+        <p rend="labelled"><lb/>— C’est bien aimable à vous, Monsieur, de vous<lb/>déranger d’aussi loin par une chaleur pareille, et<lb/>cela dans l'unique intention de remplir un devoir<lb/>honnète aussi, je regrette le départ précipité de mon<lb/>mari, appelé ce matin par une dèpêche de Molt"<lb/>Fromache où il doit en sa qualité d'ingénieur de<lb/>cette mauvaise mine, faire l'expertise des dégâts<lb/>occasionnés par une emplosion ; mais il m'a dit<lb/>avant son départ, de faite comme s'il était là, et de<lb/>vous remettre ce qui vous est dù.</p>
+        <p rend="labelled"><lb/>Vous êtes véritablemint trop bonne, Madame, et<lb/>si j'avos partout l' même accueuil, cha s'rot un<lb/>véritable plaisi qu' d'avoir cheull' mission. Permet-<lb/>tez-me alors d' vous r'mercier du pus profond d'<lb/>min cœur, pou' ch' l'affaire et pour mi personnel-<lb/>I'mint,</p>
+        <p rend="labelled"><lb/>Merci, monsieur, du compliment, vous êtes<lb/>bien l'hommé convenable et poti dont me parle sou-<lb/>vent mon époux. Vous allez donc me faire le plaisir<lb/>de prendre avec moi le verre de vin de l'amitié.</p>
+        <p rend="labelled"><lb/>J' vous d'mande pardon, madame. J' souffre de<lb/>m' gorge et d' mes pieds, et je n' saros rien printe à<lb/>ch theure.</p>
+        <p rend="labelled"><lb/>Si, sí, ne me refusez pas, vous me feriez trop<lb/>de peine.</p>
+        <p rend="labelled"><lb/>Infin, madame, puisque vous l' volez, j'accepte<lb/>et à la voit.</p>
+        <p rend="labelled"><lb/>— Merci, monsieur, à votre santé.</p>
+        <p><lb/>Après avoir bu min verre, elle m’a fait vir sin<lb/>portrait, ch ti de s'n homme, de s' fille, et a' sin<lb/>garchon. Comme de juste, j' faijos des complimints<lb/>su' chaque, pou' m' mette dins ses bonnes grâces,<lb/>alors in m' dijant d' m'assir de nouvian, elle va à<lb/>sin s'crétaire, prind un p'eit papier bleu qu'elle<lb/><lb/>fourre dins eune inv'loppe, et m' dit in m'avinchant<lb/>l'affaire : Eles-vous en fonds?</p>
+        <p><lb/>Elle avot ses yeux su' min sa'. — Awi, que j' ré-<lb/>ponds, cha marche assez bien, madame, et j'aros<lb/>tort de m' plaindre, surtout pou' l' premiere fos.</p>
+        <p><lb/>Très bien, alors, mon brave, voici le reçu, soit cent<lb/>quinze francs.</p>
+        <p><lb/>Ah madame ! ch'est d' trop, j'n'aros jamais cru<lb/>avoir eune pareille somme.</p>
+        <p><lb/>Comment, mais il me semble que cela est juste,<lb/>quatre trimestres à cent quinze francs font bien<lb/>quatre cent soiccante francs l'année, et nous ne<lb/><lb/>vous comptons pas le timbre encore.</p>
+        <p><lb/>Comment l' timbre à mi !</p>
+        <p><lb/>Certainement, n'êtes vous pas Monsieur Lastiquot,<lb/>fabricant de filets de pêche, le locataire de notre pro¬<lb/>priété rue de la Chaude-Rivière, n 1012.</p>
+        <p><lb/>Mais non, vous vous trompez ! J' m'appelle Totor,<lb/>commissaire du Centenaire pour les quêtes à domi¬<lb/>cile, et j'étos v'nu tout simpehaint pour obtenir vo'<lb/>souscription !.... Tableau.....</p>
+        <pb facs="0002.xml"/>
+        <p><lb/>Vous auriez dù le dire plus vite et ne pas me faire<lb/>perdre ainsi mon temps, jai mes pauvres !... et ne<lb/>donne rien pour la cavalcade.</p>
+        <p><lb/>Là-d'sus honteux comme un crapeau qui a perdu<lb/>sin capiau haut d' forme, j'ai quitté cheull' bielle<lb/>madame in li faijeant m'n excuse et en ayant soin de<lb/>r'printe min sac et m' liste.</p>
+        <p><lb/>Heureus'mint, qu'à l' mason au d'sus, eune brave<lb/>femme, veuve avec chinq infants m'a r'chu à bras<lb/>rouverts, in m' dijant : Tnez m’n ami, je n' sus point<lb/><lb/>riche, mais comme m'n homme étot aussi un dé-<lb/>voué pour les bonnes œuvres, v'là dix sous, ch'est<lb/>chin que j' possède, tout in vous souhaitant bonne<lb/>chance ainsi qu'à vos collègues, pour chin qu' vous<lb/>-<lb/>allez faire pou l' commerce de no ville et in mémoire<lb/><lb/>des vieux d' quatre-vingt-douze parmi lesquels min<lb/>grand père. a eu l'honneur d'avoir aussi eune plache.</p>
+        <p><lb/>Je n' vous l' cache point. j'ai brai d' bon cœur in<lb/>intindant l' récit d'cheull' femme qui m' faijot com-<lb/>printe eune fos d' puque, l' reconnaissance de braves<lb/>gins, aux vaillants du siège de Lille, et aux dévoués<lb/><lb/>organisateurs de l' fiête du centenaire.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Eune Fiête chez Jean Babenne.</head>
+        <p><lb/>A ch't heure, qu'on vienne incore m' dire qu' l'a-<lb/>mitié n'existe pus ! J' répondrai carrémint : Ch'est<lb/>faux, car, vraimint. tont l' rédaction de l' Vactelte<lb/>a été touchée des marques d' sympathie données à<lb/>sin directeur à l'occasion d' l'ouverture de s' huvette,<lb/>rue des Ponts de-Comines, liméro 8.</p>
+        <p><lb/>Tous les collaborateurs sans exception, avott'nt<lb/>volu s'associer à cheull' manifestation ; aussi, ch'est<lb/>in grand nombre qu'i' sont allés li offrir bouquet,<lb/>vaclettes in tierre, souv'nir du vieux temps, et eun"<lb/>vaclette d'honneur formant jardinière, avé ch' l'ins-</p>
+        <ab type="head"><lb/>Les Coltaborateurs de la Vactette à leur directeur et ami,<lb/>J. Hollain. — 13 août 1892.</ab>
+        <p><lb/>Après quèqu's bonnes paroles et l' présintation<lb/>des objets pa' l'fin canchonnier J. Jouvenet, eun'<lb/>vraie fiête d' famille a eu lieu et les noms des joyeux<lb/>drilles qui étott'nt présents vont vous donner eune<lb/>idée d' l'agrémint qu'i' n'y a eu : Grimonprez, qui<lb/>avot préparé un sonnet qu' nous donnons pus lon ;<lb/>Fournier. F. Halley, Drumez, Desreumaux, Het,<lb/>Conem, Bray, Lonte, Potakol et bien d'autes que<lb/>j'oblie, tous cantant ou dijant des pasquilles et des<lb/>canchons d' leu' composition, si bien qu' les p'tites<lb/>heures sonnott'nt que des vivats et des bans étott'nt<lb/>incore battus ou cantés in l'honneur de l' Vaclette</p>
+        <p><lb/>Mais l' clo de l' soirée a été sans contredit l' sur-<lb/>prise faite par l'ami Quertinier fils qui, li aussi avot<lb/>volu moutrer s' sympathie invers l' Vactette, et<lb/>ch'est au mitan des applaudich'mints qu'il a r'mis<lb/>à Jean Babenne un superbe tableau d' circonstance<lb/>fait à l' pleume, qui, vraimint est un chef-d'œuvre<lb/>et mérite d'ête vu par tout Lille, tant ch'est fin'mint<lb/>fait et plein d' poésie, chin qui prouve incore puque<lb/>l' talent de ch' l'artiste si modeste, qui a déjà été<lb/>médaillé pa' l' Société des Sciences et des Arts de</p>
+        <figure type="decoration"/>
+        <p><lb/>Aussi, l'Rédaction s' fait un d'voir de li adresser<lb/>tous ses r'merciemints et ses félicitations, et, in<lb/>même temps, dit d' tout cœur à ses collaborateurs<lb/>et amis, merci! Mille fos merci !</p>
+      </div>
+      <div type="article">
+        <head><lb/>FEUILLETON DE LA VACLETTE</head>
+        <head><lb/>Le ChAPEAU d'UN CHARCUTIER</head>
+        <p><lb/>Awi! De s' défaire du capinu. Ah! si j'aros su<lb/>cha! n'y- a longtemps que ch' capiau arot disparu.<lb/>V'là pourquoi qu' quand Gustin l' défaijot, i' raison-<lb/>not si bien et qu'i' dev'not tout sosot quand l' l' met-</p>
+        <p><lb/>A ch't heure j' comprinds ; ch'étot l' milisse du<lb/>maboucrotte qui travaillot. Ch'est l'cas d'dire qu'on<lb/>apprind tous les jours, car v'la un n' séquoi qu' je</p>
+        <p><lb/>Ah! Oui, alors ! (u chante)</p>
+        <quote><lb/>Air: Melle Rose, de L. BROvTin</quote>
+        <lg>
+          <l><lb/>On n'intind parter que d'mervelles,</l>
+          <l><lb/>On n'vot qu' des invintions nouvielles,</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>A min comarate Jean BABENNE</head>
+        <lg>
+          <l><lb/>Un d' nous aut's a eu dins l'cervelle.</l>
+          <l><lb/>Bun' idée qui vaut bien ch' sonnet</l>
+          <l><lb/>Ch'est d' fair d'eun vaclette, eun corbelle</l>
+          <l><lb/>Avec dije-huit fleurs dins l' bouquet.</l>
+        </lg>
+        <lg>
+          <l><lb/>Tous ches fleurs qu'on a mis pêle-mêle,</l>
+          <l><lb/>Vont vous r'présinter au comple,</l>
+          <l><lb/>Cheuss' qui vous invoi'nt cun' nouvelle.</l>
+          <l><lb/>Eun' histoire, un joyeux couplet.</l>
+        </lg>
+        <lg>
+          <l><lb/>Unis, nous n'avons qu'un langache,</l>
+          <l><lb/>Nous somm's venus vous rinde hommache,</l>
+          <l><lb/>Vous souhoiter tout' sort' de bonheur :</l>
+        </lg>
+        <lg>
+          <l><lb/>Ta mieux, si cha vous rind bénache,</l>
+          <l><lb/>Nous vous l' souhoitons aussi d' bon cœeur,</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>A propos d' métiers</head>
+        <figure type="decoration"/>
+        <p><lb/>Il est sam'di, et, comme à l'habitude, chinq ou six<lb/>m'nuisiers sont intrain d'boire eun canette au caba-</p>
+        <p><lb/>L' conversation roule naturell'mint su' l' métier<lb/>et tous sont d’accord pou' déclarer qu' l'ouvrache n'<lb/>va pus si bien qu' dins les temps. A quoi qu' cha<lb/>tient ? Ch'est là l' question qu'i sont in train d' dé-<lb/>batte, sans pourtant arriver à s'intinte.</p>
+        <p rend="labelled"><lb/>— Pour mi, qui dit un ancien, ch'est l' mécanique<lb/>qui nous a fichu la peste. Ch' qui d’mandot eun<lb/>semaine d’ouvrache dins l' temps est fini à ch’</p>
+        <p rend="labelled"><lb/>— Bah ! qui répond un aut', les aut's métiers sont<lb/>in cor pus éprouvés qu' nous et ch'est là l' raison d'<lb/>nou misère puisque tout l' monde s' fait m'nusier</p>
+        <p rend="labelled"><lb/>Tout l' monde, ch'est point l' mot. Les machons<lb/>sont incore pus nombreux qu' nous !</p>
+        <p rend="labelled"><lb/>— Ch'est d' vir ! Pour mi, ch'est no' métier qui a</p>
+        <p rend="labelled"><lb/>Te t' trompes ! cha dot ête les machons !</p>
+        <p rend="labelled"><lb/>— Ou putôt les gardinniers ! qui dit un trosième!<lb/>Quoich que t'in dis, Alphonse</p>
+        <p><lb/>Alphonse qui n’a point incore ouvert s' bouque,<lb/>réfléchit un moumint. et répond in appuyant bien<lb/>su' chaque mot pou' moutrer qui va déblouquer un</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>— Vous êtes dins l'erreur tous les tros. L' métier<lb/>l' pus pratiqué ch'est ch'ti d' méd'cin</p>
+        <p rend="labelled"><lb/>- Hein ! d' méd'cin ? Y in a un à peine par vil<lb/>lache !Te déraisonnes ? On a à peine bu eun' ca<lb/>nette et te perds déjà la boule ! à t' plache je n</p>
+        <p><lb/>Et chés exclamations sont accompagnées d'franes</p>
+        <p><lb/>Alphonse n' se démonte point et r'prind su' l</p>
+        <p rend="labelled"><lb/>— Vous n' volez point m' croire? Parions tro¬<lb/>pots d' bière qu'aujord'hui in quate semaines, vous<lb/>s'rez forchés d'avouer qu' j'ai raison</p>
+        <p><lb/>L' pari est t'nu, les sous versés et les amis s' sépa-</p>
+        <p><lb/>L' semaine d'après, à l'atelier, on parle un peu de<lb/>pari, quinze jours après, on n'in parlot pus du tont<lb/>Alphonse, par un mardi, s'amène à l'ouvrache tou<lb/>immaillotté d'ouate, aiant l'air fiç lé comme un colis</p>
+        <p rend="labelled"><lb/>Quoi-ch' que t'as, Alphonse? te vas morir</p>
+        <p rend="labelled"><lb/>— Non, mais j'in peux pus d' mes dints et je n</p>
+        <p><lb/>Intindant cha, les compagnons chacun leu' tour<lb/>donnent un trait mint garanti infaillible ; mais<lb/>mal tient bon pindant huit jours et tous les clients<lb/>qui viennent à l' boutique, indiquent, eux aussi,<lb/>à tour de rôle, un moyen certain d' guérison.</p>
+        <p><lb/>L' dernière semaine. Alphonse vient ouvrer sans<lb/>et l' sam'di arrivé, rappelle aux compagnons qu'i<lb/>n'y-a tros pots d' bière à boire.</p>
+        <p rend="labelled"><lb/>— Awi, ch'est vrai, nous buvons à l'œul aujor-<lb/>d'hui ! queu bon zigue ch' l'Alphonse ; il a eu eun</p>
+        <p rend="labelled"><lb/>— Nous verrons bien, qui répond l' parieux.</p>
+        <p><lb/>Aussitôt réunis autour de l' même table qu’i' n’ye<lb/>quat' semaines, Alphonse prind la parole !</p>
+        <p rend="labelled"><lb/>— J'ai sout'nu qu' les méd'cins formottent<lb/>majorité des ouverriers, vous n' m'avez point cru<lb/>j’ai eu mal aux dints pindant huit jours, vous m'ave<lb/>tous donné un r'mède. Quarante clients m'in on<lb/>indiqué chacun un aussi et même plusieurs<lb/>Ainsi, su' quarante-chinq personnes, j'ai trouve<lb/>quaranté-chinq méd'cins. D' quel métier peut-on in</p>
+        <p><lb/>Les aut's ont conv'nu qu'Alphonse avot gaige<lb/>l' pari et les pots d' bière ont été avalés immédiat</p>
+        <lg>
+          <l><lb/>progrès, ch'est pir qu'eun' grane </l>
+          <l><lb/>Uch' que chacun rvette au tableau</l>
+          <l><lb/>Et tous les jours on apprind du pauviau.</l>
+        </lg>
+        <lg>
+          <l><lb/>Un aut s'occupe d'construction,</l>
+          <l><lb/>Ch'ti-chi d'éclairache électrique,</l>
+          <l><lb/>Un chinquième s' casse l' boussolo</l>
+          <l><lb/>Pour fair marcher des gins sur l'iau.</l>
+          <l><lb/>Et tous les jo idone m paro,</l>
+        </lg>
+        <lg>
+          <l><lb/>D'aut's, mettant leu sciené pou la guerre,</l>
+          <l><lb/>Tandis qu' certains, tout au contraire</l>
+          <l><lb/>Trouv'nt tout l' temps des nouviaux plaisis.</l>
+          <l><lb/>L' paysan qui n' cach' point l'egloriole</l>
+          <l><lb/>Soigne ses camps, s' vaque et sin vian</l>
+          <l><lb/>Et tous los jovous an donde u puroiu.</l>
+        </lg>
+        <lg>
+          <l><lb/>Pou prouver qu'i n'sont point basiles.</l>
+          <l><lb/>es méd'cins, ne r'culant d'vant rien,</l>
+          <l><lb/>Font d's expérieinc's su' les baciles</l>
+          <l><lb/>Aussi bien chez l'homme que chez l</l>
+          <l><lb/>Chès microb's, vettiez comm' ch'est de</l>
+          <l><lb/>Peuv tent s' loger dius un capiau</l>
+          <l><lb/>ch' qui prou quon ppoind touidu nouviau. bis.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>Etablissement Hespel, rue Léon Gambetta<lb/>197. — Dimanche 21 août, grande fête de bienfal<lb/>sance organisée par les Amis Réunis avec le con<lb/>cours du Club Fin-d'-Siècle, au profit de Mme Ma<lb/>léon et de ses dix enfants. — Un magnifique fei<lb/>d'artifice sera firé par M. De Bar. — Kermes<lb/>flamande. — Grande tombola : un prix de cent<lb/>francs en espèces. — 5 billets donnent droit</p>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Dins trinte ans, chinquante ou chint ans,</l>
+          <l><lb/>S'ra du vieuvart pour nos infants,</l>
+          <l><lb/>L' deinier v'nu s'ra tondis l' pus biau,</l>
+          <l><lb/>chest ch' qui fait qu' toudis n y ara du nouviau.</l>
+        </lg>
+        <p><milestone unit="column" n="3"/><lb/>Et dire que j' n'ai jamais pinsé à cha ! Qui sai<lb/>si l' n' s'ra point trop tard pou' ch' pauv' Gustin.</p>
+        <p rend="heading"><lb/>Charlotte, Dodophe, Lafte, Gustin.</p>
+        <p><lb/>Pr'vient; P' m' suit. P n' se rapelle de riet<lb/>Comme l' n'a rien tait d'mi, j' eros qu'l nara pe<lb/>d' procès....... Attintion ! Le vla.</p>
+        <p rend="labelled"><lb/>(d Dodophe). Tiens! Tes là ? En hen ! Queull<lb/>anae ! Dis-me un peu chin qu'l' n'y-a eu.</p>
+        <pb facs="0003.xml"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>zune drôle d'opération</head>
+        <p><lb/>er mint, Bâtisse, un vieux chav'tier d' min<lb/>,s'imbétot tell'mint à s' cave, qu'à tout mou-<lb/>vous ouvrot s' bouque comme eune porte<lb/>et vous savez tertous qu’on dit souvint<lb/>à s' démonter l' machoire. » Ch'est juste-</p>
+        <p><lb/>se, tout in bâillant, v'not de s' rétinde, allon-<lb/>s bras et ses gambes, quand tout d'un cop s'<lb/>reste toute grande ouverte ; il avot biau faire<lb/>ts, n'y-avot pus moyen de l' fermer. Tout<lb/>l'homme r'monte de s' cave et s' met à cou-<lb/>trouver l' méd'cin l' pus proche, veyant ses<lb/>ut égarés, eune dijaine d' garchons, s' met-<lb/>courir derrière li, in criant hahu !... hahu !...<lb/>te tout court croyant povoir leu faire eune<lb/>ance, point moyen, s' bouque reste toudis ou¬<lb/>veyant l'air bête qu'avot ch' l'homme les<lb/>nals s' mettent à crier d'avintache et ch'est<lb/>cheulle bainde qu'il arrive à l' porte de l' ma-<lb/>méd'cin. l' sonne.... L' servante, ouvre et li<lb/>echin qui veut, mais li, n' povant point par-<lb/>utrot toudis avec sin dogt, s' bouque restée<lb/>et faijeot toutes sortes d' grimaces.<lb/>'fille croyant avoir affaire à un fou, li serre</p>
+        <p><lb/>au nez. Veyant cha, min pauve Batisse, hur-<lb/>nme un viau, s' met à courir, ayant toudis à<lb/>sses eune vingtaine d' garchons, jusqu’à<lb/>l'un aute méd'cin, mais là, après avoir sonné<lb/>porte s'ouvre, i' bouscule l' servante et in-<lb/>etemint dins l' mason. L' servante incore<lb/>rdue de l' bousculate qu'elle venot de r'che¬<lb/>met à crier tout sin pus fort, l' docteur, qui<lb/>nt étot in consultation, sorte aussitôt d' sin<lb/>et s' trouve juste in face d' Batisse, moutrant<lb/>vec sin dogt, s' bouque ouverte in faijeant<lb/>haces. N' perdant point sin sang-frod, l' mé-<lb/>prind par sin bras pou' l' mette à l' porte,<lb/>itisse l' supplie en faijeant tondis l' même<lb/>bien, qu'impatienté l' méd'cin li colle un<lb/>quet su' s'figure. L' machoire d' Batisse se<lb/>t in plache, l' s'écrie : «J' vous r'mercie<lb/>ur, je n' povos point vous expliquer chin qu'<lb/>n' bouque étot restée ouverte in bâillant, et<lb/>pour cha qu' j'étos v'nu. Alors froidemint l'<lb/>a répond C'est bien, mon ami, à présent<lb/>sguéri, c'est dix francs pour l'opération.</p>
+        <p><lb/> a payé sans rien dire, mais si un jour pa¬<lb/>aire li arrive incore, pour eune somme<lb/>tara pus vite fait d' cacher dispute à qué¬<lb/>in de r'chevoir un biau beurre.</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/> fin-de-siècle. — Décidémint, l'quartier du forbou<lb/>monopole des fiêtes originales.<lb/>noce à chabots, v'là qu' nous appernons que<lb/>propose d'y organiser un grand Cortèche-Fes-<lb/>rdéons et d'orgues d' Barbarie, suivi d'illuminations.<lb/>pogramme que nous avons in main, nous povons<lb/>éle est bien lancée et sara procurer du plaisi a ter-</p>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>LAITE (faisant signe à Dodophe)</p>
+        <p><lb/>bon, va ! N' parlons pus d' cha ; nous<lb/>foire du café, énon, Charlotte ? (Aperce-<lb/>chapeau par terre). Eh ben ! Cha, ch'est<lb/>fort ! L' biau capiau de m'n homme qui</p>
+        <p><lb/>eje n'n'ai tant d' soins! (n va pour le</p>
+        <p rend="heading"><lb/>DODOPHE (r'en empéchant)</p>
+        <p><lb/>tout, laichons-le taire. (A sa femme). Te<lb/>j'ai raison. (Gustin ramasse te chapeau,<lb/>ur sa tête, pendant que Chartotte. Dodopké<lb/>partent á voix basse en te regardant.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Petite Chronique de Calais</head>
+        <head><lb/>Guérison d’un minteux</head>
+        <figure type="decoration"/>
+        <p><lb/>Vous connaichez tous l'ami Charles, ch' coiffeur<lb/>qui reste dins l' rue d'un grand général </p>
+        <p><lb/>Awi énon? — Eh ben i' li est arrivé eun' drôle<lb/>de farce, et L' Vactette, qui sait tondis tout et qui<lb/>n' mint jamais, va vous l' raconter.</p>
+        <p><lb/>Minteux, li comme gramint d'autes, il l'est p't-ête<lb/>un peu puqu', car i' s' crot li-mème ; mais sin co-<lb/>marate Léon, (ch'ti qui rase aussi, mais des tiêtes<lb/>de viaux), mint d'avantache incore, et avec cha,<lb/>ch'est un farceux!</p>
+        <p><lb/>Donc, l' semaine passée, i' l' rinconte et li dit :<lb/>Bonjour Charles, cha va ? Te mins toudis autant ?</p>
+        <p rend="labelled"><lb/>— Mi, j' sus guéri, je n' mins pus.</p>
+        <p rend="labelled"><lb/>— Et, quoich que t'as fait pou' t' guérir ?</p>
+        <p rend="labelled"><lb/>— Quoich' que j'ai fait ! Ch'est bien simple. J'ai<lb/>un d' mes amis qui est d’Orchies, qui m'a rapporté</p>
+        <p rend="labelled"><lb/>– Awi !des pilules ! et i' l's appelle des pilules<lb/>de minteux. Sitôt qu’in on prind eune, on est guéri.</p>
+        <p><lb/>V'là alors min Charles qui prind eun' pilule, et<lb/>tout d'un cop qui crie : Sacré Dié ! ch'est d' la<lb/>I.....élasse ! Et Léon li répond : Ch'est vrai, te<lb/></p>
+        <p><lb/>Charles a dit qu'on n'lattrap'ra pus, mais il étot</p>
+        <ab><lb/>ISTOR-LOUE K LAID.</ab>
+        <ab><milestone unit="column" n="2"/><lb/>Quèqu's bétiss's que t'as fait.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <lg>
+          <l><lb/>Vlà cune idé point sotte</l>
+          <l><lb/>Du soldat. j' l'ai compris,</l>
+          <l><lb/>Quand i tire eun' carotte</l>
+          <l><lb/>Ch'est qu'i veut des radis.</l>
+        </lg>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Je l'dis et l' répête hardimint.</l>
+          <l><lb/>Au grand jamais, je n' frai fi-d'elle</l>
+          <l><lb/>(Pointvrai, minteux ? Et hardi-mint</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>— Qu'est-ce que vous prenez, messieurs ?</ab>
+        <p><lb/>Deux imbéciles vont s'installer su l' terrasse d'un<lb/>caté. L' garchon leu' d'mande :</p>
+        <p><lb/>Nous allons prendre le car l pour Lomme, qui ré-<lb/>pond un des deux pour faire l' malin.</p>
+        <p rend="labelled"><lb/>— Ce n'est pas celui-là que vous deviez prendre,<lb/>qui réplique l'garchon.</p>
+        <p rend="labelled"><lb/>— Parc' que des gins comme vousautes, n' dottent<lb/>printe que l' car qui conduit à Lommelet</p>
+        <figure type="decoration"/>
+        <p><lb/>Min biau capiau! Je n' le donn'ros point pour</p>
+        <list>
+          <item>(Il danse en reprenant ce refrain).</item>
+        </list>
+        <p rend="heading"><lb/>DODOPHE (aux femmes)</p>
+        <lg>
+          <l><lb/>Eh ben! Quoich' que j'dijos?</l>
+        </lg>
+        <p><lb/>LAITE (s'élançant sur Gustin et lui retirant le chapean)</p>
+        <p><lb/>Je m'n avos toudis douté que ch' capiau étot insor¬<lb/>celé ! Te n' le mettras pus. (Elle ouvre la fenêtre<lb/>et jette le chapeau dans la rue, pendant que Gustin<lb/>la regarde d'un air hévété.)</p>
+        <p><lb/>Te d'viens sotte? Veyons! (A Dodophe) J'ter<lb/>min biau capiau pa' l' cassis.</p>
+        <p><lb/>Laich-le faire; elle a raison.</p>
+      </div>
+      <div type="article">
+        <head><lb/>LA CHORALE LILLOISE</head>
+        <p><lb/>Ch'est dimanche passé qu'à eu lieu à Paris l'<lb/>grand concours de chant annoncé dins no' dernier</p>
+        <p><lb/>Comme nous l'avons déjà dit, l' Chorale Littoise<lb/>participot à ch' tournoi d' canieux, et ch'est avec<lb/>bonheur que nous pouvons, aujord'hui constater<lb/>succés rimporté dins l' Grand Villache par cheull'<lb/>vaillante société. Elle a inl'vé l' premier prix d'exé-<lb/>cution ascendant et l' deuxième prix d' lecture a<lb/>vue avec félicitation à sin chef M. Charles Vilerval<lb/>pou' s'n habile et bonne direction qui n'a point volé<lb/>l' grand succès qu'il importe à ch' moumint, ainsi<lb/>qu’à MM. Debrulle, Porquet et Vilain, les dévoués<lb/>présidents d' la Chorate Liltoise; sans oblier cheull'<lb/>phalanche d' bons canteux qui font non seul'mint<lb/>honneur à l' société et à leu' pays, mais princi-<lb/>pal'mint à leu' vieux quartier d' St-Sauveur qui peut<lb/>ête fier d' ses r'présintants dins l' lutte musicale.</p>
+        <p><lb/>A Paris, nos Lillos ont été acclamés su' leu' passa-<lb/>che, et leu' concitoyens, les ont r'conduits in can-<lb/>tant l' refrain si connu « Vive les St-Sauveur </p>
+        <p><lb/>No' collaborateur César Latulupe qui fait partie<lb/>d' cheull'société, a été obligé d' canter d' sin pus<lb/>bon patois, s' canchon des " Dondaines" au mitan</p>
+        <p><lb/>Infin, comme nous avons pu l' vir à l' réception,<lb/>la musique des Amis Réunis et eun' aute société ont<lb/>été l' querre à la gare et ch'est au mitan des applau¬<lb/><lb/>dich'mints des vivats et des fleurs qu’l's ont fait</p>
+        <p><lb/>Vive les St-Sauveur!</p>
+        <ab><lb/>A. C. PAN D' QUEMICHE.</ab>
+        <p rend="labelled"><lb/>L'Ciub des Vingt. – L' réception d' cheull'<lb/>Société d'artistes a été, mardi, un vrai triomphe<lb/>pou' l’s heureux vainqueurs. Not' ami Drumez,<lb/>aiant fait à la hâte quèques couplets qu'il a dits avec<lb/>un grand succès, nous les mettrons dins l' Vactette<lb/>l' semaine prochaine.</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>Les Sans-Soucis. — In s' rindant dimanche au<lb/>festival de Fives-St-Maurice, cheull' Société, volant<lb/>donner eun' marque d' sympathie à Jean Babenne,<lb/>un d' ses membres honoraires, a v'nu li donner eun'<lb/>sérénate et a canté tros chœurs que pus d' chinq-<lb/>chints personnes assemblées rue des Ponts-de-<lb/>Comines, ont applaudis.</p>
+        <p><lb/>Les Longues-Mêches étott'nt venues la velle<lb/>dins l'même but, offrir leus souhaits au directeur</p>
+        <p rend="labelled"><lb/>Les Dauphins Lillois. — Cheull' Société qui<lb/>concourrot à. Lens pou' l' natation' a obtenu aussi<lb/>un riche succès, deux premiers et deux s'conds prix,<lb/>avec eun' médalle offerte au président pour eun<lb/><lb/>scène cocasse app'lée, un mariache sur l'iau.<lb/></p>
+        <p><lb/>Bravo, les Dauphins !</p>
+        <p><lb/>Eun' bielle reception leus a aussi été faite, mardi<lb/>et ch' n'étot qu'justice.</p>
+        <p rend="labelled"><lb/>Festival de Fives-St-Maurice. — Favorisé par un biar<lb/>temps, cheull' flête a obtenu un plein succès pindant les deux<lb/>jours. Gráce aux prééautions et,<lb/>poros dire au dévouemint<lb/>des organisateurs, rien n'a manque<lb/>aussi, nous n' povons qu<lb/>les féliciter tertous ainsi qu' tous l's<lb/>Saint-Maurice qui avott'nt mis tant d'goût à orner leu masons.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LES LILLOS A PARIS</head>
+        <p><lb/>Eun' mason d' Paris qu'elle a eu des visites<lb/>l'semaine passée est bien cheulle d' Bourgeois et<lb/>Nandame, boul’vard Magenta, 123.</p>
+        <p><lb/>L'Chorate Littoise et l'musique de Loos qui<lb/>avott'nt gagné d' si biaux prix, ont t'nu à aller boire<lb/>de l' bonne bière de Lille. Mince de r'eettes, hem!<lb/>mes vieux confrères et concitoyens ? Allons, tant<lb/>mieux, car tous cheuss' que j'ai vus m'ont dit du</p>
+        <figure type="decoration"/>
+        <note>
+          <p rend="styled"><milestone unit="column" n="3"/><lb/>Depuis te 13 Aout les Bureaux de ta Vactette<lb/>sont transférés 8, Rue des Ponts-de-Comines,<lb/>(près de la rue de Paris).</p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

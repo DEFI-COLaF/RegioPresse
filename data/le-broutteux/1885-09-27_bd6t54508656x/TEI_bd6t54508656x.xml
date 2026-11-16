@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54508656x</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1885-09-27">1885</date>
+          <idno type="ARK">bd6t54508656x</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54508656x</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Un Numéro 10 Centimes.</fw>
+        <fw type="runningTitle"><lb/>DIMANCHE 27 SEPTEMBRE 1885.</fw>
+        <fw type="runningTitle"><lb/>Numéro 166. (4e ANNÉE)</fw>
+        <figure/>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING</p>
+        <p rend="styled"><milestone unit="column" n="2"/><lb/>Jules WATTEEUW, rue Desurmont, 31</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>IN GRAIN D'SÉ</head>
+        <quote><lb/>Le sel est l'element par excellence de la<lb/>salubrité et de la conservation.</quote>
+        <p><lb/>Vous n'avez jomais busii, in peurdant<lb/>in grain d’sé sus l'pointe d’vou couteu,<lb/>pou mette vin vou soupe, ou ben sus<lb/>vou peun’terre, que vous avi là in<lb/>saquo estraordénaire? C'petit grain<lb/>d’sé, produt pas l'eau d'la mer, est<lb/>beteu aussi utile à l'noriture de l’homme<lb/>que l'pain qu'in minge tus les jours que<lb/>Di fait lure.</p>
+        <p><lb/>Et t'nez, vu qu’in est chi tertus copa-<lb/>gnons insonne et qu’ch’est au tour du<lb/><lb/>Broutteux à vous rinconter sin conte,<lb/>m'in va in p'tit cœup éprouver d’faire<lb/>l'gloriole de c'grain d'sé, d'chin qui<lb/>produt et du ben qui fait à tertus.</p>
+        <p><lb/>Allons, queminchons pa l’quemin-<lb/>chemint: in premi, y faut vous dire,<lb/>mes gins, que l’sé rind des serviches<lb/>d’pus lommint, lommint, vu qu’in n'd’in<lb/>parle du temps de l’z’hébreux, qu’tchan<lb/>qui volottent faire vir à inne sétchi qui<lb/>l'veyot volontis, y mingeottent inne<lb/>pincée d’sé insonne, et ch’étot les deux<lb/>pus grands amisses du monde! Tchan<lb/>qui v'not in afant au monde, in l’frottot<lb/>d'pus les pids qu’à l'tête inveuc du sé!!<lb/>Ebé, après! in peut dire, qu’adan, in<lb/>v'nant sus terre in étot arringi à la<lb/>croque-au-sel, éné?</p>
+        <p><lb/>L'z'Egyptiens s'in servottent pou<lb/>saler du pichon. Les Romains, eusses,<lb/>y faijottent des distributions d’sé à les<lb/>soldats, in campane, et chaque fos qui<lb/><lb/>avot in mariache, in avot couteume<lb/>d'offert in gateu d'farine salée, qui<lb/>étot crotchi pa tous l’z’invités. (Si veut<lb/>tourner, ch'étot pour eusses ben boire<lb/>qui faijottent cha! In vot par là qui a<lb/>toudis eu des buveux in tous temps,<lb/>ene?)</p>
+        <p><lb/>Mais aussi, faut croire que cha étot<lb/>d'jà d'in grand commerce, à l'époque,<lb/><lb/>vu que l’ro Ancus Martius y a mis in<lb/>impôt sus l'sé et cha existe acor au<lb/>jour d'aujord'hu.</p>
+        <p><lb/>D'pus c'temps passé, wetti inne fos,<lb/>quo qu'in fait tout inveuc l'sé :</p>
+        <p><lb/>A qu’minchi pa les marins, qui dot-<lb/>tent ermercii l'grain d'sé qui leu per¬<lb/>met d'faire des provisions d'viande<lb/>pou les longs voyaches.</p>
+        <p><lb/>Wetti les pays qui n'vittent foque<lb/>qu’inveuc l'salaison des sorés, des<lb/>morues, etc.</p>
+        <p><lb/>In Amérique, y a d'z'établissemints<lb/>lommés Saladeros, du qu’in sale des<lb/>mions d’tulogs d’bœufs, qu’in invot vin<lb/>tous les pays d'la terre.</p>
+        <p><lb/>In prétind, même, que l'jambon<lb/>d'Bayonne y dot s'qualité au sé qu’in<lb/>implo pou l’conserver! Et l'jambon<lb/>d’Hambourg, et l’lard salé qu’in con¬<lb/>serve vin les ceinses, et les lanques<lb/>(po les lanques humaines, savez? pas-<lb/>que d'cheulle sorte, y n’faut po les<lb/>saler pou les conserver, malhureuse-<lb/>mint; y n’d’a des mâches que ch’est<lb/>tout chin qui a d'pire sous la calotte<lb/>du ciel.)</p>
+        <p><lb/>Y a ben des pauffes paysans vin les<lb/>montagnes de l’Auvergne et des Pyre¬<lb/>nées d’Orientales qui mettent saler<lb/>l'char de madjette et d'bouc pou mingr<lb/>pindant l'hiver!!</p>
+        <p><lb/>J'ai putchi inne tarteine et in morceu<lb/>d'vil fromache, mi. Et vus?</p>
+        <p><lb/>In parlant d'fromache, est-ce que ne<lb/>v'là po acor inne saquo qui dot s'bonté<lb/>au sé!</p>
+        <p><lb/>Et l'bure, est-ce qu’in n’le conserve<lb/>po inveuc de l'saumure? hein? in n'd'in<lb/>met même vin l'pain.</p>
+        <p><lb/>Y n'est po jusqu'à les bêtes qui l'ai-<lb/>m’tent à la folie; les bœufs, les mou-<lb/>tons, les coulons y s’laich'rotent traî-<lb/>gner sus leu par derire pou n’d’avoir<lb/>à chuchi.</p>
+        <p><lb/>Aussi, l’commerce du sé, y se n'd’ex-<lb/>porte vin tous les pays du monde; in<lb/>parleide 70,000 tonnes par année! pou<lb/>la France!</p>
+        <p><lb/>Vous avez bel à dire; y n'd'in faut,<lb/>vin tout, du sé ; y n'd'in faut même<lb/>tchan qu’in rinconte in saquo, pas qu’au-<lb/>termint vous attindri des gins dire,<lb/>que vous blasez vou monde. que cha<lb/>manque de sé,quo.</p>
+        <p><lb/>Mais ch'est d'cha comme auter cosey</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Ar Vro</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k1199673n</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ar Vro : kelaouengelc'h miziek krouet evi[d] beza eun ëre etre ar Vretoned</title>
+          <publisher>[s.n.?] (Montroulez)</publisher>
+          <date when="1910-12-01">1910</date>
+          <idno type="ARK">bpt6k1199673n</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k1199673n</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="bre">breton</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>LOAVEZ 7.</fw>
+        <dateline><lb/>Miz Kerzu 1910</dateline>
+        <p rend="heading"><lb/>Rummen 10.</p>
+        <figure>
+          <figure type="decoration"/>
+          <figure type="decoration"/>
+          <figure type="decoration"/>
+        </figure>
+        <p rend="heading"><lb/>Kelaouengelch</p>
+        <ab><lb/>miziek<lb/>Krouet da veza eun ëre<lb/>ETRE AR VRETONED<lb/>"Kaz an den</ab>
+        <figure type="table"/>
+        <ab><lb/>a vag anezan</ab>
+        <ab><lb/>Rener F. Jaffrennou "Taldir"<lb/>KERAEZ</ab>
+        <p rend="heading"><lb/>Krennad</p>
+        <ab><lb/>Pella Vreiz Izel, Laterre (Bodlann)<lb/>— Geriadur Gallek ha Bre-<lb/>zonek, (Taldir). — Ofrn an<lb/>Inaon lan AR PACH.</ab>
+        <ab><lb/>ur Rummen : 2 wennek.Eur bloaz: 6 real Gant AR BOBL : 20 real.</ab>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="62"/>
+        <p rend="heading"><lb/>Pell a Vreiz-Izel</p>
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>D'am mignon ar barz Yvonik ar BODOLEK (Korrik ar Choat).</p>
+        <ab><lb/>War don: Guennili tremeniad.</ab>
+        <lg>
+          <l><lb/>Pa oa 'n amzer ien skorn</l>
+          <l><lb/>'N em laken kloz e korn</l>
+          <l><lb/>An oaled vraz</l>
+          <l><lb/>O lenn ar gontaden</l>
+          <l><lb/>Pe c'hoaz ar blaneden</l>
+          <l><lb/>Karget a c'hraz.</l>
+        </lg>
+        <lg>
+          <l><lb/>Pell euz va bro Arvor</l>
+          <l><lb/>Luskellet gant daou vor,</l>
+          <l><lb/>Gwer-glaz ha don</l>
+          <l><lb/>Em c’hreiz sav an hirvoud,</l>
+          <l><lb/>Rag en dro d’in na voud</l>
+          <l><lb/>Avel breton.</l>
+        </lg>
+        <lg>
+          <l><lb/>N'in mui d'ar pardoniou</l>
+          <l><lb/>Da chilaou ar biniou</l>
+          <l><lb/>Hag ar vombard,</l>
+          <l><lb/>D’ober meur a dans tro</l>
+          <l><lb/>Gant merc'hed koant ar vro</l>
+          <l><lb/>A lamme stard.</l>
+        </lg>
+        <lg>
+          <l><lb/>Kaër am euz redek bro</l>
+          <l><lb/>N'hellan kavet tro-dro</l>
+          <l><lb/>Bro 'bed kaërroc'h</l>
+          <l><lb/>Vid Breiz bro ar Varzed</l>
+          <l><lb/>O deuz vit-hi dalc’het</l>
+          <l><lb/>Kaled vel roc'h.</l>
+        </lg>
+        <lg>
+          <l><lb/>Me zonj em dousik koant,</l>
+          <l><lb/>En Lizik, va holl c’hoant</l>
+          <l><lb/>Em c’hreiz o ren,</l>
+          <l><lb/>He lagad du ha don</l>
+          <l><lb/>A lufr, o tra eston!</l>
+          <l><lb/>Vel eun diren.</l>
+        </lg>
+        <lg>
+          <l><lb/>Sonjal ran em c'her vad,</l>
+          <l><lb/>Em zi leun a eurvad</l>
+          <l><lb/>Gant ma mamm baour</l>
+          <l><lb/>Hag em mam-goz karet</l>
+          <l><lb/>Gant ma zad douaret</l>
+          <l><lb/>Peoc'hus 'n o laour.</l>
+        </lg>
+        <p rend="heading"><lb/>VII</p>
+        <lg>
+          <l><lb/>Flastret gant ken braz pouez,</l>
+          <l><lb/>Mervel a ra ma mouez,</l>
+          <l><lb/>Ma c'halon 'rann</l>
+          <l><lb/>Pell euz bro Breiz-Izel</l>
+          <l><lb/>Lec'h e taolan va zell</l>
+          <l><lb/>Mervel a ran !....</l>
+        </lg>
+        <lg>
+          <l><lb/>Setu an hanv bleuniet</l>
+          <l><lb/>Me wel an ed berniet</l>
+          <l><lb/>Euz a bep tu</l>
+          <l><lb/>Aour leiz al lanneier,</l>
+          <l><lb/>Potred ar parkeier</l>
+          <l><lb/>A droc'h ed-du.</l>
+        </lg>
+        <ab><lb/>Hippolyte LATERRE (Bodlann).</ab>
+        <lg>
+          <l><lb/>Keraez</l>
+        </lg>
+        <figure type="decoration"/>
+        <pb facs="0003.xml"/>
+        <ab><lb/><lb/><lb/><lb/>henne<lb/><lb/><lb/>-er<lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/>6<lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/>2<lb/><lb/><lb/><lb/><lb/><lb/><lb/>ad<lb/><lb/><lb/><lb/><lb/><lb/><lb/>en<lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/>ε<lb/><lb/></ab>
+        <figure type="table"/>
+        <figure type="table"/>
+        <figure type="table"/>
+        <pb facs="0004.xml"/>
+        <figure type="table"/>
+        <figure type="table"/>
+        <figure type="table"/>
+        <fw type="digitisation-artefact"><lb/>f.fr/Bibliothèque nationale de</fw>
+        <pb facs="0005.xml"/>
+        <figure type="table"/>
+        <figure type="table"/>
+        <pb facs="0006.xml"/>
+        <figure type="table"/>
+        <figure type="table"/>
+        <figure type="table"/>
+        <figure type="table"/>
+        <fw type="digitisation-artefact"><lb/>f.f /Bibli.<lb/>que nationale de</fw>
+        <pb facs="0007.xml"/>
+        <milestone unit="page" n="63"/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>Ofern an Anaoun</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Kredi e berson, Job ne c’houlen ket gwell.<lb/>— Requiescan in pace! eme ar beleg.</ab>
+        <p rend="labelled"><lb/>(Kendalc'h)</p>
+        <p rend="labelled"><lb/>— Arabad kregi ouz seurt a gement a zo d'in, eme ar beleg.<lb/>Goalc’h da zourn e dour ar vured ha pare e vi. Hogen ma vankez<lb/>warc hoaz, ar boan a grogo ennout, ha da vad ?</p>
+        <p><lb/>N'oa ket peurachu e gomzou ma tifaout an douar, hagar beleg<lb/>hag ar re all a gouez er fraill, Job avad a dec'h prim.</p>
+        <p><lb/>Daoust d’ezan beza skuiz ne gousk taken. Dale’hmad e ma<lb/>eskern tud ar garnel dirag e zaoulagad. C'houezi a ra ya, e vleo a zao<lb/>soun war e benn.</p>
+        <p><lb/>Pa darz an deiz e toull e brenestr e ya d’ar red da gas d'an introun<lb/>Varia Kanaouen an Angeluz ha da laret e bater.</p>
+        <p><lb/>Abenn eur c'hrapad, an aotrou persoun a zigouez. Ha Job ha dis-<lb/>plega e dro-noz.</p>
+        <p><lb/>N'eo ket kredet ha n’eo ket mars.</p>
+        <p rend="labelled"><lb/>— Re, kalz kalz re ho poa lounket, Job. Moged ar chopinadou o doa<lb/>loaret ho penn. Evit dour sklear netra ken feteiz hag it emberr d’ar<lb/>garnel. Neuze ni welo.</p>
+        <p rend="labelled"><lb/>— Ma, emezan ne din na diwar an dour na diwar netra. Mezo e<lb/>voan. Diot oun bet o kredi beza gwelet eur bern traou, hunvreer a zo<lb/>ac'hanoun?</p>
+        <p><lb/>D’an inder evelato, ne c’hoar petra c'hoari gantan.</p>
+        <p rend="labelled"><lb/>— Roet am beuz va ger, emezan. Ha mar deo gwir ar pez a zo<lb/>c’hoarwezet ganen ? Ma teufen da veza kaoz ma chounfe an eneou keiz-<lb/>se hanter-kant vloaz all c’hoaz en tan ?... Ravoderez, ranazenerez ! ne-<lb/>tra n’eo gwir nemet eur banne chigoden !</p>
+        <p><lb/>Eur galopinad a zo lounket. Hag eun all. Badaoui ne c'hell memez<lb/>tra. E galoun a sko eur dra benag ennhi ha yac’h e chom e benn.</p>
+        <p><lb/>Lazet ar goulou pell a zo an ti. Euneg heur da zon.</p>
+        <p rend="labelled"><lb/>— Maz an d’ar garnel, eme Job eo mall dibrada. Lavare tam beuz mont<lb/>mes kousket mik edoun. Ma ! n’in ket neuze! Bravoc’h hag easoc’h<lb/>emaoun ama eget beza va fri etre ar pevar avel. Kouskomp. Eur be-<lb/>rad goulskoude a rai vad.</p>
+        <p><lb/>E zourn d’e weren. Buhan e tiskrog: eun houarn ruz eo, seblant.</p>
+        <p rend="labelled"><lb/>— Mad. Me a c'hoar petra eo.</p>
+        <p><lb/>Hag hen d’ar garnel. Suil vui ma tosta, seul viuoc'h e kren. Son-<lb/>jal a ra distrei d’'ar gear. Mes gant e vez, an tan ennan, e renk mont.</p>
+        <p><lb/>E tal toull an or ema. Hanter-noz a zon. Hen ebarz. Seurt nemet<lb/>cur bann loar. Kas a ra e anken da vale bro....</p>
+        <p rend="labelled"><lb/>— Gouzout avalc’h n’am beuz great nemet hunvreal a ran. Mes ma<lb/>bez bet an tan ennan?... Mont a ran kuit... oei ! poan adarre !... Red<lb/>eo d'in choum.</p>
+        <p><lb/>Hag ar boan kuit adarre. Setu neuze eur sklerijen vraz, tud an nôz<lb/>tremenet, ar goulou war elum, ar beleg e harz an aoter.</p>
+        <p rend="labelled"><lb/>— Introibo ad altare dei.</p>
+        <p rend="labelled"><lb/>Job a ya da respont. N'eo ket hep enkrez e c'hed ne vo ket re hir<lb/>an holl an oferen. Ha petra vezo goude ?</p>
+        <p rend="labelled"><lb/>— Amen ! eme Job.</p>
+        <p rend="labelled"><lb/>Gortoz a ra hen-ma trouz evel an derc'hent. Ne glev netra. Trei a</p>
+      </div>
+      <div type="article">
+        <pb facs="0008.xml"/>
+        <milestone unit="page" n="64"/>
+        <ab><milestone unit="column" n="1"/><lb/>Prest e divez miz kerzu:<lb/>Eil leor ar BARZAZ TALDIR, 14 real<lb/>—-<lb/>ra e benn. Ar garnel a zo skleroc’h eget en deiz. E leac'h tud eskern,<lb/>e wel tud gwisket e guenn, henveloc’h ouz elez evit ouz tud.</ab>
+        <p rend="labelled"><lb/>— Mignoun, eme ar beleg, setu ama diraz-out an anaoun tennet<lb/>brema ouz tan grisiez ar purgator gant galloud an oferen war galoun<lb/>Doue. Te eo az peuz great d’eomp dont ac’hano ; ra vi benniget !... Bre-<lb/>ma emaomp o vont war eun d’an env da gaout an Doue mad mes just<lb/>ive. Pedi a raimp ma zeui di dizale ive. Dont a ri gant ma na vezi ken<lb/>mezo hiviziken. Kenavezo ha trugarekaat!</p>
+        <p><lb/>Peurlavaret e gomzou, setu gantan eur zae wenn gwennoc'h eget<lb/>an erc’h. Sklerijen a zav ouz e zaouan sakr egiz d’hoijennou tan ; war<lb/>e benn ez euz eur c’helc'h lugernuz ; stag ouz e c’houriz eur lilien<lb/>c’hlan ; var e skoaz eur vantel ker skeduz ma seblant great gant eun<lb/>tam euz an heol.</p>
+        <p><lb/>Holl e kanent kerkent kanaouen ar levenez da veza tennet eus o<lb/>harlu. Da di Jezuz e pignont war eur voabren splan.</p>
+        <p rend="labelled"><lb/>Job, sabatuet holl, a zo kouezet e dal war an douar. Pa zav ne wel<lb/>netra ken. Ma c’houlen digant Doue mont difre d’ar Baradoz.</p>
+        <p><lb/>Azaleg an deiz se ne evas taken hini krenv ebed ken. Tri miz gou-<lb/>de, an aotrou personn a gasas korf e gloc’her d’ar vered. Da vezo<lb/>digemeret e ene en env!</p>
+        <ab><lb/>Yann AR PACH. (Pintik)</ab>
+        <figure type="decoration"/>
+        <p><lb/>Goulennit digant MOULLEREZ AR BOBL eul<lb/>leorik koant</p>
+        <p><lb/>ennan kemend tra zo bet lavaret en De-ha-Bloa Plû-<lb/>net, ha diou skeuden ; ar ganerez Marc’harit hag he<lb/>Be; 6 real franko.</p>
+        <ab><lb/>Kanaouennou eur C’hernewad, embannet gant<lb/>Prosper PROUX en 1838 hag advoullet gant an Aot.<lb/>Jaffrennou, eul leorik, 4 real.</ab>
+        <ab><lb/>40 Kanaouen goz, hag ar muzik, dastumet gant<lb/>Laterre ha Gourvil; 1 skoed.</ab>
+        <note type="handwritten"><lb/>Moullerez ar Bobl, Stred ar Gar, Keraez.<lb/></note>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>En envor euz Mac’harit Phulup</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>Dindan ar wask:</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>Var ragpren:</p>
+        <ab><lb/>Ar Bleiner : Fanch Jaffrennou.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

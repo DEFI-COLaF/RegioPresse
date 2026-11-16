@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136247n</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1898-05-27">1898</date>
+          <idno type="ARK">bpt6k8136247n</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136247n</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>VUECHENCO ANNADO,</fw>
+        <fw type="runningTitle"><lb/>DIVÈNDRE, 27 DE MAI 1898.</fw>
+        <lg>
+          <l><lb/>Nautri, li bon Prouvençau,</l>
+        </lg>
+        <figure type="table"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES,</p>
+        <figure/>
+        <figure/>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="1"/><lb/>FSURÉU DE REDACIOUN<lb/>FOLCO DE BARONCELLI</ab>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>PRES DE L'ABOUNAMEN;</p>
+        <figure type="table">
+          <head><lb/>FOLCO DEBANONCEULI</head>
+        </figure>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>BALADO</head>
+        <head><lb/>PER ENGLOURIA LOU MES DE MAI<lb/>E COUNVIDA NA REGINO A QUITA LIS ERMAS GELA</head>
+        <lg>
+          <l><lb/>Azur subre ma tèsto e giscle de soulèu!</l>
+          <l><lb/>Ai dubert ma peitrino à l'inmènso baudour</l>
+          <l><lb/>E, mesclant mis estrofo à l'inne dis aucèu,</l>
+          <l><lb/>Siéu ana saluda l'aubo au mitan di flour.</l>
+          <l><lb/>Atravalido, liuen de si brusc, lis abiho</l>
+          <l><lb/>Fusavon dins la lus en quisto d'ambrousio,</l>
+          <l><lb/>Lou plan s'èro anima de chato, de pastour</l>
+          <l><lb/>E de bouié; e tout chourlavo emé fervour</l>
+          <l><lb/>La grand clarta de Diéa sourgent de l'armounio.</l>
+        </lg>
+        <lg>
+          <l><lb/>Ai camina long-tèms e lis iue vers lou cèu</l>
+          <l><lb/>Per clafi tout moun cor di rai de sa belour</l>
+          <l><lb/>E me siéu embriaga coume d'un vin nouvèu,</l>
+          <l><lb/>En un pradau flouri, di nouvèllis óulour.</l>
+          <l><lb/>Ai culi de rampau pèr la Vierge Mario,</l>
+          <l><lb/>Pièi à l'autar maien, emé de letanio,</l>
+          <l><lb/>Lis ai espargi quouro, à l'ouro de miejour,</l>
+          <l><lb/>Escandihavo dins sa majo resplendour</l>
+        </lg>
+        <p rend="styled"><lb/>La grand clarta de Diéu sourgènt de l'armounio.</p>
+        <lg>
+          <l><lb/>E subran ai pensa qu'au pais de la neu,</l>
+          <l><lb/>Vers lis ermas gela, souto un fiermamen sour,</l>
+          <l><lb/>Alin ount tout pantai jouve es lèu mourtinèu,</l>
+          <l><lb/>Liuen di perfum, liuen di cansoun, liuen di coulour,</l>
+          <l><lb/>Sias esmarrado, o vous qu'en terro de Castiho</l>
+          <l><lb/>Un jour atrouberias coume uno autro patrio,</l>
+          <l><lb/>Delembrant un moumen la vostro e si coumbour,</l>
+          <l><lb/>Vous que voste regard retrais en sa bluiour</l>
+          <l><lb/>La grand clarta de Diéu sourgènt de l'armounio!</l>
+        </lg>
+        <lg>
+          <l><lb/>Salve, Regina, vido, esperanço e douçour</l>
+          <l><lb/>De moun cor ounte amor de vous la pouesio</l>
+          <l><lb/>A regreia! Quitas aquéu doulènt sejour,</l>
+          <l><lb/>E venès ounoura mé vòsti cant d'amour</l>
+          <l><lb/>La grand clarta de Diéu sourgènt de l'armounio.</l>
+        </lg>
+      </div>
+      <div type="article">
+        <ab><lb/>A-n-un bout dóu palais (car ié dison tambèn palais, à Dufour e M. Gagliardini agon leissa lou terraire prou-<lb/>vençau, l'un per li ribo liuencho de la Seino, l'autre pèr<lb/>li valengo vesino de l'Aut Doufinat o ll raro d'Espagno.<lb/>Mai n'en rèsto e di meiour. M. Juli Laurèns es revengus<lb/>d'Aslo e pinto vuei li bèu palsage de soun terraire<lb/>nadalen, li Bord de l'Ourezo emé lou Ventour au founs,<lb/>d'uno amirablo armounio, e lou Ro de Sant-Gènt, em' un<lb/>bèl efèt de lus frustant li grand roucas au mitan dóu<lb/>tablèu. Soun escoulan M. Vayson, un escoulan qu'es un<lb/>mèstre, espauso uno Partènço pèr lis areno: es uno ma-<lb/>nado que li gardian lé fan passa 'no palun à grand cop-<lb/>de ficheiroun: au founs rougejo un soulèu levant que<lb/>lusis coume un encèndi, e vous responde que li brau<lb/><lb/>soun banaru coume se deu ! La Bartalasso de M. Sain<lb/>es uno poulido maio nouvello à la galanto cadeno de sis<lb/>estûdi avignounen, e lou Caire de jardin de soun escou-<lb/>lan Meissonnier es brihant e drihant que-noun-sai.<lb/>M. Garibàldi e M. Martin me sèmblon teni, coume disen,<lb/>nautri biciéuclisto, lou record de l'escandihado e de<lb/>P'esbléugido, l'un dins l'Abadié de Mount-Majour, que<lb/>pinto coume pintè autri-tèms l'abadié de Sant-Vitour,<lb/>valènt-à-dire que se pòu pas miés, l'autre dins Marsiho,<lb/>pinturo sutilo e lóugiero que-noun-sai, ounte la tubeio<lb/>elo-memo es lusènto e cando. Lou Matin au Mount Va-<lb/>lerian de M. Grivolas es, o estranjo fantasié dóu carta-<lb/>beu ! un poulit paisage de grès e de prat coumtadin emé<lb/>la caumo blanquinello dóu Ventour au founs.</ab>
+        <p><lb/>Sènso valé soun delicious tablèu de Marsiho de l'a dous<lb/>ans, li dous mandadis de M. Ramoun Allègre soun forco<lb/>poulit, e lou pintre a ben sachu rejouveni si tèmo, Diano<lb/>e la Samaritano, pèr un decor tout prouvençau. M. Nardi,<lb/>souto l'aflat de M. Montenard, es à mand de deveni un<lb/>mèstre, e cade Saloun marco pèr éu un grand prougrès :<lb/>si Proumié jour d'autouno en Prouvènço, em' uno moun¬<lb/>tagno roucassouso di pendis cubert de pinedo en des-<lb/>souto, soun esta gousta meme di critique parisen li mai<lb/>ragagnous. M. Charpin a manda au Saloun un Retour dos<lb/>champ qu'es belèu un pau grand pèr lou sujèt, mal d'uno<lb/>pinturo interessanto, simplo e apasimado. Se couneissès<lb/>lou campèstre dóu Rouve, entre l'Estaco e lou Martegue,<lb/>l'atrouvarés tras-que bèn encapa dins lou tablèu de M.<lb/>T. Mayan. ounte desbrouton de cabro belèu un pau trop<lb/>roujo, mai armado de bano veramen magnifico. Pin e ta-<lb/>marisso, autouno en Prouvènço, de M. Yarz, es un grand<lb/>tablèu ben lumenous : lou sujèt es pas ben interessant,<lb/>mai lou biais dou pintre l'es forco.</p>
+        <p><lb/>Velci touto uno tiero de pintre dou ribeirés: M. Pau¬<lb/>lin Bertrand em' un pichot tablèu, ben gracious, di Leco,<lb/>e un grand, de Touloun, qu'es encaro meiour, coumpausa<lb/>'m' un equilibre perfète pinta 'mé pleno mestrio; M. Zuber<lb/>em' uno Costo d'Azur ounte se devisto à travès li grands<lb/>óulivié dóu proumié plan uno sabourouso variacicun de<lb/>toun blu dins la mar e lou ceu ; M. Cremiéux em' un<lb/>Port di pescadou à Marsiho, ben lusènt e ben viéu; Mms<lb/>Bill em' un vigourous estûdi de la Pouncho roujo en<lb/>rado de Marsiho ; M. Place Canton emé dous tablèu,<lb/>Mourgue e Vilage de pescadou, lumenous coume soun<lb/>Gou dis Ange de l'an passa e soun Port de Niço de l'a<lb/>dous an, mai un pau brutau, em' abus de toun jaune e<lb/>de coulour estalouirado au coutèu; M. Linguet em' un<lb/>Remèmb̀re de Bèu-Liò, fouscarin, mai armounious, o<lb/>armounious, mai fouscarin, coume voudrés; M. Max<lb/>Claude em' un pichot Remémb̀re dóu Lavandou qu'es ni<lb/>l'un ni l'autre. La meravihouso encountrado antibou¬<lb/>lenco a ispira à M. Jourdeuil un di mai fin tablèu que<lb/>l'ague au Saloun, à M. Dameron un béu travai de toun<lb/><lb/>riche e gras, à MM. Dallier e Hareux de pinturo lisco e<lb/>molo, e a coumpletamen encoucourda M. Picknell, que<lb/>s'es nega dins uno sausso brun-vlóulet mal que desagra-<lb/>l'envans dis engeniaire Fali caban o de la Soucieta dis.<lb/>artisto francés, qu'abitavo antan lis Aliscamp, e à l'autre<lb/>aquéll de la Soucieta naciounalo di Bèus-Art, qu'abitavo<lb/>antan lou Champ-de-Mars. Coumencen pèr l'espousicioun<lb/>d'aquesto darriero Soucieta.</p>
+        <p><lb/>Tout en proumié courreguère, coume ben pensas, de-<lb/>vers la Farandoulo d'En Valèri Bernard. N'aviéu vist<lb/>l'autour à l'un di darriés acamp de l'Escolo parisenco<lb/>dóu Felibrige, e l'aviéu felicita de l'idêio de soun tablèu:<lb/>li chato coulfado à la prouvençalo e li drole cencha de si<lb/>taiolo danson galardamen autour d'uno antico font,<lb/>coume lou cor de la tragèdi grèco proche de l'autar ; au<lb/>founs se vèi la noblo renguiero dis Aupiho. Aro lou pode<lb/>felicita de l'eisecucioun, qu'es veramen maistralo, e pode.<lb/>felicita li Maianen que decouraran la grand salo de sa<lb/>coumuno em' uno obro tant bello e tant prouvençalo.</p>
+        <p><lb/>Em' En Valèri s'acoumpagnavo en nosto Escolo soun<lb/>oste, lou brave pintre coundriéulen Wagner Robiez, que<lb/>tambèn retrove au Saloun em' un Vent larg di ribo tou-<lb/>lounenco, galant tablèu en armounio bluio e verdo emé<lb/> taco d'or jaune di roucas.</p>
+        <p><lb/>Es subre-tout la Prouvênço marino qu'a ispira nosti<lb/>pintre aquest an (sabès que, quand dise nòsti, entènde<lb/>pulèu lou sujèt di tablèu que la naciounalita dis artisto),<lb/>siegue M. Jauffret emé soun agradivo pichoto telo di Pin<lb/>de Santo-Margarido, siegue M. Aubin emé si tres tablèu<lb/>Martegau, que lou meiour me sèmblo estre l'Estacado au<lb/>bord de r'estang de Berro, ounte l'a un bel ourizount<lb/>eiguestre en ligno fugênto, siegue M. Iwill, tambén afe-<lb/>ciouna pèr la Veniso prouvençalo, siegue M. Couturier<lb/>(En rado d'Iero). Lou Gou dis Ange e lis Enviroun de<lb/><lb/>Nico de M. Tchiquine (Diéu vous créisse!), Desboutin,<lb/>soun bén marfe e bèn amoussa, mai lis estudi au pasteu<lb/>de MM. Paillard (Cassis e Sant-Troupez) e Gillot (Niço e<lb/>Vilo-Franco) nadon au countràri en pleno lus, mai que<lb/>vigourouso vers lou proumié, mai que fino vers lou se.<lb/></p>
+        <p><lb/>Veici un jouine pintre marsihés, M. Reinié Seyssaud,<lb/>que me sèmblo astra pèr prene uno bono plaço dins la<lb/>tiero de nòsti paisagisto. Dins si Derrabaire de tartifte e<lb/>soun camin bourda de grands aubre e de ginèsto en<lb/>flour i'a bèn un pau de brutalita, mai un bèu sentimen<lb/>de la coulour. Lou Caire de Cagno de M. Deconchy es<lb/>pinta d'un pinceu nervihous. Lausarai tambèn lou fin<lb/>retra de M. Rondel e l'eicelènt pescadou de M. Conten-<lb/>cin. M. Moutte, que nous douné deja tant de gràndi e<lb/>bòni telo, e tant prouvençalo, se countènto aquest an de<lb/>pichot tablèu, dous retra e quatre interessant estudi de<lb/>palsage marsihés. Despièi soun ilustracioun de Mirèio,<lb/>M. Burnand s'es afeciouna à la terro miejournalo : soun<lb/>Pastre amaga dins uno grando roupo es bèn un pastre<lb/>prouvençau, e l'a ben tres o quatre de si dessin pèr la<lb/>subre-bello epoupeio alegourico en proso de l'Anglés<lb/>Bunyan, The pilgrim's progress, que la sceno n'es dins ll<lb/>clàri pinedo dóu ribeirés nostre.</p>
+        <p><lb/>Finissen aquelo revisto dóu Champ-de Mars emé dous<lb/>mèstre. l'a de telo de M. Montenard que preferisse à<lb/>soun grand paneu O fortunatos nimium, ounte belèu<lb/>abuso dóu rouge, mai crese qu'a jamai fa miés que si<lb/>quatre autri tableu, subre-tout Lou vièi camin que<lb/>mounto long d'uno colo de roco roso, em' un meravihous<lb/>efèt de lus. Pèr quant à M. Dauphin, entre si sièis telo<lb/>chausiriéu lou pichot Vilage de la Gardo e lou grand<lb/>Balaguié, emé li mountagno toulounenco negado dins</p>
+        <p><lb/>Se passan is Aliscamp (car soun mai d'usage aquéli<lb/>.<lb/>noum de llò que li titre loungaru di dos Soucieta), mai<lb/>aboundouso sara la culido, emal de mestre coume M.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>LA PROUVENÇO</head>
+        <head><lb/>I SALOUN PARISEN</head>
+        <p><lb/>Lou Palais de l'Endustrio, que Diéu rejougne ! ero bènr<lb/>laid, mai èro bèn escleira e bèn engimbra pèr lis espou-<lb/>sicioun di béus-art. L'an demouli pèr basti à sa plaço<lb/>dous autri palais, que saran autant laid, e pas tant cou-<lb/>mode, acò 's bèn de cregne pèr quau counéis lis archi-<lb/><lb/>têite parisen. Aguènt ansin plus ges d'oustau, lis artisto<lb/>soun ana à l'aubergo, souto la Galarié di Machino, dins<lb/>de cabano de bos que sèmblon negado au mié d'aquel<lb/>inmènse envans. De-fes que l'a, plòu dedins, à travès lou<lb/>cubert de vèlre dou cap-d'obro dis engeniaire mouderne,<lb/>mai dequé voulès, aco 's lou prougrès !<fw type="digitisation-artefact"><lb/>purce gallica.bnf.fr / Bibliothèques </fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

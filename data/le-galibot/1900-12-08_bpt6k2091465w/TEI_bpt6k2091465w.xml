@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Galibot</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k2091465w</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Galibot : journal humoristique et littéraire de la région minière rédigé en français et en patois du Nord</title>
+          <publisher>[s.n.] (Denain)</publisher>
+          <date when="1900-12-08">1900</date>
+          <idno type="ARK">bpt6k2091465w</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k2091465w</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>1Année. — N 12<lb/>Du 8 au 22 Décembre 1900.</fw>
+        <dateline><lb/>Le N. 5 Cent.</dateline>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>Journal humoristique et Littéraire (Rédigé en Français et en Patois)<lb/>DE LA RÉGION MINIERE ET MÉTALLURGIQUE DU NORD.</p>
+        <lg>
+          <l><lb/>ABONNEMENTS, 1 fr. 50 par an.</l>
+          <l><lb/>Les manuscrits ne sont pas rendus.</l>
+          <l><lb/>La reproduction des articles inédits est</l>
+          <l><lb/>interdite à moins d'autorisation.</l>
+        </lg>
+        <ab><milestone unit="column" n="3"/><lb/>ADMINISTRATION:<lb/>à l'Imprimerie -Papeterie E. VINSTOCK<lb/>4, rue de la Station, 4,<lb/>à DENAIN (Nord.)</ab>
+        <ab><lb/>Directeur: E. VINSTOCK<lb/>4, rue de la Station, 4.<lb/>DENAIN (Nord.)</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Cainchon d’Graind' Mere</head>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Viens su m'n'écourt, min p'tithomme,</l>
+          <l><lb/>T'vieill' mémère a t' calin'ra,</l>
+          <l><lb/>Et si te fais in bon somme.</l>
+          <l><lb/>Te verras chou qu'a t' donn' ra.</l>
+        </lg>
+        <lg>
+          <l><lb/>Mon Dieu! Croq' mitaine y s' ſache.</l>
+          <l><lb/>Faut t' dépécher d'fair' dodo,</l>
+          <l><lb/>Car s'il acoutt' tin tapache,</l>
+          <l><lb/>Ch' est sûr qu't'aras du bobo.</l>
+        </lg>
+        <lg>
+          <l><lb/>N' sois pus solint, dors bin vite:</l>
+          <l><lb/>J' li dirai qu' t' es min garchon.</l>
+          <l><lb/>Allons, fais dodo tout d' suite,</l>
+          <l><lb/>Et j' vas t' dire eun' bell' cainchon.</l>
+        </lg>
+        <lg>
+          <l><lb/>Veux-tu que j' te caintt' Mad leine,</l>
+          <l><lb/>pr til quinquin ou l'loup-garou?</l>
+          <l><lb/>Pis, si te t' indors sans peine,</l>
+          <l><lb/>J't' acat' rai d'main un joujou.</l>
+        </lg>
+        <lg>
+          <l><lb/>Pour m'eurmercier y m' caresse.</l>
+          <l><lb/>Des tiots infaints, ch'est curieux :</l>
+          <l><lb/>Si laidd' qu'in soit dins s' viellesse,</l>
+          <l><lb/>In est toudis bien pour eux.</l>
+        </lg>
+        <lg>
+          <l><lb/>De l' bercher j' sus déjà lasse ;</l>
+          <l><lb/>Mais dins les yiux d' m'in gàt' lot,</l>
+          <l><lb/>Grand' mère à poussière àll' passe !</l>
+          <l><lb/>J' cros qu'y dormira bintôt.</l>
+        </lg>
+        <lg>
+          <l><lb/>Le v' là sach' comme eune imache.</l>
+          <l><lb/>Ses yeux s'ſerm' t; caintons moins fort.</l>
+          <l><lb/>V' nez r' wétier què biau visache</l>
+          <l><lb/>Qu' a min tiot fieu quind y dort</l>
+        </lg>
+        <ab><lb/>Charles LAMY.</ab>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>— Vous accusez Thomas Poré<lb/>d'vous avoir volé un mouchoir dé<lb/>poche?</p>
+        <p rend="heading"><lb/>Au Tribunal</p>
+        <p rend="labelled"><lb/>- Awui, monsieur l' juge, et pou</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>A l'Fanfare</head>
+        <figure type="decoration"/>
+        <p><lb/>L' président del fanfare ed Clod'.<lb/>chabot Ville assiste à eune répétition.<lb/>Il y a justémint un nouviau piston-<lb/>solo qui vient d'arriver.</p>
+        <p><lb/>L' chef fait arrèter l' musique au mi-<lb/>tan du morciau, parc' qu'il y avot un<lb/>musicien qui avot flanché.</p>
+        <p><lb/>L'président s'approche du chef et<lb/>li dit:</p>
+        <p rend="labelled"><lb/>— I m' semble qué l' nouviau piston<lb/>n' jue point beaucop?</p>
+        <p rend="labelled"><lb/>— C'est parc' qu'il a des m'sures<lb/>à compter.</p>
+        <p rend="labelled"><lb/>— Oui ! mais attintion! nous n'per-<lb/>dons point d'nouviaux musiciens pou<lb/>compter des m' sures, chef!</p>
+        <ab><lb/>VATIN (Dieppe).<lb/>l' preuve, in v' là cor ichi un tout pa¬<lb/>reil.</ab>
+        <p rend="labelled"><lb/>— Oh ! cha n' veut point dire que<lb/>ch' est Thomas qui vous a volé. J'ai<lb/>bien l' même mouchoir dins l' poche<lb/>dé m' pardessus.</p>
+        <p rend="labelled"><lb/>— Cha n' prouve rien, cha, mon-<lb/>sieur l' juge, i m'in manque justémint<lb/>deux</p>
+        <ab><lb/>G. PORION.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>L'TESTAMINT</head>
+        <p><lb/>Monsieur Toutamoi, archi-million-<lb/>naire, sintant qu’il allot bétôt morir,<lb/>fait appeler un notaire pou li faire<lb/>es testamint.</p>
+        <p rend="labelled"><lb/>— J'laisse à m'ſemme deux chint<lb/>mille francs d' rintes viag eres.</p>
+        <p rend="labelled"><lb/>— Oui, dit, l' notaire, et si alle sé<lb/>r marie ?</p>
+        <p rend="labelled"><lb/>— Deux chint mille aussi?</p>
+        <p rend="labelled"><lb/>Commint ? deux chint mille?</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>BÊTISE</head>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Pierr', sins motif, in certain soir,</l>
+          <l><lb/>Fait tint d' tapach' chez eun' donzelle,</l>
+          <l><lb/>Que d' puis a n' veut pus l'l'eurchu-</l>
+          <l><lb/>voir</l>
+          <l><lb/>— «Porquoi qu' te n'eurtourn' point</l>
+          <l><lb/>[chez t' belle!»</l>
+          <l><lb/>Demainne à Pierr'queuqu’un d'curieux</l>
+          <l><lb/>— « Bast! répliq' l'autt' tell' mint tu-</l>
+          <l><lb/>frieux</l>
+          <l><lb/>Qu' y n'sait mi chou qu’y toulle,</l>
+          <l><lb/>Je l' l' ai quitté' pou l' bonn' raison</l>
+          <l><lb/>Qu’in n’y véyot que d' la fripoulle</l>
+          <l><lb/>A chaq' tos qu'j' étos dins s' mason. "</l>
+        </lg>
+        <ab><lb/>CHARLES LAMY.</ab>
+        <p rend="labelled"><lb/>— Ah ! ch' n'est point tant pour elle,<lb/>ch'est pou s' futur homme : l' pauve<lb/>malhéreux n' les ara pas volés!</p>
+        <ab><lb/>O.-M. NIBUS.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>MAL PARTOUT</head>
+        <p rend="labelled"><lb/>-Non, cha, Caroline, i n" a pcs moyen<lb/>d' démeurer d'ins c'cambusse ichi, si<lb/>S' train-là continue. In n' peut pus dormir.<lb/><lb/>V' là pus d'eune sémaine qué j' n'ai<lb/>point freumer mes yeux. Si no visin n'veut<lb/>pas s' débarrasser dé s' tchien, nous s' rons<lb/>forchés d' déménager.</p>
+        <p rend="labelled"><lb/>— Si in li in parlot eune milette, hein,<lb/>Victor?</p>
+        <p rend="labelled"><lb/>— Li in parler! i drot l' savoir mieux<lb/>qu' nous, asseuré! Li in parler? Tu m’pe.<lb/>les el vintre, quand j' tintinds dire des<lb/>contes ainsi.</p>
+        <p><lb/>C' conversation avot lieu l'aute jour in¬<lb/>ter' monsieur Victor Grimantiau et pis<lb/>s' femme, par rapport au tchien d'leu vi-<lb/>sin qui s'amusse à hurler jour et nuit.</p>
+        <p><lb/>M. Grimantiau, ayant ramassé eune<lb/>pétite fortune, vit avec es' femme, in rin-<lb/>tier. I-z-ont eune pétite jonne fille ed seize,<lb/>dix sept ans qu'ils ont bin él'vée, et qui<lb/>tomminche à tapoter du piano.<fw type="digitisation-artefact"><lb/>Sodree gumed.Dn Diboueque natenale de France</fw></p>
+        <pb facs="0002.xml"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Quand ch'est pou d'l’argint</head>
+        <p><lb/>Un homme rintre dins eune maison<lb/>assez pauve et d' mande après Monsieur<lb/>Kataplasse.</p>
+        <p rend="labelled"><lb/>- Ch'est mi, monsieur, répond l'maite<lb/>del maison.</p>
+        <p rend="labelled"><lb/>— Vous étes el neveu de monsicur Ka-<lb/>taplasse de Paris!</p>
+        <p rend="labelled"><lb/>— Je l' pinse toudis.</p>
+        <p rend="labelled"><lb/>— I vient d'être guillotiné.</p>
+        <p rend="labelled"><lb/>— Oh ! ainsi, ch' n'est point li.</p>
+        <p rend="labelled"><lb/>— Il laisse à ses héritiers trois chint<lb/>mille francs, et j' sus chargé d' les faire<lb/>parvenir aux ayants-droit.</p>
+        <p rend="labelled"><lb/>— Ch'est bin li, monsieur... Oui! oui !<lb/>no bien-aimé mononque, qui v' not nous<lb/>vire tous les ans et qué nous veyottes si<lb/>volintiers!</p>
+        <ab><lb/>Parigot,</ab>
+        <p><lb/>Vous comperdez qu' ch' est eune joie<lb/>dins l' maison d'avoir eune fille qu'alle jue<lb/>du piano. Tout l' long du jour, l' père fait<lb/>jouer des gammes à s'fille : do, ré, mi, fa...<lb/>Ed' pus d' matin jusqu'au soir, ch'est tou-<lb/>dis l' même rengaine.</p>
+        <p><lb/>L'pauve Grimantiau est bin lon dé<lb/>s'douter qué les hurlemints du t'chien<lb/>sont provoqués pas l' potin qué s'fille alle<lb/>fait avec es' piano.</p>
+        <p><lb/>Vous avez déjà du r' marquer qué les<lb/>t' chiens ont l' musique in horreur? A pus<lb/>forte raison, c' ti-là, qui s' trouvot bin<lb/>tranquille dins s'niche et qu'in vient l'im-<lb/>bêter avec el tapotache d'eune débutante.</p>
+        <p><lb/>Elt' chien, qui avot l'habitute d'hurler<lb/>par jour à l' première note qu'il intindot,<lb/>continuot à hurfer par nuit au grand dé-<lb/>sespoir del famille Grimantiau.</p>
+        <p><lb/>L' père Grimantiau dit à s' servante.</p>
+        <p rend="labelled"><lb/>— Vous allez daller à l' mon du visin<lb/>d'à côté, vous li prierez l' bonjour de<lb/>m' part, et vous li d' mand'rez si i n' pour-<lb/>rot point tuer s'tchien, qui nous impêche<lb/>ed dormir?</p>
+        <p rend="labelled"><lb/>— Ch' t'eune drôle dé commission, cha,<lb/>répond l' servante.</p>
+        <p rend="labelled"><lb/>— I-est bon, faites chu qu'in vous dit,<lb/>et n' répliquez point.</p>
+        <p><lb/>L' servante s'in va faire s' commission:</p>
+        <p rend="labelled"><lb/>— Monsieur, dit-elle, no maîte i vous<lb/>fait bin des complimints. I vous souhaite<lb/>el bonjour, et i vous d' mande s'i i aro<lb/>pas moyen d' tuer vo t' chien, qui l'impé-<lb/>che ed dormir?<lb/></p>
+        <p><lb/>L'aute répond.</p>
+        <p rend="labelled"><lb/>— Vous présint' rez mes respects à vo<lb/>maite, m' fille, et vous li direz que tout<lb/>aussi vite qu'il ara tué s'fille et écleffé<lb/>s' piano, pou li prouver m' n'arconnais¬<lb/>sance, j' tuerai m' t' chien !</p>
+        <p><lb/>A no mote?</p>
+        <ab><lb/>Parigot.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Le farceur farcé</head>
+        <head><lb/>—:o:—</head>
+        <p><lb/>Un farceu dot toudis s'attinte a éte farcé<lb/>un jour ou l'aute.</p>
+        <p><lb/>L'garchon Balurette, connu d'tous<lb/>l' villache pou ses farces, estun vrai malin<lb/>qui sait bin tirer des plans, mais il est diffi-<lb/>cile ed' l'attraper.</p>
+        <p><lb/>Pourtant, i n'a pas bin longtemps d'chà,<lb/>il a été pris à s' tour, et si comme i faut<lb/>qu'i n'sin vantera jamais à personne.</p>
+        <p><lb/>Dernièr'mint i faut croire qué c' diabel-<lb/>là avot convoqué tous les bochus qu'i con¬<lb/>naissot à s' trouver au notaire.</p>
+        <p><lb/>L'jour arrivé, in vot arriver à l'étude<lb/>eun' dizaine d' cen gros dos qui commin-<lb/>ch'nt à s' ravizer d' traveis d'abord, et<lb/>s' mett' nt à rire in veyant s' tordre l' no¬<lb/>taire et les cleres qui, eusses, avott'nt bin<lb/>vu tout d'suite qu' ch' étot eun' farce.</p>
+        <p><lb/>Y n' avot foque un des bochus, vizin<lb/>avec l' farceur, qui n' riot point et s' disot<lb/>in li-même.</p>
+        <p rend="labelled"><lb/>— Cha, ch'est cor un tour ed'Balurette,<lb/>mais qu'i faiche bin attintion à li, parce<lb/>qu'à l' première occasion j' né l'raterai<lb/>point.</p>
+        <p><lb/>Balurette, fin contint d'avoir réussi<lb/>s' farce et sachant que s' vizin s'étot promi<lb/>d' l'rattrapper, s'met i pas dins l'tiête daller<lb/>l'réveiller par nuit pou l'faire inmar¬<lb/>voyer.</p>
+        <p><lb/>Vers deux heures du matin, i s' ellièfe<lb/>bin vite, s'habille incor pus vite, et s'in<lb/>va taper à l' porte du bochu.</p>
+        <p><lb/>C'ti chi s' révelle in sursaut, s'assied<lb/>d'ssus s'lit et acoute.</p>
+        <p><lb/>L'aute tapot d'pus belle, même avec<lb/>ses pieds, risque à tont casser.</p>
+        <p><lb/>Hop! habile! l' bochu saute in bas du<lb/>lit et va ravizer pa les carreaux d' vitres.</p>
+        <p><lb/>Jé n'sais point si i s' doutot d'quét'<lb/>quose, toudis est-i qu'i s'in va quère cer-<lb/>tain vase nocturne, et vient ouver' l' fer-<lb/>niète.</p>
+        <p rend="labelled"><lb/>— Qui qu' ch'est qui est-là ? d'mande-ti.</p>
+        <p><lb/>L'aute i n' répond point à l'question,<lb/>mais i li d' mande comme cha, rien<lb/>qu' pou s' moquer d'li:</p>
+        <p rend="labelled"><lb/>— Vous n' peurottes point m' dire queu<lb/>temps qu'i va faire?</p>
+        <p rend="labelled"><lb/>— Y va pleuvoir, li crie l' bochu, in<lb/>rinversant l' cont' nu du vase d' sus l' tiète<lb/>ed' Bnlurette, qui queurt core.</p>
+        <ab><lb/>J. Reinrevat.</ab>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>A TABE</p>
+        <p><lb/>Un domestique répand delle sauce sur<lb/>l' robe ed soie d'eune belle madame.</p>
+        <p rend="labelled"><lb/>— Queu malheur ! dit l' madame.</p>
+        <p rend="labelled"><lb/>— Ahl ch' n'est rien d' cha, répond<lb/>l' domestique, i rerte cor del sauce à l'cui¬<lb/>sine.</p>
+        <ab><lb/>D. DuCORON.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>RUITHIN-</head>
+        <lg>
+          <l><lb/>C'est dans le vin, mais non dans l'eau,</l>
+          <l><lb/>Que toujours je me mire.—</l>
+          <l><lb/>Quand je vois le vif coloris</l>
+          <l><lb/>Dont il empourpre mon visage,</l>
+          <l><lb/>De l'amour de moi-même épris,</l>
+          <l><lb/>J'avale mon image.</l>
+        </lg>
+        <p><lb/>Je suis un Narcisse nouveau:<lb/>Sans cesse je m' admire.</p>
+        <ab><lb/>Narcisse.</ab>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>EN VENTE A LALIBRAIRIE DU GALIBOT<lb/>LES CARTES A JOUER</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Histoire d’un Sourd</head>
+        <p><lb/>Chu qué j' vas ichi vous raconter s' pas-<lb/>sot à D' nain l' jour del grande Cavalcade.</p>
+        <p><lb/>Cheulle fiête avot tell' mint attiré d'é-<lb/>trangers, qu’i n'i avot pus moïen d' trou-<lb/>ver eune plache dins eune auberge, pou<lb/>passer l' nuit. Un voyageur ed commerce<lb/>qui s' trouvot ichi, paraissot fort imbété,<lb/>et, tout in buvant eune pinte, i racontot<lb/>s' n'affaire à pusieurs buveux.</p>
+        <p rend="labelled"><lb/>— Veulez-vous gager chint francs avec<lb/>mi, dit un espèce ed farceur, qué j' vas<lb/>loger avec em' quévau dins n'importe<lb/>queulle auberge?</p>
+        <p rend="labelled"><lb/>— J' veuros bin vire c' t'elle-là, ditl'aute.</p>
+        <p rend="labelled"><lb/>— Est-ce qué vous ténez l' pari ?</p>
+        <p rend="labelled"><lb/>— Contint!</p>
+        <p><lb/>Vl'à mon homme qui dételle s' quévau,<lb/>et s’in va dins un auberge qui étot erbour-<lb/>rée d'monne. L'patron vénot d'appeler les<lb/>domestiques pou lieu dire dé n' pus r' ché-<lb/>voir personne, ni pou minger, ni pou lo-<lb/>ger, attindu qu'i n'avot pus d'plache.</p>
+        <p><lb/>No cavalier, qui avot tiré s'plan, arrive<lb/>à qu'vau, met pied à terre dins l'cour et<lb/>mène s' biéte tout drot à l'étolette.</p>
+        <p rend="labelled"><lb/>— Mais, monsieur, dit l' domestique,<lb/>ch' n'est point la peine ed mettre vo<lb/>qu' vau drochi ; i n'i-a pus d'plache, et in<lb/>n' vous r'cev'ra point.</p>
+        <p rend="labelled"><lb/>— N'ayez pas peur, répond l'autre, je<lb/>n' vous oblierai point. Perdez soin dé<lb/>m' quévau, vous arez eune bonne drin-<lb/>guelle.</p>
+        <p rend="labelled"><lb/>— Bé, ch' n'est pas cha qué j' vous<lb/>d' mande, r' prind l' varlet.</p>
+        <p><lb/>Bah! ouaitte, mon homme étot déjà<lb/>rintré dins l'cuisine.</p>
+        <p rend="labelled"><lb/>— Monsieur, dit l' patronne, ch' nest<lb/>pas les peines ed rintrer, nous n’sarottes<lb/>pou no vie vous r' chévoir; l' maison est<lb/>toute pleine.</p>
+        <p rend="labelled"><lb/>— Ah ! oui cha, madame, in peut dire<lb/>qué ch'est eune belle journée, et si cha<lb/>veut durer, i fra cor biau d' main.</p>
+        <p rend="labelled"><lb/>— Mais, monsieur, je n' vous parle<lb/>point d' cha, j' vous dis qu'i n'i a pus<lb/>d'plache ichi.</p>
+        <p rend="labelled"><lb/>— Oh l avant d'vénir, in m'a dit qu'che¬<fw type="digitisation-artefact"><lb/>nc</fw></p>
+        <ab><lb/>Soe alic/Bibliodeque naionae </ab>
+        <pb facs="0003.xml"/>
+      </div>
+      <div type="article">
+        <head><lb/>LES BŒEUFS</head>
+        <lg>
+          <l><lb/>Ils ne connaissent pas les espoirs incessants</l>
+          <l><lb/>Qui composent la vie et l'embellissent, certes :</l>
+          <l><lb/>Mais leurs grands yeux si doux, dans les plaines désertes,</l>
+          <l><lb/>Peuvent suivre sans fin leurs rêves impuissants...</l>
+        </lg>
+        <lg>
+          <l><lb/>Cependant que du ciel descendent des rosées</l>
+          <l><lb/>Et que, sur les vallons, lentement déposées,</l>
+          <l><lb/>Elles semblent les pleurs du jour, craignant le soir...</l>
+        </lg>
+        <lg>
+          <l><lb/>Ils s'en reviennent las, ces descendants du buffie,</l>
+          <l><lb/>Et, regardant la lune, ils se lèchent le mufle,</l>
+          <l><lb/>Sans penset que leur tour viendra pour l'abattoir.</l>
+        </lg>
+        <ab><lb/>Léon DELMOTTE.</ab>
+        <p rend="labelled"><lb/>— Monsieur, qu'i dit, j' vous d' mande<lb/>bin pardon d' vous avoir déringé, et<lb/>d’avoir logé dins vo maison margré vous.<lb/>Mais j'avos parié chint francs, avec un<lb/>voyageur qué vous avez r' fusé, qué j' lo-<lb/>g'ros c' nuit chi. Cha vautbin les ruses ed<lb/>faire el sourd un momint, énon?</p>
+        <p><lb/>Et là-d' sus, i pique des deux, in s'in al-<lb/>lant, au grandéssime galop, toucher l'mon-<lb/>tant du pari qu'il avot gagné.</p>
+        <ab><lb/>K. Fougnies-Hette.</ab>
+        <ab><milestone unit="column" n="1"/><lb/>Oh ! que je voudrais être un de ces bœeuf pesants<lb/>Qui lentement s'en vont par les campagnes vertes<lb/>Et se couchent, songeurs, les narines ouvertes<lb/>A la brise qui passe, aux parfums caresssants.<lb/>tot eune bonne maison, qué j' sros bin<lb/>r'qaiü, qu'in arot soin d' mi.</ab>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>— Il est sourd comme un pot, dit l' pa-<lb/>tronne, i n'i a rien à li faire intinte.—Et in<lb/>laisse assie el drôle au coin du poéle.</p>
+        <p><lb/>A l'heure du souper, les voyageurs<lb/>s' mettent à table, mon homme faitcomme<lb/>les autes. L' patron arrive et li dit ;</p>
+        <p rend="labelled"><lb/>— I n'a pas d'plache drochi pour vous,<lb/>vous perdez l'plache d'un aute.</p>
+        <p rend="labelled"><lb/>— N' vous déringez point pour mi, ré-<lb/>pond l'faux sourd, j' ming'rai comme tout<lb/>l' monde, jé n' sus point difficile.</p>
+        <p><lb/>Si bin qu'in l'a laissé tranquille. I minge<lb/>comme quate, et, après l' souper, i donne<lb/>tros francs au patron.</p>
+        <p rend="labelled"><lb/>— Mais ch'est pus qu' cha, dit l'aute, in<lb/>li rindant ses liards, je' n' donne point à<lb/>souper pou tros francs des jours ainsi.</p>
+        <p rend="labelled"><lb/>— Non fait, non fait, dit l'homme, je<lb/>n' veux point qu'in paiche pour mi, j'veux<lb/>payer m' souper.</p>
+        <p><lb/>Et i forche el patron à r' prindre les tros<lb/>francs.</p>
+        <p><lb/>Un momînt après, i monte in haut<lb/>pou d'aller s' coucher.</p>
+        <p><lb/>V' là l'servante qui vient dire à un<lb/>voyageur qu'in a pris s' champe et qué<lb/>l' ceux qui étot d' d' ins n' veulot pas s'in-<lb/>raller.</p>
+        <p><lb/>L' voyageur grimpe qua'e à quate pou<lb/>l' faire partir, mais l' sourd s'étot barri<lb/>cadé et in l'intindot qui berdellot li tout<lb/>seu:</p>
+        <p rend="labelled"><lb/>— Queu malheur tout d'même d'étre<lb/>sourd ainsi, et dé s' pourméner tout l'nuit<lb/>avec min révolver, ed peur qu'in vienne<lb/>voler mes doupes.</p>
+        <p><lb/>In intindant parler d' révolver, l' voya¬<lb/>geur a dévalé les escaliers, beaucop pus<lb/>rate qui n' les avot grimpés.</p>
+        <p><lb/>El lind' main matin, l' sourd monte à<lb/>qu' vau, donne chinq francs au domesti-<lb/>que et fait appeler l' patron.</p>
+      </div>
+      <div type="article">
+        <head><lb/>7 FLANDRE</head>
+        <lg>
+          <l><lb/>Tes puits profonds et noirs recèlent le vertige ;</l>
+          <l><lb/>Tes forges — ces enfers — ont de tragiques chants ;</l>
+          <l><lb/>Et les clochers épars dans tes fertiles champs</l>
+          <l><lb/>N'ont pas des pics neigeux le solennel prestige...</l>
+        </lg>
+        <lg>
+          <l><lb/>Mais les houblons noueux t'enlacent de leur tige,</l>
+          <l><lb/>O Flandre ! et rien ne vaut tes tranquilles couchants,</l>
+          <l><lb/>Tes brumeux coins d’azur et tes refrains touchants,</l>
+          <l><lb/>Tes bois frais, tes muguets ou le baiser voltige!</l>
+        </lg>
+        <lg>
+          <l><lb/>L'air du vicux sol natal rouvre le cœeur fermé.-</l>
+          <l><lb/>Pays souvent quitté, pays toujours aimé,</l>
+          <l><lb/>Va, l'on t'évoque aussi dans les jours de souffrance.-</l>
+          <l><lb/>Chaque fois que j'ai vu, sur tes épis de blé,</l>
+          <l><lb/>Flamber l'été fécond, toujours tu m'as semblé</l>
+          <l><lb/>Une couronne d'or sur le front de la France!</l>
+        </lg>
+        <quote><lb/>Jacques DUWALLON.</quote>
+        <p><lb/>In fait bouillir tout cha, et in touille<lb/>avec el crochette d’un boteux.</p>
+        <p><lb/>Après, in n'a fauque qu'à l' laisser<lb/>r'froidir pindant cinq ou six mos, et l'crê-<lb/>me qui r'vient par déseur est l' meilleur<lb/>armède qu'in a jamais invinté.</p>
+        <p><lb/>Nous in parlons par expérience: nous<lb/>avons réussi à faire v' nir des ch'veux sus<lb/>l' tiète d'un clo. Pus fort qué chal In n'a pas<lb/>bésoin d'acater d' nouvelles brosses ;<lb/>quand les poils sont usés, in a qu'à mettre<lb/>dé c' matière là d' sus, les brosses arde¬<lb/>viennent toutes nuèfes. Si in voudrot<lb/>éprouver, nous sommes certains qu'in frot<lb/>pousser des ch' veux sur une bille ed bil-<lb/>lard.</p>
+        <p><lb/>Nous avouons qu'i faut eune miette<lb/>ed patiainche pou faire el préparation.</p>
+        <p><lb/>Mais in est bin récompinsé pa l' bonté et<lb/>l'importance du r' mède.</p>
+        <ab><lb/>A. Sdecœur.</ab>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="2"/><lb/>Avis aux Musiciens<lb/>FN VENTE A LA LIBRAIRIE DU GALIBOT<lb/>Cordes de Violons et Mandolines<lb/>Méd'ators et Chevalets<lb/>Papiers et Cahiers à Musique<lb/>Méthodes</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Nouvelle découverte</head>
+        <p><lb/>In vient d' d'écouver à Kiladépousulkoff,<lb/>pétite ville ed Russie, un r' mède qui<lb/>n'manque jamais pou faire r' pousser les<lb/>ch' veux et l' barbe.</p>
+        <p><lb/>Comme nous supposons qu'i a des lec-<lb/>teurs du Galibot, qui ont vu avec tristesse<lb/>leu tiête dépasser leus ch' veux, nous al-<lb/>lons lieu donner l'arcette.</p>
+        <p><lb/>L'v'là dins toute es' simplicité ; tout<lb/>l' monne peut préparer cha:</p>
+        <p><lb/>In prind eune cannette ed jus d'escar-<lb/>billes; un seyau d'extrait d' boutons<lb/>d' guétes ; un kilo d' rachines ed' cha-<lb/>bots rouches. Après avoir exposé c'mélan¬<lb/>che au solel pindant neuf nuits, in y<lb/>ajoute tros mètres d' fine fichelle, un kilo<lb/>d' neige calcinée, eune livre ed chuque ed<lb/>foie d'morue, et trois kilos d' gras d' cor-<lb/>beau.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Des goûts et des couleurs</head>
+        <p><lb/>Larbicot, qui a servi dins la marine, ra¬<lb/>conte qu'il a fait campagne au Dahomey,<lb/>et qu'il a parlé avec un sauvache, qui<lb/>avot déjà mingé d' l' homme.</p>
+        <p rend="labelled"><lb/>- Ains', li d' mande Larbicot, t'as déjà<lb/>mingé d'l' homme?</p>
+        <p rend="labelled"><lb/> Voui, voui, dit l' nèque.</p>
+        <p rend="labelled"><lb/>... Et queu goût qu' cha a ?</p>
+        <p rend="labelled"><lb/>.. Cha a l' même goût que l'femme,<lb/>répond l' noir diale.</p>
+        <ab><lb/>J. BARETTE.</ab>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>Des Amis</p>
+        <lg>
+          <l><lb/>Les amis de l'heure présente</l>
+          <l><lb/>Ont le naturel du melon ;</l>
+          <l><lb/>Il en faut essayer cinquante</l>
+          <l><lb/>Avant d’en rencontrer un bon.</l>
+        </lg>
+        <ab><lb/>Claude MERME.</ab>
+        <ab><lb/>Source gallica.b.f que ore de ae</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

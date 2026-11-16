@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81362719</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1899-01-27">1899</date>
+          <idno type="ARK">bpt6k81362719</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81362719</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>NOUVENCO ANNADO, N. 291</fw>
+        <dateline><lb/>DIVENDRE, 27 DE JANVIÉ 1899.</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, l bon Prouvençau,<lb/>Au sufrage universau,<lb/>E faren Paisti.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>(Prouverb; di menscound)</ab>
+        <lg>
+          <l><lb/>Segound la vido</l>
+        </lg>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17, 27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI<lb/>au palais dóu Roure<lb/>EN AVIGNOUN</ab>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN</p>
+        <figure type="table"/>
+        <ab><lb/>Baile dou journau<lb/>FOLCO DE BARONCELLI</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>D'asard adoulenti,<lb/>As un pau relenti<lb/>De canta li chatouno;<lb/>Mai la roso boutouno...<lb/>— Dau, veici li jour bèu,<lb/>Dis la muso, e lis ame !_<lb/>Tauboures, e lèu lèu<lb/>Vounvouno toun Eissame.<lb/>Bèu decan di Felibre!</ab>
+        <ab type="head"><lb/>PÈR SaNt BLAi</ab>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Ta quatre-vingt-cinq an</l>
+          <l><lb/>Qu’emé tu, bèu decan,</l>
+          <l><lb/>Toun patroun se regalo :</l>
+          <l><lb/>Pièi t'espincho à la calo</l>
+          <l><lb/>Cercant de poulit vers,</l>
+          <l><lb/>Qu'em'ain gaubi de mèstre</l>
+          <l><lb/>E noun pas disavert</l>
+          <l><lb/>Acampes en grand destre.</l>
+        </lg>
+        <lg>
+          <l><lb/>De tóuti bèn ama,</l>
+          <l><lb/>E jamai desmama</l>
+          <l><lb/>Di poutoun de la muso,</l>
+          <l><lb/>Emé li lagramuso</l>
+          <l><lb/>Tenchusclant de soulèu</l>
+          <l><lb/>E bevènt d'aigo fresco,</l>
+          <l><lb/>De rustique tablèu</l>
+          <l><lb/>Adournères ta Bresco.</l>
+        </lg>
+        <lg>
+          <l><lb/>Poussa pèr un bon vènt</l>
+          <l><lb/>Partes pèr Betelèn</l>
+          <l><lb/>Emé pastre e pastresso,</l>
+          <l><lb/>E nous fas la souspresso</l>
+          <l><lb/>De tourna d'eilavau</l>
+          <l><lb/>Em' uno broucaduro</l>
+          <l><lb/>De sieissanto Nadau</l>
+          <l><lb/>Riche d'atrencaduro.</l>
+        </lg>
+        <lg>
+          <l><lb/>Tout acò simplamen,</l>
+          <l><lb/>Souto un blu fiermamen</l>
+          <l><lb/>Que tout pensaire amiro,</l>
+          <l><lb/>Arpejant sus ta Liro,</l>
+          <l><lb/>D'escoundoun, sènso brut....</l>
+          <l><lb/>Mai l'aureto babiho,</l>
+          <l><lb/>Lis ecò parlon drud,</l>
+          <l><lb/>E viéu lou diamant briho.</l>
+        </lg>
+        <lg>
+          <l><lb/>Basto, que longo-mai,</l>
+          <l><lb/>Entaula, pèr Sant Blai,</l>
+          <l><lb/>Bèl ami, iéu te vegue,</l>
+          <l><lb/>E galoi peréu begue,</l>
+          <l><lb/>Sempre mai encanta</l>
+          <l><lb/>De ti vers, de ti libre,</l>
+          <l><lb/>A ta bono santa,</l>
+        </lg>
+        <ab><lb/>Moumié Marcelin.</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>Intermèdi prouvençau clava per lou Trin de Sant-Giniés<lb/>per B. Bonneoille, de Marsiho.<lb/>vengu de Brest.</ab>
+        <ab type="head"><lb/>CE QU'ESPERAVIAN PAS</ab>
+        <ab type="head"><lb/>Jan-Pèire vengu de Brest</ab>
+        <p><lb/>L'autour de «Jan-Pèire vengu de Brest» es aquéu<lb/>Bautezar Bonnet-Bonneville, que fuguè direitour dóu<lb/>Tiatre de Marsiho en 1783, que pièi, souto la Revoulu-<lb/>cioun, se desvelè empresàri e braguetian di primo car-<lb/>tello e fagué 'n francés tant de marrit vers, coume n'avié<lb/>fa de poulit dins la lengo maire.</p>
+        <p><lb/>Verai de dire que lou prouvençau ero tant-sié-pau<lb/>souspèt souto la Terrour. A la fin de 93. la soucieta<lb/>poupulàri ! aduguè 'no moucioun ounte la coumèdi de<lb/>.<lb/>Pelabon: Lou groulie bèl esprit, se disié qu'ero inmour¬</p>
+        <p><lb/>En seguido, lou 23 de flouriau de l'an II, lou counsèu<lb/>de vilo de Marsiho counvenguè d'escriéure i direitour<lb/>di tiatre «pour interdire la représentation des pièces en<lb/>provençal, l'unité des Français devant exister jusque dans<lb/>leur langage ». Mai la vièlo vouguè pas mouri ; la pèço<lb/>de Pelabon, estampado pèr lou proumié cop en Avignoun<lb/>en 1790, aguè, mau-despié de tóuti, set edicioun de 1792<lb/>à 1805. Encuei n'a vint-e quatre.</p>
+        <p><lb/>L'on pou afourti qu'au slècle dès-e-vuechen, s'es rèn<lb/>passa de vertadieramen poupulàri en Prouvènço em' en<lb/>Franço, sènso qu'un d'ésti bon Prouvençau que n'avèn<lb/>tant á Marsiho faguèsse sus l'evenimen un intermèdi,<lb/>coume se disié alor, un à propos coume se dis aro. Aco-<lb/>d'aqui se jougavo au tiatre, emé l'opera qu'èro de modo,<lb/>is aplaudimen d'un publi que s'enchalié dou snobisme,<lb/>d'abord que noun sabié co qu'èro. D'aquélis intermèdi,<lb/>n'en couneissèn forço estampa vo manuscri, e lou tiatre<lb/>poupulàri en Prouvènço au siècle XVIIIen sarié 'n<lb/>estûdi qu'es de souveta que siegue fa.</p>
+        <p><lb/>Quouro se sachè la bello vitòri de l'amirau d'Estaing<lb/>que, lou 4 de juliet de 1779, emé trege-cènt bon fenat<lb/>ounte l'avié bello chourmo de Prouvençau, prenguè is<lb/>Anglés l'iscio de la Granado, faguè sèt-cènt presounié,<lb/>levè tres drapèu, de canoun, e bouté si grapin sus trento<lb/>bastimen, que pièi, lendeman, couchè l'escadro de l'a-<lb/>mirau Biron que n'aujè pas fare tèsto, quouro s'aprenguè<lb/><lb/>aquéu grand triounfle, leu-leu Bonnet-Bonneville, bono<lb/>voio, fagué 'n intermèdi, e se devino que faguè 'n pichot<lb/>cap d'obro de naturau e de simplesso prouvençalo. Aquelo<lb/>peceto qu'anas legi, fuguè representado de segur en<lb/>1780, estampado en 81, e desempièi talamen aplaudido<lb/>emai legido que se n'en fasié encaro d'edicioun e de re-<lb/>presentacioun en 1790.</p>
+        <p><lb/>Es Bonnet-Bonneville que jougavo Jan-Pèire e, co que<lb/>provo mai que tout l'ounour ounte se tenié la lengo prou-<lb/>vençalo, saubrés que Misè Ponteuil, la prima donna dóu<lb/>tiatre de Marsiho, la cantairis que la pagavon 8.000 lléuro<lb/>l'annado, pounchejavo, coume veirés, à la fin de la pèço,<lb/>noun se vergougnadt de canta soun galant coubletoun.<lb/>Anas un pau demanda tau service au grand proumié<lb/>role dóu tiatre de Pertus vo de Bargemoun ; anas un pau<lb/><lb/>lou faire parla patois davans lou mounde.... Acò 's belèu<lb/>la lèi de la naturo : dóu-mal sias bas, dóu mal sias fier ;<lb/>un Pau Mounet saup belamen parla la lengo de Mistral ;<lb/>en capitalo de Prouvènço n'l'a que va sabon gaire.</p>
+        <p><lb/>Aro, leitour ami, se voclès counèisse lou viêi parla<lb/>marsihés emé sa pleno sabo, legissès l'intermédi de<lb/>Bonnet-Bonneville : Ce qu'esperavian pas, vo Jan-Peire</p>
+      </div>
+      <div type="article">
+        <p><lb/>MESTE NOURAT, bastidan, paire de Madaleno.</p>
+        <p rend="styled"><lb/>JAN-PKIRE, matelot, revenènt de Brest, proumés à Mada-<lb/>MADALENO, jouino bastidano.</p>
+        <p rend="styled"><lb/>Se passo dins uno bastido deu quartié de Sant-Giniés.</p>
+        <ab type="head"><lb/>SCENO PROUMIERO</ab>
+        <ab type="head"><lb/>MESTE NOURAT, en abi dou dimenche.</ab>
+        <p><lb/>Moun rêire-segne-grand avié bèn resoun de mi dire:<lb/>« Nourat ! vaudrié mai garda un escabouet d'avé, qu'uno<lb/>fiho que coumenço d'estre maduro. » Quand ma pauro<lb/>Faleto mourè, mi leissè pèr touto meinaio un pelau<lb/>(coumo si dis) qu'es aquesto fiho que ai : mai, despuel<lb/>que lan-Pèire, moun fihòu, es parti pèr lou servici de<lb/>noueste bouen Rèi, si pòu parla à-n-aquelo pichouno que<lb/>noun fasse lei brego. Es jauno coumo un coudoun;<lb/>manjo plus, e quatecant que auve lou noum de Jan-<lb/>Pèire soun pretendu, jito de lagremo grosso coumo de<lb/>jaisso. Es au-jour-d'uei lou Trin d'esto quartié ; veiren<lb/>un pau se si requenquihara uno brigo. Vèni de prega<lb/>Mèste Nicoulau, un dei Priéu, pèr que li vèngon touca<lb/><lb/>l'aubado ; vouéli que si reviscouele un pau lou couer.<lb/>Entanterin, veguen se m'a alesti moun dejuna (Vai à la<lb/>porto de loustau.) Mai, qu'es eiçoto? La pouerto es sar-<lb/>rado! (Sono.) Madaleno... O Madaleno !.. L'es pas...<lb/>Mounte sara anado? Ero encaro au lié quand sléu sourti<lb/>esto matin à quatre ouro... Piquen enca 'n pau... Belèu<lb/>que douerme... (Crido plus fort.) Madaleno !.. O Mada-</p>
+        <ab type="head"><lb/>MÉSTE NOURAT, MADALENO</ab>
+        <p><lb/>MADALENO, (de luen). — Vèni, moun paire, vèni.</p>
+        <p><lb/>NOURAT. — E mounte siés?</p>
+        <p><lb/>MADALENO, courrènt de-vers soun paire emé la plus<lb/>grand jolo.) — Souérti de l'oustau de Moussu Bacèu lou<lb/>mèstre d'escolo, pèr mi fa legi uno letro que lou fiéu de<lb/>Mèste Guihéume m'a pourta de Jan-Pèire: soun arriba<lb/>ensemble esto nue de Brest. Jan-Pêire a coucha encò<lb/><lb/>de sa maire e m'a fa dire que l'esperessian pèr de-<lb/>juna. Oh! moun paire! que siéu countènto! Nous<lb/>maridarés lèu, pas verai? Mi poussédi plus ; venès que<lb/>v'embràssi de tout moun couer.</p>
+        <p><lb/>NOURAT. — Cadediéuri, que joio !... Anen, mi fa plesi.<lb/>Aquéu paure Jan-Pèire! Faras plus lou mourre, aro<lb/>que lou vas vèire?</p>
+        <p><lb/>MADALENO. — Oh! que nani ! Sabès que l'a tres an<lb/>que l'ai pas vist?</p>
+        <p><lb/>NOURAT. — Anen ! coumo tardara gaire, val-t'en lèu<lb/>alesti lou dejuna. Tirasso un pau de bacaiau sus lel cèn¬<lb/>dre, netejo quauqueis anchoio, sièis pebroun, e tiro un¬<lb/>gros pechié de vin.</p>
+        <p><lb/>MADALENO, courrènt. — Li vau, moun paire.</p>
+        <p><lb/>NOURAT l'artestant. — Vagues pas tant vite. Avèn enca<lb/>de sardo dins l'armàri?</p>
+        <p><lb/>MADALENO. — O, moun paire, n'a un gros troues.</p>
+        <p><lb/>NOURAT. — Eh ! bèn, bouto lou sus taulo, vouéli que<lb/>vuei fagues boumbanço.</p>
+        <p rend="labelled"><lb/>MADALENÒ. — Oh ! moun paire, es un jour de Calèno<lb/>per iéu ; mai quand n'aurian qu'uno cebeto, emé Jan<lb/>Péire mi semblara 'n béco-figo. (Intro dins l'oustau.)</p>
+        <ab><lb/>So/Bie </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

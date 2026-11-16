@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136227w</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1897-11-17">1897</date>
+          <idno type="ARK">bpt6k8136227w</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136227w</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>N, N DE NOUVÉMBBE 1881.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>SETENCO ANNADO, NMe</ab>
+        <ab><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr l'òli<lb/>E faren Paisti.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.</ab>
+        <ab><lb/>(Prouveres de me</ab>
+        <ab><lb/>F. MISTRAL.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PÈR MES (7, 17,27)</p>
+        <figure/>
+        <ab><lb/>PRES DE L'ABOUNAMEN</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI<lb/>au palais dóu Roure,<lb/>EN AVIGNOUN</ab>
+        <figure type="table"/>
+        <ab><lb/>Baile deu journau<lb/>FOLCO DE BARONCELLY<lb/>aqui que sounjon à encaparra la Franço o la<lb/>catoulicita, (car coumprenon qu'afourtisse<lb/>seriousamen ma fe à la futuro grandour d'a-<lb/>quelo vilo, porto dón plus dous di repaire), e<lb/>countuniaran que mai sa campagno contro lis<lb/>injustiço, li pretencioun e la tiranio dóu Feli-<lb/>brige prouvençau. E auran tort. Dequé nous<lb/>reprochon ? De voulé impausa noste dialèite à<lb/>tout lou Miejour, de leissa dins l'óublit tout ço<lb/>que noun es prouvençau e, chaupinant l’is-<lb/>tòri e la geougrafio, de douna au mot Prou-<lb/>vènço uno espandido que tènd à supremi li de<lb/>Gascougno, Lengadò e Limousin. Veguen!</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Mau-grat de precursour coume Jaussemin,<lb/>es indiscutible que lou sentimen dou reviéure<lb/>de la raço es nascu 'n Prouvènço emé Mistral<lb/>e qu'avans que s'aubourèsse lou cantaire de<lb/>Mirèio, nòsti pouèto, Roumaniho éu-meme,<lb/>poudien lou teni counfusamen dins soun cor,<lb/>mai l'avien pas manifesta. Mistral, counsciènt<lb/>de sa messioun, coumprenguè que se devié,<lb/>noun à sa prouvinço, mai à la raço entiero d'O,<lb/>e meravihous d'agissènço reviharello sourti¬<lb/>guè lèu dóu pais d'Arle e d'Avignoun, e dins<lb/>tout lou Miejour esparpaiè la memo paraulo.<lb/>Es ana ounoura Clemènço Isauro e lou pouèto<lb/>di Papihoto, a recourda en terro albigeso<lb/>li martir de la patrio, en chasco prouvinço a<lb/>celebra si glòri passado e lis a tóuti unido<lb/>en uno memo esperanço ; dins chascuno a<lb/>parla la siéuno lengo prouvençalo e 'n se fa¬<lb/>sènt coumprendre a fa coumprendre peréu<lb/>que sian noun soulamen de la memo souco,<lb/>mai uni gran d’un meme age de rasin.</p>
+        <p><lb/>Mai a jamai di i Toulousen o i Gascoun:<lb/>Fau deleissa vòsti dialèite e escriéure lou<lb/>parla di ribo dóu Rose:</p>
+        <p><lb/>Que quauqui felibre desiron lou triounfle<lb/>de noste dialèite sus tóuti li vesin, acò 's au-<lb/>tro causo ; chascun pòu avé, à-n-aquéu sujèt,<lb/>soun óupinioun persounalo, e l'apara; l'im-<lb/>pourtant, lou necite, es que l’imparcialeta dóu<lb/>Capoulié e dou Counsistòri doumine tóuti lis<lb/>escolo e mantèngue soun unioun. Lou Ca-<lb/>poulié qu'aro presido li Santo-Estello agis<lb/>coume si dous predecessour, quouro nous<lb/>coundus en Limousin, Auvergno e Lengadò ;<lb/>fai de bèu discours prouvençau, e acò, despièi<lb/>de si libre, es sa forço; aquéli que nous ata-<lb/>con ié respondon trop souvènt en francés, e<lb/>acò fai sa feblesso, en empachant que siegon<lb/>pres au serious.</p>
+        <p><lb/>Meiour sarié que nòstis ami de Toulouso,<lb/>liogo de se degaia en de prejit rancurèu, lu¬<lb/>chèsson contro li prouvençau qu'em' uno no-<lb/>blo emulacioun pèr lou triounfle d'uno Causo<lb/>qu’es siéuno autant que nostro; meiour sarié<lb/>que se demandèsson ço que ié fauto pèr lou¬<lb/>prougrès, en soun pals, d'aquelo Causo. Co<lb/>que ié manco, es pas tant li pouèto e li sabènt<lb/>que d'ome fervourous qu'anon faire clanti<lb/>lou verbe d'O pertout ounte dèn segnoureja.<lb/>Pèr que m'acuson pas de trop mounta sus ma<lb/>figuiero prouvençalo, ié dirai un eisèmple plus<lb/>proche d'éli : que coumparon ço qu'a fa pèr<lb/>nosto Reneissènço e ço qu’a óutengu M. Ro-<lb/>que-Ferrier, un sabènt de-segur, emé li re-<lb/>sultat que devèn à noste carissime Arna-<lb/>vielle, qu'à respèt dóu presidènt dóu Felibrige<lb/>latin es un ignourènt, mai qu’em' uno elou¬<lb/>quènci naturalo a l'amour cremant e miracle-<lb/>Sant e la pleno inteligènci de la Causo ; e que<lb/>chausigon entre l'un e l'autre. Arnavielle se<lb/>plan pas de la tiranio d'Avignoun, e pamens<lb/>Se n'l'a un que se cresegue meiour lengadou¬<lb/>cian, qu'ause s'auboura !</p>
+        <p><lb/>Lou bon raiòu vous fara coumprendre lou<lb/>ridicule dis acusacioun que se prejiton aro e<lb/>vous dira que chascun farié miés de se gari<lb/>de si deco pèr armounisa l'obro coumuno...<lb/>Se separa di pronvençau ! E après ? Clama<lb/>Péthéréenne et inébranlable blancheur de vòsti<lb/>pouèto? E après?... Boutas, es pas emé de<lb/>poulemico franceso dins uno revisto lenga¬<lb/>douciano que farés l'empèri ; es de bachi-<lb/>quello qu'apounchon pas un fus. Es pas en<lb/>escoundènt vosto naturalo parladuro quand<lb/>voulès vous faire coumprendre que crea-<lb/>rés l'atmousfèro ounte dèu s'abari lon Pouèto<lb/>qu’esperas. Es pas em' uno campagno de<lb/>prèsso en uno lengo autro que vosto « moun-<lb/>dino » que demenirés la resplendour dóu<lb/>mot Prouvenço.</p>
+        <p><lb/>Car vès-eici la majouro dis acusacioun que<lb/>nous mandon : parèis qu'avèn fa prene i gènt<lb/>l'abitudo de douna lou noum de literaturo<lb/>prouvençalo à tóuti li literaturo d'O. Acò 's<lb/>un pau verai ; mai es pas nautri que l’avèn<lb/>impausado, es lou counsentimen dóu mounde<lb/>entié. Gramaci aquéu que la Terre d'Oc en<lb/>soun francés fignoula noumo le maitre specta¬<lb/>culeuæ, gramaci Aubanèu, Roumaniho e Gras,<lb/>gramaci uno predestinacioun que vèn pas dis<lb/>ome e tambèn uno belesso dóu cèu, dóu cam-<lb/>pèstre e dis aigo quo fan de nosto terro un<lb/>avans-paradis, Prouvènço trelusis, escandiho<lb/>subre lis àutri pais d'O. S'acò 's uno tiranlo,<lb/>n'avèn supourta 'no pariero quand dins l'Age-<lb/>Mejan li Limousin nous impausavon soun<lb/>noum (1), e (co que fasèn pas, nautre !) soun</p>
+        <p rend="labelled"><lb/>(1) Totz hom qe vol trobar ni entendre deu primierament<lb/>saber qe neguna parladura no es tant naturals ni tant drecha<lb/>del nostre lingage com aqela de Proenza o de Lemosi o de<lb/>Saintonge o d'Alvergna o de Caerci. Per qe ieu vos dic que<lb/>qant ieu parlarai de Lemosis, qe totas estas terras entendas e<lb/>totas lor retinas.</p>
+        <ab><lb/>RaMON VIDAL (Lax Rasos de trober.)</ab>
+      </div>
+      <div type="article">
+        <head><lb/>SUS QUAUQUI PLAGNOUN TOULOUSEr</head>
+        <lg>
+          <l><lb/>1, de Toutones</l>
+        </lg>
+        <p><lb/>T'A d'idèio qu'à peno eissaurado an uno mul-<lb/>tiplo realisacioun. D'autri varaion coume<lb/>d'armeto sèns emparo à travès di siècle e di<lb/>pais, esperant pèr èstre realisado d'arrescoun-<lb/>tra lis ome e li moumen que ié counvènon, e<lb/>n’es ansin di proufecio sus Avignoun qu’an<lb/>courregu lou mounde. Quand li Papo quitè-<lb/>ron nosto ciéuta, leissant uno longo semeniero<lb/>de trelus, uno esperanço sourgentè de l'amo<lb/>dóu pople desoulado que, s'endevenènt emé<lb/>li pressentimen e li vesioun d'endevenidou que<lb/>Diéu mando de-fes à quauquis-un, faguè dire<lb/>à tóuti : «Es pas de-bado que fuguerian capi-<lb/>talo dóu mounde crestian ; ço que s'es vist se<lb/>reveira. » E d’aquéu jour l'aguè 'n mistèri<lb/>dins la lumiero qu’agouloupo nòsti bàrri.</p>
+        <p><lb/>Desempièi que Nostradamus a escri, l'es.<lb/>peranço a tonjour resta dins aquelo amo ; li<lb/>vièis Avignounen e li pacan dóu terraire à<lb/>l'entour creson à la proufecio ; li badau soul<lb/>que creson soulamen ço que legisson dins<lb/>soun journau an perdu la fe, car li journalisto<lb/>parlon pas d’aquéli causo, trop óucupa que<lb/>soun à counta tóuti li detai dóu raubatòri dóu<lb/>prince de Sagan o à descriéure un nouvèu<lb/>coulas de la bello Otero, e van pas interviewer<lb/>li pastre que, silencious, dins li niue d'estiéu<lb/>legisson, éli, lis estello.</p>
+        <p><lb/>Adounc la proufeclo que, pariero à-n-uno<lb/>Idèio platounenco, sèmpre viéu sus nòsti<lb/>tèsto, a agu 'n refoulèri, a vougu se faire ausi<lb/>d'aquéu publi badalas, e, ma fisto, a pres lou<lb/>meiour biais ; a fusa vers Paris, e pan ! es<lb/>anado turta lou front de madamisello Coues-<lb/>don qu’a subran anouncia qu’Avignoun dèu<lb/>deveni la capitalo de la Franço...</p>
+        <p rend="labelled"><lb/>— Alor, m'anas dire, cresès à l'ange Grabié<lb/>d'aquelo folo?<lb/>- S'agis pas d'acò ! Me n'en mesfise belèu</p>
+        <p rend="labelled"><lb/>mai que vous ; mai cresiéu, avans, à la prou¬<lb/>fecio, e aro que la Couesdon a parla, ma cre-<lb/>senço es ni majouro ni mendro... Mai digas-<lb/>me perqué a chausi Avignoun ! Es uno pari-<lb/>senco, e se counèis nosto vilo, es soulamen pèr<lb/>l'avé visto dins de libre d'image. Perqué dounc<lb/>Avignoun e pas Scèus o Pantin que ié soun<lb/>mai famihié ?.. Acò 's l'èr, vous dise, e tard<lb/>o lèu davalara.</p>
+        <p><lb/>Vese parpeleja de fellbre, subre-tout eila<lb/>dóu coustat de la Garouno. Lis Avignounen,<lb/>van une, epn lou Felibrige, e vès-</p>
+        <ab><lb/>urce gallicabnf.fr/Bibliothe</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

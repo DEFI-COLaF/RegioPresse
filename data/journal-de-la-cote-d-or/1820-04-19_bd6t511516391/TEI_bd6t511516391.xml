@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t511516391</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1820-04-19">1820</date>
+          <idno type="ARK">bd6t511516391</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t511516391</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <ab><milestone unit="column" n="5"/><lb/>(N.° 32)</ab>
+        <figure/>
+        <fw type="numbering">9.e ANNÉE.</fw>
+        <figure type="decoration"/>
+        <fw type="quiremarks"><lb/>i</fw>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>JOURNAL DE LA CÔTE-D'OR,</p>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>DU MERCREDI 19 AVRIL 1820.</p>
+        <p rend="styled"><milestone unit="column" n="4"/><lb/>Domine, salvum fac Regem nostrum Ludovicum.</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>— La Commission chargée d'instruire le procès<lb/>de l'assassin Louvel s'est de nouveau réunie le 13<lb/>avril au Luxembourg. On croit que les débats de ce<lb/>procès commenceront bientôt.</p>
+        <p><lb/>Nous nous proposons de tenir nos lecteurs au cou-<lb/>rant des détails de cette cause fameuse.</p>
+        <p rend="labelled"><lb/>– « Le 2 avril dernier (dit La Feuille hebdoma-<lb/>daire de Châtillon-sur-Seine), on a amené dans les<lb/>prisons de cette ville les deux frères Dechelotte, de<lb/>Chambain, prévenus du crime d'assassinat sur la per-<lb/>sonne du nommé Pernet de la même commune. Dans<lb/>ane rixe qui s'éleva entre ces individus, dans un ca-<lb/>baret, le 12 mars dernier, Pernet reçut plusieurs<lb/>coups à la tête: cet homme mourut au bout de trois<lb/>semaines. Le cadavre a été exhumé; le rapport des<lb/>officiers de santé commis par le Tribunal pour pro-<lb/>céder à l'ouverture du corps, a constaté un épanche-<lb/>ment purulent à la base du crâne, correspondant à l’un<lb/>des points de la boîte osseuse où existoient encore<lb/>des traces d'une violence extérieure. »</p>
+        <p rend="labelled"><lb/>—Le tirage de la classe de 1819, pour les trois<lb/>cantons de Dijon, aura lieu, à l'hôtel-de-ville, à<lb/>neuf heures du matin; savoir: pour le canton (Quest)<lb/>le jeudi 20 avril courant; pour le canton (Est), le<lb/>vendredi 21 ; et pour le canton (Nord), le sa-<lb/>medi 22.</p>
+        <p><lb/>Le premier de ces cantons fournira 15 hommes;<lb/>le second, 17; et le 3.^e, 18 : en tout 50 hommes.</p>
+        <p rend="labelled"><lb/>—Les artistes du grand théâtre de Lyon, qui de-<lb/>puis quelque temps s'étoient réunis à la troupe de<lb/>M. Fleuriet, sont partis ce matin pour retourner à<lb/>Lyon. Ils emportent les regrets du public qui a payé<lb/>aux talens distingués de la plupart d'entre eux, un<lb/>tribut constant d'applaudissemens et de témoignages<lb/>de satisfaction.</p>
+        <p rend="labelled"><lb/>—Hier, un de nos acteurs dans lequel le public<lb/>estime un heurenx talent, a semblé chercher à éprou-<lb/>ver jusqu'à quel point il pouvoit compter sur l'indul-<lb/>gence des spectateurs. Sans doute le talent a le droit<lb/>de jouir d'une certaine indépendance; mais ce droit<lb/>a des bornes qu'un acteur ne peut franchir sans qu’il</p>
+      </div>
+      <div type="article">
+        <head><lb/>INTERIEUR.</head>
+        <p rend="styled"><lb/>Dijon, 18 avril.</p>
+        <ab type="head"><lb/>PRÉFECTURE DE LA CÔTE-D'OR.</ab>
+        <p><lb/>Le Préfet invite les individus qui aspirent au titre<lb/>d'officier de santé, de pharmacien, de sage-femme.<lb/>d’herboriste, à lui faire parvenir sans aucun retard<lb/>leur déclaration par écrit (par la voie de MM. les<lb/>maires de leurs communes s’ils résident dans l'arron-<lb/>dissement de Dijon, et s'ils résident dans d’autres ar-<lb/>rondissemens, par celle de MM. les sous-préfets),<lb/>sur l'intention où ils sont de se présenter aux exa-<lb/>mens lors des séances du Jury médical, dont l'époque<lb/>leur sera notifiée à domicile.</p>
+        <p><lb/>Fait à Dijon ce 4 avril 1820.</p>
+        <p><lb/>— PROGRAMME des connoissances qui seront<lb/>exigées au concours de 1820, qui aura lieu dans<lb/>les mois d'août et septembre, pour l’admission des<lb/>candidats à l’Ecole militaire de Saint-Cyr (1).—<lb/>1.° Les langues française et latine; — 2.° L'arith-<lb/>métique complète, comprenant l'extraction des ra-<lb/>cines, les proportions, leurs applications, les loga-<lb/>rithmes, l'exposition du nouveau systême métrique;<lb/>— 3.° La géométrie élémentaire comprenant les<lb/>lignes, les surfaces et les solides; — 4.° Les élé-<lb/>mens de la géographie ; — 5.° Le dessin de la tête ;<lb/>— 6.° Une écriture correcte. — Les candidats expli¬<lb/>queront, en présence de l'examinateur, quelques<lb/>passages des auteurs latins de la force de ceux qui<lb/>sont en usage jusqu'à la seconde inclusivement; ils<lb/>seront en outre, sous ses yeux, une version latine et<lb/>une narration française dont il aura donné le sujet.<lb/>— Ils copieront l'esquisse d'une tête. — Ils répon¬<lb/>dront, au tableau, aux questions qui leur seront<lb/>faites par l'examinateur, sur les mathématiques et la<lb/>géographie.— L'examinateur ne pourra exiger que les<lb/>connoissances énoncées dans ce programme ; mais,<lb/>dans le classement des élèves par ordre de mérite, il<lb/>aura égard aux connoissances plus étendues que<lb/>pourront avoir quelques candidats.</p>
+        <p rend="labelled"><lb/>— Les régimens des hussards du Jura, des chas-<lb/>seurs des Alpes et des Vosges, ayant atteint le com¬<lb/>plet qui leur étoit assigné, S. Exc. le Ministre de la<lb/>guerre a décidé que, jusqu'à nouvel ordre, les indi¬</p>
+        <note>
+          <p rend="labelled"><milestone unit="column" n="1"/><lb/>(1) Un avis ultérieur fera connoître l'époque précise où<lb/>les examens auront lieu dans chacune des villes où il existe<lb/>un collége royal.<lb/>vidus qui voudroient s'enrôler volontairement dans<lb/>ces corps, ne pourroient être admis à contracter d’en-<lb/>gagement que sur la présentation d'un certificat du<lb/>Conseil d’administration constatant que l’effectif per¬<lb/>met de les y recevoir.</p>
+        </note>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="126"/>
+        <ab><milestone unit="column" n="1"/><lb/>Mariages. Du 17. F. Papinot, commis, et M. Bau¬<lb/>repero. F. Beline, notaire à Vittenux, et C.</ab>
+        <ab><lb/>y ait anarchie. Le public est là pour juger; si l'on liés en veau, portrait ; Dictionnaire de Moréri,<lb/>veut appeler de son jugement, c'est encore devant<lb/><lb/>lui que l'appel doit être porté, et ce n'est qu'en<lb/>faisant mieux qu'on peut espérer qu'il se réformera.<lb/>Dans aucun cas, le ressentiment d'une prétendue<lb/>Anjustice de la part du parterre ou de quelques-uns<lb/>2<lb/>des individus qui le composent, ne peut se mani-<lb/>fester avec éclat sans qu'il en résulte une irrévérence<lb/>coupable envers l’assemblée respectable qui vient<lb/>chercher au théâtre un honnête passe-temps.</ab>
+        <p><lb/>Si nous n'en disons pas davantage, c’est par un<lb/>principe de bienveillance pour l'acteur que nous<lb/>avons en vue; s'il est juste, il appréciera notre<lb/>réserve.</p>
+        <p rend="labelled"><lb/>A VENDRE. — MAison située à Dijon, rue<lb/>Maison-Rouge, n.° 26, dépendant de la succession<lb/>de la dame veuve Villain, à vendre avec facilités pour<lb/>Je paiement, en l'étude de M.e GAULOT, notaire à<lb/>Dijon, rue Saint-Étienne, le dimanche 23 avril pré-<lb/>sent mois, à midi.</p>
+        <p rend="heading"><lb/>ANNONCES ET AVIS DIVERS.</p>
+        <p><lb/>Elle consiste en une grande cave; plusieurs pièces<lb/>et cabinets au rez-de chaussée; même répétition au<lb/>premier; grenier dessus, cour où il y a un hangar,<lb/>puits, chambre à faire la lessive, et fosses d'aisances.<lb/>Elle peut être habitée par deux locataires. On entrera<lb/>en jouissance de suite d'une partie.</p>
+        <p rend="labelled"><lb/>A VENDRE. — MAISON PATRIMONIALE, à<lb/>Dijon, rue Saumaise, n.° 20, à vendre en l'étude du<lb/>même notaire.</p>
+        <p><lb/>Cette maison est en bon état; elle a une issue sur<lb/>la rue Saumaise et une autre sur la rue Dubois, et<lb/>consiste en plusieurs caves, un premier et second<lb/>étage, avec grenier dessus, et autres dépendances qui<lb/>en rendent l'habitation commode, même à plusieurs<lb/>locataires.</p>
+        <p rend="labelled"><lb/>A LOUER, MAIsON, à Dijon, rue du Cha-<lb/>net, N.° 18, pour entrer en jouissance de suite.<lb/>S'adresser, pour la voir, à Mme veuve JOLIET,<lb/>vis-à-vis, ou à Mme. veuve RIGOLLIER, maison des<lb/>Dames de Sainte-Marthe, rue de la Préfecture.</p>
+        <p rend="labelled"><lb/>A VENDRE (LIVRES).— Le lundi 24 avril<lb/>courant, et jours suivans, à six heures du soir, en<lb/>la salle de vente de M. MORISOT-BOUCHU, Commis-<lb/>saire-priseur, place de la Commune, à Dijon, il<lb/>sera procédé à la vente des livres provenant de la<lb/>bibliothèque de fen M. LIGERET, de Semur.</p>
+        <p><lb/>Cette bibliothèque est composée d'environ trois<lb/>mille volumes de bons ouvrages de théologie, juris-<lb/>prudence, sciences et arts, belles-lettres, histoire,<lb/>etc. — On y romarque les OEuvres de Voltaire, 70<lb/>vol. in-8.°, figures, bien reliés; OEuvres de J.-J.<lb/>Rousseau, in-8.°; Théâtre des Grecs, du Père<lb/>Brumoi, 13 vol. in-8.°; Antiquités de Montfau¬<lb/>con, 1719, 10 vol. in-fol. reliés; Plutarque, tra-<lb/>duction d'Amyot, 25 vol. in-8.° ; Sermons de Mas-<lb/>sillon; Pandectes de Pothier, 3 vol. in-fol.; En-<lb/>cyclopédie de Genêve, 39 vol. in-4.°, brochés en<lb/>carton; Dictionnaire de Trévoux, 8 vol in-fol.;<lb/>Histoire de France, de Velly, 15 vol. in-4.°, re-<milestone unit="column" n="2"/><lb/>10 vol. in-fol., bonne édition; etc.</p>
+        <p><lb/>On peut prendre connoissance du catalogue déposé<lb/>chez M. Victor LAGIER, libraire, rue Rameau,<lb/>chargé de diriger la vente.</p>
+        <p rend="labelled"><lb/>DÉPOT D'ÉTALONS.— M. DONET, Pro¬<lb/>priétaire à Saulieu, prévient les propriétaires de<lb/>jumens qu'ils destinent à la reproduction, qu’il vient<lb/>de recevoir du haras royal de Cluny, trois étalons<lb/>pour la monte de 1820, savoir:</p>
+        <p rend="labelled"><lb/>Le Sesostris, étalon de selle, extrait du Sesostris<lb/>arabe;</p>
+        <p rend="labelled"><lb/>L'Estimé, étalon de selle, du haras royal de<lb/>Danemark;</p>
+        <p><lb/>Le Guerrerot, fort étalon de selle, extrait du<lb/>Guerrerot, du haras de Pompadour.</p>
+        <p rend="labelled"><lb/>— THÉATRE DE DIJON. — M. CRARLES, di¬<lb/>recteur privilégié. — Les artistes dramatiques socié-<lb/>taires du 16.e arrondissement, sous la régie de MM.<lb/>Delille et Mériel (pour l'année théâtrale de 1820 à<lb/>1821), ont l’honneur de prévenir le public, qu'ils<lb/>feront leur premier début du 21 au 25 avril. MM.<lb/>Delille et Meriel n’ont rien négligé pour former une<lb/>troupe complète. Ils osent espérer, par leur zèle et<lb/>leur travail assidu, varier les plaisirs des amateurs.<lb/>Leur répertoire sera composé des chefs-d'œuvre des<lb/>meilleurs auteurs tragiques et comiques ; de vaude¬<lb/>villes du théâtre de la rue de Chartres, et de quel¬<lb/>ques-uns du théàtre du Panorama. Ils s’empresseront<lb/>de monter les nouveautés qui auront obtenu des suc¬<lb/>cès sur les théâtres de la capitale, et notamment<lb/>Marie Stuart: Ils apporteront le plus grand soin à la<lb/>mise en scène de cet ouvrage. Enfin, tous les artistes<lb/>redoubleront d’efforts pour tâcher de mériter les suf¬<lb/>frages des habitans de cette ville.</p>
+        <p><lb/>MM. Masson, premiers rôles; Remy, jeunes<lb/>premiers; Eugène, troisièmes amoureux; Mériel,<lb/>pères nobles; Terrier, financiers; Saint-Julien,<lb/>premiers comiques; Delille, seconds comiques;<lb/>Henri, troisièmes rôles, grands raisonneurs; Rogu,<lb/>seconds comiques; Achilles, grandes utilités.</p>
+        <p><lb/>Mesdames: Marsange, premiers rôles; Talon,<lb/>jeunes premières; Eugénie, Ingénuités; Masson,<lb/>soubrettes; Henri, mères nobles, caractères; Mé¬<lb/>riel, idem; Tertier, deuxièmes soubrettes; Ter-<lb/>rier (Adèle), troisièmes amoureuses; Terrier<lb/>(Georgette), rôles d'enfans; Marsange, idem.</p>
+        <p><lb/>M. Vilette, chef d'orchestre. Mme, Dauvergne,<lb/>souffleuse.</p>
+        <p><lb/>Ces acteurs joueront dans la tragédie et le vaude-<lb/>ville, les rôles analogues à leurs emplois dans la<lb/>comédie.</p>
+        <p><lb/>Dimanche prochain, la troupe débutera par Le<lb/>Dissipateur, comédie en cinq actes et en vers de<lb/>Destouches.</p>
+        <p><lb/>Naissances. Du 14 au 18 avril, 4 garçons, 5 filles.</p>
+        <p rend="heading"><milestone unit="column" n="3"/><lb/>NOMENCLATURE DE LA TROUPE.</p>
+        <p rend="heading"><lb/>ÉTAT CIVIL DE DIJON.</p>
+        <pb facs="0003.xml"/>
+        <milestone unit="page" n="127"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>Gelquin. F. Gassy, fabricant de bas, et A. Dubert.<lb/>Décès. Du 15. C. Grisot, veuve Joliet, tailleur de<lb/>pierres, 84 ans. B. Massenot, femme Charles,<lb/>perruquier, 57 ans. – Du 16. C. Mulot, femme<lb/>Pignié, serrurier, 45 ans. M. A. Jarry, femme<lb/>Cousin, marchande de vin, 52 ans. C. A. Mairetet,<lb/>femme Perret, sous-préfet à Beaune, 51 ans. —<lb/>Du 17. R. Cuinet veuve Caroiller, manouvrier,<lb/>80 ans. Trois au-dessous de 20 ans.<lb/> ne minets et chez les mar- l du jour, ou un pes de tomt, a été saisie ches le li</ab>
+        <figure type="table"/>
+        <ab type="head"><lb/>MERCURIALES DE DIJON.</ab>
+        <ab type="head"><lb/>Du 15 avril.</ab>
+        <figure type="table"/>
+        <ab type="head"><lb/>FOURRAGES.<lb/>chands de vin. Voici comment s'exprime à cet égard<lb/>la circulaire:</ab>
+        <p rend="labelled"><lb/>« Ces réunions dites Goguettes, qui toutes pren¬<lb/>nent des titres insignifians, sont composées d'indi-<lb/>vidus animés en général d'un très mauvais esprit.<lb/>Dans la plupart, on chante des chansons, on lit des<lb/>poésies, où, à la faveur et sous le voile de l'allé¬<lb/>gorie, le Gouvernement, la Religion, les mœurs,<lb/>sont également outragés, les choses et les personnes<lb/>également menacées, attaquées. Des lieux consacrés<lb/>au public, uniquement pour la consommation qu’il<lb/>vient y ſaire, sont transformés en véritables clubs,<lb/>où se manifeste hautement l'esprit le plus contraire à<lb/>l'ordre et à la tranquillité. La licence y est souvent<lb/>portée à son comble, etc.»</p>
+        <p rend="labelled"><lb/>— Quelques journaux ont annoncé prématurément<lb/>l'arrivée de M. de Serre; il est certain que S. Exc.<lb/>ne sera de retour dans la capitale que vers les der-<lb/>niers jours d'avril. Sa santé s'est beaucoup améliorée<lb/>à Nice.</p>
+        <p rend="labelled"><lb/>— L'ambassadeur de Perse, arrivé à Paris et logé<lb/>à l'hôtel de Rivoli, rue de Rivoli, doit rester envi-<lb/>ron deux mois dans cette capitale. S. Exc. partira,<lb/>pour se rendre dans les états de son maître, dans le<lb/>courant du mois de juin.</p>
+        <p rend="labelled"><lb/>— La Cour royale d’Aix, en prononçant sur un<lb/>procès qui existoit entre M. le marquis d'Eguille et<lb/>plusieurs particuliers, avoit posé en principe qu’il y<lb/>avoit de la part des acquéreurs de biens nationaux,<lb/>obligation naturelle de rendre ces biens aux anciens<lb/>propriétaires; et, par suite de ce principe, elle<lb/>avoit jugé que les acquéreurs étoient non recevables<lb/>à revenir, pour cause de lésion, contre des reventes<lb/><lb/>qu’ils avoient faites à un descendant de l’ancien pos¬<lb/>sesseur.</p>
+        <p><lb/>Sur la plaidoirie de M.e Nicod, la section civile<lb/>de la Cour de cassation vient de casser l'arrêt de la<lb/>Cour royale d’Aix, pour contravention à l’article 9<lb/>de la Charte constitutionnelle qui, en déclarant<lb/>qu’il n'existe aucune différence entre les propriétés<lb/>dites nationales, et les autres propriétés, ne permet<lb/>pas qu’on puisse regarder les acquéreurs de biens na-<lb/>tionaux, comme soumis à aucune obligation, même<lb/>simplement naturelle, envers les anciens proprié-<lb/>taires.</p>
+        <p rend="labelled"><lb/>— On dit qu’un écrit ayant pour titre: Rognures<lb/>faites au CENSEUR par la Commission de censure,<lb/>et qui a été distribué aux abonnés de cette feuille,<lb/>sous la même bande qu'elle, a été saisi par ordre de<lb/>M. le procureur du Roi, comme étant en contraven¬<lb/>tion à la loi du 31 mars dernier.</p>
+        <p rend="labelled"><lb/>— La Cour d’Assises de Paris, prononçant par<lb/>contumace et sans jurés, a condamné, le 11 avril,<lb/>le sieur Bidault, éditeur responsable du Constitu-<lb/>tionnel, à cinq années d'emprisonnememt et 12000 f.<lb/>d'amende pour un article publié dans cette feuille.<lb/>Le Constitutionnel a annoncé le lendemain, que le<lb/>sieur Bidault étoit dans l'intention de se mettre en<lb/>état de purger sa contumace aux prochaines assises.</p>
+        <p rend="labelled"><lb/>— Une brochure intitulée: Questions à l'ordre</p>
+        <p><lb/>Le 12 avril, à midi, l'état-major et les officiers<lb/>des légions à pied et à cheval de la garde nationale<lb/>de Paris, présentés par M. le maréchal duc de Reg¬<lb/>gio, ont été admis à offrir à S. A. R. MONSIEUR<lb/>leurs félicitations à l’occasion de l’anniversaire de la<lb/>rentrée du prince dans Paris, le 12 avril 1814. Son<lb/>A. R. a répondu à ces témoignages d’attachement<lb/>avec l'affabilité la plus touchante; mais à laquelle se<lb/>mêloit cependant un sentiment de tristesse partagé<lb/>par les officiers de la garde nationale; car, depuis<lb/>l'attentat affreux du 13 février, c'étoit la première<lb/>fois que ce corps avoit l’honneur d’approcher de<lb/>S. A. R.</p>
+        <p><lb/>Le matin, des détachemens de la garde nationale<lb/>à pied et à cheval ont occupé les postes et ont fait<lb/>seuls, pendant vingt-quatre heures, tout le service<lb/>auprès du prince.</p>
+        <p rend="labelled"><lb/>— Une ordonnance du Roi, en date du 6 avril,<lb/>porte que tous payeurs de département, percepteurs<lb/>des contributions directes, receveurs communaux,<lb/>directeurs, inspecteurs et contrôleurs des contribu¬<lb/>tions indirectes, préposés aux tabacs, directeurs, ins-<lb/>pecteurs, receveurs et vérificateurs des douanes, con¬<lb/>trôleurs des canaux, préposés à la navigation et con-<lb/>servateurs des hypothèques qui n’ont point acquitté<lb/>les cautionnemens ou supplémens de cautionnemens<lb/>exigés par la loi de finances du 28 avril 1816, sont<lb/>tenus de le faire dans les deux mois qui suivront la<lb/>publication de la présente ordonnance, ou devront,<lb/>à cette époque, cesser leurs fonctions, sous peine<lb/>d'être poursuivis conſormément aux lois.</p>
+        <p rend="labelled"><lb/>— Une circulaire de M. le Préfet de police, du<lb/>15 mars, charge les commissaires de surveiller les<lb/>réunions de faiseurs de chansons, lesquelles se sont</p>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>NOUVELLES DIVERSES.<lb/>reur du Roi près le Tribunal de la Seine.</p>
+        <pb facs="0004.xml"/>
+        <milestone unit="page" n="128"/>
+        <p rend="labelled"><lb/>— Le Patriote alsacien, qui s’imprimoit à Col¬<lb/>mar, et La Tribune de la Gironde, l'un des jour-<lb/>naux de Bordeaux, ont cessé de paroître. Le der-<lb/>nier est, pour des articles publiés dans cette feuille,<lb/>l'objet de deux poursuites judiciaires sur lesquelles la<lb/>Chambre d'accusation n'a pas encore prononcé.</p>
+        <p rend="labelled"><lb/>—L'Indépendant et Le Censeur viennent, dit-on,<lb/>de se réunir sous le titre commun de Censeur Euro¬<lb/>péen, et assurent qu'ils seront animés du mème es-<lb/>prit.....</p>
+        <p rend="labelled"><lb/>— On a saisi un écrit ayant pour titre: Docu-<lb/>mens historiques, et pour auteurs, MM. Renault et<lb/>Chevalier, rédacteurs de la Bibliothèque historique.</p>
+        <p rend="labelled"><lb/>— M. Depaulis, chargé par le Gouvernement de<lb/>graver la médaille de Louis XVII, et qui en a fait<lb/>une petite copie, vient de publier une médaille du<lb/>duc de Berry, de la même dimension : on retrouve<lb/>également dans les deux médailles, et la ressemblance<lb/>et la perfection du travail. Elles se vendent en bronze,<lb/>1 fr. chacune; en argent, 1 fr. 50 c.; et en or, 15 fr.<lb/>On les trouve à Paris, chez l’auteur, Cloître Notre¬<lb/>Dame, n.° 16; et chez Bouveret, graveur, au Palais-<lb/>Royal, n.° 40.</p>
+        <p rend="labelled"><lb/>— On frappe en ce moment, à la monnoie des mé-<lb/>dailles de Paris, une médaille portant l'effigie de<lb/>S. A. R. M.gr le duc de Berry, et ayant pour revers<lb/>l’inscription suivante:</p>
+        <ab type="head"><lb/>REGIAE PROLIS SPES</ab>
+        <ab><lb/>PATRIAE DECUS ALMAE CONJUGIS AMOR<lb/>SCELESTI FERRO PERCUSSUS<lb/>AETATE FLORENS CECIDIT</ab>
+        <ab type="head"><lb/>DIE FEB. XIV ANNO MDCCCXX.</ab>
+        <ab type="head"><lb/>HEU! NEGARE DEUM EDOCTI, PRINCIPES NECARE</ab>
+        <ab type="head"><lb/>DISCUNT.</ab>
+        <p rend="labelled"><lb/>Cette médaille, de 25 lignes, est du même prix et<lb/>de la même grandeur que celle que l’on consacre en<lb/>même temps à la mémoire des Bourbons qui ont péri<lb/>sous le fer des assassins. On lira sur cette dernière ce<lb/>serment solennel de fidélité au Roi et à son auguste<lb/>famille: Sacramento sodales moriemur pro regno<lb/>Borboniorum!</p>
+        <p><lb/>Ces deux monumens de douleur seront, pour les<lb/>Français, l'occasion de se rappeler sans cesse qu'ils<lb/>doivent être unis dans un sentiment commun pour<lb/>la défense du trône des Bourbons, unique soutien de<lb/>la patrie.</p>
+        <p><lb/>Les demandes venant des départemens doivent être<lb/>adressées au nouveau domicile de l'éditeur, E. Bonis,<lb/>rue de Richelieu, n.° 67.</p>
+        <p><lb/>Les personnes qui ont déjà souscrit, ou qui sous-<lb/>criront à la seconde de ces médailles, qui est de 8 fr.<lb/>en bronze et 40 fr. en argent, ne paieront l'effigie<lb/>avec son revers que 7 fr. et 39 fr.</p>
+        <p rend="labelled"><lb/>— Parmi les objets d’art qui ont paru à l'occasion<lb/>du douloureux événement qui a ravi le Duc de Berry<lb/>à la France, on distingue des bagues et épingles pour</p>
+        <note>
+          <p><milestone unit="column" n="1"/><lb/>A DIJON, CHEZ FRANTIN, IMPRIMEUR DU ROI ET DE LA PRÉFECTURE. 1820.</p>
+        </note>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>braire Corréard, sur la réquisition de M. le Procu-Ihommes et pour dames, qui ont obtenu un succés</ab>
+        <ab type="head"><lb/>MODES.</ab>
+        <figure type="decoration"/>
+        <p><lb/>Les chapeaux blancs sont les plus nombreux; il y en a en<lb/>gros de Naples uni et moiré, en crêpe, en bois blanc et en<lb/>tissu de coton imitant la paille. Les autres couleurs à la<lb/>mode sont le lilas et le citron. Les chapeaux citron se gar¬<lb/>nissent en lilas, et les chapeaux lilas en citron.</p>
+        <p><lb/>Les rubans qui se sont fait remarquer d'abord, étoient à<lb/>pois nués : la mode n'en est point encore passée; mais on<lb/>en porte moins que de rubans cailloutés, ou à dessins imités<lb/>des anciennes mosaïques.</p>
+        <p><lb/>Quelques modistes bordent des chapeaux de paille blanche<lb/>avec des torsades de fleurs de la même espèce, mais de deux<lb/>conleurs.</p>
+        <p><lb/>Les étoffes nouvelles pour gilets sont des piqués blancs,<lb/>chamois, beurre frais, paille, avec des feuilles détachées,<lb/>bleu-de-ciel, lilas, rouille, chamois, etc.</p>
+        <p><lb/>M. Delande, coiffeur breveté pour ses ouvrages, lors de<lb/>la dernière exposition, vient d'imaginer des perruques qu'il<lb/>nomme totcaps, et qui n’employant aucun élastique métal-<lb/>lique et pouvant se desserrer à volonté, sont à la fois très<lb/>saines et très commodes, quoique d'un prix très modéré ;<lb/>elles se trouvent chez l'inventeur seul, à Paris, rue du<lb/>faubourg, Poissonnière, n.° 43.<lb/>mérité, à raison de la parfaite ressemblance des traits<lb/>de cet auguste Prince, dont l'effigie en fait le prin-<lb/>cipal ornement. On se les procure où elles se fabri-<lb/>quent, chez M. Blenne, marchand bijoutier, a<lb/>Paris, rue Saint-Honoré, N.° 185.</p>
+        <p rend="labelled"><lb/>— Le burin et le crayon lithographique ne peuvent<lb/>suffire à satisfaire la douleur publique, qui demande<lb/>de toutes parts l’image du Prince que la France pleure.<lb/>Le funeste événement du 13 février est reproduit<lb/>sous les formes les plus touchantes; dans le nombre<lb/>des compositions les plus intéressantes, on a distin-<lb/>gué l’auguste victime sur son lit de mort, rassem-<lb/>blant le peu de forces qui lui restent, pour demander<lb/>la grâce de son assassin. Ce dessin, d'une vérité frap-<lb/>pante, est recherché avec empressement. On lit au<lb/>bas les quatre beaux vers d’Alzire, qui semblent<lb/>avoir été composés pour peindre l'inépuisable clé-<lb/>mence d’un Bourbon, et d’un Bourbon mort assassiné.</p>
+        <p rend="labelled"><lb/>— La première brochure publiée par la nouvelle<lb/>librairie établie sous la raison de commerce Lacretelle<lb/>aîné et compagnie, par M. Lacretelle aîné, de l'Aca¬<lb/>démie française et éditeur responsable de la ci-devant<lb/>Minerve, vient d’être saisie à la réquisition du mi-<lb/>nistère public.</p>
+      </div>
+      <div type="article">
+        <head><lb/>LOTERIE ROYALE.</head>
+        <ab><lb/>Tirage de Paris, 15 avril.<lb/>66-85-86-50-73.</ab>
+        <p rend="labelled"><lb/>Ceux de MM. les Abonnés dont les<lb/>abonnemens sont expirés du 31 Mars,<lb/>sont invités à les renouveller le plutôt pos-<lb/>sible, pour ne point éprouver d’interrup¬<lb/>tion dans l'envoi de ce journal.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

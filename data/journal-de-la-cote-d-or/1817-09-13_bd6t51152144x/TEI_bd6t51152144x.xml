@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t51152144x</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1817-09-13">1817</date>
+          <idno type="ARK">bd6t51152144x</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t51152144x</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <figure/>
+        <note type="handwritten"><lb/>(N.°</note>
+        <fw type="runningTitle"><lb/>6.mO ANNÉE.</fw>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>JOURNAL DE LA CÔTE-D'OR,</p>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>DU SAMEDI 13 SEPTEMERE 1817.</p>
+        <p rend="styled"><milestone unit="column" n="3"/><lb/>Domine salvum fac Regem: Et exaudi nos in die<lb/>qua invocaverimus te.</p>
+        <p rend="styled"><milestone unit="column" n="5"/><lb/>(Ps. 19, V. 10.)</p>
+      </div>
+      <div type="article">
+        <head><lb/>INTÉRIEUR.</head>
+        <p rend="styled"><lb/>Dijon, 12 septembre.</p>
+        <ab type="head"><lb/>PRÉFECTURE DE LA CÔTE-D'OR.</ab>
+        <ab type="head"><lb/>DIRECTION GÉNÉRALE DES PONTS ET CHAUSSÉES<lb/>ET DES MINES.</ab>
+        <p rend="styled"><lb/>Réglement de S. Exc. le Ministre Secrétaire¬<lb/>d'Etat au département de l'intérieur, pour l'ad¬<lb/>mission des Elèves externes à l'Ecole royale des<lb/>Mines.</p>
+        <p rend="labelled"><lb/>LE MINISTRE SECRÉTAIRE-D'ETAT au départe¬<lb/>ment de l'intérieur;</p>
+        <p><lb/>Vu les articles 14 et 25 de l'ordonnance du 5 dé¬<lb/>cembre 1816, relative à l'organisation et à l'adminis-<lb/>tration de l'Ecole royale des mines, lesquels portent<lb/>qu'il pourra y avoir à cette Ecole neuf Elèves ex¬<lb/>ternes, que ces Elèves seront, avant leur admission,<lb/>soumis à un examen, et que les connoissances exi¬<lb/>gées d'eux seront déterminées par le Conseil de<lb/>l'Ecole;</p>
+        <p><lb/>Vu le projet de réglement rédigé par le Conseil;</p>
+        <p><lb/>D'après la proposition de M. le Directeur-général<lb/>des ponts et chaussées et des mines,</p>
+        <p><lb/>ARRÊTE ce qui suit:</p>
+        <p rend="styled"><lb/>Connoissances exigées pour l'admission.</p>
+        <p><lb/>Art. 1.er Les connoissances exigées pour l'admis-<lb/>sion des Elèves externes à l'Ecole royale des mines,<lb/>sont : — 1.° L'arithmétique et l'exposé du nouvea u<lb/>systême métrique; — 2.° l'algèbre comprenant la ré¬<lb/>solution des équations des deux premiers degrés, la<lb/>démonstration de la formule du binome de Newion<lb/>(dans le cas seulement des exposans entiers et posi-<lb/>tifs); — 3.° la théorie des proportions et progres-<lb/>sions, celle des logarithmes et l'usage des tables;<lb/>— 4.° la géométrie élémentaire, la trigonométrie rec-<lb/>tiligne et l'usage des tables des sinus ; — 5.° la dis-<lb/>cussion des lignes représentées par les équations du<lb/>1.er et du 2.e degré à deux inconnues, les propriétés<lb/>principales des sections coniques; — 6.° les élémens<lb/>de statique; — 7.° les élémens d'hydrostatique; —<lb/>8.° les connoissances élémentaires de physique et de<lb/>chimie, comprenant les propriétés générales et parti¬<lb/>culières des corps, la classification des substances et<lb/>leur nomenclature.</p>
+        <p rend="labelled"><lb/>2. Les candidats seront tenus d'écrire, sous la Conseil de l'Ecole.<lb/>dictée de l'examinateur, plusieurs phrases françaises,<lb/>afin de constater qu’ils savent écrite lisiblement et<lb/>qu'ils possèdent les principes de leur langue.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Conditions d’admission.</head>
+        <p rend="labelled"><lb/>3. Ils seront tenus de copier une tête d'après l'un<lb/>des dessins qui leur seront présentés.</p>
+        <p rend="labelled"><lb/>4. Les candidats seront âgés de dix-huit ans au<lb/>moins, et de vingt-cinq ans au plus.</p>
+        <p rend="labelled"><lb/>5. Ils devront prouver, par un certificat des auto¬<lb/>rités du lieu de leur domicile, qu'ils sont de bonnes<lb/>vie et mœurs.</p>
+        <p rend="labelled"><lb/>6. Ils devront aussi prouver qu’ils ont eu la petite<lb/>vérole ou qu’ils ont été vaccinés.</p>
+        <ab type="head"><lb/>Mode d’admission.</ab>
+        <p rend="labelled"><lb/>7. Les candidats aux places d’Elèves externes se-<lb/>ront examinés dans les départemens, soit par les ins-<lb/>pecteurs divisionnaires, soit par tout autre membre<lb/>du Corps royal des mines, qui sera désigné à cet<lb/>effet par le Directeur général des ponts et chaussées<lb/>et des mines, sur la proposition du Conseil de l’Ecole.</p>
+        <p rend="labelled"><lb/>8. Seront déclarés admissibles ceux qui, dans cet<lb/>examen, auront prouvé qu'ils possèdent toutes les<lb/>connoissances exigées ci-dessus, dans les articles 1,<lb/>2 et 3.</p>
+        <p rend="labelled"><lb/>9. Seront aussi admissibles ceux qui ne posséde-<lb/>roient pas les connoissances exigées sous les nos. 5,<lb/>7 et 8 de l'art. 1.er, et par l'article 3, s'ils répon-<lb/>dent d’une manière distinguée aux questions relatives<lb/>aux connoissances prescrites sous les nos.1, 2, 3, 4<lb/>et 6 de l'art. 1.er, et s’ils satisfont en outre à l'ar-<lb/>ticle 2.</p>
+        <p rend="labelled"><lb/>10. Seront enfin réputés admissibles les candidats<lb/>qui auroient fait ou feroient encore partie d’une liste<lb/>d’admissibles à l'Ecole royale polytechnique ; et en<lb/>conséquence, ils seront dispensés de subir l'examen<lb/>prescrit par l'article 7.</p>
+        <p rend="labelled"><lb/>11. Tous les candidats déclarés admissibles suivant<lb/>les articles 8 et 9, ou réputés admissibles suivant<lb/>l'article 10, auront le droit de suivre à Paris tous les<lb/>cours de l'École royale; mais ils ne pourront prendre<lb/>part aux exercices, qui sont réservés aux seuls Elèves<lb/>externes.</p>
+        <p rend="labelled"><lb/>12. Pour être reçu définitivement Elève externe,<lb/>les admissibles subiront un examen à Paris devant le</p>
+        <pb facs="0002.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>Le Traité d'exploitation des mines, par Delius;<lb/>Pour copie:<milestone unit="page" n="286"/></ab>
+      </div>
+      <div type="article">
+        <p><lb/>Ce Conseil déterminera l'ordre de mérite des can¬<lb/>didats, et en présentera la liste au Directeur général,<lb/>qui statuera sous l’approbation de Son Exc. le Mi¬<lb/>nistre secrétaire-d'état de l’intérieur.</p>
+        <p rend="labelled"><lb/>13. Cette liste sera accompagnée d'une colonne<lb/>d’observations, contenant les notes qui pourroient<lb/>tendre à faire donner la préférence, à égalité de mé-<lb/>rite, à tel ou tel candidat, comme, par exemple, aux<lb/>fils de directeurs ou de concessionnaires de mines,<lb/>de chefs ou de propriétaires d’usines minéralur-<lb/>giques.</p>
+        <p rend="labelled"><lb/>14. Les Elèves qui seroient admis sans avoir les<lb/>connoissances relatées dans les nos. 5, 7 et 8 de l'ar-<lb/>ticle 1.er, seront tenus, pendant la première année,<lb/>de suivre des cours pour les acquérir. Ils subiront,<lb/>à la fin de la même année, des examens sur ces di-<lb/>verses parties d'enseignement.</p>
+        <p><lb/>Ceux qui, avant leur admission, n'auroient pas<lb/>satisfait à la condition prescrite à l’article 3, devront<lb/>étudier le dessin de la tête sous le professeur de<lb/>l'Ecole.</p>
+        <p rend="labelled"><lb/>15. Les examens, dans les départemens, auront<lb/>lieu lorsqu'il se présentera des candidats. Ces can¬<lb/>didats devront s'adresser au Directeur général, qui<lb/>leur indiquera l'époque de l'examen.</p>
+        <p rend="labelled"><lb/>16. L'examen définitif sera fait, à Paris, dans la<lb/>seconde quinzaine d'octobre, lorsqu’il y aura des<lb/>places vacantes.</p>
+        <p rend="labelled"><lb/>17. Cette année, il y aura extraordinairement un<lb/>examen définitif dans la seconde quinzaine de juin.</p>
+        <p rend="labelled"><lb/>18. Les Elèves admis indiqueront, à leur entrée à<lb/>l'Ecole, l'espèce de mine ou d'usine à la conduite<lb/>de laquelle ils se destinent plus particulièrement,<lb/>afin que les études de chacun puissent être dirigées<lb/>vers la partie qu’il aura préférée.</p>
+        <p rend="labelled"><lb/>19. Ils sont tenus de se pourvoir des objets suivans:</p>
+        <p><lb/>Un étui de mathématiques, semblable à celui qui<lb/>est exigé à l'Ecole polytechnique; — trois règles et<lb/>une équerre; — un grand carton; — une boîte de<lb/>crayons assortis et un porte-crayon; — une boîte de<lb/>couleurs, avec godets et soucoupes; — un tablier de<lb/>laboratoire.</p>
+        <p><lb/>20. Ils sont invités à se procurer les livres ci-après:</p>
+        <p rend="styled"><lb/>— les voyages métallurgiques, de Jars et Duhamel;<lb/>— la Fonte des mines, par Schlutter ; — la Sidéro¬<lb/>technie, par M. Hassenfratz; — un Traité de mi-<lb/>néralogie, récemment publié; — un Traité élémen¬<lb/>taire de chimie, idem.</p>
+        <p><lb/>A Paris, le 3 juin 1817.</p>
+        <p rend="styled"><lb/>Le Ministre Secrétaire-d'Etat de l'intérieur,</p>
+        <ab type="head"><lb/>Le Pair de France, Conseiller d'état, Directeur<lb/>général des ponts et chaussées et des mines,</ab>
+        <ab type="head"><lb/>DISPOSITIONS GÉNÉRALES.</ab>
+        <p><lb/>Pour copie conforme :</p>
+        <ab><lb/>Le 2.^e Conseiller de Préfecture,<lb/>f. f. de Secrétaire-général,<lb/>Signé, C. N. AMANTON.</ab>
+        <ab><lb/>Signé LAINÉ.</ab>
+        <ab><lb/>Signé Comte MOLÉ.<lb/>NoTICE des arrêts rendus pendant la session pour<lb/>le 3.e trimestre de 1817, ouverte le 4 août. (FIN.</ab>
+        <p><lb/>Voyez le Journal du io septembre).</p>
+        <p rend="labelled"><lb/>20.° Jean BRUCHARD, âgé de 36 ans, garde de<lb/>bois, demeurant à Vic-sous-Thil, arrondissement<lb/>de Semur, a été condamné à six mois d'emprisonne-<lb/>ment, à 16 fr. d'amende et au remboursement des<lb/>frais de la procédure, pour avoir commis publique¬<lb/>ment, mais sans violence, un attentat à la pudeur<lb/>sur une jeune personne âgée de plus de 15 ans.</p>
+        <p><lb/>21.° Jean Duvaux, âgé de vingt-cinq ans, ma-<lb/>nouvrier à Chanteau, commune de Saint-Didier, ar¬<lb/>rondissement de Semur, déclaré coupable d'avoir,<lb/>dans la nuit du 29 au 30 avril dernier, tenté de vo-<lb/>ler environ huit doubles décalitres de grains mêlés<lb/>d'orge et avoine; tentative manifestée par des actes<lb/>extérieurs, et suivie d’un commencement d’exécution<lb/>qui n'a été suspendue et n'a manqué son effet que<lb/>par des circonstances fortuites, a été condamné à huit<lb/>années de réclusion, au carcan et aux frais de la pro-<lb/>cédure. Ce condamné s’est pourvu en cassation.</p>
+        <p rend="labelled"><lb/>22.° Les nommées DARGENTOLE, femme Marti-<lb/>not, et NAVION, femme Florent, ont été condam¬<lb/>nées chacune à dix années de travaux forcés, au car-<lb/>can et aux frais de la procédure, pour avoir volé<lb/>deux chemises d'homme, du linge, des hardes, des<lb/>effets de ménage, des livres et des papiers.</p>
+        <p rend="labelled"><lb/>23.° Enfin, Jean PIGET, manouvrier à Auxonne,<lb/>déclaré coupable d'avoir, à différentes époques, et<lb/>notamment pendant la nuit du 5 au 6 avril 1816,<lb/>volé, à l'aide d'effraction, d'escalades et de fausses<lb/>clefs, du vin dans les caves dépendantes du petit-<lb/>hospice Sainte-Anne de la même vilte, a été con-<lb/>damné à huit ans de travaux forcés, au carcan et<lb/>aux frais de la procédure.</p>
+        <p rend="labelled"><lb/>— M. le Préfet de la Côte-d'Or vient d'écrire à<lb/>MM. les membres du collége électoral, la lettre<lb/>suivante :</p>
+        <p rend="labelled"><lb/>« Ma lettre, du 2 de ce mois, vous a fait déjà re-<lb/>marquer combien étoit sérieuse l'obligation qui ap¬<lb/>pelle chacun de vous aux Assemblées électorales. Je<lb/>crois devoir néanmoins insister encore et vous solli¬<lb/>citer, au nom du Roi et de l'Etat, de leur donner<lb/>une nouvelle preuve de votre dévouement, en venant<lb/>remplir fidèlement vos fonctions.</p>
+        <p rend="labelled"><lb/>« Les partis se réveillent toujours à l'époque des<lb/>élections; ils les devancent par leurs manœuvres; ils<lb/>veulent assurer leur triomphe, en s'emparant des es-<lb/>prits, par les plus dangereuses séductions, et ils s'a¬<lb/>veuglent eux-mêmes sur les périls que leur feroit<lb/>courir une victoire d'un moment. Ils méconnoissent<lb/>la sagesse du Ror, et fermant l’oreille à ses conseils,<lb/>ils veulent suivre une route dont l’issue n’est qu'aby-<lb/>mes et précipices. Aussi, cette royale sagesse a-t-elle<lb/>besoin de s’appuyer sur tous ceux qui ne voulant que<lb/>le bonheur de leur patrie, se séparent des factions,<lb/>comme le font, Messieurs, la plupart d'entre vous.</p>
+        <ab type="head"><lb/>COURS D'ASSISES.</ab>
+        <figure type="decoration"/>
+        <quote><lb/>«Dijon, le 12 septembre 1817.<lb/>« MESSIEURS,</quote>
+        <pb facs="0003.xml"/>
+        <milestone unit="page" n="287"/>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>« Vous êtes convaincus que le Ror n’a d’autre dé¬<lb/>sir que celui de voir la France pacifiée, fleurir sous<lb/>un Gouvernement digne d’elle, et sous les Lois cons-<lb/>titutionnelles qu’il lui a données: c'est à vous à le<lb/>seconder dans cette circonstance; il faut que vous<lb/>veniez former dans le collége électoral une majorité<lb/>devant laquelle échouent toutes les intrigues contrai¬<lb/>res à ce systême de modération et d'impartialité, qui<lb/>peut seul assurer le repos public et particulier. Il<lb/>faut que vous veniez prouver qu’on a eu raison de<lb/>compter sur le discernement et sur le bon esprit des<lb/>nombreux propriétaires qui, maintenant, sont ap-<lb/>pelés par la loi à nommer directement les Députés.</p>
+        <p rend="labelled"><lb/>« Quelquefois, et même avant la réunion des Col¬<lb/>leges électoraux, des listes de Candidats sont colpor-<lb/>tées ; les passions cherchent à s’emparer de l'indéci-<lb/>sion, à surprendre la bonne foi. Le passé se déna-<lb/>ture, l'avenir est montré sous les plus fausses cou-<lb/>leurs, et les hommes simples égarés par ces prestiges<lb/>prennent trop souvent des engagemens contraires à<lb/>leurs plus chers intérêts; mais aujourd’hui, Messieurs,<lb/>le Ror, sa haute prudence, ses intentions magnani-<lb/>mes, sont devant vous; en les suivant, vous éviterez<lb/>les plus funestes erreurs.</p>
+        <p rend="labelled"><lb/>« Soyez exacts tous à vous rendre aux assemblées,<lb/>et je suis convaincu que le département de la Côte¬<lb/>d'Or, contre lequel on a tant de préventions injustes,<lb/>prouvera, par le résultat des élections, qu'il sait,<lb/>comme les autres, accorder à la raison, à la saine<lb/>politique et au bien de l'Etat, tout ce qu'ils exigent.</p>
+        <p rend="labelled"><lb/>« Aucun ordre supérieur, Messieurs, ne me dicte<lb/>cette seconde lettre de convocation; elle est sans<lb/>doute superflue; mals je cède, en vous l'adressant,<lb/>à ma propre conviction, au besoin que j'ai de vous<lb/>prémunir contre des menées ourdies pour vous éga-<lb/>rer, et surtout contre les conseils d’une insouciance<lb/>qui vous rendroit trop coupables. Dans le poste que<lb/>j'occupe, mon devoir est de vous représenter de<lb/>quelle importance est l’accomplissement du vôtre.</p>
+        <p rend="labelled"><lb/>« Agréez, Messieurs, l’assurance de ma considé-<lb/>tion très distinguée.</p>
+        <p rend="labelled"><lb/>— Une ordonnance du Roi, du 4 juin dernier,<lb/>autorise l’acceptation d’un legs de 1000 fr. fait par le<lb/>sieur Gelet, aux pauvres de Dijon. (Bulletin des<lb/>lois, 7.^e série, N.o 171.)</p>
+        <p rend="labelled"><lb/>— M. le maréchal-de-camp baron du Bois d'Aisy,<lb/>lieutenant de Roi à Lyon, vient d'être admis à la<lb/>retraite; il est remplacé par M. le colonel Lecros¬<lb/>nier, nommé lieutenant de Roi de 2.e classe par or-<lb/>donnance royale du 30 juillet dernier.</p>
+        <p rend="labelled"><lb/>— M. de Rosily, nommé commissaire-général de<lb/>police à Dijon, est arrivé en cette ville mardi der-<lb/>nier 9, pour y exercer ses fonctions.</p>
+        <p rend="labelled"><lb/>— M. Armand est parti de Dijon le 11, pour se<lb/>rendre à Besançon, où il doit donner quelques re-<lb/>présentations.</p>
+        <p rend="labelled"><lb/>— Nous rappelons aux amateurs que la vente des<lb/>objets d’art qui composent le cabinet de feu M. Hoin,<lb/>aura lieu en son domicile, au Musée, les 17, 18,</p>
+        <ab><lb/>» Le Préfet de la Côte-d'Or,<lb/>Signé LACHADENÈDE.<lb/>19, 20 et 22 septembre courant, et jours suivans.</ab>
+        <p><lb/>Ces objets consistent, outre les porcelaines ,<lb/>vases, bronzes dorés, etc., en « environ 200 vo-<lb/>« lumes..... traitant de différens sujets; — une su-<lb/>« perbe collection de tableaux de choix, des pre-<lb/>« miers maîtres, parmi lesquels on remarque des<lb/>« tableaux du Guide, Bourguignon, Salvator-Rosa,<lb/>« Michel-Ange des batailles, Ruisdaal, etc. etc. ;<lb/>« des portraits par Vandick, Lebrun, Philippe de<lb/>« Champagne, Rigaud, Largillière, Greuze, etc. ;<lb/>» — De très beaux portraits au pastel, par la célèbre<lb/>« Rosalba et Latour; de magnifiques ouvrages dans<lb/>« ce genre par le défunt, duquel il y a aussi beau-<lb/>« coup de belles gouaches, et d'autres, par plus eurs<lb/>« autres maîtres ; — Une collection précieuses de<lb/>« dessins anciens et modernes, comme des Jules-<lb/>« Romain, Albert-Durer, Baccio-Baudinelli, etc.,</p>
+        <p rend="structured"><lb/>« beaucoup de belles miniatures et une grande quan¬<lb/>« tité d’estampes. » (Extrait de l'affiche).</p>
+        <p><lb/>On vendra les 18 et 19, à six heures du soir, les<lb/>gravures; le 20, à la même heure, les pastels ; le 22<lb/>et les jours suivans, les tableaux; le dernier jour,<lb/>les livres.</p>
+        <p rend="labelled"><lb/>— M. Damas, acteur du Théâtre-Français, dont<lb/>nous avons parlé dans notre précédent N.°, est<lb/>arrivé à Dijon mercredi dernier, venant de Metz;<lb/>il débute aujourd'hui par le rôle d'Alceste, dans Le<lb/>Philinte de Molière ou La suite du Misanthrope,<lb/>et par celui de M. Dubreuil, dans Le Médisant.</p>
+        <p><lb/>Dimanche prochain, M. Damas jouera T'artufe et<lb/>L'Amant bourru.</p>
+        <p><lb/>Nous avions pensé que le séjour de cet acteur se<lb/>prolongeroit pendant la session du Collége élec-<lb/>toral du département; mais on dit très positivement,<lb/>qu'obligé de retourner promptement à son poste, il<lb/>ne nous donnera que six représentations, dont la clô-<lb/>ture aura lieu irrévocablement le samedi 20 de ce<lb/>mois, jour de l'ouverture de cette session.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>Mariages. Du 8 au 12 septembre. J.-B. Lécrivain<lb/>vigneron et J. Ledeuil. — J.-B. Rebuffard, serru-<lb/>rier et C. Gallette. — N. Thiry, cocher et J. Peu-</ab>
+        <ab type="head"><lb/>ÉTAT CIVIL DE DIION.</ab>
+        <p rend="labelled"><lb/>tat. — J. Villemot, brasseur et François Fuzil.</p>
+        <p rend="structured"><lb/>Décès. Du 6. P. David, veuve Laurent, domestique,<lb/>69 ans. Du 8. S. Dergoix, manouvrier, célibat.,<lb/>29 ans. Du 9. N. Maltête, veuve Comparot, ma-<lb/>nouvrier, 67 ans. — Pierre Mielle, manouvrier,<lb/>70 ans. — N. Letang, manouvrier, 55 ans. Du<lb/>10. P. Cellerier, rentier, célibataire, 73 ans. —<lb/>D. Rogué, ancien pâtissier, 75 ans. Douze au-<lb/>dessus de 20 ans, parmi lesquels 5 sont morts de<lb/>la petite-vérole.</p>
+      </div>
+      <div type="article">
+        <head><lb/>Distribution solennelle des Prix aux Elèves du<lb/>Collége royal de Dijon, du 30 août 1817.</head>
+        <head><lb/>RHÉTORIQUE.</head>
+        <p rend="structured"><lb/>ExCELLENCE. — Prix, Jean-Bernard Forneron,<lb/>de Messigny. — Access., Philibert Couturier, de<lb/>Dijon; Armand Delavault, id.; Henri Lavoisot, id.</p>
+        <p rend="structured"><lb/>DisCOURS LATIN. — 1.er prix, Jean-Bernard For-<lb/>neron. — 2.° prix, Armand Delavault. — Access.,<lb/>Henri Lavoisot, de Dijon; Henri Soustras, de<lb/>Paris.</p>
+        <pb facs="0004.xml"/>
+        <milestone unit="page" n="288"/>
+        <p><lb/>DISCOURS FRANÇAIS. — 1.er prix, Jean-Bernard<lb/>Forneron. — 2.e prix, non adjugé. — Access.,<lb/>Henri Lavoisot, Théodore Lacordaire, de Dijon* (1).</p>
+        <p><lb/>VERS LATINS. — 1.er prix, Jean-Bernard Forne-<lb/>ron. — 2.e prix, Pierre Caudriller de Bacoüel. *<lb/>— Access., Jean-Joseph Bauchetet, de Dijon ; Mi-<lb/>chel Ripart, de Dijon.</p>
+        <p><lb/>VERSION LATINE. — 1.er priX, Jean-Bernard<lb/>Forneron. — 2.e prix, Adolphe Paeschiers, de Dun-<lb/>kerque. * — Access., Henri Lemulier, de Semur-<lb/>en-Auxois ; Philibert Couturier, de Dijon.</p>
+        <p><lb/>VERSION GRECQUE. — 1.er priX, Pierre Cau¬<lb/>driller. * — 2.e prix, Adolphe Paeschiers. * —<lb/>Access., Jean-Baptiste Gouveau, de Dijon; Nicolas-<lb/>Joseph Détourbet, de Dijon.</p>
+        <ab type="head"><lb/>HUMANITÉS.</ab>
+        <p rend="labelled"><lb/>ExCELLENCE. — Prix, Pierre Prudent, de Dijon.<lb/>— Access., Pierre L’homme.....; Adolphe Blondel,<lb/>de la Rochelle *; Philippe Lemaistre, de Tonnerre *;<lb/>Philibert Belime, de Dijon.</p>
+        <p><lb/>VERSION LATINE. — 1.er prix, Pierre Prudent.<lb/>— 2.e prix, Pierre L’homme. — Access., Henri<lb/>Vallot, de Dijon; Victor Faypoux, de Chaumont.*</p>
+        <p rend="labelled"><lb/>THÈME. — 1.er prix, Philippe Lemaistre. * —<lb/>2.e prix, Adolphe Blondel. * — Access., Philibert<lb/>Belime; Jules Rousset, de Flavigny. *</p>
+        <p><lb/>VERS LATINS. — 1.ér prix, Pierre Prudent. —<lb/>2.e prix, Henri Lacordaire, de Recey.* — Access.;<lb/>Pierre L'homme; Jules Rousset. *</p>
+        <p><lb/>VERSION GRECQUE. — 1.er prix, Auguste<lb/>Drouhot, de Vesoul. * — 2.e prix, Henri Lacor-<lb/>daire. * — Access., Auguste Bocquenet, de<lb/>Mayence*; Amédée de Beauvais, d'Auxerre. *</p>
+        <ab type="head"><lb/>TROISIÈME.</ab>
+        <p rend="labelled"><lb/>EXCELLENCE.—Prix, Henri D'Arcy, de Dijon.»<lb/>— Access., Ernest de Saint Loup, de Buxy *<lb/>(Saône-et-Loire); Jules Jaquot D'Andelarre, de<lb/>Djon; Jules Soldat, de Màcon*; Claude Valleby,<lb/>de Nuits. *</p>
+        <p><lb/>VERSION LATINB. — 1.er prix, Emile-Joseph Da-<lb/>gailler, de Vosne. — 2.e prix, Adolphe Martin,<lb/>de Dijon. — Access., Jules d’Andelarre; Ernest de<lb/>Saint-Loup.</p>
+        <p><lb/>THÊME. — 1.er prix, Emile Perrier, de Gray. X</p>
+        <p><lb/>Nota. Cet éléve, aussi recommandable par la<lb/>plus excellente conduite que par les progrès<lb/>les plus rapides, a parcouru, dans l'espace<lb/>de deux ans, quatre classes avec la plus<lb/>grande distinction.</p>
+        <p rend="structured"><lb/>— 2.e prix, Ernest de Saint-Loup. * = Access.,<lb/>Paul Testot, de Dijon; Henri D'Arcy. *</p>
+        <p rend="structured"><lb/>VERS LATINS. — 1.^ér prix, Henri D'ArCy. * —<lb/>2.e prix, Jules Soldat. * — Access., Ernest de Saint-<lb/>Loup*; Jules D’Andelare.</p>
+        <p rend="labelled"><lb/>(1) L'astérisque * indique les élèves pensionnaires.</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>« 13.e — Roy (Antoine), propriétaire, ancien<lb/>député.</ab>
+        <p rend="structured"><lb/>VERSION GRECQUE. — 1.er prix, Adolphe Mar¬<lb/>tin. — 2.e prix, Henri D’Arcy. * — Access., Er-<lb/>nest de Saint-Loup *; Eugène Jobard Dumesnil ;<lb/>d'Autun.<lb/>(La suite au N.° prochain.)</p>
+        <p rend="labelled"><lb/>— Le Collége électoral du département de la Seine<lb/>est divisé en 20 sections. Les président et vice-prési-<lb/>dens nommés par l'ordonnance du Roi, pour la ses-<lb/>sion qui s’ouvrira le 20 septembre courant, sont, aux<lb/>termes de cette ordonnance, savoir :</p>
+        <p rend="structured"><lb/>« Président, 1.re SECTION. – Le sieur Bellart<lb/>(Nicolas-François), conseiller-d’état, procureur-<lb/>général à la Cour de cassation.</p>
+        <p rend="labelled"><lb/>« Vice-présidens. 2.e — Rendu (Louis-Athanase),<lb/>maître des requètes, procureur-général du Roi à la<lb/>Cour des comptes.</p>
+        <p rend="labelled"><lb/>« 3.e — Allent (Pierre-Alexandre), conseiller-<lb/>d'état, inspecteur-général des gardes nationales.</p>
+        <p rend="labelled"><lb/>« 4.e — Gonpy père, banquier.</p>
+        <p rend="labelled"><lb/>« 5.e — Delaitre (Bernard-Jean-Etienne-Ray-<lb/>mond), membre du Conseil général de département.</p>
+        <p rend="labelled"><lb/>« 6.e — Barthelemy (Joseph-Anicet), banquier,<lb/>membre du Conseil général de département.</p>
+        <p rend="labelled"><lb/>« 7.e — Breton (Louis-Henri), notaire royal,<lb/>membre du Conseil-général de département.</p>
+        <p rend="labelled"><lb/>« 8.e — Valton (Pierre), maître des requêtes,<lb/>du Conseil de MONSIEUR.</p>
+        <p rend="labelled"><lb/>« 9.^e — Lebrun (Charles), maire du 4.^e arron-<lb/>dissement.</p>
+        <p rend="labelled"><lb/>« 10.e — Try (Bertrand), président du Tribuna<lb/>de première instance.</p>
+        <p rend="labelled"><lb/>« 11.e — Bonnet (Louis-Ferdinand), bâtonnier<lb/>de l'ordre des avocats.</p>
+        <p rend="labelled"><lb/>« 12.ᵉ — Rattier, marchand de draps.</p>
+        <p rend="labelled"><lb/>« 14.e — Delahaye (Jean-Pierre), ancien avoué¬</p>
+        <p rend="labelled"><lb/>« 15.e — Cinot (Pierre-Joseph-Nicolas) négo-<lb/>ciant.</p>
+        <p rend="labelled"><lb/>« 16.e — Le Prieur de Blainvilliers (Pierre-Ni¬<lb/>colas), banquier, maire du 8.e arrondissement.</p>
+        <p rend="labelled"><lb/>« 17.ᵉ — Le comte Elie de Périgord, colonel des<lb/>cuirassiers.</p>
+        <p rend="labelled"><lb/>« 18.e — Didot (Firmin), imprimeur-libraire.</p>
+        <p rend="labelled"><lb/>« 19.e — Camet de la Bonnardière (Jean-Phi-<lb/>lippe-Gaspard), maître des requêtes, maire du 12.e<lb/>arrondissemeut.</p>
+        <p rend="labelled"><lb/>« 20.e — Lafond (Etienne), marchand de vin en<lb/>gros. »</p>
+        <figure type="decoration"/>
+        <note>
+          <p rend="styled"><lb/>A DIJON, CHEZ FRANTIN, IMPRIMEUR DU ROI ET DE LA PRÉFECTURE. 1817.</p>
+        </note>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>Col. 6.^e, ligne 2.e, AU LIEU DE per stare LISEZ:</ab>
+        <ab><lb/>LOTERIE ROYALE DE FRANCE.<lb/>Tirage de Lyon, du 9 septembre.<lb/>74—19—47—61 —28.</ab>
+        <p rend="labelled"><lb/>*** FAUTES A CORRIGER. Journal du 10 septem-<lb/>bre, col. 3.e, lign. 13 et 14, au lieu de: fonctions<lb/>incompatibles avec celle de M. le maire, lisez: ſonc<lb/>tions incompatibles avec celles de maire.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

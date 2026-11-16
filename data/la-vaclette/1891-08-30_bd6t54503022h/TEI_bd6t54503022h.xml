@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t54503022h</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Vaclette : journal humoristique, drôlatique, excentrique, non politique, rédigé en patois de Lille</title>
+          <publisher>[s.n.] (Lille)</publisher>
+          <date when="1891-08-30">1891</date>
+          <idno type="ARK">bd6t54503022h</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t54503022h</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>LE NUMÉRO: CENTIMES.</fw>
+        <fw type="runningTitle"><lb/>N^o 4. — Première année.</fw>
+        <dateline><lb/>Dimanche 30 Août 1891.</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>Paroles et Musique d'Emile Hornez<lb/>Arete<lb/>Il est bien con-nu de la<lb/>vil-le de ly-dé - ric et de Phi-<lb/>— naert, Cet air que les en-fants de<lb/>Lil-le s'en vont chan-ter sur- le rem-<lb/>part. E-cou-tez - les par-tir en<lb/>guer-re, Ces bons en-fents de saint-Sau-<lb/>- veur, E- cou - tez - les par-tir en<lb/>guer-re En-trai-nes par co chantvain- queur:<lb/>Vi-vent les Saint-Seu —veur, ma me—re!<lb/>Vi-vent les Saint Sau-veur! A la ba-<lb/>- taille ils ont du cœur, Vi -vent les</ab>
+        <figure/>
+        <figure>
+          <p><lb/>Saint Sau veur!</p>
+        </figure>
+        <ab><milestone unit="column" n="3"/><lb/>ABONNEMENTS (Lille et dépurtements liminpis):<lb/>Un An : 2 fr. 50 — 6 mois 1 fr. 25 —— 3 mois 0 fr. 65<lb/>Antres départements, port en sus</ab>
+        <ab><milestone unit="column" n="2"/><lb/>ADMINISTRATION<lb/>LILLE — 15, rue Lèon Gambetta — LILLE<lb/>Pour les Annonces et Réctames, on traite à forfait,</ab>
+        <lg>
+          <l><lb/>qui concerne l'Administration s'adres</l>
+          <l><lb/>. J. HOLLAIN.</l>
+          <l><lb/>rue Constantine. 21 bis</l>
+          <l><lb/>Aucun manuserit immoral ou politique ne sera insé̀ré.</l>
+        </lg>
+      </div>
+      <div type="article">
+        <head><lb/>A NOS LECTEURS</head>
+        <p><lb/>Nous f'rons certain'mint plaisi' à nos lecteurs<lb/>leu' donnant aujord'hui, bien qu'ell' so' écrite<lb/>français, l' canchon : Saint-Sauveur, vieux<lb/>frain, paroles et musique de not concitoyen<lb/>ami, Emile HORNEZ, l' canchonnier d' talent.</p>
+        <lg>
+          <l><lb/>vivent les saint-Sauveur, ma mère! est un</l>
+          <l><lb/>frain intrainant, eun’ sorte d' Marseillaise</l>
+          <l><lb/>Illoise.</l>
+        </lg>
+        <p><lb/>M. Hippolyte Verly, rédacteur en chef de not<lb/>and confrère l'Écho du Nord, a écrit à c' sujet:</p>
+        <p rend="labelled"><lb/><lb/>intique refrain que M. Hornez a eu la bonne idée de<lb/>uver de l'oubli en l'enchâssant dans une belle et<lb/>patriotique chanson. Ses allures de plain-chant, son<lb/>faractère simple, énergique et sombre, révèlent nette-<lb/>pent sa grande ancienneté. Est-ce un fragment d'e<lb/>ymne du quatorzième ou du quinzième siěcle, dont le<lb/><lb/>este n'est pas parvenu jusqu'à nous ? C'est possible,<lb/>Pest même probable, mais il n'existe aucun indice qui<lb/>peree de l'affirmer.»<lb/></p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>-</ab>
+        <ab><lb/>SaINT-SaUVEuR<lb/>CIINSON NOUVELLE. — VIECX REFRAIN<lb/>(dédiée aux Enfants de Lile).<lb/>Paroles et Musique de Émile HORNEZ</ab>
+        <lg>
+          <l><lb/>Il est bien connu de la ville</l>
+          <l><lb/>De Lydéric et de Phinaert.</l>
+          <l><lb/>Cet air que les enfants de Lille</l>
+          <l><lb/>S'en vont chanter sur le rempart.</l>
+          <l><lb/>Ecoutez-les partir en guerre,</l>
+          <l><lb/>Ces bons enfants de Saint-Sauveur.</l>
+          <l><lb/>Ecoutez-les partir en guerre.</l>
+          <l><lb/>Entrainés par ce chant vainqueur:</l>
+        </lg>
+        <ab type="head"><lb/>REFRAIN</ab>
+        <lg>
+          <l><lb/>Vivent les Saint-Sauveur, ma mere !</l>
+          <l><lb/>Vivent les Saint-Sauveur!</l>
+          <l><lb/>A la bataille ils ont du cœeur!</l>
+          <l><lb/>Vivent les su</l>
+        </lg>
+        <ab><lb/>SaINt-SAUVEUR!<lb/>Chanson</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Ce gai refrain, comme une rente<lb/>Il parte a l'ême et rend meilleur! (Au refrain.)<lb/>Saluons cette pauvre cave<lb/>N'où s'échappe cet air joyeux.<lb/>C'est le berceau de plus d'un brave<lb/>Aux bras forts, au sang généreux.<lb/>Il lutte, il travaille. il espère.<lb/>Ce digne enfant de Saint-Sauveur!<lb/>Ilutte, il travaille, il espère.<lb/>Lorsqu'il redit avec ardeur:</ab>
+        <lg>
+          <l><lb/>Saint-Sauveur, vieux quartier de Lille.</l>
+          <l><lb/>Où l'on rencontre à chaque pas</l>
+          <l><lb/>L'ouvrier courageux, agile,</l>
+          <l><lb/>La lime ou le rabot au bras.</l>
+          <l><lb/>Vois ta devise tutélaire,</l>
+          <l><lb/>0 vieux quartier de Saint-Sauveur!</l>
+          <l><lb/>Vois ta devise tutélaire</l>
+          <l><lb/>Dans ce refrain du travailleur: (Au refrain.)</l>
+        </lg>
+        <lg>
+          <l><lb/>Est conservé, c'est un trésor ;</l>
+          <l><lb/>A l'école l'enfant le chante.</l>
+          <l><lb/>A vingt ans il le chante encor.</l>
+          <l><lb/>Comme un souvenir qu'on révère.</l>
+          <l><lb/>Il t'appartient. 6 Saint-Sauveur!</l>
+          <l><lb/>Comme un souvenir qu'on révère,</l>
+        </lg>
+        <p rend="styled"><lb/>(Au refrain.)</p>
+        <lg>
+          <l><lb/>En beau jour, c'était en Crimée.</l>
+          <l><lb/>On vit les zouaves lillois</l>
+          <l><lb/>Au tableau d'honneur de l'armée ;</l>
+          <l><lb/>S'est qu'au milieu de leurs exploits.</l>
+          <l><lb/>Ils entonnaient ce chant de guerre.</l>
+          <l><lb/>Ces vaillants fils de Saint-Sauveur:</l>
+          <l><lb/>Ils entonnaient ce chant de guerre.</l>
+          <l><lb/>chant de jeunesse et de valeur: (Au refrain.)</l>
+        </lg>
+        <lg>
+          <l><lb/>Depuis.. Nélas, d pauvre Prance !...</l>
+          <l><lb/>Mais l'honneur vibre en toi toujours.</l>
+          <l><lb/>Comme la cloche d'espérance</l>
+          <l><lb/>Qui sonnera les meilleurs jours.</l>
+          <l><lb/>A cette espérance si chère,</l>
+          <l><lb/>Fils de France et de Saint-Sauveur:</l>
+          <l><lb/>A cette espérance si chère.</l>
+          <l><lb/>Redisons tous avec bonheur :</l>
+        </lg>
+        <ab type="head"><lb/>REFRAIN</ab>
+        <lg>
+          <l><lb/>Vivent les Saint-Sauveur. ma mêre!</l>
+          <l><lb/>Vivent les Sauveur!</l>
+          <l><lb/>Vous verrez, la, s'il: ont du cour.</l>
+        </lg>
+        <ab><lb/>Vivent les Saint veur!</ab>
+        <pb facs="0002.xml"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Que ch'étot biau !Que ch'étot biau!! N' pinsez point qu<lb/>tai poussé ch' l'esclamasse tout seu : non, cha sortot d' tous<lb/>les bonques, aussi, j' ne r'grette point d'avoir été passer tou<lb/><lb/>l' journée d' dimanche dins ch' vieux quartier d'Saint-André.<lb/>J' dis tout l'journée, pasqull' faut vous dire que cha qu<lb/>minchot du matin. A nouf heures, n'y avot un concours de<lb/><lb/>jueux d' galoche. Fallot vir les bouch'nies sauter jusqu'au<lb/>premier étache ; ch'est à ch'ti qui l's arot invoyés dinguerl<lb/>pus long. Tnez. v'là les noms des pus adrots d'chés galo-</p>
+        <p><lb/>fer prix. Garin; 20. Piquart; 3e, Deschamps; te, Olivfer;<lb/>50. Boquet; 6e, Laverchère; 7e. Dialez; 3e. Dhalluin.</p>
+        <p><lb/>Les autes jux s' faijotent d'heure in heure. pour permette<lb/>a les gins d'aller les vir aussi. J'n'ai point manqué d'aller su<lb/>plachette pour rigoler un bon cop. avec l' ju du Nul-s'y-<lb/>Protte, un bonhomme qui collot des claques à ch'ti qui l'<lb/>manquot. Là aussi n'y a eu des pus adrots, puisque Emile<lb/>Bapaume a gaingné l' premier prix : l' deuxième. Jules Ba-<lb/>paume ; l' trosième, Carliéret ; l' quatrième Godefroy et l'</p>
+        <p><lb/>L' dernier tour fini, j'ai été habile, habile, dins l' rue d'<lb/>r'Entrepôt, vir l' Baises-Mourette, un nouviau et drôle de ju<lb/>que l'comarate Grimonprez a invinté et qui m'a fait rire à<lb/>Unir min vinte à deux mains. Imaginez-vous eun' vieille gra-<lb/>mère assis, Mourette, qu'elle a s' langue qui passe d' huit<lb/>centimètes au moins. On pose là-d'ssus eun' pièche vingt<lb/>sous, chin qui fait l' prix d' l'adrot qui peut l'inl ver avec s'<lb/>bouque puisqu'il a ses mains liées derrière sin dos. L' pus<lb/>grande difficulté, ch'est qu' Mourette, elle a un nez d' pri¬<lb/>seusse et s' langue si sensible que bien souvint elle vous<lb/>impoinne dins ses bras et elle vous invoie par ses narinnes.<lb/>l' poudre plein l' visache. L' pus biau et chin qui fait<lb/>rire surtont, ch'est qu' cheull' poudre cange d' couleur cha-<lb/>que fos. Malgré cha. n’y-a bien des jueux qui ont mis<lb/>quèques pièches de vingt sous dins leu poche, et t'nez v'là</p>
+        <p><lb/>ter pris, Delbecque. — 2e prix. Alfred 0. — 3e prix.</p>
+        <p><lb/>Et infin, comme l' vous l'ai dit, ch'étot si bien arringé<lb/>qu'on povot rigoler tout l' matinée. A midi, ch'étot l'Car-<lb/><lb/>courir ches gins t'nant eun' brouette par les brancards avec<lb/>eun' lance au bout, pour infiler les ingneaux qui sont sus-<lb/>pindus in l'air. Cheull' pauf brouette, elle berloquot et<lb/>faijot des sots su les grès si bien qu' les jueux passottent<lb/>souvint à coté ; cha n'a point impéché Alfred G., Menet,<lb/>Mignot et Watteau d'inl'ver les prix que ylà : ler prix.<lb/>douze francs: 2e prix, huit francs: 3e prix, six francs;</p>
+        <p><lb/>là eun' heure qui sonne à l'Mad'leine; vite, vite, allons<lb/>minger la soupe pour rev'nir incor pus vite vir ch' grand<lb/>corteche qui s'annonce déjà. Des sociétés d' musique<lb/>pass'tent in juant; i s'in vont prinde les vins d'honneur, au<lb/>Conservatoire uch' que M. Baggio, président d'honneur, M.<lb/>Blondel, président et M. Willay, vice-président, les attindent<lb/>pour leu souhater la bienv 'nue. On vot aussi dins les rues des<lb/>gins costumés tout clinquants. Cha promet d'ête choite tout</p>
+        <p><lb/>A deux heures et d'mie, j'étos assis sur un cassis d'eun'<lb/>mason de l' rue d' la llalle, pour vir passer cheull' bielle<lb/>calvacate. l'n roul mint d' tambours, des pêtards s' faitent.<lb/>lintinte et j' vos déchinte du Pont-Maudit. l' premier groupe :<lb/>Ch'est des trompettes à qu'va, marchant in line comme des</p>
+        <p><lb/>vrais cavaliers, ch'est l' société d' l'Union française. Derrière<lb/>euss', vient un guerrier à qu'va aussi, t'nant à s' main eun'<lb/>bielle bannière rouche avec les armes de Lille et puis l' mu-<lb/>s:que des Pompiers qu' vous connaichez tertous comme eun'<lb/>des pus choites. Aussitôt on vot dins l' deuxième groupe l'<lb/>car de l' Pontaine-del-Saulx, biau car et j'ai bien vu que<lb/>d'puis 1863 qui n'a pus sorti qu' les plantes sauvaches n'ont<lb/>point cessé d'pousser.Bravo pou' ch vieux ermite et l' petit<lb/>Lydéric et bravo pou' l' biche aussi. Derrière. ch'est l'harmo-<lb/>nie de l' Mad'leine qui jue un pas r'doublé ronflant.</p>
+        <p><lb/>L' trosième groupe, ch'est l' car de Bacchus, eun' vraie<lb/>gloriette qui roule avec l' gros Demessine à qu'va sur un<lb/>tonniau et buvant à terlarigo. Ses deux compagnons, i' rou¬<lb/>pill'tent dins l' feuillache, malgré qu'il' ont l'Réveit Musicat</p>
+        <p><lb/>L' quatrièm groupe, ch'est nou biau tambour major des<lb/>Hurlus, frais comme eun' rose. On dirot qu'i sort' d'eun'<lb/>garde-rope tell mint qu' il est bien déplié. Et Jeanne Maillotte,<lb/>donc ? incore pus bielle, nn net boniquet et un net écour¬<lb/>cheu, cun' baie à lines gonnes et noire toute nièfe. Elle est<lb/>portée pa l'société d' gymnastique « l'Etoile » et intourée<lb/>des vieux sociétaires du Grand Ju d'are, dit d' Jeanne<lb/>Maillotte, portant fièr'mint leu' vieux drapeau qui quée in<lb/>ruine. Ch'est bien r'grettable que cheull' société est dispa-</p>
+        <p><lb/>R'grettons et vétions ou plutôt acoutons arriver l' chin¬<lb/>quième groupe, ch'est l'harmonie La Fraternelle, costumée<lb/>in volontaires de 1792, tambour-major in avant., faijant tour-<lb/>ner s' quenne comme un vrai molin à vint. Tambours. clai¬<lb/>rons. musique, tout cha jue insonne « l' Père la Victoire »<lb/>et les applaudich'mints vont bon train. Et puis. v'là des rires<lb/>à déclaquer. ch'est qu'on apercot Brúle-Mason, raclant su sin<lb/>violon et j'tant inter deux eun' canchon-réclame (Les Savons<lb/>du Congo) avec un visache tout réjoui. Bravo. Brûle- Mason !<lb/>surtout pour sin biau car tout doré comme un life de messe.</p>
+        <p><lb/>Sixième groupe, l'Enion du Nord, incor eun' bonne musi-<lb/>ue qui n' se fait point tirer l'orelle pour juer à sin tour.<lb/>Vla l' car du Congo. d' Victor Vaissier. j' l'ai vétié passer<lb/>avé m' bouque toute grande ouverte, j' béos comme un vrai<lb/>colas. Qu' ch'étot biau, qu' ch'étot biau l'J' vous l'ai dit in<lb/>qu'minchant, aussi tous mes complimints au peintre qui :<lb/>dessiné tous chés bielles fleurs sur les décors qui intou-<lb/>rottent l' car. A vir chés Congolais, si bien déguisés 'on s'arot</p>
+        <p><lb/>Ch'est point tout, après les Amis-Réunis d'Wazemmes.<lb/>v'là l'Abattoir de Lille. Un porte-étendard sur un biau baudet<lb/>qui s' tient raide comme un piquet ; puis les Trompettes dé-<lb/>vouées de Marquette, un p'loton d' cavaliers -in costume des<lb/>dragons d' Villars, tous in ring d'ongnons et propres comme<lb/>des sous. On a sin cœur poché in véant passer. sur deux<lb/>ringées, des p'tits bergers, des infants d' siept à douze ans.<lb/>in béret rouche et propermint costumés conduijant par des<lb/>rubans d' couleur des p'tits moutons blanes comme de<lb/>neiche. Au mitan d'euss', cun' petite bergère qui faijot l'ad-<lb/>miration d' tout l' monde, tell'mint qu'elle étot bien habillée.<lb/>V'là l' Bué gras. Queull' bielle biéte ! D'main, on l' vindra<lb/>quarante sous l' life. Il est escorté par des cavaliers superbes.<lb/>la suite, vient l' dernier car ; ch'est ch'ti du taureau, un<lb/>limousin comme on in trouve deux sur dix mille. Parlez,<lb/>qu'il étot biau avec ses cornes dorées. Il étot intouré par<lb/>des toréadores. J' cros qu'on avot queusi tous les pus biaux<lb/><lb/>gas d' l'abattoir pour rimplie ch' rôle là. Ch' long groupe est<lb/>rinserré par les hussards de 1792. montés comme des vrais</p>
+        <p><lb/>Infin, v là l' bouquet ; ch'est nos deux vielles connais-<lb/>sances Phinaert et Lydéric, r'mis in neuf complèt mint. Phi-<lb/>naert s' ringorge comme un paon et semble dire: « Viens,<lb/>Goliath ! viens t' mesurer à min côté. » Et Lydéric. l'coma-<lb/>rate d' tous les Lilloises, il est bien frisé comme un homme<lb/>qui va marier ! l' marche aussi fièremint que s'n inn'mi Phi¬<lb/>naert. t'nant su sin dogt, un faucon impleumé in neuf aussi,<lb/>Nos deux géants sont intourés par « l'Av'nir des Trompettes<lb/>lilloises qui nous faitent intinte leus pus bielles fanfares. et</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>UN HORLOGER FILTIER</head>
+        <figure type="decoration"/>
+        <p><lb/>Ch'est eun' femme. Va ouvrir tout d' même, va.</p>
+        <p><lb/>Bonjour Monsieur, bonjour Madame. (à son gar-<lb/>con) : Eh ben ! Quoi ch' qu’on dit? (S'adressant à<lb/>De Cobecq). Il est honteux, vous savez. Allons,</p>
+        <figure type="decoration"/>
+        <p rend="labelled"><lb/>1) res brave</p>
+        <p><lb/>Narcisse, dis bonjour à Monsieur et à Madame et<lb/>n' mets point tes dogts dins tin nez comm' cha ;</p>
+        <p><lb/>Dins les rues i' n'est point comme cha, savez, et<lb/>avec nous non pus; mais d'vant l' monde, il est<lb/>honteux. I' s' présinte si rar'mint d'vant l' monde!</p>
+        <p><lb/>Vous avez eun' pindule à arringer, Madame, ou<lb/>bien vous volez in acater eun' d'occasion. T'nez ch'l<lb/>horloche avé s' boite qui est là, j' peux vous l' lai¬<lb/>cher pou' 35 francs. Ch'est eun' occasion qu' vous n'<lb/>trouv rez nulle vart. A ch't heure, ch' petit coucou<lb/>là, à côté, j' peux vous l'vind' siept franes, garanti</p>
+        <p><lb/>Oui, madame, garanti deux ans, eun' occasion,<lb/>que t'en seras contente, C'est du bon, savez-ve<lb/>Dans cinquante ans, elle ira encore comme auze<lb/>d'hui. Belle pièce, madame, garanti deux ans.</p>
+        <p><lb/>In v'là eune aut', dij-huit francs, avec des poi<lb/>ell' vaut l' double d' sin prix. Si vous préféreze<lb/>montre pou l' communion d' vous garchon, j'i<lb/>là quate aussi d'occasion. Ch'est incien, mais ch<lb/>comme a les criuolines, aits vou choix n</p>
+        <ab type="head"><lb/>LA PEMME (prenant une prise et présentant sa tabatière</ab>
+        <p><lb/>Monsieur, vous êtes bien bon d' vous dérin<lb/>mais j' n’ai rien b'soin, j' venos simpelmint<lb/>d'mander si vous n'avez point b'soin d'un appe<lb/>horloger. Ch'est min garchon. Dis bonjour, peti<lb/>est instruit jusqu’au bout des ongles. Il a sin e<lb/>ficat et puis, il a du goût pon' ch' métier, cha<lb/>qu' sin père m'avot dit d' cacher à l' placher<lb/>eun' bonne bontique. Seul'mint, dins les gra<lb/>magasins, l' n'apprindrot p't-êt point gramint. A<lb/>j'ai d'mandé consel à Boniface, l'garchon d'e</p>
+      </div>
+      <div type="article">
+        <p><lb/>Non, ch'est point tout, puisque j'ai r'couru bien vite<lb/>l' rue Saint' Catherine pour mi le r'vir passer incor eur</p>
+        <p><lb/>Comme j' pinse que « L' V'aclette » n'ara jamais asse<lb/>plache pour que j' vous raconte tout chin qu' j'ai<lb/>cheull' bielle fiête, j' vous parlerai des concerts, du d<lb/>du ballon « L.' Vieux-Lille », des illuminations et des<lb/>qu'on a donnés presqu'à chaque coin d' rue. dins</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>LES VIEUX QUARTIER:</p>
+        <lg>
+          <l><lb/>enn m'a dit: l' fant rimplir fin rôle</l>
+          <l><lb/>ecole.</l>
+          <l><lb/>volant poin ;êt puni, f'al dit : «j'frai un artique,</l>
+          <l><lb/>Avé ch' titre : Les Vieux On</l>
+        </lg>
+        <lg>
+          <l><lb/>uet e du ni m nest q d</l>
+          <l><lb/>les aim' pourtant bien mieux qu' les cog'leux, sans me</l>
+          <l><lb/>Ch'est pour cha qu'on a fait les gout' et les couleurs</l>
+          <l><lb/>ai vn L' Course à Brouett' qui valot bien l's aut's deux</l>
+          <l><lb/>Chez Julien Grimonprez, l' cabartier d'Brât-Maso,</l>
+        </lg>
+        <lg>
+          <l><lb/>ori: In marcho!</l>
+          <l><lb/>biche</l>
+          <l><lb/>puvill Pontain del Saulx</l>
+          <l><lb/>Gaillard bati au dur, et comm' quate, au moins, fort.</l>
+          <l><lb/>Rouche et luijant d' plaisi, à chaque halte l' s'in donn</l>
+          <l><lb/>quitt' point d' Pocul ses Tambours, il a grand'mint raison,</l>
+          <l><lb/>ui batt rott'nt un drol' de rigod</l>
+          <l><lb/>Bravo! vla Brül'-Nason, trouver, canchonnier, barde</l>
+          <l><lb/>'ai applandi. d'bon cour, en voyant L'Fraternelle</l>
+          <l><lb/>Habitants du quartier, plein d'devon mint et d'zèle,</l>
+          <l><lb/>Car les archers sont la, pou définte s'n konneur.</l>
+        </lg>
+        <figure type="decoration"/>
+        <pb facs="0003.xml"/>
+        <ab type="head"><lb/>r'lz étottent bien Phinaert et Lydérie !</ab>
+        <lg>
+          <l><lb/>laisi d' les vir solide' et l' cour joyeux,</l>
+          <l><lb/>és tout in nué. i s' donnottent du chie</l>
+          <l><lb/>kott'nt in riant, leu' nonott's dins leu ch'veux</l>
+          <l><lb/>au Car du Congo, j' vodro qu'on li permette</l>
+          <l><lb/>souvint sortir pour les méchant's odeurs,</l>
+          <l><lb/>cha s'rot plaisi d' respirer à s' feurniette</l>
+          <l><lb/>que l' c...hirot des cars de vidangeurs.</l>
+          <l><lb/>es traite auteurmint, car il' ont fait leu d'voir.</l>
+          <l><lb/>d' dévoués et savoir fair des fiêtes,</l>
+          <l><lb/>à print des l'çons, ach'e heure à l'abattoir.</l>
+          <l><lb/>fants d' Demora, in costum' magnifique</l>
+          <l><lb/>rs national's des Russe' et des Français,</l>
+          <l><lb/>tl' long du parcours r'chu des marqu's sympathiques,</l>
+          <l><lb/>s deux grands pays n' se quitt'ront pus jamais.</l>
+        </lg>
+        <lg>
+          <l><lb/>sin li répond : n' vous fûchez point comme che</l>
+          <l><lb/>favez point tant d'gaz dins ch't qu' vous avez la.</l>
+        </lg>
+        <lg>
+          <l><lb/>"plache d'Saint-André, aux Bleuets à le Plachette,</l>
+          <l><lb/>s ont réussi à l' clarté des lampion.</l>
+          <l><lb/>'s nouviell's tenus, et pou ls exé</l>
+          <l><lb/>i's nouviell's tenu's, et pou l's exécuu</l>
+        </lg>
+        <lg>
+          <l><lb/>ectrice' et lecteurs, pardon pou ch' long récit;</l>
+          <l><lb/>lu tout vous dire, au nom de l' Raide Action,</l>
+          <l><lb/>d' dormant !... J' vous souhaite eunn' bonne nuit</l>
+          <l><lb/>dane ous plair, pour eun' aute occasion.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>ins nou prochain liméro, nous publierons<lb/>Parabole de l'Infant Prodigue, de Debuire</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>L'QUIEN</head>
+        <head><lb/>ou les CONCOURS DE QUIENS RATIERS</head>
+        <lg>
+          <l><lb/>laisis là on' un n' séquoi d'utile</l>
+          <l><lb/>r' chés bièt's qui font vir tant d'corache</l>
+          <l><lb/>scofier tous chès rats d'un cop d' dint,</l>
+          <l><lb/>pout point eroir les servics que l'quien rnd. </l>
+        </lg>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>ch'est qu' l'instinet d'chés quiens si nécessaires,</l>
+          <l><lb/>at terrible in face d'chés ratiere</l>
+          <l><lb/>Pœeul du maite i plitt'nt comm' les amours.</l>
+          <l><lb/> voisin' i' sont mêm' fort paisit</l>
+          <l><lb/>nt défant ch'est d' ronfler hardimint.</l>
+          <l><lb/>destruction des animaux nuisibles.</l>
+          <l><lb/>peut point croir les servics que l'quien rind. (Bis)</l>
+        </lg>
+        <lg>
+          <l><lb/>8 qu'un quien, quoich' qui n'y u d'pus fidête,</l>
+          <l><lb/>ami d' lhomme et l'ami des infant</l>
+          <l><lb/>s voleurs n'y-a point d' sur té parelle,</l>
+          <l><lb/>quien l' berger roupill sur mint,</l>
+          <l><lb/>me incor dins pus d'eun' circonstance,</l>
+          <l><lb/>peuit point croir les servićs que l'quien rind. (Bis)</l>
+        </lg>
+        <figure type="decoration"/>
+        <p><lb/>qui vind du pichon au marqué d' Vazem-<lb/>'fill' même a marié un plafonneu' qui fait<lb/>a noce. Elle est divorcée, vous savez. Ah!<lb/>savez point. V'là tros mos et ell' va se r'ma-<lb/>l' garchon Bastien, l'épicier de l' rue à Cla-<lb/>ous l' connaichez bien, ch' garchon, il est<lb/>; mais il est courageux. J' cros qu'elle ara<lb/>n homme. L' père Bastien a perdu s femme,<lb/>avez, l' mos passé ; awi, des rhumatisses.<lb/>lot eun' bonn' femme. Et s' sœur, donc, Lisa,<lb/>le a élevé siept infants avec ses bras, j' peux l'<lb/>Elle étot buresse. Fallot vir comme elle y allot<lb/>ion à l'ouvrache. Ch'est eun' famille comme<lb/>in père étot l' meilleur tailleur de Lille, mal-<lb/>eusemint, il aimot d' boire. Eh ben, l' fils<lb/>porteu' d' morts à Saint-Meurice, ch'est l'<lb/>là un garchon qui va ouvrer quéq' fos<lb/>pu deux mos sans faire d' noce, mais quand i'<lb/>net, gare là-d'ssous! I' n'n'a pou' tros semaines.<lb/>in vot gramint d'hommes comme cha. Ch'est<lb/>désolation. Aussi cheull' qui n'n a un comme<lb/>ien elle peut s' dire heureusse, malgré qui<lb/>point parfait, car dins min quartier on l'ap¬<lb/>Ours. Jamais i' n' parle à personne. Quéq' fos<lb/>: Mais Tintin, (l' s'appelle Augustin), mais<lb/>trop long à dire, aussi j' l'appelle Tintin,<lb/>me min biau frère Désir qu'on appelle Zizir<lb/>alter purite. In v'la incore unqui a sin carac-</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>On suppos'ra, aveue raison,</ab>
+        <ab type="head"><lb/>VIEILLES CROYANCES</ab>
+        <figure type="decoration"/>
+        <p><lb/>J'comprinds qu'on n' vot point d'bon cœur eune<lb/>araignée et j' pinse bien que l' prijonnier qui s'a<lb/>un jour avisé d'in apprivoiser eun', devot jolimint<lb/>s'imbêter pour in arriver là, car ch'est un des insec-<lb/>tes les pus répugnants. Brou ! j'in frissonne in y</p>
+        <p><lb/>Pourtant cheull' biête, à chin qu'on dit, a eun'<lb/>grande influence sur nous. Ell' peut nous rind'<lb/>tristes ou gais, nous porter bonheur ou malheur,<lb/>et, bien sûr, sans s’in douter.</p>
+        <p><lb/>Un vieux dicton di', in effet:</p>
+        <lg>
+          <l><lb/>Araignée du matin, grand chagrin,</l>
+          <l><lb/>Araignée du midi. grand plaisi,</l>
+        </lg>
+        <list>
+          <item>Araignée du soir, grand espoir.</item>
+        </list>
+        <p><lb/>Ch' dicton, aussi faux qu'un rémola gâté, a pour-<lb/>tan' eun' grande renommée à Lille 'et dins l's invi-<lb/>rons ; aussi, i' faut vir avec queulle ardeur, les<lb/>bonn's femmes s' dépèch'nt à écraser l'araignée<lb/>qu'i trouv'tent su' leu' mur in s' levant l' matin,<lb/>car si on tue l' biête, l'effet n'se produit point: donc<lb/>point d' chagrin de l' journée.</p>
+        <p><lb/>In r'vanche, vous in veyez qui les laich'nt courir<lb/>l' midi et l'soir, peur de perde len' plaisi ou leur</p>
+        <p><lb/>Je n'viendrai point discuter ichi si ch'est utile ou<lb/>nuisible d' tuer l's araignées, pourtant, comme dins<lb/>toute mason propre et qui s' respecte, leu toiles n'<lb/>sont point tout à fai' un ornemint, on leu' fait gé¬<lb/>néral'mint la chasse, les forchant d'habiter les caves<lb/>et les guerniers uch' qu'i' n' trouv'tent point toudis<lb/>I' norriture nécessaire.</p>
+        <p><lb/>Alors, chés biêt's, par un biau jour, alant disputé<lb/>avec eun' voisine ou pour un aut' sujet, aban-<lb/>donn'nt leu' mason et vont cacher un coin pour<lb/>faire eun' nouviell' toile. Ch'est naturel et, pourtant,<lb/>nous, des être' intelligents qui saitt'nt raisonner,<lb/>nous supposons qu' l'araignée vient pou' nous faire<lb/><lb/>du chagrin, nous faire rire ou nous donner d' l'espé-<lb/>rance ; et s'lon qu'ell' vien' au matin, au midi ou au<lb/>soir, on l' tue ou on n' le tue point.</p>
+        <p><lb/>l' fau' avoner qu' cheull' croyance est cocasse, et<lb/>pour qu'on in connaiche l' valeur, j' veux citer tros<lb/>eximples que j' prinds dins mes souv'nirs :</p>
+        <p><lb/>L' velle du jour qu'on d'vot tirer l' loterie du<lb/>Palais des Biaux-Arts, j' vos l' soir, courant par<lb/>tierre, eune araignée avec des pattes gross's et<lb/>grand's comme d's alleumettes. J'allos l'écraser d'un<lb/>bon cœeur, quand m' femme s'écrie: «Quoich' que<lb/>te fais? Araignée du soir, grand espoir! N' le</p>
+        <p><lb/>L'lind'main, j'acatos chinq nouviaux billets et</p>
+        <p><lb/>Quéqu' temps après, un sam'di au matin, j'in vo'<lb/>eune aute et je m' dépêche à l'écraser ; donc, je n'<lb/>devos poin' avoir du chagrin : l' soir j'ai perdu min<lb/>porte-monnaie avé m' semaine.</p>
+        <p><lb/>Infin, point pus tard que dimanche passé, j' devo'<lb/>aller faire eun' partie d' rigolate avec des coma¬<lb/>rates, quand, à midi, au moumint d' partir, j' trouve<lb/>incore eune araignée d'ssus m' croisée. Cheull' fos<lb/>je l' laiche courir et quand j'ai arrivé au rindez-<lb/>vous, les aute' étott'nt partis sans mi. J' m'ai in-<lb/>croûté tout l' reste de l' journée, et pourtant, on dit:<lb/>« Araignée du midi, grand plaisi.»</p>
+        <p><lb/>Mais j' m'arrête su' c' sujet, car, tout à l'heure on<lb/>va m' dire que j' déraisonne, et<lb/>tère. Il est coulonneux... et il in dépinse d' l'argint<lb/>avec ses coulons. Jésus de la vie ! Eh ben ! et les<lb/>coqu'leux ? Et les pinchonneux, et les bourleux, et<lb/>les jueux d' cartes et d' galoches? Tout partout y-a<lb/>un n'séquoi, allez, monsieur.</p>
+        <lg>
+          <l><lb/>Qu' jai eune araigné dins l' plafond.</l>
+        </lg>
+        <lg>
+          <l><lb/>On traite d'quiens les rich's qui sont avares,</l>
+          <l><lb/>Ch'est un grand tort, on n' dot point leu dire </l>
+          <l><lb/>Car dins chès biêt", et les cas n' sont point rares,</l>
+          <l><lb/>On trouv pus d' cœur que parmi chés gins là.</l>
+          <l><lb/>IIl est certain qu'un quien n'est jamais lache</l>
+          <l><lb/>qu' pour sin malte i's' f'rot tuer brav'mint,</l>
+          <l><lb/>Mi je l' sontiens, même étan à l'attache</l>
+          <l><lb/>On n'peut point croir les serviés que l'quien rind. (bu)</l>
+        </lg>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>A ch't heure aussi in France on a l'quien d'guerre.</l>
+          <l><lb/>Cheull' mesur là a réell'mint s' valeur</l>
+          <l><lb/>Avec la Pruss' qu'on euche incore affaire.</l>
+          <l><lb/>L'action du quien peut nous porter bonhes,</l>
+          <l><lb/>Dins les combats cont l'inn'mi qui nous e</l>
+          <l><lb/>Avec sin flair l' peut aider gramint,</l>
+          <l><lb/>Infin pour tout, toudis mi je l' répète,</l>
+          <l><lb/>On n' peut point croir les servics qué l' quien rind. (Bis)</l>
+        </lg>
+        <p><lb/>Ainsi, l' porrot qu'mincher à ouvrer d'main, min<lb/>garchon. Ch’est intindu? Quant au gain, vous<lb/>savez, ch'est point pour cha qu' je l' mets avec vous.<lb/>l'n rapport rot qu six franes par semaine que j</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>On peut demander «LA VACLETTE<lb/>à partir du samedi matin, à tous les mar-<lb/>chands de journaux, dans tous les kiosques</p>
+        <p rend="styled"><lb/>On trouve encore des numéros 1,24 3, rue<lb/>Gambetta, 15 ou rue Constantine, 21 bis.</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Ac....cosse....tiche.</head>
+        <lg>
+          <l><lb/>on alut à l' Vactette et tongu' vie</l>
+          <l><lb/>ch'journal bien lillos, tout neuf et éduqué;</l>
+          <l><lb/> es séquois qu'on y lit, nous font gramint de plaiji</l>
+          <l><lb/>En chacun s' trouve aprés, comme mi, tout dératé.</l>
+          <l><lb/> ous les politiqueux. l' les met à l'caudière,</l>
+          <l><lb/>tous les vrais Lillos i' s'adresse in riant.</l>
+          <l><lb/>E but cherché s'obten'ra facil'mint d' cheul' manière.</l>
+          <l><lb/>L'la déja pus d'chint fos qu'je l'répète à tout v'nant;</l>
+          <l><lb/>ux vrais rigolos d' Lille d'invoyer des histoires,</l>
+          <l><lb/>O ha, cha s'adresse aussi aux gins des invirons,</l>
+          <l><lb/> es potach's. les gommeux porott'nt bien après boire</l>
+          <l><lb/>( ssayer d' composer cune ou deux biell' canchons.</l>
+          <l><lb/>" achons don' d' nous unir pou' s' démonter la rate,</l>
+          <l><lb/>" ous in chœcur, allons-y. d' nou' biaux p'tits bonimints</l>
+          <l><lb/>l) t l'urach chaqu' semain s'ra augminté d' quinz chints.</l>
+        </lg>
+        <figure type="decoration"/>
+        <p><milestone unit="column" n="3"/><lb/>MAISONS RECOMMANDÉES<lb/>BIÈRES. — BRASSERIE DES MOULINS, rue d’ArraS.<lb/>CONFECTIONS. -MORREN-BASSÉE.A.NEANENRE.<lb/>REGISTRES.— FOURNIER. rue de Gand, 54.<lb/>COIFFEUR. FÉLICIEN DRUMEZ. E. d VEUXFUBOUEG, 17<lb/>BAL ET SALLE PARTICULIERE. — SCALA, B CINBEITA, 263</p>
+        <ab><lb/>VOIR AUX ANNONCES.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

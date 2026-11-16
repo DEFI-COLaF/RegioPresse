@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t511540587</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1851-02-01">1851</date>
+          <idno type="ARK">bd6t511540587</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t511540587</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <div>
+          <pb facs="0004.xml"/>
+          <fw type="runningTitle"><lb/>Journal de la Côte-d'Or.</fw>
+        </div>
+        <div type="article">
+          <ab rend="continued"><lb/>dorFr,cis Cales, de couchant Fran-</ab>
+          <p><lb/>nant de nord P'article précédent, de midi les<lb/>héritiers de Mme veuve Bivard, d'orient<lb/>François Carles, de couchant François Pillot.</p>
+          <p><lb/>res, tenant de nord les héritiers de Jacque<lb/>Chifflot, de midi le chemin de Montmain, d'o¬<lb/>rient Simon, de couchant les héritiers de Jean</p>
+          <p><lb/>nant de nord le chemin de Montmain, de mi-<lb/>di Mme Roumette, d'orient Simon, de cou-</p>
+          <p rend="labelled"><lb/>centiares, tenant de nord le chemin de Mont<lb/>maio, de midi la veuve Philippet, d'orient<lb/>Denis Catinot, de couchant Fory, à Laberge</p>
+          <p><lb/>tiares, tenant de nord un chemin de desserte,<lb/>de midi la commune de Chion et plusieurs<lb/>propriétaires, d'orient un grand fossé, de cou-</p>
+          <p><lb/>tenant de nord M. James Dêmontry, de midi<lb/>à Seurre, de couchant la Charité de Beaune.</p>
+          <p rend="labelled"><lb/>Piot père et fils, à Chivres, de midi M. James<lb/>Pemontry, d’orient le chemin de Chivres a</p>
+          <p rend="labelled"><lb/>centiares, tenant de nord plusieurs prés, de<lb/>midi M. Plou, d'orient l'hospice de Beaune, de</p>
+          <p rend="labelled"><lb/>Verot(Grégoire), de midi Fourrat, d'orient<lb/>Troly (Pierre), de couchant Frilley-Duval.</p>
+          <p rend="labelled"><lb/>res, tenant de nord 31. James Demontry, de<lb/>midi veuve Derrière, à Seurre, d'orient Char¬<lb/></p>
+          <p><lb/>50 centiares, tenant de nord Charles Ver-<lb/>naux, de Pouilly, de midi Donnet-Jacques<lb/>Cocusse, d'orient Chevaux-Parisot, de cou-</p>
+          <p rend="labelled"><lb/>nant de nord [Pierre Ducordeux, de midi<lb/>Charles Vernaux, d'orient Chevaux-Parisot,</p>
+          <p><lb/>res, tenant de nord M. Frilley, de midi Noef<lb/>Ducordeux, d'orient Noël Ducordeux, de cou¬</p>
+          <p><lb/>mant de nord l'étang Recouillet, de midi</p>
+          <p><lb/>nant de nord M. Brilley, de midi Duval, à<lb/><lb/>Beaune, d'orient Noël Ducordeux, de cou-</p>
+          <p><lb/>centiares, tenant de nord le patis des Taupes<lb/>de midi François Ducordeux, d'orient veuve<lb/>Malet, à Pouilly, de couchant le patis des,</p>
+          <p><lb/>tiares, tenant de nord Claude Leroy, de midi<lb/>Dazincourt, d'orient veuve Hugol, de cou-</p>
+          <p><lb/>tiares, tenant de nord Pierre Ducordeux, de<lb/>midi Delorey, d'orient Delorey, de couchant</p>
+          <p><lb/>res, tenant de nord le pâiis communal, de<lb/>midi veuve Philippet, d'orient Chiflot , Roy<lb/>et Bernard Ducordeux, de couchant Fran-</p>
+          <p><lb/>92 ares 20 centiares, joiguant de nord les hé-<lb/>ritiers Pierre Ducordeau et M. Liger Bélair,<lb/>de midi M. Vernaux; aboutissant de levant<lb/></p>
+          <p rend="labelled"><lb/>levant Jean Lavoyer, de couchant M. Guillier,<lb/>de Pourlans; aboutissant au nord sur M. Ma-<lb/>rinet-Mollerat et M. de Jalleranges, et au mi-</p>
+          <p><lb/>formant moltié d'une pièce indivise avec Mi<lb/>che, de midi Guillemier; aboutissant de levant<lb/>sur M1. Delatroche, et finissant en pointe au</p>
+          <p><lb/>tiares, jolgnant de midi la commune de Chi-<lb/>vres, de nord M. Regnier, de levant Mme Phi-</p>
+          <p><lb/>ne de Labergement, ne sera que provisoire,<lb/>en ce sens que si un acquéreur couvre la mi-<lb/>se à prix des trois lois réunis, il sera réputé<lb/>adjudicataire, et les adjudications partielle,</p>
+          <p><lb/>bles désignés plus haut sera tranchée, même<lb/>au-dessous de l'estimation, et aura lieu?<lb/>Seurre, en l'étude de Me Flachot, notaire au-<lb/>dit lieu, et par-devant M^e Virely, notaire à la<lb/></p>
+          <p><lb/>vis-Léon Demontry. directeur général de k<lb/>soclété d'ossurances, dite l'Equitable, ayant</p>
+          <p><lb/>prendre des renseignements, à Dijon, soit en<lb/>Pétude de Me Virely, notaire, dépositaire du<lb/>cahier des charges, soit en celle de Me Pin-<lb/>gat, avoué, poursuivant la vente; et à Seurre,</p>
+        </div>
+      </div>
+      <div type="article">
+        <p><lb/>nal de première instance de Dijon, le 23 fé-<lb/><lb/>tribunal, à la date du 15 janvier 1851, il sera<lb/>procédé, le 22 février de ladite année 1851,<lb/>à l'adjudication, au plus offrant et dernier<lb/>enchérisseur, d'an Domaine situé sur les com<lb/>munes de Chambolle, Giliy et Flagey, dé-<lb/>pendant de la succession de M: James De-<lb/>montry, qui était représentant a l'assemblée</p>
+        <p><lb/>chaussée, cuisine, logement de vigneron,<lb/>chambre, pressoir, deux celliers, écuries ; au<lb/>premier étage, deux chambres lambrissées à<lb/>solives apparentes, grenier sur le tout, con-<lb/>vert en tuiles; 2º et d'une autre maison de<lb/><lb/>deux chambres, grenier au dessus ; petit elos<lb/>attenant de la contenance de 2 ares environ,<lb/>tenant de levant François Hudelot, de cou-</p>
+        <p><lb/>plus haut, se trouvent encore 12 ares 85<lb/>centiares en nature de vigne, jardin, et clos<lb/>de murs; en sorté que le tout, c'est-à-dire la<lb/>maison de maitre et ses dépendances, non<lb/>compris la maison de vigneron qui vient d'e<lb/>tre indiquée, contient une superficie de 17</p>
+        <p rend="labelled"><lb/>oignant de nord un sentier, de midi François<lb/>Parisot, de levant M. Vogué, de couchant</p>
+        <p rend="labelled"><lb/>snaat de nord M. Groffler, de medi M. Maril<lb/>lier, de levant un sentier, de couchant M.</p>
+        <p rend="labelled"><lb/>de levant François Petit, de couchant M. de</p>
+        <p><lb/>guant de nord un chemin, de midi Renard,<lb/>de levant M. Leguet, de couchant Pierre</p>
+        <p rend="labelled"><lb/>joignant de nord Bornot, de midi un chemin,</p>
+        <p><lb/>6. Au même lieu, a ares 28 centiares,or<lb/>gnant de nord, de midi et de levant un</p>
+        <p rend="labelled"><lb/>joignant de nord M. Marey et autres, de midi<lb/>M. Reulle, de levant le méme, de couchant</p>
+        <p><lb/>joignant de nord François Fourrier et autres,<lb/>de midi M. Chaffotte, de levant M. Pourrier,<lb/>levant sur un sentier, de couchant Malbran-</p>
+        <p><lb/>aboutissant de nord sur un sentier, de cou-<lb/>chant sur François Renaudoi; joignant de<lb/>couchant Blaise Meignot, et de levant sur plu-</p>
+        <p><lb/>guant de levant Mallard, de couchant Maril-<lb/>lier, aboutissant de nord sur un chemin, de mi-</p>
+        <p><lb/>joignant de nord Chevrey. Roy, de midi Four-<lb/>rier (Claude) ; aboutissant de levant sur un</p>
+        <p><lb/>gnant de nord M. Rotalier, de midi M. Le-<lb/>guet; aboutissant de levant sur un sentier, de</p>
+        <p><lb/>vant Mlme Reutle, de nord M. Marey, de Nuits,</p>
+        <p><lb/>gnant de nord Mathieu Malbraache, de midi<lb/>M. Joigoeaux; aboutissant de levant et de cou¬</p>
+        <p><lb/><lb/>gantdenord Boursoi, de midi Picardot; abou-<lb/><lb/>tissant de levant sur un chemin, de couchant</p>
+        <p><lb/>Malbranche, de midi M. Marey-Monge; abou-<lb/>tissant de levant sur un chemin, et de cou</p>
+        <p rend="labelled"><lb/>gnant de levant Simonne Marguerite, de<lb/>couchant Roy (Jean) ; aboutissant de midi sur</p>
+        <p><lb/>gnant de levant M. Marey-Monge, de nord</p>
+        <p><lb/>de nord M. Piflon, de midi M. Vogué; abou-<lb/>tissant de levant sur un chemin, de couchant</p>
+        <p rend="labelled"><lb/>di Moingeard, de nord et de levant M. Coste,</p>
+        <p rend="labelled"><lb/>joignant de nord M. Lecouteux, de midi M.<lb/>Marey, de Nuits; aboutissant de levant sur</p>
+        <p rend="labelled"><lb/>joignant de nord Pierre Faiveley, de midi le<lb/>mème ; aboutissant de levant un sentier, de</p>
+        <p><lb/>52. Au même lieu, 2 ares 14 centiat0.<lb/>gnant de midi et de levant un chemin,</p>
+        <p rend="labelled"><lb/>joignant de nord Vacherot, de midi un seu-<lb/>tier, de levant Gremeau, de couchant plu-</p>
+        <p><lb/>nis-Léon Demontry, directeur général de la<lb/>société d'assurances, dite l'Equitable, héritier<lb/>bénéficiaire de BI. James Demontry, ayant</p>
+        <p><lb/>à Dijon, en l'étude deje Virely, notaire; rue<lb/>Chaudronnerie, 42, le samedi 22 février 1851,<lb/>à midi, sur la mise à prix de 17,000 fr.</p>
+        <p><lb/>prendre des renseignements, soit dans l'étude<lb/>de Mo Virely, notaire, dépositaire du cahier<lb/>des charges, soit en celle de Mo Pingal, a<lb/>voué, place Saint-Jean, 17, poursuivant la<lb/>andi Pierre Mœur, et de couchant Mme Bour-</p>
+        <p><lb/>joignant de nord Bornot, de midi M. Mercier<lb/>de levant M. Fourrier, de couchant M. Reulle</p>
+        <p><lb/>tier, de levant M. Mercier, de couchant M.</p>
+        <p><lb/>gnant de nord un séntier, de midi M. Grof¬<lb/>fier, de levant M. Ruetté, de couchant 31.</p>
+        <p><lb/>joiguant de nord et de levant un chemin, de<lb/>midi la montague, de couchant François</p>
+        <p><lb/>joignant de nord une friche, de midi un che¬</p>
+        <p><lb/>gnant de nord MI. Marey et plusieurs, de mid<lb/>M.Roy, de levant M. Marey, de couchant veur<lb/></p>
+        <p><lb/>res, joiguant de nord et de couchant la mon¬</p>
+        <p><lb/>joignant de nord M. Marey, de midi François<lb/>Hudeloi, de levant biaignoi, de couchant veu-</p>
+        <p><lb/>goant de nord Maignol, de midi François<lb/>Mercier, de levant un chemio, de couchant</p>
+        <p rend="labelled"><lb/>20. Au même lieu, 4 ares 28 centiares, jon<lb/>gnant de nord et de couchant M. Marion, de</p>
+        <p rend="labelled"><lb/>goant de nord M. Marillier, de midi M. Lié-<lb/>bauit, de levant M. Vogué, de couchant un</p>
+        <p rend="labelled"><lb/>rillier, de levant Maignot-Chapuis, de cou-</p>
+        <p rend="labelled"><lb/>de nord et de couchant M. Rotallier, de levant</p>
+        <p rend="labelled"><lb/>joignant de nord Jean Phitier, de midi et de<lb/>fevant M. Boudel, et de couchant François</p>
+        <p><lb/>gnant de nord un chemin, de midi et de cou¬</p>
+        <p rend="labelled"><lb/>res, joigoant de nord M. Marey, de levan</p>
+        <p rend="labelled"><lb/>guant de nord M. Marey, de midi Jean Cler¬<lb/>gel, de levant M. Marey, de couchantun che</p>
+        <p><lb/>gaant de nord M. Marey-Monge, de midí<lb/>Mme Moyne; aboutissant de levant sur le che-<lb/>min de Morey à Vosne, de couchant sur u</p>
+        <p><lb/>gnant de nord M. Marey Monge et Mme Moy<lb/>ne, de midi sur le chemin de Morey à Vosne,</p>
+        <p rend="labelled"><lb/>gnant de nord M. ne Reulle, de mide<lb/>Blansière-Ouvrard, et de couchant un che-</p>
+        <p><lb/>de midi M. Groffier-Gremeau; aboutissant de<lb/></p>
+      </div>
+      <div type="article">
+        <head><lb/>de,,</head>
+        <p rend="labelled"><lb/>ci-après désignés, sis audit Pontaine, appar¬</p>
+        <p rend="labelled"><lb/>tare de vig;e et le surplus en nature de terre</p>
+        <note>
+          <p rend="styled"><milestone unit="column" n="2"/><lb/>DIJON, IMPRIMERIE DE DOUILLIER, AUE DES GODRANS, a1?</p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

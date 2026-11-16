@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81362111</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1897-06-07">1897</date>
+          <idno type="ARK">bpt6k81362111</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81362111</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>SETENCO ANNADO, No 232</fw>
+        <dateline><lb/>DILUN, 7 DE JUN 1807.</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren per l'oli<lb/>E faren l'aiòli.</ab>
+        <ab><milestone unit="column" n="4"/><lb/>Vidoun, Vidau,<lb/>Segound la vido<lb/>Lou journau.<lb/>Prouverbi dl meinounie,</ab>
+        <ab><lb/>F. MISTRAL.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17,27)</p>
+        <figure/>
+        <ab><lb/>SURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>er<lb/>FOLCO DE BANONCELLI<lb/>au palais dou Roure,<lb/>EN AVIGNOUN<lb/></ab>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>PBES DE L'ABOUNAMEN</p>
+        <figure type="table"/>
+        <figure type="decoration"/>
+        <p rend="styled"><lb/>Baile dou journau:<lb/>FOLCO DE BARONCELA</p>
+        <figure/>
+        <ab><lb/>A vira la capoucho emé vigour se groupo:<lb/>La vou metre de biais<lb/>Per faire proun travai:<lb/>Escouto un pau lou vènt que dins lis éuse aleno:<lb/>Segur aquesto niue<lb/>Noun pourren plega l'iue;<lb/>leu m'envau d'aquest pas per blouca la courrejo:<lb/>Finirai d'enchapla<lb/>Pèr miéus trissa lou blad;<lb/>Pièi pausarai d'aploumb la pèiro toujour frejo;<lb/>Sabes que nous n'en coui,<lb/>Quand roto sus soun moui.</ab>
+        <p rend="heading"><lb/>LOU MOULIN DE VÈNT</p>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Dedins noste pais avèn subre la colo</l>
+          <l><lb/>Un vièi moulin de vènt</l>
+          <l><lb/>Que l'auro ié counven;</l>
+          <l><lb/>Entre que li calour an seca li regolo,</l>
+          <l><lb/>Lou móunié mé soun fiéu</l>
+          <l><lb/>Ié trèvon dins l'estiéu;</l>
+        </lg>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Lou guidoun, quand dins lis er tremolo,</l>
+          <l><lb/>Sènso mai espera,</l>
+          <l><lb/>Lou van faire vira.</l>
+        </lg>
+        <p rend="styled"><lb/>Lou drole jouine e fort jusquo i couide s'estroupo,<lb/>Aganto lou barroun<lb/>Qu'es vers lou fenestroun;</p>
+        <list>
+          <item>- Enca 'n pau! prenen lou vènt en poupo!- Ansin disié lou vièi Que saup ço que n'en ei.</item>
+        </list>
+        <p rend="labelled"><lb/>— Despacho-te, moun féu, mounto sus lis enteno<lb/>E, sènso perdre alen,<lb/>Fau metre velo en plen;</p>
+        <lg>
+          <l><lb/>Lou travai, que noun te fague peno:</l>
+          <l><lb/>L'a proun qu’avèn rèn fa,</l>
+          <l><lb/>Laisso lou vènt boufa.</l>
+        </lg>
+        <list>
+          <item>Tron de goi! Lou chaland que pounchejo! De blad n'adu 'n sestié, Camino voulountié.</item>
+        </list>
+        <lg>
+          <l><lb/>— Bon-jour, bràvi móunié! veniéu faire farino:</l>
+          <l><lb/>Ai vist d'aperalin</l>
+          <l><lb/>Vira voste moulin.</l>
+          <l><lb/>Se vous fasié pas mai, n'ai enca sièis eimino;</l>
+          <l><lb/>Se lou bon Diéu lou vòu,</l>
+          <l><lb/>Lis adurrai dijòu.</l>
+        </lg>
+        <ab><lb/>Mis enfant - amount fan tristo mino:<lb/>Avèn plus gens de pan,<lb/>Nous fau couire deman!</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>Subran li gai móunié van empli l'entremueio,<lb/>Despènjon lou caiau,<lb/>La man sus l'aguiau:<lb/>Se la som- quauco fes lis enueio,<lb/>En estent en repaus<lb/>Tubon lou cachimbau</ab>
+        <ab type="head"><lb/><lb/>Counsistori de Taraacoun<lb/></ab>
+        <p><lb/>Dins la ciéuta de Santo Marto, aquest 30 de<lb/>Mai, s'es acampa lou (ounsistòri di Majourau<lb/>dóu Felibrige pèr reelegi soun burèu. A agu<lb/>liò la reunioun encò de la Véuso Batisto, dins<lb/>lou celèstre de l'oustau. A la taulado bello e<lb/>gaio ié sesien quinge majourau, qu'èron En<lb/>Arnavielle, En Astruc, En Bertas, En Chassary,<lb/>En Constans, En Girard, En Glaize, En Gras,<lb/>En Guillibert, En Huot, En Jourdanne, En<lb/>Marsal, En Mistral, En Mouzin, En Tavan, emé<lb/>Moussu Messine, sendi de Mount-Pelié.</p>
+        <p><lb/>Lou Capoulié En Fèlis Gras es esta mai<lb/>nouma à l'unanimeta.</p>
+        <p><lb/>S'es elegi après: pèr Assessour de la Prou-<lb/>vènço, En Leoun de Berluc-Perùssis ; Asses-<lb/>sour dóu Lengadò, En Albert Arnavielle; As-<lb/>sessour de l'Aquitàni, En Carle de Carbon-<lb/>nières.</p>
+        <p><lb/>S'es mantengu Sendi: En Marius Girard,<lb/>pèr la Mantenènço de Prouvènço; pèr aquelo<lb/>de Lengadò, Moussu Messine ; e pèr la d'A-<lb/>quitàni, s’es mes En Antòni Perbosc.</p>
+        <p><lb/>Sus la moucioun dóu Capoulié, vist lou<lb/>relarg dou Felibrige, s’es nouma aquest cop<lb/>dous Cancelié pèr lou service : l'un, En Gas-<lb/>toun Jourdanne, aguènt li sagèu dóu Miejour;<lb/>l'autre, En Pau Marieton, pèr Paris e lis en-<lb/>foro.</p>
+        <p><lb/>Majouralat. En plaço dóu majourau Jùli<lb/>Cassini, s’es elegi lou mantenèire En Auzias<lb/>Jouveau, de Caumount; en plaço de Pau Arène,<lb/>En Batisto Bonnet, felibre de Paris.</p>
+        <p><lb/>S'es decerni lou titre de sòcio felibresso à<lb/>Na R. W. Gilder, qu'à New-York elo s’es facho<lb/>l'Eenfind ees regs ou Canuliá En .</p>
+        <p rend="styled"><lb/>Fasènt soun pichot trin, se trufon de la plueio<lb/>Autant que di mourven<lb/>Que i'a long di devens;</p>
+        <p><lb/>Au Paradou.</p>
+        <p rend="styled"><lb/>Charloun Riéu.</p>
+        <p><lb/> Ch. xeu, que sesemmpon à Marsiho, librarié<lb/>hè, que s'estampon à Marsiho, librarie<lb/>Ruat.)<lb/>chausi, coume d'usage, segound lis estiganço<lb/>e à sa couneissènço lou liò emai la dato dóu<lb/>festenau de Santo Estello pèr aquest estiéu<lb/>que vèn.</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>Me fariés dana !<lb/>vêne emé iéu te permena!<lb/>Béurai ti plour !<lb/>Nina, Nina,<lb/>Nen siéu dessena!<lb/>vène emé léu te permena!</ab>
+        <ab type="head"><lb/>EHRSOun MHlenGO</ab>
+        <ab><lb/>SUS L'ER NAPOULITAN FUNICULI-FUNICULA</ab>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Nina, duerbe toun éstro au calignaire</l>
+          <l><lb/>Qu'espèro avau!</l>
+          <l><lb/>Nina, posêstre tranquilo: ta maire</l>
+          <l><lb/>Rounflo amoundaut.</l>
+          <l><lb/>Deforo, escouto canta l'auceliho</l>
+          <l><lb/>Dins lou jardin ;</l>
+          <l><lb/>Nina, ve, la fresquiero escarrabiho;</l>
+          <l><lb/>Que beu matin !</l>
+        </lg>
+        <list>
+          <item>Nina, Nina,</item>
+        </list>
+        <list>
+          <item>Mounte vos ana? vêne emé léu te permena!</item>
+        </list>
+        <lg>
+          <l><lb/>Nina, ve la como di tamarisso</l>
+          <l><lb/>Dins lou campas ;</l>
+          <l><lb/>Alin ve-la flouta, boulegadisso</l>
+          <l><lb/>De tóuti las.</l>
+          <l><lb/>Nina, desnouso ti négri trenello</l>
+          <l><lb/>Sus toun coutet :</l>
+          <l><lb/>laisso-lei jouguéja floutarello</l>
+          <l><lb/>Au ventoulet !</l>
+        </lg>
+        <list>
+          <item>Nina, Nina,</item>
+        </list>
+        <ab type="head"><lb/>-</ab>
+        <lg>
+          <l><lb/>Nina, la roso plouro à reigagnolo:</l>
+          <l><lb/>Lou parpaioun</l>
+          <l><lb/>Tant-leu l'assolo de babeto folo</l>
+          <l><lb/>E de poutoun.</l>
+          <l><lb/>Oh! laisso- me poutouna, Nina bello,</l>
+          <l><lb/>Ta bouco en flour!</l>
+          <l><lb/>E pièi, se vên ta maire renarello,</l>
+        </lg>
+        <ab><lb/>Nina, Ii chato an Pamo chanjadisso<lb/>A cade istant !<lb/>Toun pichot cor, al-las! aura maliço<lb/>Bessai deman:<lb/>Aro toun sen fai lou mounto-davalo<lb/>Dins toun courset,<lb/>En pantaiant uno festo nouvialo<lb/>Dins l'esparset !</ab>
+        <list>
+          <item>Nina, Nina,</item>
+        </list>
+        <lg>
+          <l><lb/>Me fas tresana!</l>
+          <l><lb/>vène emé léu te permena !</l>
+        </lg>
+        <ab><lb/>Beu-Lid de Trevareno,<fw type="digitisation-artefact"><lb/>sou ./Bqe .</fw></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

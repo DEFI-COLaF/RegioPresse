@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Nouvielle Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t545174017</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Nouvielle Vaclette : journal patoisant humoristique, non politique / avec la collaboration du Caveau lillois</title>
+          <publisher>[s. n.] (Lille)</publisher>
+          <date when="1931-07-11">1931</date>
+          <idno type="ARK">bd6t545174017</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t545174017</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>18' ANNÉE. — No 332</fw>
+        <fw type="runningTitle"><lb/>0.25 LE NUMÉRO</fw>
+        <fw type="runningTitle"><lb/>L'abonnement se paie d’Avance</fw>
+        <dateline><lb/>Samedi 11 Juillet 1931.</dateline>
+        <ab><milestone unit="column" n="2"/><lb/>REDAOTION<lb/>ABONNEMENT<lb/>69, Rue Saint.-Sauveur,</ab>
+        <figure/>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/><lb/>VEC LA COLLABORATION</p>
+        <ab><milestone unit="column" n="3"/><lb/>Gérant: MAREELS Isidove</ab>
+        <ab><lb/>Chéques Postaux 37.182</ab>
+        <p rend="styled"><lb/>Siège: 1, Rue de la Monnaie</p>
+        <ab><lb/>France un an, 18.50</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Amateurs de Canchons Patoises<lb/>Vous trouv'rez dins ch' liméro:</head>
+        <ab><lb/>L' Dernier Mot n'est point dit<lb/>Les Journaux<lb/>Histoire d'un Crime.<lb/>Air : Le Musicien embarrassé ou Le Pendu.<lb/>Chanson de Félix DESSEVE, dit Quinquin.</ab>
+        <ab><lb/>Aie: La Cinquantaine ou L' Bon Vieux Temps<lb/>Chanson d'I. MARÉELS</ab>
+        <ab type="head"><lb/>J'ai d's Alleumettes</ab>
+        <ab><lb/>S'i n'y-avot pus d' Femmes<lb/>Air : Le Père et la Mère<lb/>Chanson de Benoit VANUXEM</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Intindu chez l’Épicier</head>
+        <p rend="labelled"><lb/>— Tiens, tiens, v'là Palmyre! qu'i' n'y<lb/>longtemps que j' t'ai vue! Cha va à t' mason?<lb/>n homm' n’est pus si barbant qu’avant? Et<lb/>les goss's sont grands à ch' t’heure? Et t' pus<lb/>viell' fill' quoich' qu'ell' devient ?</p>
+        <p rend="labelled"><lb/>— Ah! ch'est vrai faut que j' te diche, elle va<lb/>printe s' retraite.</p>
+        <p rend="labelled"><lb/>Hein ! quoi, te n' te tromp's point! ch'est<lb/>de l' fille que j' te parle.</p>
+        <p rend="labelled"><lb/>— Et ben ouais, j' te comprinds bien; v'là,<lb/>elle a trouvé un bastien qui est fou d'ell',<lb/>veut l' marier pou' l'St-Eloi, et i'n' veut pus qu'<lb/>Ninie va à s' fabrique (malgré tout ch' qu’on dit<lb/>a incor' d' bons garchons su' tierre) i' n' veut<lb/>pus qu'ell' saliche ses mains à faire sin nettya-<lb/>che.</p>
+        <p rend="labelled"><lb/>Tiens à ch' propos là ch' garchon i' m'a<lb/>fait eun' biell' proposition: pindant tros, quate<lb/>mos i' m'a d'mindé d' li donner des l'çons pour<lb/>qu'i' sache tout faire à s' mason, i' m'payeratout<lb/>ch' que j' li d'mand'rai.</p>
+        <p rend="labelled"><lb/>— Acoute, foi d' Palmyre, j'in sus continte,<lb/>pasque d'puis un momint j'ai d’s innuis avec<lb/>m' homme, alors min ménache n'est pus fort<lb/>bien t'nu.</p>
+        <p rend="labelled"><lb/>— Mais avec min biau garchon à v'nir on va,<lb/>astiquer, tout, d'puis l' guernier jusqu'à l' cafe,<lb/>s'rai payée, ch'est cha qui est biau !<lb/>Te vos, j'avos raison t'à l'heur' de t'dire que m'<lb/>m' fill' allot printe s' retraite, elle a vingt<lb/>ans et elle n' va pus ouvrer in v'là eun' qui peut<lb/>d' fiche point mal des assurances sociales; si<lb/>min biau garchon à v’nir povot in même temps<lb/>donner des l'çons à m'n homme, j' poros d'<lb/>timps in temps aller boire eun' goutt' d' cafe<lb/>chés mes voisins.,</p>
+        <p><lb/>Comme l'épicier avot fini de m' servir, j' sus<lb/>parti, je n'aves aada aerer.</p>
+        <ab><lb/>Filochart</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>Grégoire.</ab>
+        <ab type="head"><lb/>L' Capiau... Porte-Bonheur</ab>
+        <p><lb/>Ch' jour-là, Georges Dufaisan, surnommé<lb/>Lafrisure, étot parti avec sin comarate Julien<lb/>Lagiche, tous les deux des as de l' coiffure, pour<lb/>faire eun' partie d' billard.</p>
+        <p><lb/>Cheull' partie d' billard s'étant un p'tit peu<lb/>prolongée, nos deux as décidottent d' terminer l'<lb/>soirée in faijant chin qu'on a coutum' d’app'ler<lb/>l' tournée des grands ducs.</p>
+        <p><lb/>Quand on n’a point, à sin côté, vou' femme<lb/>qui vous rappelle à l'ordre, ches tournées là<lb/>dur'nt fort tard.</p>
+        <p><lb/>Non point qu' nos deux figaros profitottent d'<lb/>leu' liberté r'lative, mais l' temps pass' si vite!</p>
+        <p><lb/>Aux p'tit's heures (Pourquoi qu’on appelle les<lb/>premièr's heures du matin, les p'tit's heures ?<lb/>I’s n’ont donc point 60 minutes?) Aux p’tit’s<lb/>heures, donc, Georges Dufaisan longeot l' trot-<lb/>toir des Hall's Centrales, d'jà animées et, s'arrê-<lb/>tant d'vant s' mason, s' mettot in d'voir d’intrer.</p>
+        <p><lb/>Bon sang d' bon sang! l'cache dins tous ses<lb/>poches, i' r'tourn' cheulles d' sin patalon, d' sin<lb/>gilet, i' cache dins les poches d' sin veston;<lb/>point d' clef!</p>
+        <p><lb/>Quoi faire? Quand on rintre tard, on a toudis<lb/>l'espoir qu’in n' faijant point d' bruit on porra<lb/>s' coucher sans s' faire intinte et sout'nir du<lb/>lind'main qu’on est rintré avant minuit. Mais<lb/>quand on a oblié s' clef!!!</p>
+        <p><lb/>I' n' restot qu'un parti à printe ; crier après s'<lb/>femme pour qu'ell' deschinde ouvrir.</p>
+        <p><lb/>V'là Georges qui tape à l' porte, d'abord point<lb/>trop tort, puis, un peu pus rud'mint. I' attind<lb/>irop quat' minutes, colle s'n' orelle à l' porte<lb/>pour essayer d’intinte si on n' deschind point ;<lb/>i' crie après s' femme, tape à nouviau à l' porte,<lb/>attind incore un momint; rien. Alors i' r'com¬<lb/>minche ch' manèche pindant eun' vingtain' de<lb/>minutes, mais in s'énervant et tapant toudis d'<lb/>puque in pus fort. Et toudis point d' réponse.</p>
+        <p><lb/>Deux agents d' ronde l' menacent d' li coller<lb/>eun' contravintion pour tapache nocturne.</p>
+        <p><lb/>Ch' pauf Georges est désimparé : i' n' sait pus<lb/>à queu' saint s' vouer ; si incore sin comarate<lb/>Laguiche n' l'avot point plaqué, il arot pu par-<lb/>tager s' douleur.</p>
+        <p><lb/>Heureus'mint qu'eun' locataire du deuxième<lb/>étache, réveillée pa' l' potin qu'avot m'né ch'<lb/>paufe Dufaisan, dit Lafrisure, ouvrot sin cassis<lb/>pour vir chin qu’i' n'y avot. R'connaichant<lb/>Monsieur Georges, ell' li crie :</p>
+        <p rend="labelled"><lb/>— Attindez, Monsieur Dufaisan, j' vas vous<lb/>j’ter mes clefs.<lb/>— Merci bien, Madaime, répond Georges, in</p>
+        <p rend="labelled"><lb/>tindant sin capiau pour li r'chevoir ches clefs<lb/>bienfaitrices.</p>
+        <p rend="labelled"><lb/>-V'là Monsieur, attintion, crie l' locataire in<lb/>j'tant les clefs. Et in même temps, on intindot un<lb/>bruit d' clefs querre su' l' trottoir, malgré l'<lb/>capiau tindu.</p>
+        <p rend="labelled"><lb/>Tiens, dit Georges joyeux, in lesramassant,<lb/>v'là chin qu’on appell' des clefs... d' sol.</p>
+        <p><lb/>Puis il ouvre s' porte avec précautions, rinte<lb/>à bas bruit, s' déshabille et s' couche, in faijant<lb/>des biaux rêfes.</p>
+        <p><lb/>L'lind'main, l' tiête incore un peu lourde,<lb/>i' s' lièfe et fait s' toilette avant d'ouvrir sin<lb/>salon, pindant que s' femme, in bonne ménagère,<lb/><lb/><lb/>brouche et met les habits in plache. Tout d’un<lb/>cop on l’intind crier:</p>
+        <p rend="labelled"><lb/>Georges! Georges! Quoich' que t'as fait<lb/>avec tin capiau?</p>
+        <p rend="labelled"><lb/>- Min capiau ? Quoich' que j'ai fait? Et ben,<lb/>j' l'ai mis là su' l'ormoire in rintrant.</p>
+        <p rend="labelled"><lb/>— J' l'ai bien vu qu’i' étot su' l'ormoire, mais<lb/>vette un peu comme i' est arringé. Et dijantcha,<lb/>elle li moutrot sin capiau in travers duquel ell'<lb/>passot ses deux dogts.</p>
+        <p><lb/>Sin capiau ! Sin biau capiau d' mariache étot<lb/>foncé.</p>
+        <p><lb/>— Mais quoich' que t'as donc fait avec? Te<lb/>l'as accroché à un clo? T'as bourlé d’ssus?<lb/>Allons répond.</p>
+        <p><lb/>Ch' n'étot point facile d' réponte ; Georges<lb/>étot réhu, mais tout d’un cop un souv'nir <lb/>passot.</p>
+        <p rend="labelled"><lb/>J' sais quoi, qu'l' dit, ch'est l' clef.</p>
+        <p rend="labelled"><lb/>— L' elef ! Queull' clef?</p>
+        <p rend="labelled"><lb/>— L' clef qui a passé à travers.<lb/>— Eun' clet qui a passé à travers tin capiau!</p>
+        <p rend="labelled"><lb/>Ch’est au moins eun' clef inglaisse.</p>
+        <p rend="labelled"><lb/>— Nin non, ch'est l' clef de l' locataire du<lb/>deuxième ; et Georges étot forché d avouer qu'il<lb/>avot eu r'cours à cheull' femme pour li povoir<lb/>rintrer à s' mason, qu’il avot tindu sin capiat<lb/>pour li r'chevoir cheull' clef si attindue.</p>
+        <p rend="labelled"><lb/>— J' l'ai bien intindu querre par tierre, je m’<lb/>sus même dit qu' cha faijot eun' clef d' sol, mais<lb/>j'étos lon d' pinser qu'elle avot passé à travers<lb/>de min biau capiau d' mariache.</p>
+        <p rend="labelled"><lb/>— Quoich' que te vas faire à ch’t heure,<lb/>avecque ch' capiau, te n' vas point l' faire stop¬<lb/>per. A moins qu' t'y f'ros mette eun' pièche<lb/>invisible pa' l' cordonnier.</p>
+        <p rend="labelled"><lb/>— N' chin' point va femme; on l' gard'ra in<lb/>souv'nir ; qui sait, les capiaux ch’est p’t'ête<lb/>comm' les pièch's perchées, cha porte bonheur.</p>
+        <p rend="labelled"><lb/>— Awi, l' bonheur que cha t'a porté, ch’est<lb/>d' printe sur tin dimanche pour aller in acater<lb/>un aute, car mi je n' te l' rimplach'rai point. Un<lb/>si biau capiau !</p>
+        <p><lb/>Un consel à Georges : qu'il all' aux Tros<lb/>Franços dont l' réclame s' troufe su' ch' journal<lb/>et, in v'nant de l'part de l'Nouviell' Vaclette,<lb/><lb/>i' s'ra bien servi, foi de</p>
+        <figure type="decoration"/>
+        <note>
+          <p rend="labelled"><lb/>Abonnez-vous à notre Journal,<lb/>1 an 52 liméros 12.30 en tïmire: eu maniat</p>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

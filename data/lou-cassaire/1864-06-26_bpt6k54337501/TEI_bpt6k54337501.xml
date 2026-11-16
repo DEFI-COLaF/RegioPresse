@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Cassaïre</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k54337501</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Cassaïre : eis bouèneis pèços prouvençalos et à tout escrit francès sur la Prouvençou / [dir. Marius Feraud]</title>
+          <publisher>M. Feraud (Marseille)</publisher>
+          <date when="1864-06-26">1864</date>
+          <idno type="ARK">bpt6k54337501</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k54337501</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="618"/>
+        <fw type="runningTitle"><lb/>LOU CASSAIRE.</fw>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>Mai m'arribara plus : n'ai proun d'uno liçoun.</ab>
+        <ab type="head"><lb/>SUR LA MORT DE J. REBOUL</ab>
+        <lg>
+          <l><lb/>Mais la mort est hélas ! mélée à toute chose:</l>
+          <l><lb/>Lorsque nous projetons, la cruelle dispose</l>
+          <l><lb/>Et coupe nos chemins d'un funèbre fossé !</l>
+        </lg>
+        <ab><lb/>REBOUL:</ab>
+        <lg>
+          <l><lb/>As capéla de dôou, Nime, jhusqu'à tous destres (1);</l>
+          <l><lb/>T'es arriva, moun Diou ! per ségu d'escoufestres ! (2)</l>
+          <l><lb/>Ren mé saben déq'as, sé té podes'couta!</l>
+          <l><lb/>Per ma fé, trazé mâon de te veire tan triste ;</l>
+          <l><lb/>Ta caro és à mita plégado din toun riste (3),</l>
+          <l><lb/>As lou front din la man, et lou suc tont clenta!</l>
+        </lg>
+        <lg>
+          <l><lb/>En V'espinchan ensin mé pensé qu'uno fèbre</l>
+          <l><lb/>T'a gara per toujhour toun avêsqé sélèbre,</l>
+          <l><lb/>Ou qé, coumo Avignoun. as perdu toun préfè,?</l>
+          <l><lb/>Bélêou toun jhénéral, quâou sa, sâiké toun mèro,</l>
+          <l><lb/>Ou bé toun boulanjhé qu'en parlan coum Homèro,</l>
+          <l><lb/>Canto encaro miel qu'el, car prono un Diou parfè.</l>
+        </lg>
+        <lg>
+          <l><lb/>En qu prestet soun couar senso ges de façounse</l>
+          <l><lb/>Tamben, apres noón mes aguet un beou garçoui.</l>
+          <l><lb/>L'home quand vistarenfant lidis: Men sion wist vounze</l>
+          <l><lb/>Qu'erount blane coumo neon tu sies coulour de brounze.</l>
+          <l><lb/>La fremo respoundet : — Pourcas, s'apprend à tu:</l>
+          <l><lb/>Devies pas m'aluquar quand li vesies tant brut;</l>
+          <l><lb/>Es que nen poou de mai la pauro creaturo,</l>
+          <l><lb/>Quand de fés ion t'ai dich: lavo-li la figuro.</l>
+          <l><lb/>— Es vrai, va mi disies; aporovi qu'as resoun;</l>
+        </lg>
+        <ab><lb/>Louis ISMAEL. (Marseille).<lb/>mour du merveilleux, le besoin d'être ému, furent, dans tous les<lb/>temps, l'une des maladies de la nature humaine; car, il est tou¬<lb/>jours des hommes qui pensent que la vérité toute seule a le tort<lb/>d'être trop simple et trop pen amusante. D'ailleurs, les histoires<lb/>les plus solides et les plus fidèles sont muettes sur ces détails de<lb/>statistique, d'administration et d'économie sociale qui intéressent<lb/>tant la science moderne dont ils éclairent la marche et dont ils<lb/>assurent les progrès.</ab>
+      </div>
+      <div type="article">
+        <p><lb/>Pendant bien longtemps encore les conjectures seules me ser-<lb/>viront de guides pour indiquer la population de Marseille d’une<lb/>manière qui ne peut être qu'approximative. Cette ville avait atteint<lb/>l'apogée de sa puissance, lorsque Jules César en flt le siége.</p>
+        <p><lb/>Son système colonial avait acquis son plus large développe-<lb/>ment, ce qui fait toujours supposer une population considérable<lb/>dans la métropole. Marins et Pompée avaient fait diverses cessions<lb/>de territoire à cette république illustre qui trouvait sa sécurité<lb/>dans son alliance traditionnelle avec sa puissante sœur, la répu-<lb/>blique romaine. Les écoles Marseillaises appelaient les riches<lb/>Gaulois qui connaissaient le prix de l'instruction, et plusieurs<lb/>praticiens romains y envoyaient leurs ills pour les former à l'étude<lb/>des lettres grecques.</p>
+        <p><lb/>'Deux faits caractéristiques démontrent la grande population de<lb/>Marseille un demi-siècle avant l'ère chrétienne. Le pouvoir souve-<lb/>rain résidait dans un conseil de six cents membres, tous pères de<lb/>famille, qu'on appelait Timouques et qu'on nommait à vie, et<lb/>César, après la reddition de la ville, y laissa deux légions pour la<lb/>contenir.</p>
+        <lg>
+          <l><lb/>Las voituros qué van sus tas fréjhos calados;</l>
+          <l><lb/>Caminouh donçamen et soun tontos drapados;</l>
+          <l><lb/>Meirque lous aputrés jhours toun ciel es escabour.</l>
+          <l><lb/>Lou ten s'ennegrézis din tus, l'escurésino</l>
+          <l><lb/>Qué rescoun toun sourel, té gagno, té doumino,</l>
+          <l><lb/>Plôou, llou, réghéjho, trôno et toun nivou es falour.</l>
+        </lg>
+        <lg>
+          <l><lb/>Sé tou toun sôou, ieui, Nime, un estranjhè voou ségre,</l>
+          <l><lb/>Vaï véire tous oustâous amantoula dé negre.</l>
+          <l><lb/>Tas cent campanos van, mais sonou tristamen,</l>
+          <l><lb/>Sustou las dé Sen-Pâon et dé ta cathédralo,</l>
+          <l><lb/>Lus sourd résountimen, qué monto et qué davalo,</l>
+          <l><lb/>Ren ta vilo chagrino. — Et pod'i fa dé men !</l>
+        </lg>
+        <lg>
+          <l><lb/>Ensindo me respon l'endré qué m'a vis naïsse.</l>
+          <l><lb/>— Efan dé mous faonbourgs ! per pas té faire élaïsse.</l>
+          <l><lb/>Té vôou diré perqué s’endoulentis moun cor.—</l>
+          <l><lb/>Nime, rélevo adoun sa lesto tan pézugo,</l>
+          <l><lb/>Sé fréto la pâouperlo et sous grans iels essugo.</l>
+          <l><lb/>Souspiro en mé disen! Moun Jhan Réboul es mort!</l>
+        </lg>
+        <lg>
+          <l><lb/>Laisseto lEles papus! Aco m'imajhinave!</l>
+          <l><lb/>Y-a soulamen des jhours, qu'encaro lon soujhâve;</l>
+          <l><lb/>Lou véghèré, èroun trés mescla din moun pantaï,</l>
+          <l><lb/>Ero entré miè Mistraou et de Julo Canounjhe,</l>
+          <l><lb/>Et d'un âoutré cousta passavo din moun sounihe</l>
+          <l><lb/>Un gran pintre en tableou qué soun pourtouès réfâï.</l>
+        </lg>
+        <lg>
+          <l><lb/>Cante ale maou fasen a bonfa sur sa vido,</l>
+          <l><lb/>Qué lugréjhavo tan, per l'avédré escantido;</l>
+          <l><lb/>Oh! mort enfachinaïro, irèjho, es pas que tus</l>
+          <l><lb/>Qu'as per armo uno dalis, uno palo, uno trenco;</l>
+          <l><lb/>Moustro! qué n'on vos tan à la raço oumenenco,</l>
+          <l><lb/>Oro! ié fouyé pas tan leou toumba dessus !...</l>
+        </lg>
+        <lg>
+          <l><lb/>D'abor qu'aco's ensin, restarai din ma cambro,</l>
+          <l><lb/>Pa maï qué iêou, aou luts d'uno fiblo luscambro, (4)</l>
+        </lg>
+        <figure type="decoration"/>
+        <p><lb/>La légion, fameuse chez les romains, comme la phalango chez<lb/>les Macédoniens, n'ent pas tonjours le même nombre de soldats,<lb/>Ce nombre, successivement augmenté, ne varia guère plus depuis<lb/>Marius jusqu'à la décadence de l'empire, et la légion, du temps<lb/>de César, avait six mille hommes environ.</p>
+        <p><lb/>La garnison de douze mille bommes, ou de neuf ou dix mille,<lb/>si l'on veut, en supposant qu'après la prise de Marseille les légions<lb/>romaines employées à ce siége ne fussent pas au complet, fournit<lb/>pourtant la preuve de l'importance de celte ville populeuse.<lb/>C'est, si je ne me trompe, la garnison la plus forte que les Romains<lb/>aient jamais mise dans une place, et je suis peut-être au-dessous<lb/>du chiffre réel en fixant à*cent mille âmes la population de Mar¬<lb/>seille à cette époque. C'était, en général, une cité d'hommes<lb/>libres.</p>
+        <p><lb/>Dans presque toute la Grèce, le nombre des esclaves surpas¬<lb/><lb/>sait infiniment celui des citoyens. La servitude fut aussi l'une<lb/>des plaies de la puissance Romaine, et cette plaie, dans bien des<lb/>circonstances, saigna douloureus-ment. L'esclavage est aussi<lb/>ancien que la guerre, et la guerre aussi ancienne que la nature<lb/>humaine. Mais la république de Marseille dut avoir peu d'esclaves<lb/>parce qu'elle fut assez sage pour ne pas se laisser éblouir par le<lb/>dangereux éclat des conquêtes, qu'elle conserva ses mœurs et ses<lb/>principes sans jamais éprouver les grands passages de l'abaisse-<lb/>ment à la grandeur, qu'elle fit un commerce d'économie, enfin<fw type="digitisation-artefact"><lb/>allica.nf.fr/Bibliothèq</fw></p>
+        <pb facs="0003.xml"/>
+        <milestone unit="page" n="61"/>
+        <fw type="runningTitle"><lb/>LOU CASSAIRE.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>(6) Pleuvoir à foison. — (7) Le Très-Haut.<lb/>qu'elle ne régua que par la politique de la modération et par la<lb/>puissance des arts pacifiques.</ab>
+        <lg>
+          <l><lb/>Car sente mons visous pézu mônisse, treboul.</l>
+          <l><lb/>De sa mort qu'ai apré, tro lèon, n'ai lou cur coufle</l>
+          <l><lb/>Et per boujha de plours sus lou glacis à roufle</l>
+          <l><lb/>Ai tan bésoun, agnuè, de démoura tout soul.</l>
+        </lg>
+        <lg>
+          <l><lb/>Déqué disé ploura, ren qué iêon ! d'aqu'est'ouro,</l>
+          <l><lb/>O Réboul, qué la Franço et ton lou moundé plouro!</l>
+          <l><lb/>Vous qué métès, hélas! tou l'univers en dôou,</l>
+          <l><lb/>Tout pouèto vous plan, et d'un crespou s’attapo.</l>
+          <l><lb/>M'inviroune à moun tour din qu'uno nègro capo,</l>
+          <l><lb/>Tan briza de chagrin que din ièou tout me dôou.</l>
+        </lg>
+        <lg>
+          <l><lb/>Perdoun, cent fés perdoun, s'en vers patouès essajhe</l>
+          <l><lb/>Dé moustra per ma vouès coumo plagne aquel sajhe,</l>
+          <l><lb/>Car sôui pas soulament digné de destaca</l>
+          <l><lb/>Lon bouci de ruban qu'es subre sa sandalo,</l>
+          <l><lb/>Pamen, coulas mous iels, et tus grumo davalo,</l>
+          <l><lb/>Aco fai tan de ben à l'ôme estoumaca.</l>
+        </lg>
+        <lg>
+          <l><lb/>Dé pouèto tan vrai et d'espira coumo èro,</l>
+          <l><lb/>Sé gna, soun fosso cla séména sus la terro.</l>
+          <l><lb/>N'aviès jhes dé tant for. Nime vis naisse enca,</l>
+          <l><lb/>Car d'ômes coumo aquel, po gn'avédre. mai gaire,</l>
+          <l><lb/>Et docte, aro qu'es mor aquel tant bel pensaïre,</l>
+          <l><lb/>Qué coumo aquel d’aqui din toun sé n'as paca.</l>
+        </lg>
+        <lg>
+          <l><lb/>Es per vous, Jhan Reboul, qu'en souskénan m'esprime,</l>
+          <l><lb/>Es per vous, gran pouèto, illustre éfant de Nime.</l>
+          <l><lb/>Nime qu’es fier de vous coumo dé Sigaloun (5),</l>
+          <l><lb/>Nou tem vous a bouta tontés dous din l'istouèro</l>
+          <l><lb/>Per amor qué dessus l'escalo dé la glouèro</l>
+          <l><lb/>S'es mounta nâou, ben nâou, âou pu nâou escaloun.</l>
+        </lg>
+        <lg>
+          <l><lb/>Gran espri, noble cur, belo âmo, forio estido,</l>
+          <l><lb/>Home ê larjho pensado, oh! naturo bénido!</l>
+          <l><lb/>Soun riches lous escris qu'âici-bas avès fa !</l>
+          <l><lb/>Viouran tan qué séra lou fioc qué Diou aluco;</l>
+        </lg>
+        <p><lb/>La population de Marseille répara bientôt les malheurs du siége<lb/>et prit mème de l'accroissement. La garnison romaine qui occupa<lb/>longtemps la citadelle attira des marchands et des ouvriers près<lb/>le port de la Joliette.</p>
+        <p><lb/>Bien des sujets d'un empire oppresseur vinrent chercher à Mar-<lb/>seille un abri contre les maux de la tyrannie administrative et de<lb/>l'avidité fiscale. Ils ne demandèrent qu'à travailler à l'ombre des<lb/>institutions d’une modeste répullique marchande qui trouvait dans<lb/>sa faiblesse même son repos et son bonheur. Ces circonstances<lb/>favorisèrent le commerce de Marseille qu’alimenta d'ailleurs le<lb/>luxe des Romains, luxe effrayant qui flt plus de mal que la<lb/>guerre et vengea l’univers vaincu.</p>
+        <p><lb/>On peutdonc, sans crainte de se tromper beaucoup, donner à<lb/>la population de Marseille un chiffre de cent vingt mille âmes au<lb/>second siécle de l'ère chrètienne, et ce chiffre dut se maintenir<lb/>ans le siècle suivant, Marseille conservant encore tous les avan¬<lb/>tages de son indépendance politique. Mais de grands changements<lb/>s’opérèrent dans les mœurs de Marseille au contact de la corrup¬<lb/>tion romaine. A l'époque de la seconde guerre punique, l'expression<lb/>proverbiale mœurs de Marseille signiflait l'idéal de la gravité, des<lb/>vertus privées et publiques. Quatre cents ans plus tard, le même<lb/>proverbe avait perdu sa signification et ne réveillait plus que<lb/>l'idée de la plus honteuse débauche.</p>
+        <p><lb/>Les caprices et les passions qui marchent d'ordinaire à la suite<lb/>des excès du luxe troublent de mille manières la propagation de<lb/>l'espèce humaine. 1l est possible que Marseille, déchue de sa<lb/>grandeur au troisième siècle de l'ère chrétienne, ait conservé son<lb/>autonomie; mais il me paratt certain qu’elle l'avait perdu au<lb/><lb/>quatrième siècle et qu’elle n’était plus qu'une ville romaine du<lb/>serond ordre.</p>
+        <lg>
+          <l><lb/>Saben rimur, lous vers sourtis dé vosto suco</l>
+          <l><lb/>Jhamai jhés dé mourtel lous vèira s'escrafa.</l>
+        </lg>
+        <lg>
+          <l><lb/>Quan sérés aïlamoun, vous pouè'o qué cante,</l>
+          <l><lb/>Vèirés Milton, per guido aqni prendrés lou Dante,</l>
+          <l><lb/>Et per vous assourti, vendra l'anihé et l'éfan.</l>
+          <l><lb/>Vous qu'avés fa l'âoumorno à tanta (6) carôou plôoure</l>
+          <l><lb/>Ren qué per empacha lous estoumas dé dôoure</l>
+          <l><lb/>As jhens qué vosto muso a sâouva dé la fan.</l>
+        </lg>
+        <lg>
+          <l><lb/>Finalamen, lou vén qu'âilamoun vous emporto,</l>
+          <l><lb/>Jhénio, dêou senti sa cargo un pâonqué forto;</l>
+          <l><lb/>Vous dêon avé pâonza sus un bien nâou toquel,</l>
+          <l><lb/>En vous disen : Reboul. permétès-mé qu'alêne</l>
+          <l><lb/>Un paquetout de maí. per amor que coumprêne</l>
+          <l><lb/>Qué fôou paouzilièmen que vous gandigue âon ciel.</l>
+        </lg>
+        <lg>
+          <l><lb/>Ièou que dâon Trestu (7) soui un das lâoujhès manovros,</l>
+          <l><lb/>En empourtan vost'amo, ai coupio das ovros</l>
+          <l><lb/>Qu'avès fa din lon mounde et mé la fâou pourta.</l>
+          <l><lb/>L'er déou dire: Aïsso fai qué moun alo s'afâisso,</l>
+          <l><lb/>Et, séqu'es câonso âoussi pouèto qué sé bâisse</l>
+          <l><lb/>Es qué monto endé vous, vosto immourtalita!</l>
+        </lg>
+        <p rend="dateline"><lb/>Juin 1864.</p>
+        <list>
+          <item>(1) Terme. — (2) Malheur.</item>
+          <item>(3) Grand manteau. — (4) Ver luisant.</item>
+          <item>(5) Sigalon, peintre nimois, mort à Rome.</item>
+        </list>
+        <figure type="decoration"/>
+        <p><lb/>Ausone cite avec éloge Bordeaux, Toulouse, Narbonne et Arles,<lb/>mais il passe Marseille sous silence. Ne faut-il pas en induire qu'au<lb/>quatrième siècle de l'ère vulgaire, époque ou vivait Ausone, la<lb/>ville de Marseille était beaucoup moins importante? Je ne crois<lb/>pas qu'elle eut alors plus de cinquante mille habitants et peut-<lb/>Ûtre en eut-elle moins.<lb/></p>
+        <ab><lb/>La suite au prochain numéro.</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Errata.</head>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>M. Gaul nous fait parvenir un long errata contenant divers<lb/>lapsus de notre imprimeur. Nos lecteurs sont trop intelligents pour<lb/>ne pas les avoir corrigés spontanément. — M. Gaut n'aurait pas ce<lb/>reproche à nous adresser s'il voulait bien nous envoyer des manus-<lb/>crits plus lisibles.</p>
+        <ab><milestone unit="column" n="2"/><lb/>g/B̀e</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Mathieu LACROIX,</ab>
+        <ab><lb/>de Nimes.</ab>
+        <ab><lb/>(maçon à La Grand-Combe.)</ab>
+        <pb facs="0004.xml"/>
+        <milestone unit="page" n="620"/>
+        <fw type="runningTitle"><lb/>LOU CASSAIRE.</fw>
+      </div>
+      <div type="article">
+        <dateline><lb/>Toulon, 19 juin 1864.</dateline>
+      </div>
+      <div type="article">
+        <head><lb/>a ma muso.</head>
+        <lg>
+          <l><lb/>Eh ben! ma Muso! que nen diés?</l>
+          <l><lb/>L'a nouestre ami Gaut que nous zoubo</l>
+          <l><lb/>Et nous garço de cooups d’escoubo</l>
+          <l><lb/>Dessus l'esquino, coumo viés.</l>
+        </lg>
+        <lg>
+          <l><lb/>Que roumput! coumo nous adoubo....</l>
+          <l><lb/>Lou mouestre, nous quicho lou piés</l>
+          <l><lb/>Et nous vout faire encar la loubo.</l>
+          <l><lb/>Cresi que per to, vondriet miés</l>
+        </lg>
+        <lg>
+          <l><lb/>Que mi faguessi mais Felibre!...</l>
+          <l><lb/>Escoute-mi, cadun es libre</l>
+          <l><lb/>Per escrieùre lou prouvençau.</l>
+        </lg>
+        <list>
+          <item>— Es per acot, mi dis ma muso,</item>
+        </list>
+        <lg>
+          <l><lb/>Que tout ce que dis m’amuso;</l>
+          <l><lb/>Mais es un bougre, moussu Gaut!</l>
+        </lg>
+        <ab><lb/>MariuS BOURRELLY.</ab>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>A Moussu M. M.</p>
+        <p rend="heading"><lb/>à prepau de sa festo dau 5 jun.</p>
+        <lg>
+          <l><lb/>Liegi pas la santo Gazetto,</l>
+          <l><lb/>Es aquit moun mendre defau.</l>
+          <l><lb/>Tamben badi coumo un gornau</l>
+          <l><lb/>En vesent vouastro histourietto.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Petite Correspondance.</head>
+        <p rend="labelled"><lb/>M. Gaut, dans la nouvelle épitre que nous avons insérée tout<lb/>au long dans notre dernier numéro, débute par ce mot: concluons,<lb/>après quoi il emploie seize colonnes à ne pas conclure; d'où nous<lb/>pouvons tirer la conclusion que si M. Gaut est peu concluant, il<lb/>est du moins suffisamment verbeux. Nous espérons l'être moins<lb/>que lui.</p>
+        <p><lb/>Notre honorable correspendant nous reproche des récrimina-<lb/>tions, des plaisanteries ; il se trompe. Nous ne récriminons contre<lb/>personne: nous reconnaissons que MM. les Félibres ont inventé<lb/>une langue. Seulement, nous pensons que l'invention était inutile,<lb/>qu'elle n'est pas heureuse, qu'elle est faite pour porter le dernier<lb/>coup au Provençal et qu’il eut été plus digne de gens qui ont des<lb/>prétentions à l’intelligence, de s’en tenir tout bonnement au lan¬<lb/>gage de leurs pères. Nous ne plaisantons pas plus que nous ne<lb/>récriminons et c'est très-sérieusement que nous trouvons ridicule<lb/>cette série de vocables nouveaux pour exprimer des idées aussi<lb/>vieilles que le monde, ridicule l'ère félibrenque, ridicule le grand<lb/>mystère du nombre sept, ridicules les prétentions d'une coterie<lb/>qui veut tout effacer, tout régenter, tout dominer. Le mérite, le<lb/>vrai mérite n'a pas de ces allures; il n'a pour se produire aucun<lb/>besoin de tout ce charlatanisme, de tout cet étalage de tréteaux.</p>
+        <p><lb/>Voilà, cher Monsieur Gaut, pour la seconde fois, notre opinion<lb/>sur l'œuvre poursuivie par vos confrères en félibrige. Si vous ne<lb/>la trouvez pas suffisamment explicite, si vous ne voyez dans ce<lb/>que nous avons l’honneur de vous répéter que de la phraséologie<lb/>creuse et filandreuse, c’est que vous y mettrez beaucoup de<lb/>mauvaise volonté.</p>
+        <lg>
+          <l><lb/>Sabi pas perque lou 5 jun</l>
+          <l><lb/>Leis paureis gens erount à jun :</l>
+          <l><lb/>Es pas ma fauto, car mi pensi</l>
+          <l><lb/>Que m'an pas nouma president</l>
+          <l><lb/>Dau bureou de benfasenci.</l>
+          <l><lb/>Li coumpreni pati pas ren...</l>
+          <l><lb/>Digaz pu leou. gros galegeaire,</l>
+          <l><lb/>Que n'aguen plus ren à faire,</l>
+          <l><lb/>Avez cresu qu’aqueou rebus</l>
+          <l><lb/>Mi mettriet de marteous en testo ;</l>
+          <l><lb/>Avez resoun et mai de resto.</l>
+          <l><lb/>De restar court nen siou counfus:</l>
+          <l><lb/>Uno enigmo d'aqueou calibre</l>
+          <l><lb/>Mi douno autant d'occupatien</l>
+          <l><lb/>Que de legir sens' tradutien</l>
+          <l><lb/>Lou prumier vengut di felibre.</l>
+        </lg>
+        <p><lb/>Monsieur Gaut nous débite ensuite la nomenclature complète<lb/>des œnvres félibrenques, de celles qui ont paru comme de celles<lb/>qui doivent paraitre. Pourquoi, ajoule-il triomphalement, pour-<lb/>quoi, puisque nous sommes une coterie, est-elle seule féconde?<lb/>La réponse est bien simple: Parce que, sentant sa faiblesse et<lb/>comprenant qu'elle n'avait de racines nulle part, la coterie a cru<lb/><lb/>suppléer à la qualité par la quantité. Tel est le vrai motif de cette<lb/>production hâtive et presque désespérée. Il faut à tout prix que<lb/>ces Messieurs fassent parler d'eux; de là per fas et nefas l'inces-<lb/>sante et active propagande.</p>
+        <p><lb/>Franchement et la main sur la conscience, est-ce posséder le<lb/>sentiment de sa dignité, est-ce même montrer la moindre confiance<lb/>en son propre mérite, que de recourir à de semblables moyens?<lb/>Est-ce que Brueys, Jean de Cabanes, Diouloufet, d’Astros, tous<lb/>les glorieux compatriotes que vous reniez, les ont jamais emplo¬<lb/>yés? Et quant à ce qui concerne Marseille et pour ne parler que<lb/>des vivants, est-ce que M. Benedit qui a fait mieux qu'un poëme<lb/>puisqu’il a réformé les mœurs de toute une classe de notre popu¬<lb/>lation, est-ce que M. Gelu, le profond observateur aux vers de<lb/>bronze, est-ce que le spirituel et inimitable M. Lajdet et tant d'au¬<lb/>tres pleins de vie et d'ardeur, que nous pourrions nommer, ont</p>
+        <ab><lb/>BARJOMAU.</ab>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>Un ci-devant Garçoun de Café.</p>
+        <ab><lb/><lb/>Et desiri, moussu, vous li veire souvent.</ab>
+        <list>
+          <item>– Garçoun! serve-me vite, eme un pauc de bouen lach, Uno tasso de chicoulat.</item>
+          <item>— Bouenjour, moussu Bernard! — Té! sies eici, Maurici!</item>
+          <item>— Siou plus garçoun despuis que mi siou marida,</item>
+          <item>Et tout ce qu'es eicito es à vouestre servici.</item>
+        </list>
+        <p rend="labelled"><lb/>— Pareit qu’en tout eisso li sies leou decida?</p>
+        <list>
+          <item>— Lou mestre, en mi dounant sa filho,</item>
+        </list>
+        <lg>
+          <l><lb/>Nous a remes sonn establissament,</l>
+        </lg>
+        <p rend="labelled"><lb/>— Moun ami, de bouen couar t'en fau moun coumpliment.<fw type="digitisation-artefact"><lb/>Source gameensrn.n/ Disnotneque nedenere de ance</fw></p>
+        <list>
+          <item>— Voueli menar ma barquo en pero de familho.</item>
+        </list>
+        <figure type="decoration"/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Pays cévenol</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t53903563x</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Pays cévenol : hebdomadaire littéraire, artistique, félibréen, mutualiste, commercial, industriel et d'annonces</title>
+          <publisher>[s.n.] (Alais)</publisher>
+          <date when="1906-05-27">1906</date>
+          <idno type="ARK">bd6t53903563x</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t53903563x</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>Etude de Me Paul BRUN</p>
+        <p rend="styled"><lb/>avoué à Alais, succeseur de M' Des Molles (10, rue de l'Hôtel-de-Ville)</p>
+        <p rend="heading"><milestone unit="column" n="1"/><lb/>SUR LICITATION</p>
+        <p rend="styled"><lb/>Adjudication fixée à l'audience des criées du Tribunal civil d'Alais (Gard), du Mercredi vingt suin<lb/>mil neuf cent six, à neuf heures du matin, par-devant Monsieur POUJET, Juge-Commisssaire.</p>
+      </div>
+      <div type="article">
+        <p><lb/>ppartiendra qu'en exécution dun<lb/>ement contradictoirement ren¬<lb/>du par le Tribunal Civil de pre¬<lb/>mière instance d'Alais le cinq<lb/>Avril dernier, enregistré et si-</p>
+        <p rend="styled"><lb/>TEELSE, cullvateu<lb/>dras: 2e dame Alina DELEUZE,<lb/>Emite MAUBERNARD, em<lb/>derranée.<lb/><lb/>Louis-Afbort DELEUZE,<lb/>DELEUZE, s<lb/>LAFFON, <lb/><lb/><lb/>Monsieur DELEUZE<lb/><lb/>irmin, dit Fernand, menuisie<lb/>quartier du Haut-Brésis, à Alais,<lb/>AS<lb/>demeurant et domici<lb/>rant<lb/>Caussier, veuve DELEUZE, à cau¬<lb/>se de l'usufruit légal</p>
+        <p><lb/>os un même interet, comme<lb/>zolle DELEUZ<lb/>rant et donicilié à Cendras, décé-<lb/>de nudit lieu le deux février mi<lb/>constitué Mr Pauf BRuN, exer<lb/>en cette qualité près le Tribu¬<lb/>numéro 10u de lhotel-de vil,</p>
+        <p rend="labelled"><lb/>Monsieur Augusto TEIS-<lb/>Alais, rue Florian, numéro vingt-<lb/>trois, pris tant en son propre non<lb/>u'en sa qualité de tuteur naturel<lb/> deux enfants mi<lb/>RUSSY ur</p>
+        <figure type="decoration"/>
+        <ab><lb/>et de son Arrondissement<lb/>4me EDETHON ASOG PRIX= = ERANCS<lb/>En vente à la<lb/>PLACE DE L'ABBAYE<lb/>PAPETERIE NOUVELLE<lb/>ALA</ab>
+        <note>
+          <p rend="labelled"><lb/>Alais. — Imprimerie J. Brabo, Square de Sauvages.</p>
+          <p rend="styled"><lb/>Vu pour la légalisation de la signature ci-contre:</p>
+        </note>
+      </div>
+      <div type="article">
+        <head><lb/>DÉSIGNATION</head>
+        <head><lb/>IMMEUBLES A VENDRB</head>
+        <p><lb/><lb/>Cendras, arrondissem<lb/><lb/>Alais, département du Gard et</p>
+        <p rend="labelled"><lb/>1' Une Propriété dénommée<lb/>bâtiments, prés, jardins, vignes,<lb/>nûriers, chôtaign<lb/>douze, cent treize<lb/>qestorze, cent quinze, section A<lb/>quartier « Le Bougiguo» ; quatre<lb/>dix-huit, quatre-vingt-dix-<lb/>neuf, cent, cent sept, cent huit,<lb/> section C, quartier « La<lb/>Bousigue » de la matrice<lb/>de première, deuxeme,<lb/>troisième, quatrième et cinquième<lb/>classe, d'une contenance de cinq<lb/>etares soixante ares douze cen<lb/>tiares environ : d'un revenu<lb/>triciel de cent un francs huit</p>
+        <p><lb/>Les bâtiments consistent es<lb/>une Maison d'habitatio, et,<lb/>d'oxpioitation construi<lb/>couverte en tuiles, com-<lb/>prenant au rez-de-chaussée, fa-<lb/><lb/>du nord: trois écuries<lb/>mier étage, façade du midi: trois<lb/>pièces servant de chambre, cui¬<lb/>étage, deux chambres et une pièce</p>
+      </div>
+      <div type="article">
+        <ab><lb/>vervant de magnanerie; avec esca| civit d'alais, séant en cette ville<lb/>Le second lot sera composé de<lb/>parcelle de terresise au quartier<lb/>Bomegier, article deux de la desi¬<lb/>gnation, sur la mise<lb/>cent cinquante francs<lb/>des criées que tiendra le Tribunal Alais. — Imprimerie J. BRABO.<lb/>nu Palais de justice à Alais et par¬<lb/>devant Monsieur<lb/>vingt Juin à neuf heures<lb/>du matin, en trois lots séparés,<lb/>composés comme suit</ab>
+        <p><lb/>Le premier lot sera composé des<lb/>ben<lb/>article premier de la désignation<lb/><lb/>des immeubles, sur la mise à pris;<lb/><lb/>de trois mille francs</p>
+        <p><lb/> troisième lo<lb/><lb/>de<lb/><lb/>tartier de la Crède, article trois<lb/>prix de cinq cents francs</p>
+        <p><lb/>dits immeules seront rennis<lb/>dismm seron réis<lb/>t remis en vente en un seul lot<lb/>prix atteint par les dites<lb/>adjudications partielles. A défaut<lb/><lb/>d'enchères sur l'ablotissement les<lb/>immeubles resteront acquis aux<lb/>acquéreurs sur adjudications par-</p>
+        <p><lb/>es dites mises à prix ainsi<lb/>ordonné la vente, outre les charges.</p>
+        <p><lb/>et rédigé par M Pa<lb/>BRUN, avoué constitué par lé¬<lb/><lb/>demandeurs en partage</p>
+        <p><lb/>le vixun ma<lb/><lb/>mil neuf cent six.<lb/>ners à l'extérieur</p>
+        <p rend="heading"><lb/>Enregistré à Alais (A. J.) le</p>
+        <figure type="table"/>
+        <p><lb/>(2) Uin potit bâtiment avec<lb/>au rez-de chaussée: deu<lb/>un séchoir à châtaignes, au-<lb/>dessus un grenier à foin.</p>
+        <p><lb/><lb/>un puits à l'usage du<lb/><lb/>un puits à roues.</p>
+        <p><lb/>Cette propriété conf́ronte a<lb/><lb/>st: Plantier, Maubernard<lb/>gliapiétra, au sud veuve Plantier.<lb/>Galezon, à l'ouest, demoiselle</p>
+        <p><lb/>2° Une pièce de terre, chá¬<lb/>taigniers et bois, quartier de « Bo<lb/>megier », section C, numéros cent<lb/><lb/>uatre et cent cinq du cadastre<lb/><lb/>Pour une contenance d’environ<lb/>in hectare cinquante are<lb/>de Valat de Vammale : du<lb/>rante centiar<lb/>evant,<lb/>de deuxième<lb/>emoiselle Deleuze,<lb/>natriciel de quatre francs douze</p>
+        <p><lb/>3 Une parcelle de terre,<lb/>Crède » quartier de ce nom,<lb/>tquatre-vingt-dix-huit et quatre<lb/>ai section<lb/><lb/>uest Dhombres ou ses acqué-<lb/>«s; Martel; à l'est Brabo. Jenin<lb/>d'une contenance<lb/>de deuxième, troisième et<lb/>inticentimeseui francs trente-</p>
+        <p><lb/>Le cahier des charges dressé<lb/>par Me Paul Brun, avoué à Alais<lb/>été déposé au greffe du Tribunal<lb/>civil d'Alais, où tous prétendants<lb/><lb/>au subrogé-tuteur,<lb/>en prendre communication et<lb/><lb/>la vente et ce dans les<lb/>formes et délais prescrits par la loi.</p>
+        <p><lb/>En conséquence il est annoncé<lb/>au public que l'adjudication des<lb/>immeubles ci-devant désignés aura<lb/>lieu en faveur du plus offrant<lb/>dernier enchérisseur à l'audience</p>
+        <p rend="styled"><lb/>Il sera procédé:</p>
+        <p rend="labelled"><lb/>En présence de Mo<lb/><lb/>rant et domicilié à Alais, rue Flo¬<lb/>rian, pris en sa qualité de subro-<lb/>gé-tuteur ad hoc des mineurs<lb/>Yvonne et Marcel TEISSIER,a<lb/>a la vente conforme,<lb/></p>
+        <p><lb/>Auguste-Lanci¬<lb/>zollO DELEUZE<lb/>riétaire, demeurant et domi¬<lb/>cilié à Cendras, ou il est décédé le<lb/>deux février mil neuf cent six.</p>
+        <p rend="heading"><lb/>VIENT DE PARAITRE</p>
+        <p rend="dateline"><lb/>Le Directeur-Gérant: J. BRABO.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

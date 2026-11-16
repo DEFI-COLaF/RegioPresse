@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Campana de Magalouna</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7350096d</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La Campana de Magalouna : journal populàri que parei lou 1è e lou 15 de toutes lous meses</title>
+          <publisher>[s.n.] (Mount-Peliè)</publisher>
+          <date when="1897-06-01">1897</date>
+          <idno type="ARK">bpt6k7350096d</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7350096d</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Un double sou:<lb/>Zou! quau n’en vou?</fw>
+        <fw type="runningTitle"><lb/>Sieisièma annada - No 119</fw>
+        <fw type="runningTitle"><lb/>Dau 1è au 15 de Jun 1897</fw>
+        <figure/>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/>Journal poupulàri das Felibres de Mount-Peliè que pareis lou 1e e lou 15 de toutes lous meses</p>
+        <figure type="table">
+          <head><lb/>Abounamen per un an:</head>
+        </figure>
+        <ab><milestone unit="column" n="2"/><lb/>Aministracioun e Redacioun<lb/>27, Grand-Carrièira, 27, à Mount-Pelie</ab>
+        <ab><milestone unit="column" n="3"/><lb/>La “Campana" se vend à Paris<lb/>Eneo de M. Pierre DUPPAU, Galerie Vivienne, 25</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>Pour Joséphine,<lb/>1 la tomato,<lb/>Au chocolat,</ab>
+        <ab type="head"><lb/>A la réglisse,<lb/>Pour les nourrices.</ab>
+        <p rend="labelled"><lb/>Quand tomba sus una cousinièira, e las devigna:<lb/>-N'avèn à la tapera! à la pouma d'amour!</p>
+        <list>
+          <item>A l'aubergine.</item>
+        </list>
+        <list>
+          <item>Pour Agathe,</item>
+        </list>
+        <list>
+          <item>Pour les soldats,</item>
+        </list>
+        <p><lb/>Faudriè quatre pajas per escriéure tout ce que<lb/>passa per l'esprit d'aquel ome, au courrent de la<lb/>venta.</p>
+        <p><lb/>Manca pas de douná lou cigàrou de sucre dins un<lb/>papiciret ben blanc en ajustant d'un er doucetamen<lb/>malicious: — Voilà le programme de demain.</p>
+        <p><lb/>Un vèspre, un moussu estrangè, creseguent<lb/>d'avedre lou prougrama de la musica, croumpèt un<lb/>bonbon à noste farcejaire. Dire se seguèt mouquet<lb/>quand veguet lou papiè, blanc de pertout !</p>
+        <p rend="labelled"><lb/>— « Monsieur, ié fai Verdel, il est préparé pour<lb/>le programme d'après-demain ». Lou moussu se<lb/>fachèt pas e dounèt lou boubon, que justamen èra<lb/>à la vanilha, à sa vesineta, una pichota filha.</p>
+        <p><lb/>L'Espausicioun de Mount-Peliè aviè acaparat la<lb/>musica e barrat sas portas à noste bounbounaire. Se<lb/>sap couma a finit lou grand bazar municipau;<lb/>souma n'èra pas un fenis, n'es pas renascut de sas<lb/><lb/>cendres. Pus urous qu'el, lou bounbounaire Verdel<lb/>nous es revengut embé lous parpalhous de nioch<lb/>que voulastrejoun à l'entour de las lanternas; couma<lb/>eles, torna tabanejà au mitan de nautres per vendre<lb/>sas sucrariès pastadas embé de nouvèls perfums,<lb/>out debanant lou repertòri de sa musa risoulièira.</p>
+        <ab><lb/>E. MARSAL.</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>C'est pour la servante,</ab>
+        <ab type="head"><lb/>LOU BOUNBOUNAIRE</ab>
+        <figure type="decoration"/>
+        <p><lb/>Douuan ioi lou Bounbounaire, un das tipes de l'obra<lb/>de Marsal, Dins las carrièirias dau Clapàs, que lous<lb/>lipets de libres fins se lou disputoun. Dounan pas que<lb/>Na biougrafla dau Boubounaire. Lous que voloun veire<lb/>soun irage, n'an que de croumpà lou libre.<lb/></p>
+        <p><lb/>S'appella Verdel e de soun pichot noum, Four-<lb/>cand; es vous dire qu'es de Loudeva (1). Es estat<lb/>travalhadou, mès despioi cranta ans qu'es dins<lb/>Mount-Peliè a quitat l'arpa per un mestiè pus dous;<lb/>se faguèt oubliaire e pioi bounbounaire ; marchand<lb/>de bonbons, las douçous counvenièn à soun caratère<lb/>von enfant.</p>
+        <p><lb/>On pot pas presentà d'un biais pus melicous lous<lb/>astounets sucrats e perfumats que Verdel vend au<lb/>mounde reunit à l'entour de la musica, quand joga<lb/>au Peirou ou à l'Esplanada. S'anounça en rimejant<lb/>de verses que farien pas mau entourtubilhats sus un<lb/>todrountountèna:</p>
+        <lg>
+          <l><lb/>Pleures, pleurez, mes enfants:</l>
+          <l><lb/>Vous aurez du nanan !</l>
+          <l><lb/>Fittettes, pleures: vous aures du bonbon!</l>
+          <l><lb/>Plus tard vous aures des garçons.</l>
+          <l><lb/>Vous seres les mieux servies.</l>
+        </lg>
+        <ab type="head"><lb/>Les plus jolies</ab>
+        <p><lb/>Dins la foula, en passant, dis quauca bachoucada<lb/>que perſès vous destorba au mitan d'una meloudia<lb/>que vous agrada ; mès coussi se fachà quand vesès<lb/>apareisse tout d'un cop aquela tèsta bounassa, esclai¬<lb/>rada couma un levat de luna dins soun plen, per la<lb/>bougia plantada dins sa banasteta ? Risès e ié croum-<lb/>pàs un cigàrou à la menta.</p>
+        <p rend="styled"><lb/>A la menthe.</p>
+        <list>
+          <item>Au citron,</item>
+        </list>
+        <p><lb/>pus de Loudeva, e i'a pas un Loudevés que noun ague<lb/>premiè ou segound pichot prenoum, aquel de Four¬<lb/>vind, en souvení dau grand evesque, patroun de sa</p>
+        <ab><lb/>vous dis,</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Batés pas lous enfants</head>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Se sap que lous enfants soun pa couma age</l>
+          <l><lb/>Qu'aimoun pas de restá plantats couma amages</l>
+          <l><lb/>Que n'i 'a que soun michants, plouraires e testuts,</l>
+          <l><lb/>Mès que souvent tamben das parents soun batuts.</l>
+          <l><lb/>P'amens toutes soun pas de la mèma fabrica</l>
+          <l><lb/>Ni 'a que soun tant prouprets qu'un papiè de musica,</l>
+          <l><lb/>Que per lous boulegà de didius un cantou,</l>
+          <l><lb/>Lous tugariàs à cops de bounets de coutou.</l>
+          <l><lb/>Ouand aurién dins lou cor lous vices de Cembeta</l>
+          <l><lb/>Quand aurièn dins lou cor lous vices de Coum,</l>
+          <l><lb/>Es pas una resou per lé toumbà dessu</l>
+          <l><lb/>car de roa, lous fai veni calucs.</l>
+        </lg>
+        <lg>
+          <l><lb/>Avès vist prou souvent de fennas en coulèra,</l>
+          <l><lb/>Batre sous manidets qu'avièn troulhat la terra</l>
+          <l><lb/>Ou qu'à taula, en manjant, avièn sus soun vesin,</l>
+          <l><lb/>En fourfouthant, toumbà de fricot ou de vin.</l>
+          <l><lb/>Per una taca, un trauc, zou ! d'aqui quancas mocas!</l>
+          <l><lb/>E, fisques ! podoun pas restà couma de brocas!</l>
+          <l><lb/>Quitàs-lous s'amusà, jougà, sautá, courri</l>
+          <l><lb/>Es de jouines plantiès que fau laissà flouri.</l>
+          <l><lb/>Las fennas, hou savès, an ben michanta tèsta,</l>
+          <l><lb/>Pèr ficà de baceus an la man toujour presta ;</l>
+          <l><lb/>E quand un cop ié soun, finissoun pas jamai.</l>
+          <l><lb/>An lous ners un pauc viéus. Mès aco fai pas mai.</l>
+          <l><lb/>Perqué batre d'enfants qu'an pas ges de defensa?</l>
+          <l><lb/>Pot se faire qu'un jour vous pagoun en oufensa...</l>
+          <l><lb/>Avès pas remarcá de pichots enfantets</l>
+          <l><lb/>Que bracavoun sous iols couma de pistoulets,</l>
+          <l><lb/>ca maire?</l>
+          <l><lb/>Vole pas per aqui dire de lous coumplaire.</l>
+          <l><lb/>Mès i'a foça de gents que soun pas caressants,</l>
+          <l><lb/>E s'estounoun que pioi, quand sous enfants soun grands,</l>
+          <l><lb/>Agou pas pus d'amour. Qu'aco 's triste, pecair</l>
+          <l><lb/>Tant pis s'avès pas fach tout ço que déviás faire !</l>
+          <l><lb/>Un poutou fariè mai d'efet qu'un gros baceu,</l>
+          <l><lb/>Se voulès estre aimats, vous lau dounà de mèu.</l>
+          <l><lb/>Mès que me digoun pas : fau castià la marmalha,</l>
+          <l><lb/>Perqué n'f'aura toujour que passaran per malha,</l>
+          <l><lb/>E qu'una fes bén lionts das parents, de l'oustau,</l>
+          <l><lb/>Estent abandounats, de fes fiuissoun mau.</l>
+        </lg>
+        <lg>
+          <l><lb/>l' a pas long-tems d'aco, chacun a souve</l>
+          <l><lb/>D'aquel paure enfantou qu'à pena à sa naissen</l>
+          <l><lb/>A loga de poutous, lé ficavoun de cop¬</l>
+          <l><lb/>Talamen que n'aviè pas que la pèl e l'os...</l>
+          <l><lb/>a peira,</l>
+          <l><lb/>Lou quitèt quasi nus au frech, dins la carriéira.</l>
+          <l><lb/>Pioi, quand lou lendeman trouvèroun l'agnelou,</l>
+          <l><lb/>Paris aguèt 'n martire, e lou cièl un anjou.</l>
+        </lg>
+        <ab><lb/>L'ESQUINLAIRE DE SANT-CRISTOU.</ab>
+        <ab><lb/>Et le reste pour sa tante.<lb/>A la vanille.<lb/>Pour los filles.<lb/>Pour les garçons.<lb/>se vends tout frais à la glace;<lb/>Qui n'a pas d'argent qu'il s'en passe.<fw type="digitisation-artefact"><lb/>purce gallica.bn./Montpellier Méditerranée Métropole -Médiatèque centrale Emile o</fw></ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>A l'Esquinlaire de Sant-Cristou</head>
+        <lg>
+          <l><lb/>L'Esquinlaite! en tout cau un terme.</l>
+          <l><lb/>Pamens s'un de vostes manits,</l>
+          <l><lb/>Quand l' avès dich vint fes: «Finis!»</l>
+          <l><lb/>Vous respond : « Merda !» en... michant terme,</l>
+          <l><lb/>Zou ! sus las ancas dur e ferme!</l>
+        </lg>
+        <ab><lb/>UN QU'A 'NA MARMALMA.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>Un de nostes coumpatriotas, M. Samuel-Jaques<lb/>Brun, distingat proufessou dau coulège Park San<lb/>José Santa Clara County, Califournia, Estats-Units<lb/>d'America, a agat l'idèia de revirà en anglés un<lb/>recul de contes lengadoucians escrichs per un de<lb/>nostes bon Campaniès e de n'en faire une bella edi¬<lb/><lb/>cioun ilustrada. Aquela publicaciodu a per </p>
+        <ab><lb/>EN AMERICA</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Écho de Morlaix</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k7283552g</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Écho de Morlaix : feuille d'annonces : journal politique</title>
+          <publisher>V. Guilmer (Morlaix)</publisher>
+          <date when="1874-05-23">1874</date>
+          <idno type="ARK">bpt6k7283552g</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k7283552g</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="bre">breton</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="2"/><lb/>L'Echo de Morlaix</ab>
+        <ab><lb/><lb/><lb/>T Ua:2<lb/>Uaan: 20 <lb/>OITANCE O<lb/>Too d e dr d e d 1</ab>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>laix, io. cap. hogent ln</ab>
+        <ab type="head"><lb/>MOUVEMENT DU PORT DE MORLAIX</ab>
+        <p rend="dateline"><lb/>le Germtile non signés</p>
+        <p rend="structured"><lb/>MCE</p>
+      </div>
+      <div type="article">
+        <ab><lb/>M. J HERSAN.LACHAPELIE, Nent de</ab>
+        <p rend="labelled"><lb/>publier la 6ue édition de son intèressant ouvrage<lb/>Le Guide du Fabricant et du Consommateur de<lb/>boissons gazeuses. — Se méſer des nomobreax<lb/>guides publiés sur la mè̂me matière, et blen<lb/>exiger des libraires celui portant le nom<lb/>HEAMANN-LACHAPELLK, 144, Faubourg<lb/>Poissonnière, à Paris, auquel on peut aussi<lb/>envoyer 5 franes en timbres-poste pour le re-</p>
+        <p rend="heading"><lb/>JOENAUT DE</p>
+        <p rend="heading"><lb/>33 PRIPARPS</p>
+        <p><lb/>publie chaque quinzaine les modeles les plus<lb/>nouveaux de robes, manteaur, polonalses, cos-<lb/>tumes d'enfants, chapeaus, coiffures, lingeries,<lb/>covrages de dames, tricois, guipores, tapisse-<lb/>ries, crochets, etc. ; avec 12 feuilles de travaux<lb/>de dacies et 300 patrons en grandeur natureile.<lb/></p>
+        <p rend="heading"><lb/>MOSITECR ILLUSTRÉ DES MODES</p>
+        <ab><lb/>Sir mois: 4 fr. 150. — Un s0: 8 4r.</ab>
+        <ab><lb/><lb/>enant en plus de<lb/>précédeote 24 gracures colorides.</ab>
+        <ab><lb/>Six moix: 6fr. 380 — Un sa: 12 fr.</ab>
+        <ab><lb/>LE PRINTEMS<lb/>2,000 graveres en noir, 36 beiles graveres o<lb/>Torices, 12 feuittes de travaux de dames, 300<lb/><lb/>patrons en grandeur naturelle et<lb/>48 GRANUS PATRONS TOUT DÉCOUPES<lb/></ab>
+        <p rend="styled"><lb/>Les abomnenents parteni du 4" de chaque mols</p>
+        <p><lb/>On s'abonne également chez tous les tibraires</p>
+        <figure type="table"/>
+        <note type="handwritten"><lb/>Morlaix, Imprimerie de J. HASL.E.</note>
+        <ab><lb/>Pai promentin</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Annonces Judiciaires</head>
+        <head><lb/>TRIBUNAL DE COMVERCE DE MORLAIX</head>
+        <head><lb/>Fallite Thépault.</head>
+        <p><lb/>Les ereaneiers de la failite de la dame<lb/>veuve THEPAULT, subergiste piès la gare,<lb/><lb/>Morinix, sont prévenus que ia vérification<lb/>des créances sura leu, au Tiibunal de Com¬<lb/>do matin. Dans cette réanion ll sera pro¬<lb/>cede a l'ailirmation desdites créaners.</p>
+        <p rend="styled"><lb/>Le Greffer du Tribunal de Commerce,</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>TEIRUNAL DE COMMERCE DE MORLAIX</head>
+        <head><lb/>Fainte Cojean</head>
+        <p><lb/>es créanclers de la fallie du seut Co<lb/><lb/>EEAN, maitre toanelie<lb/>̀ Moriaix, sou<lb/>prévenus qu'il ne leur est accorité<lb/>outre les délais de distance.<lb/>pour depocer, soit aox mains du syndte<lb/>du greffe du Tribunat, teues titres de creances<lb/>nccompagnes d'un borderenu indicatif des<lb/>sommes par eux réclamées.</p>
+        <p rend="styled"><lb/>Le Greffer du Tribunal de Commerce,</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>TRIBUNAL DE COMMERCE DE MORLAIX</head>
+        <figure type="decoration"/>
+        <p><lb/>Les créanciers de la faunte du sieur CO.<lb/>JEAN sont prévenus que la vérifiention des<lb/>creances de ladite fallite, aue<lb/>bunal de Commeree de Mortaix,<lb/>vingt-nenf juin mil heit cent solzante-qua-<lb/>à dix heures de matia</p>
+        <p><lb/>Dans cette réunion il sera procédé à l'af-<lb/>firmation desdites créances.</p>
+        <p rend="dateline"><lb/>la Creffier du Tribunal de Commeree,</p>
+        <p rend="styled"><lb/>2de Place se Melaine, N</p>
+      </div>
+      <div type="article">
+        <head><lb/>SEPARATION DE BIENS</head>
+        <p><lb/>D'en jugemnt du Tribua vil de Mor¬<lb/><lb/><lb/>date du quinze Mara mit huit<lb/><lb/>cent soisanie quatorze, enregistre, renda par<lb/>defant entre la Dame Françoise Lancien<lb/>epouse de Monsleur Plerre-Marie Le Gra-<lb/>tiet, ancien notaire, demeurant et domi-<lb/>eiliée au bourg de Plouezoc'h et ledit siet<lb/>Pierre-Barie Le Gratiet, ancien notaise,</p>
+        <p><lb/>appert que ladite Dame a été déclacée</p>
+        <p><lb/>Pour extrait ecrtiſle sincère et véritabie<lb/>par moi soussigné, avoué au Tribonai civil<lb/>de Morlaix et de la dame Prançoise Lanciee,</p>
+        <ab><lb/>Armand CLOAREC, Aroué.</ab>
+        <p rend="heading"><lb/>Etude de Mr LE NEE, Notaire à Brest.</p>
+      </div>
+      <div type="article">
+        <head><lb/>A VENDES</head>
+        <head><lb/>UNE CHARMANTE PROPRIETE<lb/>SITUEE AU BOORO DE CLÉDEE</head>
+        <head><lb/>Prèn de Si.-Pol-de-Lion, a proximité de la me</head>
+        <p><lb/>Vaste Maison de Maitre, Ecuries, Remies<lb/>Bûcher, Poulaller, Buanderic, grande Cou<lb/>plantée de tres-beaux arbustes, Pompes dans<lb/>la Cour, grand Jaedin muré en plein rap¬<lb/>port et Verger y nitenant.</p>
+        <p><lb/>Conditions très-avantogenses et touter fa-<lb/>eilltès pour le payemet</p>
+        <p><lb/>our plus de détalls voir les affiches placar-</p>
+        <ab><lb/>CHEMINS DE PER DE L'OUEST. (Sercice d'hieer.)</ab>
+        <note>
+          <p rend="styled"><lb/>cortie pa 'imprimeur voumine.</p>
+        </note>
+      </div>
+      <div type="article">
+        <head><lb/>A LOUE</head>
+        <p rend="styled"><lb/>Pour la Saint-Michel prochaine</p>
+        <ab><lb/>AU BOURG DE GUIMAEC<lb/>Entre Cour et Jardin<lb/>bocher<lb/>Prix tres molécé de loyer.</ab>
+        <ab type="head"><lb/>DE JDLE MAEITATION</ab>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>siSE A MORLAIX, EUE DU PANE</ab>
+        <ab type="head"><lb/>ampe Sainte Melalo</ab>
+        <ab type="head"><lb/>A VRAR</ab>
+        <ab type="head"><lb/>PUBLIQUE ET VOLONTAIRE</ab>
+        <p><lb/>se 2 Juin 1874, une here a<lb/>EAE<lb/>a l'Adjudicntion de r'immeubl</p>
+        <ab type="head"><lb/>UNE MAIsON</ab>
+        <p><lb/>BRIAND, Laie a Moia</p>
+        <p><lb/>fun Salon formant deux</p>
+        <p rend="labelled"><lb/>d'ane grande Chombre sur<lb/>aanger, Offiee et Culsine.</p>
+        <p rend="labelled"><lb/>Eloge, de deux Chambres et Ca¬</p>
+        <p><lb/>de deux Maossnies aveo<lb/>feux et Grenier au-dess</p>
+        <p><lb/>ien, en ens doffes sufes<lb/>judleation, en cas d'offrrs auffisaeter</p>
+        <ab><lb/>La mode<lb/><lb/>o<lb/>ÉDITION DE LUXE<lb/>Paris. 1st. Départ. 18f.<lb/>Paris, d . esPees</ab>
+      </div>
+      <div type="article">
+        <head><lb/>A VESDRE DE GRÉ A GRÉ.</head>
+        <head><lb/>EN LA VILLE DE LESSEVEN</head>
+        <p><lb/>Une Maison sitdte pris de feglise, pisce<lb/>grande Cour avec Palts et det<lb/>pont servir a l'expio</p>
+        <p><lb/>Saderaur d M. e M Le Grand. maltro</p>
+      </div>
+      <div type="article">
+        <ab><lb/>o<lb/>ARCHELAIS<lb/>Roe Croixaie-Nois, 11, a OltLMAN</ab>
+        <ab type="head"><lb/>EXPOSITION MEDALLE D'HONNEUR</ab>
+        <p><lb/>Dépôt chez les prineipaux Parfameurs de<lb/>le l'Etranger. Seul Dépositair<lb/>SOnn, colffeur, Grande-Place, N^o 1e</p>
+        <ab><lb/><lb/>25 cent. le Numéroi<lb/>MUSÉE UNIVERSEL<lb/>BEVUE REBDOMAOAIRE ILLUSTRÉE<lb/>E NOS ÉCRIVAINS ET DE NOS TATISTES LES PLUS CÉL̀GRES<lb/><lb/><lb/>PAMNI na an, 134. CONDITIONS D'AneNAEMEAT</ab>
+        <note>
+          <p rend="styled"><lb/>En Mairie, à Morlaix, le 23 Mai 1874.<lb/>lu pour legalisation de la nignature ci-contre:<fw type="digitisation-artefact"><lb/>eguc eque nationale e</fw></p>
+        </note>
+        <p rend="heading"><milestone unit="column" n="4"/><lb/>Etude de M' HEMEI VÉRANT. Notaire</p>
+        <ab><lb/>ROUA LE TEAME PROCHALN<lb/>EN LA VILLE DE MORLAIX</ab>
+        <p rend="styled"><lb/>rue de l'Auditoire, no 2</p>
+        <p><lb/>Un bel Appartement au premier étage co<lb/>vec grand Ratcon, belle C<lb/>Cour, Reurie et Renlerdes, rois Caré</p>
+        <p><lb/>Sadreser. pour ruiter les lieur. au coneuge<lb/>de la maisun, et pour te<lb/>négociant a Mortaix, ou à M^r Vérant, notaire</p>
+        <figure type="decoration"/>
+        <figure/>
+        <ab><lb/>AVIS AUX DARTREUX<lb/>La Pommade de Dumont,<lb/>ne. est empioyee depuis vingt ans pour<lb/>erison de</ab>
+        <figure/>
+        <p rend="dateline"><lb/>25 cent. le numéro</p>
+        <figure type="table"/>
+      </div>
+    </body>
+  </text>
+</TEI>

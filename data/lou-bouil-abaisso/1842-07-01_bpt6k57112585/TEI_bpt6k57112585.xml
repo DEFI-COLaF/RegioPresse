@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Bouil-abaïsso</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k57112585</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Bouil-abaïsso : journaou populari en vers prouvençaous ["puis" journal en vers provençaux, languedociens et comtadins]</title>
+          <publisher>[s.n.] (Marseille)</publisher>
+          <date when="1842-07-01">1842</date>
+          <idno type="ARK">bpt6k57112585</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k57112585</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>A moun ami Marie Tainon.<lb/>Aimavo troou lou buou, es ce que lou tueguet,<lb/>Victor HuGo.<lb/>Quatorge-ans en prisoun,<lb/>De piquar seis chivaou.</ab>
+        <ab type="head"><lb/>LEIS POUÈTOS.</ab>
+        <lg>
+          <l><lb/>Que n'en ai vis peta d'enfilaires de rimo!</l>
+          <l><lb/>Se lei voulieou coumptar n'aourieou jusqu'a deman;</l>
+          <l><lb/>Leis uns a l'espitaou soun ana fa l'artimo,</l>
+          <l><lb/>Leis aoutreis an crebar qu'avien pa'no centimo;</l>
+          <l><lb/>Nia que soun mouar de fan!...</l>
+          <l><lb/>L'un, ém'un pistoulet s'es refresqua la testo;</l>
+          <l><lb/>L’aoutre emé de carboun vouguè s’estubassar.</l>
+          <l><lb/>N'en a qu'an debanar dedin uno batesto;</l>
+          <l><lb/>Si n'en es vis parti aou mitan d'uno festo....</l>
+          <l><lb/>Touteis li soun passar.</l>
+          <l><lb/>N'iagué v'un uno fes qu’eme de jus de planto</l>
+          <l><lb/>Si fagué 'no bouissoun per soun darnier desser,</l>
+          <l><lb/>Un aoutre qu’en nedan dedin l'aiguo couranto,</l>
+          <l><lb/>Si neguet coum'un chin, et n'ia mai de cinquanto</l>
+          <l><lb/>Mouars de fré din l'hiver.</l>
+          <l><lb/>V'un que si debaonsset de dessu sa taoulisso</l>
+          <l><lb/>V'un que si fe passar la rodo su lou couel ;</l>
+          <l><lb/>Vun que si pougnardet eis peds de sa Clarisso;</l>
+          <l><lb/>V'un que doou desespouar avalet la saoucisso;</l>
+          <l><lb/>Dous que vengueroun fouel.</l>
+        </lg>
+        <lg>
+          <l><lb/>N'en ai vis descrasa dessouto uno muraillo.</l>
+          <l><lb/>N'en ai vis qu’en duel an feni soun destin...</l>
+          <l><lb/>Si nen es rescountra qu'aven gies de granaillo,</l>
+          <l><lb/>Un fusieou a la man, chabissien la marmaillo</l>
+        </lg>
+        <lg>
+          <l><lb/>Dessu lei grands-camin.</l>
+          <l><lb/>N'en aven vis mountar, dessu la guioutino.</l>
+          <l><lb/>Si nen trovo dèja qu'aouqueis uns à Touloun....</l>
+          <l><lb/>Qu n'a pas vis rousti, piré que de sardino;</l>
+          <l><lb/>Ieou n'ai couneissu v'un que s'es rounpu l'esquino</l>
+        </lg>
+        <lg>
+          <l><lb/>L'ia pa mai de doueis mes, la cavo es ben nouvello</l>
+          <l><lb/>Que si nen pendé v'un aou daou d'un caraman;</l>
+          <l><lb/>Estrapiavo deis peds, semblavo uno candello:</l>
+          <l><lb/>Mai lou nous l'esquichet et fe la cabuçello</l>
+        </lg>
+        <lg>
+          <l><lb/>Coum'un caramantran.</l>
+          <l><lb/>N'en aven un tanben eici dedin Marseio,</l>
+          <l><lb/>Sec coum'un troué de boues, pichot coum'un barbeou;</l>
+          <l><lb/>Qué veiras proumenar lou souar su leis Alleio...</l>
+          <l><lb/>Per quaouqueis marris vers qu'a fa dedin seis veio,</l>
+          <l><lb/>S'est timbra lou cerveou.</l>
+          <l><lb/>Anfin n'en ai vis un tant malheroux, pecaire,</l>
+          <l><lb/>Qu'avié despui huiech jours lou fanaou plen de ven</l>
+          <l><lb/>Un souar l'inviterian a soupar 'me de fraire....</l>
+          <l><lb/>Lou lendeman matin trouverian lou troubaire</l>
+        </lg>
+        <lg>
+          <l><lb/>Mouar d'une indigestien!</l>
+          <l><lb/>Et voues apres d'aco que mi fassi pouéto,</l>
+          <l><lb/>Que lou fran Dicou doou jour mi vagui escabussa;</l>
+          <l><lb/>Per courdura de mols 'me de rimos coumpleto,</l>
+          <l><lb/>Coum'un garçoun taillur qu'adoubo de brayetto</l>
+          <l><lb/>Qu'an lou c.... estrassa,</l>
+          <l><lb/>Oh! noun... aimi ben mies dessu ma mallo-posto</l>
+          <l><lb/>Mi chala coumo un rei, fuma lou cachimbaou ,</l>
+          <l><lb/>Que de cerqua de mots que finissoun en osto</l>
+          <l><lb/>Dire a moun poustilloun que quaouqueis fes riposto</l>
+        </lg>
+        <lg>
+          <l><lb/>Vo ben dedin lou temps que moun sejour m'accordo,</l>
+          <l><lb/>Davan leis cassatins m’estendre tout lou jour:</l>
+          <l><lb/>Aqui rieou de bouen couar s'un pouéto m'abordo,</l>
+          <l><lb/>Mi dieou: Venaqui v'un que sente mai la cordo !....</l>
+          <l><lb/>Et d’actour que sarieou deveni espetatour.</l>
+        </lg>
+        <p rend="labelled"><lb/>Marseio, 22 jun. Marius BOURRELLY</p>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>LOU ROUSSIGNOOU.</p>
+        <lg>
+          <l><lb/>Escouto din lou bos canta lou ventoulet,</l>
+          <l><lb/>E l'aigo din lou prat... aro, tout se reveyo</l>
+          <l><lb/>Entende de partout lou zounzoun de l'abeyo....</l>
+          <l><lb/>Tu que cantes lou mies. te tisayes, soulet?</l>
+          <l><lb/>Regardo; à toun entour la naturo es en festo:...</l>
+          <l><lb/>La peiro d'un bandit t'ouye-ti dounc blessa?</l>
+          <l><lb/>Perque, souto toun alo escoundre ansin ta testo?</l>
+          <l><lb/>Quaonqun a-ti gasta lon nis qu’as coumença!</l>
+          <l><lb/>Un serpent ouye-ti devoura ta nisado,</l>
+          <l><lb/>Que, dessu lou bouissoun, s'assajavo à voula ?</l>
+          <l><lb/>Oh! malhur! ouyen-ti pre, dedin lou fiela,</l>
+          <l><lb/>La maire, quand venié y 'addure la bequado ?...</l>
+          <l><lb/>— Et lou roussignoulet dessu lou brout voulet,</l>
+          <l><lb/>Se y'escabret; e piei, sa voix qu'encanto</l>
+          <l><lb/>Preludet, planplanet!—e vivo, se mêlét</l>
+          <l><lb/>A l'himno senso fin que la naturo canto.</l>
+          <l><lb/>Saint-Rémy.</l>
+        </lg>
+        <lg>
+          <l><lb/>Pouli roussignoulet, à la pouncho d'oou jour,</l>
+          <l><lb/>Dre que l'aoubo parei din lou ciel, rosoé blanquo,</l>
+          <l><lb/>Sies counten que noun saï; saoutes de branquo en branqou</l>
+          <l><lb/>Vas e venes; e piei, cantes toun cant d’amour¬</l>
+          <l><lb/>Pouli roussignoulet, perque, souto l’oumbrage,</l>
+          <l><lb/>Perque, hieui de matin, sies tant triste, moun beou?</l>
+          <l><lb/>Qu'as? —Dins un ciel ben blu se levo lou souleou;</l>
+          <l><lb/>Perque n'as pas dejà coumença toun ramagi?</l>
+        </lg>
+        <note>
+          <p rend="styled"><lb/><lb/>DMANSEILLE. — CARNAUD FILS, ImprimeUT,</p>
+        </note>
+        <p rend="styled"><milestone unit="column" n="2"/><lb/>E Poousseloun se reveyet.</p>
+        <ab><lb/>J. ROUMANILLE.</ab>
+        <lg>
+          <l><lb/>Joouse DESANAT éditour,</l>
+          <l><lb/>Proupriétari-Réaactour.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

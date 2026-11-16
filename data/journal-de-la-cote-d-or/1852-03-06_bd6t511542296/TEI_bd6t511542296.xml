@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Journal de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t511542296</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Journal de la Côte-d'Or : feuille politique, littéraire, commerciale et industrielle...</title>
+          <publisher>Imprimerie de Simonnot-Carion (Dijon)</publisher>
+          <date when="1852-03-06">1852</date>
+          <idno type="ARK">bd6t511542296</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t511542296</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>Journal de la Côte-d'Or.</fw>
+        <ab><milestone unit="column" n="2"/><lb/>A Dijon, en l'étude de M^o Petitjean, le samedi<lb/>pée par l'administration des bateaux accé<lb/><milestone unit="column" n="1"/><lb/>Celui de l'hôtel du Chapeau-Ronge est de</ab>
+        <p><lb/>Pour une plus ample désignation, voir les</p>
+        <p><lb/>Il sera accordé les plus grandes facilités</p>
+        <p><lb/>S'adresser, pour visiter les lieux, à M.<lb/>Goissel, maitre de la poste aux chevaux, hors<lb/>la porte de la Liberté; et, pour prendre con-<lb/>naissance du cahier des charges et auires</p>
+        <p><lb/>Le dimanche a avril 1852, à mid, a Dijon, en</p>
+        <p><lb/>létude de Me Vaissier, et par son ministè-</p>
+        <p><lb/><lb/>Sltuée à Dijon, rue Charrue, no 56, composé e<lb/>de 3 élages, en parfaitjétal de réparations,</p>
+        <p><lb/>il sera accordé les plus grandes facilités</p>
+        <p><lb/>S'adresser, pour visiter cette maison, à la<lb/>propriétaire, qui l'habite; pour traiter et pour<lb/>tous autres renseignements, audit M^e Vais-</p>
+        <p rend="heading"><lb/>Sommes de 1,00, 1,500, 2,000 el au-</p>
+      </div>
+      <div type="article">
+        <ab><lb/>rue des Bons-Enfants, n° .<lb/>Siuée dans la plaine de la Coe-d'<lb/>l'excellentes terres en grandes pór<lb/>dalteste, notaire à Dijon,</ab>
+        <p rend="styled"><lb/>Situé à Echaloi, canton d'Aignay-le Duc,</p>
+        <ab type="head"><lb/>En l'étude et par le ministère de M^e Malteste,<lb/>notaire à Dijon, rue des Bons-Bnfants, no 7.</ab>
+        <p><lb/>Ce moulin, en très-bon état et bien acha-<lb/>landé, consiste en un logement de meunier a-<lb/>vec cour, jardin, aisances et dépendances.</p>
+        <p><lb/>On ajoutera à cette amodiation autant de<lb/>terres et prés et d'hébergeages que le preneur</p>
+        <p rend="labelled"><lb/>S'adresser, pour tous renseignements, soit<lb/>sur les lieux, à Echalot, soit à M^o Malteste, no¬</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Située à Couches et à la Varenne-de-Couches<lb/>en ville, grand'rue, bâtiments d'habitation</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>SBUL, RECOMPENSÉ A L'EXPOSITION DE LONDRES.</head>
+        <head><lb/>VINAIGRE DE TOILETTE</head>
+        <head><lb/>De Jean-Vincent BULLY, à Paris, rue Saint-Honoré, no 259.</head>
+        <p><lb/>Ce vinaigre, seul breveté sur le rapport des commissions scientifiques, admis aux di-<lb/>verses expositions de l'industrie, est, après 50 ans d'épreuve et de succès, le type et le<lb/>point de mire de tous les vinaigres de toilette qu'on essaye chaque jour</p>
+        <p><lb/>Il n'a pas, comme l'eau de Cologne et toutes les caux de toilette que l'on pròne au-<lb/>jourd'hui, et qui sont à base purement alcoolique, P'inconvénient de sécher et de dur-<lb/>cir la peau; il lui rend, au contraire, sa finesse, sa fraicheur et sa fermeté naturelles. Il<lb/>s'emploie contre le feu du rasoir comme à tous les usages de la toilette, — en bains<lb/>généraux on locaux.— pour dissiper les migraines, — neutraliser les miasmes de l'air,<lb/>—combattre les influences épidémiques, etc. (Voir la notice jointe à chaque flacon.</p>
+        <p><lb/>GARANTIE. Le nom de Jean-Vincent BULLY est incrusté dans le flacon; sa signature<lb/>est apposée sur l'étiquette et sur le cachet, lequel surtout doit être intact.<lb/>Dépôts chez les principaux parfumeurs de Dijon.<lb/>d'exploita</p>
+        <p><lb/>S'adresser, pour renseignements, à M^e Pe¬<lb/>titjean, notaire à Dijon, et à Mo Moulinet, no¬</p>
+        <ab><lb/>POUR CAUSE D'AGRANDISSEMENT.<lb/>CHANGEMENT DE DOMICILE.<lb/>les magasins de La belle JardinIErE<lb/>SONT TRANSFÉRÉS RUE DE LA LIBERTÉ, 27 ET 29.<lb/>RÉOUVERTURE LE 1. AVRIL PROCHAIN.<lb/>NOTA.– Nous aurons un choix immense d habillements confectionnés à offrir à nos nombreux acheteurs.<lb/>, . ANS,</ab>
+        <p rend="styled"><lb/>EAudes de Mes PETITJBAN et PERRBAU,<lb/>notaires à Dijon, rue Jehannin, nos 9et11,</p>
+        <p rend="styled"><lb/>Et de vastes constructions propres<lb/>à toutes entreprises commercia-<lb/>les, grande COUR, JARDIN</p>
+        <p rend="styled"><lb/>Superficie: 68 ares 56 centiares,<lb/>Formant l'ancienne propriété Brugnot, occu-</p>
+        <p rend="styled"><lb/>Sise à Dijon, sur le port du canal, au lieu dit:</p>
+        <p><lb/>S'adresser, pour visiter la propriété, à MM.<lb/>Lépinasse, Barbier et Picard, en la maison<lb/>mise en vente; ei, pour renscignements, aux</p>
+      </div>
+      <div type="article">
+        <head><lb/>et PERREAU, notaire à Dijont</head>
+        <p><lb/>Le dimanche 21 mars 1852, à midi, en l'étude<lb/>de Me Renard, notaire à Beaune, par son<lb/>ministère et celui de M^o Perreau, notaire à<lb/></p>
+        <p><lb/>Une moison sise à Monthelic, pràs de l'égli¬<lb/>se, composée de logements de maitre et de vi-<lb/>gneron, vaste pressoir, grandes caves et cel-<lb/>liers, cour, jardin, citerne, four, et autres ai-</p>
+        <p><lb/>Et vingt-quatre parcelles ou pièces de vi-<lb/>gne, sur Mon helie et Vollenay, et une de ter-<lb/>re, sur Auxey, d'une contenance ensemble</p>
+        <p><lb/>Ce domaine est en très-bon état de culture,</p>
+        <p><lb/>S'adresser, pour le visiter, à M. Porrol, vi-<lb/>gneron à Mouibelie; et, pour tous renseigne-<lb/>menis, soit auxdits notaires, soit áMo Tisse-</p>
+        <ab><lb/>Beude de Me G<lb/>notaire à Nuits<lb/></ab>
+        <p rend="heading"><lb/>PROPRIÉTE</p>
+        <p><lb/>Très-anciennement connue sous le nom du<lb/>Aoulin de la Serrée, près Nuis (Cote-</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>Le dimanche trente mars 1852, heure de mi-<lb/>di, en l'étude et par-devant Me Coirier, no¬</p>
+        <p rend="labelled"><lb/>1^o De vastes corps de bâtiment, avec aisan-<lb/>ces et dépendances, où se trouve placée l'usi-</p>
+        <p rend="labelled"><lb/>20 De 7 hectares 11 ares 85 centiares en<lb/>nature de terres labonrables, verger, jardin</p>
+        <p><lb/>5o D'un canton de bois, de la contenance de</p>
+        <p rend="labelled"><lb/>do Diune vigne sise lieu dit en<lb/>la contenance de cinquante-cinq ares qua</p>
+        <p rend="labelled"><lb/>5o Et d'une autre vigne à la Combe-Jacol-<lb/>te, de la contenance de 13 ares 25 centiares.</p>
+        <p><lb/>La vente sera faite avec toute garantie de<lb/>troubles, évictions, dettes, et charges bypothé¬</p>
+        <p><lb/>facilités pour les payements et ils pou</p>
+        <p><lb/>S'adresser, pour voir la propriété à vendre,<lb/>à M. Claude Raille, propriétaire à la Serrée,<lb/>et audit notaire pour tous autres renseigne,</p>
+      </div>
+      <div type="article">
+        <p rend="labelled"><lb/>pour les terres se vendra 25 centimes le<lb/>double décalitre, celui pour la bátisse 40<lb/>centimes et le blanc 1 franc, le tont à prendre<lb/>à la fabrique de Lafond ainé, située à la porte</p>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>PLATRE pour ENGRAIS des terres de</ab>
+        <p rend="labelled"><lb/>première qualité à vendre à 25 centimes le<lb/>double décalitre, fabrique de M. Gailliac,</p>
+      </div>
+      <div type="article">
+        <ab><lb/>Dans un court délai, et à des conditions avan¬</ab>
+      </div>
+      <div type="article">
+        <p><lb/>Bntre les soussignés, Charvin François<lb/>peintre à Dijon, rue des Godrans, 74, et Ta-<lb/>misey Remi, peintre en la même ville, a été</p>
+        <p><lb/>La société, tant en nom collectif qu'en com-<lb/>mandite, formée sous la raison sociale CuAz<lb/>vin et compagnie, entre lesdits Charvin et<lb/>Tamisey, par acte sous seings privés en dat<lb/>du 15 mai 1850, euregistré à Dijon le même<lb/>jour par M. Poupier, qui a req̧u cinq frańcs<lb/>cinquante centimes, est dissoute à partir du<lb/>25 février 1852. Les susdits Charvin et Ta-<lb/>misey restent seuls chargés de la liquidatioo</p>
+        <p><lb/>Boregistré le 1er mars 1852, fo 42, v., c. 7.</p>
+      </div>
+      <div type="article">
+        <p><lb/>A céder, à près de 6 p. 00 nets, une usine<lb/>comprenant moulin à plâire, fabrique à ci¬<lb/>ment, scierie, agrès, maison, verger et pre<lb/>avec vastes dépendances, louée 1,200 fr. nets<lb/>d'impòis et d'assurance jusqu'au premier oc-<lb/>tobre 1863. Grosses réparations de l'usine à la</p>
+        <p><lb/>Le tont à 600 mêtres de la station des Lan-</p>
+      </div>
+      <div type="article">
+        <p rend="styled"><lb/>ת</p>
+        <p rend="styled"><lb/>l'épendant de la succession de Mi. le cheva-</p>
+        <p><lb/>En la salle de vente des commissaires-pri-<lb/>seurs, sise place d'Armes, no 10, à Dijon,<lb/>le lundi 8 mars 1852 et jours suivants, à 6<lb/>heures du soir, par le ministère de M. Lom-</p>
+        <p><lb/>Composée d'une grande quantité d'ouvra-<lb/>ges anciens à gravures, manuscrits gothiques<lb/>sur vélin, livres d'érudition, Ilistoire des</p>
+        <p><lb/>Traités de dipiomatie, de blason, de numis-</p>
+        <p><lb/>mentaires sur l'écriture sainte, l'atcom</p>
+        <p><lb/>La présentation des livres sera faite par M.</p>
+      </div>
+      <div type="article">
+        <p><lb/>lomon Lévy frères, marchands de chevaux<lb/>à Dijon, sont invités à se réunir au tribunal<lb/>de commerce de cette ville le mercredi 10<lb/>mars 1852, à midi, à l'effet d'entendre le rap<lb/>port que doit faire le syndic de la faillite<lb/>desdiis sieurs Lévy, et de faire un concordat</p>
+        <p><lb/>Le greffier du tribunal de com“ </p>
+        <ab type="head"><lb/>SEROULE</ab>
+      </div>
+      <div type="article">
+        <p><lb/>Groult jeune est parvenu à rendre au Ta-<lb/>pioca du Brésil son bon goût primitif; il en<lb/><lb/>a fait un potage excellent, d'une cuisso<lb/>prompte et facile, et qui a l'avantage d'amé-<lb/>liorer le bouillon dans lequel on l'emploie. <lb/><lb/>est recommandé aux convalescenis, aux da-<lb/>mes, pour remplacer le café au lait, et à toute.<lb/>les personnes faibles de l'estomac ou de la</p>
+        <p><lb/>trefois, n'étoit en usage que dans les grandes<lb/>maisons; aujourd'hui le prix modéré du Ta-<lb/>pioca de Groultjeune en a fait entrer la con-<lb/></p>
+        <p><lb/>l'aide desquelles sont vendus des Tapiocis</p>
+        <p><lb/>pjers <lb/>épiciers de D</p>
+      </div>
+      <div type="article">
+        <head><lb/>Office de M.BROCARD, grefsier à Dijon,</head>
+        <p><lb/>A Quedigoy. lediminche 11 mars 1832, à mi<lb/>di. au domicile du sieur Barbet, fermier</p>
+        <p><lb/>Consistant en six chevaux ou juments, six<lb/>vaches, 1 taureau, deux grands chariots, u<lb/>petit chariot, un tombereau, une charrette,<lb/>deux charrues, des harnais de toutes sortes, un<lb/>tarare, des herses, rouleau, et beaucoup d'au-</p>
+        <p rend="labelled"><lb/>grosseurs, tous propres au sciage,</p>
+        <p><lb/>S'adresser, à Poot-de-Pany, hòtel de la<lb/>poste; à Dijon, à M. Carosse, commis sur le</p>
+      </div>
+    </body>
+  </text>
+</TEI>

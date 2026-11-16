@@ -1,0 +1,484 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Cassaïre</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k6156003x</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Cassaïre : eis bouèneis pèços prouvençalos et à tout escrit francès sur la Prouvençou / [dir. Marius Feraud]</title>
+          <publisher>M. Feraud (Marseille)</publisher>
+          <date when="1864-11-20">1864</date>
+          <idno type="ARK">bpt6k6156003x</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k6156003x</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0002.xml"/>
+        <milestone unit="page" n="786"/>
+        <fw type="runningTitle"><lb/>LOU CASSAIRE.</fw>
+      </div>
+      <div type="article">
+        <head><lb/>LOU PROUVENÇAU DI FELIBRE</head>
+        <lg>
+          <l><lb/>Que de cop mi sieù di, en ligen lou Cassaire:</l>
+          <l><lb/>— Mai q’uto mousco a doun prouguigu li Troubaire</l>
+          <l><lb/>De vouié coum'acò mettre lou Prouvencau</l>
+          <l><lb/>Din li reglo de l'art e se fa lis esclau</l>
+          <l><lb/>De la lengo francèso e de soun outhougrafi?</l>
+          <l><lb/>Nous autri-z-escrivem coume parlon li raffi</l>
+          <l><lb/>Qu'an jamai estudia la grammèro' me l'art</l>
+          <l><lb/>E noste Prouvençau ei beù cop mai plus clar</l>
+          <l><lb/>Qu'aqueù pale jargon qu’escrivon à Marsio</l>
+          <l><lb/>Li Troubaire qu'an pa lou fio de l'engenio</l>
+          <l><lb/>E que volon cerqua, per camina ben jus,</l>
+          <l><lb/>De toundre un iòu o ben d'aponnchira li fus...</l>
+          <l><lb/>Aussi touti li gen qu’an gin de mauvalenço</l>
+          <l><lb/>Trouvaran qu'escriven eme mai de scienço</l>
+          <l><lb/>Que lou doùtour Laydet e tout lis escrivan</l>
+          <l><lb/>Que sabon pa teni uno plumo à la man,</l>
+          <l><lb/>Coume moussu Feraud, Picho eme tuti quanti,</l>
+          <l><lb/>Que fan peta lis ach e lis ech di Levanti.</l>
+          <l><lb/>Qu'apuyon su lis ar e qu'à la fin di mot</l>
+          <l><lb/>Ie metton d'erro, d'esso e de lettro de tro...</l>
+        </lg>
+        <lg>
+          <l><lb/>leù vous demande'n poù en que servon lis erro,</l>
+          <l><lb/>Lis esso 'me li T, quan ia gin de grammèro</l>
+          <l><lb/>Que vous forço à li mettre? Ei pa coum'au Francé</l>
+          <l><lb/>Que per l'escrieùre faut saupre soun A B C,</l>
+          <l><lb/>Pas faire d'iatus, e de l'art poetique</l>
+          <l><lb/>Se jamai escarta, coum'a fa lou critique</l>
+          <l><lb/>Boileau. Ei plus eisa d'escrieùre en prouvençau,</l>
+          <l><lb/>E, coume lou fasen vous donno men de mau.</l>
+          <l><lb/>Se, à la fin di mot, uno lettro nous geino,</l>
+          <l><lb/>La coupen, voulen pa se metrre din la cheino;</l>
+          <l><lb/>Se lou mot ei tro court, l'aloungen tan si pau</l>
+          <l><lb/>E jamai nosti ver son court, ni long, ni fau;</l>
+        </lg>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Mais que m'en choou que que l'iarrive,</l>
+          <l><lb/>Es pas per elleis que v'escrive,</l>
+          <l><lb/>Noun per leis intrigants li faut pas de beous mots,</l>
+          <l><lb/>Ni mais de plours, ni mais d’angouissos,</l>
+          <l><lb/>Estambouiras dedins seis bouissos,</l>
+          <l><lb/>Esperount coummo fant leis rouissos,</l>
+          <l><lb/>Lou gibier vergougnoux que toujours passo a flots.</l>
+        </lg>
+        <lg>
+          <l><lb/>Lou legisseire sara libre,</l>
+          <l><lb/>D'esclargit lou doutoux dau libre,</l>
+          <l><lb/>De saupre s'es verai lou plus grand estampeou,</l>
+          <l><lb/>Regarde ben dins leis villagis,</l>
+          <l><lb/>Dins leis villos, seis entouragis,</l>
+          <l><lb/>Dins leis hameoux, dins les masagis,</l>
+          <l><lb/>Anfin tout ce qu'esclaro et cauffo lou souleou ,</l>
+        </lg>
+        <lg>
+          <l><lb/>Escoute ben dessouto terro,</l>
+          <l><lb/>Dedins leis champs de blad, de guerro,</l>
+          <l><lb/>Augira, siou segur, lou soupir de qu’aucun,</l>
+          <l><lb/>Demande au temps et eis anados,</l>
+          <l><lb/>Eis historis que sount passados,</l>
+          <l><lb/>Et eis sesouns amoulounados,</l>
+          <l><lb/>Se sempre augisssount soun pas un ben triste plagnun.</l>
+        </lg>
+        <lg>
+          <l><lb/>Vaqui noste secret: talo ei nosto metliodo</l>
+          <l><lb/>Di Felibre. Nen a que diran qu’ei coumodo,</l>
+          <l><lb/>Mai à n'acò d'aqui ie respondren ben leu:</l>
+          <l><lb/>Fases coumo nous autr'e vous veiren, mi beù.</l>
+          <l><lb/>le trovares qu'ensin la causo ei plus facilo</l>
+          <l><lb/>E se din vosti dé la plumo ei plus habilo</l>
+          <l><lb/>Que din li nostre. Anem.... ie poudes pa veni?</l>
+          <l><lb/>En coummencen vai ben, mai aro foù feni...</l>
+          <l><lb/>Ce que deù vous prouva que per faire de libre</l>
+          <l><lb/>S'agisse pa de dire... e feù estre Felibre!</l>
+        </lg>
+        <lg>
+          <l><lb/>Regarda se Mistrau, qu'a mes pres de des an</l>
+          <l><lb/>Per faire sa Mireio, un cap-d’obre estounan,</l>
+          <l><lb/>Qu'a fa revouloucioun dedin la Franço entièro,</l>
+          <l><lb/>En Uropo, pertout, su la terro estrangiero,</l>
+          <l><lb/>A Paris, en Epagno e tan d’autris endré,</l>
+          <l><lb/>A segui vosti reglo e s'a pa marcha dré...</l>
+          <l><lb/>Mireio a destrouna Virgile e l'Encide ;</l>
+          <l><lb/>Au cousta de Mistrau se parlo plus d'Ovide,</l>
+          <l><lb/>Homere ei un picho e noste prouvençau</l>
+          <l><lb/>S'ei immourtalisa 'me noste gran Mistiau!</l>
+          <l><lb/>Ansindo crese-me, s voules fa merveio</l>
+          <l><lb/>Fases coume Mistrau, 'scrives uno Mireio !</l>
+          <l><lb/>Aqueù que fai pa'nsin e qu’escrieù pa coum'eù</l>
+          <l><lb/>Fara jamai doù bon, s'escartara doù beù.</l>
+          <l><lb/>Mireio ei lou souleù qu'esclaro la Prouvenço,</l>
+          <l><lb/>Ei noste pous d'esprit, noste toumple de scienço</l>
+          <l><lb/>Que come nosto Fon s'en vei jamai lou bout,</l>
+          <l><lb/>Quau se levo d'aqui se levo de pertout!</l>
+          <l><lb/>E quan Mistrau voudra sera de l'Academi,</l>
+          <l><lb/>Si porto s’ouvriran davan son gran engeni;</l>
+          <l><lb/>le serie adejà se l'aguesse vougu...</l>
+          <l><lb/>Ie rientrara plus tar car acò i'ei degu!</l>
+        </lg>
+        <lg>
+          <l><lb/>Roumanio a l'ounour d'ave lança la barco;</l>
+          <l><lb/>Aubaneù ei vengu per ramplaça Petrarco,</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>L’ENFANÇO.</head>
+        <quote><lb/>Proumièro veiado.</quote>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Tout prochi de l'estang de Berro,</l>
+          <l><lb/>Dins un bas-found coumo un parterro,</l>
+          <l><lb/>Aquit tout jutament eis ribos de la Crau,</l>
+          <l><lb/>De San-Chamas dins uno trotto,</l>
+          <l><lb/>De la mar mais d’uno legotto,</l>
+          <l><lb/>Li trouvarez uno villotto</l>
+          <l><lb/>Proupreto, ben bastido et que l'ia ren de mau,</l>
+        </lg>
+        <lg>
+          <l><lb/>Mais l'ia quaucaren de sinistre....</l>
+          <l><lb/>Vous ai noumma la villo d’Istre,</l>
+          <l><lb/>Païs deis proumiers ans de l'evesque Sibour.</l>
+          <l><lb/>Es dins aquello sitadeto</l>
+          <l><lb/>Que neisset nosto historieto,</l>
+          <l><lb/>Et que s'en va touto souleto,</l>
+          <l><lb/>Maugra lou marrid tems, se faire voire au jour.</l>
+        </lg>
+        <ab><milestone unit="column" n="2"/><lb/>gallica.bnf.fr/ Bibliothèque nationa<lb/><lb/></ab>
+        <pb facs="0003.xml"/>
+        <milestone unit="page" n="78"/>
+        <fw type="runningTitle"><lb/>LOU CASSAIRE.</fw>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>Doù casteù de Petrarquo (Fon de Vaucluso) lou 4 nouvembre 1866</ab>
+        <lg>
+          <l><lb/>Mathieù de Casteù-Noù a tia Anacreon</l>
+          <l><lb/>E Gaut de Juvenau a fa pali lou nom.</l>
+          <l><lb/>Crousillat, qu'aujour d'ieu arribo plen de graci</l>
+          <l><lb/>Eme sa Bresco, ven faire oùblida Hoùraci;</l>
+          <l><lb/>Vidau qu'ei à la testo, eme sonn Tambourin</l>
+          <l><lb/>En nous dounen l’accor nous mette touti 'n trin.</l>
+          <l><lb/>Roumieù per la coumedi 'ei rivau de Moliero...</l>
+          <l><lb/>Touti li grans outour que mordon la poùssiero</l>
+          <l><lb/>Eme lou Felibrige an sorti de sa g'nieù</l>
+          <l><lb/>E son ressucita 'me n'autris au jour d'ieù.</l>
+          <l><lb/>Se voulen de Sapho, Anaïs Roumanio</l>
+          <l><lb/>Ei aqui ; la Coùloun tent testo à la Lesbio</l>
+          <l><lb/>E q’ute nom que fugue, eici, per lou talent</l>
+          <l><lb/>Trovara soun parie, an touti son penden.</l>
+        </lg>
+        <lg>
+          <l><lb/>Quau meritavo mai que l'oùtour dis Oubreto</l>
+          <l><lb/>Aquel ounour? Res mai! Eme sa Miougranetto</l>
+          <l><lb/>Aubaneù poudie pa faire de men, un jour,</l>
+          <l><lb/>Que s’immortalisa eme si cant d'amour.</l>
+          <l><lb/>Mathieù en adusen sa gaio Farandoulo</l>
+          <l><lb/>De poutoun au parfun de nosti farigoulo,</l>
+          <l><lb/>Ero mai que segu doù triounfle 'sbriaudan</l>
+          <l><lb/>Que l’attendie eici e ie doune la man.</l>
+          <l><lb/>Gaut, que soù emporta lou mouceù de sa plumo,</l>
+          <l><lb/>E qu'eme sis arpioun, quan la guerro s'alumo,</l>
+          <l><lb/>Nous defend eme fio, sabie qu'un pedestau</l>
+          <l><lb/>S’oùbouravo per eù dessus noste lindau.</l>
+          <l><lb/>Crousillat de Seloun, doù païs de Crapouno</l>
+          <l><lb/>Eme de Nostrodame, en venent en persouno</l>
+          <l><lb/>'Me sa Bresco à la man, d'avanço vesie ben</l>
+          <l><lb/>Qu'au mitan di Felibre aurie lou premier ren.</l>
+          <l><lb/>Vidau, qu'ei Jo-Flourau avie gagna li joio</l>
+          <l><lb/>Eme son Tambourin, d’uno man tan galoio,</l>
+          <l><lb/>Doutavo pa'n moumen que sarie lou gasta</l>
+          <l><lb/>E que dau felibrige aurie lou beù cousta.</l>
+          <l><lb/>Roumieù, que nous fague courouna sei Doua Lebre,</l>
+          <l><lb/>E que, come Bigot, agante pa la febre</l>
+        </lg>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Di Troubaire, vegue e recouneigue leù</l>
+          <l><lb/>Que noste prouvençau ei sempre lou plus beù.</l>
+        </lg>
+        <lg>
+          <l><lb/>Se voulieù vous parla de nosti Felibresso</l>
+          <l><lb/>Farieù que vous mena de surpresso en surpresso;</l>
+          <l><lb/>l'ia pron d'eisemple ensin e vous nen dirieù trop,</l>
+          <l><lb/>Revendren su d’aqueù chapitre un autre cop.</l>
+        </lg>
+        <lg>
+          <l><lb/>Aro se voules pa toujour resta manobro</l>
+          <l><lb/>E que de bon succès courounon vostis obros,</l>
+          <l><lb/>Creses-me, fases-vous Felibre... Hors d’aqui</l>
+          <l><lb/>Vosto reputatioun fara ren que flaqui;</l>
+          <l><lb/>Aures beù courre apres madamo Renoumado,</l>
+          <l><lb/>L'agrntares jamai din sa longo voulado,</l>
+          <l><lb/>Se la capitavias au vol, coume'n oúceù,</l>
+          <l><lb/>Se farie poutira, pechaire, per li peù</l>
+          <l><lb/>E poudrias coumença de fa vosto epitafi.</l>
+          <l><lb/>Mai s’escrives, un jour, eme nost’ourtougrafi,</l>
+          <l><lb/>Que leisses de cousta 'queli reglo de l'art</l>
+          <l><lb/>Que volon sousteni su li bor de la mar</l>
+          <l><lb/>Li Troubaire malau qu'an plus ni fio, ni braso,</l>
+          <l><lb/>Lis Artaud, li Dupuy e lis Arbaud Damaso,</l>
+          <l><lb/>Vous responde qu'alor, de l'immourtalita</l>
+          <l><lb/>Vous mettren au camin, e la celebrita</l>
+          <l><lb/>En s'estaquen ei nom que ie faren couneisse</l>
+          <l><lb/>Vous ouboura tan que Bourrelly e Peisse.</l>
+        </lg>
+        <lg>
+          <l><lb/>Per nen feni, dirai aro à moussu Feraud</l>
+          <l><lb/>Que se voù alounga li jour de son jornau,</l>
+          <l><lb/>Veire lis abouna ploùre din son Cassaire,</l>
+          <l><lb/>N'a qu'à ferma sa porto à n'aqueli Troubaire,</l>
+          <l><lb/>Don Quichotto dis art que contro li moulin</l>
+          <l><lb/>Sabon ren que japa, mordre coume li chin,</l>
+          <l><lb/>E nous leissa rintra, qu'encò deu siguen libre,</l>
+          <l><lb/>Car ia qu'un prouvençau... ei aqueu di Felibre!</l>
+        </lg>
+        <ab><lb/>Lou felibre de la CAUSSANO.</ab>
+        <figure type="decoration"/>
+        <lg>
+          <l><lb/>Ren deou se dire destenembre,</l>
+          <l><lb/>Ero lou vingto-doux septembre.</l>
+          <l><lb/>Negre coum'un pegoun, soumbre coumo la mouart,</l>
+          <l><lb/>Tout lou franc diou de la journado</l>
+          <l><lb/>Lou temps aviet coular bugado</l>
+          <l><lb/>Et per moument uno reissado</l>
+          <l><lb/>Veniet sus la calado encaro gisclar fouart.</l>
+        </lg>
+        <lg>
+          <l><lb/>Es nuech, cadun barro sa pouarto,</l>
+          <l><lb/>L'oouriaz dich uno villo mouarto,</l>
+          <l><lb/>Quauqueis pas s’augissient dessus leis caladas,</l>
+          <l><lb/>Venient se perdre à-n'un vitragi</l>
+          <l><lb/>D'un tenament, grand houstalagi</l>
+          <l><lb/>Ounte leis varlets dau masagi</l>
+          <l><lb/>Eme leis citadins s'erount emmanadas.</l>
+        </lg>
+        <lg>
+          <l><lb/>Vous dirai qu'ero la chambrado</l>
+          <l><lb/>Deis joueineie gens gaio assemblado</l>
+          <l><lb/>Ounte vent de l'intrar meste Jannet, tramblant.</l>
+          <l><lb/>Tenez! lou vaquit que saludo,</l>
+          <l><lb/>Espinchaz ben sa caro nudo,</l>
+          <l><lb/>Coumo rit de la ben vengudo</l>
+          <l><lb/>Que dins aqueou moument leis gais jouvents li fant.</l>
+        </lg>
+        <lg>
+          <l><lb/>— Vous siedounar la bonno sero,</l>
+          <l><lb/>Noste assemblado vous espero</l>
+          <l><lb/>Per vous pouarge, bon vieil, lou ban dau president!</l>
+          <l><lb/>Ansin un jouven li parlavo,</l>
+          <l><lb/>Entandoumens li preparavo</l>
+          <l><lb/>L'asseti ounte s'assetavo,</l>
+          <l><lb/>Et li dit: Siaz vengut, tout lou mounde es countent.</l>
+          <l><lb/>Vaquit l'asseti ben proupice,</l>
+          <l><lb/>Sarem tout à voste service,</l>
+          <l><lb/>Quand voudrez, meste Jan tastar lou bon claret.</l>
+          <l><lb/>Viguem, racouuntaz-nous l'histori</l>
+          <l><lb/>Qu'avez touto dins la memori;</l>
+          <l><lb/>Puisque Fourian dit qu'es tant flori,</l>
+          <l><lb/>Se siam dit, tron de l'er ! que vouliam, bon Jannet,</l>
+        </lg>
+        <lg>
+          <l><lb/>Aro que síaz dins lou villagi,</l>
+          <l><lb/>Et qu’avez ben repres couragi,</l>
+          <l><lb/>Que nous racountessiaz voste tant long tourment.</l>
+          <l><lb/>Oh! oui, racountaz-nous l'histori</l>
+          <l><lb/>De l'enfantoun, dau tabolori,</l>
+          <l><lb/>Dau jouven sordat senso glori,</l>
+          <l><lb/>De l'home marida, dau vieil finqu'au moument.</l>
+        </lg>
+        <ab><milestone unit="column" n="2"/><lb/>allica.bnf.fr / Bibliothèque nat</ab>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>LOU CASSAIRE.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>188</ab>
+      </div>
+      <div type="article">
+        <lg>
+          <l><lb/>Vous nen darai l'explicatien:</l>
+          <l><lb/>En prouvençau, latin, anglés, grec, italien,</l>
+          <l><lb/>Suedois, frances, turc, american, indien</l>
+          <l><lb/>Hollandes, allemand, japounes, autrichien,</l>
+          <l><lb/>Suisse, espagnoou, gavouet, arabe, tyrolien,</l>
+          <l><lb/>Tartaro, portugues, bas-bretoun, alsacien,</l>
+          <l><lb/>Russo, normand, chinois, gascoun, languedocien,</l>
+          <l><lb/>Cosaquo, poulounes, comtadin, armenien,</l>
+          <l><lb/>Et touteis leis jargouns de la maladitien.</l>
+        </lg>
+        <lg>
+          <l><lb/>Apres d'acol, Messies, que fez tant leis capables,</l>
+          <l><lb/>Se nen siaz pas countents, serez pas resounables.</l>
+          <l><lb/>Et per tenir paraulo enregui lou camin.</l>
+          <l><lb/>Encui vons parlarai latin.</l>
+        </lg>
+      </div>
+      <div type="article">
+        <head><lb/>EXPLICATIENS</head>
+        <head><lb/>Au nouveou Felibre de Santa-Reparada.</head>
+        <lg>
+          <l><lb/>Mais d'ounte ven aquelo grano</l>
+          <l><lb/>Que grilho de pertout coumo leis pissocans?</l>
+          <l><lb/>N'aviam pas proun de la Caussano?</l>
+          <l><lb/>Qu me delivrara d'aquelleis massacans!</l>
+        </lg>
+        <lg>
+          <l><lb/>Ah! s'es Mirando</l>
+          <l><lb/>Que me lou mando,</l>
+          <l><lb/>D'avanço li douni gagnat;</l>
+          <l><lb/>Ai pas la voyo,</l>
+          <l><lb/>Ai pas la croyo</l>
+          <l><lb/>De counfessar un felibre auvergoat!</l>
+          <l><lb/>Fouchtra! pamen aquestou nous expliquo</l>
+          <l><lb/>(Mais d'uno maniero coumiquo)</l>
+          <l><lb/>Ce que voou dire un mot qu’an tant serca</l>
+          <l><lb/>Et que mais d’un s’es desseca</l>
+          <l><lb/>A nen devinar la rubriquo,</l>
+          <l><lb/>Un mot que Troubadour, Felibre et darnagas,</l>
+          <l><lb/>Per lou destriar, se sount roumput lou nas.</l>
+          <l><lb/>A cresegu faire l'emperi</l>
+          <l><lb/>En lou troubant dins un antiphouneri!</l>
+          <l><lb/>Qu'unt arleri !</l>
+          <l><lb/>Aqueou mot que. despiei dex ans,</l>
+          <l><lb/>A fach jugar deis peds, deis mans,</l>
+          <l><lb/>Leis savenlas de tout calibre,</l>
+          <l><lb/>Siegue Troubaire vo Felibre,</l>
+          <l><lb/>Et que degun a pouscut expliquar,</l>
+          <l><lb/>Me cargue de lou ressercar.</l>
+          <l><lb/>Ben mais ! dins que lengo que siegue,</l>
+          <l><lb/>Dins meme aquello dau Martegue,</l>
+        </lg>
+        <lg>
+          <l><lb/>— Milo sept cent nonanto-quatre,</l>
+          <l><lb/>Senso li pousquer ren rabattre,</l>
+          <l><lb/>Aviou dins aqueou tems meis sept ans acabas;</l>
+          <l><lb/>Ansin coumencet lou paure homme</l>
+          <l><lb/>Qu’avem vist au mas de Girome,</l>
+          <l><lb/>Tout necalid coum'un fantome,</l>
+          <l><lb/>Eissugant leis malhurs que lierount arribas.</l>
+        </lg>
+        <lg>
+          <l><lb/>Ero l'eina de tres, pecaire!</l>
+          <l><lb/>Per l’iajudar, noste bon paire</l>
+          <l><lb/>Nous croumpet, vous dirai, tres pichots banestouns</l>
+          <l><lb/>En nous disent : Partez, marmayos;</l>
+          <l><lb/>Aro que tu, Jean, as leis brayos,</l>
+          <l><lb/>Anaz roudar camins et drayos</l>
+          <l><lb/>Per rabaiar de tout: fueios, petos, migouns.</l>
+        </lg>
+        <lg>
+          <l><lb/>Vese que vent mais la famino,</l>
+          <l><lb/>L'ordi vaut mais sept francs l'emino,</l>
+          <l><lb/>Et desempueis doux mes moun eissado es aquit,</l>
+          <l><lb/>Degun fat faire de journados.</l>
+          <l><lb/>Et desempueis seis revirados</l>
+          <l><lb/>T'a maire va plus eis bugados,</l>
+          <l><lb/>Desempueis, moun garçoun, coumo mi siou languit !</l>
+        </lg>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>D'ounte ven lou mot Fellbre.</ab>
+        <lg>
+          <l><lb/>Que voou dire lou mot Felibre?</l>
+          <l><lb/>Nen siam pamen à l’an dezen</l>
+          <l><lb/>Et l'armana, fort galant libre,</l>
+          <l><lb/>Poou pas nous dire d'ounte ven.</l>
+          <l><lb/>Despiei dex ans de guerro lasso,</l>
+          <l><lb/>De courre apres cadun s'allasso...</l>
+          <l><lb/>Cadun bado coumo un limber...</l>
+          <l><lb/>Cadun espero la becado !</l>
+        </lg>
+        <lg>
+          <l><lb/>Badez plus, meis amis, l'enigmo es devinado:</l>
+          <l><lb/>Vent de dous mots latins : felis eme liber.</l>
+          <l><lb/>Felis voou dire gat, liber voou dire libre,</l>
+          <l><lb/>En sagatant un lis n’en faguerount felibre !!!</l>
+          <l><lb/>Perque s'estoumagar, partir de soun repau,</l>
+          <l><lb/>Quand un galoun vent faire soun miau-miau,</l>
+          <l><lb/>En cresent parlar prouvençau?</l>
+        </lg>
+        <ab><lb/>BARIOMAU.</ab>
+        <lg>
+          <l><lb/>Ma pauro maire que plouravo,</l>
+          <l><lb/>Nous dit: Anaz ver la resclavo,</l>
+          <l><lb/>Au camin de 1: Crau, prochi leis Moulinets,</l>
+          <l><lb/>Aquit leis fedos sempre cagount,</l>
+          <l><lb/>Crese pas que leis Dor li vagount,</l>
+          <l><lb/>Et de migouns que ben se pagount</l>
+          <l><lb/>Nen remplirez vosteis banestounets.</l>
+        </lg>
+        <lg>
+          <l><lb/>Eme de paio, eme de fueios,</l>
+          <l><lb/>Farem leou douax, tres, quatre sueios,</l>
+          <l><lb/>En li boutan dedins ce que rabaiarés;</l>
+          <l><lb/>Quand la fucio sara morfido,</l>
+          <l><lb/>Que la paio sera pourrido,</l>
+          <l><lb/>Veyrem la vieio Margarido</l>
+          <l><lb/>Que nous leis croumpara per nen fumar soun grés.</l>
+        </lg>
+        <lg>
+          <l><lb/>Entandaumens dedins leis touscos,</l>
+          <l><lb/>Tacharai de passar meis mouscos,</l>
+          <l><lb/>Per vendre un pauc de bouasc et se pousquer coouffar.</l>
+          <l><lb/>Anem, pichots, aguez couragi,</l>
+          <l><lb/>Perque passem noste ivernagi;</l>
+          <l><lb/>Anem, fasez-me vite un viagi,</l>
+          <l><lb/>Anem, fasez-nen doux per vous vite escoonffar.</l>
+        </lg>
+        <figure type="decoration"/>
+        <ab><lb/>Souce alie eFrance</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

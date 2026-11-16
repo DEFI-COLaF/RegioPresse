@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Camel</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t536795756</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Camel : risoulhé artistiqué ["puis" risoulié artistic]</title>
+          <publisher>[s.n.] (Besiès)</publisher>
+          <date when="1923-11-15">1923</date>
+          <idno type="ARK">bd6t536795756</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t536795756</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="article">
+        <div>
+          <pb facs="0008.xml"/>
+          <head><lb/>NOëI SALLE</head>
+          <figure type="decoration"/>
+          <ab><lb/>B<lb/>=<lb/><lb/><lb/>2o<lb/><lb/><lb/>Coumedio mouderno en 3 ates e en berses<lb/>Del Felibre Emile BARTHE</ab>
+          <ab><lb/>Aleos Paui-Riquet, 20 — BESIÈ;</ab>
+          <p><lb/>Aquelo Coumedio parestra sus poulit papié ame illustracius, capa la fi Noubembre al pris de G francs<lb/>Coumo se tirara just de boulumes que per lous souscritous, engagan lous que lou boudrou a se faire escriure enco de l'autou</p>
+          <figure type="decoration"/>
+          <ab><lb/>BULEIN DE SOUSCRIcIU<lb/>LOUS BIELHS<lb/>Coumedio en 8 Ates e en berses del felibre Emile BARTHE<ab><lb/>Signaturo e adresso:</ab></ab>
+          <figure/>
+          <p><lb/>Declari souscriure a<lb/>boulumes de la coumedio LOUS BIELHS<lb/>que deu parestie moubembre al pris de 6 francs cadun.</p>
+          <figure type="decoration"/>
+          <ab><lb/>IMPRIMERIE GÉNÉRALE<lb/>9, Avenue de Pezenas -BEZIERS - Avenue de Bédarieux,10<lb/>TELEPHONE 5.67<lb/>TELEPHONE5,67<lb/>TYPOGRAPHIE - LITHOGRAPHIE - RELIURE<lb/><lb/>םא<lb/><lb/>ARILULLS OL BURaAU<lb/>PAPLIKRIA</ab>
+          <figure type="decoration"/>
+          <ab><lb/>BRASSERIE GÉNÉRALE DU MIDI<lb/><lb/><lb/>BEZIERS</ab>
+          <ab><lb/>sure gallicanf.f/CIRDOC-Mediatèca occitan</ab>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

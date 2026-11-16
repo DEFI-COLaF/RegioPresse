@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Progrès de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k18687598</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Progrès de la Côte-d'Or : journal politique... ["puis" journal républicain quotidien]</title>
+          <publisher>[s.n.] (Dijon)</publisher>
+          <date when="1896-04-06">1896</date>
+          <idno type="ARK">bpt6k18687598</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k18687598</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>Espèce chevaline<lb/>Espèce evine<lb/>Espèce boviue<lb/>TRIBIU E CMMRO<lb/>ANNUAIRE DE DIJONr̀ra</ab>
+        <ab><lb/>ANNONCES<lb/>ET AVIS DIVERS</ab>
+        <p rend="heading"><lb/><lb/>BETAIL<lb/>Dissolntion de Société Mobilier Agricole</p>
+        <p rend="styled"><lb/>e. ros Jeansio, v et 12.</p>
+        <p><lb/>A vendre aux enchères<lb/></p>
+        <p rend="heading"><lb/>pree</p>
+        <p rend="heading"><lb/>e de M DUE retto</p>
+        <p rend="heading"><lb/>Mtabitier egricele</p>
+        <p rend="heading"><lb/>A vendre a famitle</p>
+        <p rend="heading"><lb/>CHATEAU MODERNE</p>
+        <p rend="heading"><lb/>  VRULT</p>
+        <p rend="heading"><lb/>Beau Betail</p>
+        <p rend="heading"><lb/>et Mobilier Agricole</p>
+        <p rend="heading"><lb/>A vesdre aux enchère</p>
+      </div>
+      <div type="article">
+        <ab><lb/>BÉTAIL<lb/>DESICNATION</ab>
+        <ab type="head"><lb/>Mobilier Agricole</ab>
+        <p rend="styled"><lb/>A vendre sur encheres</p>
+        <list>
+          <item>spece chevalne</item>
+        </list>
+        <ab type="head"><lb/>Espece evine</ab>
+        <ab type="head"><lb/>Espèce poreine</ab>
+        <p rend="heading"><lb/>Eapece chevalise</p>
+        <p rend="heading"><lb/>Feee </p>
+        <ab><lb/>L</ab>
+        <p rend="heading"><lb/>BOURSE DE PARIS</p>
+        <figure type="table"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="2"/><lb/>Train de Culture<lb/>a vendre<lb/>A REHETTRE</ab>
+        <p rend="heading"><lb/>Désignation</p>
+        <ab type="head"><lb/>Fonds de Boulangerie</ab>
+      </div>
+      <div type="article">
+        <ab><lb/> 1500 :<lb/>Anaie des conditione</ab>
+        <ab type="head"><lb/>VILAE DE DIJON<lb/>ADJUDICATION</ab>
+        <ab type="head"><lb/>des Travaux</ab>
+        <p><lb/>Le maire de la ville de Dig<lb/></p>
+        <ab><lb/>l Pr.</ab>
+        <ab><lb/>K<lb/></ab>
+        <p rend="heading"><lb/>1896 Iotictaur Feersier 1896</p>
+      </div>
+      <div type="article">
+        <ab><lb/>ACHATS DE SOLDES<lb/> LOUER</ab>
+        <ab type="head"><lb/>Eau de Maizières</ab>
+        <ab type="head"><lb/>aDAILIMOOR A PARIS</ab>
+        <p rend="styled"><lb/>de Falence et Ferblanterie<lb/> re</p>
+        <ab type="head"><lb/>A LOUER</ab>
+        <p><lb/>Bef. a el.</p>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>PHARMACIE VERNEAU</head>
+        <head><lb/>Mant, 7. Dyc</head>
+        <p><lb/>Perou. sont ia melteure des proparations </p>
+        <ab><lb/>Medes et Fournitures pour Modes<lb/>LOUIS PILLION<lb/>1, place Saint-Jean, DIJON<lb/>HAUTE NOUVEAUTÉ<lb/>Canotier Cyeliste, 145</ab>
+        <ab><lb/>CALOTTE TOILE EE, ORO PALASSON JUKSO<lb/>VOITURES DE REMISE<lb/>P. MARLET<lb/>sbis, rue Lokouz-Gorland. Dijon<lb/>Rocotioo, eetango do vettores et e<lb/>POUR CAUSE DE DEPART</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>RUE LENOTRE. 8, A OIJON</ab>
+        <ab type="head"><lb/>MALADIES DE L'ESTOMAC</ab>
+        <p><lb/>,</p>
+        <p><lb/>Beraaro. à Den</p>
+        <ab type="head"><lb/>M. P. CUILLERAT</ab>
+        <p><lb/> , de ts s, e</p>
+        <p><lb/>Tanl de cnsseita par feme duzai tass leer rettere, A </p>
+        <ab><lb/>Au grAnd CadrAN<lb/>ss, ruo do la Liborté. 88. DisoN<lb/>LIQUDATION CoMPLÈTE<lb/>de montres, bagues, boucles d'oreilles, broches, bracelets.<lb/>anis, peadeles, cartels sat<lb/>se cheminees, breszee d'ert, ortevrerie<lb/>nanger, garnitere</ab>
+        <ab><lb/>DÉPART 15 AVRIL PROCHAIN</ab>
+        <p><lb/>ore de snite, consistant et<lb/><lb/>ustres, comptoirs, vitrises<lb/>beaux grands membles avee vitfises, garnis de gisces, pour<lb/>pour tout commeree et pour bibiiotèque, colled<lb/>osa: cabinete do phyeique ou mot́e.</p>
+        <p rend="heading"><lb/>COURS DU 4 AVRIL 1896</p>
+      </div>
+      <div type="article">
+        <head><lb/>Canaux Agricoles</head>
+        <ab><milestone unit="column" n="3"/><lb/>Grand Magasin à Louer<lb/>aoce selle à manger, cuisine, chamb̀re a comche et 2 moaear<lb/>PLACE DARCy, 23<lb/>S'ADRESSER A LA CONOIMNGE</ab>
+        <ab><lb/>QUINCALLERIE, VIRRONUERIE, ARTICLES DE WEMAGE<lb/>CHAUFFAGE &amp; ÉCLAIRAGE<lb/>Anclenne Maisen J. POL.VET<lb/>L. CHAUCHE, SucC<lb/>Dijon — 31, rue Musette, 31— Dijon<lb/>DÉPOT DES RÉPARATIONS DE BALANCES ET BASCULES<lb/>e s </ab>
+        <ab><lb/><lb/>GUERISON<lb/><lb/><lb/>FEAU</ab>
+      </div>
+      <div type="article">
+        <head><lb/>Ateliers Hydrauliques</head>
+        <head><lb/>DE CONSTRUCTIONS MÉCANIQUES</head>
+        <head><lb/>FONDES EN 188</head>
+        <head><lb/>V. DURAND Père &amp; Fils</head>
+        <head><lb/>coMSTRSCTEUR A BaETiONY-LE<lb/>Commure de Lougchamp</head>
+        <p><lb/>122</p>
+        <ab><lb/>Grand Choix de PERCHCS<lb/> A. Eisise. po d ass. Di-<lb/><lb/>meme adresse:</ab>
+        <p rend="styled"><lb/>LOGENENTS A LOUER</p>
+      </div>
+      <div type="article">
+        <ab><lb/>COMPTOIR RÉGIONAL<lb/>. ruo do la Gare, Oijon<lb/>DOMAINES, IMMEUSLES, FONOS DE COMMERCE<lb/>a VENDRE<lb/> CEDER<lb/>rio à bait. dopuis s francs<lb/>c <lb/>ante esspelerie qot<lb/>lsea existant de<lb/>ne de montarde. morte</ab>
+        <ab type="head"><lb/>ON DEMANDE</ab>
+        <ab><lb/>MACHINES A COUDRE<lb/>faie drecte des Marqae irascea<lb/><lb/>Rabais Considérable<lb/> etes ́s<lb/>Envoi des Prix et Catalsques sur demande<lb/>Sadresser : L. PETITJEAN, 18, r. du Chagan-Raga, Dijon</ab>
+        <figure/>
+        <p rend="heading"><lb/>FRÉDÉRIC MUGNIER, DIJON</p>
+        <ab><lb/>Pabriimprtt u</ab>
+        <ab><lb/>CASSIS MUGNIER<lb/>APÉRITIF MUGNIER<lb/>AbSiNTHE MUgnier<lb/>BIGARREAU MUGNIER<lb/> Dinlômes d'honneur, 5 Médailles Or, etc.<lb/>MEDAILLE D'OB. EXPOSITION UNIV. PARIS. 188</ab>
+        <p><lb/>lle. Lyon 1895<lb/>sembre du jery, hors con</p>
+      </div>
+      <div type="article">
+        <ab><lb/>ees ea </ab>
+        <ab type="head"><lb/>BULLETIN PINANCIER</ab>
+        <p><lb/>espegesto est egalement pics<fw type="digitisation-artefact"><lb/>bource gallica.bnf.fr/ Bibliothèque nationale de France</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

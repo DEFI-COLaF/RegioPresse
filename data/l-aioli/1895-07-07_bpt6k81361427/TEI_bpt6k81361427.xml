@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81361427</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1895-07-07">1895</date>
+          <idno type="ARK">bpt6k81361427</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81361427</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>CINQUENCO ANNADO, No 163.</fw>
+        <dateline><lb/>DIMENCHE 7 DE JULIET 1895.</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>Un an............. 10 fr.<lb/>Sieis mes......... 5 fr. 50<lb/><lb/>Tres mes......... 3 fr.<lb/>Estrangie.......... 12 fr.<lb/>Lou numero....... 10 centime.</ab>
+        <figure type="table"/>
+        <figure type="table"/>
+        <ab><milestone unit="column" n="3"/><lb/>(Prouveroi di meinounie)</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7,17,27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <ab><lb/>SUREU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BANONCELLI,</ab>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN</p>
+        <figure type="decoration"/>
+        <ab><lb/>FOLCO DE BANONCELLI</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>La vole emai Paurai!<lb/>La vole emai l'aurai!</ab>
+        <ab type="head"><lb/>L'ENTRE-VISTO</ab>
+        <p rend="styled"><lb/>Oh! qu'èro bello r'Italiano,<lb/>entre nautre, li gent de l'anturo avèn miés garda que li<lb/>gent de la plano la pureta de la mesoulo coume de la<lb/>rusco de nosto raço e avèn miés counserva la lengo<lb/>maire e l'amour de noste terradou. Tambèn, moun prou-<lb/>mié cant de felibre fuguè pèr enaura aquélis ome fort e<lb/>valént. li Carbounié di bouscage, que soun coume li<lb/>vostre, li gardian li mai fideu de tout ço que fai l'ourguei<lb/>e l'óuriginaleta de la raço mountagniero.<lb/></p>
+        <lg>
+          <l><lb/>- N'as remembranço, ami Rimbaut?</l>
+          <l><lb/>Bello de bèuta soubeirano</l>
+          <l><lb/>Que raubavo som e repaus.</l>
+          <l><lb/>A l'entour de sa blanco caro,</l>
+          <l><lb/>Si frisoun negre vese encaro</l>
+          <l><lb/>Trelusi coume de raioun</l>
+          <l><lb/>Que lou calabrun enmouresco</l>
+          <l><lb/>Pèr garda sèmpre puro e fresco</l>
+          <l><lb/>La rego d'un bèu medaioun!</l>
+        </lg>
+        <lg>
+          <l><lb/>Oh ! qu'èro noblo la Touscano,</l>
+          <l><lb/>— N'as remembranço, ami Rimbaut 9</l>
+          <l><lb/>De si grand l'escut, sènso engano,</l>
+          <l><lb/>Dóu Palais-Vièi briho au frountau...</l>
+          <l><lb/>Te souvènes de la Joucoundo</l>
+          <l><lb/>Ounte Leounard, quatre an, moundo</l>
+          <l><lb/>La graci de Monna Lisa ?...</l>
+          <l><lb/>O Vinci, pèr pinta la flamo</l>
+          <l><lb/>D'aquelo que me fouitè l'amo,</l>
+          <l><lb/>Un siècle l'auriéu ben fisa !</l>
+        </lg>
+        <lg>
+          <l><lb/>Qu'èro douço la Flourentino,</l>
+          <l><lb/>— N'as remembranço, ami Rimbaut?—</l>
+          <l><lb/>Quouro dins sa bouco latino</l>
+          <l><lb/>Cantavo lou verbe pourpau!</l>
+          <l><lb/>Li pouèto, de si paraulo</l>
+          <l><lb/>Coumuniavon, e'n santo taulo</l>
+          <l><lb/>Aurien toujour vougu l'ausi.</l>
+          <l><lb/>Coume Dante aguè tant d'esglàri</l>
+          <l><lb/>Quand la divino Pourtinàri</l>
+          <l><lb/>Ié parlavo un tant galant si !</l>
+        </lg>
+        <lg>
+          <l><lb/>Pa cinq an d'aquelo Entre-visto,</l>
+          <l><lb/>— N'as remembranço, ami Rimbaut?—</l>
+          <l><lb/>La bello, e noblo, e tant requisto</l>
+          <l><lb/>Co que devengue, quau lou saup?</l>
+          <l><lb/>S'es vrai qu'encaro alin flourigue,</l>
+          <l><lb/>Lou mistèri noun se trahigue</l>
+          <l><lb/>D'ésti gravaduro ounte caup:</l>
+          <l><lb/>Car se ririé dóu Benvenuto</l>
+          <l><lb/>Que s'estent crema sus sa routo</l>
+          <l><lb/>Vou batre l'or vuei qu'es plus caud!</l>
+        </lg>
+        <figure type="decoration"/>
+        <p><lb/>E pode vous parla dis ome, di bouscatié de vòsti<lb/>mountagno, coume de vòstis oubrié di vilo, car ll cou¬<lb/>néisse lis un e lis autre de longo toco e, se voulès, á-n-<lb/>aquéu prepaus vous countarai un souveni de moun en¬<lb/>fanço que s'escafara jamai de ma memòri.</p>
+        <p><lb/>Aviéu alor sèt o vuech an. Tout moun plesi érq de<lb/>manca l'escolo per ana courre dins li mouto o escala<lb/>sus lis aubre pèr aganta de prègo-diéu, de cigalo o da-<lb/>vera de nis. Abitave moun vilage au pèd dóu Mount<lb/>Ventour, dins lou Coumtat-Veneissin, qu'aco éro, l'a cent<lb/>an, terro papalo. Dins aqueste vilage papalin desempièi<lb/>de siècle e de siècle, passavon dous o tres cop pèr an,<lb/><lb/>à l'enviroun di voto, de troupo de Calabrés emé si capeu<lb/>pounchu e si vièsti de velout, que venien estama lis<lb/>eisino, abrasa li peiròu e refoundre li cuié, lis ouliero e<lb/>li poutarras d'estam. Vès-aqui qu'un jour qu'erian aqui<lb/>touto uno marmalo d'enfant, badant á l'entour dis italian<lb/>que refoundien li cuié dóu Cabaret-Nou à la calo d'uno<lb/>muraio, arribo dóu camin de la mountagno uno autro<lb/>sóuco d'estabrasaire. Eron d'ome plus fort, plus masclas.<lb/>que l Calabrés, pourtavon si gros boufet double sus sis<lb/>espalo, emé de peiròu nou e tóuti lis óutis de foundéire e<lb/>d'estamaire. Tout-d'un-tèms se bouton à faire lou tour<lb/>dóu vilage en cridant à sa façoun dins un lengage rabas¬<lb/>tous, mai que coumprenian bén : « Hòu ! blanchi li four¬<lb/>cheto! refoundre ll cuié! Abrasa li peiròu! coume fau !<lb/>coume fau!» E avien de voues restountissento que fasien<lb/>tremoula li vitro dis oustau.</p>
+        <p><lb/>Li Calabrés, entre li véire e lis ausi, marmoutièron<lb/>quauqui paraulo entre si dènt dins soun lengage que<lb/>coumprenian pas, mai vesian que lou sarpabiéune li<lb/>rousigavo; mastegavon de blasfème contro lou « brigante<lb/>de Dio ! la cibèca de Madona ! a Pamens countunièron<lb/>soun oubrage sènso trop moustra soun despié. Quand lis<lb/>autre aguèron fa scun tour dou vilage, ne coume de<lb/>foundéire, es lou cas de dire, aguènt pas rambaia un<lb/><lb/>soulet culé à refoundre, pas uno lichafroio à estama, ven-<lb/>guèron s'asseta davans lou Cabaret-Nòu pèr éspera l'ouro<lb/>de la soupado e de la conchado, s'aproumetént de quita<lb/>davans jour aquéu marrit pais que lé fasié pas gagna<lb/>d'aigo pèr béure. D'enterin espinchavon de-galis li foun-<lb/>deire napoulitan que fasien sa besougno en richounejant.<lb/>Tout-à-n un cop un dis Auvergnas que pareissié lou me¬<lb/>naire de la troupo, — car èro bèn d'Auvergnas — se viro<lb/>vers r'oustesso que rasclavo de pastenargo sus lou lindau,</p>
+        <p rend="labelled"><lb/>Quant vous n'en rendon, de cuié, à la dougeno?</p>
+        <p rend="labelled"><lb/>Nous n'en rèndon vue flame nou e ll pagan tres sòu.</p>
+        <p rend="labelled"><lb/>Eh ! bèn, náutri que sian pas de voulur, vous ren-<lb/>drian des culé nou e vous demandarian rén, emai farian</p>
+        <p rend="labelled"><lb/>Atof anen! fague roustesso, vesèn ben foundre<lb/>noste estam e sabén que de la dougeno se n'en tiro que<lb/>rue, emai tout-bèu-just..</p>
+        <p><lb/>Li Calabrés que foundien ella de-long de la muraio<lb/>avien coumprés que lis Auvergnas parlavon de soun tra¬<lb/>vai à l'oustesso, e dios soun bargouin, emé si voues<lb/>aigro, lé repliqueron:</p>
+        <p><lb/>Auvergnati ! Auvergnáti! Limagnin ! Lonagnin! Ca<lb/>naglia ! Couquini! Ladrit ladri</p>
+        <p><lb/>L'Auvérgnas en s'ausênt trata de laire, s'ero auboura<lb/>tra, léu, cridavo, ounte soun i laire, Diéu me dane!» E<lb/>arrapant la cuiero ounte lis italian foundien li vièi culé,<lb/>la vujè sus lou camin, piei l'aubourant davans lou nas de<lb/>l'oustesso, ié faguè: « Lou vesès aquéu pichot trau, pas<lb/>plus gros qu'uno tèsto d'esplingo, au founs de la cuiero,<lb/><lb/>eh ! bèn, es d'aqui que passo l'estam que vous raubon !<lb/>E, pér que noun agués doutanço, vès-eici ounte s'es<lb/>coulo!» Alor arrapè lou fougueiroun que tenié sus tres,<lb/>pèd, n'en revessè li carboun rouge, e au founs, souto li<lb/>cendre l'aguè 'n poulit flo d'estam que tremoulavo,<lb/>lusènt coume un mirau,</p>
+        <p><lb/>Li Calabrés, estoumaca, counfus, en remiéutejant de<lb/>paranlo que degun coumprengué, rambaièron sis agou¬<lb/>biho e, sénso demanda soun rèsto, s'esbignèron. Quand-<lb/>fuguèron un pau liuen,se reviréron en moustrant si cou¬<lb/>tèu. Mai jamai plus tournéron dins noste vilage.</p>
+        <p><lb/>E desempièi es lis Auvergnas qu'an estama nòsti peiròu<lb/>e foundu nosti ;cuié fe tóuti nostis eisino d'estam. Es tant<lb/>ben verai que nosto ouliero s'apello plus louliero mai<lb/>l'auvergnasso, e a passsa 'n prouvèrbi que se dis:</p>
+        <p><lb/>E voulès pas qu'em' aquéli souvenènço d'enfant, e 'n<lb/>aprenènt que vosto escolo felibrenco fai flòri dóu prou-<lb/>mié cop, emé d'ome de fe, de courage e de nauto sa-<lb/>piènci que lé preston soun ajudo e soun aflat, e voulès<lb/>pas, dise que venguen vous vèire e béure emé vautre à<lb/>la Coupo Santo lou vin dóu recounfort !</p>
+        <ab type="head"><lb/>La vole la Mariano,</ab>
+        <p><lb/>canto lou valènt Auvergnas que quicho La Cabreto<lb/>emé soun couide, e danso la Bourrèio emé si soulié ta-<lb/>cha que tiron de belugo di calado.</p>
+        <ab type="head"><lb/>La cole la Mariano,</ab>
+        <p><lb/>Vosto Mariano, vosto bèn-amado, que voulès e qu'an¬<lb/>rés, car sias d'ome de voulounta, es vosto lengo auver-<lb/>gnasso, franco coume l'or, fresco coume un riéu de<lb/>mountagno, sano coume uno pastresso dóu Mount-Dor.</p>
+        <p><lb/>E sian vengu, nautri li Prouvençau, li Coumtadin, li<lb/>Lengadoucian, li Limousin, sian vengu, lis ami, li fraire.<lb/>touca l'aubado emé nosti tambourin à l'ounour de vosto<lb/>bello Mariano, de vosto lengo naciounalo que sara tous-<lb/>tèms l'ounour de vosto terro e de vosto raço, sian vengu<lb/>ié planta lou Mai e revendren per lis acourdaio e per lou<lb/>maridage. Sabèn que vous la leissarés pas rauba, la gar-<lb/>darés coume un tresor, car eio adurra dins voste oustau,<lb/>dins vosto famiho, la gaieta, lou soulas e subre-tout l'ou-<lb/>nesteta. Elo escarrabihara vòsti festo, vòsti dimenche e<lb/>vòsti jour oubrant. Em' elo l'oubrié que martello lou pei-<lb/>ròu, lou teisserand que danso en fasent courre la naveto,<lb/>lou carbounié que trèvo la fourest vasto, lou palsan<lb/>qu'estrasso la terro, atrouvaran l'obro mens peniblo, car<lb/>elo sèmpre jouiouso, amistadouso, ié trempara la bouiaco<lb/>óudourouso de caulet fòri, l'anara querre dins la dour-<lb/>gueto l'aigo de la font claro di piue dóu Cantal, ié pour-<lb/>gira dins lou pechié d'estam lusent lou vin lampant de<lb/>noste Pais Bas, e tout acò en lé cantant li douço.<lb/>li casto, li reviscoularèlli cansoun dóu bèu pais d'Au-<lb/>vergno. E quand vendran li castagnado, elo vous<lb/>dansara la Bourrèio naciounalo. E quand revendrés de<lb/>vòsti tour de Franço, de Paris, de Prouvènço, de Len¬<lb/>gadò, edi pais estrange ounte sarés ana pourta, lis un li<lb/>fru de vosto sapienci, lis autre li peiròu ben martela e la<lb/>bello telo rousseto bèn teissudo, la Mariano vous aculira<lb/>sus tou lindau en vous risènt de tout</p>
+        <p rend="heading"><lb/>cHaRRADisso dóu CaPOuLIé</p>
+        <p rend="heading"><lb/>A LA PELIERESADO CANTALESO (25 de Jun).</p>
+        <figure type="decoration"/>
+        <p rend="dateline"><lb/>Messiés e gai counf́raire,</p>
+        <p><lb/>Leissas-me vous dire tout-d'un-tèms que, dins voste<lb/>pais auturous, me té chale, me lé gonspihe coume dins<lb/>siéu nascu souto ll méle dou ventour. E, pouden jou dires<fw type="digitisation-artefact"><lb/>oue a./Bèues de </fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

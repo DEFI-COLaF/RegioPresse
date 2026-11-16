@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Progrès de la Côte-d'Or</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k1867214n</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Progrès de la Côte-d'Or : journal politique... ["puis" journal républicain quotidien]</title>
+          <publisher>[s.n.] (Dijon)</publisher>
+          <date when="1892-01-13">1892</date>
+          <idno type="ARK">bpt6k1867214n</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k1867214n</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <fw type="runningTitle"><lb/>Le Progrès de la Côte-d'Or</fw>
+        <ab><milestone unit="column" n="2"/><lb/>FRÉDÉRIC MUGNIER, DIJoN<lb/><lb/><lb/>COURS DU 11 JANVIER<lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/>PAiUR A<lb/><lb/><lb/><lb/><lb/></ab>
+      </div>
+      <div type="article">
+        <head><lb/>ANNONCES<lb/>ET AVIS DIVERS</head>
+        <ab><lb/><lb/>VENTE<lb/><lb/>en<lb/></ab>
+        <ab type="head"><lb/><lb/>IMMEUBLES<lb/>  SPE </ab>
+        <ab type="head"><lb/>Constitution de société</ab>
+        <p><lb/>E MONDENU.</p>
+        <ab type="head"><lb/>Purge d'hypothèques légales</ab>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>Désigaation</ab>
+        <figure type="table"/>
+        <ab><milestone unit="column" n="1"/><lb/>a vendre<lb/>A CÉDER<lb/>Étude Notaire<lb/><lb/></ab>
+        <p rend="heading"><lb/>Train de Culture</p>
+        <p rend="heading"><lb/>BOURSE DE PARIS</p>
+        <p rend="heading"><lb/>Fonds de maréchal<lb/>A VENDRE</p>
+        <figure type="decoration"/>
+        <ab><lb/>SIROPPHÉNIOUE<lb/>aVIAL nAParia<lb/>Combat les microbe<lb/>rens-<lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/><lb/></ab>
+        <ab><lb/>VIEUX PAPIER<lb/>a vendre</ab>
+      </div>
+      <div type="article">
+        <head><lb/>ÉPICERIE &amp; AUBERGE</head>
+        <ab><lb/>A CÉDER<lb/>Ponds de Boulangerie</ab>
+        <p rend="heading"><lb/>Hernies</p>
+        <p rend="heading"><lb/>AANOO</p>
+        <p><lb/>2 MEDAILAES<lb/>RicOFA</p>
+      </div>
+      <div type="article">
+        <ab><lb/>LITERIE<lb/>A vendre ant enchères</ab>
+        <ab type="head"><lb/>Désignation sommaire:</ab>
+        <p rend="labelled"><lb/>E<lb/></p>
+        <p rend="labelled"><lb/>WNE MiSOH PORIMTE</p>
+        <p rend="heading"><lb/>rhum fox-Land<lb/>Octave PARIS</p>
+        <p rend="labelled"><lb/>S</p>
+        <p rend="labelled"><lb/>ON DEVINDE</p>
+      </div>
+      <div type="article">
+        <p rend="structured"><lb/><lb/>nte i- J.</p>
+        <figure type="decoration"/>
+        <figure/>
+      </div>
+      <div type="article">
+        <head><lb/>Aux Amateurs de Vins d’Algérie</head>
+        <head><lb/>Garantis purs, naturels et de 1" choix<lb/>Tribunal de commerce<lb/>DE DIJON<lb/>Lequitatien jutíciaire</head>
+        <p rend="styled"><milestone unit="column" n="3"/><lb/>plus<lb/><lb/></p>
+        <ab><lb/>CASSIS MUGNIER<lb/>APÉRITIF MUGNIER<lb/>BIGARREAU MUGNIER<lb/>BEAUX FOUDRES à vendre, de 20 à 80 hectos</ab>
+        <p rend="styled"><lb/>8 Diplòmes d'honneur, 53 Médailles Or, etc.<lb/>MÉDAILLE D'OR. EXPOSITION UNIV. PARIS. 1889</p>
+        <ab><lb/>Perles.Pepsinse<lb/>HAPOTEAUT<lb/><lb/></ab>
+      </div>
+      <div type="article">
+        <p><lb/>QUINQUINA VERNEAU<lb/>Pour preporer eimeme et instantanement le vin de Qai.<lb/>LE<lb/></p>
+        <p><lb/> M. CLEIS.</p>
+      </div>
+      <div type="article">
+        <head><lb/><lb/>ferme dans sn</head>
+        <p><lb/>es efeace contrel<lb/>et<lb/>avrissement,<lb/><lb/><lb/>ches, lirrégularité de l<lb/><lb/>- </p>
+        <p rend="heading"><lb/>Café de La concoRde</p>
+        <p rend="labelled"><lb/>REMETE<lb/></p>
+        <ab><lb/>ECOLE HIPPIQUE<lb/>11, RUE PAUL CABET, &amp; BOULEVARO THIEAS, diJON<lb/>TA 60,000<lb/>DRESSAGE &amp; PENSION nE CHEAILN<lb/>LEÇONS D'EQUITATION<lb/>LOCATION DE CHEVAUX<lb/>VaSTES REMISES POUR VOITURES<lb/>Prix trea nsuterés. - S'aureaser au</ab>
+        <ab><lb/>Demander 1a pus de<lb/><lb/>des liqueurs<lb/><lb/>AU SUS<lb/>de a Mandarne de Busa<lb/>JAMAR,MERCUREY</ab>
+        <ab><lb/>CRIÉE RAVRAT<lb/>18, rue Quentin<lb/>VEnte a La criée et a L'amiabLe<lb/>De toutes espèces de denrées allmentaires: mare<lb/><lb/>er. viande de bee<lb/>i et pore</ab>
+        <p><lb/>Le porc, par moitié eu quart, 1 fr. 23 le bilog.</p>
+      </div>
+      <div type="article">
+        <head><lb/>BULLETIN PINANCIER</head>
+        <ab><lb/>ource gallica.bn.fr/ Bibliothèque nationale de Frane</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

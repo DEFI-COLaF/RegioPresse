@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Petit troubadour</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k1337858v</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Petit troubadour : journal français-languedocien paraissant le dimanche</title>
+          <publisher>[s.n.] (Montpellier)</publisher>
+          <date when="1881-02-27">1881</date>
+          <idno type="ARK">bpt6k1337858v</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k1337858v</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <dateline><lb/>DIMANCHE 27 FÉVRIER 1881.</dateline>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="1"/><lb/>UN NUMÉRO<lb/>LES MANUSCRITS<lb/>Réclames 40 —<lb/>10 Centimes.<lb/>ne sont pas rendus.<lb/>Toutes les communications doivent être adres-Il sera rendu compte de toute œuvre littéraire<lb/>sées à M. J. LACROIX, rue Saint-Denis, 8,</ab>
+        <fw type="numbering">N 14.</fw>
+        <figure type="decoration"/>
+        <figure>
+          <p><milestone unit="column" n="2"/><lb/>AnnOnceS 20 C. la lig. DIRECTEUR-GÉRANT RÉDACTEUR EN CHEF<lb/>Charles GROS.</p>
+          <p><lb/>dont deux exemplaires nous auront éte<lb/>adressés.</p>
+        </figure>
+        <ab><milestone unit="column" n="3"/><lb/>ABONNEMENTS :<lb/>Un An, 5 fr.<lb/>Six Mois, 2 — 50</ab>
+        <ab><lb/>Joseph LACROIX.</ab>
+        <note>
+          <p rend="labelled"><lb/>Les articles des Abonnés sont recus avec plaisir<lb/>et insérés s'il y a lieu.</p>
+        </note>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>ANNIVERSAIRE<lb/>80</p>
+      </div>
+      <div type="article">
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>A VicTor HuGO</head>
+        <lg>
+          <l><lb/>Notre siècle en était à peine à son aurore,</l>
+          <l><lb/>Et tandis qu'anxieux on le voyait éclore</l>
+          <l><lb/>Dans les convulsions de son prédécesseur,</l>
+          <l><lb/>Non loin du froid climat de la libre Helvétie,</l>
+          <l><lb/>Son chantre harmonieux s'éveillait à la vie,</l>
+        </lg>
+        <lg>
+          <l><lb/>Nous avons vu les rois, aux superbes couronnes,</l>
+          <l><lb/>Descendre en chancelant les degrés de leur tròne</l>
+          <l><lb/>Qu’une simple strophe sapait.</l>
+          <l><lb/>Nous avons vu la honte, et le vice, et le crime,</l>
+          <l><lb/>Abandonner soudain leur timide victime,</l>
+          <l><lb/>Qu’un mot, un éclair, retrempait.</l>
+          <l><lb/>Nous avons vu l'esclave opprimé par le maître</l>
+          <l><lb/>Secouer, sans pâlir, sa chaîne, et reparaitre</l>
+          <l><lb/>Au soleil de la Liberté,</l>
+          <l><lb/>Ranimé qu'il était par une phrase ardente</l>
+          <l><lb/>Qui, réchauffant ses sens d’une chaleur puissante,</l>
+          <l><lb/>Lui révélait la vérité.</l>
+        </lg>
+        <lg>
+          <l><lb/>Il n'est pas une plainte, un seul cri de détresse ;</l>
+          <l><lb/>Il n’est pas de douleur ou de sombre tristesse,</l>
+          <l><lb/>Qui ne trouve écho dans son cœur.</l>
+          <l><lb/>Il n’est pas un méfait, pas une cause injuste,</l>
+          <l><lb/>Qui de son vers terrible, impitoyable et juste,</l>
+          <l><lb/>N'ait supporté la pesanteur.</l>
+        </lg>
+        <lg>
+          <l><lb/>Et rien n'a pu jamais l'arrêter dans sa marche,</l>
+        </lg>
+      </div>
+      <div type="article">
+        <ab><lb/>Marqué du signe du penseur.<lb/>Un poète naissait; pauvre petite étoile<lb/>Qui se levait sans bruit et dont encore un voile<lb/>Cachait l'éclat resplendissant.<lb/>Puis, astre radieux qui dans l'azur immense<lb/>S'élançant au zénith, illumina la France<lb/>De son sillon éblouissant.<lb/>De ce barde divin que l'univers admire,<lb/>Qui de nous ne connait les accords de sa lyre?<lb/>Qui de nous, au moins une fois,<lb/>Ne s’est extasié, l'émotion dans l'âme,<lb/>Aux sublimes accents, pleins de grâce ou de flamme,<lb/>Prononcés par sa grande voix?<lb/>Oui, cette grande voix, consolante et féconde,<lb/>A jeté ses échos sur tous les points du monde,<lb/>Et nous avons vu, stupéfaits,<lb/>Les fronts les plus hautains se courber jusqu'à terre<lb/>Pour honorer celui qui portait la lumière</ab>
+        <ab><lb/>Partout où l'on gémit, où grouille la misère,<lb/>Partout où la souffrance, avec sa coupe amère,<lb/>Verse un breuvage empoisonné,<lb/>Cet apôtre béni, de sa douce parole,<lb/>Va porter un espoir, et soulage et console<lb/>Le malheureux infortuné.</ab>
+        <pb facs="0002.xml"/>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="1"/><lb/>Rien n'a pu le décourager.<lb/>A toi, Victor Hugo, le sympathique hommage<lb/>D'un peuple tout heureux d'admirer ton ouvrage<lb/>Et te couronner immortel!<lb/>Accepte ces lauriers comme un gage suprême<lb/>De ton noble pays, qui t'honore, qui t'aime,</ab>
+        <lg>
+          <l><lb/>La mort, l'exil, les fers, la crainte, la menace,</l>
+          <l><lb/>N'ont fait jamais fléchir son indomptable audace;</l>
+        </lg>
+        <p><lb/>Sans penser au moindre danger.</p>
+        <lg>
+          <l><lb/>Il va, nouveau Bayard, sans peur et sans reproche,</l>
+          <l><lb/>Vers l'ennemi commun qui tremble à son approche,</l>
+        </lg>
+        <lg>
+          <l><lb/>Fort de sa force et de son droit.</l>
+          <l><lb/>Il hait tous les tyrans, voilà sa politique;</l>
+          <l><lb/>Il aime son pays, et notre République</l>
+          <l><lb/>Sait bien tout ce qu'elle lui doit.</l>
+          <l><lb/>Quel est donc ce héros, ce chantre d'harmonie,</l>
+          <l><lb/>Ce poète immortel, ce valeureux génie?</l>
+          <l><lb/>Quel est donc cet homme de bien</l>
+          <l><lb/>Dont le nom doit briller au temple de Mémoire,</l>
+          <l><lb/>Qui dote son pays d'une éternelle gloire;</l>
+          <l><lb/>Quel est ce noble citoyen?</l>
+          <l><lb/>Son nom, on le connaît: il s'appelle Justice,</l>
+          <l><lb/>Probité, Loyauté, Dévoûment, Sacrifice;</l>
+          <l><lb/>Partout le répète l'écho.</l>
+          <l><lb/>Il vibre dans les cœurs en strophes cadencées;</l>
+          <l><lb/>Son nom, il est gravé dans toutes les pensées;</l>
+          <l><lb/>Il s'appelle: Victor Hugo!</l>
+        </lg>
+        <p><lb/>Et qui te proclame éternel !!!</p>
+        <ab><lb/>J. LACROIX.</ab>
+        <p><lb/>La pièce de vers qu'on vient de lire nous avait été deman¬<lb/>dée par M. Vornière, adjoint au Maire et Trésorier du Comité<lb/>des fêtes du 80e anniversaire à Montpellier.</p>
+        <p><lb/>Elle devait être lue lors du couronnement du buste de<lb/>VicTOn HuGo, au Théâtre.</p>
+        <p><lb/>Au dernier moment les Journaux, en donnant le pro-<lb/>gramme, nous ont appris qu’un à propos en vers de M. Gariel<lb/>serait lu avant le couronnement. C’était pour nous un congé<lb/>en bonne et due forme, sans avis préalable.</p>
+        <p><lb/>Le public ne perdra rien au change, étant donné le talent<lb/>bien connu de M. Gariel ; mais nous avons voulu prouver<lb/>par ces quelques lignes que si nous n'avons point participé<lb/>au 80e anniversaire de notre maître en littérature, le désir<lb/>et la bonne volonté ne nous ont point fait défaut.</p>
+        <ab><lb/>J.L.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <p><lb/>C'est demain qu'expire le dernier délai accordé<lb/>aux Poètes qui veulent bien prendre part à notre<lb/>Concours.</p>
+        <p><lb/>Nous avons déjà reçu de nombreux envois. Que les<lb/>retardataires se incon</p>
+      </div>
+      <div type="article">
+        <head><lb/>Déclaration à une Vieille Coquette.</head>
+        <lg>
+          <l><lb/>Lire en à parte les vers de 4 pieds.</l>
+          <l><lb/>Je t'aime, vois-tu bien, et de toute mon âme,</l>
+          <l><lb/>Mon vieux trumeau!</l>
+          <l><lb/>O! cède à mes soupirs, belle! crois à ma flamme!</l>
+          <l><lb/>Et bois de l'eau.....</l>
+          <l><lb/>Ta beauté mord au cœeur, je tombe sous tes armes;</l>
+          <l><lb/>Où sont tes dents?</l>
+          <l><lb/>Je suis vaincu, brisé, dominé par tes charmes</l>
+          <l><lb/>De cinquante ans.....</l>
+          <l><lb/>Et contre ta rigueur se brisera ma vie,</l>
+          <l><lb/>Bizarre écueil!</l>
+          <l><lb/>Si tu ne réponds pas à mes vœeux, chère amie,</l>
+          <l><lb/>Je m'en bats l'œil!</l>
+        </lg>
+        <ab><lb/>J..</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Les Soirées Intimes.</head>
+        <p><lb/>Le Carnaval est en pleine effervescence:</p>
+        <p><lb/>La Folie agite ses joyeux grelots; tout le monde s'amuse<lb/>ou fait son possible, car ce n'est qu’une question de volonté,<lb/>de conviction; il s'agit de se persuader avant tout que l’on<lb/>s'amuse bien pour que le plaisir soit réel; c'est pour cela que<lb/>là où les uns bâillent, les autres sont gais comme des pierrots.</p>
+        <p><lb/>Les soirées privées donnent surtout avec un entrain remar-<lb/>quable. Depuis le Vicomte de Trois-Étoiles jusqu’au pipelet<lb/>Dubalais, chacun organise sa petite réunion intime où l'on<lb/>cultive la polka et le quadrille avec un ensemble remarquable.</p>
+        <p><lb/>Dernièrement j'assistais par ricochet à une de ces soirées<lb/>à laquelle avait voulu m’entrainer presque de force un de<lb/>mes amis, et je vous assure, cher lecteur, qu'il y avait des<lb/>notes à prendre.</p>
+        <p><lb/>La maîtresse de la maison, une veuve de 60 ans, mère d'une<lb/>fille de 30 ans qui voudrait bien se caser, avait pour la<lb/>circonstance complétement dépouillé de leurs meubles les<lb/>4 pièces dont se compose leur appartement et qui ont<lb/>communication entre elles. Dans un coin, une vieille épinette,<lb/>qui remplaçait le piano absent, nazillait ses airs sous le doigté<lb/>plus ou moins inexpérimenté des invités, qui se succédaient<lb/><lb/>au clavier tour à tour. Un jeune violoniste de 15 ans mèlait<lb/>au bruit de cette crécelle les sons vinaigrés de son instru-<lb/>ment, et au rhythme boiteux de cette pittoresque musique<lb/>des couples dejeunes gens et de jeunes filles déguisés passaient<lb/>en tournoyant, dans la poussière que soulevaient leurs pas.</p>
+        <p rend="labelled"><lb/>— Mais c'est charmant! s’écriait une grosse matrone en<lb/>dissimulant un sourire ironique; puis: On ne boit donc pas<lb/>ici? Si c'est pour nous faire mourir de soif qu'on nous a fait<lb/><lb/>venir !... Et les gâteaux, il n'en arrive pas un jusqu'à nous!</p>
+        <p rend="labelled"><lb/>— Ne me serre donc pas tant, André, murmure une boulotte<lb/>de 35 ans à son cavalier; mon mari nous regarde!</p>
+        <p rend="labelled"><lb/>— Allons donc! répond le cavalier, il est myope!</p>
+        <p rend="labelled"><lb/>— Mademoiselle, dit un grand sec à une grande sèche, ne<lb/>trouvez-vous pas qu'il fait chaud?</p>
+        <pb facs="0003.xml"/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>.</ab>
+        <ab type="head"><lb/>Poète et Musicien.</ab>
+        <p rend="styled"><lb/>(POCHADE EN UN ACTE)</p>
+        <p rend="labelled"><lb/>(Suite.)</p>
+        <ab type="head"><lb/>FLORIMOND.</ab>
+        <lg>
+          <l><lb/>Suffit ; allez, mon bon; dites à votre maitre</l>
+          <l><lb/>Tout le cas que je fais de ses façons de reitre,</l>
+          <l><lb/>Et s'il persiste alors, ce fâcheux mal appris,</l>
+          <l><lb/>Vous pouvez l'assurer de mon profond mépris.</l>
+        </lg>
+        <p rend="styled"><lb/>(Le Concierge sort en saluant tout médusé.)</p>
+        <p rend="labelled"><lb/>(A part.) En voila d’un original propriétaire!<lb/>C'est à vous dégoûter de rester locataire<lb/>Et faire désirer, Diogène nouveau,<lb/>De loger dans le ventre arrondi d’un tonneau!<lb/>Avec tout ça pourtant ne perdons pas de vue<lb/>Que l'heure de casser une croûte est venue.<lb/>(II chante.)</p>
+        <lg>
+          <l><lb/>Je suis jeune et plein d'espérance,</l>
+          <l><lb/>J'ai dans mon cœur,</l>
+          <l><lb/>Rempli d'ardeur</l>
+          <l><lb/>De fiers désirs d'amour, d'indépendance.</l>
+          <l><lb/>Que la valeur,</l>
+          <l><lb/>Que le bonheur,</l>
+          <l><lb/>Ah! viennent donc apaiser ma souffrance.</l>
+        </lg>
+        <ab type="head"><lb/>1.</ab>
+        <lg>
+          <l><lb/>Oui, je t'attends avec impatience</l>
+          <l><lb/>Jour de bonneur</l>
+          <l><lb/>Plein de douceur</l>
+          <l><lb/>Qui dois briser toute ma dépendance.</l>
+          <l><lb/>Plus de frayeur,</l>
+          <l><lb/>Par ma valeur</l>
+        </lg>
+        <p><lb/>Ah! je vais donc apaiser ma souffrance.</p>
+        <p><lb/>(Il sort pendant que Junior et le Concierge entrent dans l'au-<lb/>tre appartement.)</p>
+        <ab><lb/>(A suivre.)</ab>
+        <p rend="labelled"><lb/>— C'est tout ce qu'il sait dire, bougonne la demoiselle,<lb/>qui préférerait sans doute une déclaration.</p>
+        <p><lb/>Et l'épinette jacasse, et le violon grince, et les danseurs<lb/>tournoient, et les vieux bavardent jusqu’à 4 ou 5 heures du<lb/>matin, moment où brisé, éreinté, le cœur plein de fiel ou de<lb/>satisfaction, chacun va se coucher.</p>
+        <ab><lb/>CRUX.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Nouvelles Littéraires.</head>
+        <p><lb/>A partir de ce jour, M. Paul Devès, Député et Avocat à<lb/>la Cour d'appel, prend la direction de la Loi, Journal judi-<lb/>ciaire quotidien.</p>
+        <p><lb/>M. Maurice Bouchor était, la semaine dernière, de passage<lb/>dans notre ville.</p>
+        <p><lb/>Nous saisissons avec empressement l’occasion de saluer le<lb/>jeune et déjà célèbre auteur du Faust moderne, des Poésies<lb/>de l'Amour et de la Mer et des Contes parisiens.</p>
+        <p><lb/>Nous donnerons prochainement une étude sur notre sym-<lb/>pathique poète.</p>
+      </div>
+      <div type="article">
+        <head><lb/>RIONS UN PEU</head>
+        <p><lb/>Je connais un vieux monsieur qui, pour s'assurer que sa<lb/>domestique ne lui vole pas du sucre, ne se couche jamais<lb/>sans avoir pris la précaution d'enfermer une mouche dans<lb/>son sucrier.</p>
+        <p><lb/>N'est-ce pas le comble de la méfiance?</p>
+        <p><lb/>Au Lycée, au cours de physique, un jour d'hiver. — Un<lb/>élève: Eh! monsieur le professeur, parlez-nous moins de<lb/>calorique! quand donc passerons-nous au calorifère ?</p>
+        <p><lb/>Un épicier qui ne faisait pas ses frais disait l'autre jour<lb/>dans un accès d'humeur noire:</p>
+        <p rend="labelled"><lb/>— C'est pas la théorie ni les principes qui manquent,<lb/>c'est la pratique!</p>
+        <p><lb/>Calino, à l'égal du maître Victor Hugo, se permet d'inventer<lb/>des mots. Dernièrement il disait à un de ses anciens amis : « Je<lb/>veux te tutoyer, il y a assez longtemps que nous nous connais-<lb/>sons pour ne plus nous vouvoyer.»</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>THÉATRES ET CONCERTS</head>
+        <head><lb/>MONTPELLIER.</head>
+        <p><lb/>Grace à la grève persistante des ouvriers typographes,<lb/>nous avons étó sur le point de ne pas paraitre aujourd'hui.<lb/>Cependant, ne voulant pas rester muet le jour du 80e anniver-<lb/>saire de l’illustre VicrOR HuGo, le sympathique Président<lb/>d'honneur de nos concours, et à la veille de notre petit Tour¬<lb/>noi littéraire, nous avons, à force de volonté, pu réussir à<lb/>composer bien ou mal un numéro. Nos lecteurs voudront<lb/>oien ne pas nous savoir mauvais gré si notre numéro<lb/><lb/>d'aujourd'hui ne contient point la variété et le développement<lb/>habituels.</p>
+        <p><lb/>GRAND-THÉATRE. — Nous nous bornerons pour aujour-<lb/>d’hui à constater le succès obtenu par les représentations de<lb/>l'Etoile du Nord et de l'Africaine. Ces deux ouvrages,<lb/>attendus avec impatience par les habitués du Grand-Théâtre,<lb/>ont été aussi bien interprétés qu’on pouvait l'espérer sur<lb/><lb/>une scène de province.</p>
+        <p><lb/>Nos compliments pour l'Etoile du Nord à Mmes Arnaud<lb/>et Caillot, qu’aucune difficulté n’arréte ; à M. Conte, qui<lb/>personnifie très-bien le Peters violent emporté, et doux à<lb/>la fois qui doit régner sur l’empire Russe et sur le cœeur<lb/>de Catherine.</p>
+        <p><lb/>N'oublions pas M. Anthelme, qui s’est aussi très-bien tiré<lb/>de son rôle.</p>
+        <p><lb/>Dans l'Africaine, nous avons retrouvé Mlle de Géradon<lb/>dans Sélika. A la bonne heure ! C’est dans les emplois de ce<lb/>genre que nous estimons son talent, et nous n'’avons garde<lb/><lb/>de lui ménager nos éloges, qu’olle mérite si bien.</p>
+        <p><lb/>Mme Arnaud est une Inès irréprochable.</p>
+        <p><lb/>M. Armand, baryton, s’est acquitté du rôle de Nélusko avec<lb/>beaucoup d’habileté et de science. C'est bien là le sauvage<lb/>au caractère fier et indomptable, avec sa fidélité, son dévoue-<lb/>ment et sa passion grandiose. Ajoutons que notre baryton<lb/>a parfaitement chanté sa partition, abstraction faite de<lb/>quelques petits défauts que nous lui avons déjà reprochés<lb/>hei.</p>
+        <p><lb/>THEATRE ROMAN. — LOu Testament d'un sarra-piastras<lb/>de M. le Docteur Roux, de Lunel, nous a désopilé la rate</p>
+      </div>
+    </body>
+  </text>
+</TEI>

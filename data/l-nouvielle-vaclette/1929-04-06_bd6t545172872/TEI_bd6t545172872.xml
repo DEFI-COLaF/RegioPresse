@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Nouvielle Vaclette</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t545172872</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Nouvielle Vaclette : journal patoisant humoristique, non politique / avec la collaboration du Caveau lillois</title>
+          <publisher>[s. n.] (Lille)</publisher>
+          <date when="1929-04-06">1929</date>
+          <idno type="ARK">bd6t545172872</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t545172872</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>0.25 LE NUMERO</fw>
+        <fw type="runningTitle"><lb/>6' ANNÉE. — No 214</fw>
+        <fw type="runningTitle"><lb/>L'abonnement se pare d'Avance</fw>
+        <fw type="runningTitle"><lb/>Samedi 6 Avril 1929.</fw>
+        <figure/>
+        <ab><milestone unit="column" n="1"/><lb/>JOurNAL PaTOISANt -HUMOrIStiQUE<lb/>NON POLITIQUE<lb/><lb/>ANEC LA COLLABORATION Du<lb/>SIÈGE 49 RUE ST SAUVEUR<lb/>GéraNt: HERRENG GA.<lb/>RdUC. LIILE 28109. - C.Ch. P 16162.</ab>
+        <note>
+          <p><lb/>ABONNEME<lb/>France un an. 12.50</p>
+        </note>
+        <p rend="styled"><milestone unit="column" n="2"/><lb/>Transféré: 11, Rue du Marché aux-Bêtes, Lille.</p>
+      </div>
+      <div type="article">
+        <head><lb/>DIMANCHE 21 AVRIL</head>
+        <p><lb/>Salle des Fêtes de Fives, rue de Lannoy,<lb/>Grand Concert Artistique et Patoisant,<lb/>suivi de BAL à grand Orchestre, organisé par<lb/>la Section de Lille et Environs de la Fédération<lb/><lb/>Nationale des Blessés du Poumon et Chirurgi-<lb/>caux, sous le patronage du Comité du Commerce<lb/>et des Fêtes de Fives, avec le concours du<lb/>Caveau Lillois, du Réveil Musical, d’artistes<lb/>distingués.</p>
+        <p><lb/>Cartes en vente au Siège, Café Vercoutère,<lb/>27, rue des Buisses.</p>
+        <p><lb/>Deux loustics, flairant eun' bonne aubaine,<lb/>s’offrott'nt à guider Cabujette et l'imm’nott'n’<lb/>dins un tapis des invirons uch' qu’i' porrot s'<lb/>nettyer et finir de mainger. L’un pernot l' para-<lb/>puie, l'aute l' moucho avé' les restes du r'pas et<lb/>Nicolas les suivot in t'nant s' marronne à deux<lb/>mains. Arrivés à destination, l'un des deux,<lb/>faijot un clin d’œul au cabar’tier et d'mandot<lb/>eun' brouche, du savon pou' l' nettyache et du<lb/>fil et eun' aivuille pou' r'coute l' bertielle et on<lb/>s'apperchevot alors que l' fond de l' marronne<lb/>étot craquée.</p>
+        <p rend="labelled"><lb/>«-Cha n' fait rien, dit l' cabar'tier, défait's<lb/>vou' marronne, m' femme elle arring'ra cha<lb/>viv'mint.</p>
+        <p rend="labelled"><lb/>» Ouais, mais, je n' peux pont rester in pans<lb/>vollants comme ch'là dins l' cabaret!</p>
+        <p rend="labelled"><lb/>» N' vous in fait's point', l'ami, m' femme ell'<lb/>va vous prêter un d’ ses cotrons. Aussitôt dit,<lb/>aussitôt fait ; Nicolas inliève s' marronne et passe<lb/>un cotron un p'tit peu court, chin qui li rindot<lb/>un air putot cocasse».</p>
+        <p><lb/>Pindant qu' l'un des deux lascars li brouche s'<lb/>redingue, l’aute l' conduit à l' cour sous pré-<lb/>tesque de l' nettyer. Ah ! mais, mais, l' quien du<lb/>cabar'tier qui est jeune et va in ch' momint au<lb/>dressache, veyant ch' l’homme dins ch' drol'<lb/>d'accoutremint, l' prind pour l'homme apache,<lb/><lb/>saut' sur li ; l'attrape à sin cotron et tire d' tout's<lb/><lb/>ses forehes ; les cordiaux cassent et v'là incore<lb/>eun' fos min Nicolas in pans vollants. L' quien<lb/>lâche l' cotron, saute à nouviau su' Nicolas et,<lb/>cheull' fos, l'attrape au pan de s' quemiche qui<lb/>s'arrache tout intier. Heureus'mint qu' l' cabar'-<lb/>tier s’am’not pour arrêter sin quien, sans cha,<lb/>on s' demande, in trannant chin qu'il arot bien<lb/>pu incore li attraper.</p>
+        <p><lb/>Infin, Cabugette réussit à s' débarbouiller,<lb/>mais l' loustic qui l'assistot et qui avot s'n' idée,<lb/>sous prétesque de l' ressuyer li imbarboulle sin<lb/>visache avec de l' suie. Du cop ; ch' pauf' Nicolas<lb/>étot cangé in nègre.</p>
+        <p><lb/>Sans s' douter de rien, i' r'met s' marronne<lb/>et ses bertiell's raccomodées indosse s' redingue;<lb/>l' cabar'tier li ajuste bien s' casquette et profite<lb/>pour li planter su' le bouton du d’ssus, un p'tit<lb/>drapeau tricolore avé l' réclame des talons in<lb/>caoutchouc.</p>
+        <p><lb/>Autant les premières émotions de s'n arrivée<lb/>li avottent donné appétit, autant les dernières li<lb/>avott'nt copé et Nicolas Cabugette, après avoir<lb/>payé deux, tros tournées partot franc-bon pour<lb/>continuer s' route.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>L' VOYACHE A LILLE</head>
+        <head><lb/>de Nicolas Cabugette</head>
+        <p><lb/>Cabugette, surpris par l'attaque queiot su' l'<lb/>dos, les gamp's in l'air in r'chevant dins l' visa-<lb/>che, un placard de burre, tandis que l' pain et l'<lb/>lard roulott'nt dins l’hierbe. Hélas ! Un malheur<lb/>n’arrif' jamais tout seu ; in faijant un effort pou'<lb/>se r'lever, s' bertielle ell' casse. Ausstiôt r'levé,<lb/>s' marronn' déchind su' ses talons. Les gosses, in<lb/>veyant cha, attrapent l' parapuie, mettent l'mou¬<lb/>cho rouche au bout et font l'tour du gardin in<lb/>cantant : Elle a perdu son pantalon, Nicolas pus<lb/>in colèr' qu' honteux, r'monte s' maronne et s<lb/>précipite pour rattraper sin bien et corriger les<lb/>gosses, mais sin pied prind dins l' bordure de l<lb/>pelousse et lè v'là qui s'étale tout sin long dins l'<lb/>gravier</p>
+        <p><lb/>Aussitôt, tous les gosses, s' précipitent in cri-<lb/>ant: Au mont ! Au mont! et, comm' nous l'avons<lb/>fait nous mêmes étant jeunes, i’ss' mettent tertous<lb/><lb/>l'un su' l'aute au d’ssus de ch' paufe Cabugette<lb/>qui s' dém'not su' l' gravier. Vous pinsez si les<lb/>gins s’amusott'ent et queu rassemblemint<lb/>i' n’y avot in moins d' chinq minutes, Heureus'-<lb/>mint, un agent s’am'not dispersot viv'mint les<lb/>gosses et aidot ch' pauf Nicolas à se r'lever.</p>
+        <p><lb/>Dins queul état qu'il étot, iour de la vie ! Sin<lb/>visach' plein d' burre avot frotté par tierre, s'<lb/>biell' rédingue étot pleine d' poussièrre et sin<lb/>patalon étot incore eun' fos bourlé su' ses cui¬<lb/>ches. In sine d' consolation l'agent l' menaçot d'<lb/>li faire un procés pou' scandal' su' l' voie publi-<lb/>que et attentat à la pudeur.</p>
+        <figure type="decoration"/>
+        <ab><lb/>Maison RAEITER<lb/>E. GEIRNAERT, Successeur<lb/>13, Rue de la Monnaie. - LILLE<lb/>vetements pour Dames, Mossieurs et Enfants<lb/>Deuil en 24 neures — : - velcurs d'Amiens</ab>
+        <ab><lb/>Pour teut se qui concerne la MIUSIQUE reyer<lb/>VERCRUYSSE a DHONDT</ab>
+        <ab><lb/>139-141-143, Rue de Paris - LILLE<lb/>Telephone 86-88<lb/>Chanions nouvelles et patoiaas</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>InfANTS TERRIBLes</head>
+        <p><lb/>L' petit' Lili - six ans- est in train de s' pour-<lb/>mener avè s' mère dins l' rue d' Béthune; tout<lb/>d'un cop, ayant ma' à ses dints, ell' se met à<lb/>braire à caud's larmes.</p>
+        <p><lb/>Allons, véyons Lili, qu'ell' li dit duchett'mint<lb/>s' maman, tout in essayant de l' consoler, sofs<lb/>sache d'vant l' monde...</p>
+        <p rend="labelled"><lb/>— Oh! toi, t'es bien heureuss' manman, qu'ell'<lb/>répliquot aussitôt Lili, quand t'as ma' aux dints<lb/>e les r' tires...</p>
+        <ab><lb/>Ba-Bénot.</ab>
+        <p><lb/>P's' trouvot bétôt su' l' Boul'vard de la Liberté,<lb/>Là, ch’étot l' bouquet; sin visache noir et sin<lb/>p'tit drapeau attir'ott'nt les r'gards des passants,<lb/>aussi, ses tribulations n'étoti'nt point là d'et'<lb/>finies.</p>
+        <ab><lb/>Longuécroches</ab>
+        <ab><lb/>(A suivre.)</ab>
+      </div>
+      <div type="article">
+        <head><lb/>INTINDU D'SUS L' RUE</head>
+        <p><lb/>Madame Sophie. — Tiens! vlà Madame Adéle,<lb/>i' a longtemps que j' n' vous ai point vu? Et à<lb/>part cha, cha va ?<lb/></p>
+        <p><lb/>Madame Adèle. — Awi! cha va, cha porrot<lb/>aller pire!<lb/>Madame Sophie. — Et à propos, et vou' fille</p>
+        <p><lb/>Ugénie ell' dot print' d' l'ache à ch' t'heure<lb/>Queull' âch' qu'elle a?</p>
+        <p><lb/>Madame Adèle. — Ell' va sus ses vingt et un<lb/>ans à ch' t’heure, Malheureus’mint on n' peut<lb/>rien li fair' apprinte i' à rien qui veut rintrer<lb/>dins s' tiete Tout ch' qu’on porrot li dire ell' le<lb/>répète d' travers!...</p>
+        <p><lb/>Madame Sophie. — Ch'est tout d' même mal-<lb/>heureux, de n' n’avoir qu’eun' et...</p>
+        <p><lb/>Madame Adèle. — Ah mais cha n' fait rien, <lb/>cros qu' j' vas réussir, j'ai fait les démarches pou'<lb/><lb/>l'fair intrer à la poste comme demoiselle de<lb/>téléphone.</p>
+        <p><lb/>Madame Sophie elle court incore</p>
+        <ab><lb/>Médorinus.</ab>
+        <figure type="decoration"/>
+        <ab><milestone unit="column" n="3"/><lb/>Abonnez-vous à notre Journal,<lb/>1 an 52 liméros 12.50 en timbres ou mandat</ab>
+        <ab><lb/>AMEUELEMENTS COMPLETS<lb/>rABRICATION ET RÉPARATION<lb/>MOBILIER DE L'HABITATION FAMILIALE<lb/>Literies Complèles, Tapis, Linoléums, Brosseriss<lb/>Edmond MAGREZ<lb/>a S 198, Rue Léon-Gambetta- LILLE E"</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

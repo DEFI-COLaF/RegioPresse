@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Broutteux</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t545085481</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Broutteux : journal-pasquille hebdomadaire de Tourcoing</title>
+          <publisher>[s.n.] (Tourcoing)</publisher>
+          <date when="1883-08-26">1883</date>
+          <idno type="ARK">bd6t545085481</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t545085481</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="frd">langue d'oil ou arpitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>Numéro 57. (2me ANNÉE).</fw>
+        <ab><milestone unit="column" n="2"/><lb/>Un Numéro: 10 centimes</ab>
+        <ab><milestone unit="column" n="3"/><lb/>DIMANCHE 26JAOUT 1883.</ab>
+        <figure type="decoration"/>
+        <figure/>
+        <ab><lb/>VOISENOR</ab>
+        <p rend="styled"><milestone unit="column" n="1"/><lb/>JOURNAL-PASQUILLE HEBDOMADAIRE DE TOURCOING<lb/>Administration : FRÈRE-GLORIEUX, Imprimeur, rue de Lille, 20. — Rédaction : Jules WATTEEUW, Grand' Place, 20</p>
+      </div>
+      <div type="article">
+        <head><lb/>VIVE SAINT-LOUIS</head>
+        <p><lb/>Et non, non, non, Saint-Louis n'est pas mort (bis).<lb/>Car il vit encor et car il vit ontor.</p>
+        <figure/>
+        <p><lb/>In l’honneur de St-Louis, l' patron de<lb/>l' 2'ouvris d' fabrique, j' souhaite, d' tout<lb/>min tcheur, inne boinne fête à tus les<lb/>copagnons d’ateli: fileurs, rattacheux, rat-<lb/>Kacheusses, bacleux, bacleusses, sogneus-<lb/>ses, dévideusses, bobineux, bobineusses,<lb/>filles de bureux, garchons d' magasins et<lb/>tus les comarades, quo.</p>
+        <p><lb/>Vive St-Louis!vive l'z'ovris d'fabrique!<lb/>Et non, non, non, St.Louis n'est pas mort (bis)<lb/>Car il vit encor et car il vit encor.</p>
+        <p><lb/>Vin l'z'ovris, ch'est comme vin les sol-<lb/>dats; y a alfos des régimints tout intir,<lb/>invoïs au lointain, vin d' z’expéditions.<lb/>Comben d’ souffrances, d’ privations.<lb/>Comben d' braves, qui périttent au champ<lb/>d’honneur et tout cha est ignoré, personne<lb/>n' le sait. Vin l' z’ouvris, y a inne classe<lb/>parelle qui mérite d’ête appréciée et pour-<lb/>tant ill' ne l'est po assez, ch'est l'ouvri<lb/>d' fabrique. Toudis au dangi, d’pus chinq<lb/>deures au matin qu’a des 8, 9 heures au soir,<lb/><lb/>vin inne caleur étouffante, rinfermé essin,<lb/>au long d’in an, in peut dire que ch'est l'ro<lb/>des travailleurs, ch’est sti qui a l' pus<lb/>d' mérite. Aussi, tchan qu’in li donne in<lb/><lb/>jour de congé, d' temps à aute y n'l'a<lb/>po volé.</p>
+        <p><lb/>l' leu souhaite, à tertus, deux jours de<lb/>plaiji a les fêtes Saint-Louis.</p>
+        <p><lb/>Tcheu différince, tout d' même, pou<lb/>tout, invers l'temps passé, qu’in filot au<lb/>rouet, au car.</p>
+        <p><lb/>Ch'n'est foque in 1760, qu’in anglais a<lb/>inventé l' premire machine à filer. Et pin-<lb/>dant lommint, cha n’a foque été sur inne<lb/>djampe, comme in dit, ch'étot des hommes<lb/>qui tournottent pou faire aller les machi-<lb/>nes. Après, in a établi des manèges pou<lb/>faire aller des gu' veux et y a ben acor<lb/>des vis Tourtchégnos qui s' souvinn'tent<lb/>que l' filature mou Delannoy, vin l' rue<lb/>des Anges, l'pus visse de Tourco, ill'allo<lb/><lb/>essin.</p>
+        <p><lb/>Tcheu différince, euch'teur, pour les<lb/>produts.</p>
+        <p><lb/>In 1790, l' filature de laine, produjot<lb/>par an 250,000 livres d' fil, compris les<lb/>déchets, in imployot foque de l'laine de<lb/>Hollande, du Pas d'Calais et d' Flandre.</p>
+        <p><lb/>L' filature de lin : 200,000 livres d' fil<lb/>d' lin provenant du pays.</p>
+        <p><lb/>L'filature de coton n'étot po fort im-<lb/>portante, in n’ produjo qu’1200 livres<lb/>par an, l' coton étot aquaté à Lille.</p>
+        <p><lb/>L' filature imployot, à Tourco, 8,000<lb/>ouvris, mais y avot l' peigne à l' main qui<lb/>in 1789 mettot in œuvre deux millions<lb/>800,000 livres de d' laine brute.</p>
+        <p><lb/>Infin, du travail étot donné à 12,000<lb/>ouvris.</p>
+        <p><lb/>Wetti tcheu différince inveuc aujord'hu-</p>
+        <p><lb/>Et dire, que l' reine des fileuses, l' pus<lb/>visse personne beut-ête de Tourco, existe<lb/>acor! et ill' file acor, au car, à l’quenoulle<lb/>à l'âge de 93 ans. Angélique Delahousse,<lb/>né à Tourco in 1790, habite inne majon<lb/>de l' rue d' Menin, à l'intrée, d' pus 89<lb/>ans! et ill' a toudis ovré à sin car pou<lb/>l'un, pou l'aute, et ill' œuve, acor ! Aînée<lb/>d'six afants, ill' est restée l' dernire vivante,<lb/>et l' mémoire est acor présente, aussi ill'<lb/>peut in raconter, allez.</p>
+        <p><lb/>Ill' ne d'a déjà passé. L' Broutteux, li<lb/>souhaite, à elle aussi, inne boinne fête<lb/>Saint-Louis et qu' ses dernires années<lb/>n' soch’tent po trop lourdes à porter.<lb/>J'li souhaite d' tout min tcheur.<lb/></p>
+        <p><lb/>D' tout temps, l'St-Louis a été célébré<lb/>inveuc cérémonie, à Tourco, et in 1852, in<lb/>l’honneur de cheull' fête, l'ballonnisse<lb/>Deschamps (qui a péri l'année d’après à<lb/><lb/>inveuc l’bochu Scamps et Desrousseaux,<lb/>in bon copagnon acor vivant et parlant.</p>
+        <p><lb/>Y est même cafeti, à Roubaix rue Pellard,<lb/>à l'Ours et à s' majon, vin l'estaminet, in<lb/>vot sur un tableu l' portrait du ballon et<lb/>les tros oti qui ont monté d' vin.</p>
+        <p><lb/>Y a eu aussi in carrousel, sus l' grand<lb/>marché, du qui avot chint-quater-vingt<lb/>cavalis, inveuc l' musique et l' z’officis<lb/>du 8me hussards, in garnijon à Lille.</p>
+        <p><lb/>L’indemain, y avot des jeux populaires<lb/>mâts d' cocagne, jeux d' écigeux, courses<lb/>aux sacs vin tous les quartis et in beau<lb/>festival vin les gardin d’ Mou Paul Wattine.</p>
+        <p><lb/>C' l'année chi, à l'occasion de l'fête<lb/>St-Louis, des jeunes gins qui z’ont formé<lb/>inne société d' ballonnisses, vin l'espoir<lb/>d'arriver à ramasser assez, pou s’aquater<lb/>in vrai ballon in taffetas, pou monter<lb/>d' vin, vont faire partir, l’lundi St-Louis 27,<lb/>in ballon d' 15 mètes d' diamète, (in donne<lb/>l'détail chi à l' quatrime pache du journal).<lb/>L' Broutteux souhaite bon courache et<lb/>bonne réussite à ches comarades, dans l'es-<lb/>poir, qu’in jour, y pora les signaler comme<lb/>ballonnisses véritables vin sin journal.</p>
+        <p><lb/>In attindant, espérons qu’in attindra<lb/>acor répéter c' refrain, diminche et lundi.</p>
+        <p><lb/>Ah! grand Saint-Louis t'as ben du bonheur<lb/>D'ete au Paradis; t'es mi qu' les fileurs.</p>
+        <ab><lb/>JULES WATTEEUW,</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

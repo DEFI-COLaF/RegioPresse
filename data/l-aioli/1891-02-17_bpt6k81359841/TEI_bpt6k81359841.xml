@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k81359841</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1891-02-17">1891</date>
+          <idno type="ARK">bpt6k81359841</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k81359841</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>DIMARS, 17 DE FEBRIÉ 1801.</fw>
+        <fw type="runningTitle"><lb/>PROUMIERO ANNADO, NoS.</fw>
+        <ab><milestone unit="column" n="1"/><lb/>au palais dou Roure,</ab>
+        <ab><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren per roli</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Segound la vido<lb/>(Prouverbe di meinsounie</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES</p>
+        <figure/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <p rend="heading"><lb/>PRES DE L'ABOUNAMEN:</p>
+        <ab><lb/>BUREU DE REDACIOUN<lb/>E D'ABOUNAGE:</ab>
+        <ab><lb/>M. FolcÒ DE BARONCELLI,</ab>
+        <ab><lb/>Baite dón jouernan:<lb/>FolCO DE BARONCELLI.</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>uno mounjo que se dis estre la benurouso Catarino de<lb/>Roumo que moun vicàri a soun sèti... Vai, e t'a-<lb/>cot verd; d'un aubre à l'autre éro ana enjusquo en<lb/>ribo de Durènço. Pamens finiguè pèr ausi la voues<lb/>dóu bon papo, e, tout susant, carga de cigalo e de<lb/>cla-cla, arribè 'n courrènt. — Auses pas, ié faguè lou<lb/>Sant Paire, aquelo campano que sono alin en Avi-<lb/>gnoun? — Si, fai lou pichot Jounquet, dirias la cam-<lb/>pano d'argènt ! — Alor me troumpe pas, dis lou papo,<lb/>d'aut ! d'aut! parten: arribo mai quanque afaire dóu<lb/></ab>
+        <p><lb/>E, presa, pressa, lou papo e soun clerjoun emé<lb/>sa campaneto que fasié derin-din-din, emé si cigalo<lb/>que cantavon dins sa barreto e dins tóuti si pòchi,<lb/>prenguèron la draio d'Avignoun. E toujour la campano<lb/>d'argènt sounavo, sounavo amoundant sus lou palais.</p>
+        <p><lb/>Coume arribèron à la porto dóu Limbert, veguè-<lb/>ron tout lou pople d'Avignoun pèr carriero. Quau,<lb/>disié que lou papo venié de mouri, quau disié qu'un<lb/>nouvèu papo de Roumo venié d'arriba. Chascun coun-<lb/>tavo la siéuno, degun éro segur de rèn. E tóuti gemis¬<lb/>sien en pensant que belèu lou bon papo Gregòri èro<lb/><lb/>mort. Mai uno grando clamour de joio s'aubouré,<lb/>quand : derin-din-din ! la campaneto dóu pichot Joun-<lb/><lb/>quet ressounè souto lou porge de la porto dóu Lim-</p>
+        <p rend="labelled"><lb/>— Noste bon papo qu'arribo es pas mort ! cridèron<lb/>tóuti li gènt. E lis ome, li femo, lis enfant, envirouné-<lb/>ron lou papo Gregòri : quau iè beisavo li man, quau<lb/>ie beisavo li pèd. Lou bon papo plouravo de se vèire<lb/>ansin ama. Ié fauguè 'no grosso ouro de tèms pèr<lb/>ana de la porto dóu Limbert à soun palais, tant lou<lb/>pople èro afouga à soun entour pèr l'aclama e se re-<lb/>joul de lou vèire encaro viéu, san e gaiard.</p>
+        <p><lb/>Pamens la campano d'argènt toujour sounavo, sou-</p>
+        <p><lb/>Coume lou papo boutè lou ped sus la porto de soun<lb/>palais, tóuti li cardinau se traguèron à si geinoun e ié<lb/>diguèron : — Grand Sant Paire, quaucarèn d'estrange<lb/>vai arriba ! La campano d'argènt de voste palais s'es<lb/>poutado à souna touto souleto ! e pas mejan de l'ar-<lb/>resta ! Aqueste miracle es-ti l'obro de Diéu? es-ti<lb/>l'obro dóu diable? Segnour papo, se sabès ço que<lb/>'es, escleiras-nous.—</p>
+        <p><lb/>Alorlou papo, autant esmougu qu'éli, ié diguè:<lb/>–Mi fraire, venès emé iéu prega davans l'oustio coun-<lb/>sacrado. Diéu qu'es bon nous baiara la visto de ço que<lb/>devèn faire.— E, en proucessioun, l'amo tremoulanto,<lb/>nou papo emé si cardinau intrèron à la glèiso de Dom.<lb/>Mai pas pulèu fuguèron ageinouia davans l'oustio<lb/>counsacrado, la campano d'argènt cessè de souna. E<lb/>la poupulasso qu'èro pèr carriero plan-plan s'escoulè,<lb/>chascun rintrè dins soun oustau, li cardinau e lou<lb/>segne papo s'estremèron dins si palais. e lou tran-tran<lb/>dis afaire reprenguè coume avans, sènso que degun<lb/>se fuguèsse esplica l'encauso d'aquéu miracle.</p>
+        <p><lb/>Pamens lou bon papo Gregòri s'èro remés en óure-<lb/>soun dins sa capello, e n'èro à suplica Diéu e si Sant de<lb/>ié durbi lis iue pèr vèire ounte sarié soun devé,<lb/>quand soun camarié intrè dins l'óuratòri e, ié pausant<lb/>emé respèt la man sus l'espalo, ie fagué : — Sant<lb/>Paire, avau, à la porto de voste palais, se presènto<lb/>Sieno e que, pèr ordre de Jèsus soun espous, vèn de<lb/>Roumo pèr vous parla de causo grèvo.</p>
+        <p><lb/>Lou papo couneissié, pèr entèndre dire, la renou-<lb/>mado de la benurouso Catarino. Sabié que la mounjo<lb/>de Sieno, dins sis estàsi, counversavo emé li Sant dóu<lb/>paradis, sabié que Jèsus, soun amant e pièi soun es-<lb/>pous, la leissavo touca la flour de sa car e ié baiavo li<lb/>sensacioun celestialo, tant à soun amo qu'à soun cors,<lb/>de l'amour divin.</p>
+        <p><lb/>Tambèn, quand soun camarié i'aguè parla, éu our-<lb/>dounè que la benurouso Catarino fuguèsse quatecant<lb/>aducho davans soun trone pountificau dins la salo dóu<lb/>Counsistòri. E, pèr ié faire mai d'ounour, vouguè que<lb/>tóuti si cardinau l'envirounèsson au moumen que<lb/>l'espouso de Jèsus i'esplicarié l'encauso e la toco de<lb/>de sa messioun.</p>
+        <p><lb/>Li cardinau fuguèron lèu avisa de l'afaire. E tóuti,<lb/>vesènt dins aquelo embassado estranjo un coumença-<lb/>men d'esplicacioun dóu miracle de la campano d'ar-<lb/>gènt, quitèron tout pèr veni vèire e ausi la benurouso</p>
+        <p><lb/>Lou papo, estènt sus soun trone d'or e pourtant la<lb/>tiaro d'evòri à tres courouno d'argènt, envirouna de si<lb/>vint-e-un cardinau, ourdounè de durbi la porto de<lb/>la salo dóu Counsistòri. E Catarino de Sieno intrè.</p>
+        <p><lb/>Grando, linjo, l'iue negre flamejant souto li ciho<lb/>longo e inmoubilo, lou regard fisse, Catarino s'a-<lb/>vancè à pas lènt, eisa, invesible souto li ple de sa<lb/>longo raubo blanco dóu tiers-ordre. E à mesuro que<lb/>s'avançavo dóu trone pountificau, sa bello figuro ce-<lb/>lestialo s'aluminavo, soun cors s'envirounavo d'uno<lb/>siavo clarta e s'aubouravo plan-plan au-dessus dóu<lb/>sou, de tau biais que, quand la benurouso arribè<lb/>Paire e, autant auto qu'éu, douminavo li cardinau<lb/>de touto l'autour de sa persouno.</p>
+        <p><lb/>Alor Catarino durbiguè si dous bras — coume soun<lb/>Jèsus sus la crous, e ansin parlè :</p>
+        <p rend="labelled"><lb/>— «Grand Sant Paire, vicàri dou Crist, ieu l'umblo<lb/>servicialo de moun Diéu, ai camina set jour e set niue<lb/>pèr vous adurre la paraulo qu'estrèmo la voulounta de<lb/>Jèsus, moun espous divin... Ere en óuresoun davans<lb/>lou Crucifica e ié fasiéu l'óufrèndo de moun cor e de<lb/>moun amo, quand veguère lou sant Crist se destaca<lb/>de l'aubre de la Crous : n'en davalé vers iéu, e soun<lb/>visage marquè plus la doulour e sourriguè ; e si bras<lb/>me prenguèron e me sarrèron subre soun cor divin,<lb/>e sa bouco touquè ma bouco, e sis iue raiounèron<lb/>dins mis iue, et tout moun cors ferniguè d'un plesi<lb/>estrange, e sentiguère que soun cors fernissié dou<lb/>meme plesi. E alor la voues dóu sant Crist, plus<lb/>douço que la musico dis Ange, me diguè: «Catarino, tu<lb/>demouraras umblo coume la vióuleto, casto coume<lb/>ièli e amanto coume la roso; e iéu, Jèsus, sarai toun,<lb/><lb/>espous, e tóuti li niuc te vesitarai, e tóuti li niue cou-<lb/>muniaras de moun cors e de moun amo e de moun<lb/>sang, coume vènes de n'en coumunia, e n'en tresa-<lb/>naras d'un plesi celestiau. E pèr marca nosto alianco,<lb/>veici l'anèu nouviau que te baie, e que faras benesi<lb/>pèr lou papo, moun vicàri, en glèiso de Roumo, car<lb/>es à Roumo que ma glèiso a sa pèiro d'angle, e es à</p>
+      </div>
+      <div type="article">
+        <head><lb/>CATARINO DE SIENO</head>
+        <head><lb/>EN AVIGNOUN</head>
+        <p><lb/>Ero bon, ero brave, èro un benurous, ero un sant,<lb/>lou papo Gregòri XI que pountificavo en Avignoun, i'a<lb/>quauqui cinq cents an.</p>
+        <p><lb/>Ero pas d'aquéli papo que menavon tant de pousso<lb/>emé sis escorto e si carrosso, pecaire! éu avié em-<lb/>bandi sa gardo petachino emé touto sa varletaio dau-<lb/>rado. Lou breviàri souto lou bras, emé lou pichot<lb/>Jounquet de Vilo-novo, soun clerjoun, que ié cami¬<lb/>navo davans en sounant de la campaneto coume<lb/>quand van pourta lou bon Diéu, tóuti li jour, lou bon<lb/>papo anavo s'espaça dins li champ pèr charra 'mé li<lb/>paisan ; pièi, à la toumbado de la niue, rintravo mai<lb/>dins soun Avignoun, lou pichot Jounquet caminant<lb/>mai davans emé sa campaneto : derin-din-din. E, qu'a-<lb/>nèsse o que venguèsse, lis Avignounen, que sabien<lb/>qu'èro lou papo que passavo, s'avançavon sus lou lindau<lb/>de si porto, quitavon lou capèu, li femo s'ageinouia-<lb/>von, e lou bon papo Gregòri, sourrisènt, li bene-</p>
+        <p><lb/>Aco n'èro un de beu tèms! ero trop beu, e poudié</p>
+        <p><lb/>Un jour que lou bon papo èro ana s'espaça coume<lb/><lb/>à l'acoustumado dins lou claus de la Coupo-d'Or,<lb/>é que s'èro asseta à l'oumbro d'uno sebisso pèr<lb/>recita soun breviàri, d’enterin que lou pichot Joun-<lb/>quet, lou marrias, d'un aubre à l'autre agantavo de<lb/>cigalo e n'emplissié si pouchoun e sa barreto, vès-<lb/>aqui que veguè passa eila-davans, sus lou camin de<lb/>Marsiho, un mouine à chivau en coumpagno d'uno<lb/>mounjo dóu tiers-ordre peréu à chivau. Lou mouine e<lb/>la mounjo avien bello prestanço. Segur èro d'estrangié<lb/>que venien en ciéuta papalo pèr óuteni quauque pri-<lb/>vilège, quauqui graci, o; coume acò arribavo proun<lb/>souvènt, pèr óuteni la remessioun d'un pecat espeta-<lb/>clous fa per un rei o uno réino, o quauque grand</p>
+        <p><lb/>Lou papo, en li vesènt, aguè l'esperit fustibula e se<lb/>diguè : « Acò vai pas, un mouine em'uno mounjo, de<lb/>s'enana 'nsin à chivau à la visto de tóuti! » Pièi, coume<lb/>éro bon autant que lou pan, aussè lis iue vers lou cèu<lb/>e diguè : «Segnour, perdounas-me la marrido pensado<lb/>que m'a travessa ! Ai belèu agu tort !... » Eacabè de<lb/><lb/>recita soun breviàri.</p>
+        <p><lb/>Coume barravo soun libre e clausié sa preguiero<lb/>em'un signe de crous traça mè soun pouce sus sa<lb/>bouco, vès-aqui qu'un son de campano pico à soun au¬<lb/>riho. — Mai, repeple pas ! se dis, es bèn la campano<lb/>d'argènt de moun palais qu'es à brand, la campano<lb/>d'argènt que dèu souna que quand lou papo mor o<lb/>lou jour qu'un nouvèu papo es aussa sus lou trone de<lb/>la santo Glèiso de Jèsu-Crist!.. Jounquet ! Jounquet !<lb/>pichot marrias ! ounte siés ?...</p>
+        <p><lb/>Jounquet afeciouna agantavo de cigalo e, quand<lb/>degun lou vesié, rapugavo d'agroufioun e d'ambri¬</p>
+        <ab><lb/>o allca/Bibliotèques de see</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

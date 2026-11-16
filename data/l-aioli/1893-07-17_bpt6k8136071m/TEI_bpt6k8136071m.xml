@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136071m</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1893-07-17">1893</date>
+          <idno type="ARK">bpt6k8136071m</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136071m</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>TRESENCO ANNADO, No 92.</fw>
+        <dateline><lb/>DILUN 17 DE JUMATS</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr loli<lb/>E faren Paidli.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>Vidoren, Vidau,<lb/>Segound la vido<lb/>Lou journau.<lb/>cProuverbi di meinounies</ab>
+        <ab><lb/>F. MISTRAL.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7, 17, 27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <ab><lb/>BUREU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI,<lb/>au palais dóu Roure,<lb/>EN AVIGNOUN</ab>
+        <figure type="decoration"/>
+        <figure type="table"/>
+        <ab><lb/>Baile dou journau:<lb/>FOLCO DE BARONCELLE</ab>
+      </div>
+      <div type="article">
+        <head><lb/>ARENGO DE BEN-VENGUDO</head>
+        <ab><lb/>Facho à-n- Ansèume Mathieu</ab>
+        <ab type="head"><lb/>LOU 4 DE JULIET 1893</ab>
+        <ab type="head"><lb/>A L'ESCOLO FELIBRENCO DE PARIS</ab>
+        <figure type="decoration"/>
+        <ab type="head"><lb/>MOUN CAR MÉSTRE,</ab>
+        <p><lb/>I'a de gènt, l'a de causo que naisson crespi-<lb/>nado. L'urouso estello que lis a facho espeli ié<lb/>mando toujour si bon rai. De-longo crèisson e<lb/>de-longo espigon dins la lus, de-longo uno aureto<lb/>embeimado li brèsso, li chalo e li benuro. N'es<lb/>ansin, parai ? dóu Felibrige e de tout ço que,<lb/>de liuen o de proche, se rejoun, se religo à-n¬<lb/>aquelo nau benurouso, à-n-aquelo flour dóu</p>
+        <p><lb/>Vès, pèr eisèmple, nosto Escolo. Es lou prou-<lb/>mié de Mai d’aquesto annado, que nous sian<lb/>acampa, vint-un jouvènt di païs d'O, pèr la<lb/>founda. I'avié dous mes d'acò, aquest dissate.<lb/>Eh ! bèn, cresès que lou Diéu bon, lou principe<lb/><lb/>aubigés qu'envoucavo lou Capoulié Gras en<lb/>Carcassouno, ague leissa passa aquéu jour sènso<lb/>nous manda de bon ur ? Nàni, Messiés, e es<lb/>dissate, proumié de Juliet, que noste mèstre<lb/>venera, En Ansèume Mathiéu, un di sèt foun-<lb/>dadou dóu Felibrige, un di sèt coumuniant dóu<lb/>mistèri de Font-Segugno, es dissate qu’aquéu<lb/>grand pouèto d'elèi, qu'èro de passage à Paris,<lb/>larguè à noste secretàri generau, emé sa freire-<lb/>nalo embrassado, la proumesso de nous veni<lb/>vèire dins nosto sesiho d'este sèr.</p>
+        <p><lb/>E, Messiés, lou maje escrivan de La Faran-<lb/>doulo s'es rendu, coume l'avié di, entre mitan de<lb/>nautre, e nous veici aro acampa pèr escouta,<lb/>nàutri tant jouine, tant nouvèu, l’ensignamen<lb/>dou rèire e dóu segne-grand de la Causo. Se vèi<lb/>que nous sian religa au grand Felibrige! E quau<lb/>dira aro qu'avèn pas la crespino e que l'endeveni<lb/>noun s'es dubert tout flame à noste eissamage<lb/>arderous !</p>
+        <p><lb/>Pamens, Mèstre, sian pas, coume l'an proun<lb/>di e escri enjusquo à vuei, sian pas li farfantaire<lb/>que se pènson d'avé crea lou mounde rèn qu'en<lb/>sourtènt de si pichoun trau. S'avèn l'espèr, aquel<lb/>ourguei legitime de la jouvènço, boutas, avèn<lb/><lb/>tambèn lou remèmbre fidèu ; e se cresèn que<lb/><lb/>ſau d'audàci emai d'audàci, sabèn que lou respèt<lb/>es uno di forço dóu mounde e que rèn sus terro<lb/>se fai sènso l'ajudo pouderouso de la tradicioun.</p>
+        <p><lb/>E, d'abord que sabèn acò, i'a degun dins lou<lb/>Felibrige que tèngue dins uno veneracioun plus<lb/>grando li noum d’ome coume Mistral, coume<lb/>Aubanèu e Roumaniho, coume Gras e Areno,<lb/>coume Faure, Arnavielo e Savié de Ricard.<lb/>nautre : car anas vèire cici noste pious afou¬<lb/>gamen, nòsti sants estrambord davans vous,<lb/>qu'avès bèn vougu nous ounoura de vosto pre-<lb/>sènci. De vous, coume d'aquélis aposto dóu<lb/>proumié moumen, i'a rèn que nous posque<lb/>jamai desmama. l'a, mau-grat tout, de liame<lb/>pouderous, fort coume de cadeno e siau coume<lb/>de flour, que van de nòsti cor i cor di grand<lb/>felibre e li tèn à jamai rejoun dins lou meme</p>
+        <p><lb/>Pendènt li dous proumié mes que se durbien<lb/>nòstis iue à la lus de Santo Estello, qu'alargo<lb/>autant bèn si raiado à Paris coume dins la Crau,<lb/>tout lou long de Mai e de Jun, avèn forço amira<lb/>au Saloun dis Aliscamp, que vèn de barra si<lb/>porto, un tablèu que semblavo tout pinta pèr<lb/>nous festeja. Vole parla di Troubadour dóu<lb/>pintre lengadoucian Enri Martin. Aquéu, si<lb/>qu'a lou goust de la vertadiero lumiero ! Aquéu,<lb/>si qu'a lou sèn prefound de nòsti glòri e de<lb/>noste passat ! En raubo roujo tres troubaire<lb/>escouton la leiçoun sublimo di divesso que<lb/>goutejon dins lou plus aut de l'aire, emé de<lb/><lb/>vièsti clar de trelus, de bèuta e de gràci de Diéu.<lb/>N'a de violo que passon entre si det bagna de lus<lb/>pèr lou rebat di vèrdi fueio, e sèmblo que li tres<lb/>pouèto ié déurien barbela ensèn d'amour e de</p>
+        <p><lb/>Mai nàni : es l'einat di troubaire, soulet, un<lb/>bèu grand vièi à barbo de nèu, qu’escouto ço<lb/>que dis l'armounio dóu Cèu. Clin, li jouvènt<lb/>l'escouton retraire lou dous paraulis. Mai éli,<lb/>lis iue barra, s'acountènton de pantaia li leiçoun<lb/>de soun mèstre, sènso ausa pourta si regard<lb/>direitamen vers la vesioun.</p>
+        <p rend="labelled"><lb/>O Mèstre, acò 's acò, e vaqui bèn nosto pen¬<lb/>sado e nosto idèio de l'auto ispiracioun. Vèn<lb/><lb/>i mèstre — dóu cèu ; di mèstre vai is escoulan;<lb/>vèn i baile, de la countemplacioun di campèstre,<lb/>e di baile vai is enfant, i gnarro e i varlet. E<lb/>voulèn segui li grand vic̀i de nosto Reneissènço<lb/>em' un respèt d'autant mai prefound e fidèu que<lb/>de-fes sèmblo boufa en Felibrige uno aurasso<lb/>de revòuto e d'arrougantige : e voulèn moustra<lb/>aquéu respèt d'autant mai que li mèstre enjusquo<lb/>aro fuguèron mai bounias e mai indulgènt.</p>
+        <ab type="head"><lb/>Sicgues umble emné T'umble e mai fier que lou fier.</ab>
+        <p><lb/>disié lou segne-grand de Calendau; e n'avèn<lb/>pas cregnènço qu'à-n-aqueste mestié se cline<lb/>noste front o se degaie noste cor : sian de trop<lb/>bono raço e de trop bon sang pèr acò, coume<lb/>Savès vous-meme tant bèn di,</p>
+        <lg>
+          <l><lb/>Li tes quari den Ain un </l>
+          <l><lb/>E tau, dins un gara</l>
+          <l><lb/>Lou vesìs laboura,</l>
+          <l><lb/>Que se pourriè signa Comte de Ventimiho.</l>
+        </lg>
+        <p><lb/>E noun es trop d'un mouloun de Comte de<lb/>Ventimiho pèr ounoura, coume se dèu, lis An-<lb/>sc̀ume Mathiéu, lis Aubanèu e li Mistrau!</p>
+        <p><lb/>o e at Nouu aai tr ̀e bn<lb/>sang, d'ardour e de fe pèr rèndre à nosto terro,<lb/>à nosto raço, à nosto lengo, lou paratge e l'onor<lb/>que se soun, ai ! las! enana! Li grand paisan<lb/>que labouron despièi sièis siècle, — d'abord<lb/>que, segound la paraulo de Gras,</p>
+        <quote><lb/>la siis nts en qu'es eclapado,</quote>
+        <p><lb/>li paisan boulegon encaro lis os di mort mau<lb/>enterra, taca de lagremo e de sang. Uno orro<lb/>centralisacioun escracho encaro nòsti pitre. Un<lb/>sistèmo fatau, fatau à la Franço, coume es tam-<lb/>bèn fatau à nosto terro d'O, un orre cesarisme<lb/>amenistratiéu nous desmasclo, nous descaro,<lb/>nous desavio e n'i'a plus de libre eiçavau que li<lb/>cigalo, lis abiho e li lauseto di gara. Es pèr acò,<lb/>o pouèto, qu'avèn mes à nòsti capèu uno cigalo<lb/>d'or, simbeu di liberta atenenco de nosto terro,<lb/>e l'abiho que saup pougne li cabrian, e peréu la<lb/>lauseto de nosto Gaulo meirenalo. E nous tan-<lb/>caren pas à-n-aquéli simbèu, que n’an de pouesio<lb/>qu'à la coundicioun de n’en counèisse l'idèio,<lb/>lou sèn, la mesoulo. Travaiaren. Avèn meme un<lb/>pau travaia e souvènt, dins nòsti travai, nous<lb/>sian redi uno poulido istòri que lou mèstre Mis-<lb/>tral countavo à l'un de nòstis ami.</p>
+        <p><lb/>Un jour, parèis, un felibre di plus ancian<lb/>legissié dins l'Armana Prouvençau la crounou¬<lb/><lb/>lougio de l’istòri dóu païs d'O, e, pèr un rescon-<lb/>tre espetaclous, arremarcavo que cado jouncho<lb/>èro à pau près de cinq cènts an: cinq cènts an<lb/>li Fenician e li Grè ; cinq cènts an li Rouman;<lb/>cinq cènts an li Comte e li Conse de la Repu-<lb/>blico independènto ; e toujour cinq cènts an<lb/>enjusquo à 1487 ounte la Prouvènço fuguè<lb/>unido à l'eiretage di rèi de Franço, qu'uno mar¬<lb/>rido poulitico enclinavo à l'avuglo foulié cen¬<lb/>tralisarello. E sabès ço que disié à n aquel endré<lb/>lou felibre à l'autour de la Coumtesso?</p>
+        <p rend="labelled"><lb/>1487-1887, acò fai bèn quatre cènts an.<lb/>Quatre cènts an de centralisacioun ! N'i'a plus<lb/>que pèr un siècle. Tout-aro ié sian!»</p>
+        <p><lb/>Fau que vous digue, Messiés, que lou felibre<lb/>que disié aquelo paraulo à Mistral èro Ansèume<lb/>Mathiéu qu'es au mitan de nautre. Es éu lou<lb/>proufèto qu'a vist que lou siècle vinten, meten<lb/>la fin d’aquéu siècle, veira flameja dins lou cèu<lb/>« lou drapèu estela de la Federacioun ». Es Ma¬<lb/>thiéu qu'emé la grando entuicioun de l’engèni<lb/>emai dóu vieiounge prediguè d'uno talo sorto<lb/>lis Estat-Uni de nosto Franço bèn-amado.</p>
+        <p><lb/>Eh! bèn, avès bèn di, Mèstre, o, tout-aro ié<lb/>sian! De touto part, li jouvenome vènon à nautre<lb/>e nosto idèio a de resson que n'en sian espanta.<lb/>Dins nòsti draio podon boufa li serp, podon<lb/>crussi li courpatas. Sian ço que sian. Fèn ço que<lb/>fen. Demandan en degun de prene la respoun¬<lb/>sableta de nostis ate: e travaian dins noste oustau<lb/>au reviéure, à la liberta.</p>
+        <p rend="labelled"><lb/>O, Mèstre, l'avès di e bèn di: tout-aro ié<fw type="digitisation-artefact"><lb/>/</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

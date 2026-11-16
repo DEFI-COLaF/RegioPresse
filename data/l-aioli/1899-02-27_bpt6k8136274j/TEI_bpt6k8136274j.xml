@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L'Aiòli</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8136274j</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>L'Aiòli : que vai cremant tres fes pèr mes / baile dóu journau : Folcò de Baroncelli</title>
+          <publisher>F. de Baroncelli (Avignoun)</publisher>
+          <date when="1899-02-27">1899</date>
+          <idno type="ARK">bpt6k8136274j</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8136274j</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0001.xml"/>
+        <fw type="runningTitle"><lb/>NOUVENCO ANNADO, No 294</fw>
+        <dateline><lb/>DILUN, 27 DE FEBRIÉ 1899.</dateline>
+        <ab><milestone unit="column" n="1"/><lb/>Nautri, li bon Prouvençau,<lb/>Au sufrage universau,<lb/>Voutaren pèr l'òli<lb/>E faren Paioli.</ab>
+        <ab><milestone unit="column" n="3"/><lb/>(Prouvere di menncunie)</ab>
+        <ab><lb/>Vidoun, Vidar,<lb/>Segound la rido<lb/>Lou journau.</ab>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>QUE VAI CREMANT TRES FES PER MES (7,17,27)</p>
+        <figure/>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+        <p rend="heading"><lb/>PREs DE L'ABOUNAMEN</p>
+        <ab><lb/>VSURÉU DE REDACIOUN<lb/>E D'ABOUNAGE:<lb/>FOLCO DE BARONCELLI<lb/>au palais déu Roure<lb/>EN AVIGNOUN</ab>
+        <figure type="table"/>
+        <ab><lb/>Baile dóu journau<lb/>FoLCO DE BARONCELLI</ab>
+        <figure type="decoration"/>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>A-n-uno Endoumenco que sabi</head>
+        <lg>
+          <l><lb/>Marsiheso jouino e poulido.</l>
+          <l><lb/>S'à t'amira moun uei s'óublido</l>
+          <l><lb/>Quouro passes long dóu balouard,</l>
+          <l><lb/>Marsiheso jouino e pou ido,</l>
+          <l><lb/>Es qu'as sachu prendre moun couar.</l>
+        </lg>
+        <p rend="styled"><lb/>Marsiheso jouino e poulido,<lb/>Tu qu'as sachu prendre moun couar;<lb/>De gràci touto ennivoulido,</p>
+        <lg>
+          <l><lb/>Siés bello, e l'amour pivelaire</l>
+          <l><lb/>M'a pivela mé ta beuta,</l>
+          <l><lb/>La soulo qu'a sachu mi plaire.</l>
+          <l><lb/>Siés bello e l'amour pivelaire,</l>
+          <l><lb/>Coumo uno serp l'aucèu voulaire,</l>
+          <l><lb/>A puei fini pèr m'aganta.</l>
+          <l><lb/>Siés bello, e l'amour pivelaire</l>
+          <l><lb/>N'a pivela me la beuta.</l>
+        </lg>
+        <lg>
+          <l><lb/>Pamens n'augi pas ti va dire,</l>
+          <l><lb/>Lei jour que l'envejo mi pren,</l>
+          <l><lb/>Ai tròu pòu de ti vèire rire,</l>
+          <l><lb/>Se mi metiéu à ti va dire,</l>
+          <l><lb/>Pènsi pas que pourriés sourrire</l>
+          <l><lb/>E fini d'un coup mei tourment,</l>
+          <l><lb/>Se mi metiéu à ti va dire</l>
+          <l><lb/>Lei jour que l'envejo mi pren.</l>
+        </lg>
+        <ab type="head"><lb/>MANDADIS</ab>
+        <lg>
+          <l><lb/>S'un jour aquélei vers, ma bello,</l>
+          <l><lb/>Pèr asard toumbon dins tei man,</l>
+          <l><lb/>Dóu pantaiaire que ti bèlo</l>
+          <l><lb/>Vuei dins sei vers, o douco bello !</l>
+          <l><lb/>Plagne en toun couar la farfantello,</l>
+          <l><lb/>Se li poues pas dire: « S'eiman!»</l>
+          <l><lb/>Lou jour qu'aquélei vers, ma bello,</l>
+          <l><lb/>S'envendran toumba dins tei man.</l>
+        </lg>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Roussignou e Roso</head>
+        <lg>
+          <l><lb/>- Roussignòu, que toun cant es bèu</l>
+          <l><lb/>Que ta voues es divino e puro !</l>
+          <l><lb/>Aquéu present de la naturo</l>
+          <l><lb/>Me fai envejo, o bél aucéu.</l>
+        </lg>
+        <lg>
+          <l><lb/>— Roso, douno-me ta coulour,</l>
+          <l><lb/>Ta béuta qu'encanto ma vido:</l>
+          <l><lb/>Aurai alor l'amo ravido...</l>
+          <l><lb/>Vos-ti canta? léu sarai flour. —</l>
+        </lg>
+        <lg>
+          <l><lb/>La roso siguè roussignòu</l>
+          <l><lb/>E lou roussignòu siguè roso:</l>
+          <l><lb/>La floureto prengué lou vòu</l>
+          <l><lb/>Pèr canta sa metamourioso.</l>
+        </lg>
+        <ab><lb/>E. Jacomet.</ab>
+      </div>
+      <div type="article">
+        <ab><lb/>LOU PLAN</ab>
+        <ab type="head"><lb/>mouN VIEi aVIGnOuN</ab>
+        <figure type="decoration"/>
+        <p><lb/>EMAI siegue la mendro di plano dou Rose desempièi<lb/>Dounzero, aquén tenemen passo encaro 10.CC0 sau-<lb/>mado ; a pèr counfigno au pounènt lou Rose, au<lb/>miejour Il colo de Cau-Mount, Mount-de-Vergue, Sant¬<lb/>savournin e Sorgo à l'Uba. Plano drudo e bello, fourmado<lb/>en majo part di cremen dóu flume (terren quaternàri).</p>
+        <p><lb/>Aqui-dintre, en coumtant la vilo d'Avignoun, 43.000 e<lb/>quauqui cénts amo ié soun estadis, senso parla de tout<lb/>co que vai e vèn, atira pèr lou bon er de sa situacioun</p>
+        <p><lb/>Emé quanqui coumuno d'alentour, aquéu rode es esta<lb/>lou séti de l'anciano republico avignounenco qu'i siècie<lb/>XII e XIII federalisé l'encountrado à l'eisémple d'Arle e<lb/>Marsiho (1) bèn tant, adeja, boufavo uno ouro d'inde¬<lb/>pendènci respetado plus tard per li soubeiran-pountife<lb/>que, dóu siècle XIV à 1791, aguéron lou gouvè dóu pals<lb/>e mounte faguèron flouri, emé lou Gai-Sabé, li sciênci e</p>
+        <p><lb/>Sa campagno es di richo que se vegne, partejado en<lb/>culturo de touto merço: terren bladié, pradarié, fruchan,<lb/>pepiniero, ourtoulaio, taba, vigno etc., oumbrejado<lb/>d'óume, platano, ciprés, sause, piboulo, aubo, pin,<lb/>chaine, amourié, e subre si costo l'óulivié l'espandis de<lb/>rampau clarinèu coume souto lou cèu azuren di coulou¬<lb/>nio grèco. Apoundrai qu'aquéu campèstre verdejant es<lb/>margaia pér uno ribambello de granjo, bastido e caba-<lb/>noun mounte, à l'entour di barri de la vilo, trepon si<lb/>gent qu'an lesi, coume la tiero de paisan.</p>
+        <p><lb/>Avesinado pèr lou Rose, la Durènço e la Sorgo, l'aigo<lb/>noun lé defauto; Ta de siècle qu'aquelo de Vau-Cluso<lb/>embugo uno part de si terro; vuei encaro fal vira ll<lb/><lb/>Moulin de l'Espigo, lou Moulin-Nou, e, dins Avignoun<lb/>que travèsso, buto en mouvemen proun de fabrico;<lb/>acò 's aro la prouprieta dóu gouvèr: avans 1791 apartenfes<lb/><lb/>au Chapitre de Nosto-Damo-de-Dom.</p>
+        <p><lb/>Après li Sorgo e Sourgueto mandado pèr la naturo,<lb/>velci veni la Durênço que la man di rèire nous adugué<lb/>souto lou noum de Durençolo, en 1229 d'abord per de¬<lb/>fendre li barri, faire ana de moulin, e plus tard (au XV.<lb/>siècle) arrousa lou ben; partido devers Cau-Mount que<lb/>bagno un brèu tout en fasent marcha si moulin de Tartai<lb/>e de Labordo, vers nautre vén faire vira aquéli de la<lb/>Foulié e de la Paciènci, avans de s'esperdre dins lou Rose,<lb/>après qu'uno de si branco passant souto Avignoun en<lb/>maniero de coundu, n'enmeno lis escourriho. Aquéu<lb/>canau, prouprieta dis ouspice e espitau desempiêi 1601,<lb/>siguè aumenta e espandi en 1776 pèr avantaja l'agricul-</p>
+        <p><lb/>ls ençaro lou grand e ben Canau Crihoun, alesti i frès<lb/>de M. lou Du de Crihoun desempièi 1778, sus li plan de<lb/>Jaque de Watermillo du Vernoy e dóu paire Morand,<lb/>jesuisto. L'autour d'aquelo grando obro aguè proun</p>
+        <p><lb/>(1) Aquelo formo de gouver intoé al<lb/>ne Mouriero, Veieno<lb/>arri pa aire pereegui;<lb/>l'avié subae-tont egalita pe</p>
+        <p><lb/>Sant- Baciei e se cave lou canan d Dursaçolo que n'en ctarraes pu hurg<lb/>grame à tria ; sènso coumta li 400 000 franc paga tin-tin,<lb/>ll malantié sourtido di terro embugado de fres e pancaro<lb/>bèn endraiado pér l'escoulamen dis algo, boutèron soun<lb/>travai à mand de peri ; pamens es gràci à n-un courrènt<lb/>de tres lègo de long entre Durènço e Rose que ll garrigo<lb/>de Bon-Pas — soun ourigino — Cau-Mount, Mouriero,<lb/>Nount-Favet. Vedeno, lou Pountet, Sorgo e uno bono<lb/>part d'aquéli d'Avignoun se soun tremudado en pradarié<lb/>e jardin espetaclous, graci surtout à sa preso de tres<lb/>martellero e sa rilambello de fiholo.</p>
+        <p><lb/>E piel vèn lou Canau Pay, crea pèr lou brave conse,<lb/>M. Guihaume de Puy, sus uno autourisacioun dóu 4́ de<lb/>jun 1806 ; lé cousté 150.C00 fr. de soun sicap, emai pas-<lb/>savo dins la majo-part de si terro en ribo de Durènço,<lb/>mounte plus tard s'establiguè lou moulin de Nosto-Damo;<lb/>arroso vuei proche de 1500 eitaro.</p>
+        <p><lb/>Emé la destrucioun de tant de bos e fourèst, avèn aro<lb/>d'estiéu secarous ; coume l'ourtoulaio e lou fru soun<lb/>sèmpre desira pèr l'espedicioun, car au-jour-d'uei</p>
+        <lg>
+          <l><lb/>Li vagoun dins de canestello</l>
+          <l><lb/>Carrejon tout e léu, lèu, léu....</l>
+        </lg>
+        <p><lb/>alor vague de prendre d'algo a la Durènço, e la terriblo<lb/>ribiero, sauoado pèr 80 canau desempièi sa sourso,<lb/>n'adus tout-aro en ribo d'Avignoun que lou rèsto dis¬<lb/>autre ; lis arrousant, éll, se bouton à noun plus pèr n'en<lb/>tira partit, l'aigo es à tiro-tu, tiro iéu, e li darrié arriba<lb/>estènt toujour li mau servi, reno que renaras ! Per aqueste<lb/>pichot canau l'a proun peno à nòsti sendicat.</p>
+        <p><lb/>Pamens lou plan d'Avignoun n'es pas di mai à plagne,<lb/>dóumaci l'a de quartié gabin ; forço noum de si claus<lb/>n'en soun la provo, siegue Fountano, li Sourso, lis Aigo¬<lb/>Pendènto de Bel. Er, Fountaniho, Bagno-Pèd, Il Bas-Founs,<lb/>la Font-Cuberto, la Fent di-Rat, etc, etc.</p>
+        <p><lb/>Pèr coumbatre li secaresso, l'a encaro lou respousc di<lb/>gròssis aigo, quouro lou Rose e la Durènço, nosti redou-<lb/>tabli vesin, se ligon ensen pèr nous paga tout d'un cop ;<lb/>alor, long de la ribiero Aupenco, li graso espetaclouso<lb/>soun embandido per lou courrent qu'emporto aquéli<lb/>bord coume li paliero de bos que i'óupausavon nòsti<lb/>réire, e..te pourtaras bèn, Catarino! Li levado soun alor<lb/>à recoumença, vèngue d'ome sus ll chantlé.</p>
+        <p><lb/>Aquéu pais, di beu que l'aguèsse adeja dóu tèms di<lb/>Rouman, es desservi pèr forço bon camin mounte van e<lb/>vènon sis abitant; l'a li routo de Paris á-n-Antibo, d'Avi-<lb/>gnoun à Fourcauqulé, de Mount-Pelié e Nimes à Digno ;<lb/>l'a tambèn li camin d'Arle, dou San:-Esperit, e proun<lb/>d'autri sus Prouvenço e Lengadò qu'en tèms dóu roulage<lb/>li cop de fouit e lou drin-drin di cascavéu lé brusissien<lb/>de-longo; meme souto lou gouvèr di Papo, la draio de<lb/>Paris e dóu Nord travessant noste bèu Coumtat éro en<lb/>tre-tengudo per lis engeniaire dou rèi de Franço.</p>
+        <p><lb/>Em'un trafé parié poudien pas mens faire, à l'ouro<lb/>d'aro, que de nous traça de camin de ferre; aperaqui en<lb/>1854 s'inagurè en nosto vilo la grand ligno de Valènço<lb/>(anant aro de Marsiho à Paris); mai avans, aquelo de<lb/>Bèu-Caire e dóu Gard carrejavo nòsti vouiajour emé de<lb/>toumbarèu. Piel. en 1868, s'es duberto la vio ferrado<lb/>d'Avignoun à Cavaioun fllant dins l'Auto-Prouvenço, sénso<lb/>coumta li tram elcitri à la vèio de prendre lou vanc de<lb/>la ciéuta papalo sus nòsti viloto coumtadino.</p>
+        <p><lb/>La banlègo avignounenco tèn dins soun terraire lis<lb/>amèu de Mount-Facet e dou Pountet; lou proumie deu<lb/>soun eisistènci i bastisso d'un cardinau vers l'epoco poun-<lb/>tificalo. Sa bello gléiso, si bastido bourgeso, si pradarié e<lb/>l'agradamen de sis oumbrage n'en fan un rode plasènt<lb/>mounte li catau d'Avignoun e d'à bèn liuen vènon passa<fw type="digitisation-artefact"><lb/>ource gallicabnf.f/Bibliotèques de Mase</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>

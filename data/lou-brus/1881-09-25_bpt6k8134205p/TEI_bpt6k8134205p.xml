@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8134205p</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1881-09-25">1881</date>
+          <idno type="ARK">bpt6k8134205p</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8134205p</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="article">
+        <div>
+          <pb facs="0008.xml"/>
+          <fw type="runningTitle"><lb/>LOU BRUSC</fw>
+          <fw type="numbering">מא</fw>
+          <ab><milestone unit="column" n="1"/><lb/>4 rue Tournefort à Aix, vend le<lb/>véritable COSMYDOR</ab>
+          <figure>
+            <p><lb/>LOu direitour-gerènt : F. GUI TON-TALAMEL</p>
+            <p><lb/>Ais, Emp. Prouv. carriero dou grand-Relògi 15</p>
+          </figure>
+          <figure type="decoration"/>
+          <ab><lb/>Le Journal des Tirages Financiers<lb/><lb/><lb/>(11 Année)<lb/>PARIS — 18, Rue de la Chaussie-d'Antin, 18 — PARIs<lb/>PROPRIÉTÉ DE LA<lb/>SOCIÉTÉ FRANÇAISE FINANCIÈRE<lb/>SCIETE AMTE)<lb/>Capital : VINGT-CINQ MILLIONS de francs<lb/><lb/>Ret indispensable à tous les Porteurs de Rentes, d'Actions et d'Obligations. —7<lb/>camplet. — Parait chaque Dimanche. — 16 pages de texte.— Liste officielle des Tirage<lb/>Coure des Valeurs cotées officiellement et en Banque. — Comptes-rendus des Assem¬<lb/>blees d'Actionnaires. — Etudes approfondies des Entreprises financières et industrielli<lb/>et des Valeurs offertes en souscription publique.— Lois, Décrets, Jugements intéressant<lb/>les perteurs de tures. — Recettés des Chemins de fer, etc., etc.</ab>
+          <ab><lb/>L'ABONNE A DROIT :<lb/>AU PAIEMENT GRATUIT DE COUPONS<lb/>A L'’ACHAT ET A LA VENTE DE SES VALEURS<lb/>same Commianion<lb/>Prix de l'Abonnement pour toute la France et l'Alsace-Lorraine:<lb/>UN FRANC PAR AN<lb/>En e beANE SANS FRAIS DANS TOUS LES BUREAUX DE POSTE</ab>
+          <p><milestone unit="column" n="2"/><lb/>Prime à nos abonnés<lb/>et à nos Lecteurs— Un<lb/>Baromètre Anéroide,<lb/>mouvement visible, de<lb/>marche garantie, dia-<lb/>mètre 0,08, expédié<lb/>franc de port sur tout<lb/>le territoire français<lb/>(oujus qu'à la frontière)<lb/>en envoyant un mandat<lb/>poste de Dix francs<lb/>à M. le Directeur du<lb/>Journal.</p>
+          <figure/>
+          <figure/>
+          <p rend="heading"><lb/>PIGNAN</p>
+          <p><lb/>Incomparable Eau de toilette<lb/>sans acide ni vinaigre.</p>
+          <figure type="decoration"/>
+          <p><lb/>Les hygiénistes préconisent<lb/>son usage journalier.</p>
+          <p><lb/>Les celebrités médicales en<lb/>ordonnent l’emploi quotidien.<fw type="digitisation-artefact"><lb/>rce gallica.bnf.fr / Bibliothèques de Marseille</fw></p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Pays cévenol</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bd6t53903578c</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Le Pays cévenol : hebdomadaire littéraire, artistique, félibréen, mutualiste, commercial, industriel et d'annonces</title>
+          <publisher>[s.n.] (Alais)</publisher>
+          <date when="1906-09-09">1906</date>
+          <idno type="ARK">bd6t53903578c</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bd6t53903578c</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0004.xml"/>
+        <ab><milestone unit="column" n="1"/><lb/>SERVICE D'ÉTE 1906<lb/><lb/>AEAIS dép<lb/><lb/> MARTNe r<lb/><lb/>ALAIS arT.<lb/>Alais à Bessèges<lb/><lb/><lb/><lb/>Bessèges à Alais<lb/><lb/><lb/><lb/>Sommièrrs dep<lb/><lb/>Aais</ab>
+        <p rend="heading"><lb/>MARCHE DES TRAIN<lb/></p>
+        <figure type="table"/>
+        <figure type="table">
+          <head><lb/>Alais a Lézan et à Anduze</head>
+        </figure>
+        <p rend="styled"><milestone unit="column" n="2"/><lb/>Alais a Paris</p>
+        <figure type="table"/>
+        <figure type="table"/>
+        <figure type="table">
+          <head><lb/>Anduze à Lézan et a Alais</head>
+        </figure>
+        <figure type="table">
+          <head><lb/>Paris à Alais</head>
+        </figure>
+        <figure type="table">
+          <head><lb/>Alais à Quissac et au Vigan</head>
+          <head><lb/>Alais au Martinet</head>
+        </figure>
+        <figure type="table">
+          <head><lb/>Le Vigan à Quissae et à Alais</head>
+        </figure>
+        <figure type="table"/>
+      </div>
+      <div type="article">
+        <ab><lb/>tarsemed.11</ab>
+        <ab type="head"><lb/>Alais à Nimes, Tarascon et Marseille</ab>
+        <figure type="table"/>
+        <ab type="head"><lb/>Marseille à Tarascon, Nimes et Alais</ab>
+        <figure type="table"/>
+        <figure type="table">
+          <head><lb/>Alais a Montpellier par Quissae</head>
+        </figure>
+        <figure type="table">
+          <head><lb/>Montpellier à Alais par Quissae</head>
+          <head><lb/>Le Martinet à Alais</head>
+        </figure>
+        <ab><lb/>D'AL<lb/>et de son Arrondissement<lb/>AmO EDETHON 12OG PRIX= = FRANCS<lb/><lb/>En vente à la<lb/>PLACE DE L'ABBAYE<lb/>PAPETERIE NOUVELLE:<lb/>AA</ab>
+        <ab><lb/>Alais. — Imprimerle J. Brabo, Square de Sauvages.</ab>
+        <ab><lb/>vu pour la légalisation de la signature ci-contre:<lb/>100</ab>
+        <figure type="table"/>
+        <figure type="table">
+          <head><lb/>VIENT DE PARAITRE</head>
+        </figure>
+        <ab><lb/>Alais, le</ab>
+        <p rend="styled"><lb/>Le Maire,</p>
+        <figure type="table">
+          <head><lb/>Alais a Nozieres et à Uzès</head>
+          <head><lb/>Le Directeur-Gérant: J. BRABO.</head>
+        </figure>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="3"/><lb/>Le plus bel assortiment de<lb/>SURPAISES, etc, etc COLLECTIONS, VUES, ABTISTIOUES<lb/>Papeterie Nouvelle<lb/>Rue de la République et Place de l'Abbaye<lb/>ALAIS (GARD)</ab>
+        <ab><lb/>Cartes Postales Illustrées<lb/>DE TOUS GENRES<lb/><lb/>Papiers à Lettres de toute Fantaisie<lb/>Sachets parfumés — Images et Cartes de Fétes<lb/>our de l'An, 1e Avril, 1e Communior<lb/>Fournitures complètes de Bureaux — Timbres<lb/>Bibliothèque de Lecture Publique<fw type="digitisation-artefact"><lb/>llica.<lb/><lb/>Media</fw></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

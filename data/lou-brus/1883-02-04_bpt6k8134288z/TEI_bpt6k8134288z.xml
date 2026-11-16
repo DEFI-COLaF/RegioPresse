@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lou Brus</title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName xml:id="JJANES">
+            <surname>Janès</surname>
+            <forename>Juliette</forename>
+            <idno type="orcid">0000-0002-8971-6173</idno>
+          </persName>
+        </respStmt>
+        <funder>Inria</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://colaf.huma-num.fr/">Corpus et Outils pour les Langues de France (COLaF)</publisher>
+        <date when="2025-12-15"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno>bpt6k8134288z</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lou Brus : journau poupulari de literaturo, d'istori e de scienci</title>
+          <publisher>Empremarié prouvençalo (Ais)</publisher>
+          <date when="1883-02-04">1883</date>
+          <idno type="ARK">bpt6k8134288z</idno>
+          <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k8134288z</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="oci">occitan</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="ladas-ahn" version="1.0.0">
+          <label>modèle ladas fine tuné sur de la presse</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2"/>
+        </application>
+        <application ident="ppocr-medium" version="6.0.0">
+          <label>modèle d'OCR</label>
+          <ptr target="https://zenodo.org/records/21788410"/>
+        </application>
+        <application ident="kraken" version="7.10">
+          <label>moteur d'OCR avec dfine-kraken 0.4.0</label>
+          <ptr target="https://kraken.re/main/index.html"/>
+        </application>
+        <application ident="ladas2tei" version="1.0.0">
+          <label>Script de conversion ladas vers tei.</label>
+          <ptr target="https://github.com/DEFI-COLaF/LADAS2TEI"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-16" who="#JJANES">Generation du XML TEI depuis ALTO annote LADaS</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb facs="0007.xml"/>
+        <milestone unit="page" n="359"/>
+        <fw type="runningTitle"><lb/>LOU BRUSC</fw>
+        <head><lb/>TARGO LITERARI dOu BRUSC<lb/>COUNCOURS DE PROSO PROUVENÇALO</head>
+      </div>
+      <div type="article">
+        <ab><milestone unit="column" n="1"/><lb/>L'Azergue à Chazay, eau-forte, par M. JOANNis<lb/>DERET</ab>
+        <ab type="head"><lb/>GAIARDET DEI JO1O</ab>
+        <ab type="head"><lb/>§ 1. SCIENCI</ab>
+        <p><lb/>I. Noum prouvençau dei pèis que se pescon<lb/>dins la Mieterrano.</p>
+        <p><lb/>Près : Uno medaio d'argènt.</p>
+        <p><lb/>HI. Noum prouvençau dei planto que coun-<lb/>grèion sout lou soulèu de Prouvènço.</p>
+        <p><lb/>Près : Uno flour artistico esmaihado.</p>
+        <p><lb/>III. Noum prouvençau dèi bèsti que puplon en<lb/>Prouvènço e mounongrafio duno famiho de bès-<lb/>ti, au grat dóu councurrent.</p>
+        <p><lb/>Près : Uno medaio de vermèi.</p>
+        <ab type="head"><lb/>§ 2. ISTORI E ARQUÉULOUGIO</ab>
+        <p><lb/>I. Mounougrafio d'uno vilo, o vilàgi, am èu,<lb/>bourgado de Prouvènço o de Lengado.</p>
+        <p><lb/>Près: U. bijou artisti en vermèi esmaiha.</p>
+        <p rend="labelled"><lb/>H.Estudi sus un pouèto prouvençau: sa vido e<lb/>seis obro, soun influènci sus sei countempourane<lb/>soun epoco e sus lou tèms que l'a segui.</p>
+        <p rend="labelled"><lb/>ler Près : Uno me aio d’argènt</p>
+        <list>
+          <item>2e Près: Une medaio de brounze</item>
+        </list>
+        <p><lb/>III Mounougrafio, reprouducien e istouri d’es-<lb/>cricien (inedicho s’es poussible) retrasènt quau-<lb/>que fa istouri de la Prouvèn o:</p>
+        <p><lb/>A Epoco grèco: Près: Uno medaio de brounze</p>
+        <list>
+          <item>B « Galo-roumano</item>
+        </list>
+        <list>
+          <item>C « Prouvençalo</item>
+        </list>
+        <ab type="head"><lb/>§3. LITERATURO</ab>
+        <p><lb/>I. Nouvello, rouman o raconte istouri retra-<lb/>sènt lei mour de la regien de Prouvènço, o de<lb/>Lengado.</p>
+        <figure type="table"/>
+        <p><lb/>H Galejado.</p>
+        <ab type="head"><lb/>ler Près : Un brounze d'art.</ab>
+        <p><lb/>2e « Uno medaio d'argènt.</p>
+        <p><lb/>III Reviramen. — Traducien en lengo prou-<lb/>vençalo d’un moucèu de que lengo que siègue.</p>
+        <p><lb/>Près : Uno medaio d'argènt.</p>
+        <p><lb/>Lei pèço dévon èstre inedicho. Lei sujet soun<lb/>libre e leissa au goust dóu councourrèire. Toutei<lb/><lb/>lei dialeite soun amès. L’Amenistracien dóu jour-<lb/>nau se reservo lou dré de dispousa dei pèco<lb/>mandado, courounado o noun, e de lei publica sie¬<lb/>gue dins lou journau, siegue en voulume en des-<lb/>part. Leis autour dei peço courounado que se<lb/>publicaran auran dré à-n-un guierdoun que<lb/>s'esplicara pèr tèms.</p>
+        <p><lb/>Lou Councours sara clava lou 15 de mars 1883.<lb/>Lei pèço an d'èstre mandado avans aquéu jour e<lb/>segound lei formo acou-tumado à M. le Direc-<lb/>teur-Gérant du journa LOU BRUsC, 15, rue de la<lb/>Grande-Horloge à AIX (B.-du-R.</p>
+        <p><lb/>La jurado poudra peréu decerni d'acèssi e de<lb/>mencien ounourablo segound l'impourtènci, la<lb/>valour e lou noumbre deis obro mandado pèr<lb/>cadoseicien dóu Councours.</p>
+        <p><lb/>Aven agu l'óucasien de recoumanda la Recue<lb/>Lyonnaise, aquelo publicacien saberudo que<lb/>tanco un còp de mai leis esfort de decentralisa-<lb/>ci en que buton leis ome de prouvinço, afeciouna<lb/>à soun istòri loucalo e que passon lou tèms à<lb/>urna dins lei tresor de sei biblioutèco, à reme-<lb/>tre au jour soun istòri loucalo e à recoustitul la<lb/>tiero inagoutablo dei doucumen e dei mounumen<lb/>literàri lei mai varia e lei mai istrutiéu. Nous es<lb/>mai que mai agradiéu de recouneisse e de saluda<lb/>l'envanc de nouesteis ami.</p>
+        <p><lb/>La direicien de la Revue Lyonnaise publico<lb/>de tèms en tèms, de gravaduro de mèstre e pèr<lb/>metre obro à la matèri que l'engavacho, publico<lb/><lb/>96 pajo en plaço de 80. Longo mai espandimen,<lb/>vido e prousperita à nouesteis abrasama e va-<lb/>lènt counfraire.</p>
+        <p><lb/>Ves-éici lou soumari dou numero dou 15 de<lb/>janvié 1883:</p>
+        <ab><lb/>HEARY BEAUNE. Un manuscrit de la reine Marie-<lb/>Antoinette. — FRÉDÉRIC MISTRAL. L’Ome<lb/>poupulàri, conte provençal, avec traduction de<lb/>Ch BOY. — ALLMER. Epigraphie lyonnaise<lb/>(Suite). — ALPHONSE PALMARINE. Les lettres<lb/>inédites du comte de Cavour — GEnmAm<lb/>PiCARD. Poésies. — V. DE VALOUS. DOCu-<lb/>mrent inédits. Lettres patentes de pardon et de<lb/>rémission pour cause de meurtre en 1682.—<lb/>CHARLS LAVENIR. Histoire du sentiment de<lb/>la nature, par M. VICTOR DE LAPRADE. — La<lb/>Révolution, par M. CH. D’HÉRICAUUT. — L.<lb/>MOREL. DE. VOLEINE. Les oisivetés du sieur<lb/>de Puitspelu, lyonnois, — A. VACEZ. Une<lb/>description de Lyon au seizième siècle. —<lb/>LÉOPOLD NIEFCE. Les Chambres de Merveil-<lb/>les ou cabinets d'antiquités de Lyon, depuis la</ab>
+        <p><lb/>Renaissance (suite).</p>
+        <p rend="structured"><lb/>Bibliographie. – Societés savantes. – Chro¬<lb/>nique. — Spectacles, concerts. — Gravures :<fw type="digitisation-artefact"><lb/>ce gallica.bnf.fr / Bibliothèques<lb/>de<lb/>Ma</fw></p>
+        <figure type="decoration"/>
+        <pb facs="0008.xml"/>
+        <fw type="runningTitle"><lb/>LOU BKSSC</fw>
+        <ab><milestone unit="column" n="1"/><lb/>CORRESPONDANCE FINANCIERE</ab>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <ab><lb/>166, rue Montmartre</ab>
+        <p><lb/>La bourse a été très agitée pendant toute la<lb/>semaine; mais les considerations financières<lb/>toutes en faveur de la hausse ont fini par l'em-<lb/>porter sur les préoccupations politiqnes. L'abais-<lb/>sement du taux de l'escompte à Londres,la réus-<lb/>site non pas inattendne mais tout à fait magni-<lb/>fique de l'émission du Crécit Foncier, un décou¬<lb/>vert considérable et l'approche de la liquidation<lb/>ont forcé les vendeurs à de nombreux rachats<lb/>malgré la crise ministérielle qui n'est pas encore<lb/>out à fait terminée. C'est une nouvelle confirma-<lb/>tion de l'opinion que nous avons souvent émise<lb/>qu’à la bourse les évènements politiques quand<lb/>ils ne sont pas brusques sont toujours escomptés<lb/>é tneproduisent jamais l'effet que l'on en attend.</p>
+        <p><lb/>Depuis longtemps il existe sur les Rentes un<lb/>gros découvert et ce découvert s’est beaucoup<lb/>augmenté pendant la baisse qui a suivi le mani-<lb/>feste du Prince Napoléon. Ce découvert a fini par<lb/>manquer de contre parties quand il a voulu ra-<lb/>cheter et il a fortement contribué à la reprise. Le<lb/>500 est revenu à son cours de compensation du<lb/>2 janvier ; les 300 et les chemins qui avaient<lb/><lb/>étép lus affectés sont en train de regagner sinon<lb/>tout leterrain perdu au moins une grande partie</p>
+        <p><lb/>Le Foncier se rapproche du cours de 1300; le<lb/>succès de son appel au crédit pourve toute la<lb/>confiance d'ailleurs très méritée qu'il inspire.<lb/>Ajoutons qu'il vient de gagner en appel contre la<lb/>ville de Paris le procès pendant depuis plusieurs<lb/>années et relatif à 17 millions de commission sur<lb/>es bons de travaux publics.</p>
+        <p rend="labelled"><lb/>La Revue Lyonnaise parait le 15 de chaque<lb/>mois par livraison de 100 pages, souvent accom¬<lb/>pagnées de gravures, eaux-fortes, etc. ABONNE-<lb/>MENT: 20 fr. par an, 24 fr. avec primes. —<lb/>BUREAUX : 4. rueGentil, Lyon.</p>
+        <figure type="decoration"/>
+        <ab><lb/><lb/><lb/><lb/><lb/><lb/>Pour la crèation d'Etablissements de Bieniaisance et d'utilità publique en Tunisie<lb/>Ensemble 321 Lots formant<lb/>5 Gros Lots de 100.000 fr.<lb/>UN MILLION<lb/>Payables en argent à Paris.<lb/>2 LOTS de........... 50.000 fr.<lb/>PRIX DU BILLET UN FRANC<lb/>4 LOTS de........... 25.000 fr.<lb/>10 LOTS de........... 10.000 fr.<lb/>Les Bllets sont delivres contre especes,<lb/>chèques ou mandats-poste adresses à l'ordre de<lb/>100 LOTS de........<lb/>1.000 fr<lb/>A. Ernest DETRE, Sucretaire general du Co-<lb/>200 LOTS de.<lb/>500 fr.<lb/></ab>
+      </div>
+      <div type="article">
+        <head><lb/>LOU DRAPEU BLANC</head>
+        <p><lb/>La segoundo edicien d'a quéu cant raubatiéu de<lb/>noueste valènt sòci lou musicaire G. Borel. pa¬<lb/>raulo de Me la coumtesso de Baroncelli-Javon,<lb/>es en vendo encò de M. Monier, 6, carriero de la<lb/>Misericordi, em'encò de l'autour, G. Borel, memo<lb/>carriero, no 8.</p>
+        <figure type="decoration"/>
+        <p rend="heading"><milestone unit="column" n="2"/><lb/>LEI DESASTRE DE BARBAKAN</p>
+        <p rend="heading"><lb/>Chin errant dins Avignoun<lb/>Per lou R.-P. Marin (1744).</p>
+        <p rend="heading"><lb/>Reedita pàr F.Delille, felibre majourau.</p>
+        <p rend="heading"><lb/>Près: pèr la posto, 0,75 cent.</p>
+        <figure type="decoration"/>
+      </div>
+      <div type="article">
+        <head><lb/>Ma Garbeto de Nouvè e mi Pastrihouno</head>
+        <head><lb/>Pouesio prouvençalo</head>
+        <p><lb/>Pèr un mounge dou Seti de Ferigoulet edicieu<lb/>poupulàri, pinparrado de gravaduro em’uno<lb/>prefaci d’En Mistral.</p>
+        <p><lb/>Près : 2 fr. s’adreissa à M. l'abat Rieux à Sant-<lb/>Miqueu, pèr Tarascoun. (B.-du-R.)</p>
+        <figure type="decoration"/>
+        <ab><lb/>LOTERIES ARTS DECORATIFS<lb/>VILLE DE LILLE ET TUNISIENNE<lb/>95 centimes le billet.</ab>
+        <p rend="heading"><lb/>BANQUE DE LA VILLE DE PARIS</p>
+        <ab><lb/>30, rue Vivienne, Paris</ab>
+        <ab><lb/>20 fr. de rente 5 en prime aux abonnés de<lb/>la FINANCE FRANÇAISE, 30, rue Viviene et<lb/>91, rue Latayette.</ab>
+        <note>
+          <p rend="labelled"><lb/>Lou direitour-gerent : F. GUITTON TALAMEL..</p>
+        </note>
+        <p><lb/>Ais — Imp. Prov. 15, carrièro dou Grand-Relòg<fw type="digitisation-artefact"><lb/>urce gallica.bnf.fr / Bibliothèques de Marseille</fw></p>
+      </div>
+    </body>
+  </text>
+</TEI>
